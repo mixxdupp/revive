@@ -1,0 +1,1587 @@
+{
+  "domain": "firstAid",
+  "domainDisplayName": "First Aid",
+  "techniques": [
+    {
+      "id": "firstaid-tourniquet",
+      "name": "Emergency Tourniquet",
+      "subtitle": "Stop life-threatening limb bleeding",
+      "category": "Wounds",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Place tourniquet 2-3 inches above the wound.",
+          "helpDetail": "Never place on a joint. Place on bare skin if possible. If wound is on a limb, apply tourniquet between wound and heart.",
+          "illustrationDescription": "Tourniquet placement above wound."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pull strap tight and secure it.",
+          "helpDetail": "The strap should be tight enough that you cannot slide a finger underneath. Pain is expected and acceptable.",
+          "illustrationDescription": "Tightening tourniquet strap."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Twist the windlass rod until bleeding stops.",
+          "helpDetail": "Turn clockwise. It will hurt. Do NOT stop until the bleeding has fully stopped. Usually 3-4 turns.",
+          "illustrationDescription": "Twisting windlass."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Lock the windlass in place and note the time.",
+          "helpDetail": "Write the time on the patient's forehead with marker or blood. Write 'TQ' and the time. Do NOT remove until hospital care.",
+          "illustrationDescription": "Locked windlass with time noted."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-pressure-bandage",
+      "name": "Pressure Bandage",
+      "subtitle": "Control moderate bleeding",
+      "category": "Wounds",
+      "difficulty": 1,
+      "estimatedTime": "3 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Apply direct pressure with a clean cloth.",
+          "helpDetail": "Use gauze, a t-shirt, or any clean fabric. Press firmly. Do not lift to check \u2014 this disrupts clotting.",
+          "illustrationDescription": "Direct pressure on wound."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Elevate the wound above the heart if possible.",
+          "helpDetail": "Gravity reduces blood flow to the wound. Raise the limb while maintaining pressure.",
+          "illustrationDescription": "Elevated wound with pressure."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wrap with elastic bandage snugly but not cutting off circulation.",
+          "helpDetail": "Check fingers/toes below the bandage for warmth, color, and feeling every 15 minutes.",
+          "illustrationDescription": "Wrapping elastic bandage."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If blood soaks through, add more material on top.",
+          "helpDetail": "Never remove the first layer. Stack additional padding and re-wrap. Removing disrupts the clot.",
+          "illustrationDescription": "Adding layers to bandage."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-wound-cleaning",
+      "name": "Wound Irrigation & Cleaning",
+      "subtitle": "Prevent infection in cuts and scrapes",
+      "category": "Wounds",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Wash your hands thoroughly before touching the wound.",
+          "helpDetail": "Dirty hands introduce bacteria. Use soap and water, or hand sanitizer if available.",
+          "illustrationDescription": "Washing hands."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Flush the wound with clean running water for 5 minutes.",
+          "helpDetail": "Use a squeeze bottle, hydration bladder, or water bottle with a pinhole in the cap to create pressure. Pressure irrigation is more effective than soaking.",
+          "illustrationDescription": "Irrigating wound with water pressure."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Remove visible debris with clean tweezers.",
+          "helpDetail": "Remove dirt, gravel, splinters. Do NOT remove deeply embedded objects \u2014 stabilize them in place.",
+          "illustrationDescription": "Removing debris with tweezers."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Apply antibiotic ointment and cover with a clean bandage.",
+          "helpDetail": "Change the dressing daily. Watch for signs of infection: increasing redness, warmth, swelling, pus, or red streaks.",
+          "illustrationDescription": "Applying ointment and bandage."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-wound-closure",
+      "name": "Wound Closure Strips",
+      "subtitle": "Close gaping wounds without stitches",
+      "category": "Wounds",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Clean and dry the wound edges thoroughly.",
+          "helpDetail": "Strips won't adhere to wet or dirty skin. Pat dry the skin around the wound completely.",
+          "illustrationDescription": "Drying wound edges."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Apply tincture of benzoin to skin on both sides of the wound.",
+          "helpDetail": "This makes the adhesive stick much better. Let it get tacky (30 seconds) before applying strips.",
+          "illustrationDescription": "Applying benzoin adhesive."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply strips perpendicular to the wound, pulling edges together.",
+          "helpDetail": "Start at the center, then alternate sides. Space strips 3mm apart. Don't overlap them.",
+          "illustrationDescription": "Applying closure strips across wound."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Apply reinforcing strips parallel along the strip ends.",
+          "helpDetail": "These anchor strips prevent the closure strips from peeling off. Cover with a non-stick bandage.",
+          "illustrationDescription": "Reinforcing strips applied."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-cpr",
+      "name": "CPR (Cardiopulmonary Resuscitation)",
+      "subtitle": "Restore breathing and circulation",
+      "category": "Medical Emergency",
+      "difficulty": 2,
+      "estimatedTime": "Until help arrives",
+      "hasHapticGuide": true,
+      "hapticType": "cprRhythm",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Check responsiveness. Tap shoulders and shout.",
+          "helpDetail": "If no response: Call for help. If alone, do 2 minutes of CPR before leaving to get help.",
+          "illustrationDescription": "Checking responsiveness by tapping."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place heel of hand on center of chest, between nipples.",
+          "helpDetail": "Interlock your other hand on top. Lock your elbows. Position shoulders directly over your hands.",
+          "illustrationDescription": "Proper hand placement for compressions."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Compress chest 2 inches deep at 100-120 beats per minute.",
+          "helpDetail": "Push hard and fast. Allow full chest recoil between compressions. Think of the beat of 'Stayin' Alive' by the Bee Gees.",
+          "illustrationDescription": "Chest compressions."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Give 2 rescue breaths after every 30 compressions.",
+          "helpDetail": "Tilt head back, lift chin, pinch nose, seal mouth. Each breath should last 1 second. Watch for chest rise.",
+          "illustrationDescription": "Giving rescue breaths."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Continue 30:2 cycle without stopping until help arrives.",
+          "helpDetail": "Switch rescuers every 2 minutes if possible. Fatigue degrades compression quality rapidly.",
+          "illustrationDescription": "Continuous CPR cycle."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-heimlich",
+      "name": "Heimlich Maneuver (Choking)",
+      "subtitle": "Clear airway obstruction",
+      "category": "Medical Emergency",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Confirm choking \u2014 person cannot speak, cough, or breathe.",
+          "helpDetail": "Universal sign is hands clutching throat. Ask 'Are you choking?' If they can speak or cough forcefully, encourage them to keep coughing.",
+          "illustrationDescription": "Person clutching throat."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stand behind the person and wrap arms around their waist.",
+          "helpDetail": "For a pregnant person or very large person, place hands higher on the chest instead.",
+          "illustrationDescription": "Standing behind with arms wrapped."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make a fist with one hand, place thumb side against abdomen above navel.",
+          "helpDetail": "Well below the ribcage, well above the navel. This is the soft area of the upper abdomen.",
+          "illustrationDescription": "Fist placement above navel."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Thrust inward and upward with quick, forceful movements.",
+          "helpDetail": "Each thrust should be a separate, distinct movement. Repeat until the object is expelled or person becomes unconscious.",
+          "illustrationDescription": "Inward and upward thrust."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-shock",
+      "name": "Treating Shock",
+      "subtitle": "Prevent circulatory collapse",
+      "category": "Medical Emergency",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize shock: pale/cool/clammy skin, rapid weak pulse, confusion.",
+          "helpDetail": "Other signs: rapid shallow breathing, nausea, thirst, dilated pupils, blue lips.",
+          "illustrationDescription": "Signs of shock listed."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lay the person flat and elevate legs 8-12 inches.",
+          "helpDetail": "This drives blood to vital organs. Do NOT elevate legs if you suspect spine, head, or leg injuries.",
+          "illustrationDescription": "Person lying flat with elevated legs."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain body temperature \u2014 cover with blankets or coats.",
+          "helpDetail": "Cover top AND bottom. Insulate from the ground. Shock patients lose body heat rapidly.",
+          "illustrationDescription": "Covering shock patient."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Do NOT give food or water. Moisten lips only.",
+          "helpDetail": "They may need surgery. Anything in the stomach complicates anesthesia. Moisten lips with a wet cloth.",
+          "illustrationDescription": "Moistening lips only."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-recovery-position",
+      "name": "Recovery Position",
+      "subtitle": "Keep unconscious breathing person safe",
+      "category": "Medical Emergency",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Kneel beside the person. Extend near arm at right angle.",
+          "helpDetail": "Palm facing up. This prevents them from rolling onto their face.",
+          "illustrationDescription": "Near arm extended."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place far hand against their near cheek, hold it there.",
+          "helpDetail": "Back of their hand against their cheek. Keep holding it in place.",
+          "illustrationDescription": "Far hand held against cheek."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pull the far knee up with your other hand.",
+          "helpDetail": "Foot should be flat on the ground. This creates a pivot point for rolling.",
+          "illustrationDescription": "Knee pulled up."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Roll them toward you by pulling the raised knee.",
+          "helpDetail": "They should end up on their side. Tilt head back slightly to keep airway open. Their own hand cushions their head.",
+          "illustrationDescription": "Person in recovery position."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-arm-splint",
+      "name": "Arm/Wrist Splint",
+      "subtitle": "Immobilize a broken arm or wrist",
+      "category": "Bones",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT attempt to realign the bone.",
+          "helpDetail": "Immobilize in the position found. Moving a fracture can sever blood vessels and nerves.",
+          "illustrationDescription": "Warning: do not realign."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Find a rigid splint material: stick, cardboard, rolled magazine.",
+          "helpDetail": "Splint must be long enough to immobilize joints above and below the break.",
+          "illustrationDescription": "Splint materials."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pad the splint with cloth and secure with bandages or strips.",
+          "helpDetail": "Tie at minimum 3 points: above break, below break, and at each adjacent joint. Don't tie directly over the fracture.",
+          "illustrationDescription": "Padded splint secured with ties."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Check circulation below the splint: warmth, color, feeling, pulse.",
+          "helpDetail": "Check every 15-20 minutes. Loosen if fingers turn blue, become numb, or swell significantly.",
+          "illustrationDescription": "Checking fingertip circulation."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-leg-splint",
+      "name": "Leg Splint",
+      "subtitle": "Immobilize a broken leg",
+      "category": "Bones",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Immobilize the leg in the position found.",
+          "helpDetail": "If the foot is rotated or the leg is bent at an unnatural angle, do NOT straighten it. Splint as-is.",
+          "illustrationDescription": "Leg in found position."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use two long rigid objects as splints \u2014 one inside, one outside the leg.",
+          "helpDetail": "Walking sticks, branches, tent poles, rolled sleeping pads. Inner splint from groin to foot. Outer from armpit to foot for femur breaks.",
+          "illustrationDescription": "Two splints alongside leg."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pad between the leg and splints generously.",
+          "helpDetail": "Use clothing, towels, or moss. Fill all gaps. Pressure points cause tissue damage over time.",
+          "illustrationDescription": "Padding added between splints."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Secure with wide bandages at 4-5 points. Avoid tying over the break.",
+          "helpDetail": "Tie at ankle, below knee, above knee, and hip. For femur fractures, include a figure-8 at the foot.",
+          "illustrationDescription": "Bandages securing leg splint."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-sling",
+      "name": "Arm Sling",
+      "subtitle": "Support injured arm or shoulder",
+      "category": "Bones",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Fold a square cloth into a triangle.",
+          "helpDetail": "A bandana, shirt, or any ~40-inch square of fabric works. Cut diagonally if needed.",
+          "illustrationDescription": "Triangular bandage."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Slide the triangle under the injured arm and behind the elbow.",
+          "helpDetail": "One point at the elbow, one over the shoulder on the injured side, the other over the opposite shoulder.",
+          "illustrationDescription": "Triangle positioned under arm."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Tie the two upper points behind the neck.",
+          "helpDetail": "The knot should sit to the side of the neck, not directly on the spine. Pad the knot if needed.",
+          "illustrationDescription": "Points tied behind neck."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Pin or tie the elbow point to secure it.",
+          "helpDetail": "The forearm should be level or slightly elevated. Fingers should be visible for circulation checks.",
+          "illustrationDescription": "Completed sling."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-spinal-immobilization",
+      "name": "Spinal Injury Management",
+      "subtitle": "Prevent paralysis from spinal damage",
+      "category": "Bones",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Suspect spinal injury: any fall > 3 feet, vehicle accident, diving, or head trauma.",
+          "helpDetail": "If unsure, ALWAYS assume spinal injury. The cost of being cautious is zero. The cost of being wrong is paralysis.",
+          "illustrationDescription": "Warning signs of spinal injury."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tell the patient to NOT MOVE. Hold their head in the exact position found.",
+          "helpDetail": "Place your hands on both sides of their head. Keep head, neck, and spine in alignment. Do not let anyone move them.",
+          "illustrationDescription": "Manual head stabilization."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place rolled towels or clothing along both sides of the neck.",
+          "helpDetail": "These prevent rotation. Tape or wrap across the forehead and padding to stabilize. Improvise a cervical collar.",
+          "illustrationDescription": "Improvised cervical collar."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Only move with log-roll technique if absolutely necessary.",
+          "helpDetail": "Requires 3+ people. One holds head, others roll body as a single unit. Only move if staying in place is life-threatening (fire, flood).",
+          "illustrationDescription": "Log roll technique."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-burn",
+      "name": "Burn Treatment",
+      "subtitle": "Cool, cover, and manage pain",
+      "category": "Burns",
+      "difficulty": 1,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Remove from heat source. Remove clothing/jewelry from burn area.",
+          "helpDetail": "If clothing is stuck to the burn, cut around it. Do NOT pull stuck clothing off. Remove watches and rings before swelling.",
+          "illustrationDescription": "Removing from heat."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cool the burn with cool (not cold) running water for 20 minutes.",
+          "helpDetail": "Do NOT use ice, butter, toothpaste, or any home remedy. Cool water only. 20 minutes is the evidence-based number.",
+          "illustrationDescription": "Cool running water on burn."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cover with cling wrap or a clean non-fluffy dressing.",
+          "helpDetail": "Lay cling wrap over the burn \u2014 do not wrap tightly. This keeps it clean and reduces pain from air exposure.",
+          "illustrationDescription": "Cling wrap over burn."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Do NOT pop blisters. They are sterile bandages.",
+          "helpDetail": "Intact blisters protect healing skin underneath. If a blister breaks on its own, gently clean and cover.",
+          "illustrationDescription": "Intact blister protection."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-chemical-burn",
+      "name": "Chemical Burn",
+      "subtitle": "Flush immediately with water",
+      "category": "Burns",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Brush off dry chemicals before adding water.",
+          "helpDetail": "Some dry chemicals react with water. Brush away from the body first, then flush.",
+          "illustrationDescription": "Brushing dry chemical off."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Flush with large amounts of water for at least 20 minutes.",
+          "helpDetail": "Use a garden hose, shower, or any source of running water. More is better. Chemical burns penetrate deeper over time.",
+          "illustrationDescription": "Prolonged water flushing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Remove contaminated clothing while flushing.",
+          "helpDetail": "Clothing traps chemicals against skin. Cut clothing off if needed. Protect your own hands.",
+          "illustrationDescription": "Removing contaminated clothing."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Do NOT try to neutralize the chemical.",
+          "helpDetail": "Neutralization reactions generate heat, making the burn worse. Water dilution is always the correct answer.",
+          "illustrationDescription": "Warning: no neutralization."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-snakebite",
+      "name": "Snakebite Management",
+      "subtitle": "Stay calm, immobilize, evacuate",
+      "category": "Bites",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Move away from the snake. Do NOT try to catch or kill it.",
+          "helpDetail": "Note the snake's appearance for identification if possible. A photo from a safe distance helps. Most bites happen during the second encounter.",
+          "illustrationDescription": "Backing away from snake."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Keep the bitten limb below heart level and immobilize it.",
+          "helpDetail": "Remove watches, rings, tight clothing. Swelling will be rapid. Splint the limb to reduce venom spread.",
+          "illustrationDescription": "Immobilized limb below heart."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Do NOT cut, suck, tourniquet, or apply ice to the bite.",
+          "helpDetail": "All of these cause additional damage and do not remove venom. These are myths that worsen outcomes.",
+          "illustrationDescription": "Warning: do not cut or suck."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Mark the edge of swelling and note the time.",
+          "helpDetail": "Use a pen to outline swelling every 15 minutes. This helps medical staff judge venom severity and progression.",
+          "illustrationDescription": "Marking swelling progression."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Evacuate to a hospital. Antivenom is the only treatment.",
+          "helpDetail": "Carry the victim if possible \u2014 walking increases venom circulation. Time to antivenom is the most important factor.",
+          "illustrationDescription": "Carrying victim to evacuation."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-tick-removal",
+      "name": "Tick Removal",
+      "subtitle": "Remove without squeezing the body",
+      "category": "Bites",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Grasp the tick as close to the skin as possible with fine-tipped tweezers.",
+          "helpDetail": "Grab the head/mouthparts, NOT the body. Squeezing the body can inject pathogens (Lyme, RMSF) into the wound.",
+          "illustrationDescription": "Tweezers grasping tick head."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pull straight up with steady, even pressure.",
+          "helpDetail": "Do not twist, jerk, or rock. Steady tension. The tick will release in 30-60 seconds. If mouthparts break off, leave them \u2014 they'll work out naturally.",
+          "illustrationDescription": "Straight upward pull."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Clean the bite area with soap and water or alcohol.",
+          "helpDetail": "Also clean your hands and the tweezers. Apply antibiotic ointment.",
+          "illustrationDescription": "Cleaning bite area."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Monitor for 30 days for a bull's-eye rash or flu symptoms.",
+          "helpDetail": "Expanding red ring = possible Lyme disease. Seek medical care immediately if symptoms appear.",
+          "illustrationDescription": "Bull's-eye rash example."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-bee-sting",
+      "name": "Bee/Wasp Sting Treatment",
+      "subtitle": "Remove stinger, watch for anaphylaxis",
+      "category": "Bites",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Scrape the stinger out sideways with a flat edge.",
+          "helpDetail": "Use a credit card, knife blade, or fingernail. Do NOT squeeze with tweezers \u2014 this injects more venom.",
+          "illustrationDescription": "Scraping out stinger."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Clean with soap and water. Apply cold pack for 15 minutes.",
+          "helpDetail": "Wrap ice in cloth \u2014 never direct ice on skin. This reduces swelling and pain.",
+          "illustrationDescription": "Cold pack on sting site."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for anaphylaxis: facial swelling, difficulty breathing, hives.",
+          "helpDetail": "Anaphylaxis can start within minutes. If the person has an EpiPen, help them use it immediately.",
+          "illustrationDescription": "Signs of anaphylaxis."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "For mild reactions: antihistamine and pain reliever.",
+          "helpDetail": "Benadryl for itching/swelling, ibuprofen for pain. Keep the area clean and monitor for infection.",
+          "illustrationDescription": "Antihistamine medication."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-anaphylaxis",
+      "name": "Anaphylaxis Response",
+      "subtitle": "EpiPen + call 911 immediately",
+      "category": "Allergic Reactions",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize: throat tightening, facial swelling, hives, wheezing, dizziness.",
+          "helpDetail": "Anaphylaxis is life-threatening. It can progress from mild to fatal in minutes. Act immediately.",
+          "illustrationDescription": "Symptoms of anaphylaxis."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use epinephrine auto-injector (EpiPen) into outer thigh.",
+          "helpDetail": "Push firmly through clothing if needed. Hold for 10 seconds. Massage the site for 10 seconds after. Can be given through jeans.",
+          "illustrationDescription": "EpiPen injection into thigh."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Call emergency services immediately.",
+          "helpDetail": "Even after epinephrine, the person needs hospital monitoring. Anaphylaxis can return (biphasic reaction) hours later.",
+          "illustrationDescription": "Calling emergency services."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Place in position of comfort. Usually sitting up for breathing.",
+          "helpDetail": "If feeling faint, lay down with legs elevated. If vomiting or unconscious, recovery position. A second EpiPen dose can be given after 5 minutes if no improvement.",
+          "illustrationDescription": "Position of comfort."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-hypothermia",
+      "name": "Hypothermia Treatment",
+      "subtitle": "Rewarm slowly and gently",
+      "category": "Environmental",
+      "difficulty": 2,
+      "estimatedTime": "1-2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get the person out of the cold and remove wet clothing.",
+          "helpDetail": "Replace wet clothes with dry layers. If no dry clothes, use any insulating material \u2014 newspaper, leaves, garbage bags.",
+          "illustrationDescription": "Removing wet clothing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Insulate from the ground and cover with multiple layers.",
+          "helpDetail": "Most heat is lost to the ground. Place sleeping pads, backpacks, branches underneath. Wrap in blankets, sleeping bags, or vapor barrier.",
+          "illustrationDescription": "Ground insulation and covering."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply warm (not hot) packs to core areas: neck, armpits, groin.",
+          "helpDetail": "Use warm water bottles, heated rocks wrapped in cloth, or warm-water-filled zip bags. Never apply heat to extremities first \u2014 this causes fatal rewarming shock.",
+          "illustrationDescription": "Warm packs on core areas."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Give warm sweet drinks if conscious and alert.",
+          "helpDetail": "Warm water with sugar or honey. No alcohol (it dilates blood vessels and increases heat loss). No caffeine.",
+          "illustrationDescription": "Warm sweet drink."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Handle gently \u2014 a severely hypothermic heart is fragile.",
+          "helpDetail": "Rough handling can trigger cardiac arrest in severe hypothermia. Move slowly and gently. Do not rub extremities.",
+          "illustrationDescription": "Gentle handling warning."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-heatstroke",
+      "name": "Heat Stroke Treatment",
+      "subtitle": "Cool rapidly \u2014 this is a medical emergency",
+      "category": "Environmental",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize: hot/red/dry skin, confusion, temp over 104\u00b0F, loss of consciousness.",
+          "helpDetail": "Heat stroke is NOT heat exhaustion. If they've stopped sweating and are confused/unconscious, this is a dire emergency.",
+          "illustrationDescription": "Heat stroke vs heat exhaustion."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Move to shade. Remove excess clothing.",
+          "helpDetail": "Get them out of the sun immediately. Strip to underwear if possible.",
+          "illustrationDescription": "Moving to shade."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cool aggressively: wet the entire body and fan.",
+          "helpDetail": "Evaporative cooling is most effective. Douse with water and fan continuously. Pack ice in armpits, neck, and groin. Immerse in cool water if a stream or pool is nearby.",
+          "illustrationDescription": "Aggressive cooling."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evacuate immediately. This is a 911 call.",
+          "helpDetail": "Untreated heat stroke has a 70%+ mortality rate. Brain damage starts quickly. No home remedy suffices.",
+          "illustrationDescription": "Emergency evacuation call."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-altitude",
+      "name": "Altitude Sickness",
+      "subtitle": "Descend. That's the cure.",
+      "category": "Environmental",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize: headache, nausea, dizziness, fatigue above 8,000 ft.",
+          "helpDetail": "AMS (Acute Mountain Sickness) affects everyone differently. Past performance doesn't predict future occurrence.",
+          "illustrationDescription": "Altitude sickness symptoms."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stop ascending. Rest at current altitude.",
+          "helpDetail": "If symptoms are mild: rest, hydrate, eat carbs, take ibuprofen. If symptoms are moderate: descend.",
+          "illustrationDescription": "Rest at altitude."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If symptoms worsen or don't improve in 24 hours: descend 1,000+ feet.",
+          "helpDetail": "HACE (high altitude cerebral edema): confusion, loss of coordination. HAPE (high altitude pulmonary edema): cough with pink frothy sputum. Both are fatal without descent.",
+          "illustrationDescription": "Descending to lower altitude."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Emergency: give supplemental oxygen if available. Descend immediately.",
+          "helpDetail": "Gamow bags simulate lower altitude. Dexamethasone for HACE, nifedipine for HAPE \u2014 but descent is the definitive treatment.",
+          "illustrationDescription": "Supplemental oxygen."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-dehydration",
+      "name": "Dehydration Treatment",
+      "subtitle": "Oral rehydration therapy",
+      "category": "Environmental",
+      "difficulty": 1,
+      "estimatedTime": "1-4 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize: dark urine, dry mouth, headache, dizziness, rapid heart rate.",
+          "helpDetail": "Pinch test: pinch skin on back of hand \u2014 if it stays tented for more than 2 seconds, dehydration is significant.",
+          "illustrationDescription": "Skin pinch test."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Give oral rehydration solution: water + salt + sugar.",
+          "helpDetail": "Recipe: 1 liter clean water + 6 teaspoons sugar + 1/2 teaspoon salt. Sip slowly over hours. Too fast causes vomiting.",
+          "illustrationDescription": "ORS recipe."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Small frequent sips \u2014 do not gulp.",
+          "helpDetail": "1-2 tablespoons every 5 minutes for severely dehydrated patients. Increase as tolerated. Vomiting worsens dehydration.",
+          "illustrationDescription": "Small sips."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Rest in shade and minimize activity until rehydrated.",
+          "helpDetail": "Monitor urine output and color. Goal is clear to light yellow. Resume activity only when urine is light-colored.",
+          "illustrationDescription": "Resting in shade."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-eye-injury",
+      "name": "Eye Injury / Foreign Body",
+      "subtitle": "Flush or shield, never rub",
+      "category": "Eye & Dental",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT rub the eye.",
+          "helpDetail": "Rubbing drives foreign material deeper and can scratch the cornea permanently. Fight the instinct.",
+          "illustrationDescription": "Warning: do not rub."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "For small particles: flush with clean water for 15 minutes.",
+          "helpDetail": "Pull upper lid over lower lid to generate tears. Flush from inner corner outward. Use an eyecup or water-filled container.",
+          "illustrationDescription": "Flushing eye with water."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "For impaled objects: DO NOT REMOVE. Stabilize in place.",
+          "helpDetail": "Tape a cup or cone over the eye to protect the object. Cover BOTH eyes \u2014 eye movement is synchronized, covering one reduces movement of the other.",
+          "illustrationDescription": "Cup stabilizing impaled object."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "For chemical splash: flush continuously for 20+ minutes.",
+          "helpDetail": "Hold eye open and irrigate. Flush from inner to outer corner. Continue even if they resist \u2014 saving the eye is worth the discomfort.",
+          "illustrationDescription": "Chemical eye flush."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-dental",
+      "name": "Dental Emergency",
+      "subtitle": "Save a knocked-out tooth within 30 min",
+      "category": "Eye & Dental",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Pick up the tooth by the crown (white part), NEVER the root.",
+          "helpDetail": "The root has living cells that must survive. Touching the root kills cells. Handle only the crown.",
+          "illustrationDescription": "Holding tooth by crown."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Rinse gently with milk or saliva. Do NOT scrub.",
+          "helpDetail": "If milk is available, use it. If not, have the patient spit into a cup and rinse the tooth in their saliva.",
+          "illustrationDescription": "Rinsing tooth in milk."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Attempt to reinsert into the socket.",
+          "helpDetail": "Push firmly in and have the patient bite down on a cloth to hold it. If unable to reinsert, keep in milk or inside the patient's cheek.",
+          "illustrationDescription": "Reinserting tooth."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Get to a dentist within 30 minutes.",
+          "helpDetail": "Every minute counts. Success rate drops from 90% at 5 minutes to 5% at 60 minutes. Time is teeth.",
+          "illustrationDescription": "Clock showing urgency."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-blister",
+      "name": "Blister Prevention & Treatment",
+      "subtitle": "Stop before it starts",
+      "category": "Foot Care",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "At FIRST sign of a hot spot: STOP and address it.",
+          "helpDetail": "A hot spot takes 2 minutes to fix. A blister can take you out of action for days. Never push through friction.",
+          "illustrationDescription": "Hot spot on heel."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Apply moleskin or athletic tape over the hot spot.",
+          "helpDetail": "Cut a donut shape \u2014 hole over the hot spot, padding around it. This eliminates friction. Duct tape works as a last resort.",
+          "illustrationDescription": "Moleskin donut application."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If a blister has formed, do NOT pop small blisters.",
+          "helpDetail": "The fluid is sterile and promotes healing. Cover with padding and reduce friction. Small = smaller than a dime.",
+          "illustrationDescription": "Small intact blister."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "For large blisters that impede walking: drain from the edge.",
+          "helpDetail": "Sterilize a needle with fire or alcohol. Puncture at the edge. Press fluid out. Do NOT remove the skin roof \u2014 it's a natural bandage. Apply antibiotic and cover.",
+          "illustrationDescription": "Draining blister from edge."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-ankle-wrap",
+      "name": "Ankle Wrap (Sprain)",
+      "subtitle": "Figure-8 compression wrap",
+      "category": "Foot Care",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Apply RICE: Rest, Ice, Compression, Elevation.",
+          "helpDetail": "RICE within the first hour dramatically reduces swelling and recovery time.",
+          "illustrationDescription": "RICE protocol."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Start wrapping at the ball of the foot.",
+          "helpDetail": "Use an elastic bandage. Two wraps around the ball of the foot to anchor.",
+          "illustrationDescription": "Wrapping ball of foot."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wrap in a figure-8 pattern around the ankle.",
+          "helpDetail": "Go around the arch, up over the ankle, cross over the front, and repeat. Each layer should overlap the previous by half.",
+          "illustrationDescription": "Figure-8 ankle wrap."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Secure the bandage. Check toe circulation.",
+          "helpDetail": "Toes should remain pink and warm. You should be able to wiggle them. If not, the wrap is too tight \u2014 loosen immediately.",
+          "illustrationDescription": "Checking toe circulation."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-drowning",
+      "name": "Drowning Rescue",
+      "subtitle": "Water rescue and resuscitation",
+      "category": "Medical Emergency",
+      "difficulty": 3,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Remove victim from water using a reaching aid.",
+          "helpDetail": "Extend a pole, rope, or branch. Never swim to a drowning person unless trained\u2014they will grab and pull you under.",
+          "illustrationDescription": "Reaching aid rescue."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lay victim flat on back. Check for breathing.",
+          "helpDetail": "Look, listen, feel for 10 seconds. Drowning victims often have water blocking airways.",
+          "illustrationDescription": "Checking breathing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If not breathing: give 5 rescue breaths first.",
+          "helpDetail": "Drowning protocol differs from normal CPR\u2014start with breaths. Pinch nose, seal mouth, blow until chest rises.",
+          "illustrationDescription": "Rescue breaths."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Begin CPR: 30 compressions, 2 breaths. Continue until breathing resumes.",
+          "helpDetail": "Expect vomiting\u2014turn head to side to clear, then continue. Do NOT press abdomen to drain water.",
+          "illustrationDescription": "CPR for drowning."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-seizure",
+      "name": "Seizure Management",
+      "subtitle": "Protect the person without restraining",
+      "category": "Medical Emergency",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Clear area around the person of hard or sharp objects.",
+          "helpDetail": "Move furniture, rocks, anything that could cause injury. Do NOT restrain the person or hold them down.",
+          "illustrationDescription": "Clearing area."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place something soft under their head.",
+          "helpDetail": "Jacket, towel, backpack\u2014anything to prevent head injury from repeated impact.",
+          "illustrationDescription": "Cushioning head."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Do NOT put anything in their mouth.",
+          "helpDetail": "The swallowing-tongue myth is false. Objects cause broken teeth and choking.",
+          "illustrationDescription": "Do not insert objects."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Time the seizure. Over 5 minutes is a medical emergency.",
+          "helpDetail": "After the seizure stops, place in recovery position. Stay with them\u2014they will be confused.",
+          "illustrationDescription": "Recovery position."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-poison",
+      "name": "Poison Ingestion Response",
+      "subtitle": "When someone eats or drinks something toxic",
+      "category": "Medical Emergency",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify what was ingested, how much, and when.",
+          "helpDetail": "Save container, plant sample, or vomit for identification.",
+          "illustrationDescription": "Identifying poison."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Do NOT induce vomiting unless specifically directed.",
+          "helpDetail": "Caustic substances cause more damage returning. Petroleum products can be aspirated into lungs.",
+          "illustrationDescription": "Do not induce vomiting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If conscious, rinse mouth with water. Small sips only.",
+          "helpDetail": "Water dilutes the toxin. Do not give large amounts. If unconscious, do not give fluids.",
+          "illustrationDescription": "Rinsing and diluting."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Monitor breathing. Place unconscious person in recovery position.",
+          "helpDetail": "Some poisons cause respiratory failure. Monitor constantly.",
+          "illustrationDescription": "Monitoring."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-nosebleed",
+      "name": "Stopping a Nosebleed",
+      "subtitle": "Lean forward, pinch soft part of nose",
+      "category": "Wounds",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Sit upright and lean FORWARD slightly.",
+          "helpDetail": "Leaning back causes blood to drain down throat. Forward lets blood drain out.",
+          "illustrationDescription": "Forward lean position."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pinch the soft part of the nose firmly for 10-15 minutes.",
+          "helpDetail": "Just below the bony bridge. Constant pressure\u2014do not check early.",
+          "illustrationDescription": "Pinching nose."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply cold compress to bridge of nose.",
+          "helpDetail": "Cold constricts blood vessels. Ice wrapped in cloth or cold water on bandana.",
+          "illustrationDescription": "Cold compress."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If bleeding persists beyond 20 minutes, seek help.",
+          "helpDetail": "May indicate posterior bleed requiring medical intervention.",
+          "illustrationDescription": "When to seek help."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-impaled-object",
+      "name": "Impaled Object Management",
+      "subtitle": "Stabilize in place \u2014 never remove",
+      "category": "Wounds",
+      "difficulty": 3,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT remove the impaled object.",
+          "helpDetail": "The object may be plugging a blood vessel. Removing can cause fatal hemorrhage.",
+          "illustrationDescription": "Never remove."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stabilize the object so it cannot move.",
+          "helpDetail": "Build padding around the object on all sides. Tape or tie padding in place.",
+          "illustrationDescription": "Padding around object."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Control bleeding around the object with direct pressure.",
+          "helpDetail": "Press firmly AROUND the object, not on it.",
+          "illustrationDescription": "Pressure around object."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Immobilize the body part and transport carefully.",
+          "helpDetail": "If object is long, shorten by cutting\u2014never pull or push.",
+          "illustrationDescription": "Transport."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-diabetic-emergency",
+      "name": "Diabetic Emergency",
+      "subtitle": "Low blood sugar can kill in minutes",
+      "category": "Medical Emergency",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize: confusion, sweating, shaking, pale skin, irritability.",
+          "helpDetail": "Low blood sugar mimics intoxication. If someone with diabetes acts confused, assume sugar emergency.",
+          "illustrationDescription": "Symptoms."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If conscious: give sugar immediately.",
+          "helpDetail": "Fruit juice, regular soda, candy, honey. Fast-acting sugar, 15-20 grams.",
+          "illustrationDescription": "Giving sugar."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wait 15 minutes. If not improving, give more sugar.",
+          "helpDetail": "Repeat if symptoms persist. Most improve within 10-15 minutes.",
+          "illustrationDescription": "Monitoring."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If unconscious: recovery position, do NOT give food or drink.",
+          "helpDetail": "Unconscious people choke. Place in recovery position. Check for medical alert bracelet.",
+          "illustrationDescription": "Recovery position."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-crush-injury",
+      "name": "Crush Injury Management",
+      "subtitle": "Trapped limbs need careful release",
+      "category": "Medical Emergency",
+      "difficulty": 3,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "If crushed less than 15 minutes, remove the weight immediately.",
+          "helpDetail": "Short compression is safe to release. Apply tourniquet BEFORE releasing if limb was crushed longer.",
+          "illustrationDescription": "Quick release."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If crushed more than 15 minutes: apply tourniquet BEFORE releasing.",
+          "helpDetail": "Crush syndrome releases toxins from dead muscle into blood, causing cardiac arrest. Tourniquet prevents this.",
+          "illustrationDescription": "Tourniquet first."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Give fluids aggressively if victim is conscious.",
+          "helpDetail": "IV fluids are ideal. Oral water is better than nothing. Hydration dilutes toxins.",
+          "illustrationDescription": "Fluid administration."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Monitor for shock and cardiac symptoms after release.",
+          "helpDetail": "Irregular heartbeat, muscle rigidity, dark urine. These indicate crush syndrome. Medical emergency.",
+          "illustrationDescription": "Monitoring."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-electrocution",
+      "name": "Electrocution Response",
+      "subtitle": "Disconnect power before touching victim",
+      "category": "Medical Emergency",
+      "difficulty": 3,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT touch the victim until power source is disconnected.",
+          "helpDetail": "Electricity travels through bodies. You will become a second victim. Turn off breaker, unplug, or use dry wooden stick to separate.",
+          "illustrationDescription": "Disconnect power first."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Once safe, check breathing and pulse immediately.",
+          "helpDetail": "Electricity disrupts heart rhythm. Be prepared for CPR. Lightning strike victims have best survival rates with immediate CPR.",
+          "illustrationDescription": "Check vitals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Treat entry and exit burns.",
+          "helpDetail": "Electrical burns have small surface wounds but massive internal damage. Cover with sterile dressing. Do not apply ice.",
+          "illustrationDescription": "Treating burns."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Monitor for 24 hours \u2014 delayed cardiac arrhythmia is common.",
+          "helpDetail": "Even if the person seems fine, electrical injury can cause delayed heart problems. Keep monitoring.",
+          "illustrationDescription": "Delayed monitoring."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-heart-attack",
+      "name": "Heart Attack Recognition",
+      "subtitle": "Chest pain, jaw pain, arm pain \u2014 act fast",
+      "category": "Medical Emergency",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize: crushing chest pressure, left arm/jaw pain, shortness of breath, cold sweat.",
+          "helpDetail": "Women may have atypical symptoms: nausea, back pain, fatigue.",
+          "illustrationDescription": "Heart attack symptoms."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Sit person upright, knees bent, back supported.",
+          "helpDetail": "Sitting reduces heart workload. Do not let them lie flat or exert.",
+          "illustrationDescription": "Sitting position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Give aspirin if available \u2014 have them chew it.",
+          "helpDetail": "Chewing gets it into bloodstream faster. 325mg. Thins blood.",
+          "illustrationDescription": "Chewing aspirin."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If unresponsive, begin CPR immediately.",
+          "helpDetail": "Heart attacks frequently lead to cardiac arrest. Be prepared.",
+          "illustrationDescription": "CPR readiness."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-stroke",
+      "name": "Stroke Recognition (FAST)",
+      "subtitle": "Face, Arm, Speech, Time \u2014 act immediately",
+      "category": "Medical Emergency",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "FACE: Ask them to smile. Does one side droop?",
+          "helpDetail": "Facial drooping on one side is a hallmark stroke sign.",
+          "illustrationDescription": "Face check."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "ARMS: Raise both arms. Does one drift down?",
+          "helpDetail": "One-sided weakness indicates stroke.",
+          "illustrationDescription": "Arm drift test."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "SPEECH: Repeat a sentence. Is it slurred?",
+          "helpDetail": "Garbled, slurred, or confused speech is a stroke sign.",
+          "illustrationDescription": "Speech test."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "TIME: Note when symptoms started. Get help NOW.",
+          "helpDetail": "Every minute kills 1.9 million brain cells. Time is brain.",
+          "illustrationDescription": "Time critical."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-asthma",
+      "name": "Asthma Attack Response",
+      "subtitle": "Sit upright, slow breathing, use inhaler",
+      "category": "Medical Emergency",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Sit upright, lean slightly forward, hands on knees.",
+          "helpDetail": "Tripod position opens airways. Never lay them down.",
+          "illustrationDescription": "Tripod position."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Help use inhaler: shake, exhale fully, inhale while pressing.",
+          "helpDetail": "2 puffs, 30-60 sec between. No inhaler: pursed lip breathing.",
+          "illustrationDescription": "Using inhaler."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Coach slow breathing: 4 in through nose, 6 out pursed lips.",
+          "helpDetail": "Panic worsens bronchospasm. Speak calmly.",
+          "illustrationDescription": "Coached breathing."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Blue lips or inability to speak = emergency.",
+          "helpDetail": "Blue lips = oxygen deprivation. Cannot speak in full sentences = severe.",
+          "illustrationDescription": "Emergency signs."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-choking-infant",
+      "name": "Infant Choking Response",
+      "subtitle": "Back blows and chest thrusts for babies",
+      "category": "Medical Emergency",
+      "difficulty": 3,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": true,
+      "hapticType": "rhythmPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Place infant face-down on forearm, head lower than chest.",
+          "helpDetail": "Support head and jaw. Forearm rests on thigh.",
+          "illustrationDescription": "Face-down position."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "5 firm back blows between shoulder blades.",
+          "helpDetail": "Sharp deliberate blows. Angle and gravity help dislodge.",
+          "illustrationDescription": "Back blows."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Flip face-up. 5 chest thrusts with two fingers on breastbone.",
+          "helpDetail": "Below nipple line. Push 1.5 inches. Sharp thrusts.",
+          "illustrationDescription": "Chest thrusts."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Repeat until expelled. If unconscious, begin infant CPR.",
+          "helpDetail": "Check mouth for visible object before each breath.",
+          "illustrationDescription": "Repeat cycle."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-dislocated-joint",
+      "name": "Dislocated Joint Management",
+      "subtitle": "Immobilize in position found \u2014 do not relocate",
+      "category": "Bones",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT try to pop the joint back in.",
+          "helpDetail": "Field reduction risks nerve, vessel, and bone damage.",
+          "illustrationDescription": "Do not relocate."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Immobilize in current position with splint or sling.",
+          "helpDetail": "Stabilize above and below the joint.",
+          "illustrationDescription": "Immobilizing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply cold compress. 20 minutes on, 20 off.",
+          "helpDetail": "Reduces swelling and pain.",
+          "illustrationDescription": "Cold application."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Check circulation below injury: pulse, sensation, color.",
+          "helpDetail": "Cold, numb, or blue = compressed blood vessels. Urgent.",
+          "illustrationDescription": "Checking circulation."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-hyperventilation",
+      "name": "Hyperventilation Management",
+      "subtitle": "Coach slow breathing \u2014 no paper bag",
+      "category": "Medical Emergency",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": true,
+      "hapticType": "rhythmPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Reassure: they are NOT dying. It feels like it, but they are safe.",
+          "helpDetail": "Hyperventilation causes tingling, chest tightness, dizziness.",
+          "illustrationDescription": "Reassurance."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Coach: 4 counts in through nose, 7 counts out through mouth.",
+          "helpDetail": "Goal is to slow breathing and increase CO2 levels.",
+          "illustrationDescription": "Coached breathing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Do NOT use a paper bag \u2014 outdated and dangerous.",
+          "helpDetail": "Paper bag can cause oxygen depletion. Coaching is safer.",
+          "illustrationDescription": "No paper bag."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If not anxious, check for other causes (DKA, asthma, heart).",
+          "helpDetail": "Non-anxiety hyperventilation is a medical emergency.",
+          "illustrationDescription": "Rule out causes."
+        }
+      ]
+    },
+    {
+      "id": "firstaid-childbirth",
+      "name": "Emergency Childbirth",
+      "subtitle": "Delivery when help is not coming",
+      "category": "Medical Emergency",
+      "difficulty": 3,
+      "estimatedTime": "Hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Prepare a clean area. Wash hands and groin area.",
+          "helpDetail": "Sterility is key. Boil water if possible. Use clean cloths.",
+          "illustrationDescription": "Preparation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Support the head as it crowns. Do NOT pull.",
+          "helpDetail": "Apply gentle counter-pressure to prevent tearing. Let the baby emerge naturally.",
+          "illustrationDescription": "Supporting head."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Clear baby's airway. Dry and warm immediately.",
+          "helpDetail": "Wipe mouth and nose. Skin-to-skin contact with mother for warmth.",
+          "illustrationDescription": "Cleaning baby."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Do not cut cord until it stops pulsing (1-3 mins).",
+          "helpDetail": "Tie with sterile string in two places, cut between. Deliver placenta naturally \u2014 do not pull.",
+          "illustrationDescription": "Cord and placenta."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "firstaid-article-bleeding",
+      "title": "Controlling Bleeding",
+      "body": "Blood loss kills faster than almost any other trauma. A person can bleed to death from a severed femoral artery in 3-5 minutes.\n\nBleeding control priority:\n1. Direct pressure \u2014 your hands and a cloth on the wound\n2. Pressure bandage \u2014 wrap tightly (Israeli/emergency bandage)\n3. Tourniquet \u2014 for life-threatening limb bleeding only\n4. Wound packing \u2014 for junctional areas (groin, armpit, neck)\n\nTourniquet myths debunked: Modern evidence shows tourniquets can stay on for 6+ hours without limb loss. The old 'you'll lose the limb' teaching is wrong. A loose tourniquet is more dangerous than a tight one \u2014 it blocks venous return while allowing arterial flow, increasing bleeding.\n\nWound packing: For deep wounds that won't stop bleeding, pack gauze INTO the wound, pressing firmly against the bleeding vessel. This feels wrong but saves lives.",
+      "relatedTechniqueIDs": [
+        "firstaid-tourniquet",
+        "firstaid-pressure-bandage"
+      ]
+    },
+    {
+      "id": "firstaid-article-cpr-basics",
+      "title": "CPR: What You Need to Know",
+      "body": "Compression-only CPR (hands-only) is nearly as effective as full CPR for adults who collapse suddenly. If you're unwilling or unable to give mouth-to-mouth, compressions alone still save lives.\n\nKey numbers:\n- 100-120 compressions per minute (beat of 'Stayin' Alive')\n- 2 inches deep minimum for adults\n- Full chest recoil between compressions\n- 30 compressions : 2 breaths ratio\n\nQuality degrades rapidly. Switch rescuers every 2 minutes. Most people push too shallow after 1 minute of fatigue.\n\nFor children: same ratio but use one hand. For infants: two fingers, 1.5 inches deep.\n\nAED (Automated External Defibrillator): If available, use immediately. They are designed for untrained users. Open the case and follow voice prompts. You cannot hurt someone with an AED \u2014 it only shocks if needed.",
+      "relatedTechniqueIDs": [
+        "firstaid-cpr"
+      ]
+    },
+    {
+      "id": "firstaid-article-fractures",
+      "title": "Fracture Recognition & Management",
+      "body": "Assume a fracture exists if there is:\n- Deformity (limb looks wrong)\n- Swelling at a specific point\n- Crepitus (grinding sensation)\n- Loss of function\n- Point tenderness (pain at one specific spot when pressed)\n\nOpen fracture (bone visible through skin): This is a surgical emergency. Cover the wound with a moist sterile dressing. Do NOT push bone back in. Splint and evacuate.\n\nFemur fractures are life-threatening \u2014 the thigh can hold 1-2 liters of internal blood. Watch for shock.\n\nGeneral splinting rules:\n- Splint in position found\n- Immobilize joint above AND below the break\n- Pad all bony prominences\n- Check circulation every 15 minutes\n- Never straighten a deformity in the field",
+      "relatedTechniqueIDs": [
+        "firstaid-arm-splint",
+        "firstaid-leg-splint",
+        "firstaid-sling"
+      ]
+    },
+    {
+      "id": "firstaid-article-burns",
+      "title": "Burn Classification & Treatment",
+      "body": "Burns are classified by depth:\n\n1st degree (superficial): Red, painful, no blisters. Like a sunburn. Treat with cool water and aloe vera. Heals in 3-5 days.\n\n2nd degree (partial thickness): Red, painful, blisters present. Very painful because nerve endings are intact but exposed. Cool water 20 min, do not pop blisters, clean bandage. Heals in 2-3 weeks.\n\n3rd degree (full thickness): White/brown/black, often painless (nerves are destroyed). Requires skin grafting. Do not cool \u2014 wrap and evacuate.\n\nThe Rule of Nines for estimating burn area:\n- Head: 9%\n- Each arm: 9%\n- Chest front: 18%\n- Back: 18%\n- Each leg: 18%\n- Groin: 1%\n\nBurns over 20% body surface area require IV fluid resuscitation. This is a hospital emergency.",
+      "relatedTechniqueIDs": [
+        "firstaid-burn",
+        "firstaid-chemical-burn"
+      ]
+    },
+    {
+      "id": "firstaid-article-bites",
+      "title": "Venomous Bites & Stings",
+      "body": "Snake bites: Only 20% of bites from venomous snakes actually envenomate (dry bites are common). But ALWAYS treat as envenomated until proven otherwise. The only treatment is antivenom at a hospital. Everything else (cutting, sucking, tourniquet, electric shock) makes it worse.\n\nSpider bites: Brown recluse causes tissue necrosis \u2014 clean, ice, and evacuate. Black widow causes muscle cramps and pain \u2014 seek medical care but rarely fatal in adults.\n\nScorpion stings: Most are painful but not dangerous. Exception: Bark scorpion (southwestern US) can cause neurological symptoms in children. Seek medical care.\n\nTick-borne diseases: Lyme disease (bull's-eye rash), Rocky Mountain Spotted Fever (spotted rash on palms/soles), and many others. Early antibiotic treatment is critical.",
+      "relatedTechniqueIDs": [
+        "firstaid-snakebite",
+        "firstaid-tick-removal",
+        "firstaid-bee-sting"
+      ]
+    },
+    {
+      "id": "firstaid-article-environmental",
+      "title": "Environmental Emergencies",
+      "body": "Hypothermia stages:\n- Mild (95-89\u00b0F): Shivering, confusion, poor coordination\n- Moderate (89-82\u00b0F): Shivering stops, severe confusion, drowsiness\n- Severe (<82\u00b0F): Unconscious, very slow pulse, appears dead\n\nThe phrase 'nobody is dead until they're warm and dead' exists because severely hypothermic patients have survived with no detectable pulse. Continue CPR and rewarm.\n\nHeat illness spectrum:\nHeat cramps \u2192 Heat exhaustion \u2192 Heat stroke\n\nThe critical difference: heat exhaustion patients are sweating. Heat stroke patients have stopped sweating. Heat stroke = emergency department NOW.\n\nDrowning: Start CPR immediately. 5 rescue breaths first (water in lungs prevents oxygen exchange). Do not attempt to drain water. Begin standard CPR protocol. People have survived 30+ minutes of submersion in cold water.\n\nLightning: Lightning victims do NOT carry a charge. They are safe to touch. Start CPR immediately. Lightning strikes have high survival rates with prompt CPR.",
+      "relatedTechniqueIDs": [
+        "firstaid-hypothermia",
+        "firstaid-heatstroke",
+        "firstaid-altitude"
+      ]
+    },
+    {
+      "id": "firstaid-article-anaphylaxis",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "body": "Anaphylaxis is a whole-body allergic reaction that can kill in minutes. Common triggers: bee stings, peanuts, shellfish, medications, latex.\n\nSymptom progression:\n1. Skin: hives, flushing, itching\n2. Swelling: face, lips, tongue, throat\n3. Respiratory: wheezing, stridor, shortness of breath\n4. Cardiovascular: rapid pulse, low blood pressure, dizziness\n5. GI: nausea, vomiting, diarrhea\n\nEpinephrine is the ONLY first-line treatment. Antihistamines (Benadryl) are too slow to save a life. EpiPen goes in the outer thigh, through clothing is fine.\n\nBiphasic reaction: Up to 20% of anaphylaxis patients have a second wave 1-72 hours later. Hospital observation for at least 4 hours is essential.",
+      "relatedTechniqueIDs": [
+        "firstaid-anaphylaxis",
+        "firstaid-bee-sting"
+      ]
+    },
+    {
+      "id": "firstaid-article-kit",
+      "title": "Survival First Aid Kit Essentials",
+      "body": "Minimum wilderness first aid kit:\n\nBleeding control:\n- Tourniquet (CAT or SOFTT-W)\n- Israeli bandage\n- Hemostatic gauze (QuikClot)\n- Roller gauze (2x)\n- Medical tape\n\nWound care:\n- Irrigation syringe\n- Wound closure strips (Steri-Strips)\n- Tincture of benzoin\n- Antibiotic ointment\n- Non-stick pads\n\nMedications:\n- Ibuprofen 200mg\n- Diphenhydramine 25mg (Benadryl)\n- Loperamide (Imodium)\n- Electrolyte packets\n- Epinephrine auto-injector (if prescribed)\n\nTools:\n- Trauma shears\n- Fine-point tweezers\n- Safety pins\n- Nitrile gloves (4+ pairs)\n- SAM splint\n- Moleskin\n- Elastic bandage (ACE wrap)\n- Emergency blanket\n\nAll items should be checked and refreshed annually. Medications expire. Adhesives degrade.",
+      "relatedTechniqueIDs": [
+        "firstaid-tourniquet",
+        "firstaid-pressure-bandage",
+        "firstaid-wound-cleaning"
+      ]
+    },
+    {
+      "id": "firstaid-article-priorities",
+      "title": "Triage & Treatment Priorities",
+      "body": "When someone is injured, assess in this order (MARCH):\n\nM \u2014 Massive hemorrhage: Stop life-threatening bleeding FIRST. This kills fastest.\n\nA \u2014 Airway: Is the airway open? Head tilt, chin lift. Clear obstructions.\n\nR \u2014 Respiration: Are they breathing? Look, listen, feel. Start rescue breathing if not.\n\nC \u2014 Circulation: Is there a pulse? Start CPR if not. Treat for shock.\n\nH \u2014 Hypothermia/Head injury: Prevent heat loss. Assess level of consciousness.\n\nThe biggest mistake in field medicine is treating the dramatic wound while missing the critical one. A tourniquet on a spurting artery takes priority over a broken arm.\n\nScene safety: ALWAYS ensure the scene is safe before providing care. You cannot help if you become a victim. Check for traffic, fire, electrical hazards, aggressive animals, or ongoing violence.",
+      "relatedTechniqueIDs": [
+        "firstaid-tourniquet",
+        "firstaid-cpr",
+        "firstaid-shock"
+      ]
+    }
+  ]
+}

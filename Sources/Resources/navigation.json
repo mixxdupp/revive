@@ -1,0 +1,643 @@
+{
+  "domain": "navigation",
+  "domainDisplayName": "Navigation",
+  "techniques": [
+    {
+      "id": "nav-north-star",
+      "name": "Finding North Star (Polaris)",
+      "subtitle": "The star that doesn't move",
+      "category": "No Tools",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find the Big Dipper (7 bright stars in a ladle shape).",
+          "helpDetail": "The Big Dipper is the most recognizable constellation in the northern sky. It rotates around Polaris but is always visible in the Northern Hemisphere.",
+          "illustrationDescription": "Big Dipper constellation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Follow the two 'pointer stars' at the end of the cup upward.",
+          "helpDetail": "Dubhe and Merak form the outer edge of the Big Dipper's cup. A line through them points directly to Polaris.",
+          "illustrationDescription": "Pointer stars to Polaris."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Polaris is at the end of the Little Dipper's handle.",
+          "helpDetail": "Polaris is NOT the brightest star in the sky \u2014 it's moderately bright. Its importance is position: it sits within 1\u00b0 of true north.",
+          "illustrationDescription": "Polaris position."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Face Polaris. You are facing TRUE north.",
+          "helpDetail": "Right is east, left is west, behind you is south. This works anywhere in the Northern Hemisphere, any time of night.",
+          "illustrationDescription": "Directional orientation."
+        }
+      ]
+    },
+    {
+      "id": "nav-southern-cross",
+      "name": "Southern Cross Navigation",
+      "subtitle": "Finding south in the Southern Hemisphere",
+      "category": "No Tools",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find the Southern Cross \u2014 4 bright stars in a cross/kite shape.",
+          "helpDetail": "The Southern Cross (Crux) is visible from the Southern Hemisphere. It's small but bright. The two pointer stars (Alpha and Beta Centauri) help confirm it.",
+          "illustrationDescription": "Southern Cross constellation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Extend the long axis of the cross 4.5\u00d7 its length.",
+          "helpDetail": "The long axis points roughly toward the South Celestial Pole. Extend an imaginary line downward 4.5 times the length of the cross.",
+          "illustrationDescription": "Extending cross axis."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Draw a perpendicular line from the midpoint of the pointer stars.",
+          "helpDetail": "The two bright pointer stars (Alpha and Beta Centauri) are nearby. A line perpendicular from their midpoint intersects the extended cross axis.",
+          "illustrationDescription": "Pointer star perpendicular."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Where the two lines intersect is roughly south.",
+          "helpDetail": "Drop an imaginary line from this intersection point to the horizon \u2014 that's south. Not as precise as Polaris but reliable.",
+          "illustrationDescription": "South pole intersection."
+        }
+      ]
+    },
+    {
+      "id": "nav-stick-shadow",
+      "name": "Stick & Shadow Method",
+      "subtitle": "Find east-west line using the sun",
+      "category": "No Tools",
+      "difficulty": 1,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Push a straight stick vertically into the ground.",
+          "helpDetail": "Any stick 2-3 feet tall works. The ground should be flat and the shadow clearly visible.",
+          "illustrationDescription": "Vertical stick in ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Mark the tip of the shadow with a stone.",
+          "helpDetail": "This first mark is your WEST reference (in the Northern Hemisphere). The shadow tip moves eastward as the sun moves west.",
+          "illustrationDescription": "First shadow tip marked."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wait 15-20 minutes. Mark the new shadow tip.",
+          "helpDetail": "The second mark is your EAST reference. The longer you wait, the more accurate the line.",
+          "illustrationDescription": "Second shadow tip marked."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Draw a line between the two marks. This is your east-west line.",
+          "helpDetail": "The first mark is west, the second is east. Stand with west on your left and east on your right \u2014 you're facing north (Northern Hemisphere) or south (Southern Hemisphere).",
+          "illustrationDescription": "East-west line with direction."
+        }
+      ]
+    },
+    {
+      "id": "nav-sun-position",
+      "name": "Sun Position Navigation",
+      "subtitle": "General direction without any tools",
+      "category": "No Tools",
+      "difficulty": 1,
+      "estimatedTime": "Instant",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "The sun rises in the EAST and sets in the WEST.",
+          "helpDetail": "Not precisely east/west except at equinoxes. In summer, sunrise is northeast and sunset is northwest. In winter, southeast and southwest.",
+          "illustrationDescription": "Sun path diagram."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "At solar noon (highest point), the sun is due SOUTH (Northern Hemisphere).",
+          "helpDetail": "In the Southern Hemisphere, the sun is due NORTH at noon. Solar noon is not exactly 12:00 \u2014 it varies by your position within your time zone.",
+          "illustrationDescription": "Sun at solar noon."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Estimate time from sun position for rough direction.",
+          "helpDetail": "At 6 AM: sun is roughly east. At 9 AM: roughly southeast. At noon: south. At 3 PM: roughly southwest. At 6 PM: roughly west.",
+          "illustrationDescription": "Sun position by time."
+        }
+      ]
+    },
+    {
+      "id": "nav-watch-compass",
+      "name": "Analog Watch Compass",
+      "subtitle": "Turn your watch into a compass",
+      "category": "Basic Tools",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Hold the watch horizontal. Point the HOUR HAND at the sun.",
+          "helpDetail": "In the Northern Hemisphere. If digital watch: draw a clock face on paper with current time. Same method.",
+          "illustrationDescription": "Hour hand pointing at sun."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Find the midpoint between the hour hand and 12 o'clock.",
+          "helpDetail": "The angle bisector between the hour hand (pointing at sun) and the 12 o'clock position.",
+          "illustrationDescription": "Bisecting angle."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "That midpoint direction is SOUTH (Northern Hemisphere).",
+          "helpDetail": "In the Southern Hemisphere: point 12 o'clock at the sun. The midpoint between 12 and the hour hand is NORTH. Accuracy degrades near equator.",
+          "illustrationDescription": "South direction from watch."
+        }
+      ]
+    },
+    {
+      "id": "nav-compass-use",
+      "name": "Using a Magnetic Compass",
+      "subtitle": "Fundamental compass navigation",
+      "category": "Basic Tools",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Hold compass level. Let needle settle.",
+          "helpDetail": "The red (painted) end of the needle points toward MAGNETIC north. Keep away from metal, electronics, and magnets.",
+          "illustrationDescription": "Level compass with settled needle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Rotate the bezel until N aligns with the red needle.",
+          "helpDetail": "Now the bezel matches magnetic north. All other directions are correctly oriented on the bezel.",
+          "illustrationDescription": "Aligned bezel."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Read your desired bearing. Point the direction-of-travel arrow that way.",
+          "helpDetail": "Keep the needle in the orienting arrow ('red in the shed'). Walk in the direction of travel.",
+          "illustrationDescription": "Direction of travel set."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Pick a distant landmark on your bearing and walk to it. Repeat.",
+          "helpDetail": "Don't stare at the compass while walking. Pick a tree, rock, or feature on your bearing line. Walk to it. Shoot a new bearing.",
+          "illustrationDescription": "Walking to landmark."
+        }
+      ]
+    },
+    {
+      "id": "nav-map-reading",
+      "name": "Map & Compass Navigation",
+      "subtitle": "Triangulate your position using terrain features",
+      "category": "Basic Tools",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Orient the map: align map's north arrow with compass north.",
+          "helpDetail": "Place compass on map. Rotate the map until map north and compass north align. Now the map matches the terrain.",
+          "illustrationDescription": "Map oriented with compass."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Identify 2-3 visible terrain features on your map.",
+          "helpDetail": "Peaks, lakes, road intersections, river bends. Anything unique and identifiable on both the map and in real life.",
+          "illustrationDescription": "Identifying terrain features."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Take compass bearings to each feature.",
+          "helpDetail": "Point direction-of-travel arrow at the feature. Read the bearing. Plot this bearing line on the map FROM the feature.",
+          "illustrationDescription": "Taking bearings to features."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Where the bearing lines intersect on the map is your position.",
+          "helpDetail": "Two lines give a rough position. Three lines give a triangle \u2014 you're inside it. This is triangulation. Accuracy improves with more features.",
+          "illustrationDescription": "Triangulation intersection."
+        }
+      ]
+    },
+    {
+      "id": "nav-natural-indicators",
+      "name": "Natural Direction Indicators",
+      "subtitle": "Nature's compass: moss, trees, snow, wind",
+      "category": "No Tools",
+      "difficulty": 2,
+      "estimatedTime": "Varies",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Spider webs are often built on the south side of trees.",
+          "helpDetail": "Spiders prefer warmth. South-facing surfaces (Northern Hemisphere) get more sun. More reliable than moss as a direction indicator.",
+          "illustrationDescription": "Spider webs on south side."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Snow melts faster on south-facing slopes.",
+          "helpDetail": "In the Northern Hemisphere, south-facing slopes receive more sunlight. Observe which slopes still have snow \u2014 north-facing slopes retain it longer.",
+          "illustrationDescription": "Snow melt patterns."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Tree growth rings are wider on the south side (Northern Hemisphere).",
+          "helpDetail": "More sun = more growth. Cut a stump and look at ring spacing. Wider rings indicate the sun-facing side. Only meaningful on stumps far from other trees.",
+          "illustrationDescription": "Growth ring patterns."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "DO NOT rely on moss \u2014 the 'moss grows on the north side' myth is unreliable.",
+          "helpDetail": "Moss grows wherever it's moist and shaded. In deep forest, moss grows on ALL sides. Use multiple indicators together, never just one.",
+          "illustrationDescription": "Moss myth debunked."
+        }
+      ]
+    },
+    {
+      "id": "nav-star-movement",
+      "name": "Direction from Star Movement",
+      "subtitle": "Watch which way a star drifts",
+      "category": "No Tools",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Fix a reference point: lie down and align a star with a stick or rock edge.",
+          "helpDetail": "Any star works (except Polaris). Place a stick upright and align its tip with the star. Wait 15 minutes.",
+          "illustrationDescription": "Star aligned with stick reference."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If the star moved up: you're facing EAST.",
+          "helpDetail": "Stars rise in the east, just like the sun.",
+          "illustrationDescription": "Star rising = east."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If it moved down: you're facing WEST.",
+          "helpDetail": "Stars set in the west.",
+          "illustrationDescription": "Star setting = west."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If it moved right: you're facing SOUTH. Left: NORTH.",
+          "helpDetail": "In the Northern Hemisphere. Southern Hemisphere is reversed (right = north, left = south). This works with any star.",
+          "illustrationDescription": "Star drift directions."
+        }
+      ]
+    },
+    {
+      "id": "nav-dead-reckoning",
+      "name": "Dead Reckoning",
+      "subtitle": "Track your position by pace and compass",
+      "category": "Basic Tools",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Calibrate your pace count: walk 100 meters and count steps.",
+          "helpDetail": "On flat ground, most people take 62-66 paces per 100 meters. Uphill is shorter (70+). Thick brush adds 10-20%. Know YOUR baseline.",
+          "illustrationDescription": "Calibrating pace count."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Set your compass bearing. Count paces as you walk.",
+          "helpDetail": "For every 100 meters walked, transfer a pebble from one pocket to another. This tracks distance without having to remember numbers.",
+          "illustrationDescription": "Counting paces with pebbles."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "At each pace milestone, plot your position on the map.",
+          "helpDetail": "Draw a line from your start point along your bearing. Mark where your pace count puts you. This is your dead reckoning position.",
+          "illustrationDescription": "Plotting position on map."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Correct for terrain: adjust pace for slope, vegetation, and footing.",
+          "helpDetail": "Dead reckoning accumulates errors. Update your position whenever you identify a known terrain feature. This corrects drift.",
+          "illustrationDescription": "Terrain adjustment."
+        }
+      ]
+    },
+    {
+      "id": "nav-gps-phone",
+      "name": "GPS Navigation on Phone",
+      "subtitle": "Offline GPS works without cell service",
+      "category": "Basic Tools",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "GPS works WITHOUT cell service or WiFi.",
+          "helpDetail": "Your phone's GPS receiver communicates directly with satellites. Airplane mode + GPS = still works. This is the most common misunderstanding about GPS.",
+          "illustrationDescription": "GPS works without service."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Download offline maps BEFORE your trip.",
+          "helpDetail": "Google Maps: tap your profile \u2192 Offline maps \u2192 Select area. AllTrails, Gaia GPS, and other apps also support offline maps.",
+          "illustrationDescription": "Downloading offline maps."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Your position shows as a blue dot on offline maps.",
+          "helpDetail": "Even without service, the blue dot updates as you move. Combine with compass heading for full navigation.",
+          "illustrationDescription": "Blue dot on offline map."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Mark waypoints for camp, water, and vehicle.",
+          "helpDetail": "Drop pins at key locations before leaving them. Your phone remembers these coordinates even if the app crashes.",
+          "illustrationDescription": "Marking waypoints."
+        }
+      ]
+    },
+    {
+      "id": "nav-lost-procedure",
+      "name": "Lost Procedure (STOP)",
+      "subtitle": "What to do the moment you realize you're lost",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "STOP. Do not take another step.",
+          "helpDetail": "The moment you realize you're lost is the closest you'll be to your last known position. Every step from here MIGHT make it worse.",
+          "illustrationDescription": "Stop immediately."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "THINK. When was the last time you knew where you were?",
+          "helpDetail": "Retrace mentally. What landmarks have you passed? How long have you been on this bearing? What's your last confident position?",
+          "illustrationDescription": "Retracing mentally."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "OBSERVE. Climb to high ground for visibility.",
+          "helpDetail": "Look for recognizable terrain: roads, power lines, rivers, mountains. Listen for traffic, trains, or flowing water.",
+          "illustrationDescription": "Observing from high ground."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "PLAN. Either backtrack to your last known position or signal for help.",
+          "helpDetail": "If you can backtrack confidently, do so. If not, stay put and signal. Moving blindly in unknown terrain is how people die.",
+          "illustrationDescription": "Deciding to stay or go."
+        }
+      ]
+    },
+    {
+      "id": "nav-following-water",
+      "name": "Following Water to Civilization",
+      "subtitle": "Streams \u2192 rivers \u2192 towns",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "Varies",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find flowing water and follow it downstream.",
+          "helpDetail": "Small streams join larger streams, which join rivers, which pass through towns. Humans always settle near water.",
+          "illustrationDescription": "Following stream downstream."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stay near the water but travel on the bank.",
+          "helpDetail": "Walking IN the streambed is slow, slippery, and wets your feet. Walk alongside on firm ground.",
+          "illustrationDescription": "Walking on stream bank."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for signs of civilization: fences, bridges, trash, cut stumps.",
+          "helpDetail": "Trash is actually a good sign. It means people are nearby. Fence lines lead to roads. Bridges mean roads.",
+          "illustrationDescription": "Signs of civilization."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Caution: rivers can become impassable canyons.",
+          "helpDetail": "If the river enters a canyon or gorge, backtrack and climb to a ridge to bypass. Don't get trapped in a canyon.",
+          "illustrationDescription": "Canyon hazard warning."
+        }
+      ]
+    },
+    {
+      "id": "nav-terrain-association",
+      "name": "Terrain Association",
+      "subtitle": "Navigate by reading the landscape",
+      "category": "No Tools",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Learn to read terrain: ridges run high, valleys funnel downward.",
+          "helpDetail": "Ridges are natural highways \u2014 they provide views and avoid river crossings. Valleys have water but dense vegetation and flood risk.",
+          "illustrationDescription": "Ridge vs valley travel."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use handrails: features that run parallel to your direction.",
+          "helpDetail": "A river, ridge, road, or power line running roughly your direction is a handrail. Stay near it \u2014 if you drift, you'll cross it and know to correct.",
+          "illustrationDescription": "Using terrain handrail."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use backstops: features that cross your path and signal 'too far.'",
+          "helpDetail": "A road, river, or ridge that crosses your path at your destination tells you when to stop or turn. Missing your target is common; backstops prevent overshooting.",
+          "illustrationDescription": "Backstop feature."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Aim off: intentionally aim to one side of your target.",
+          "helpDetail": "If your destination is on a road, aim 15\u00b0 to the left. When you hit the road, turn right. You'll KNOW which direction to go. Aiming dead-on means you don't know which way to turn.",
+          "illustrationDescription": "Aiming off technique."
+        }
+      ]
+    },
+    {
+      "id": "nav-moon-navigation",
+      "name": "Moon Navigation",
+      "subtitle": "Use the moon's crescent to find south",
+      "category": "No Tools",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "If the moon is a crescent, draw a line through the two horns.",
+          "helpDetail": "Extend an imaginary line from tip to tip of the crescent down to the horizon.",
+          "illustrationDescription": "Moon crescent line."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Where the line meets the horizon is roughly south (Northern Hemisphere).",
+          "helpDetail": "In Southern Hemisphere, it points roughly north. Works for any crescent phase.",
+          "illustrationDescription": "South direction."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Full moon rises in east, sets in west\u2014same as the sun.",
+          "helpDetail": "At midnight, full moon is due south (Northern Hemisphere). Use as compass reference.",
+          "illustrationDescription": "Full moon direction."
+        }
+      ]
+    },
+    {
+      "id": "nav-river-following",
+      "name": "River Following Strategy",
+      "subtitle": "Rivers lead to civilization",
+      "category": "Water Navigation",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Follow rivers DOWNSTREAM \u2014 they lead to towns.",
+          "helpDetail": "Small streams become rivers become valleys with roads.",
+          "illustrationDescription": "Following downstream."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stay on the bank, not in the water.",
+          "helpDetail": "Walking in water is exhausting, cold, dangerous.",
+          "illustrationDescription": "Bank walking."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for signs: fences, bridges, roads, logging.",
+          "helpDetail": "Cut stumps, wire, concrete = humans nearby.",
+          "illustrationDescription": "Signs of people."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If river becomes impassable, climb above and continue.",
+          "helpDetail": "Gorges happen. Go higher, keep river in sight below.",
+          "illustrationDescription": "Navigating obstacles."
+        }
+      ]
+    },
+    {
+      "id": "nav-wind-patterns",
+      "name": "Wind Pattern Navigation",
+      "subtitle": "Prevailing winds indicate directions",
+      "category": "No Tools",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Trees lean away from prevailing wind direction.",
+          "helpDetail": "Permanent lean indicates dominant wind. Coastal trees lean inland.",
+          "illustrationDescription": "Tree lean."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Snow drifts and sand dunes align with wind.",
+          "helpDetail": "Gentle windward slope, steep leeward. Consistent across area.",
+          "illustrationDescription": "Drift patterns."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Combine wind with sun/stars for reliable bearing.",
+          "helpDetail": "Wind alone isn't enough. Use as one of multiple inputs.",
+          "illustrationDescription": "Combined nav."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "nav-article-lost",
+      "title": "Why People Get Lost",
+      "body": "Understanding why people get lost helps prevent it.\n\nThe three causes:\n1. Inattention \u2014 not paying attention to the route, relying entirely on trail markers that end\n2. Overconfidence \u2014 'I know these woods' (until you don't)\n3. Technology dependence \u2014 phone dies, GPS fails, no offline maps\n\nThe spiral pattern:\nWhen lost without navigation aids, people walk in circles. Your dominant leg pushes slightly harder, creating a curve. In forest (no visual references), the radius is as small as 200 meters. You walk in a circle thinking you're going straight.\n\nPrevention:\n- Always carry a physical compass (never needs batteries)\n- Download offline maps before every trip\n- Tell someone your exact plan: route, timing, vehicle location\n- Check behind you frequently \u2014 the trail looks different going back\n- Note distinctive features at decision points",
+      "relatedTechniqueIDs": [
+        "nav-lost-procedure",
+        "nav-compass-use"
+      ]
+    },
+    {
+      "id": "nav-article-celestial",
+      "title": "Celestial Navigation Basics",
+      "body": "Humans navigated by stars for millennia before GPS. The skills still work.\n\nNorthern Hemisphere:\n- Polaris (North Star): within 1\u00b0 of true north, always\n- Big Dipper pointer stars aim at Polaris\n- Cassiopeia (W shape) is on the opposite side of Polaris from the Big Dipper\n- Orion's belt rises due east, sets due west (in winter)\n\nSouthern Hemisphere:\n- No south pole star exists\n- Southern Cross extended 4.5\u00d7 points toward south celestial pole\n- Alpha and Beta Centauri help confirm the Cross\n\nUniversal:\n- Stars rise in the east, set in the west (like the sun)\n- A star's movement tells you your facing direction\n- The moon rises ~50 minutes later each night\n- A crescent moon's horns point roughly east before midnight, west after\n\nPractice identifying constellations in familiar surroundings. In a survival situation, you need these skills to be automatic.",
+      "relatedTechniqueIDs": [
+        "nav-north-star",
+        "nav-southern-cross",
+        "nav-star-movement"
+      ]
+    },
+    {
+      "id": "nav-article-magnetic",
+      "title": "Understanding Magnetic Declination",
+      "body": "Your compass doesn't point to true north \u2014 it points to magnetic north. The difference matters.\n\nMagnetic declination:\n- The difference between true north and magnetic north, measured in degrees\n- Varies by location: ~15\u00b0 west in Seattle, ~15\u00b0 east in Maine, ~0\u00b0 in the Mississippi valley line\n- Changes over time (magnetic north moves ~55 km per year)\n\nWhy it matters:\n- 1\u00b0 error = 92 feet off per mile walked\n- 15\u00b0 error = 1,400 feet off per mile (over a quarter mile per mile!)\n- Over 5 miles, that's more than a mile off course\n\nAdjusting:\n- If declination is WEST, ADD it to compass bearing for map bearing\n- If declination is EAST, SUBTRACT it\n- Mnemonic: 'East is least (subtract), West is best (add)'\n\nMany compasses have an adjustable declination screw. Set it once for your area and all readings are automatically corrected.",
+      "relatedTechniqueIDs": [
+        "nav-compass-use",
+        "nav-map-reading"
+      ]
+    },
+    {
+      "id": "nav-article-emergency",
+      "title": "Emergency Navigation Without Tools",
+      "body": "Lost without compass, map, or GPS. You can still find your way.\n\nDaytime methods:\n1. Sun position: rises east, sets west, south at noon (Northern Hemisphere)\n2. Stick shadow: marks east-west line in 15 minutes\n3. Analog watch compass: bisect hour hand and 12 to find south\n4. Vegetation: growth patterns, snow melt, tree ring width\n\nNighttime methods:\n1. Polaris (north) or Southern Cross (south)\n2. Star movement: observe any star's drift against a fixed reference\n3. Moon: waxing crescent high at sunset = western sky\n\nUniversal strategy:\n- Follow water downhill (streams \u2192 rivers \u2192 towns)\n- Follow ridges (better visibility, easier travel)\n- Look for linear features (roads, fences, power lines, railroad tracks)\n- Listen: traffic, trains, dogs, chainsaws = civilization\n\nThe golden rule of emergency navigation: a rough bearing maintained consistently is infinitely better than no bearing. Even 'generally south' beats wandering randomly.",
+      "relatedTechniqueIDs": [
+        "nav-stick-shadow",
+        "nav-sun-position",
+        "nav-following-water"
+      ]
+    },
+    {
+      "id": "nav-article-gps",
+      "title": "GPS: Capabilities & Limitations",
+      "body": "GPS is extraordinary but not infallible. Understand its limits.\n\nHow it works:\n- 31 GPS satellites orbit Earth at 12,550 miles altitude\n- Your receiver needs signals from 4+ satellites\n- Calculates position from signal travel time\n- Accurate to 3-5 meters (civilian GPS)\n\nStrengths:\n- Works worldwide, 24/7\n- Works without cell service or WiFi\n- Unaffected by weather (clouds, rain, snow)\n- Provides exact coordinates, altitude, speed\n\nLimitations:\n- Batteries die (the #1 GPS failure mode)\n- Dense forest canopy degrades accuracy (10-30 meters)\n- Deep canyons and urban canyons lose satellite lock\n- No maps without pre-downloaded offline data\n- Cold dramatically reduces battery life\n\nBest practice:\n- Always carry a physical compass as backup\n- Download offline maps before every trip\n- Start with full battery, carry a portable charger\n- Mark waypoints at camp, vehicle, and water sources\n- Don't solely depend on technology \u2014 learn analog navigation",
+      "relatedTechniqueIDs": [
+        "nav-gps-phone",
+        "nav-compass-use"
+      ]
+    }
+  ]
+}

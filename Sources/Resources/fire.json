@@ -1,0 +1,747 @@
+{
+  "domain": "fire",
+  "domainDisplayName": "Fire",
+  "techniques": [
+    {
+      "id": "fire-bowdrill",
+      "name": "Bow Drill Fire",
+      "subtitle": "Most reliable friction fire method",
+      "category": "Friction",
+      "difficulty": 3,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": true,
+      "hapticType": "rhythmPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Assemble 4 components: fireboard, spindle, bow, handhold.",
+          "helpDetail": "Fireboard and spindle from the same DRY softwood \u2014 willow, cottonwood, cedar, basswood. All must be dead and dry. Green wood will not work.",
+          "illustrationDescription": "Four bow drill components."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve a notch in the fireboard to collect ember dust.",
+          "helpDetail": "Burn in a depression first by spinning, then carve a V-notch (1/8 of the circle) from the edge to the center of the depression. This is where the ember forms.",
+          "illustrationDescription": "V-notch in fireboard."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wrap the bowstring around the spindle once.",
+          "helpDetail": "The spindle goes between the string and the bow. One wrap provides enough friction to spin. The string should be taut but not guitar-tight.",
+          "illustrationDescription": "Spindle wrapped with bowstring."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Apply downward pressure with handhold and saw the bow back and forth.",
+          "helpDetail": "Lubricate the handhold socket (spit, oil, wax). Start slow to heat up, then increase speed. Full-length bow strokes. Smoke should build.",
+          "illustrationDescription": "Bow drill in motion."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "When heavy smoke pours from the notch, stop. The ember is born.",
+          "helpDetail": "Carefully lift the fireboard. A glowing coal should be sitting in the dust pile. Transfer to tinder bundle. Blow gently and steadily.",
+          "illustrationDescription": "Ember forming in notch."
+        }
+      ]
+    },
+    {
+      "id": "fire-handdrill",
+      "name": "Hand Drill Fire",
+      "subtitle": "Simplest friction fire \u2014 just two pieces",
+      "category": "Friction",
+      "difficulty": 4,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a straight, dry spindle 18-24 inches long, pencil-thick.",
+          "helpDetail": "Mullein stalks, cattail stalks, or yucca flower stalks are ideal. Must be completely dry and straight.",
+          "illustrationDescription": "Selecting hand drill spindle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use the same fireboard setup as bow drill with V-notch.",
+          "helpDetail": "Same softwood requirements. Burn in, carve notch. Place bark or leaf under notch to catch ember.",
+          "illustrationDescription": "Fireboard with notch."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Roll the spindle between your palms while pressing down.",
+          "helpDetail": "Hands naturally migrate downward. When at bottom, quickly reposition to top. Fast spinning with strong downward pressure. This is extremely tiring.",
+          "illustrationDescription": "Hand drill spinning technique."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Continue until ember forms in the notch dust.",
+          "helpDetail": "This method requires exceptional technique and the right materials. Many experienced practitioners consider it the hardest friction fire method.",
+          "illustrationDescription": "Ember from hand drill."
+        }
+      ]
+    },
+    {
+      "id": "fire-firesaw",
+      "name": "Fire Saw",
+      "subtitle": "Friction fire using a sawing motion",
+      "category": "Friction",
+      "difficulty": 3,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Split a dry bamboo or softwood piece lengthwise.",
+          "helpDetail": "Bamboo is ideal \u2014 its silica content generates excellent friction. The split piece forms your base.",
+          "illustrationDescription": "Split bamboo base."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut a notch across the flat inner surface.",
+          "helpDetail": "The notch catches friction dust and concentrates heat. Place tinder directly under the notch.",
+          "illustrationDescription": "Notch cut in base."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Saw a thin strip rapidly back and forth across the notch.",
+          "helpDetail": "Use another piece of bamboo or hardwood as the saw. Fast, firm strokes generate heat. Dust accumulates in the notch.",
+          "illustrationDescription": "Sawing motion across notch."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "The accumulated dust ignites into an ember. Transfer to tinder.",
+          "helpDetail": "The bambooo fire saw is particularly effective in tropical environments where bow drill materials may be too wet.",
+          "illustrationDescription": "Ember from fire saw."
+        }
+      ]
+    },
+    {
+      "id": "fire-ferrorod",
+      "name": "Ferro Rod (Firesteel)",
+      "subtitle": "Sparks at 3,000\u00b0F in any weather",
+      "category": "Ignition",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Prepare a tinder bundle of dry, fine material.",
+          "helpDetail": "Dryer lint, birch bark, fatwood shavings, or charcloth. The finer and drier the better. Loose and fluffy catches sparks best.",
+          "illustrationDescription": "Prepared tinder bundle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Hold the rod against the tinder. Pull the striker BACK toward you.",
+          "helpDetail": "Don't push the striker forward \u2014 this scatters your tinder. Hold the rod still and pull the striker back. Sparks fly onto the tinder.",
+          "illustrationDescription": "Striker technique."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Strike firmly with fast, controlled strokes.",
+          "helpDetail": "The striker scrapes ferrocerium, creating 3,000\u00b0F sparks. Any sharp hard edge works as a striker \u2014 knife spine, broken ceramic, rock edge.",
+          "illustrationDescription": "Sparks hitting tinder."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Once tinder catches, gently blow and transfer to fire lay.",
+          "helpDetail": "Cup the glowing tinder, blow steadily until it flames, and place in your prepared fire structure.",
+          "illustrationDescription": "Tinder igniting."
+        }
+      ]
+    },
+    {
+      "id": "fire-flint-steel",
+      "name": "Flint & Steel",
+      "subtitle": "The original sparker \u2014 works when wet",
+      "category": "Ignition",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find flint, quartz, or any hard glassy stone.",
+          "helpDetail": "The stone must be harder than steel. Flint, chert, jasper, agate, and quartz all work. Sharp edges throw better sparks.",
+          "illustrationDescription": "Suitable spark stones."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Strike the steel (knife spine) against the sharp stone edge.",
+          "helpDetail": "The steel shaves off tiny particles that ignite from friction heat. Strike at a low angle for maximum spark shower.",
+          "illustrationDescription": "Striking steel on flint."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Direct sparks onto charcloth or very fine tinder.",
+          "helpDetail": "Charcloth catches a single spark. Without charcloth, use dried fungus (amadou), birch bark dust, or very fine dried grass.",
+          "illustrationDescription": "Sparks landing on charcloth."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Transfer the glowing ember to tinder bundle and blow to flame.",
+          "helpDetail": "Charcloth holds an ember for minutes, giving you time to prepare. Nestle it in your tinder bundle and blow steadily.",
+          "illustrationDescription": "Ember to flame."
+        }
+      ]
+    },
+    {
+      "id": "fire-magnifying",
+      "name": "Solar Fire (Lens Method)",
+      "subtitle": "Focus sunlight to ignite tinder",
+      "category": "Solar",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Use any convex lens: glasses, binoculars, camera lens, water-filled bag.",
+          "helpDetail": "Even a clear plastic bag filled with water, shaped into a sphere, focuses light. Eyeglasses work if farsighted (convex lenses).",
+          "illustrationDescription": "Various lens options."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Focus the smallest possible bright dot on dark tinder.",
+          "helpDetail": "Dark material absorbs more heat. Char, dark fabric, or blackened bark works best. The smaller the focused dot, the higher the temperature.",
+          "illustrationDescription": "Focused light dot on tinder."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hold steady. The tinder will begin to smoke, then glow.",
+          "helpDetail": "Patience \u2014 this can take 30 seconds to several minutes. Wind and clouds are your enemy. Shield the tinder from wind.",
+          "illustrationDescription": "Tinder beginning to smoke."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Transfer the ember to a tinder bundle and blow to flame.",
+          "helpDetail": "Works only in direct sunlight. Completely silent \u2014 useful in stealth situations. Zero consumable materials needed.",
+          "illustrationDescription": "Ember transfer to bundle."
+        }
+      ]
+    },
+    {
+      "id": "fire-ice-lens",
+      "name": "Fire from Ice Lens",
+      "subtitle": "Polish ice into a lens to focus sunlight",
+      "category": "Solar",
+      "difficulty": 4,
+      "estimatedTime": "1 hour",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find or make a piece of clear ice 2-3 inches thick.",
+          "helpDetail": "Clear ice only \u2014 cloudy ice scatters light. Boil water first for clearer ice. Lake ice from slow freezing is often clear enough.",
+          "illustrationDescription": "Clear ice piece."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Shape into a lens by carving with a knife \u2014 thicker in center, thinner at edges.",
+          "helpDetail": "Convex on both sides (like a magnifying glass). Use the warmth of your hands to smooth the surfaces.",
+          "illustrationDescription": "Carving ice into lens shape."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Polish the surfaces smooth using your warm hands.",
+          "helpDetail": "Body heat melts a thin surface layer, which refreezes smooth. Alternate hands to avoid frostbite. Surfaces must be glass-smooth.",
+          "illustrationDescription": "Hand-polishing ice lens."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Focus sunlight through the ice lens onto dark tinder.",
+          "helpDetail": "This actually works. The ice must be very clear and the surfaces very smooth. It's a last-resort method \u2014 impressive but time-consuming.",
+          "illustrationDescription": "Ice lens focusing sunlight."
+        }
+      ]
+    },
+    {
+      "id": "fire-teepee",
+      "name": "Teepee Fire Lay",
+      "subtitle": "The classic cone structure \u2014 great for quick heat",
+      "category": "Structure",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Place tinder bundle on the ground (dry leaves, bark shavings, grass).",
+          "helpDetail": "Ball-sized bundle of the finest, driest material. Dryer lint, birch bark, cedar bark, cattail fluff, fatwood shavings.",
+          "illustrationDescription": "Tinder bundle on ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lean small twigs (pencil-lead thin) against each other in a cone over the tinder.",
+          "helpDetail": "Leave an opening facing prevailing wind for oxygen. Start with matchstick-sized, then pencil-sized.",
+          "illustrationDescription": "Small twigs in cone shape."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Add progressively larger sticks maintaining the cone shape.",
+          "helpDetail": "Finger-thick sticks next, then wrist-thick. Don't smother \u2014 leave gaps for airflow. The fire needs oxygen.",
+          "illustrationDescription": "Larger sticks added to cone."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Light the tinder through the opening at the base.",
+          "helpDetail": "Flames rise upward through the cone, igniting each layer. This fire burns hot and fast \u2014 excellent for quick warmth and boiling water.",
+          "illustrationDescription": "Lighting tinder at base."
+        }
+      ]
+    },
+    {
+      "id": "fire-log-cabin",
+      "name": "Log Cabin Fire Lay",
+      "subtitle": "Long-burning structure for cooking and overnight",
+      "category": "Structure",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Lay 2 parallel sticks on the ground, 1 foot apart.",
+          "helpDetail": "Wrist-thick or larger. These are your base. Place on clean, dry ground.",
+          "illustrationDescription": "Two parallel base sticks."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stack 2 more sticks perpendicular on top, forming a square.",
+          "helpDetail": "Like building a log cabin. Each layer crosses the one below. Leave the center open.",
+          "illustrationDescription": "First layer crossed."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Continue stacking 3-4 layers high. Place tinder in the center hollow.",
+          "helpDetail": "The hollow center is your firebox. Fill with tinder and kindling. The walls will catch from the inside.",
+          "illustrationDescription": "Multi-layer cabin with tinder."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Light the center tinder. The structure burns inward and collapses into coals.",
+          "helpDetail": "Log cabin burns slower than teepee and produces excellent coals for cooking. The flat top surface is also good for balancing a pot.",
+          "illustrationDescription": "Log cabin burning inward."
+        }
+      ]
+    },
+    {
+      "id": "fire-long-fire",
+      "name": "Long Fire (All-Night Fire)",
+      "subtitle": "Two logs that radiate heat all night",
+      "category": "Structure",
+      "difficulty": 1,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find 2 green logs, 6 inches thick and as long as your body.",
+          "helpDetail": "Green (live) wood burns slowly. The longer the logs, the longer the fire lasts. This is your overnight heat source.",
+          "illustrationDescription": "Two long green logs."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lay them parallel, 6-8 inches apart.",
+          "helpDetail": "The gap between them is your fire channel. Tinder and kindling go in the gap.",
+          "illustrationDescription": "Parallel logs with gap."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build a small teepee fire in the gap to ignite the logs.",
+          "helpDetail": "The teepee fire heats both logs simultaneously. As the logs catch, the gap radiates heat in both directions.",
+          "illustrationDescription": "Starting fire between logs."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Sleep parallel to the fire, 2-3 feet away.",
+          "helpDetail": "Build a reflector wall behind the fire (stacked logs, rock wall) to direct heat toward your sleeping area. This setup provides warmth for 8+ hours.",
+          "illustrationDescription": "Sleeping position near long fire."
+        }
+      ]
+    },
+    {
+      "id": "fire-dakota-hole",
+      "name": "Dakota Fire Hole",
+      "subtitle": "Low visibility, wind-resistant cooking fire",
+      "category": "Structure",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig a hole 1 foot wide and 1 foot deep.",
+          "helpDetail": "This is your fire chamber. Wide enough to feed sticks in, deep enough to contain the fire below ground level.",
+          "illustrationDescription": "Main fire hole."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig a second hole 1 foot away, connected by a tunnel.",
+          "helpDetail": "The tunnel connects the two holes underground. The second hole is your air intake \u2014 it creates a chimney effect.",
+          "illustrationDescription": "Air tunnel between holes."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "The air tunnel should face the prevailing wind.",
+          "helpDetail": "Wind blows into the intake hole, through the tunnel, feeding the fire with forced air. This creates an extremely efficient, hot burn.",
+          "illustrationDescription": "Wind-facing air intake."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build fire in the main hole. The forced air creates intense heat.",
+          "helpDetail": "Minimal smoke, nearly invisible at night, wind-protected, and excellent for cooking (place pot over the hole). Used by military for tactical fires.",
+          "illustrationDescription": "Dakota hole in use."
+        }
+      ]
+    },
+    {
+      "id": "fire-charcloth",
+      "name": "Making Charcloth",
+      "subtitle": "The ultimate spark catcher",
+      "category": "Ignition",
+      "difficulty": 1,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut 100% cotton fabric into 2-inch squares.",
+          "helpDetail": "Old t-shirt, denim, or cotton bandana. Must be pure cotton \u2014 synthetics melt instead of charring.",
+          "illustrationDescription": "Cotton fabric squares."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place in a metal tin with a small hole in the lid.",
+          "helpDetail": "Altoids tin is classic. The hole allows gases to escape but prevents oxygen from entering. Without the hole, the tin can build pressure.",
+          "illustrationDescription": "Cloth in tin with hole."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place the closed tin in hot coals for 10-15 minutes.",
+          "helpDetail": "Smoke/flames will jet from the hole \u2014 this is normal. When the smoke stops, the charring is complete.",
+          "illustrationDescription": "Tin in hot coals."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Remove and let cool WITHOUT opening. Open after completely cool.",
+          "helpDetail": "Opening while hot allows oxygen in and the cloth can burn to ash. When done, the cloth should be black, flexible, not britite. It catches a single spark.",
+          "illustrationDescription": "Finished charcloth."
+        }
+      ]
+    },
+    {
+      "id": "fire-battery",
+      "name": "Battery & Steel Wool Fire",
+      "subtitle": "Electrical ignition from common items",
+      "category": "Chemical",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stretch steel wool into a thin, loose pad.",
+          "helpDetail": "Fine grade (#0000) works best. Stretch it to maximize air exposure. The thinner, the easier it ignites.",
+          "illustrationDescription": "Stretched steel wool."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Touch both terminals of a 9V battery to the steel wool.",
+          "helpDetail": "A 9V battery is easiest because both terminals are on top. AA batteries work if you bridge both ends with the wool.",
+          "illustrationDescription": "Battery touching steel wool."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "The steel wool will glow and burn rapidly.",
+          "helpDetail": "It burns fast \u2014 have your tinder bundle ready. Nest the burning steel wool in the tinder immediately.",
+          "illustrationDescription": "Steel wool igniting."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Transfer to tinder bundle immediately.",
+          "helpDetail": "Steel wool burns completely in 10-15 seconds. This method also works with gum wrapper foil (fold narrow center between terminals) on AA batteries.",
+          "illustrationDescription": "Transferring to tinder."
+        }
+      ]
+    },
+    {
+      "id": "fire-wet-conditions",
+      "name": "Starting Fire in Rain",
+      "subtitle": "Waterproof your fire-starting process",
+      "category": "Urban",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find dry tinder UNDER things: bark, overhangs, dead standing trees.",
+          "helpDetail": "The driest wood in rain is dead branches still attached to trees \u2014 they shed water. Inner bark, standing dead wood cores, and material under dense canopy.",
+          "illustrationDescription": "Finding dry materials."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Split wet wood to expose the dry interior.",
+          "helpDetail": "Even soaking wet logs are dry inside. Split them open. The inner wood ignites normally. This is the single most important wet-weather fire skill.",
+          "illustrationDescription": "Splitting wet wood."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build the fire on a platform of sticks above wet ground.",
+          "helpDetail": "Wet ground wicks moisture into your fire. A platform of sticks insulates the fire from ground moisture.",
+          "illustrationDescription": "Fire platform."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Use fatwood (resinous pine heartwood) \u2014 it burns even when wet.",
+          "helpDetail": "Found in the stumps and knots of dead pine trees. Saturated with flammable resin. Shave curls for tinder. Burns hot enough to dry surrounding wet wood.",
+          "illustrationDescription": "Fatwood shavings and curls."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Shield with your body and a covering while establishing the fire.",
+          "helpDetail": "Once the fire is strong enough to generate its own heat, it dries out the wet wood you feed it. The hardest part is getting started.",
+          "illustrationDescription": "Shielding fire from rain."
+        }
+      ]
+    },
+    {
+      "id": "fire-extinguish",
+      "name": "Properly Extinguishing a Fire",
+      "subtitle": "Leave no trace, prevent wildfires",
+      "category": "Urban",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Let the fire burn down to coals \u2014 stop adding fuel well before departure.",
+          "helpDetail": "Plan ahead. A fire with large logs takes hours to burn down. Stop feeding it at least 1-2 hours before you need it out.",
+          "illustrationDescription": "Fire burning to coals."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Sprinkle water on the coals \u2014 do NOT dump.",
+          "helpDetail": "Dumping water creates a steam explosion and can throw hot coals. Sprinkle, stir, sprinkle. Repeat.",
+          "illustrationDescription": "Sprinkling water on coals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stir the ashes and wet every surface.",
+          "helpDetail": "Embers buried in ash can reignite hours later. Stir thoroughly and wet all surfaces.",
+          "illustrationDescription": "Stirring and wetting ashes."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Hold your hand over the ashes at 6 inches. If warm, repeat.",
+          "helpDetail": "No warmth should be detectable at 6 inches. If warm, add more water and stir again. Wildfire from abandoned campfires destroys millions of acres annually.",
+          "illustrationDescription": "Hand test for heat."
+        }
+      ]
+    },
+    {
+      "id": "fire-fire-plow",
+      "name": "Fire Plow",
+      "subtitle": "Rub a hardwood shaft in a softwood groove",
+      "category": "Friction",
+      "difficulty": 3,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a flat softwood board and a hardwood shaft.",
+          "helpDetail": "Hibiscus, sotol, or cedar board. Hardwood stick like oak for shaft.",
+          "illustrationDescription": "Selecting wood."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut a groove 8 inches long in the board.",
+          "helpDetail": "Deep enough that the shaft stays in the groove when pushing.",
+          "illustrationDescription": "Cutting groove."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Rub the shaft back and forth rapidly in the groove.",
+          "helpDetail": "Use both hands, long strokes, heavy downward pressure. Speed and pressure are critical.",
+          "illustrationDescription": "Plowing."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Fine wood dust accumulates at the end\u2014it will ignite.",
+          "helpDetail": "When dust begins smoking, blow gently and transfer to tinder bundle.",
+          "illustrationDescription": "Igniting dust."
+        }
+      ]
+    },
+    {
+      "id": "fire-chemical",
+      "name": "Potassium Permanganate Fire",
+      "subtitle": "Chemical reaction creates instant fire",
+      "category": "Chemical",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Place a small pile of potassium permanganate on dry surface.",
+          "helpDetail": "Found in some first aid kits as water purifier. Purple crystals.",
+          "illustrationDescription": "Potassium permanganate pile."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Add a few drops of glycerin (antifreeze works too).",
+          "helpDetail": "The chemical reaction generates heat. Takes 30-90 seconds.",
+          "illustrationDescription": "Adding glycerin."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stand back\u2014the mixture will spontaneously ignite.",
+          "helpDetail": "Produces intense heat and flame. Have tinder ready to catch.",
+          "illustrationDescription": "Spontaneous ignition."
+        }
+      ]
+    },
+    {
+      "id": "fire-ember-carrier",
+      "name": "Carrying Fire / Ember Transport",
+      "subtitle": "Move a burning ember between camps",
+      "category": "Maintenance",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Place hot coal in bundle of dry punk wood or fungus.",
+          "helpDetail": "Birch polypore or rotted wood holds ember for hours.",
+          "illustrationDescription": "Placing ember."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wrap in green leaves to insulate and contain.",
+          "helpDetail": "Green leaves won't catch fire. Slows oxygen flow.",
+          "illustrationDescription": "Wrapping."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Blow gently to feed ember when needed.",
+          "helpDetail": "Carrier keeps fire alive 12+ hours. Check periodically.",
+          "illustrationDescription": "Maintaining."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "At new camp: place in tinder bundle, blow to flame.",
+          "helpDetail": "Surround with finest dry tinder. Blow steadily.",
+          "illustrationDescription": "Reigniting."
+        }
+      ]
+    },
+    {
+      "id": "fire-feather-stick",
+      "name": "Feather Stick Making",
+      "subtitle": "Create tinder from wet wood with a knife",
+      "category": "Preparation",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Split a dead stick to expose dry interior.",
+          "helpDetail": "Even in rain, inside of dead wood is dry.",
+          "illustrationDescription": "Splitting."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Shave thin curls along stick \u2014 don't cut them off.",
+          "helpDetail": "Like peeling a carrot. Curls catch fire easily.",
+          "illustrationDescription": "Shaving curls."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make many curls \u2014 more surface area = better.",
+          "helpDetail": "Dozens of spiral curls dramatically increase ignition chance.",
+          "illustrationDescription": "Many curls."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Light the curls. They ignite even in wet conditions.",
+          "helpDetail": "Low moisture, high surface area. Catch spark and burn hot.",
+          "illustrationDescription": "Lighting."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "fire-article-fuel",
+      "title": "Fuel Selection: Tinder, Kindling, Fuel",
+      "body": "Fire needs three sizes of fuel, used in sequence:\n\nTinder (catches a spark/ember):\n- Dryer lint, charcloth, cotton balls in vaseline\n- Birch bark (contains flammable oils \u2014 burns even wet)\n- Cedar bark (shred into fine fibers)\n- Fatwood shavings (resinous pine)\n- Dried grass or cattail fluff\n- Fine wood shavings (feather sticks)\n\nKindling (catches from tinder flame):\n- Pencil-lead to pencil-thick dead twigs\n- Split softwood sticks\n- Small bark strips\n- Must be DRY \u2014 snap test (dry twigs snap cleanly)\n\nFuel (sustains the fire):\n- Wrist-thick and larger branches\n- Split logs\n- Hardwoods for long burn (oak, hickory, maple)\n- Softwoods for quick heat (pine, cedar, spruce)\n\nGather 3\u00d7 more than you think you'll need. The universal survival rule: you always underestimate fuel requirements.",
+      "relatedTechniqueIDs": [
+        "fire-teepee",
+        "fire-log-cabin"
+      ]
+    },
+    {
+      "id": "fire-article-psychology",
+      "title": "The Psychological Value of Fire",
+      "body": "Fire is the single most powerful morale tool in survival. Its psychological benefits may exceed its physical benefits.\n\nFire provides:\n- Warmth (obvious, but psychologically as important as physically)\n- Light (darkness is the most primal fear \u2014 fire eliminates it)\n- Security (most predators avoid fire)\n- Purpose (tending fire gives ongoing meaningful work)\n- Companionship (fire is described as 'a friend' by nearly every survival memoir)\n- Hope (smoke signals, cooking ability, water purification)\n- Normalcy (fire is home \u2014 every human culture centers on fire)\n\nPrioritize fire over almost everything except immediate shelter from lethal weather. Even if you don't need it for warmth or cooking, the psychological benefits of sitting by a fire are immeasurable.\n\nHistorical note: humans have controlled fire for at least 400,000 years. Our psychological connection to fire is literally evolutionary. Your brain EXPECTS fire in survival \u2014 give it what it needs.",
+      "relatedTechniqueIDs": [
+        "fire-bowdrill",
+        "fire-ferrorod"
+      ]
+    },
+    {
+      "id": "fire-article-safety",
+      "title": "Fire Safety in the Wilderness",
+      "body": "Fire is your greatest tool and greatest risk simultaneously.\n\nSite selection:\n- Clear 10-foot diameter of all flammable material\n- Away from overhanging branches (heat rises 30+ feet)\n- Not against a dead tree (they can ignite internally and burn for days)\n- Upwind of your shelter but within heat range\n- On mineral soil (dirt), not duff (decomposing leaves \u2014 underground fire)\n\nCommon causes of uncontrolled fire:\n- Wind shifts blowing sparks\n- Building fire too large (ego fire vs. survival fire)\n- Leaving fire unattended\n- Fire on organic soil (peat/duff burns underground)\n- Sparks from exploding rocks (wet/river rocks)\n\nRock safety:\n- NEVER use river rocks \u2014 they contain trapped water that explodes when heated\n- Use dry, non-porous rocks for fire rings and hot-rock cooking\n- Limestone, sandstone, and granite from dry locations are safest\n\nThe survival fire should be small \u2014 a small fire you can sit next to provides more usable heat than a large fire you must stand back from.",
+      "relatedTechniqueIDs": [
+        "fire-extinguish",
+        "fire-dakota-hole"
+      ]
+    },
+    {
+      "id": "fire-article-methods",
+      "title": "Fire-Starting Methods Compared",
+      "body": "Ranked by reliability (best to worst):\n\n1. Lighter \u2014 easiest, works thousands of times, even when empty (spark ignites tinder)\n2. Ferrocerium rod \u2014 3,000\u00b0F sparks, works wet, 10,000+ strikes\n3. Matches (stormproof) \u2014 reliable but finite, keep dry\n4. Magnifying lens \u2014 unlimited uses, requires direct sunlight\n5. Flint & steel \u2014 requires skill, needs charcloth/fungi\n6. Battery + steel wool \u2014 requires specific materials, fast when available\n7. Bow drill \u2014 no materials needed except wood, highest skill requirement\n8. Hand drill \u2014 extreme difficulty, requires perfect materials\n9. Fire plow \u2014 exhausting, inconsistent\n10. Ice lens \u2014 last resort, requires clear ice + sun\n\nRedundancy rule: carry AT LEAST three fire-starting methods. Primary (lighter), backup (ferro rod), emergency (knowledge-based friction method).\n\nThe best fire-starting method is the one that works when you need it. Practice all methods before you're in a survival situation.",
+      "relatedTechniqueIDs": [
+        "fire-bowdrill",
+        "fire-ferrorod",
+        "fire-flint-steel",
+        "fire-magnifying",
+        "fire-battery",
+        "fire-handdrill"
+      ]
+    },
+    {
+      "id": "fire-article-signaling",
+      "title": "Fire as a Signaling Tool",
+      "body": "Fire is one of the most visible signals available to survivors.\n\nDaytime: SMOKE\n- Green branches, wet wood, and damp leaves create thick white smoke\n- Rubber, oil-soaked cloth, and plastics create black smoke\n- White smoke against dark forest, black smoke against snow/sand\n- Three smoke columns in a triangle = universal distress signal\n\nNighttime: FLAME\n- Bright flames visible for miles in darkness\n- Three fires in a triangle = distress\n- A single large fire on a hilltop can be seen 20+ miles\n- Maintain fires through the night when rescue is expected\n\nSignal fire preparation:\n- Pre-build signal fires at your camp, ready to light\n- Cover with bark or tarp to protect from rain\n- Keep accelerants nearby (birch bark, fatwood, resin)\n- Can you light all three within 2 minutes? Practice.\n\nAircraft detection: pilots scan for smoke columns and fire at night. A signal fire has saved more lives than any other primitive signaling method.",
+      "relatedTechniqueIDs": [
+        "fire-teepee",
+        "fire-wet-conditions"
+      ]
+    }
+  ]
+}

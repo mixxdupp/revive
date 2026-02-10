@@ -1,0 +1,562 @@
+{
+  "domain": "psychology",
+  "domainDisplayName": "Psychology",
+  "techniques": [
+    {
+      "id": "psych-box-breathing",
+      "name": "Box Breathing (4-4-4-4)",
+      "subtitle": "Military-grade stress reset",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "4 min",
+      "hasHapticGuide": true,
+      "hapticType": "breathingPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Inhale through your nose for 4 seconds.",
+          "helpDetail": "Fill your lungs completely. Breathe deep into your belly, not shallow into your chest.",
+          "illustrationDescription": "Inhaling."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Hold your breath for 4 seconds.",
+          "helpDetail": "Don't clamp down. Just pause. Keep your throat and chest relaxed.",
+          "illustrationDescription": "Holding breath."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Exhale slowly through your mouth for 4 seconds.",
+          "helpDetail": "Controlled, steady exhale. Pursed lips help slow the exhale. Empty your lungs completely.",
+          "illustrationDescription": "Exhaling."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Hold empty for 4 seconds. Repeat 4 cycles.",
+          "helpDetail": "The empty hold is the key differentiator. It activates the parasympathetic nervous system. Navy SEALs use this technique before operations.",
+          "illustrationDescription": "Holding empty."
+        }
+      ]
+    },
+    {
+      "id": "psych-54321-grounding",
+      "name": "5-4-3-2-1 Grounding",
+      "subtitle": "Pull yourself out of panic using your senses",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Name 5 things you can SEE.",
+          "helpDetail": "Look around and identify 5 specific objects. Say them out loud: 'I see a rock, a tree, my boot, the sky, a bird.'",
+          "illustrationDescription": "Looking at 5 objects."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Name 4 things you can TOUCH.",
+          "helpDetail": "Feel surfaces around you. 'I feel the rough bark, the cold water, the soft moss, my own heartbeat.'",
+          "illustrationDescription": "Touching 4 surfaces."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Name 3 things you can HEAR.",
+          "helpDetail": "Close your eyes. 'I hear wind, a bird call, water flowing.' Active listening pulls you into the present.",
+          "illustrationDescription": "Listening to 3 sounds."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Name 2 things you can SMELL.",
+          "helpDetail": "'I smell pine needles, I smell damp earth.' If you can't smell anything, remember 2 smells you like.",
+          "illustrationDescription": "Smelling 2 scents."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Name 1 thing you can TASTE.",
+          "helpDetail": "'I taste water.' This exercise grounds you in physical reality, breaking the panic cycle. Panic is future-focused; senses are present-focused.",
+          "illustrationDescription": "Tasting 1 flavor."
+        }
+      ]
+    },
+    {
+      "id": "psych-stop-method",
+      "name": "STOP Method",
+      "subtitle": "Stop, Think, Observe, Plan",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "STOP. Literally stop moving.",
+          "helpDetail": "When you realize you're lost or in danger, the worst thing you can do is keep going. Motion without direction makes everything worse.",
+          "illustrationDescription": "Stop moving."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "THINK. What do I know? What are my resources?",
+          "helpDetail": "Assess: What time is it? How much water/food do I have? When will someone notice I'm missing? Am I injured?",
+          "illustrationDescription": "Thinking and assessing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "OBSERVE. Look around. What's my environment telling me?",
+          "helpDetail": "Where is the sun? Is there shelter nearby? Water? What's the weather doing? Are there trails, roads, or sounds of civilization?",
+          "illustrationDescription": "Observing surroundings."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "PLAN. Make a rational decision based on facts, not fear.",
+          "helpDetail": "Now act deliberately. Every decision should be based on the information you just gathered, not on panic or emotion.",
+          "illustrationDescription": "Creating a plan."
+        }
+      ]
+    },
+    {
+      "id": "psych-positive-self-talk",
+      "name": "Positive Self-Talk Script",
+      "subtitle": "Your inner voice determines survival",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "3 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Replace 'I can't' with 'I haven't figured out how yet.'",
+          "helpDetail": "Language shapes thought. Absolute negatives ('can't', 'never', 'impossible') shut down problem-solving. Provisional language keeps options open.",
+          "illustrationDescription": "Language reframing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Break the task into the very next single step.",
+          "helpDetail": "'I need to walk 20 miles' is overwhelming. 'I need to walk to that tree' is achievable. Then the next tree. Then the next.",
+          "illustrationDescription": "One step at a time."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Acknowledge fear, then redirect: 'I'm scared AND I can still act.'",
+          "helpDetail": "Fear is not the enemy \u2014 paralysis is. You can be terrified and still functional. Bravery is action despite fear, not absence of it.",
+          "illustrationDescription": "Acknowledging and acting."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Repeat: 'I have survived every bad day so far. 100% success rate.'",
+          "helpDetail": "This is literally true. Every challenge you've faced, you've survived. That track record is unbroken. Use it.",
+          "illustrationDescription": "100% survival rate."
+        }
+      ]
+    },
+    {
+      "id": "psych-sleep-deprivation",
+      "name": "Managing Sleep Deprivation",
+      "subtitle": "Strategic napping when you can't sleep normally",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Take 20-minute power naps whenever safe to do so.",
+          "helpDetail": "20 minutes is optimal \u2014 you get light sleep restoration without entering deep sleep, which causes grogginess.",
+          "illustrationDescription": "20-minute nap."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Navy nap schedule: 20 min ON, 40 min OFF throughout the day.",
+          "helpDetail": "This sustains functional performance for days. Not ideal, but dramatically better than continuous wakefulness.",
+          "illustrationDescription": "Navy nap schedule."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Recognize cognitive decline: poor decisions, irritability, hallucinations.",
+          "helpDetail": "After 24 hours: equivalent to 0.10% BAC. After 48 hours: microsleeps (involuntary 1-30 second sleep episodes). After 72 hours: psychosis-like symptoms.",
+          "illustrationDescription": "Cognitive decline timeline."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Prioritize sleep as a survival task, not a luxury.",
+          "helpDetail": "Sleep is when your body repairs injury, consolidates memory, and restores immune function. Skipping sleep to 'push through' is false economy.",
+          "illustrationDescription": "Sleep as survival priority."
+        }
+      ]
+    },
+    {
+      "id": "psych-will-to-live",
+      "name": "Strengthening the Will to Live",
+      "subtitle": "The single most important survival factor",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify your 'anchor' \u2014 the person or thing you are surviving FOR.",
+          "helpDetail": "Research on disaster survivors shows that people who survive for someone else last longer than those surviving for themselves. Name them. Picture their face.",
+          "illustrationDescription": "Personal anchor visualization."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Set micro-goals: survive the next hour. Then the next.",
+          "helpDetail": "Don't think about rescue in 3 days. Think about making it to sunset. Then to sunrise. Small horizons prevent overwhelm.",
+          "illustrationDescription": "Micro-goals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain routines \u2014 they create normalcy in chaos.",
+          "helpDetail": "Wake up at the same time. Eat at regular intervals. Check signals at set times. Routine fights despair.",
+          "illustrationDescription": "Daily routine in survival."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stay busy. Idle hands and idle minds are your enemy.",
+          "helpDetail": "Always have a task. Improve your shelter. Gather more firewood. Set another trap. Purposeful activity prevents the downward spiral of hopelessness.",
+          "illustrationDescription": "Staying productive."
+        }
+      ]
+    },
+    {
+      "id": "psych-group-leadership",
+      "name": "Group Survival Leadership",
+      "subtitle": "Organize a group for collective survival",
+      "category": "Group",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Establish a single leader immediately.",
+          "helpDetail": "Democracy slows decisions in emergencies. The group should agree on one decision-maker. This prevents confusion and infighting.",
+          "illustrationDescription": "Establishing leadership."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assign roles based on skills: fire, water, shelter, medical, signaling.",
+          "helpDetail": "Everyone contributes. Even injured people can tend fire or signal. Assigned roles prevent free-riding and give everyone purpose.",
+          "illustrationDescription": "Assigning group roles."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Communicate openly about resources and situation.",
+          "helpDetail": "Hoarding information or resources destroys group cohesion. Share what you know \u2014 good and bad. Rumors fill information vacuums.",
+          "illustrationDescription": "Open communication."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Monitor group morale. One panicking person can destroy the group.",
+          "helpDetail": "Isolate panic, address it privately. Keep the group focused on tasks. Evening check-ins help detect morale problems early.",
+          "illustrationDescription": "Morale monitoring."
+        }
+      ]
+    },
+    {
+      "id": "psych-children-survival",
+      "name": "Keeping Children Calm",
+      "subtitle": "Age-appropriate crisis management",
+      "category": "Group",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Children mirror adult emotions. Control yours first.",
+          "helpDetail": "If you're visibly panicking, they will panic harder. Take 60 seconds to compose yourself before addressing children.",
+          "illustrationDescription": "Adult composure first."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Give them jobs \u2014 simple, achievable tasks.",
+          "helpDetail": "'Can you find me 10 sticks this big?' 'Can you count the birds?' Purpose reduces fear. Achievement builds confidence.",
+          "illustrationDescription": "Assigning simple tasks."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Be honest at an age-appropriate level.",
+          "helpDetail": "'We're going to be camping outside tonight while we figure out the best way to go home.' Lying destroys trust if they figure it out.",
+          "illustrationDescription": "Age-appropriate honesty."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Physical comfort: stay close, maintain physical contact.",
+          "helpDetail": "Hugs, holding hands, keeping them in your lap at night. Physical touch is the most powerful anxiety reducer for children.",
+          "illustrationDescription": "Physical comfort contact."
+        }
+      ]
+    },
+    {
+      "id": "psych-decision-fatigue",
+      "name": "Combating Decision Fatigue",
+      "subtitle": "When you're too tired to think straight",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the signs: everything feels equally important or impossible.",
+          "helpDetail": "Decision fatigue makes you either impulsive (do anything to stop thinking) or paralyzed (do nothing). Both kill.",
+          "illustrationDescription": "Recognizing decision fatigue."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Default to the survival priority list: Shelter \u2192 Water \u2192 Fire \u2192 Food.",
+          "helpDetail": "When you can't decide, work down this list. Address the first unmet need. Don't think about food if you don't have water.",
+          "illustrationDescription": "Priority list."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use the 'good enough' principle.",
+          "helpDetail": "A good enough shelter NOW is better than a perfect shelter in 3 hours \u2014 especially at dusk. Satisfice, don't optimize.",
+          "illustrationDescription": "Good enough principle."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Eat, drink, and rest before making any major decision.",
+          "helpDetail": "Blood sugar, hydration, and fatigue all degrade judgment. If a decision can wait 30 minutes, eat and rest first.",
+          "illustrationDescription": "Rest before deciding."
+        }
+      ]
+    },
+    {
+      "id": "psych-fear-management",
+      "name": "Managing Specific Fears",
+      "subtitle": "Darkness, animals, isolation, death",
+      "category": "Resilience",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Name the fear specifically. Vague fear is paralyzing.",
+          "helpDetail": "'I'm scared' \u2192 'I'm scared a bear will attack me at night.' Once named, you can address it: 'I'll hang my food 200 feet away and make noise.'",
+          "illustrationDescription": "Naming the fear."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Separate real threats from perceived threats.",
+          "helpDetail": "Is a bear actually likely? Have you seen signs? Most nighttime noises are small animals. Knowledge replaces fear \u2014 learn what actually threatens you.",
+          "illustrationDescription": "Real vs perceived threats."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Take one concrete action to address the fear.",
+          "helpDetail": "Afraid of the dark? Build a brighter fire. Afraid of animals? Make a noise-maker. Afraid of being alone? Write a journal or talk out loud.",
+          "illustrationDescription": "Concrete action."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Accept residual fear as your ally \u2014 it keeps you alert.",
+          "helpDetail": "Complete fearlessness is dangerous. Fear is your brain's danger detection system. The goal is manageable fear, not zero fear.",
+          "illustrationDescription": "Fear as ally."
+        }
+      ]
+    },
+    {
+      "id": "psych-routine",
+      "name": "Establishing Daily Routine",
+      "subtitle": "Routine creates purpose, purpose creates survival",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Wake at same time daily. Begin with a task immediately.",
+          "helpDetail": "Structure: water, fire, food, shelter, signaling. Same order daily.",
+          "illustrationDescription": "Morning routine."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Set specific goals for each day\u2014even small ones.",
+          "helpDetail": "Improve shelter, find better firewood. Accomplishment fuels morale.",
+          "illustrationDescription": "Daily goals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain hygiene even when it seems pointless.",
+          "helpDetail": "Brush teeth with chewed stick. Wash hands. Prevents infection.",
+          "illustrationDescription": "Hygiene."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "End day reviewing accomplishments and planning tomorrow.",
+          "helpDetail": "Gives sense of control. Mark days on stick calendar.",
+          "illustrationDescription": "Evening review."
+        }
+      ]
+    },
+    {
+      "id": "psych-pain-management",
+      "name": "Pain Management Without Meds",
+      "subtitle": "Mental techniques to reduce pain perception",
+      "category": "Resilience",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Focus breathing: slow, deep\u20144 in, 8 out.",
+          "helpDetail": "Extended exhale activates parasympathetic system. Reduces pain signals.",
+          "illustrationDescription": "Breathing technique."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Mental distraction: count backward from 1000 by 7s.",
+          "helpDetail": "Engaging analytical brain reduces emotional pain response.",
+          "illustrationDescription": "Mental distraction."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cold water on wrists and face triggers dive reflex.",
+          "helpDetail": "Slows heart rate, reduces pain. Splash or submerge wrists.",
+          "illustrationDescription": "Dive reflex."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Accept the pain\u2014resistance amplifies it.",
+          "helpDetail": "Acknowledge without fighting. Resistance creates tension which increases pain.",
+          "illustrationDescription": "Acceptance."
+        }
+      ]
+    },
+    {
+      "id": "psych-loneliness",
+      "name": "Managing Isolation & Loneliness",
+      "subtitle": "Your mind is your most dangerous enemy alone",
+      "category": "Resilience",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Talk out loud. Narrate your actions.",
+          "helpDetail": "Hearing a voice prevents cognitive deterioration.",
+          "illustrationDescription": "Talking aloud."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create a companion: name a piece of gear.",
+          "helpDetail": "Proven psychological technique. Not weakness.",
+          "illustrationDescription": "Named companion."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain physical appearance and camp neatness.",
+          "helpDetail": "Deterioration accelerates hopelessness. Keep order.",
+          "illustrationDescription": "Maintaining order."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Journal with charcoal on bark. Record experience.",
+          "helpDetail": "Externalizes negative thoughts. Gives purpose.",
+          "illustrationDescription": "Journaling."
+        }
+      ]
+    },
+    {
+      "id": "psych-ooda-loop",
+      "name": "OODA Loop Decision Making",
+      "subtitle": "Military decision framework for survival",
+      "category": "Decision",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "OBSERVE: What is actually happening? Facts only.",
+          "helpDetail": "Strip emotion. What do senses tell you? Raw data.",
+          "illustrationDescription": "Observing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "ORIENT: What does this mean for survival?",
+          "helpDetail": "Is this threat or opportunity? What are priorities?",
+          "illustrationDescription": "Orienting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "DECIDE: Choose ONE action. Commit completely.",
+          "helpDetail": "Good plan now beats perfect plan later. Indecision kills.",
+          "illustrationDescription": "Deciding."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "ACT: Execute, then loop back to OBSERVE.",
+          "helpDetail": "Take action, observe results. Continuous adaptation.",
+          "illustrationDescription": "Acting."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "psych-article-mindset",
+      "title": "The Psychology of Survival",
+      "body": "Studies of survival situations consistently show the same pattern: the #1 predictor of survival is not physical fitness, equipment, or training \u2014 it's mental attitude.\n\nPeople who survive tend to:\n- Accept the situation quickly (no denial phase)\n- Stay busy with purposeful tasks\n- Maintain hope while being realistic\n- Have a reason to live beyond themselves\n- Adapt to changing conditions\n\nPeople who don't survive tend to:\n- Deny reality ('this can't be happening')\n- Panic or give up ('there's no point')\n- Wait passively for rescue\n- Focus on comfort rather than survival\n- Make impulsive decisions driven by emotion\n\nThe most dangerous moment is the first 72 hours. This is when panic, poor decisions, and hopelessness peak. If you survive the first 3 days with your mind intact, your chances increase dramatically.",
+      "relatedTechniqueIDs": [
+        "psych-stop-method",
+        "psych-will-to-live"
+      ]
+    },
+    {
+      "id": "psych-article-panic",
+      "title": "Understanding & Defeating Panic",
+      "body": "Panic is not weakness \u2014 it's a neurological event. Your amygdala (threat center) hijacks your prefrontal cortex (rational brain). The result: tunnel vision, loss of fine motor skills, racing heart, inability to think clearly.\n\nThe physiological cascade:\n1. Threat detected \u2192 adrenaline surge\n2. Heart rate spikes above 115 BPM \u2192 fine motor skills lost\n3. Above 145 BPM \u2192 complex motor skills lost\n4. Above 175 BPM \u2192 cognitive processing collapses\n\nDisengaging panic:\n- Box breathing forces heart rate down mechanically\n- 5-4-3-2-1 grounding engages the prefrontal cortex\n- Cold water on face triggers the dive reflex (instantly slows heart rate)\n- Physical movement (even pacing) metabolizes adrenaline\n\nPractice these techniques BEFORE you need them. Under panic, you revert to trained responses. If you've never practiced, you have no trained response to revert to.",
+      "relatedTechniqueIDs": [
+        "psych-box-breathing",
+        "psych-54321-grounding"
+      ]
+    },
+    {
+      "id": "psych-article-group",
+      "title": "Group Dynamics in Survival",
+      "body": "Groups have both advantages and severe challenges in survival.\n\nAdvantages:\n- Distributed tasks (someone always watching fire, signals)\n- Shared body heat\n- Morale support\n- More eyes for danger, food, signals\n- Physical help (carrying injured, building shelter)\n\nChallenges:\n- Social loafing (some don't contribute)\n- Resource competition (rationing disputes)\n- Panic contagion (one person's panic spreads)\n- Leadership conflict\n- Information hoarding\n\nPreventing group breakdown:\n1. Establish leadership immediately \u2014 preferably someone calm, not necessarily the most skilled\n2. Democratize information, autocratize decisions\n3. Ensure everyone has a role \u2014 purpose prevents despair\n4. Address conflict privately and immediately\n5. Communal meals \u2014 shared food rituals build cohesion\n\nHistorical patterns show that groups with clear leadership and assigned roles survive at 3-4\u00d7 the rate of leaderless groups.",
+      "relatedTechniqueIDs": [
+        "psych-group-leadership",
+        "psych-children-survival"
+      ]
+    },
+    {
+      "id": "psych-article-isolation",
+      "title": "Coping with Isolation",
+      "body": "Solitary survival creates unique psychological challenges that group survival does not.\n\nTimeline of isolation effects:\n- Day 1-3: Anxiety, hyper-alertness, difficulty sleeping\n- Day 4-7: Loneliness, talking to yourself (this is NORMAL and healthy)\n- Week 2-3: Altered time perception, emotional suppression\n- Week 4+: Potential dissociation, hallucinations, deep introspection\n\nCoping strategies:\n- Talk out loud \u2014 narrate your activities. Your own voice is comforting.\n- Keep a journal \u2014 scratching marks on wood, arranging stones to track days.\n- Create a 'companion' \u2014 cast away style. It sounds silly. Survivors swear by it.\n- Maintain personal grooming \u2014 it preserves self-identity.\n- Create daily rituals \u2014 morning routine, evening reflection.\n\nThe greatest danger of isolation is apathy. When there's no one to perform for, no one watching, motivation evaporates. Combat this by making promises to yourself and keeping them.",
+      "relatedTechniqueIDs": [
+        "psych-will-to-live",
+        "psych-positive-self-talk"
+      ]
+    },
+    {
+      "id": "psych-article-sleep",
+      "title": "Sleep and Survival",
+      "body": "Sleep is not optional. It is a survival necessity equal to water.\n\nCognitive decline timeline:\n- 17 hours awake: equivalent to 0.05% BAC (legally impaired in many countries)\n- 24 hours: equivalent to 0.10% BAC (legally drunk)\n- 36 hours: emotional instability, memory failures, pain sensitivity increases\n- 48 hours: microsleeps begin (uncontrollable 1-30 second sleep episodes)\n- 72 hours: perceptual distortions, paranoia, hallucinations\n- 96+ hours: psychosis-like symptoms\n\nSleep optimization in the field:\n- Any sleep surface is better than bare ground \u2014 insulate from below\n- Sleeping bags work by trapping YOUR heat \u2014 they don't generate warmth\n- 60\u00b0F is the sleep onset threshold \u2014 your core temp needs to drop 1-2\u00b0F\n- Wind is the #1 sleep destroyer \u2014 prioritize wind protection in shelter\n- Full stomach + warm feet = fastest sleep onset\n\nIf you can't sleep: even lying still with eyes closed provides 60-70% of sleep's restorative benefit. Don't stress about not sleeping \u2014 the stress is worse than the insomnia.",
+      "relatedTechniqueIDs": [
+        "psych-sleep-deprivation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+"/Users/adithya/Documents/Revive.swiftpm/Sources/Services/SpeechRecognitionService.swift":
+  dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.d"
+  const-values: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.swiftconstvalues"
+  diagnostics: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.dia"
+  object: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.o"
+  swift-dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.swiftdeps"
+"/Users/adithya/Documents/Revive.swiftpm/Sources/Services/HapticsService.swift":
+  dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.d"
+  object: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.o"
+  swift-dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.swiftdeps"
+  diagnostics: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.dia"
+  const-values: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.swiftconstvalues"
+"/Users/adithya/Documents/Revive.swiftpm/Sources/Services/MotionService.swift":
+  swift-dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.swiftdeps"
+  diagnostics: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.dia"
+  dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.d"
+  object: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.o"
+  const-values: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.swiftconstvalues"

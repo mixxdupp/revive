@@ -1,0 +1,278 @@
+{
+  "" : {
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Revive-master.dia",
+    "emit-module-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Revive-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Revive-master-emit-module.dia",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Revive-master.swiftdeps"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/App.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/App~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/DesignSystem/Animations.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Animations~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/DesignSystem/Colors.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Colors~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/DesignSystem/GlassCard.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GlassCard~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/DesignSystem/Layout.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Layout~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/DesignSystem/Typography.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Typography~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Extensions/Color+Hex.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Color+Hex~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Models/Article.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Article~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Models/ContentDatabase.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ContentDatabase~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Models/EmergencyFlow.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyFlow~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Models/SurvivalDomain.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SurvivalDomain~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Models/Technique.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/Technique~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Services/HapticsService.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HapticsService~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Services/MotionService.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/MotionService~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Services/SpeechRecognitionService.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechRecognitionService~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Services/SpeechSynthesisService.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Emergency/EmergencyMenuView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Emergency/Hurt/BodyOutlineView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Emergency/Hurt/InjuryTypeView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InjuryTypeView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Emergency/InventoryQuestionView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/InventoryQuestionView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Guide/ArticleView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ArticleView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Guide/DomainDetailView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/DomainDetailView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Guide/GuideMainView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/GuideMainView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Home/HomeView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/StepCard/ProgressDots.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/ProgressDots~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/StepCard/StepCardPager.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardPager~partial.swiftmodule"
+  },
+  "/Users/adithya/Documents/Revive.swiftpm/Sources/Views/StepCard/StepCardView.swift" : {
+    "const-values" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView.swiftconstvalues",
+    "dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView.d",
+    "diagnostics" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView.dia",
+    "index-unit-output-path" : "/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView.o",
+    "llvm-bc" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView.bc",
+    "object" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView.o",
+    "swift-dependencies" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView.swiftdeps",
+    "swiftmodule" : "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/StepCardView~partial.swiftmodule"
+  }
+}

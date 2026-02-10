@@ -1,0 +1,699 @@
+{
+  "domain": "shelter",
+  "domainDisplayName": "Shelter",
+  "domainIcon": "house.fill",
+  "domainColor": "#7A8F6E",
+  "techniques": [
+    {
+      "id": "shelter-lean-to",
+      "name": "Lean-To Shelter",
+      "subtitle": "Quick, basic protection from wind and rain",
+      "category": "Forest",
+      "difficulty": 1,
+      "estimatedTime": "30-45 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find two trees about 6 feet apart to support your crossbar.",
+          "helpDetail": "Trees should be sturdy enough to hold weight. Distance determines shelter length. Ensure the area between them is flat.",
+          "illustrationDescription": "Two trees with a person measuring the distance between them with outstretched arms."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lash a sturdy pole between the trees at waist height.",
+          "helpDetail": "This is your ridgepole. Use square lashing or a jamming knot. Ensure it is level.",
+          "illustrationDescription": "Horizontal pole tied between the two trees at waist height."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Lean poles against the crossbar at a 45-degree angle.",
+          "helpDetail": "Place them close together on the windward side. This creates the wall that blocks the wind.",
+          "illustrationDescription": "Series of poles leaning against the crossbar, forming a wall on one side."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Weave smaller branches or vines horizontally through the leaning poles.",
+          "helpDetail": "This creates a lattice to hold the roofing material. It prevents leaves from falling through.",
+          "illustrationDescription": "Detailed view of smaller branches woven horizontally through the vertical leaning poles."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Pile debris, leaves, or boughs against the wall from bottom to top.",
+          "helpDetail": "Shingle the material so rain runs off. Thickness should be at least 1-2 feet for insulation.",
+          "illustrationDescription": "Person piling leaves and branches onto the framework, starting from the bottom."
+        }
+      ]
+    },
+    {
+      "id": "shelter-debris-aframe",
+      "name": "A-Frame Debris Hut",
+      "subtitle": "High insulation value for cold nights",
+      "category": "Forest",
+      "difficulty": 2,
+      "estimatedTime": "1-2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Place a long ridgepole with one end on the ground and the other on a stump or tree branch.",
+          "helpDetail": "The pole should be slightly longer than your body. The elevated end should be hip-high.",
+          "illustrationDescription": "Long sturdy pole resting on a tree branch at one end and the ground at the other."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lean sticks against the ridgepole on both sides to form an A-frame.",
+          "helpDetail": "Leave a small opening at the high end for entry. The outcome should look like a skeletal tent.",
+          "illustrationDescription": "Rib-like sticks leaning against the ridgepole from both sides, forming a tunnel shape."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pile massive amounts of debris over the framework.",
+          "helpDetail": "Leaves, grass, pine needles. Aim for 3 feet of thickness for warmth. Don't skimp.",
+          "illustrationDescription": "Hut covered in a thick layer of leaves/debris, cross-section showing depth."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Add a final layer of bark or branches to hold the debris in place.",
+          "helpDetail": "This prevents wind from stripping away your insulation.",
+          "illustrationDescription": "Heavier branches laid over the debris pile to secure it."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Stuff the interior with dry leaves or grass for bedding.",
+          "helpDetail": "Fill it completely, then burrow in. This creates dead air space around your body.",
+          "illustrationDescription": "Interior view showing the space filled with dry bedding material."
+        }
+      ]
+    },
+    {
+      "id": "shelter-debris-round",
+      "name": "Round Debris Hut",
+      "subtitle": "Warmth for groups or sitting up",
+      "category": "Forest",
+      "difficulty": 2,
+      "estimatedTime": "2-3 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create a tripod base by lashing three long poles together at the top.",
+          "helpDetail": "Spread the legs wide enough for the occupants. This forms the peak of your cone.",
+          "illustrationDescription": "Three poles tied at the top and spread out to form a tripod."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lean more poles against the tripod to close the gaps.",
+          "helpDetail": "Ideally, place them close together to support the insulation. Leave a door gap.",
+          "illustrationDescription": "Cone shape formed by many poles leaning against the initial tripod."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Thatch or pile debris heavily around the entire cone.",
+          "helpDetail": "Like the A-frame, thickness is key. 2-3 feet of debris is needed for real warmth.",
+          "illustrationDescription": "Cone structure fully covered in thick debris."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build a small door plug from tied branches.",
+          "helpDetail": "You pull this in after you to seal the entrance.",
+          "illustrationDescription": "Small bundle of branches shaped to fit the door opening."
+        }
+      ]
+    },
+    {
+      "id": "shelter-tarp-aframe",
+      "name": "Tarp: A-Frame",
+      "subtitle": "Classic rain protection",
+      "category": "Tarp",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Run a ridgeline cord between two trees at waist height.",
+          "helpDetail": "Ensure the cord is taut. Use a taut-line hitch or trucker's hitch for tension.",
+          "illustrationDescription": "Taut rope tied horizontally between two trees."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Drape the tarp over the ridgeline.",
+          "helpDetail": "Center the tarp so equal amounts hang on each side.",
+          "illustrationDescription": "Tarp draped evenly over the rope."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stake down the four corners.",
+          "helpDetail": "Pull the corners out and away to create a taut roof. Use stakes or rocks.",
+          "illustrationDescription": "Tarp staked to the ground at four corners, forming a tent shape."
+        }
+      ]
+    },
+    {
+      "id": "shelter-tarp-leanto",
+      "name": "Tarp: Lean-To",
+      "subtitle": "Good for heat reflection from fire",
+      "category": "Tarp",
+      "difficulty": 1,
+      "estimatedTime": "5-10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Secure two corners of the tarp to trees/poles at head height.",
+          "helpDetail": "Use cordage to tie them up. This forms the high side of the shelter.",
+          "illustrationDescription": "Tarp tied high on two trees, hanging down."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stake the other two corners directly to the ground.",
+          "helpDetail": "Angle the tarp so the back is into the wind (usually 45 degrees).",
+          "illustrationDescription": "Tarp sloping down from the trees to the ground, staked at the bottom."
+        }
+      ]
+    },
+    {
+      "id": "shelter-tarp-cfly",
+      "name": "Tarp: C-Fly",
+      "subtitle": "Ground sheet + overhead cover",
+      "category": "Tarp",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stake one side of the tarp to the ground.",
+          "helpDetail": "This will be the bottom edge of your ground sheet.",
+          "illustrationDescription": "Edge of tarp staked cleanly to the ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tuck 1/3 of the tarp underneath itself.",
+          "helpDetail": "This creates a floor. You explicitly sleep on this section.",
+          "illustrationDescription": "Tarp folded to create a floor section."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Prop up the remaining section with poles.",
+          "helpDetail": "Use two poles at the corners and guy lines to pull it taut. It creates a wedge shape.",
+          "illustrationDescription": "Wedge shape shelter with floor, supported by two poles at the front."
+        }
+      ]
+    },
+    {
+      "id": "shelter-tarp-diamond",
+      "name": "Tarp: Diamond",
+      "subtitle": "Fast setup with one tree",
+      "category": "Tarp",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Tie one corner of the tarp to a tree at head height.",
+          "helpDetail": "This is the peak. The rest of the tarp hangs loose.",
+          "illustrationDescription": "One corner of the tarp tied to a tree trunk."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stake the opposite corner to the ground.",
+          "helpDetail": "Pull it taut straight back from the tree.",
+          "illustrationDescription": "Opposite corner staked, creating a centerline."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stake the side corners out wide.",
+          "helpDetail": "This opens up the interior space. Adjust tension to remove wrinkles.",
+          "illustrationDescription": "Side corners staked out to form a diamond shape."
+        }
+      ]
+    },
+    {
+      "id": "shelter-snow-trench",
+      "name": "Snow Trench",
+      "subtitle": "Fast winter survival shelter",
+      "category": "Winter",
+      "difficulty": 2,
+      "estimatedTime": "1 hour",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig a trench in the snow, slightly longer than your body.",
+          "helpDetail": "Make it deep enough to sit up in if possible, but at least 3 feet deep.",
+          "illustrationDescription": "Person digging a rectangular trench in deep snow."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Line the bottom with boughs or insulation.",
+          "helpDetail": "Snow sucks heat. You need a barrier between you and the ground.",
+          "illustrationDescription": "Pine boughs layered in the bottom of the trench."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Roof the trench with skis, poles, or sticks.",
+          "helpDetail": "Lay them across the top to support a tarp or snow blocks.",
+          "illustrationDescription": "Sticks/skis laid across the top opening."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Cover the roof with a tarp and snow.",
+          "helpDetail": "Snow insulates. Pile it gently on top of the tarp.",
+          "illustrationDescription": "Tarp and snow layer covering the roof structure."
+        }
+      ]
+    },
+    {
+      "id": "shelter-quinzhee",
+      "name": "Quinzhee",
+      "subtitle": "Snow dome for extreme cold",
+      "category": "Winter",
+      "difficulty": 3,
+      "estimatedTime": "3-4 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Pile snow into a large mound, 6-7 feet high.",
+          "helpDetail": "Mix different snow types. Disturbed snow hardens (sinters) as it sits.",
+          "illustrationDescription": "Large pile of snow being formed."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Let the mound settle/harden for at least 2 hours.",
+          "helpDetail": "This step is critical. If you dig too soon, it will collapse.",
+          "illustrationDescription": "Clock icon next to the snow mound indicating wait time."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Insert 12-inch guide sticks all over the dome.",
+          "helpDetail": "These tell you when to stop digging from the inside so walls are uniform.",
+          "illustrationDescription": "Sticks poking out of the dome like a porcupine."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Excavate the interior, starting from a low entrance.",
+          "helpDetail": "Throw snow out behind you. Dig until you see the ends of your guide sticks.",
+          "illustrationDescription": "Person digging into the mound from ground level."
+        }
+      ]
+    },
+    {
+      "id": "shelter-igloo",
+      "name": "Igloo",
+      "subtitle": "Block construction for hard pack snow",
+      "category": "Winter",
+      "difficulty": 3,
+      "estimatedTime": "3+ hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut firm snow blocks with a saw or knife.",
+          "helpDetail": "Blocks should be consistent size (e.g., 2ft x 1ft). Needs hard wind-packed snow.",
+          "illustrationDescription": "Person cutting rectangular blocks from hard snow."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lay the first circle of blocks.",
+          "helpDetail": "Make the circle diameter appropriate for the number of people.",
+          "illustrationDescription": "Circle of snow blocks on the ground."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cut a slope into the first layer.",
+          "helpDetail": "This creates a spiral ramp. Essential for the dome shape.",
+          "illustrationDescription": "First layer of blocks cut at an angle to start a spiral."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stack subsequent blocks in a rising spiral.",
+          "helpDetail": "Lean them inward slightly. The spiral shape provides structural support.",
+          "illustrationDescription": "Walls rising in a spiral, leaning inward."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Cap the top with a final keystone block.",
+          "helpDetail": "Trim it to fit the final hole perfectly from the outside.",
+          "illustrationDescription": "Final block being placed at the very top."
+        }
+      ]
+    },
+    {
+      "id": "shelter-wickiup",
+      "name": "Wickiup",
+      "subtitle": "Sturdy tipi-style shelter",
+      "category": "Forest",
+      "difficulty": 2,
+      "estimatedTime": "2-3 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a tripod of trees or lash three poles together.",
+          "helpDetail": "Similar to the debris hut but steeper and taller for more headroom.",
+          "illustrationDescription": "Tall tripod frame standing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Add many vertical poles around the frame.",
+          "helpDetail": "Create a solid wooden cone. Leave a smoke hole at top if you plan a fire.",
+          "illustrationDescription": "Many poles added to the tripod to form a cone."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cover with mats, bark, or boughs.",
+          "helpDetail": "Layer them like shingles. Bark works excellent for rain proofing.",
+          "illustrationDescription": "Cone covered in strips of bark or mats."
+        }
+      ]
+    },
+    {
+      "id": "shelter-tree-well",
+      "name": "Tree Well Shelter",
+      "subtitle": "Emergency deep snow shelter",
+      "category": "Winter",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a large evergreen tree with low branches.",
+          "helpDetail": "The branches hold snow off the ground, creating a natural hollow.",
+          "illustrationDescription": "Large spruce tree with snow all around base."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig out the snow around the trunk to enlarge the space.",
+          "helpDetail": "Be careful not to knock snow off the branches above you.",
+          "illustrationDescription": "Person digging out the space under the branches."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Line the floor with boughs for insulation.",
+          "helpDetail": "Sit on branches, not snow.",
+          "illustrationDescription": "Insulation layer added to the floor of the hollow."
+        }
+      ]
+    },
+    {
+      "id": "shelter-hammock",
+      "name": "Hammock Shelter",
+      "subtitle": "Off-ground jungle/swamp shelter",
+      "category": "Tropical",
+      "difficulty": 2,
+      "estimatedTime": "1 hour",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find two sturdy trees 10-15 feet apart.",
+          "helpDetail": "Check for dead branches above (widowmakers).",
+          "illustrationDescription": "Two trees with space between them."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tie your hammock or improvised sheeting between them.",
+          "helpDetail": "Use strong knots like a bowline. Ensure it hangs level.",
+          "illustrationDescription": "Hammock tied and hanging between the trees."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Rig a tarp or rain fly above the hammock.",
+          "helpDetail": "Tie a ridgeline higher up the trees and drape the cover.",
+          "illustrationDescription": "Tarp suspended above the hammock."
+        }
+      ]
+    },
+    {
+      "id": "shelter-mylar-wrap",
+      "name": "Emergency Mylar Wrap",
+      "subtitle": "Using a space blanket correctly",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Wrap the blanket around your entire body.",
+          "helpDetail": "Don't just drape it. You need to trap your body heat inside.",
+          "illustrationDescription": "Person wrapped fully in reflective blanket."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Crouch or sit on insulation, not the ground.",
+          "helpDetail": "The blanket reflects heat but does not insulate against conductive cold from the ground.",
+          "illustrationDescription": "Person sitting on a log or pack while wrapped."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Leave a small opening for your face.",
+          "helpDetail": "Breathing inside causes condensation which will make you wet and cold.",
+          "illustrationDescription": "Face poking out of the wrap."
+        }
+      ]
+    },
+    {
+      "id": "shelter-vehicle",
+      "name": "Vehicle as Shelter",
+      "subtitle": "Your car is your best urban emergency shelter",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stay in the vehicle. It provides insulation, wind protection, visibility.",
+          "helpDetail": "Cars are visible to rescuers. Metal reflects heat. Close all windows.",
+          "illustrationDescription": "Staying in vehicle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Insulate: stuff seats, floor mats, spare clothes in gaps.",
+          "helpDetail": "Floor mats are excellent insulation. Cover windows to trap heat.",
+          "illustrationDescription": "Insulating vehicle."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Run engine 10 minutes per hour for heat if safe.",
+          "helpDetail": "Check exhaust is clear of snow/blockage. Carbon monoxide kills. Crack a downwind window.",
+          "illustrationDescription": "Running engine safely."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Signal: turn on hazard lights, tie bright cloth to antenna.",
+          "helpDetail": "Conserve battery. Periodic honking. Hazards visible from distance.",
+          "illustrationDescription": "Vehicle signaling."
+        }
+      ]
+    },
+    {
+      "id": "shelter-emergency-bivy",
+      "name": "Emergency Bivy Sack",
+      "subtitle": "Trash bag or space blanket body wrap",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get inside a large trash bag, space blanket, or tarp.",
+          "helpDetail": "Cut a hole for your face. Get your entire body inside. Immediate wind and rain protection.",
+          "illustrationDescription": "Getting inside."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Insulate from the ground\u2014cardboard, leaves, pine boughs.",
+          "helpDetail": "Ground steals heat 25x faster than air. Never lie directly on ground.",
+          "illustrationDescription": "Ground insulation."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Curl into fetal position to minimize exposed surface area.",
+          "helpDetail": "Knees to chest, hands in armpits. Reduces heat loss by up to 50%.",
+          "illustrationDescription": "Fetal position."
+        }
+      ]
+    },
+    {
+      "id": "shelter-raised-platform",
+      "name": "Raised Platform Shelter",
+      "subtitle": "Stay above water, insects, ground cold",
+      "category": "Jungle",
+      "difficulty": 3,
+      "estimatedTime": "3 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find 4 trees in rectangle, or plant 4 sturdy poles.",
+          "helpDetail": "6-8 feet apart. Platform at least 3 feet off ground.",
+          "illustrationDescription": "Selecting trees."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lash crossbeams between trees at same height.",
+          "helpDetail": "Square lashing. Must hold your weight.",
+          "illustrationDescription": "Lashing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Lay poles across beams for platform floor.",
+          "helpDetail": "Pack tight. Fill gaps. Cover with leaves for comfort.",
+          "illustrationDescription": "Building floor."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Add A-frame roof with thatched leaves or tarp.",
+          "helpDetail": "Leaves layered like shingles from bottom up sheds rain.",
+          "illustrationDescription": "Adding roof."
+        }
+      ]
+    },
+    {
+      "id": "shelter-poncho",
+      "name": "Poncho Shelter",
+      "subtitle": "Quick military-style rain protection",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Tie ridgeline between two trees at waist height.",
+          "helpDetail": "Paracord, rope, or vine. Taut line hitch for tension.",
+          "illustrationDescription": "Ridgeline."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Drape poncho over line. Stake corners down.",
+          "helpDetail": "Angle for rain runoff. Open side away from wind.",
+          "illustrationDescription": "Draping."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create 4-6 inch bed of leaves underneath.",
+          "helpDetail": "Never sleep on bare ground. Ground steals heat 25x faster than air.",
+          "illustrationDescription": "Insulation."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "shelter-article-site",
+      "title": "Site Selection Principles",
+      "body": "Your shelter is only as good as its location. A perfect debris hut in a depression will become a bathtub in rain. A tarp tent under a dead branch is a death trap.\n\nFirst, look up. 'Widowmakers' are dead branches or trees that can fall in wind. Never sleep under them. Next, look down. Choose flat ground that drains away from you. Avoid dry riverbeds\u2014flash floods can happen even if it's not raining where you are.\n\nConsider the 'Ws': Wind, Water, Wood. You want protection from the Wind (or breeze in hot climates), proximity to Water (but not too close due to bugs and floods), and available Wood for fuel and construction. Ideally, orient your shelter entrance 90 degrees to the prevailing wind to prevent it from blowing straight in or creating a vacuum that sucks heat out.",
+      "relatedTechniqueIDs": [
+        "shelter-lean-to",
+        "shelter-debris-aframe"
+      ]
+    },
+    {
+      "id": "shelter-article-insulation",
+      "title": "Insulation: Dead Air Space",
+      "body": "Insulation doesn't create heat; it traps it. The most effective insulator is 'dead air'\u2014air that isn't moving. Your clothing, sleeping bag, and shelter materials all work by trapping pockets of air near your body.\n\nIn survival shelters, fluffiness equals warmth. Compressed leaves offer little insulation. You want a chaotic, fluffy pile of debris that traps millions of tiny air pockets. This limits convection (heat loss through air movement). \n\nThe colder it is, the thicker your insulation needs to be. In freezing conditions, you need at least 3 feet of debris overhead to stay warm without a fire. Don't stop when it looks like a shelter; keep piling until it looks like a massive mound.",
+      "relatedTechniqueIDs": [
+        "shelter-debris-aframe",
+        "shelter-debris-round"
+      ]
+    },
+    {
+      "id": "shelter-article-ground",
+      "title": "Ground Insulation",
+      "body": "The ground is an infinite heat sink. Through conduction, it will suck the heat out of your body faster than the air will. You can have a perfect roof, but if you sleep directly on the cold earth, you will hypothermic.\n\nBuild a mattress. Use boughs, leaves, dried grass, or even your spare clothes. The goal is to put distance between you and the dirt. Your bed should be at least 6-8 inches thick when uncompressed, because your body weight will squash it down to 2-3 inches.\n\nIn snow, this is even more critical. Ideally, lay down a layer of logs or branches locally called a 'swamp bed' to create a distinct air gap between you and the snow.",
+      "relatedTechniqueIDs": [
+        "shelter-debris-aframe",
+        "shelter-snow-trench"
+      ]
+    },
+    {
+      "id": "shelter-article-wind",
+      "title": "Wind Protection Orientation",
+      "body": "Wind chill strips heat away from your shelter's surface. Your primary defense is orientation. In the Northern Hemisphere, prevailing winds often come from the West, but local terrain dictates the actual flow.\n\nObserve the direction the grass is leaning or wet your finger to find the wind. Position your shelter so the extensive wall faces the wind. The entrance should face roughly 90 degrees to the wind. If the door faces directly downwind, eddies can swirl snow and rain back into your shelter.\n\nUse natural windbreaks like large boulders or dense thickets. Building in the lee (protected side) of these features saves you work and materials.",
+      "relatedTechniqueIDs": [
+        "shelter-tarp-leanto",
+        "shelter-lean-to"
+      ]
+    },
+    {
+      "id": "shelter-article-rain",
+      "title": "Rain Runoff Management",
+      "body": "Water always wins gravity battles. If your shelter roof isn't steep enough (at least 45 degrees), water will soak through instead of running off. This is the difference between a waterproof roof and a heavy, wet blanket over your head.\n\nDon't forget the ground. If you are on a slope, dig a small trench on the uphill side of your shelter to divert rainwater around your sleeping area. This 'gutter' can save you from waking up in a puddle.\n\nWhen using natural materials, 'shingling' is key. Place material from the bottom up, overlapping like roofing tiles. This ensures water runs from one layer to the next without penetrating.",
+      "relatedTechniqueIDs": [
+        "shelter-tarp-aframe",
+        "shelter-debris-round"
+      ]
+    },
+    {
+      "id": "shelter-article-snow-insulation",
+      "title": "Snow as Insulator",
+      "body": "Snow is surprisingly warm. Fresh snow is 90-95% trapped air, making it an excellent insulator with a high R-value. This is why animals burrow into drifts to survive storms.\n\nInside a properly built snow shelter like a quinzhee or igloo, body heat can raise the temperature to near freezing (32\u00b0F / 0\u00b0C), even if it's -20\u00b0F outside. That 50-degree difference is life-saving.\n\nThe key is to prevent melting. If it gets too warm inside, the walls will glaze over and stop breathing, or drip on you. Regulate temperature by poking a ventilation hole in the roof. If you keep the inside just below freezing, you stay dry and relatively warm.",
+      "relatedTechniqueIDs": [
+        "shelter-quinzhee",
+        "shelter-igloo"
+      ]
+    },
+    {
+      "id": "shelter-article-tropical",
+      "title": "Tropical Shelter Considerations",
+      "body": "In the jungle, the priorities flip. Cold isn't the enemy; insects, snakes, and ground moisture are. You want to get off the ground. Hammocks are king here.\n\nIf you must build on the ground, create a raised platform using lashes poles. This keeps you away from ants and damp soil. Airflow is vital\u2014a fully enclosed hut will become a stifling oven. Build an open-air roof with large overhangs to stop the torrential rains, but leave the walls open to catch the breeze.\n\nUse large leaves (banana, palm) for roofing. Split the palm fronds down the spine to make them easier to weave/shingle.",
+      "relatedTechniqueIDs": [
+        "shelter-hammock",
+        "shelter-tarp-diamond"
+      ]
+    },
+    {
+      "id": "shelter-article-desert",
+      "title": "Desert Shelter Considerations",
+      "body": "The desert has two faces: the baking sun of the day and the freezing cold of the night. Your shelter needs to handle both.\n\nDuring the day, shade is survival. Build an open-sided shade shelter to allow breeze but block UV rays. Double-layering your roof (with an air gap between layers) drastically reduces the temperature underneath.\n\nAt night, the desert loses heat rapidly. You may need to enclose your shelter or lower the roof to trap body heat. A classic desert strategy is the trench shelter: dig into the cooler sub-surface sand for day respite, and cover it to trap warmth at night.",
+      "relatedTechniqueIDs": [
+        "shelter-tarp-diamond"
+      ]
+    },
+    {
+      "id": "shelter-article-bedding",
+      "title": "Bedding Construction",
+      "body": "Bedding is the most overlooked part of shelter building. In a survival situation, you spend 50% of your time in your shelter. Comfort isn't a luxury; it's sleep hygiene, which preserves sanity.\n\nStart with a frame of logs to contain your material. Fill it with springy boughs (spruce/fir) placed convex side up. Cover this with finer material like ferns, dried grass, or leaves. \n\nCheck for ticks and insects in your bedding material. Avoid using material that is already decomposing, as it generates moisture and bacteria. Your finished bed should feel like a firm mattress, suspending you completely off the hard ground.",
+      "relatedTechniqueIDs": [
+        "shelter-lean-to",
+        "shelter-debris-aframe"
+      ]
+    },
+    {
+      "id": "shelter-article-reflector",
+      "title": "Heat Reflector Walls",
+      "body": "A fire warms your front, but your back freezes. A shelter helps, but a reflector wall turbocharges your warming setup. By placing a wall of logs or rocks behind the fire (opposite your shelter), you bounce radiant heat back towards you.\n\nBuild the reflector close to the fire (about 2-3 feet away). If using wood, ensure it's green or soaked so it doesn't burn. A U-shaped reflector is even better, focusing heat like a satellite dish.\n\nCombined with a lean-to shelter, this setup creates a 'heat oven' effect, trapping warm air between the shelter roof and the fire reflector, keeping you toasty with a much smaller fire.",
+      "relatedTechniqueIDs": [
+        "shelter-lean-to",
+        "shelter-tarp-leanto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+"/Users/adithya/Documents/Revive.swiftpm/Sources/Services/SpeechSynthesisService.swift":
+  object: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.o"
+  const-values: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.swiftconstvalues"
+  dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.d"
+  swift-dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.swiftdeps"
+  diagnostics: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/SpeechSynthesisService.dia"
+"/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Emergency/Hurt/BodyOutlineView.swift":
+  object: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.o"
+  dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.d"
+  const-values: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.swiftconstvalues"
+  swift-dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.swiftdeps"
+  diagnostics: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/BodyOutlineView.dia"
+"/Users/adithya/Documents/Revive.swiftpm/Sources/Views/Emergency/EmergencyMenuView.swift":
+  const-values: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.swiftconstvalues"
+  dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.d"
+  diagnostics: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.dia"
+  object: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.o"
+  swift-dependencies: "/Users/adithya/Documents/Revive.swiftpm/.build_output/Build/Intermediates.noindex/Revive.build/Debug-iphonesimulator/Revive.build/Objects-normal/arm64/EmergencyMenuView.swiftdeps"

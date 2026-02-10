@@ -1,0 +1,897 @@
+{
+  "domain": "environments",
+  "domainDisplayName": "Environments",
+  "techniques": [
+    {
+      "id": "env-desert-travel",
+      "name": "Desert Travel Strategy",
+      "subtitle": "Move at night, shelter by day",
+      "category": "Desert",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Travel only at night or during dawn/dusk.",
+          "helpDetail": "Midday desert temps can exceed 130\u00b0F at ground level. You'll lose 1-2 quarts of sweat per hour walking in heat. At night, temps drop 30-50\u00b0F.",
+          "illustrationDescription": "Night travel timeline."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stay covered \u2014 loose, light-colored clothing covering all skin.",
+          "helpDetail": "Exposed skin in direct sun dehydrates faster than covered skin. Arabic robes exist for a reason. Cover your head and neck.",
+          "illustrationDescription": "Proper desert clothing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Navigate by stars at night, compass in day.",
+          "helpDetail": "Without landmarks, people walk in circles (dominant leg push). Use celestial navigation or a compass to maintain direction.",
+          "illustrationDescription": "Star navigation."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Never walk without water. Ration sweat, not water.",
+          "helpDetail": "Desert survival without water: 2-3 days walking, 5-7 days resting in shade. Your water goes in you, not on you.",
+          "illustrationDescription": "Water management."
+        }
+      ]
+    },
+    {
+      "id": "env-desert-shelter",
+      "name": "Desert Shade Shelter",
+      "subtitle": "Double-layer shade with air gap",
+      "category": "Desert",
+      "difficulty": 1,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create a double-layer shade with 12-inch air gap.",
+          "helpDetail": "Two layers of material (tarp over tarp) with an air gap between them reduces ground-level temperature by 30-40\u00b0F.",
+          "illustrationDescription": "Double-layer shade."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Raise the shelter 18 inches off the ground.",
+          "helpDetail": "Ground surface temperature can be 30\u00b0F hotter than air 18 inches up. A raised platform or elevated tarp helps.",
+          "illustrationDescription": "Raised shelter."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Orient the open side away from prevailing wind.",
+          "helpDetail": "Desert winds carry sand. Open side should face the direction that provides breeze without sandblasting.",
+          "illustrationDescription": "Wind-oriented shelter."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If no materials: dig a trench and cover with any available material.",
+          "helpDetail": "Dig 2 feet deep \u2014 subterranean temps are significantly cooler. Cover for shade. Even a backpack propped up provides head shade.",
+          "illustrationDescription": "Trench shelter."
+        }
+      ]
+    },
+    {
+      "id": "env-desert-water",
+      "name": "Finding Water in Desert",
+      "subtitle": "Follow signs to hidden sources",
+      "category": "Desert",
+      "difficulty": 3,
+      "estimatedTime": "Varies",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Look for green vegetation \u2014 especially cottonwood, willow, and palm.",
+          "helpDetail": "These trees require consistent water. Their roots reach groundwater. Dig at the base of these trees.",
+          "illustrationDescription": "Green vegetation in desert."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig in the outside bend of dry washes and riverbeds.",
+          "helpDetail": "Water pools at the outer bend. Dig 1-3 feet. Let the hole fill over 30 minutes. If groundwater is there, it will seep in.",
+          "illustrationDescription": "Digging at dry wash bend."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for birds (especially doves) at dusk \u2014 they fly toward water.",
+          "helpDetail": "Grain-eating birds need daily water. At dusk they fly in straight lines to water sources. Follow their direction.",
+          "illustrationDescription": "Birds flying toward water."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Check rock crevices and shaded north-facing cliff bases.",
+          "helpDetail": "Tinajas (natural rock pools) can hold water for weeks after rain. Check shaded depressions in rock.",
+          "illustrationDescription": "Rock crevice water."
+        }
+      ]
+    },
+    {
+      "id": "env-jungle-travel",
+      "name": "Jungle Travel",
+      "subtitle": "Follow water, machete your path",
+      "category": "Jungle",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Follow streams downstream \u2014 they lead to rivers, rivers lead to people.",
+          "helpDetail": "99% of tropical settlements are on waterways. Walking along a stream also ensures water access.",
+          "illustrationDescription": "Following stream."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Travel on ridgelines when possible \u2014 less vegetation, better visibility.",
+          "helpDetail": "Valley floors have the densest vegetation. Ridges are drier and sparser. Navigation is easier with visibility.",
+          "illustrationDescription": "Ridgeline travel."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Mark your path \u2014 the jungle looks identical in every direction.",
+          "helpDetail": "Blaze trees (cut bark), break branches, tie cloth. Without markers you will loop back to where you started.",
+          "illustrationDescription": "Marking trail."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Watch your feet and where you grab \u2014 snakes and insects are everywhere.",
+          "helpDetail": "Never put hands or feet where you can't see. Probe ahead with a stick. Shake out boots and clothing before wearing.",
+          "illustrationDescription": "Watching for hazards."
+        }
+      ]
+    },
+    {
+      "id": "env-jungle-water",
+      "name": "Jungle Water Sources",
+      "subtitle": "Water is abundant but needs treatment",
+      "category": "Jungle",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Bamboo segments hold clean water between nodes.",
+          "helpDetail": "Shake green bamboo \u2014 if you hear sloshing, it contains water. Cut a small hole to access. This water is usually potable.",
+          "illustrationDescription": "Bamboo water."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Vines can provide drinking water if cut correctly.",
+          "helpDetail": "Cut the vine HIGH first, then cut LOW. Water will flow from the bottom cut. If sap is milky or bitter, discard that vine.",
+          "illustrationDescription": "Cutting vine for water."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Collect rainwater from large leaves \u2014 banana leaves are ideal.",
+          "helpDetail": "Tropical rainfall is frequent and heavy. Channel large leaves into containers. Rain is the safest water source.",
+          "illustrationDescription": "Leaf water collection."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Still purify stream water \u2014 jungle water carries parasites.",
+          "helpDetail": "Tropical waterways have the highest parasite load on Earth. Schistosomiasis from skin contact alone. Boil everything.",
+          "illustrationDescription": "Water purification reminder."
+        }
+      ]
+    },
+    {
+      "id": "env-jungle-shelter",
+      "name": "Jungle Hammock Shelter",
+      "subtitle": "Sleep off the ground away from insects and flooding",
+      "category": "Jungle",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Sleep OFF the ground. Always.",
+          "helpDetail": "Ground in tropical environments = ants, scorpions, snakes, moisture, and fungal infections. Build a raised platform or improvised hammock.",
+          "illustrationDescription": "Elevated sleeping."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use poncho or tarp as a rain fly above your sleeping area.",
+          "helpDetail": "It rains daily in the tropics. An overhead cover is critical. Angle it for runoff \u2014 water pooling causes collapse.",
+          "illustrationDescription": "Rain fly above elevated bed."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Tuck mosquito netting under your sleeping surface.",
+          "helpDetail": "Malaria, dengue, Zika \u2014 all transmitted by night-biting mosquitoes. A net is possibly the single most important piece of jungle survival gear.",
+          "illustrationDescription": "Mosquito net setup."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build a smudge fire nearby to drive away insects.",
+          "helpDetail": "Green wood and damp leaves create smoke. Keep the fire small and smoky. The smoke deters mosquitoes within a 10-foot radius.",
+          "illustrationDescription": "Smudge fire for insects."
+        }
+      ]
+    },
+    {
+      "id": "env-arctic-shelter",
+      "name": "Snow Shelter (Quinzhee)",
+      "subtitle": "Pile, settle, hollow \u2014 warmer than outside",
+      "category": "Arctic",
+      "difficulty": 2,
+      "estimatedTime": "2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Pile snow into a mound 7-8 feet tall, 10 feet wide.",
+          "helpDetail": "The bigger the pile, the more insulation. Mixing snow of different temperatures during piling helps it harden.",
+          "illustrationDescription": "Piling snow mound."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Let the mound settle for 1-2 hours (sintering).",
+          "helpDetail": "Snow crystals bond together. This makes the structure strong enough to hollow out without collapsing. Critical step \u2014 don't skip.",
+          "illustrationDescription": "Snow sintering."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Insert sticks 12 inches deep all over the mound.",
+          "helpDetail": "These are thickness guides. When hollowing, stop when you hit sticks. This ensures uniform wall thickness.",
+          "illustrationDescription": "Guide sticks inserted."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Hollow from a low entrance upward. Sleep platform above entrance.",
+          "helpDetail": "Cold air sinks. The entrance should be below the sleeping platform. Interior temp stays near 32\u00b0F even when it's -40\u00b0F outside.",
+          "illustrationDescription": "Hollowed interior."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Poke a fist-sized ventilation hole in the roof.",
+          "helpDetail": "Carbon dioxide from breathing accumulates. Without ventilation, you'll suffocate. Check the hole isn't blocked by new snowfall.",
+          "illustrationDescription": "Ventilation hole."
+        }
+      ]
+    },
+    {
+      "id": "env-arctic-travel",
+      "name": "Arctic Travel & Navigation",
+      "subtitle": "Energy conservation is everything",
+      "category": "Arctic",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Travel during warmest hours. Shelter during extreme cold.",
+          "helpDetail": "Unlike desert (travel at night), Arctic travel should occur during midday warmth. Nighttime temps drop to unsurvivable levels.",
+          "illustrationDescription": "Midday travel window."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Manage layers to prevent sweating.",
+          "helpDetail": "Sweating in cold = death. Wet clothing loses insulation. Remove layers BEFORE you overheat. Vent at neck and wrists.",
+          "illustrationDescription": "Layer management."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use snowshoes or improvised floatation to prevent post-holing.",
+          "helpDetail": "Walking through deep snow without snowshoes burns 3\u00d7 the calorie. Tie evergreen branches to feet for improvised snowshoes.",
+          "illustrationDescription": "Improvised snowshoes."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Watch for thin ice: dark ice, snow-covered ice, and ice near moving water.",
+          "helpDetail": "Clear blue ice = strong. White/opaque ice = weaker (air bubbles). Snow masks thin spots. Near inlets/outlets ice is always thinner.",
+          "illustrationDescription": "Ice safety assessment."
+        }
+      ]
+    },
+    {
+      "id": "env-arctic-frostbite",
+      "name": "Frostbite Prevention & Treatment",
+      "subtitle": "Frozen tissue dies \u2014 prevent at all costs",
+      "category": "Arctic",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize: white/gray waxy skin, numbness, hardness.",
+          "helpDetail": "Frostbite progresses: frostnip (red, painful) \u2192 superficial (blistered, numb) \u2192 deep (hard, frozen solid). Early stages are fully reversible.",
+          "illustrationDescription": "Frostbite stages."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Rewarm in body heat: armpit, groin, stomach.",
+          "helpDetail": "Place frostbitten fingers in your armpits. Place frostbitten toes against a companion's stomach. Skin-to-skin contact is ideal.",
+          "illustrationDescription": "Body heat rewarming."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If possible, rewarm in 98-102\u00b0F water for 20-30 minutes.",
+          "helpDetail": "NOT hot water \u2014 lukewarm. Rewarming is extremely painful. Give pain medication first if available. Do NOT rub or massage.",
+          "illustrationDescription": "Warm water rewarming."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Do NOT rewarm if refreezing is possible.",
+          "helpDetail": "Thawed-then-refrozen tissue suffers far worse damage than tissue left frozen. If you can't maintain warmth, leave it frozen until you reach help.",
+          "illustrationDescription": "Warning: no refreeze."
+        }
+      ]
+    },
+    {
+      "id": "env-mountain-lightning",
+      "name": "Lightning Safety in Mountains",
+      "subtitle": "Get low, get small, get separate",
+      "category": "Mountain",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get below treeline and away from peaks, ridges, and isolated trees.",
+          "helpDetail": "Lightning strikes the highest point. If you're on a ridge, you ARE the highest point. Descend immediately when storms approach.",
+          "illustrationDescription": "Descending from ridge."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assume the lightning crouch: squat on balls of feet, arms around knees.",
+          "helpDetail": "Minimize ground contact. Ground current from nearby strikes kills more people than direct hits. The crouch keeps you small and reduces conduction path.",
+          "illustrationDescription": "Lightning crouch position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stay away from water, metal, and wet rock.",
+          "helpDetail": "Water conducts electricity. Metal (trekking poles, camp stoves) attracts nothing but conducts well. Ditch metal and move away from lakes/streams.",
+          "illustrationDescription": "Avoiding conductors."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Groups should spread 50+ feet apart.",
+          "helpDetail": "Ground current from a nearby strike can hit everyone if huddled together. Spread out so a single strike doesn't incapacitate all members.",
+          "illustrationDescription": "Group separation."
+        }
+      ]
+    },
+    {
+      "id": "env-mountain-altitude",
+      "name": "Mountain Altitude Management",
+      "subtitle": "Climb high, sleep low",
+      "category": "Mountain",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Above 8,000 ft: ascend no more than 1,000 ft per day.",
+          "helpDetail": "Your body needs time to increase red blood cell production. Ascending too fast outpaces adaptation.",
+          "illustrationDescription": "Ascent rate limit."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Climb high, sleep low.",
+          "helpDetail": "It's OK to climb 2,000 ft during the day for acclimatization, but return to lower camp to sleep. Your body acclimatizes best during rest at lower altitudes.",
+          "illustrationDescription": "Climb high sleep low."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hydrate aggressively \u2014 3-4 liters per day at altitude.",
+          "helpDetail": "Altitude increases fluid loss through respiration (drier air, faster breathing). Dehydration worsens altitude sickness.",
+          "illustrationDescription": "Hydration at altitude."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Golden rule: if symptoms worsen, descend immediately.",
+          "helpDetail": "AMS \u2192 HACE or HAPE can progress in hours. Altitude illness has one treatment: lower altitude. Everything else is a stopgap.",
+          "illustrationDescription": "Descend when symptoms worsen."
+        }
+      ]
+    },
+    {
+      "id": "env-ocean-survival",
+      "name": "Open Water Survival",
+      "subtitle": "Float, signal, conserve",
+      "category": "Ocean",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stay with the vessel or debris as long as possible.",
+          "helpDetail": "A boat, even capsized, is visible to rescuers. You are nearly invisible in open water. Climb on any floating debris.",
+          "illustrationDescription": "Staying with vessel."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "HELP position: Heat Escape Lessening Position.",
+          "helpDetail": "Cross arms over chest, pull knees to chest. This protects the three highest heat loss areas: head, armpits, groin. Reduces heat loss by 50%.",
+          "illustrationDescription": "HELP position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Signal with mirror, dye marker, whistle, or bright clothing.",
+          "helpDetail": "A signal mirror is visible for 50+ miles. Wave bright clothing. Use any dye to color the water around you for aerial detection.",
+          "illustrationDescription": "Ocean signaling."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Never drink seawater. Collect rain at every opportunity.",
+          "helpDetail": "Use any fabric, life raft surfaces, or clothing to channel rainwater into containers. Your survival depends entirely on fresh water.",
+          "illustrationDescription": "Rain collection at sea."
+        }
+      ]
+    },
+    {
+      "id": "env-flood-survival",
+      "name": "Flash Flood Survival",
+      "subtitle": "Get to high ground NOW",
+      "category": "Flood",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Move to high ground immediately. Do not wait.",
+          "helpDetail": "Flash floods can wall up to 20 feet high and arrive within minutes of rainfall. If you hear roaring water, you have seconds.",
+          "illustrationDescription": "Moving to high ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Never cross flowing water above your ankles.",
+          "helpDetail": "6 inches of fast-moving water can knock you down. 12 inches can carry away a vehicle. The force of flowing water is massively underestimated.",
+          "illustrationDescription": "Danger of flowing water."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If swept away: float on your back, feet downstream.",
+          "helpDetail": "Use your feet to push off obstacles. Do NOT try to stand up in moving water \u2014 foot entrapment is a leading cause of drowning.",
+          "illustrationDescription": "Defensive swimming position."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Never camp in dry washes, canyons, or valley floors.",
+          "helpDetail": "Flash floods can originate from storms miles away with no local rain. A dry wash can become a raging river in 15 minutes.",
+          "illustrationDescription": "Dangerous camping locations."
+        }
+      ]
+    },
+    {
+      "id": "env-urban-disaster",
+      "name": "Urban Disaster Survival",
+      "subtitle": "Earthquake, building collapse, civil unrest",
+      "category": "Urban",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Earthquake: DROP, COVER, HOLD ON.",
+          "helpDetail": "Under a sturdy desk or table. Away from windows and exterior walls. In bed: stay there, cover head with pillow. Doorways are NOT safer.",
+          "illustrationDescription": "Drop cover hold on."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "After shaking stops: check for gas leaks, structural damage.",
+          "helpDetail": "If you smell gas, open windows and leave. Do not use flames or electrical switches. Check for cracks in walls and foundation.",
+          "illustrationDescription": "Post-earthquake assessment."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Building collapse: protect airways, tap on pipes to signal.",
+          "helpDetail": "Cover nose and mouth with fabric. Do not use matches (gas leaks). Tap SOS on pipes or walls \u2014 sound travels through structure. Conserve energy.",
+          "illustrationDescription": "Signaling from rubble."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Civil unrest: stay indoors, fill bathtubs with water, secure doors.",
+          "helpDetail": "Water supply may be disrupted. Fill every container. Stay away from windows. Identify multiple exit routes from your building.",
+          "illustrationDescription": "Urban shelter in place."
+        }
+      ]
+    },
+    {
+      "id": "env-swamp-survival",
+      "name": "Swamp & Wetland Survival",
+      "subtitle": "Navigate insects, mud, and hidden dangers",
+      "category": "Swamp",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Test each step with a pole before committing weight.",
+          "helpDetail": "Probe ahead. If sinks more than knee-deep, reroute. Travel on game trails.",
+          "illustrationDescription": "Testing ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If stuck in mud: lean forward and swim/crawl out.",
+          "helpDetail": "Struggling creates suction. Lean forward to distribute weight. Remove pack first.",
+          "illustrationDescription": "Escaping mud."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Protect against insects: mud coating, smoke, long sleeves.",
+          "helpDetail": "Swamp insects carry disease. Cover skin with mud. Stay near smoky fire.",
+          "illustrationDescription": "Insect protection."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Water is abundant but contaminated\u2014always purify.",
+          "helpDetail": "Boil, filter, or use tablets. Never drink swamp water untreated.",
+          "illustrationDescription": "Purifying."
+        }
+      ]
+    },
+    {
+      "id": "env-cave-survival",
+      "name": "Cave Shelter Survival",
+      "subtitle": "Natural shelter with serious hazards",
+      "category": "Cave",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Check for animals before entering\u2014tracks, droppings, bones.",
+          "helpDetail": "Bears, snakes, and bats use caves. Look and listen before entering.",
+          "illustrationDescription": "Checking for animals."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stay near entrance. Never explore deep without light.",
+          "helpDetail": "Cave darkness is absolute. Getting lost inside is a death sentence.",
+          "illustrationDescription": "Stay near entrance."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build fire at entrance for warmth and predator deterrence.",
+          "helpDetail": "Smoke needs exit path. Cave reflects heat inward.",
+          "illustrationDescription": "Fire at entrance."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Watch for flooding\u2014caves are carved by water.",
+          "helpDetail": "Heavy rain floods passages in minutes. Stay above water marks on walls.",
+          "illustrationDescription": "Flood awareness."
+        }
+      ]
+    },
+    {
+      "id": "env-coastal-tidal",
+      "name": "Coastal & Tidal Survival",
+      "subtitle": "Tides, rip currents, shore foraging",
+      "category": "Ocean",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Learn tide cycle\u2014changes every ~6 hours.",
+          "helpDetail": "Note high water debris line on beach. Camp ABOVE it.",
+          "illustrationDescription": "Tide awareness."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Rip current: swim PARALLEL to shore, not against it.",
+          "helpDetail": "Rip currents pull straight out. Swim sideways until free.",
+          "illustrationDescription": "Escaping rip current."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Forage at low tide: tidal pools have shellfish, crabs, seaweed.",
+          "helpDetail": "Mussels, clams, limpets, snails\u2014all edible when cooked.",
+          "illustrationDescription": "Tidal foraging."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Signal from headlands\u2014most visible from sea and air.",
+          "helpDetail": "Build signal fires on high points. Lay SOS in rocks on beach.",
+          "illustrationDescription": "Coastal signaling."
+        }
+      ]
+    },
+    {
+      "id": "env-earthquake",
+      "name": "Earthquake Survival",
+      "subtitle": "Drop, Cover, Hold On \u2014 then assess",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "DROP to hands and knees. COVER under furniture. HOLD ON.",
+          "helpDetail": "Under desk or table. If nothing, interior wall. Cover head.",
+          "illustrationDescription": "Drop cover hold."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Outdoors: move to open area away from buildings and lines.",
+          "helpDetail": "Falling debris kills. Get away from walls and trees.",
+          "illustrationDescription": "Outdoor safety."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "After shaking: expect aftershocks. Check for injuries.",
+          "helpDetail": "Aftershocks can be strong. Stay alert for hours.",
+          "illustrationDescription": "After the quake."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Check for gas leaks, structural damage, fire hazards.",
+          "helpDetail": "Gas smell = leave immediately. No flames or switches.",
+          "illustrationDescription": "Hazard check."
+        }
+      ]
+    },
+    {
+      "id": "env-tornado",
+      "name": "Tornado Survival",
+      "subtitle": "Get underground or lowest interior room",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get to lowest floor. Basement ideal. Interior room.",
+          "helpDetail": "Bathroom, closet, hallway. Stay away from windows.",
+          "illustrationDescription": "Going low."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Under sturdy furniture. Cover head with arms or mattress.",
+          "helpDetail": "Flying debris kills, not wind. Protect head and vitals.",
+          "illustrationDescription": "Taking cover."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Outdoors: lie flat in ditch, cover head.",
+          "helpDetail": "Do NOT shelter under overpasses. Ditch is safer.",
+          "illustrationDescription": "Outdoor."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Vehicle: drive perpendicular to path or park, duck, seatbelt.",
+          "helpDetail": "Do not outrun. Park, duck below windows, cover with blanket.",
+          "illustrationDescription": "Vehicle."
+        }
+      ]
+    },
+    {
+      "id": "env-wildfire",
+      "name": "Wildfire Survival",
+      "subtitle": "Escape downhill, into wind, to burned zones",
+      "category": "Disaster",
+      "difficulty": 3,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Move downhill and into the wind.",
+          "helpDetail": "Fire travels uphill faster. Already-burned areas are safe zones.",
+          "illustrationDescription": "Escape direction."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cover mouth with wet cloth. Stay low.",
+          "helpDetail": "Smoke inhalation kills faster than burns. Crawl if thick.",
+          "illustrationDescription": "Smoke protection."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Go to water, roads, cleared areas, or burned zones.",
+          "helpDetail": "Rivers, roads, parking lots are firebreaks.",
+          "illustrationDescription": "Safe zones."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Trapped: clear vegetation, lie face down in depression.",
+          "helpDetail": "Clear 10-foot radius. Lie face down. Breathe ground-level air.",
+          "illustrationDescription": "Last resort."
+        }
+      ]
+    },
+    {
+      "id": "env-avalanche",
+      "name": "Avalanche Survival",
+      "subtitle": "Swim, air pocket, conserve oxygen",
+      "category": "Snow",
+      "difficulty": 3,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "If caught: swim aggressively to stay on surface.",
+          "helpDetail": "Backstroke motion. Ditch heavy gear\u2014it drags you down.",
+          "illustrationDescription": "Swimming."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "As it slows: cup hands over face for air pocket.",
+          "helpDetail": "This is your lifeline. 15-30 minutes of air.",
+          "illustrationDescription": "Air pocket."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When stopped: spit to determine which way is up.",
+          "helpDetail": "Gravity pulls saliva down. Dig upward.",
+          "illustrationDescription": "Finding up."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Push one arm up. Stay calm \u2014 panic uses 3x oxygen.",
+          "helpDetail": "If near surface, hand may break through for rescuers.",
+          "illustrationDescription": "Conserving."
+        }
+      ]
+    },
+    {
+      "id": "env-quicksand",
+      "name": "Quicksand Escape",
+      "subtitle": "You will NOT sink completely \u2014 stay calm",
+      "category": "Swamp",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stop moving. Do NOT struggle or kick.",
+          "helpDetail": "Quicksand is denser than body. Max waist-deep. Struggling worsens.",
+          "illustrationDescription": "Stop."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Drop pack and heavy items.",
+          "helpDetail": "Extra weight pushes deeper.",
+          "illustrationDescription": "Drop weight."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Lean back slowly. Float on your back.",
+          "helpDetail": "Spread arms wide. Increases surface area.",
+          "illustrationDescription": "Float."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wiggle legs to break suction. Pull out one at a time.",
+          "helpDetail": "Small movements. Pull at angle, not straight up. Slow wins.",
+          "illustrationDescription": "Wiggle free."
+        }
+      ]
+    },
+    {
+      "id": "env-lightning",
+      "name": "Lightning Safety",
+      "subtitle": "Get low, get small, avoid tall objects",
+      "category": "Mountain",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get off ridgelines, peaks, high ground immediately.",
+          "helpDetail": "Lightning strikes highest point. Descend if possible.",
+          "illustrationDescription": "Getting low."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Avoid tall trees, metal fences, water.",
+          "helpDetail": "All excellent conductors. Group of short trees safer than one tall.",
+          "illustrationDescription": "Avoiding conductors."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Lightning crouch: balls of feet, heels together, squat, ears covered.",
+          "helpDetail": "Minimizes ground contact. Heels together routes current around body.",
+          "illustrationDescription": "Crouch."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Strike victim is safe to touch. Begin CPR if needed.",
+          "helpDetail": "No charge remains. Check breathing and pulse immediately.",
+          "illustrationDescription": "Helping victim."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "env-article-desert",
+      "title": "Desert Survival Principles",
+      "body": "The desert kills through dehydration and heat. Everything else is secondary.\n\nThe Big Three rules:\n1. Shade is your primary need (shelter from sun)\n2. Water is your second need\n3. Everything else can wait\n\nBody mechanics in heat:\n- Resting in shade: 1 quart water per day to survive\n- Walking at night: 1 gallon per night\n- Walking in daytime: 1 quart per HOUR (unsustainable)\n\nCommon mistakes:\n- Walking during the day (dehydrates 3\u00d7 faster)\n- Rationing water (drink when thirsty \u2014 always)\n- Removing clothing (exposed skin dehydrates faster)\n- Following mirages (heat shimmer, not water)\n\nDesert navigation:\n- Sand dunes trend perpendicular to prevailing wind\n- Vegetation increases toward water\n- Roads and power lines lead to civilization\n- Aircraft contrails indicate flight paths between cities",
+      "relatedTechniqueIDs": [
+        "env-desert-travel",
+        "env-desert-shelter",
+        "env-desert-water"
+      ]
+    },
+    {
+      "id": "env-article-arctic",
+      "title": "Arctic & Cold Weather Survival",
+      "body": "Cold kills through hypothermia, which is insidious. You don't realize it's happening until you can't think clearly enough to act.\n\nThe insulation hierarchy:\n- Still air is the best insulator\n- Layering creates pockets of still air\n- Cotton kills (absorbs water, loses insulation)\n- Wool retains warmth when wet\n- Synthetic insulation dries fastest\n\nCaloric demands in extreme cold:\n- Shivering burns 400-600 calories per hour\n- Cold weather activity: 4,000-6,000 calories per day needed\n- Without adequate calories, hypothermia accelerates\n\nKey principles:\n- Stay DRY at all costs \u2014 wetness = death\n- Ventilate to prevent sweating inside layers\n- Keep extremities protected (fingers, toes, ears, nose)\n- Never sit directly on snow \u2014 insulate from ground\n- Eat before sleeping \u2014 digestion generates heat\n\nWind chill: 10\u00b0F with 30mph wind has the same cooling effect as -33\u00b0F in calm air. Wind protection is as important as insulation.",
+      "relatedTechniqueIDs": [
+        "env-arctic-shelter",
+        "env-arctic-travel",
+        "env-arctic-frostbite"
+      ]
+    },
+    {
+      "id": "env-article-jungle",
+      "title": "Tropical & Jungle Survival",
+      "body": "The jungle provides everything for survival \u2014 and everything that can kill you.\n\nAdvantages:\n- Abundant water (rainfall, streams, plants)\n- Abundant food (plants, insects, fish)\n- Unlimited building materials\n- Shelter from wind\n\nDangers:\n- Infections: every cut becomes infected within 24 hours in tropical humidity\n- Parasites: waterborne and insect-borne diseases are the primary threat\n- Dehydration: despite humidity, you sweat heavily and lose electrolytes\n- Immersion foot: constant wet feet leads to tissue breakdown\n- Predators: minimal risk compared to disease\n\nMedical priorities:\n1. Keep wounds clean and dry (impossible but try)\n2. Use mosquito netting religiously (malaria kills)\n3. Dry your feet completely once per day\n4. Boil ALL water (jungle water has the highest parasite load)\n5. Check body for leeches and ticks daily\n\nNavigation: Following water downstream is the most reliable method to reach civilization in tropical environments.",
+      "relatedTechniqueIDs": [
+        "env-jungle-travel",
+        "env-jungle-water",
+        "env-jungle-shelter"
+      ]
+    },
+    {
+      "id": "env-article-mountain",
+      "title": "Mountain Hazard Awareness",
+      "body": "Mountains compress multiple environments into short vertical distances. You can go from summer to winter in 3,000 feet of elevation.\n\nMain hazards by altitude:\n- Below treeline: exposure, getting lost, streams/rivers\n- At treeline: lightning, wind, sudden weather\n- Above treeline: altitude sickness, falls, avalanche, hypothermia\n\nWeather changes:\n- Mountains create their own weather. Clear mornings can become violent storms by 2 PM.\n- Temperature drops approximately 3.5\u00b0F per 1,000 feet of elevation gain\n- Start early, summit by noon, descend before afternoon storms\n\nAvalanche awareness:\n- Slopes 30-45\u00b0 are highest risk\n- New snow on old snow (weak layer) is the primary trigger\n- Convex slopes are more dangerous than concave\n- If buried: create air pocket in front of face, spit to determine which way is up (gravity), dig in the opposite direction\n\nFalls:\n- The #1 killer in mountains is falling\n- Self-arrest with ice axe: roll onto stomach, dig pick into slope\n- Three points of contact on exposed terrain at all times",
+      "relatedTechniqueIDs": [
+        "env-mountain-lightning",
+        "env-mountain-altitude"
+      ]
+    },
+    {
+      "id": "env-article-ocean",
+      "title": "Ocean & Coastal Survival",
+      "body": "Survival at sea is one of the most challenging environments. Your three enemies: dehydration, hypothermia, and sun exposure.\n\nSurvival priorities at sea:\n1. Stay afloat (PFD, debris, HELP position)\n2. Protection from elements (shade from sun, insulate from cold water)\n3. Fresh water (rain collection is your only reliable source)\n4. Signaling (mirror, dye, flares, electronics)\n5. Food (last on the list \u2014 you can survive weeks without food)\n\nCold water immersion survival:\n- 50\u00b0F water: 1-3 hours\n- 60\u00b0F water: 3-12 hours\n- 70\u00b0F water: 12-40 hours\n- 80\u00b0F water: indefinite (but sunburn and dehydration kill)\n\nIf in a life raft:\n- Stay dry if possible (wet clothing in the open = hypothermia)\n- Collect rainwater in every possible surface\n- Fish for food: trailing a line behind the raft works\n- Signal EVERY aircraft and vessel\n- Maintain morale: routine, tasks, hope\n\nShark awareness: sharks rarely attack humans. Avoid splashing, bleeding in water, and dawn/dusk swimming. If approached, maintain eye contact and back away slowly.",
+      "relatedTechniqueIDs": [
+        "env-ocean-survival"
+      ]
+    },
+    {
+      "id": "env-article-flood",
+      "title": "Flood & Water Emergency Preparedness",
+      "body": "Floods are the #1 natural disaster killer worldwide. Most flood deaths are from vehicles driving into floodwater.\n\nCritical rules:\n- Turn around, don't drown: NEVER drive through flooded roads\n- 6 inches of water knocks you down\n- 12 inches of water carries away a car\n- 2 feet of water carries away an SUV/truck\n\nFlash flood indicators:\n- Heavy rain upstream (you may not see it locally)\n- Rising water in streams/creeks\n- Roaring sound from upstream\n- Muddy water where it was clear\n- Debris floating downstream\n\nIf trapped by rising water:\n- Go to the highest accessible point\n- Signal with lights, bright clothing, mirrors\n- Do NOT enter floodwater to swim\n- If swept away: float on back, feet downstream\n- Grab any stable object and climb above water\n\nAfter flood:\n- Never drink floodwater (sewage, chemicals, debris)\n- Avoid walking through standing water (contamination, hidden holes, downed power lines)\n- Check structural integrity before entering buildings",
+      "relatedTechniqueIDs": [
+        "env-flood-survival"
+      ]
+    }
+  ]
+}

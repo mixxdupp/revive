@@ -1,0 +1,730 @@
+{
+  "domain": "tools",
+  "domainDisplayName": "Tools & Knots",
+  "techniques": [
+    {
+      "id": "tools-bowline",
+      "name": "Bowline Knot",
+      "subtitle": "The king of knots \u2014 a fixed loop that won't slip",
+      "category": "Knots",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Form a small loop in the standing part of the rope.",
+          "helpDetail": "The 'rabbit hole.' The standing part is the long unused end. The working end is what you're tying with.",
+          "illustrationDescription": "Small loop in rope."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pass the working end UP through the loop.",
+          "helpDetail": "The rabbit comes out of the hole.",
+          "illustrationDescription": "Working end through loop."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Go around behind the standing part.",
+          "helpDetail": "The rabbit goes around the tree.",
+          "illustrationDescription": "Around standing part."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Pass back DOWN through the same loop.",
+          "helpDetail": "The rabbit goes back in the hole. Pull tight. The bowline creates a fixed-size loop that will NOT tighten under load.",
+          "illustrationDescription": "Back through the loop."
+        }
+      ]
+    },
+    {
+      "id": "tools-clove-hitch",
+      "name": "Clove Hitch",
+      "subtitle": "Fast tie to a post or tree",
+      "category": "Knots",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Wrap the rope around the post once.",
+          "helpDetail": "Start by going over the post, bringing the working end across the standing part.",
+          "illustrationDescription": "First wrap around post."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cross over the first wrap and wrap around the post again.",
+          "helpDetail": "The second wrap should go OVER the standing part, creating an X pattern.",
+          "illustrationDescription": "Second wrap crossing over."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Tuck the working end under the second wrap.",
+          "helpDetail": "Pull tight. The clove hitch grips under tension. Use for ridge poles, hanging clotheslines, and temporary anchors. Not for critical loads \u2014 it can slip.",
+          "illustrationDescription": "Working end tucked under."
+        }
+      ]
+    },
+    {
+      "id": "tools-taut-line",
+      "name": "Taut-Line Hitch",
+      "subtitle": "Adjustable tension knot for guylines",
+      "category": "Knots",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Loop rope around anchor (tree, stake).",
+          "helpDetail": "The working end comes back toward you with the rope going around the anchor point.",
+          "illustrationDescription": "Loop around anchor."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Make 2 wraps inside the loop around the standing part.",
+          "helpDetail": "Coil the working end around the standing part INSIDE the loop \u2014 going toward the anchor. Two full wraps.",
+          "illustrationDescription": "Two inside wraps."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make 1 wrap outside the loop above the coils.",
+          "helpDetail": "One more wrap OUTSIDE (above) the loop around the standing part.",
+          "illustrationDescription": "One outside wrap."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Slide the knot to adjust tension.",
+          "helpDetail": "The taut-line hitch grips when loaded but slides when unloaded. Perfect for tent guylines, tarps, and clotheslines.",
+          "illustrationDescription": "Sliding knot for adjustment."
+        }
+      ]
+    },
+    {
+      "id": "tools-square-lashing",
+      "name": "Square Lashing",
+      "subtitle": "Join two poles at right angles",
+      "category": "Knots",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Start with a clove hitch on the vertical pole.",
+          "helpDetail": "Tie immediately below where the horizontal pole will cross. This is your anchor.",
+          "illustrationDescription": "Clove hitch start."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Weave over and under alternately around both poles.",
+          "helpDetail": "Go over the horizontal, under the vertical, over the horizontal, under the vertical. Work in a square pattern.",
+          "illustrationDescription": "Square weaving pattern."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make 3-4 complete wrapping turns.",
+          "helpDetail": "Keep wraps tight and parallel. Each turn should be snug against the previous one.",
+          "illustrationDescription": "Multiple tight wraps."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Frapping: wrap tightly between the poles to tighten.",
+          "helpDetail": "Frapping turns go between the poles (perpendicular to the lashing turns) and cinch everything tight. 2-3 frapping turns.",
+          "illustrationDescription": "Frapping turns."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Finish with a clove hitch on the horizontal pole.",
+          "helpDetail": "Square lashing is used for shelter frames, racks, bridges, ladders, and any structure requiring right-angle joints.",
+          "illustrationDescription": "Finished lashing."
+        }
+      ]
+    },
+    {
+      "id": "tools-knife-sharpening",
+      "name": "Field Knife Sharpening",
+      "subtitle": "A dull knife is a dangerous knife",
+      "category": "Blade",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a smooth, fine-grained stone (river rock works).",
+          "helpDetail": "Sandstone, granite, or any smooth stone. The bottom of a ceramic mug also works in civilized settings. Wet the stone.",
+          "illustrationDescription": "Sharpening stone."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Hold blade at 15-20 degree angle to the stone.",
+          "helpDetail": "Lay blade flat, then raise spine about two nickels' thickness. Maintain this angle consistently \u2014 angle consistency matters more than angle precision.",
+          "illustrationDescription": "Proper blade angle."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sweep the blade across the stone in smooth strokes, alternating sides.",
+          "helpDetail": "Edge leading, sweeping from heel to tip. Maintain consistent pressure. 10 strokes per side, then alternate.",
+          "illustrationDescription": "Sharpening strokes."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Test sharpness: slice a leaf or shave arm hair.",
+          "helpDetail": "A sharp knife should slice paper or a leaf cleanly. If it tears, continue sharpening. Finish with lighter strokes for a fine edge.",
+          "illustrationDescription": "Testing sharpness."
+        }
+      ]
+    },
+    {
+      "id": "tools-flint-knapping",
+      "name": "Flint Knapping (Stone Tools)",
+      "subtitle": "Make a cutting edge from stone",
+      "category": "Blade",
+      "difficulty": 3,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find flint, chert, obsidian, or quartz.",
+          "helpDetail": "These glassy, fine-grained stones fracture predictably. They're found near riverbeds, chalk deposits, and volcanic areas.",
+          "illustrationDescription": "Suitable stone types."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Strike the edge with a harder hammerstone at a 45-degree angle.",
+          "helpDetail": "Strike downward and outward. The conchoidal fracture removes thin flakes. The flakes themselves are razor-sharp cutting tools.",
+          "illustrationDescription": "Striking to create flakes."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use the sharp flakes as-is for cutting.",
+          "helpDetail": "Fresh flint flakes are sharper than surgical steel. Handle with care \u2014 wrap the non-cutting edge with bark or leather.",
+          "illustrationDescription": "Using sharp flakes."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Shape a larger piece into a hand axe by removing flakes around the edges.",
+          "helpDetail": "Work from both sides, thinning and shaping. This is the oldest human technology \u2014 2.6 million years proven. It works.",
+          "illustrationDescription": "Shaping hand axe."
+        }
+      ]
+    },
+    {
+      "id": "tools-cordage",
+      "name": "Natural Fiber Cordage",
+      "subtitle": "Make rope from plant fibers",
+      "category": "Craft",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Gather long, strong plant fibers: inner bark, yucca, nettle, dogbane.",
+          "helpDetail": "Peel inner bark from dead trees. Soak tough fibers to soften. The longer the fibers, the stronger the cordage.",
+          "illustrationDescription": "Gathering plant fibers."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Bundle 2-3 fibers and twist them tightly in one direction.",
+          "helpDetail": "Pinch the bundle at the midpoint. Twist AWAY from you. This is the 'Z-twist.'",
+          "illustrationDescription": "Twisting fiber bundle."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Fold the twisted bundle in half and let it spin back on itself.",
+          "helpDetail": "The two halves wrap around each other in the opposite direction (S-twist). This opposing twist is what creates strength.",
+          "illustrationDescription": "Reverse twist forming cordage."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Add new fibers by overlapping 2-3 inches before the old run out.",
+          "helpDetail": "Stagger additions so splices don't align. This lets you make cordage of unlimited length. Test strength after each splice.",
+          "illustrationDescription": "Adding new fibers."
+        }
+      ]
+    },
+    {
+      "id": "tools-improvised-container",
+      "name": "Improvised Containers",
+      "subtitle": "Carry, store, and cook without pots",
+      "category": "Craft",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Birch bark container: fold bark into box shape, pin with thorns.",
+          "helpDetail": "Birch bark peels easily and is waterproof. Score fold lines, fold up sides, pin corners with thorns or tie with cordage.",
+          "illustrationDescription": "Birch bark box."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Green bamboo section: cut between nodes for natural cup.",
+          "helpDetail": "The nodes form natural sealed bottoms. Cut above one node for a cup. Save longer sections for bottles.",
+          "illustrationDescription": "Bamboo cup."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stone bowl: find a concave rock and grind it deeper.",
+          "helpDetail": "Use a harder stone to abrade the cavity. River-smooth concave rocks are ideal starting points.",
+          "illustrationDescription": "Stone bowl carving."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Woven basket: weave flexible branches in over-under pattern.",
+          "helpDetail": "Willow, reed, or split bamboo. Start with a cross base, weave outward. Line with large leaves for waterproofing.",
+          "illustrationDescription": "Woven basket."
+        }
+      ]
+    },
+    {
+      "id": "tools-spear-making",
+      "name": "Making a Survival Spear",
+      "subtitle": "Defense, hunting, and utility tool",
+      "category": "Weapons",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a straight hardwood pole 5-6 feet long.",
+          "helpDetail": "Green hardwood \u2014 ash, oak, hickory, or ironwood. Avoid softwoods (pine, willow) which dull quickly.",
+          "illustrationDescription": "Selecting pole."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve the tip with a knife or sharp stone into a point.",
+          "helpDetail": "Long, tapering point. A wider taper is stronger; a narrow taper is sharper. Compromise based on intended use.",
+          "illustrationDescription": "Carving spear point."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Fire-harden the tip by slowly rotating above hot coals.",
+          "helpDetail": "The heat case-hardens the wood. Rotate constantly to avoid charring. The tip should darken slightly and become extremely hard.",
+          "illustrationDescription": "Fire-hardening tip."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "For a better spear: lash a stone or metal blade to the tip.",
+          "helpDetail": "Split the shaft, insert the blade, and lash tightly with cordage. Apply pine resin over the lashing for waterproofing and adhesion.",
+          "illustrationDescription": "Lashing blade to shaft."
+        }
+      ]
+    },
+    {
+      "id": "tools-sling",
+      "name": "Throwing Sling",
+      "subtitle": "David's weapon \u2014 hunt and defend at range",
+      "category": "Weapons",
+      "difficulty": 3,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut two 24-inch lengths of cordage and a leather or woven pouch.",
+          "helpDetail": "The pouch holds the projectile. Cordage can be paracord, natural fiber, or even shoelaces. The pouch should cradle a fist-sized rock.",
+          "illustrationDescription": "Sling components."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Attach cords to each side of the pouch.",
+          "helpDetail": "One cord gets a finger loop (retention cord). The other gets a simple knot at the end (release cord).",
+          "illustrationDescription": "Assembling sling."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Load a round stone and swing overhead in a circular motion.",
+          "helpDetail": "Whirl 2-3 times overhead. Smooth, round stones fly straightest. Practice extensively before hunting.",
+          "illustrationDescription": "Overhead sling motion."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Release the knotted cord at the right moment to launch the projectile.",
+          "helpDetail": "Release when the stone is aimed at target (forward position in the circle). Effective range: 30-100 meters. Accurate with practice.",
+          "illustrationDescription": "Releasing projectile."
+        }
+      ]
+    },
+    {
+      "id": "tools-repair",
+      "name": "Field Gear Repair",
+      "subtitle": "Fix equipment with natural materials",
+      "category": "Repair",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Pine resin glue: melt pine sap and mix with charcoal dust.",
+          "helpDetail": "Equal parts pine resin and crushed charcoal + a small amount of fiber (rabbit droppings or dried grass). Heat until liquid, apply while warm.",
+          "illustrationDescription": "Making pine resin glue."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Patch holes in fabric with pine resin and a fabric patch.",
+          "helpDetail": "Apply warm resin to both surfaces. Press together. Let cool. This waterproof patch works on tents, packs, and clothing.",
+          "illustrationDescription": "Patching fabric."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Splint broken tool handles with sticks and cordage lashing.",
+          "helpDetail": "Place a shorter stick alongside the break. Lash tightly above and below the break. Apply pine resin over the lashing.",
+          "illustrationDescription": "Splinting broken handle."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Sew tears using a bone or thorn needle and plant fiber thread.",
+          "helpDetail": "Sharpen a thin bone fragment or use a strong thorn. Thread with inner bark fiber. Use a simple running stitch.",
+          "illustrationDescription": "Sewing with bone needle."
+        }
+      ]
+    },
+    {
+      "id": "tools-camp-organization",
+      "name": "Camp Organization",
+      "subtitle": "Efficient camp layout saves time and energy",
+      "category": "Camp",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Fire pit at center, downwind from shelter.",
+          "helpDetail": "Wind should blow smoke AWAY from your sleeping area. Place fire close enough for warmth but far enough to prevent sparks igniting your shelter.",
+          "illustrationDescription": "Fire pit placement."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Food storage 200 feet from camp, hung from a tree.",
+          "helpDetail": "This prevents wildlife encounters. Hang food at least 12 feet high and 6 feet from the trunk. Use a bear bag technique.",
+          "illustrationDescription": "Food hung from tree."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Latrine 200 feet from camp, downhill from water source.",
+          "helpDetail": "Dig a cat hole 6-8 inches deep. Always downstream and downhill from your water source and camp. Cover after each use.",
+          "illustrationDescription": "Latrine placement."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Tool and supply area organized within arm's reach of shelter.",
+          "helpDetail": "Keep knife, fire kit, water, and first aid within reach even in the dark. Establish fixed locations so you find things by feel.",
+          "illustrationDescription": "Organized supply area."
+        }
+      ]
+    },
+    {
+      "id": "tools-fish-hook",
+      "name": "Carving a Fish Hook",
+      "subtitle": "Bone, thorn, or wood\u2014the oldest fishing technology",
+      "category": "Craft",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a thorn, bone splinter, safety pin, or hardwood twig.",
+          "helpDetail": "Hawthorn thorns are natural hooks. Bone from a meal works.",
+          "illustrationDescription": "Hook materials."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Gorge hook: sharpen both ends of a 1-inch splinter, tie in middle.",
+          "helpDetail": "Fish swallows it, it turns sideways and catches.",
+          "illustrationDescription": "Gorge hook."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Curved hook: heat and bend thorn/wire into J-shape with barb.",
+          "helpDetail": "Heat over fire to make bendable. Cut small notch for barb.",
+          "illustrationDescription": "Curved hook."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Attach to line with clinch knot. Test pull before fishing.",
+          "helpDetail": "Thread, wrap 5 times, pull through loop.",
+          "illustrationDescription": "Attaching hook."
+        }
+      ]
+    },
+    {
+      "id": "tools-net-making",
+      "name": "Net Making",
+      "subtitle": "Catch fish and small game with woven net",
+      "category": "Craft",
+      "difficulty": 3,
+      "estimatedTime": "2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make cordage first\u2014need 50-100 feet minimum.",
+          "helpDetail": "Natural fiber, paracord inner strands, or any thin strong string.",
+          "illustrationDescription": "Preparing cordage."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tie horizontal header line between two supports.",
+          "helpDetail": "This is top edge. The net hangs from this line.",
+          "illustrationDescription": "Header line."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Tie vertical lines using sheet bend knots at intervals.",
+          "helpDetail": "1-inch for minnows, 2-3 inches for larger fish.",
+          "illustrationDescription": "Vertical lines."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Weave horizontal rows, knotting at each intersection.",
+          "helpDetail": "Use mesh gauge stick for consistency. Sheet bend at each cross.",
+          "illustrationDescription": "Weaving."
+        }
+      ]
+    },
+    {
+      "id": "tools-bow-making",
+      "name": "Bow & Arrow Making",
+      "subtitle": "Hunting weapon from natural materials",
+      "category": "Weapons",
+      "difficulty": 3,
+      "estimatedTime": "3 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find dead, dry hardwood stave \u2014 yew, ash, hickory, oak.",
+          "helpDetail": "5-6 feet, 1.5 inches thick. No cracks. Dry and springy.",
+          "illustrationDescription": "Selecting wood."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve belly for flex, leave flat back intact.",
+          "helpDetail": "Never cut into the back. Taper from thick center to thin tips.",
+          "illustrationDescription": "Carving."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Notch tips. String with cordage or sinew.",
+          "helpDetail": "String slightly shorter than bow. 6-8 inches of curve when strung.",
+          "illustrationDescription": "Stringing."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Arrows: straight dry sticks with sharpened tips and feather fletching.",
+          "helpDetail": "2-3 feet, pencil thickness. Weight front more than back.",
+          "illustrationDescription": "Making arrows."
+        }
+      ]
+    },
+    {
+      "id": "tools-stone-axe",
+      "name": "Stone Axe Construction",
+      "subtitle": "Splitting and chopping with stone",
+      "category": "Primitive",
+      "difficulty": 3,
+      "estimatedTime": "2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find flat, hard stone with natural edge.",
+          "helpDetail": "River rocks often pre-shaped. Flat oval, fits in hand.",
+          "illustrationDescription": "Selecting stone."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Shape edge by pecking with harder stone.",
+          "helpDetail": "Strike along intended edge. Alternate sides. Wedge shape.",
+          "illustrationDescription": "Shaping."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Split green wood handle, wedge stone inside.",
+          "helpDetail": "2-foot hardwood branch. Insert head. Bind with cordage.",
+          "illustrationDescription": "Hafting."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wrap split with wet rawhide \u2014 shrinks as it dries.",
+          "helpDetail": "Creates incredibly strong bond. Figure-8 wrap pattern.",
+          "illustrationDescription": "Binding."
+        }
+      ]
+    },
+    {
+      "id": "tools-trap-triggers",
+      "name": "Trap Trigger Mechanisms",
+      "subtitle": "Figure-4 and toggle trigger systems",
+      "category": "Trapping",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Figure-4: three sticks notched to hold under tension.",
+          "helpDetail": "Vertical supports horizontal bait stick. Diagonal holds deadfall weight.",
+          "illustrationDescription": "Figure-4."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve matching notches that lock under pressure.",
+          "helpDetail": "Too loose = premature. Too tight = won't trigger. Practice first.",
+          "illustrationDescription": "Carving notches."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Toggle: stick through loop holds bent sapling.",
+          "helpDetail": "When toggle pulled from loop, tree snaps upright.",
+          "illustrationDescription": "Toggle."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Connect trigger to snare loop or deadfall weight.",
+          "helpDetail": "Trigger releases stored energy. Bait platform connects to trigger.",
+          "illustrationDescription": "Connecting."
+        }
+      ]
+    },
+    {
+      "id": "tools-bone-needle",
+      "name": "Bone Needle Making",
+      "subtitle": "Sewing gear from animal bone",
+      "category": "Crafting",
+      "difficulty": 2,
+      "estimatedTime": "1 hour",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a splinter of dense leg bone (deer/cow).",
+          "helpDetail": "Fresh bone relies on natural oils. Old bone is brittle. Shatter a leg bone to get splinters.",
+          "illustrationDescription": "Selecting bone."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Grind on sandstone to shape and sharpen.",
+          "helpDetail": "Rub against abrasive rock. Shape into a thick needle. Constant water lubrication helps.",
+          "illustrationDescription": "Grinding."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Drill the eye using a sharp flint flake or metal tip.",
+          "helpDetail": "Rotate the drill back and forth. Drill halfway from one side, then meet from the other to avoid splitting.",
+          "illustrationDescription": "Drilling eye."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Polish smooth to prevent fraying cordage.",
+          "helpDetail": "Smooth the eye hole carefully. Any rough edge will cut your thread.",
+          "illustrationDescription": "Polishing."
+        }
+      ]
+    },
+    {
+      "id": "tools-bark-container",
+      "name": "Bark Container / Basket",
+      "subtitle": "Carry water or berries with tree bark",
+      "category": "Container",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut a rectangle of flexible bark (birch, poplar, elm).",
+          "helpDetail": "Peel carefully in spring/summer when sap is running. Avoid damaging the tree if possible (use fallen log).",
+          "illustrationDescription": "Peeling bark."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Fold the corners inward to create a tub shape.",
+          "helpDetail": "Like folding a paper box. Determine the depth.",
+          "illustrationDescription": "Folding corners."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Secure corners with split root or cordage stitches.",
+          "helpDetail": "Punch holes with an awl. Stitch the folds together.",
+          "illustrationDescription": "Stitching."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Seal seams with pine pitch for waterproofing.",
+          "helpDetail": "Melt pine resin mixed with charcoal. Smear over seams/holes to make it water-tight.",
+          "illustrationDescription": "Sealing."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "tools-article-knots",
+      "title": "Essential Knots Every Survivor Must Know",
+      "body": "You don't need to know 50 knots. You need to know 5 perfectly.\n\nThe essential five:\n1. Bowline \u2014 fixed loop, rescue, tying to rings/anchors\n2. Clove Hitch \u2014 quick tie to posts, ridge poles, temporary anchors\n3. Taut-Line Hitch \u2014 adjustable tension for guylines and shelters\n4. Sheet Bend \u2014 joining two ropes of different diameters\n5. Figure-8 \u2014 stopper knot, climbing anchor\n\nKnot principles:\n- A knot reduces rope strength by 20-50%. The sharper the bends, the more strength lost.\n- Wet knots are harder to untie \u2014 use knots with easy release in wet conditions.\n- All knots should be dressed (tightened neatly) and set (loaded gently before heavy use).\n- Practice until you can tie them in the dark, wet, with cold hands.\n\nLashing vs knots:\nLashings join structural members (shelter building). Knots connect ropes or ropes to objects. Learn both. Square lashing for right angles, diagonal lashing for X-joints, sheer lashing for A-frames.",
+      "relatedTechniqueIDs": [
+        "tools-bowline",
+        "tools-clove-hitch",
+        "tools-taut-line",
+        "tools-square-lashing"
+      ]
+    },
+    {
+      "id": "tools-article-blade",
+      "title": "The Survival Knife: Your Most Important Tool",
+      "body": "If you can carry only one tool into the wilderness, carry a knife. It makes every other tool.\n\nWith a knife you can:\n- Build shelter (cut branches, split wood, carve stakes)\n- Start fire (baton wood, make feather sticks, throw sparks with ferro rod)\n- Get food (carve snares, spear, fishhooks, process game)\n- Make tools (carve bowls, spoons, handles, digging sticks)\n- First aid (cut bandages, remove splinters, improvise tools)\n\nIdeal survival knife:\n- Full-tang fixed blade (folding knives break under stress)\n- 4-5 inch blade (large enough to baton, small enough for detail)\n- High carbon steel (easier to sharpen in the field than stainless)\n- Flat or scandi grind (most versatile for bushcraft)\n- No serrations (hard to sharpen without tools)\n\nField care:\n- Clean and dry after each use\n- Oil the blade with any fat to prevent rust\n- Sharpen regularly \u2014 10 strokes per side daily\n- Never throw your knife (you risk losing or breaking it)\n- Always cut away from your body\n\nBatoning: split wood by placing the knife edge on the end of a log and striking the spine with another piece of wood. This splits wood without an axe.",
+      "relatedTechniqueIDs": [
+        "tools-knife-sharpening",
+        "tools-flint-knapping"
+      ]
+    },
+    {
+      "id": "tools-article-repair",
+      "title": "Field Repair & Improvisation",
+      "body": "In survival, everything breaks eventually. The ability to repair and improvise separates survivors from victims.\n\nUniversal repair materials found in nature:\n- Pine resin: waterproof glue, sealant, fire starter, torch fuel\n- Plant cordage: rope, thread, lashing, fishing line\n- Bone: needles, hooks, toggles, awls, scrapers\n- Rock: hammers, anvils, scrapers, cutting edges\n- Clay: pottery, ovens, sealant, fire reflectors\n- Birch bark: containers, shingles, fire starter, waterproofing\n\nPine resin recipe (the survival super-glue):\n1. Collect hardened sap from pine/spruce trees\n2. Heat slowly until liquid (do not boil)\n3. Mix 1:1 with crushed charcoal\n4. Add small amount of plant fiber\n5. Apply while warm \u2014 hardens as it cools\n\nMental framework: Every object has multiple uses. A belt is a strap, a tourniquet, a strop, a lashing. A tarp is a shelter, a rain collector, a carrying bag, a signaling device. Think in terms of material properties (strong, sharp, flexible, waterproof) not intended use.",
+      "relatedTechniqueIDs": [
+        "tools-repair",
+        "tools-cordage",
+        "tools-improvised-container"
+      ]
+    },
+    {
+      "id": "tools-article-camp",
+      "title": "Camp Setup & Management",
+      "body": "A well-organized camp is a force multiplier. Disorganization wastes time, energy, and morale.\n\nCamp selection criteria:\n- Water: within 200 yards but not in a flood plain\n- Shelter: protected from wind, not under dead trees/branches\n- Fire: dry ground, fuel nearby, fire reflector potential\n- Signals: visible from air/ground, near open area\n- Hazards: away from animal trails, ant hills, hornet nests, cliff edges\n\nCamp zones (concentric rings):\n1. Sleep zone: warmest, most protected, clean\n2. Work zone: fire, cooking, tool maintenance\n3. Storage zone: food cache, water storage, firewood\n4. Waste zone: latrine, garbage pit, fish cleaning\n\nFirewood rule of three:\n- The firewood you think you need \u00d7 3 = what you actually need\n- Gather firewood before dark \u2014 ALWAYS\n- Sort by size: tinder, kindling, fuel, overnight logs\n\nDefensive camp features:\n- Noise-makers on perimeter approach lines (cans with rocks, sticks)\n- Fire maintained through night (deters most wildlife)\n- Food hung 12+ feet, 200+ feet from camp\n- Clear sightlines around shelter",
+      "relatedTechniqueIDs": [
+        "tools-camp-organization"
+      ]
+    }
+  ]
+}

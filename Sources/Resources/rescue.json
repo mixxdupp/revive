@@ -1,0 +1,564 @@
+{
+  "domain": "rescue",
+  "domainDisplayName": "Rescue & Signaling",
+  "techniques": [
+    {
+      "id": "rescue-signal-fire",
+      "name": "Signal Fire",
+      "subtitle": "Three fires in a triangle = universal distress",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build 3 fires in a triangle, 100 feet apart.",
+          "helpDetail": "Three of anything in a triangle is the international distress signal. Place on high ground, clearings, or near open water for maximum visibility.",
+          "illustrationDescription": "Three fires in triangle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Prepare each fire with dry tinder and kindling, ready to light.",
+          "helpDetail": "Have them pre-built so you can light quickly when you hear/see aircraft. Keep fire-starting materials dry and ready.",
+          "illustrationDescription": "Pre-built fire stacks."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Add green branches or wet material for heavy smoke.",
+          "helpDetail": "Smoke is visible from much greater distance than flame. Green leaves, wet grass, or rubber produce thick white/black smoke.",
+          "illustrationDescription": "Adding green branches for smoke."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "At night, flames are more visible than smoke.",
+          "helpDetail": "At night, keep fires burning with dry wood for bright flames. During day, switch to smoky materials.",
+          "illustrationDescription": "Bright flames at night."
+        }
+      ]
+    },
+    {
+      "id": "rescue-signal-mirror",
+      "name": "Signal Mirror",
+      "subtitle": "Visible 50+ miles on a clear day",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Any reflective surface works: mirror, CD, phone screen, metal.",
+          "helpDetail": "Commercial signal mirrors are the best but ANY reflective object can work. Even a belt buckle or aluminum foil.",
+          "illustrationDescription": "Various reflective surfaces."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Hold the mirror near your eye and extend your other hand toward the target.",
+          "helpDetail": "The target is the aircraft, boat, or distant point you want to signal.",
+          "illustrationDescription": "Mirror held near eye."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Reflect sunlight onto your extended hand, then move hand to align flash with target.",
+          "helpDetail": "The bright spot on your hand tells you where the reflection is pointing. Move it until it's on the target. Sweep back and forth across the target.",
+          "illustrationDescription": "Aiming flash at target."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Flash in sets of three (SOS pattern) \u2014 three short, three long, three short.",
+          "helpDetail": "Keep signaling even if you think the aircraft hasn't seen you. Pilots scan with binoculars and may see you long before you realize it.",
+          "illustrationDescription": "SOS flash pattern."
+        }
+      ]
+    },
+    {
+      "id": "rescue-ground-signal",
+      "name": "Ground-to-Air Signals",
+      "subtitle": "Large visible markers for aircraft",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create symbols at least 10 feet tall, 3 feet wide.",
+          "helpDetail": "Bigger is always better. Use contrasting materials against the ground \u2014 dark rocks on light sand, light clothing on dark soil.",
+          "illustrationDescription": "Large ground signal."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Standard signals: V = need assistance, X = need medical help, \u2192 = traveling this direction.",
+          "helpDetail": "I = need medical supplies. F = need food and water. LL = all is well. These are ICAO standard ground-to-air visual signals.",
+          "illustrationDescription": "Standard signal symbols."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place in open areas visible from above \u2014 clearings, hilltops, beaches.",
+          "helpDetail": "Avoid placing under tree canopy. Signals must be visible from directly above and at angles.",
+          "illustrationDescription": "Signal in open clearing."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Add shadow-casting height for visibility from low angles.",
+          "helpDetail": "Stack rocks, logs, or mound dirt to create 3D signals that cast shadows. Shadows dramatically increase visibility.",
+          "illustrationDescription": "3D signal with shadows."
+        }
+      ]
+    },
+    {
+      "id": "rescue-whistle",
+      "name": "Whistle Signal",
+      "subtitle": "Three blasts = help needed",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Three short blasts = international distress signal.",
+          "helpDetail": "Three of anything (blasts, flashes, fires) means distress. Two blasts means reply/acknowledgment.",
+          "illustrationDescription": "Three whistle blasts."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Repeat every minute until you get a response.",
+          "helpDetail": "A whistle carries further than shouting and requires far less energy. You can whistle all day; you'll lose your voice in hours.",
+          "illustrationDescription": "Repeating signal pattern."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If no whistle: bang rocks, sticks, or use a loud clapping sound.",
+          "helpDetail": "Any rhythmic noise in sets of three carries the distress message. Banging a pot lid is very effective.",
+          "illustrationDescription": "Alternative noise signals."
+        }
+      ]
+    },
+    {
+      "id": "rescue-sos",
+      "name": "SOS in Morse Code",
+      "subtitle": "\u00b7 \u00b7 \u00b7 \u2014 \u2014 \u2014 \u00b7 \u00b7 \u00b7 (3 short, 3 long, 3 short)",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "SOS = 3 short, 3 long, 3 short. Any medium: light, sound, flag.",
+          "helpDetail": "Short = quick flash/tap. Long = 3\u00d7 the duration of short. This is the most universally recognized distress signal.",
+          "illustrationDescription": "SOS pattern diagram."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "With a flashlight: quick-quick-quick, looong-looong-looong, quick-quick-quick.",
+          "helpDetail": "Aim at aircraft, boats, or distant camps. Repeat continuously. Even a phone screen works.",
+          "illustrationDescription": "Flashlight SOS."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Write SOS in sand, snow, or any visible surface.",
+          "helpDetail": "Make letters as large as possible. Use contrasting materials. SOS is understood in every language worldwide.",
+          "illustrationDescription": "SOS written large."
+        }
+      ]
+    },
+    {
+      "id": "rescue-phone-emergency",
+      "name": "Maximizing Phone Battery in Emergency",
+      "subtitle": "Get the most from your dying phone",
+      "category": "Technology",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Turn on airplane mode immediately.",
+          "helpDetail": "The #1 battery drain is your phone searching for cell signal. In wilderness with no signal, it searches continuously, killing the battery.",
+          "illustrationDescription": "Airplane mode toggle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Turn off airplane mode ONLY to attempt calls/texts, then back on.",
+          "helpDetail": "Climb to high ground, turn off airplane mode, attempt contact, then turn it back on. Each attempt should be deliberate.",
+          "illustrationDescription": "Strategic signal attempts."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Send texts instead of calling \u2014 texts use far less power.",
+          "helpDetail": "Texts also retry automatically and can get through with weaker signals than voice calls.",
+          "illustrationDescription": "Texting vs calling power use."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "112 and 911 work on any network and without a SIM.",
+          "helpDetail": "Emergency calls route through ANY available carrier, not just yours. 112 is the international equivalent of 911.",
+          "illustrationDescription": "Emergency number access."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Before battery dies: text your GPS coordinates to someone.",
+          "helpDetail": "Open maps app, copy coordinates, text to contact. Even if the text doesn't send immediately, it will queue and send when signal is found.",
+          "illustrationDescription": "Sending GPS coordinates."
+        }
+      ]
+    },
+    {
+      "id": "rescue-gps-reading",
+      "name": "Reading & Sharing GPS Coordinates",
+      "subtitle": "Your exact location in numbers",
+      "category": "Technology",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "On iPhone: Open Compass app \u2014 coordinates shown at bottom.",
+          "helpDetail": "GPS works WITHOUT cell service or WiFi. It uses satellites directly. Your phone can always determine your position.",
+          "illustrationDescription": "iPhone compass showing coordinates."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "On Android: Open Google Maps, tap the blue dot, coordinates appear.",
+          "helpDetail": "Or download an offline GPS app before your trip. Offline maps + GPS = full navigation without service.",
+          "illustrationDescription": "Android maps showing coordinates."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Share coordinates as decimal degrees: e.g., 37.7749, -122.4194.",
+          "helpDetail": "Decimal degrees are the most universal and least error-prone format. Include the negative sign for south/west coordinates.",
+          "illustrationDescription": "Coordinate format example."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "What3Words: every 3m\u00d73m square has a unique 3-word address.",
+          "helpDetail": "The app works offline. Example: ///filled.count.soap. Emergency services in many countries accept What3Words addresses.",
+          "illustrationDescription": "What3Words example."
+        }
+      ]
+    },
+    {
+      "id": "rescue-self-rescue",
+      "name": "Self-Rescue Decision Making",
+      "subtitle": "Stay or go? The critical decision.",
+      "category": "Self-Rescue",
+      "difficulty": 2,
+      "estimatedTime": "Assessment",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Default: STAY where you are. Rescuers search your last known location.",
+          "helpDetail": "If someone knows your itinerary, staying put is almost always correct. Moving makes you harder to find.",
+          "illustrationDescription": "Stay vs go decision."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Go only if: no one knows you're missing, immediate danger, or you know EXACTLY where safety is.",
+          "helpDetail": "If you self-rescue, leave signs of your direction: arrows in dirt, torn cloth on branches, rock cairns.",
+          "illustrationDescription": "Conditions to leave."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Before leaving, build a visible signal at your current location.",
+          "helpDetail": "Ground-to-air signal, rock cairn, tied clothing on a branch. Leave a note with your name, date, direction of travel, and condition.",
+          "illustrationDescription": "Signal at departure point."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Travel downhill, follow water downstream \u2014 civilization is at lower elevations.",
+          "helpDetail": "Streams \u2192 rivers \u2192 towns. Following water also ensures access to drinking water during travel.",
+          "illustrationDescription": "Following water downhill."
+        }
+      ]
+    },
+    {
+      "id": "rescue-leave-trail",
+      "name": "Leaving a Trail for Rescuers",
+      "subtitle": "Breadcrumbs that save your life",
+      "category": "Self-Rescue",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build rock cairns (stacked stones) at regular intervals.",
+          "helpDetail": "3 rocks stacked is unnatural enough to catch a searcher's eye. Place at decision points (trail junctions, river crossings).",
+          "illustrationDescription": "Rock cairn."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Break branches at eye level pointing your direction.",
+          "helpDetail": "Snap a branch so it dangles without falling off. The broken end points your direction of travel.",
+          "illustrationDescription": "Broken branch pointing direction."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Tie bright cloth strips to vegetation.",
+          "helpDetail": "Cut strips from clothing. Tie at eye level. Use the brightest material available. Space every 100-200 yards.",
+          "illustrationDescription": "Cloth strip tied to branch."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Drag a stick or mark the ground in soft terrain.",
+          "helpDetail": "In mud, sand, or snow \u2014 drag a line or make arrows. These are visible from the air and ground.",
+          "illustrationDescription": "Arrows drawn in dirt."
+        }
+      ]
+    },
+    {
+      "id": "rescue-helicopter",
+      "name": "Helicopter Landing Zone Prep",
+      "subtitle": "Clear a safe landing area",
+      "category": "Self-Rescue",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Clear a flat area at least 60\u00d760 feet (20\u00d720 meters).",
+          "helpDetail": "Remove loose debris, branches, and anything that could blow into the rotor. Mark the perimeter with rocks or logs.",
+          "illustrationDescription": "Cleared landing zone."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Remove all overhead obstructions \u2014 trees, wires, branches.",
+          "helpDetail": "Helicopter rotors extend beyond the fuselage. Any overhead contact is catastrophic. Clear completely.",
+          "illustrationDescription": "No overhead obstructions."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Mark wind direction with a flag, smoke, or streamers.",
+          "helpDetail": "Helicopters prefer to land into the wind. Hang a cloth strip or light a small smoky fire at the edge of the landing zone.",
+          "illustrationDescription": "Wind direction indicator."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stay upwind and crouch when helicopter approaches.",
+          "helpDetail": "The downwash is extreme \u2014 loose items become projectiles. Shield your eyes. Never approach from the tail rotor side. Wait for pilot signal.",
+          "illustrationDescription": "Safe approach behavior."
+        }
+      ]
+    },
+    {
+      "id": "rescue-morse-code",
+      "name": "Morse Code SOS",
+      "subtitle": "Universal distress: ... --- ...",
+      "category": "Signal",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": true,
+      "hapticType": "rhythmPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "SOS: three short, three long, three short.",
+          "helpDetail": "... --- ... (dit dit dit / dah dah dah / dit dit dit). Universal distress.",
+          "illustrationDescription": "SOS pattern."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Signal with flashlight, mirror, whistle, or tapping.",
+          "helpDetail": "Short = quick flash/tap. Long = 3x duration of short.",
+          "illustrationDescription": "Signaling methods."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Repeat with 1-minute pauses between sets.",
+          "helpDetail": "Signal 1 minute, rest 1 minute. Conserve energy.",
+          "illustrationDescription": "Continuous signaling."
+        }
+      ]
+    },
+    {
+      "id": "rescue-helicopter-lz",
+      "name": "Helicopter Landing Zone",
+      "subtitle": "Clear 100-foot zone for helicopter rescue",
+      "category": "Technology",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Clear a flat area at least 100x100 feet.",
+          "helpDetail": "Remove loose debris. Rotor wash launches objects at lethal speed.",
+          "illustrationDescription": "Clearing zone."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Mark with bright material. H = need helicopter. V = need help.",
+          "helpDetail": "X means cannot move. Use clothing, tarp, or signal panels.",
+          "illustrationDescription": "Marking zone."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Indicate wind direction with smoke or flag.",
+          "helpDetail": "Helicopters land into wind. Light smoky fire upwind of LZ.",
+          "illustrationDescription": "Wind indicator."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stand upwind, crouch when approaching. Never approach from rear.",
+          "helpDetail": "Tail rotor kills. Approach front/side only when pilot signals. Stay low.",
+          "illustrationDescription": "Safe approach."
+        }
+      ]
+    },
+    {
+      "id": "rescue-trail-markers",
+      "name": "Trail Blazing Markers",
+      "subtitle": "Leave a trail others can follow",
+      "category": "Self-Rescue",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Break branches at shoulder height pointing your direction.",
+          "helpDetail": "Pale broken wood visible from distance. Point break in travel direction.",
+          "illustrationDescription": "Breaking branches."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stack 3 rocks (cairn) at every turn or decision point.",
+          "helpDetail": "Three stacked rocks is universal trail marker.",
+          "illustrationDescription": "Rock cairns."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Scratch arrows on trees or dirt at junctions.",
+          "helpDetail": "Use knife, sharp rock, or stick. Eye level on trees.",
+          "illustrationDescription": "Direction arrows."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Tie bright cloth strips to branches every 50-100 feet.",
+          "helpDetail": "Tear clothing if needed. Visible in both directions.",
+          "illustrationDescription": "Cloth markers."
+        }
+      ]
+    },
+    {
+      "id": "rescue-panel-signals",
+      "name": "International Ground Signal Codes",
+      "subtitle": "V, X, I \u2014 pilot-readable from 1000 feet",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "V = Need Help. X = Need Medical. I = Need Supplies.",
+          "helpDetail": "ICAO standard signals. Make at least 10 feet tall.",
+          "illustrationDescription": "Signal codes."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Arrow = traveling this direction. Y = Yes. N = No.",
+          "helpDetail": "Answer air queries with Y and N on ground.",
+          "illustrationDescription": "Response signals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build with rocks, logs, clothing, or trenches.",
+          "helpDetail": "Maximum contrast with ground color.",
+          "illustrationDescription": "Building signals."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Minimum 10 feet long, 3 feet wide. Bigger is better.",
+          "helpDetail": "3-foot letters invisible from 1000 feet. Think highway-scale.",
+          "illustrationDescription": "Size."
+        }
+      ]
+    },
+    {
+      "id": "rescue-smoke-signal",
+      "name": "Colored Smoke Signals",
+      "subtitle": "Daytime signaling with combustion",
+      "category": "Signal",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build a standard fire and get it burning hot.",
+          "helpDetail": "You need a strong updraft to carry the smoke high.",
+          "illustrationDescription": "Base fire."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "add GREEN vegetation for WHITE smoke.",
+          "helpDetail": "Green leaves, moss, or grass produce thick white smoke. Good against dark backgrounds (trees).",
+          "illustrationDescription": "White smoke."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Add OIL, RUBBER, or PLASTIC for BLACK smoke.",
+          "helpDetail": "Tires, oil-soaked rags, or plastic produce black smoke. Good against light backgrounds (snow, sand).",
+          "illustrationDescription": "Black smoke."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Create 3 distinct puffs (cover/uncover) for SOS.",
+          "helpDetail": "Use a blanket or coat. Cover the fire, let smoke build, release. Three puffs is the international distress signal.",
+          "illustrationDescription": "Puff signal."
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "rescue-article-search",
+      "title": "How Search & Rescue Works",
+      "body": "Understanding SAR operations helps you cooperate with rescuers.\n\nTimeline:\n- Someone reports you missing \u2192 SAR activation (2-24 hours)\n- Initial search: last known position, planned route, nearest trails (Day 1)\n- Expanded search: wider area based on travel estimates (Days 2-3)\n- Extended search: aircraft, dogs, thermal imaging (Days 3-7)\n- After 7 days: search intensity decreases significantly\n\nWhat helps rescuers:\n- Filing a trip plan with someone (exact dates, route, vehicle location)\n- Carrying a whistle and mirror\n- Staying on planned route\n- Staying PUT when lost\n- Bright clothing (avoid earth tones in wilderness \u2014 wear orange, red, yellow)\n\nPersonal Locator Beacons (PLBs) and satellite communicators (like Garmin inReach) send your GPS position to rescue coordination centers worldwide. They work anywhere on Earth with clear sky view. They are the single most effective survival tool you can carry.",
+      "relatedTechniqueIDs": [
+        "rescue-self-rescue",
+        "rescue-signal-fire"
+      ]
+    },
+    {
+      "id": "rescue-article-signaling",
+      "title": "Visual Signaling Techniques",
+      "body": "Signal detection depends on contrast and movement.\n\nContrast:\n- Dark signals on light backgrounds (rocks on snow/sand)\n- Light signals on dark backgrounds (clothing on dark rock/forest)\n- Flame at night, smoke by day\n- Reflective flash in sunlight\n\nMovement:\n- Moving flags catch attention better than static signals\n- Waving both arms overhead is the international distress gesture\n- Standing waving is visible further than ground signals at low angles\n\nSignal priorities (most to least effective):\n1. PLB/satellite communicator (100% detection)\n2. Signal mirror (50+ mile range in sunlight)\n3. Signal fire/smoke (10-50 mile range)\n4. Ground-to-air symbols (1-5 mile range)\n5. Whistle (1/2 mile range in calm conditions)\n6. Voice (100-200 yards)\n\nAlways use multiple methods simultaneously. An aircraft might miss your ground signal but see your mirror flash.",
+      "relatedTechniqueIDs": [
+        "rescue-signal-mirror",
+        "rescue-ground-signal",
+        "rescue-signal-fire"
+      ]
+    },
+    {
+      "id": "rescue-article-phone",
+      "title": "Using Your Phone for Rescue",
+      "body": "Your smartphone is a powerful survival tool if used wisely.\n\nBattery conservation:\n- Airplane mode extends battery 10-50\u00d7\n- Reduce screen brightness to minimum\n- Close all apps\n- Turn off Bluetooth, WiFi, location services when not needed\n- Cold batteries drain faster \u2014 keep phone warm inside clothing\n\nEmergency calls:\n- 911/112 route through ANY carrier (not just yours)\n- Work without a SIM card\n- Emergency SOS via satellite (iPhone 14+, newer Android devices)\n- Google Pixel: Emergency SOS calls and crash detection\n\nOffline capability:\n- GPS works WITHOUT service (airplane mode + GPS = works)\n- Download offline maps before trips (Google Maps, AllTrails)\n- Compass app works offline\n- Camera for documenting route, injuries, wildlife\n\nLast resort: If battery is critical, write a text message with your coordinates, name, situation. Hit send. Even if it doesn't send now, it will queue and send when signal is eventually found.",
+      "relatedTechniqueIDs": [
+        "rescue-phone-emergency",
+        "rescue-gps-reading"
+      ]
+    }
+  ]
+}
