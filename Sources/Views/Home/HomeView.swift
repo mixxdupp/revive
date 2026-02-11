@@ -12,23 +12,30 @@ struct HomeView: View {
                 VStack(spacing: 60) {
                     Spacer()
                     
-                    // MARK: - Header (Phase 51: Centered)
-                    VStack(spacing: 8) {
+                    // MARK: - Header (Phase 53: Serif Branding)
+                    // High-End, Editorial, Distinctive.
+                    VStack(spacing: 6) {
+                        // Brand Logotype
+                        // Using Apple's New York (Serif) for premium feel
                         Text("Revive")
-                            .font(.system(size: 48, weight: .bold, design: .default))
+                            .font(.system(size: 56, weight: .black, design: .serif))
                             .foregroundStyle(DesignSystem.textPrimary)
+                            .tracking(-1) // Tight, authoritative tracking
                         
-                        Text("Survival Intelligence")
-                            .font(.title3)
-                            .fontWeight(.medium)
-                            .foregroundStyle(DesignSystem.textSecondary)
+                        // Tagline (Minimalist)
+                        Text("SURVIVAL INTELLIGENCE")
+                            .font(.system(size: 13, weight: .semibold, design: .rounded)) // Rounded for contrast
+                            .foregroundStyle(DesignSystem.textSecondary.opacity(0.8))
+                            .tracking(4) // Wide, sophisticated
+                            .textCase(.uppercase)
                     }
                     .multilineTextAlignment(.center)
+                    .padding(.top, 20)
                     
                     // MARK: - Action Buttons (Centered Stack)
                     VStack(spacing: 24) {
                         
-                        // 1. Emergency Button (Centered Content)
+                        // 1. Emergency Button (Clean & Bold)
                         NavigationLink(destination: EmergencyMenuView()) {
                             VStack(spacing: 16) {
                                 Image(systemName: "exclamationmark.triangle.fill")
@@ -53,7 +60,7 @@ struct HomeView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
                         
-                        // 2. Library Button (Centered Content)
+                        // 2. Library Button (Clean & Bold)
                         NavigationLink(destination: GuideMainView()) {
                             VStack(spacing: 16) {
                                 Image(systemName: "book.fill")

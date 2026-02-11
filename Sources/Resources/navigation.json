@@ -589,6 +589,786 @@
           "illustrationDescription": "Combined nav."
         }
       ]
+    },
+    {
+      "id": "nav-back-bearing",
+      "name": "Back-Bearing Triangulation",
+      "subtitle": "Pinpoint your location using known landmarks",
+      "category": "Basic Tools",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify two or three known landmarks visible from your position.",
+          "helpDetail": "Mountain peaks, radio towers, distinctive buildings. These must be identifiable on your map.",
+          "illustrationDescription": "Identifying landmarks."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Take a compass bearing to each landmark.",
+          "helpDetail": "Point direction-of-travel arrow at landmark, rotate bezel until needle sits in orienting arrow. Read bearing.",
+          "illustrationDescription": "Taking bearing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Add 180\u00b0 to each bearing to get the back-bearing.",
+          "helpDetail": "If bearing to peak is 045\u00b0, back-bearing is 225\u00b0. If over 360, subtract 360. This is the bearing FROM the landmark TO you.",
+          "illustrationDescription": "Calculating back-bearing."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Draw back-bearing lines from each landmark on your map. You are at the intersection.",
+          "helpDetail": "Two lines give rough position. Three lines form a small triangle \u2014 you are inside it. Smaller triangle = more accurate fix.",
+          "illustrationDescription": "Triangulation on map."
+        }
+      ]
+    },
+    {
+      "id": "nav-altimeter",
+      "name": "Altimeter Navigation",
+      "subtitle": "Use elevation to confirm your position on a topo map",
+      "category": "Basic Tools",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Read your altitude from altimeter watch, phone GPS, or barometric altimeter.",
+          "helpDetail": "Phone GPS altitude is accurate to \u00b110 meters. Barometric altimeters are more precise but need calibration at known elevations.",
+          "illustrationDescription": "Reading altimeter."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Find the contour line matching your altitude on the topographic map.",
+          "helpDetail": "Each contour line represents a specific elevation. Your position must be on or very near this line.",
+          "illustrationDescription": "Finding contour line."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Combine with one compass bearing to a landmark for exact position.",
+          "helpDetail": "A bearing line crosses the contour line at a point \u2014 that is your position. Altitude + one bearing = position fix.",
+          "illustrationDescription": "Altitude plus bearing fix."
+        }
+      ]
+    },
+    {
+      "id": "nav-coastal",
+      "name": "Coastal Navigation",
+      "subtitle": "Use the shoreline as your guide",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Follow the coastline \u2014 it always leads to human settlement.",
+          "helpDetail": "Historically, humans settle coasts first. Following shoreline is slower but guarantees you reach civilization.",
+          "illustrationDescription": "Following coastline."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Choose direction based on sun: populated areas are typically south-facing.",
+          "helpDetail": "In Northern Hemisphere, south-facing coasts get more development. If unsure, pick a direction and commit \u2014 backtracking wastes energy.",
+          "illustrationDescription": "Choosing direction."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for signs: fishing nets, buoys, boat tracks, tire marks on sand.",
+          "helpDetail": "Coastal areas show human activity through debris. Fresh tire marks in sand mean vehicle access \u2014 follow them.",
+          "illustrationDescription": "Coastal signs."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Travel at low tide for the widest, firmest walking surface.",
+          "helpDetail": "Low tide exposes firm packed sand. High tide forces you into soft sand or vegetation. Time your travel with tide patterns.",
+          "illustrationDescription": "Low tide travel."
+        }
+      ]
+    },
+    {
+      "id": "nav-urban",
+      "name": "Urban Emergency Navigation",
+      "subtitle": "Navigate a city when everything is down",
+      "category": "Emergency",
+      "difficulty": 1,
+      "estimatedTime": "Varies",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Use the sun for cardinal directions \u2014 same methods work in cities.",
+          "helpDetail": "Stick and shadow works on pavement. Analog watch compass works anywhere. The sun doesn't care about infrastructure failure.",
+          "illustrationDescription": "Sun navigation in city."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Satellite dishes point south (Northern Hemisphere) \u2014 instant compass.",
+          "helpDetail": "Nearly all satellite TV dishes in the Northern Hemisphere point toward the southern sky. They are consistent and reliable.",
+          "illustrationDescription": "Satellite dish compass."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Follow major roads \u2014 they connect population centers.",
+          "helpDetail": "Highways are designed to connect cities. If you find a highway, follow it. Rest stops, gas stations, and exits lead to services.",
+          "illustrationDescription": "Following major roads."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Look for railroad tracks \u2014 they always lead to stations and towns.",
+          "helpDetail": "Railroad tracks are excellent navigation aids. They avoid steep grades, follow valleys, and connect towns. Walk alongside, never on them.",
+          "illustrationDescription": "Railroad navigation."
+        }
+      ]
+    },
+    {
+      "id": "nav-night-compass",
+      "name": "Night March with Compass",
+      "subtitle": "Navigate in darkness using bearing and pace",
+      "category": "Basic Tools",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Set bearing on compass. Use illuminated or glow-in-dark markings.",
+          "helpDetail": "Many compasses have tritium or phosphorescent markings. If not, use phone flashlight briefly to check, then let eyes readjust.",
+          "illustrationDescription": "Night compass setup."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use Polaris or a bright star near your bearing as a walking target.",
+          "helpDetail": "Stars are visible references that allow you to walk without constantly checking the compass. Pick one near your bearing direction.",
+          "illustrationDescription": "Star as target."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Walk slowly. Sweep feet for obstacles rather than lifting and stepping.",
+          "helpDetail": "Night falls are dangerous. Slide feet forward to detect holes, roots, and drop-offs before committing weight.",
+          "illustrationDescription": "Careful night walking."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stop every 100 paces to recheck bearing and assess terrain.",
+          "helpDetail": "Night navigation drift is 3-5x worse than day. Frequent checks prevent accumulated error from becoming dangerous.",
+          "illustrationDescription": "Frequent bearing checks."
+        }
+      ]
+    },
+    {
+      "id": "nav-magnetic-deviation",
+      "name": "Magnetic Deviation Sources",
+      "subtitle": "Know what throws your compass off",
+      "category": "Basic Tools",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Remove all metal from near the compass \u2014 knives, buckles, phones.",
+          "helpDetail": "Metal objects deflect the compass needle. Hold compass at arm's length, away from your belt buckle and jacket zippers.",
+          "illustrationDescription": "Removing metal."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Move away from vehicles, power lines, and metal structures.",
+          "helpDetail": "Car engines, power lines, and rebar in buildings create magnetic fields. Step at least 10 meters away before reading compass.",
+          "illustrationDescription": "Distance from interference."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Iron-rich rock deposits can deflect compass locally.",
+          "helpDetail": "Magnetite, basalt, and iron ore deposits cause local magnetic anomalies. If readings seem inconsistent, move to a different spot and recheck.",
+          "illustrationDescription": "Natural magnetic anomalies."
+        }
+      ]
+    },
+    {
+      "id": "nav-sun-noon",
+      "name": "Solar Noon Direction",
+      "subtitle": "The shortest shadow points true north",
+      "category": "No Tools",
+      "difficulty": 1,
+      "estimatedTime": "1 hour",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Plant a straight stick vertically around midday.",
+          "helpDetail": "Any stick works. Ground should be flat. You need to observe the shadow for about an hour centered on solar noon.",
+          "illustrationDescription": "Stick at midday."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Mark the shadow tip every 10-15 minutes.",
+          "helpDetail": "Use pebbles at each shadow tip position. The shadow shortens as noon approaches and lengthens after.",
+          "illustrationDescription": "Marking shadow tips."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "The shortest shadow points exactly toward true north (Northern Hemisphere).",
+          "helpDetail": "At solar noon, the sun is due south (Northern Hemisphere). The shadow therefore points due north. This is more accurate than the quick stick method.",
+          "illustrationDescription": "Shortest shadow direction."
+        }
+      ]
+    },
+    {
+      "id": "nav-pace-beading",
+      "name": "Pace Bead Systems",
+      "subtitle": "Track distance accurately while walking",
+      "category": "Basic Tools",
+      "difficulty": 1,
+      "estimatedTime": "5 min setup",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make a ranger bead system: 9 beads in one group, 4 in another on a cord.",
+          "helpDetail": "String 9 beads, tie a knot, then 4 more beads. Use any small objects: seeds, nuts, carved wood, small stones with holes.",
+          "illustrationDescription": "Ranger bead cord."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pull down one lower bead for every 100 meters walked.",
+          "helpDetail": "Based on YOUR calibrated pace count. When all 9 lower beads are pulled, you've walked 900 meters.",
+          "illustrationDescription": "Pulling lower beads."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "At 1000 meters (1 km), reset lower beads and pull one upper bead.",
+          "helpDetail": "Upper beads track kilometers. Four upper beads = 4 km track ability. No mental math, no forgetting counts.",
+          "illustrationDescription": "Kilometer tracking."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Alternative: transfer pebbles between pockets for each 100 meters.",
+          "helpDetail": "If no beads available: 10 pebbles in right pocket. Move one to left pocket per 100m. Count left pocket pebbles = distance in hundreds of meters.",
+          "illustrationDescription": "Pebble distance tracking."
+        }
+      ]
+    },
+    {
+      "id": "nav-shadow-tip-compass",
+      "name": "Shadow Tip Compass Method",
+      "subtitle": "Find cardinal directions using a stick shadow",
+      "category": "Celestial",
+      "difficulty": 1,
+      "estimatedTime": "15-20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Place a straight stick in flat ground. Mark the tip of its shadow.",
+          "helpDetail": "Use a 2-3 foot stick in an area with good sun exposure. Place a small stone or scratch mark at the exact tip of the shadow. This is your west mark (in the Northern Hemisphere).",
+          "illustrationDescription": "Marking shadow tip."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wait 15-20 minutes. Mark the new shadow tip position.",
+          "helpDetail": "The shadow moves from west to east as the sun moves east to west. The new mark indicates east. The longer you wait, the more accurate the reading. 30 minutes is ideal.",
+          "illustrationDescription": "Second mark."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Draw a line between marks: first mark = West, second = East.",
+          "helpDetail": "Stand with west on your left and east on your right \u2014 you face north (Northern Hemisphere). For the Southern Hemisphere: first mark = east, second = west, and you face south.",
+          "illustrationDescription": "Cardinal directions."
+        }
+      ]
+    },
+    {
+      "id": "nav-watch-compass",
+      "name": "Analog Watch as Compass",
+      "subtitle": "Use an analog watch to find north/south",
+      "category": "Celestial",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Hold watch flat. Point the hour hand at the sun.",
+          "helpDetail": "Make sure the watch is set to standard time (not daylight saving). Hold it horizontal and rotate until the hour hand points directly at the sun.",
+          "illustrationDescription": "Pointing at sun."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Northern Hemisphere: bisect the angle between the hour hand and 12 o'clock. That's south.",
+          "helpDetail": "Imagine a line exactly halfway between the hour hand and the 12. That line points south. North is directly opposite. At 4pm: south is between 4 and 12 (the 2 o'clock position).",
+          "illustrationDescription": "Finding south."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Southern Hemisphere: point 12 at the sun. Bisect between 12 and the hour hand. That's north.",
+          "helpDetail": "In the Southern Hemisphere, the process is reversed. Point the 12 o'clock mark at the sun instead. Digital watch: draw a clock face on paper with the current time.",
+          "illustrationDescription": "Southern method."
+        }
+      ]
+    },
+    {
+      "id": "nav-wind-reading",
+      "name": "Wind Direction Navigation",
+      "subtitle": "Use prevailing wind patterns to maintain direction",
+      "category": "Natural",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Determine wind direction at your starting point using sun or compass.",
+          "helpDetail": "Before you lose your compass or landmark reference, note which direction the wind blows. Wet a finger and hold up \u2014 the cool side faces the wind.",
+          "illustrationDescription": "Finding wind."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Maintain a consistent angle to the wind as you travel.",
+          "helpDetail": "If the wind is hitting your left cheek when heading east, keep it on your left cheek. Wind direction is usually consistent for 6-12 hours. Check against sun position periodically.",
+          "illustrationDescription": "Walking into wind."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Recalibrate wind direction against other navigation cues regularly.",
+          "helpDetail": "Wind shifts throughout the day and with weather changes. Never use wind as your sole navigation method. Cross-reference with sun position, stars, terrain, or vegetation indicators.",
+          "illustrationDescription": "Recalibrating."
+        }
+      ]
+    },
+    {
+      "id": "nav-snow-navigation",
+      "name": "Snow Environment Navigation",
+      "subtitle": "Navigate in whiteout and snow-covered terrain",
+      "category": "Natural",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "In whiteout: STOP. Moving blindly in whiteout conditions is often fatal.",
+          "helpDetail": "Whiteout eliminates all visual references. You cannot distinguish ground from sky. People walk in circles, over cliffs, or into crevasses. If possible, shelter in place until visibility improves.",
+          "illustrationDescription": "Whiteout warning."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use sastrugi (wind-carved snow ridges) to maintain direction.",
+          "helpDetail": "Prevailing wind creates consistent parallel ridges in snow surfaces. These ridges maintain their orientation. Walk at a fixed angle to the ridges to travel a consistent direction.",
+          "illustrationDescription": "Snow ridges."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If you must move in low visibility, probe ahead with a ski pole or stick.",
+          "helpDetail": "Probe every step for crevasses, drop-offs, or thin ice. Travel roped to partners if possible. Move slowly and deliberately. Mark your back-trail with ski poles or stakes.",
+          "illustrationDescription": "Probing ahead."
+        }
+      ]
+    },
+    {
+      "id": "nav-cloud-reading",
+      "name": "Cloud Reading for Weather & Direction",
+      "subtitle": "Use cloud formations to predict weather and determine direction",
+      "category": "Natural",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "High, thin clouds (cirrus) moving fast indicate approaching weather change.",
+          "helpDetail": "Cirrus clouds 24-36 hours before a front. If they thicken into cirrostratus (hazy sun), rain in 12-24 hours. Clouds moving from west to east confirm you're in the westerly wind belt (mid-latitudes).",
+          "illustrationDescription": "Cirrus clouds."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cumulus clouds (puffy) over land often indicate landmasses from the sea.",
+          "helpDetail": "If you're on the ocean or a coastline, cumulus clouds form over land during daytime due to heating. Flat clouds stay over water. Navigate toward cumulus buildups to find land.",
+          "illustrationDescription": "Cumulus over land."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cloud direction at different altitudes tells you about wind layers.",
+          "helpDetail": "Low clouds show surface wind direction. High clouds show upper-level winds. If they contradict, a weather change is coming. Clouds always move away from high pressure toward low pressure.",
+          "illustrationDescription": "Cloud layers."
+        }
+      ]
+    },
+    {
+      "id": "nav-terrain-association",
+      "name": "Terrain Association Navigation",
+      "subtitle": "Navigate by matching ground features to mental map",
+      "category": "Advanced",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Before moving, study visible terrain features and memorize their relative positions.",
+          "helpDetail": "Identify prominent features: mountains, valleys, rivers, ridgelines, distinct trees, rock formations. Note their direction from your position. Create a mental map.",
+          "illustrationDescription": "Studying terrain."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "As you travel, continuously match terrain to your mental map.",
+          "helpDetail": "Check: 'That mountain should be on my right' or 'I should cross a stream soon.' When reality matches your expectations, you're on track. When it doesn't, stop and reassess.",
+          "illustrationDescription": "Matching features."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use elevation changes and drainage patterns to confirm location.",
+          "helpDetail": "Water always flows downhill and collects into larger streams. If you're walking uphill, you're moving toward a ridge. Valleys and ridgelines are the most reliable terrain features for navigation.",
+          "illustrationDescription": "Drainage patterns."
+        }
+      ]
+    },
+    {
+      "id": "nav-back-bearing",
+      "name": "Back Bearing Check",
+      "subtitle": "Look behind you regularly to remember the return route",
+      "category": "Basic",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Every few minutes, turn around and look at where you came from.",
+          "helpDetail": "Terrain looks completely different from the opposite direction. If you don't study the back view, you won't recognize your return route. This is the #1 cause of getting lost.",
+          "illustrationDescription": "Looking back."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Memorize key landmarks from the return perspective.",
+          "helpDetail": "Note: 'That distinctive rock will be on my LEFT coming back' or 'I'll see that forked tree when I return.' Mental snapshots from the return direction are critical.",
+          "illustrationDescription": "Memorizing landmarks."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "At decision points (trail forks, stream crossings), mark your route.",
+          "helpDetail": "Stack rocks (cairns), break branches to point the way, scratch arrows on trees, or stack sticks at trail junctions. Make marks visible from the return direction.",
+          "illustrationDescription": "Marking route."
+        }
+      ]
+    },
+    {
+      "id": "nav-triangulation",
+      "name": "Position Triangulation",
+      "subtitle": "Pinpoint your location using three landmarks and a compass",
+      "category": "Advanced",
+      "difficulty": 3,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Take a compass bearing to three identifiable landmarks.",
+          "helpDetail": "Choose landmarks you can identify on your map: mountain peaks, radio towers, distinctive terrain. Take a bearing to each and record. Landmarks should be spread 60-120 degrees apart for best accuracy.",
+          "illustrationDescription": "Taking bearings."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Convert each bearing to a back-bearing (add or subtract 180\u00b0).",
+          "helpDetail": "If your bearing TO the landmark is 045\u00b0, the back-bearing is 225\u00b0 (045+180). If bearing is over 180, subtract 180 instead. Back-bearings show lines FROM the landmarks to you.",
+          "illustrationDescription": "Calculating back-bearings."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Draw back-bearing lines from each landmark on the map. You are where they intersect.",
+          "helpDetail": "Place protractor on each landmark, draw a line at the back-bearing angle. The three lines form a small triangle. You are inside that triangle. Smaller triangle = more accurate fix.",
+          "illustrationDescription": "Finding intersection."
+        }
+      ]
+    },
+    {
+      "id": "nav-handrail-features",
+      "name": "Handrail Navigation",
+      "subtitle": "Follow linear features to stay on course",
+      "category": "Advanced",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify a linear feature running roughly parallel to your desired direction.",
+          "helpDetail": "Handrails are long features you can follow: rivers, ridgelines, trails, power lines, roads, fences, tree lines, cliff edges. They prevent you from veering off course.",
+          "illustrationDescription": "Finding handrail."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Keep the handrail feature on your left or right as you travel.",
+          "helpDetail": "You don't need to walk directly on the feature. Just keep it within sight or hearing distance. 'Keep the river on my right' is a simple, reliable navigation instruction.",
+          "illustrationDescription": "Following feature."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When you reach your cross-feature (catching feature), leave the handrail.",
+          "helpDetail": "Plan ahead: 'I'll follow the river until I hit the power line, then turn right.' The power line is your catching feature \u2014 it tells you when to change course.",
+          "illustrationDescription": "Catching feature intersection."
+        }
+      ]
+    },
+    {
+      "id": "nav-deliberate-offset",
+      "name": "Deliberate Offset Navigation",
+      "subtitle": "Intentionally aim left or right of target to find it reliably",
+      "category": "Advanced",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "When aiming for a target on a linear feature, deliberately aim to one side.",
+          "helpDetail": "Example: your camp is on a river. If you walk straight toward it, small navigation errors mean you don't know whether you're left or right of camp when you hit the river.",
+          "illustrationDescription": "The problem."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Aim 10-20 degrees to the LEFT of your target intentionally.",
+          "helpDetail": "When you reach the river, you KNOW you're to the left of camp. Turn right and follow the river until you reach camp. Uncertainty eliminated.",
+          "illustrationDescription": "Aiming left."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When you reach the linear feature, turn in the direction of your target.",
+          "helpDetail": "This technique converts a 2D search problem into a 1D problem. Instead of searching both left and right, you only search in one direction. Used extensively in military land navigation.",
+          "illustrationDescription": "Following to target."
+        }
+      ]
+    },
+    {
+      "id": "nav-night-star-steering",
+      "name": "Star Steering (Night Travel)",
+      "subtitle": "Navigate at night by choosing a star to walk toward",
+      "category": "Celestial",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a bright star low on the horizon in your desired travel direction.",
+          "helpDetail": "Choose a star close to the horizon \u2014 high stars are harder to steer by. The star should be bright and distinctive. Walk toward it. This keeps you on a straight line.",
+          "illustrationDescription": "Choosing star."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Replace your steering star every 15-20 minutes as stars move.",
+          "helpDetail": "Stars move across the sky (15\u00b0 per hour). After 15-20 minutes, your star has drifted noticeably. Re-confirm your direction using Polaris or the Southern Cross, then pick a new steering star.",
+          "illustrationDescription": "Replacing star."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use Polaris (North Star) as a constant reference \u2014 it stays fixed.",
+          "helpDetail": "Polaris is the only star that doesn't move significantly. It always indicates true north. All other stars rotate around it. Keep Polaris in a consistent position relative to you.",
+          "illustrationDescription": "Polaris reference."
+        }
+      ]
+    },
+    {
+      "id": "nav-coastal-navigation",
+      "name": "Coastal Navigation",
+      "subtitle": "Navigate along coastlines using tides, reefs, and landmarks",
+      "category": "Maritime",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Keep the coastline as your handrail. Note tide direction for orientation.",
+          "helpDetail": "If tide is flowing north (check with a floating stick), you know which direction is north. Tides reverse roughly every 6 hours. Track the cycle to maintain direction awareness.",
+          "illustrationDescription": "Tidal direction."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use headlands and bays as navigation checkpoints.",
+          "helpDetail": "Count the bays you pass. Each headland (point of land) is a landmark. Note distinctive features: rock color, cliff height, vegetation patterns. These serve as your 'mile markers.'",
+          "illustrationDescription": "Counting features."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wave patterns indicate underwater features and nearby land.",
+          "helpDetail": "Waves refract around islands and reefs. Disturbed wave patterns (confused seas) indicate shallow water or hidden obstacles. Calm water behind a headland indicates sheltered anchorage.",
+          "illustrationDescription": "Wave patterns."
+        }
+      ]
+    },
+    {
+      "id": "nav-river-navigation",
+      "name": "River Following Strategy",
+      "subtitle": "Use rivers as navigation aids to find civilization",
+      "category": "Basic",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Follow rivers DOWNSTREAM. Rivers flow toward civilization, lakes, or the coast.",
+          "helpDetail": "Rivers grow larger downstream as tributaries join. Larger rivers are more likely to have settlements along them. This is the single most reliable lost-person strategy in most terrain.",
+          "illustrationDescription": "Following downstream."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Watch for signs of civilization: bridges, trash, cleared banks, power lines.",
+          "helpDetail": "Human activity leaves traces along rivers. Cut trees, livestock marks, discarded items, tire tracks, or footpaths all indicate people are nearby. Follow these signs.",
+          "illustrationDescription": "Civilization signs."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stay on the side with the best terrain. Don't cross rivers unnecessarily.",
+          "helpDetail": "River crossings are dangerous. Stay on whichever bank has easier walking. If the river enters a gorge, climb above it and follow the rim. Rejoin the river when terrain permits.",
+          "illustrationDescription": "Choosing sides."
+        }
+      ]
+    },
+    {
+      "id": "nav-altitude-estimation",
+      "name": "Altitude Estimation Without Tools",
+      "subtitle": "Estimate your elevation using natural indicators",
+      "category": "Natural",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Vegetation zones indicate approximate altitude.",
+          "helpDetail": "Deciduous forest: below 3,000-4,000 ft. Conifer forest: 4,000-9,000 ft. Alpine meadow: 9,000-11,500 ft. Above treeline: 11,500+ ft (varies by latitude). These zones shift in different climates.",
+          "illustrationDescription": "Vegetation zones."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Water boiling behavior indicates altitude.",
+          "helpDetail": "Water boils at lower temperatures at altitude. If water boils noticeably faster or at lower temperature than expected, you're at significant elevation. Temperature drops roughly 3.5\u00b0F per 1,000 feet.",
+          "illustrationDescription": "Boiling test."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Snow line and breathing difficulty provide additional altitude clues.",
+          "helpDetail": "Permanent snow: varies by latitude (14,000+ ft at equator, sea level at poles). Breathing becomes noticeably harder above 8,000 ft. Headache and fatigue at 10,000+ ft suggest altitude sickness.",
+          "illustrationDescription": "Altitude signs."
+        }
+      ]
+    },
+    {
+      "id": "nav-weather-prediction",
+      "name": "Weather Prediction from Nature",
+      "subtitle": "Forecast weather changes using natural signs",
+      "category": "Natural",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Falling barometric pressure = incoming bad weather.",
+          "helpDetail": "Signs of falling pressure: campfire smoke descends instead of rising; clouds lower and thicken; sounds carry farther than normal; birds fly lower; joints ache; coffee bubbles cluster at cup center.",
+          "illustrationDescription": "Pressure signs."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wind shift from west to east or south often brings storms.",
+          "helpDetail": "In the Northern Hemisphere, weather systems generally move west to east. A wind shift from west to south to east often precedes a low-pressure system bringing rain.",
+          "illustrationDescription": "Wind shift."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Red sky at morning = weather warning. Red sky at night = fair weather.",
+          "helpDetail": "This is scientifically valid. Red sky at sunset means dust particles in the west (dry air approaching). Red sky at dawn means the dry air has passed and moisture is coming from the west.",
+          "illustrationDescription": "Sky color."
+        }
+      ]
+    },
+    {
+      "id": "nav-emergency-bearing",
+      "name": "Emergency Straight-Line Travel",
+      "subtitle": "Walk a straight line without a compass using landmark sighting",
+      "category": "Basic",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Sight two objects in line with your desired direction \u2014 one near, one far.",
+          "helpDetail": "Pick a specific tree (near) and a mountain peak (far) that align with your direction. Walk toward the near object while keeping the far object aligned behind it.",
+          "illustrationDescription": "Two-point sighting."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "When you reach the near object, pick a new near object aligned with the far one.",
+          "helpDetail": "Leapfrog from near object to near object, always keeping the far reference unchanged. This keeps you on an extremely straight line without any instruments.",
+          "illustrationDescription": "Leapfrogging."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When the far object is reached or lost, select two new aligned objects.",
+          "helpDetail": "Keep your travel direction consistent by always aligning two points before moving. Without this technique, humans naturally walk in circles (dominant leg takes slightly longer stride).",
+          "illustrationDescription": "Maintaining direction."
+        }
+      ]
+    },
+    {
+      "id": "nav-vegetation-indicators",
+      "name": "Vegetation Direction Indicators",
+      "subtitle": "Read tree growth patterns for compass direction",
+      "category": "Natural",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "In the Northern Hemisphere, heavier growth is typically on the south side of trees.",
+          "helpDetail": "Trees receive more sunlight on their south-facing side. This causes denser foliage, thicker branches, and more growth. The effect is most visible on isolated trees, not in dense forest.",
+          "illustrationDescription": "Growth patterns."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Moss grows on the SHADED side \u2014 NOT always north.",
+          "helpDetail": "The 'moss grows on the north side' rule is unreliable. Moss grows on the shaded, moist side, which varies with terrain. Use moss only to confirm other navigation methods, never as primary.",
+          "illustrationDescription": "Moss reality."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Combine multiple vegetation indicators for better accuracy.",
+          "helpDetail": "Spider webs tend to face south (warmth). Flowers face the sun. Trees lean away from prevailing wind. No single indicator is reliable alone, but multiple indicators pointing the same direction increase confidence.",
+          "illustrationDescription": "Multiple indicators."
+        }
+      ]
     }
   ],
   "articles": [
@@ -637,6 +1417,89 @@
       "relatedTechniqueIDs": [
         "nav-gps-phone",
         "nav-compass-use"
+      ]
+    },
+    {
+      "id": "nav-article-terrain",
+      "title": "Reading Terrain Like a Map",
+      "body": "Terrain tells a story. Learning to read it is the oldest navigation skill.\n\nRidges and valleys:\n- Ridges are natural travel corridors: better visibility, drier ground, fewer obstacles\n- Valleys have water and shelter but thick vegetation and flood risk\n- Saddles (low points between peaks) are natural crossing points\n\nWater drainage:\n- All water flows downhill. Streams converge into rivers. Rivers reach the ocean or major lakes.\n- Drainage patterns reveal terrain structure: dendritic (branching) means uniform soil. Parallel drains mean tilted layers.\n\nVegetation as terrain indicator:\n- Dense willows = water nearby (even if not visible)\n- Tall pines on ridges = well-drained, stable ground\n- Bare/rocky areas above treeline = exposed, dangerous in storms\n- Color changes in vegetation often mark water table changes\n\nContour reading:\n- Close contour lines = steep terrain\n- Wide spacing = gentle slopes\n- V-shapes pointing uphill = stream valleys\n- V-shapes pointing downhill = ridgelines\n- Closed circles = hilltops or depressions (check elevation numbers)",
+      "relatedTechniqueIDs": [
+        "nav-terrain-association",
+        "nav-dead-reckoning"
+      ]
+    },
+    {
+      "id": "nav-article-night",
+      "title": "Navigating at Night",
+      "body": "Night navigation is dangerous but sometimes necessary. Preparation is key.\n\nWhy you might need to travel at night:\n- Medical emergency requiring evacuation\n- Extreme heat makes daytime travel impossible (desert)\n- Evading dangerous wildlife (predators active at dawn/dusk)\n- Flood or fire forcing immediate evacuation\n\nNight advantages:\n- Stars provide reliable direction reference\n- Sounds carry further (hear water, roads, civilization)\n- Cooler temperatures reduce dehydration\n\nNight risks:\n- Falls and injuries (the #1 danger)\n- Getting lost (no landmarks visible)\n- Psychological stress (amplified fear and anxiety)\n- Stepping on snakes or into holes\n\nRisk reduction:\n1. Wait 20-30 minutes for full night vision adaptation before moving\n2. Use red light only (preserves night vision)\n3. Walk at half-speed\n4. Sweep the ground ahead with a long stick\n5. Stop immediately if terrain becomes uncertain\n6. Use star or compass bearings \u2014 don't trust 'instinct' at night",
+      "relatedTechniqueIDs": [
+        "nav-night-compass",
+        "nav-north-star",
+        "nav-star-movement"
+      ]
+    },
+    {
+      "id": "nav-article-urban-nav",
+      "title": "Urban Emergency Navigation",
+      "body": "When infrastructure fails \u2014 power grid down, cell network dead, GPS jammed \u2014 navigating a city becomes surprisingly difficult.\n\nWhy urban navigation fails:\n- We depend entirely on street signs, GPS, and mental maps of normal routes\n- Disasters block familiar routes with debris, flooding, or fire\n- Smoke and dust reduce visibility to meters\n- Structural collapse changes the landscape\n\nUrban navigation aids:\n1. Satellite dishes point south (Northern Hemisphere) \u2014 reliable everywhere\n2. Railroad tracks always lead to stations and towns\n3. Highway systems follow predictable patterns (interstates are numbered: odd = north-south, even = east-west in the US)\n4. Power line corridors provide clear paths and lead to substations near towns\n5. Water tower direction \u2014 visible for miles, always near population\n\nEvacuation priorities:\n- Move perpendicular to the threat (fire, flood, gas leak)\n- Head toward open space: parks, fields, parking lots\n- Avoid bridges during earthquakes, underpasses during floods\n- Follow emergency vehicle sirens toward staging areas\n- If driving, follow the traffic \u2014 locals know the evacuation routes",
+      "relatedTechniqueIDs": [
+        "nav-urban",
+        "nav-magnetic-deviation"
+      ]
+    },
+    {
+      "id": "nav-article-getting-unlost",
+      "title": "Getting Unlost: Step-by-Step Recovery",
+      "body": "Being lost is not a failure. It's a situation to manage systematically.\n\nSTOP Protocol:\n- S: Sit down. Panic causes bad decisions. Calm yourself first.\n- T: Think. When did you last know your position? What have you done since?\n- O: Observe. What terrain features can you see? Sun direction? Sounds?\n- P: Plan. Make a deliberate decision based on information, not emotion.\n\nRecovery steps:\n1. Mark your current position (cairn, flag, knife mark on tree)\n2. Try to retrace your steps to your last known position\n3. If retracing fails, climb to high ground for a view\n4. Identify any linear feature (river, ridge, road) and travel to it\n5. Once on a linear feature, follow it to civilization\n\nCommon mistakes when lost:\n- Continuing to walk hoping things look familiar (makes it worse)\n- Walking faster (burns energy, covers ground but not in useful direction)\n- Not marking your position (wander in circles without knowing it)\n- Splitting up from group (exponentially harder to find multiple people)\n\nIf you cannot self-rescue:\n- Stay put. Search and rescue finds stationary targets faster.\n- Make yourself visible: bright colors, ground signals, fire, whistle\n- Three of anything is the universal distress signal: 3 fires, 3 whistle blasts, 3 rocks in a triangle",
+      "relatedTechniqueIDs": [
+        "nav-back-bearing",
+        "nav-terrain-association"
+      ]
+    },
+    {
+      "id": "nav-article-night-nav",
+      "title": "Night Navigation Techniques",
+      "body": "Traveling at night is sometimes necessary (desert heat avoidance, enemy evasion, emergency). It requires different skills.\n\nAdvantages of night travel:\n- Cooler temperatures reduce water consumption by 50-75%\n- Stars provide reliable direction (Polaris, Southern Cross)\n- In desert environments, night travel is sometimes the only safe option\n\nChallenges:\n- Cannot see terrain hazards (cliffs, holes, snakes)\n- Cannot read vegetation or terrain for direction\n- Fatigue impairs judgment and navigation accuracy\n- Distance estimation is very poor at night\n\nTechniques:\n1. Star steering: pick a low star in your direction, walk toward it, replace every 15 min\n2. Moon direction: crescent moon \u2014 connect the horns with a line to the horizon = south (Northern Hemisphere)\n3. Horizon glow: cities create light pollution visible from 50+ miles. Navigate toward or away from glow\n4. Sound navigation: rivers, highways, railroads, dog barking = civilization\n5. Wind consistency: maintain a constant angle to the wind (recalibrate hourly)\n\nSafety rules:\n- Move slowly. Probe ahead with a stick in unfamiliar terrain\n- Allow 30 minutes for night vision to develop (avoid looking at any lights)\n- If terrain becomes dangerous, stop and wait for dawn",
+      "relatedTechniqueIDs": [
+        "nav-night-star-steering",
+        "nav-polaris"
+      ]
+    },
+    {
+      "id": "nav-article-map-basics",
+      "title": "Map Reading Fundamentals",
+      "body": "A paper map is the most reliable navigation tool. It never runs out of battery.\n\nMap essentials:\n- Contour lines: connect points of equal elevation. Close together = steep. Far apart = flat.\n- Scale: 1:24,000 means 1 inch on map = 24,000 inches (2,000 feet) on ground\n- North: top of map is typically grid north (close to true north but not exact)\n- Legend: explains symbols. Memorize common ones: trails (dashed), water (blue), roads (red/black)\n\nReading contour lines:\n- V-shapes pointing uphill = valley/drainage (water flows down the V)\n- V-shapes pointing downhill = ridge/spur\n- Concentric circles = hilltop or depression (check for hachure marks)\n- Evenly spaced contours = uniform slope\n- Cliff: contours merge into a single line\n\nOrienting your map:\n1. Find two visible landmarks you can identify on the map\n2. Rotate the map until the landmarks align with their real positions\n3. Your position is somewhere along the line between your two sightlines\n4. With a compass: align the compass north with the map north arrow\n\nEstimating distance on a map:\n- Use the scale bar, not the grid lines\n- Account for terrain: a 1-mile map distance up a steep slope is 1.5+ miles of actual walking\n- Thumb technique: place your thumb on your position. As you travel, move your thumb to track progress",
+      "relatedTechniqueIDs": [
+        "nav-triangulation",
+        "nav-terrain-association"
+      ]
+    },
+    {
+      "id": "nav-article-gps-limitations",
+      "title": "GPS Limitations & Failure Planning",
+      "body": "GPS is remarkable technology. It is also unreliable in survival situations.\n\nWhy GPS fails:\n- Batteries die (cold accelerates battery drain by 50%+)\n- Signal blocked by deep canyons, dense forest canopy, caves\n- Water damage from immersion or condensation\n- Satellite signal can be jammed or spoofed\n- Accuracy degrades in certain terrain (multipath errors near cliffs)\n\nGPS-dependent risks:\n- People who rely solely on GPS do not develop terrain awareness\n- GPS failure causes immediate disorientation in people without backup skills\n- Digital maps require downloads \u2014 no signal = no map\n- Battery management becomes a survival priority\n\nBackup plan:\n1. Always carry a paper map and magnetic compass\n2. Note your starting coordinates and bearing before entering the field\n3. Track major waypoints on paper as backup to digital tracking\n4. Practice non-GPS navigation regularly so skills stay sharp\n5. Carry spare batteries and a solar charger or battery pack\n\nConserving GPS battery:\n- Turn off screen between checks\n- Use airplane mode with GPS-only (saves significant battery)\n- Check position every 30 minutes rather than continuously\n- Mark critical waypoints and turn GPS off between them",
+      "relatedTechniqueIDs": [
+        "nav-shadow-tip-compass",
+        "nav-watch-compass"
+      ]
+    },
+    {
+      "id": "nav-article-declination",
+      "title": "Understanding Magnetic Declination",
+      "body": "Your compass doesn't point to true north. This error can put you miles off course.\n\nWhat is magnetic declination?\n- True north (geographic North Pole) and magnetic north (where your compass points) are different locations\n- The angle between them is called declination\n- In the eastern US, declination can be 15\u00b0+ west (compass points west of true north)\n- In the western US, declination can be 15\u00b0+ east\n- At the agonic line (roughly through the Mississippi), declination is zero\n\nWhy it matters:\n- A 10\u00b0 error over 1 mile puts you 920 feet off target\n- Over 5 miles, that's nearly a mile of error\n- In dense forest or low visibility, this makes you miss your target entirely\n\nCorrection methods:\n1. Know your local declination (it's printed on topographic maps but changes over time)\n2. For west declination: ADD the declination to your compass bearing\n3. For east declination: SUBTRACT the declination from your compass bearing\n4. Memory aid: 'Declination West, Compass Best (add). Declination East, Compass Least (subtract)'\n5. Many compasses have an adjustable declination ring \u2014 set it once and forget it\n\nIn a survival situation without declination data: use celestial navigation (sun/stars) to find true north, then note the difference from your compass.",
+      "relatedTechniqueIDs": [
+        "nav-magnetic-deviation",
+        "nav-triangulation"
+      ]
+    },
+    {
+      "id": "nav-article-dense-forest",
+      "title": "Navigation in Dense Forest",
+      "body": "Dense forest eliminates most visual references. Navigation becomes extremely difficult.\n\nChallenges:\n- No horizon visibility for celestial navigation\n- Canopy blocks sun and stars\n- All directions look the same (trees become indistinguishable)\n- Terrain features are hidden by vegetation\n- Sound is absorbed, making distance estimation unreliable\n\nForest-specific techniques:\n1. Sun patches: even in dense canopy, sun patches on the ground indicate sun direction\n2. Stream following: find any flowing water and follow it downstream\n3. Ridgeline travel: climb to the nearest ridge and follow it (ridges offer better visibility)\n4. Pace counting: without visual references, counting paces is the only reliable distance measure\n5. Back bearing: mark your trail constantly (broken branches, cairns, knife marks)\n\nAvoiding circles:\n- Humans naturally walk in circles without visual references (dominant leg bias)\n- The circle diameter is typically 100-500 meters\n- Countermeasure: aim at a specific tree ahead, walk to it, sight another tree in line, repeat\n\nEmergency strategy:\n- If completely disoriented in dense forest: follow water downhill\n- Water always leads to larger water features, which lead to human habitation\n- Build a signal fire in any clearing you find\n- Create noise (whistle, banging rocks) \u2014 sound may carry to rescuers or nearby people",
+      "relatedTechniqueIDs": [
+        "nav-emergency-bearing",
+        "nav-back-bearing",
+        "nav-river-navigation"
       ]
     }
   ]

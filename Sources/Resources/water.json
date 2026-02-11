@@ -583,6 +583,792 @@
           "illustrationDescription": "Channeling flow."
         }
       ]
+    },
+    {
+      "id": "water-desalination",
+      "name": "Solar Desalination",
+      "subtitle": "Convert seawater to drinkable water using sunlight",
+      "category": "Purification",
+      "difficulty": 2,
+      "estimatedTime": "4 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Fill a dark container with seawater. Place a smaller empty container inside.",
+          "helpDetail": "The outer container holds saltwater. The inner container catches condensation. The inner container must be shorter than the outer.",
+          "illustrationDescription": "Nested container setup."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cover with clear plastic wrap. Seal edges tightly.",
+          "helpDetail": "The cover must be airtight. Use tape, clay, or wet sand to seal edges. Any leak lets moisture escape.",
+          "illustrationDescription": "Sealed plastic cover."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place a small weight on the plastic above the inner container.",
+          "helpDetail": "This creates a low point where condensation drips into the collection container. A small stone works perfectly.",
+          "illustrationDescription": "Weight creating drip point."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Place in direct sunlight. Collect fresh water from inner container.",
+          "helpDetail": "Sun heats saltwater, evaporation condenses on plastic, drips into inner container. Yield: 500ml-1L per day in strong sun.",
+          "illustrationDescription": "Solar desalination in action."
+        }
+      ]
+    },
+    {
+      "id": "water-birch-container",
+      "name": "Birch Bark Water Container",
+      "subtitle": "Waterproof container from tree bark",
+      "category": "Storage",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Harvest a large sheet of birch bark without damaging the tree.",
+          "helpDetail": "Cut horizontally around the trunk, then vertically to peel. Take bark from dead or fallen trees when possible to avoid harming living trees.",
+          "illustrationDescription": "Harvesting birch bark."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Fold into a box or cone shape. Secure with cordage or wooden pegs.",
+          "helpDetail": "Birch bark is naturally waterproof due to betulin compounds. Fold with the white side OUT. Corners can be folded and pinned.",
+          "illustrationDescription": "Folding bark container."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Seal seams with heated pine resin.",
+          "helpDetail": "Mix pine resin with charcoal dust for a strong waterproof sealant. Apply warm, it hardens as it cools.",
+          "illustrationDescription": "Sealing with resin."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "You can even boil water in birch bark directly over fire.",
+          "helpDetail": "Birch bark containers can go directly over flame. The water inside prevents the bark from burning. The bark ignites at 450\u00b0F but water keeps it below 212\u00b0F.",
+          "illustrationDescription": "Boiling in bark."
+        }
+      ]
+    },
+    {
+      "id": "water-vine-extraction",
+      "name": "Water Vine Extraction",
+      "subtitle": "Cut tropical vines for immediate drinking water",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify thick, woody vines in tropical or subtropical forest.",
+          "helpDetail": "Water vines are 1-3 inches thick with rough bark. Common species: grape vine, rattan, and various lianas. Avoid milky or colored sap \u2014 these are toxic.",
+          "illustrationDescription": "Identifying water vines."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut the vine HIGH first, then cut low.",
+          "helpDetail": "Critical: cut the top first to break the capillary seal. If you cut the bottom first, water retreats upward and you get nothing.",
+          "illustrationDescription": "Cutting high first."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hold the cut section over your mouth. Water drips from the bottom cut.",
+          "helpDetail": "Clear, tasteless water is safe. If the liquid is colored, milky, or bitter, spit it out immediately \u2014 that vine is not a water source.",
+          "illustrationDescription": "Drinking from vine."
+        }
+      ]
+    },
+    {
+      "id": "water-fog-nets",
+      "name": "Fog Collection",
+      "subtitle": "Harvest water from fog and mist",
+      "category": "Finding Water",
+      "difficulty": 2,
+      "estimatedTime": "Setup 20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stretch fabric or mesh between two poles at a 90\u00b0 angle to prevailing wind.",
+          "helpDetail": "The mesh catches fog droplets which coalesce and run down. Position on a ridge or exposed hillside where fog flows across.",
+          "illustrationDescription": "Fog net setup."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Channel the bottom edge into a collection container.",
+          "helpDetail": "Create a V-shaped trough at the bottom of the mesh using bark, plastic, or folded fabric to funnel water into your container.",
+          "illustrationDescription": "Collection trough."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Leave overnight. Fog is heaviest from midnight to dawn.",
+          "helpDetail": "In coastal areas with regular fog, yields of 1-5 liters per square meter per night are common. This is used as primary water supply in some coastal deserts.",
+          "illustrationDescription": "Overnight collection."
+        }
+      ]
+    },
+    {
+      "id": "water-well-digging",
+      "name": "Digging a Water Well",
+      "subtitle": "Access groundwater in low-lying areas",
+      "category": "Finding Water",
+      "difficulty": 3,
+      "estimatedTime": "1-4 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Choose a location: outside bends of dry riverbeds, valley bottoms, base of hills.",
+          "helpDetail": "Water collects at the lowest accessible point. The outside bend of a river channel has deeper water table. Green vegetation in dry terrain marks subsurface water.",
+          "illustrationDescription": "Choosing dig site."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig a hole 1-3 feet deep. Widen as you go for stability.",
+          "helpDetail": "Start with a small hole. If soil becomes damp, you're close. If dry after 3 feet, try a different location.",
+          "illustrationDescription": "Digging the well."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wait 30 minutes for water to seep in from surrounding soil.",
+          "helpDetail": "The first water will be muddy. Let it settle, then scoop the clearest water from the top into your container.",
+          "illustrationDescription": "Water seeping into well."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Filter and purify before drinking \u2014 groundwater still needs treatment.",
+          "helpDetail": "Groundwater is usually cleaner than surface water but can contain bacteria and parasites. Always boil or chemically treat.",
+          "illustrationDescription": "Purifying well water."
+        }
+      ]
+    },
+    {
+      "id": "water-snow-melting",
+      "name": "Snow Melting Best Practices",
+      "subtitle": "Convert snow to water without losing body heat",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Never eat snow directly \u2014 it lowers core body temperature dangerously.",
+          "helpDetail": "Eating snow uses body heat to melt it. In cold conditions, this accelerates hypothermia. It takes 1 calorie to melt 1 gram of snow.",
+          "illustrationDescription": "Never eat snow."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Melt snow in a dark container in sunlight, or near (not on) fire.",
+          "helpDetail": "A dark bottle in the sun melts snow with zero energy cost to you. Near a fire is next best. Pack snow tightly for more water per volume.",
+          "illustrationDescription": "Solar snow melting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Start with a small amount of water in the container, then add snow gradually.",
+          "helpDetail": "If you put a container of dry snow directly on heat, the bottom burns before the top melts. A water base conducts heat evenly.",
+          "illustrationDescription": "Gradual snow addition."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Use ice instead of snow when available \u2014 it yields more water per volume.",
+          "helpDetail": "Snow is 90% air. A liter of snow yields only ~100ml water. Ice yields ~900ml. Always prefer ice to snow.",
+          "illustrationDescription": "Ice vs snow yield."
+        }
+      ]
+    },
+    {
+      "id": "water-testing",
+      "name": "Water Safety Assessment",
+      "subtitle": "Evaluate unknown water sources before drinking",
+      "category": "Purification",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Check clarity \u2014 hold water up to light. Clear is better than cloudy.",
+          "helpDetail": "Turbidity indicates suspended particles. These particles can harbor bacteria and interfere with chemical treatment. Always filter turbid water first.",
+          "illustrationDescription": "Checking clarity."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Smell the water \u2014 chemical or sulfur odors mean contamination.",
+          "helpDetail": "Clean water has no smell. Rotten egg smell = hydrogen sulfide. Chemical smell = industrial contamination. Sweet smell = algae blooms (some toxic).",
+          "illustrationDescription": "Smelling water."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Look at the surroundings \u2014 dead animals, algae blooms, or industrial runoff.",
+          "helpDetail": "Dead fish or animals near water = toxins. Blue-green algae mats = cyanobacteria (potentially fatal). Upstream mines or farms = chemical contamination.",
+          "illustrationDescription": "Environmental assessment."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "When in doubt, purify. The cost of purification is always less than the cost of illness.",
+          "helpDetail": "Even clear, odorless water from a pristine stream can contain Giardia or Crypto. Always purify unless collecting direct rainfall.",
+          "illustrationDescription": "Purify always."
+        }
+      ]
+    },
+    {
+      "id": "water-transpiration-enhanced",
+      "name": "Enhanced Transpiration Bag",
+      "subtitle": "Maximize water output from vegetation bags",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "Setup 10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a sun-facing branch with the most leafy growth.",
+          "helpDetail": "South-facing branches (Northern Hemisphere) transpire most. More leaves = more water. Avoid toxic plants (oleander, rhododendron).",
+          "illustrationDescription": "Selecting best branch."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Enclose the leafy end in a clear plastic bag. Seal airtight around the branch.",
+          "helpDetail": "Use string, tape, or twisted plastic to seal. Any air leak wastes moisture. The bag should balloon with trapped air.",
+          "illustrationDescription": "Sealing bag on branch."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place a small rock in the bottom corner to create a collection point.",
+          "helpDetail": "Water condenses on the inside of the bag and runs down to the lowest point. The rock creates a pool you can access.",
+          "illustrationDescription": "Collection point."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Set up multiple bags \u2014 each yields only 60-200ml per day.",
+          "helpDetail": "One bag is not enough. Set 5-10 bags to get meaningful water. Replace branches daily as transpiration declines after cutting.",
+          "illustrationDescription": "Multiple bags."
+        }
+      ]
+    },
+    {
+      "id": "water-cactus-extraction",
+      "name": "Cactus Water Extraction",
+      "subtitle": "Extract moisture from desert cacti (with caution)",
+      "category": "Finding Water",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify barrel cactus (Ferocactus) \u2014 the only safe species for water.",
+          "helpDetail": "NOT all cacti contain drinkable water. Many contain toxic alkaloids that cause vomiting (which accelerates dehydration). Barrel cactus is the safest option. Prickly pear fruit is also safe.",
+          "illustrationDescription": "Barrel cactus."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut off the top of the cactus and mash the pulp inside.",
+          "helpDetail": "Use a knife or rock to slice the top. The interior pulp is moist and fibrous. Mash it to release moisture. Do NOT drink the liquid directly \u2014 chew the pulp and spit out the fiber.",
+          "illustrationDescription": "Cutting cactus."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Squeeze pulp through cloth to extract moisture. Drink in small amounts.",
+          "helpDetail": "Yield is small: a large barrel cactus may give 1-2 cups. The liquid may taste bitter. Drink slowly. If it causes nausea, stop \u2014 you have the wrong species.",
+          "illustrationDescription": "Squeezing pulp."
+        }
+      ]
+    },
+    {
+      "id": "water-coconut-safety",
+      "name": "Coconut Water Safety",
+      "subtitle": "Use green coconuts for hydration \u2014 avoid mature ones",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select GREEN coconuts (young). Avoid brown mature coconuts.",
+          "helpDetail": "Green coconut water is sterile, isotonic, and safe to drink in quantity. Brown coconut water is higher in oil and can act as a laxative, causing dehydration if consumed in large amounts.",
+          "illustrationDescription": "Green vs brown."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pierce the soft eye of the coconut with a sharp point or knife.",
+          "helpDetail": "Each coconut has 2-3 'eyes' (dark spots) at one end. One eye is softer than the others \u2014 test each with your knife tip. Pierce through this soft eye to access the water inside.",
+          "illustrationDescription": "Piercing eye."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Drink directly or pour into container. Limit mature coconut to 2-3 per day.",
+          "helpDetail": "Green coconuts: drink freely. Mature coconuts: limit to 2-3 daily to avoid digestive issues. Coconut water contains electrolytes (potassium, sodium) making it superior to plain water for rehydration.",
+          "illustrationDescription": "Drinking."
+        }
+      ]
+    },
+    {
+      "id": "water-banana-plant",
+      "name": "Banana Plant Water",
+      "subtitle": "Extract water from banana plant trunks",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut a banana plant trunk down to a 6-inch stump.",
+          "helpDetail": "Banana 'trunks' are actually tightly rolled leaf sheaths, not wood. They cut easily. Choose a mature plant for maximum water content.",
+          "illustrationDescription": "Cutting trunk."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Scoop out the center of the stump to create a bowl shape.",
+          "helpDetail": "Hollow out the core of the stump. Within 10-15 minutes, water will seep up from the root system and fill the bowl. The plant acts as a natural pump.",
+          "illustrationDescription": "Scooping center."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Scoop water every 30 minutes. The stump refills 3-4 times.",
+          "helpDetail": "Each filling yields about 1 cup. Scoop out the first fill (may be bitter) and drink subsequent fills. A single plant can provide 2-3 cups of water over several hours.",
+          "illustrationDescription": "Collecting water."
+        }
+      ]
+    },
+    {
+      "id": "water-clay-pot-filter",
+      "name": "Clay Pot Filter (Ceramic)",
+      "subtitle": "Make a ceramic filter that removes bacteria",
+      "category": "Purification",
+      "difficulty": 3,
+      "estimatedTime": "2-3 days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Mix clay with fine sawdust or rice husks (60% clay, 40% organic).",
+          "helpDetail": "The organic material burns out during firing, leaving microscopic pores in the clay. These pores are small enough to filter bacteria (0.5-2 microns). The ratio is critical.",
+          "illustrationDescription": "Mixing materials."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Shape into a pot or bowl and let dry completely (1-2 days).",
+          "helpDetail": "Form a bowl shape with walls about 1 inch thick. It must dry completely before firing or it will crack. Keep in shade and turn periodically for even drying.",
+          "illustrationDescription": "Shaping pot."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Fire in a hot fire for 6-8 hours. The organic material burns out leaving pores.",
+          "helpDetail": "Maintain high heat. The sawdust vaporizes, leaving a network of micropores. After firing and cooling, test: water should seep through slowly (1-2 liters per hour). Too fast = pores too large.",
+          "illustrationDescription": "Firing pot."
+        }
+      ]
+    },
+    {
+      "id": "water-bio-sand-filter",
+      "name": "Bio-Sand Filter",
+      "subtitle": "Build a biological filtration system for long-term use",
+      "category": "Purification",
+      "difficulty": 2,
+      "estimatedTime": "1 hour build, 2 weeks to mature",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Fill a large container with layers: gravel (bottom), coarse sand, fine sand (top).",
+          "helpDetail": "Use a 5-gallon bucket or similar. Bottom 4 inches: gravel (pea-sized). Middle 4 inches: coarse sand. Top 8 inches: fine sand. Each layer filters progressively smaller particles.",
+          "illustrationDescription": "Layering filter."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create an outlet at the bottom for filtered water to exit.",
+          "helpDetail": "Drill or punch a hole near the bottom. Insert a tube or bamboo section. Water enters the top, filters through layers, and exits clean at the bottom. Flow rate should be slow: 1 liter per 15-20 minutes.",
+          "illustrationDescription": "Creating outlet."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use daily for 2 weeks. A biological layer (schmutzdecke) forms and filters bacteria.",
+          "helpDetail": "The magic is the biofilm that forms on the top sand layer after 2 weeks of regular use. This living layer consumes pathogens. Once established, the filter removes 96-99% of bacteria. Never let it dry out.",
+          "illustrationDescription": "Mature filter."
+        }
+      ]
+    },
+    {
+      "id": "water-morning-dew-drag",
+      "name": "Morning Dew Collection (Cloth Drag)",
+      "subtitle": "Collect dew by dragging cloth through wet grass",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "30 min to 1 hour",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Before sunrise, tie absorbent cloth around your ankles and legs.",
+          "helpDetail": "T-shirts, towels, bandanas \u2014 any absorbent cotton material. Wrap around lower legs and feet. Walk through tall, dew-covered grass in the early morning.",
+          "illustrationDescription": "Wrapping cloth."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Walk through tall grass, collecting dew on the cloth.",
+          "helpDetail": "Walk slowly through areas with heavy dew. The cloth absorbs moisture from the grass. Each pass through a 50-foot stretch saturates the cloth significantly.",
+          "illustrationDescription": "Walking through grass."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wring the cloth into a container. Repeat until enough water is collected.",
+          "helpDetail": "Each wringing yields 1-4 ounces depending on dew intensity and cloth size. In heavy dew conditions, you can collect 1+ liters in an hour. The water is generally clean but filter if possible.",
+          "illustrationDescription": "Wringing cloth."
+        }
+      ]
+    },
+    {
+      "id": "water-seawater-ice",
+      "name": "Seawater Ice Desalination",
+      "subtitle": "Freeze seawater to separate salt from ice",
+      "category": "Purification",
+      "difficulty": 2,
+      "estimatedTime": "Overnight",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "In freezing conditions, collect seawater in shallow containers.",
+          "helpDetail": "Shallow containers freeze faster. The physics: when seawater freezes, salt is excluded from the ice crystal structure and concentrates in the remaining liquid brine.",
+          "illustrationDescription": "Collecting seawater."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Let water freeze partially. Pour off the unfrozen brine (concentrated salt).",
+          "helpDetail": "The liquid remaining is super-salty brine. Pour it off. The ice that formed is significantly less salty than the original seawater. This is the desalinated portion.",
+          "illustrationDescription": "Pouring off brine."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Melt the ice. Taste test \u2014 repeat freeze/pour if still salty.",
+          "helpDetail": "First freeze removes about 70% of salt. A second freeze-pour cycle gets it close to drinkable. Old sea ice (multi-year) found in Arctic regions is naturally fresh \u2014 it has a blue tint.",
+          "illustrationDescription": "Melting ice."
+        }
+      ]
+    },
+    {
+      "id": "water-tarp-rain-catch",
+      "name": "Tarp Rain Catchment",
+      "subtitle": "Maximize rain collection with a tarp funnel",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Spread tarp with edges elevated and center dipped to form a funnel.",
+          "helpDetail": "Tie corners to trees or stakes at waist height. The center should sag to collect water. A 6x8 foot tarp can collect 25+ gallons in 1 inch of rain.",
+          "illustrationDescription": "Tarp funnel."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place a container under the lowest point of the tarp.",
+          "helpDetail": "Poke a small hole or create a channel at the lowest point. Water drains down the funnel shape and into your container. Angle the tarp slightly for continuous drainage.",
+          "illustrationDescription": "Container placement."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pre-rinse the tarp if dirty. First flush may contain debris.",
+          "helpDetail": "Let the first 30 seconds of rain wash dirt off the tarp before collecting. Rain water collected on a clean surface is safe to drink without treatment in most environments.",
+          "illustrationDescription": "Collecting rain."
+        }
+      ]
+    },
+    {
+      "id": "water-activated-charcoal",
+      "name": "Activated Charcoal Making",
+      "subtitle": "Create filtering charcoal for water purification",
+      "category": "Purification",
+      "difficulty": 2,
+      "estimatedTime": "2-3 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make regular charcoal by burning hardwood in a low-oxygen fire.",
+          "helpDetail": "Burn hardwood in a covered pit or sealed container with a vent hole. The wood converts to charcoal (carbon) without burning to ash. Cool completely before handling.",
+          "illustrationDescription": "Making charcoal."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Crush charcoal into small granules (pea-sized to sand-sized).",
+          "helpDetail": "Smaller pieces have more surface area for adsorption. Crush with rocks between two flat surfaces. Remove any unburned wood \u2014 it should be uniformly black and lightweight.",
+          "illustrationDescription": "Crushing charcoal."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Layer crushed charcoal in filter between sand layers.",
+          "helpDetail": "Charcoal adsorbs chemical contaminants, chlorine, and some organic toxins. It does NOT reliably kill bacteria or viruses \u2014 still boil or treat chemically after charcoal filtering. Replace charcoal weekly.",
+          "illustrationDescription": "Charcoal filter."
+        }
+      ]
+    },
+    {
+      "id": "water-spring-identification",
+      "name": "Spring Identification",
+      "subtitle": "Find natural spring water sources",
+      "category": "Finding Water",
+      "difficulty": 2,
+      "estimatedTime": "Variable",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Look for unusually green vegetation on hillsides in dry areas.",
+          "helpDetail": "Springs create strips or patches of green plants in otherwise dry terrain. The vegetation line often follows the underground water flow path. Willows, cattails, and reeds almost always indicate nearby water.",
+          "illustrationDescription": "Green vegetation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Check the base of cliffs, rock outcrops, and where geology changes.",
+          "helpDetail": "Springs form where permeable rock (sandstone, limestone) meets impermeable rock (clay, granite). Water travels through porous rock until it hits a barrier and seeps out. These geological boundaries are spring sites.",
+          "illustrationDescription": "Rock outcrops."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Test: spring water is typically cold, clear, and flowing.",
+          "helpDetail": "Good springs produce clear, cold water (ground temperature, ~55\u00b0F). If the water is warm, cloudy, or has an odor, it may be surface runoff, not a true spring. True spring water is generally safe but still filter if possible.",
+          "illustrationDescription": "Testing water."
+        }
+      ]
+    },
+    {
+      "id": "water-underground-seep",
+      "name": "Underground Seep Location",
+      "subtitle": "Find subsurface water by reading terrain clues",
+      "category": "Finding Water",
+      "difficulty": 2,
+      "estimatedTime": "1-2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig at the outside bend of a dry streambed.",
+          "helpDetail": "Water flows underground in the same path as the surface stream. The outside of a bend has the deepest water table. Dig 1-3 feet deep. Water seeps in from the sides and bottom.",
+          "illustrationDescription": "Dry streambed."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig at the base of a sand dune facing the valley.",
+          "helpDetail": "Dunes collect and concentrate rainwater. The valley-facing (concave) side often has water closer to the surface. Dig where the dune meets the valley floor.",
+          "illustrationDescription": "Dune base."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wait for the hole to fill. Filter and purify the seep water.",
+          "helpDetail": "Seep water may take 15-60 minutes to collect. Let sediment settle before scooping. The water has been naturally filtered through soil but may still contain pathogens \u2014 purify before drinking.",
+          "illustrationDescription": "Waiting for water."
+        }
+      ]
+    },
+    {
+      "id": "water-altitude-boiling",
+      "name": "Altitude Boiling Adjustments",
+      "subtitle": "Understand how altitude affects water purification",
+      "category": "Purification",
+      "difficulty": 1,
+      "estimatedTime": "Informational",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "At sea level, water boils at 212\u00b0F (100\u00b0C). At altitude, it boils at lower temperatures.",
+          "helpDetail": "For every 1,000 feet of elevation, the boiling point drops about 2\u00b0F. At 10,000 feet, water boils at 193\u00b0F. At 14,000 feet: 187\u00b0F. This matters for purification.",
+          "illustrationDescription": "Boiling point chart."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Good news: pathogens die well below boiling temperature.",
+          "helpDetail": "Most waterborne pathogens die at 160\u00b0F (71\u00b0C). Even at extreme altitude (Everest base camp at 17,600 feet), water boils at 179\u00b0F \u2014 still hot enough to kill all common pathogens.",
+          "illustrationDescription": "Kill temperatures."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Bring water to a rolling boil for 1 minute (3 minutes above 6,500 feet).",
+          "helpDetail": "CDC recommendation. At sea level, 1 minute is sufficient. Above 6,500 feet, boil for 3 minutes to compensate for the lower temperature. Rolling boil means large, vigorous bubbles.",
+          "illustrationDescription": "Timing boil."
+        }
+      ]
+    },
+    {
+      "id": "water-animal-indicators",
+      "name": "Animal Indicators for Water",
+      "subtitle": "Follow animal behavior to find water sources",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "Variable",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Follow grazing animals (deer, cattle) at dawn and dusk \u2014 they head to water.",
+          "helpDetail": "Grazing animals drink at dawn and dusk. Their trails converge toward water sources. Fresh tracks in dry areas always lead to water if you follow them long enough.",
+          "illustrationDescription": "Animal trails."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Watch birds: grain-eaters fly toward water at dusk, away at dawn.",
+          "helpDetail": "Seed-eating birds (finches, pigeons, doves) must drink daily. In the evening, they fly fast and low toward water. In the morning, they fly away from water. Follow their evening flight path.",
+          "illustrationDescription": "Bird flight."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Listen for frogs and insects at night \u2014 they indicate water nearby.",
+          "helpDetail": "Frog calls mean standing water within earshot. Dense insect swarms (mosquitoes, midges) often hover over or near water sources. Bees are rarely more than 3 miles from water.",
+          "illustrationDescription": "Listening for clues."
+        }
+      ]
+    },
+    {
+      "id": "water-from-fruits",
+      "name": "Water from Wild Fruits & Plants",
+      "subtitle": "Extract moisture from edible plants and fruits",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "Variable",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify water-rich wild fruits: berries, wild grapes, prickly pear.",
+          "helpDetail": "Many wild fruits are 80-90% water. Prickly pear pads and fruit, wild grapes, blackberries, blueberries, and even dandelion stems contain usable moisture.",
+          "illustrationDescription": "Water-rich fruits."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Eat water-rich plants: cattail shoots, wild lettuce, clover.",
+          "helpDetail": "Young cattail shoots taste like cucumber and are mostly water. Wild lettuce, chickweed, and sorrel are high in moisture. Only eat plants you can positively identify.",
+          "illustrationDescription": "Eating plants."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Chew but do not swallow fibrous plants to extract moisture.",
+          "helpDetail": "Green grass, sugar cane, and young bark can be chewed to extract moisture. Chew thoroughly, swallow the juice, spit out the fiber. This provides small but meaningful amounts of hydration.",
+          "illustrationDescription": "Chewing for moisture."
+        }
+      ]
+    },
+    {
+      "id": "water-emergency-sources",
+      "name": "Emergency Urban Water Sources",
+      "subtitle": "Find drinkable water in buildings and vehicles after disaster",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Hot water heater: 30-80 gallons of safe, stored water.",
+          "helpDetail": "Turn off power/gas to heater. Open the drain valve at the bottom into a container. The water is pre-heated and essentially sterile. One heater can sustain a person for weeks.",
+          "illustrationDescription": "Water heater."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Toilet tanks (NOT bowls): contain 1-2 gallons of clean water.",
+          "helpDetail": "The TANK (upper portion) holds clean water, same as tap water. Do NOT use water from the bowl. Do NOT use if chemical cleaning tablets are in the tank (blue/green water).",
+          "illustrationDescription": "Toilet tank."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pipe drainage: open the lowest faucet to drain remaining water from pipes.",
+          "helpDetail": "After water supply stops, pipes still contain residual water. Open the lowest faucet in the building. Gravity drains water from upper pipes down. May yield 1-5 gallons.",
+          "illustrationDescription": "Draining pipes."
+        }
+      ]
+    },
+    {
+      "id": "water-poncho-rain-catch",
+      "name": "Poncho Rain Collection",
+      "subtitle": "Use a poncho or garbage bag as rain catchment",
+      "category": "Finding Water",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Tie corners of poncho to trees or stakes at waist height.",
+          "helpDetail": "Create a basin shape with the center lower than the edges. A garbage bag can be cut open to create a flat sheet. Even a jacket opened and stretched works for small amounts.",
+          "illustrationDescription": "Setting up catchment."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place a small rock in the center to create a funnel point.",
+          "helpDetail": "The rock weighs down the center, creating a natural funnel. All water flows toward this low point. Punch or cut a small hole and place your container below for automatic collection.",
+          "illustrationDescription": "Creating funnel."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "In light rain, maximize catchment area. Move to open ground.",
+          "helpDetail": "Tree canopy intercepts significant rainfall. Move catchment to the most open area available. A 3x3 foot poncho in moderate rain collects about 1 gallon per hour.",
+          "illustrationDescription": "Maximizing collection."
+        }
+      ]
+    },
+    {
+      "id": "water-electrolyte-solution",
+      "name": "Improvised Oral Rehydration Solution",
+      "subtitle": "Make WHO-standard rehydration fluid from basic ingredients",
+      "category": "Storage",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Mix: 1 liter clean water + 6 teaspoons sugar + \u00bd teaspoon salt.",
+          "helpDetail": "This is the WHO oral rehydration formula. The precise ratio matters \u2014 too much sugar causes diarrhea; too much salt causes vomiting. Measure carefully.",
+          "illustrationDescription": "Mixing solution."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stir thoroughly until fully dissolved. Taste should be like tears.",
+          "helpDetail": "The solution should taste mildly salty, similar to tears or slightly salted water. If it tastes very salty, add more water. If too sweet, add a pinch more salt.",
+          "illustrationDescription": "Testing taste."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sip slowly over 4-6 hours. Do not gulp.",
+          "helpDetail": "Rapid drinking can trigger vomiting in dehydrated individuals. Small, frequent sips allow maximum absorption. This solution treats dehydration 10x more effectively than plain water because of electrolyte replacement.",
+          "illustrationDescription": "Sipping slowly."
+        }
+      ]
     }
   ],
   "articles": [
@@ -643,6 +1429,101 @@
       "relatedTechniqueIDs": [
         "water-vegetation-indicators",
         "water-dew-collection"
+      ]
+    },
+    {
+      "id": "water-article-desert",
+      "title": "Finding Water in the Desert",
+      "body": "Deserts are not waterless \u2014 they are water-hidden. Learning where to look is the difference between survival and death.\n\nWhere water hides in desert:\n- Wash bottoms: Dig 1-3 feet in the outside bend of dry washes after rain\n- Rocky canyons: Tinajas (natural rock pools) hold water for weeks after rain\n- Base of cliffs: Water seeps where impermeable rock meets permeable layers\n- Sand dunes: Dig at the base of the steep (leeward) side\n- Date palms, cottonwoods, willows: These trees ONLY grow where water table is shallow\n\nBehavioral water conservation:\n- Travel at night or early morning only (reduce sweat loss by 60%)\n- Stay in shade during midday (radiant heat increases water loss 3x)\n- Breathe through nose only (oral breathing loses moisture 2x faster)\n- Don't ration water \u2014 drink when thirsty (your body needs it NOW, not later)\n- Keep clothing on \u2014 it reduces sweat evaporation rate and insulates\n\nDesert water math:\n- Normal conditions: 2-3 liters/day needed\n- Desert walking in sun: 6-8 liters/day needed\n- Rest in shade: 3-4 liters/day needed\n- Death from dehydration: 2-5 days without water in hot desert",
+      "relatedTechniqueIDs": [
+        "water-solar-still",
+        "water-well-digging",
+        "water-vegetation-indicators"
+      ]
+    },
+    {
+      "id": "water-article-ice-snow",
+      "title": "Water from Ice and Snow",
+      "body": "Cold environments have abundant water \u2014 all in frozen form. Converting it efficiently is critical.\n\nSnow vs Ice conversion efficiency:\n- 10 liters of fluffy snow = approximately 1 liter of water\n- 1 liter of ice = approximately 0.9 liters of water\n- Always use ice over snow when both are available\n\nEnergy cost of melting:\n- Melting snow with body heat costs significant calories\n- A fire consumes fuel; fuel gathering takes energy\n- Solar melting in dark containers costs nothing but time\n\nSea ice for drinking water:\n- New sea ice is salty (avoid)\n- Old sea ice (multi-year, blue-tinted) has had salt drain out and is drinkable\n- Taste test: if it tastes salty, spit it out\n- Icebergs are compressed freshwater snow \u2014 always safe to melt\n\nBest practice in cold environments:\n1. Keep water bottle inside clothing against body to prevent freezing\n2. Fill bottle before night \u2014 it may freeze by morning\n3. Sleep with water bottle in sleeping bag\n4. Insulate water containers with socks or spare clothing",
+      "relatedTechniqueIDs": [
+        "water-snow-melting",
+        "water-boiling"
+      ]
+    },
+    {
+      "id": "water-article-storage",
+      "title": "Water Storage and Transport",
+      "body": "Finding water is half the battle. Storing and transporting it is equally critical.\n\nImprovised containers:\n- Birch bark sealed with pine resin\n- Bamboo sections (naturally waterproof between nodes)\n- Animal stomachs and bladders (historical, effective)\n- Trash bags and ziplock bags (surprisingly durable)\n- Hollowed logs sealed with clay\n\nContainer hygiene:\n- Bacteria multiply in stored water. Use within 24 hours or re-purify.\n- Clean containers between fills \u2014 biofilm builds quickly\n- Sun exposure kills bacteria in clear containers (SODIS method: 6 hours in full sun)\n\nTransport considerations:\n- Water weighs 1 kg per liter. Carrying more than 4 liters while hiking is impractical.\n- Drink your fill at the source, then carry what you can.\n- Know your route to the next water source \u2014 carry only what you need to reach it.\n- Cache water at camp and along planned routes when possible.\n\nThe best water storage strategy: your body. Drink as much as you can hold at every water source.",
+      "relatedTechniqueIDs": [
+        "water-birch-container",
+        "water-boiling"
+      ]
+    },
+    {
+      "id": "water-article-diseases",
+      "title": "Waterborne Diseases & Prevention",
+      "body": "Untreated water can kill you faster than dehydration. Know what you're defending against.\n\nCommon waterborne pathogens:\n- Giardia: protozoan. Causes severe diarrhea 1-2 weeks after infection. Found worldwide.\n- Cryptosporidium: protozoan. Resistant to chlorine. Requires filtration or boiling.\n- E. coli: bacteria. Indicates fecal contamination. Causes bloody diarrhea.\n- Cholera: bacteria. Causes massive fluid loss. Can kill within hours without treatment.\n- Hepatitis A: virus. Liver infection. Incubation period 2-6 weeks.\n\nTreatment effectiveness:\n- Boiling: kills 100% of pathogens (bacteria, viruses, protozoa)\n- Chemical (chlorine/iodine): kills bacteria and viruses, partially effective against protozoa\n- Filtration (0.2 micron): removes bacteria and protozoa, NOT viruses\n- UV (SODIS): kills bacteria and viruses, less effective on protozoa\n- Best practice: filter THEN boil or chemically treat\n\nSymptoms to watch for:\n- Diarrhea starting 1-14 days after drinking untreated water\n- Abdominal cramps, nausea, fever\n- If diarrhea occurs: oral rehydration solution is critical\n- Dehydration from diarrhea kills faster than the infection itself",
+      "relatedTechniqueIDs": [
+        "water-boiling",
+        "water-bio-sand-filter",
+        "water-electrolyte-solution"
+      ]
+    },
+    {
+      "id": "water-article-filter-vs-purify",
+      "title": "Filtration vs Purification",
+      "body": "These are NOT the same thing. Understanding the difference prevents fatal mistakes.\n\nFiltration: physically removes particles based on pore size.\n- Removes: sediment, bacteria (>0.2 microns), protozoa (>1 micron)\n- Does NOT remove: viruses (0.02-0.3 microns), dissolved chemicals, some toxins\n- Methods: sand filter, charcoal filter, cloth filter, ceramic filter, commercial pump filter\n\nPurification: kills or neutralizes pathogens.\n- Kills: bacteria, viruses, protozoa\n- Methods: boiling, UV light, chemical treatment (chlorine, iodine)\n- Does NOT remove: sediment, chemicals, heavy metals\n\nBest practice: FILTER first, then PURIFY.\n1. Pre-filter through cloth to remove large debris\n2. Filter through sand/charcoal to remove sediment and bacteria\n3. Boil or chemically treat to kill viruses and remaining pathogens\n\nWhen shortcuts are acceptable:\n- Clear mountain stream: boiling alone is usually sufficient\n- Rainwater from clean surface: generally safe without treatment\n- Spring water: usually safe, filter for extra security\n\nWhen full treatment is mandatory:\n- Any standing water (ponds, puddles)\n- Water downstream of human habitation\n- Water with visible contamination or odor\n- Water in developing regions (virus risk is higher)",
+      "relatedTechniqueIDs": [
+        "water-charcoal-filter",
+        "water-boiling",
+        "water-activated-charcoal"
+      ]
+    },
+    {
+      "id": "water-article-desert",
+      "title": "Water in Desert Environments",
+      "body": "Desert dehydration can kill in 1-2 days. Water procurement is your #1 priority.\n\nWater loss rates:\n- Resting in shade: 1 liter/day minimum\n- Walking at night: 2-3 liters/day\n- Walking in daytime heat: 4+ liters/day\n- Without water in 120\u00b0F heat: death in 2-3 days (walking) or 4-5 days (resting in shade)\n\nWhere to find water:\n- Canyons and slot canyons: water collects in potholes and shaded pools\n- Base of cliffs: seeps and springs where geology changes\n- Dry riverbeds: dig at outside of bends, 1-3 feet deep\n- After rain: collect immediately in any container (evaporates fast)\n- Plants: barrel cactus, prickly pear, cottonwood trees indicate water\n\nConserving water:\n- Travel only at night or early morning\n- Stay in shade during midday (10am-4pm)\n- Breathe through nose (mouth breathing wastes moisture)\n- Minimize talking and physical activity\n- Cover exposed skin (prevents sweat evaporation, which paradoxically helps cooling)\n\nCritical rule: NEVER ration water in the desert. Drink when thirsty. Your body needs it now, not later. Water in your stomach keeps you alive; water in your canteen does not.",
+      "relatedTechniqueIDs": [
+        "water-cactus-extraction",
+        "water-underground-seep",
+        "water-solar-still"
+      ]
+    },
+    {
+      "id": "water-article-winter",
+      "title": "Winter Water Collection",
+      "body": "Cold environments create a paradox: surrounded by water (snow/ice) but at high risk of dehydration.\n\nWhy winter dehydration is dangerous:\n- Cold air holds less moisture \u2014 you dehydrate through breathing\n- Thirst response is reduced by 40% in cold (you don't feel as thirsty)\n- Heavy clothing causes sweating during exertion\n- Heating and melting snow requires significant energy\n\nDo NOT eat snow directly:\n- Eating snow lowers core body temperature (costs 80 calories per liter to melt internally)\n- In hypothermia situations, this can be fatal\n- Always melt snow before drinking when possible\n\nMelting snow efficiently:\n- Start with a small amount of water in the pot, then add snow gradually\n- Dry, powdery snow has a 10:1 ratio (10 inches of snow = 1 inch of water)\n- Wet, heavy snow has a 4:1 ratio\n- Pack snow tightly to melt faster\n\nIce vs snow:\n- Ice yields more water per volume than snow\n- Old sea ice (blue tint) is fresh and safe to melt\n- New sea ice is salty \u2014 avoid it\n- Clear river ice is excellent \u2014 already purified by freezing",
+      "relatedTechniqueIDs": [
+        "water-seawater-ice",
+        "water-boiling"
+      ]
+    },
+    {
+      "id": "water-article-rationing",
+      "title": "Water Rationing Strategy",
+      "body": "How to manage limited water supplies to maximize survival time.\n\nThe 3-3-3 rule:\n- 3 minutes without air\n- 3 hours without shelter (in extreme conditions)\n- 3 days without water\n- 3 weeks without food\n\nRationing guidelines:\n- Minimum survival: 1 liter per day (resting in shade, temperate climate)\n- Functional minimum: 2 liters per day (light activity)\n- Active requirement: 3-4 liters per day (hiking, building)\n\nPriority system:\n1. Find new water source (highest priority \u2014 solve the problem)\n2. Reduce water loss (shade, rest, minimize sweating)\n3. Ration existing supply (last resort)\n\nImportant: NEVER ration water in extreme heat. Drink what you have. People have died of dehydration with water still in their canteens because they were rationing.\n\nSignaling dehydration levels:\n- Mild: dark yellow urine, dry mouth, headache\n- Moderate: very dark urine, dizziness, rapid heartbeat, no tears\n- Severe: no urine output, confusion, fainting, sunken eyes\n- Emergency: unconsciousness, seizures (organ failure imminent)\n\nRecovery: rehydrate slowly. 1 liter per hour maximum. Add electrolytes if possible.",
+      "relatedTechniqueIDs": [
+        "water-electrolyte-solution",
+        "water-solar-still"
+      ]
+    },
+    {
+      "id": "water-article-rainwater",
+      "title": "Rainwater Harvesting Systems",
+      "body": "Rain is the cleanest natural water source. Maximize collection when it falls.\n\nCollection math:\n- 1 inch of rain on a 6x8 foot tarp = 25 gallons\n- 1 inch of rain on a 10x10 foot roof = 62 gallons\n- Even light rain on a large surface yields significant water\n\nImprovised collection systems:\n- Tarp funnel: simplest and most effective\n- Poncho or garbage bag stretched between trees\n- Large leaves arranged to channel water into container\n- Bark troughs carved to direct runoff\n- Clothing tied to trees to absorb and wring\n\nRainwater quality:\n- First flush: initial rain collects dust, pollen, bird droppings from collection surface\n- Discard first 5 minutes of rain, then collect\n- After first flush, rainwater is generally safe to drink without treatment\n- Exception: industrial areas (acid rain, pollution)\n\nStorage:\n- Store in covered, dark containers to prevent algae growth\n- Use within 1 week, or re-treat before drinking\n- Add 2 drops of bleach per gallon for long-term storage\n- Keep containers full to minimize air (and bacteria) exposure",
+      "relatedTechniqueIDs": [
+        "water-tarp-rain-catch",
+        "water-poncho-rain-catch"
+      ]
+    },
+    {
+      "id": "water-article-testing",
+      "title": "Field Water Quality Testing",
+      "body": "How to assess water safety when you can't run a lab test.\n\nVisual inspection:\n- Clear water: likely safer but not guaranteed\n- Cloudy/turbid water: contains particles, always filter first\n- Green water: algae present, may contain toxins \u2014 avoid if possible\n- Oily sheen: hydrocarbon contamination \u2014 DO NOT drink\n- Foam: may indicate detergent or organic contamination\n\nSmell test:\n- No odor: good sign\n- Sulfur (rotten egg): may be safe (mineral spring) but unpleasant\n- Chemical odor: contaminated \u2014 DO NOT drink\n- Sewage odor: fecal contamination \u2014 DO NOT drink\n\nSource assessment (safest to most risky):\n1. Spring (direct from ground): safest natural source\n2. Fast-moving stream at high elevation: generally safe\n3. Large river: moderate risk (upstream contamination unknown)\n4. Small pond/lake: higher risk (stagnant, more pathogen growth)\n5. Standing puddle: high risk (concentrated contamination)\n6. Urban water source: highest risk (chemical + biological contamination)\n\nWhen in doubt: boil it. Boiling kills all biological pathogens. It does not remove chemical contamination, but in a survival situation, biological threats kill faster than most chemical contaminants.",
+      "relatedTechniqueIDs": [
+        "water-boiling",
+        "water-charcoal-filter",
+        "water-spring-identification"
       ]
     }
   ]

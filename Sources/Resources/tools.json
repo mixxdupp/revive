@@ -579,42 +579,6 @@
       ]
     },
     {
-      "id": "tools-trap-triggers",
-      "name": "Trap Trigger Mechanisms",
-      "subtitle": "Figure-4 and toggle trigger systems",
-      "category": "Trapping",
-      "difficulty": 2,
-      "estimatedTime": "20 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Figure-4: three sticks notched to hold under tension.",
-          "helpDetail": "Vertical supports horizontal bait stick. Diagonal holds deadfall weight.",
-          "illustrationDescription": "Figure-4."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Carve matching notches that lock under pressure.",
-          "helpDetail": "Too loose = premature. Too tight = won't trigger. Practice first.",
-          "illustrationDescription": "Carving notches."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Toggle: stick through loop holds bent sapling.",
-          "helpDetail": "When toggle pulled from loop, tree snaps upright.",
-          "illustrationDescription": "Toggle."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Connect trigger to snare loop or deadfall weight.",
-          "helpDetail": "Trigger releases stored energy. Bait platform connects to trigger.",
-          "illustrationDescription": "Connecting."
-        }
-      ]
-    },
-    {
       "id": "tools-bone-needle",
       "name": "Bone Needle Making",
       "subtitle": "Sewing gear from animal bone",
@@ -685,6 +649,744 @@
           "illustrationDescription": "Sealing."
         }
       ]
+    },
+    {
+      "id": "tools-bark-container-adv",
+      "name": "Advanced Bark Container",
+      "subtitle": "Watertight folded container from tree bark",
+      "category": "Craft",
+      "difficulty": 2,
+      "estimatedTime": "45 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Harvest a large rectangular sheet of fresh birch, elm, or poplar bark.",
+          "helpDetail": "Fresh bark is flexible and foldable. Dead bark cracks. Score the bark and peel carefully to avoid damaging the inner layer.",
+          "illustrationDescription": "Harvesting bark sheet."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Score fold lines for a box shape. Fold up the sides.",
+          "helpDetail": "Mark the base rectangle and score (don't cut through) the fold lines. Fold up all four sides. Overlap corners.",
+          "illustrationDescription": "Folding bark."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pin corners with wooden pegs or sew with root cordage.",
+          "helpDetail": "Spruce root makes excellent sewing material. Pre-drill holes with a bone awl, then lace the root through.",
+          "illustrationDescription": "Securing corners."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Seal all seams with heated pine resin mixed with charcoal.",
+          "helpDetail": "Apply resin while warm along every seam. Let cool completely. Test by filling with water. Reseal any leaks.",
+          "illustrationDescription": "Sealing seams."
+        }
+      ]
+    },
+    {
+      "id": "tools-stone-drill",
+      "name": "Stone Drill (Pump Drill)",
+      "subtitle": "Drill holes in wood, bone, and shell",
+      "category": "Weapons & Tools",
+      "difficulty": 3,
+      "estimatedTime": "1 hour build",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Knap a small, sharp stone point from flint or obsidian.",
+          "helpDetail": "The drill bit needs to be small (1/4 inch) and sharp. Pressure flaking gives the best control for small points.",
+          "illustrationDescription": "Making drill bit."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lash the stone point to the end of a straight, round shaft.",
+          "helpDetail": "The shaft should be 12-18 inches long and perfectly straight. Split the tip, insert the stone, and wrap tightly with sinew.",
+          "illustrationDescription": "Attaching drill bit."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Attach a crossbar with string to create the pump mechanism.",
+          "helpDetail": "Drill a hole through the crossbar center, thread the shaft through. Attach strings from crossbar ends to the top of the shaft. Wind by spinning.",
+          "illustrationDescription": "Pump crossbar."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Push down on the crossbar repeatedly. The string winds and unwinds, spinning the drill.",
+          "helpDetail": "Push down smoothly \u2014 the string unwinds, spinning the shaft. Let the crossbar rise \u2014 the string rewinds. Continuous pumping drills through wood and bone.",
+          "illustrationDescription": "Pump drilling."
+        }
+      ]
+    },
+    {
+      "id": "tools-fire-hardened-spear",
+      "name": "Fire-Hardened Spear",
+      "subtitle": "Harden a wooden spear point with fire",
+      "category": "Weapons & Tools",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a straight hardwood sapling 5-7 feet long.",
+          "helpDetail": "Ash, oak, hickory, or yew are ideal. The shaft should be thumb-thick. Remove all branches and bark from the tip area.",
+          "illustrationDescription": "Selecting wood."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve the tip to a sharp point using a knife or sharp stone.",
+          "helpDetail": "Carve slowly, rotating the shaft. The point should be symmetrical and gradually tapered over 4-6 inches.",
+          "illustrationDescription": "Carving point."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Slowly rotate the tip over hot coals (NOT in flame).",
+          "helpDetail": "The goal is to drive out moisture and harden the wood cells without burning. Rotate constantly. The wood should darken to light brown, not blacken.",
+          "illustrationDescription": "Fire hardening."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "The hardened point is now denser and more durable than raw wood.",
+          "helpDetail": "Fire-hardened points were used for millennia before stone tools. They can penetrate fish, small game, and serve as defensive weapons.",
+          "illustrationDescription": "Finished spear."
+        }
+      ]
+    },
+    {
+      "id": "tools-sinew-cordage",
+      "name": "Sinew Cordage",
+      "subtitle": "The strongest natural fiber from animal tendons",
+      "category": "Craft",
+      "difficulty": 2,
+      "estimatedTime": "1 hour",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Remove tendons from along the backbone or leg of a game animal.",
+          "helpDetail": "The long tendons running along the spine (backstrap sinew) are best. Leg tendons from deer, elk, or similar work well. Remove carefully in long strips.",
+          "illustrationDescription": "Extracting tendons."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dry the sinew completely \u2014 it becomes hard and brittle.",
+          "helpDetail": "Hang sinew strips in sun and wind. Fully dried sinew looks like thin white plastic. It stores indefinitely in this state.",
+          "illustrationDescription": "Drying sinew."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When needed, chew or soak the sinew to soften it.",
+          "helpDetail": "Chewing is traditional and effective \u2014 saliva softens sinew quickly. Once pliable, separate into thin fibers. Each fiber is incredibly strong.",
+          "illustrationDescription": "Softening sinew."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Twist or braid fibers into cord. Sinew shrinks as it dries, tightening bindings.",
+          "helpDetail": "This shrinking property makes sinew ideal for hafting (attaching stone to handles). Wrap wet sinew around the joint \u2014 as it dries, it contracts and locks tight.",
+          "illustrationDescription": "Twisting sinew cord."
+        }
+      ]
+    },
+    {
+      "id": "tools-clay-pot",
+      "name": "Primitive Clay Pot",
+      "subtitle": "Make a fireproof cooking vessel from river clay",
+      "category": "Craft",
+      "difficulty": 3,
+      "estimatedTime": "2 days (dry time)",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Collect clay from riverbanks or exposed soil cuts.",
+          "helpDetail": "Good clay is smooth, sticky when wet, and holds its shape. Test: roll a pencil-sized coil. If it doesn't crack when bent into a circle, it's usable clay.",
+          "illustrationDescription": "Finding clay."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Mix clay with sand or crushed shell (temper) at a 4:1 ratio.",
+          "helpDetail": "Temper prevents cracking during drying and firing. Without temper, pure clay pots will crack. Crush shell or mix fine sand into the clay.",
+          "illustrationDescription": "Adding temper."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build the pot using coil method \u2014 roll ropes of clay and stack.",
+          "helpDetail": "Roll clay into finger-thick ropes. Coil in a circle for the base, then build walls by stacking coils. Smooth inside and outside surfaces as you go.",
+          "illustrationDescription": "Coil building."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Dry slowly for 1-2 days, then fire in a pit fire for 2-3 hours.",
+          "helpDetail": "Rapid drying or heating causes cracking. Dry in shade first. Place in fire gradually \u2014 start at the edge, move to center. After firing, the pot can withstand direct flame for cooking.",
+          "illustrationDescription": "Firing the pot."
+        }
+      ]
+    },
+    {
+      "id": "tools-atlatl",
+      "name": "Atlatl (Spear Thrower)",
+      "subtitle": "Triple your spear throwing distance and power",
+      "category": "Weapons & Tools",
+      "difficulty": 3,
+      "estimatedTime": "1 hour build",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve a flat board 18-24 inches long with a handle at one end.",
+          "helpDetail": "Hardwood works best. The board should be flat and straight. One end is your grip, the other end holds the spear.",
+          "illustrationDescription": "Carving atlatl board."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve or attach a small spur (hook) at the far end.",
+          "helpDetail": "The spur engages a dimple in the back of the dart/spear. This is the launch point \u2014 when you swing, the spur pushes the dart forward.",
+          "illustrationDescription": "Adding spur."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make lightweight darts 5-6 feet long with feather fletching.",
+          "helpDetail": "Atlatl darts are lighter and longer than hand-thrown spears. Straight, dried shafts with split-feather fletching for stable flight.",
+          "illustrationDescription": "Making darts."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Practice the overhand throwing motion \u2014 flick the wrist at the end.",
+          "helpDetail": "The atlatl effectively extends your arm by 2 feet, dramatically increasing dart velocity. Early humans used atlatls to hunt mammoths. Effective range: 30-40 yards.",
+          "illustrationDescription": "Throwing technique."
+        }
+      ]
+    },
+    {
+      "id": "tools-bone-fishhook",
+      "name": "Bone Fishhook",
+      "subtitle": "Carve a functional fishhook from animal bone",
+      "category": "Craft",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a thin, flat bone fragment from a rib or shoulder blade.",
+          "helpDetail": "Bird bones, fish bones, and small mammal ribs work well. The bone should be thin enough to carve but strong enough not to snap.",
+          "illustrationDescription": "Selecting bone."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Score the hook shape with a sharp stone \u2014 J-curve with a barb.",
+          "helpDetail": "Scratch the outline deeply on both sides. The hook should be 1-2 inches total. Include a small barb near the point to prevent fish from escaping.",
+          "illustrationDescription": "Scoring hook shape."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Snap away excess bone and refine the shape by grinding on stone.",
+          "helpDetail": "Carefully break along the score lines. Use a rough stone to grind the hook smooth and sharpen the point. The shank needs a notch for line attachment.",
+          "illustrationDescription": "Grinding hook."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Lash line to the shank using a snell knot or wrapping.",
+          "helpDetail": "Wrap the line around the shank several times and tie with a secure knot. Natural cordage, fishing line, or even unraveled paracord inner strands work.",
+          "illustrationDescription": "Attaching line."
+        }
+      ]
+    },
+    {
+      "id": "tools-bark-cloth",
+      "name": "Bark Cloth Processing",
+      "subtitle": "Make flexible fabric from inner tree bark",
+      "category": "Craft",
+      "difficulty": 3,
+      "estimatedTime": "2-3 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Harvest inner bark strips from paper mulberry, basswood, or elm.",
+          "helpDetail": "Peel in spring when bark separates easily. You want the inner bark (cambium layer), not the rough outer bark. Take from fallen or dead trees when possible.",
+          "illustrationDescription": "Harvesting inner bark."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Soak the bark strips in water for 1-2 days.",
+          "helpDetail": "Soaking softens the fibers and makes them pliable. The bark should become flexible like wet leather when ready.",
+          "illustrationDescription": "Soaking bark."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pound the soaked bark with a smooth stone or wooden mallet.",
+          "helpDetail": "Pound on a flat surface, rotating and folding. The fibers separate and interlock. Continue until the bark is thin, flexible, and fabric-like.",
+          "illustrationDescription": "Pounding bark."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Dry the bark cloth in the sun. It becomes a durable, flexible fabric.",
+          "helpDetail": "Bark cloth was used worldwide before woven textiles. It can be sewn, folded, and layered. Use for clothing, bandages, cordage backing, or shelter material.",
+          "illustrationDescription": "Finished bark cloth."
+        }
+      ]
+    },
+    {
+      "id": "tools-bamboo-tools",
+      "name": "Bamboo Multi-Tool Construction",
+      "subtitle": "Create cutting, scraping, and stabbing tools from bamboo",
+      "category": "Cutting Tools",
+      "difficulty": 1,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a green bamboo section at least 1 inch diameter.",
+          "helpDetail": "Green bamboo is flexible and won't splinter as badly as dry. Cut a section between two nodes for maximum strength. Bamboo edge cuts through skin easily — handle carefully even before shaping.",
+          "illustrationDescription": "Bamboo selection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Split lengthwise by scoring and applying pressure. Shape the edge with a rock.",
+          "helpDetail": "Score a line with a sharp rock, then apply pressure to split along the grain. The split edge is razor-sharp. For a knife: shape one end to a point. For a scraper: leave the edge wide. For a spear: fire-harden the tip.",
+          "illustrationDescription": "Splitting and shaping."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Fire-harden the edge by slowly rotating over hot coals. Do not burn.",
+          "helpDetail": "Hold the working edge 4-6 inches above coals. Rotate continuously. The heat drives out moisture and hardens the fibers. The edge should darken slightly but not char. Fire-hardened bamboo holds its edge remarkably well.",
+          "illustrationDescription": "Fire hardening."
+        }
+      ]
+    },
+    {
+      "id": "tools-natural-glue",
+      "name": "Natural Adhesive Making",
+      "subtitle": "Create glue from pine resin, birch bark, or hide",
+      "category": "Adhesives",
+      "difficulty": 2,
+      "estimatedTime": "1-2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Collect pine or spruce resin from tree wounds. Look for amber-colored lumps.",
+          "helpDetail": "Conifers produce sticky resin at wound sites. Collect the hardened amber lumps — they peel off easily. You need about a golf ball-sized amount for useful quantities of glue.",
+          "illustrationDescription": "Resin collection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Melt resin over low heat. Mix with crushed charcoal (1:1 ratio) and optional plant fiber.",
+          "helpDetail": "Melt in a stone or shell vessel over coals. Pure resin is brittle when cool. Adding ground charcoal creates a flexible, strong adhesive. A pinch of plant fiber adds tensile strength. Stir thoroughly while hot.",
+          "illustrationDescription": "Mixing adhesive."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply hot to the joint. It sets in 1-2 minutes as it cools.",
+          "helpDetail": "Apply to both surfaces while molten. Press together firmly and hold for 2 minutes. Can be reheated and reapplied by warming near fire. This pitch glue is waterproof and strong enough for tool hafting and waterproofing containers.",
+          "illustrationDescription": "Application."
+        }
+      ]
+    },
+    {
+      "id": "tools-torch",
+      "name": "Torch Construction",
+      "subtitle": "Build a reliable portable light source",
+      "category": "Light & Fire",
+      "difficulty": 1,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a green hardwood stick 2-3 feet long and 1-2 inches thick.",
+          "helpDetail": "Green wood won't catch fire as easily as dry. Hardwood lasts longer than softwood. Split the top end into a cross pattern about 4 inches deep to create a cradle for fuel material.",
+          "illustrationDescription": "Handle preparation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pack the split top with birch bark, pine resin, cloth, or fatwood shavings.",
+          "helpDetail": "Birch bark burns bright and long. Pine resin-soaked materials burn brightest. Wrap tightly and secure with cordage. A torch wrapped with birch bark strips burns 20-30 minutes. Adding resin extends life.",
+          "illustrationDescription": "Fuel packing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Light from existing fire. Hold at 45-degree angle to control dripping.",
+          "helpDetail": "Angle matters: too vertical drips hot material on your hand; too horizontal burns out faster. Walk slowly — wind will extinguish a fast-moving torch. Carry backup fuel material to repack when it burns low.",
+          "illustrationDescription": "Using the torch."
+        }
+      ]
+    },
+    {
+      "id": "tools-fishing-hooks",
+      "name": "Improvised Fishing Hooks",
+      "subtitle": "Create functional hooks from bone, wood, thorns, and wire",
+      "category": "Foraging Tools",
+      "difficulty": 2,
+      "estimatedTime": "30-60 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Gorge hook: carve a 1-inch sliver of bone or hardwood pointed at both ends.",
+          "helpDetail": "The gorge hook is the oldest fishing technology. Sharpen both ends. Tie line to the middle. Bait covers the entire hook. When the fish swallows, pull — the gorge turns sideways and lodges in the throat.",
+          "illustrationDescription": "Gorge hook."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Thorn hook: select a strong thorn from hawthorn, honey locust, or similar tree.",
+          "helpDetail": "Natural thorns make excellent small hooks. Lash to a small twig at an angle to create the hook shape. Works best for small fish. Black locust and hawthorn thorns are ideal — strong, sharp, and curved.",
+          "illustrationDescription": "Thorn hook."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Composite hook: lash a sharp bone point to a hardwood shank at 45 degrees.",
+          "helpDetail": "Carve a shank from hardwood with a notch for the point. Lash a sharpened bone fragment at 45 degrees. Secure with pitch glue and cordage. This style is strong enough for large fish. Barb the point with a small notch.",
+          "illustrationDescription": "Composite hook."
+        }
+      ]
+    },
+    {
+      "id": "tools-trap-triggers",
+      "name": "Universal Trap Trigger Mechanisms",
+      "subtitle": "Master the trigger systems used in all primitive traps",
+      "category": "Trapping",
+      "difficulty": 2,
+      "estimatedTime": "30-60 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Two-stick toggle trigger: carve two sticks with matching notches that hold under tension.",
+          "helpDetail": "Carve a hook shape on each stick that interlocks. One anchored to ground, one attached to the spring/weight. Tension holds them together. Slight movement releases. This is the basis for most snares and deadfalls.",
+          "illustrationDescription": "Toggle trigger."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Figure-4 trigger: three sticks notched to create a free-standing support.",
+          "helpDetail": "Vertical post, horizontal bait stick, and diagonal support. Notches interlock to hold weight above. When bait stick is disturbed, the system collapses. Practice assembly 20+ times before field use — timing and fit are critical.",
+          "illustrationDescription": "Figure-4."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Spring snare trigger: a peg-in-notch system attached to a bent sapling.",
+          "helpDetail": "Bend a sapling over the trail. Attach a trigger line to a toggle peg seated in a notched base stake. The noose loops around the peg. When an animal enters the noose and pulls, the peg releases and the sapling springs up.",
+          "illustrationDescription": "Spring trigger."
+        }
+      ]
+    },
+    {
+      "id": "tools-digging-stick",
+      "name": "Digging Stick & Pry Bar",
+      "subtitle": "The most fundamental and versatile primitive tool",
+      "category": "Multi-Purpose",
+      "difficulty": 1,
+      "estimatedTime": "10-20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a hardwood branch 3-4 feet long, 1.5-2 inches diameter.",
+          "helpDetail": "Hardwoods (oak, maple, hickory) are strongest. Green wood is better than dead wood for initial shaping. Select straight stock with no major knots or weak points.",
+          "illustrationDescription": "Wood selection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Sharpen one end to a chisel or point using a knife or sharp rock.",
+          "helpDetail": "For digging: chisel shape (flat edge) works best. For prying: wedge shape. For planting/probing: pointed tip. Shape the non-working end into a comfortable grip. Remove bark for better grip.",
+          "illustrationDescription": "Shaping."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Fire-harden the working end by slowly rotating over coals.",
+          "helpDetail": "This drives out moisture, compresses fibers, and creates a much harder surface. The tip should turn golden-brown, not black. A fire-hardened digging stick can break through hard clay and frozen ground.",
+          "illustrationDescription": "Hardening."
+        }
+      ]
+    },
+    {
+      "id": "tools-rock-hammer",
+      "name": "Cobble Hammer & Hammerstone",
+      "subtitle": "Create a basic impact tool for splitting, pounding, and shaping",
+      "category": "Impact Tools",
+      "difficulty": 1,
+      "estimatedTime": "5-15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a dense, egg-shaped river cobble that fits comfortably in your hand.",
+          "helpDetail": "River rocks are pre-shaped by water and free of fracture lines. Granite, basalt, and quartzite are ideal. Avoid sandstone (too soft) and layered rocks (will shatter). Test by striking another rock — it should feel solid.",
+          "illustrationDescription": "Stone selection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "For a hafted hammer: find a stone with a natural groove or pecked groove for binding.",
+          "helpDetail": "Wrap cordage in the groove and lash to a wooden handle. Green wood handle with a split end gripping the stone is strongest. Secure with wet rawhide — it shrinks as it dries, creating an incredibly tight bond.",
+          "illustrationDescription": "Hafting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use different faces for different tasks: flat for pounding, edge for splitting.",
+          "helpDetail": "The flat face crushes nuts and pounds stakes. An edge face splits wood. A pointed face chips other stones for tool making. One good hammerstone serves dozens of purposes — it's arguably the most versatile primitive tool.",
+          "illustrationDescription": "Multi-use."
+        }
+      ]
+    },
+    {
+      "id": "tools-water-carrier",
+      "name": "Improvised Water Containers",
+      "subtitle": "Build containers to collect, carry, and store water",
+      "category": "Containers",
+      "difficulty": 2,
+      "estimatedTime": "30-90 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Birch bark container: fold bark into a box shape, secure with pins or cordage.",
+          "helpDetail": "Birch bark is waterproof and foldable when fresh. Score fold lines, fold up sides, and pin corners with wood pegs or sew with root cordage. Seal seams with pitch glue. Holds water for days.",
+          "illustrationDescription": "Bark container."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Animal stomach or bladder: turn inside out, rinse, and inflate to dry.",
+          "helpDetail": "After harvesting game, save the stomach and bladder. Rinse thoroughly, turn inside out, and inflate. Once dry, they make excellent water carriers. The stomach can hold 1-2 liters. Tie the openings with cordage.",
+          "illustrationDescription": "Animal containers."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Bamboo water bottle: cut a section with one node intact as the bottom.",
+          "helpDetail": "Cut bamboo at an angle just above a node (sealed end = bottom). The natural tube holds water perfectly. Carve a wooden plug for the top. A 4-inch diameter bamboo section holds about 1 liter. Carry multiple.",
+          "illustrationDescription": "Bamboo bottle."
+        }
+      ]
+    },
+    {
+      "id": "tools-snow-goggles",
+      "name": "Improvised Snow Goggles",
+      "subtitle": "Prevent snow blindness with improvised eye protection",
+      "category": "Protective Gear",
+      "difficulty": 1,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select material: birch bark, cardboard, leather, or any opaque flexible sheet.",
+          "helpDetail": "Snow blindness (UV keratitis) causes temporary but extremely painful blindness within hours of bright snow exposure. Even overcast days in snow reflect enough UV to cause damage. Prevention is critical — treatment is rest in darkness.",
+          "illustrationDescription": "Material selection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut a strip to cover both eyes. Cut narrow horizontal slits (1mm) at each eye position.",
+          "helpDetail": "The slits should be about 1-2 inches wide and as narrow as possible while still allowing vision. Narrower = better UV protection. You need enough vision to navigate but minimal light entry.",
+          "illustrationDescription": "Slit cutting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Attach cordage or elastic to wrap around the head. Blacken the inner surface.",
+          "helpDetail": "Darken the inside surface with charcoal or soot to reduce reflective glare. Secure with cordage tied behind the head. These goggles reduce UV exposure by 90%+ and are the difference between navigating and incapacitation.",
+          "illustrationDescription": "Final assembly."
+        }
+      ]
+    },
+    {
+      "id": "tools-hand-drill-improvement",
+      "name": "Hand Drill Fire Optimization",
+      "subtitle": "Improve your hand drill technique for reliable fire",
+      "category": "Fire Tools",
+      "difficulty": 3,
+      "estimatedTime": "30-60 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select spindle: dead, dry, straight, pithy stem. Mullein, cattail, or elderberry ideal.",
+          "helpDetail": "The spindle must be straight, 18-24 inches long, and 3/8 to 1/2 inch diameter. Pithy stems work best — the soft center creates more friction. Dead and dry is critical. Green wood will never produce enough heat.",
+          "illustrationDescription": "Spindle selection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Floating hand technique: alternate hands downward while maintaining speed and pressure.",
+          "helpDetail": "The biggest hand drill failure is losing speed while resetting hand position. Float your hands down the spindle with continuous downward pressure and rotation. When you reach the bottom, quickly snap back to the top without stopping.",
+          "illustrationDescription": "Floating hands."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Add friction enhancers: sand in the notch, and moisture from crushed green plants on your palms.",
+          "helpDetail": "A pinch of fine sand in the hearth board notch increases friction dramatically. Rub crushed green plantain leaves on your palms — the slight tackiness prevents slipping. These two additions make the hand drill significantly easier.",
+          "illustrationDescription": "Friction enhancers."
+        }
+      ]
+    },
+    {
+      "id": "tools-figure4-deadfall",
+      "name": "Figure-4 Deadfall Trap",
+      "subtitle": "Build a crushing trap for small game",
+      "category": "Trapping",
+      "difficulty": 2,
+      "estimatedTime": "30-60 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve three sticks: vertical post, horizontal bait bar, diagonal support.",
+          "helpDetail": "Each stick needs specific notches to interlock. Vertical: flat notch at top, square notch at bottom. Diagonal: point at bottom, flat notch at top matching vertical. Horizontal: square notch to engage vertical, bait on far end.",
+          "illustrationDescription": "Carving sticks."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the three sticks into a figure-4 shape under a heavy flat rock.",
+          "helpDetail": "The rock must be heavy enough to kill instantly — 5x the animal's weight minimum. A 2-pound squirrel needs a 10-pound rock. Test the trigger by gently touching the bait bar — it should collapse with light touch.",
+          "illustrationDescription": "Assembly."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Bait with local food sources. Place along animal trails with guide fences.",
+          "helpDetail": "Build small stick fences on either side to funnel the animal toward the bait. Smear bait on the horizontal stick. Place at trail junctions or near den entrances. Set at dusk, check at dawn. Reset daily.",
+          "illustrationDescription": "Baiting and placement."
+        }
+      ]
+    },
+    {
+      "id": "tools-hide-tanning",
+      "name": "Basic Hide Tanning",
+      "subtitle": "Preserve animal hides for clothing, cordage, and containers",
+      "category": "Processing",
+      "difficulty": 3,
+      "estimatedTime": "2-5 days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Flesh the hide: scrape all meat, fat, and membrane from the inner surface.",
+          "helpDetail": "Stretch the hide on a frame or flat log. Use a scraper made from bone, rock edge, or split hardwood. Remove every trace of flesh — any remaining will rot and stink. This is the most critical and time-consuming step.",
+          "illustrationDescription": "Fleshing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Brain tan: mash the animal's brain and rub into the hide thoroughly.",
+          "helpDetail": "Every animal has enough brain to tan its own hide. Mash brain with warm water into a paste. Rub into every square inch of the hide, both sides. The oils in the brain preserve and soften the leather. Let soak overnight.",
+          "illustrationDescription": "Brain application."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Smoke the hide over a slow smoldering fire to set the tan.",
+          "helpDetail": "After brain tanning and drying, the leather will stiffen if it gets wet — unless smoked. Drape over a smoldering fire (punk wood, no flame) for 2-4 hours per side. The smoke locks in the oils and makes the hide permanently soft.",
+          "illustrationDescription": "Smoking."
+        }
+      ]
+    },
+    {
+      "id": "tools-charcoal-filter",
+      "name": "Charcoal Water Filter Construction",
+      "subtitle": "Build a gravity-fed filter from natural materials",
+      "category": "Water Tools",
+      "difficulty": 2,
+      "estimatedTime": "1-2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make charcoal: burn hardwood to coals, then smother. Crush into small pieces.",
+          "helpDetail": "Good charcoal is jet black, lightweight, and breaks clean. Burns to coals then cover with dirt or ash to smother. Once cool, crush to pea-sized or smaller. Charcoal absorbs chemicals, bacteria, and improves taste.",
+          "illustrationDescription": "Making charcoal."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Layer in container: coarse gravel (bottom), fine sand, crushed charcoal, fine sand, grass (top).",
+          "helpDetail": "Use a hollow log, birch bark tube, or plastic bottle with bottom cut off. Layers from bottom: rocks → gravel → sand → charcoal → sand → grass. Each layer ~2 inches. The grass pre-filters debris, charcoal does the heavy work.",
+          "illustrationDescription": "Layer assembly."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pour water through top. Collect filtered water below. STILL BOIL before drinking.",
+          "helpDetail": "This filter removes sediment, improves taste, and reduces (not eliminates) bacteria. The charcoal absorbs many chemical contaminants. But it does NOT reliably kill all pathogens — always boil filtered water before drinking.",
+          "illustrationDescription": "Filtering."
+        }
+      ]
+    },
+    {
+      "id": "tools-improvised-saw",
+      "name": "Improvised Cutting Tools",
+      "subtitle": "Create saws and cutting edges from found materials",
+      "category": "Cutting Tools",
+      "difficulty": 2,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Wire saw: twist two strands of wire together. Loop handles at each end.",
+          "helpDetail": "Salvaged wire from fencing, vehicles, or electronics works. Twist two strands tight for rigidity. Loops at each end fit over sticks for handles. Draw back and forth — cuts wood surprisingly fast. Works on bone too.",
+          "illustrationDescription": "Wire saw."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stone edge tool: find flint, obsidian, or fine-grained stone and strike flakes.",
+          "helpDetail": "Hard percussion (striking with a hammerstone) removes large flakes. Soft percussion (antler or hardwood baton) removes thinner, sharper flakes. A fresh flake edge is sharper than surgical steel. Handle carefully.",
+          "illustrationDescription": "Flaking."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Tin can knife: cut a can in half, fold the edge over for a handle.",
+          "helpDetail": "An aluminum can edge is razor-sharp when cut. Fold one edge over several times for a grip. The working edge cuts cordage, flesh, and thin materials. Wrap the handle in cloth or bark to prevent cuts. Short lifespan but immediate results.",
+          "illustrationDescription": "Can knife."
+        }
+      ]
+    },
+    {
+      "id": "tools-weighted-net",
+      "name": "Improvised Fishing & Trapping Net",
+      "subtitle": "Construct nets from natural cordage for fishing and trapping",
+      "category": "Foraging Tools",
+      "difficulty": 3,
+      "estimatedTime": "3-6 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make cordage from plant fibers: dogbane, nettle, milkweed, or inner bark.",
+          "helpDetail": "Split stems lengthwise, scrape out pith, and twist the outer fibers into cordage using the reverse-twist method. You need a LOT of cordage — a small net requires 50+ feet. Start cordage production as a background task every day.",
+          "illustrationDescription": "Cordage making."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tie a mesh net using sheet bend knots or overhand knots at regular intervals.",
+          "helpDetail": "Use a gauge stick to keep mesh openings consistent. Smaller mesh = smaller fish caught. 1-inch mesh for pan fish, 2-inch for larger. Work row by row, tying each new cord to the previous row's loops.",
+          "illustrationDescription": "Net tying."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Attach weights (stones) to the bottom edge and floats (bark pieces) to the top.",
+          "helpDetail": "The net must hang vertically in water. Stones every 6 inches on the bottom, bark or wood floats on top. Set across a stream with stake anchors. Fish swim into the mesh and become tangled. Check every few hours.",
+          "illustrationDescription": "Weighted net deployment."
+        }
+      ]
     }
   ],
   "articles": [
@@ -724,6 +1426,78 @@
       "body": "A well-organized camp is a force multiplier. Disorganization wastes time, energy, and morale.\n\nCamp selection criteria:\n- Water: within 200 yards but not in a flood plain\n- Shelter: protected from wind, not under dead trees/branches\n- Fire: dry ground, fuel nearby, fire reflector potential\n- Signals: visible from air/ground, near open area\n- Hazards: away from animal trails, ant hills, hornet nests, cliff edges\n\nCamp zones (concentric rings):\n1. Sleep zone: warmest, most protected, clean\n2. Work zone: fire, cooking, tool maintenance\n3. Storage zone: food cache, water storage, firewood\n4. Waste zone: latrine, garbage pit, fish cleaning\n\nFirewood rule of three:\n- The firewood you think you need \u00d7 3 = what you actually need\n- Gather firewood before dark \u2014 ALWAYS\n- Sort by size: tinder, kindling, fuel, overnight logs\n\nDefensive camp features:\n- Noise-makers on perimeter approach lines (cans with rocks, sticks)\n- Fire maintained through night (deters most wildlife)\n- Food hung 12+ feet, 200+ feet from camp\n- Clear sightlines around shelter",
       "relatedTechniqueIDs": [
         "tools-camp-organization"
+      ]
+    },
+    {
+      "id": "tools-article-cordage",
+      "title": "Natural Cordage: The Universal Survival Material",
+      "body": "Cord connects everything in survival \u2014 shelters, traps, fishing, weapons, and tools. Natural cordage is everywhere if you know where to look.\n\nBest natural cordage materials:\n- Plant fibers: dogbane, milkweed, stinging nettle, yucca, cattail leaves\n- Bark fibers: basswood inner bark, cedar bark, willow bark\n- Animal: sinew (strongest), rawhide strips, gut\n- Roots: spruce roots, pine roots (flexible and strong)\n\nBasic twist cordage technique:\n1. Gather long fibers and bundle them\n2. Divide into two equal bundles\n3. Twist each bundle clockwise individually\n4. Wrap the two bundles counter-clockwise around each other\n5. The opposing twists lock each other in place\n\nSplicing (adding length):\n- When a bundle runs thin, insert new fibers alongside the short ones\n- Stagger splices \u2014 never splice both bundles at the same point\n- A well-made cordage splice is nearly as strong as unspliced cord\n\nStrength comparison:\n- Paracord inner strand: 50 lbs\n- Good plant cordage (2-ply): 30-50 lbs\n- Sinew cord: 80+ lbs\n- Rawhide strip: 100+ lbs",
+      "relatedTechniqueIDs": [
+        "tools-cordage",
+        "tools-sinew-cordage"
+      ]
+    },
+    {
+      "id": "tools-article-stone",
+      "title": "The Stone Age Toolkit",
+      "body": "For 2.5 million years, stone was humanity's primary material. The skills still work.\n\nEssential stone tools:\n1. Chopper: crude cutting edge on a river cobble \u2014 the simplest stone tool\n2. Hand axe: bifacially flaked teardrop shape \u2014 cuts, scrapes, digs\n3. Scraper: steep-edged flake for hide processing and wood shaping\n4. Knife: thin, long flake with sharp edge \u2014 the most useful daily tool\n5. Drill point: small, triangular piece for piercing bone, shell, and wood\n\nBest rocks for tools:\n- Flint/chert: king of toolmaking, conchoidal fracture, razor edges\n- Obsidian: volcanic glass, sharpest edges in nature (thinner than steel scalpels)\n- Quartzite: tough, holds up for chopping and hammering\n- Jasper: fine-grained, makes excellent small tools\n- Basalt: coarse but good for heavy-duty choppers and hammers\n\nCollecting strategy:\n- Riverbeds are natural rock shops \u2014 water sorts by density and hardness\n- Look for rocks that ring when tapped (indicates fine grain)\n- Avoid rocks with visible cracks, inclusions, or layering\n- Carry good stone when you find it \u2014 the perfect rock may not be at your camp",
+      "relatedTechniqueIDs": [
+        "tools-flint-knapping",
+        "tools-stone-axe"
+      ]
+    },
+    {
+      "id": "tools-article-containers",
+      "title": "Improvised Containers",
+      "body": "Containers solve countless problems: carry water, cook food, store supplies, collect rain, process materials.\n\nNatural containers:\n- Bamboo segments: naturally waterproof between nodes. Cut above and below a node for instant cup.\n- Gourds: dried gourds are lightweight, durable, waterproof\n- Coconut shells: two bowls from one coconut\n- Large leaves: folded and pinned with thorns for temporary liquid transport\n- Hollow logs: natural troughs for water storage\n\nConstructed containers:\n- Birch bark: folded and sealed with resin (waterproof, can boil water)\n- Clay pots: fired clay holds liquid, cooks over fire, stores food\n- Woven baskets: coiled or woven, lined with clay for water-tightness\n- Animal stomach/bladder: natural waterproof bag (used for millennia)\n- Hide: shaped when wet, dries into rigid container (parfleche)\n\nHot rock cooking (no fireproof container needed):\n1. Dig a small pit\n2. Line with hide, bark, or large leaves\n3. Fill with water\n4. Heat rocks in fire until glowing\n5. Drop rocks into water with sticks\n6. Water boils in minutes\n7. Add food to cook\n\nThis technique works with any container that holds water, even if it can't go on fire.",
+      "relatedTechniqueIDs": [
+        "tools-improvised-container",
+        "tools-bark-container-adv",
+        "tools-clay-pot"
+      ]
+    },
+    {
+      "id": "tools-article-adhesives",
+      "title": "Natural Adhesives: The Complete Guide",
+      "body": "Adhesives were among the earliest technologies humans developed. Understanding them transforms your tool-making capability.\n\nPine pitch glue (strongest natural adhesive):\n- Collect hardened resin from conifer wounds\n- Melt over low heat (resin is flammable — keep away from flame)\n- Mix 1:1 with crushed charcoal for flexibility\n- Optional: add plant fiber for tensile strength\n- Apply hot, sets in 1-2 minutes\n- Waterproof and strong enough for tool hafting\n- Can be reheated and reused indefinitely\n\nBirch bark tar (superior but harder to make):\n- Requires sealed heating of birch bark (pyrolysis)\n- Pack bark tightly in a closed container with a small exit hole\n- Heat from outside — tar drips out the hole\n- Produces a black, waterproof, extremely strong adhesive\n- Used for tens of thousands of years across Northern Europe\n\nHide glue:\n- Boil rawhide scraps or sinew until dissolved\n- The collagen creates a strong, clear adhesive\n- Sets rigid when cool, can be reheated\n- Excellent for fletching arrows and laminating wood\n\nAll natural adhesives are thermoplastic — they soften with heat. Store pitch glue sticks on a cord for easy transport and reuse.",
+      "relatedTechniqueIDs": [
+        "tools-natural-glue"
+      ]
+    },
+    {
+      "id": "tools-article-fishing-tech",
+      "title": "Primitive Fishing Technology",
+      "body": "Fish are among the easiest wild protein sources to harvest. Passive methods catch food while you do other survival work.\n\nPassive fishing methods (set and forget):\n- Trotline: long line strung across water with multiple baited hooks at intervals\n- Fish trap: woven funnel-entry basket in a stream (fish enter, can't exit)\n- Gill net: mesh net stretched across current (fish swim in, gills tangle)\n- Bank lines: baited hooks tied to flexible branches along shore\n\nActive fishing methods:\n- Spearing: requires clear, shallow water and practice\n- Hand fishing (noodling): reach into underwater cavities for catfish\n- Tickling: gently rub a fish's belly from below, then grab\n- Improvised rod and line: any pole, cordage, and hook\n\nBait hierarchy (most effective to least):\n1. Live insects (grasshoppers, grubs, worms)\n2. Cut bait (piece of another fish)\n3. Bright colored material (cloth, feather lures)\n4. Meat scraps\n5. Berries and bread-like dough\n\nLocation matters more than bait:\n- Fish rest behind rocks in current (eddies)\n- Under fallen trees and overhanging banks\n- At the confluence of streams\n- In the deepest pool of a stream section\n- Near underwater structure (roots, rocks, logs)\n\nCaloric investment rule: passive methods yield more calories per effort than active methods. Set 5-10 lines/traps and focus your time elsewhere.",
+      "relatedTechniqueIDs": [
+        "tools-fishing-hooks",
+        "tools-weighted-net"
+      ]
+    },
+    {
+      "id": "tools-article-trapping",
+      "title": "Principles of Effective Trapping",
+      "body": "Trapping is the most calorie-efficient way to acquire protein in a survival situation.\n\nWhy trapping beats hunting:\n- Traps work 24/7 while you sleep, build shelter, and signal\n- No stalking skill or stealth required\n- One person can run 10-20 traps per day\n- Smaller animals are more abundant and easier to trap\n- No weapons required\n\nTrap placement rules:\n1. Set on active trails (look for tracks, droppings, fur)\n2. Use guide sticks to funnel animals into the trap\n3. Place where terrain naturally constricts movement\n4. Set near water sources (all animals drink)\n5. Set near food sources (fruiting trees, berry patches)\n\nThe numbers game:\n- Expect a 10-20% success rate per trap per night\n- Set 10+ traps to reliably catch 1-2 animals per day\n- Vary trap types (snares, deadfalls, pit traps)\n- Check and reset every 12 hours\n\nCommon trap types by target:\n- Squirrels: pole snare (leaning pole with multiple snare loops)\n- Rabbits: trail snare (noose at head height on a trail)\n- Birds: ojibwa bird pole (perch snare)\n- Rats/mice: figure-4 deadfall\n- Fish: funnel trap, trotline\n\nEthical and legal caveat: trapping is regulated everywhere. In true survival, use every method available. In practice, learn the laws of your area.",
+      "relatedTechniqueIDs": [
+        "tools-trap-triggers",
+        "tools-figure4-deadfall"
+      ]
+    },
+    {
+      "id": "tools-article-leather",
+      "title": "Hide & Leather Working in Survival",
+      "body": "Animal hides are among the most valuable survival resources. A single deer hide provides material for clothing, cordage, containers, and shelter.\n\nWhat you can make from one hide:\n- Moccasins (foot protection — critical)\n- Gloves or mittens\n- Cordage (rawhide strips are incredibly strong)\n- Water container or carrying bag\n- Drum head (for signaling)\n- Patches for clothing repair\n- Sling or carry strap\n\nProcessing methods:\n\nRawhide (no tanning — just dried):\n- Clean, flesh, stretch, and dry\n- Rigid when dry, flexible when wet\n- Use for cordage, lashing, snowshoe webbing\n- Shrinks 10-15% as it dries (use this for tight bindings)\n\nBrain tan (soft leather):\n- Flesh → brain → stretch → smoke\n- Produces soft, flexible, breathable leather\n- Washable (the smoking step makes it water-resistant)\n- Best for clothing and moccasins\n\nSmoke tan (simplified):\n- Flesh → stretch → smoke directly\n- Less soft than brain tan but faster\n- Adequate for bags, patches, and lashing\n\nTime investment: processing one deer hide takes 8-16 hours of active work spread over 2-4 days. The result is a material more versatile than any modern equivalent in a primitive context.",
+      "relatedTechniqueIDs": [
+        "tools-hide-tanning",
+        "tools-bone-needle"
+      ]
+    },
+    {
+      "id": "tools-article-stone-tools",
+      "title": "Stone Tool Making: Flintknapping Basics",
+      "body": "Stone tools sustained humanity for 2.5 million years. The skills are still relevant in survival.\n\nBest stones for tools (conchoidal fracture required):\n- Flint/chert: most common, found in limestone regions\n- Obsidian: volcanic glass, sharpest edges possible\n- Quartzite: common, harder to work but available everywhere\n- Jasper: colorful, works like flint\n- Agate: similar to jasper\n\nBasic knapping technique:\n1. Select a core stone with no visible cracks\n2. Strike with a hammerstone at 45-degree angle on the edge\n3. Flakes pop off the opposite side (they travel through the stone)\n4. Each flake is a potential tool — razor-sharp edge\n5. For finer work, use an antler or hardwood baton\n\nSafety rules:\n- Flake edges are sharper than surgical steel\n- Wear eye protection if possible (stone chips fly)\n- Work on your lap with a leather pad\n- Never touch the edges with bare fingers\n- Store tools in protective wrapping\n\nTool types from flakes:\n- Scraper: thick flake used for hide processing\n- Blade: long, thin flake for cutting\n- Point: shaped by pressure flaking for arrows and spears\n- Drill: narrow point for making holes in wood, bone, and leather\n- Chopper: large core tool for heavy cutting\n\nA skilled knapper can produce a usable blade in under a minute. Practice with river cobbles before attempting fine-grained stones.",
+      "relatedTechniqueIDs": [
+        "tools-rock-hammer",
+        "tools-improvised-saw"
       ]
     }
   ]

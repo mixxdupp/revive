@@ -14,58 +14,37 @@ struct DomainDetailView: View {
     
     var body: some View {
         ScrollView {
-            VStack(spacing: 24) {
-                // MARK: - HERO HEADER (God Tier)
-                ZStack(alignment: .bottomLeading) {
-                    // Background
-                    GeometryReader { geo in
-                        LinearGradient(
-                            colors: [
-                                domain.color,
-                                domain.color.opacity(0.6),
-                                Color(uiColor: .systemGroupedBackground)
-                            ],
-                            startPoint: .top,
-                            endPoint: .bottom
-                        )
-                        .frame(height: geo.size.height + 100) // Stretch up
-                        .offset(y: -100)
-                    }
-                    .frame(height: 280)
+            VStack(alignment: .leading, spacing: 24) {
+                
+                // MARK: - HERO HEADER (Clean List Style)
+                // New York Serif Large Title
+                VStack(alignment: .leading, spacing: 16) {
                     
-                    // Huge Watermark Icon
-                    HStack {
-                        Spacer()
+                    // Icon Container (Solid Color)
+                    ZStack {
+                        Circle()
+                            .fill(domain.color)
                         Image(systemName: domain.icon)
-                            .font(.system(size: 200, weight: .black))
-                            .foregroundStyle(.white.opacity(0.1))
-                            .rotationEffect(.degrees(-10))
-                            .offset(x: 40, y: 40)
-                    }
-                    
-                    // Content
-                    VStack(alignment: .leading, spacing: 8) {
-                        Image(systemName: domain.icon)
-                            .font(.system(size: 48))
+                            .font(.system(size: 32, weight: .bold))
                             .foregroundStyle(.white)
-                            .shadow(radius: 10)
-                        
+                    }
+                    .frame(width: 64, height: 64)
+                    .shadow(color: domain.color.opacity(0.3), radius: 8, x: 0, y: 4)
+                    
+                    VStack(alignment: .leading, spacing: 4) {
                         Text(domain.displayName)
-                            .font(.system(size: 40, weight: .black, design: .rounded))
-                            .foregroundStyle(.white)
-                            .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                            .font(.system(size: 40, weight: .bold, design: .serif)) // New York
+                            .foregroundStyle(DesignSystem.textPrimary)
                         
                         Text("Master essential skills for \(domain.displayName.lowercased()) scenarios.")
-                            .font(.title3)
+                            .font(.body)
                             .fontWeight(.medium)
-                            .foregroundStyle(.white.opacity(0.9))
-                            .shadow(radius: 2)
+                            .foregroundStyle(DesignSystem.textSecondary)
+                            .lineLimit(2)
                     }
-                    .padding(24)
-                    .padding(.bottom, 20)
                 }
-                .frame(height: 280)
-                // Remove safe area top to let gradient bleed
+                .padding(.top, 24)
+                .padding(.horizontal, 24)
                 
                 // MARK: - CONTENT STACK
                 LazyVStack(spacing: 24) {
@@ -74,7 +53,7 @@ struct DomainDetailView: View {
                     if !techniques.isEmpty {
                         VStack(alignment: .leading, spacing: 16) {
                             Text("Techniques")
-                                .font(.title2)
+                                .font(.title3)
                                 .fontWeight(.bold)
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .padding(.horizontal, 24)
@@ -93,7 +72,7 @@ struct DomainDetailView: View {
                     if !articles.isEmpty {
                         VStack(alignment: .leading, spacing: 16) {
                             Text("Articles")
-                                .font(.title2)
+                                .font(.title3)
                                 .fontWeight(.bold)
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .padding(.horizontal, 24)
@@ -112,7 +91,7 @@ struct DomainDetailView: View {
                                         
                                         VStack(alignment: .leading, spacing: 4) {
                                             Text(article.title)
-                                                .font(.system(size: 17, weight: .semibold, design: .rounded))
+                                                .font(.system(size: 17, weight: .semibold))
                                                 .foregroundStyle(DesignSystem.textPrimary)
                                                 .lineLimit(1)
                                             
@@ -143,6 +122,7 @@ struct DomainDetailView: View {
             }
         }
         .background(Color(uiColor: .systemGroupedBackground))
-        .edgesIgnoringSafeArea(.top) // Bleed header
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

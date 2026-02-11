@@ -255,36 +255,6 @@
       ]
     },
     {
-      "id": "food-grub-finding",
-      "name": "Finding Grubs & Larvae",
-      "subtitle": "High-calorie protein in rotting wood",
-      "category": "Insects",
-      "difficulty": 1,
-      "estimatedTime": "15 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Look in rotting logs, under bark, and in dead standing trees.",
-          "helpDetail": "White, cream, or tan larvae are generally safe. They are beetle, moth, or fly larvae feeding on decomposing wood.",
-          "illustrationDescription": "Grubs in rotting wood."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Peel bark and split soft wood to expose galleries.",
-          "helpDetail": "Use a knife, sharp rock, or stick to pry bark. Larvae live in chambers within the wood.",
-          "illustrationDescription": "Peeling bark to find grubs."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Cook before eating \u2014 skewer and roast over coals.",
-          "helpDetail": "Raw grubs carry bacteria from decomposing wood. Roasting makes them taste nutty. They pop when done.",
-          "illustrationDescription": "Roasting grubs on skewer."
-        }
-      ]
-    },
-    {
       "id": "food-universal-edibility",
       "name": "Universal Edibility Test",
       "subtitle": "Test unknown plants before eating",
@@ -651,42 +621,6 @@
       ]
     },
     {
-      "id": "food-acorn-processing",
-      "name": "Acorn Processing",
-      "subtitle": "Remove tannins to unlock a massive food source",
-      "category": "Forage",
-      "difficulty": 2,
-      "estimatedTime": "2 hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Collect acorns. Discard any with holes (insect larvae).",
-          "helpDetail": "White oak acorns are less bitter. All are edible after leaching.",
-          "illustrationDescription": "Collecting acorns."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Shell and crush the nut meat between rocks.",
-          "helpDetail": "Smaller pieces leach faster. Remove thin brown skin if possible.",
-          "illustrationDescription": "Shelling and crushing."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Hot water leach: pour boiling water over, drain, repeat 5-10 times.",
-          "helpDetail": "Repeat until water runs clear and taste is not bitter. Cold water leaching takes days.",
-          "illustrationDescription": "Leaching tannins."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Dry the leached meal. Use as flour or eat as mush.",
-          "helpDetail": "High in fat, protein, carbs. One oak tree can feed a person for months.",
-          "illustrationDescription": "Acorn flour."
-        }
-      ]
-    },
-    {
       "id": "food-pine-tea",
       "name": "Pine Needle Tea",
       "subtitle": "Vitamin C from any pine tree",
@@ -903,38 +837,662 @@
       ]
     },
     {
-      "id": "food-mushroom-safety",
-      "name": "Mushroom Safety Rules",
-      "subtitle": "When in doubt, throw it out \u2014 no exceptions",
+      "id": "food-pine-bark-flour",
+      "name": "Pine Bark Flour",
+      "subtitle": "Emergency starch from inner pine bark",
       "category": "Forage",
-      "difficulty": 3,
-      "estimatedTime": "5 min",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
       "hasHapticGuide": false,
       "hapticType": null,
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "If you cannot identify with 100% certainty, do not eat it.",
-          "helpDetail": "Mushroom poisoning causes liver failure 3-5 days later. No field cure.",
-          "illustrationDescription": "ID rule."
+          "instruction": "Strip the outer bark from a pine tree to expose the inner bark.",
+          "helpDetail": "The cambium layer \u2014 thin, moist, whitish layer between the rough outer bark and the wood. Peel in vertical strips. Take from multiple trees to avoid killing any one tree.",
+          "illustrationDescription": "Peeling bark."
         },
         {
           "stepNumber": 2,
-          "instruction": "Avoid: white gills, ring on stem, bulbous base.",
-          "helpDetail": "These describe deadly Amanita species. Destroys liver.",
-          "illustrationDescription": "Deadly features."
+          "instruction": "Scrape off the inner bark (cambium) in thin strips.",
+          "helpDetail": "Use a knife edge to scrape. You want the soft, moist inner bark, not the hard outer bark or the wood underneath. It tastes slightly sweet and resinous.",
+          "illustrationDescription": "Scraping cambium."
         },
         {
           "stepNumber": 3,
-          "instruction": "Safe bets: puffballs (white inside), chicken-of-the-woods.",
-          "helpDetail": "Giant puffballs pure white inside are safe. Orange shelf mushrooms usually safe.",
-          "illustrationDescription": "Safer ones."
+          "instruction": "Dry the strips and grind into flour. Mix with water for porridge.",
+          "helpDetail": "Dried pine bark flour contains 500-600 calories per 100g. It can be eaten raw, boiled into porridge, or mixed with other flours. It kept Scandinavian populations alive through famine.",
+          "illustrationDescription": "Making pine flour."
+        }
+      ]
+    },
+    {
+      "id": "food-cattail-harvest",
+      "name": "Cattail Harvesting",
+      "subtitle": "Every part of the cattail is edible year-round",
+      "category": "Forage",
+      "difficulty": 1,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify cattails by their distinctive brown cigar-shaped seed head.",
+          "helpDetail": "Cattails grow in wetlands, ponds, and ditches worldwide. CAUTION: Iris leaves look similar but are toxic. Cattail leaves wrap around the stalk; iris leaves grow from the base in a fan.",
+          "illustrationDescription": "Identifying cattails."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Spring: eat young shoots and stalk bases raw or cooked.",
+          "helpDetail": "The white base of young shoots tastes like cucumber. Pull the inner stalk out and eat the tender white portion. Called 'Cossack asparagus' by Russian settlers.",
+          "illustrationDescription": "Spring harvest."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Summer: harvest pollen from the male flower for protein-rich flour.",
+          "helpDetail": "Shake the yellow male flower (top spike) into a bag. The pollen is high in protein and can be mixed with regular flour for bread or added to soups.",
+          "illustrationDescription": "Collecting pollen."
         },
         {
           "stepNumber": 4,
-          "instruction": "Never eat raw. Always cook mushrooms thoroughly.",
-          "helpDetail": "Cooking destroys some toxins. Many edible ones cause raw stomach upset.",
-          "illustrationDescription": "Always cook."
+          "instruction": "Fall/Winter: dig up the root rhizomes for starchy food.",
+          "helpDetail": "Wash and peel the roots. The starchy core can be eaten raw, boiled, or dried and ground to flour. Rhizomes are the highest calorie part of the plant.",
+          "illustrationDescription": "Harvesting roots."
+        }
+      ]
+    },
+    {
+      "id": "food-crayfish-trap",
+      "name": "Crayfish Trapping",
+      "subtitle": "Easy protein from streams and ponds",
+      "category": "Fishing",
+      "difficulty": 1,
+      "estimatedTime": "Setup: 15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Look for crayfish in shallow, rocky streams and pond edges.",
+          "helpDetail": "Turn over rocks \u2014 crayfish hide underneath during the day. Active at night. Found on every continent except Antarctica.",
+          "illustrationDescription": "Finding crayfish habitat."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build a simple funnel trap from sticks or a plastic bottle.",
+          "helpDetail": "Cut a bottle in half, invert the top into the bottom to create a funnel entrance. Or weave a cone from flexible sticks.",
+          "illustrationDescription": "Building trap."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Bait with fish scraps, meat, or strong-smelling food. Place in shallow water.",
+          "helpDetail": "Crayfish are scavengers attracted to strong smells. Anchor the trap with rocks so it doesn't drift. Set in the evening for best results.",
+          "illustrationDescription": "Setting bait."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Boil crayfish in water for 5 minutes. Eat the tail meat.",
+          "helpDetail": "MUST be cooked \u2014 crayfish carry parasites when raw. Twist the tail from the body, peel the shell, eat the meat.",
+          "illustrationDescription": "Cooking crayfish."
+        }
+      ]
+    },
+    {
+      "id": "food-bird-snare-ojibwe",
+      "name": "Ojibwe Bird Snare",
+      "subtitle": "Traditional bird snare using a bent sapling",
+      "category": "Trapping",
+      "difficulty": 2,
+      "estimatedTime": "30 min setup",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a flexible sapling near bird feeding areas.",
+          "helpDetail": "Look for areas where birds feed on the ground \u2014 berry bushes, seed heads, water edges.",
+          "illustrationDescription": "Finding location."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Bend the sapling down and secure it with a trigger mechanism.",
+          "helpDetail": "Carve a simple figure-4 trigger or use a toggle and notch system. The trigger holds the sapling down under tension.",
+          "illustrationDescription": "Setting trigger."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Attach a snare loop made from cordage to the trigger.",
+          "helpDetail": "The snare loop should be slightly larger than the bird's foot. Lay it flat around bait.",
+          "illustrationDescription": "Attaching snare."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Place bait (berries, seeds, insects) around the trigger.",
+          "helpDetail": "Set multiple snares in a line for better odds. Check every few hours.",
+          "illustrationDescription": "Baiting snare."
+        }
+      ]
+    },
+    {
+      "id": "food-pemmican-making",
+      "name": "Pemmican Making",
+      "subtitle": "The ultimate survival food: meat, fat, and berries",
+      "category": "Preservation",
+      "difficulty": 2,
+      "estimatedTime": "1 day",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dry lean meat into jerky, then pound into powder.",
+          "helpDetail": "Any lean meat works. Slice thin and dry completely over smoke or in the sun. Once bone-dry, pound between rocks until it's a fine, fluffy powder.",
+          "illustrationDescription": "Powdering jerky."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Render fat by slowly heating it until it's liquid.",
+          "helpDetail": "Cut fat into small pieces, heat slowly. Strain the liquid fat through cloth. Pure rendered fat stores for months.",
+          "illustrationDescription": "Rendering fat."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Mix powdered meat with warm rendered fat at a 1:1 ratio.",
+          "helpDetail": "The fat should be warm but not hot. Mix thoroughly. Optionally add dried, crushed berries for nutrition and flavor.",
+          "illustrationDescription": "Mixing pemmican."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Press into bars. Stores for months without refrigeration.",
+          "helpDetail": "Pemmican is the most calorie-dense survival food: 3,000+ calories per pound. Keeps for years if stored dry.",
+          "illustrationDescription": "Forming pemmican bars."
+        }
+      ]
+    },
+    {
+      "id": "food-jerky-no-salt",
+      "name": "Jerky Without Salt",
+      "subtitle": "Preserve meat when you have no salt",
+      "category": "Preservation",
+      "difficulty": 2,
+      "estimatedTime": "1-2 days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut meat into thin strips (1/4 inch) along the grain.",
+          "helpDetail": "Thinner strips dry faster. Remove ALL fat \u2014 fat does not dry, it goes rancid. Lean meat only.",
+          "illustrationDescription": "Cutting strips."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build a drying rack over a smoky fire.",
+          "helpDetail": "Use green wood for more smoke (hickory, oak, mesquite). The smoke is antimicrobial and adds flavor.",
+          "illustrationDescription": "Building drying rack."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hang strips on the rack 6-12 inches above the smoke.",
+          "helpDetail": "Don't let strips touch each other. Air must circulate. Flip every few hours.",
+          "illustrationDescription": "Hanging meat."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Dry until strips crack when bent but don't break.",
+          "helpDetail": "Takes 6-12 hours over smoke. Without salt, keeps 1-2 weeks. Eat it fast or make pemmican.",
+          "illustrationDescription": "Testing dryness."
+        }
+      ]
+    },
+    {
+      "id": "food-mushroom-safety",
+      "name": "Mushroom Safety Rules",
+      "subtitle": "Critical rules for mushroom identification and consumption",
+      "category": "Foraging",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "NEVER eat a mushroom you cannot 100% identify. No exceptions.",
+          "helpDetail": "Many deadly mushrooms look almost identical to edible ones. Death cap (Amanita phalloides) kills more people than any other mushroom and initially looks like several edible species. There is NO universal test for edibility.",
+          "illustrationDescription": "Warning."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Learn and focus ONLY on a few easily-identified safe species.",
+          "helpDetail": "Beginner-safe species with few lookalikes: chicken of the woods (orange shelf mushroom), giant puffball (must be pure white inside), morels (honeycomb pattern). Learn these from an expert, not a book alone.",
+          "illustrationDescription": "Safe species."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When in doubt, skip mushrooms. The caloric value isn't worth the risk.",
+          "helpDetail": "Most mushrooms are low in calories (20-30 cal per cup). A misidentification can cause liver failure and death. The risk/reward ratio is terrible. Focus caloric foraging on plants, insects, and animals instead.",
+          "illustrationDescription": "Risk assessment."
+        }
+      ]
+    },
+    {
+      "id": "food-seaweed-harvesting",
+      "name": "Seaweed & Kelp Harvesting",
+      "subtitle": "Harvest nutritious seaweed from coastal environments",
+      "category": "Foraging",
+      "difficulty": 1,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Harvest seaweed from clean water, attached to rocks (not free-floating).",
+          "helpDetail": "Free-floating seaweed may be decomposing. Harvest from rocks in clean, moving water. Avoid areas near sewage outlets, harbors, or industrial sites. Best at low tide when more is exposed.",
+          "illustrationDescription": "Harvesting."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Rinse thoroughly and dry in sun or near fire to preserve.",
+          "helpDetail": "Fresh seaweed spoils within 24 hours. Dried seaweed lasts months. Spread thin on rocks or hang on cord in sun. Can also eat fresh — most edible seaweed can be eaten raw or lightly boiled.",
+          "illustrationDescription": "Drying seaweed."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Avoid blue-green algae (cyanobacteria) — it's toxic.",
+          "helpDetail": "Blue-green algae looks like green paint in water. It produces neurotoxins and liver toxins. Real seaweed is brown, green, or red and has a plant-like structure. If it looks like scum or slime, avoid it.",
+          "illustrationDescription": "Algae warning."
+        }
+      ]
+    },
+    {
+      "id": "food-pine-needle-tea",
+      "name": "Pine Needle Tea",
+      "subtitle": "Rich vitamin C source from any pine tree",
+      "category": "Foraging",
+      "difficulty": 1,
+      "estimatedTime": "10-15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Gather a handful of fresh green pine needles. Avoid yew (toxic).",
+          "helpDetail": "Most pine species are safe: white pine, scotch pine, ponderosa. AVOID yew (flat needles, red berries) and Norfolk Island pine. Choose young, bright green needles for best flavor and nutrition.",
+          "illustrationDescription": "Gathering needles."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Chop needles into small pieces and steep in hot (not boiling) water.",
+          "helpDetail": "Chopping releases oils. Use hot water just below boiling — boiling destroys vitamin C. Steep 5-10 minutes until water turns light yellow-green. Longer steeping = stronger flavor.",
+          "illustrationDescription": "Steeping."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Drink as tea. Contains 5x the vitamin C of lemons by weight.",
+          "helpDetail": "Pine needle tea prevents scurvy and provides immune support. Pleasant, mild taste. Can be re-steeped 2-3 times. Also works cold-steeped overnight. The inner bark is also edible and calorie-dense.",
+          "illustrationDescription": "Drinking tea."
+        }
+      ]
+    },
+    {
+      "id": "food-acorn-processing",
+      "name": "Acorn Processing & Cooking",
+      "subtitle": "Leach tannins from acorns to make edible flour",
+      "category": "Foraging",
+      "difficulty": 2,
+      "estimatedTime": "2-3 days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Collect fallen acorns. Discard any with holes (insect larvae inside).",
+          "helpDetail": "White oak acorns are less bitter than red oak. All acorns are edible after processing. Crack shells and remove nutmeat. Brown, intact nutmeat is good. Black or moldy = discard.",
+          "illustrationDescription": "Collecting acorns."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Crush nutmeat and soak in running water or change water repeatedly.",
+          "helpDetail": "Tannins make raw acorns bitter and cause stomach problems. Leaching methods: place crushed acorn in mesh bag in running stream for 24-48 hours, OR boil in multiple changes of water (5-7 changes until water runs clear).",
+          "illustrationDescription": "Leaching tannins."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Dry leached acorn meal and grind into flour for cooking.",
+          "helpDetail": "Dried acorn flour can be used for flatbread, porridge, or thickening. 100g of acorn flour = 500+ calories. Acorns were a staple food for indigenous peoples worldwide. An oak tree produces 10,000-20,000 acorns per year.",
+          "illustrationDescription": "Making flour."
+        }
+      ]
+    },
+    {
+      "id": "food-bird-snare",
+      "name": "Bird Snare Construction",
+      "subtitle": "Build simple snares for catching birds",
+      "category": "Trapping",
+      "difficulty": 2,
+      "estimatedTime": "30-45 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build an Ojibwa bird pole: tall pole with perch and snare.",
+          "helpDetail": "Drill a hole near top of a 6-foot pole. Insert a short perch stick. Tie a small noose of cordage around the perch. When a bird lands, its weight pulls the perch, tightening the noose around its feet.",
+          "illustrationDescription": "Bird pole setup."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place in open area near water or food sources where birds congregate.",
+          "helpDetail": "Birds prefer the highest perch available. Place your pole taller than surrounding vegetation. Near water is ideal — birds landing to drink will use your perch. Set multiple poles for better odds.",
+          "illustrationDescription": "Placement."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Check snares frequently. Process caught birds immediately.",
+          "helpDetail": "Pluck feathers while still warm (easier). Gut immediately. Small birds can be roasted whole on a spit. All birds are edible — there are no poisonous birds (though some taste terrible). Cook thoroughly for food safety.",
+          "illustrationDescription": "Processing catch."
+        }
+      ]
+    },
+    {
+      "id": "food-small-game-cleaning",
+      "name": "Small Game Field Dressing",
+      "subtitle": "Clean and prepare small animals for cooking",
+      "category": "Processing",
+      "difficulty": 2,
+      "estimatedTime": "15-20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make a small cut through the belly skin (avoid puncturing organs).",
+          "helpDetail": "Pinch belly skin and make a small cut. Insert two fingers under the skin to lift it away from organs, then cut between your fingers. Puncturing the intestines contaminates the meat.",
+          "illustrationDescription": "Initial cut."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Remove intestines, stomach, and bladder. Keep liver, heart, and kidneys.",
+          "helpDetail": "Reach in and pull organs out in one mass. Heart, liver, and kidneys are the most nutritious parts — eat them first. Liver is extremely nutrient-dense. Check liver for spots (parasites) — discard if spotted.",
+          "illustrationDescription": "Gutting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Skin by pulling hide off like removing a sock.",
+          "helpDetail": "For rabbits: cut around all four feet. Cut from foot to belly cut on each leg. Pull skin off like peeling a banana. Rinse carcass with clean water. Cook thoroughly — all wild game must be fully cooked.",
+          "illustrationDescription": "Skinning."
+        }
+      ]
+    },
+    {
+      "id": "food-fish-spearing",
+      "name": "Fish Spearing",
+      "subtitle": "Improvise a spear and catch fish in shallow water",
+      "category": "Hunting",
+      "difficulty": 2,
+      "estimatedTime": "1-3 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create a multi-pronged spear by splitting a sapling tip into 4 prongs.",
+          "helpDetail": "Choose a straight pole 6-8 feet long. Split the tip into 4 equal sections using your knife. Wedge a small stone between the prongs to spread them. Sharpen each prong. Bind below the split to prevent further splitting.",
+          "illustrationDescription": "Spear construction."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stand still in shallow water. Wait for fish to come to you.",
+          "helpDetail": "Patience is essential. Stand downstream and remain motionless. Fish will approach within minutes. Muddy your feet's scent by rubbing with mud before entering. Dawn and dusk are best times.",
+          "illustrationDescription": "Waiting position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Aim below the fish to compensate for water refraction.",
+          "helpDetail": "Light bends at the water surface, making the fish appear higher than it actually is. Aim at the bottom of the fish's shadow, not the fish itself. Thrust quickly and pin against the bottom.",
+          "illustrationDescription": "Spearing technique."
+        }
+      ]
+    },
+    {
+      "id": "food-crayfish-trapping",
+      "name": "Crayfish Trapping",
+      "subtitle": "Easy, reliable protein from freshwater streams",
+      "category": "Trapping",
+      "difficulty": 1,
+      "estimatedTime": "2-12 hours (passive)",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build a simple funnel trap from a plastic bottle or woven sticks.",
+          "helpDetail": "Bottle trap: cut top off plastic bottle, invert it into the bottom half, staple/tie edges. Crayfish enter funnel but can't find the exit. Stick trap: weave a cone-shaped basket with narrow entrance.",
+          "illustrationDescription": "Building trap."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Bait with fish scraps, meat, or rotten food. Place in rocky stream areas.",
+          "helpDetail": "Crayfish are scavengers attracted to strong-smelling bait. Place trap in 1-3 feet of water near rocks (crayfish habitat). Weight trap with rocks so it stays submerged. Set in evening, check in morning.",
+          "illustrationDescription": "Setting trap."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Boil crayfish alive for 3-5 minutes until bright red. Eat tail meat.",
+          "helpDetail": "Do NOT eat dead crayfish (toxin buildup). Twist tail from body, peel shell, eat tail meat. Claw meat is also edible on larger specimens. 100g of crayfish = 80 calories and 16g protein.",
+          "illustrationDescription": "Cooking crayfish."
+        }
+      ]
+    },
+    {
+      "id": "food-grub-finding",
+      "name": "Finding & Eating Grubs",
+      "subtitle": "High-calorie protein from rotting wood",
+      "category": "Insects",
+      "difficulty": 1,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Look inside rotting logs and under bark for beetle larvae (grubs).",
+          "helpDetail": "Break apart soft, rotting wood. White or cream-colored larvae are beetle grubs. They're common in dead trees worldwide. Also check under rocks and in soil near rotting vegetation.",
+          "illustrationDescription": "Finding grubs."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Squeeze grubs gently to expel gut contents (optional but improves taste).",
+          "helpDetail": "Pinch behind the head and squeeze toward the tail to expel digestive contents. This removes bitter flavors. Not strictly necessary for safety — just preference.",
+          "illustrationDescription": "Preparing grubs."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Roast on a stick near fire, or skewer and fry. Cook thoroughly.",
+          "helpDetail": "Roasted grubs taste nutty and buttery. A single large grub can contain 50+ calories — mostly fat and protein. 10 large grubs = a small meal. Can also be dried for storage.",
+          "illustrationDescription": "Cooking grubs."
+        }
+      ]
+    },
+    {
+      "id": "food-bone-broth",
+      "name": "Bone Broth for Maximum Nutrition",
+      "subtitle": "Extract every calorie and mineral from animal bones",
+      "category": "Processing",
+      "difficulty": 1,
+      "estimatedTime": "4-12 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Crack or smash bones to expose marrow before boiling.",
+          "helpDetail": "Marrow is the most calorie-dense part of an animal (80% fat). Use rocks to crack long bones. Marrow can also be roasted and eaten directly — push it out of the split bone with a stick.",
+          "illustrationDescription": "Cracking bones."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Boil cracked bones in water for 4-12 hours, keeping water level up.",
+          "helpDetail": "Long boiling extracts calcium, phosphorus, magnesium, and collagen from bones. The longer you boil, the more nutrition extracted. If possible, add acidic ingredients (wild berries) to extract more minerals.",
+          "illustrationDescription": "Boiling."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Drink broth hot. Skim fat from surface for cooking or calories.",
+          "helpDetail": "The fat floating on top is pure energy. Save it for cooking other foods. The broth provides minerals, electrolytes, and gelatin. Bones can be reboiled 2-3 times for diminishing but real returns.",
+          "illustrationDescription": "Consuming broth."
+        }
+      ]
+    },
+    {
+      "id": "food-wild-garlic",
+      "name": "Wild Garlic & Onion Identification",
+      "subtitle": "Find wild alliums for nutrition and flavor",
+      "category": "Foraging",
+      "difficulty": 2,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Look for grass-like leaves with a strong garlic or onion smell when crushed.",
+          "helpDetail": "Wild garlic (ramps), wild onion, and wild leeks all have edible bulbs and leaves. The SMELL is the key identifier. If it doesn't smell like garlic or onion, DO NOT eat it — similar-looking plants (death camas) are deadly.",
+          "illustrationDescription": "Smell test."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig up the bulb. It should look like a small onion or garlic clove.",
+          "helpDetail": "The bulb should have layers (like an onion) or be solid (like garlic). If the bulb has no onion smell, it is NOT wild allium. Death camas has a similar leaf but no allium smell and its bulb has no layers.",
+          "illustrationDescription": "Checking bulb."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Eat raw, add to cooking, or dry for preservation.",
+          "helpDetail": "All parts are edible: bulbs, leaves, flowers. Excellent addition to bland survival food. Contains vitamin C, selenium, and has antimicrobial properties. Dry and crush leaves for seasoning that stores well.",
+          "illustrationDescription": "Using wild alliums."
+        }
+      ]
+    },
+    {
+      "id": "food-dandelion",
+      "name": "Dandelion: Complete Edible Plant",
+      "subtitle": "Every part of the dandelion is edible and nutritious",
+      "category": "Foraging",
+      "difficulty": 1,
+      "estimatedTime": "10-15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify: jagged leaves, hollow stem with milky sap, yellow flower.",
+          "helpDetail": "Dandelions are found on every continent. Leaves form a rosette at ground level. Stem is hollow and produces white latex when broken. Flower is a single composite yellow head. No poisonous lookalikes.",
+          "illustrationDescription": "Identification."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Harvest leaves (youngest are least bitter), flowers, and roots.",
+          "helpDetail": "Young leaves: eat raw in salads or boil to reduce bitterness. Flowers: eat raw or fry (remove green parts — they're bitter). Roots: roast until dark and grind for coffee substitute, or boil as root vegetable.",
+          "illustrationDescription": "Harvesting parts."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Rich in vitamins A, C, K, and minerals. More nutritious than spinach.",
+          "helpDetail": "Dandelion greens contain more vitamin A than carrots, more iron than spinach, and more calcium than milk per gram. Harvest away from roads (lead contamination) and lawns (herbicides).",
+          "illustrationDescription": "Nutritional value."
+        }
+      ]
+    },
+    {
+      "id": "food-clay-pot-cooking",
+      "name": "Clay Pot Construction & Cooking",
+      "subtitle": "Make a cooking vessel from natural clay",
+      "category": "Processing",
+      "difficulty": 3,
+      "estimatedTime": "2-3 days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find clay near stream banks — it holds shape when squeezed and doesn't crumble.",
+          "helpDetail": "Good clay is smooth, sticky when wet, and holds its form. Test: roll a pencil-thin coil. If it bends without cracking, the clay is suitable. Remove stones and roots. Knead thoroughly to remove air bubbles.",
+          "illustrationDescription": "Finding clay."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build pot using coil method: roll long snakes of clay and stack in circles.",
+          "helpDetail": "Roll clay into ropes the thickness of your thumb. Coil upward from a flat base, smoothing each coil into the one below. Keep walls even thickness (1/2 inch). Smooth inside and out. Make walls thicker at the base.",
+          "illustrationDescription": "Coil building."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Dry slowly for 24-48 hours, then fire in a hot campfire for 2-3 hours.",
+          "helpDetail": "Fast drying causes cracking. Place near fire for gentle drying first. Then bury in hot coals for 2-3 hours. Let cool slowly in the ashes. The pot will be fragile but functional for boiling water and cooking stews.",
+          "illustrationDescription": "Firing pot."
+        }
+      ]
+    },
+    {
+      "id": "food-earth-oven",
+      "name": "Earth Oven (Ground Pit Cooking)",
+      "subtitle": "Cook large quantities of food using heated stones underground",
+      "category": "Processing",
+      "difficulty": 2,
+      "estimatedTime": "4-8 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig a pit 2-3 feet deep and wide. Build a large fire in it with stones.",
+          "helpDetail": "Use dense, non-porous stones (river rocks can explode from trapped water). Burn a hot fire for 2-3 hours until stones are glowing. Scrape out coals but leave hot stones in the pit.",
+          "illustrationDescription": "Heating stones."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Layer: hot stones, wet leaves/grass, food, wet leaves/grass, more hot stones.",
+          "helpDetail": "The wet vegetation creates steam for cooking. Wrap food in large green leaves to protect from ash. Layer food that takes longest on the bottom (root vegetables) and fastest on top (greens, fish).",
+          "illustrationDescription": "Layering."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cover with earth and let cook 4-8 hours. The earth insulates the heat.",
+          "helpDetail": "Seal edges with packed dirt so steam can't escape. This method slow-cooks everything evenly. Root vegetables become soft and sweet. Meat falls off the bone. Can cook for a large group efficiently.",
+          "illustrationDescription": "Covering and waiting."
+        }
+      ]
+    },
+    {
+      "id": "food-rationing",
+      "name": "Emergency Rationing Strategy",
+      "subtitle": "How to eat when food is scarce",
+      "category": "Strategy",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Inventory EVERYTHING edible immediately.",
+          "helpDetail": "Count every bar, cracker, and candy. Divide total calories by days until rescue (estimated). Goal: 500+ cal/day.",
+          "illustrationDescription": "Inventory food."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Do NOT eat for the first 24 hours.",
+          "helpDetail": "Your body has reserves. Eating triggers digestion which uses water. Save food for when hunger pangs stabilize.",
+          "illustrationDescription": "Skip meals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Eat small amounts during activity peaks.",
+          "helpDetail": "Eat before heavy exertion (hiking/building) or before sleep (to stay warm). Don't graze all day.",
+          "illustrationDescription": "Timed eating."
         }
       ]
     }
@@ -994,6 +1552,93 @@
       "relatedTechniqueIDs": [
         "food-preservation",
         "food-pemmican"
+      ]
+    },
+    {
+      "id": "food-article-nutrition",
+      "title": "Nutritional Priorities in Survival",
+      "body": "In survival, calories matter more than balanced nutrition short-term.\n\nPriority hierarchy:\n1. Calories (energy to function)\n2. Water (can't digest food without hydration)\n3. Fat (most calorie-dense \u2014 9 cal/gram)\n4. Protein (muscle maintenance, immune function)\n5. Carbohydrates (quick energy, brain fuel)\n6. Micronutrients (Vitamin C prevents scurvy after 30 days)\n\nStarvation timeline:\n- Day 1-3: Glycogen depletion\n- Day 3-7: Cognitive decline, irritability\n- Day 7-14: Muscle breakdown for energy\n- Day 14-21: Severe weakness, organ stress\n- Day 21+: Cardiac irregularity risk\n\nPerformance declines severely after 72 hours. Even small amounts of food (insects, bark, roots) maintain cognitive function.",
+      "relatedTechniqueIDs": [
+        "food-insect-eating",
+        "food-pine-bark-flour",
+        "food-pemmican-making"
+      ]
+    },
+    {
+      "id": "food-article-wild-plants",
+      "title": "Wild Plant Basics",
+      "body": "Plants are the most accessible food source but also dangerous if misidentified.\n\nAlways-safe plants worldwide:\n- Dandelion (entire plant edible)\n- Cattail (shoots, roots, pollen year-round)\n- Pine (inner bark, needles for tea, nuts)\n- Clover (flowers and leaves)\n- Plantain weed (leaves edible and medicinal)\n\nUniversal Edibility Test:\n1. Test on skin (wait 15 min)\n2. Touch to lip (wait 15 min)\n3. Touch to tongue (wait 15 min)\n4. Chew and spit (wait 15 min)\n5. Eat small amount (wait 8 hours)\n\nWARNING: This test does NOT work for mushrooms \u2014 some deadly mushrooms taste pleasant and show no symptoms for 6-12 hours before organ failure.\n\nCooking makes many marginal plants safer by breaking down irritants and toxins. When in doubt, boil it.",
+      "relatedTechniqueIDs": [
+        "food-universal-edibility",
+        "food-cattail-harvest",
+        "food-acorn-processing"
+      ]
+    },
+    {
+      "id": "food-article-safety",
+      "title": "Food Safety Without Refrigeration",
+      "body": "Food poisoning in survival can be fatal \u2014 dehydration from vomiting depletes limited water reserves.\n\nGeneral rules:\n- Cook ALL meat thoroughly (165\u00b0F/74\u00b0C)\n- Eat food within 2 hours of cooking if not preserved\n- Smell test: if it smells off, don't eat it\n- Never eat meat from animals found already dead\n- Avoid scavengers' kills (possible disease)\n\nHigh-risk foods to avoid:\n- Raw freshwater fish (parasites)\n- Raw shellfish from warm waters\n- Any plant with milky sap (except dandelion)\n- Unidentified mushrooms\n- Grain with black/purple growths (ergot fungus)\n\nSafe handling:\n- Clean hands before prep (ash works as soap)\n- Separate raw meat from other foods\n- Cook on clean surfaces\n- Store surplus elevated and sealed\n\nThe survival paradox: you need food for energy, but contaminated food kills faster than starvation.",
+      "relatedTechniqueIDs": [
+        "food-preservation",
+        "food-pemmican-making",
+        "food-jerky-no-salt"
+      ]
+    },
+    {
+      "id": "food-article-starvation",
+      "title": "Starvation Physiology: What Happens to Your Body",
+      "body": "Understanding starvation helps you prioritize and conserve energy.\n\nPhase 1 (0-24 hours): Glycogen depletion\n- Body burns stored glycogen (sugar) in liver and muscles\n- Blood sugar remains normal\n- Performance is near normal\n- Strong hunger signals\n\nPhase 2 (1-3 days): Fat burning begins\n- Body switches to burning fat for energy (ketosis)\n- Hunger may actually decrease (ketones suppress appetite)\n- Mental fog and irritability\n- Fatigue during physical activity\n\nPhase 3 (3-14 days): Sustained fat burning\n- Body adapts to fat-burning metabolism\n- Weight loss of 1-2 pounds per day\n- Muscle wasting begins as body needs protein for vital functions\n- Cold intolerance increases (less insulation, less metabolic heat)\n\nPhase 4 (14+ days): Critical decline\n- Muscle wasting accelerates\n- Immune function collapses (infections become deadly)\n- Mental function deteriorates severely\n- Organ failure begins\n\nKey takeaway: the body can survive 3+ weeks without food, but cognitive and physical performance degrades within days. In a survival situation, your brain failing to make good decisions is more dangerous than the starvation itself.",
+      "relatedTechniqueIDs": [
+        "food-edibility-test",
+        "food-insect-eating"
+      ]
+    },
+    {
+      "id": "food-article-plant-poisoning",
+      "title": "Plant Poisoning: Recognition & Treatment",
+      "body": "Misidentification of wild plants is the leading cause of foraging deaths.\n\nDangerous plant families:\n- Hemlock (Conium, Cicuta): looks like carrot/parsley. Causes respiratory paralysis. Fatal.\n- Death camas: looks like wild onion but NO onion smell. Causes heart failure.\n- Nightshade: black or red berries. Neurological symptoms. Can be fatal.\n- Castor bean: seeds contain ricin. A few chewed seeds can kill.\n- Oleander: all parts toxic. Even smoke from burning is dangerous.\n\nUniversal warning signs in plants (avoid if present):\n- Milky sap (exception: dandelion)\n- Shiny leaves with thorns\n- Seeds inside pods\n- Bitter or soapy taste\n- Umbrella-shaped flower clusters (many toxic species)\n\nPoisoning treatment:\n- If conscious: do NOT induce vomiting (may cause more damage)\n- Activated charcoal if available (1g per kg body weight)\n- Drink large amounts of water to dilute\n- If convulsing: protect the head, maintain airway\n- Red flag: any difficulty breathing, hallucinations, or loss of consciousness = critical emergency\n\nPrevention rule: NEVER eat any plant you cannot identify with 100% certainty. The universal edibility test takes 24+ hours and should only be used as a last resort.",
+      "relatedTechniqueIDs": [
+        "food-edibility-test",
+        "food-mushroom-safety"
+      ]
+    },
+    {
+      "id": "food-article-protein-hierarchy",
+      "title": "Survival Protein Sources: Ranked by Effort",
+      "body": "Not all protein sources are equal. Rank by calories gained versus calories expended to acquire them.\n\nBest return on effort (passive methods):\n1. Insects & grubs: everywhere, easy to collect, high calorie. Best ROI in survival.\n2. Crayfish/shellfish: trap overnight, minimal effort, reliable.\n3. Snares/traps: set and walk away. Check twice daily. 10+ traps = good odds.\n4. Fishing (passive): set lines, trotlines, fish traps. Work while you sleep.\n\nModerate effort:\n5. Fishing (active): hook and line, spearing. Hours of investment but reliable in good water.\n6. Frogs: easy to catch by hand at night with a light source.\n7. Birds (snares): passive but lower success rate than mammal snares.\n\nHigh effort (often not worth it in short-term survival):\n8. Large game hunting: requires weapon, skill, tracking. Very high energy expenditure.\n9. Running down small game: exhausting and rarely successful.\n\nCritical insight: a person who sets 12 snares and spends the day collecting insects and fishing with passive lines will outperform a person who spends all day stalking deer. The deer hunter exerts 3,000+ calories and may get nothing. The passive forager expends 500 calories and reliably gathers 1,000+.\n\nRule: work smarter, not harder. Passive calorie acquisition beats active hunting in survival.",
+      "relatedTechniqueIDs": [
+        "food-insect-eating",
+        "food-grub-finding",
+        "food-crayfish-trapping"
+      ]
+    },
+    {
+      "id": "food-article-long-preservation",
+      "title": "Long-Term Food Preservation Methods",
+      "body": "Surplus food spoils quickly. Preservation extends your food supply for days or weeks.\n\nDrying/Dehydration:\n- Most universal method. Works on meat, fish, plants, fruits, insects.\n- Cut thin strips (1/4 inch). Hang in sun and wind, or smoke near fire.\n- Properly dried food lasts weeks to months.\n- Test: should be brittle, not bendy. Bendy = still moist = will rot.\n\nSmoking:\n- Smoke contains antimicrobial compounds that preserve meat.\n- Cold smoking (below 90°F): best for preservation — 12-24 hours minimum.\n- Hot smoking (above 150°F): cooks and partially preserves — eat within a week.\n- Build a simple smokehouse: tripod frame, covered with bark or canvas.\n\nSalt curing:\n- Salt dehydrates bacteria. Pack meat in salt (if available).\n- Salt + drying = most effective combination.\n- Ocean water: boil to extract salt crystals.\n\nPemmican (ultimate survival food):\n- Dried meat powder + rendered fat + dried berries.\n- Lasts months to years if properly made.\n- Calorie-dense: 135 cal per ounce.\n- Complete nutrition: protein, fat, carbohydrates, vitamins.\n\nFreezing (cold climates):\n- Simply hang food above predator reach in freezing temperatures.\n- Thaw and refreeze degrades quality — keep frozen solid.",
+      "relatedTechniqueIDs": [
+        "food-preservation",
+        "food-pemmican-making",
+        "food-jerky-no-salt"
+      ]
+    },
+    {
+      "id": "food-article-cooking-methods",
+      "title": "Primitive Cooking Methods",
+      "body": "Cooking improves digestibility, kills pathogens, and makes many foods edible that are toxic raw.\n\nDirect heat:\n- Spit roasting: skewer food on stick over fire. Rotate constantly. Best for small game and fish.\n- Planking: pin food to flat wood propped near fire. Great for fish fillets.\n- Ember roasting: wrap food in green leaves, bury in hot coals. Root vegetables and tubers.\n\nBoiling without a metal pot:\n- Rock boiling: heat stones in fire, drop into water in bark/skin/stomach container. Water boils in minutes.\n- Bamboo cooking: fill bamboo segment with water and food, prop over fire. Bamboo chars but doesn't burn through before food cooks.\n- Clay pot: make a simple pot from clay (see technique).\n\nEarth oven:\n- Pit filled with hot rocks, food layered between wet leaves.\n- Slow cooks large quantities — feeds groups.\n- 4-8 hours cooking time.\n\nWhy cooking matters:\n- Doubles the caloric yield from meat (cooked protein is 60% digestible vs 30% raw)\n- Kills parasites (trichinella, tapeworm, toxoplasma)\n- Breaks down plant toxins (tannins, oxalates, cyanogenic glycosides)\n- Makes starchy roots digestible (raw starch passes through undigested)\n\nRule: always cook when possible. Raw food is a caloric and health gamble.",
+      "relatedTechniqueIDs": [
+        "food-earth-oven",
+        "food-clay-pot-cooking"
+      ]
+    },
+    {
+      "id": "food-article-deficiencies",
+      "title": "Nutritional Deficiencies in Survival",
+      "body": "Long-term survival requires more than just calories. Specific deficiencies create specific problems.\n\nVitamin C deficiency (Scurvy):\n- Onset: 4-12 weeks without vitamin C\n- Symptoms: bleeding gums, loose teeth, wounds won't heal, fatigue\n- Sources: pine needle tea, rose hips, spruce tips, dandelion greens, berries\n- Fix: any fresh plant material provides vitamin C\n\nSalt deficiency (Hyponatremia):\n- Risk: heavy sweating + drinking lots of water without salt\n- Symptoms: nausea, headache, confusion, seizures\n- Sources: sea water (boil to concentrate), animal blood, wood ash (contains potassium)\n\nFat deficiency (Rabbit starvation):\n- Risk: eating only lean protein (rabbit, squirrel) without fat\n- Symptoms: diarrhea, headache, fatigue, low blood pressure\n- Your body CANNOT survive on protein alone — fat is essential\n- Sources: bone marrow, brain tissue, grubs, nuts, fish oils\n\nIron deficiency:\n- Risk: vegetarian survival diet, chronic blood loss\n- Symptoms: weakness, rapid heartbeat, cold intolerance\n- Sources: organ meat (liver), dark leafy greens, insects, cooking in iron vessels\n\nKey insight: a varied diet solves most deficiency problems. Eat from every food group available: plants, meat, insects, fish. Organ meats are the most nutritionally complete single food source.",
+      "relatedTechniqueIDs": [
+        "food-pine-needle-tea",
+        "food-bone-broth",
+        "food-grub-finding"
       ]
     }
   ]

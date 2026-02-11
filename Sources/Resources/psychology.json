@@ -511,6 +511,726 @@
           "illustrationDescription": "Acting."
         }
       ]
+    },
+    {
+      "id": "psych-sleep-hygiene",
+      "name": "Field Sleep Hygiene",
+      "subtitle": "Maximize rest quality in harsh conditions",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Establish a consistent sleep schedule even without a clock.",
+          "helpDetail": "Use sunset and sunrise as anchors. Consistent timing regulates circadian rhythm even in extreme conditions.",
+          "illustrationDescription": "Sunset routine."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create a pre-sleep ritual: secure camp, bank fire, check water.",
+          "helpDetail": "Routine signals your brain that sleep is coming. Same order every night builds association.",
+          "illustrationDescription": "Evening routine."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Insulate from below — ground steals heat 30x faster than air.",
+          "helpDetail": "Pile leaves, grass, boughs 6 inches thick minimum. Your back loses more heat to ground contact than your front loses to air.",
+          "illustrationDescription": "Ground insulation."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Eat something before sleeping — digestion generates internal heat.",
+          "helpDetail": "Even a small amount of food raises core temperature. Warm liquids before bed dramatically improve sleep onset.",
+          "illustrationDescription": "Pre-sleep nutrition."
+        }
+      ]
+    },
+    {
+      "id": "psych-grief-management",
+      "name": "Grief Management in Crisis",
+      "subtitle": "Process loss without losing function",
+      "category": "Resilience",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Acknowledge the loss — suppressing grief causes delayed breakdown.",
+          "helpDetail": "Say it out loud: 'This happened. I feel this.' Naming emotions reduces their physiological intensity by up to 50%.",
+          "illustrationDescription": "Acknowledging grief."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Set a contained grief period — 10 minutes, then return to tasks.",
+          "helpDetail": "This is not denial. It is compartmentalization — a skill used by military, first responders, and surgeons to function under emotional load.",
+          "illustrationDescription": "Contained grief."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Channel grief into purposeful action — build, signal, improve camp.",
+          "helpDetail": "Physical work metabolizes stress hormones. Building something tangible gives a sense of control when everything feels out of control.",
+          "illustrationDescription": "Purposeful action."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Create a memorial when safe — a cairn, carving, or moment of silence.",
+          "helpDetail": "Ritual closure is psychologically critical. It allows the brain to categorize the loss as processed rather than pending.",
+          "illustrationDescription": "Memorial ritual."
+        }
+      ]
+    },
+    {
+      "id": "psych-children-survival",
+      "name": "Managing Children in Survival",
+      "subtitle": "Keep kids calm, safe, and occupied",
+      "category": "Group",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Control YOUR reaction first — children mirror adult emotions exactly.",
+          "helpDetail": "If you panic, they panic. If you are calm and purposeful, they feel safe. Your emotional state IS their emotional state.",
+          "illustrationDescription": "Adult calm."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Give age-appropriate honest information. No false promises.",
+          "helpDetail": "Children detect lies. Say: 'We are in a tough spot, but I know what to do, and I need your help.' This is honest AND empowering.",
+          "illustrationDescription": "Honest communication."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Assign tasks — gathering sticks, counting supplies, watching for planes.",
+          "helpDetail": "Purpose prevents panic in children just as it does in adults. Make tasks real and praise completion genuinely.",
+          "illustrationDescription": "Assigning tasks."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Maintain routines — meals, stories, bedtime. Normalcy is medicine.",
+          "helpDetail": "Even fabricated routines provide psychological scaffolding. 'Breakfast at sunrise, story at sunset' creates predictability in chaos.",
+          "illustrationDescription": "Routine maintenance."
+        }
+      ]
+    },
+    {
+      "id": "psych-boredom-management",
+      "name": "Combating Boredom and Apathy",
+      "subtitle": "The silent killer in long-term survival",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create a daily schedule with specific time blocks.",
+          "helpDetail": "Fire maintenance 6-7am, water collection 7-8am, shelter improvement 9-11am. Structure prevents the drift into apathy that kills motivation.",
+          "illustrationDescription": "Daily schedule."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Set improvement projects — always have something to build or refine.",
+          "helpDetail": "Better shelter, improved fire pit, carved tools, fish trap. Progress on any project generates dopamine and purpose.",
+          "illustrationDescription": "Improvement projects."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Exercise deliberately — even simple stretching or walking circuits.",
+          "helpDetail": "Physical activity is the most reliable antidepressant known. 20 minutes of movement changes brain chemistry measurably.",
+          "illustrationDescription": "Deliberate exercise."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Practice skills — knot tying, fire starting, navigation drills.",
+          "helpDetail": "Skill practice is never wasted time. It builds confidence and competence that may save your life when conditions change.",
+          "illustrationDescription": "Skill practice."
+        }
+      ]
+    },
+    {
+      "id": "psych-conflict-resolution",
+      "name": "Conflict Resolution in Groups",
+      "subtitle": "Disputes kill groups faster than hunger",
+      "category": "Group",
+      "difficulty": 3,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Address conflict immediately — unresolved tension escalates exponentially.",
+          "helpDetail": "What starts as a disagreement about rationing becomes a group-splitting crisis within 48 hours if unaddressed.",
+          "illustrationDescription": "Addressing conflict."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Separate parties. Let each state their position uninterrupted.",
+          "helpDetail": "People in conflict need to feel heard more than they need to win. Active listening defuses 80% of interpersonal conflicts.",
+          "illustrationDescription": "Listening separately."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Reframe as 'us vs. the situation' not 'us vs. each other.'",
+          "helpDetail": "The real enemy is always the environment, not each other. Redirect competitive energy toward shared survival goals.",
+          "illustrationDescription": "Reframing conflict."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Establish fair resource-sharing rules BEFORE scarcity hits.",
+          "helpDetail": "Equal portions, rotating priority, or needs-based allocation — decide while rational. Scarcity makes fair decisions impossible.",
+          "illustrationDescription": "Resource rules."
+        }
+      ]
+    },
+    {
+      "id": "psych-night-anxiety",
+      "name": "Managing Night Anxiety",
+      "subtitle": "Darkness amplifies every fear",
+      "category": "Mindset",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": true,
+      "hapticType": "breathingPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Accept that nighttime anxiety is universal and biological.",
+          "helpDetail": "Humans are daytime creatures. We evolved to fear darkness. Every sound seems louder, every shadow seems threatening. This is normal neurology, not weakness.",
+          "illustrationDescription": "Night anxiety."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Maintain a fire — even a small flame resets primal fear circuits.",
+          "helpDetail": "Fire is 400,000 years of human evolution saying 'you are safe.' The light it provides is less important than the psychological protection it offers.",
+          "illustrationDescription": "Nighttime fire."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Identify every sound. Named threats feel manageable; unknown ones terrify.",
+          "helpDetail": "That rustling is probably a small rodent. That crack is a branch settling. Naming sounds removes the unknown, which is what your brain actually fears.",
+          "illustrationDescription": "Identifying sounds."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Breathe slowly: 4 counts in, 7 counts hold, 8 counts out.",
+          "helpDetail": "The 4-7-8 pattern activates the parasympathetic nervous system within 2 cycles. It physically slows heart rate and reduces cortisol.",
+          "illustrationDescription": "Calming breathing."
+        }
+      ]
+    },
+    {
+      "id": "psych-motivation-anchors",
+      "name": "Motivation Anchoring",
+      "subtitle": "Attach survival drive to something bigger than yourself",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify your anchor — the specific person or promise pulling you home.",
+          "helpDetail": "Not 'family' in abstract. Specific: 'My daughter's piano recital on March 15.' Specificity makes it real and urgent.",
+          "illustrationDescription": "Identifying anchor."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Visualize the reunion in vivid, sensory detail every morning.",
+          "helpDetail": "See their face. Hear their voice. Feel the hug. Visualization activates the same neural reward pathways as the actual experience.",
+          "illustrationDescription": "Visualization."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make a physical token — a carved symbol, a tied knot, a scratched mark.",
+          "helpDetail": "Physical objects anchor abstract motivation. Touch it when motivation fades. Survivors consistently report that tokens kept them going.",
+          "illustrationDescription": "Physical token."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "State your commitment out loud daily: 'I am getting home because...'",
+          "helpDetail": "Spoken words activate different brain regions than thoughts. Saying it makes it a declaration, not just a wish.",
+          "illustrationDescription": "Verbal commitment."
+        }
+      ]
+    },
+    {
+      "id": "psych-journaling",
+      "name": "Survival Journaling",
+      "subtitle": "Write to maintain sanity and aid rescue",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Use any surface — bark, dirt, stone, clothing, skin.",
+          "helpDetail": "Charcoal from fire writes on bark and stone. A sharp stick writes in dirt. The medium doesn't matter; the act of writing does.",
+          "illustrationDescription": "Writing surfaces."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Record date, weather, food/water intake, and emotional state.",
+          "helpDetail": "Tracking data gives you a sense of control and helps identify patterns. Seeing 'Day 3: found water source' provides tangible proof of progress.",
+          "illustrationDescription": "Daily logging."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Write observations about your environment — resources, wildlife patterns, weather.",
+          "helpDetail": "Environmental notes become actionable intelligence. 'Birds gather at south creek at dawn' = reliable water and potential food source.",
+          "illustrationDescription": "Environmental notes."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Write messages to loved ones — even if never delivered, it helps.",
+          "helpDetail": "Expressing thoughts to an imagined audience reduces psychological isolation. If rescued, these notes become powerful personal artifacts.",
+          "illustrationDescription": "Personal messages."
+        }
+      ]
+    },
+    {
+      "id": "psych-acceptance-stages",
+      "name": "Stages of Survival Acceptance",
+      "subtitle": "Recognize where you are mentally",
+      "category": "Mindset",
+      "difficulty": 2,
+      "estimatedTime": "Assessment",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stage 1: Denial — 'This can't be happening.' Normal. Don't fight it.",
+          "helpDetail": "Denial is a protective mechanism. It buffers the shock. But staying here is lethal. Give yourself minutes, not hours.",
+          "illustrationDescription": "Denial stage."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stage 2: Anger/Blame — 'Why me?' Channel this into action.",
+          "helpDetail": "Anger is energy. The most dangerous survivors are the angry ones — in a good way. Point that rage at the environment, not yourself.",
+          "illustrationDescription": "Anger stage."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stage 3: Bargaining/Planning — 'If I do X, I'll survive.' This is productive.",
+          "helpDetail": "This is where survival thinking begins. Making plans, even imperfect ones, is the turning point from victim to survivor.",
+          "illustrationDescription": "Planning stage."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stage 4: Acceptance — 'This is my reality. I will work with it.'",
+          "helpDetail": "Acceptance is not giving up. It is the most powerful mental state: clear-eyed assessment of reality combined with the determination to act within it.",
+          "illustrationDescription": "Acceptance stage."
+        }
+      ]
+    },
+    {
+      "id": "psych-leadership-handoff",
+      "name": "Leadership Succession",
+      "subtitle": "Prepare others to lead if you can't",
+      "category": "Group",
+      "difficulty": 3,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify the calmest, most respected group member as backup leader.",
+          "helpDetail": "Not the loudest, strongest, or most skilled. The person others naturally listen to and trust. Leadership in crisis is about trust, not authority.",
+          "illustrationDescription": "Identifying successor."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Share all critical knowledge: water sources, fire methods, signal plans.",
+          "helpDetail": "Single points of failure kill groups. If only one person knows where the water source is, the group dies with that person.",
+          "illustrationDescription": "Knowledge sharing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Delegate gradually — give increasing responsibility while you're still able.",
+          "helpDetail": "A sudden leadership transition causes panic. A gradual one feels natural. 'You handle the fire today, I'll focus on the trap.'",
+          "illustrationDescription": "Gradual delegation."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Document the plan — scratched on bark, written in dirt, memorized by two people.",
+          "helpDetail": "Critical information must always exist in at least two minds. If the leader is injured, unconscious, or dead, the plan must survive.",
+          "illustrationDescription": "Documenting plan."
+        }
+      ]
+    },
+    {
+      "id": "psych-combat-breathing",
+      "name": "Combat Breathing (Box Breathing)",
+      "subtitle": "Military technique to control panic and stress response",
+      "category": "Stress Management",
+      "difficulty": 1,
+      "estimatedTime": "2-5 min",
+      "hasHapticGuide": true,
+      "hapticType": "breathing",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Inhale through nose for 4 seconds.",
+          "helpDetail": "Breathe deeply into your diaphragm, not shallow chest breathing. Feel your belly expand. This activates the parasympathetic nervous system — your body's 'calm down' system.",
+          "illustrationDescription": "Inhale."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Hold breath for 4 seconds. Then exhale for 4 seconds. Hold empty for 4 seconds.",
+          "helpDetail": "4 in, 4 hold, 4 out, 4 hold = one box. Repeat 4-6 cycles. Navy SEALs use this before operations. It works because you're overriding your fight-or-flight with conscious breathing control.",
+          "illustrationDescription": "Box pattern."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Repeat until heart rate drops and thinking clears.",
+          "helpDetail": "You'll feel the shift within 4-6 cycles. Panic narrows your vision and thinking. This technique reverses that. Use it before any critical decision, after any fear trigger, and before sleep.",
+          "illustrationDescription": "Calming effect."
+        }
+      ]
+    },
+    {
+      "id": "psych-cognitive-reframe",
+      "name": "Cognitive Reframing",
+      "subtitle": "Change how you interpret your situation to reduce despair",
+      "category": "Mental Resilience",
+      "difficulty": 2,
+      "estimatedTime": "5-10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify the negative thought: 'I'm going to die out here.'",
+          "helpDetail": "Notice the catastrophic thinking. Don't fight it — acknowledge it. 'I'm thinking that I'm going to die.' This creates distance between you and the thought.",
+          "illustrationDescription": "Identify thought."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Challenge it with evidence: 'People survive this. I have skills. I have resources.'",
+          "helpDetail": "List what you HAVE: shelter? Water source? Signaling capability? Knowledge? Physical health? The situation is rarely as hopeless as panic tells you it is.",
+          "illustrationDescription": "Challenge."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Replace with actionable thought: 'What is the next most useful thing I can do?'",
+          "helpDetail": "Shift from passive fear to active problem-solving. The antidote to helplessness is action. Even small actions (improve shelter, gather firewood) restore a sense of control and reduce panic.",
+          "illustrationDescription": "Action shift."
+        }
+      ]
+    },
+    {
+      "id": "psych-sleep-discipline",
+      "name": "Sleep Discipline in Survival",
+      "subtitle": "Maintain cognitive function through structured rest",
+      "category": "Physical-Mental",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Prioritize sleep over almost everything except immediate danger.",
+          "helpDetail": "After 24 hours without sleep, cognitive function drops 25%. After 48 hours: hallucinations, paranoia, and irrational decisions. Sleep deprivation kills more people than starvation in survival situations.",
+          "illustrationDescription": "Sleep priority."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use power naps: 20-minute naps every 4-6 hours if continuous sleep is impossible.",
+          "helpDetail": "Military research shows that 20-minute naps restore significant function. Set a timer or have someone wake you. Even 10 minutes provides benefit. Anything over 30 minutes causes sleep inertia (grogginess).",
+          "illustrationDescription": "Power naps."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create sleep conditions: darkness, warmth, wind protection, elevated surface.",
+          "helpDetail": "Your body won't sleep well if cold, wet, or uncomfortable. Invest time in making your sleep spot warm and dry. The time spent improving your bed pays back in better decisions and physical performance.",
+          "illustrationDescription": "Sleep setup."
+        }
+      ]
+    },
+    {
+      "id": "psych-decision-fatigue",
+      "name": "Decision Fatigue Management",
+      "subtitle": "Prevent poor choices by managing mental energy",
+      "category": "Mental Resilience",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make critical decisions in the morning when mental energy is highest.",
+          "helpDetail": "Decision fatigue is real — each decision degrades the quality of the next. Make big decisions (travel, route, rationing) early in the day. Save routine tasks (firewood, water collection) for afternoon.",
+          "illustrationDescription": "Morning decisions."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Establish routines to eliminate unnecessary decisions.",
+          "helpDetail": "Fixed routine = fewer decisions. Wake at dawn. Water first. Fire maintenance. Food prep. Signal checks. Shelter improvements. This autopilot for routine tasks preserves mental energy for real problems.",
+          "illustrationDescription": "Routine building."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When stuck, use the 'good enough' rule — don't wait for perfect.",
+          "helpDetail": "In survival, a good decision now beats a perfect decision tomorrow. If you have two reasonable options, pick one and execute. Indecision is more dangerous than a slightly suboptimal choice.",
+          "illustrationDescription": "Good enough principle."
+        }
+      ]
+    },
+    {
+      "id": "psych-grief-processing",
+      "name": "Processing Grief & Loss",
+      "subtitle": "Handle loss of companions, equipment, or normalcy",
+      "category": "Emotional Management",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Acknowledge the loss. Don't suppress it or pretend it didn't happen.",
+          "helpDetail": "Suppressed grief emerges as poor decisions, risk-taking, and apathy. Allow yourself to feel the loss — set aside a specific time for it if needed. Then return to survival tasks.",
+          "illustrationDescription": "Acknowledgment."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Separate grieving from decision-making. Grieve, then decide.",
+          "helpDetail": "Don't make critical decisions while in acute grief. Handle immediate safety needs, then allow yourself to process. Grief distorts risk assessment — you may take dangerous risks or become paralyzed.",
+          "illustrationDescription": "Separation."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Channel grief into purpose: 'I will survive to honor them.'",
+          "helpDetail": "Survivors consistently report that purpose was more powerful than will. Transforming grief into motivation creates a powerful drive. 'They would want me to survive' is both healthy and effective.",
+          "illustrationDescription": "Purpose finding."
+        }
+      ]
+    },
+    {
+      "id": "psych-conflict-resolution",
+      "name": "Group Conflict Resolution",
+      "subtitle": "Resolve disputes before they become dangerous",
+      "category": "Group Dynamics",
+      "difficulty": 2,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Address conflicts immediately. They escalate rapidly under stress.",
+          "helpDetail": "In normal life, conflicts can wait. In survival, unresolved conflicts lead to group fracture, sabotage, or violence. Address disagreements within hours, not days.",
+          "illustrationDescription": "Early intervention."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use structured discussion: each person states their view without interruption.",
+          "helpDetail": "Rule: speak only when holding a designated 'talking stick.' This prevents shouting matches. Each person gets 2 minutes. No interruptions. Then discuss solutions, not blame.",
+          "illustrationDescription": "Structured talk."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Focus on shared goals: 'We all want to survive and get home.'",
+          "helpDetail": "Reframe disputes around common interest. Not 'you vs. me' but 'us vs. the situation.' Make decisions that advance survival for all, even if imperfect for individuals.",
+          "illustrationDescription": "Common ground."
+        }
+      ]
+    },
+    {
+      "id": "psych-teach-to-cope",
+      "name": "Teaching as a Coping Mechanism",
+      "subtitle": "Teach others your skills to boost confidence and purpose",
+      "category": "Morale",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Teach another person a survival skill you know.",
+          "helpDetail": "Teaching does three things: reinforces your own knowledge, builds the group's capability, and gives both teacher and student a sense of purpose and competence.",
+          "illustrationDescription": "Teaching others."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Let beginners practice. Mastery builds confidence.",
+          "helpDetail": "Watching someone successfully start their first fire or tie their first knot transforms their self-image from 'helpless victim' to 'capable survivor.' This psychological shift is monumental.",
+          "illustrationDescription": "Practice."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Share knowledge generously. Hoarding skills creates dependency.",
+          "helpDetail": "If only one person knows how to start fire or find water, the group is fragile. Distribute skills across the group. Redundancy is resilience.",
+          "illustrationDescription": "Knowledge sharing."
+        }
+      ]
+    },
+    {
+      "id": "psych-gratitude-practice",
+      "name": "Survival Gratitude Practice",
+      "subtitle": "Counter negativity bias by actively noting what's going right",
+      "category": "Morale",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Each morning and evening, identify 3 things that went right or that you're grateful for.",
+          "helpDetail": "The brain has a negativity bias — it naturally focuses on threats. Consciously noting positives counteracts this. 'The fire stayed lit. I found water. My shelter held.'",
+          "illustrationDescription": "Morning practice."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "In a group, share these aloud at mealtimes.",
+          "helpDetail": "Group gratitude practice is powerful morale medicine. It shifts the collective focus from what's wrong to what's working. It's contagious — hearing others' gratitude amplifies your own.",
+          "illustrationDescription": "Group sharing."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Compare today to the worst day, not to normal life.",
+          "helpDetail": "Instead of comparing to home comforts (depressing), compare to day one or the worst day. 'At least I have fire now. At least I know where water is.' This reframe builds a sense of progress.",
+          "illustrationDescription": "Progress mindset."
+        }
+      ]
+    },
+    {
+      "id": "psych-visualization",
+      "name": "Positive Visualization",
+      "subtitle": "Use mental imagery to maintain motivation and reduce panic",
+      "category": "Mental Resilience",
+      "difficulty": 1,
+      "estimatedTime": "5-10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Close your eyes and vividly imagine being rescued and reuniting with loved ones.",
+          "helpDetail": "Engage all senses: see their faces, hear their voices, feel the embrace. This isn't wishful thinking — it's creating an emotional anchor that your brain will fight to achieve.",
+          "illustrationDescription": "Visualization."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Visualize successfully completing your next survival task.",
+          "helpDetail": "Before starting a difficult task (fire, shelter, water), mentally rehearse success. Athletes do this to improve performance. It works for survival tasks too — you perform better when you've 'already done it' mentally.",
+          "illustrationDescription": "Task rehearsal."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Practice before sleep — this sets your subconscious working on solutions.",
+          "helpDetail": "The subconscious processes problems during sleep. By visualizing your situation before sleeping, you often wake with solutions or renewed energy. Many survivors report 'waking up knowing what to do.'",
+          "illustrationDescription": "Pre-sleep practice."
+        }
+      ]
+    },
+    {
+      "id": "psych-humor",
+      "name": "Humor as a Survival Tool",
+      "subtitle": "Use appropriate humor to maintain morale and reduce stress",
+      "category": "Morale",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find something absurd or ironic about your situation and acknowledge it.",
+          "helpDetail": "Humor is a stress release valve. Soldiers, first responders, and survival professionals all use gallows humor. Laughing at the situation reduces cortisol and restores perspective.",
+          "illustrationDescription": "Finding humor."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Share jokes and funny stories in the group, especially during downtime.",
+          "helpDetail": "Laughter is contagious and builds social bonds. A group that can laugh together can survive together. Named your failed fire attempt? Named the annoying crow? These moments bond the group.",
+          "illustrationDescription": "Sharing laughter."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Never use humor to dismiss real problems or someone's genuine distress.",
+          "helpDetail": "Healthy humor laughs at the situation, not at individuals. If someone is in genuine crisis, humor can feel dismissive and damage trust. Read the room — humor heals when shared, hurts when forced.",
+          "illustrationDescription": "Appropriate limits."
+        }
+      ]
+    },
+    {
+      "id": "psych-normalcy",
+      "name": "Establishing Normalcy & Routine",
+      "subtitle": "Create predictable structure to reduce anxiety",
+      "category": "Group Dynamics",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Establish a daily schedule within the first 24 hours.",
+          "helpDetail": "Wake time, meal times, work periods, rest periods. Predictability reduces anxiety. Even arbitrary schedule is better than chaos. Write it out or announce it clearly to the group.",
+          "illustrationDescription": "Schedule creation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assign roles and responsibilities to every group member.",
+          "helpDetail": "Everyone needs a job: fire tender, water collector, signal maintainer, cook, lookout. Purpose prevents helplessness. Even small children can sort berries or gather small sticks.",
+          "illustrationDescription": "Role assignment."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain personal hygiene and camp organization.",
+          "helpDetail": "Hygiene matters psychologically as much as physically. Washing hands, cleaning camp, organizing gear — these create a sense of control and self-respect that prevents psychological decline.",
+          "illustrationDescription": "Hygiene maintenance."
+        }
+      ]
+    },
+    {
+      "id": "psych-acceptance",
+      "name": "Acceptance & Commitment",
+      "subtitle": "Accept what you can't change, commit to what you can",
+      "category": "Mental Resilience",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Accept the reality of your situation without judgment.",
+          "helpDetail": "Denial wastes energy. 'This shouldn't have happened' is irrelevant — it did happen. Accept the facts: your location, your resources, your injuries, your capabilities. Acceptance is not surrender — it's clarity.",
+          "illustrationDescription": "Acceptance."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Identify what you CAN control. Focus exclusively on those things.",
+          "helpDetail": "Can't control: weather, terrain, when rescue comes. CAN control: your shelter, your fire, your signals, your attitude, your effort. Focusing on controllables eliminates the helplessness that kills.",
+          "illustrationDescription": "Control focus."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Commit to action: 'I will do everything in my power to survive.'",
+          "helpDetail": "Commitment is the bridge between acceptance and action. You accept reality, then commit to making the best of it. This combination — realistic assessment + determined action — is found in virtually every survivor's account.",
+          "illustrationDescription": "Commitment."
+        }
+      ]
     }
   ],
   "articles": [
@@ -556,6 +1276,81 @@
       "body": "Sleep is not optional. It is a survival necessity equal to water.\n\nCognitive decline timeline:\n- 17 hours awake: equivalent to 0.05% BAC (legally impaired in many countries)\n- 24 hours: equivalent to 0.10% BAC (legally drunk)\n- 36 hours: emotional instability, memory failures, pain sensitivity increases\n- 48 hours: microsleeps begin (uncontrollable 1-30 second sleep episodes)\n- 72 hours: perceptual distortions, paranoia, hallucinations\n- 96+ hours: psychosis-like symptoms\n\nSleep optimization in the field:\n- Any sleep surface is better than bare ground \u2014 insulate from below\n- Sleeping bags work by trapping YOUR heat \u2014 they don't generate warmth\n- 60\u00b0F is the sleep onset threshold \u2014 your core temp needs to drop 1-2\u00b0F\n- Wind is the #1 sleep destroyer \u2014 prioritize wind protection in shelter\n- Full stomach + warm feet = fastest sleep onset\n\nIf you can't sleep: even lying still with eyes closed provides 60-70% of sleep's restorative benefit. Don't stress about not sleeping \u2014 the stress is worse than the insomnia.",
       "relatedTechniqueIDs": [
         "psych-sleep-deprivation"
+      ]
+    },
+    {
+      "id": "psych-article-children",
+      "title": "Children in Survival Situations",
+      "body": "Children are simultaneously more vulnerable and more resilient than adults in survival.\n\nVulnerabilities:\n- Dehydrate faster (higher surface-area-to-mass ratio)\n- Hypothermia onset faster (less insulating body fat)\n- Cannot self-regulate food intake\n- Limited problem-solving capacity under stress\n- Higher caloric needs relative to body weight\n\nResilience factors:\n- Adapt to new routines faster than adults\n- Less psychological baggage about 'how things should be'\n- Naturally curious — turn survival tasks into exploration\n- Sleep more easily (adults envy this in survival)\n- Follow confident leadership without question\n\nKey mistakes adults make with children in survival:\n1. Hiding the truth — children detect deception and lose trust\n2. Not assigning tasks — idle children become anxious children\n3. Protecting from ALL discomfort — moderate stress builds resilience\n4. Forgetting play — play is how children process fear. Allow it.\n5. Neglecting their observations — children notice things adults miss\n\nChildren who survive emergencies with engaged, calm adults show minimal long-term psychological trauma. Children who survive with panicked, dishonest adults often develop lasting anxiety disorders.",
+      "relatedTechniqueIDs": [
+        "psych-children-survival",
+        "psych-group-leadership"
+      ]
+    },
+    {
+      "id": "psych-article-night",
+      "title": "Psychology of Darkness",
+      "body": "Nighttime is when most survival situations feel the most desperate. Understanding why helps you manage it.\n\nNeurological reality:\n- Amygdala activity increases 60% in darkness (threat detection center)\n- Visual cortex, deprived of input, generates patterns from noise (you 'see' things)\n- Auditory sensitivity increases 30% — every sound is louder and more alarming\n- Pain perception increases at night (injuries hurt more)\n- Core body temperature drops — cold amplifies negative emotions\n\nWhy fire matters at night:\n- Provides focal point for attention (reduces amygdala scanning)\n- Warmth reduces pain perception and negative emotion\n- Light suppresses hallucination-generating visual noise\n- Rhythmic flame watching induces meditative state\n- Sound of crackling fire masks alarming environmental sounds\n\nIf you have no fire:\n- Talk out loud — your own voice confirms you exist and are in control\n- Touch solid objects — tactile grounding reduces dissociation\n- Count things — counting engages the prefrontal cortex, suppressing the amygdala\n- Remind yourself: 'Nothing is more dangerous now than it was 2 hours ago when I could see.'",
+      "relatedTechniqueIDs": [
+        "psych-night-anxiety",
+        "psych-box-breathing"
+      ]
+    },
+    {
+      "id": "psych-article-longterm",
+      "title": "Long-Term Survival Mindset",
+      "body": "Most survival training focuses on the first 72 hours. But some situations last weeks or months. The psychological demands change dramatically.\n\nShort-term (1-3 days): Adrenaline-driven. Your body's stress response carries you through.\nMedium-term (4-14 days): Adrenaline fades. Fatigue, boredom, and despair emerge. This is the most psychologically dangerous period.\nLong-term (15+ days): Adaptation begins. You develop routines, skills improve, and a new normal establishes.\n\nThe medium-term danger zone:\n- Motivation plummets as adrenaline fades\n- Physical discomfort becomes constant rather than acute\n- Hope of quick rescue fades\n- Boredom replaces fear as the primary enemy\n- Hygiene and self-care decline (dangerous for both health and morale)\n\nLong-term adaptation strategies:\n1. Shift from 'waiting for rescue' to 'building a life'\n2. Create comfort improvements — better shelter, better bed, dishes, utensils\n3. Develop food and water surplus, not just daily sufficiency\n4. Learn your environment — names for landmarks, animal patterns, weather signs\n5. Celebrate milestones — weekly achievements, skill mastery, structural completions\n6. Maintain hygiene religiously — it preserves self-identity and prevents disease\n\nHistorical long-term survivors consistently report that the moment they stopped waiting and started living is when they truly began to survive.",
+      "relatedTechniqueIDs": [
+        "psych-boredom-management",
+        "psych-journaling",
+        "psych-motivation-anchors"
+      ]
+    },
+    {
+      "id": "psych-article-decisions",
+      "title": "Decision Making Under Extreme Stress",
+      "body": "Stress fundamentally changes how your brain makes decisions.\n\nWhat stress does to your brain:\n- Prefrontal cortex (rational thinking): shut down. Blood redirected to survival centers.\n- Amygdala (fear center): hyperactive. Everything looks like a threat.\n- Working memory: reduced to 3-4 items from normal 7-9.\n- Time perception: distorted. Minutes feel like hours or seconds.\n\nCommon stress-induced decision errors:\n- Tunnel vision: fixating on one option and ignoring alternatives\n- Normalcy bias: 'This can't really be happening' — delays response\n- Sunk cost fallacy: continuing a bad plan because you've invested in it\n- Groupthink: following the group even when you know they're wrong\n- Inaction: freezing when immediate action is needed\n\nCountermeasures:\n1. Use box breathing before any critical decision\n2. Force yourself to generate at least 2 alternatives before committing\n3. Time-box decisions: 'I will decide in 5 minutes'\n4. Write down pros and cons if possible (externalizing helps thinking)\n5. Use the 'worst case test': what's the worst outcome of each option?\n\nThe survival priority order (SHELTER, WATER, FIRE, FOOD, SIGNAL) provides a built-in decision framework. When in doubt, address the most urgent need on that list.",
+      "relatedTechniqueIDs": [
+        "psych-combat-breathing",
+        "psych-decision-fatigue",
+        "psych-cognitive-reframe"
+      ]
+    },
+    {
+      "id": "psych-article-sleep-deprivation",
+      "title": "Sleep Deprivation: The Silent Killer",
+      "body": "Sleep deprivation is more immediately dangerous than food deprivation in survival.\n\nCognitive decline timeline:\n- 24 hours: equivalent to 0.10% BAC (legally drunk). Impaired judgment, slower reactions.\n- 36 hours: cognitive tasks become extremely difficult. Microsleeps begin (2-30 second blackouts).\n- 48 hours: hallucinations begin. Paranoia and irritability severe.\n- 72 hours: complex thought impossible. Visual and auditory hallucinations constant.\n- 96+ hours: psychotic behavior. Complete disorientation.\n\nReal-world impact on survival:\n- Misidentifying plants (poisoning risk)\n- Falling during navigation (injury risk)\n- Poor shelter construction (exposure risk)\n- Inadequate fire management (fire spread or loss)\n- Irrational conflict with group members\n\nSleep optimization in harsh conditions:\n- 20-minute power naps provide 2-3 hours of improved function\n- Sleep in warm bursts: bank fire, sleep while shelter is warm, repeat\n- Buddy system: take turns sleeping in dangerous conditions\n- Ground insulation matters more than covering (you lose 80% of heat downward)\n- Warm your core before sleeping (hot water bottle, heated rocks wrapped in cloth)",
+      "relatedTechniqueIDs": [
+        "psych-sleep-discipline",
+        "psych-combat-breathing"
+      ]
+    },
+    {
+      "id": "psych-article-children",
+      "title": "Children in Survival Situations",
+      "body": "Children require different psychological management than adults.\n\nWhat children fear most:\n- Separation from parents/caregivers\n- Loss of routine and normalcy\n- Adult fear (they mirror adult emotions)\n- The unknown (imagination fills gaps with worst-case scenarios)\n\nKey principles:\n1. Stay calm in front of children — they read your emotional state with extreme accuracy\n2. Be honest in age-appropriate ways: 'We're going to stay here until help comes'\n3. Never say 'everything is fine' when it clearly isn't — it destroys trust\n4. Give them tasks appropriate to their age:\n   - Ages 3-5: collect small sticks, count items, draw pictures\n   - Ages 6-9: help gather water, sort food, tend fire (supervised)\n   - Ages 10+: learn real skills (knots, signaling, navigation)\n\nPhysical considerations:\n- Children dehydrate faster (higher surface-area-to-body-weight ratio)\n- Children lose body heat faster (same ratio applies)\n- Children have smaller stomachs (feed smaller amounts more frequently)\n- Children's fear response can cause them to hide (check potential hiding spots)\n\nThe most important thing: make children feel safe and useful. Helplessness is more traumatic than hardship.",
+      "relatedTechniqueIDs": [
+        "psych-normalcy",
+        "psych-teach-to-cope"
+      ]
+    },
+    {
+      "id": "psych-article-isolation",
+      "title": "Psychological Effects of Isolation",
+      "body": "Solo survival presents unique psychological challenges beyond the physical.\n\nTimeline of isolation effects:\n- Days 1-3: anxiety, hypervigilance, difficulty sleeping. Normal. Manageable.\n- Days 3-7: loneliness intensifies. Talking to yourself begins. This is healthy and normal.\n- Days 7-14: perception changes. Sounds seem louder. Shadows seem threatening. Increased emotional volatility.\n- Days 14-30: time perception warps severely. Strong desire for any social contact. Depression risk increases.\n- 30+ days: major personality effects. Some experience spiritual/mystical states. Others severe depression.\n\nHealthy coping strategies:\n- Talk out loud — narrate your actions, verbalize plans\n- Name your tools and fire (this is normal and documented in survivors)\n- Keep a journal or scratch marks for days\n- Sing, recite poems, recall stories\n- Maintain all routines as if others were watching\n\nDangerous coping:\n- Ceasing self-care (not eating, not maintaining fire)\n- Taking unnecessary risks ('testing fate')\n- Convincing yourself rescue isn't coming (premature despair)\n\nThe longest documented solo survival without initial provisions: 76 days (Steven Callahan, adrift at sea). It's possible. Humans are extraordinarily resilient when they choose to be.",
+      "relatedTechniqueIDs": [
+        "psych-journaling",
+        "psych-normalcy",
+        "psych-gratitude-practice"
+      ]
+    },
+    {
+      "id": "psych-article-postrescue",
+      "title": "Post-Rescue Psychological Adjustment",
+      "body": "Rescue is not the end of the psychological journey. Many survivors struggle more after rescue than during the event.\n\nCommon post-rescue reactions:\n- Relief followed by unexpected depression\n- Difficulty readjusting to normal life ('everything feels trivial')\n- Survivor's guilt (especially if others didn't survive)\n- Hypervigilance and startle responses\n- Nightmares and intrusive memories\n- Difficulty trusting others or the environment\n\nNormal timeline:\n- Weeks 1-4: honeymoon period. Relief, media attention, celebration.\n- Months 1-6: reality sets in. PTSD symptoms may emerge. Sleep disruption, anxiety, flashbacks.\n- Months 6-12: integration. Processing the experience. Finding meaning.\n- 12+ months: most survivors report significant growth alongside lingering effects.\n\nWhat helps:\n- Professional trauma counseling (not debriefing — actual therapy)\n- Connecting with other survivors\n- Gradual return to normal routines\n- Physical exercise (reduces PTSD symptoms by 50%)\n- Writing about the experience (structured narrative processing)\n\nWhat to expect: you will never be the 'same person' you were before. Most survivors report both lasting negative effects AND profound positive growth. Both are real and valid.",
+      "relatedTechniqueIDs": [
+        "psych-grief-processing",
+        "psych-acceptance"
       ]
     }
   ]

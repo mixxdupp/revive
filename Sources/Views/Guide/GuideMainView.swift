@@ -8,11 +8,10 @@ struct GuideMainView: View {
         return ContentDatabase.shared.search(query: searchText)
     }
     
-    // VisionOS Inspired Grid
-    // Clean, centered, "Object" spatial design
+    // Standard Grid (Clean, Open)
     let columns = [
-        GridItem(.flexible(), spacing: 20),
-        GridItem(.flexible(), spacing: 20)
+        GridItem(.flexible(), spacing: 16),
+        GridItem(.flexible(), spacing: 16)
     ]
     
     var body: some View {
@@ -21,83 +20,56 @@ struct GuideMainView: View {
                 
                 // MARK: - Header (Clean & Centered)
                 if searchText.isEmpty {
-                    VStack(spacing: 8) {
+                    VStack(alignment: .leading, spacing: 4) {
                         Text("Library")
-                            .font(.system(size: 40, weight: .bold, design: .rounded))
+                            .font(.system(size: 40, weight: .bold, design: .serif)) // New York
                             .foregroundStyle(DesignSystem.textPrimary)
                         
-                        Text("210 Techniques • 10 Domains")
-                            .font(.subheadline)
+                        Text("Survival Guide")
+                            .font(.body)
                             .fontWeight(.medium)
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
-                    .frame(maxWidth: .infinity)
                     .padding(.top, 24)
+                    .padding(.horizontal, 24)
                 }
                 
-                // MARK: - CATEGORIES GRID (VISION OS STYLE)
+                // MARK: - CATEGORIES GRID (Shortcuts Style)
                 if searchText.isEmpty {
-                    LazyVGrid(columns: columns, spacing: 20) {
+                    LazyVGrid(columns: columns, spacing: 16) {
                         ForEach(SurvivalDomain.allCases) { domain in
                             NavigationLink(destination: DomainDetailView(domain: domain)) {
-                                VStack(spacing: 16) {
-                                    // 1. 3D Icon Container
-                                    // Floating glass object
-                                    ZStack {
-                                        Circle()
-                                            .fill(
-                                                LinearGradient(
-                                                    colors: [
-                                                        domain.color.opacity(0.8),
-                                                        domain.color
-                                                    ],
-                                                    startPoint: .topLeading,
-                                                    endPoint: .bottomTrailing
-                                                )
-                                            )
-                                            .shadow(color: domain.color.opacity(0.4), radius: 10, x: 0, y: 5)
-                                        
-                                        Image(systemName: domain.icon)
-                                            .font(.system(size: 32, weight: .semibold)) // Crisp
-                                            .foregroundStyle(.white)
-                                            .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 2)
-                                    }
-                                    .frame(width: 80, height: 80)
+                                VStack(alignment: .leading, spacing: 12) {
+                                    // Icon (Clean)
+                                    Image(systemName: domain.icon)
+                                        .font(.system(size: 28))
+                                        .foregroundStyle(.white)
                                     
-                                    // 2. Typography
-                                    VStack(spacing: 4) {
+                                    Spacer()
+                                    
+                                    // Text (Clean)
+                                    VStack(alignment: .leading, spacing: 2) {
                                         Text(domain.displayName)
-                                            .font(.system(size: 20, weight: .bold, design: .rounded))
-                                            .foregroundStyle(DesignSystem.textPrimary)
-                                            .multilineTextAlignment(.center)
+                                            .font(.title3)
+                                            .fontWeight(.bold)
+                                            .foregroundStyle(.white)
+                                            .multilineTextAlignment(.leading)
+                                            .lineLimit(1)
+                                            .minimumScaleFactor(0.8)
                                         
                                         Text("\(ContentDatabase.shared.getTechniques(for: domain).count) Items")
                                             .font(.caption)
                                             .fontWeight(.medium)
-                                            .foregroundStyle(DesignSystem.textSecondary)
+                                            .foregroundStyle(.white.opacity(0.8))
                                     }
                                 }
-                                .padding(.vertical, 32)
-                                .padding(.horizontal, 16)
-                                .frame(maxWidth: .infinity)
-                                .background(
-                                    // Multi-layer Glass
-                                    ZStack {
-                                        RoundedRectangle(cornerRadius: 32, style: .continuous)
-                                            .fill(.ultraThinMaterial)
-                                            .opacity(0.8) // High opacity glass
-                                        
-                                        RoundedRectangle(cornerRadius: 32, style: .continuous)
-                                            .fill(Color(uiColor: .systemBackground).opacity(0.3)) // Light tint
-                                    }
-                                )
-                                .clipShape(RoundedRectangle(cornerRadius: 32, style: .continuous))
-                                .shadow(color: Color.black.opacity(0.05), radius: 12, x: 0, y: 6) // Soft ambient
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 32, style: .continuous)
-                                        .stroke(.white.opacity(0.4), lineWidth: 1) // Specular rim
-                                )
-                                // Scale effect on press handled by buttonStyle
+                                .padding(20)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .frame(height: 140) // Standard box height
+                                .background(domain.color) // Vibrant Solid Color
+                                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                                // Subtle shadow
+                                .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
                             }
                             .buttonStyle(ScalableButtonStyle())
                         }
@@ -124,28 +96,7 @@ struct GuideMainView: View {
                 }
             }
         }
-        .background(
-            // Subtle ambient background
-            ZStack {
-                Color(uiColor: .systemGroupedBackground)
-                
-                // Ambient Glow
-                GeometryReader { geo in
-                    Circle()
-                        .fill(Color.blue.opacity(0.03))
-                        .frame(width: 400, height: 400)
-                        .blur(radius: 100)
-                        .position(x: geo.size.width * 0.2, y: geo.size.height * 0.2)
-                    
-                    Circle()
-                        .fill(Color.orange.opacity(0.03))
-                        .frame(width: 400, height: 400)
-                        .blur(radius: 100)
-                        .position(x: geo.size.width * 0.8, y: geo.size.height * 0.8)
-                }
-            }
-            .edgesIgnoringSafeArea(.all)
-        )
+        .background(Color(uiColor: .systemGroupedBackground))
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search techniques")

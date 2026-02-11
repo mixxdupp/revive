@@ -549,42 +549,6 @@
       ]
     },
     {
-      "id": "env-cave-survival",
-      "name": "Cave Shelter Survival",
-      "subtitle": "Natural shelter with serious hazards",
-      "category": "Cave",
-      "difficulty": 2,
-      "estimatedTime": "Ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Check for animals before entering\u2014tracks, droppings, bones.",
-          "helpDetail": "Bears, snakes, and bats use caves. Look and listen before entering.",
-          "illustrationDescription": "Checking for animals."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Stay near entrance. Never explore deep without light.",
-          "helpDetail": "Cave darkness is absolute. Getting lost inside is a death sentence.",
-          "illustrationDescription": "Stay near entrance."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Build fire at entrance for warmth and predator deterrence.",
-          "helpDetail": "Smoke needs exit path. Cave reflects heat inward.",
-          "illustrationDescription": "Fire at entrance."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Watch for flooding\u2014caves are carved by water.",
-          "helpDetail": "Heavy rain floods passages in minutes. Stay above water marks on walls.",
-          "illustrationDescription": "Flood awareness."
-        }
-      ]
-    },
-    {
       "id": "env-coastal-tidal",
       "name": "Coastal & Tidal Survival",
       "subtitle": "Tides, rip currents, shore foraging",
@@ -835,6 +799,1176 @@
           "illustrationDescription": "Helping victim."
         }
       ]
+    },
+    {
+      "id": "env-tsunami-response",
+      "name": "Tsunami Response",
+      "subtitle": "Recognize warning signs and reach high ground",
+      "category": "Disaster",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "If you feel a strong earthquake near the coast, move to high ground immediately.",
+          "helpDetail": "Do not wait for official warnings. A strong coastal earthquake IS the warning. You may have only 10-15 minutes before the first wave.",
+          "illustrationDescription": "Moving inland."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Watch for natural warning signs: ocean suddenly pulling far from shore.",
+          "helpDetail": "If the ocean recedes dramatically, exposing the sea floor, a tsunami is incoming. This is the ocean 'drawing back' before the wave. RUN.",
+          "illustrationDescription": "Ocean receding."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Move inland or to elevation above 100 feet. Go UP, not just away.",
+          "helpDetail": "Tsunamis can travel miles inland on flat ground. Elevation is your only protection. Upper floors of concrete buildings work if no high ground exists.",
+          "illustrationDescription": "Reaching high ground."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stay at high ground for hours. Tsunamis come in multiple waves.",
+          "helpDetail": "The first wave is often NOT the largest. Waves can continue for 8-12 hours. Wait for official all-clear before returning to low ground.",
+          "illustrationDescription": "Staying safe."
+        }
+      ]
+    },
+    {
+      "id": "env-tornado-shelter",
+      "name": "Tornado Shelter Procedure",
+      "subtitle": "Protect yourself from tornado winds and debris",
+      "category": "Disaster",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get to the lowest interior room away from windows.",
+          "helpDetail": "Basement is best. If no basement: interior closet, bathroom, or hallway on the lowest floor. Stay away from windows, doors, and exterior walls.",
+          "illustrationDescription": "Interior room."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Get under a sturdy table and cover your head and neck.",
+          "helpDetail": "Flying debris causes most tornado injuries and deaths. Use pillows, mattresses, blankets, or your arms to protect your head and neck.",
+          "illustrationDescription": "Taking cover."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If outdoors, lie flat in the nearest ditch or low spot.",
+          "helpDetail": "Cover your head with your arms. Do NOT try to outrun a tornado in a car. If caught driving, park, keep your seatbelt on, and duck below window level.",
+          "illustrationDescription": "Outdoor shelter."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "After the tornado passes, watch for downed power lines and gas leaks.",
+          "helpDetail": "Do not enter damaged buildings. Smell for gas. Avoid downed wires. Check on neighbors, especially elderly and disabled individuals.",
+          "illustrationDescription": "Post-tornado safety."
+        }
+      ]
+    },
+    {
+      "id": "env-wildfire-evac",
+      "name": "Wildfire Evacuation",
+      "subtitle": "Survive and escape an approaching wildfire",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Evacuate EARLY. Do not wait for mandatory evacuation orders.",
+          "helpDetail": "Wildfires can move 6-14 mph in forest and 25+ mph in grassland. Embers travel miles ahead of the fire front. By the time you see flames, you may have minutes.",
+          "illustrationDescription": "Evacuating early."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Drive with headlights on, windows up, vents closed.",
+          "helpDetail": "Smoke reduces visibility to near zero. Drive slowly. If road is blocked, park in a clear area, turn off the engine, close all windows, lie on the floor below window level.",
+          "illustrationDescription": "Driving through smoke."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If trapped, find a body of water, cleared area, or road.",
+          "helpDetail": "Roads, parking lots, and rocky areas have no fuel for fire. A pond or stream provides protection. Lie face-down in shallow water or cover yourself with soil.",
+          "illustrationDescription": "Finding refuge."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Cover exposed skin and breathe through a wet cloth.",
+          "helpDetail": "Radiant heat can burn skin without direct flame contact. A wet bandana over nose and mouth filters some smoke particles. Synthetic clothing melts \u2014 natural fibers are safer.",
+          "illustrationDescription": "Protecting from heat."
+        }
+      ]
+    },
+    {
+      "id": "env-earthquake-indoor",
+      "name": "Earthquake: Indoor Response",
+      "subtitle": "Drop, cover, and hold on",
+      "category": "Disaster",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "DROP to your hands and knees immediately.",
+          "helpDetail": "This position prevents you from being knocked down by shaking. It also allows you to crawl to cover. Do NOT try to run outside \u2014 falling debris is the greatest danger.",
+          "illustrationDescription": "Dropping down."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Take COVER under a sturdy desk or table. Protect your head and neck.",
+          "helpDetail": "If no table is available, get against an interior wall and cover your head with your arms. Stay away from windows, shelves, and heavy objects.",
+          "illustrationDescription": "Taking cover."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "HOLD ON to your shelter until the shaking stops.",
+          "helpDetail": "Strong earthquakes can last 30+ seconds. Aftershocks may follow within minutes. If your cover moves, move with it. Stay covered.",
+          "illustrationDescription": "Holding position."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "After shaking stops, check for injuries and exit the building carefully.",
+          "helpDetail": "Use stairs, never elevators. Check for gas leaks. Be prepared for aftershocks. Turn off utilities if you suspect damage. Do not re-enter damaged buildings.",
+          "illustrationDescription": "Safe exit."
+        }
+      ]
+    },
+    {
+      "id": "env-earthquake-outdoor",
+      "name": "Earthquake: Outdoor Response",
+      "subtitle": "Stay in the open away from structures",
+      "category": "Disaster",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Move to an open area away from buildings, trees, and power lines.",
+          "helpDetail": "Building facades, glass, and bricks fall outward during earthquakes. Get at least one building-height away from structures.",
+          "illustrationDescription": "Moving to open area."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Drop to the ground and protect your head.",
+          "helpDetail": "Even outdoors, debris can fly. Cover your head with your arms or any available protection. Stay low and stable.",
+          "illustrationDescription": "Ground protection."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If driving, pull over to a clear area. Stay in the car.",
+          "helpDetail": "Avoid stopping under bridges, overpasses, or near buildings. The car provides protection from falling debris. Set the parking brake.",
+          "illustrationDescription": "Vehicle response."
+        }
+      ]
+    },
+    {
+      "id": "env-flash-flood-response",
+      "name": "Flash Flood Response",
+      "subtitle": "React to sudden rising water",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Move to higher ground immediately. Do not wait.",
+          "helpDetail": "Flash floods rise in minutes. Even 6 inches of fast-moving water can knock you down. Don't try to save belongings \u2014 save yourself.",
+          "illustrationDescription": "Moving to high ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Never drive through floodwater. Turn around.",
+          "helpDetail": "12 inches of water can carry away a car. You cannot judge water depth on a flooded road. Hidden washouts can drop your vehicle into deep water instantly.",
+          "illustrationDescription": "Turn around."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If swept away, float on your back with feet downstream.",
+          "helpDetail": "Your feet absorb impacts from rocks and debris. Use your arms to steer toward the bank. Grab onto anything stable when possible.",
+          "illustrationDescription": "Survival floating."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "After floodwaters recede, avoid walking through standing water.",
+          "helpDetail": "Standing floodwater contains sewage, chemicals, snakes, and may hide downed power lines or sinkholes. Contaminated water can cause serious illness.",
+          "illustrationDescription": "Post-flood caution."
+        }
+      ]
+    },
+    {
+      "id": "env-lightning-position",
+      "name": "Lightning Crouch Position",
+      "subtitle": "Minimize your profile during a lightning storm",
+      "category": "Disaster",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get off high ground, ridges, and exposed areas.",
+          "helpDetail": "Lightning strikes the highest point. Get below the tree line if on a mountain. Avoid open fields, water, and isolated tall trees.",
+          "illustrationDescription": "Moving to low ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Crouch low with feet together, head tucked, hands over ears.",
+          "helpDetail": "The \"lightning crouch\": minimize contact with ground and height simultaneously. Feet together reduces the voltage difference across your body if ground current strikes nearby.",
+          "illustrationDescription": "Lightning crouch."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If in a group, spread out at least 50 feet apart.",
+          "helpDetail": "This prevents a single strike from hitting multiple people via ground current. If someone is struck, others can provide aid immediately.",
+          "illustrationDescription": "Group spacing."
+        }
+      ]
+    },
+    {
+      "id": "env-volcanic-ashfall",
+      "name": "Volcanic Ashfall Protection",
+      "subtitle": "Survive falling volcanic ash and debris",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "Duration of event",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get indoors and seal windows and doors.",
+          "helpDetail": "Volcanic ash is not like wood ash \u2014 it's pulverized rock and glass. Breathing it causes severe lung damage. Seal gaps with wet towels or tape.",
+          "illustrationDescription": "Sealing indoors."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wear an N95 mask or breathe through a damp cloth if outdoors.",
+          "helpDetail": "Ash particles are tiny and razor-sharp. They slice lung tissue. Any filtration is better than none. Goggles protect eyes from abrasion.",
+          "illustrationDescription": "Respiratory protection."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Clear ash from roofs \u2014 wet ash can collapse structures.",
+          "helpDetail": "Volcanic ash is extremely heavy, especially when wet. As little as 4 inches of wet ash can collapse a roof. Remove it from the roof when safe to do so.",
+          "illustrationDescription": "Clearing roofs."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Avoid driving. Ash destroys engines and blocks visibility.",
+          "helpDetail": "Ash clogs air filters, abrades moving parts, and turns roads into slippery surfaces. Drive only if evacuating, at very low speed with lights on.",
+          "illustrationDescription": "Vehicle hazards."
+        }
+      ]
+    },
+    {
+      "id": "env-jungle-movement",
+      "name": "Jungle Movement & Navigation",
+      "subtitle": "Navigate dense tropical forest without trails",
+      "category": "Tropical",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Follow streams and rivers — they're natural highways in dense jungle.",
+          "helpDetail": "Dense jungle off-trail movement is ~0.5 miles/hour. Along waterways: 1-2 miles/hour. Streams lead to rivers, rivers lead to settlements. Stay near the bank, not in the water (parasites, current).",
+          "illustrationDescription": "Stream following."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use a machete or heavy stick to probe ahead. Watch for snakes.",
+          "helpDetail": "Prod vegetation before stepping. Many venomous snakes are camouflaged in leaf litter. Step ON logs, not over them — snakes rest on the far side. Always look before grabbing branches or vines.",
+          "illustrationDescription": "Probing ahead."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Travel early morning and late afternoon. Rest during midday heat.",
+          "helpDetail": "Midday jungle heat + humidity = dangerous core temperature rise. Travel 0600-1000 and 1500-1800. Rest during the hottest hours. Dehydration rate in tropical jungle: 1-2 liters per hour of heavy movement.",
+          "illustrationDescription": "Travel timing."
+        }
+      ]
+    },
+    {
+      "id": "env-swamp-movement",
+      "name": "Swamp Navigation & Safety",
+      "subtitle": "Move safely through wetland environments",
+      "category": "Wetland",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Test ground before stepping. Use a long pole to probe depth and firmness.",
+          "helpDetail": "Swamp mud can be waist-deep. Probe every step with a 6-foot pole. Solid ground often follows tree root systems. Step on root mats when possible. If you start sinking, lean forward and 'swim' to firmer ground.",
+          "illustrationDescription": "Probing ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Follow animal trails — they use the firmest paths.",
+          "helpDetail": "Deer, hogs, and other animals know the solid ground. Follow their trails. Animal trails also lead to water sources and higher ground. If a trail dead-ends at water, look for where it resumes on the other side.",
+          "illustrationDescription": "Animal trails."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Protect against mosquitoes, leeches, and waterborne parasites continuously.",
+          "helpDetail": "Swamp hazards: mosquitoes (malaria, dengue), leeches (infection risk), parasitic worms in water (enter through skin). Cover all exposed skin. Apply mud as insect barrier. Check for leeches every hour.",
+          "illustrationDescription": "Parasite protection."
+        }
+      ]
+    },
+    {
+      "id": "env-altitude-sickness",
+      "name": "High Altitude Sickness Management",
+      "subtitle": "Recognize and treat altitude-related illness",
+      "category": "Mountain",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize symptoms: headache, nausea, fatigue, dizziness above 8,000 feet.",
+          "helpDetail": "Acute Mountain Sickness (AMS) affects most people above 8,000 feet. Symptoms start 6-12 hours after ascending. The ONLY reliable cure is descending. Do NOT ignore symptoms — AMS can progress to fatal brain or lung swelling.",
+          "illustrationDescription": "Symptoms."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Descend immediately if symptoms worsen or confusion develops.",
+          "helpDetail": "Golden rule: if symptoms get worse at the same altitude, DESCEND. Even 1,000 feet of descent provides significant relief. HACE (brain swelling) and HAPE (lung fluid) kill within hours if untreated.",
+          "illustrationDescription": "Descent decision."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Climb high, sleep low. Ascend no more than 1,000 feet per day above 10,000 feet.",
+          "helpDetail": "Acclimatization takes 1-3 days per 1,000 feet. You can climb higher during the day but should sleep at a lower elevation. Hydrate aggressively — dehydration accelerates AMS. Avoid alcohol and sleeping pills.",
+          "illustrationDescription": "Acclimatization."
+        }
+      ]
+    },
+    {
+      "id": "env-desert-night-travel",
+      "name": "Desert Night Travel",
+      "subtitle": "Travel at night to avoid dangerous daytime heat",
+      "category": "Desert",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Move between sunset and sunrise. Rest during daylight in shade.",
+          "helpDetail": "Desert day temperatures can exceed 130°F. Night temperatures may drop to 40°F. You lose 0.5-1 liter of water per hour walking in day heat vs. 0.25 liters at night. Night travel doubles your range on the same water.",
+          "illustrationDescription": "Night schedule."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Navigate by stars, moon shadow, or pre-set landmarks visible in moonlight.",
+          "helpDetail": "Before dark, identify your direction and noting landmarks. Walk toward a star (re-check every 15 minutes as stars shift). Full moon provides enough light to navigate safely. New moon requires extreme caution.",
+          "illustrationDescription": "Night navigation."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for temperature extremes: hypothermia is a real desert risk at night.",
+          "helpDetail": "Desert temperature swings of 60-80°F between day and night are common. Dress in layers. The same sun protection worn by day traps warmth at night. Start walking to generate body heat if cold.",
+          "illustrationDescription": "Temperature management."
+        }
+      ]
+    },
+    {
+      "id": "env-coastal-storm",
+      "name": "Coastal Storm Shelter Strategy",
+      "subtitle": "Survive hurricanes, typhoons, and coastal storms",
+      "category": "Coastal",
+      "difficulty": 2,
+      "estimatedTime": "1-2 hours prep",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get to high ground immediately. Storm surge kills more than wind.",
+          "helpDetail": "Storm surge can push seawater 20+ feet above normal. Move to ground at least 30 feet above sea level and 2 miles from coast. Storm surge arrives fast — within minutes. Don't wait for official warnings.",
+          "illustrationDescription": "High ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Shelter in the strongest structure available. Interior rooms, lowest floor.",
+          "helpDetail": "Avoid windows. Interior rooms without exterior walls. Bathroom is often strongest (small room, plumbing reinforcement). If in open, find a ravine or depression on the lee side of a hill.",
+          "illustrationDescription": "Strong shelter."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "After the storm: beware downed power lines, contaminated water, and unstable structures.",
+          "helpDetail": "Post-storm drowning in flood water is common. Electricity in standing water is invisible and lethal. Don't drink tap water until cleared. Structural damage may cause delayed collapse. Stay alert for 48+ hours.",
+          "illustrationDescription": "Post-storm dangers."
+        }
+      ]
+    },
+    {
+      "id": "env-cave-survival",
+      "name": "Cave Shelter & Safety",
+      "subtitle": "Use caves for shelter while avoiding their hazards",
+      "category": "Underground",
+      "difficulty": 2,
+      "estimatedTime": "30 min (assessment)",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Check for animal inhabitants before entering. Look for tracks, droppings, bones.",
+          "helpDetail": "Bears, big cats, snakes, and bats use caves. Fresh droppings = occupied. Strong musky smell = recent large animal. Throw rocks inside and listen. Never enter a cave that smells of ammonia (bat guano — histoplasmosis risk).",
+          "illustrationDescription": "Checking for animals."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Check airflow. Stale or foul air means poor ventilation — don't go deep.",
+          "helpDetail": "Caves can accumulate CO2, radon, and methane. If a flame burns dim or goes out, air is poor. Stay near the entrance where airflow is good. Never build a fire deep in a cave — smoke accumulation is lethal.",
+          "illustrationDescription": "Air quality."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build fire near the entrance, not inside. Use cave for wind protection only.",
+          "helpDetail": "Fire at cave mouth provides warmth without smoke buildup. The cave walls reflect heat. Sleep between fire and back wall. Mark your entrance clearly if exploring deeper — cave disorientation is common and deadly.",
+          "illustrationDescription": "Fire placement."
+        }
+      ]
+    },
+    {
+      "id": "env-flash-flood",
+      "name": "Flash Flood Response",
+      "subtitle": "Recognize and escape flash flood danger",
+      "category": "All Environments",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "NEVER camp in dry riverbeds, narrow canyons, or at the base of slopes.",
+          "helpDetail": "Flash floods arrive with little warning. A dry wash can fill to 10 feet deep in minutes from rain miles away that you can't even see. If you hear roaring upstream, move to high ground IMMEDIATELY.",
+          "illustrationDescription": "Danger zones."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Move perpendicular to the flood path — go UP, not downstream.",
+          "helpDetail": "Don't try to outrun a flood downstream — water is faster than you. Move sideways and uphill. Even 10-20 feet of elevation gain can save your life. 6 inches of moving water can knock you down.",
+          "illustrationDescription": "Escape direction."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If caught in water, do NOT try to stand. Float on your back feet-first.",
+          "helpDetail": "Standing in floodwater risks foot entrapment (getting stuck between underwater rocks). Float on your back, feet downstream to fend off obstacles. Grab onto anything stable (tree, rock) when possible.",
+          "illustrationDescription": "Water survival."
+        }
+      ]
+    },
+    {
+      "id": "env-lightning-safety",
+      "name": "Lightning Safety Protocol",
+      "subtitle": "Minimize lightning strike risk during thunderstorms",
+      "category": "All Environments",
+      "difficulty": 1,
+      "estimatedTime": "Duration of storm",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "30-30 Rule: if thunder follows lightning in less than 30 seconds, seek shelter.",
+          "helpDetail": "Each 5-second count between flash and thunder = 1 mile distance. 30 seconds = 6 miles = danger zone. Lightning can strike 10+ miles from its parent cloud. If you can hear thunder, you can be struck.",
+          "illustrationDescription": "30-30 rule."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Avoid: tall trees, hilltops, open fields, water, metal objects.",
+          "helpDetail": "Lightning hits the tallest object. Don't BE the tallest object. Avoid isolated trees — seek a uniform stand of short trees. Get off ridgelines. Leave water immediately. Remove metal frame backpacks.",
+          "illustrationDescription": "What to avoid."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Lightning crouch: squat low, feet together, hands on knees, head down.",
+          "helpDetail": "If caught in the open: make yourself as small as possible while minimizing ground contact. Feet together reduces ground current risk. Don't lie flat — it increases ground current exposure. Space group members 50 feet apart.",
+          "illustrationDescription": "Lightning position."
+        }
+      ]
+    },
+    {
+      "id": "env-sandstorm",
+      "name": "Sandstorm Shelter-in-Place",
+      "subtitle": "Protect yourself during a desert sandstorm",
+      "category": "Desert",
+      "difficulty": 2,
+      "estimatedTime": "Duration of storm",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Turn your back to the wind. Cover nose and mouth immediately.",
+          "helpDetail": "Sand particles cause severe lung damage. Wrap cloth tightly over nose and mouth — breathe through the fabric. Cover eyes completely — sand abrasion can blind you. Goggles or sunglasses help but wrap with cloth too.",
+          "illustrationDescription": "Face protection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Get low. Find the lee side of a large rock, dune, or vehicle.",
+          "helpDetail": "Sand concentration is highest at 1-3 feet off the ground in moderate storms. Below that, and above 6 feet, concentration drops. Get behind a windbreak and sit with your back to the wind.",
+          "illustrationDescription": "Shelter position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "STAY PUT until the storm passes. Mark your direction before visibility drops.",
+          "helpDetail": "Sandstorms reduce visibility to zero. Walking blind in desert = circling, falling into gullies, or walking the wrong direction. Before the storm hits, note your compass bearing and direction to shelter. Then wait it out.",
+          "illustrationDescription": "Wait it out."
+        }
+      ]
+    },
+    {
+      "id": "env-tundra-travel",
+      "name": "Tundra & Arctic Travel",
+      "subtitle": "Move safely in flat, featureless arctic environments",
+      "category": "Arctic",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Navigate by wind direction — prevailing winds are the most reliable compass in featureless terrain.",
+          "helpDetail": "Snow drifts, sastrugi (wind ridges), and vegetation lean indicate prevailing wind direction. Once established, use wind angle to maintain a bearing. Sun position helps when visible but arctic sun angles are extreme.",
+          "illustrationDescription": "Wind navigation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Avoid thin ice: dark ice, snow-covered ice, ice near current or outflows.",
+          "helpDetail": "Clear blue ice 4+ inches thick supports a person. White/opaque ice is weaker. Snow-covered ice hides thickness. Stream inlets, outlets, and narrows have thinner ice. Spread your weight if unsure — crawl.",
+          "illustrationDescription": "Ice assessment."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build snow walls or dig into snowdrifts for emergency shelter.",
+          "helpDetail": "Wind chill is the primary killer in tundra. A snow wall reduces wind by 70%. A snow trench takes 30 minutes to dig and provides immediate wind protection. Block the entrance and body heat warms the space above freezing.",
+          "illustrationDescription": "Snow shelter."
+        }
+      ]
+    },
+    {
+      "id": "env-tropical-disease",
+      "name": "Tropical Disease Prevention",
+      "subtitle": "Prevent malaria, dengue, and other tropical infections",
+      "category": "Tropical",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Prevent mosquito bites: cover skin, use smoke, sleep under netting or cover.",
+          "helpDetail": "Malaria and dengue are transmitted by mosquitoes. Mosquitoes are most active at dawn and dusk. Burn smoky fires near sleeping area. Smear mud on exposed skin. Tuck pants into socks, sleeves into gloves.",
+          "illustrationDescription": "Mosquito prevention."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Purify ALL water. Don't wade barefoot. Cover all wounds.",
+          "helpDetail": "Tropical parasites enter through skin (schistosomiasis), mouth (giardia, ameba), and wounds (tropical ulcers). Boil all water. Wear foot covering in water. Any wound, however small, must be cleaned and covered — tropical infection is aggressive.",
+          "illustrationDescription": "Water and wound care."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for fever, shaking chills, or progressive wound redness — these are emergencies.",
+          "helpDetail": "Malaria symptoms: cyclical fever and chills starting 7-30 days after bite. Untreated falciparum malaria can kill in 24-48 hours. Red streaks from a wound = spreading infection. Both require evacuation to medical care.",
+          "illustrationDescription": "Warning signs."
+        }
+      ]
+    },
+    {
+      "id": "env-wildfire-survival",
+      "name": "Wildfire Entrapment Survival",
+      "subtitle": "Survive when wildfire cuts off your escape",
+      "category": "All Environments",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Move to the largest burned area (black), a road, water body, or rocky area.",
+          "helpDetail": "Already-burned areas won't burn again. Large clearings and rock fields have no fuel. Water bodies provide heat protection. Roads create fuel breaks. Running uphill from fire is deadly — fire travels uphill 4x faster than on flat ground.",
+          "illustrationDescription": "Safety zones."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If trapped: lie face-down in a depression, cover exposed skin.",
+          "helpDetail": "Clear vegetation around you in a 10-foot radius if possible. Lie in the lowest spot available. Cover your body with dirt. Breathe through cloth near the ground — superheated air rises. The fire front passes in 1-3 minutes.",
+          "illustrationDescription": "Entrapment position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "After the fire passes: watch for falling trees, hidden hot spots, and unstable ground.",
+          "helpDetail": "Burned trees fall without warning. Root systems burn underground creating hidden holes. Ash conceals hot spots that can cause severe burns. Move carefully with a probing stick. Watch for rolling rocks on burned slopes.",
+          "illustrationDescription": "Post-fire hazards."
+        }
+      ]
+    },
+    {
+      "id": "env-hurricane",
+      "name": "Hurricane Survival",
+      "subtitle": "Survive high winds and storm surge",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "Hours/Days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Secure all windows/doors. Create a 'safe room' in interior.",
+          "helpDetail": "Board up windows if time. If not, stay in windowless room. Mattress over head protects from flying glass.",
+          "illustrationDescription": "Safe room setup."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Fill bathtubs and containers with water BEFORE storm hits.",
+          "helpDetail": "Municipal water often fails or gets contaminated. You need 1 gallon/person/day for at least 3 days.",
+          "illustrationDescription": "Filling bathtub."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stay inside during the 'eye' \u2014 calm is temporary.",
+          "helpDetail": "The eye passes in 10-30 mins. Winds return suddenly from opposite direction with full force. Don't go out.",
+          "illustrationDescription": "Waiting out the eye."
+        }
+      ]
+    },
+    {
+      "id": "env-blizzard",
+      "name": "Blizzard Survival",
+      "subtitle": "Survive whiteout and extreme cold",
+      "category": "Disaster",
+      "difficulty": 3,
+      "estimatedTime": "Hours/Days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Shelter immediately. Do NOT try to walk for help in whiteout.",
+          "helpDetail": "You will get lost within 50 feet. Disorientation is total. Dig a snow trench if no structure available.",
+          "illustrationDescription": "Digging snow shelter."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If in car: run engine 10 mins/hour only. Clear exhaust pipe.",
+          "helpDetail": "Blocked exhaust kills via CO poisoning. Crack window slightly for air. Stay with vehicle.",
+          "illustrationDescription": "Clearing exhaust pipe."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Exercise extremities to keep blood flowing. Don't sleep if shivering stops.",
+          "helpDetail": " stopping shivering is a sign of severe hypothermia. Move fingers/toes. Huddle for warmth.",
+          "illustrationDescription": "Moving inside car."
+        }
+      ]
+    },
+    {
+      "id": "env-volcanic-ash",
+      "name": "Volcanic Ash Protection",
+      "subtitle": "Breathing safety during eruption",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cover mouth/nose with N95 mask or wet cloth.",
+          "helpDetail": "Volcanic ash is jagged glass, not dust. It shreds lungs. Wet cloth traps particles better than dry.",
+          "illustrationDescription": "Masking up."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wear goggles. Do NOT wear contact lenses.",
+          "helpDetail": "Ash scratches corneas. Contacts trap ash against eye.",
+          "illustrationDescription": "Goggles on."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Seal shelter. Tape doors/windows. Damp towels under doors.",
+          "helpDetail": "Ash is heavy and fine. It enters everywhere. Don't run AC/fans.",
+          "illustrationDescription": "Sealing door gaps."
+        }
+      ]
+    },
+    {
+      "id": "env-volcanic-eruption",
+      "name": "Lava & Pyroclastic Flow",
+      "subtitle": "Evacuation from eruption zone",
+      "category": "Disaster",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Evacuate laterally (perpendicular) to lava flow.",
+          "helpDetail": "Lava follows gravity (valleys). Move to ridges/high ground. Don't try to outrun pyroclastic flow (travels 100mph+).",
+          "illustrationDescription": "Moving to high ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Avoid low-lying areas (valleys, riverbeds).",
+          "helpDetail": "Lahars (mudflows) and lava channel into low spots. Stay high.",
+          "illustrationDescription": "Avoiding valley."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Protect against heat radiation. Cover exposed skin.",
+          "helpDetail": "Radiant heat can burn from distance. Thick clothing (cotton/wool) protects against heat pulse.",
+          "illustrationDescription": "Covering skin."
+        }
+      ]
+    },
+    {
+      "id": "env-tsunami",
+      "name": "Tsunami Survival",
+      "subtitle": "Survive the wave train",
+      "category": "Disaster",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "If you feel a quake or see water recede: RUN TO HIGH GROUND.",
+          "helpDetail": "Don't wait for sirens. Water sucking out to sea = wave incoming in minutes. Go 100ft high or 2 miles inland.",
+          "illustrationDescription": "Running uphill."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If caught: climb a strong concrete building or tree.",
+          "helpDetail": "Wood houses float/crush. Reinforced concrete stands. Climb to 3rd floor or roof.",
+          "illustrationDescription": "Climbing building."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Expect multiple waves. The first is rarely the largest.",
+          "helpDetail": "Waves arrive 10-60 mins apart. Stay high for HOURS. Water withdraws violently between waves.",
+          "illustrationDescription": "Staying on roof."
+        }
+      ]
+    },
+    {
+      "id": "env-extreme-heat",
+      "name": "Extreme Heat Management",
+      "subtitle": "Prevent heat stroke in emergencies",
+      "category": "Environmental",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stop all activity. Find or build shade.",
+          "helpDetail": "Direct sun adds 15-20°F to heat load. Dig to cooler soil if necessary.",
+          "illustrationDescription": "Resting in shade."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wet skin/clothes if water available (not drinking water).",
+          "helpDetail": "Evaporation cools. Use urine/bad water on clothes (not skin if broken) to cool via evaporation.",
+          "illustrationDescription": "Wetting shirt."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Elevate feet. Loosen clothing. Fan yourself.",
+          "helpDetail": "Promotes circulation. Heat exhaustion leads to stroke quickly. Monitor urine color (dark = danger).",
+          "illustrationDescription": "Elevating feet."
+        }
+      ]
+    },
+    {
+      "id": "env-rip-current",
+      "name": "Escaping Rip Current",
+      "subtitle": "Swim out of ocean currents",
+      "category": "Water",
+      "difficulty": 2,
+      "estimatedTime": "Minutes",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT swim against the current (toward shore). You will tire and drown.",
+          "helpDetail": "Rips move 5-8 mph. Olympic swimmers can't beat them. conserve energy.",
+          "illustrationDescription": "Floating in current."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Swim parallel to shore (sideways) until out of the pull.",
+          "helpDetail": "Rips are narrow (20-100 ft). Swim sideways to escape the fast water channel.",
+          "illustrationDescription": "Swimming parallel."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "When current releases you, swim diagonally to shore.",
+          "helpDetail": "Waves help push you in. If tired, float to recover.",
+          "illustrationDescription": "Swimming to shore."
+        }
+      ]
+    },
+    {
+      "id": "env-ice-fall-through",
+      "name": "Self-Rescue from Ice",
+      "subtitle": "Escape after falling through ice",
+      "category": "Winter",
+      "difficulty": 3,
+      "estimatedTime": "Minutes",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Control breathing. Don't panic (Cold Shock Response).",
+          "helpDetail": "You have 1 minute to control breathing, 10 minutes of movement before muscles fail. Use 1 minute to calm down.",
+          "illustrationDescription": "Head above water."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Kick feet up to float horizontal. Don't climb vertical.",
+          "helpDetail": "Horizontal position distributes weight. Kick hard to push chest onto ice edge.",
+          "illustrationDescription": "Horizontal kicking."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pull with elbows/picks, kick like a seal. Roll away.",
+          "helpDetail": "Once on ice, ROLL away. Do not stand up until on thick ice/land.",
+          "illustrationDescription": "Rolling on ice."
+        }
+      ]
+    },
+    {
+      "id": "env-bear-black",
+      "name": "Black Bear Encounter",
+      "subtitle": "Dealing with black bears",
+      "category": "Animal",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stand your ground. Make noise. Look big.",
+          "helpDetail": "Black bears are timid. Wave arms. Yell 'Hey Bear'. Do NOT run.",
+          "illustrationDescription": "Waving arms."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If it charges: stand ground (bluff charge).",
+          "helpDetail": "They often stop feet away. Spray bear spray if within 30 ft.",
+          "illustrationDescription": "Holding bear spray."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If it attacks: FIGHT BACK vigorously.",
+          "helpDetail": "Punch eyes/nose. Use rocks/sticks. Do NOT play dead with black bears.",
+          "illustrationDescription": "Fighting back."
+        }
+      ]
+    },
+    {
+      "id": "env-bear-grizzly",
+      "name": "Grizzly/Brown Bear Encounter",
+      "subtitle": "Dealing with brown bears",
+      "category": "Animal",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT run. Back away slowly. Speak calmly.",
+          "helpDetail": "Don't look in eyes (aggression). Show you are human, not prey. Prepare spray.",
+          "illustrationDescription": "Backing away."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If it charges: STAND GROUND. Deploy spray.",
+          "helpDetail": "Running triggers predatory chase response. You cannot outrun a bear (35mph).",
+          "illustrationDescription": "Using spray."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If it makes contact: PLAY DEAD.",
+          "helpDetail": "Drop to stomach. Hands clasped behind neck. Spread legs (harder to flip). Stay still until bear leaves (20+ mins).",
+          "illustrationDescription": "Playing dead."
+        }
+      ]
+    },
+    {
+      "id": "env-bear-polar",
+      "name": "Polar Bear Encounter",
+      "subtitle": "The only predator that actively hunts humans",
+      "category": "Animal",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Deter immediately. Flare, warning shot, noise.",
+          "helpDetail": "Polar bears are curious/predatory. They don't bluff. If it comes toward you, it intends to eat you.",
+          "illustrationDescription": "Firing flare."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Fight for your life. Use any weapon.",
+          "helpDetail": "Playing dead DOES NOT WORK \u2014 they will eat you. Lethal force is usually required.",
+          "illustrationDescription": "Defending aggressively."
+        }
+      ]
+    },
+    {
+      "id": "env-cougar",
+      "name": "Cougar/Mountain Lion",
+      "subtitle": "Stalking predator defense",
+      "category": "Animal",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Maintain eye contact. Do NOT turn back. Do NOT run.",
+          "helpDetail": "Cougars attack from behind/ambush. Stare them down.",
+          "illustrationDescription": "Staring down cougar."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Look big. Raise jacket/arms. Pick up children.",
+          "helpDetail": "Convince cat you are a threat, not prey. Yell loudly.",
+          "illustrationDescription": "Looking big."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If attacked: Fight back. Protect neck.",
+          "helpDetail": "Use rocks, sticks, fists. Gouge eyes. They give up if prey fights too hard.",
+          "illustrationDescription": "Fighting back."
+        }
+      ]
+    },
+    {
+      "id": "env-wolf",
+      "name": "Wolf Pack Encounter",
+      "subtitle": "Pack animal defense",
+      "category": "Animal",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stand ground. Do not run. Stare them down.",
+          "helpDetail": "Running triggers chase. Wolves test prey. Show aggression.",
+          "illustrationDescription": "Standing ground."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Back away slowly while facing them. Keep group together.",
+          "helpDetail": "Defend the rear. Don't let them circle you.",
+          "illustrationDescription": "Backing away."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use fire, smoke, or rocks to deter.",
+          "helpDetail": "Wolves fear fire. Throw rocks aggressively.",
+          "illustrationDescription": "Throwing rocks."
+        }
+      ]
+    },
+    {
+      "id": "env-moose-elk",
+      "name": "Moose/Elk Encounter",
+      "subtitle": "Large herbivore defense",
+      "category": "Animal",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Watch ears/hair. Ears back + hair up = charge.",
+          "helpDetail": "Moose attack more people than bears. Give wide berth.",
+          "illustrationDescription": "Alert signs."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "If charged: RUN. Get behind a tree.",
+          "helpDetail": "Unlike bears/cats, you CAN run from moose/elk (sort of). Put large tree between you.",
+          "illustrationDescription": "Hiding behind tree."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If knocked down: curl in ball. Protect head.",
+          "helpDetail": "They stomp. Stay ball until they leave.",
+          "illustrationDescription": "Curled in ball."
+        }
+      ]
+    },
+    {
+      "id": "env-alligator",
+      "name": "Alligator/Croc Evasion",
+      "subtitle": "Reptilian predator defense",
+      "category": "Animal",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stay 15ft from water edge. Don't wash/drink at same spot.",
+          "helpDetail": "They ambush from water edge. They are fast for 20 feet.",
+          "illustrationDescription": "Staying back."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Run in straight line away. Do NOT zigzag.",
+          "helpDetail": "Zigzag slows you down. Gators run straight. Outrun their sprint zone (30ft).",
+          "illustrationDescription": "Running straight."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If bitten: attack eyes and snout. Don't pull.",
+          "helpDetail": "Teeth curve back \u2014 pulling rips flesh. Poking eyes triggers release.",
+          "illustrationDescription": "Attacking eyes."
+        }
+      ]
+    },
+    {
+      "id": "env-tick-removal",
+      "name": "Tick Removal",
+      "subtitle": "Safe removal to prevent disease",
+      "category": "First Aid",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Grasp tick close to skin with tweezers.",
+          "helpDetail": "Don't squeeze body (injects pathogens). Grab head.",
+          "illustrationDescription": "Tweezers at skin."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pull upward with steady pressure. Don't twist.",
+          "helpDetail": "Twisting leaves mouthparts in skin. Pull straight.",
+          "illustrationDescription": "Pulling straight up."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Clean area. Save tick if possible for ID.",
+          "helpDetail": "Wash with soap/water. Watch for bulls-eye rash (Lyme).",
+          "illustrationDescription": "Cleaning bite."
+        }
+      ]
+    },
+    {
+      "id": "env-shark",
+      "name": "Shark Encounter",
+      "subtitle": "Defense in water",
+      "category": "Animal",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Maintain eye contact. Rotate as it circles.",
+          "helpDetail": "Sharks ambush. Knowing it's seen deters attack.",
+          "illustrationDescription": "Watching shark."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Slow, rhythmic movements. Do not splash.",
+          "helpDetail": "Splashing = injured prey. Back away slowly to boat/shore.",
+          "illustrationDescription": "Smooth swimming."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If attacked: hit nose, eyes, gills.",
+          "helpDetail": "Sensitive areas. Use camera, rock, or fist. Be aggressive.",
+          "illustrationDescription": "Striking gills."
+        }
+      ]
+    },
+    {
+      "id": "env-jellyfish",
+      "name": "Jellyfish Sting Treatment",
+      "subtitle": "Neutralize venom",
+      "category": "First Aid",
+      "difficulty": 1,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Rinse with VINEGAR (or sea water). NOT fresh water.",
+          "helpDetail": "Fresh water triggers unfired nematocysts (stingers). Vinegar neutralizes them. Urine is a myth (often ineffective).",
+          "illustrationDescription": "Rinsing with vinegar."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Remove tentacles with tweezers/stick. Don't rub.",
+          "helpDetail": "Rubbing spreads toxin. Pluck carefully.",
+          "illustrationDescription": "Plucking tentacles."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hot water soak (110°F) for pain.",
+          "helpDetail": "Heat breaks down protein venom. 20-45 minutes.",
+          "illustrationDescription": "Hot soak."
+        }
+      ]
     }
   ],
   "articles": [
@@ -891,6 +2025,76 @@
       "body": "Floods are the #1 natural disaster killer worldwide. Most flood deaths are from vehicles driving into floodwater.\n\nCritical rules:\n- Turn around, don't drown: NEVER drive through flooded roads\n- 6 inches of water knocks you down\n- 12 inches of water carries away a car\n- 2 feet of water carries away an SUV/truck\n\nFlash flood indicators:\n- Heavy rain upstream (you may not see it locally)\n- Rising water in streams/creeks\n- Roaring sound from upstream\n- Muddy water where it was clear\n- Debris floating downstream\n\nIf trapped by rising water:\n- Go to the highest accessible point\n- Signal with lights, bright clothing, mirrors\n- Do NOT enter floodwater to swim\n- If swept away: float on back, feet downstream\n- Grab any stable object and climb above water\n\nAfter flood:\n- Never drink floodwater (sewage, chemicals, debris)\n- Avoid walking through standing water (contamination, hidden holes, downed power lines)\n- Check structural integrity before entering buildings",
       "relatedTechniqueIDs": [
         "env-flood-survival"
+      ]
+    },
+    {
+      "id": "env-article-multihazard",
+      "title": "Multi-Hazard Emergency Planning",
+      "body": "Most people prepare for one type of disaster and ignore everything else. True preparedness is hazard-agnostic.\n\nUniversal survival priorities (regardless of disaster type):\n1. Immediate safety (get out of danger)\n2. Medical care (treat injuries)\n3. Shelter (protection from elements)\n4. Water (within 3 days)\n5. Communication (contact help)\n6. Food (within 3 weeks)\n\nCommon across ALL disasters:\n- Communication systems fail first (cell towers)\n- Supply chains break within 72 hours\n- Emergency services are overwhelmed\n- Panic causes more casualties than the event itself\n- Those who plan survive; those who don't become victims\n\nThe 72-hour rule:\n- After ANY disaster, assume no help for 72 hours minimum\n- Self-sufficiency for 3 days is the baseline\n- Urban areas may take longer due to population density\n- Rural areas may take longer due to access difficulty\n\nEvery household should have: water (1 gallon per person per day), food (non-perishable), prescriptions (30-day supply), cash, documents (in waterproof bag), first aid, flashlight, and radio.",
+      "relatedTechniqueIDs": [
+        "env-earthquake-indoor",
+        "env-tornado-shelter",
+        "env-flash-flood-response"
+      ]
+    },
+    {
+      "id": "env-article-climate",
+      "title": "Climate Adaptation in Survival",
+      "body": "Your body adapts to climate, but it takes time. Understanding acclimatization saves lives.\n\nHeat acclimatization:\n- Takes 7-14 days of gradual exposure\n- Sweat production increases and becomes more dilute\n- Heart rate decreases for same work level\n- Core temperature rise is smaller\n- Risk: pushing hard before acclimatization causes heat stroke\n\nCold acclimatization:\n- Takes 2-4 weeks\n- Blood flow to extremities improves (reduced vasoconstriction)\n- Shivering threshold decreases\n- Non-shivering thermogenesis (brown fat activation) increases\n- Caloric needs increase 20-50%\n\nAltitude acclimatization:\n- Takes 3-5 days per 3,000 feet above 8,000 feet\n- Red blood cell production increases\n- Ventilation rate increases\n- Risk: ascending too fast causes AMS, HACE, or HAPE\n- The climb high, sleep low rule: ascend during the day, descend to sleep\n\nCritical principle: you cannot rush acclimatization. It is a physiological process, not a mental one. Willpower does not accelerate it.",
+      "relatedTechniqueIDs": [
+        "env-desert-travel",
+        "env-arctic-travel"
+      ]
+    },
+    {
+      "id": "env-article-urban-disaster",
+      "title": "Urban Disaster Navigation",
+      "body": "Cities present unique challenges in disasters: collapsed structures, broken utilities, panicked crowds, and limited escape routes.\n\nUrban-specific hazards:\n- Falling glass from high-rises (up to 2 blocks away)\n- Gas leaks from broken mains (explosion risk)\n- Flooding from broken water mains\n- Electrical hazards from downed wires\n- Structural collapse (aftershocks, fire, water damage)\n- Civil unrest (desperation sets in after 72 hours)\n\nNavigation in damaged cities:\n- Know your neighborhood's street grid before disaster\n- Identify 3 evacuation routes from your home\n- Avoid highway overpasses (collapse risk)\n- Move perpendicular to windward side of fires\n- Follow rivers downstream toward larger settlements\n\nUrban resources often overlooked:\n- Fire stations have tools, water, and communication\n- Schools often serve as shelters\n- Hospitals have backup power and supplies\n- Hardware stores have survival-critical materials\n- Parking garages provide structural shelter\n\nThe golden rule of urban disaster: get out early or shelter in place. The worst position is trying to evacuate when everyone else is.",
+      "relatedTechniqueIDs": [
+        "env-earthquake-indoor",
+        "env-wildfire-evac"
+      ]
+    },
+    {
+      "id": "env-article-altitude",
+      "title": "Altitude Sickness: From Mild to Fatal",
+      "body": "Altitude sickness is progressive and predictable. Understanding the stages can save your life.\n\nStage 1 — Acute Mountain Sickness (AMS): 8,000-12,000 feet\n- Headache (primary symptom)\n- Nausea, loss of appetite\n- Fatigue, weakness\n- Dizziness\n- Difficulty sleeping\nTreatment: rest at same altitude, hydrate, ibuprofen. Resolves in 24-48 hours if you don't ascend.\n\nStage 2 — HACE (High Altitude Cerebral Edema): 12,000+ feet\n- Severe headache unresponsive to medication\n- Confusion, disorientation\n- Loss of coordination (ataxia)\n- Irrational behavior\n- Hallucinations\nTreatment: IMMEDIATE descent. This is a medical emergency. Fatal within 24 hours without descent.\n\nStage 3 — HAPE (High Altitude Pulmonary Edema): 8,000+ feet\n- Persistent dry cough, then wet cough\n- Breathlessness at rest\n- Gurgling sounds when breathing\n- Blue/gray lips and fingernails\n- Pink, frothy sputum\nTreatment: IMMEDIATE descent + supplemental oxygen. Fatal within hours if untreated.\n\nPrevention: ascend slowly, hydrate, descend at first sign of worsening symptoms.",
+      "relatedTechniqueIDs": [
+        "env-altitude-sickness"
+      ]
+    },
+    {
+      "id": "env-article-jungle-medicine",
+      "title": "Jungle Survival Medicine",
+      "body": "The tropical jungle is the most medically hostile environment for survival.\n\nTop jungle medical threats:\n1. Dehydration/heat stroke (primary killer)\n2. Infected wounds (tropical ulcers form in 24 hours)\n3. Mosquito-borne disease (malaria, dengue)\n4. Waterborne parasites (giardia, amoeba)\n5. Venomous bites (snakes, spiders, scorpions)\n\nWound care in the jungle:\n- ANY wound, no matter how small, must be cleaned immediately\n- Wash with boiled water and natural antiseptics (tree tea oil plants, honey)\n- Keep wounds open and draining — closing wounds in tropical conditions traps bacteria\n- Change dressings twice daily, inspect for redness spreading, pus, or odor\n- Tropical ulcers can become systemic infections within 48 hours\n\nNatural jungle remedies:\n- Aloe-type plants: apply gel to burns and wounds\n- Honey: natural antibacterial (if available from wild bees)\n- Charcoal: crushed and mixed with water for poison ingestion\n- Citrus: natural vitamin C prevents scurvy on extended survival\n- Turmeric root: anti-inflammatory, apply paste to wounds\n\nWater discipline: in jungle, you need 1-2 liters per HOUR of movement. Plan routes around water sources.",
+      "relatedTechniqueIDs": [
+        "env-jungle-movement",
+        "env-tropical-disease"
+      ]
+    },
+    {
+      "id": "env-article-flash-flood-science",
+      "title": "Flash Flood: Understanding the Deadliest Weather Killer",
+      "body": "Flash floods kill more people annually than any other weather event. Understanding them is critical.\n\nWhat makes flash floods deadly:\n- Speed: water can rise 10+ feet in minutes\n- Force: 6 inches of moving water knocks down an adult\n- Invisibility: caused by rain miles away that you can't see\n- Terrain multiplier: narrow canyons funnel and amplify water\n\nWhere flash floods occur:\n- Slot canyons (most dangerous — vertical walls, no escape)\n- Dry riverbeds (arroyos, wadis) in desert and arid regions\n- Mountain stream valleys after heavy upstream rain\n- Urban areas with poor drainage\n- Below dam spillways\n\nWarning signs:\n1. Rumbling sound upstream (like a freight train)\n2. Sudden increase in water turbidity (muddy water)\n3. Floating debris in rising water\n4. Dark clouds or heavy rain visible upstream\n5. Rapid water level change in streams\n\nSurvival rules:\n- Never camp below the high-water mark (look for debris lines on canyon walls)\n- Never cross flooded roadways (2 feet of water floats most vehicles)\n- Always have an uphill escape route planned\n- In slot canyons, check weather forecasts for the entire watershed, not just your location\n- If caught: climb, don't run. Vertical is safer than horizontal.",
+      "relatedTechniqueIDs": [
+        "env-flash-flood"
+      ]
+    },
+    {
+      "id": "env-article-cave-guide",
+      "title": "Cave Use in Survival: Complete Guide",
+      "body": "Caves provide excellent shelter but come with unique hazards.\n\nCave advantages:\n- Constant temperature (typically 50-60°F year-round in temperate zones)\n- Wind protection\n- Rain/snow protection\n- Concealment\n- Stone reflects fire heat\n\nCave hazards:\n- Bad air: CO2 accumulates, oxygen depletes. Test with flame.\n- Falls: cave floors are uneven, wet, and slippery\n- Flooding: many caves flood during rain. Look for water marks on walls.\n- Animal inhabitants: bats, snakes, spiders, bears\n- Collapse: loose rock, especially near entrances\n- Disorientation: beyond visual range of entrance, navigation is impossible without light\n\nSafe cave use rules:\n1. STAY near the entrance. Never explore deeper than you can see daylight.\n2. Fire at the entrance, sleep between fire and back wall.\n3. Check ceiling for loose rock before setting up camp.\n4. Ensure drainage — even light rain can flood a cavity.\n5. Mark the entrance from outside (pile of rocks) so you can find it again.\n6. Never enter narrow passages — getting stuck is a fatal scenario.\n\nCave temperature is your friend: cool in summer, warm (relatively) in winter. This constant temperature reduces exposure risk significantly.",
+      "relatedTechniqueIDs": [
+        "env-cave-survival"
+      ]
+    },
+    {
+      "id": "env-article-wildfire-behavior",
+      "title": "Understanding Wildfire Behavior",
+      "body": "Knowing how wildfire moves can save your life. Fire is predictable once you understand its physics.\n\nThe fire triangle: Heat + Fuel + Oxygen. Remove any one element and fire stops.\n\nHow fire spreads:\n- Uphill: fire preheats fuel above it via convection. Fire travels uphill 4x faster than on flat ground.\n- With wind: wind pushes flame into unburned fuel. A 20mph wind can drive fire at 6+ mph.\n- Into dry fuel: dry grass, brush, and pine needles ignite fastest.\n- Through spotting: embers carried by wind start new fires ahead of the main front.\n\nDangerous terrain features:\n- Narrow canyons (chimney effect — fire accelerates dramatically)\n- Saddles between hills (wind funnels accelerate fire)\n- South-facing slopes (dryer fuel, more sun exposure)\n- Steep slopes (most dangerous — fire races uphill)\n\nSafe zones:\n- Already-burned areas (black)\n- Rock fields and gravel\n- Wide roads and clearings\n- Large water bodies\n- Irrigated farmland\n\nFire behavior changes rapidly with wind shifts. The most dangerous moment is when wind shifts — what was the flank becomes the front, and escape routes become traps.\n\nRule of thumb: if you can't outrun the fire in 5 minutes, find a safety zone instead of running.",
+      "relatedTechniqueIDs": [
+        "env-wildfire-survival",
+        "env-wildfire-evac"
       ]
     }
   ]

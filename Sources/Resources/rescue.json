@@ -364,7 +364,7 @@
       "difficulty": 2,
       "estimatedTime": "5 min",
       "hasHapticGuide": true,
-      "hapticType": "rhythmPacer",
+      "hapticType": "fireTempo",
       "steps": [
         {
           "stepNumber": 1,
@@ -529,6 +529,708 @@
           "illustrationDescription": "Puff signal."
         }
       ]
+    },
+    {
+      "id": "rescue-plb",
+      "name": "Personal Locator Beacon (PLB)",
+      "subtitle": "One button sends your GPS to rescue coordination",
+      "category": "Technology",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Deploy the antenna fully and activate the beacon.",
+          "helpDetail": "Most PLBs have a spring-loaded antenna and a protected activation button. Remove the cover, extend antenna, press and hold for 1 second.",
+          "illustrationDescription": "PLB activation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place beacon with clear sky view — no canopy, no overhangs.",
+          "helpDetail": "PLBs transmit on 406 MHz to COSPAS-SARSAT satellites. Signal needs unobstructed path to sky. Even partial canopy degrades signal.",
+          "illustrationDescription": "Clear sky placement."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Leave activated for minimum 24 hours. Do not turn off and on.",
+          "helpDetail": "Multiple satellite passes improve position accuracy from 5km to 100m. Intermittent activation confuses the system.",
+          "illustrationDescription": "Continuous activation."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stay near the beacon. Rescuers will come to the signal location.",
+          "helpDetail": "If you move, carry the beacon. Response times: 1-4 hours in populated areas, 8-24 hours in remote wilderness.",
+          "illustrationDescription": "Staying with beacon."
+        }
+      ]
+    },
+    {
+      "id": "rescue-vhf-radio",
+      "name": "VHF Radio Distress Call",
+      "subtitle": "Channel 16: international distress frequency",
+      "category": "Technology",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Tune to Channel 16 (156.800 MHz) — monitored by Coast Guard worldwide.",
+          "helpDetail": "Channel 16 is the international calling and distress frequency. All marine vessels and coast guard stations monitor it 24/7.",
+          "illustrationDescription": "Channel 16 selection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Press transmit and say: MAYDAY MAYDAY MAYDAY, this is [your name/vessel].",
+          "helpDetail": "MAYDAY = life-threatening emergency. PAN-PAN = urgent but not life-threatening. SECURITE = safety information. Use MAYDAY for survival situations.",
+          "illustrationDescription": "MAYDAY call."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "State: position, nature of emergency, number of people, assistance needed.",
+          "helpDetail": "Example: 'Position 37.7749 north, 122.4194 west. Party of 3, one injured. Need helicopter evacuation. Over.'",
+          "illustrationDescription": "Distress details."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Release transmit button and listen for response. Repeat every 2 minutes.",
+          "helpDetail": "VHF range is line-of-sight: 5-25 miles depending on terrain and antenna height. Move to high ground to extend range.",
+          "illustrationDescription": "Listening for response."
+        }
+      ]
+    },
+    {
+      "id": "rescue-night-signaling",
+      "name": "Night Signaling Techniques",
+      "subtitle": "Be visible when darkness hides everything",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Maintain a bright fire on the highest accessible point.",
+          "helpDetail": "A hilltop fire is visible for 20+ miles on a clear night. Use dry hardwood for sustained bright flames, not smoldering coals.",
+          "illustrationDescription": "Hilltop fire."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use flashlight or phone flash in SOS pattern.",
+          "helpDetail": "Three short flashes, three long flashes, three short flashes. Repeat. Even a dim light is visible for miles at night.",
+          "illustrationDescription": "Flashlight SOS."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create a torch from resinous wood or cloth soaked in fat.",
+          "helpDetail": "Birch bark, pine fatwood, or any cloth with animal fat/oil burns brightly. Wave the torch in a figure-8 pattern for attention.",
+          "illustrationDescription": "Improvised torch."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Use reflective material to catch any light source.",
+          "helpDetail": "Emergency blankets, foil, even wet metal surfaces reflect moonlight and starlight. Hang them at angles facing likely rescue directions.",
+          "illustrationDescription": "Reflective surfaces."
+        }
+      ]
+    },
+    {
+      "id": "rescue-vehicle-signal",
+      "name": "Vehicle-Based Signaling",
+      "subtitle": "Turn your vehicle into a rescue beacon",
+      "category": "Technology",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stay with the vehicle — it is more visible than you are.",
+          "helpDetail": "A car is visible from aircraft. A person in the wilderness is nearly invisible. Your vehicle is your best signal, shelter, and resource.",
+          "illustrationDescription": "Staying with vehicle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Open hood and trunk — this signals distress to aircraft.",
+          "helpDetail": "An open hood is a recognized distress signal. Tie bright fabric to the antenna or mirror. Arrange floor mats on the roof as signals.",
+          "illustrationDescription": "Open hood signal."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use mirrors, headlights, horn for active signaling.",
+          "helpDetail": "Side mirrors angle sunlight. Headlights flash at night. Horn blasts carry far. Conserve battery — use in bursts when rescue is likely.",
+          "illustrationDescription": "Active vehicle signals."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Burn oil or tires for thick black smoke (extreme emergency only).",
+          "helpDetail": "Drain oil onto dirt, ignite with battery spark. Black smoke is visible for miles against any sky. Use only when rescue is imminent.",
+          "illustrationDescription": "Smoke from vehicle."
+        }
+      ]
+    },
+    {
+      "id": "rescue-flag-signals",
+      "name": "Improvised Flag Signaling",
+      "subtitle": "Attract attention with movement and color",
+      "category": "Signal",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Tie the brightest fabric you have to a long pole or branch.",
+          "helpDetail": "Orange, red, or yellow are most visible against natural backgrounds. Even a white undershirt works against dark terrain.",
+          "illustrationDescription": "Flag construction."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wave in large, slow arcs — both arms overhead means 'need help.'",
+          "helpDetail": "Both arms raised and waving is the international ground-to-air distress gesture. One arm raised means 'all okay.'",
+          "illustrationDescription": "Distress waving."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Plant the flag on the highest visible point when not actively waving.",
+          "helpDetail": "Wind keeps it moving, which catches attention. Moving objects are detected 10x faster than static ones by human vision.",
+          "illustrationDescription": "Planted flag."
+        }
+      ]
+    },
+    {
+      "id": "rescue-drone-awareness",
+      "name": "Drone Search Awareness",
+      "subtitle": "Modern SAR uses drones — know how to be found",
+      "category": "Technology",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Maximize thermal contrast — drones often use infrared cameras.",
+          "helpDetail": "Your body heat stands out against cold ground. Clear surroundings of insulating debris. Lie in an open area if you hear a drone.",
+          "illustrationDescription": "Thermal visibility."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create large, clear ground signals visible from directly above.",
+          "helpDetail": "Drones fly lower than aircraft but look straight down. Make signals at least 6 feet in any dimension with maximum color contrast.",
+          "illustrationDescription": "Ground signals for drones."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wave reflective materials — drones detect moving objects and reflections.",
+          "helpDetail": "Emergency blankets, phone screens, anything shiny. Movement triggers drone operator attention faster than static signals.",
+          "illustrationDescription": "Reflective signaling."
+        }
+      ]
+    },
+    {
+      "id": "rescue-satellite-messenger",
+      "name": "Satellite Messenger Usage",
+      "subtitle": "Two-way emergency communication anywhere on Earth",
+      "category": "Technology",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Activate SOS function — press and hold the dedicated SOS button.",
+          "helpDetail": "Garmin inReach, SPOT, Zoleo all have dedicated SOS buttons. This connects to GEOS International Emergency Response Center.",
+          "illustrationDescription": "SOS button."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Send a preset message with your GPS coordinates.",
+          "helpDetail": "Pre-configure emergency contacts and messages before your trip. Include medical conditions, group size, and planned route.",
+          "illustrationDescription": "Preset message."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use two-way messaging to communicate situation details.",
+          "helpDetail": "Unlike PLBs, satellite messengers allow back-and-forth communication. You can describe injuries, conditions, and accessibility for rescue teams.",
+          "illustrationDescription": "Two-way communication."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Conserve battery — turn off tracking, reduce message frequency.",
+          "helpDetail": "Most satellite messengers last 24-100 hours. Turn off interval tracking. Send messages only when needed. Keep warm to preserve battery.",
+          "illustrationDescription": "Battery conservation."
+        }
+      ]
+    },
+    {
+      "id": "rescue-throw-bag",
+      "name": "Throw Bag River Rescue",
+      "subtitle": "Reach a person in moving water",
+      "category": "Self-Rescue",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Position yourself downstream of the person in the water.",
+          "helpDetail": "The person is being carried toward you. Position yourself on a stable bank where you can brace yourself.",
+          "illustrationDescription": "Downstream position."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Throw the bag PAST the person — the rope falls across them.",
+          "helpDetail": "Aim downstream of the person. Underhanded throw. The bag trails the rope which the person grabs.",
+          "illustrationDescription": "Throw past the person."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Brace against a solid object — tree, rock, or sitting position.",
+          "helpDetail": "The force of a person in current is enormous. Without bracing, you will be pulled in. Wrap rope around your hips, not your hands.",
+          "illustrationDescription": "Bracing position."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Let the current swing them to shore — do NOT try to pull upstream.",
+          "helpDetail": "Hold the rope and let the current pendulum the person toward your bank. Fighting the current is impossible.",
+          "illustrationDescription": "Pendulum to shore."
+        }
+      ]
+    },
+    {
+      "id": "rescue-cliff-signals",
+      "name": "Cliff and Canyon Signaling",
+      "subtitle": "Signal from terrain that blocks normal methods",
+      "category": "Signal",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Use sound amplification — canyon walls reflect and amplify whistles.",
+          "helpDetail": "A whistle in a canyon can be heard miles further than in open terrain. Sound bounces between walls creating natural amplification.",
+          "illustrationDescription": "Canyon acoustics."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create signals on the canyon rim if possible, not the floor.",
+          "helpDetail": "Canyon floors are invisible from the air and from distance. Any signal on the rim is worth 10 signals on the floor.",
+          "illustrationDescription": "Rim signaling."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use smoke — it rises out of canyons and is visible from above.",
+          "helpDetail": "Smoke is the one signal type that works from canyon bottoms. Hot air rises, carrying smoke up and out of the canyon.",
+          "illustrationDescription": "Smoke rising from canyon."
+        }
+      ]
+    },
+    {
+      "id": "rescue-improvised-flotation",
+      "name": "Improvised Flotation Device",
+      "subtitle": "Stay afloat with what you have",
+      "category": "Self-Rescue",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Pants flotation: tie off leg openings, inflate by scooping air.",
+          "helpDetail": "Remove pants, tie each leg end in a knot, hold waist open and scoop over your head to trap air. Provides 15-20 minutes of buoyancy.",
+          "illustrationDescription": "Pants inflation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use any sealed container — water bottles, dry bags, sealed coolers.",
+          "helpDetail": "Two empty 2-liter bottles can support an adult's head above water. Stuff clothing into a garbage bag for a makeshift float.",
+          "illustrationDescription": "Container flotation."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Logs, branches, and debris make effective rafts with cordage.",
+          "helpDetail": "Even a single thick log supports significant weight. Green wood floats well. Lash with rope, belts, vines, or torn fabric strips.",
+          "illustrationDescription": "Improvised raft."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Survival float: face down, lift head only to breathe.",
+          "helpDetail": "Also called 'dead man's float.' Arms and legs hang relaxed. Lift face to inhale, then relax. Uses almost zero energy. Can sustain for hours.",
+          "illustrationDescription": "Survival float."
+        }
+      ]
+    },
+    {
+      "id": "rescue-signal-panel",
+      "name": "Ground-to-Air Signal Panel",
+      "subtitle": "Create large visual signals visible from aircraft",
+      "category": "Visual Signaling",
+      "difficulty": 1,
+      "estimatedTime": "30-60 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create a large V (need help), X (need medical), or arrow (traveling this direction).",
+          "helpDetail": "International ground-to-air signals: V = need assistance, X = need medical help, arrow = traveling this direction, I = need supplies, F = need food/water, Y = yes, N = no.",
+          "illustrationDescription": "Signal symbols."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Make signals at least 10 feet long using contrasting materials.",
+          "helpDetail": "Use branches, rocks, clothing, or dig trenches in soil. CONTRAST is key: dark materials on light ground, light materials on dark ground. Shadows from trenches or piled rocks are visible from high altitude.",
+          "illustrationDescription": "Building signal."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place in open areas — meadows, beaches, ridgetops. Away from tree canopy.",
+          "helpDetail": "Aircraft cannot see through tree canopy. Place signals in the largest open area available. Multiple signals increase detection probability. Maintain signals daily — wind and weather degrade them.",
+          "illustrationDescription": "Placement."
+        }
+      ]
+    },
+    {
+      "id": "rescue-whistle-patterns",
+      "name": "Survival Whistle Signaling",
+      "subtitle": "Use standardized whistle patterns for rescue communication",
+      "category": "Audio Signaling",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Three blasts = universal distress signal. Pause. Repeat.",
+          "helpDetail": "Three of anything is the international distress signal: 3 whistle blasts, 3 fires, 3 gunshots. Blow three sharp blasts, pause 1 minute, repeat. A whistle carries 1-2 miles — much farther than shouting.",
+          "illustrationDescription": "Three blasts."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Two blasts = 'come to me' or acknowledgment from rescuers.",
+          "helpDetail": "If you hear 2 blasts in response to your 3, rescuers have heard you and are coming. Continue blowing 3 blasts periodically so they can home in on your position.",
+          "illustrationDescription": "Response pattern."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "One long blast = 'attention' or 'where are you?'",
+          "helpDetail": "Used to get attention or locate group members. A whistle is the single most important signaling device to carry. It works when you're too exhausted to shout. It works in fog, darkness, and wind.",
+          "illustrationDescription": "Attention signal."
+        }
+      ]
+    },
+    {
+      "id": "rescue-throw-line",
+      "name": "Water Rescue Throw Line",
+      "subtitle": "Rescue someone from water without entering it yourself",
+      "category": "Water Rescue",
+      "difficulty": 1,
+      "estimatedTime": "1-2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Throw a rope, cord, or improvised line to the person in the water.",
+          "helpDetail": "Rule: REACH, THROW, ROW, GO (in that order of safety). Try to reach with a stick first. Then throw a line. Only enter water as absolute last resort — drowning victims pull rescuers under.",
+          "illustrationDescription": "Throw technique."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Attach a flotation device to the line if possible.",
+          "helpDetail": "Tie a water bottle, sealed container, or life jacket to the end. This gives them something to grab and provides buoyancy. Throw PAST the victim and pull line across them.",
+          "illustrationDescription": "Adding flotation."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Brace yourself firmly and pull them in slowly.",
+          "helpDetail": "Sit down, brace feet against rocks or trees. A panicking victim pulls with surprising force. Pull steadily — don't let them pull you in. Talk calmly and firmly: 'Hold on. I'm pulling you in.'",
+          "illustrationDescription": "Pulling in."
+        }
+      ]
+    },
+    {
+      "id": "rescue-vehicle-signal",
+      "name": "Vehicle Emergency Signaling",
+      "subtitle": "Use a disabled vehicle as a rescue beacon",
+      "category": "Visual Signaling",
+      "difficulty": 1,
+      "estimatedTime": "10-15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stay with the vehicle — it's much easier to spot than a person.",
+          "helpDetail": "A car is visible from aircraft at 10+ miles. A person on foot is visible from less than 1 mile. Your vehicle provides shelter, signaling tools, and materials. The #1 cause of vehicle-stranding deaths is leaving the vehicle.",
+          "illustrationDescription": "Stay with vehicle."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use mirrors, hood, CDs, or any reflective surface to signal aircraft.",
+          "helpDetail": "Side mirrors can be removed for hand-signaling. Open the hood — it's an unusual sight that attracts attention. Hang bright clothing on the antenna. Lay out floor mats in an X pattern nearby.",
+          "illustrationDescription": "Reflective signals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If safe, burn the spare tire for black smoke signal (extreme last resort).",
+          "helpDetail": "Tire fires produce thick black smoke visible for 20+ miles. Only burn if rescue is actively being sought and you need rapid attention. Keep fire away from the fuel tank. Flash headlights at night.",
+          "illustrationDescription": "Smoke signal."
+        }
+      ]
+    },
+    {
+      "id": "rescue-cold-water-self",
+      "name": "Cold Water Self-Rescue",
+      "subtitle": "Survive cold water immersion using the 1-10-1 principle",
+      "category": "Water Rescue",
+      "difficulty": 2,
+      "estimatedTime": "10+ min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "1 MINUTE: control your breathing. The cold shock response lasts ~1 minute.",
+          "helpDetail": "Cold water triggers gasping and hyperventilation. This is the most dangerous phase — most cold water drownings happen in the first minute. Focus ALL effort on controlled breathing. Don't try to swim yet.",
+          "illustrationDescription": "Cold shock phase."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "10 MINUTES: you have ~10 minutes of meaningful movement.",
+          "helpDetail": "Cold incapacitates muscles progressively. You have roughly 10 minutes to self-rescue before your arms and legs stop working. Swim to safety NOW if close. If not, prepare to float.",
+          "illustrationDescription": "Movement window."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "1 HOUR: hypothermia sets in after ~1 hour in cold water. Assume HELP position.",
+          "helpDetail": "HELP position: Heat Escape Lessening Position. Cross arms over chest, pull knees to chest. This reduces heat loss from armpits and groin. Stay as still as possible — movement accelerates heat loss.",
+          "illustrationDescription": "HELP position."
+        }
+      ]
+    },
+    {
+      "id": "rescue-helicopter-approach",
+      "name": "Helicopter Rescue Procedures",
+      "subtitle": "Safely interact with rescue helicopters",
+      "category": "Aircraft Rescue",
+      "difficulty": 1,
+      "estimatedTime": "5-10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Clear a landing zone: 100x100 feet minimum, flat, no loose debris.",
+          "helpDetail": "Remove loose branches, clothing, tarps — rotor wash sends everything flying at high speed. Mark wind direction with smoke or a flag. Helicopter lands INTO the wind. Mark the zone with bright items at corners.",
+          "illustrationDescription": "Clearing LZ."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Signal the helicopter: both arms raised in a Y = need help. One arm up = all OK.",
+          "helpDetail": "Y (both arms raised) = Yes, I need help. One arm raised, one down = all OK / negative. Waving one arm side to side = distress. Do NOT wave both arms wildly — it can mean 'don't land.'",
+          "illustrationDescription": "Ground signals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Approach from the FRONT and DOWNHILL side. NEVER approach from behind (tail rotor).",
+          "helpDetail": "The tail rotor is nearly invisible and instantly lethal. Always approach where the pilot can see you. Stay low — rotor blades dip. On slopes, approach from the downhill side. Wait for crew signal before approaching.",
+          "illustrationDescription": "Safe approach."
+        }
+      ]
+    },
+    {
+      "id": "rescue-smoke-timing",
+      "name": "Smoke Signal Timing & Technique",
+      "subtitle": "Maximize smoke signal effectiveness for aerial detection",
+      "category": "Visual Signaling",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build three fires in a triangle — three smoke columns = distress signal.",
+          "helpDetail": "Space fires 100-200 feet apart in an equilateral triangle. Three columns of smoke is the international distress signal. One column of smoke looks like a campfire. Three is unmistakably a call for help.",
+          "illustrationDescription": "Triangle layout."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use green vegetation for white smoke on dark backgrounds, tires/oil for dark smoke on light backgrounds.",
+          "helpDetail": "Match smoke color to background for contrast. Against dark forest: white smoke (green branches, moss, wet leaves). Against light sky/snow: dark smoke (rubber, oil, plastic). Contrast = visibility.",
+          "illustrationDescription": "Smoke contrast."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Keep signal fires prepared but unlit. Light when you see or hear aircraft.",
+          "helpDetail": "Pre-build signal fires with tinder and kindling ready. Put a cover over them to keep dry. When you detect aircraft, light all three quickly. Keep green branches nearby to throw on for smoke.",
+          "illustrationDescription": "Fire readiness."
+        }
+      ]
+    },
+    {
+      "id": "rescue-signal-kite",
+      "name": "Signal Kite Construction",
+      "subtitle": "Build a kite to increase visual presence above tree canopy",
+      "category": "Visual Signaling",
+      "difficulty": 2,
+      "estimatedTime": "30-60 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build a diamond kite frame from two crossed sticks.",
+          "helpDetail": "Vertical stick: 36 inches. Horizontal stick: 24 inches. Cross them at 1/3 from the top of the vertical stick. Lash the intersection tightly. Notch the ends of each stick.",
+          "illustrationDescription": "Kite frame."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cover with plastic bag, poncho, or large leaves tied to the frame.",
+          "helpDetail": "String cord through the notches to create the outline. Stretch plastic or fabric over the frame and secure. Use the brightest colored material available. A tail of cloth strips helps stability.",
+          "illustrationDescription": "Covering kite."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Attach a long line and fly in open area. Tie bright streamers to the line.",
+          "helpDetail": "A kite flying 100+ feet above tree canopy is visible for miles. Attach reflective tape, bright fabric, or foil pieces to the line. Even in moderate wind, a properly built kite extends your visual signature dramatically.",
+          "illustrationDescription": "Flying kite."
+        }
+      ]
+    },
+    {
+      "id": "rescue-urban-marking",
+      "name": "Urban Search & Rescue Marking",
+      "subtitle": "Use FEMA X-marking to communicate with rescue teams",
+      "category": "Communication",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Draw a large X on the outside of the building entrance.",
+          "helpDetail": "This is the FEMA Disaster Marking System. The X divides into 4 quadrants. Use spray paint, chalk, or marker. Make it large enough to see from the street.",
+          "illustrationDescription": "Drawing X."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Fill quadrants: top = team ID, left = date/time, right = hazards, bottom = victims found.",
+          "helpDetail": "Top: your identifier. Left: date and time of search. Right: hazards present (rats, gas leak, structural damage). Bottom: number of live/dead victims (e.g., '2L/1D' = 2 living, 1 dead).",
+          "illustrationDescription": "Filling quadrants."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "A single slash means search in progress. Complete X means search finished.",
+          "helpDetail": "When you begin searching: draw one slash (\\). When complete: add the second slash to complete the X and fill in quadrants. This prevents duplicate searches and communicates status to other teams.",
+          "illustrationDescription": "Marking progression."
+        }
+      ]
+    },
+    {
+      "id": "rescue-river-self",
+      "name": "River Self-Rescue Position",
+      "subtitle": "Survive being swept away in river current",
+      "category": "Water Rescue",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Roll onto your BACK, feet pointed DOWNSTREAM.",
+          "helpDetail": "Your feet act as bumpers against rocks and obstacles. If you go headfirst, you risk fatal head and spinal injuries. Keep your feet up near the surface to avoid foot entrapment in rocks on the bottom.",
+          "illustrationDescription": "Defensive position."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use your arms to steer toward the bank. Angle ferry across the current.",
+          "helpDetail": "Don't fight the current directly — angle across it at 45 degrees toward shore. Use backstroke to create lateral movement. Current will carry you downstream while you gradually move toward the bank.",
+          "illustrationDescription": "Ferry angle."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If approaching a strainer (downed tree), flip to FRONT and swim hard toward it.",
+          "helpDetail": "Strainers (fallen trees, debris) are the #1 killer in rivers. They trap and drown. If you can't avoid one, face it head-on, swim aggressively, and try to climb OVER it. Never go under or sideways.",
+          "illustrationDescription": "Strainer approach."
+        }
+      ]
+    },
+    {
+      "id": "rescue-self-evacuation",
+      "name": "Self-Evacuation Decision Making",
+      "subtitle": "Decide when to stay put vs. self-rescue",
+      "category": "Strategy",
+      "difficulty": 2,
+      "estimatedTime": "15-30 min (decision)",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stay put IF: someone knows your location, you filed a trip plan, you're injured, or terrain is dangerous.",
+          "helpDetail": "Search and rescue finds stationary targets much faster than moving ones. If anyone knows where you are, staying put is almost always the better choice. You're easier to find, you conserve energy, and you reduce injury risk.",
+          "illustrationDescription": "Stay decision."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Self-evacuate IF: no one knows you're missing, you know your location, and you're uninjured.",
+          "helpDetail": "If nobody will report you missing, nobody will search for you. In this case, self-rescue is your only option. You must know approximately where you are and which direction leads to help.",
+          "illustrationDescription": "Go decision."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Leave clear signs at your camp indicating direction of travel.",
+          "helpDetail": "If you leave camp: leave a note (under a rock, protected from weather), build arrows pointing your direction, mark trees along your route. This lets rescuers follow you if a search begins after you leave.",
+          "illustrationDescription": "Leave markers."
+        }
+      ]
+    },
+    {
+      "id": "rescue-improvised-litter",
+      "name": "Improvised Litter Carry Techniques",
+      "subtitle": "Transport an injured person without commercial equipment",
+      "category": "Evacuation",
+      "difficulty": 2,
+      "estimatedTime": "15-30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build a pole litter: two poles + fabric/jacket threaded between them.",
+          "helpDetail": "Two sturdy poles 7-8 feet long. Thread jackets (zipped closed, arms inside) onto the poles. Or use a blanket/tarp folded around the poles. Test with your own weight before loading the patient.",
+          "illustrationDescription": "Pole litter."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "For one-person carry: use a backpack frame as a seat carry.",
+          "helpDetail": "Patient sits on a large backpack carried on your back. Their legs hang over your hips. Secure with straps. This works for conscious patients with lower extremity injuries.",
+          "illustrationDescription": "Pack carry."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Carry team rotation: switch every 200 meters to prevent exhaustion.",
+          "helpDetail": "A 150-lb patient on a litter is exhausting. Rotate carriers every 200 meters or every 5 minutes. Need minimum 4 carriers (2 working, 2 resting). Over rough terrain, 6-8 carriers is ideal.",
+          "illustrationDescription": "Rotation system."
+        }
+      ]
     }
   ],
   "articles": [
@@ -558,6 +1260,89 @@
       "relatedTechniqueIDs": [
         "rescue-phone-emergency",
         "rescue-gps-reading"
+      ]
+    },
+    {
+      "id": "rescue-article-plb",
+      "title": "Personal Locator Beacons: The Ultimate Safety Net",
+      "body": "A PLB is the single most effective rescue tool ever invented for wilderness use.\n\nHow PLBs work:\n- Transmit on 406 MHz to COSPAS-SARSAT satellites orbiting Earth\n- Signal includes unique ID registered to you (name, emergency contacts, medical info)\n- Satellites relay your position to the nearest Rescue Coordination Center\n- Position accuracy: 100 meters with GPS-equipped PLBs\n- Battery life: 24-48 hours continuous transmission\n\nPLB vs. Satellite Messenger vs. EPIRB:\n- PLB: one-way SOS, no subscription, 5-year battery, for land use\n- Satellite messenger (inReach, SPOT): two-way messaging, subscription required, rechargeable\n- EPIRB: maritime version, auto-activates in water, required on commercial vessels\n\nRegistration is critical:\n- Register at beacons.noaa.gov (US) or your country's equivalent\n- Include medical conditions, emergency contacts, typical activities\n- Update annually and whenever your information changes\n- Unregistered PLBs still trigger rescue but delay response\n\nFalse activation: If you accidentally activate, do NOT turn it off. Call 1-800-406-8840 (US) to cancel. Turning it off and on creates multiple search targets.",
+      "relatedTechniqueIDs": [
+        "rescue-plb",
+        "rescue-satellite-messenger"
+      ]
+    },
+    {
+      "id": "rescue-article-radio",
+      "title": "Emergency Radio Communication",
+      "body": "Radio communication can reach rescuers far beyond visual or auditory signaling range.\n\nKey frequencies:\n- VHF Channel 16 (156.800 MHz): International maritime distress\n- 121.5 MHz: Aviation emergency (monitored by all aircraft)\n- FRS Channel 1 (462.5625 MHz): Common family radio default\n- CB Channel 9 (27.065 MHz): Emergency channel for CB radios\n- HAM 146.520 MHz: National simplex calling frequency\n\nMAYDAY format (memorize):\n1. MAYDAY MAYDAY MAYDAY\n2. This is [name/callsign] (repeat 3 times)\n3. MAYDAY [name/callsign]\n4. My position is [coordinates or description]\n5. Nature of distress: [injury, lost, stranded]\n6. Number of persons: [count]\n7. Assistance required: [evacuation, medical, supplies]\n8. Any other useful information\n9. OVER\n\nRadio discipline:\n- Keep transmissions short (under 30 seconds)\n- Say 'OVER' when done transmitting\n- Say 'OUT' when conversation is finished\n- Listen before transmitting to avoid blocking other calls",
+      "relatedTechniqueIDs": [
+        "rescue-vhf-radio",
+        "rescue-phone-emergency"
+      ]
+    },
+    {
+      "id": "rescue-article-water-rescue",
+      "title": "Water Rescue Principles",
+      "body": "Water rescue follows a strict priority hierarchy: Reach, Throw, Row, Go.\n\nReach: Extend a branch, pole, paddle, or clothing from shore. Safest option.\n\nThrow: Toss a rope, throw bag, life ring, or any floating object. Second safest.\n\nRow: Use a boat, kayak, surfboard, or improvised raft to reach the person. Moderate risk.\n\nGo: Swim to the person. LAST RESORT. More rescuers drown than victims in untrained swim rescues.\n\nIf you must enter water:\n- Take a flotation device with you\n- Approach from behind (panicking people will push you under)\n- Tow by collar or hair, keeping distance from flailing arms\n- If grabbed, go underwater — drowning people release and swim up toward air\n\nCold water considerations:\n- 50\u00b0F water: 1-3 hours survival time\n- 40\u00b0F water: 30-90 minutes\n- 32\u00b0F water: 15-45 minutes\n- Cold shock response peaks in first 3 minutes — focus on breathing control\n- Swim failure occurs at 3-30 minutes — muscles stop responding",
+      "relatedTechniqueIDs": [
+        "rescue-throw-bag",
+        "rescue-improvised-flotation"
+      ]
+    },
+    {
+      "id": "rescue-article-night-rescue",
+      "title": "Being Found at Night",
+      "body": "Night creates unique challenges and opportunities for rescue.\n\nAdvantages of night:\n- Light sources visible for extreme distances (20+ miles)\n- Fire visible from aircraft at 50+ miles altitude\n- Flashlight visible for 5-10 miles\n- Phone screen visible for 1-2 miles\n- Less visual clutter — any light stands out\n\nDisadvantages of night:\n- Ground signals invisible\n- Color-based signals useless\n- Rescue teams may suspend ground searches\n- Navigation for self-rescue is dangerous\n\nNight signaling strategy:\n1. Maintain the brightest fire possible on high ground\n2. Flash SOS continuously with any available light\n3. Use reflective materials to catch searchlights\n4. Sound signals carry further at night (cooler air is denser)\n5. Keep whistle and mirror within arm's reach at all times\n\nIf you see search lights or hear helicopters:\n- Wave a flashlight or burning stick rapidly\n- Blow whistle in bursts of three\n- Do NOT run toward the search team — you may injure yourself in darkness. Let them come to you.",
+      "relatedTechniqueIDs": [
+        "rescue-night-signaling",
+        "rescue-signal-fire"
+      ]
+    },
+    {
+      "id": "rescue-article-signaling-science",
+      "title": "The Science of Survival Signaling",
+      "body": "Effective signaling is the difference between days and weeks of waiting for rescue.\n\nVisibility ranges by method:\n- Signal mirror: 50+ miles (brightest non-electronic signal)\n- Smoke column: 15-25 miles (calm conditions)\n- Signal fire at night: 20+ miles from aircraft\n- Ground signal panel: 3-5 miles from aircraft\n- Flashlight: 5-10 miles at night\n- Whistle: 1-2 miles\n- Shouting: 1/4 mile at best\n\nThe signal mirror is the single most effective signaling tool. On a clear day, a mirror flash can be seen by aircraft over 50 miles away. Practice aiming before you need it.\n\nSignaling principles:\n1. Contrast: your signal must look different from the environment\n2. Movement: moving signals catch attention better than static ones\n3. Pattern: three of anything = distress (3 fires, 3 blasts, 3 flashes)\n4. Duration: signal continuously — aircraft pass overhead in seconds\n5. Location: high ground, open areas, away from shadows\n\nCommon mistake: people signal for 5 minutes then stop. Aircraft may be 30 minutes away. Signal continuously whenever you hear or see potential rescue.",
+      "relatedTechniqueIDs": [
+        "rescue-signal-panel",
+        "rescue-signal-mirror",
+        "rescue-smoke-timing"
+      ]
+    },
+    {
+      "id": "rescue-article-water-principles",
+      "title": "Water Rescue: Core Principles",
+      "body": "Water is the most dangerous rescue environment. More rescuers die in water rescues than any other type.\n\nThe rescue priority order (RETHROG):\n1. REACH: extend a stick, paddle, branch from shore\n2. THROW: throw a rope, flotation device, anything buoyant\n3. ROW: use a boat, raft, or floating platform\n4. GO: swim to the victim (LAST RESORT ONLY)\n\nWhy 'GO' is last:\n- Drowning victims grab anything — including you\n- Cold water saps your strength faster than expected\n- Current is stronger than you think\n- You become a second victim, doubling the rescue problem\n\nIf you must enter water:\n- Bring a flotation device between you and the victim\n- Approach from behind to avoid being grabbed\n- If grabbed: dive deep — victims release and try to surface\n- Use a cross-chest carry to tow to shore\n\nSwiftwater rules:\n- Never stand in water above your knees in current\n- Foot entrapment kills — shuffle, don't step\n- If swept away: feet downstream, ride it out to calm water",
+      "relatedTechniqueIDs": [
+        "rescue-throw-line",
+        "rescue-river-self",
+        "rescue-cold-water-self"
+      ]
+    },
+    {
+      "id": "rescue-article-self-rescue-nav",
+      "title": "Self-Rescue Navigation Strategy",
+      "body": "If you decide to self-evacuate, navigation strategy is critical.\n\nFollow water downstream:\n- Streams lead to rivers. Rivers lead to settlements.\n- Water provides hydration along the route.\n- Terrain is generally easier along waterways.\n- Exception: canyon country — rivers can lead into impassable gorges.\n\nFollow power lines or roads:\n- Even abandoned roads lead somewhere.\n- Walk on utility right-of-ways — they're cleared paths.\n- Power lines lead to substations, which are near towns.\n\nTravel strategy:\n- Walk during cool hours (dawn, dusk) in hot climates\n- Walk during warm hours (midday) in cold climates\n- Rest when visibility is poor (fog, dark)\n- Travel 50 minutes, rest 10 minutes\n- Mark your trail so you don't circle\n\nPacing:\n- Over flat terrain: expect 2-3 miles per hour\n- Over rough terrain: expect 1 mile per hour\n- Mountainous: expect 1/2 mile per hour\n- Add 1 hour per 1,000 feet elevation gain\n\nStopping criteria: if you reach a road, trail, river, or fence line, follow it. These all lead to civilization.",
+      "relatedTechniqueIDs": [
+        "rescue-self-evacuation",
+        "rescue-signal-panel"
+      ]
+    },
+    {
+      "id": "rescue-article-group-rescue",
+      "title": "Group Rescue Coordination",
+      "body": "Groups have advantages in rescue situations but require coordination.\n\nAssign roles immediately:\n- Signal chief: maintains signal fires and panels\n- Medical lead: monitors injured and sick\n- Resource lead: manages food, water, firewood\n- Lookout: watches and listens for rescue\n\nGroup signaling advantages:\n- More materials for building signals\n- Can maintain 24-hour signal watch\n- Louder audio signals\n- More hands for ground-to-air panels\n- Can send scouts while maintaining base camp\n\nGroup decision-making:\n- Decisions by consensus when possible, leader decides when deadlocked\n- NEVER split the group unless sending scouts on a clear mission\n- Scouts travel in pairs, carry signal devices, and have a return time\n- Missing scouts trigger search protocol, not more scouts\n\nGroup morale:\n- Maintain schedule and routine\n- Assign meaningful tasks to everyone\n- Share information openly (hiding bad news erodes trust)\n- Celebrate small wins (fire started, water found, signal built)\n- Keep idle time busy (improve shelter, build more signals)",
+      "relatedTechniqueIDs": [
+        "rescue-signal-panel",
+        "rescue-whistle-patterns"
+      ]
+    },
+    {
+      "id": "rescue-article-timing",
+      "title": "Search & Rescue: How Rescuers Think",
+      "body": "Understanding how SAR teams operate helps you get found faster.\n\nSearch activation timeline:\n- Overdue report: 4-24 hours after expected return\n- SAR alert: 2-6 hours after report\n- Field teams deployed: 4-12 hours after alert\n- Air assets: daylight hours only (usually)\n\nSearch patterns:\n- SAR starts at your last known position (LKP)\n- They search the most likely route first\n- Then expand in concentric circles\n- Statistical: 95% of lost persons found within 3 miles of LKP\n\nWhat helps SAR find you:\n1. File a trip plan with route, expected return, and alternative plans\n2. Stay on or near your planned route\n3. Stay put once lost (moving makes search area exponentially larger)\n4. Make yourself visible: clear area, signals, contrast\n5. Signal continuously during likely search hours\n\nWhat hinders SAR:\n- No trip plan = no one reports you missing\n- Deviating from planned route = searching wrong area\n- Moving after being lost = expanding search area\n- Camouflaged shelter = invisible from above\n\nThe single most important thing: tell someone where you're going and when you'll be back.",
+      "relatedTechniqueIDs": [
+        "rescue-self-evacuation",
+        "rescue-helicopter-approach"
       ]
     }
   ]

@@ -4,7 +4,7 @@ import SwiftUI
 // MARK: - Emergency Situations
 
 enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
-    case cold, noFire, noWater, hurt, lost, trapped, disaster
+    case cold, noFire, noWater, hurt, lost, trapped, disaster, noFood, animal, inWater
     
     var id: String { rawValue }
     
@@ -17,6 +17,9 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .lost: return "Lost / Navigation"
         case .trapped: return "Trapped / Rescue"
         case .disaster: return "Natural Disaster"
+        case .noFood: return "Need Food"
+        case .animal: return "Animal Encounter"
+        case .inWater: return "In Water"
         }
     }
     
@@ -29,6 +32,9 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .lost: return "location.fill"
         case .trapped: return "exclamationmark.triangle.fill"
         case .disaster: return "tornado"
+        case .noFood: return "fork.knife"
+        case .animal: return "pawprint.fill"
+        case .inWater: return "figure.water.fitness"
         }
     }
     
@@ -41,6 +47,9 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .lost: return .gray
         case .trapped: return .yellow
         case .disaster: return .purple
+        case .noFood: return .green
+        case .animal: return .brown
+        case .inWater: return .blue
         }
     }
 }
