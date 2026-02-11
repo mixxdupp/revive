@@ -85,6 +85,49 @@ struct HomeView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
                         
+                        // 3. Quick Actions & Tools (Side by Side)
+                        HStack(spacing: 16) {
+                            NavigationLink(destination: QuickActionsView()) {
+                                VStack(spacing: 10) {
+                                    Image(systemName: "bolt.heart.fill")
+                                        .font(.system(size: 28))
+                                        .foregroundStyle(.white)
+                                    
+                                    Text("Quick\nActions")
+                                        .font(.callout)
+                                        .fontWeight(.bold)
+                                        .foregroundStyle(.white)
+                                        .multilineTextAlignment(.center)
+                                        .lineLimit(2)
+                                }
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 24)
+                                .background(Color.green)
+                                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                                .shadow(color: Color.black.opacity(0.15), radius: 12, x: 0, y: 6)
+                            }
+                            .buttonStyle(ScalableButtonStyle())
+                            
+                            NavigationLink(destination: ToolsMenuView()) {
+                                VStack(spacing: 10) {
+                                    Image(systemName: "wrench.and.screwdriver.fill")
+                                        .font(.system(size: 28))
+                                        .foregroundStyle(.white)
+                                    
+                                    Text("Tools")
+                                        .font(.callout)
+                                        .fontWeight(.bold)
+                                        .foregroundStyle(.white)
+                                }
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 24)
+                                .background(Color.indigo)
+                                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                                .shadow(color: Color.black.opacity(0.15), radius: 12, x: 0, y: 6)
+                            }
+                            .buttonStyle(ScalableButtonStyle())
+                        }
+                        
                     }
                     .padding(.horizontal, 32) // Inset for centered look
                     
