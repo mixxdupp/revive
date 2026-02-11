@@ -68,7 +68,7 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Flash in sets of three (SOS pattern) \u2014 three short, three long, three short.",
+          "instruction": "Flash in sets of three (SOS pattern) — three short, three long, three short.",
           "helpDetail": "Keep signaling even if you think the aircraft hasn't seen you. Pilots scan with binoculars and may see you long before you realize it.",
           "illustrationDescription": "SOS flash pattern."
         }
@@ -87,18 +87,18 @@
         {
           "stepNumber": 1,
           "instruction": "Create symbols at least 10 feet tall, 3 feet wide.",
-          "helpDetail": "Bigger is always better. Use contrasting materials against the ground \u2014 dark rocks on light sand, light clothing on dark soil.",
+          "helpDetail": "Bigger is always better. Use contrasting materials against the ground — dark rocks on light sand, light clothing on dark soil.",
           "illustrationDescription": "Large ground signal."
         },
         {
           "stepNumber": 2,
-          "instruction": "Standard signals: V = need assistance, X = need medical help, \u2192 = traveling this direction.",
+          "instruction": "Standard signals: V = need assistance, X = need medical help, → = traveling this direction.",
           "helpDetail": "I = need medical supplies. F = need food and water. LL = all is well. These are ICAO standard ground-to-air visual signals.",
           "illustrationDescription": "Standard signal symbols."
         },
         {
           "stepNumber": 3,
-          "instruction": "Place in open areas visible from above \u2014 clearings, hilltops, beaches.",
+          "instruction": "Place in open areas visible from above — clearings, hilltops, beaches.",
           "helpDetail": "Avoid placing under tree canopy. Signals must be visible from directly above and at angles.",
           "illustrationDescription": "Signal in open clearing."
         },
@@ -122,28 +122,40 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Three short blasts = international distress signal.",
-          "helpDetail": "Three of anything (blasts, flashes, fires) means distress. Two blasts means reply/acknowledgment.",
-          "illustrationDescription": "Three whistle blasts."
+          "instruction": "Three sharp blasts = universal distress signal.",
+          "helpDetail": "Three of anything (blasts, fires, signals) means 'help needed.' Pause 30 seconds between sets. Repeat every 5 minutes.",
+          "illustrationDescription": "Three blasts."
         },
         {
           "stepNumber": 2,
-          "instruction": "Repeat every minute until you get a response.",
-          "helpDetail": "A whistle carries further than shouting and requires far less energy. You can whistle all day; you'll lose your voice in hours.",
-          "illustrationDescription": "Repeating signal pattern."
+          "instruction": "Blow in short, sharp bursts — not long continuous blows.",
+          "helpDetail": "Short blasts carry farther and are easier to distinguish from natural sounds. Each blast should last about 1 second.",
+          "illustrationDescription": "Short bursts."
         },
         {
           "stepNumber": 3,
-          "instruction": "If no whistle: bang rocks, sticks, or use a loud clapping sound.",
-          "helpDetail": "Any rhythmic noise in sets of three carries the distress message. Banging a pot lid is very effective.",
-          "illustrationDescription": "Alternative noise signals."
+          "instruction": "Point the whistle toward open areas, valleys, or potential rescuer direction.",
+          "helpDetail": "Sound travels farther down valleys and across water. Face the most likely direction of help. Avoid blowing into dense forest — trees absorb sound.",
+          "illustrationDescription": "Direction matters."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Conserve energy: blow every 5 minutes, not continuously.",
+          "helpDetail": "Continuous blowing wastes energy and can cause hyperventilation. Set a schedule: 3 blasts, wait 5 minutes, repeat.",
+          "illustrationDescription": "Energy conservation."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "If no whistle: use two rocks struck together or a metal object.",
+          "helpDetail": "Banging rocks creates a sharp, carrying sound unnatural to the wilderness. A metal pot or cup struck with a rock is even louder. Three strikes = distress.",
+          "illustrationDescription": "Improvised signals."
         }
       ]
     },
     {
       "id": "rescue-sos",
       "name": "SOS in Morse Code",
-      "subtitle": "\u00b7 \u00b7 \u00b7 \u2014 \u2014 \u2014 \u00b7 \u00b7 \u00b7 (3 short, 3 long, 3 short)",
+      "subtitle": "· · · — — — · · · (3 short, 3 long, 3 short)",
       "category": "Signal",
       "difficulty": 1,
       "estimatedTime": "Ongoing",
@@ -153,7 +165,7 @@
         {
           "stepNumber": 1,
           "instruction": "SOS = 3 short, 3 long, 3 short. Any medium: light, sound, flag.",
-          "helpDetail": "Short = quick flash/tap. Long = 3\u00d7 the duration of short. This is the most universally recognized distress signal.",
+          "helpDetail": "Short = quick flash/tap. Long = 3× the duration of short. This is the most universally recognized distress signal.",
           "illustrationDescription": "SOS pattern diagram."
         },
         {
@@ -194,7 +206,7 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Send texts instead of calling \u2014 texts use far less power.",
+          "instruction": "Send texts instead of calling — texts use far less power.",
           "helpDetail": "Texts also retry automatically and can get through with weaker signals than voice calls.",
           "illustrationDescription": "Texting vs calling power use."
         },
@@ -224,7 +236,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "On iPhone: Open Compass app \u2014 coordinates shown at bottom.",
+          "instruction": "On iPhone: Open Compass app — coordinates shown at bottom.",
           "helpDetail": "GPS works WITHOUT cell service or WiFi. It uses satellites directly. Your phone can always determine your position.",
           "illustrationDescription": "iPhone compass showing coordinates."
         },
@@ -242,7 +254,7 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "What3Words: every 3m\u00d73m square has a unique 3-word address.",
+          "instruction": "What3Words: every 3m×3m square has a unique 3-word address.",
           "helpDetail": "The app works offline. Example: ///filled.count.soap. Emergency services in many countries accept What3Words addresses.",
           "illustrationDescription": "What3Words example."
         }
@@ -260,27 +272,33 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Default: STAY where you are. Rescuers search your last known location.",
-          "helpDetail": "If someone knows your itinerary, staying put is almost always correct. Moving makes you harder to find.",
-          "illustrationDescription": "Stay vs go decision."
+          "instruction": "Stop. Breathe. Think before acting.",
+          "helpDetail": "Panic is the leading cause of drowning in capable swimmers. Take 10 seconds to assess: how far is shore? What direction is the current? Do you have anything that floats?",
+          "illustrationDescription": "Stop and think."
         },
         {
           "stepNumber": 2,
-          "instruction": "Go only if: no one knows you're missing, immediate danger, or you know EXACTLY where safety is.",
-          "helpDetail": "If you self-rescue, leave signs of your direction: arrows in dirt, torn cloth on branches, rock cairns.",
-          "illustrationDescription": "Conditions to leave."
+          "instruction": "Float on your back to rest and conserve energy.",
+          "helpDetail": "Roll onto your back, spread arms wide, arch your back slightly. Even non-swimmers can float this way. Breathe slowly and deeply — full lungs increase buoyancy.",
+          "illustrationDescription": "Back floating."
         },
         {
           "stepNumber": 3,
-          "instruction": "Before leaving, build a visible signal at your current location.",
-          "helpDetail": "Ground-to-air signal, rock cairn, tied clothing on a branch. Leave a note with your name, date, direction of travel, and condition.",
-          "illustrationDescription": "Signal at departure point."
+          "instruction": "Remove heavy items: shoes, backpack, heavy jacket.",
+          "helpDetail": "Heavy clothing and gear drag you down. Remove boots and heavy outer layers. Keep lightweight clothing on — it provides some insulation and doesn't weigh much when swimming.",
+          "illustrationDescription": "Removing heavy items."
         },
         {
           "stepNumber": 4,
-          "instruction": "Travel downhill, follow water downstream \u2014 civilization is at lower elevations.",
-          "helpDetail": "Streams \u2192 rivers \u2192 towns. Following water also ensures access to drinking water during travel.",
-          "illustrationDescription": "Following water downhill."
+          "instruction": "Swim at 45-degree angle to current toward nearest shore.",
+          "helpDetail": "Do NOT fight current directly. Swim diagonally. Use sidestroke or breaststroke (most energy efficient). Rest on your back between efforts.",
+          "illustrationDescription": "Diagonal swimming."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "If exhausted, switch to survival floating: face down, lift head to breathe.",
+          "helpDetail": "Hang vertically with face in water, arms and legs dangling. Lift head to breathe every 10-15 seconds. This uses almost zero energy and you can last for hours.",
+          "illustrationDescription": "Survival float."
         }
       ]
     },
@@ -315,7 +333,7 @@
         {
           "stepNumber": 4,
           "instruction": "Drag a stick or mark the ground in soft terrain.",
-          "helpDetail": "In mud, sand, or snow \u2014 drag a line or make arrows. These are visible from the air and ground.",
+          "helpDetail": "In mud, sand, or snow — drag a line or make arrows. These are visible from the air and ground.",
           "illustrationDescription": "Arrows drawn in dirt."
         }
       ]
@@ -332,13 +350,13 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Clear a flat area at least 60\u00d760 feet (20\u00d720 meters).",
+          "instruction": "Clear a flat area at least 60×60 feet (20×20 meters).",
           "helpDetail": "Remove loose debris, branches, and anything that could blow into the rotor. Mark the perimeter with rocks or logs.",
           "illustrationDescription": "Cleared landing zone."
         },
         {
           "stepNumber": 2,
-          "instruction": "Remove all overhead obstructions \u2014 trees, wires, branches.",
+          "instruction": "Remove all overhead obstructions — trees, wires, branches.",
           "helpDetail": "Helicopter rotors extend beyond the fuselage. Any overhead contact is catastrophic. Clear completely.",
           "illustrationDescription": "No overhead obstructions."
         },
@@ -351,7 +369,7 @@
         {
           "stepNumber": 4,
           "instruction": "Stay upwind and crouch when helicopter approaches.",
-          "helpDetail": "The downwash is extreme \u2014 loose items become projectiles. Shield your eyes. Never approach from the tail rotor side. Wait for pilot signal.",
+          "helpDetail": "The downwash is extreme — loose items become projectiles. Shield your eyes. Never approach from the tail rotor side. Wait for pilot signal.",
           "illustrationDescription": "Safe approach behavior."
         }
       ]
@@ -461,7 +479,7 @@
     {
       "id": "rescue-panel-signals",
       "name": "International Ground Signal Codes",
-      "subtitle": "V, X, I \u2014 pilot-readable from 1000 feet",
+      "subtitle": "V, X, I — pilot-readable from 1000 feet",
       "category": "Signal",
       "difficulty": 1,
       "estimatedTime": "30 min",
@@ -782,27 +800,33 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Position yourself downstream of the person in the water.",
-          "helpDetail": "The person is being carried toward you. Position yourself on a stable bank where you can brace yourself.",
-          "illustrationDescription": "Downstream position."
+          "instruction": "Yell to victim: 'GRAB THE BAG!' Get their attention first.",
+          "helpDetail": "A person in panic may not see or hear you. Make eye contact. Use sharp whistle blasts. Wave arms. They need to be ready to grab.",
+          "illustrationDescription": "Getting attention."
         },
         {
           "stepNumber": 2,
-          "instruction": "Throw the bag PAST the person — the rope falls across them.",
-          "helpDetail": "Aim downstream of the person. Underhanded throw. The bag trails the rope which the person grabs.",
-          "illustrationDescription": "Throw past the person."
+          "instruction": "Open the bag, hold the end of the rope.",
+          "helpDetail": "Keep one foot on the rope tail or tie it to your wrist. If you throw the bag without holding the rope end, you've lost your rescue tool.",
+          "illustrationDescription": "Preparing bag."
         },
         {
           "stepNumber": 3,
-          "instruction": "Brace against a solid object — tree, rock, or sitting position.",
-          "helpDetail": "The force of a person in current is enormous. Without bracing, you will be pulled in. Wrap rope around your hips, not your hands.",
-          "illustrationDescription": "Bracing position."
+          "instruction": "Throw underhanded PAST the victim, so rope drapes across them.",
+          "helpDetail": "Aim beyond and slightly upstream of the victim. Throwing past them means the rope will drape across their body — easier to grab than catching a bag.",
+          "illustrationDescription": "Throwing technique."
         },
         {
           "stepNumber": 4,
-          "instruction": "Let the current swing them to shore — do NOT try to pull upstream.",
-          "helpDetail": "Hold the rope and let the current pendulum the person toward your bank. Fighting the current is impossible.",
-          "illustrationDescription": "Pendulum to shore."
+          "instruction": "Once they grab the rope, brace yourself and pull.",
+          "helpDetail": "Sit down, dig heels in, lean back. The current will push them toward you as you maintain tension. Do NOT tie rope to yourself — you could be pulled in.",
+          "illustrationDescription": "Bracing to pull."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "If first throw misses: re-stuff bag quickly or throw loose coils.",
+          "helpDetail": "Quickly stuff rope back into bag (doesn't need to be neat). Or gather rope in loose coils and throw the coils. Speed matters more than technique on the second throw.",
+          "illustrationDescription": "Second throw."
         }
       ]
     },
@@ -1004,21 +1028,33 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "1 MINUTE: control your breathing. The cold shock response lasts ~1 minute.",
-          "helpDetail": "Cold water triggers gasping and hyperventilation. This is the most dangerous phase — most cold water drownings happen in the first minute. Focus ALL effort on controlled breathing. Don't try to swim yet.",
-          "illustrationDescription": "Cold shock phase."
+          "instruction": "Control your breathing: fight the cold shock gasp reflex.",
+          "helpDetail": "Cold water triggers involuntary gasping (cold shock response). This lasts 1-3 minutes. Focus on slow, deliberate breaths. If you gasp underwater, you will inhale water and drown.",
+          "illustrationDescription": "Controlling breathing."
         },
         {
           "stepNumber": 2,
-          "instruction": "10 MINUTES: you have ~10 minutes of meaningful movement.",
-          "helpDetail": "Cold incapacitates muscles progressively. You have roughly 10 minutes to self-rescue before your arms and legs stop working. Swim to safety NOW if close. If not, prepare to float.",
-          "illustrationDescription": "Movement window."
+          "instruction": "Float on your back. Do NOT swim unless shore is within 50 meters.",
+          "helpDetail": "Swimming accelerates heat loss 25x faster than floating still. Conserve energy. If wearing a PFD, assume the HELP position (Heat Escape Lessening Posture): knees to chest, arms crossed.",
+          "illustrationDescription": "Floating position."
         },
         {
           "stepNumber": 3,
-          "instruction": "1 HOUR: hypothermia sets in after ~1 hour in cold water. Assume HELP position.",
-          "helpDetail": "HELP position: Heat Escape Lessening Position. Cross arms over chest, pull knees to chest. This reduces heat loss from armpits and groin. Stay as still as possible — movement accelerates heat loss.",
-          "illustrationDescription": "HELP position."
+          "instruction": "Keep your head above water at all costs.",
+          "helpDetail": "You lose 40-50% of body heat through your head. Tilt head back, keep face to the sky. If waves are splashing your face, turn your back to the waves.",
+          "illustrationDescription": "Head above water."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Grab onto any floating debris or solid object.",
+          "helpDetail": "Wood, coolers, overturned boats, dock pilings — anything that reduces your effort to stay afloat. Drape arms over it, don't grip (grip strength fails quickly in cold).",
+          "illustrationDescription": "Grabbing flotation."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Minimize movement. Wait for rescue or drift to shore.",
+          "helpDetail": "You have 10-15 minutes of meaningful swimming ability in cold water before muscles fail. After that, focused stillness and flotation are your only survival tools. Blow a whistle or yell periodically to attract attention.",
+          "illustrationDescription": "Conserving energy."
         }
       ]
     },
@@ -1154,21 +1190,33 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Roll onto your BACK, feet pointed DOWNSTREAM.",
-          "helpDetail": "Your feet act as bumpers against rocks and obstacles. If you go headfirst, you risk fatal head and spinal injuries. Keep your feet up near the surface to avoid foot entrapment in rocks on the bottom.",
-          "illustrationDescription": "Defensive position."
+          "instruction": "Roll onto your back, feet pointing downstream.",
+          "helpDetail": "This is the defensive swimming position. Your feet act as bumpers against rocks. Keep your hips up and back arched slightly. NEVER swim headfirst downstream.",
+          "illustrationDescription": "Feet-first position."
         },
         {
           "stepNumber": 2,
-          "instruction": "Use your arms to steer toward the bank. Angle ferry across the current.",
-          "helpDetail": "Don't fight the current directly — angle across it at 45 degrees toward shore. Use backstroke to create lateral movement. Current will carry you downstream while you gradually move toward the bank.",
-          "illustrationDescription": "Ferry angle."
+          "instruction": "Use feet to push off rocks and obstacles.",
+          "helpDetail": "Keep legs slightly bent as shock absorbers. Push off rocks with your feet as you approach them. Never try to stand in fast-moving water — foot entrapment kills.",
+          "illustrationDescription": "Pushing off rocks."
         },
         {
           "stepNumber": 3,
-          "instruction": "If approaching a strainer (downed tree), flip to FRONT and swim hard toward it.",
-          "helpDetail": "Strainers (fallen trees, debris) are the #1 killer in rivers. They trap and drown. If you can't avoid one, face it head-on, swim aggressively, and try to climb OVER it. Never go under or sideways.",
-          "illustrationDescription": "Strainer approach."
+          "instruction": "Look downstream for eddies (calm water behind rocks).",
+          "helpDetail": "Eddies form behind large rocks and on the inside of river bends. The water circulates upstream in eddies — you can rest there. Swim aggressively toward them.",
+          "illustrationDescription": "Finding eddies."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "To reach shore: ferry angle at 45 degrees across current.",
+          "helpDetail": "Roll onto your stomach (aggressive swim position) and swim at a 45-degree angle toward shore, pointing upstream. The current will push you diagonally toward the bank.",
+          "illustrationDescription": "Ferry angle."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Avoid strainers (fallen trees, debris piles) at all costs.",
+          "helpDetail": "Strainers let water pass through but trap bodies. If you cannot avoid one, swim TOWARD it aggressively and try to climb up and over it. Never turn your back to a strainer.",
+          "illustrationDescription": "Avoiding strainers."
         }
       ]
     },
@@ -1237,7 +1285,7 @@
     {
       "id": "rescue-article-search",
       "title": "How Search & Rescue Works",
-      "body": "Understanding SAR operations helps you cooperate with rescuers.\n\nTimeline:\n- Someone reports you missing \u2192 SAR activation (2-24 hours)\n- Initial search: last known position, planned route, nearest trails (Day 1)\n- Expanded search: wider area based on travel estimates (Days 2-3)\n- Extended search: aircraft, dogs, thermal imaging (Days 3-7)\n- After 7 days: search intensity decreases significantly\n\nWhat helps rescuers:\n- Filing a trip plan with someone (exact dates, route, vehicle location)\n- Carrying a whistle and mirror\n- Staying on planned route\n- Staying PUT when lost\n- Bright clothing (avoid earth tones in wilderness \u2014 wear orange, red, yellow)\n\nPersonal Locator Beacons (PLBs) and satellite communicators (like Garmin inReach) send your GPS position to rescue coordination centers worldwide. They work anywhere on Earth with clear sky view. They are the single most effective survival tool you can carry.",
+      "body": "Understanding SAR operations helps you cooperate with rescuers.\n\nTimeline:\n- Someone reports you missing → SAR activation (2-24 hours)\n- Initial search: last known position, planned route, nearest trails (Day 1)\n- Expanded search: wider area based on travel estimates (Days 2-3)\n- Extended search: aircraft, dogs, thermal imaging (Days 3-7)\n- After 7 days: search intensity decreases significantly\n\nWhat helps rescuers:\n- Filing a trip plan with someone (exact dates, route, vehicle location)\n- Carrying a whistle and mirror\n- Staying on planned route\n- Staying PUT when lost\n- Bright clothing (avoid earth tones in wilderness — wear orange, red, yellow)\n\nPersonal Locator Beacons (PLBs) and satellite communicators (like Garmin inReach) send your GPS position to rescue coordination centers worldwide. They work anywhere on Earth with clear sky view. They are the single most effective survival tool you can carry.",
       "relatedTechniqueIDs": [
         "rescue-self-rescue",
         "rescue-signal-fire"
@@ -1256,7 +1304,7 @@
     {
       "id": "rescue-article-phone",
       "title": "Using Your Phone for Rescue",
-      "body": "Your smartphone is a powerful survival tool if used wisely.\n\nBattery conservation:\n- Airplane mode extends battery 10-50\u00d7\n- Reduce screen brightness to minimum\n- Close all apps\n- Turn off Bluetooth, WiFi, location services when not needed\n- Cold batteries drain faster \u2014 keep phone warm inside clothing\n\nEmergency calls:\n- 911/112 route through ANY carrier (not just yours)\n- Work without a SIM card\n- Emergency SOS via satellite (iPhone 14+, newer Android devices)\n- Google Pixel: Emergency SOS calls and crash detection\n\nOffline capability:\n- GPS works WITHOUT service (airplane mode + GPS = works)\n- Download offline maps before trips (Google Maps, AllTrails)\n- Compass app works offline\n- Camera for documenting route, injuries, wildlife\n\nLast resort: If battery is critical, write a text message with your coordinates, name, situation. Hit send. Even if it doesn't send now, it will queue and send when signal is eventually found.",
+      "body": "Your smartphone is a powerful survival tool if used wisely.\n\nBattery conservation:\n- Airplane mode extends battery 10-50×\n- Reduce screen brightness to minimum\n- Close all apps\n- Turn off Bluetooth, WiFi, location services when not needed\n- Cold batteries drain faster — keep phone warm inside clothing\n\nEmergency calls:\n- 911/112 route through ANY carrier (not just yours)\n- Work without a SIM card\n- Emergency SOS via satellite (iPhone 14+, newer Android devices)\n- Google Pixel: Emergency SOS calls and crash detection\n\nOffline capability:\n- GPS works WITHOUT service (airplane mode + GPS = works)\n- Download offline maps before trips (Google Maps, AllTrails)\n- Compass app works offline\n- Camera for documenting route, injuries, wildlife\n\nLast resort: If battery is critical, write a text message with your coordinates, name, situation. Hit send. Even if it doesn't send now, it will queue and send when signal is eventually found.",
       "relatedTechniqueIDs": [
         "rescue-phone-emergency",
         "rescue-gps-reading"
@@ -1283,7 +1331,7 @@
     {
       "id": "rescue-article-water-rescue",
       "title": "Water Rescue Principles",
-      "body": "Water rescue follows a strict priority hierarchy: Reach, Throw, Row, Go.\n\nReach: Extend a branch, pole, paddle, or clothing from shore. Safest option.\n\nThrow: Toss a rope, throw bag, life ring, or any floating object. Second safest.\n\nRow: Use a boat, kayak, surfboard, or improvised raft to reach the person. Moderate risk.\n\nGo: Swim to the person. LAST RESORT. More rescuers drown than victims in untrained swim rescues.\n\nIf you must enter water:\n- Take a flotation device with you\n- Approach from behind (panicking people will push you under)\n- Tow by collar or hair, keeping distance from flailing arms\n- If grabbed, go underwater — drowning people release and swim up toward air\n\nCold water considerations:\n- 50\u00b0F water: 1-3 hours survival time\n- 40\u00b0F water: 30-90 minutes\n- 32\u00b0F water: 15-45 minutes\n- Cold shock response peaks in first 3 minutes — focus on breathing control\n- Swim failure occurs at 3-30 minutes — muscles stop responding",
+      "body": "Water rescue follows a strict priority hierarchy: Reach, Throw, Row, Go.\n\nReach: Extend a branch, pole, paddle, or clothing from shore. Safest option.\n\nThrow: Toss a rope, throw bag, life ring, or any floating object. Second safest.\n\nRow: Use a boat, kayak, surfboard, or improvised raft to reach the person. Moderate risk.\n\nGo: Swim to the person. LAST RESORT. More rescuers drown than victims in untrained swim rescues.\n\nIf you must enter water:\n- Take a flotation device with you\n- Approach from behind (panicking people will push you under)\n- Tow by collar or hair, keeping distance from flailing arms\n- If grabbed, go underwater — drowning people release and swim up toward air\n\nCold water considerations:\n- 50°F water: 1-3 hours survival time\n- 40°F water: 30-90 minutes\n- 32°F water: 15-45 minutes\n- Cold shock response peaks in first 3 minutes — focus on breathing control\n- Swim failure occurs at 3-30 minutes — muscles stop responding",
       "relatedTechniqueIDs": [
         "rescue-throw-bag",
         "rescue-improvised-flotation"

@@ -1,6 +1,13 @@
 import SwiftUI
 
 struct EmergencyMenuView: View {
+    @State private var searchText = ""
+    
+    var filteredSituations: [EmergencySituation] {
+        if searchText.isEmpty { return EmergencySituation.allCases }
+        return EmergencySituation.allCases.filter { $0.displayName.localizedCaseInsensitiveContains(searchText) }
+    }
+    
     // Standard Grid (Clean, Open)
     let columns = [
         GridItem(.flexible(), spacing: 16),
@@ -13,22 +20,24 @@ struct EmergencyMenuView: View {
                 
                 // MARK: - Header (Clean Apple)
                 // Left-Aligned Large Title
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Emergency")
-                        .font(.system(size: 40, weight: .bold, design: .serif)) // New York
-                        .foregroundStyle(DesignSystem.textPrimary)
-                    
-                    Text("Select Situation")
-                        .font(.body)
-                        .fontWeight(.medium)
-                        .foregroundStyle(DesignSystem.textSecondary)
+                if searchText.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Emergency")
+                            .font(.system(size: 40, weight: .bold, design: .serif)) // New York
+                            .foregroundStyle(DesignSystem.textPrimary)
+                        
+                        Text("Select Situation")
+                            .font(.body)
+                            .fontWeight(.medium)
+                            .foregroundStyle(DesignSystem.textSecondary)
+                    }
+                    .padding(.top, 24)
+                    .padding(.horizontal, 24)
                 }
-                .padding(.top, 24)
-                .padding(.horizontal, 24)
                 
                 // MARK: - SITUATIONS GRID (Shortcuts Style)
                 LazyVGrid(columns: columns, spacing: 16) {
-                    ForEach(EmergencySituation.allCases) { situation in
+                    ForEach(filteredSituations) { situation in
                         NavigationLink(destination: destinationView(for: situation)) {
                             VStack(alignment: .leading, spacing: 12) {
                                 // Icon (Clean)
@@ -59,12 +68,58 @@ struct EmergencyMenuView: View {
                     }
                 }
                 .padding(.horizontal, 24)
-                .padding(.bottom, 40)
+                
+                // MARK: - Recently Viewed
+                if !RecentlyViewedService.shared.recentTechniques().isEmpty {
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("Recently Viewed")
+                            .font(.system(size: 20, weight: .bold, design: .serif))
+                            .foregroundStyle(DesignSystem.textPrimary)
+                        
+                        ForEach(RecentlyViewedService.shared.recentTechniques(limit: 5)) { technique in
+                            NavigationLink(destination: StepCardPager(technique: technique)) {
+                                HStack(spacing: 12) {
+                                    Image(systemName: technique.icon)
+                                        .font(.system(size: 18))
+                                        .foregroundStyle(technique.domain.color)
+                                        .frame(width: 36, height: 36)
+                                        .background(technique.domain.color.opacity(0.15))
+                                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                                    
+                                    VStack(alignment: .leading, spacing: 2) {
+                                        Text(technique.name)
+                                            .font(.subheadline.weight(.semibold))
+                                            .foregroundStyle(DesignSystem.textPrimary)
+                                        Text(technique.subtitle)
+                                            .font(.caption)
+                                            .foregroundStyle(DesignSystem.textSecondary)
+                                            .lineLimit(1)
+                                    }
+                                    
+                                    Spacer()
+                                    
+                                    Image(systemName: "chevron.right")
+                                        .font(.caption.weight(.semibold))
+                                        .foregroundStyle(DesignSystem.textSecondary)
+                                }
+                                .padding(.vertical, 8)
+                                .padding(.horizontal, 14)
+                                .background(Color(uiColor: .secondarySystemGroupedBackground))
+                                .clipShape(RoundedRectangle(cornerRadius: 14))
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                    .padding(.horizontal, 24)
+                }
+                
+                Spacer(minLength: 40)
             }
         }
         .background(Color(uiColor: .systemGroupedBackground))
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
+        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search situations")
     }
     
     @ViewBuilder

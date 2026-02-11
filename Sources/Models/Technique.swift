@@ -21,6 +21,33 @@ struct Technique: Identifiable, Codable {
         TechniqueIconMapper.icon(for: id) ?? domain.icon
     }
     
+    /// Indicates life-threatening conditions requiring professional emergency services.
+    var isCritical: Bool {
+        Self.criticalIDs.contains(id)
+    }
+    
+    private static let criticalIDs: Set<String> = [
+        "firstaid-cpr",
+        "firstaid-tourniquet",
+        "firstaid-anaphylaxis",
+        "firstaid-snakebite",
+        "firstaid-snake-bite",
+        "firstaid-shock",
+        "firstaid-hypothermia",
+        "firstaid-heart-attack",
+        "firstaid-stroke",
+        "firstaid-head-trauma",
+        "firstaid-spinal-immobilization",
+        "firstaid-burn-char",
+        "firstaid-crush-injury",
+        "firstaid-choking",
+        "firstaid-drowning",
+        "firstaid-drowning-rescue",
+        "firstaid-electrocution",
+        "firstaid-chest-seal",
+        "firstaid-femur-traction"
+    ]
+    
     enum CodingKeys: String, CodingKey {
         case id, domain, category, name, subtitle, difficulty, steps, hasHapticGuide, hapticType, estimatedTime, relatedIds
     }

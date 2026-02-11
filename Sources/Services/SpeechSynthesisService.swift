@@ -1,11 +1,11 @@
 import AVFoundation
 import Combine
 
-class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDelegate {
+class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDelegate, @unchecked Sendable {
     static let shared = SpeechSynthesisService()
     
     private let synthesizer = AVSpeechSynthesizer()
-    @Published var isSpeaking = false
+    @MainActor @Published var isSpeaking = false
     
     override private init() {
         super.init()
@@ -21,6 +21,7 @@ class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDel
         
     }
     
+    @MainActor
     func speak(_ text: String) {
         // Stop any current speech
         if synthesizer.isSpeaking {
@@ -37,6 +38,7 @@ class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDel
         synthesizer.speak(utterance)
     }
     
+    @MainActor
     func stop() {
         synthesizer.stopSpeaking(at: .immediate)
     }
@@ -44,20 +46,20 @@ class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDel
     // MARK: - AVSpeechSynthesizerDelegate
     
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didStart utterance: AVSpeechUtterance) {
-        DispatchQueue.main.async {
-            self.isSpeaking = true
+        DispatchQueue.main.async { [weak self] in
+            self?.isSpeaking = true
         }
     }
     
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        DispatchQueue.main.async {
-            self.isSpeaking = false
+        DispatchQueue.main.async { [weak self] in
+            self?.isSpeaking = false
         }
     }
     
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
-        DispatchQueue.main.async {
-            self.isSpeaking = false
+        DispatchQueue.main.async { [weak self] in
+             self?.isSpeaking = false
         }
     }
     

@@ -2096,6 +2096,330 @@
         "env-wildfire-survival",
         "env-wildfire-evac"
       ]
+    },
+    {
+      "id": "env-wildfire-monitor",
+      "name": "Monitoring Wildfire",
+      "subtitle": "Watch for wind shifts and embers",
+      "category": "Disaster",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "If fire is downwind: monitor wind direction constantly.",
+          "helpDetail": "Wind shifts are the #1 killer. If wind changes 180 degrees, the flank becomes the head and you are in the path.",
+          "illustrationDescription": "Monitoring wind."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Clear 30 feet of flammable material around your location.",
+          "helpDetail": "Remove dry grass, wood piles, and furniture. Create a defensible space even if not evacuating yet.",
+          "illustrationDescription": "Clearing space."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for spot fires started by embers.",
+          "helpDetail": "Embers can travel up to a mile ahead of the fire front. Patrol your area and extinguish small starts immediately.",
+          "illustrationDescription": "Spot fires."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Be ready to evacuate instantly if smoke thickens or wind changes.",
+          "helpDetail": "Have your 'go-bag' in the car. Back the car into the driveway for fast exit.",
+          "illustrationDescription": "Ready to go."
+        }
+      ]
+    },
+    {
+      "id": "env-wildfire-vehicle",
+      "name": "Trapped in Vehicle (Wildfire)",
+      "subtitle": "Last resort shelter implementation",
+      "category": "Disaster",
+      "difficulty": 3,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Park in a clear area, away from heavy vegetation.",
+          "helpDetail": "Find a rocky outcrop, plowed field, or previously burned area. Avoid parking under trees or power lines.",
+          "illustrationDescription": "Safe parking spot."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Close all windows and vents. Turn on AC to 'recirculate'.",
+          "helpDetail": "Keep smoke out. Recirculate mode prevents outside smoke from being drawn in.",
+          "illustrationDescription": "Closing vents."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Lie on the floor below window level. Cover with wool blanket.",
+          "helpDetail": "Radiant heat passes through glass. The floor is the coolest spot. Wool protects against heat.",
+          "illustrationDescription": "Lay low in car."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wait for the fire front to pass. Do not exit until safe.",
+          "helpDetail": "The main fire front often passes in 5-10 minutes. The car body protects you from radiant heat that would kill you outside.",
+          "illustrationDescription": "Waiting it out."
+        }
+      ]
+    },
+    {
+      "id": "env-tornado-mobile",
+      "name": "Mobile Home Tornado Protocol",
+      "subtitle": "Get out immediately",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Abandon the mobile home immediately.",
+          "helpDetail": "Mobile homes offer zero protection against tornadoes. They are often destroyed even by weak tornadoes. Do not stay.",
+          "illustrationDescription": "Evacuating mobile home."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Seek a storm shelter or sturdy building nearby.",
+          "helpDetail": "A neighbor's house with a basement or designated community shelter is safer.",
+          "illustrationDescription": "Seeking shelter."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If no shelter: lie flat in a low-lying ditch or depression.",
+          "helpDetail": "Cover your head with your hands. Protect against flying debris, which causes most injuries.",
+          "illustrationDescription": "Ditch shelter."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Move away from the mobile home (debris hazard).",
+          "helpDetail": "Debris from the mobile home itself will become projectiles. Get distance.",
+          "illustrationDescription": "Distance from debris."
+        }
+      ]
+    },
+    {
+      "id": "env-tornado-ditch",
+      "name": "Tornado Ditch Shelter",
+      "subtitle": "Last resort outdoor protection",
+      "category": "Disaster",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a low spot: ditch, ravine, or depression.",
+          "helpDetail": "You want to be below the level of the wind-blown debris. Gravity is your shield.",
+          "illustrationDescription": "Finding low spot."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lie face down, hands covering head and neck.",
+          "helpDetail": "Protect your skull and spine. Minimize your profile.",
+          "illustrationDescription": "Face down position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stay away from trees, cars, and poles.",
+          "helpDetail": "These can be blown onto you. Open ground is safer than near vertical hazards.",
+          "illustrationDescription": "Evaluating hazards."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Watch for flash flooding in the ditch.",
+          "helpDetail": "Tornadoes come with heavy rain. Be ready to move if the ditch fills rapidly with water.",
+          "illustrationDescription": "Flood watch."
+        }
+      ]
+    },
+    {
+      "id": "env-tornado-drive",
+      "name": "Driving Near Tornado",
+      "subtitle": "Assess path and evade",
+      "category": "Disaster",
+      "difficulty": 3,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Determine the tornado's path relative to you.",
+          "helpDetail": "If it's not moving left or right, it's moving toward you. Tornadoes usually move SW to NE.",
+          "illustrationDescription": "Assessing path."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Drive at a right angle to the tornado's path.",
+          "helpDetail": "Do not try to outrun it straight on. Move sideways to get out of the 'bear's cage'.",
+          "illustrationDescription": "Right angle driving."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If imminent impact: abandon car for a ditch.",
+          "helpDetail": "Cars are death traps in tornadoes (tossed like toys). If you can't drive away, get low in a ditch.",
+          "illustrationDescription": "Abandoning car."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Do NOT hide under an overpass.",
+          "helpDetail": "Winds accelerate under bridges (Venturi effect). Debris is channeled there. It is a very dangerous spot.",
+          "illustrationDescription": "Avoid overpass."
+        }
+      ]
+    },
+    {
+      "id": "env-bear-black-avoid",
+      "name": "Black Bear Avoidance",
+      "subtitle": "Intimidate and back away",
+      "category": "Animal",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make yourself look large.",
+          "helpDetail": "Raise arms, open jacket. Stand on a rock. Do not crouch or hide.",
+          "illustrationDescription": "Looking large."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Make check noise, shout firmly: 'Hey bear! Go away!'",
+          "helpDetail": "Black bears are usually timid. Aggressive, loud human noises scare them off.",
+          "illustrationDescription": "Shouting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Back away slowly. Do NOT run.",
+          "helpDetail": "Running triggers a predatory chase instinct. Back away while facing the bear.",
+          "illustrationDescription": "Backing away."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If it follows, throw rocks/sticks and get aggressive.",
+          "helpDetail": "Show you are not prey. You are a threat.",
+          "illustrationDescription": "Throwing rocks."
+        }
+      ]
+    },
+    {
+      "id": "env-bear-grizzly-avoid",
+      "name": "Grizzly Avoidance",
+      "subtitle": "De-escalate and retreat",
+      "category": "Animal",
+      "difficulty": 3,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stop. Do not run. Do not yell.",
+          "helpDetail": "Grizzlies are territorial. Running triggers chase. Yelling may be seen as aggression.",
+          "illustrationDescription": "Standing still."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Speak softly and calmly: 'Hey bear, whoa bear'.",
+          "helpDetail": "Identify yourself as human, not prey. Keep voice low and monotonous.",
+          "illustrationDescription": "Speaking calmly."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Avoid eye contact (seen as a challenge).",
+          "helpDetail": "Look at the bear's chest or feet. Turning your head slightly shows submission.",
+          "illustrationDescription": "Averting gaze."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Back away slowly while facing the bear.",
+          "helpDetail": "Move only when the bear is not advancing. Give it space.",
+          "illustrationDescription": "Retreating."
+        }
+      ]
+    },
+    {
+      "id": "env-snake-avoid",
+      "name": "Snake Avoidance",
+      "subtitle": "Step back and leave it alone",
+      "category": "Animal",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Freeze. Locate the snake.",
+          "helpDetail": "Movement may trigger a strike. Find exactly where it is.",
+          "illustrationDescription": "Freezing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Identify safe escape route (away from head).",
+          "helpDetail": "Snakes can strike 1/2 their body length. Ensure your path is clear.",
+          "illustrationDescription": "Checking path."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Back away slowly and deliberately.",
+          "helpDetail": "Give the snake a wide berth (at least 6 feet). Most bites happen when people try to move/kill snakes.",
+          "illustrationDescription": "Backing away."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stomp feet as you retreat (vibrations warn others).",
+          "helpDetail": "Snakes sense vibration. Heavy steps alert them to your presence.",
+          "illustrationDescription": "Stomping."
+        }
+      ]
+    },
+    {
+      "id": "env-lightning-dist",
+      "name": "Lightning Distance",
+      "subtitle": "Flash-to-Bang Calculation",
+      "category": "Disaster",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "See the Flash -> Start Counting Seconds.",
+          "helpDetail": "One-Mississippi, Two-Mississippi...",
+          "illustrationDescription": "Seeing flash."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stop counting when you hear the Bang (Thunder).",
+          "helpDetail": "Sound travels 1 mile in 5 seconds.",
+          "illustrationDescription": "Hearing thunder."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Divide seconds by 5 = Distance in Miles.",
+          "helpDetail": "10 seconds = 2 miles. 30 seconds = 6 miles. Under 30 seconds (6 miles) is the danger zone.",
+          "illustrationDescription": "Calculating."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If under 30 seconds: Seek shelter immediately.",
+          "helpDetail": "You are within striking distance. 30 minutes must pass after the last thunder before leaving shelter.",
+          "illustrationDescription": "Shelter immediately."
+        }
+      ]
     }
   ]
 }

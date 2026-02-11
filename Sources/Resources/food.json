@@ -21,7 +21,7 @@
         {
           "stepNumber": 2,
           "instruction": "Carve 3 sticks: vertical post, diagonal bait stick, horizontal trigger.",
-          "helpDetail": "Each stick has notches that interlock. The figure-4 shape is critical \u2014 it converts light trigger force into total collapse.",
+          "helpDetail": "Each stick has notches that interlock. The figure-4 shape is critical — it converts light trigger force into total collapse.",
           "illustrationDescription": "Three carved sticks."
         },
         {
@@ -33,7 +33,7 @@
         {
           "stepNumber": 4,
           "instruction": "Place bait on the end of the diagonal stick.",
-          "helpDetail": "Use peanut butter, berries, seeds, or meat scraps. Set on game trails. Check twice daily \u2014 trapped animals attract predators.",
+          "helpDetail": "Use peanut butter, berries, seeds, or meat scraps. Set on game trails. Check twice daily — trapped animals attract predators.",
           "illustrationDescription": "Baited trap set on trail."
         }
       ]
@@ -51,7 +51,7 @@
         {
           "stepNumber": 1,
           "instruction": "Make a noose loop from wire, paracord, or strong cordage.",
-          "helpDetail": "Wire snares are most effective \u2014 animals can't chew through. The loop should be fist-sized for rabbits, head-sized for larger game.",
+          "helpDetail": "Wire snares are most effective — animals can't chew through. The loop should be fist-sized for rabbits, head-sized for larger game.",
           "illustrationDescription": "Wire noose loop."
         },
         {
@@ -69,7 +69,7 @@
         {
           "stepNumber": 4,
           "instruction": "Set 10-12 snares to increase your odds.",
-          "helpDetail": "One snare has maybe a 10% chance. Twelve snares give you a reasonable chance of catching something. Set and forget \u2014 check morning and evening.",
+          "helpDetail": "One snare has maybe a 10% chance. Twelve snares give you a reasonable chance of catching something. Set and forget — check morning and evening.",
           "illustrationDescription": "Multiple snares placed."
         }
       ]
@@ -123,7 +123,7 @@
         {
           "stepNumber": 1,
           "instruction": "Find a straight pole 6-8 feet long.",
-          "helpDetail": "Green hardwood is best \u2014 dry wood splits too easily. The pole should be about 1-inch diameter.",
+          "helpDetail": "Green hardwood is best — dry wood splits too easily. The pole should be about 1-inch diameter.",
           "illustrationDescription": "Straight hardwood pole."
         },
         {
@@ -140,7 +140,7 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Aim BELOW the fish \u2014 refraction makes fish appear higher than they are.",
+          "instruction": "Aim BELOW the fish — refraction makes fish appear higher than they are.",
           "helpDetail": "Water bends light. The fish is actually 25% deeper than it looks. Aim at its shadow on the bottom if visible.",
           "illustrationDescription": "Aiming below apparent fish position."
         }
@@ -159,7 +159,7 @@
         {
           "stepNumber": 1,
           "instruction": "Weave a funnel-shaped basket from flexible branches or vines.",
-          "helpDetail": "Willow, reed, or any pliable material. The funnel narrows inward \u2014 fish swim in but can't find the exit.",
+          "helpDetail": "Willow, reed, or any pliable material. The funnel narrows inward — fish swim in but can't find the exit.",
           "illustrationDescription": "Woven funnel basket."
         },
         {
@@ -248,7 +248,7 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Collect in quantity \u2014 you need volume for meaningful nutrition.",
+          "instruction": "Collect in quantity — you need volume for meaningful nutrition.",
           "helpDetail": "100g of crickets has more protein than 100g of beef. But you need to eat a LOT. Set light traps at night or shake them from vegetation in the morning when cold.",
           "illustrationDescription": "Collecting insects in quantity."
         }
@@ -273,7 +273,7 @@
         {
           "stepNumber": 2,
           "instruction": "Rub on inner wrist for 15 minutes. Wait 45 minutes for reaction.",
-          "helpDetail": "If rash, burning, or swelling occurs \u2014 reject this plant. No reaction = proceed to next step.",
+          "helpDetail": "If rash, burning, or swelling occurs — reject this plant. No reaction = proceed to next step.",
           "illustrationDescription": "Rubbing plant on wrist."
         },
         {
@@ -308,7 +308,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Dandelion: entire plant is edible \u2014 leaves, flowers, roots.",
+          "instruction": "Dandelion: entire plant is edible — leaves, flowers, roots.",
           "helpDetail": "Young leaves raw in salad, older leaves boiled to reduce bitterness. Roots roasted as coffee substitute. Grows worldwide.",
           "illustrationDescription": "Dandelion plant parts."
         },
@@ -369,7 +369,7 @@
         {
           "stepNumber": 4,
           "instruction": "Avoid: almond/peach scent in leaves or bark.",
-          "helpDetail": "This smell indicates cyanogenic glycosides \u2014 cyanide precursors. Cherry laurel, elderberry leaves, and wild almonds.",
+          "helpDetail": "This smell indicates cyanogenic glycosides — cyanide precursors. Cherry laurel, elderberry leaves, and wild almonds.",
           "illustrationDescription": "Almond scent warning."
         },
         {
@@ -399,7 +399,7 @@
         {
           "stepNumber": 2,
           "instruction": "Rock cooking: heat flat rocks and cook directly on them.",
-          "helpDetail": "Use dry, non-porous rocks. WET or RIVER rocks can EXPLODE when heated \u2014 they contain trapped moisture. Heat gradually.",
+          "helpDetail": "Use dry, non-porous rocks. WET or RIVER rocks can EXPLODE when heated — they contain trapped moisture. Heat gradually.",
           "illustrationDescription": "Cooking on heated rock."
         },
         {
@@ -464,8 +464,8 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Cut meat into thin strips \u2014 1/4 inch thick.",
-          "helpDetail": "Cut WITH the grain for jerky. Thinner strips dry faster and spoil less. Remove all fat \u2014 fat goes rancid.",
+          "instruction": "Cut meat into thin strips — 1/4 inch thick.",
+          "helpDetail": "Cut WITH the grain for jerky. Thinner strips dry faster and spoil less. Remove all fat — fat goes rancid.",
           "illustrationDescription": "Thin meat strips."
         },
         {
@@ -501,7 +501,7 @@
         {
           "stepNumber": 1,
           "instruction": "Pound dried meat into powder.",
-          "helpDetail": "Use rocks as mortar and pestle. Meat should be completely dry \u2014 any moisture causes spoilage. Pound until fibrous powder.",
+          "helpDetail": "Use rocks as mortar and pestle. Meat should be completely dry — any moisture causes spoilage. Pound until fibrous powder.",
           "illustrationDescription": "Pounding dried meat."
         },
         {
@@ -519,7 +519,7 @@
         {
           "stepNumber": 4,
           "instruction": "Form into bars or balls and let cool.",
-          "helpDetail": "Pemmican stores for months at room temperature and years if kept cool. One pound provides 3,500 calories \u2014 a full day's rations.",
+          "helpDetail": "Pemmican stores for months at room temperature and years if kept cool. One pound provides 3,500 calories — a full day's rations.",
           "illustrationDescription": "Formed pemmican bars."
         }
       ]
@@ -549,7 +549,7 @@
         {
           "stepNumber": 3,
           "instruction": "Boil 5-7 minutes until bright red. Eat tail meat.",
-          "helpDetail": "Never eat raw\u2014parasites. Discard any dead before cooking.",
+          "helpDetail": "Never eat raw—parasites. Discard any dead before cooking.",
           "illustrationDescription": "Boiling crayfish."
         }
       ]
@@ -587,7 +587,7 @@
     {
       "id": "food-cattail",
       "name": "Cattail Harvesting",
-      "subtitle": "Survival supermarket \u2014 every part is edible",
+      "subtitle": "Survival supermarket — every part is edible",
       "category": "Forage",
       "difficulty": 1,
       "estimatedTime": "10 min",
@@ -632,7 +632,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Gather green pine needles. Avoid yew (flat needles, red berries\u2014toxic).",
+          "instruction": "Gather green pine needles. Avoid yew (flat needles, red berries—toxic).",
           "helpDetail": "True pines with needles in bundles of 2-5 are safe.",
           "illustrationDescription": "Gathering needles."
         },
@@ -668,7 +668,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Cut meat into thin strips \u2014 1/4 inch maximum.",
+          "instruction": "Cut meat into thin strips — 1/4 inch maximum.",
           "helpDetail": "Thinner strips smoke faster and more evenly. Cut against grain.",
           "illustrationDescription": "Slicing thin."
         },
@@ -704,7 +704,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Shallow cut from pelvis to ribcage \u2014 do not puncture organs.",
+          "instruction": "Shallow cut from pelvis to ribcage — do not puncture organs.",
           "helpDetail": "Use knife tip only. Lift skin, cut outward. Organ puncture contaminates meat.",
           "illustrationDescription": "Belly cut."
         },
@@ -824,7 +824,7 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Avoid brightly colored frogs \u2014 many are toxic.",
+          "instruction": "Avoid brightly colored frogs — many are toxic.",
           "helpDetail": "Red, blue, yellow, orange = poison. Stick to green/brown.",
           "illustrationDescription": "Color warning."
         },
@@ -849,7 +849,7 @@
         {
           "stepNumber": 1,
           "instruction": "Strip the outer bark from a pine tree to expose the inner bark.",
-          "helpDetail": "The cambium layer \u2014 thin, moist, whitish layer between the rough outer bark and the wood. Peel in vertical strips. Take from multiple trees to avoid killing any one tree.",
+          "helpDetail": "The cambium layer — thin, moist, whitish layer between the rough outer bark and the wood. Peel in vertical strips. Take from multiple trees to avoid killing any one tree.",
           "illustrationDescription": "Peeling bark."
         },
         {
@@ -915,7 +915,7 @@
         {
           "stepNumber": 1,
           "instruction": "Look for crayfish in shallow, rocky streams and pond edges.",
-          "helpDetail": "Turn over rocks \u2014 crayfish hide underneath during the day. Active at night. Found on every continent except Antarctica.",
+          "helpDetail": "Turn over rocks — crayfish hide underneath during the day. Active at night. Found on every continent except Antarctica.",
           "illustrationDescription": "Finding crayfish habitat."
         },
         {
@@ -933,7 +933,7 @@
         {
           "stepNumber": 4,
           "instruction": "Boil crayfish in water for 5 minutes. Eat the tail meat.",
-          "helpDetail": "MUST be cooked \u2014 crayfish carry parasites when raw. Twist the tail from the body, peel the shell, eat the meat.",
+          "helpDetail": "MUST be cooked — crayfish carry parasites when raw. Twist the tail from the body, peel the shell, eat the meat.",
           "illustrationDescription": "Cooking crayfish."
         }
       ]
@@ -951,7 +951,7 @@
         {
           "stepNumber": 1,
           "instruction": "Find a flexible sapling near bird feeding areas.",
-          "helpDetail": "Look for areas where birds feed on the ground \u2014 berry bushes, seed heads, water edges.",
+          "helpDetail": "Look for areas where birds feed on the ground — berry bushes, seed heads, water edges.",
           "illustrationDescription": "Finding location."
         },
         {
@@ -1023,7 +1023,7 @@
         {
           "stepNumber": 1,
           "instruction": "Cut meat into thin strips (1/4 inch) along the grain.",
-          "helpDetail": "Thinner strips dry faster. Remove ALL fat \u2014 fat does not dry, it goes rancid. Lean meat only.",
+          "helpDetail": "Thinner strips dry faster. Remove ALL fat — fat does not dry, it goes rancid. Lean meat only.",
           "illustrationDescription": "Cutting strips."
         },
         {
@@ -1495,13 +1495,55 @@
           "illustrationDescription": "Timed eating."
         }
       ]
+    },
+    {
+      "id": "food-wild-fruit",
+      "name": "Wild Fruit Identification",
+      "subtitle": "Identify safe edible wild fruits",
+      "category": "Foraging",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Use the Universal Edibility Test: test ONE plant part at a time.",
+          "helpDetail": "Never eat unknown plants without testing. Test only one plant and one part (fruit, leaf, stem) at a time. If you react to any part, discard the entire plant.",
+          "illustrationDescription": "Edibility test."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Avoid: white/yellow berries, umbrella-shaped flowers, milky sap.",
+          "helpDetail": "General rule: 90% of white and yellow berries are poisonous. Plants with milky sap or umbrella flower clusters (like poison hemlock) are dangerous. Red berries are 50/50.",
+          "illustrationDescription": "Danger signs."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Safe bets: blackberries, raspberries, blueberries, rose hips.",
+          "helpDetail": "These are widely distributed and easy to identify. Blackberries/raspberries have compound berries on bramble bushes. Rose hips are the red fruit below rose flowers.",
+          "illustrationDescription": "Safe berries."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Smell test: crush a small amount and smell. Reject if bitter or almond-like.",
+          "helpDetail": "Bitter almond smell indicates cyanide compounds. Soapy smell indicates saponins. Both are toxic. A pleasant, fruity smell is a good sign but not conclusive.",
+          "illustrationDescription": "Smell test."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Skin test: rub on inner wrist, wait 15 minutes for reaction.",
+          "helpDetail": "If no rash, burning, or numbness, place a small amount on your lip. Wait 15 minutes. Then on tongue. Wait 15 minutes. Then chew and spit. If no reaction after 8 hours, eat a small amount.",
+          "illustrationDescription": "Skin contact test."
+        }
+      ]
     }
   ],
   "articles": [
     {
       "id": "food-article-calories",
       "title": "Caloric Needs in Survival",
-      "body": "Your body needs fuel. Understanding caloric needs helps prioritize food sources.\n\nDaily caloric needs:\n- Resting in shelter: 1,200-1,500 cal\n- Light activity: 2,000-2,500 cal\n- Heavy activity (building, hiking): 3,000-4,000 cal\n- Cold weather: add 500-1,000 cal for thermogenesis\n\nCaloric density of survival foods:\n- Fat: 9 cal/gram (most efficient)\n- Protein: 4 cal/gram\n- Carbohydrates: 4 cal/gram\n- Insects: 400-500 cal per 100g\n- Pine inner bark: 500-600 cal per 100g\n- Pemmican: 250 cal per ounce\n\nThe body can survive 3 weeks without food but performance degrades rapidly after 3 days. Cognitive function and decision-making decline first \u2014 exactly when you need them most.",
+      "body": "Your body needs fuel. Understanding caloric needs helps prioritize food sources.\n\nDaily caloric needs:\n- Resting in shelter: 1,200-1,500 cal\n- Light activity: 2,000-2,500 cal\n- Heavy activity (building, hiking): 3,000-4,000 cal\n- Cold weather: add 500-1,000 cal for thermogenesis\n\nCaloric density of survival foods:\n- Fat: 9 cal/gram (most efficient)\n- Protein: 4 cal/gram\n- Carbohydrates: 4 cal/gram\n- Insects: 400-500 cal per 100g\n- Pine inner bark: 500-600 cal per 100g\n- Pemmican: 250 cal per ounce\n\nThe body can survive 3 weeks without food but performance degrades rapidly after 3 days. Cognitive function and decision-making decline first — exactly when you need them most.",
       "relatedTechniqueIDs": [
         "food-pemmican",
         "food-insect-eating"
@@ -1520,7 +1562,7 @@
     {
       "id": "food-article-insects",
       "title": "Insects as Survival Food",
-      "body": "Insects are the world's most underutilized food source. Over 2 billion people eat insects daily.\n\nNutrition per 100g:\n- Crickets: 21g protein, 6g fat, 121 calories\n- Grasshoppers: 20g protein, 6g fat, 153 calories\n- Mealworms: 20g protein, 13g fat, 206 calories\n- Termites: 14g protein, 2g fat, 535 calories\n- Ants: 14g protein, 4g fat, 100 calories\n\nSafe to eat (worldwide):\n- Ants (not fire ants \u2014 remove heads), crickets, grasshoppers, beetle larvae/grubs, termites, cicadas, scorpions (remove stinger, cook)\n\nAvoid:\n- Brightly colored insects (warning coloration = toxic)\n- Hairy caterpillars (urticating hairs cause allergic reactions)\n- Anything that stinks when crushed\n- Ticks, mosquitoes, flies (disease vectors)\n- Spiders (not insects but commonly confused)\n\nCollection methods: Turn over logs and rocks, shake vegetation in early morning when cold, attract with light at night.",
+      "body": "Insects are the world's most underutilized food source. Over 2 billion people eat insects daily.\n\nNutrition per 100g:\n- Crickets: 21g protein, 6g fat, 121 calories\n- Grasshoppers: 20g protein, 6g fat, 153 calories\n- Mealworms: 20g protein, 13g fat, 206 calories\n- Termites: 14g protein, 2g fat, 535 calories\n- Ants: 14g protein, 4g fat, 100 calories\n\nSafe to eat (worldwide):\n- Ants (not fire ants — remove heads), crickets, grasshoppers, beetle larvae/grubs, termites, cicadas, scorpions (remove stinger, cook)\n\nAvoid:\n- Brightly colored insects (warning coloration = toxic)\n- Hairy caterpillars (urticating hairs cause allergic reactions)\n- Anything that stinks when crushed\n- Ticks, mosquitoes, flies (disease vectors)\n- Spiders (not insects but commonly confused)\n\nCollection methods: Turn over logs and rocks, shake vegetation in early morning when cold, attract with light at night.",
       "relatedTechniqueIDs": [
         "food-insect-eating",
         "food-grub-finding"
@@ -1548,7 +1590,7 @@
     {
       "id": "food-article-preservation",
       "title": "Food Preservation Without Refrigeration",
-      "body": "In a survival situation, you cannot afford to waste food. Preservation methods:\n\nSmoking (6-12 hours):\n- Creates acidic surface that inhibits bacteria\n- Adds antimicrobial compounds from wood smoke\n- Result lasts 1-4 weeks\n\nDrying/Dehydrating (1-3 days):\n- Removes moisture bacteria need to grow\n- Requires hot, dry, windy conditions\n- Result lasts 2-4 weeks\n\nSalting:\n- Pack in salt or create a brine\n- Draws moisture out through osmosis\n- Result lasts months\n\nCold storage:\n- Bury in stream beds (cold running water)\n- Hang in shade at altitude (cool air)\n- Cache in snow or permafrost\n\nFat rendering:\n- Slowly heat fat until liquid\n- Strain and store \u2014 pure rendered fat lasts months\n- Used in pemmican production\n\nCritical rule: when in doubt, smell it. Spoiled meat has a distinct sweet-putrid smell that's unmistakable. Trust your nose \u2014 it evolved specifically for this.",
+      "body": "In a survival situation, you cannot afford to waste food. Preservation methods:\n\nSmoking (6-12 hours):\n- Creates acidic surface that inhibits bacteria\n- Adds antimicrobial compounds from wood smoke\n- Result lasts 1-4 weeks\n\nDrying/Dehydrating (1-3 days):\n- Removes moisture bacteria need to grow\n- Requires hot, dry, windy conditions\n- Result lasts 2-4 weeks\n\nSalting:\n- Pack in salt or create a brine\n- Draws moisture out through osmosis\n- Result lasts months\n\nCold storage:\n- Bury in stream beds (cold running water)\n- Hang in shade at altitude (cool air)\n- Cache in snow or permafrost\n\nFat rendering:\n- Slowly heat fat until liquid\n- Strain and store — pure rendered fat lasts months\n- Used in pemmican production\n\nCritical rule: when in doubt, smell it. Spoiled meat has a distinct sweet-putrid smell that's unmistakable. Trust your nose — it evolved specifically for this.",
       "relatedTechniqueIDs": [
         "food-preservation",
         "food-pemmican"
@@ -1557,7 +1599,7 @@
     {
       "id": "food-article-nutrition",
       "title": "Nutritional Priorities in Survival",
-      "body": "In survival, calories matter more than balanced nutrition short-term.\n\nPriority hierarchy:\n1. Calories (energy to function)\n2. Water (can't digest food without hydration)\n3. Fat (most calorie-dense \u2014 9 cal/gram)\n4. Protein (muscle maintenance, immune function)\n5. Carbohydrates (quick energy, brain fuel)\n6. Micronutrients (Vitamin C prevents scurvy after 30 days)\n\nStarvation timeline:\n- Day 1-3: Glycogen depletion\n- Day 3-7: Cognitive decline, irritability\n- Day 7-14: Muscle breakdown for energy\n- Day 14-21: Severe weakness, organ stress\n- Day 21+: Cardiac irregularity risk\n\nPerformance declines severely after 72 hours. Even small amounts of food (insects, bark, roots) maintain cognitive function.",
+      "body": "In survival, calories matter more than balanced nutrition short-term.\n\nPriority hierarchy:\n1. Calories (energy to function)\n2. Water (can't digest food without hydration)\n3. Fat (most calorie-dense — 9 cal/gram)\n4. Protein (muscle maintenance, immune function)\n5. Carbohydrates (quick energy, brain fuel)\n6. Micronutrients (Vitamin C prevents scurvy after 30 days)\n\nStarvation timeline:\n- Day 1-3: Glycogen depletion\n- Day 3-7: Cognitive decline, irritability\n- Day 7-14: Muscle breakdown for energy\n- Day 14-21: Severe weakness, organ stress\n- Day 21+: Cardiac irregularity risk\n\nPerformance declines severely after 72 hours. Even small amounts of food (insects, bark, roots) maintain cognitive function.",
       "relatedTechniqueIDs": [
         "food-insect-eating",
         "food-pine-bark-flour",
@@ -1567,7 +1609,7 @@
     {
       "id": "food-article-wild-plants",
       "title": "Wild Plant Basics",
-      "body": "Plants are the most accessible food source but also dangerous if misidentified.\n\nAlways-safe plants worldwide:\n- Dandelion (entire plant edible)\n- Cattail (shoots, roots, pollen year-round)\n- Pine (inner bark, needles for tea, nuts)\n- Clover (flowers and leaves)\n- Plantain weed (leaves edible and medicinal)\n\nUniversal Edibility Test:\n1. Test on skin (wait 15 min)\n2. Touch to lip (wait 15 min)\n3. Touch to tongue (wait 15 min)\n4. Chew and spit (wait 15 min)\n5. Eat small amount (wait 8 hours)\n\nWARNING: This test does NOT work for mushrooms \u2014 some deadly mushrooms taste pleasant and show no symptoms for 6-12 hours before organ failure.\n\nCooking makes many marginal plants safer by breaking down irritants and toxins. When in doubt, boil it.",
+      "body": "Plants are the most accessible food source but also dangerous if misidentified.\n\nAlways-safe plants worldwide:\n- Dandelion (entire plant edible)\n- Cattail (shoots, roots, pollen year-round)\n- Pine (inner bark, needles for tea, nuts)\n- Clover (flowers and leaves)\n- Plantain weed (leaves edible and medicinal)\n\nUniversal Edibility Test:\n1. Test on skin (wait 15 min)\n2. Touch to lip (wait 15 min)\n3. Touch to tongue (wait 15 min)\n4. Chew and spit (wait 15 min)\n5. Eat small amount (wait 8 hours)\n\nWARNING: This test does NOT work for mushrooms — some deadly mushrooms taste pleasant and show no symptoms for 6-12 hours before organ failure.\n\nCooking makes many marginal plants safer by breaking down irritants and toxins. When in doubt, boil it.",
       "relatedTechniqueIDs": [
         "food-universal-edibility",
         "food-cattail-harvest",
@@ -1577,7 +1619,7 @@
     {
       "id": "food-article-safety",
       "title": "Food Safety Without Refrigeration",
-      "body": "Food poisoning in survival can be fatal \u2014 dehydration from vomiting depletes limited water reserves.\n\nGeneral rules:\n- Cook ALL meat thoroughly (165\u00b0F/74\u00b0C)\n- Eat food within 2 hours of cooking if not preserved\n- Smell test: if it smells off, don't eat it\n- Never eat meat from animals found already dead\n- Avoid scavengers' kills (possible disease)\n\nHigh-risk foods to avoid:\n- Raw freshwater fish (parasites)\n- Raw shellfish from warm waters\n- Any plant with milky sap (except dandelion)\n- Unidentified mushrooms\n- Grain with black/purple growths (ergot fungus)\n\nSafe handling:\n- Clean hands before prep (ash works as soap)\n- Separate raw meat from other foods\n- Cook on clean surfaces\n- Store surplus elevated and sealed\n\nThe survival paradox: you need food for energy, but contaminated food kills faster than starvation.",
+      "body": "Food poisoning in survival can be fatal — dehydration from vomiting depletes limited water reserves.\n\nGeneral rules:\n- Cook ALL meat thoroughly (165°F/74°C)\n- Eat food within 2 hours of cooking if not preserved\n- Smell test: if it smells off, don't eat it\n- Never eat meat from animals found already dead\n- Avoid scavengers' kills (possible disease)\n\nHigh-risk foods to avoid:\n- Raw freshwater fish (parasites)\n- Raw shellfish from warm waters\n- Any plant with milky sap (except dandelion)\n- Unidentified mushrooms\n- Grain with black/purple growths (ergot fungus)\n\nSafe handling:\n- Clean hands before prep (ash works as soap)\n- Separate raw meat from other foods\n- Cook on clean surfaces\n- Store surplus elevated and sealed\n\nThe survival paradox: you need food for energy, but contaminated food kills faster than starvation.",
       "relatedTechniqueIDs": [
         "food-preservation",
         "food-pemmican-making",
@@ -1639,6 +1681,42 @@
         "food-pine-needle-tea",
         "food-bone-broth",
         "food-grub-finding"
+      ]
+    },
+    {
+      "id": "food-wild-fruit",
+      "name": "Eating Wild Berries/Fruit",
+      "subtitle": "Only if 100% Identified",
+      "category": "Food",
+      "difficulty": 1,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Verify ID with 3 distinct features.",
+          "helpDetail": "Leaf shape, berry color, stem type. Do NOT eat if any feature doesn't match your memory/guide exactly.",
+          "illustrationDescription": "Verifying features."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Smell: should smell like fruit, not almond or rotting.",
+          "helpDetail": "Bitter almond smell can indicate cyanide.",
+          "illustrationDescription": "Smelling fruit."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Eat small amount first.",
+          "helpDetail": "Wait 30 minutes to check for reaction before eating a meal.",
+          "illustrationDescription": "Eating small amount."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Avoid: White or Red berries unless known.",
+          "helpDetail": "'White and Red are dead, Blue and Black usually snack' (but not always!). 90% of white berries are toxic.",
+          "illustrationDescription": "Color warning."
+        }
       ]
     }
   ]

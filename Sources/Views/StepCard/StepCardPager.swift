@@ -39,6 +39,12 @@ struct StepCardPager: View {
                 .padding(.top, 20)
                 .padding(.bottom, 10)
                 
+                // Emergency Warning Banner for critical techniques
+                if technique.isCritical {
+                    EmergencyWarningBanner()
+                        .padding(.bottom, 6)
+                }
+                
                 // TabView for Paging
                 TabView(selection: $currentStepIndex) {
                     ForEach(0..<technique.steps.count, id: \.self) { index in
@@ -59,7 +65,7 @@ struct StepCardPager: View {
                     .tag(technique.steps.count)
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
-                .onChange(of: currentStepIndex) { newIndex in
+                .onChange(of: currentStepIndex) { oldValue, newIndex in
                     if isHandsFreeMode {
                         speakCurrentStep()
                     }
@@ -120,6 +126,7 @@ struct StepCardPager: View {
         }
         .onAppear {
             relatedTechniques = ContentDatabase.shared.getRelatedTechniques(for: technique)
+            RecentlyViewedService.shared.addTechnique(id: technique.id)
         }
     }
     
