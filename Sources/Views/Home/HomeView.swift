@@ -32,6 +32,8 @@ struct HomeView: View {
                     .multilineTextAlignment(.center)
                     .padding(.top, 20)
                     
+                    .padding(.top, 20)
+
                     // MARK: - Action Buttons (Centered Stack)
                     VStack(spacing: 24) {
                         
@@ -93,12 +95,14 @@ struct HomeView: View {
                                         .font(.system(size: 28))
                                         .foregroundStyle(.white)
                                     
-                                    Text("Quick\nActions")
+                                    Text("Quick Actions")
                                         .font(.callout)
                                         .fontWeight(.bold)
                                         .foregroundStyle(.white)
                                         .multilineTextAlignment(.center)
                                         .lineLimit(2)
+                                        .minimumScaleFactor(0.8)
+                                        .fixedSize(horizontal: false, vertical: true)
                                 }
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 24)

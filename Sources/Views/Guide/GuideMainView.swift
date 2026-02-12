@@ -18,6 +18,14 @@ struct GuideMainView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 32) {
                 
+
+                // MARK: - Banner
+                if searchText.isEmpty {
+                    EmergencyBanner()
+                        .padding(.horizontal, 24)
+                        .padding(.top, 16)
+                }
+                
                 // MARK: - Header (Clean & Centered)
                 if searchText.isEmpty {
                     VStack(alignment: .leading, spacing: 4) {
@@ -30,7 +38,6 @@ struct GuideMainView: View {
                             .fontWeight(.medium)
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
-                    .padding(.top, 24)
                     .padding(.horizontal, 24)
                 }
                 

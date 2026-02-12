@@ -157,6 +157,7 @@ struct TriageOptionCard: View {
         .padding(.horizontal, 8)
         .background(DesignSystem.backgroundSecondary)
         .clipShape(RoundedRectangle(cornerRadius: 16))
+        .contentShape(Rectangle()) // Essential for NavigationLink hit testing
     }
 }
 

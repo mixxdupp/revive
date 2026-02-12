@@ -18,6 +18,11 @@ struct EmergencyMenuView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 32) {
                 
+                // MARK: - Banner
+                EmergencyBanner()
+                    .padding(.horizontal, 24)
+                    .padding(.top, 16) // Top spacing
+                
                 // MARK: - Header (Clean Apple)
                 // Left-Aligned Large Title
                 if searchText.isEmpty {
@@ -31,7 +36,6 @@ struct EmergencyMenuView: View {
                             .fontWeight(.medium)
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
-                    .padding(.top, 24)
                     .padding(.horizontal, 24)
                 }
                 

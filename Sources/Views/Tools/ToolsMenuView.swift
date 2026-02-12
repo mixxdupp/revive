@@ -5,6 +5,11 @@ struct ToolsMenuView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 32) {
 
+                // MARK: - Banner
+                EmergencyBanner()
+                    .padding(.horizontal, 24)
+                    .padding(.top, 16) // Top Spacing
+
                 // MARK: - Header
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Tools")
@@ -14,11 +19,20 @@ struct ToolsMenuView: View {
                         .font(.body.weight(.medium))
                         .foregroundStyle(DesignSystem.textSecondary)
                 }
-                .padding(.top, 24)
                 .padding(.horizontal, 24)
 
                 // MARK: - Tool Cards
                 VStack(spacing: 16) {
+                    NavigationLink(destination: EmergencyDirectoryView()) {
+                        ToolCard(
+                            icon: "phone.circle.fill",
+                            title: "Emergency Directory",
+                            subtitle: "Global ambulance/police numbers",
+                            color: .blue
+                        )
+                    }
+                    .buttonStyle(ScalableButtonStyle())
+
                     NavigationLink(destination: SOSFlashlightView()) {
                         ToolCard(
                             icon: "flashlight.on.fill",
@@ -58,6 +72,8 @@ struct ToolsMenuView: View {
                         )
                     }
                     .buttonStyle(ScalableButtonStyle())
+
+
                 }
                 .padding(.horizontal, 24)
 

@@ -17,19 +17,17 @@ let package = Package(
             name: "Revive",
             targets: ["AppModule"],
             bundleIdentifier: "com.revive.survival",
-            teamIdentifier: "YOUR_TEAM_ID",
+            teamIdentifier: "TJTDTMJ4TL",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .heart), // Valid placeholder
-            accentColor: .presetColor(.orange), // Updated color
+            appIcon: .placeholder(icon: .heart),
+            accentColor: .presetColor(.orange),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
             ],
             supportedInterfaceOrientations: [
                 .portrait,
-                .landscapeRight,
-                .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
             ],
             capabilities: [
