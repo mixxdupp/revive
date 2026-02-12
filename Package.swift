@@ -28,11 +28,15 @@ let package = Package(
             ],
             supportedInterfaceOrientations: [
                 .portrait,
+                .landscapeRight,
+                .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
             ],
             capabilities: [
                 .microphone(purposeString: "Ember uses the microphone for hands-free voice commands."),
-                .speechRecognition(purposeString: "Ember uses speech recognition to detect commands like 'next' or 'help'.")
+                .speechRecognition(purposeString: "Ember uses speech recognition to detect commands like 'next' or 'help'."),
+                .appIntents(intentClasses: ["StartSirenIntent"], intentDefinitions: []),
+                .backgroundAudio
             ]
         )
     ],

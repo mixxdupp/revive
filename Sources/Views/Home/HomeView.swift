@@ -9,9 +9,7 @@ struct HomeView: View {
                     .edgesIgnoringSafeArea(.all)
                 
                 // Centered Content
-                VStack(spacing: 60) {
-                    Spacer()
-                    
+                VStack(spacing: 30) {
                     // MARK: - Header (Phase 53: Serif Branding)
                     // High-End, Editorial, Distinctive.
                     VStack(spacing: 6) {
@@ -30,14 +28,52 @@ struct HomeView: View {
                             .textCase(.uppercase)
                     }
                     .multilineTextAlignment(.center)
-                    .padding(.top, 20)
+                    .padding(.top, 74) // Clear Notch + Status Bar
                     
                     .padding(.top, 20)
 
                     // MARK: - Action Buttons (Centered Stack)
                     VStack(spacing: 24) {
                         
-                        // 1. Emergency Button (Clean & Bold)
+                        // 0. PANIC BUTTON (Instant Siren)
+                        Button(action: {
+                            // URL Scheme is unreliable for in-app triggers. Use Notification.
+                            NotificationCenter.default.post(name: .triggerPanic, object: nil)
+                        }) {
+                            HStack(spacing: 16) {
+                                Image(systemName: "light.beacon.max.fill")
+                                    .font(.system(size: 32))
+                                    .foregroundStyle(.white)
+                                    .symbolEffect(.pulse.byLayer)
+                                
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text("PANIC SIREN")
+                                        .font(.title3)
+                                        .fontWeight(.black)
+                                        .foregroundStyle(.white)
+                                    
+                                    Text("TAP TO ACTIVATE")
+                                        .font(.caption)
+                                        .fontWeight(.bold)
+                                        .foregroundStyle(.white.opacity(0.9))
+                                }
+                                Spacer()
+                            }
+                            .padding(.horizontal, 24)
+                            .padding(.vertical, 20)
+                            .background(
+                                LinearGradient(colors: [Color.red, Color(red: 0.8, green: 0, blue: 0)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                            )
+                            .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 24)
+                                    .stroke(.white.opacity(0.3), lineWidth: 1)
+                            )
+                            .shadow(color: Color.red.opacity(0.4), radius: 10, x: 0, y: 5)
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
+                        // 1. Emergency Menu (Checklists)
                         NavigationLink(destination: EmergencyMenuView()) {
                             VStack(spacing: 16) {
                                 Image(systemName: "exclamationmark.triangle.fill")
