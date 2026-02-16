@@ -46,5 +46,7 @@ struct TechniqueRow: View {
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         // Very subtle card shadow
         .shadow(color: Color.black.opacity(0.04), radius: 8, x: 0, y: 2)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
     }
 }

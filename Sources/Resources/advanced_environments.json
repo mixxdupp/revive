@@ -1,0 +1,157 @@
+{
+    "domain": "environments",
+    "domainDisplayName": "Environments",
+    "techniques": [
+        {
+            "id": "env-ziptie-escape",
+            "name": "Zip Tie Escape",
+            "subtitle": "Break free from illegal restraints",
+            "category": "Urban Evasion",
+            "difficulty": 3,
+            "estimatedTime": "10 sec",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Bring hands high above head, knuckles touching.",
+                    "helpDetail": "The locking mechanism of the zip tie should be between your hands or facing outward. Do not have the lock against your skin.",
+                    "illustrationDescription": "Hands high, knuckles touching."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Explosively bring hands down into your stomach.",
+                    "helpDetail": "Simultaneously flare your elbows out like chicken wings. The force breaks the locking prow.",
+                    "illustrationDescription": "Downward thrust."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Alternative: Friction Saw with shoelace.",
+                    "helpDetail": "Remove shoelace, thread through tie. Loop ends on feet (bicycle motion). Saw back and forth to melt plastic.",
+                    "illustrationDescription": "Friction saw."
+                }
+            ]
+        },
+        {
+            "id": "env-door-barricade",
+            "name": "Door Barricade",
+            "subtitle": "Secure a room without a lock",
+            "category": "Urban Evasion",
+            "difficulty": 2,
+            "estimatedTime": "2 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Use a door wedge / shim under the door.",
+                    "helpDetail": "Kick a rubber wedge or wooden shim hard under the door. This prevents opening from the outside.",
+                    "illustrationDescription": "Wedge under door."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Tie the door handle to a heavy immovable object.",
+                    "helpDetail": "Use belt or cordage to tie handle to a bed frame or radiator. Reduce slack to zero.",
+                    "illustrationDescription": "Tying handle."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Chair method: Wedge chair back under the door knob.",
+                    "helpDetail": "Tilt chair so top of backrest is under the knob, legs are on floor. Pressure from opening drives chair into floor.",
+                    "illustrationDescription": "Chair under knob."
+                }
+            ]
+        },
+        {
+            "id": "env-urban-grayman",
+            "name": "Gray Man Protocol",
+            "subtitle": "Blend into crowds and avoid attention",
+            "category": "Urban Evasion",
+            "difficulty": 1,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Remove all tactical gear and identifying patches.",
+                    "helpDetail": "No camo, no morale patches, no MOLLE packs. Look like a refugee or local commuter.",
+                    "illustrationDescription": "Civilian clothing."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Adjust walking pace to match the crowd baseline.",
+                    "helpDetail": "Do not run (attracts pursuit). Do not loiter (attracts security). Flow with the 'river' of people.",
+                    "illustrationDescription": "Matching pace."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Avoid eye contact but maintain situational awareness.",
+                    "helpDetail": "Scan using reflections (shop windows, phone screen). Direct eye contact is a threat signal.",
+                    "illustrationDescription": "Peripheral scanning."
+                }
+            ]
+        },
+        {
+            "id": "env-vehicle-entry",
+            "name": "Emergency Vehicle Entry",
+            "subtitle": "Break a window safely",
+            "category": "Urban Evasion",
+            "difficulty": 2,
+            "estimatedTime": "1 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Choose the side window furthest from occupants/gear.",
+                    "helpDetail": "Windshields are laminated (won't shatter). Side windows are tempered (will shatter).",
+                    "illustrationDescription": "Selecting window."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Strike the bottom corner of the glass, not the center.",
+                    "helpDetail": "The center flexes. The corners are rigid break points. Use a spark plug ceramic, center punch, or sharp rock.",
+                    "illustrationDescription": "Striking corner."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Look away and cover eyes precisely when striking.",
+                    "helpDetail": "Glass dust will explode inward. Clear remaining jagged edges with a tool before reaching in.",
+                    "illustrationDescription": "Covering eyes."
+                }
+            ]
+        },
+        {
+            "id": "env-anti-tracking",
+            "name": "Anti-Tracking Basics",
+            "subtitle": "Minimize sign and confuse pursuers",
+            "category": "Urban Evasion",
+            "difficulty": 3,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Walk on hard surfaces (rock, pavement) to reduce footprints.",
+                    "helpDetail": "Avoid mud, soft sand, and snow. Step on rocks or logs (disturbed environment detection).",
+                    "illustrationDescription": "Hard surface walking."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Fish-hook maneuver: Walk past your hide site, then loop back.",
+                    "helpDetail": "Walk 100m past where you intend to hide, then circle back in a wide loop to watch your own trail.",
+                    "illustrationDescription": "Fish-hook path."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Avoid breaking branches or disturbing spider webs.",
+                    "helpDetail": "These are 'ground sign' indicators. Move slowly and deliberately.",
+                    "illustrationDescription": "Avoiding disturbance."
+                }
+            ]
+        }
+    ],
+    "articles": []
+}

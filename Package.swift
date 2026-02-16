@@ -20,7 +20,7 @@ let package = Package(
             teamIdentifier: "TJTDTMJ4TL",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .heart),
+            appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.orange),
             supportedDeviceFamilies: [
                 .pad,
@@ -35,8 +35,7 @@ let package = Package(
             capabilities: [
                 .microphone(purposeString: "Ember uses the microphone for hands-free voice commands."),
                 .speechRecognition(purposeString: "Ember uses speech recognition to detect commands like 'next' or 'help'."),
-                .appIntents(intentClasses: ["StartSirenIntent"], intentDefinitions: []),
-                .backgroundAudio
+                .locationWhenInUse(purposeString: "Revive uses your location to display GPS coordinates and Compass heading offline.")
             ]
         )
     ],
@@ -45,7 +44,23 @@ let package = Package(
             name: "AppModule",
             path: "Sources",
             resources: [
-                .process("Resources")
+                // .process("Resources/Assets.xcassets"), // Likely handled by folder structure or redundant
+                .process("Resources/fire.json"),
+                .process("Resources/shelter.json"),
+                .process("Resources/water.json"),
+                .process("Resources/food.json"),
+                .process("Resources/firstaid.json"),
+                .process("Resources/navigation.json"),
+                .process("Resources/rescue.json"),
+                .process("Resources/psychology.json"),
+                .process("Resources/tools.json"),
+                .process("Resources/environments.json"),
+                .process("Resources/advanced_firstaid.json"),
+                .process("Resources/advanced_tools.json"),
+                .process("Resources/advanced_environments.json"),
+                .process("Resources/hacks_general.json"),
+                .process("Resources/rebuilding_civilization.json"),
+                .process("Resources/Localizable.xcstrings")
             ]
         )
     ]

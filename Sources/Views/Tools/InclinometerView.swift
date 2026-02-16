@@ -61,7 +61,9 @@ struct InclinometerView: View {
                     )
                     .animation(.interpolatingSpring(stiffness: 100, damping: 12), value: pitch)
                     .animation(.interpolatingSpring(stiffness: 100, damping: 12), value: roll)
+                    .animation(.interpolatingSpring(stiffness: 100, damping: 12), value: roll)
             }
+            .accessibilityHidden(true)
 
             // MARK: - Angle Readout
             VStack(spacing: 8) {
@@ -74,7 +76,12 @@ struct InclinometerView: View {
                 Text(slopeCategory.0)
                     .font(.title3.weight(.semibold))
                     .foregroundStyle(DesignSystem.textSecondary)
+                Text(slopeCategory.0)
+                    .font(.title3.weight(.semibold))
+                    .foregroundStyle(DesignSystem.textSecondary)
             }
+            .accessibilityElement(children: .combine)
+            .accessibilityLabel("\(String(format: "%.1f°", slopeAngle)), \(slopeCategory.0)")
 
             Text("Inclinometer")
                 .font(.system(size: 28, weight: .bold, design: .serif))

@@ -438,10 +438,10 @@ struct EmergencySirenView: View {
                 .frame(width: 160, height: 160)
 
             // Static Icon
-            Image(systemName: manager.isPlaying ? "light.beacon.max.fill" : "speaker.wave.3.fill")
                 .font(.system(size: 64))
                 .foregroundStyle(manager.isPlaying ? .white : DesignSystem.textPrimary)
         }
+        .accessibilityHidden(true)
     }
     
     private var controlsView: some View {
@@ -518,6 +518,9 @@ struct LongPressButton: View {
                 .font(.title3.weight(.bold))
                 .foregroundStyle(isPlaying ? (progress > 0.5 ? .white : .red) : .white)
         }
+        .accessibilityLabel(buttonText)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityHint("Double tap and hold to activate")
         .scaleEffect(isHolding ? 0.95 : 1.0)
         .animation(.spring(response: 0.3, dampingFraction: 0.6), value: isHolding)
         .gesture(

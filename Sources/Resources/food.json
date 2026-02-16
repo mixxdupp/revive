@@ -1682,42 +1682,6 @@
         "food-bone-broth",
         "food-grub-finding"
       ]
-    },
-    {
-      "id": "food-wild-fruit",
-      "name": "Eating Wild Berries/Fruit",
-      "subtitle": "Only if 100% Identified",
-      "category": "Food",
-      "difficulty": 1,
-      "estimatedTime": "Immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Verify ID with 3 distinct features.",
-          "helpDetail": "Leaf shape, berry color, stem type. Do NOT eat if any feature doesn't match your memory/guide exactly.",
-          "illustrationDescription": "Verifying features."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Smell: should smell like fruit, not almond or rotting.",
-          "helpDetail": "Bitter almond smell can indicate cyanide.",
-          "illustrationDescription": "Smelling fruit."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Eat small amount first.",
-          "helpDetail": "Wait 30 minutes to check for reaction before eating a meal.",
-          "illustrationDescription": "Eating small amount."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Avoid: White or Red berries unless known.",
-          "helpDetail": "'White and Red are dead, Blue and Black usually snack' (but not always!). 90% of white berries are toxic.",
-          "illustrationDescription": "Color warning."
-        }
-      ]
     }
   ]
 }

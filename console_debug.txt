@@ -1,0 +1,11 @@
+2026-02-12 23:42:44.342 Revive[26082:19141630] REVIVE: Loaded Fire: 45 techniques, 13 articles.
+2026-02-12 23:42:44.362 Revive[26082:19141630] REVIVE: Failed to decode shelter.json: The data couldn’t be read because it is missing.
+2026-02-12 23:42:44.364 Revive[26082:19141630] REVIVE: Loaded Water: 43 techniques, 16 articles.
+2026-02-12 23:42:44.365 Revive[26082:19141630] REVIVE: Loaded Navigation: 42 techniques, 14 articles.
+2026-02-12 23:42:44.368 Revive[26082:19141630] REVIVE: Loaded First Aid: 72 techniques, 17 articles.
+2026-02-12 23:42:44.369 Revive[26082:19141630] REVIVE: Failed to decode food.json: The data couldn’t be read because it is missing.
+2026-02-12 23:42:44.370 Revive[26082:19141630] REVIVE: Loaded Rescue & Signaling: 37 techniques, 12 articles.
+2026-02-12 23:42:44.371 Revive[26082:19141630] REVIVE: Failed to decode psychology.json: The data couldn’t be read because it isn’t in the correct format.
+2026-02-12 23:42:44.373 Revive[26082:19141630] REVIVE: Failed to decode environments.json: The data couldn’t be read because it is missing.
+2026-02-12 23:42:44.374 Revive[26082:19141630] REVIVE: Loaded Tools & Knots: 41 techniques, 12 articles.
+com.revive.survival: 26082

@@ -1,0 +1,187 @@
+{
+    "domain": "environments",
+    "domainDisplayName": "Civilization & Rebuilding",
+    "techniques": [
+        {
+            "id": "hygiene-soap-making",
+            "name": "Wood Ash Soap (Lye)",
+            "subtitle": "Basic hygiene from scratch",
+            "category": "Rebuilding",
+            "difficulty": 3,
+            "estimatedTime": "2 days",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Collect white wood ash (hardwood is best).",
+                    "helpDetail": "Do not use ash from trash or plastic fires. Sift out charcoal bits.",
+                    "illustrationDescription": "Sifting ash."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Leach the lye: Pour water over ash in a filtered container.",
+                    "helpDetail": "Let it drip slowly. The resulting brown liquid is potassium hydroxide (lye). Determine strength by floating an egg (should float halfway).",
+                    "illustrationDescription": "Dripping lye water."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Mix lye water with animal fat (tallow) or oil.",
+                    "helpDetail": "Heat gently until it thickens (trace). Pour into molds and let cure for weeks.",
+                    "illustrationDescription": "Mixing soap."
+                }
+            ]
+        },
+        {
+            "id": "agri-three-sisters",
+            "name": "Three Sisters Planting",
+            "subtitle": "Corn, Beans, Squash symbiosis",
+            "category": "Rebuilding",
+            "difficulty": 1,
+            "estimatedTime": "Season",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Plant Corn first in a mound.",
+                    "helpDetail": "Corn provides the vertical structure for beans to climb.",
+                    "illustrationDescription": "Corn mound."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Plant Pole Beans around the corn once it's 6 inches tall.",
+                    "helpDetail": "Beans fix nitrogen in the soil to feed the corn.",
+                    "illustrationDescription": "Beans climbing."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Plant Squash/Pumpkin around the base.",
+                    "helpDetail": "Squash leaves shade the soil, retaining moisture and preventing weeds.",
+                    "illustrationDescription": "Squash ground cover."
+                }
+            ]
+        },
+        {
+            "id": "agri-seed-saving",
+            "name": "Seed Saving & Storage",
+            "subtitle": "Preserve crops for next season",
+            "category": "Rebuilding",
+            "difficulty": 2,
+            "estimatedTime": "Weeks",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Select only the best, healthiest plants.",
+                    "helpDetail": "Do not eat these. Let them fully mature and dry on the plant if possible.",
+                    "illustrationDescription": "Selecting best fruit."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Harvest seeds and dry them completely.",
+                    "helpDetail": "For wet seeds (tomatoes), ferment in water first to remove gel. Dry on paper.",
+                    "illustrationDescription": "Drying seeds."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Store in a cool, dark, dry place (glass jar).",
+                    "helpDetail": "Include desiccant (silica or dry rice). Label with year.",
+                    "illustrationDescription": "Jar storage."
+                }
+            ]
+        },
+        {
+            "id": "hygiene-charcoal-toothpaste",
+            "name": "Charcoal Toothpaste",
+            "subtitle": "Dental hygiene without store products",
+            "category": "Rebuilding",
+            "difficulty": 1,
+            "estimatedTime": "10 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Crush charcoal from your fire into a fine powder.",
+                    "helpDetail": "Use charcoal from hardwood. It must be completely cool.",
+                    "illustrationDescription": "Crushing charcoal."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Mix with a little water (and salt/mint if available).",
+                    "helpDetail": "Charcoal absorbs toxins and cleans teeth abrasively. Do not use daily due to enamel wear.",
+                    "illustrationDescription": "Black paste."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Scrub teeth with finger or chew stick.",
+                    "helpDetail": "Rinse thoroughly.",
+                    "illustrationDescription": "Brushing."
+                }
+            ]
+        },
+        {
+            "id": "industry-tanning",
+            "name": "Brain Tanning (Leather)",
+            "subtitle": "Preserve animal hides naturally",
+            "category": "Rebuilding",
+            "difficulty": 3,
+            "estimatedTime": "3 days",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Scrape all flesh and fat from the hide.",
+                    "helpDetail": "This is crucial. Use a dull blade or stone tool.",
+                    "illustrationDescription": "Scraping hide."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Mash the animal's brain in water to make a slurry.",
+                    "helpDetail": "Every animal has enough brains to tan its own hide. Rub this mixture into the hide thoroughly.",
+                    "illustrationDescription": "Brain mixture."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Stretch and smoke the hide.",
+                    "helpDetail": "Pull it constantly until dry to keep it soft. Smoke it over a fire to waterproof and preserve it.",
+                    "illustrationDescription": "Stretching frame."
+                }
+            ]
+        },
+        {
+            "id": "industry-basketry",
+            "name": "Basket Weaving",
+            "subtitle": "Carry goods and store food",
+            "category": "Rebuilding",
+            "difficulty": 2,
+            "estimatedTime": "4 hours",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Collect flexible vines, willow shoots, or roots.",
+                    "helpDetail": "Soak them in water to make them pliable.",
+                    "illustrationDescription": "Flexible vines."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Create the base (spokes) first.",
+                    "helpDetail": "Cross sticks in a star pattern and weave around them.",
+                    "illustrationDescription": "Star base pattern."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Weave the sides up (over-under pattern).",
+                    "helpDetail": "Keep tension even. Finish the rim securely by tucking ends back in.",
+                    "illustrationDescription": "Weaving sides."
+                }
+            ]
+        }
+    ],
+    "articles": []
+}

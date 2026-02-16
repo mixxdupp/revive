@@ -38,81 +38,141 @@ struct QuickActionsView: View {
     init() {}
     
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 32) {
-                
-                // MARK: - Warning
-                EmergencyBanner()
-                    .padding(.top, 16) // Top spacing
-                    .padding(.horizontal, 24)
-                
-                // MARK: - Header
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Quick Actions")
-                        .font(.system(size: 40, weight: .bold, design: .serif))
-                        .foregroundStyle(DesignSystem.textPrimary)
-                    Text("Life-Threatening — 1-Tap Access")
-                        .font(.body.weight(.medium))
-                        .foregroundStyle(DesignSystem.textSecondary)
+        ZStack {
+            // MARK: - Ambient Background
+            DesignSystem.backgroundPrimary
+                .ignoresSafeArea()
+            
+            // Subtle Mesh Gradient Simulation (Red/Orange for Urgency)
+            GeometryReader { proxy in
+                ZStack {
+                    Circle()
+                        .fill(Color.red.opacity(0.1))
+                        .frame(width: 300, height: 300)
+                        .blur(radius: 60)
+                        .offset(x: -100, y: -100)
+                    
+                    Circle()
+                        .fill(Color.orange.opacity(0.1))
+                        .frame(width: 300, height: 300)
+                        .blur(radius: 60)
+                        .offset(x: 200, y: 100)
                 }
-                .padding(.horizontal, 24)
-
-
-                // MARK: - Critical Techniques
-                // Moved to 2-column grid for density
-                LazyVGrid(columns: [
-                    GridItem(.flexible(), spacing: 16),
-                    GridItem(.flexible(), spacing: 16)
-                ], spacing: 16) {
-                    ForEach(criticalTechniques) { technique in
-                        NavigationLink(destination: StepCardPager(technique: technique)) {
-                            VStack(spacing: 12) {
-                                // Large Centered Icon
-                                Image(systemName: technique.icon)
-                                    .font(.system(size: 32, weight: .semibold))
-                                    .foregroundStyle(.white)
-                                    .frame(width: 64, height: 64)
-                                    .background(Color.red)
-                                    .clipShape(Circle()) // Circle for urgent feel
-                                    .shadow(color: Color.red.opacity(0.3), radius: 8, x: 0, y: 4)
-                                
-                                // Title Only (No subtitle for density)
-                                Text(technique.name)
-                                    .font(.headline)
-                                    .foregroundStyle(DesignSystem.textPrimary)
-                                    .multilineTextAlignment(.center)
-                                    .lineLimit(3) // Allow wrapping
-                                    .fixedSize(horizontal: false, vertical: true) // Grow vertically
-                            }
-                            .frame(maxWidth: .infinity)
-                            .padding(16)
-                            .background(Color(uiColor: .secondarySystemGroupedBackground))
-                            .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-                            .shadow(color: Color.black.opacity(0.06), radius: 6, x: 0, y: 3)
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-                    }
-                }
-                .padding(.horizontal, 24)
-                
-                if criticalTechniques.isEmpty {
-                    VStack(spacing: 12) {
-                        Image(systemName: "heart.text.square")
-                            .font(.system(size: 48))
-                            .foregroundStyle(DesignSystem.textSecondary.opacity(0.5))
-                        Text("Critical techniques will appear here")
-                            .font(.subheadline)
+                .frame(width: proxy.size.width, height: proxy.size.height)
+            }
+            .ignoresSafeArea()
+            
+            ScrollView {
+                VStack(alignment: .leading, spacing: 32) {
+                    
+                    // MARK: - Warning
+                    // Removed as per user request (Home only)
+                    
+                    // MARK: - Header
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Quick Actions")
+                            .font(.system(size: 42, weight: .black, design: .serif))
+                            .foregroundStyle(DesignSystem.textPrimary)
+                            .tracking(-0.5)
+                        
+                        Text("Life-Threatening — 1-Tap Access")
+                            .font(.system(size: 20, weight: .medium, design: .serif))
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 40)
-                }
+                    .padding(.horizontal, 24)
 
-                Spacer(minLength: 40)
+
+                    // MARK: - Critical Techniques
+                    LazyVGrid(columns: [
+                        GridItem(.flexible(), spacing: 16),
+                        GridItem(.flexible(), spacing: 16)
+                    ], spacing: 16) {
+                        ForEach(criticalTechniques) { technique in
+                            NavigationLink(destination: StepCardPager(technique: technique)) {
+                                GlassActionCell(technique: technique)
+                            }
+                            .buttonStyle(ScalableButtonStyle())
+                        }
+                    }
+                    .padding(.horizontal, 24)
+                    
+                    if criticalTechniques.isEmpty {
+                        VStack(spacing: 12) {
+                            Image(systemName: "heart.text.square")
+                                .font(.system(size: 48))
+                                .foregroundStyle(DesignSystem.textSecondary.opacity(0.5))
+                            Text("Critical techniques will appear here")
+                                .font(.subheadline)
+                                .foregroundStyle(DesignSystem.textSecondary)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 40)
+                    }
+
+                    Spacer(minLength: 40)
+                }
             }
         }
-        .background(Color(uiColor: .systemGroupedBackground))
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+// MARK: - Glass Action Cell
+struct GlassActionCell: View {
+    let technique: Technique
+    
+    var body: some View {
+        VStack(spacing: 16) {
+            // Large Icon
+            ZStack {
+                Circle()
+                    .fill(Color.red.opacity(0.15))
+                    .frame(width: 72, height: 72)
+                
+                Image(systemName: technique.icon)
+                    .font(.system(size: 32, weight: .semibold))
+                    .foregroundStyle(Color.red)
+            }
+            .shadow(color: Color.red.opacity(0.2), radius: 8, x: 0, y: 4)
+            
+            // Title
+            Text(LocalizedStringKey(technique.name))
+                .font(.system(size: 18, weight: .bold, design: .rounded))
+                .foregroundStyle(DesignSystem.textPrimary)
+                .multilineTextAlignment(.center)
+                .lineLimit(3)
+                .minimumScaleFactor(0.8)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(20)
+        .frame(maxWidth: .infinity)
+        .frame(minHeight: 180) // Taller for vertical layout
+        .background(
+            ZStack {
+                // Material Background
+                Rectangle()
+                    .fill(.ultraThinMaterial)
+                
+                // Red Gradient Tint
+                LinearGradient(
+                    colors: [
+                        Color.red.opacity(0.1),
+                        Color.red.opacity(0.02)
+                    ],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            }
+        )
+        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 24, style: .continuous)
+                .stroke(Color.red.opacity(0.2), lineWidth: 1)
+        )
+        .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 4)
+        .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
     }
 }

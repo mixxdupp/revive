@@ -1,0 +1,4 @@
+Filtering the log data using "process == "Revive""
+Timestamp               Ty Process[PID:TID]
+2026-02-12 23:34:21.616 Df Revive[72756:112b767] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.revive.survival-6A3C9EFD-049B-4026-AEB7-AB27EA553201  persistentID: 6A3C9EFD-049B-4026-AEB7-AB27EA553201
+2026-02-12 23:34:21.630 Df Revive[72756:112b767] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x10540c230> (6A3C9EFD-049B-4026-AEB7-AB27EA553201)

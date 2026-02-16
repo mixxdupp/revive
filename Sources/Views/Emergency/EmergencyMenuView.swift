@@ -15,123 +15,125 @@ struct EmergencyMenuView: View {
     ]
     
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 32) {
-                
-                // MARK: - Banner
-                EmergencyBanner()
-                    .padding(.horizontal, 24)
-                    .padding(.top, 16) // Top spacing
-                
-                // MARK: - Header (Clean Apple)
-                // Left-Aligned Large Title
-                if searchText.isEmpty {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("Emergency")
-                            .font(.system(size: 40, weight: .bold, design: .serif)) // New York
-                            .foregroundStyle(DesignSystem.textPrimary)
-                        
-                        Text("Select Situation")
-                            .font(.body)
-                            .fontWeight(.medium)
-                            .foregroundStyle(DesignSystem.textSecondary)
-                    }
-                    .padding(.horizontal, 24)
+        ZStack {
+            // MARK: - Ambient Background
+            DesignSystem.backgroundPrimary
+                .ignoresSafeArea()
+            
+            // Subtle Mesh Gradient Simulation
+            GeometryReader { proxy in
+                ZStack {
+                    Circle()
+                        .fill(Color.blue.opacity(0.1))
+                        .frame(width: 300, height: 300)
+                        .blur(radius: 60)
+                        .offset(x: -100, y: -100)
+                    
+                    Circle()
+                        .fill(Color.orange.opacity(0.1))
+                        .frame(width: 300, height: 300)
+                        .blur(radius: 60)
+                        .offset(x: 200, y: 100)
                 }
-                
-                // MARK: - SITUATIONS GRID (Shortcuts Style)
-                LazyVGrid(columns: columns, spacing: 16) {
-                    ForEach(filteredSituations) { situation in
-                        NavigationLink(destination: destinationView(for: situation)) {
-                            VStack(alignment: .leading, spacing: 12) {
-                                // Icon (Clean)
-                                Image(systemName: situation.icon)
-                                    .font(.system(size: 28))
-                                    .foregroundStyle(.white)
-                                
-                                Spacer()
-                                
-                                // Text (Clean)
-                                Text(situation.displayName)
-                                    .font(.title3) // Standard Title Size
-                                    .fontWeight(.bold)
-                                    .foregroundStyle(.white)
-                                    .multilineTextAlignment(.leading)
-                                    .lineLimit(2)
-                                    .fixedSize(horizontal: false, vertical: true)
-                            }
-                            .padding(20)
-                            .frame(maxWidth: .infinity, alignment: .leading) // Left alignment
-                            .frame(height: 140) // Standard box height
-                            .background(situation.color) // Vibrant Solid Color
-                            .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-                            // Subtle shadow
-                            .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
+                .frame(width: proxy.size.width, height: proxy.size.height)
+            }
+            .ignoresSafeArea()
+            
+            ScrollView {
+                VStack(alignment: .leading, spacing: 32) {
+                    
+                    // MARK: - Banner
+                    // Removed as per user request (Home only)
+                    
+                    // MARK: - Header (Clean Apple)
+                    // Left-Aligned Large Title
+                    // MARK: - Header (Brand Style)
+                    // Left-Aligned Large Title
+                    if searchText.isEmpty {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text("Emergency", comment: "Section Title")
+                                .font(.system(size: 42, weight: .black, design: .serif)) // Match Revive Brand
+                                .foregroundStyle(DesignSystem.textPrimary)
+                                .tracking(-0.5)
+                            
+                            Text("Fast response protocols", comment: "Section Subtitle")
+                                .font(.system(size: 20, weight: .medium, design: .serif)) // Match Subtitle Style
+                                .foregroundStyle(DesignSystem.textSecondary)
                         }
-                        .buttonStyle(ScalableButtonStyle())
+                        .padding(.horizontal, 24)
+                        .padding(.top, 20)
                     }
-                }
-                .padding(.horizontal, 24)
-                
-                // MARK: - Recently Viewed
-                if !RecentlyViewedService.shared.recentTechniques().isEmpty {
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("Recently Viewed")
-                            .font(.system(size: 20, weight: .bold, design: .serif))
-                            .foregroundStyle(DesignSystem.textPrimary)
-                        
-                        ForEach(RecentlyViewedService.shared.recentTechniques(limit: 5)) { technique in
-                            NavigationLink(destination: StepCardPager(technique: technique)) {
-                                HStack(spacing: 12) {
-                                    Image(systemName: technique.icon)
-                                        .font(.system(size: 18))
-                                        .foregroundStyle(technique.domain.color)
-                                        .frame(width: 36, height: 36)
-                                        .background(technique.domain.color.opacity(0.15))
-                                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                                    
-                                    VStack(alignment: .leading, spacing: 2) {
-                                        Text(technique.name)
-                                            .font(.subheadline.weight(.semibold))
-                                            .foregroundStyle(DesignSystem.textPrimary)
-                                        Text(technique.subtitle)
-                                            .font(.caption)
-                                            .foregroundStyle(DesignSystem.textSecondary)
-                                            .lineLimit(1)
+                    
+                    // MARK: - SITUATIONS GRID (Shortcuts Style)
+                    LazyVGrid(columns: columns, spacing: 16) {
+                        ForEach(filteredSituations) { situation in
+                            NavigationLink(destination: destinationView(for: situation)) {
+                                EmergencyCell(situation: situation)
+                            }
+                            .buttonStyle(ScalableButtonStyle())
+                        }
+                    }
+                    .padding(.horizontal, 24)
+                    
+                    // MARK: - Recently Viewed
+                    if !RecentlyViewedService.shared.recentTechniques().isEmpty {
+                        VStack(alignment: .leading, spacing: 16) {
+                            Text("Quick Access", comment: "Recently Viewed Header")
+                                .font(.title2)
+                                .fontWeight(.bold)
+                                .foregroundStyle(DesignSystem.textPrimary)
+                                .padding(.horizontal, 24)
+                            
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 16) {
+                                    ForEach(RecentlyViewedService.shared.recentTechniques(limit: 5)) { technique in
+                                        NavigationLink(destination: StepCardPager(technique: technique)) {
+                                            HStack(spacing: 12) {
+                                                Image(systemName: technique.icon)
+                                                    .font(.system(size: 20))
+                                                    .foregroundStyle(technique.domain.color)
+                                                    .frame(width: 44, height: 44)
+                                                    .background(.ultraThinMaterial)
+                                                    .clipShape(Circle())
+                                                
+                                                VStack(alignment: .leading, spacing: 2) {
+                                                    Text(LocalizedStringKey(technique.name))
+                                                        .font(.subheadline.weight(.semibold))
+                                                        .foregroundStyle(DesignSystem.textPrimary)
+                                                    Text(LocalizedStringKey(technique.subtitle))
+                                                        .font(.caption)
+                                                        .foregroundStyle(DesignSystem.textSecondary)
+                                                        .lineLimit(1)
+                                                }
+                                                .frame(maxWidth: 160, alignment: .leading)
+                                            }
+                                            .padding(12)
+                                            .background(.ultraThinMaterial)
+                                            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                                            .overlay(
+                                                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                                    .stroke(Color.white.opacity(0.2), lineWidth: 0.5)
+                                            )
+                                        }
+                                        .buttonStyle(ScalableButtonStyle())
                                     }
-                                    
-                                    Spacer()
-                                    
-                                    Image(systemName: "chevron.right")
-                                        .font(.caption.weight(.semibold))
-                                        .foregroundStyle(DesignSystem.textSecondary)
                                 }
-                                .padding(.vertical, 8)
-                                .padding(.horizontal, 14)
-                                .background(Color(uiColor: .secondarySystemGroupedBackground))
-                                .clipShape(RoundedRectangle(cornerRadius: 14))
+                                .padding(.horizontal, 24)
                             }
-                            .buttonStyle(.plain)
                         }
                     }
-                    .padding(.horizontal, 24)
+                    
+                    Spacer(minLength: 40)
                 }
-                
-                Spacer(minLength: 40)
             }
         }
-        .background(Color(uiColor: .systemGroupedBackground))
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
-        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search situations")
+        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: Text("Search situations", comment: "Search Placeholder"))
     }
     
-    @ViewBuilder
+
     func destinationView(for situation: EmergencySituation) -> some View {
-        if situation == .hurt {
-            BodyOutlineView()
-        } else {
-            InventoryQuestionView(situation: situation)
-        }
+        InventoryQuestionView(situation: situation)
     }
 }

@@ -1,0 +1,187 @@
+{
+    "domain": "tools",
+    "domainDisplayName": "Tools & Hacks",
+    "techniques": [
+        {
+            "id": "fire-battery-gum",
+            "name": "Battery & Gum Wrapper Fire",
+            "subtitle": "AA Battery + Foil Wrapper",
+            "category": "Urban Hacks",
+            "difficulty": 2,
+            "estimatedTime": "10 sec",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Cut a gum wrapper into an hourglass shape.",
+                    "helpDetail": "The foil side must be continuous. Cut the middle very thin (2mm). This creates high resistance.",
+                    "illustrationDescription": "Hourglass shape wrapper."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Touch the foil ends to the positive and negative terminals of a battery.",
+                    "helpDetail": "Use an AA or AAA battery. The thin middle strip will heat up and ignite the paper backing instantly.",
+                    "illustrationDescription": "Touching battery terminals."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Transfer the flame to your tinder bundle immediately.",
+                    "helpDetail": "The flame lasts only a second. Have your tinder ready.",
+                    "illustrationDescription": "Igniting tinder."
+                }
+            ]
+        },
+        {
+            "id": "fire-steel-wool",
+            "name": "Steel Wool & 9V Battery",
+            "subtitle": "Instant sparks for fire",
+            "category": "Urban Hacks",
+            "difficulty": 1,
+            "estimatedTime": "5 sec",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Fluff up a piece of fine steel wool (Grade 0000 is best).",
+                    "helpDetail": "Pull it apart to allow air flow.",
+                    "illustrationDescription": "Fluffed steel wool."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Touch the 9V battery terminals to the steel wool.",
+                    "helpDetail": "Sparks will fly immediately and travel through the wool like a fuse.",
+                    "illustrationDescription": "Touching 9V battery."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Blow on the glowing wool and add tinder.",
+                    "helpDetail": "It burns very hot (3000°F). Do not hold it in your bare hand if possible.",
+                    "illustrationDescription": "Blowing on embers."
+                }
+            ]
+        },
+        {
+            "id": "water-condom-canteen",
+            "name": "Condom Water Carrier",
+            "subtitle": "Emergency water storage (1-2 Liters)",
+            "category": "Urban Hacks",
+            "difficulty": 2,
+            "estimatedTime": "2 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Remove lubricant if possible (wash with water/sand).",
+                    "helpDetail": "Ideally use unlubricated, but in survival, hydration takes priority.",
+                    "illustrationDescription": "Washing condom."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Place the condom inside a sock or shirt sleeve BEFORE filling.",
+                    "helpDetail": "Condoms are fragile when full. The sock provides structural support and protection from puncture.",
+                    "illustrationDescription": "Condom in sock."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Fill carefully with water and tie off the end.",
+                    "helpDetail": "Can hold up to 2 liters. Carry carefully by the sock/fabric, not the latex.",
+                    "illustrationDescription": "Filled canteen."
+                }
+            ]
+        },
+        {
+            "id": "firstaid-tampon-dressing",
+            "name": "Tampon Wound Dressing",
+            "subtitle": "Sterile, highly absorbent bandage",
+            "category": "Urban Hacks",
+            "difficulty": 1,
+            "estimatedTime": "30 sec",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Open tampon package. Fluff out the cotton material.",
+                    "helpDetail": "It is sterile and packed with high-absorbency cotton. Great for plugging puncture wounds.",
+                    "illustrationDescription": "Fluffed tampon."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Push into deep wounds or tape over surface cuts.",
+                    "helpDetail": "For gunshot/puncture wounds, pack it inside. For cuts, flatten it out as a gaze pad.",
+                    "illustrationDescription": "Packing wound."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Secure with duct tape or fabric strip.",
+                    "helpDetail": "Maintain pressure to stop bleeding.",
+                    "illustrationDescription": "Taped dressing."
+                }
+            ]
+        },
+        {
+            "id": "firstaid-duct-tape-butterfly",
+            "name": "Duct Tape Butterfly Stitch",
+            "subtitle": "Close wounds without suture kit",
+            "category": "Urban Hacks",
+            "difficulty": 2,
+            "estimatedTime": "2 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Cut two small strips of duct tape. Twist the middle of one strip.",
+                    "helpDetail": "Twisting the middle creates a non-sticky bridge that goes over the wound.",
+                    "illustrationDescription": "Twisted tape strip."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Stick one end to skin, pull wound closed, then stick other end.",
+                    "helpDetail": "Actively pull the skin edges together before securing the second side.",
+                    "illustrationDescription": "Pulling wound closed."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Method 2: Cut 'H' or Butterfly shape from tape.",
+                    "helpDetail": "Cut notches in the sides of a strip to make a narrow bridge.",
+                    "illustrationDescription": "Butterfly shape cut."
+                }
+            ]
+        },
+        {
+            "id": "rescue-cd-mirror",
+            "name": "CD Signal Mirror",
+            "subtitle": "Use old disc for rescue signaling",
+            "category": "Urban Hacks",
+            "difficulty": 1,
+            "estimatedTime": "1 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Use the shiny side of a CD or DVD.",
+                    "helpDetail": "Data side reflects light better than the label side.",
+                    "illustrationDescription": "Shiny CD side."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Look through the center hole at your target (plane/boat).",
+                    "helpDetail": "The hole acts as an aiming sight.",
+                    "illustrationDescription": "Aiming through hole."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Flash the sunlight across the target repeatedly.",
+                    "helpDetail": "Tilt the CD back and forth to sweep the beam across the rescuer's field of view.",
+                    "illustrationDescription": "Flashing light."
+                }
+            ]
+        }
+    ],
+    "articles": []
+}

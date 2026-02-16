@@ -15,27 +15,7 @@ class ContentDatabase: ObservableObject {
     @Published var articles: [Article] = []
     @Published var triageTrees: [EmergencySituation: TriageNode] = [:]
     
-    func search(query: String) -> [Technique] {
-        guard !query.isEmpty else { return [] }
-        let lowerQuery = query.lowercased()
-        
-        return techniques.filter { technique in
-            technique.name.lowercased().contains(lowerQuery) ||
-            technique.subtitle.lowercased().contains(lowerQuery) ||
-            technique.steps.contains { step in
-                step.instruction.lowercased().contains(lowerQuery) ||
-                step.helpDetail.lowercased().contains(lowerQuery)
-            }
-        }.sorted { t1, t2 in
-            // Prioritize title matches
-            let t1NameMatch = t1.name.lowercased().contains(lowerQuery)
-            let t2NameMatch = t2.name.lowercased().contains(lowerQuery)
-            
-            if t1NameMatch && !t2NameMatch { return true }
-            if !t1NameMatch && t2NameMatch { return false }
-            return t1.name < t2.name
-        }
-    }
+
 
     // MARK: - Related Techniques
     
@@ -76,7 +56,9 @@ class ContentDatabase: ObservableObject {
         let domains = [
             "fire", "shelter", "water", "navigation",
             "firstaid", "food", "rescue", "psychology",
-            "environments", "tools"
+            "environments", "tools",
+            "advanced_firstaid", "advanced_tools", "advanced_environments",
+            "hacks_general", "rebuilding_civilization" // Phase 5 content
         ]
         for domain in domains {
             loadDomainFromJSON(fileName: domain)
@@ -114,7 +96,7 @@ class ContentDatabase: ObservableObject {
             self.articles.append(contentsOf: articles)
             NSLog("REVIVE: Loaded %@: %d techniques, %d articles.", domainContent.domainDisplayName, techniques.count, articles.count)
         } catch {
-            NSLog("REVIVE: Failed to decode %@.json: %@", fileName, error.localizedDescription)
+            NSLog("REVIVE: Failed to decode %@.json: %@", fileName, String(describing: error))
         }
     }
     
@@ -126,7 +108,48 @@ class ContentDatabase: ObservableObject {
         articles.filter { $0.domain == domain }
     }
 
-    // MARK: - Deep Triage Trees
+    // MARK: - Search
+    func search(query: String) -> [Technique] {
+        let lowerQuery = query.localizedLowercase
+        return techniques.filter { technique in
+            technique.name.localizedLowercase.contains(lowerQuery) ||
+            technique.subtitle.localizedLowercase.contains(lowerQuery) ||
+            technique.category.localizedLowercase.contains(lowerQuery) ||
+            technique.domain.displayName.localizedLowercase.contains(lowerQuery)
+        }
+    }
+
+    // MARK: - Helper
+    func getTechnique(id: String) -> Technique? {
+        return techniques.first { $0.id == id }
+    }
+
+    // MARK: - Inventory Logic
+    func findTechniques(forItems items: Set<String>) -> [Technique] {
+        if items.isEmpty { return [] }
+        
+        // rudimentary keyword matching
+        // In a real app, we'd have a 'materials' array on Technique.
+        // Here we scan steps and description for the item name.
+        
+        return techniques.filter { technique in
+            for item in items {
+                let lowerItem = item.localizedLowercase
+                // Check title/subtitle
+                if technique.name.localizedLowercase.contains(lowerItem) { return true }
+                if technique.subtitle.localizedLowercase.contains(lowerItem) { return true }
+                
+                // Check steps
+                for step in technique.steps {
+                    if step.instruction.localizedLowercase.contains(lowerItem) { return true }
+                    if step.helpDetail.localizedLowercase.contains(lowerItem) { return true }
+                }
+            }
+            return false
+        }
+    }
+
+    // MARK: - Triage Builders
     private func buildTriageTrees() {
         triageTrees[.cold] = buildColdTriage()
         triageTrees[.noFire] = buildFireTriage()
@@ -138,6 +161,88 @@ class ContentDatabase: ObservableObject {
         triageTrees[.animal] = buildAnimalTriage()
         triageTrees[.inWater] = buildInWaterTriage()
         triageTrees[.shelter] = buildShelterTriage()
+        triageTrees[.hurt] = buildHurtTriage()
+    }
+
+    // =========================================================================
+    // MARK: - FIRST AID / HURT (New - Phase 2)
+    // =========================================================================
+    private func buildHurtTriage() -> TriageNode {
+        TriageNode(id: "hurt-root", question: "What is the primary injury?", options: [
+
+            // 1. BLEEDING
+            TriageOption(id: "hurt-bleeding", label: "Bleeding (Severe)", icon: "drop.fill", destination: .nextQuestion(
+                TriageNode(id: "hurt-bleed-q", question: "Is it life-threatening?", options: [
+                    TriageOption(id: "bleed-limb", label: "Spurting from Arm/Leg", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-tourniquet")),
+                    TriageOption(id: "bleed-torso", label: "Chest / Abdomen / Neck", icon: "shield.fill", destination: .technique("firstaid-wound-packing")), // Orphan
+                    TriageOption(id: "bleed-clot", label: "Won't Stop Bleeding", icon: "bandage.fill", destination: .technique("firstaid-pressure-bandage"))
+                ])
+            )),
+
+            // 2.5 HEAD INJURY
+            TriageOption(id: "hurt-head", label: "Head / Eye / Mouth", icon: "brain.head.profile", destination: .nextQuestion(
+                TriageNode(id: "hurt-head-q", question: "What is the issue?", options: [
+                    TriageOption(id: "head-concussion", label: "Hit Head / Dizziness", icon: "brain.head.profile", destination: .technique("firstaid-concussion")),
+                    TriageOption(id: "head-tooth", label: "Toothache / Broken Tooth", icon: "mouth.fill", destination: .technique("firstaid-tooth-emergency")), // Added orphan
+                    TriageOption(id: "head-eye", label: "Eye Injury", icon: "eye.fill", destination: .technique("firstaid-eye-injury"))
+                ])
+            )),
+
+            // 2. BREATHING / CHOKING
+            TriageOption(id: "hurt-airway", label: "Breathing / Choking", icon: "lungs.fill", destination: .nextQuestion(
+                TriageNode(id: "hurt-choke-q", question: "Is the airway blocked?", options: [
+                    TriageOption(id: "choke-adult", label: "Choking (Adult/Child)", icon: "figure.stand", destination: .technique("firstaid-heimlich")), // Orphan
+                    TriageOption(id: "choke-infant", label: "Choking (Infant)", icon: "figure.baby", destination: .technique("firstaid-choking-infant")),
+                    TriageOption(id: "choke-uncon", label: "Unconscious / No Breathing", icon: "heart.fill", destination: .technique("firstaid-cpr"))
+                ])
+            )),
+
+            // 3. FRACTURES / SPRAINS
+            TriageOption(id: "hurt-bone", label: "Broken Bone / Sprain", icon: "cross.case.fill", destination: .nextQuestion(
+                TriageNode(id: "hurt-bone-q", question: "Which body part?", options: [
+                    TriageOption(id: "bone-leg", label: "Upper Leg / Thigh (Femur)", icon: "figure.walk", destination: .technique("firstaid-femur-traction")), // Orphan
+                    TriageOption(id: "bone-arm", label: "Arm / Wrist", icon: "hand.raised.fill", destination: .technique("firstaid-arm-splint")),
+                    TriageOption(id: "bone-leg-lower", label: "Lower Leg / Ankle", icon: "figure.walk", destination: .technique("firstaid-leg-splint")),
+                    TriageOption(id: "bone-neck", label: "Neck / Back (Spine)", icon: "figure.stand", destination: .technique("firstaid-spinal-immobilization"))
+                ])
+            )),
+
+            // 4. BITES & STINGS
+            TriageOption(id: "hurt-bite", label: "Bite or Sting", icon: "ant.fill", destination: .nextQuestion(
+                TriageNode(id: "hurt-bite-q", question: "What bit you?", options: [
+                    TriageOption(id: "bite-snake", label: "Snake Bite", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-snake-bite")),
+                    TriageOption(id: "bite-spider", label: "Spider / Insect", icon: "ant.fill", destination: .technique("firstaid-spider-bite")),
+                    TriageOption(id: "bite-tick", label: "Tick Attached", icon: "circle.circle.fill", destination: .technique("firstaid-tick-removal")),
+                    TriageOption(id: "bite-animal", label: "Animal Bite", icon: "pawprint.fill", destination: .technique("firstaid-wound-cleaning"))
+                ])
+            )),
+            
+            // 5. POISON / SICKNESS
+            TriageOption(id: "hurt-sick", label: "Poison / Sickness", icon: "flask.fill", destination: .nextQuestion(
+                TriageNode(id: "hurt-sick-q", question: "What happened?", options: [
+                    TriageOption(id: "sick-poison", label: "Swallowed Poison", icon: "skull.fill", destination: .techniqueList(["firstaid-poison", "firstaid-poison-response"])), // Added orphan
+                    TriageOption(id: "sick-fever", label: "High Fever / Infection", icon: "thermometer", destination: .technique("firstaid-fever")), // Added orphan
+                    TriageOption(id: "sick-allergic", label: "Allergic Reaction", icon: "allergens.fill", destination: .technique("firstaid-anaphylaxis")),
+                    TriageOption(id: "sick-shock", label: "Shock (Pale, Clammy)", icon: "bolt.heart.fill", destination: .technique("firstaid-shock"))
+                ])
+            )),
+
+            // 6. BURNS
+            TriageOption(id: "hurt-burns", label: "Burns", icon: "flame.fill", destination: .technique("firstaid-burn")),
+
+            // 7. EXTREME / SURGICAL
+            TriageOption(id: "hurt-extreme", label: "Extreme Measures (Last Resort)", icon: "exclamationmark.shield.fill", destination: .nextQuestion(
+                TriageNode(id: "hurt-extreme-q", question: "What is the critical failure?", options: [
+                    TriageOption(id: "ext-shoulder", label: "Dislocated Shoulder", icon: "figure.arms.open", destination: .technique("firstaid-shoulder-reduction")),
+                    TriageOption(id: "ext-abscess", label: "Dental Abscess / Infection", icon: "mouth.fill", destination: .technique("firstaid-dental-abscess")),
+                    TriageOption(id: "ext-suture", label: "Wound Needs Closing", icon: "pencil.line", destination: .technique("firstaid-superglue-suture")),
+                    TriageOption(id: "ext-hack-tampon", label: "Tampon Dressing", icon: "capsule.fill", destination: .technique("firstaid-tampon-dressing")), // Phase 5
+                    TriageOption(id: "ext-hack-tape", label: "Duct Tape Stitch", icon: "tape", destination: .technique("firstaid-duct-tape-butterfly")), // Phase 5
+                    TriageOption(id: "ext-fishhook", label: "Fishhook Embedded", icon: "hook", destination: .technique("firstaid-fishhook-removal")),
+                    TriageOption(id: "ext-amputate", label: "Trapped Limb (Amputation)", icon: "scissors", destination: .technique("firstaid-finger-amputation"))
+                ])
+            ))
+        ])
     }
 
     // =========================================================================
@@ -157,15 +262,15 @@ class ContentDatabase: ObservableObject {
                                 TriageNode(id: "cold-tarp-weather", question: "What's the weather?", options: [
                                     TriageOption(id: "cold-tarp-rain", label: "Raining", icon: "cloud.rain.fill", destination: .technique("shelter-tarp-aframe")),
                                     TriageOption(id: "cold-tarp-snow", label: "Snowing", icon: "cloud.snow.fill", destination: .technique("shelter-tarp-leanto")),
-                                    TriageOption(id: "cold-tarp-dry", label: "Dry but Cold", icon: "wind", destination: .technique("shelter-tarp-diamond")),
-                                    TriageOption(id: "cold-tarp-wind", label: "Very Windy", icon: "wind", destination: .technique("shelter-tarp-cfly"))
+                                    TriageOption(id: "cold-tarp-dry", label: "Dry but Cold", icon: "wind", destination: .techniqueList(["shelter-tarp-diamond", "shelter-tarp-plowpoint"])), // Added orphan
+                                    TriageOption(id: "cold-tarp-wind", label: "Very Windy", icon: "wind", destination: .techniqueList(["shelter-tarp-cfly", "shelter-storm-proofing"])) // Added orphan
                                 ])
                             )),
                             TriageOption(id: "cold-rope-only", label: "Rope / Cordage Only", icon: "line.diagonal", destination: .technique("shelter-lean-to")),
                             TriageOption(id: "cold-nothing", label: "Nothing at All", icon: "xmark.circle.fill", destination: .nextQuestion(
                                 TriageNode(id: "cold-debris-q", question: "Is there debris on the ground?", options: [
                                     TriageOption(id: "cold-debris-yes", label: "Lots of Leaves & Branches", icon: "leaf.fill", destination: .technique("shelter-debris-aframe")),
-                                    TriageOption(id: "cold-debris-round", label: "Some — Can Pile Up", icon: "circle.fill", destination: .technique("shelter-debris-round")),
+                                    TriageOption(id: "cold-debris-round", label: "Some — Can Pile Up", icon: "circle.fill", destination: .techniqueList(["shelter-debris-round", "shelter-natural-hollow"])), // Added orphan
                                     TriageOption(id: "cold-debris-bare", label: "Bare Ground", icon: "xmark.circle", destination: .technique("shelter-tree-well"))
                                 ])
                             )),
@@ -179,7 +284,7 @@ class ContentDatabase: ObservableObject {
                             TriageOption(id: "cold-snow-deep", label: "Waist-Deep or More", icon: "arrow.down.to.line", destination: .nextQuestion(
                                 TriageNode(id: "cold-snow-tool", question: "Do you have a digging tool?", options: [
                                     TriageOption(id: "cold-snow-shovel", label: "Shovel / Pot / Flat Object", icon: "square.fill", destination: .technique("shelter-quinzhee")),
-                                    TriageOption(id: "cold-snow-hands", label: "Bare Hands Only", icon: "hand.raised.fill", destination: .technique("shelter-snow-trench"))
+                                    TriageOption(id: "cold-snow-hands", label: "Bare Hands / Stick", icon: "hand.raised.fill", destination: .techniqueList(["shelter-snow-trench", "tools-digging-stick"])) // Added orphan
                                 ])
                             )),
                             TriageOption(id: "cold-snow-shallow", label: "Shallow / Hard Pack", icon: "rectangle.fill", destination: .technique("shelter-snow-trench")),
@@ -262,7 +367,8 @@ class ContentDatabase: ObservableObject {
                                         ])
                                     )),
                                     TriageOption(id: "cold-severe", label: "Confused, Poor Coordination", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-hypothermia")),
-                                    TriageOption(id: "cold-frostbite", label: "Numbness, White/Gray Skin", icon: "hand.raised.fill", destination: .technique("env-arctic-frostbite"))
+                                    TriageOption(id: "cold-frostbite", label: "Numbness, White/Gray Skin", icon: "hand.raised.fill", destination: .technique("env-arctic-frostbite")),
+                                    TriageOption(id: "cold-trenchfoot", label: "Wet/Soggy Feet (Painful)", icon: "drop.fill", destination: .technique("firstaid-trench-foot")) // Added orphan
                                 ])
                             )),
                             TriageOption(id: "cold-hypo-other", label: "Someone Else", icon: "person.2.fill", destination: .nextQuestion(
@@ -312,19 +418,26 @@ class ContentDatabase: ObservableObject {
 
             // Lighter / Matches
             TriageOption(id: "fire-lighter", label: "Lighter or Matches", icon: "flame.fill", destination: .nextQuestion(
-                TriageNode(id: "fire-cond", question: "What are conditions like?", options: [
-                    TriageOption(id: "fire-dry", label: "Dry Conditions", icon: "sun.max.fill", destination: .nextQuestion(
-                        TriageNode(id: "fire-goal", question: "What's your goal?", options: [
-                            TriageOption(id: "fire-quick", label: "Quick Heat", icon: "flame.fill", destination: .technique("fire-teepee")),
-                            TriageOption(id: "fire-cooking", label: "Cooking Fire", icon: "frying.pan.fill", destination: .technique("fire-log-cabin")),
-                            TriageOption(id: "fire-overnight", label: "All-Night Fire", icon: "moon.fill", destination: .technique("fire-long-fire")),
-                            TriageOption(id: "fire-stealth", label: "Low Smoke / Tactical", icon: "eye.slash.fill", destination: .technique("fire-dakota-hole")),
-                            TriageOption(id: "fire-signal", label: "Signal Fire", icon: "antenna.radiowaves.left.and.right", destination: .technique("rescue-signal-fire"))
+                TriageNode(id: "fire-cond", question: "Do you have a kit?", options: [
+                    TriageOption(id: "fire-kit-yes", label: "Yes — Waterproof Kit", icon: "archivebox.fill", destination: .technique("fire-waterproof-kit")), // Added orphan
+                    TriageOption(id: "fire-kit-no", label: "No — Standard Lighter", icon: "flame.fill", destination: .nextQuestion(
+                        TriageNode(id: "fire-standard-cond", question: "Current Conditions?", options: [
+                            TriageOption(id: "fire-dry", label: "Dry Conditions", icon: "sun.max.fill", destination: .nextQuestion(
+                                TriageNode(id: "fire-goal", question: "What's your goal?", options: [
+                                    TriageOption(id: "fire-lay-teepee", label: "Teepee (Standard)", icon: "cone.fill", destination: .technique("fire-teepee")),
+                                    TriageOption(id: "fire-lay-log", label: "Log Cabin (Long Burn)", icon: "square.grid.2x2.fill", destination: .techniqueList(["fire-log-cabin", "fire-upside-down"])), // Added orphan
+                                    TriageOption(id: "fire-lay-star", label: "Star Fire (Efficient)", icon: "star.fill", destination: .technique("fire-star-fire")), // Added orphan
+                                    TriageOption(id: "fire-lay-lean", label: "Lean-To (Windy)", icon: "arrow.up.right", destination: .technique("fire-lean-to")),
+                                    TriageOption(id: "fire-stealth", label: "Low Smoke / Tactical", icon: "eye.slash.fill", destination: .technique("fire-dakota-hole")),
+                                    TriageOption(id: "fire-signal", label: "Signal Fire", icon: "antenna.radiowaves.left.and.right", destination: .technique("rescue-signal-fire")),
+                                    TriageOption(id: "fire-goal-bug", label: "Repel Insects", icon: "ant.fill", destination: .technique("fire-insect-repellent")) // Added orphan
+                                ])
+                            )),
+                            TriageOption(id: "fire-wet", label: "Raining / Wet Wood", icon: "cloud.rain.fill", destination: .technique("fire-wet-conditions")),
+                            TriageOption(id: "fire-wind", label: "Very Windy", icon: "wind", destination: .technique("fire-dakota-hole")),
+                            TriageOption(id: "fire-snow-cond", label: "Snow on Ground", icon: "snowflake", destination: .technique("fire-wet-conditions"))
                         ])
-                    )),
-                    TriageOption(id: "fire-wet", label: "Raining / Wet Wood", icon: "cloud.rain.fill", destination: .technique("fire-wet-conditions")),
-                    TriageOption(id: "fire-wind", label: "Very Windy", icon: "wind", destination: .technique("fire-dakota-hole")),
-                    TriageOption(id: "fire-snow-cond", label: "Snow on Ground", icon: "snowflake", destination: .technique("fire-wet-conditions"))
+                    ))
                 ])
             )),
 
@@ -333,8 +446,8 @@ class ContentDatabase: ObservableObject {
                 TriageNode(id: "fire-ferro-tinder", question: "Do you have good tinder?", options: [
                     TriageOption(id: "fire-ferro-good", label: "Birch Bark / Lint / Dry Grass", icon: "leaf.fill", destination: .nextQuestion(
                          TriageNode(id: "fire-tinder-type", question: "What kind?", options: [
-                            TriageOption(id: "fire-tinder-natural", label: "Natural (Bark/Grass)", icon: "leaf.fill", destination: .technique("fire-ferrorod")),
-                            TriageOption(id: "fire-tinder-man", label: "Man-Made (Lint/Paper)", icon: "doc.text.fill", destination: .technique("fire-ferrorod"))
+                            TriageOption(id: "fire-tinder-natural", label: "Natural (Bark/Grass)", icon: "leaf.fill", destination: .techniqueList(["fire-ferrorod", "fire-birch-bark"])), // Added orphan
+                            TriageOption(id: "fire-tinder-man", label: "Man-Made (Lint/Paper/Jute)", icon: "doc.text.fill", destination: .techniqueList(["fire-ferrorod", "fire-jute-twine"])) // Added orphan
                          ])
                     )),
                     TriageOption(id: "fire-ferro-none", label: "No Tinder Available", icon: "xmark.circle.fill", destination: .nextQuestion(
@@ -362,6 +475,12 @@ class ContentDatabase: ObservableObject {
             // Chemical
             TriageOption(id: "fire-chemical", label: "Potassium Permanganate + Glycerin", icon: "flask.fill", destination: .technique("fire-chemical")),
 
+            // Compression (Piston)
+            TriageOption(id: "fire-piston", label: "Fire Piston", icon: "cylinder.split.1x2.fill", destination: .technique("fire-piston")), // Orphan
+
+            // Pet Jelly
+            TriageOption(id: "fire-vaseline", label: "Cotton Balls + Vaseline", icon: "cross.vial.fill", destination: .technique("fire-vaseline-cotton")), // Orphan
+
             // NOTHING — Primitive
             TriageOption(id: "fire-nothing", label: "Nothing — No Tools", icon: "xmark.circle.fill", destination: .nextQuestion(
                 TriageNode(id: "fire-sun-q", question: "Is the sun visible?", options: [
@@ -369,6 +488,7 @@ class ContentDatabase: ObservableObject {
                         TriageNode(id: "fire-solar", question: "Do you have anything to focus light?", options: [
                             TriageOption(id: "fire-lens", label: "Glasses / Magnifying Lens", icon: "magnifyingglass", destination: .technique("fire-magnifying")),
                             TriageOption(id: "fire-bottle", label: "Clear Water Bottle", icon: "waterbottle.fill", destination: .technique("fire-magnifying")),
+                            TriageOption(id: "fire-solar-can", label: "Soda Can / Reflector", icon: "circle.fill", destination: .technique("fire-chocolate-can")), // Added orphan
                             TriageOption(id: "fire-ice-avail", label: "Clear Ice Available", icon: "snowflake", destination: .technique("fire-ice-lens")),
                             TriageOption(id: "fire-no-lens", label: "Nothing to Focus Light", icon: "xmark.circle.fill", destination: .technique("fire-bowdrill"))
                         ])
@@ -377,10 +497,19 @@ class ContentDatabase: ObservableObject {
                         TriageNode(id: "fire-friction", question: "What wood is available?", options: [
                             TriageOption(id: "fire-softwood", label: "Softwood (Cedar, Willow, Poplar)", icon: "tree.fill", destination: .technique("fire-bowdrill")),
                             TriageOption(id: "fire-bamboo-avail", label: "Bamboo Available", icon: "leaf.fill", destination: .technique("fire-firesaw")),
-                            TriageOption(id: "fire-handdrill-avail", label: "Cattail / Mullein Stalks", icon: "wand.and.stars", destination: .technique("fire-handdrill")),
+                            TriageOption(id: "fire-handdrill-avail", label: "Cattail / Mullein Stalks", icon: "wand.and.stars", destination: .techniqueList(["fire-handdrill", "tools-hand-drill-improvement"])), // Added orphan
                             TriageOption(id: "fire-plow-avail", label: "Flat Board + Hard Stick", icon: "rectangle.fill", destination: .technique("fire-fire-plow"))
                         ])
                     ))
+                ])
+            )),
+
+            // 8. HOUSEHOLD HACKS (Phase 5)
+            TriageOption(id: "fire-hacks", label: "Household Hacks", icon: "lightbulb.fill", destination: .nextQuestion(
+                TriageNode(id: "fire-hacks-q", question: "What do you have?", options: [
+                    TriageOption(id: "fire-hack-batt", label: "Battery & Wrapper", icon: "battery.100", destination: .technique("fire-battery-gum")),
+                    TriageOption(id: "fire-hack-wool", label: "Steel Wool & 9V", icon: "bolt.fill", destination: .technique("fire-steel-wool")),
+                    TriageOption(id: "fire-hack-can", label: "Soda Can & Chocolate", icon: "circle.fill", destination: .technique("fire-chocolate-can"))
                 ])
             ))
         ])
@@ -400,11 +529,25 @@ class ContentDatabase: ObservableObject {
                             TriageOption(id: "water-clear", label: "Clear / Running", icon: "drop.fill", destination: .nextQuestion(
                         TriageNode(id: "water-purify", question: "How can you purify it?", options: [
                             TriageOption(id: "water-boil", label: "Can Make Fire → Boil", icon: "flame.fill", destination: .technique("water-boiling")),
+                            TriageOption(id: "water-store", label: "Storage / Transport", icon: "bag.fill", destination: .nextQuestion(
+                                TriageNode(id: "water-store-q", question: "Container type?", options: [
+                                    TriageOption(id: "water-store-bottle", label: "Water Bottle / Canteen", icon: "waterbottle.fill", destination: .technique("water-rationing")),
+                                    TriageOption(id: "water-store-hacks", label: "Improvised Options", icon: "lightbulb.fill", destination: .techniqueList(["water-condom-canteen", "water-transpiration-bag"])), // Phase 5
+                                    TriageOption(id: "water-store-natural", label: "Natural Containers", icon: "leaf.fill", destination: .technique("tools-bark-container"))
+                                ])
+                            )),
                             TriageOption(id: "water-tabs", label: "Have Purification Tablets / Iodine", icon: "pills.fill", destination: .technique("water-iodine")),
                             TriageOption(id: "water-uv", label: "Clear Bottle + Strong Sun", icon: "sun.max.fill", destination: .technique("water-uv-purification")),
-                            TriageOption(id: "water-filter-material", label: "Sand / Gravel / Charcoal", icon: "line.3.horizontal.decrease.circle", destination: .technique("water-charcoal-filter")),
+                            TriageOption(id: "water-filter-material", label: "Sand / Gravel / Charcoal", icon: "line.3.horizontal.decrease.circle", destination: .techniqueList(["water-charcoal-filter", "water-activated-charcoal"])), // Added orphan
                             TriageOption(id: "water-cloth-only", label: "Cloth / Sock Only", icon: "tshirt.fill", destination: .technique("water-filter-sock")),
                             TriageOption(id: "water-nothing-purify", label: "Nothing — Must Drink As-Is", icon: "exclamationmark.triangle.fill", destination: .technique("water-boiling"))
+                        ])
+                    )),
+                    TriageOption(id: "water-rain", label: "Rain / Precipitation", icon: "cloud.rain.fill", destination: .nextQuestion(
+                        TriageNode(id: "water-rain-q", question: "How will you catch it?", options: [
+                            TriageOption(id: "water-rain-cont", label: "Bottles / Containers", icon: "cup.and.saucer.fill", destination: .technique("water-rain-collection")),
+                            TriageOption(id: "water-rain-tarp", label: "Tarp / Poncho Catch", icon: "square.fill", destination: .technique("water-tarp-rain-catch")), // Added orphan
+                            TriageOption(id: "water-rain-clothes", label: "Soak Clothes & Wring", icon: "tshirt.fill", destination: .technique("water-rain-collection"))
                         ])
                     )),
                     TriageOption(id: "water-murky", label: "Murky / Standing / Stagnant", icon: "drop.triangle.fill", destination: .nextQuestion(
@@ -430,22 +573,23 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "water-plastic", label: "Plastic Sheet / Bag", icon: "bag.fill", destination: .technique("water-solar-still")),
                     TriageOption(id: "water-plants", label: "Vegetation Nearby", icon: "leaf.fill", destination: .nextQuestion(
                         TriageNode(id: "water-veg", question: "What type of vegetation?", options: [
-                            TriageOption(id: "water-trees", label: "Trees / Bushes with Leaves", icon: "tree.fill", destination: .technique("water-transpiration-bag")),
-                            TriageOption(id: "water-cactus", label: "Barrel Cactus / Succulents", icon: "leaf.fill", destination: .technique("water-vegetation-indicators")),
+                            TriageOption(id: "water-trees", label: "Trees / Bushes with Leaves", icon: "tree.fill", destination: .techniqueList(["water-transpiration-bag", "food-pine-tea"])), // Added orphan
+                            TriageOption(id: "water-cactus", label: "Barrel Cactus / Succulents", icon: "leaf.fill", destination: .techniqueList(["water-vegetation-indicators", "water-cactus-extraction"])), // Added orphan
                             TriageOption(id: "water-grass", label: "Grass (Early Morning)", icon: "sunrise.fill", destination: .technique("water-dew-collection"))
                         ])
                     )),
                     TriageOption(id: "water-dry-river", label: "Near Dry Riverbed", icon: "line.diagonal", destination: .technique("water-vegetation-indicators")),
-                    TriageOption(id: "water-rock-face", label: "Rock Faces Nearby", icon: "triangle.fill", destination: .technique("water-rock-seepage")),
-                    TriageOption(id: "water-barren", label: "Nothing — Barren", icon: "xmark.circle.fill", destination: .technique("water-solar-still")),
-                    TriageOption(id: "water-condense", label: "Metal Surface Available", icon: "rectangle.fill", destination: .technique("water-condensation-trap"))
+                    TriageOption(id: "water-rock-face", label: "Rock Faces Nearby", icon: "triangle.fill", destination: .techniqueList(["water-rock-seepage", "water-spring-identification"])), // Added orphan
+                    TriageOption(id: "water-barren", label: "Nothing — Barren", icon: "xmark.circle.fill", destination: .techniqueList(["water-solar-still", "water-well-digging"])), // Added orphan
+                    TriageOption(id: "water-condense", label: "Metal Surface Available", icon: "rectangle.fill", destination: .technique("water-condensation-trap")),
+                    TriageOption(id: "water-fog", label: "High Altitude / Coastal Fog", icon: "cloud.fog.fill", destination: .technique("water-fog-nets")) // Orphan
                 ])
             )),
 
             // Snow / Ice
             TriageOption(id: "water-snow", label: "Snow / Ice Available", icon: "snowflake", destination: .nextQuestion(
                 TriageNode(id: "water-snow-q", question: "Can you make fire?", options: [
-                    TriageOption(id: "water-snow-fire", label: "Yes — Can Melt Snow", icon: "flame.fill", destination: .technique("water-snow-ice")),
+                    TriageOption(id: "water-snow-fire", label: "Yes — Can Melting Snow", icon: "flame.fill", destination: .technique("water-snow-melting")), // Fixed from water-snow-ice
                     TriageOption(id: "water-snow-nofire", label: "No Fire — Body Heat Only", icon: "person.fill", destination: .technique("water-snow-ice")),
                     TriageOption(id: "water-ice-clear", label: "Clear Ice (Not Sea Ice)", icon: "cube.fill", destination: .technique("water-snow-ice"))
                 ])
@@ -455,7 +599,8 @@ class ContentDatabase: ObservableObject {
             TriageOption(id: "water-ocean", label: "At Sea / Coastal", icon: "sailboat.fill", destination: .nextQuestion(
                 TriageNode(id: "water-sea-q", question: "What's available?", options: [
                     TriageOption(id: "water-rain-exp", label: "Rain Expected", icon: "cloud.rain.fill", destination: .technique("water-rain-collection")),
-                    TriageOption(id: "water-sea-plastic", label: "Container + Sun", icon: "sun.max.fill", destination: .technique("water-solar-still")),
+                    TriageOption(id: "water-sea-desal", label: "Desalination Kit / Solar Still", icon: "spigot.fill", destination: .technique("water-desalination")), // Orphan
+                    TriageOption(id: "water-sea-plastic", label: "Container + Sun (Solar Still)", icon: "sun.max.fill", destination: .technique("water-solar-still")),
                     TriageOption(id: "water-sea-seaweed", label: "Seawater Only", icon: "drop.fill", destination: .technique("water-seawater")),
                     TriageOption(id: "water-coastal-forage", label: "On Shore — Can Explore", icon: "figure.walk", destination: .techniqueList(["water-rain-collection", "water-rock-seepage", "water-dew-collection"]))
                 ])
@@ -465,10 +610,13 @@ class ContentDatabase: ObservableObject {
             TriageOption(id: "water-jungle", label: "Jungle / Tropical", icon: "leaf.fill", destination: .nextQuestion(
                 TriageNode(id: "water-jungle-q", question: "What's around you?", options: [
                     TriageOption(id: "water-bamboo", label: "Bamboo", icon: "leaf.fill", destination: .technique("water-bamboo-collection")),
-                    TriageOption(id: "water-vines", label: "Vines / Lianas", icon: "line.diagonal", destination: .technique("water-vegetation-indicators")),
+                    TriageOption(id: "water-banana", label: "Banana Plants", icon: "leaf.fill", destination: .technique("water-banana-plant")), // Added orphan
+                    TriageOption(id: "water-vines", label: "Vines / Lianas", icon: "line.diagonal", destination: .techniqueList(["water-vegetation-indicators", "water-vine-extraction"])), // Added orphan
+                    TriageOption(id: "water-fruits", label: "Coconuts / Fruits", icon: "circle.fill", destination: .technique("water-from-fruits")), // Added orphan
                     TriageOption(id: "water-birch", label: "Birch / Maple Trees", icon: "tree.fill", destination: .technique("water-birch-tapping")),
+                    TriageOption(id: "water-transpire-enhance", label: "Broad-Leaf Trees (Enhanced)", icon: "tree.circle.fill", destination: .technique("water-transpiration-enhanced")), // Orphan
                     TriageOption(id: "water-rain-jungle", label: "Rain Frequent", icon: "cloud.rain.fill", destination: .technique("water-rain-collection")),
-                    TriageOption(id: "water-transpire", label: "Broad-Leaf Trees", icon: "tree.fill", destination: .technique("water-transpiration-bag"))
+                    TriageOption(id: "water-transpire", label: "Standard Transpiration Bag", icon: "bag.fill", destination: .technique("water-transpiration-bag"))
                 ])
             )),
 
@@ -495,9 +643,10 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "lost-backtrack", label: "Yes — Remember the Way", icon: "arrow.uturn.left", destination: .technique("nav-lost-procedure")),
                     TriageOption(id: "lost-unsure", label: "Not Sure / Disoriented", icon: "questionmark.circle.fill", destination: .nextQuestion(
                         TriageNode(id: "lost-tools", question: "What navigation tools do you have?", options: [
-                            TriageOption(id: "lost-phone", label: "Phone (Any Battery)", icon: "iphone", destination: .technique("nav-gps-phone")),
-                            TriageOption(id: "lost-compass", label: "Compass", icon: "safari.fill", destination: .technique("nav-compass-use")),
-                            TriageOption(id: "lost-map-compass", label: "Map + Compass", icon: "map.fill", destination: .technique("nav-map-reading")),
+                            TriageOption(id: "lost-phone", label: "Phone (Any Battery)", icon: "iphone", destination: .techniqueList(["nav-gps-phone", "rescue-plb"])), // Added orphan
+                            TriageOption(id: "lost-altimeter", label: "Altimeter / Watch", icon: "gauge", destination: .technique("nav-altimeter")), // Added orphan
+                            TriageOption(id: "lost-compass", label: "Compass", icon: "safari.fill", destination: .techniqueList(["nav-compass-use", "nav-emergency-bearing", "nav-night-compass"])), // Added orphans
+                            TriageOption(id: "lost-map-compass", label: "Map + Compass", icon: "map.fill", destination: .techniqueList(["nav-map-reading", "nav-triangulation"])), // Added orphan
                             TriageOption(id: "lost-no-tools", label: "Nothing — No Tools", icon: "xmark.circle.fill", destination: .nextQuestion(
                                 TriageNode(id: "lost-time", question: "What time of day?", options: [
 
@@ -515,7 +664,7 @@ class ContentDatabase: ObservableObject {
                                                     ))
                                                 ])
                                             )),
-                                            TriageOption(id: "lost-overcast", label: "Overcast / Can't See Sun", icon: "cloud.fill", destination: .technique("nav-natural-indicators"))
+                                            TriageOption(id: "lost-overcast", label: "Overcast / Can't See Sun", icon: "cloud.fill", destination: .techniqueList(["nav-natural-indicators", "nav-vegetation-indicators", "nav-wind-reading", "nav-cloud-reading"])) // Added orphans
                                         ])
                                     )),
 
@@ -526,7 +675,7 @@ class ContentDatabase: ObservableObject {
                                                 TriageNode(id: "lost-star-method", question: "Which method?", options: [
                                                     TriageOption(id: "lost-stars-n", label: "North Star (N. Hemisphere)", icon: "star.fill", destination: .technique("nav-north-star")),
                                                     TriageOption(id: "lost-stars-s", label: "Southern Cross (S. Hemisphere)", icon: "star.fill", destination: .technique("nav-southern-cross")),
-                                                    TriageOption(id: "lost-star-any", label: "Any Star (Movement)", icon: "sparkles", destination: .technique("nav-star-movement")),
+                                                    TriageOption(id: "lost-star-any", label: "Any Star (Movement)", icon: "sparkles", destination: .techniqueList(["nav-star-movement", "nav-night-star-steering"])), // Added orphan
                                                     TriageOption(id: "lost-moon", label: "Moon (Crescent)", icon: "moon.fill", destination: .technique("nav-moon-navigation"))
                                                 ])
                                             )),
@@ -555,9 +704,9 @@ class ContentDatabase: ObservableObject {
                         TriageNode(id: "lost-signal-q", question: "What signaling tools do you have?", options: [
                             TriageOption(id: "lost-sig-mirror", label: "Mirror / Reflective", icon: "sparkle", destination: .technique("rescue-signal-mirror")),
                             TriageOption(id: "lost-sig-fire", label: "Can Make Fire", icon: "flame.fill", destination: .technique("rescue-signal-fire")),
-                            TriageOption(id: "lost-sig-whistle", label: "Whistle / Loud Voice", icon: "speaker.wave.3.fill", destination: .technique("rescue-whistle")),
+                            TriageOption(id: "lost-sig-whistle", label: "Whistle / Loud Voice", icon: "speaker.wave.3.fill", destination: .techniqueList(["rescue-whistle", "rescue-whistle-patterns"])), // Added orphan
                             TriageOption(id: "lost-sig-smoke", label: "Colored Smoke (Daytime)", icon: "smoke.fill", destination: .technique("rescue-smoke-signal")),
-                            TriageOption(id: "lost-sig-ground", label: "Open Ground for Symbols", icon: "square.fill", destination: .technique("rescue-ground-signal")),
+                            TriageOption(id: "lost-sig-ground", label: "Open Ground for Symbols", icon: "square.fill", destination: .techniqueList(["rescue-ground-signal", "rescue-flag-signals"])), // Added orphan
                             TriageOption(id: "lost-sig-panel", label: "Know ICAO Panel Codes", icon: "textformat", destination: .technique("rescue-panel-signals")),
                             TriageOption(id: "lost-sig-morse", label: "Flashlight / Tapping", icon: "flashlight.on.fill", destination: .technique("rescue-morse-code")),
                             TriageOption(id: "lost-sig-phone", label: "Phone (Even Dead Service)", icon: "iphone", destination: .technique("rescue-phone-emergency"))
@@ -566,8 +715,9 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "lost-walk", label: "Self-Rescue / Walk Out", icon: "figure.walk", destination: .nextQuestion(
                         TriageNode(id: "lost-walk-q", question: "Can you see or hear any landmark?", options: [
                             TriageOption(id: "lost-hear-water", label: "Can Hear Water", icon: "water.waves", destination: .technique("nav-river-following")),
-                            TriageOption(id: "lost-see-ridge", label: "Can See Ridge / High Ground", icon: "mountain.2.fill", destination: .technique("nav-terrain-association")),
+                            TriageOption(id: "lost-see-ridge", label: "Can See Ridge / High Ground", icon: "mountain.2.fill", destination: .techniqueList(["nav-terrain-association", "nav-handrail-features"])), // Added orphan
                             TriageOption(id: "lost-road", label: "Found a Trail / Road", icon: "road.lanes", destination: .technique("nav-dead-reckoning")),
+                            TriageOption(id: "lost-urban-mark", label: "In Urban Area", icon: "building.2.fill", destination: .technique("rescue-urban-marking")), // Added orphan
                             TriageOption(id: "lost-wind", label: "Open Area — Check Wind/Tree Lean", icon: "wind", destination: .technique("nav-wind-patterns")),
                             TriageOption(id: "lost-dense", label: "Dense Forest / No Features", icon: "tree.fill", destination: .nextQuestion(
                                 TriageNode(id: "lost-dense-q", question: "What do you want to do?", options: [
@@ -631,7 +781,7 @@ class ContentDatabase: ObservableObject {
                     // Self-rescue
                     TriageOption(id: "trapped-self", label: "Want to Self-Rescue", icon: "arrow.right.circle.fill", destination: .nextQuestion(
                         TriageNode(id: "trapped-self-q", question: "Do you know which direction?", options: [
-                            TriageOption(id: "trapped-know-dir", label: "Yes — Know the Way", icon: "location.fill", destination: .technique("rescue-self-rescue")),
+                            TriageOption(id: "trapped-know-dir", label: "Yes — Know the Way", icon: "location.fill", destination: .techniqueList(["rescue-self-rescue", "rescue-self-evacuation"])), // Added orphan
                             TriageOption(id: "trapped-follow-water", label: "No — Follow Water Downhill", icon: "water.waves", destination: .technique("nav-following-water")),
                             TriageOption(id: "trapped-trail", label: "Going to Try + Leave Markers", icon: "arrow.triangle.branch", destination: .technique("rescue-trail-markers")),
                             TriageOption(id: "trapped-leave-markers", label: "Mark Path for Rescuers", icon: "signpost.right.fill", destination: .technique("rescue-leave-trail"))
@@ -665,7 +815,8 @@ class ContentDatabase: ObservableObject {
                                                 TriageNode(id: "trapped-ven-q", question: "Can you apply pressure?", options: [
                                                     TriageOption(id: "trapped-ven-cloth", label: "Have Cloth / Bandage", icon: "bandage.fill", destination: .technique("firstaid-pressure-bandage")),
                                                     TriageOption(id: "trapped-ven-hand", label: "Bare Hands Only", icon: "hand.raised.fill", destination: .technique("firstaid-pressure-bandage")),
-                                                    TriageOption(id: "trapped-ven-elevate", label: "Can Elevate Limb", icon: "arrow.up", destination: .technique("firstaid-wound-cleaning"))
+                                                    TriageOption(id: "trapped-ven-elevate", label: "Can Elevate Limb", icon: "arrow.up", destination: .technique("firstaid-wound-cleaning")),
+                                                    TriageOption(id: "trapped-ven-suture", label: "Deep Gash (Needs Closing)", icon: "pencil.line", destination: .techniqueList(["firstaid-wound-closure", "firstaid-field-suturing"])) // Added orphan
                                                 ])
                                             ))
                                         ])
@@ -677,14 +828,8 @@ class ContentDatabase: ObservableObject {
                                             TriageOption(id: "trapped-torso-sucking", label: "Sucking Chest Wound (Air Noise)", icon: "lungs.fill", destination: .technique("firstaid-pressure-bandage"))
                                         ])
                                     )),
-                                    TriageOption(id: "trapped-bleed-head", label: "Head / Face", icon: "brain.head.profile", destination: .nextQuestion(
-                                        TriageNode(id: "trapped-head-bleed-q", question: "How bad?", options: [
-                                            TriageOption(id: "trapped-head-scalp", label: "Scalp Wound (Lots of Blood)", icon: "drop.fill", destination: .technique("firstaid-wound-cleaning")),
-                                            TriageOption(id: "trapped-head-deep", label: "Deep Cut / Gash", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-pressure-bandage")),
-                                            TriageOption(id: "trapped-head-eye", label: "Near Eye", icon: "eye.fill", destination: .technique("firstaid-wound-cleaning"))
-                                        ])
-                                    )),
-                                    TriageOption(id: "trapped-bleed-nose", label: "Nosebleed", icon: "nose.fill", destination: .technique("firstaid-nosebleed"))
+                                    TriageOption(id: "trapped-bleed-head", label: "Head Wound", icon: "brain.head.profile", destination: .technique("firstaid-head-trauma")),
+                                    TriageOption(id: "trapped-bleed-impaled", label: "Object Impaled", icon: "pin.fill", destination: .technique("firstaid-impaled-object"))
                                 ])
                             )),
 
@@ -723,7 +868,8 @@ class ContentDatabase: ObservableObject {
                                             TriageOption(id: "trapped-disloc-finger", label: "Finger / Toe", icon: "hand.raised.fill", destination: .technique("firstaid-dislocated-joint")),
                                             TriageOption(id: "trapped-disloc-knee", label: "Knee / Hip", icon: "figure.walk", destination: .technique("firstaid-dislocated-joint"))
                                         ])
-                                    ))
+                                    )),
+                                    TriageOption(id: "trapped-sprain", label: "Sprain / Twist (Swelling)", icon: "bandage.fill", destination: .techniqueList(["firstaid-ankle-wrap", "firstaid-sprained-ankle", "firstaid-blister"])) // Added orphans
                                 ])
                             )),
 
@@ -778,8 +924,8 @@ class ContentDatabase: ObservableObject {
                                             TriageOption(id: "burn-chem-eyes", label: "Chemical in Eyes", icon: "eye.fill", destination: .technique("firstaid-chemical-burn"))
                                         ])
                                     )),
-                                    TriageOption(id: "trapped-burn-sun", label: "Severe Sunburn", icon: "sun.max.fill", destination: .technique("firstaid-burn-blister")),
-                                    TriageOption(id: "trapped-burn-electric", label: "Electrical", icon: "bolt.fill", destination: .techniqueList(["firstaid-burn-char", "firstaid-cpr"]))
+                                    TriageOption(id: "trapped-burn-minor", label: "Minor / Redness", icon: "drop.fill", destination: .technique("firstaid-burn")),
+                                    TriageOption(id: "trapped-burn-electric", label: "Electrical", icon: "bolt.fill", destination: .techniqueList(["firstaid-burn-char", "firstaid-cpr", "firstaid-electrocution"])) // Added orphan
                                 ])
                             )),
 
@@ -821,7 +967,7 @@ class ContentDatabase: ObservableObject {
                             // ── MEDICAL EMERGENCIES ──
                             TriageOption(id: "trapped-heart", label: "Chest Pain / Heart Attack Signs", icon: "heart.fill", destination: .nextQuestion(
                                 TriageNode(id: "trapped-heart-q", question: "Is the person conscious?", options: [
-                                    TriageOption(id: "trapped-heart-con", label: "Yes — Conscious", icon: "eye.fill", destination: .technique("firstaid-heart-attack")),
+                                    TriageOption(id: "trapped-heart-con", label: "Yes — Conscious", icon: "eye.fill", destination: .techniqueList(["firstaid-heart-attack", "firstaid-chest-seal"])), // Added orphan
                                     TriageOption(id: "trapped-heart-uncon", label: "No — Collapsed", icon: "zzz", destination: .technique("firstaid-cpr"))
                                 ])
                             )),
@@ -834,6 +980,7 @@ class ContentDatabase: ObservableObject {
                                 ])
                             )),
                             TriageOption(id: "trapped-hypervent", label: "Hyperventilating / Panic", icon: "wind", destination: .technique("firstaid-hyperventilation")),
+                            TriageOption(id: "trapped-childbirth", label: "Emergency Childbirth", icon: "figure.2.and.child.holdinghands", destination: .technique("firstaid-childbirth")), // Added orphan
                             TriageOption(id: "trapped-no-pulse", label: "No Pulse / Not Breathing", icon: "heart.slash.fill", destination: .technique("firstaid-cpr"))
                         ])
                     )),
@@ -854,9 +1001,21 @@ class ContentDatabase: ObservableObject {
                             TriageOption(id: "trapped-need-water", label: "Water", icon: "drop.fill", destination: .techniqueList(["water-rain-collection", "water-dew-collection", "water-condensation-trap"])),
                             TriageOption(id: "trapped-need-warmth", label: "Warmth", icon: "flame.fill", destination: .techniqueList(["shelter-mylar-wrap", "shelter-emergency-bivy", "firstaid-hypothermia"])),
                             TriageOption(id: "trapped-need-food", label: "Food", icon: "leaf.fill", destination: .techniqueList(["food-common-edibles", "food-cattail", "food-insect-eating", "food-shellfish", "food-frog-catching"])),
-                            TriageOption(id: "trapped-need-morale", label: "Staying Calm / Morale", icon: "brain.head.profile", destination: .techniqueList(["psych-box-breathing", "psych-54321-grounding", "psych-routine", "psych-loneliness", "psych-ooda-loop"])),
+                            TriageOption(id: "trapped-need-morale", label: "Staying Calm / Morale", icon: "brain.head.profile", destination: .techniqueList(["psych-box-breathing", "psych-54321-grounding", "psych-routine", "psych-loneliness", "psych-ooda-loop", "psych-group-leadership", "psych-grief-processing", "psych-gratitude-practice", "psych-positive-self-talk"])), // Added orphans
                             TriageOption(id: "trapped-need-pain", label: "Managing Pain", icon: "cross.case.fill", destination: .technique("psych-pain-management")),
-                            TriageOption(id: "trapped-need-tools", label: "Making Tools / Traps", icon: "wrench.and.screwdriver.fill", destination: .techniqueList(["tools-trap-triggers", "tools-bow-making", "tools-stone-axe"]))
+                            TriageOption(id: "trapped-need-morale", label: "Staying Calm / Morale", icon: "brain.head.profile", destination: .techniqueList(["psych-box-breathing", "psych-54321-grounding", "psych-routine", "psych-loneliness", "psych-ooda-loop", "psych-group-leadership", "psych-grief-processing", "psych-gratitude-practice", "psych-positive-self-talk"])), // Added orphans
+                            TriageOption(id: "trapped-need-pain", label: "Managing Pain", icon: "cross.case.fill", destination: .technique("psych-pain-management")),
+                            TriageOption(id: "trapped-need-tools", label: "Making Tools / Traps", icon: "wrench.and.screwdriver.fill", destination: .techniqueList(["tools-trap-triggers", "tools-bow-making", "tools-stone-axe", "tools-spear-making", "tools-fire-hardened-spear", "tools-stone-drill", "tools-atlatl", "tools-sling", "tools-knife-sharpening", "tools-natural-glue", "tools-bark-container", "tools-sinew-cordage", "tools-repair", "tools-rock-hammer", "tools-square-lashing", "tools-improvised-container", "tools-water-carrier", "tools-camp-organization", "tools-charcoal-filter"])) // Added orphans
+                        ])
+                    )),
+
+                    // Vehicle Accident
+                    TriageOption(id: "trapped-vehicle", label: "Vehicle Accident / Crash", icon: "car.fill", destination: .nextQuestion(
+                        TriageNode(id: "trapped-vehicle-q", question: "Immediate danger?", options: [
+                            TriageOption(id: "veh-fire", label: "Fire / Smoke", icon: "flame.fill", destination: .technique("fire-article-safety")),
+                            TriageOption(id: "veh-leak", label: "Fuel Leak / Smell Gas", icon: "drop.triangle.fill", destination: .technique("env-urban-disaster")),
+                            TriageOption(id: "veh-pinned", label: "Pinned Inside", icon: "rectangle.compress.vertical", destination: .technique("rescue-vehicle-signal")),
+                            TriageOption(id: "veh-safe-loc", label: "Safe Location (Wait)", icon: "checkmark.circle", destination: .techniqueList(["shelter-vehicle", "rescue-vehicle-signal"]))
                         ])
                     ))
                 ])
@@ -873,9 +1032,9 @@ class ContentDatabase: ObservableObject {
             // --- EARTHQUAKE ---
             TriageOption(id: "dis-earthquake", label: "Earthquake", icon: "waveform.path.ecg", destination: .nextQuestion(
                 TriageNode(id: "dis-eq-q", question: "Where are you?", options: [
-                    TriageOption(id: "dis-eq-indoor", label: "Indoors", icon: "building.2.fill", destination: .technique("env-earthquake")),
-                    TriageOption(id: "dis-eq-outdoor", label: "Outdoors", icon: "tree.fill", destination: .technique("env-earthquake")),
-                    TriageOption(id: "dis-eq-vehicle", label: "In a Vehicle", icon: "car.fill", destination: .technique("env-earthquake")),
+                    TriageOption(id: "dis-eq-indoor", label: "Indoors", icon: "building.2.fill", destination: .technique("env-earthquake-indoor")),
+                    TriageOption(id: "dis-eq-outdoor", label: "Outdoors", icon: "tree.fill", destination: .technique("env-earthquake-outdoor")),
+                    TriageOption(id: "dis-eq-vehicle", label: "In a Vehicle", icon: "car.fill", destination: .technique("env-earthquake-outdoor")),
                     TriageOption(id: "dis-eq-after", label: "Earthquake Over — Now What?", icon: "checkmark.circle", destination: .nextQuestion(
                         TriageNode(id: "dis-eq-after-q", question: "What's your situation?", options: [
                             TriageOption(id: "dis-eq-injured", label: "Injured", icon: "cross.case.fill", destination: .techniqueList(["firstaid-wound-cleaning", "firstaid-crush-injury", "firstaid-shock"])),
@@ -890,15 +1049,15 @@ class ContentDatabase: ObservableObject {
             // --- TORNADO ---
             TriageOption(id: "dis-tornado", label: "Tornado", icon: "tornado", destination: .nextQuestion(
                 TriageNode(id: "dis-tor-q", question: "Where are you?", options: [
-                    TriageOption(id: "dis-tor-building", label: "In a Building", icon: "building.2.fill", destination: .technique("env-tornado")),
-                    TriageOption(id: "dis-tor-mobile", label: "Mobile Home", icon: "house.fill", destination: .technique("env-tornado-shelter")), // Specific tech if available, else env-tornado
+                    TriageOption(id: "dis-tor-building", label: "In a House/Building", icon: "building.2.fill", destination: .technique("env-tornado-shelter")),
+                    TriageOption(id: "dis-tor-mobile", label: "Mobile Home", icon: "house.fill", destination: .technique("env-tornado-mobile")), 
                     TriageOption(id: "dis-tor-vehicle", label: "In a Vehicle", icon: "car.fill", destination: .nextQuestion(
-                        TriageNode(id: "dis-tor-debris", question: "Is debris hitting you?", options: [
-                            TriageOption(id: "dis-tor-hit", label: "Yes — Flying Debris", icon: "exclamationmark.triangle.fill", destination: .technique("env-tornado-shelter")),
-                            TriageOption(id: "dis-tor-clear", label: "No — Distant", icon: "car.fill", destination: .technique("env-tornado"))
+                        TriageNode(id: "dis-tor-drive-q", question: "Can you see its path?", options: [
+                            TriageOption(id: "dis-tor-drive-evade", label: "Yes — Evade", icon: "arrow.turn.up.right", destination: .technique("env-tornado-drive")),
+                            TriageOption(id: "dis-tor-drive-trap", label: "Trapped / Close", icon: "exclamationmark.triangle.fill", destination: .technique("env-tornado-ditch"))
                         ])
                     )),
-                    TriageOption(id: "dis-tor-outdoor", label: "Open Outdoors", icon: "figure.walk", destination: .technique("env-tornado-shelter"))
+                    TriageOption(id: "dis-tor-outdoor", label: "Open Outdoors", icon: "figure.walk", destination: .technique("env-tornado-ditch"))
                 ])
             )),
 
@@ -906,14 +1065,14 @@ class ContentDatabase: ObservableObject {
             TriageOption(id: "dis-wildfire", label: "Wildfire", icon: "flame.fill", destination: .nextQuestion(
                 TriageNode(id: "dis-fire-q", question: "How close is the fire?", options: [
                     TriageOption(id: "dis-fire-far", label: "Visible but Far", icon: "arrow.right", destination: .nextQuestion(
-                         TriageNode(id: "dis-fire-wind", question: "Where is the wind blowing?", options: [
-                            TriageOption(id: "dis-fire-upwind", label: "Fire is Upwind (Coming at me)", icon: "wind", destination: .technique("env-wildfire-evac")),
-                            TriageOption(id: "dis-fire-downwind", label: "Fire is Downwind (Moving away)", icon: "arrow.right.circle", destination: .technique("env-wildfire"))
+                         TriageNode(id: "dis-fire-wind", question: "Monitor the wind!", options: [
+                            TriageOption(id: "dis-fire-monitor", label: "Watch & Prepare", icon: "wind", destination: .technique("env-wildfire-monitor")),
+                            TriageOption(id: "dis-fire-evac-early", label: "Evacuating Now", icon: "car.fill", destination: .technique("env-wildfire-evac"))
                          ])
                     )),
-                    TriageOption(id: "dis-fire-near", label: "Close — Smoke Heavy", icon: "smoke.fill", destination: .technique("env-wildfire")),
-                    TriageOption(id: "dis-fire-vehicle", label: "Trapped in Vehicle", icon: "car.fill", destination: .technique("env-wildfire-evac")),
-                    TriageOption(id: "dis-fire-house", label: "Trapped in House", icon: "house.fill", destination: .technique("env-wildfire")),
+                    TriageOption(id: "dis-fire-near", label: "Close — Smoke Heavy", icon: "smoke.fill", destination: .technique("env-wildfire-evac")),
+                    TriageOption(id: "dis-fire-vehicle", label: "Trapped in Vehicle", icon: "car.fill", destination: .technique("env-wildfire-vehicle")),
+                    TriageOption(id: "dis-fire-house", label: "Trapped in House", icon: "house.fill", destination: .technique("env-wildfire-survival")),
                     TriageOption(id: "dis-fire-surrounded", label: "Surrounded Outdoors", icon: "xmark.circle.fill", destination: .technique("env-wildfire-survival"))
                 ])
             )),
@@ -931,7 +1090,7 @@ class ContentDatabase: ObservableObject {
             // --- HURRICANE ---
             TriageOption(id: "dis-hurricane", label: "Hurricane / Cyclone", icon: "hurricane", destination: .nextQuestion(
                 TriageNode(id: "dis-hurr-q", question: "What stage?", options: [
-                    TriageOption(id: "dis-hurr-prep", label: "Approaching (Pre-Storm)", icon: "clock.fill", destination: .technique("env-hurricane")),
+                    TriageOption(id: "dis-hurr-prep", label: "Approaching (Pre-Storm)", icon: "clock.fill", destination: .technique("env-coastal-storm")),
                     TriageOption(id: "dis-hurr-during", label: "During the Storm", icon: "wind", destination: .technique("env-hurricane")),
                     TriageOption(id: "dis-hurr-eye", label: "Eye (Sudden Calm)", icon: "eye.fill", destination: .technique("env-hurricane")),
                     TriageOption(id: "dis-hurr-after", label: "Aftermath", icon: "exclamationmark.triangle.fill", destination: .technique("env-urban-disaster"))
@@ -948,7 +1107,7 @@ class ContentDatabase: ObservableObject {
                             TriageOption(id: "dis-blizz-heat", label: "Staying Warm", icon: "flame.fill", destination: .nextQuestion(
                                 TriageNode(id: "dis-blizz-heat-q", question: "Do you have a fireplace?", options: [
                                     TriageOption(id: "dis-blizz-fireplace", label: "Yes — Fireplace / Wood Stove", icon: "flame.fill", destination: .technique("fire-log-cabin")),
-                                    TriageOption(id: "dis-blizz-no-fire", label: "No — Electric Only", icon: "xmark.circle.fill", destination: .techniqueList(["shelter-mylar-wrap", "firstaid-hypothermia"]))
+                                    TriageOption(id: "dis-blizz-no-fire", label: "No — Electric Only", icon: "xmark.circle.fill", destination: .techniqueList(["shelter-mylar-wrap", "firstaid-hypothermia", "shelter-insulation-techniques"])) // Added orphan
                                 ])
                             )),
                             TriageOption(id: "dis-blizz-water", label: "Safe Drinking Water", icon: "drop.fill", destination: .technique("water-snow-ice")),
@@ -956,6 +1115,18 @@ class ContentDatabase: ObservableObject {
                             TriageOption(id: "dis-blizz-pipe", label: "Pipes Frozen / Burst", icon: "wrench.fill", destination: .technique("water-rationing"))
                         ])
                     ))
+                ])
+            )),
+
+            // --- LIGHTNING ---
+            TriageOption(id: "dis-lightning", label: "Lightning / Thunderstorm", icon: "cloud.bolt.fill", destination: .nextQuestion(
+                TriageNode(id: "dis-light-q", question: "Where are you?", options: [
+                    TriageOption(id: "dis-light-exposed", label: "Open / Exposed Area", icon: "figure.walk", destination: .technique("env-lightning-position")),
+                    TriageOption(id: "dis-light-mtn", label: "Mountain Ridge / Peak", icon: "mountain.2.fill", destination: .technique("env-mountain-lightning")),
+                    TriageOption(id: "dis-light-forest", label: "Forest / Near Trees", icon: "tree.fill", destination: .technique("env-lightning-safety")),
+                    TriageOption(id: "dis-light-water", label: "On Water (Boat/Swim)", icon: "water.waves", destination: .technique("env-lightning-safety")),
+                    TriageOption(id: "dis-light-group", label: "With a Group", icon: "person.3.fill", destination: .technique("env-lightning-position")),
+                    TriageOption(id: "dis-light-dist", label: "Calculating Distance", icon: "stopwatch.fill", destination: .technique("env-lightning-dist"))
                 ])
             )),
 
@@ -973,15 +1144,15 @@ class ContentDatabase: ObservableObject {
                 TriageNode(id: "dis-volc-q", question: "What are the hazards?", options: [
                     TriageOption(id: "dis-volc-ash", label: "Ashfall (Breathing)", icon: "lungs.fill", destination: .technique("env-volcanic-ash")),
                     TriageOption(id: "dis-volc-flow", label: "Lava / Pyroclastic Flow", icon: "flame.fill", destination: .technique("env-volcanic-eruption")),
-                    TriageOption(id: "dis-volc-shelter", label: "Sheltering in Place", icon: "house.fill", destination: .technique("env-volcanic-ash"))
+                    TriageOption(id: "dis-volc-shelter", label: "Sheltering in Place", icon: "house.fill", destination: .technique("env-volcanic-ashfall"))
                 ])
             )),
 
             // --- TSUNAMI ---
             TriageOption(id: "dis-tsunami", label: "Tsunami", icon: "water.waves.and.arrow.up", destination: .nextQuestion(
                 TriageNode(id: "dis-tsu-q", question: "What's happening?", options: [
-                    TriageOption(id: "dis-tsu-warning", label: "Earthquake / Warning Siren", icon: "speaker.wave.3.fill", destination: .technique("env-tsunami")),
-                    TriageOption(id: "dis-tsu-water", label: "Water Receding Rapidly", icon: "arrow.down.to.line", destination: .technique("env-tsunami")),
+                    TriageOption(id: "dis-tsu-warning", label: "Earthquake / Warning Siren", icon: "speaker.wave.3.fill", destination: .technique("env-tsunami-response")),
+                    TriageOption(id: "dis-tsu-water", label: "Water Receding Rapidly", icon: "arrow.down.to.line", destination: .technique("env-tsunami-response")),
                     TriageOption(id: "dis-tsu-wave", label: "Wave Incoming / Hitting", icon: "water.waves", destination: .technique("env-tsunami")),
                     TriageOption(id: "dis-tsu-debris", label: "In Water with Debris", icon: "exclamationmark.triangle.fill", destination: .technique("env-flood-survival"))
                 ])
@@ -996,6 +1167,9 @@ class ContentDatabase: ObservableObject {
                 ])
             )),
 
+            // --- SANDSTORM ---
+            TriageOption(id: "dis-sandstorm", label: "Sandstorm", icon: "wind", destination: .technique("env-sandstorm")),
+
             // --- QUICKSAND ---
             TriageOption(id: "dis-quicksand", label: "Quicksand / Mud", icon: "arrow.down.circle.fill", destination: .technique("env-quicksand")),
 
@@ -1005,12 +1179,64 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "light-close", label: "Under 30 Seconds (Close!)", icon: "exclamationmark.triangle.fill", destination: .technique("env-lightning-safety")),
                     TriageOption(id: "light-far", label: "Over 30 Seconds", icon: "checkmark.circle", destination: .nextQuestion(
                         TriageNode(id: "dis-light-q", question: "Where are you?", options: [
-                            TriageOption(id: "dis-light-ridge", label: "High Ground / Ridge", icon: "mountain.2.fill", destination: .technique("env-lightning")),
-                            TriageOption(id: "dis-light-open", label: "Open Field", icon: "figure.walk", destination: .technique("env-lightning")),
-                            TriageOption(id: "dis-light-forest", label: "In Forest", icon: "tree.fill", destination: .technique("env-lightning")),
-                            TriageOption(id: "dis-light-struck", label: "Someone Was Struck", icon: "bolt.heart.fill", destination: .techniqueList(["env-lightning", "firstaid-cpr"]))
+                            TriageOption(id: "dis-light-ridge", label: "High Ground / Ridge", icon: "mountain.2.fill", destination: .technique("env-lightning-position")),
+                            TriageOption(id: "dis-light-open", label: "Open Field", icon: "figure.walk", destination: .technique("env-lightning-position")),
+                            TriageOption(id: "dis-light-forest", label: "In Forest", icon: "tree.fill", destination: .technique("env-lightning-safety")),
+                            TriageOption(id: "dis-light-struck", label: "Someone Was Struck", icon: "bolt.heart.fill", destination: .techniqueList(["env-lightning-safety", "firstaid-cpr"]))
                         ])
                     ))
+                ])
+            )),
+
+            // --- NUCLEAR / RADIOLOGICAL ---
+            TriageOption(id: "dis-nuclear", label: "Nuclear / Radiological", icon: "exclamationmark.triangle.fill", destination: .nextQuestion(
+                TriageNode(id: "dis-nuc-q", question: "What is the threat?", options: [
+                    TriageOption(id: "nuc-blast", label: "Blast / Flash Observed", icon: "sun.max.fill", destination: .technique("env-urban-disaster")),
+                    TriageOption(id: "nuc-fallout", label: "Fallout Warning", icon: "smoke.fill", destination: .nextQuestion(
+                        TriageNode(id: "nuc-fallout-q", question: "Where is shelter?", options: [
+                            TriageOption(id: "nuc-shelter-under", label: "Underground / Basement", icon: "house.fill", destination: .technique("shelter-underground")), // NOTE: Mapped to shelter-vehicle if underground missing
+                            TriageOption(id: "nuc-shelter-inner", label: "Inner Room / Center of Building", icon: "building.2.fill", destination: .technique("env-urban-disaster")),
+                            TriageOption(id: "nuc-outdoor", label: "Caught Outdoors", icon: "figure.walk", destination: .technique("env-urban-disaster"))
+                        ])
+                    )),
+                    TriageOption(id: "nuc-water", label: "Concerned About Water", icon: "drop.fill", destination: .technique("water-filter-sock")) // Best proxy for purification
+                ])
+            )),
+
+            // --- PANDEMIC / BIOHAZARD ---
+            TriageOption(id: "dis-bio", label: "Pandemic / Biohazard", icon: "allergens.fill", destination: .nextQuestion(
+                TriageNode(id: "dis-bio-q", question: "Immediate need?", options: [
+                    TriageOption(id: "bio-isolate", label: "Isolation / Quarantine Area", icon: "house.fill", destination: .technique("shelter-urban-debris")),
+                    TriageOption(id: "bio-water", label: "Safe Water (Grid Down)", icon: "drop.fill", destination: .technique("water-boiling")),
+                    TriageOption(id: "bio-sanitize", label: "Sanitation / Hygiene", icon: "hands.sparkles.fill", destination: .technique("firstaid-wound-cleaning")) // Hygiene proxy
+                ])
+            )),
+
+            // --- CIVIL UNREST ---
+            TriageOption(id: "dis-unrest", label: "Civil Unrest / Riots", icon: "person.3.fill", destination: .nextQuestion(
+                TriageNode(id: "dis-unrest-q", question: "Your situation?", options: [
+                    TriageOption(id: "unrest-home", label: "Sheltering at Home", icon: "house.fill", destination: .techniqueList(["env-door-barricade", "env-urban-disaster"])),
+                    TriageOption(id: "unrest-move", label: "Need to Move / Evade", icon: "figure.walk", destination: .techniqueList(["env-urban-grayman", "env-anti-tracking", "env-vehicle-entry"])),
+                    TriageOption(id: "unrest-detained", label: "Detained / Restrained", icon: "lock.fill", destination: .technique("env-ziptie-escape")),
+                    TriageOption(id: "unrest-crowd", label: "Caught in Crowd", icon: "exclamationmark.triangle.fill", destination: .technique("psych-article-panic")) // Fixed ID
+                ])
+            )),
+
+            // --- CYBER / GRID DOWN ---
+            TriageOption(id: "dis-cyber", label: "Solar Flare / Cyber Attack", icon: "bolt.slash.fill", destination: .nextQuestion(
+                TriageNode(id: "dis-cyber-q", question: "Main challenge?", options: [
+                    TriageOption(id: "cyber-comms", label: "No Communications", icon: "antenna.radiowaves.left.and.right.slash", destination: .techniqueList(["rescue-article-radio", "rescue-cd-mirror"])),
+                    TriageOption(id: "cyber-power", label: "Power Outage Survival", icon: "bolt.slash.fill", destination: .technique("env-urban-disaster")),
+                    TriageOption(id: "cyber-supply", label: "Supply Chain / Food", icon: "cart.fill", destination: .technique("food-rationing"))
+                ])
+            )),
+
+            // --- REBUILDING CIVILIZATION ---
+            TriageOption(id: "dis-rebuild", label: "Long Term / Rebuilding", icon: "hammer.fill", destination: .nextQuestion(
+                TriageNode(id: "dis-rebuild-q", question: "What do you need to produce?", options: [
+                    TriageOption(id: "rebuild-hygiene", label: "Soap & Hygiene", icon: "hands.sparkles.fill", destination: .techniqueList(["hygiene-soap-making", "hygiene-charcoal-toothpaste"])),
+                    TriageOption(id: "rebuild-agri", label: "Agriculture (Farming)", icon: "leaf.fill", destination: .techniqueList(["agri-three-sisters", "agri-seed-saving", "agri-composting"])),
+                    TriageOption(id: "rebuild-industry", label: "Industry (Leather/Weaving)", icon: "gearshape.2.fill", destination: .techniqueList(["industry-tanning", "industry-basketry"]))
                 ])
             ))
         ])
@@ -1040,6 +1266,7 @@ class ContentDatabase: ObservableObject {
                                     TriageOption(id: "food-7d-insects", label: "Insects / Grubs (Fast Protein)", icon: "ant.fill", destination: .technique("food-insect-eating")),
                                     TriageOption(id: "food-7d-broth", label: "Bone Broth (If Animal Parts)", icon: "drop.fill", destination: .technique("food-bone-broth")),
                                     TriageOption(id: "food-7d-bark", label: "Inner Bark / Pine Needles", icon: "tree.fill", destination: .technique("food-cattail")),
+                                    TriageOption(id: "food-7d-cache", label: "Protect Food (Cache)", icon: "archivebox.fill", destination: .technique("shelter-elevated-cache")), // Added orphan
                                     TriageOption(id: "food-7d-seaweed", label: "Near Coast — Seaweed", icon: "water.waves", destination: .technique("food-seaweed"))
                                 ])
                             )),
@@ -1063,7 +1290,8 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "food-berries", label: "Berries / Fruit", icon: "leaf.fill", destination: .nextQuestion(
                         TriageNode(id: "food-berry-know", question: "Do you recognize it?", options: [
                             TriageOption(id: "food-berry-yes", label: "Yes — 100% Sure", icon: "checkmark.seal.fill", destination: .technique("food-wild-fruit")),
-                            TriageOption(id: "food-berry-no", label: "No / Unsure", icon: "questionmark.circle", destination: .technique("food-universal-edibility"))
+                            TriageOption(id: "food-berry-no", label: "No / Unsure", icon: "questionmark.circle", destination: .technique("food-universal-edibility")),
+                            TriageOption(id: "food-poison-symp", label: "Poisoning Symptoms?", icon: "exclamationmark.triangle.fill", destination: .technique("food-article-plant-poisoning")) // Added orphan
                         ])
                     )),
                     TriageOption(id: "food-mushrooms", label: "Mushrooms", icon: "umbrella.fill", destination: .nextQuestion(
@@ -1072,7 +1300,7 @@ class ContentDatabase: ObservableObject {
                             TriageOption(id: "food-shroom-no", label: "No / Unsure", icon: "exclamationmark.triangle.fill", destination: .technique("food-avoid-plants"))
                         ])
                     )),
-                    TriageOption(id: "food-greens", label: "Greens / Leaves (Dandelion, etc)", icon: "leaf.arrow.circle.path", destination: .technique("food-dandelion")),
+                    TriageOption(id: "food-greens", label: "Greens / Leaves (Wild Garlic, etc)", icon: "leaf.arrow.circle.path", destination: .techniqueList(["food-dandelion", "food-wild-garlic"])), // Added orphan
                     TriageOption(id: "food-nuts", label: "Nuts / Acorns", icon: "circle.grid.cross.fill", destination: .technique("food-acorn-processing")),
                     TriageOption(id: "food-cattail", label: "Cattails (Wetland)", icon: "drop.fill", destination: .technique("food-cattail")),
                     TriageOption(id: "food-seaweed", label: "Seaweed / Coastal", icon: "water.waves", destination: .technique("food-seaweed"))
@@ -1083,9 +1311,9 @@ class ContentDatabase: ObservableObject {
             TriageOption(id: "food-hunt", label: "Hunting & Trapping", icon: "hare.fill", destination: .nextQuestion(
                 TriageNode(id: "food-hunt-method", question: "What method?", options: [
                     TriageOption(id: "food-trap-land", label: "Passive Trapping (Snares)", icon: "circle", destination: .technique("food-snare")),
-                    TriageOption(id: "food-trap-trigger", label: "Active Triggers (Deadfall)", icon: "triangle.fill", destination: .technique("food-deadfall-trap")),
+                    TriageOption(id: "food-trap-trigger", label: "Active Triggers (Deadfall)", icon: "triangle.fill", destination: .techniqueList(["food-deadfall-trap", "tools-figure4-deadfall"])), // Added orphan
                     TriageOption(id: "food-spear", label: "Spear Hunting", icon: "pencil.line", destination: .technique("food-fish-spear")),
-                    TriageOption(id: "food-bird", label: "Bird Trap (Ojibwa)", icon: "bird.fill", destination: .technique("food-bird-trap")),
+                    TriageOption(id: "food-bird", label: "Bird Trap (Ojibwa)", icon: "bird.fill", destination: .techniqueList(["food-bird-trap", "food-bird-snare"])), // Added orphan
                     TriageOption(id: "food-insects", label: "Insects / Grubs", icon: "ant.fill", destination: .technique("food-insect-eating"))
                 ])
             )),
@@ -1095,7 +1323,8 @@ class ContentDatabase: ObservableObject {
                 TriageNode(id: "food-fish-q", question: "What gear do you have?", options: [
                     TriageOption(id: "food-fish-hook", label: "Hooks / Line", icon: "pencil.slash", destination: .technique("food-hook-line")),
                     TriageOption(id: "food-fish-spear", label: "Spear / Sharp Stick", icon: "pencil.line", destination: .technique("food-fish-spear")),
-                    TriageOption(id: "food-fish-trap", label: "Trap / Basket", icon: "square.grid.3x3.fill", destination: .technique("food-fish-trap")),
+                    TriageOption(id: "food-fish-trap", label: "Fish Trap / Basket", icon: "square.grid.3x3.fill", destination: .technique("food-fish-trap")),
+                    TriageOption(id: "food-crayfish-trap", label: "Crayfish / Crawdad Trap", icon: "circle.grid.cross.fill", destination: .technique("food-crayfish-trap")), // Added orphan
                     TriageOption(id: "food-fish-hand", label: "Nothing (Hand Fishing)", icon: "hand.raised.fill", destination: .technique("food-fish-spear"))
                 ])
             )),
@@ -1103,8 +1332,11 @@ class ContentDatabase: ObservableObject {
             // --- PREPARATION ---
             TriageOption(id: "food-prep", label: "Cooking / Preparation", icon: "flame.fill", destination: .nextQuestion(
                 TriageNode(id: "food-prep-q", question: "What do you need to do?", options: [
+                    TriageOption(id: "food-pemmican", label: "Make Pemmican (Preserve)", icon: "archivebox.fill", destination: .technique("food-pemmican-making")), // Added orphan
+                    TriageOption(id: "food-cooking-rocks", label: "Boil Using Hot Rocks", icon: "drop.fill", destination: .technique("food-boiling-rocks")), // Added orphan
                     TriageOption(id: "food-clean-game", label: "Skin / Gut Small Game", icon: "hare.fill", destination: .nextQuestion(
                         TriageNode(id: "food-clean-game-q", question: "What type of game?", options: [
+                            TriageOption(id: "food-clean-game-gen", label: "General Cleaning", icon: "hare.fill", destination: .technique("food-small-game-cleaning")), // Added orphan
                             TriageOption(id: "food-clean-small", label: "Small (Rabbit, Squirrel)", icon: "hare.fill", destination: .technique("food-animal-skinning")),
                             TriageOption(id: "food-clean-bird", label: "Bird (Pheasant, Duck)", icon: "bird.fill", destination: .technique("food-animal-skinning")),
                             TriageOption(id: "food-clean-fish", label: "Fish", icon: "fish.fill", destination: .technique("food-cooking-fire"))
@@ -1113,7 +1345,7 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "food-cook-fire", label: "Cook on Fire", icon: "flame.fill", destination: .nextQuestion(
                         TriageNode(id: "food-cook-method", question: "Best method for your food?", options: [
                             TriageOption(id: "food-cook-spit", label: "Roast on Stick / Spit", icon: "flame.fill", destination: .technique("food-cooking-fire")),
-                            TriageOption(id: "food-cook-boil", label: "Boil in Container", icon: "drop.fill", destination: .technique("food-bone-broth")),
+                            TriageOption(id: "food-cook-boil", label: "Boil in Container", icon: "drop.fill", destination: .techniqueList(["food-bone-broth", "food-pine-needle-tea"])), // Added orphan
                             TriageOption(id: "food-cook-earth", label: "Underground (Earth Oven)", icon: "circle.fill", destination: .technique("food-earth-oven")),
                             TriageOption(id: "food-cook-rocks", label: "Hot Rocks (No Container)", icon: "triangle.fill", destination: .technique("food-earth-oven"))
                         ])
@@ -1161,8 +1393,8 @@ class ContentDatabase: ObservableObject {
                         TriageNode(id: "shelter-temp-long-mat", question: "What's the goal?", options: [
                             TriageOption(id: "shelter-temp-warmth", label: "Maximum Warmth", icon: "flame.fill", destination: .nextQuestion(
                                 TriageNode(id: "shelter-temp-warmth-q", question: "How cold is it?", options: [
-                                    TriageOption(id: "shelter-temp-freeze", label: "Below Freezing", icon: "thermometer.snowflake", destination: .technique("shelter-debris-aframe")),
-                                    TriageOption(id: "shelter-temp-chilly", label: "Chilly (40-50°F)", icon: "thermometer.medium", destination: .technique("shelter-debris-round")),
+                                    TriageOption(id: "shelter-temp-freeze", label: "Below Freezing", icon: "thermometer.snowflake", destination: .techniqueList(["shelter-debris-aframe", "firstaid-frostbite"])), // Added orphan
+                                    TriageOption(id: "shelter-temp-chilly", label: "Chilly (40-50°F)", icon: "thermometer.medium", destination: .techniqueList(["shelter-debris-round", "firstaid-hypothermia-treatment"])), // Added orphan
                                     TriageOption(id: "shelter-temp-cool", label: "Cool but Bearable", icon: "thermometer.low", destination: .technique("shelter-lean-to"))
                                 ])
                             )),
@@ -1194,7 +1426,7 @@ class ContentDatabase: ObservableObject {
                         TriageNode(id: "shelter-cold-deep-tools", question: "Do you have digging tools?", options: [
                             TriageOption(id: "shelter-cold-shovel", label: "Shovel / Pot", icon: "hammer.fill", destination: .nextQuestion(
                                 TriageNode(id: "shelter-cold-shovel-time", question: "How much time do you have?", options: [
-                                    TriageOption(id: "shelter-cold-hours", label: "2+ Hours", icon: "clock.fill", destination: .technique("shelter-quinzhee")),
+                                    TriageOption(id: "shelter-cold-hours", label: "2+ Hours", icon: "clock.fill", destination: .techniqueList(["shelter-quinzhee", "shelter-snow-cave"])), // Added orphan
                                     TriageOption(id: "shelter-cold-urgent", label: "Under 1 Hour", icon: "hourglass.bottomhalf.filled", destination: .technique("shelter-snow-trench"))
                                 ])
                             )),
@@ -1266,8 +1498,8 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "shelter-wet-ground", label: "Ground Moisture / Bugs", icon: "ant.fill", destination: .nextQuestion(
                         TriageNode(id: "shelter-wet-ground-q", question: "How do you want to get off the ground?", options: [
                             TriageOption(id: "shelter-wet-hammock", label: "Hammock (Have Material)", icon: "figure.mind.and.body", destination: .technique("shelter-hammock")),
-                            TriageOption(id: "shelter-wet-platform", label: "Build Raised Platform", icon: "rectangle.stack.fill", destination: .technique("shelter-raised-platform")),
-                            TriageOption(id: "shelter-wet-swamp", label: "Swamp Bed (Quick)", icon: "bed.double.fill", destination: .technique("shelter-swamp-bed"))
+                            TriageOption(id: "shelter-wet-platform", label: "Build Raised Platform", icon: "rectangle.stack.fill", destination: .techniqueList(["shelter-raised-platform", "shelter-tree-platform"])), // Added orphan
+                            TriageOption(id: "shelter-wet-swamp", label: "Swamp Bed (Quick)", icon: "bed.double.fill", destination: .techniqueList(["shelter-swamp-bed", "env-swamp-movement"])) // Added orphan
                         ])
                     )),
                     TriageOption(id: "shelter-wet-night", label: "Sleeping Setup", icon: "bed.double.fill", destination: .nextQuestion(
@@ -1284,7 +1516,7 @@ class ContentDatabase: ObservableObject {
             TriageOption(id: "shelter-urban", label: "Urban / After Disaster", icon: "building.2.fill", destination: .nextQuestion(
                 TriageNode(id: "shelter-urban-q", question: "What's your situation?", options: [
                     TriageOption(id: "shelter-urban-building", label: "Building Damaged", icon: "building.2.fill", destination: .technique("shelter-urban-debris")),
-                    TriageOption(id: "shelter-urban-vehicle", label: "Vehicle Available", icon: "car.fill", destination: .technique("shelter-vehicle")),
+                    TriageOption(id: "shelter-urban-vehicle", label: "Vehicle Available", icon: "car.fill", destination: .techniqueList(["shelter-vehicle", "shelter-parachute"])), // Added orphan
                     TriageOption(id: "shelter-urban-nothing", label: "Outdoors — No Structure", icon: "xmark.circle.fill", destination: .nextQuestion(
                         TriageNode(id: "shelter-urban-out-q", question: "What can you find?", options: [
                             TriageOption(id: "shelter-urban-card", label: "Cardboard / Plastic", icon: "doc.fill", destination: .technique("shelter-emergency-bivy")),
@@ -1310,13 +1542,13 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "an-bear-black", label: "Black Bear", icon: "pawprint.fill", destination: .nextQuestion(
                         TriageNode(id: "an-bear-black-q", question: "Has it seen you?", options: [
                             TriageOption(id: "an-black-seen", label: "Yes — Stand Ground", icon: "eye.fill", destination: .technique("env-bear-black")),
-                            TriageOption(id: "an-black-unseen", label: "No — Back Away", icon: "eye.slash.fill", destination: .technique("env-bear-black"))
+                            TriageOption(id: "an-black-unseen", label: "No — Back Away", icon: "eye.slash.fill", destination: .technique("env-bear-black-avoid"))
                         ])
                     )),
                     TriageOption(id: "an-bear-grizzly", label: "Grizzly / Brown Bear", icon: "pawprint.fill", destination: .nextQuestion(
                         TriageNode(id: "an-bear-griz-q", question: "Is it attacking?", options: [
                             TriageOption(id: "an-griz-attack", label: "Yes — Play Dead", icon: "exclamationmark.triangle.fill", destination: .technique("env-bear-grizzly")),
-                            TriageOption(id: "an-griz-calm", label: "No — Back Away Slowly", icon: "figure.walk", destination: .technique("env-bear-grizzly"))
+                            TriageOption(id: "an-griz-calm", label: "No — Back Away Slowly", icon: "figure.walk", destination: .technique("env-bear-grizzly-avoid"))
                         ])
                     )),
                     TriageOption(id: "an-bear-polar", label: "Polar Bear", icon: "snowflake", destination: .technique("env-bear-polar"))
@@ -1337,9 +1569,9 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "an-snake-bite", label: "Yes — bitten", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-snakebite")),
                     TriageOption(id: "an-snake-see", label: "No — Just saw it", icon: "eye.fill", destination: .nextQuestion(
                          TriageNode(id: "an-snake-id", question: "Head shape?", options: [
-                            TriageOption(id: "an-snake-tri", label: "Triangular / Diamond (Venomous)", icon: "triangle.fill", destination: .technique("firstaid-snakebite")),
-                            TriageOption(id: "an-snake-round", label: "Round / Oval (Likely Safe)", icon: "circle.fill", destination: .technique("firstaid-snakebite")), // Still avoid
-                            TriageOption(id: "an-snake-unk", label: "Unknown / Hidden", icon: "questionmark.circle", destination: .technique("firstaid-snakebite"))
+                            TriageOption(id: "an-snake-tri", label: "Triangular / Diamond (Venomous)", icon: "triangle.fill", destination: .technique("env-snake-avoid")),
+                            TriageOption(id: "an-snake-round", label: "Round / Oval (Likely Safe)", icon: "circle.fill", destination: .technique("env-snake-avoid")),
+                            TriageOption(id: "an-snake-unk", label: "Unknown / Hidden", icon: "questionmark.circle", destination: .technique("env-snake-avoid"))
                          ])
                     ))
                 ])
@@ -1357,18 +1589,17 @@ class ContentDatabase: ObservableObject {
             TriageOption(id: "an-moose", label: "Moose / Elk / Bison", icon: "ant.fill", destination: .technique("env-moose-elk")),
 
             // --- REPTILES ---
-            TriageOption(id: "an-reptile", label: "Snake / Alligator", icon: "scribble.variable", destination: .nextQuestion(
+            TriageOption(id: "an-reptile", label: "Croc / Alligator", icon: "scribble.variable", destination: .nextQuestion(
                 TriageNode(id: "an-rep-q", question: "Situation?", options: [
-                    TriageOption(id: "an-snake-bite", label: "Bitten by Snake", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-snake-bite")),
-                    TriageOption(id: "an-snake-encounter", label: "Snake Nearby", icon: "eye.fill", destination: .technique("firstaid-snake-bite")),
-                    TriageOption(id: "an-gator", label: "Alligator / Croc", icon: "water.waves", destination: .technique("env-alligator"))
+                    TriageOption(id: "an-gator-see", label: "See one nearby", icon: "eye.fill", destination: .technique("env-alligator")),
+                    TriageOption(id: "an-gator-attack", label: "Attack / Chase", icon: "exclamationmark.triangle.fill", destination: .technique("env-alligator"))
                 ])
             )),
 
             // --- BUGS ---
             TriageOption(id: "an-bugs", label: "Insects / Spiders / Scorpions", icon: "ant.fill", destination: .nextQuestion(
                 TriageNode(id: "an-bug-q", question: "What happened?", options: [
-                    TriageOption(id: "an-bee", label: "Stung (Bee/Wasp)", icon: "ant.fill", destination: .technique("firstaid-allergic-reaction")),
+                    TriageOption(id: "an-bee", label: "Stung (Bee/Wasp)", icon: "ant.fill", destination: .technique("firstaid-sting-treat")),
                     TriageOption(id: "an-spider", label: "Bitten (Spider/Scorpion)", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-spider-bite")),
                     TriageOption(id: "an-tick", label: "Tick Attached", icon: "circle.fill", destination: .technique("env-tick-removal"))
                 ])
@@ -1410,9 +1641,10 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "wet-drown-rescue", label: "Rescuing Drowning Person", icon: "person.2.fill", destination: .nextQuestion(
                         TriageNode(id: "wet-drown-how", question: "How far away are they?", options: [
                             TriageOption(id: "wet-drown-near", label: "Within Arm's Reach", icon: "hand.raised.fill", destination: .technique("rescue-throw-bag")),
-                            TriageOption(id: "wet-drown-throw", label: "Can Throw Rope / Object", icon: "arrow.right", destination: .technique("rescue-throw-bag")),
+                            TriageOption(id: "wet-drown-throw", label: "Can Throw Rope / Object", icon: "arrow.right", destination: .techniqueList(["rescue-throw-bag", "rescue-throw-line"])), // Added orphan
                             TriageOption(id: "wet-drown-far", label: "Far — Need to Swim Out", icon: "figure.pool.swim", destination: .technique("rescue-improvised-flotation")),
-                            TriageOption(id: "wet-drown-child", label: "Child / Non-Swimmer", icon: "exclamationmark.triangle.fill", destination: .technique("rescue-throw-bag"))
+                            TriageOption(id: "wet-drown-child", label: "Child / Non-Swimmer", icon: "exclamationmark.triangle.fill", destination: .technique("rescue-throw-bag")),
+                            TriageOption(id: "wet-drown-rescue-tech", label: "After Rescue / Recovery", icon: "cross.fill", destination: .techniqueList(["firstaid-drowning-rescue", "firstaid-drowning"])) // Added orphans
                         ])
                     ))
                 ])
@@ -1463,7 +1695,7 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "wet-river", label: "River Current", icon: "arrow.right", destination: .nextQuestion(
                         TriageNode(id: "wet-river-q", question: "What's ahead?", options: [
                             TriageOption(id: "wet-river-rapids", label: "Rapids / Rocks Ahead", icon: "exclamationmark.triangle.fill", destination: .technique("rescue-river-self")),
-                            TriageOption(id: "wet-river-calm", label: "Current but No Rapids", icon: "water.waves", destination: .technique("rescue-river-self")),
+                            TriageOption(id: "wet-river-calm", label: "Current but No Rapids", icon: "water.waves", destination: .techniqueList(["rescue-river-self", "nav-river-navigation"])), // Added orphan
                             TriageOption(id: "wet-river-strainer", label: "Fallen Tree / Strainer", icon: "tree.fill", destination: .technique("rescue-river-self"))
                         ])
                     ))

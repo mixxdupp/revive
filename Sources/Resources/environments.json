@@ -1088,14 +1088,14 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Follow streams and rivers — they're natural highways in dense jungle.",
+          "instruction": "Follow streams and rivers \u2014 they're natural highways in dense jungle.",
           "helpDetail": "Dense jungle off-trail movement is ~0.5 miles/hour. Along waterways: 1-2 miles/hour. Streams lead to rivers, rivers lead to settlements. Stay near the bank, not in the water (parasites, current).",
           "illustrationDescription": "Stream following."
         },
         {
           "stepNumber": 2,
           "instruction": "Use a machete or heavy stick to probe ahead. Watch for snakes.",
-          "helpDetail": "Prod vegetation before stepping. Many venomous snakes are camouflaged in leaf litter. Step ON logs, not over them — snakes rest on the far side. Always look before grabbing branches or vines.",
+          "helpDetail": "Prod vegetation before stepping. Many venomous snakes are camouflaged in leaf litter. Step ON logs, not over them \u2014 snakes rest on the far side. Always look before grabbing branches or vines.",
           "illustrationDescription": "Probing ahead."
         },
         {
@@ -1124,7 +1124,7 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Follow animal trails — they use the firmest paths.",
+          "instruction": "Follow animal trails \u2014 they use the firmest paths.",
           "helpDetail": "Deer, hogs, and other animals know the solid ground. Follow their trails. Animal trails also lead to water sources and higher ground. If a trail dead-ends at water, look for where it resumes on the other side.",
           "illustrationDescription": "Animal trails."
         },
@@ -1149,7 +1149,7 @@
         {
           "stepNumber": 1,
           "instruction": "Recognize symptoms: headache, nausea, fatigue, dizziness above 8,000 feet.",
-          "helpDetail": "Acute Mountain Sickness (AMS) affects most people above 8,000 feet. Symptoms start 6-12 hours after ascending. The ONLY reliable cure is descending. Do NOT ignore symptoms — AMS can progress to fatal brain or lung swelling.",
+          "helpDetail": "Acute Mountain Sickness (AMS) affects most people above 8,000 feet. Symptoms start 6-12 hours after ascending. The ONLY reliable cure is descending. Do NOT ignore symptoms \u2014 AMS can progress to fatal brain or lung swelling.",
           "illustrationDescription": "Symptoms."
         },
         {
@@ -1161,7 +1161,7 @@
         {
           "stepNumber": 3,
           "instruction": "Climb high, sleep low. Ascend no more than 1,000 feet per day above 10,000 feet.",
-          "helpDetail": "Acclimatization takes 1-3 days per 1,000 feet. You can climb higher during the day but should sleep at a lower elevation. Hydrate aggressively — dehydration accelerates AMS. Avoid alcohol and sleeping pills.",
+          "helpDetail": "Acclimatization takes 1-3 days per 1,000 feet. You can climb higher during the day but should sleep at a lower elevation. Hydrate aggressively \u2014 dehydration accelerates AMS. Avoid alcohol and sleeping pills.",
           "illustrationDescription": "Acclimatization."
         }
       ]
@@ -1179,7 +1179,7 @@
         {
           "stepNumber": 1,
           "instruction": "Move between sunset and sunrise. Rest during daylight in shade.",
-          "helpDetail": "Desert day temperatures can exceed 130°F. Night temperatures may drop to 40°F. You lose 0.5-1 liter of water per hour walking in day heat vs. 0.25 liters at night. Night travel doubles your range on the same water.",
+          "helpDetail": "Desert day temperatures can exceed 130\u00b0F. Night temperatures may drop to 40\u00b0F. You lose 0.5-1 liter of water per hour walking in day heat vs. 0.25 liters at night. Night travel doubles your range on the same water.",
           "illustrationDescription": "Night schedule."
         },
         {
@@ -1191,7 +1191,7 @@
         {
           "stepNumber": 3,
           "instruction": "Watch for temperature extremes: hypothermia is a real desert risk at night.",
-          "helpDetail": "Desert temperature swings of 60-80°F between day and night are common. Dress in layers. The same sun protection worn by day traps warmth at night. Start walking to generate body heat if cold.",
+          "helpDetail": "Desert temperature swings of 60-80\u00b0F between day and night are common. Dress in layers. The same sun protection worn by day traps warmth at night. Start walking to generate body heat if cold.",
           "illustrationDescription": "Temperature management."
         }
       ]
@@ -1209,7 +1209,7 @@
         {
           "stepNumber": 1,
           "instruction": "Get to high ground immediately. Storm surge kills more than wind.",
-          "helpDetail": "Storm surge can push seawater 20+ feet above normal. Move to ground at least 30 feet above sea level and 2 miles from coast. Storm surge arrives fast — within minutes. Don't wait for official warnings.",
+          "helpDetail": "Storm surge can push seawater 20+ feet above normal. Move to ground at least 30 feet above sea level and 2 miles from coast. Storm surge arrives fast \u2014 within minutes. Don't wait for official warnings.",
           "illustrationDescription": "High ground."
         },
         {
@@ -1239,19 +1239,19 @@
         {
           "stepNumber": 1,
           "instruction": "Check for animal inhabitants before entering. Look for tracks, droppings, bones.",
-          "helpDetail": "Bears, big cats, snakes, and bats use caves. Fresh droppings = occupied. Strong musky smell = recent large animal. Throw rocks inside and listen. Never enter a cave that smells of ammonia (bat guano — histoplasmosis risk).",
+          "helpDetail": "Bears, big cats, snakes, and bats use caves. Fresh droppings = occupied. Strong musky smell = recent large animal. Throw rocks inside and listen. Never enter a cave that smells of ammonia (bat guano \u2014 histoplasmosis risk).",
           "illustrationDescription": "Checking for animals."
         },
         {
           "stepNumber": 2,
-          "instruction": "Check airflow. Stale or foul air means poor ventilation — don't go deep.",
-          "helpDetail": "Caves can accumulate CO2, radon, and methane. If a flame burns dim or goes out, air is poor. Stay near the entrance where airflow is good. Never build a fire deep in a cave — smoke accumulation is lethal.",
+          "instruction": "Check airflow. Stale or foul air means poor ventilation \u2014 don't go deep.",
+          "helpDetail": "Caves can accumulate CO2, radon, and methane. If a flame burns dim or goes out, air is poor. Stay near the entrance where airflow is good. Never build a fire deep in a cave \u2014 smoke accumulation is lethal.",
           "illustrationDescription": "Air quality."
         },
         {
           "stepNumber": 3,
           "instruction": "Build fire near the entrance, not inside. Use cave for wind protection only.",
-          "helpDetail": "Fire at cave mouth provides warmth without smoke buildup. The cave walls reflect heat. Sleep between fire and back wall. Mark your entrance clearly if exploring deeper — cave disorientation is common and deadly.",
+          "helpDetail": "Fire at cave mouth provides warmth without smoke buildup. The cave walls reflect heat. Sleep between fire and back wall. Mark your entrance clearly if exploring deeper \u2014 cave disorientation is common and deadly.",
           "illustrationDescription": "Fire placement."
         }
       ]
@@ -1274,8 +1274,8 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Move perpendicular to the flood path — go UP, not downstream.",
-          "helpDetail": "Don't try to outrun a flood downstream — water is faster than you. Move sideways and uphill. Even 10-20 feet of elevation gain can save your life. 6 inches of moving water can knock you down.",
+          "instruction": "Move perpendicular to the flood path \u2014 go UP, not downstream.",
+          "helpDetail": "Don't try to outrun a flood downstream \u2014 water is faster than you. Move sideways and uphill. Even 10-20 feet of elevation gain can save your life. 6 inches of moving water can knock you down.",
           "illustrationDescription": "Escape direction."
         },
         {
@@ -1305,13 +1305,13 @@
         {
           "stepNumber": 2,
           "instruction": "Avoid: tall trees, hilltops, open fields, water, metal objects.",
-          "helpDetail": "Lightning hits the tallest object. Don't BE the tallest object. Avoid isolated trees — seek a uniform stand of short trees. Get off ridgelines. Leave water immediately. Remove metal frame backpacks.",
+          "helpDetail": "Lightning hits the tallest object. Don't BE the tallest object. Avoid isolated trees \u2014 seek a uniform stand of short trees. Get off ridgelines. Leave water immediately. Remove metal frame backpacks.",
           "illustrationDescription": "What to avoid."
         },
         {
           "stepNumber": 3,
           "instruction": "Lightning crouch: squat low, feet together, hands on knees, head down.",
-          "helpDetail": "If caught in the open: make yourself as small as possible while minimizing ground contact. Feet together reduces ground current risk. Don't lie flat — it increases ground current exposure. Space group members 50 feet apart.",
+          "helpDetail": "If caught in the open: make yourself as small as possible while minimizing ground contact. Feet together reduces ground current risk. Don't lie flat \u2014 it increases ground current exposure. Space group members 50 feet apart.",
           "illustrationDescription": "Lightning position."
         }
       ]
@@ -1329,7 +1329,7 @@
         {
           "stepNumber": 1,
           "instruction": "Turn your back to the wind. Cover nose and mouth immediately.",
-          "helpDetail": "Sand particles cause severe lung damage. Wrap cloth tightly over nose and mouth — breathe through the fabric. Cover eyes completely — sand abrasion can blind you. Goggles or sunglasses help but wrap with cloth too.",
+          "helpDetail": "Sand particles cause severe lung damage. Wrap cloth tightly over nose and mouth \u2014 breathe through the fabric. Cover eyes completely \u2014 sand abrasion can blind you. Goggles or sunglasses help but wrap with cloth too.",
           "illustrationDescription": "Face protection."
         },
         {
@@ -1358,14 +1358,14 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Navigate by wind direction — prevailing winds are the most reliable compass in featureless terrain.",
+          "instruction": "Navigate by wind direction \u2014 prevailing winds are the most reliable compass in featureless terrain.",
           "helpDetail": "Snow drifts, sastrugi (wind ridges), and vegetation lean indicate prevailing wind direction. Once established, use wind angle to maintain a bearing. Sun position helps when visible but arctic sun angles are extreme.",
           "illustrationDescription": "Wind navigation."
         },
         {
           "stepNumber": 2,
           "instruction": "Avoid thin ice: dark ice, snow-covered ice, ice near current or outflows.",
-          "helpDetail": "Clear blue ice 4+ inches thick supports a person. White/opaque ice is weaker. Snow-covered ice hides thickness. Stream inlets, outlets, and narrows have thinner ice. Spread your weight if unsure — crawl.",
+          "helpDetail": "Clear blue ice 4+ inches thick supports a person. White/opaque ice is weaker. Snow-covered ice hides thickness. Stream inlets, outlets, and narrows have thinner ice. Spread your weight if unsure \u2014 crawl.",
           "illustrationDescription": "Ice assessment."
         },
         {
@@ -1395,12 +1395,12 @@
         {
           "stepNumber": 2,
           "instruction": "Purify ALL water. Don't wade barefoot. Cover all wounds.",
-          "helpDetail": "Tropical parasites enter through skin (schistosomiasis), mouth (giardia, ameba), and wounds (tropical ulcers). Boil all water. Wear foot covering in water. Any wound, however small, must be cleaned and covered — tropical infection is aggressive.",
+          "helpDetail": "Tropical parasites enter through skin (schistosomiasis), mouth (giardia, ameba), and wounds (tropical ulcers). Boil all water. Wear foot covering in water. Any wound, however small, must be cleaned and covered \u2014 tropical infection is aggressive.",
           "illustrationDescription": "Water and wound care."
         },
         {
           "stepNumber": 3,
-          "instruction": "Watch for fever, shaking chills, or progressive wound redness — these are emergencies.",
+          "instruction": "Watch for fever, shaking chills, or progressive wound redness \u2014 these are emergencies.",
           "helpDetail": "Malaria symptoms: cyclical fever and chills starting 7-30 days after bite. Untreated falciparum malaria can kill in 24-48 hours. Red streaks from a wound = spreading infection. Both require evacuation to medical care.",
           "illustrationDescription": "Warning signs."
         }
@@ -1419,13 +1419,13 @@
         {
           "stepNumber": 1,
           "instruction": "Move to the largest burned area (black), a road, water body, or rocky area.",
-          "helpDetail": "Already-burned areas won't burn again. Large clearings and rock fields have no fuel. Water bodies provide heat protection. Roads create fuel breaks. Running uphill from fire is deadly — fire travels uphill 4x faster than on flat ground.",
+          "helpDetail": "Already-burned areas won't burn again. Large clearings and rock fields have no fuel. Water bodies provide heat protection. Roads create fuel breaks. Running uphill from fire is deadly \u2014 fire travels uphill 4x faster than on flat ground.",
           "illustrationDescription": "Safety zones."
         },
         {
           "stepNumber": 2,
           "instruction": "If trapped: lie face-down in a depression, cover exposed skin.",
-          "helpDetail": "Clear vegetation around you in a 10-foot radius if possible. Lie in the lowest spot available. Cover your body with dirt. Breathe through cloth near the ground — superheated air rises. The fire front passes in 1-3 minutes.",
+          "helpDetail": "Clear vegetation around you in a 10-foot radius if possible. Lie in the lowest spot available. Cover your body with dirt. Breathe through cloth near the ground \u2014 superheated air rises. The fire front passes in 1-3 minutes.",
           "illustrationDescription": "Entrapment position."
         },
         {
@@ -1599,7 +1599,7 @@
         {
           "stepNumber": 1,
           "instruction": "Stop all activity. Find or build shade.",
-          "helpDetail": "Direct sun adds 15-20°F to heat load. Dig to cooler soil if necessary.",
+          "helpDetail": "Direct sun adds 15-20\u00b0F to heat load. Dig to cooler soil if necessary.",
           "illustrationDescription": "Resting in shade."
         },
         {
@@ -1964,137 +1964,10 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Hot water soak (110°F) for pain.",
+          "instruction": "Hot water soak (110\u00b0F) for pain.",
           "helpDetail": "Heat breaks down protein venom. 20-45 minutes.",
           "illustrationDescription": "Hot soak."
         }
-      ]
-    }
-  ],
-  "articles": [
-    {
-      "id": "env-article-desert",
-      "title": "Desert Survival Principles",
-      "body": "The desert kills through dehydration and heat. Everything else is secondary.\n\nThe Big Three rules:\n1. Shade is your primary need (shelter from sun)\n2. Water is your second need\n3. Everything else can wait\n\nBody mechanics in heat:\n- Resting in shade: 1 quart water per day to survive\n- Walking at night: 1 gallon per night\n- Walking in daytime: 1 quart per HOUR (unsustainable)\n\nCommon mistakes:\n- Walking during the day (dehydrates 3\u00d7 faster)\n- Rationing water (drink when thirsty \u2014 always)\n- Removing clothing (exposed skin dehydrates faster)\n- Following mirages (heat shimmer, not water)\n\nDesert navigation:\n- Sand dunes trend perpendicular to prevailing wind\n- Vegetation increases toward water\n- Roads and power lines lead to civilization\n- Aircraft contrails indicate flight paths between cities",
-      "relatedTechniqueIDs": [
-        "env-desert-travel",
-        "env-desert-shelter",
-        "env-desert-water"
-      ]
-    },
-    {
-      "id": "env-article-arctic",
-      "title": "Arctic & Cold Weather Survival",
-      "body": "Cold kills through hypothermia, which is insidious. You don't realize it's happening until you can't think clearly enough to act.\n\nThe insulation hierarchy:\n- Still air is the best insulator\n- Layering creates pockets of still air\n- Cotton kills (absorbs water, loses insulation)\n- Wool retains warmth when wet\n- Synthetic insulation dries fastest\n\nCaloric demands in extreme cold:\n- Shivering burns 400-600 calories per hour\n- Cold weather activity: 4,000-6,000 calories per day needed\n- Without adequate calories, hypothermia accelerates\n\nKey principles:\n- Stay DRY at all costs \u2014 wetness = death\n- Ventilate to prevent sweating inside layers\n- Keep extremities protected (fingers, toes, ears, nose)\n- Never sit directly on snow \u2014 insulate from ground\n- Eat before sleeping \u2014 digestion generates heat\n\nWind chill: 10\u00b0F with 30mph wind has the same cooling effect as -33\u00b0F in calm air. Wind protection is as important as insulation.",
-      "relatedTechniqueIDs": [
-        "env-arctic-shelter",
-        "env-arctic-travel",
-        "env-arctic-frostbite"
-      ]
-    },
-    {
-      "id": "env-article-jungle",
-      "title": "Tropical & Jungle Survival",
-      "body": "The jungle provides everything for survival \u2014 and everything that can kill you.\n\nAdvantages:\n- Abundant water (rainfall, streams, plants)\n- Abundant food (plants, insects, fish)\n- Unlimited building materials\n- Shelter from wind\n\nDangers:\n- Infections: every cut becomes infected within 24 hours in tropical humidity\n- Parasites: waterborne and insect-borne diseases are the primary threat\n- Dehydration: despite humidity, you sweat heavily and lose electrolytes\n- Immersion foot: constant wet feet leads to tissue breakdown\n- Predators: minimal risk compared to disease\n\nMedical priorities:\n1. Keep wounds clean and dry (impossible but try)\n2. Use mosquito netting religiously (malaria kills)\n3. Dry your feet completely once per day\n4. Boil ALL water (jungle water has the highest parasite load)\n5. Check body for leeches and ticks daily\n\nNavigation: Following water downstream is the most reliable method to reach civilization in tropical environments.",
-      "relatedTechniqueIDs": [
-        "env-jungle-travel",
-        "env-jungle-water",
-        "env-jungle-shelter"
-      ]
-    },
-    {
-      "id": "env-article-mountain",
-      "title": "Mountain Hazard Awareness",
-      "body": "Mountains compress multiple environments into short vertical distances. You can go from summer to winter in 3,000 feet of elevation.\n\nMain hazards by altitude:\n- Below treeline: exposure, getting lost, streams/rivers\n- At treeline: lightning, wind, sudden weather\n- Above treeline: altitude sickness, falls, avalanche, hypothermia\n\nWeather changes:\n- Mountains create their own weather. Clear mornings can become violent storms by 2 PM.\n- Temperature drops approximately 3.5\u00b0F per 1,000 feet of elevation gain\n- Start early, summit by noon, descend before afternoon storms\n\nAvalanche awareness:\n- Slopes 30-45\u00b0 are highest risk\n- New snow on old snow (weak layer) is the primary trigger\n- Convex slopes are more dangerous than concave\n- If buried: create air pocket in front of face, spit to determine which way is up (gravity), dig in the opposite direction\n\nFalls:\n- The #1 killer in mountains is falling\n- Self-arrest with ice axe: roll onto stomach, dig pick into slope\n- Three points of contact on exposed terrain at all times",
-      "relatedTechniqueIDs": [
-        "env-mountain-lightning",
-        "env-mountain-altitude"
-      ]
-    },
-    {
-      "id": "env-article-ocean",
-      "title": "Ocean & Coastal Survival",
-      "body": "Survival at sea is one of the most challenging environments. Your three enemies: dehydration, hypothermia, and sun exposure.\n\nSurvival priorities at sea:\n1. Stay afloat (PFD, debris, HELP position)\n2. Protection from elements (shade from sun, insulate from cold water)\n3. Fresh water (rain collection is your only reliable source)\n4. Signaling (mirror, dye, flares, electronics)\n5. Food (last on the list \u2014 you can survive weeks without food)\n\nCold water immersion survival:\n- 50\u00b0F water: 1-3 hours\n- 60\u00b0F water: 3-12 hours\n- 70\u00b0F water: 12-40 hours\n- 80\u00b0F water: indefinite (but sunburn and dehydration kill)\n\nIf in a life raft:\n- Stay dry if possible (wet clothing in the open = hypothermia)\n- Collect rainwater in every possible surface\n- Fish for food: trailing a line behind the raft works\n- Signal EVERY aircraft and vessel\n- Maintain morale: routine, tasks, hope\n\nShark awareness: sharks rarely attack humans. Avoid splashing, bleeding in water, and dawn/dusk swimming. If approached, maintain eye contact and back away slowly.",
-      "relatedTechniqueIDs": [
-        "env-ocean-survival"
-      ]
-    },
-    {
-      "id": "env-article-flood",
-      "title": "Flood & Water Emergency Preparedness",
-      "body": "Floods are the #1 natural disaster killer worldwide. Most flood deaths are from vehicles driving into floodwater.\n\nCritical rules:\n- Turn around, don't drown: NEVER drive through flooded roads\n- 6 inches of water knocks you down\n- 12 inches of water carries away a car\n- 2 feet of water carries away an SUV/truck\n\nFlash flood indicators:\n- Heavy rain upstream (you may not see it locally)\n- Rising water in streams/creeks\n- Roaring sound from upstream\n- Muddy water where it was clear\n- Debris floating downstream\n\nIf trapped by rising water:\n- Go to the highest accessible point\n- Signal with lights, bright clothing, mirrors\n- Do NOT enter floodwater to swim\n- If swept away: float on back, feet downstream\n- Grab any stable object and climb above water\n\nAfter flood:\n- Never drink floodwater (sewage, chemicals, debris)\n- Avoid walking through standing water (contamination, hidden holes, downed power lines)\n- Check structural integrity before entering buildings",
-      "relatedTechniqueIDs": [
-        "env-flood-survival"
-      ]
-    },
-    {
-      "id": "env-article-multihazard",
-      "title": "Multi-Hazard Emergency Planning",
-      "body": "Most people prepare for one type of disaster and ignore everything else. True preparedness is hazard-agnostic.\n\nUniversal survival priorities (regardless of disaster type):\n1. Immediate safety (get out of danger)\n2. Medical care (treat injuries)\n3. Shelter (protection from elements)\n4. Water (within 3 days)\n5. Communication (contact help)\n6. Food (within 3 weeks)\n\nCommon across ALL disasters:\n- Communication systems fail first (cell towers)\n- Supply chains break within 72 hours\n- Emergency services are overwhelmed\n- Panic causes more casualties than the event itself\n- Those who plan survive; those who don't become victims\n\nThe 72-hour rule:\n- After ANY disaster, assume no help for 72 hours minimum\n- Self-sufficiency for 3 days is the baseline\n- Urban areas may take longer due to population density\n- Rural areas may take longer due to access difficulty\n\nEvery household should have: water (1 gallon per person per day), food (non-perishable), prescriptions (30-day supply), cash, documents (in waterproof bag), first aid, flashlight, and radio.",
-      "relatedTechniqueIDs": [
-        "env-earthquake-indoor",
-        "env-tornado-shelter",
-        "env-flash-flood-response"
-      ]
-    },
-    {
-      "id": "env-article-climate",
-      "title": "Climate Adaptation in Survival",
-      "body": "Your body adapts to climate, but it takes time. Understanding acclimatization saves lives.\n\nHeat acclimatization:\n- Takes 7-14 days of gradual exposure\n- Sweat production increases and becomes more dilute\n- Heart rate decreases for same work level\n- Core temperature rise is smaller\n- Risk: pushing hard before acclimatization causes heat stroke\n\nCold acclimatization:\n- Takes 2-4 weeks\n- Blood flow to extremities improves (reduced vasoconstriction)\n- Shivering threshold decreases\n- Non-shivering thermogenesis (brown fat activation) increases\n- Caloric needs increase 20-50%\n\nAltitude acclimatization:\n- Takes 3-5 days per 3,000 feet above 8,000 feet\n- Red blood cell production increases\n- Ventilation rate increases\n- Risk: ascending too fast causes AMS, HACE, or HAPE\n- The climb high, sleep low rule: ascend during the day, descend to sleep\n\nCritical principle: you cannot rush acclimatization. It is a physiological process, not a mental one. Willpower does not accelerate it.",
-      "relatedTechniqueIDs": [
-        "env-desert-travel",
-        "env-arctic-travel"
-      ]
-    },
-    {
-      "id": "env-article-urban-disaster",
-      "title": "Urban Disaster Navigation",
-      "body": "Cities present unique challenges in disasters: collapsed structures, broken utilities, panicked crowds, and limited escape routes.\n\nUrban-specific hazards:\n- Falling glass from high-rises (up to 2 blocks away)\n- Gas leaks from broken mains (explosion risk)\n- Flooding from broken water mains\n- Electrical hazards from downed wires\n- Structural collapse (aftershocks, fire, water damage)\n- Civil unrest (desperation sets in after 72 hours)\n\nNavigation in damaged cities:\n- Know your neighborhood's street grid before disaster\n- Identify 3 evacuation routes from your home\n- Avoid highway overpasses (collapse risk)\n- Move perpendicular to windward side of fires\n- Follow rivers downstream toward larger settlements\n\nUrban resources often overlooked:\n- Fire stations have tools, water, and communication\n- Schools often serve as shelters\n- Hospitals have backup power and supplies\n- Hardware stores have survival-critical materials\n- Parking garages provide structural shelter\n\nThe golden rule of urban disaster: get out early or shelter in place. The worst position is trying to evacuate when everyone else is.",
-      "relatedTechniqueIDs": [
-        "env-earthquake-indoor",
-        "env-wildfire-evac"
-      ]
-    },
-    {
-      "id": "env-article-altitude",
-      "title": "Altitude Sickness: From Mild to Fatal",
-      "body": "Altitude sickness is progressive and predictable. Understanding the stages can save your life.\n\nStage 1 — Acute Mountain Sickness (AMS): 8,000-12,000 feet\n- Headache (primary symptom)\n- Nausea, loss of appetite\n- Fatigue, weakness\n- Dizziness\n- Difficulty sleeping\nTreatment: rest at same altitude, hydrate, ibuprofen. Resolves in 24-48 hours if you don't ascend.\n\nStage 2 — HACE (High Altitude Cerebral Edema): 12,000+ feet\n- Severe headache unresponsive to medication\n- Confusion, disorientation\n- Loss of coordination (ataxia)\n- Irrational behavior\n- Hallucinations\nTreatment: IMMEDIATE descent. This is a medical emergency. Fatal within 24 hours without descent.\n\nStage 3 — HAPE (High Altitude Pulmonary Edema): 8,000+ feet\n- Persistent dry cough, then wet cough\n- Breathlessness at rest\n- Gurgling sounds when breathing\n- Blue/gray lips and fingernails\n- Pink, frothy sputum\nTreatment: IMMEDIATE descent + supplemental oxygen. Fatal within hours if untreated.\n\nPrevention: ascend slowly, hydrate, descend at first sign of worsening symptoms.",
-      "relatedTechniqueIDs": [
-        "env-altitude-sickness"
-      ]
-    },
-    {
-      "id": "env-article-jungle-medicine",
-      "title": "Jungle Survival Medicine",
-      "body": "The tropical jungle is the most medically hostile environment for survival.\n\nTop jungle medical threats:\n1. Dehydration/heat stroke (primary killer)\n2. Infected wounds (tropical ulcers form in 24 hours)\n3. Mosquito-borne disease (malaria, dengue)\n4. Waterborne parasites (giardia, amoeba)\n5. Venomous bites (snakes, spiders, scorpions)\n\nWound care in the jungle:\n- ANY wound, no matter how small, must be cleaned immediately\n- Wash with boiled water and natural antiseptics (tree tea oil plants, honey)\n- Keep wounds open and draining — closing wounds in tropical conditions traps bacteria\n- Change dressings twice daily, inspect for redness spreading, pus, or odor\n- Tropical ulcers can become systemic infections within 48 hours\n\nNatural jungle remedies:\n- Aloe-type plants: apply gel to burns and wounds\n- Honey: natural antibacterial (if available from wild bees)\n- Charcoal: crushed and mixed with water for poison ingestion\n- Citrus: natural vitamin C prevents scurvy on extended survival\n- Turmeric root: anti-inflammatory, apply paste to wounds\n\nWater discipline: in jungle, you need 1-2 liters per HOUR of movement. Plan routes around water sources.",
-      "relatedTechniqueIDs": [
-        "env-jungle-movement",
-        "env-tropical-disease"
-      ]
-    },
-    {
-      "id": "env-article-flash-flood-science",
-      "title": "Flash Flood: Understanding the Deadliest Weather Killer",
-      "body": "Flash floods kill more people annually than any other weather event. Understanding them is critical.\n\nWhat makes flash floods deadly:\n- Speed: water can rise 10+ feet in minutes\n- Force: 6 inches of moving water knocks down an adult\n- Invisibility: caused by rain miles away that you can't see\n- Terrain multiplier: narrow canyons funnel and amplify water\n\nWhere flash floods occur:\n- Slot canyons (most dangerous — vertical walls, no escape)\n- Dry riverbeds (arroyos, wadis) in desert and arid regions\n- Mountain stream valleys after heavy upstream rain\n- Urban areas with poor drainage\n- Below dam spillways\n\nWarning signs:\n1. Rumbling sound upstream (like a freight train)\n2. Sudden increase in water turbidity (muddy water)\n3. Floating debris in rising water\n4. Dark clouds or heavy rain visible upstream\n5. Rapid water level change in streams\n\nSurvival rules:\n- Never camp below the high-water mark (look for debris lines on canyon walls)\n- Never cross flooded roadways (2 feet of water floats most vehicles)\n- Always have an uphill escape route planned\n- In slot canyons, check weather forecasts for the entire watershed, not just your location\n- If caught: climb, don't run. Vertical is safer than horizontal.",
-      "relatedTechniqueIDs": [
-        "env-flash-flood"
-      ]
-    },
-    {
-      "id": "env-article-cave-guide",
-      "title": "Cave Use in Survival: Complete Guide",
-      "body": "Caves provide excellent shelter but come with unique hazards.\n\nCave advantages:\n- Constant temperature (typically 50-60°F year-round in temperate zones)\n- Wind protection\n- Rain/snow protection\n- Concealment\n- Stone reflects fire heat\n\nCave hazards:\n- Bad air: CO2 accumulates, oxygen depletes. Test with flame.\n- Falls: cave floors are uneven, wet, and slippery\n- Flooding: many caves flood during rain. Look for water marks on walls.\n- Animal inhabitants: bats, snakes, spiders, bears\n- Collapse: loose rock, especially near entrances\n- Disorientation: beyond visual range of entrance, navigation is impossible without light\n\nSafe cave use rules:\n1. STAY near the entrance. Never explore deeper than you can see daylight.\n2. Fire at the entrance, sleep between fire and back wall.\n3. Check ceiling for loose rock before setting up camp.\n4. Ensure drainage — even light rain can flood a cavity.\n5. Mark the entrance from outside (pile of rocks) so you can find it again.\n6. Never enter narrow passages — getting stuck is a fatal scenario.\n\nCave temperature is your friend: cool in summer, warm (relatively) in winter. This constant temperature reduces exposure risk significantly.",
-      "relatedTechniqueIDs": [
-        "env-cave-survival"
-      ]
-    },
-    {
-      "id": "env-article-wildfire-behavior",
-      "title": "Understanding Wildfire Behavior",
-      "body": "Knowing how wildfire moves can save your life. Fire is predictable once you understand its physics.\n\nThe fire triangle: Heat + Fuel + Oxygen. Remove any one element and fire stops.\n\nHow fire spreads:\n- Uphill: fire preheats fuel above it via convection. Fire travels uphill 4x faster than on flat ground.\n- With wind: wind pushes flame into unburned fuel. A 20mph wind can drive fire at 6+ mph.\n- Into dry fuel: dry grass, brush, and pine needles ignite fastest.\n- Through spotting: embers carried by wind start new fires ahead of the main front.\n\nDangerous terrain features:\n- Narrow canyons (chimney effect — fire accelerates dramatically)\n- Saddles between hills (wind funnels accelerate fire)\n- South-facing slopes (dryer fuel, more sun exposure)\n- Steep slopes (most dangerous — fire races uphill)\n\nSafe zones:\n- Already-burned areas (black)\n- Rock fields and gravel\n- Wide roads and clearings\n- Large water bodies\n- Irrigated farmland\n\nFire behavior changes rapidly with wind shifts. The most dangerous moment is when wind shifts — what was the flank becomes the front, and escape routes become traps.\n\nRule of thumb: if you can't outrun the fire in 5 minutes, find a safety zone instead of running.",
-      "relatedTechniqueIDs": [
-        "env-wildfire-survival",
-        "env-wildfire-evac"
       ]
     },
     {
@@ -2419,6 +2292,133 @@
           "helpDetail": "You are within striking distance. 30 minutes must pass after the last thunder before leaving shelter.",
           "illustrationDescription": "Shelter immediately."
         }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "env-article-desert",
+      "title": "Desert Survival Principles",
+      "body": "The desert kills through dehydration and heat. Everything else is secondary.\n\nThe Big Three rules:\n1. Shade is your primary need (shelter from sun)\n2. Water is your second need\n3. Everything else can wait\n\nBody mechanics in heat:\n- Resting in shade: 1 quart water per day to survive\n- Walking at night: 1 gallon per night\n- Walking in daytime: 1 quart per HOUR (unsustainable)\n\nCommon mistakes:\n- Walking during the day (dehydrates 3\u00d7 faster)\n- Rationing water (drink when thirsty \u2014 always)\n- Removing clothing (exposed skin dehydrates faster)\n- Following mirages (heat shimmer, not water)\n\nDesert navigation:\n- Sand dunes trend perpendicular to prevailing wind\n- Vegetation increases toward water\n- Roads and power lines lead to civilization\n- Aircraft contrails indicate flight paths between cities",
+      "relatedTechniqueIDs": [
+        "env-desert-travel",
+        "env-desert-shelter",
+        "env-desert-water"
+      ]
+    },
+    {
+      "id": "env-article-arctic",
+      "title": "Arctic & Cold Weather Survival",
+      "body": "Cold kills through hypothermia, which is insidious. You don't realize it's happening until you can't think clearly enough to act.\n\nThe insulation hierarchy:\n- Still air is the best insulator\n- Layering creates pockets of still air\n- Cotton kills (absorbs water, loses insulation)\n- Wool retains warmth when wet\n- Synthetic insulation dries fastest\n\nCaloric demands in extreme cold:\n- Shivering burns 400-600 calories per hour\n- Cold weather activity: 4,000-6,000 calories per day needed\n- Without adequate calories, hypothermia accelerates\n\nKey principles:\n- Stay DRY at all costs \u2014 wetness = death\n- Ventilate to prevent sweating inside layers\n- Keep extremities protected (fingers, toes, ears, nose)\n- Never sit directly on snow \u2014 insulate from ground\n- Eat before sleeping \u2014 digestion generates heat\n\nWind chill: 10\u00b0F with 30mph wind has the same cooling effect as -33\u00b0F in calm air. Wind protection is as important as insulation.",
+      "relatedTechniqueIDs": [
+        "env-arctic-shelter",
+        "env-arctic-travel",
+        "env-arctic-frostbite"
+      ]
+    },
+    {
+      "id": "env-article-jungle",
+      "title": "Tropical & Jungle Survival",
+      "body": "The jungle provides everything for survival \u2014 and everything that can kill you.\n\nAdvantages:\n- Abundant water (rainfall, streams, plants)\n- Abundant food (plants, insects, fish)\n- Unlimited building materials\n- Shelter from wind\n\nDangers:\n- Infections: every cut becomes infected within 24 hours in tropical humidity\n- Parasites: waterborne and insect-borne diseases are the primary threat\n- Dehydration: despite humidity, you sweat heavily and lose electrolytes\n- Immersion foot: constant wet feet leads to tissue breakdown\n- Predators: minimal risk compared to disease\n\nMedical priorities:\n1. Keep wounds clean and dry (impossible but try)\n2. Use mosquito netting religiously (malaria kills)\n3. Dry your feet completely once per day\n4. Boil ALL water (jungle water has the highest parasite load)\n5. Check body for leeches and ticks daily\n\nNavigation: Following water downstream is the most reliable method to reach civilization in tropical environments.",
+      "relatedTechniqueIDs": [
+        "env-jungle-travel",
+        "env-jungle-water",
+        "env-jungle-shelter"
+      ]
+    },
+    {
+      "id": "env-article-mountain",
+      "title": "Mountain Hazard Awareness",
+      "body": "Mountains compress multiple environments into short vertical distances. You can go from summer to winter in 3,000 feet of elevation.\n\nMain hazards by altitude:\n- Below treeline: exposure, getting lost, streams/rivers\n- At treeline: lightning, wind, sudden weather\n- Above treeline: altitude sickness, falls, avalanche, hypothermia\n\nWeather changes:\n- Mountains create their own weather. Clear mornings can become violent storms by 2 PM.\n- Temperature drops approximately 3.5\u00b0F per 1,000 feet of elevation gain\n- Start early, summit by noon, descend before afternoon storms\n\nAvalanche awareness:\n- Slopes 30-45\u00b0 are highest risk\n- New snow on old snow (weak layer) is the primary trigger\n- Convex slopes are more dangerous than concave\n- If buried: create air pocket in front of face, spit to determine which way is up (gravity), dig in the opposite direction\n\nFalls:\n- The #1 killer in mountains is falling\n- Self-arrest with ice axe: roll onto stomach, dig pick into slope\n- Three points of contact on exposed terrain at all times",
+      "relatedTechniqueIDs": [
+        "env-mountain-lightning",
+        "env-mountain-altitude"
+      ]
+    },
+    {
+      "id": "env-article-ocean",
+      "title": "Ocean & Coastal Survival",
+      "body": "Survival at sea is one of the most challenging environments. Your three enemies: dehydration, hypothermia, and sun exposure.\n\nSurvival priorities at sea:\n1. Stay afloat (PFD, debris, HELP position)\n2. Protection from elements (shade from sun, insulate from cold water)\n3. Fresh water (rain collection is your only reliable source)\n4. Signaling (mirror, dye, flares, electronics)\n5. Food (last on the list \u2014 you can survive weeks without food)\n\nCold water immersion survival:\n- 50\u00b0F water: 1-3 hours\n- 60\u00b0F water: 3-12 hours\n- 70\u00b0F water: 12-40 hours\n- 80\u00b0F water: indefinite (but sunburn and dehydration kill)\n\nIf in a life raft:\n- Stay dry if possible (wet clothing in the open = hypothermia)\n- Collect rainwater in every possible surface\n- Fish for food: trailing a line behind the raft works\n- Signal EVERY aircraft and vessel\n- Maintain morale: routine, tasks, hope\n\nShark awareness: sharks rarely attack humans. Avoid splashing, bleeding in water, and dawn/dusk swimming. If approached, maintain eye contact and back away slowly.",
+      "relatedTechniqueIDs": [
+        "env-ocean-survival"
+      ]
+    },
+    {
+      "id": "env-article-flood",
+      "title": "Flood & Water Emergency Preparedness",
+      "body": "Floods are the #1 natural disaster killer worldwide. Most flood deaths are from vehicles driving into floodwater.\n\nCritical rules:\n- Turn around, don't drown: NEVER drive through flooded roads\n- 6 inches of water knocks you down\n- 12 inches of water carries away a car\n- 2 feet of water carries away an SUV/truck\n\nFlash flood indicators:\n- Heavy rain upstream (you may not see it locally)\n- Rising water in streams/creeks\n- Roaring sound from upstream\n- Muddy water where it was clear\n- Debris floating downstream\n\nIf trapped by rising water:\n- Go to the highest accessible point\n- Signal with lights, bright clothing, mirrors\n- Do NOT enter floodwater to swim\n- If swept away: float on back, feet downstream\n- Grab any stable object and climb above water\n\nAfter flood:\n- Never drink floodwater (sewage, chemicals, debris)\n- Avoid walking through standing water (contamination, hidden holes, downed power lines)\n- Check structural integrity before entering buildings",
+      "relatedTechniqueIDs": [
+        "env-flood-survival"
+      ]
+    },
+    {
+      "id": "env-article-multihazard",
+      "title": "Multi-Hazard Emergency Planning",
+      "body": "Most people prepare for one type of disaster and ignore everything else. True preparedness is hazard-agnostic.\n\nUniversal survival priorities (regardless of disaster type):\n1. Immediate safety (get out of danger)\n2. Medical care (treat injuries)\n3. Shelter (protection from elements)\n4. Water (within 3 days)\n5. Communication (contact help)\n6. Food (within 3 weeks)\n\nCommon across ALL disasters:\n- Communication systems fail first (cell towers)\n- Supply chains break within 72 hours\n- Emergency services are overwhelmed\n- Panic causes more casualties than the event itself\n- Those who plan survive; those who don't become victims\n\nThe 72-hour rule:\n- After ANY disaster, assume no help for 72 hours minimum\n- Self-sufficiency for 3 days is the baseline\n- Urban areas may take longer due to population density\n- Rural areas may take longer due to access difficulty\n\nEvery household should have: water (1 gallon per person per day), food (non-perishable), prescriptions (30-day supply), cash, documents (in waterproof bag), first aid, flashlight, and radio.",
+      "relatedTechniqueIDs": [
+        "env-earthquake-indoor",
+        "env-tornado-shelter",
+        "env-flash-flood-response"
+      ]
+    },
+    {
+      "id": "env-article-climate",
+      "title": "Climate Adaptation in Survival",
+      "body": "Your body adapts to climate, but it takes time. Understanding acclimatization saves lives.\n\nHeat acclimatization:\n- Takes 7-14 days of gradual exposure\n- Sweat production increases and becomes more dilute\n- Heart rate decreases for same work level\n- Core temperature rise is smaller\n- Risk: pushing hard before acclimatization causes heat stroke\n\nCold acclimatization:\n- Takes 2-4 weeks\n- Blood flow to extremities improves (reduced vasoconstriction)\n- Shivering threshold decreases\n- Non-shivering thermogenesis (brown fat activation) increases\n- Caloric needs increase 20-50%\n\nAltitude acclimatization:\n- Takes 3-5 days per 3,000 feet above 8,000 feet\n- Red blood cell production increases\n- Ventilation rate increases\n- Risk: ascending too fast causes AMS, HACE, or HAPE\n- The climb high, sleep low rule: ascend during the day, descend to sleep\n\nCritical principle: you cannot rush acclimatization. It is a physiological process, not a mental one. Willpower does not accelerate it.",
+      "relatedTechniqueIDs": [
+        "env-desert-travel",
+        "env-arctic-travel"
+      ]
+    },
+    {
+      "id": "env-article-urban-disaster",
+      "title": "Urban Disaster Navigation",
+      "body": "Cities present unique challenges in disasters: collapsed structures, broken utilities, panicked crowds, and limited escape routes.\n\nUrban-specific hazards:\n- Falling glass from high-rises (up to 2 blocks away)\n- Gas leaks from broken mains (explosion risk)\n- Flooding from broken water mains\n- Electrical hazards from downed wires\n- Structural collapse (aftershocks, fire, water damage)\n- Civil unrest (desperation sets in after 72 hours)\n\nNavigation in damaged cities:\n- Know your neighborhood's street grid before disaster\n- Identify 3 evacuation routes from your home\n- Avoid highway overpasses (collapse risk)\n- Move perpendicular to windward side of fires\n- Follow rivers downstream toward larger settlements\n\nUrban resources often overlooked:\n- Fire stations have tools, water, and communication\n- Schools often serve as shelters\n- Hospitals have backup power and supplies\n- Hardware stores have survival-critical materials\n- Parking garages provide structural shelter\n\nThe golden rule of urban disaster: get out early or shelter in place. The worst position is trying to evacuate when everyone else is.",
+      "relatedTechniqueIDs": [
+        "env-earthquake-indoor",
+        "env-wildfire-evac"
+      ]
+    },
+    {
+      "id": "env-article-altitude",
+      "title": "Altitude Sickness: From Mild to Fatal",
+      "body": "Altitude sickness is progressive and predictable. Understanding the stages can save your life.\n\nStage 1 \u2014 Acute Mountain Sickness (AMS): 8,000-12,000 feet\n- Headache (primary symptom)\n- Nausea, loss of appetite\n- Fatigue, weakness\n- Dizziness\n- Difficulty sleeping\nTreatment: rest at same altitude, hydrate, ibuprofen. Resolves in 24-48 hours if you don't ascend.\n\nStage 2 \u2014 HACE (High Altitude Cerebral Edema): 12,000+ feet\n- Severe headache unresponsive to medication\n- Confusion, disorientation\n- Loss of coordination (ataxia)\n- Irrational behavior\n- Hallucinations\nTreatment: IMMEDIATE descent. This is a medical emergency. Fatal within 24 hours without descent.\n\nStage 3 \u2014 HAPE (High Altitude Pulmonary Edema): 8,000+ feet\n- Persistent dry cough, then wet cough\n- Breathlessness at rest\n- Gurgling sounds when breathing\n- Blue/gray lips and fingernails\n- Pink, frothy sputum\nTreatment: IMMEDIATE descent + supplemental oxygen. Fatal within hours if untreated.\n\nPrevention: ascend slowly, hydrate, descend at first sign of worsening symptoms.",
+      "relatedTechniqueIDs": [
+        "env-altitude-sickness"
+      ]
+    },
+    {
+      "id": "env-article-jungle-medicine",
+      "title": "Jungle Survival Medicine",
+      "body": "The tropical jungle is the most medically hostile environment for survival.\n\nTop jungle medical threats:\n1. Dehydration/heat stroke (primary killer)\n2. Infected wounds (tropical ulcers form in 24 hours)\n3. Mosquito-borne disease (malaria, dengue)\n4. Waterborne parasites (giardia, amoeba)\n5. Venomous bites (snakes, spiders, scorpions)\n\nWound care in the jungle:\n- ANY wound, no matter how small, must be cleaned immediately\n- Wash with boiled water and natural antiseptics (tree tea oil plants, honey)\n- Keep wounds open and draining \u2014 closing wounds in tropical conditions traps bacteria\n- Change dressings twice daily, inspect for redness spreading, pus, or odor\n- Tropical ulcers can become systemic infections within 48 hours\n\nNatural jungle remedies:\n- Aloe-type plants: apply gel to burns and wounds\n- Honey: natural antibacterial (if available from wild bees)\n- Charcoal: crushed and mixed with water for poison ingestion\n- Citrus: natural vitamin C prevents scurvy on extended survival\n- Turmeric root: anti-inflammatory, apply paste to wounds\n\nWater discipline: in jungle, you need 1-2 liters per HOUR of movement. Plan routes around water sources.",
+      "relatedTechniqueIDs": [
+        "env-jungle-movement",
+        "env-tropical-disease"
+      ]
+    },
+    {
+      "id": "env-article-flash-flood-science",
+      "title": "Flash Flood: Understanding the Deadliest Weather Killer",
+      "body": "Flash floods kill more people annually than any other weather event. Understanding them is critical.\n\nWhat makes flash floods deadly:\n- Speed: water can rise 10+ feet in minutes\n- Force: 6 inches of moving water knocks down an adult\n- Invisibility: caused by rain miles away that you can't see\n- Terrain multiplier: narrow canyons funnel and amplify water\n\nWhere flash floods occur:\n- Slot canyons (most dangerous \u2014 vertical walls, no escape)\n- Dry riverbeds (arroyos, wadis) in desert and arid regions\n- Mountain stream valleys after heavy upstream rain\n- Urban areas with poor drainage\n- Below dam spillways\n\nWarning signs:\n1. Rumbling sound upstream (like a freight train)\n2. Sudden increase in water turbidity (muddy water)\n3. Floating debris in rising water\n4. Dark clouds or heavy rain visible upstream\n5. Rapid water level change in streams\n\nSurvival rules:\n- Never camp below the high-water mark (look for debris lines on canyon walls)\n- Never cross flooded roadways (2 feet of water floats most vehicles)\n- Always have an uphill escape route planned\n- In slot canyons, check weather forecasts for the entire watershed, not just your location\n- If caught: climb, don't run. Vertical is safer than horizontal.",
+      "relatedTechniqueIDs": [
+        "env-flash-flood"
+      ]
+    },
+    {
+      "id": "env-article-cave-guide",
+      "title": "Cave Use in Survival: Complete Guide",
+      "body": "Caves provide excellent shelter but come with unique hazards.\n\nCave advantages:\n- Constant temperature (typically 50-60\u00b0F year-round in temperate zones)\n- Wind protection\n- Rain/snow protection\n- Concealment\n- Stone reflects fire heat\n\nCave hazards:\n- Bad air: CO2 accumulates, oxygen depletes. Test with flame.\n- Falls: cave floors are uneven, wet, and slippery\n- Flooding: many caves flood during rain. Look for water marks on walls.\n- Animal inhabitants: bats, snakes, spiders, bears\n- Collapse: loose rock, especially near entrances\n- Disorientation: beyond visual range of entrance, navigation is impossible without light\n\nSafe cave use rules:\n1. STAY near the entrance. Never explore deeper than you can see daylight.\n2. Fire at the entrance, sleep between fire and back wall.\n3. Check ceiling for loose rock before setting up camp.\n4. Ensure drainage \u2014 even light rain can flood a cavity.\n5. Mark the entrance from outside (pile of rocks) so you can find it again.\n6. Never enter narrow passages \u2014 getting stuck is a fatal scenario.\n\nCave temperature is your friend: cool in summer, warm (relatively) in winter. This constant temperature reduces exposure risk significantly.",
+      "relatedTechniqueIDs": [
+        "env-cave-survival"
+      ]
+    },
+    {
+      "id": "env-article-wildfire-behavior",
+      "title": "Understanding Wildfire Behavior",
+      "body": "Knowing how wildfire moves can save your life. Fire is predictable once you understand its physics.\n\nThe fire triangle: Heat + Fuel + Oxygen. Remove any one element and fire stops.\n\nHow fire spreads:\n- Uphill: fire preheats fuel above it via convection. Fire travels uphill 4x faster than on flat ground.\n- With wind: wind pushes flame into unburned fuel. A 20mph wind can drive fire at 6+ mph.\n- Into dry fuel: dry grass, brush, and pine needles ignite fastest.\n- Through spotting: embers carried by wind start new fires ahead of the main front.\n\nDangerous terrain features:\n- Narrow canyons (chimney effect \u2014 fire accelerates dramatically)\n- Saddles between hills (wind funnels accelerate fire)\n- South-facing slopes (dryer fuel, more sun exposure)\n- Steep slopes (most dangerous \u2014 fire races uphill)\n\nSafe zones:\n- Already-burned areas (black)\n- Rock fields and gravel\n- Wide roads and clearings\n- Large water bodies\n- Irrigated farmland\n\nFire behavior changes rapidly with wind shifts. The most dangerous moment is when wind shifts \u2014 what was the flank becomes the front, and escape routes become traps.\n\nRule of thumb: if you can't outrun the fire in 5 minutes, find a safety zone instead of running.",
+      "relatedTechniqueIDs": [
+        "env-wildfire-survival",
+        "env-wildfire-evac"
       ]
     }
   ]

@@ -1,180 +1,203 @@
 import SwiftUI
 
 struct HomeView: View {
+    // Dynamic Greeting
+    private var dateString: String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE, MMMM d"
+        return formatter.string(from: Date()).uppercased()
+    }
+    
+    // Adaptive Grid Layout (2 cols on iPhone, more on iPad)
+    private let columns = [
+        GridItem(.adaptive(minimum: 160), spacing: 16)
+    ]
+    
+    @State private var showSettings = false
+    
     var body: some View {
-        NavigationStack {
-            ZStack {
-                // Background (System Background)
-                Color(uiColor: .systemGroupedBackground)
-                    .edgesIgnoringSafeArea(.all)
-                
-                // Centered Content
-                VStack(spacing: 30) {
-                    // MARK: - Header (Phase 53: Serif Branding)
-                    // High-End, Editorial, Distinctive.
-                    VStack(spacing: 6) {
-                        // Brand Logotype
-                        // Using Apple's New York (Serif) for premium feel
-                        Text("Revive")
-                            .font(.system(size: 56, weight: .black, design: .serif))
-                            .foregroundStyle(DesignSystem.textPrimary)
-                            .tracking(-1) // Tight, authoritative tracking
-                        
-                        // Tagline (Minimalist)
-                        Text("SURVIVAL INTELLIGENCE")
-                            .font(.system(size: 13, weight: .semibold, design: .rounded)) // Rounded for contrast
-                            .foregroundStyle(DesignSystem.textSecondary.opacity(0.8))
-                            .tracking(4) // Wide, sophisticated
+        // No NavigationStack here (managed by ContentView / NavigationSplitView)
+        ZStack {
+            Color(uiColor: .systemGroupedBackground)
+                .edgesIgnoringSafeArea(.all)
+            
+            ScrollView(showsIndicators: false) {
+                VStack(alignment: .leading, spacing: 24) {
+                    
+                    // MARK: - Header (SF Pro Display)
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(dateString)
+                            .font(.footnote.weight(.semibold))
+                            .foregroundStyle(.secondary)
                             .textCase(.uppercase)
+                        
+                        Text("Revive", comment: "App Name")
+                            .font(.largeTitle.weight(.bold))
+                            .foregroundStyle(.primary)
                     }
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 74) // Clear Notch + Status Bar
-                    
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 20)
                     .padding(.top, 20)
-
-                    // MARK: - Action Buttons (Centered Stack)
-                    VStack(spacing: 24) {
-                        
-                        // 0. PANIC BUTTON (Instant Siren)
-                        Button(action: {
-                            // URL Scheme is unreliable for in-app triggers. Use Notification.
-                            NotificationCenter.default.post(name: .triggerPanic, object: nil)
-                        }) {
-                            HStack(spacing: 16) {
-                                Image(systemName: "light.beacon.max.fill")
-                                    .font(.system(size: 32))
-                                    .foregroundStyle(.white)
-                                    .symbolEffect(.pulse.byLayer)
-                                
-                                VStack(alignment: .leading, spacing: 2) {
-                                    Text("PANIC SIREN")
-                                        .font(.title3)
-                                        .fontWeight(.black)
-                                        .foregroundStyle(.white)
-                                    
-                                    Text("TAP TO ACTIVATE")
-                                        .font(.caption)
-                                        .fontWeight(.bold)
-                                        .foregroundStyle(.white.opacity(0.9))
-                                }
-                                Spacer()
-                            }
-                            .padding(.horizontal, 24)
-                            .padding(.vertical, 20)
-                            .background(
-                                LinearGradient(colors: [Color.red, Color(red: 0.8, green: 0, blue: 0)], startPoint: .topLeading, endPoint: .bottomTrailing)
-                            )
-                            .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 24)
-                                    .stroke(.white.opacity(0.3), lineWidth: 1)
-                            )
-                            .shadow(color: Color.red.opacity(0.4), radius: 10, x: 0, y: 5)
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-
-                        // 1. Emergency Menu (Checklists)
-                        NavigationLink(destination: EmergencyMenuView()) {
-                            VStack(spacing: 16) {
-                                Image(systemName: "exclamationmark.triangle.fill")
-                                    .font(.system(size: 40))
-                                    .foregroundStyle(.white)
-                                
-                                Text("Emergency")
-                                    .font(.title2)
-                                    .fontWeight(.bold)
-                                    .foregroundStyle(.white)
-                                
-                                Text("Immediate Action")
-                                    .font(.subheadline)
-                                    .fontWeight(.medium)
-                                    .foregroundStyle(.white.opacity(0.8))
-                            }
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 32)
-                            .background(Color.red) // Pure Standard Red
-                            .clipShape(RoundedRectangle(cornerRadius: 32, style: .continuous))
-                            .shadow(color: Color.black.opacity(0.15), radius: 15, x: 0, y: 8)
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-                        
-                        // 2. Library Button (Clean & Bold)
-                        NavigationLink(destination: GuideMainView()) {
-                            VStack(spacing: 16) {
-                                Image(systemName: "book.fill")
-                                    .font(.system(size: 40))
-                                    .foregroundStyle(.white)
-                                
-                                Text("Library")
-                                    .font(.title2)
-                                    .fontWeight(.bold)
-                                    .foregroundStyle(.white)
-                                
-                                Text("Survival Guide")
-                                    .font(.subheadline)
-                                    .fontWeight(.medium)
-                                    .foregroundStyle(.white.opacity(0.8))
-                            }
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 32)
-                            .background(Color.blue) // Pure Standard Blue
-                            .clipShape(RoundedRectangle(cornerRadius: 32, style: .continuous))
-                            .shadow(color: Color.black.opacity(0.15), radius: 15, x: 0, y: 8)
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-                        
-                        // 3. Quick Actions & Tools (Side by Side)
-                        HStack(spacing: 16) {
-                            NavigationLink(destination: QuickActionsView()) {
-                                VStack(spacing: 10) {
-                                    Image(systemName: "bolt.heart.fill")
-                                        .font(.system(size: 28))
-                                        .foregroundStyle(.white)
-                                    
-                                    Text("Quick Actions")
-                                        .font(.callout)
-                                        .fontWeight(.bold)
-                                        .foregroundStyle(.white)
-                                        .multilineTextAlignment(.center)
-                                        .lineLimit(2)
-                                        .minimumScaleFactor(0.8)
-                                        .fixedSize(horizontal: false, vertical: true)
-                                }
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 24)
-                                .background(Color.green)
-                                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-                                .shadow(color: Color.black.opacity(0.15), radius: 12, x: 0, y: 6)
-                            }
-                            .buttonStyle(ScalableButtonStyle())
-                            
-                            NavigationLink(destination: ToolsMenuView()) {
-                                VStack(spacing: 10) {
-                                    Image(systemName: "wrench.and.screwdriver.fill")
-                                        .font(.system(size: 28))
-                                        .foregroundStyle(.white)
-                                    
-                                    Text("Tools")
-                                        .font(.callout)
-                                        .fontWeight(.bold)
-                                        .foregroundStyle(.white)
-                                }
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 24)
-                                .background(Color.indigo)
-                                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-                                .shadow(color: Color.black.opacity(0.15), radius: 12, x: 0, y: 6)
-                            }
-                            .buttonStyle(ScalableButtonStyle())
-                        }
-                        
-                    }
-                    .padding(.horizontal, 32) // Inset for centered look
+                    .accessibilityElement(children: .combine)
+                    .accessibilityLabel("Revive, \(dateString)")
                     
-                    Spacer()
-                    Spacer() // Push slightly up visually
+                    // MARK: - Emergency Warning
+                    EmergencyWarningBanner()
+                    
+                    // MARK: - Hero: Triage (Red Gradient Card)
+                    NavigationLink(destination: EmergencyMenuView()) {
+                        HStack(alignment: .top) {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("Emergency \nGuide", comment: "Hero Card Title")
+                                    .font(.title2.weight(.bold))
+                                    .foregroundStyle(.white)
+                                    .multilineTextAlignment(.leading)
+                                
+                                Text("Start Triage & First Aid", comment: "Hero Card Subtitle")
+                                    .font(.subheadline.weight(.medium))
+                                    .foregroundStyle(.white.opacity(0.85))
+                            }
+                            Spacer()
+                            
+                            Image(systemName: "cross.case.fill")
+                                .font(.largeTitle)
+                                    .foregroundStyle(.red)
+                                    .padding(12)
+                                    .background(.white)
+                                    .clipShape(Circle())
+                                    .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+                        }
+                        .padding(24)
+                        .frame(maxWidth: .infinity, minHeight: 140, alignment: .topLeading)
+                        .background(
+                            LinearGradient(
+                                colors: [Color.red, Color(red: 0.8, green: 0.1, blue: 0.1)],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+                        .shadow(color: Color.red.opacity(0.25), radius: 12, x: 0, y: 6)
+                    }
+                    .padding(.horizontal, 20)
+                    .buttonStyle(ScalableButtonStyle())
+                    .accessibilityLabel("Emergency Guide, Start Triage and First Aid")
+                    .accessibilityAddTraits(.isButton)
+                    
+                    // MARK: - Features Grid
+                    LazyVGrid(columns: columns, spacing: 16) {
+                        NavigationLink(destination: GuideMainView()) {
+                            FeatureCard(title: "Library", subtitle: "Survival Guide", icon: "book.fill", iconColor: .blue)
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+                        
+                        NavigationLink(destination: ToolsMenuView()) {
+                            FeatureCard(title: "Tools", subtitle: "Utilities", icon: "wrench.and.screwdriver.fill", iconColor: .indigo)
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+                        
+                        NavigationLink(destination: QuickActionsView()) {
+                            FeatureCard(title: "Actions", subtitle: "Shortcuts", icon: "bolt.heart.fill", iconColor: .green)
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+                        
+                        NavigationLink(destination: EmergencyDirectoryView()) {
+                            FeatureCard(title: "Directory", subtitle: "Global Numbers", icon: "globe", iconColor: .orange)
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+                    }
+                    .padding(.horizontal, 20)
+                    
+                    // MARK: - Panic Button (Glassmorphism)
+                    Button(action: {
+                        NotificationCenter.default.post(name: .triggerPanic, object: nil)
+                    }) {
+                        HStack(spacing: 8) {
+                            Image(systemName: "light.beacon.max.fill")
+                                .font(.headline)
+                            Text("Panic Siren")
+                                .font(.headline.weight(.semibold))
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 16)
+                        .background(.ultraThinMaterial)
+                        .background(Color.red.opacity(0.08))
+                        .foregroundStyle(.red)
+                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                .strokeBorder(Color.red.opacity(0.2), lineWidth: 1)
+                        )
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.top, 10)
+                    .padding(.bottom, 40)
+                    .accessibilityLabel("Panic Siren, activates loud alarm and strobe")
+                    .accessibilityAddTraits(.isButton)
                 }
             }
+            
+            // Settings Button Overlay
+            VStack {
+                HStack {
+                    Spacer()
+                    Button(action: { showSettings = true }) {
+                        Image(systemName: "gearshape.fill")
+                            .font(.title3.weight(.semibold))
+                            .foregroundStyle(.secondary)
+                            .padding(10)
+                            .background(.thinMaterial)
+                            .clipShape(Circle())
+                    }
+                    .padding(.trailing, 20)
+                    .padding(.top, 10)
+                    .accessibilityLabel("Settings")
+                    .accessibilityAddTraits(.isButton)
+                }
+                Spacer()
+            }
         }
+        .sheet(isPresented: $showSettings) {
+            SettingsView()
+        }
+    }
+}
+
+// MARK: - Reusable Feature Card
+struct FeatureCard: View {
+    let title: LocalizedStringKey
+    let subtitle: LocalizedStringKey
+    let icon: String
+    let iconColor: Color
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Image(systemName: icon)
+                .font(.title2)
+                .foregroundStyle(iconColor)
+                .padding(10)
+                .background(iconColor.opacity(0.1))
+                .clipShape(Circle())
+            
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title)
+                    .font(.headline.weight(.semibold))
+                    .foregroundStyle(.primary)
+                    .minimumScaleFactor(0.8)
+                
+                Text(subtitle)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .minimumScaleFactor(0.8)
+            }
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .frame(minHeight: 140)
+        .background(Color(uiColor: .secondarySystemGroupedBackground))
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("\(title), \(subtitle)")
+        .accessibilityAddTraits(.isButton)
     }
 }

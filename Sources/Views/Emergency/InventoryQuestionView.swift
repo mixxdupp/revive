@@ -35,7 +35,28 @@ struct TriageQuestionView: View {
     
     var body: some View {
         ZStack {
-            DesignSystem.backgroundPrimary.edgesIgnoringSafeArea(.all)
+            // MARK: - Ambient Background
+            DesignSystem.backgroundPrimary
+                .ignoresSafeArea()
+            
+            // Subtle Mesh Gradient Simulation (Matches Emergency/Library)
+            GeometryReader { proxy in
+                ZStack {
+                    Circle()
+                        .fill(situationColor.opacity(0.1)) // Use situation color for theme
+                        .frame(width: 300, height: 300)
+                        .blur(radius: 60)
+                        .offset(x: -100, y: -100)
+                    
+                    Circle()
+                        .fill(Color.orange.opacity(0.05))
+                        .frame(width: 300, height: 300)
+                        .blur(radius: 60)
+                        .offset(x: 200, y: 100)
+                }
+                .frame(width: proxy.size.width, height: proxy.size.height)
+            }
+            .ignoresSafeArea()
             
             VStack(spacing: 0) {
                 // Nav Bar
@@ -52,12 +73,12 @@ struct TriageQuestionView: View {
                 }
                 .padding(.horizontal, Layout.screenPadding)
                 .padding(.top, 20)
-                .padding(.bottom, 20)
+                .padding(.bottom, 10)
                 
                 // Question
                 HStack {
                     Text(node.question)
-                        .font(Typography.emergencyTitle)
+                        .font(.system(size: 32, weight: .bold, design: .serif)) // Serif for questions
                         .foregroundColor(DesignSystem.textPrimary)
                         .fixedSize(horizontal: false, vertical: true)
                     Spacer()
@@ -67,7 +88,7 @@ struct TriageQuestionView: View {
                 
                 // Options
                 ScrollView {
-                    LazyVGrid(columns: columns, spacing: 12) {
+                    LazyVGrid(columns: columns, spacing: 16) {
                         ForEach(node.options) { option in
                             triageOptionView(option)
                         }
@@ -125,39 +146,49 @@ struct TriageOptionCard: View {
     var isLeaf: Bool = false
     
     var body: some View {
-        VStack(spacing: 10) {
-            Image(systemName: option.icon)
-                .font(.system(size: 32))
-                .foregroundColor(.white)
-                .frame(width: 52, height: 52)
-                .background(
-                    LinearGradient(
-                        colors: [situationColor, situationColor.opacity(0.7)],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
+        ZStack(alignment: .leading) {
+            // Glass Background
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .fill(.ultraThinMaterial)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .stroke(situationColor.opacity(0.3), lineWidth: 1)
                 )
-                .clipShape(RoundedRectangle(cornerRadius: 14))
             
-            Text(option.label)
-                .font(Typography.headline)
-                .foregroundColor(DesignSystem.textPrimary)
-                .multilineTextAlignment(.center)
-                .lineLimit(3)
-                .minimumScaleFactor(0.8)
-            
-            if isLeaf {
-                Image(systemName: "arrow.right.circle.fill")
-                    .font(.system(size: 12))
-                    .foregroundColor(situationColor)
+            VStack(alignment: .leading, spacing: 12) {
+                // Icon
+                Image(systemName: option.icon)
+                    .font(.system(size: 24))
+                    .foregroundStyle(situationColor)
+                    .frame(width: 48, height: 48)
+                    .background(situationColor.opacity(0.1))
+                    .clipShape(Circle())
+                
+                Spacer()
+                
+                // Label
+                Text(option.label)
+                    .font(.system(size: 18, weight: .semibold, design: .rounded))
+                    .foregroundStyle(DesignSystem.textPrimary)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+                
+                // Leaf indicator
+                if isLeaf {
+                    HStack {
+                        Spacer()
+                        Image(systemName: "arrow.right")
+                            .font(.system(size: 14, weight: .bold))
+                            .foregroundStyle(situationColor.opacity(0.6))
+                    }
+                }
             }
+            .padding(16)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 18)
-        .padding(.horizontal, 8)
-        .background(DesignSystem.backgroundSecondary)
-        .clipShape(RoundedRectangle(cornerRadius: 16))
-        .contentShape(Rectangle()) // Essential for NavigationLink hit testing
+        .frame(minHeight: 160, alignment: .topLeading)
+        .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
     }
 }
 
@@ -226,8 +257,15 @@ struct TriageTechniqueListView: View {
                                         .foregroundColor(DesignSystem.textSecondary)
                                 }
                                 .padding(14)
-                                .background(DesignSystem.backgroundSecondary)
-                                .clipShape(RoundedRectangle(cornerRadius: 12))
+                                .padding(14)
+                                .background(.ultraThinMaterial)
+                                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                        .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
+                                )
+                                .accessibilityElement(children: .combine)
+                                .accessibilityAddTraits(.isButton)
                             }
                             .buttonStyle(ScalableButtonStyle())
                         }

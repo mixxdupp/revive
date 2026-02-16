@@ -10,17 +10,17 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
     
     var displayName: String {
         switch self {
-        case .cold: return "Cold / Hypothermia"
-        case .noFire: return "Need Fire"
-        case .noWater: return "Need Water"
-        case .hurt: return "First Aid / Injury"
-        case .lost: return "Lost / Navigation"
-        case .trapped: return "Trapped / Rescue"
-        case .disaster: return "Natural Disaster"
-        case .noFood: return "Need Food"
-        case .animal: return "Animal Encounter"
-        case .inWater: return "In Water"
-        case .shelter: return "Need Shelter"
+        case .cold: return String(localized: "Cold / Hypothermia", comment: "Emergency Situation")
+        case .noFire: return String(localized: "Need Fire", comment: "Emergency Situation")
+        case .noWater: return String(localized: "Need Water", comment: "Emergency Situation")
+        case .hurt: return String(localized: "First Aid / Injury", comment: "Emergency Situation")
+        case .lost: return String(localized: "Lost / Navigation", comment: "Emergency Situation")
+        case .trapped: return String(localized: "Trapped / Rescue", comment: "Emergency Situation")
+        case .disaster: return String(localized: "Natural Disaster", comment: "Emergency Situation")
+        case .noFood: return String(localized: "Need Food", comment: "Emergency Situation")
+        case .animal: return String(localized: "Animal Encounter", comment: "Emergency Situation")
+        case .inWater: return String(localized: "In Water", comment: "Emergency Situation")
+        case .shelter: return String(localized: "Need Shelter", comment: "Emergency Situation")
         }
     }
     

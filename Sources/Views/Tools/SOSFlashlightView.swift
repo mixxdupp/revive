@@ -46,6 +46,7 @@ struct SOSFlashlightView: View {
                     .font(.system(size: 56))
                     .foregroundStyle(isFlashing ? .black : .white)
             }
+            .accessibilityHidden(true)
 
             Text("SOS Flashlight")
                 .font(.system(size: 32, weight: .bold, design: .serif))

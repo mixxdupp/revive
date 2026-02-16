@@ -1542,7 +1542,7 @@
     },
     {
       "id": "shelter-desert-trench",
-      "title": "Desert Trench Shelter",
+      "name": "Desert Trench Shelter",
       "subtitle": "Sub-surface cooling and warmth",
       "category": "Arid",
       "difficulty": 2,
@@ -1572,7 +1572,7 @@
     },
     {
       "id": "shelter-swamp-bed",
-      "title": "Swamp Bed",
+      "name": "Swamp Bed",
       "subtitle": "Elevated sleeping platform",
       "category": "Wetlands",
       "difficulty": 3,
@@ -1602,7 +1602,7 @@
     },
     {
       "id": "shelter-fire-reflector",
-      "title": "Fire Reflector",
+      "name": "Fire Reflector",
       "subtitle": "Maximize fire warmth",
       "category": "General",
       "difficulty": 1,
@@ -1632,7 +1632,7 @@
     },
     {
       "id": "shelter-tarp-plowpoint",
-      "title": "Tarp Plow Point",
+      "name": "Tarp Plow Point",
       "subtitle": "Fast, 1-tie setup",
       "category": "Tarp",
       "difficulty": 1,
@@ -1662,7 +1662,7 @@
     },
     {
       "id": "shelter-tarp-flying-v",
-      "title": "Tarp Flying V",
+      "name": "Tarp Flying V",
       "subtitle": "Ventilated sun/rain cover",
       "category": "Tarp",
       "difficulty": 2,
@@ -1692,7 +1692,7 @@
     },
     {
       "id": "shelter-rock-overhang",
-      "title": "Rock Overhang",
+      "name": "Rock Overhang",
       "subtitle": "Natural shelter improvement",
       "category": "Natural",
       "difficulty": 1,
@@ -1722,7 +1722,7 @@
     },
     {
       "id": "shelter-tarp-leanto",
-      "title": "Tarp Lean-To",
+      "name": "Tarp Lean-To",
       "subtitle": "Open front, heating shelter",
       "category": "Tarp",
       "difficulty": 1,
@@ -1764,7 +1764,7 @@
     },
     {
       "id": "shelter-poncho",
-      "title": "Poncho Tent",
+      "name": "Poncho Tent",
       "subtitle": "Minimalist gear shelter",
       "category": "Gear",
       "difficulty": 1,
@@ -1794,7 +1794,7 @@
     },
     {
       "id": "shelter-natural-hollow",
-      "title": "Natural Hollow / Depression",
+      "name": "Natural Hollow / Depression",
       "subtitle": "Quick emergency cover",
       "category": "Natural",
       "difficulty": 1,
@@ -1824,7 +1824,7 @@
     },
     {
       "id": "shelter-debris-hut",
-      "title": "Debris Hut (Standard)",
+      "name": "Debris Hut (Standard)",
       "subtitle": "The ultimate survival shelter",
       "category": "Natural",
       "difficulty": 3,

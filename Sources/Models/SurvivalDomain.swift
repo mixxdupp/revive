@@ -7,16 +7,16 @@ enum SurvivalDomain: String, Codable, CaseIterable, Identifiable {
     
     var displayName: String {
         switch self {
-        case .fire: return "Fire"
-        case .shelter: return "Shelter"
-        case .water: return "Water"
-        case .navigation: return "Navigation"
-        case .firstAid: return "First Aid"
-        case .food: return "Food"
-        case .rescue: return "Rescue"
-        case .psychology: return "Psychology"
-        case .environments: return "Environments"
-        case .tools: return "Tools & Knots"
+        case .fire: return String(localized: "Fire", comment: "Survival Domain")
+        case .shelter: return String(localized: "Shelter", comment: "Survival Domain")
+        case .water: return String(localized: "Water", comment: "Survival Domain")
+        case .navigation: return String(localized: "Navigation", comment: "Survival Domain")
+        case .firstAid: return String(localized: "First Aid", comment: "Survival Domain")
+        case .food: return String(localized: "Food", comment: "Survival Domain")
+        case .rescue: return String(localized: "Rescue", comment: "Survival Domain")
+        case .psychology: return String(localized: "Psychology", comment: "Survival Domain")
+        case .environments: return String(localized: "Environments", comment: "Survival Domain")
+        case .tools: return String(localized: "Tools & Knots", comment: "Survival Domain")
         }
     }
     

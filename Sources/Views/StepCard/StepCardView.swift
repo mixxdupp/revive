@@ -14,17 +14,25 @@ struct StepCardView: View {
                     Rectangle()
                         .fill(Color(uiColor: .tertiarySystemGroupedBackground))
                     
-                    // Ultra-Clean Icon (No shadows, flat style like Apple Tips)
-                    Image(systemName: technique.domain.icon)
-                        .font(.system(size: 90))
+                    // Dynamic Step Illustration
+                    let rawIcon = step.illustrationName ?? StepIllustrationMapper.icon(for: step, in: technique.domain)
+                    let iconName = rawIcon.isEmpty ? StepIllustrationMapper.defaultIcon(for: technique.domain) : rawIcon
+                    
+                    Image(systemName: iconName)
+                        .symbolRenderingMode(.hierarchical)
+                        .font(.system(size: 120))
                         .foregroundColor(technique.domain.color)
+                        .frame(width: 200, height: 200)
+                        .background(
+                            Circle()
+                                .fill(technique.domain.color.opacity(0.1))
+                        )
                     
                     // Step Indicator (Top Left)
                     VStack {
                         HStack {
                             Text("Step \(stepIndex + 1)")
-                                .font(.caption)
-                                .fontWeight(.bold)
+                                .font(.caption.weight(.bold))
                                 .textCase(.uppercase)
                                 .padding(.horizontal, 10)
                                 .padding(.vertical, 6)
@@ -39,35 +47,37 @@ struct StepCardView: View {
                 }
                 .frame(height: geometry.size.height * 0.55)
                 .clipped()
-                .accessibilityHidden(true) 
                 
                 // Instruction Area (Bottom 45%)
-                VStack(alignment: .leading, spacing: 14) {
-                    Text(step.instruction)
-                        .font(.title3) // Standard Title Size
-                        .fontWeight(.bold) // Standard Bold
-                        .foregroundColor(DesignSystem.textPrimary)
-                        .fixedSize(horizontal: false, vertical: true)
-                    
-                    if !step.helpDetail.isEmpty {
-                        Text(step.helpDetail)
-                            .font(.body) // SF Pro Regular
-                            .foregroundColor(DesignSystem.textSecondary)
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 14) {
+                        Text(step.instruction)
+                            .font(.title3.weight(.bold))
+                            .foregroundColor(DesignSystem.textPrimary)
                             .fixedSize(horizontal: false, vertical: true)
-                            .lineSpacing(4)
+                        
+                        if !step.helpDetail.isEmpty {
+                            Text(step.helpDetail)
+                                .font(.body)
+                                .foregroundColor(DesignSystem.textSecondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                                .lineSpacing(4)
+                        }
                     }
-                    
-                    Spacer()
+                    .padding(24)
                 }
-                .padding(24) // Standard 24pt padding
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(Color(uiColor: .secondarySystemGroupedBackground)) // Clean Background
+                .frame(width: geometry.size.width, height: geometry.size.height * 0.45)
+                .background(Color(uiColor: .secondarySystemGroupedBackground))
             }
-            .mask(RoundedRectangle(cornerRadius: 22, style: .continuous)) // 22pt Corner Radius
+            .mask(RoundedRectangle(cornerRadius: 22, style: .continuous))
             .padding(.horizontal, 20)
             .padding(.vertical, 10)
-            // Ultra-Subtle Shadow (Apple Card Style)
             .shadow(color: Color.black.opacity(0.08), radius: 12, x: 0, y: 6)
+            // Accessibility Configuration
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Step \(stepIndex + 1)")
+            .accessibilityValue("\(step.instruction). \(step.helpDetail)")
+            .accessibilityAddTraits(.isStaticText)
         }
     }
 }

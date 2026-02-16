@@ -44,9 +44,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         completionHandler(true)
     }
     
-    // Force Portrait Orientation at Runtime
+    // Allow all orientations (Crucial for iPad support)
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-        return .portrait
+        return .all
     }
 }
 
@@ -56,15 +56,46 @@ extension Notification.Name {
 }
 
 struct ContentView: View {
+    @Environment(\.horizontalSizeClass) var sizeClass
+    @ObservedObject var settings = SettingsService.shared
     @State private var showSiren = false
     
     var body: some View {
-        NavigationStack {
-            HomeView()
+        Group {
+            if !settings.hasAcceptedLiability {
+                OnboardingView()
+            } else {
+                if sizeClass == .compact {
+                    // iPhone: Standard Stack
+                    NavigationStack {
+                        HomeView()
+                    }
+                } else {
+                    // iPad: Pro Split View
+                    NavigationSplitView {
+                        SidebarView(selection: $selection)
+                    } detail: {
+                        NavigationStack {
+                            switch selection ?? .dashboard {
+                            case .dashboard:
+                                HomeView()
+                            case .emergency:
+                                EmergencyMenuView()
+                            case .library:
+                                GuideMainView()
+                            case .tools:
+                                ToolsMenuView()
+                            case .settings:
+                                SettingsView()
+                            }
+                        }
+                    }
+                }
+            }
         }
         .preferredColorScheme(.dark)
         .fullScreenCover(isPresented: $showSiren) {
-            EmergencySirenView(autoPlay: true) // Auto-start siren when launched via Shortcut/Widget
+            EmergencySirenView(autoPlay: true)
         }
         .onOpenURL { url in
             if url.scheme == "revive" && url.host == "siren" {
@@ -76,7 +107,6 @@ struct ContentView: View {
                 showSiren = true
             }
         }
-        // Listener for In-App Panic Button
         .onReceive(NotificationCenter.default.publisher(for: .triggerPanic)) { _ in
             showSiren = true
         }
@@ -85,6 +115,8 @@ struct ContentView: View {
             ReviveShortcuts.updateAppShortcutParameters()
         }
     }
+    
+    @State private var selection: AppScreen? = .dashboard
     
     func setupQuickActions() {
         let sirenItem = UIApplicationShortcutItem(
@@ -98,27 +130,19 @@ struct ContentView: View {
 }
 
 struct LaunchScreenView: View {
-    @State private var pulse: Bool = false
     @State private var textVisible: Bool = false
     
     var body: some View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
             
-            VStack {
-                // Heartbeat Icon
+            VStack(spacing: 20) {
+                // Static Icon (No breathing animation)
                 Image(systemName: "staroflife.fill")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 80, height: 80)
                     .foregroundStyle(Color.red)
-                    .scaleEffect(pulse ? 1.0 : 0.8)
-                    .opacity(pulse ? 1.0 : 0.6)
-                    .onAppear {
-                        withAnimation(.easeInOut(duration: 0.8).repeatForever(autoreverses: true)) {
-                            pulse = true
-                        }
-                    }
                 
                 // App Text
                 Text("Revive")
@@ -127,6 +151,7 @@ struct LaunchScreenView: View {
                     .opacity(textVisible ? 1.0 : 0.0)
                     .offset(y: textVisible ? 0 : 20)
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity) // Lock frame to center
         }
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {

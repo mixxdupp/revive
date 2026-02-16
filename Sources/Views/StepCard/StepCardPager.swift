@@ -29,6 +29,23 @@ struct StepCardPager: View {
                         .foregroundColor(DesignSystem.textSecondary)
                     }
                     
+                    
+                    Spacer()
+                    
+                    // Bookmark Button
+                    Button(action: {
+                        FavoritesService.shared.toggle(technique.id)
+                        HapticsService.shared.playImpact(style: .medium)
+                    }) {
+                        Image(systemName: FavoritesService.shared.isSaved(technique.id) ? "bookmark.fill" : "bookmark")
+                            .font(.system(size: 20, weight: .semibold))
+                            .foregroundColor(FavoritesService.shared.isSaved(technique.id) ? .orange : DesignSystem.textSecondary)
+                            .padding(8)
+                            .background(Circle().fill(.ultraThinMaterial))
+                    }
+                    .accessibilityLabel(FavoritesService.shared.isSaved(technique.id) ? "Unsave Technique" : "Save Technique")
+                    .accessibilityAddTraits(.isButton)
+                    
                     Spacer()
                     
                     Text("Step \(currentStepIndex + 1)/\(technique.steps.count)")
@@ -79,6 +96,7 @@ struct StepCardPager: View {
                         current: currentStepIndex,
                         activeColor: technique.domain.color
                     )
+                    .accessibilityHidden(true)
                     
                     // Hands Free Button
                     Button(action: {
@@ -98,6 +116,9 @@ struct StepCardPager: View {
                         .clipShape(Capsule())
                         .animation(Animations.cardRelease, value: isHandsFreeMode)
                     }
+                    .accessibilityLabel(isHandsFreeMode ? "Stop Hands-Free Mode" : "Start Hands-Free Mode")
+                    .accessibilityHint("Uses voice commands to navigate steps.")
+                    .accessibilityAddTraits(.isButton)
                 }
                 .padding(.bottom, 30)
             }

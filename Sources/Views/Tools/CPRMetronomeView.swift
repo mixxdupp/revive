@@ -35,8 +35,11 @@ struct CPRMetronomeView: View {
                     Text("BPM")
                         .font(.title3.weight(.semibold))
                         .foregroundStyle(isBeatOn ? .white.opacity(0.8) : DesignSystem.textSecondary)
+                        .foregroundStyle(isBeatOn ? .white.opacity(0.8) : DesignSystem.textSecondary)
                 }
             }
+            .accessibilityElement(children: .combine)
+            .accessibilityLabel("\(Int(bpm)) BPM")
 
             Text("CPR Metronome")
                 .font(.system(size: 28, weight: .bold, design: .serif))
