@@ -105,7 +105,7 @@ struct GuideMainView: View {
                                     .padding(.top, 40)
                             } else {
                                 ForEach(filteredTechniques) { technique in
-                                    NavigationLink(destination: StepCardPager(technique: technique)) {
+                                    NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                         TechniqueRow(technique: technique)
                                     }
                                 }

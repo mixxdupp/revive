@@ -87,7 +87,7 @@ struct EmergencyMenuView: View {
                             ScrollView(.horizontal, showsIndicators: false) {
                                 HStack(spacing: 16) {
                                     ForEach(RecentlyViewedService.shared.recentTechniques(limit: 5)) { technique in
-                                        NavigationLink(destination: StepCardPager(technique: technique)) {
+                                        NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                             HStack(spacing: 12) {
                                                 Image(systemName: technique.icon)
                                                     .font(.system(size: 20))

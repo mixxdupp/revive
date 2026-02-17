@@ -1,187 +1,197 @@
 {
-    "domain": "firstAid",
-    "domainDisplayName": "First Aid",
-    "techniques": [
+  "domain": "firstAid",
+  "domainDisplayName": "First Aid",
+  "techniques": [
+    {
+      "id": "firstaid-shoulder-reduction",
+      "name": "Shoulder Dislocation Reduction",
+      "subtitle": "External Rotation Method (Cunningham)",
+      "category": "Extreme Measures",
+      "difficulty": 4,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
         {
-            "id": "firstaid-shoulder-reduction",
-            "name": "Shoulder Dislocation Reduction",
-            "subtitle": "External Rotation Method (Cunningham)",
-            "category": "Extreme Measures",
-            "difficulty": 4,
-            "estimatedTime": "15 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Confirm anterior dislocation: arm held away, 'squared' shoulder.",
-                    "helpDetail": "Do not attempt if associated with fracture (grating sound, extreme swelling). Only for simple dislocations where evacuation is impossible.",
-                    "illustrationDescription": "Squared shoulder appearance."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Position patient sitting up. Slowly bend elbow to 90 degrees.",
-                    "helpDetail": "Keep the elbow tucked against the ribcage. Support the wrist. The patient must relax the shoulder muscles completely.",
-                    "illustrationDescription": "Patient sitting, elbow 90 degrees."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Slowly rotate the forearm outward (externally) away from the body.",
-                    "helpDetail": "Go extremely slow. Stop if pain increases/spasms occur. Wait for spasm to subside, then continue. Aim for 90 degrees outward rotation.",
-                    "illustrationDescription": "External rotation motion."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "If not reduced, lift arm slightly (abduction) while rotated.",
-                    "helpDetail": "The head of the humerus often slips back into the socket with a palpable 'clunk'. Immobilize immediately in a sling.",
-                    "illustrationDescription": "Abduction reduction."
-                }
-            ]
+          "stepNumber": 1,
+          "instruction": "Confirm anterior dislocation: arm held away, 'squared' shoulder.",
+          "helpDetail": "Do not attempt if associated with fracture (grating sound, extreme swelling). Only for simple dislocations where evacuation is impossible.",
+          "illustrationDescription": "Squared shoulder appearance."
         },
         {
-            "id": "firstaid-dental-abscess",
-            "name": "Dental Abscess Drainage",
-            "subtitle": "Relieve pressure from severe infection",
-            "category": "Extreme Measures",
-            "difficulty": 4,
-            "estimatedTime": "10 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Identify the abscess: swollen, red, fluctuating bump on gum.",
-                    "helpDetail": "Only drain if 'pointing' (visible white head) and causing severe pain/fever. Do not cut deep tissue.",
-                    "illustrationDescription": "Abscess on gum."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Sterilize a scalpel or needle tip with flame/alcohol.",
-                    "helpDetail": "Clean the gum area with alcohol or iodine. Numb with snow/ice if available.",
-                    "illustrationDescription": "Sterilizing tool."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Make a small incision at the most swollen point.",
-                    "helpDetail": "Cut only the surface mucosa. Pus should drain immediately. Spit out pus\u2014do not swallow.",
-                    "illustrationDescription": "Incision point."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Massage gum to drain fully. Rinse with salt water.",
-                    "helpDetail": "Keep the cut open to drain. Antibiotics are critical if available. Warm saltwater rinses every hour.",
-                    "illustrationDescription": "Draining and rinsing."
-                }
-            ]
+          "stepNumber": 2,
+          "instruction": "Position patient sitting up. Slowly bend elbow to 90 degrees.",
+          "helpDetail": "Keep the elbow tucked against the ribcage. Support the wrist. The patient must relax the shoulder muscles completely.",
+          "illustrationDescription": "Patient sitting, elbow 90 degrees."
         },
         {
-            "id": "firstaid-superglue-suture",
-            "name": "Superglue Wound Closure",
-            "subtitle": "Close clean, straight cuts",
-            "category": "Extreme Measures",
-            "difficulty": 2,
-            "estimatedTime": "5 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Clean and dry the wound thoroughly. Stop bleeding first.",
-                    "helpDetail": "Glue will not stick to wet/bloody skin. It seals bacteria in, so cleaning is vital. Do not use on jagged or deep wounds.",
-                    "illustrationDescription": "Clean dry wound."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Push wound edges together precisely.",
-                    "helpDetail": "Use fingers to approximate edges. Do not let edges roll inward.",
-                    "illustrationDescription": "Approximating edges."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Apply thin layer of glue ON TOP of the crack, not inside.",
-                    "helpDetail": "Do not get glue inside the wound\u2014it prevents healing. Bridge the gap on the surface.",
-                    "illustrationDescription": "Applying glue on top."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Hold shut for 60 seconds until dry.",
-                    "helpDetail": "Add a second layer if needed. Sloughs off naturally in 5-10 days.",
-                    "illustrationDescription": "Holding shut."
-                }
-            ]
+          "stepNumber": 3,
+          "instruction": "Slowly rotate the forearm outward (externally) away from the body.",
+          "helpDetail": "Go extremely slow. Stop if pain increases/spasms occur. Wait for spasm to subside, then continue. Aim for 90 degrees outward rotation.",
+          "illustrationDescription": "External rotation motion."
         },
         {
-            "id": "firstaid-fishhook-removal",
-            "name": "Fishhook Removal",
-            "subtitle": "String-Yank Method",
-            "category": "Extreme Measures",
-            "difficulty": 3,
-            "estimatedTime": "2 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Tie a loop of strong line/floss around the hook curve.",
-                    "helpDetail": "Loop goes in the bend of the hook. Secure it well.",
-                    "illustrationDescription": "Tying loop on hook."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Press down on the hook eye to disengage the barb.",
-                    "helpDetail": "Push the eye down against the skin. This aligns the barb with the entry path.",
-                    "illustrationDescription": "Pressing eye down."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Yank the line sharply parallel to the skin.",
-                    "helpDetail": "Do not pull up. Pull straight back, parallel to the skin surface. Commit to the motion.",
-                    "illustrationDescription": "Yanking parallel."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Clean wound and apply antibiotic.",
-                    "helpDetail": "Fishhooks carry waterborne bacteria. Monitor for infection.",
-                    "illustrationDescription": "Cleaning wound."
-                }
-            ]
-        },
-        {
-            "id": "firstaid-finger-amputation",
-            "name": "Trapped Digit Amputation",
-            "subtitle": "Last resort for pinned limbs",
-            "category": "Extreme Measures",
-            "difficulty": 5,
-            "estimatedTime": "10 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Verify impossibility of rescue. Tourniquet base of finger.",
-                    "helpDetail": "Only if life is at risk (fire, rising water) and digit is irretrievably pinned. Tight constriction at base.",
-                    "illustrationDescription": "Tourniquet on finger."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Cut skin and tendons around the bone (circumferential).",
-                    "helpDetail": "Cut down to the bone all the way around.",
-                    "illustrationDescription": "Circumferential cut."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Locate the joint (knuckle). Bend finger to open joint gap.",
-                    "helpDetail": "Cut through the ligaments connecting the joint. Do not try to saw through bone.",
-                    "illustrationDescription": "Cutting joint ligaments."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Complete separation. Apply pressure dressing.",
-                    "helpDetail": "Leave tourniquet on for max 2 hours if evacuating. Bandage stump heavily.",
-                    "illustrationDescription": "Bandaging stump."
-                }
-            ]
+          "stepNumber": 4,
+          "instruction": "If not reduced, lift arm slightly (abduction) while rotated.",
+          "helpDetail": "The head of the humerus often slips back into the socket with a palpable 'clunk'. Immobilize immediately in a sling.",
+          "illustrationDescription": "Abduction reduction."
         }
-    ],
-    "articles": []
+      ],
+      "sourceName": "Merck Manuals",
+      "sourceUrl": "https://www.merckmanuals.com/professional/injuries-poisoning/dislocations/shoulder-dislocation"
+    },
+    {
+      "id": "firstaid-dental-abscess",
+      "name": "Dental Abscess Drainage",
+      "subtitle": "Relieve pressure from severe infection",
+      "category": "Extreme Measures",
+      "difficulty": 4,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify the abscess: swollen, red, fluctuating bump on gum.",
+          "helpDetail": "Only drain if 'pointing' (visible white head) and causing severe pain/fever. Do not cut deep tissue.",
+          "illustrationDescription": "Abscess on gum."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Sterilize a scalpel or needle tip with flame/alcohol.",
+          "helpDetail": "Clean the gum area with alcohol or iodine. Numb with snow/ice if available.",
+          "illustrationDescription": "Sterilizing tool."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make a small incision at the most swollen point.",
+          "helpDetail": "Cut only the surface mucosa. Pus should drain immediately. Spit out pus\u2014do not swallow.",
+          "illustrationDescription": "Incision point."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Massage gum to drain fully. Rinse with salt water.",
+          "helpDetail": "Keep the cut open to drain. Antibiotics are critical if available. Warm saltwater rinses every hour.",
+          "illustrationDescription": "Draining and rinsing."
+        }
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/tooth-abscess/symptoms-causes/syc-20350901"
+    },
+    {
+      "id": "firstaid-superglue-suture",
+      "name": "Superglue Wound Closure",
+      "subtitle": "Close clean, straight cuts",
+      "category": "Extreme Measures",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Clean and dry the wound thoroughly. Stop bleeding first.",
+          "helpDetail": "Glue will not stick to wet/bloody skin. It seals bacteria in, so cleaning is vital. Do not use on jagged or deep wounds.",
+          "illustrationDescription": "Clean dry wound."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Push wound edges together precisely.",
+          "helpDetail": "Use fingers to approximate edges. Do not let edges roll inward.",
+          "illustrationDescription": "Approximating edges."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply thin layer of glue ON TOP of the crack, not inside.",
+          "helpDetail": "Do not get glue inside the wound\u2014it prevents healing. Bridge the gap on the surface.",
+          "illustrationDescription": "Applying glue on top."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Hold shut for 60 seconds until dry.",
+          "helpDetail": "Add a second layer if needed. Sloughs off naturally in 5-10 days.",
+          "illustrationDescription": "Holding shut."
+        }
+      ],
+      "sourceName": "Healthline",
+      "sourceUrl": "https://www.healthline.com/health/super-glue-on-cuts"
+    },
+    {
+      "id": "firstaid-fishhook-removal",
+      "name": "Fishhook Removal",
+      "subtitle": "String-Yank Method",
+      "category": "Extreme Measures",
+      "difficulty": 3,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Tie a loop of strong line/floss around the hook curve.",
+          "helpDetail": "Loop goes in the bend of the hook. Secure it well.",
+          "illustrationDescription": "Tying loop on hook."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Press down on the hook eye to disengage the barb.",
+          "helpDetail": "Push the eye down against the skin. This aligns the barb with the entry path.",
+          "illustrationDescription": "Pressing eye down."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Yank the line sharply parallel to the skin.",
+          "helpDetail": "Do not pull up. Pull straight back, parallel to the skin surface. Commit to the motion.",
+          "illustrationDescription": "Yanking parallel."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Clean wound and apply antibiotic.",
+          "helpDetail": "Fishhooks carry waterborne bacteria. Monitor for infection.",
+          "illustrationDescription": "Cleaning wound."
+        }
+      ],
+      "sourceName": "AAFP",
+      "sourceUrl": "https://www.aafp.org/pubs/afp/issues/2001/0601/p2231.html"
+    },
+    {
+      "id": "firstaid-finger-amputation",
+      "name": "Trapped Digit Amputation",
+      "subtitle": "Last resort for pinned limbs",
+      "category": "Extreme Measures",
+      "difficulty": 5,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Verify impossibility of rescue. Tourniquet base of finger.",
+          "helpDetail": "Only if life is at risk (fire, rising water) and digit is irretrievably pinned. Tight constriction at base.",
+          "illustrationDescription": "Tourniquet on finger."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut skin and tendons around the bone (circumferential).",
+          "helpDetail": "Cut down to the bone all the way around.",
+          "illustrationDescription": "Circumferential cut."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Locate the joint (knuckle). Bend finger to open joint gap.",
+          "helpDetail": "Cut through the ligaments connecting the joint. Do not try to saw through bone.",
+          "illustrationDescription": "Cutting joint ligaments."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Complete separation. Apply pressure dressing.",
+          "helpDetail": "Leave tourniquet on for max 2 hours if evacuating. Bandage stump heavily.",
+          "illustrationDescription": "Bandaging stump."
+        }
+      ],
+      "sourceName": "NIH",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK13317/"
+    }
+  ],
+  "articles": []
 }

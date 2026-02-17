@@ -16,6 +16,8 @@ struct Technique: Identifiable, Codable {
     let hapticType: HapticType?
     let estimatedTime: String?
     let relatedIds: [String]?
+    let sourceName: String?
+    let sourceUrl: String?
     
     var icon: String {
         TechniqueIconMapper.icon(for: id) ?? domain.icon
@@ -49,7 +51,7 @@ struct Technique: Identifiable, Codable {
     ]
     
     enum CodingKeys: String, CodingKey {
-        case id, domain, category, name, subtitle, difficulty, steps, hasHapticGuide, hapticType, estimatedTime, relatedIds
+        case id, domain, category, name, subtitle, difficulty, steps, hasHapticGuide, hapticType, estimatedTime, relatedIds, sourceName, sourceUrl
     }
     
     init(from decoder: Decoder) throws {
@@ -65,9 +67,11 @@ struct Technique: Identifiable, Codable {
         hapticType = try container.decodeIfPresent(HapticType.self, forKey: .hapticType)
         estimatedTime = try container.decodeIfPresent(String.self, forKey: .estimatedTime)
         relatedIds = try container.decodeIfPresent([String].self, forKey: .relatedIds)
+        sourceName = try container.decodeIfPresent(String.self, forKey: .sourceName)
+        sourceUrl = try container.decodeIfPresent(String.self, forKey: .sourceUrl)
     }
     
-    init(id: String, domain: SurvivalDomain, category: String, name: String, subtitle: String, difficulty: Int, steps: [TechniqueStep], hasHapticGuide: Bool = false, hapticType: HapticType? = nil, estimatedTime: String? = nil, relatedIds: [String]? = nil) {
+    init(id: String, domain: SurvivalDomain, category: String, name: String, subtitle: String, difficulty: Int, steps: [TechniqueStep], hasHapticGuide: Bool = false, hapticType: HapticType? = nil, estimatedTime: String? = nil, relatedIds: [String]? = nil, sourceName: String? = nil, sourceUrl: String? = nil) {
         self.id = id
         self.domain = domain
         self.category = category
@@ -79,6 +83,8 @@ struct Technique: Identifiable, Codable {
         self.hapticType = hapticType
         self.estimatedTime = estimatedTime
         self.relatedIds = relatedIds
+        self.sourceName = sourceName
+        self.sourceUrl = sourceUrl
     }
 }
 

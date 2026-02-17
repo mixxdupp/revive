@@ -69,7 +69,7 @@ struct InventoryView: View {
                                 .padding(.horizontal, 24)
                             
                             ForEach(computedResults) { technique in
-                                NavigationLink(destination: StepCardPager(technique: technique)) {
+                                NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                     TechniqueRow(technique: technique)
                                 }
                             }

@@ -26,7 +26,7 @@ struct SearchResultView: View {
                         .padding(.horizontal, Layout.screenPadding)
                     
                     ForEach(results) { technique in
-                        NavigationLink(destination: StepCardPager(technique: technique)) {
+                        NavigationLink(destination: VerticalGuideView(technique: technique)) {
                             // Reusing TechniqueRow from DomainDetailView.swift
                             TechniqueRow(technique: technique)
                         }

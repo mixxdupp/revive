@@ -88,7 +88,7 @@ struct QuickActionsView: View {
                         GridItem(.flexible(), spacing: 16)
                     ], spacing: 16) {
                         ForEach(criticalTechniques) { technique in
-                            NavigationLink(destination: StepCardPager(technique: technique)) {
+                            NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                 GlassActionCell(technique: technique)
                             }
                             .buttonStyle(ScalableButtonStyle())

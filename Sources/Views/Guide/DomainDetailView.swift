@@ -59,7 +59,7 @@ struct DomainDetailView: View {
                                 .padding(.horizontal, 24)
                             
                             ForEach(techniques) { technique in
-                                NavigationLink(destination: StepCardPager(technique: technique)) {
+                                NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                     TechniqueRow(technique: technique)
                                 }
                                 .buttonStyle(ScalableButtonStyle())

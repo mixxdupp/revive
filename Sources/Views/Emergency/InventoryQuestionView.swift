@@ -112,7 +112,7 @@ struct TriageQuestionView: View {
             
         case .technique(let techniqueID):
             if let technique = ContentDatabase.shared.techniques.first(where: { $0.id == techniqueID }) {
-                NavigationLink(destination: StepCardPager(technique: technique)) {
+                NavigationLink(destination: VerticalGuideView(technique: technique)) {
                     TriageOptionCard(option: option, situationColor: situationColor, isLeaf: true)
                 }
                 .buttonStyle(ScalableButtonStyle())
@@ -229,7 +229,7 @@ struct TriageTechniqueListView: View {
                 ScrollView {
                     VStack(spacing: 12) {
                         ForEach(techniques) { technique in
-                            NavigationLink(destination: StepCardPager(technique: technique)) {
+                            NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                 HStack(spacing: 14) {
                                     Image(systemName: "checkmark.circle.fill")
                                         .font(.system(size: 20))

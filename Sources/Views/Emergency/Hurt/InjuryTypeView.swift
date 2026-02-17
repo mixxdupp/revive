@@ -52,7 +52,7 @@ struct InjuryTypeView: View {
                 ScrollView {
                     VStack(spacing: 12) {
                         ForEach(matchingTechniques) { technique in
-                            NavigationLink(destination: StepCardPager(technique: technique)) {
+                            NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                 HStack(spacing: 14) {
                                     Image(systemName: "cross.case.fill")
                                         .font(.system(size: 20))

@@ -42,7 +42,9 @@
           "helpDetail": "Burns are very infection-prone. If signs of infection appear, clean gently and seek medical care.",
           "illustrationDescription": "Infection monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-blisters/basics/art-20056691"
     },
     {
       "id": "firstaid-burn-char",
@@ -84,7 +86,9 @@
           "helpDetail": "Severe burns cause massive fluid loss leading to shock. Keep person warm with blankets. Give small sips of water if conscious. Monitor for confusion and rapid pulse.",
           "illustrationDescription": "Shock prevention."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649"
     },
     {
       "id": "firstaid-head-trauma",
@@ -126,7 +130,9 @@
           "helpDetail": "Worsening symptoms (increasing confusion, vomiting, unequal pupils, seizures) indicate swelling. Keep head elevated slightly. Wake them every 2 hours if sleeping.",
           "illustrationDescription": "Ongoing monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-head-trauma/basics/art-20056626"
     },
     {
       "id": "firstaid-head-concussion",
@@ -168,7 +174,9 @@
           "helpDetail": "These thin blood and can worsen a brain bleed. Acetaminophen is safer if approved by medical advice.",
           "illustrationDescription": "No blood thinners."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/concussion/symptoms-causes/syc-20355594"
     },
     {
       "id": "firstaid-sting-treat",
@@ -210,7 +218,9 @@
           "helpDetail": "Watch for: hives away from sting site, difficulty breathing, throat swelling, dizziness. These require EpiPen and emergency services.",
           "illustrationDescription": "Monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056608"
     },
     {
       "id": "firstaid-choking",
@@ -252,7 +262,9 @@
           "helpDetail": "Deliver back blows between shoulder blades with heel of hand. If person becomes unconscious, lower to ground and begin CPR.",
           "illustrationDescription": "Back blows."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637"
     },
     {
       "id": "firstaid-tourniquet",
@@ -288,7 +300,9 @@
           "helpDetail": "Write the time on the patient's forehead with marker or blood. Write 'TQ' and the time. Do NOT remove until hospital care.",
           "illustrationDescription": "Locked windlass with time noted."
         }
-      ]
+      ],
+      "sourceName": "American Red Cross",
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid/performing-first-aid/severe-bleeding"
     },
     {
       "id": "firstaid-pressure-bandage",
@@ -324,7 +338,9 @@
           "helpDetail": "Never remove the first layer. Stack additional padding and re-wrap. Removing disrupts the clot.",
           "illustrationDescription": "Adding layers to bandage."
         }
-      ]
+      ],
+      "sourceName": "Mount Sinai",
+      "sourceUrl": "https://www.mountsinai.org/health-library/injury/bleeding"
     },
     {
       "id": "firstaid-wound-cleaning",
@@ -360,7 +376,9 @@
           "helpDetail": "Change the dressing daily. Watch for signs of infection: increasing redness, warmth, swelling, pus, or red streaks.",
           "illustrationDescription": "Applying ointment and bandage."
         }
-      ]
+      ],
+      "sourceName": "Cleveland Clinic",
+      "sourceUrl": "https://my.clevelandclinic.org/health/treatments/15856-wound-care"
     },
     {
       "id": "firstaid-wound-closure",
@@ -396,7 +414,9 @@
           "helpDetail": "These anchor strips prevent the closure strips from peeling off. Cover with a non-stick bandage.",
           "illustrationDescription": "Reinforcing strips applied."
         }
-      ]
+      ],
+      "sourceName": "Healthline",
+      "sourceUrl": "https://www.healthline.com/health/butterfly-stitches"
     },
     {
       "id": "firstaid-cpr",
@@ -438,7 +458,9 @@
           "helpDetail": "Switch rescuers every 2 minutes if possible. Fatigue degrades compression quality rapidly.",
           "illustrationDescription": "Continuous CPR cycle."
         }
-      ]
+      ],
+      "sourceName": "American Red Cross",
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-heimlich",
@@ -474,7 +496,9 @@
           "helpDetail": "Each thrust should be a separate, distinct movement. Repeat until the object is expelled or person becomes unconscious.",
           "illustrationDescription": "Inward and upward thrust."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637"
     },
     {
       "id": "firstaid-shock",
@@ -510,7 +534,9 @@
           "helpDetail": "They may need surgery. Anything in the stomach complicates anesthesia. Moisten lips with a wet cloth.",
           "illustrationDescription": "Moistening lips only."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-shock/basics/art-20056620"
     },
     {
       "id": "firstaid-recovery-position",
@@ -546,7 +572,9 @@
           "helpDetail": "They should end up on their side. Tilt head back slightly to keep airway open. Their own hand cushions their head.",
           "illustrationDescription": "Person in recovery position."
         }
-      ]
+      ],
+      "sourceName": "NHS",
+      "sourceUrl": "https://www.nhs.uk/conditions/first-aid/recovery-position/"
     },
     {
       "id": "firstaid-arm-splint",
@@ -582,7 +610,9 @@
           "helpDetail": "Check every 15-20 minutes. Loosen if fingers turn blue, become numb, or swell significantly.",
           "illustrationDescription": "Checking fingertip circulation."
         }
-      ]
+      ],
+      "sourceName": "Red Cross",
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-leg-splint",
@@ -618,7 +648,9 @@
           "helpDetail": "Tie at ankle, below knee, above knee, and hip. For femur fractures, include a figure-8 at the foot.",
           "illustrationDescription": "Bandages securing leg splint."
         }
-      ]
+      ],
+      "sourceName": "Red Cross",
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-sling",
@@ -654,7 +686,9 @@
           "helpDetail": "The forearm should be level or slightly elevated. Fingers should be visible for circulation checks.",
           "illustrationDescription": "Completed sling."
         }
-      ]
+      ],
+      "sourceName": "St John Ambulance",
+      "sourceUrl": "https://www.sja.org.uk/get-advice/first-aid-advice/bones-and-muscles/arm-sling/"
     },
     {
       "id": "firstaid-burn",
@@ -690,7 +724,9 @@
           "helpDetail": "Intact blisters protect healing skin underneath. If a blister breaks on its own, gently clean and cover.",
           "illustrationDescription": "Intact blister protection."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649"
     },
     {
       "id": "firstaid-chemical-burn",
@@ -726,7 +762,9 @@
           "helpDetail": "Neutralization reactions generate heat, making the burn worse. Water dilution is always the correct answer.",
           "illustrationDescription": "Warning: no neutralization."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-chemical-burns/basics/art-20056667"
     },
     {
       "id": "firstaid-snakebite",
@@ -768,7 +806,9 @@
           "helpDetail": "Carry the victim if possible \u2014 walking increases venom circulation. Time to antivenom is the most important factor.",
           "illustrationDescription": "Carrying victim to evacuation."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-tick-removal",
@@ -804,7 +844,9 @@
           "helpDetail": "Expanding red ring = possible Lyme disease. Seek medical care immediately if symptoms appear.",
           "illustrationDescription": "Bull's-eye rash example."
         }
-      ]
+      ],
+      "sourceName": "CDC",
+      "sourceUrl": "https://www.cdc.gov/ticks/removing_a_tick.html"
     },
     {
       "id": "firstaid-bee-sting",
@@ -840,7 +882,9 @@
           "helpDetail": "Benadryl for itching/swelling, ibuprofen for pain. Keep the area clean and monitor for infection.",
           "illustrationDescription": "Antihistamine medication."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-anaphylaxis",
@@ -876,7 +920,9 @@
           "helpDetail": "If feeling faint, lay down with legs elevated. If vomiting or unconscious, recovery position. A second EpiPen dose can be given after 5 minutes if no improvement.",
           "illustrationDescription": "Position of comfort."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-hypothermia",
@@ -918,7 +964,9 @@
           "helpDetail": "Rough handling can trigger cardiac arrest in severe hypothermia. Move slowly and gently. Do not rub extremities.",
           "illustrationDescription": "Gentle handling warning."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056677"
     },
     {
       "id": "firstaid-heatstroke",
@@ -954,7 +1002,9 @@
           "helpDetail": "Untreated heat stroke has a 70%+ mortality rate. Brain damage starts quickly. No home remedy suffices.",
           "illustrationDescription": "Emergency evacuation call."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heatstroke/basics/art-20056655"
     },
     {
       "id": "firstaid-altitude",
@@ -990,7 +1040,9 @@
           "helpDetail": "Gamow bags simulate lower altitude. Dexamethasone for HACE, nifedipine for HAPE \u2014 but descent is the definitive treatment.",
           "illustrationDescription": "Supplemental oxygen."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-dehydration",
@@ -1026,7 +1078,9 @@
           "helpDetail": "Monitor urine output and color. Goal is clear to light yellow. Resume activity only when urine is light-colored.",
           "illustrationDescription": "Resting in shade."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-dental",
@@ -1062,7 +1116,9 @@
           "helpDetail": "Every minute counts. Success rate drops from 90% at 5 minutes to 5% at 60 minutes. Time is teeth.",
           "illustrationDescription": "Clock showing urgency."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-blister",
@@ -1098,7 +1154,9 @@
           "helpDetail": "Sterilize a needle with fire or alcohol. Puncture at the edge. Press fluid out. Do NOT remove the skin roof \u2014 it's a natural bandage. Apply antibiotic and cover.",
           "illustrationDescription": "Draining blister from edge."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-ankle-wrap",
@@ -1134,7 +1192,9 @@
           "helpDetail": "Toes should remain pink and warm. You should be able to wiggle them. If not, the wrap is too tight \u2014 loosen immediately.",
           "illustrationDescription": "Checking toe circulation."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-drowning",
@@ -1170,7 +1230,9 @@
           "helpDetail": "Expect vomiting\u2014turn head to side to clear, then continue. Do NOT press abdomen to drain water.",
           "illustrationDescription": "CPR for drowning."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-seizure",
@@ -1206,7 +1268,9 @@
           "helpDetail": "After the seizure stops, place in recovery position. Stay with them\u2014they will be confused.",
           "illustrationDescription": "Recovery position."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-poison",
@@ -1242,7 +1306,9 @@
           "helpDetail": "Some poisons cause respiratory failure. Monitor constantly.",
           "illustrationDescription": "Monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-nosebleed",
@@ -1278,7 +1344,9 @@
           "helpDetail": "May indicate posterior bleed requiring medical intervention.",
           "illustrationDescription": "When to seek help."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-nosebleeds/basics/art-20056683"
     },
     {
       "id": "firstaid-impaled-object",
@@ -1314,7 +1382,9 @@
           "helpDetail": "If object is long, shorten by cutting\u2014never pull or push.",
           "illustrationDescription": "Transport."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-electrocution",
@@ -1350,7 +1420,9 @@
           "helpDetail": "Even if the person seems fine, electrical injury can cause delayed heart problems. Keep monitoring.",
           "illustrationDescription": "Delayed monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-heart-attack",
@@ -1386,7 +1458,9 @@
           "helpDetail": "Heart attacks frequently lead to cardiac arrest. Be prepared.",
           "illustrationDescription": "CPR readiness."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-stroke",
@@ -1422,7 +1496,9 @@
           "helpDetail": "Every minute kills 1.9 million brain cells. Time is brain.",
           "illustrationDescription": "Time critical."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-asthma",
@@ -1458,7 +1534,9 @@
           "helpDetail": "Blue lips = oxygen deprivation. Cannot speak in full sentences = severe.",
           "illustrationDescription": "Emergency signs."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-choking-infant",
@@ -1494,7 +1572,9 @@
           "helpDetail": "Check mouth for visible object before each breath.",
           "illustrationDescription": "Repeat cycle."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-dislocated-joint",
@@ -1530,7 +1610,9 @@
           "helpDetail": "Cold, numb, or blue = compressed blood vessels. Urgent.",
           "illustrationDescription": "Checking circulation."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-hyperventilation",
@@ -1566,7 +1648,9 @@
           "helpDetail": "Non-anxiety hyperventilation is a medical emergency.",
           "illustrationDescription": "Rule out causes."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-childbirth",
@@ -1602,7 +1686,9 @@
           "helpDetail": "Tie with sterile string in two places, cut between. Deliver placenta naturally \u2014 do not pull.",
           "illustrationDescription": "Cord and placenta."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-wound-packing",
@@ -1638,7 +1724,9 @@
           "helpDetail": "Wrap firmly but check pulse below the wound to confirm you haven't cut off circulation entirely. Evacuate immediately \u2014 wound packing is a bridge to surgical care.",
           "illustrationDescription": "Bandaging."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-improvised-stretcher",
@@ -1674,7 +1762,9 @@
           "helpDetail": "Minimum 2 carriers, preferably 4 (one at each pole end). The person at the head calls commands. Move slowly and steadily. Avoid jarring or tilting.",
           "illustrationDescription": "Carrying patient."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-tooth-emergency",
@@ -1710,7 +1800,9 @@
           "helpDetail": "Clove oil (eugenol) is a natural dental anesthetic. Apply directly to the exposed tooth. Cover sharp edges with dental wax, gum, or soft candle wax to prevent tongue cuts.",
           "illustrationDescription": "Pain relief."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-eye-injury",
@@ -1746,7 +1838,9 @@
           "helpDetail": "Both eyes move together. Covering both eyes prevents the injured eye from moving when the good eye tracks objects. This reduces further damage during transport.",
           "illustrationDescription": "Covering both eyes."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-spinal-immobilization",
@@ -1782,7 +1876,9 @@
           "helpDetail": "Moving a spinal injury patient incorrectly can cause permanent paralysis. Only move if fire, rising water, or structural collapse threatens their life. If you must move: log-roll technique with 3+ people.",
           "illustrationDescription": "Log-roll technique."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677"
     },
     {
       "id": "firstaid-diabetic-emergency",
@@ -1824,7 +1920,9 @@
           "helpDetail": "Symptoms should improve within 10-15 minutes. If no improvement or person becomes unconscious, this is a medical emergency requiring professional help.",
           "illustrationDescription": "Monitoring recovery."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-drowning-rescue",
@@ -1860,7 +1958,9 @@
           "helpDetail": "Water in the lungs causes inflammation that progressively worsens. A seemingly recovered patient can deteriorate and die 1-24 hours later. Hospital observation is essential.",
           "illustrationDescription": "Monitoring patient."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-chest-seal",
@@ -1902,7 +2002,9 @@
           "helpDetail": "Tension pneumothorax can develop if air builds up. If breathing suddenly gets much worse, peel back one corner of the seal to release trapped air, then reseal.",
           "illustrationDescription": "Monitoring breathing."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-crush-injury",
@@ -1944,7 +2046,9 @@
           "helpDetail": "Crush syndrome can cause shock hours after release. Keep the person warm, lying down with legs elevated if no spinal injury suspected.",
           "illustrationDescription": "Shock monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-heat-stroke",
@@ -1986,7 +2090,9 @@
           "helpDetail": "If person becomes unconscious, place in recovery position. If they stop breathing, begin CPR. Continue cooling efforts until body feels cool to touch.",
           "illustrationDescription": "Monitoring mental status."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-hypothermia-treatment",
@@ -2028,7 +2134,9 @@
           "helpDetail": "Warm water with sugar or honey. No alcohol \u2014 it dilates blood vessels and increases heat loss. No caffeine \u2014 it dehydrates. Handle person gently \u2014 rough handling can trigger cardiac arrest in severe hypothermia.",
           "illustrationDescription": "Warm drinks."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-allergic-reaction",
@@ -2070,7 +2178,9 @@
           "helpDetail": "Biphasic reaction: symptoms can return 1-4 hours after initial episode even after EpiPen. Second EpiPen dose may be needed if symptoms return.",
           "illustrationDescription": "Extended monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-field-suturing",
@@ -2112,7 +2222,9 @@
           "helpDetail": "Remove closure strips immediately if infection develops. Open infected wounds must drain. Red streaks moving toward the heart indicate blood poisoning \u2014 a critical emergency.",
           "illustrationDescription": "Infection monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-nerve-assessment",
@@ -2154,7 +2266,9 @@
           "helpDetail": "Write down your findings. Re-check after splinting, repositioning, or any change. Worsening circulation/sensation means the splint may be too tight or the injury is progressing.",
           "illustrationDescription": "Documentation."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-psychological-aid",
@@ -2196,7 +2310,9 @@
           "helpDetail": "Ask: 'Is there someone you can call?' Help them make a plan for the next few hours. Do not promise things you cannot deliver.",
           "illustrationDescription": "Planning next steps."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-abdominal-injury",
@@ -2238,7 +2354,9 @@
           "helpDetail": "Cover with blanket. Talk to them calmly. Monitor skin color, breathing rate, and consciousness. If they vomit, turn head to side.",
           "illustrationDescription": "Shock treatment."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-choking-response",
@@ -2280,7 +2398,9 @@
           "helpDetail": "Open airway, look in mouth for visible object. If visible, sweep it out with finger. Give 2 rescue breaths. If they don't go in, give 30 chest compressions and recheck mouth.",
           "illustrationDescription": "CPR for unconscious choking."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-bleeding-control-advanced",
@@ -2322,7 +2442,9 @@
           "helpDetail": "Elevation reduces blood pressure at the wound site. Secure the limb in elevated position with sling or padding.",
           "illustrationDescription": "Elevation."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-poison-response",
@@ -2364,7 +2486,9 @@
           "helpDetail": "Position in recovery position if drowsy. If not breathing, begin CPR. Keep them warm. Save any vomit for medical analysis.",
           "illustrationDescription": "Monitoring."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-frostbite",
@@ -2406,7 +2530,9 @@
           "helpDetail": "Place cotton or gauze between digits. Do not pop blisters. Elevate the area. Expect significant pain during and after rewarming \u2014 this is normal.",
           "illustrationDescription": "Protecting tissue."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-snake-bite",
@@ -2448,7 +2574,9 @@
           "helpDetail": "Watch for: nausea, blurred vision, difficulty breathing, numbness spreading beyond bite, metallic taste. Anxiety increases heart rate which spreads venom faster.",
           "illustrationDescription": "Monitoring symptoms."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-spider-bite",
@@ -2490,7 +2618,9 @@
           "helpDetail": "If redness expands beyond the circle over hours, the venom is spreading and medical attention is needed urgently. Photograph if phone available.",
           "illustrationDescription": "Tracking spread."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-splinter",
@@ -2532,7 +2662,9 @@
           "helpDetail": "Watch for signs of infection over the next 48 hours: redness, swelling, warmth, pus, or red streaks.",
           "illustrationDescription": "Dressing."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-sprain",
@@ -2574,7 +2706,9 @@
           "helpDetail": "If you can bear weight with tolerable pain, gentle movement is okay. If severe pain or instability persists, the ligament may be torn \u2014 immobilize and avoid use.",
           "illustrationDescription": "Testing weight bearing."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-knee-injury",
@@ -2616,7 +2750,9 @@
           "helpDetail": "A crutch should reach from armpit to 6 inches ahead of foot. Pad the top with cloth. Use on the uninjured side.",
           "illustrationDescription": "Walking aid."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-femur-traction",
@@ -2658,7 +2794,9 @@
           "helpDetail": "Pull gently and steadily along the long axis of the leg until the injured leg is approximately the same length as the uninjured leg. Secure ankle to the end of the splint to maintain traction.",
           "illustrationDescription": "Applying traction."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-trench-foot",
@@ -2700,7 +2838,9 @@
           "helpDetail": "Carry spare socks against your body to keep them dry and warm. Apply foot powder if available. Never sleep in wet socks.",
           "illustrationDescription": "Prevention."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-sprained-ankle",
@@ -2742,7 +2882,9 @@
           "helpDetail": "Use a sturdy Y-shaped branch as a crutch, padded with cloth at the top. Walk slowly, testing each step. Mark your trail for rescuers if you must stop.",
           "illustrationDescription": "Walking aid."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-fever",
@@ -2784,7 +2926,9 @@
           "helpDetail": "These may indicate meningitis, severe infection, or dehydration. Fever above 104\u00b0F (40\u00b0C) is a medical emergency requiring aggressive cooling.",
           "illustrationDescription": "Monitoring danger signs."
         }
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     }
   ],
   "articles": [

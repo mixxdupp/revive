@@ -15,7 +15,7 @@ struct SavedTechniquesView: View {
             } else {
                 LazyVStack(spacing: 16) {
                     ForEach(savedTechniques) { technique in
-                        NavigationLink(destination: StepCardPager(technique: technique)) {
+                        NavigationLink(destination: VerticalGuideView(technique: technique)) {
                             ZStack(alignment: .topTrailing) {
                                 TechniqueRow(technique: technique)
                                 

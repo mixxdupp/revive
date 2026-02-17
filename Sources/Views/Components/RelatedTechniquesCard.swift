@@ -36,7 +36,7 @@ struct RelatedTechniquesCard: View {
                     ScrollView {
                         VStack(spacing: 12) {
                             ForEach(relatedTechniques) { related in
-                                NavigationLink(destination: StepCardPager(technique: related)) {
+                                NavigationLink(destination: VerticalGuideView(technique: related)) {
                                     TechniqueRow(technique: related)
                                         .glassCard()
                                 }
