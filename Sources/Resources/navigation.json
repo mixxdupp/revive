@@ -1402,6 +1402,8 @@
     },
     {
       "id": "nav-article-emergency",
+      "sourceName": "U.S. Army Map Reading and Land Navigation FM 3-25.26",
+      "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/FM%203-25x26%20FINAL%20WEB.pdf",
       "title": "Emergency Navigation Without Tools",
       "body": "Lost without compass, map, or GPS. You can still find your way.\n\nDaytime methods:\n1. Sun position: rises east, sets west, south at noon (Northern Hemisphere)\n2. Stick shadow: marks east-west line in 15 minutes\n3. Analog watch compass: bisect hour hand and 12 to find south\n4. Vegetation: growth patterns, snow melt, tree ring width\n\nNighttime methods:\n1. Polaris (north) or Southern Cross (south)\n2. Star movement: observe any star's drift against a fixed reference\n3. Moon: waxing crescent high at sunset = western sky\n\nUniversal strategy:\n- Follow water downhill (streams \u2192 rivers \u2192 towns)\n- Follow ridges (better visibility, easier travel)\n- Look for linear features (roads, fences, power lines, railroad tracks)\n- Listen: traffic, trains, dogs, chainsaws = civilization\n\nThe golden rule of emergency navigation: a rough bearing maintained consistently is infinitely better than no bearing. Even 'generally south' beats wandering randomly.",
       "relatedTechniqueIDs": [
@@ -1412,6 +1414,8 @@
     },
     {
       "id": "nav-article-gps",
+      "sourceName": "GPS.gov",
+      "sourceUrl": "https://www.gps.gov/",
       "title": "GPS: Capabilities & Limitations",
       "body": "GPS is extraordinary but not infallible. Understand its limits.\n\nHow it works:\n- 31 GPS satellites orbit Earth at 12,550 miles altitude\n- Your receiver needs signals from 4+ satellites\n- Calculates position from signal travel time\n- Accurate to 3-5 meters (civilian GPS)\n\nStrengths:\n- Works worldwide, 24/7\n- Works without cell service or WiFi\n- Unaffected by weather (clouds, rain, snow)\n- Provides exact coordinates, altitude, speed\n\nLimitations:\n- Batteries die (the #1 GPS failure mode)\n- Dense forest canopy degrades accuracy (10-30 meters)\n- Deep canyons and urban canyons lose satellite lock\n- No maps without pre-downloaded offline data\n- Cold dramatically reduces battery life\n\nBest practice:\n- Always carry a physical compass as backup\n- Download offline maps before every trip\n- Start with full battery, carry a portable charger\n- Mark waypoints at camp, vehicle, and water sources\n- Don't solely depend on technology \u2014 learn analog navigation",
       "relatedTechniqueIDs": [
@@ -1421,6 +1425,8 @@
     },
     {
       "id": "nav-article-terrain",
+      "sourceName": "U.S. Army Map Reading and Land Navigation FM 3-25.26",
+      "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/FM%203-25x26%20FINAL%20WEB.pdf",
       "title": "Reading Terrain Like a Map",
       "body": "Terrain tells a story. Learning to read it is the oldest navigation skill.\n\nRidges and valleys:\n- Ridges are natural travel corridors: better visibility, drier ground, fewer obstacles\n- Valleys have water and shelter but thick vegetation and flood risk\n- Saddles (low points between peaks) are natural crossing points\n\nWater drainage:\n- All water flows downhill. Streams converge into rivers. Rivers reach the ocean or major lakes.\n- Drainage patterns reveal terrain structure: dendritic (branching) means uniform soil. Parallel drains mean tilted layers.\n\nVegetation as terrain indicator:\n- Dense willows = water nearby (even if not visible)\n- Tall pines on ridges = well-drained, stable ground\n- Bare/rocky areas above treeline = exposed, dangerous in storms\n- Color changes in vegetation often mark water table changes\n\nContour reading:\n- Close contour lines = steep terrain\n- Wide spacing = gentle slopes\n- V-shapes pointing uphill = stream valleys\n- V-shapes pointing downhill = ridgelines\n- Closed circles = hilltops or depressions (check elevation numbers)",
       "relatedTechniqueIDs": [
@@ -1430,6 +1436,8 @@
     },
     {
       "id": "nav-article-night",
+      "sourceName": "U.S. Army Map Reading and Land Navigation FM 3-25.26",
+      "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/FM%203-25x26%20FINAL%20WEB.pdf",
       "title": "Navigating at Night",
       "body": "Night navigation is dangerous but sometimes necessary. Preparation is key.\n\nWhy you might need to travel at night:\n- Medical emergency requiring evacuation\n- Extreme heat makes daytime travel impossible (desert)\n- Evading dangerous wildlife (predators active at dawn/dusk)\n- Flood or fire forcing immediate evacuation\n\nNight advantages:\n- Stars provide reliable direction reference\n- Sounds carry further (hear water, roads, civilization)\n- Cooler temperatures reduce dehydration\n\nNight risks:\n- Falls and injuries (the #1 danger)\n- Getting lost (no landmarks visible)\n- Psychological stress (amplified fear and anxiety)\n- Stepping on snakes or into holes\n\nRisk reduction:\n1. Wait 20-30 minutes for full night vision adaptation before moving\n2. Use red light only (preserves night vision)\n3. Walk at half-speed\n4. Sweep the ground ahead with a long stick\n5. Stop immediately if terrain becomes uncertain\n6. Use star or compass bearings \u2014 don't trust 'instinct' at night",
       "relatedTechniqueIDs": [
@@ -1440,6 +1448,8 @@
     },
     {
       "id": "nav-article-urban-nav",
+      "sourceName": "Ready.gov",
+      "sourceUrl": "https://www.ready.gov/evacuation",
       "title": "Urban Emergency Navigation",
       "body": "When infrastructure fails \u2014 power grid down, cell network dead, GPS jammed \u2014 navigating a city becomes surprisingly difficult.\n\nWhy urban navigation fails:\n- We depend entirely on street signs, GPS, and mental maps of normal routes\n- Disasters block familiar routes with debris, flooding, or fire\n- Smoke and dust reduce visibility to meters\n- Structural collapse changes the landscape\n\nUrban navigation aids:\n1. Satellite dishes point south (Northern Hemisphere) \u2014 reliable everywhere\n2. Railroad tracks always lead to stations and towns\n3. Highway systems follow predictable patterns (interstates are numbered: odd = north-south, even = east-west in the US)\n4. Power line corridors provide clear paths and lead to substations near towns\n5. Water tower direction \u2014 visible for miles, always near population\n\nEvacuation priorities:\n- Move perpendicular to the threat (fire, flood, gas leak)\n- Head toward open space: parks, fields, parking lots\n- Avoid bridges during earthquakes, underpasses during floods\n- Follow emergency vehicle sirens toward staging areas\n- If driving, follow the traffic \u2014 locals know the evacuation routes",
       "relatedTechniqueIDs": [
@@ -1449,6 +1459,8 @@
     },
     {
       "id": "nav-article-getting-unlost",
+      "sourceName": "U.S. Search and Rescue Task Force",
+      "sourceUrl": "http://www.ussartf.org/lost.htm",
       "title": "Getting Unlost: Step-by-Step Recovery",
       "body": "Being lost is not a failure. It's a situation to manage systematically.\n\nSTOP Protocol:\n- S: Sit down. Panic causes bad decisions. Calm yourself first.\n- T: Think. When did you last know your position? What have you done since?\n- O: Observe. What terrain features can you see? Sun direction? Sounds?\n- P: Plan. Make a deliberate decision based on information, not emotion.\n\nRecovery steps:\n1. Mark your current position (cairn, flag, knife mark on tree)\n2. Try to retrace your steps to your last known position\n3. If retracing fails, climb to high ground for a view\n4. Identify any linear feature (river, ridge, road) and travel to it\n5. Once on a linear feature, follow it to civilization\n\nCommon mistakes when lost:\n- Continuing to walk hoping things look familiar (makes it worse)\n- Walking faster (burns energy, covers ground but not in useful direction)\n- Not marking your position (wander in circles without knowing it)\n- Splitting up from group (exponentially harder to find multiple people)\n\nIf you cannot self-rescue:\n- Stay put. Search and rescue finds stationary targets faster.\n- Make yourself visible: bright colors, ground signals, fire, whistle\n- Three of anything is the universal distress signal: 3 fires, 3 whistle blasts, 3 rocks in a triangle",
       "relatedTechniqueIDs": [
@@ -1458,6 +1470,8 @@
     },
     {
       "id": "nav-article-night-nav",
+      "sourceName": "U.S. Army Map Reading and Land Navigation FM 3-25.26",
+      "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/FM%203-25x26%20FINAL%20WEB.pdf",
       "title": "Night Navigation Techniques",
       "body": "Traveling at night is sometimes necessary (desert heat avoidance, enemy evasion, emergency). It requires different skills.\n\nAdvantages of night travel:\n- Cooler temperatures reduce water consumption by 50-75%\n- Stars provide reliable direction (Polaris, Southern Cross)\n- In desert environments, night travel is sometimes the only safe option\n\nChallenges:\n- Cannot see terrain hazards (cliffs, holes, snakes)\n- Cannot read vegetation or terrain for direction\n- Fatigue impairs judgment and navigation accuracy\n- Distance estimation is very poor at night\n\nTechniques:\n1. Star steering: pick a low star in your direction, walk toward it, replace every 15 min\n2. Moon direction: crescent moon \u2014 connect the horns with a line to the horizon = south (Northern Hemisphere)\n3. Horizon glow: cities create light pollution visible from 50+ miles. Navigate toward or away from glow\n4. Sound navigation: rivers, highways, railroads, dog barking = civilization\n5. Wind consistency: maintain a constant angle to the wind (recalibrate hourly)\n\nSafety rules:\n- Move slowly. Probe ahead with a stick in unfamiliar terrain\n- Allow 30 minutes for night vision to develop (avoid looking at any lights)\n- If terrain becomes dangerous, stop and wait for dawn",
       "relatedTechniqueIDs": [
@@ -1467,6 +1481,8 @@
     },
     {
       "id": "nav-article-map-basics",
+      "sourceName": "U.S. Geological Survey (USGS)",
+      "sourceUrl": "https://www.usgs.gov/educational-resources/how-read-topographic-map",
       "title": "Map Reading Fundamentals",
       "body": "A paper map is the most reliable navigation tool. It never runs out of battery.\n\nMap essentials:\n- Contour lines: connect points of equal elevation. Close together = steep. Far apart = flat.\n- Scale: 1:24,000 means 1 inch on map = 24,000 inches (2,000 feet) on ground\n- North: top of map is typically grid north (close to true north but not exact)\n- Legend: explains symbols. Memorize common ones: trails (dashed), water (blue), roads (red/black)\n\nReading contour lines:\n- V-shapes pointing uphill = valley/drainage (water flows down the V)\n- V-shapes pointing downhill = ridge/spur\n- Concentric circles = hilltop or depression (check for hachure marks)\n- Evenly spaced contours = uniform slope\n- Cliff: contours merge into a single line\n\nOrienting your map:\n1. Find two visible landmarks you can identify on the map\n2. Rotate the map until the landmarks align with their real positions\n3. Your position is somewhere along the line between your two sightlines\n4. With a compass: align the compass north with the map north arrow\n\nEstimating distance on a map:\n- Use the scale bar, not the grid lines\n- Account for terrain: a 1-mile map distance up a steep slope is 1.5+ miles of actual walking\n- Thumb technique: place your thumb on your position. As you travel, move your thumb to track progress",
       "relatedTechniqueIDs": [
@@ -1476,6 +1492,8 @@
     },
     {
       "id": "nav-article-gps-limitations",
+      "sourceName": "GPS.gov",
+      "sourceUrl": "https://www.gps.gov/systems/gps/performance/accuracy/",
       "title": "GPS Limitations & Failure Planning",
       "body": "GPS is remarkable technology. It is also unreliable in survival situations.\n\nWhy GPS fails:\n- Batteries die (cold accelerates battery drain by 50%+)\n- Signal blocked by deep canyons, dense forest canopy, caves\n- Water damage from immersion or condensation\n- Satellite signal can be jammed or spoofed\n- Accuracy degrades in certain terrain (multipath errors near cliffs)\n\nGPS-dependent risks:\n- People who rely solely on GPS do not develop terrain awareness\n- GPS failure causes immediate disorientation in people without backup skills\n- Digital maps require downloads \u2014 no signal = no map\n- Battery management becomes a survival priority\n\nBackup plan:\n1. Always carry a paper map and magnetic compass\n2. Note your starting coordinates and bearing before entering the field\n3. Track major waypoints on paper as backup to digital tracking\n4. Practice non-GPS navigation regularly so skills stay sharp\n5. Carry spare batteries and a solar charger or battery pack\n\nConserving GPS battery:\n- Turn off screen between checks\n- Use airplane mode with GPS-only (saves significant battery)\n- Check position every 30 minutes rather than continuously\n- Mark critical waypoints and turn GPS off between them",
       "relatedTechniqueIDs": [
@@ -1485,6 +1503,8 @@
     },
     {
       "id": "nav-article-declination",
+      "sourceName": "National Oceanic and Atmospheric Administration (NOAA)",
+      "sourceUrl": "https://www.ngdc.noaa.gov/geomag/declination.shtml",
       "title": "Understanding Magnetic Declination",
       "body": "Your compass doesn't point to true north. This error can put you miles off course.\n\nWhat is magnetic declination?\n- True north (geographic North Pole) and magnetic north (where your compass points) are different locations\n- The angle between them is called declination\n- In the eastern US, declination can be 15\u00b0+ west (compass points west of true north)\n- In the western US, declination can be 15\u00b0+ east\n- At the agonic line (roughly through the Mississippi), declination is zero\n\nWhy it matters:\n- A 10\u00b0 error over 1 mile puts you 920 feet off target\n- Over 5 miles, that's nearly a mile of error\n- In dense forest or low visibility, this makes you miss your target entirely\n\nCorrection methods:\n1. Know your local declination (it's printed on topographic maps but changes over time)\n2. For west declination: ADD the declination to your compass bearing\n3. For east declination: SUBTRACT the declination from your compass bearing\n4. Memory aid: 'Declination West, Compass Best (add). Declination East, Compass Least (subtract)'\n5. Many compasses have an adjustable declination ring \u2014 set it once and forget it\n\nIn a survival situation without declination data: use celestial navigation (sun/stars) to find true north, then note the difference from your compass.",
       "relatedTechniqueIDs": [
@@ -1494,6 +1514,8 @@
     },
     {
       "id": "nav-article-dense-forest",
+      "sourceName": "U.S. Army Map Reading and Land Navigation FM 3-25.26",
+      "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/FM%203-25x26%20FINAL%20WEB.pdf",
       "title": "Navigation in Dense Forest",
       "body": "Dense forest eliminates most visual references. Navigation becomes extremely difficult.\n\nChallenges:\n- No horizon visibility for celestial navigation\n- Canopy blocks sun and stars\n- All directions look the same (trees become indistinguishable)\n- Terrain features are hidden by vegetation\n- Sound is absorbed, making distance estimation unreliable\n\nForest-specific techniques:\n1. Sun patches: even in dense canopy, sun patches on the ground indicate sun direction\n2. Stream following: find any flowing water and follow it downstream\n3. Ridgeline travel: climb to the nearest ridge and follow it (ridges offer better visibility)\n4. Pace counting: without visual references, counting paces is the only reliable distance measure\n5. Back bearing: mark your trail constantly (broken branches, cairns, knife marks)\n\nAvoiding circles:\n- Humans naturally walk in circles without visual references (dominant leg bias)\n- The circle diameter is typically 100-500 meters\n- Countermeasure: aim at a specific tree ahead, walk to it, sight another tree in line, repeat\n\nEmergency strategy:\n- If completely disoriented in dense forest: follow water downhill\n- Water always leads to larger water features, which lead to human habitation\n- Build a signal fire in any clearing you find\n- Create noise (whistle, banging rocks) \u2014 sound may carry to rescuers or nearby people",
       "relatedTechniqueIDs": [

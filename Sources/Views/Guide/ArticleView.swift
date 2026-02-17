@@ -8,42 +8,74 @@ struct ArticleView: View {
         ZStack {
             DesignSystem.backgroundPrimary.edgesIgnoringSafeArea(.all)
             
-            VStack(spacing: 0) {
-                // Header
-                HStack {
-                    Button(action: { dismiss() }) {
-                        HStack(spacing: 4) {
-                            Image(systemName: "chevron.left")
-                            Text(article.domain.displayName)
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    
+                    // MARK: - Header
+                    VStack(alignment: .leading, spacing: 8) {
+                        Button(action: { dismiss() }) {
+                            HStack(spacing: 4) {
+                                Image(systemName: "chevron.left")
+                                Text("Browse")
+                            }
+                            .font(.headline)
+                            .foregroundStyle(article.domain.color)
                         }
-                        .font(Typography.button)
-                        .foregroundColor(DesignSystem.textSecondary)
-                    }
-                    Spacer()
-                }
-                .padding(.horizontal, Layout.screenPadding)
-                .padding(.top, 20)
-                .padding(.bottom, 20)
-                
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 20) {
+                        .padding(.bottom, 10)
+                        
+                        // Metadata
+                        Text("ARTICLE • \(article.domain.displayName.uppercased())")
+                            .font(.caption.weight(.bold))
+                            .foregroundStyle(article.domain.color)
+                            .tracking(1)
+                        
+                        // Title
                         Text(article.title)
-                            .font(Typography.title)
-                            .foregroundColor(DesignSystem.textPrimary)
+                            .font(.system(size: 34, weight: .black))
+                            .foregroundStyle(DesignSystem.textPrimary)
+                            .fixedSize(horizontal: false, vertical: true)
                         
-                        Divider()
-                            .background(article.domain.color.opacity(0.5))
-                        
-                        Text(article.body)
-                            .font(Typography.body)
-                            .foregroundColor(DesignSystem.textPrimary)
-                            .lineSpacing(6)
-                        
-                        Spacer(minLength: 40)
+                        // Source Link
+                        if let sourceUrl = article.sourceUrl, let url = URL(string: sourceUrl) {
+                            Link(destination: url) {
+                                HStack(spacing: 4) {
+                                    Text("Source:")
+                                        .font(.footnote)
+                                        .foregroundStyle(DesignSystem.textSecondary)
+                                    
+                                    Text(article.sourceName ?? "View Original")
+                                        .font(.footnote.weight(.semibold))
+                                        .foregroundStyle(article.domain.color)
+                                        .underline()
+                                    
+                                    Image(systemName: "arrow.up.right")
+                                        .font(.caption2)
+                                        .foregroundStyle(article.domain.color)
+                                }
+                            }
+                            .padding(.top, 4)
+                        }
                     }
-                    .padding(.horizontal, Layout.screenPadding)
-                    .padding(.bottom, 40)
+                    .padding(.horizontal, 20)
+                    .padding(.top, 20)
+                    
+                    Divider()
+                        .background(article.domain.color.opacity(0.3))
+                        .padding(.horizontal, 20)
+                    
+                    // MARK: - Body Content
+                    Text(article.body)
+                        .font(.body)
+                        .foregroundStyle(DesignSystem.textPrimary)
+                        .lineSpacing(6)
+                        .padding(.horizontal, 20)
+                    
+                    // MARK: - Related Techniques Link (Optional Future Enhancement)
+                    // If we had logic to link back to techniques, it would go here.
+                    
+                    Spacer(minLength: 40)
                 }
+                .padding(.bottom, 40)
             }
         }
         .navigationBarHidden(true)

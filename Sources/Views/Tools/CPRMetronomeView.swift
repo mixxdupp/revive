@@ -30,7 +30,7 @@ struct CPRMetronomeView: View {
 
                 VStack(spacing: 4) {
                     Text("\(Int(bpm))")
-                        .font(.system(size: 56, weight: .bold, design: .rounded))
+                        .font(.system(size: 56, weight: .bold))
                         .foregroundStyle(isBeatOn ? .white : DesignSystem.textPrimary)
                     Text("BPM")
                         .font(.title3.weight(.semibold))
@@ -42,7 +42,7 @@ struct CPRMetronomeView: View {
             .accessibilityLabel("\(Int(bpm)) BPM")
 
             Text("CPR Metronome")
-                .font(.system(size: 28, weight: .bold, design: .serif))
+                .font(.system(size: 28, weight: .bold))
                 .foregroundStyle(DesignSystem.textPrimary)
 
             // Compression counter

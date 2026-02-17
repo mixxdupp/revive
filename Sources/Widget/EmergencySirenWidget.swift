@@ -38,7 +38,7 @@ struct EmergencySirenWidgetEntryView : View {
                     .foregroundStyle(.white)
                 
                 Text("SOS SIREN")
-                    .font(.system(size: 14, weight: .black, design: .rounded))
+                    .font(.system(size: 14, weight: .black))
                     .foregroundStyle(.white)
             }
         }

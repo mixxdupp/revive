@@ -24,7 +24,7 @@ struct InventoryView: View {
                 // Header
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Inventory", comment: "Screen Title")
-                        .font(.system(size: 34, weight: .black, design: .serif))
+                        .font(.system(size: 34, weight: .black))
                         .foregroundStyle(DesignSystem.textPrimary)
                     
                     Text("Select what you have to see what you can make.", comment: "Instruction Text")
@@ -133,7 +133,7 @@ struct ItemToggle: View {
     var body: some View {
         Button(action: action) {
             Text(name)
-                .font(.system(size: 16, weight: .medium, design: .rounded))
+                .font(.system(size: 16, weight: .medium))
                 .foregroundStyle(isSelected ? .white : DesignSystem.textPrimary)
                 .padding(.vertical, 12)
                 .frame(maxWidth: .infinity)

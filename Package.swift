@@ -43,8 +43,9 @@ let package = Package(
         .executableTarget(
             name: "AppModule",
             path: "Sources",
+            exclude: ["Resources/Assets.xcassets"],
             resources: [
-                // .process("Resources/Assets.xcassets"), // Likely handled by folder structure or redundant
+                .process("Resources/Assets.xcassets"),
                 .process("Resources/fire.json"),
                 .process("Resources/shelter.json"),
                 .process("Resources/water.json"),

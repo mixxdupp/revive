@@ -11,7 +11,7 @@ struct EmergencyWarningBanner: View {
             
             VStack(alignment: .leading, spacing: 2) {
                 Text("CALL EMERGENCY SERVICES FIRST")
-                    .font(.system(size: 13, weight: .heavy, design: .rounded))
+                    .font(.system(size: 13, weight: .heavy))
                     .foregroundColor(.white)
                 
                 Text("Life-threatening condition. Call your local emergency number immediately.")

@@ -25,7 +25,7 @@ struct VerticalGuideView: View {
                         .padding(.bottom, 10)
                         
                         Text(technique.name)
-                            .font(.system(size: 34, weight: .bold, design: .rounded))
+                            .font(.system(size: 34, weight: .bold))
                             .foregroundStyle(DesignSystem.textPrimary)
                             .fixedSize(horizontal: false, vertical: true)
                         

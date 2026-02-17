@@ -1500,6 +1500,8 @@
   "articles": [
     {
       "id": "fire-article-fuel",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Fuel Selection: Tinder, Kindling, Fuel",
       "body": "Fire needs three sizes of fuel, used in sequence:\n\nTinder (catches a spark/ember):\n- Dryer lint, charcloth, cotton balls in vaseline\n- Birch bark (contains flammable oils \u2014 burns even wet)\n- Cedar bark (shred into fine fibers)\n- Fatwood shavings (resinous pine)\n- Dried grass or cattail fluff\n- Fine wood shavings (feather sticks)\n\nKindling (catches from tinder flame):\n- Pencil-lead to pencil-thick dead twigs\n- Split softwood sticks\n- Small bark strips\n- Must be DRY \u2014 snap test (dry twigs snap cleanly)\n\nFuel (sustains the fire):\n- Wrist-thick and larger branches\n- Split logs\n- Hardwoods for long burn (oak, hickory, maple)\n- Softwoods for quick heat (pine, cedar, spruce)\n\nGather 3\u00d7 more than you think you'll need. The universal survival rule: you always underestimate fuel requirements.",
       "relatedTechniqueIDs": [
@@ -1509,6 +1511,8 @@
     },
     {
       "id": "fire-article-methods",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Fire-Starting Methods Compared",
       "body": "Ranked by reliability (best to worst):\n\n1. Lighter \u2014 easiest, works thousands of times, even when empty (spark ignites tinder)\n2. Ferrocerium rod \u2014 3,000\u00b0F sparks, works wet, 10,000+ strikes\n3. Matches (stormproof) \u2014 reliable but finite, keep dry\n4. Magnifying lens \u2014 unlimited uses, requires direct sunlight\n5. Flint & steel \u2014 requires skill, needs charcloth/fungi\n6. Battery + steel wool \u2014 requires specific materials, fast when available\n7. Bow drill \u2014 no materials needed except wood, highest skill requirement\n8. Hand drill \u2014 extreme difficulty, requires perfect materials\n9. Fire plow \u2014 exhausting, inconsistent\n10. Ice lens \u2014 last resort, requires clear ice + sun\n\nRedundancy rule: carry AT LEAST three fire-starting methods. Primary (lighter), backup (ferro rod), emergency (knowledge-based friction method).\n\nThe best fire-starting method is the one that works when you need it. Practice all methods before you're in a survival situation.",
       "relatedTechniqueIDs": [
@@ -1522,6 +1526,8 @@
     },
     {
       "id": "fire-article-signaling",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Fire as a Signaling Tool",
       "body": "Fire is one of the most visible signals available to survivors.\n\nDaytime: SMOKE\n- Green branches, wet wood, and damp leaves create thick white smoke\n- Rubber, oil-soaked cloth, and plastics create black smoke\n- White smoke against dark forest, black smoke against snow/sand\n- Three smoke columns in a triangle = universal distress signal\n\nNighttime: FLAME\n- Bright flames visible for miles in darkness\n- Three fires in a triangle = distress\n- A single large fire on a hilltop can be seen 20+ miles\n- Maintain fires through the night when rescue is expected\n\nSignal fire preparation:\n- Pre-build signal fires at your camp, ready to light\n- Cover with bark or tarp to protect from rain\n- Keep accelerants nearby (birch bark, fatwood, resin)\n- Can you light all three within 2 minutes? Practice.\n\nAircraft detection: pilots scan for smoke columns and fire at night. A signal fire has saved more lives than any other primitive signaling method.",
       "relatedTechniqueIDs": [
@@ -1531,6 +1537,8 @@
     },
     {
       "id": "fire-article-wet",
+      "sourceName": "Outdoor Life",
+      "sourceUrl": "https://www.outdoorlife.com/survival/how-to-start-fire-in-rain/",
       "title": "Fire in Wet Weather",
       "body": "Rain is fire's greatest enemy. Winning the battle requires knowledge and preparation.\n\nFinding dry fuel in rain:\n- Dead standing wood is drier than fallen wood (off the wet ground)\n- Inner bark of dead trees stays dry even in heavy rain\n- Split wet logs \u2014 the inside is dry. Shave inner surfaces for tinder.\n- Resinous wood (fatwood, birch bark) burns even when damp\n- Check under rock overhangs, thick evergreen canopy, and log piles\n\nProtecting fire from rain:\n- Build under natural overhang (NOT in a cave \u2014 CO poisoning risk)\n- Create a bark or tarp rain shield above the fire\n- Use a Dakota hole \u2014 below-ground fire is sheltered from wind and rain\n- Keep dry fuel stockpile covered at all times\n\nStarting technique in wet conditions:\n1. Create a platform of dry sticks to keep fire off wet ground\n2. Use feather sticks for tinder (inner dry wood exposed)\n3. Start with more tinder and kindling than normal\n4. Shield the initial flame from wind and rain with your body\n5. Don't add fuel too quickly \u2014 let each layer catch before adding more\n\nThe first 5 minutes are critical. Once established, fire dries its own fuel.",
       "relatedTechniqueIDs": [
@@ -1541,6 +1549,8 @@
     },
     {
       "id": "fire-article-maintenance",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Fire Maintenance Through the Night",
       "body": "A fire that dies at 3 AM is a survival setback. Maintaining fire through the night is a core skill.\n\nBanking a fire for the night:\n1. Let fire burn down to a deep coal bed (1-2 hours of steady burning)\n2. Push coals together into a compact pile\n3. Cover with a thick layer of ash (insulation)\n4. Place two large, dense hardwood logs on top\n5. The logs smolder and can be blown back to flame in the morning\n\nLong-burn fuel selection:\n- Hardwoods burn longest: oak, hickory, maple, ironwood\n- Dense green wood smolders for hours (not ideal but functional)\n- Large diameter logs (6+ inches) last much longer than splits\n- Avoid softwoods for overnight \u2014 they burn fast and create sparks\n\nMorning restart:\n1. Remove ash cover gently\n2. Expose glowing coals underneath\n3. Place tinder directly on coals\n4. Blow gently until flames appear\n5. Add kindling, then fuel\n\nIf coals are out, check for warm spots with your hand (6 inches above). Even warm ash may have a surviving ember buried deep.",
       "relatedTechniqueIDs": [
@@ -1550,6 +1560,8 @@
     },
     {
       "id": "fire-article-primitive",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "The Science of Primitive Fire",
       "body": "Understanding WHY friction fire works makes you better at it.\n\nThe physics:\n- Friction generates heat. Wood ignites at approximately 450\u00b0F (230\u00b0C).\n- A bow drill concentrates friction at a single point (the spindle/hearth interface).\n- The coal that forms is actually pyrolyzed wood dust \u2014 carbon heated past its ignition point.\n- The notch in the hearth board is critical: it collects the hot dust and allows oxygen access.\n\nWood selection science:\n- Ideal spindle and hearth: same species, medium hardness, DRY\n- Too hard: insufficient friction heat generation\n- Too soft: spindle drills through hearth without generating enough heat\n- Best: willow, cedar, cottonwood, basswood, yucca stalk\n- Test: can you dent it with your thumbnail? Good. Can you scratch it easily? Too soft.\n\nMoisture is the enemy:\n- Wet wood conducts heat away from the friction point\n- Dry wood insulates, keeping heat at the contact zone\n- Dead standing wood is almost always drier than fallen wood\n\nThe critical moment:\n- Brown dust = getting warm (300\u00b0F)\n- Black dust = approaching ignition (400\u00b0F)\n- Wisp of smoke = ember forming (450\u00b0F+)\n- Self-sustaining smoke after stopping = success",
       "relatedTechniqueIDs": [
@@ -1560,6 +1572,8 @@
     },
     {
       "id": "fire-article-wood-id",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Wood Identification for Fire",
       "body": "Not all wood is equal. Knowing your fuel transforms fire-making from frustration to science.\n\nHardwoods (best for long-burning coals):\n- Oak: king of fuel woods. Burns hot, long, makes excellent coals\n- Maple: nearly as good as oak, widely available\n- Hickory: hottest burning hardwood, excellent for cooking\n- Ash: burns well even when slightly green\n- Beech: steady, reliable burn\n\nSoftwoods (best for quick ignition and kindling):\n- Pine: easy to light, resinous, burns fast. Produces sparks\n- Cedar: excellent tinder (bark shreds easily), lights fast\n- Spruce: good kindling, available in cold climates\n- Fir: clean burning, moderate heat\n\nWoods to AVOID:\n- Driftwood: salt content creates toxic fumes\n- Oleander: smoke is toxic, can cause serious illness\n- Poison ivy/oak/sumac: smoke carries urushiol (causes respiratory reaction)\n- Pressure-treated or painted wood: toxic chemicals when burned\n- Green/wet wood: smokes excessively, wastes energy drying\n\nRule of thumb: dead standing wood is almost always significantly drier than wood found on the ground.",
       "relatedTechniqueIDs": [
@@ -1569,6 +1583,8 @@
     },
     {
       "id": "fire-article-biomes",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Fire in Different Biomes",
       "body": "Every environment presents unique fire challenges. Adapt your approach.\n\nDesert:\n- Fuel is scarce. Dried animal dung burns well. Dead brush and sage work.\n- Wind is constant. Use trench fires or Dakota holes.\n- Temperature swings are extreme \u2014 nighttime fires are critical for warmth.\n\nArctic/Tundra:\n- Above treeline: no wood. Use animal fats, dried moss, or heather.\n- Below treeline: birch bark is your best tinder, dead spruce for fuel.\n- Fire on snow requires a log platform to prevent melt-through.\n\nJungle/Tropical:\n- Everything is wet. Dead standing bamboo is often the driest material.\n- Resinous tropical hardwoods (wax palm, resin-rich species) burn despite moisture.\n- Termite nests (dried ones) make excellent tinder in tropical forests.\n\nGrassland/Prairie:\n- Dried grass burns fast but hot. Bundle tightly for longer burn.\n- Dried animal dung (buffalo chips, cow patties) is a staple fuel.\n- Wind is the primary challenge \u2014 trench or pit fires essential.\n\nCoastal:\n- Driftwood is available but salty (pops and sparks). Use with caution.\n- Kelp and seaweed burn poorly. Stick to actual wood.\n- Wind and salt spray make fire maintenance difficult. Windbreaks mandatory.",
       "relatedTechniqueIDs": [
@@ -1579,6 +1595,8 @@
     },
     {
       "id": "fire-article-psychology",
+      "sourceName": "American Psychological Association",
+      "sourceUrl": "https://www.apa.org/topics/resilience",
       "title": "Fire Psychology & Morale",
       "body": "Fire is more than heat. It is one of the most powerful psychological tools in survival.\n\nPsychological benefits of fire:\n- Comfort: fire creates a sense of home and safety\n- Light: eliminates the primal fear of darkness\n- Warmth: physical warmth elevates mood directly\n- Control: building and maintaining fire gives a sense of mastery\n- Community: fire naturally creates a gathering point for groups\n- Hope: fire = signal = possible rescue\n\nThe fire effect on decision-making:\n- People with fire make significantly better decisions\n- Warmth reduces anxiety and panic responses\n- The act of building fire provides purpose and routine\n- Fire allows cooking, which provides nutrition, which improves cognition\n\nFire as routine anchor:\n- Morning fire: start the day with purpose\n- Cooking fires: provide schedule structure\n- Evening fire: wind-down ritual before sleep\n- Signal fire check: daily maintenance gives hope\n\nHistorical context: humans have had fire for 400,000+ years. It is deeply embedded in our psychology. The absence of fire in survival is correlated with faster psychological deterioration.",
       "relatedTechniqueIDs": [
@@ -1588,6 +1606,8 @@
     },
     {
       "id": "fire-article-chemical",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Chemical Fire Starters Guide",
       "body": "Modern materials that ignite easily \u2014 many are in your pocket or pack right now.\n\nCommon accelerants:\n- Hand sanitizer (60-70% alcohol): gel stays in place, burns 30-60 sec\n- Petroleum jelly + cotton: waterproof, burns 5-8 min\n- Chapstick/lip balm: petroleum-based, burns like a candle on cloth\n- Insect repellent (DEET-based): flammable spray\n- Duct tape: burns slowly with a hot flame\n- Steel wool + 9V battery: instant ignition from short circuit\n\nChemical reactions:\n- Potassium permanganate + glycerin: self-igniting in 30-60 seconds\n- Potassium permanganate + sugar: ignites from friction or spark\n- Steel wool + battery: any battery 3V+ creates ignition\n\nPreparation kits:\n- Fire wallet: charcloth + ferro rod + jute twine in a waterproof pouch\n- Fire pills: cotton balls saturated in wax (waterproof, burns 5 min)\n- Dryer lint + egg carton: pour melted wax over dryer lint in egg carton cups\n\nSafety: NEVER add accelerant to an already-burning fire. The flame can travel up the stream or splash back. Apply to cold tinder only.",
       "relatedTechniqueIDs": [
@@ -1598,6 +1618,8 @@
     },
     {
       "id": "fire-article-cooking",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Cooking Fire Configurations",
       "body": "Cooking on a campfire is not the same as cooking on a stove. Different configurations serve different purposes.\n\nDirect flame cooking:\n- Good for: boiling water, searing meat\n- Bad for: controlled temperature, slow cooking\n- Method: hang pot over flames or place directly in embers\n\nCoal cooking:\n- Good for: even heat, grilling, baking\n- Bad for: quick boiling\n- Method: rake coals from main fire into separate cooking area\n- Keyhole fire configuration is ideal for this\n\nSpit roasting:\n- Good for: whole animals, large cuts\n- Method: green wood spit over coals (not flames)\n- Must rotate continuously for even cooking\n- Height adjustment controls temperature\n\nStone boiling:\n- Good for: containers that can't go over fire (bark, skin, stomach)\n- Method: heat rocks in fire, drop into water in container\n- Use 5-6 fist-sized rocks, rotating in and out\n- Water boils in 10-15 minutes\n\nEarth oven (pit cooking):\n- Good for: large quantities, slow cooking, tough meats\n- Method: dig pit, line with hot rocks, add food wrapped in leaves, cover with earth\n- Cooking time: 4-12 hours depending on size\n- Extremely fuel efficient \u2014 uses residual heat",
       "relatedTechniqueIDs": [
@@ -1608,6 +1630,8 @@
     },
     {
       "id": "fire-article-wet-weather",
+      "sourceName": "Outdoor Life",
+      "sourceUrl": "https://www.outdoorlife.com/survival/how-to-start-fire-in-rain/",
       "title": "Fire in Wet Conditions",
       "body": "Rain is the most common reason people fail at fire-making. These principles overcome it.\n\nFinding dry fuel in rain:\n- Dead standing wood: always drier than ground wood\n- Inner bark of dead trees: protected from rain\n- Inside of split logs: exterior gets wet, core stays dry\n- Under dense canopy: evergreen trees shed rain like umbrellas\n- Fatwood: resin-saturated wood ignites even when soaking wet\n\nFire-starting sequence in rain:\n1. Find or create shelter FIRST (tarp, overhang, lean-to)\n2. Start fire UNDER shelter\n3. Use accelerant (birch bark, fatwood, petroleum jelly cotton) \u2014 normal tinder won't work wet\n4. Build fire gradually \u2014 larger pieces need more drying time\n5. Use a fire reflector to redirect heat back toward drying fuel\n\nDrying wood with fire:\n- Stack wet wood near (not on) the fire to pre-dry it\n- Split wet wood into smaller pieces \u2014 exposes dry interior\n- Lean wet logs upright near fire (heat rises, drying from bottom up)\n\nPrevention:\n- Always gather and store dry tinder BEFORE it rains\n- Keep emergency fire kit in waterproof container at all times\n- Pre-made fire starters (vaseline cotton balls) are waterproof insurance",
       "relatedTechniqueIDs": [
@@ -1618,6 +1642,8 @@
     },
     {
       "id": "fire-article-safety",
+      "sourceName": "U.S. Forest Service",
+      "sourceUrl": "https://smokeybear.com/en/prevention-how-tos/campfire-safety",
       "title": "Fire Safety in Wilderness",
       "body": "Uncontrolled fire in the backcountry can destroy thousands of acres and kill people. Fire safety is non-negotiable.\n\nBefore lighting:\n- Check local fire restrictions and burn bans\n- Clear a 10-foot diameter circle to mineral soil\n- Never build fire under overhanging branches\n- Never build fire against a standing tree (root fire risk)\n- Check wind direction and speed\n\nDuring fire use:\n- Never leave fire unattended\n- Keep fire small \u2014 big fires are dangerous and wasteful\n- Keep water or dirt within arm's reach at all times\n- Watch for sparks and embers landing outside the fire ring\n- Never burn aerosol cans, ammunition, or pressurized containers\n\nExtinguishing:\n- Drown: pour water until hissing stops\n- Stir: mix ash and coals to expose hot spots\n- Drown again: repeat water application\n- Feel: place back of hand near ash \u2014 should be cold to touch\n- Dead out: if no water, bury with mineral soil, stir, bury again\n\nSpecial risks:\n- Peat/duff fires: fire in organic soil can smolder underground for weeks\n- Root fires: fire traveling along tree roots underground, emerging far from original site\n- Exploding rocks: river rocks and wet rocks can explode from steam pressure when heated",
       "relatedTechniqueIDs": [

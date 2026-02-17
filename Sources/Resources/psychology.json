@@ -1236,6 +1236,8 @@
   "articles": [
     {
       "id": "psych-article-mindset",
+      "sourceName": "The Lancet (Survival Psychology)",
+      "sourceUrl": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32943-9/fulltext",
       "title": "The Psychology of Survival",
       "body": "Studies of survival situations consistently show the same pattern: the #1 predictor of survival is not physical fitness, equipment, or training \u2014 it's mental attitude.\n\nPeople who survive tend to:\n- Accept the situation quickly (no denial phase)\n- Stay busy with purposeful tasks\n- Maintain hope while being realistic\n- Have a reason to live beyond themselves\n- Adapt to changing conditions\n\nPeople who don't survive tend to:\n- Deny reality ('this can't be happening')\n- Panic or give up ('there's no point')\n- Wait passively for rescue\n- Focus on comfort rather than survival\n- Make impulsive decisions driven by emotion\n\nThe most dangerous moment is the first 72 hours. This is when panic, poor decisions, and hopelessness peak. If you survive the first 3 days with your mind intact, your chances increase dramatically.",
       "relatedTechniqueIDs": [
@@ -1245,6 +1247,8 @@
     },
     {
       "id": "psych-article-panic",
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/panic-attacks/symptoms-causes/syc-20376021",
       "title": "Understanding & Defeating Panic",
       "body": "Panic is not weakness \u2014 it's a neurological event. Your amygdala (threat center) hijacks your prefrontal cortex (rational brain). The result: tunnel vision, loss of fine motor skills, racing heart, inability to think clearly.\n\nThe physiological cascade:\n1. Threat detected \u2192 adrenaline surge\n2. Heart rate spikes above 115 BPM \u2192 fine motor skills lost\n3. Above 145 BPM \u2192 complex motor skills lost\n4. Above 175 BPM \u2192 cognitive processing collapses\n\nDisengaging panic:\n- Box breathing forces heart rate down mechanically\n- 5-4-3-2-1 grounding engages the prefrontal cortex\n- Cold water on face triggers the dive reflex (instantly slows heart rate)\n- Physical movement (even pacing) metabolizes adrenaline\n\nPractice these techniques BEFORE you need them. Under panic, you revert to trained responses. If you've never practiced, you have no trained response to revert to.",
       "relatedTechniqueIDs": [
@@ -1254,6 +1258,8 @@
     },
     {
       "id": "psych-article-group",
+      "sourceName": "American Psychological Association",
+      "sourceUrl": "https://www.apa.org/topics/social-psychology/group-behavior",
       "title": "Group Dynamics in Survival",
       "body": "Groups have both advantages and severe challenges in survival.\n\nAdvantages:\n- Distributed tasks (someone always watching fire, signals)\n- Shared body heat\n- Morale support\n- More eyes for danger, food, signals\n- Physical help (carrying injured, building shelter)\n\nChallenges:\n- Social loafing (some don't contribute)\n- Resource competition (rationing disputes)\n- Panic contagion (one person's panic spreads)\n- Leadership conflict\n- Information hoarding\n\nPreventing group breakdown:\n1. Establish leadership immediately \u2014 preferably someone calm, not necessarily the most skilled\n2. Democratize information, autocratize decisions\n3. Ensure everyone has a role \u2014 purpose prevents despair\n4. Address conflict privately and immediately\n5. Communal meals \u2014 shared food rituals build cohesion\n\nHistorical patterns show that groups with clear leadership and assigned roles survive at 3-4\u00d7 the rate of leaderless groups.",
       "relatedTechniqueIDs": [
@@ -1263,6 +1269,8 @@
     },
     {
       "id": "psych-article-isolation",
+      "sourceName": "NASA Human Research Program",
+      "sourceUrl": "https://www.nasa.gov/hrp/social-isolation/",
       "title": "Coping with Isolation",
       "body": "Solitary survival creates unique psychological challenges that group survival does not.\n\nTimeline of isolation effects:\n- Day 1-3: Anxiety, hyper-alertness, difficulty sleeping\n- Day 4-7: Loneliness, talking to yourself (this is NORMAL and healthy)\n- Week 2-3: Altered time perception, emotional suppression\n- Week 4+: Potential dissociation, hallucinations, deep introspection\n\nCoping strategies:\n- Talk out loud \u2014 narrate your activities. Your own voice is comforting.\n- Keep a journal \u2014 scratching marks on wood, arranging stones to track days.\n- Create a 'companion' \u2014 cast away style. It sounds silly. Survivors swear by it.\n- Maintain personal grooming \u2014 it preserves self-identity.\n- Create daily rituals \u2014 morning routine, evening reflection.\n\nThe greatest danger of isolation is apathy. When there's no one to perform for, no one watching, motivation evaporates. Combat this by making promises to yourself and keeping them.",
       "relatedTechniqueIDs": [
@@ -1272,6 +1280,8 @@
     },
     {
       "id": "psych-article-sleep",
+      "sourceName": "Sleep Foundation",
+      "sourceUrl": "https://www.sleepfoundation.org/sleep-deprivation",
       "title": "Sleep and Survival",
       "body": "Sleep is not optional. It is a survival necessity equal to water.\n\nCognitive decline timeline:\n- 17 hours awake: equivalent to 0.05% BAC (legally impaired in many countries)\n- 24 hours: equivalent to 0.10% BAC (legally drunk)\n- 36 hours: emotional instability, memory failures, pain sensitivity increases\n- 48 hours: microsleeps begin (uncontrollable 1-30 second sleep episodes)\n- 72 hours: perceptual distortions, paranoia, hallucinations\n- 96+ hours: psychosis-like symptoms\n\nSleep optimization in the field:\n- Any sleep surface is better than bare ground \u2014 insulate from below\n- Sleeping bags work by trapping YOUR heat \u2014 they don't generate warmth\n- 60\u00b0F is the sleep onset threshold \u2014 your core temp needs to drop 1-2\u00b0F\n- Wind is the #1 sleep destroyer \u2014 prioritize wind protection in shelter\n- Full stomach + warm feet = fastest sleep onset\n\nIf you can't sleep: even lying still with eyes closed provides 60-70% of sleep's restorative benefit. Don't stress about not sleeping \u2014 the stress is worse than the insomnia.",
       "relatedTechniqueIDs": [
@@ -1280,6 +1290,8 @@
     },
     {
       "id": "psych-article-children",
+      "sourceName": "American Academy of Pediatrics",
+      "sourceUrl": "https://www.healthychildren.org/English/safety-prevention/all-around/Pages/Disaster-Preparedness-for-Families.aspx",
       "title": "Children in Survival Situations",
       "body": "Children are simultaneously more vulnerable and more resilient than adults in survival.\n\nVulnerabilities:\n- Dehydrate faster (higher surface-area-to-mass ratio)\n- Hypothermia onset faster (less insulating body fat)\n- Cannot self-regulate food intake\n- Limited problem-solving capacity under stress\n- Higher caloric needs relative to body weight\n\nResilience factors:\n- Adapt to new routines faster than adults\n- Less psychological baggage about 'how things should be'\n- Naturally curious — turn survival tasks into exploration\n- Sleep more easily (adults envy this in survival)\n- Follow confident leadership without question\n\nKey mistakes adults make with children in survival:\n1. Hiding the truth — children detect deception and lose trust\n2. Not assigning tasks — idle children become anxious children\n3. Protecting from ALL discomfort — moderate stress builds resilience\n4. Forgetting play — play is how children process fear. Allow it.\n5. Neglecting their observations — children notice things adults miss\n\nChildren who survive emergencies with engaged, calm adults show minimal long-term psychological trauma. Children who survive with panicked, dishonest adults often develop lasting anxiety disorders.",
       "relatedTechniqueIDs": [
@@ -1289,6 +1301,8 @@
     },
     {
       "id": "psych-article-night",
+      "sourceName": "Psychology Today",
+      "sourceUrl": "https://www.psychologytoday.com/us/blog/the-power-rest/201011/fear-the-dark-why-we-need-it",
       "title": "Psychology of Darkness",
       "body": "Nighttime is when most survival situations feel the most desperate. Understanding why helps you manage it.\n\nNeurological reality:\n- Amygdala activity increases 60% in darkness (threat detection center)\n- Visual cortex, deprived of input, generates patterns from noise (you 'see' things)\n- Auditory sensitivity increases 30% — every sound is louder and more alarming\n- Pain perception increases at night (injuries hurt more)\n- Core body temperature drops — cold amplifies negative emotions\n\nWhy fire matters at night:\n- Provides focal point for attention (reduces amygdala scanning)\n- Warmth reduces pain perception and negative emotion\n- Light suppresses hallucination-generating visual noise\n- Rhythmic flame watching induces meditative state\n- Sound of crackling fire masks alarming environmental sounds\n\nIf you have no fire:\n- Talk out loud — your own voice confirms you exist and are in control\n- Touch solid objects — tactile grounding reduces dissociation\n- Count things — counting engages the prefrontal cortex, suppressing the amygdala\n- Remind yourself: 'Nothing is more dangerous now than it was 2 hours ago when I could see.'",
       "relatedTechniqueIDs": [
@@ -1298,6 +1312,8 @@
     },
     {
       "id": "psych-article-longterm",
+      "sourceName": "Survival Psychology (John Leach)",
+      "sourceUrl": "https://www.bbc.com/future/article/20140225-survival-psychology-the-mindset",
       "title": "Long-Term Survival Mindset",
       "body": "Most survival training focuses on the first 72 hours. But some situations last weeks or months. The psychological demands change dramatically.\n\nShort-term (1-3 days): Adrenaline-driven. Your body's stress response carries you through.\nMedium-term (4-14 days): Adrenaline fades. Fatigue, boredom, and despair emerge. This is the most psychologically dangerous period.\nLong-term (15+ days): Adaptation begins. You develop routines, skills improve, and a new normal establishes.\n\nThe medium-term danger zone:\n- Motivation plummets as adrenaline fades\n- Physical discomfort becomes constant rather than acute\n- Hope of quick rescue fades\n- Boredom replaces fear as the primary enemy\n- Hygiene and self-care decline (dangerous for both health and morale)\n\nLong-term adaptation strategies:\n1. Shift from 'waiting for rescue' to 'building a life'\n2. Create comfort improvements — better shelter, better bed, dishes, utensils\n3. Develop food and water surplus, not just daily sufficiency\n4. Learn your environment — names for landmarks, animal patterns, weather signs\n5. Celebrate milestones — weekly achievements, skill mastery, structural completions\n6. Maintain hygiene religiously — it preserves self-identity and prevents disease\n\nHistorical long-term survivors consistently report that the moment they stopped waiting and started living is when they truly began to survive.",
       "relatedTechniqueIDs": [
@@ -1308,6 +1324,8 @@
     },
     {
       "id": "psych-article-decisions",
+      "sourceName": "Harvard Business Review",
+      "sourceUrl": "https://hbr.org/2017/08/how-stress-affects-your-brain",
       "title": "Decision Making Under Extreme Stress",
       "body": "Stress fundamentally changes how your brain makes decisions.\n\nWhat stress does to your brain:\n- Prefrontal cortex (rational thinking): shut down. Blood redirected to survival centers.\n- Amygdala (fear center): hyperactive. Everything looks like a threat.\n- Working memory: reduced to 3-4 items from normal 7-9.\n- Time perception: distorted. Minutes feel like hours or seconds.\n\nCommon stress-induced decision errors:\n- Tunnel vision: fixating on one option and ignoring alternatives\n- Normalcy bias: 'This can't really be happening' — delays response\n- Sunk cost fallacy: continuing a bad plan because you've invested in it\n- Groupthink: following the group even when you know they're wrong\n- Inaction: freezing when immediate action is needed\n\nCountermeasures:\n1. Use box breathing before any critical decision\n2. Force yourself to generate at least 2 alternatives before committing\n3. Time-box decisions: 'I will decide in 5 minutes'\n4. Write down pros and cons if possible (externalizing helps thinking)\n5. Use the 'worst case test': what's the worst outcome of each option?\n\nThe survival priority order (SHELTER, WATER, FIRE, FOOD, SIGNAL) provides a built-in decision framework. When in doubt, address the most urgent need on that list.",
       "relatedTechniqueIDs": [
@@ -1318,6 +1336,8 @@
     },
     {
       "id": "psych-article-sleep-deprivation",
+      "sourceName": "National Institutes of Health (NIH)",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK19961/",
       "title": "Sleep Deprivation: The Silent Killer",
       "body": "Sleep deprivation is more immediately dangerous than food deprivation in survival.\n\nCognitive decline timeline:\n- 24 hours: equivalent to 0.10% BAC (legally drunk). Impaired judgment, slower reactions.\n- 36 hours: cognitive tasks become extremely difficult. Microsleeps begin (2-30 second blackouts).\n- 48 hours: hallucinations begin. Paranoia and irritability severe.\n- 72 hours: complex thought impossible. Visual and auditory hallucinations constant.\n- 96+ hours: psychotic behavior. Complete disorientation.\n\nReal-world impact on survival:\n- Misidentifying plants (poisoning risk)\n- Falling during navigation (injury risk)\n- Poor shelter construction (exposure risk)\n- Inadequate fire management (fire spread or loss)\n- Irrational conflict with group members\n\nSleep optimization in harsh conditions:\n- 20-minute power naps provide 2-3 hours of improved function\n- Sleep in warm bursts: bank fire, sleep while shelter is warm, repeat\n- Buddy system: take turns sleeping in dangerous conditions\n- Ground insulation matters more than covering (you lose 80% of heat downward)\n- Warm your core before sleeping (hot water bottle, heated rocks wrapped in cloth)",
       "relatedTechniqueIDs": [
@@ -1326,7 +1346,9 @@
       ]
     },
     {
-      "id": "psych-article-children",
+      "id": "psych-article-children-management",
+      "sourceName": "American Academy of Pediatrics",
+      "sourceUrl": "https://www.aap.org/en/patient-care/disasters-and-children/",
       "title": "Children in Survival Situations",
       "body": "Children require different psychological management than adults.\n\nWhat children fear most:\n- Separation from parents/caregivers\n- Loss of routine and normalcy\n- Adult fear (they mirror adult emotions)\n- The unknown (imagination fills gaps with worst-case scenarios)\n\nKey principles:\n1. Stay calm in front of children — they read your emotional state with extreme accuracy\n2. Be honest in age-appropriate ways: 'We're going to stay here until help comes'\n3. Never say 'everything is fine' when it clearly isn't — it destroys trust\n4. Give them tasks appropriate to their age:\n   - Ages 3-5: collect small sticks, count items, draw pictures\n   - Ages 6-9: help gather water, sort food, tend fire (supervised)\n   - Ages 10+: learn real skills (knots, signaling, navigation)\n\nPhysical considerations:\n- Children dehydrate faster (higher surface-area-to-body-weight ratio)\n- Children lose body heat faster (same ratio applies)\n- Children have smaller stomachs (feed smaller amounts more frequently)\n- Children's fear response can cause them to hide (check potential hiding spots)\n\nThe most important thing: make children feel safe and useful. Helplessness is more traumatic than hardship.",
       "relatedTechniqueIDs": [
@@ -1335,7 +1357,9 @@
       ]
     },
     {
-      "id": "psych-article-isolation",
+      "id": "psych-article-isolation-effects",
+      "sourceName": "NASA Human Research Program",
+      "sourceUrl": "https://www.nasa.gov/hrp",
       "title": "Psychological Effects of Isolation",
       "body": "Solo survival presents unique psychological challenges beyond the physical.\n\nTimeline of isolation effects:\n- Days 1-3: anxiety, hypervigilance, difficulty sleeping. Normal. Manageable.\n- Days 3-7: loneliness intensifies. Talking to yourself begins. This is healthy and normal.\n- Days 7-14: perception changes. Sounds seem louder. Shadows seem threatening. Increased emotional volatility.\n- Days 14-30: time perception warps severely. Strong desire for any social contact. Depression risk increases.\n- 30+ days: major personality effects. Some experience spiritual/mystical states. Others severe depression.\n\nHealthy coping strategies:\n- Talk out loud — narrate your actions, verbalize plans\n- Name your tools and fire (this is normal and documented in survivors)\n- Keep a journal or scratch marks for days\n- Sing, recite poems, recall stories\n- Maintain all routines as if others were watching\n\nDangerous coping:\n- Ceasing self-care (not eating, not maintaining fire)\n- Taking unnecessary risks ('testing fate')\n- Convincing yourself rescue isn't coming (premature despair)\n\nThe longest documented solo survival without initial provisions: 76 days (Steven Callahan, adrift at sea). It's possible. Humans are extraordinarily resilient when they choose to be.",
       "relatedTechniqueIDs": [
@@ -1346,6 +1370,8 @@
     },
     {
       "id": "psych-article-postrescue",
+      "sourceName": "U.S. Department of Veterans Affairs (PTSD)",
+      "sourceUrl": "https://www.ptsd.va.gov/",
       "title": "Post-Rescue Psychological Adjustment",
       "body": "Rescue is not the end of the psychological journey. Many survivors struggle more after rescue than during the event.\n\nCommon post-rescue reactions:\n- Relief followed by unexpected depression\n- Difficulty readjusting to normal life ('everything feels trivial')\n- Survivor's guilt (especially if others didn't survive)\n- Hypervigilance and startle responses\n- Nightmares and intrusive memories\n- Difficulty trusting others or the environment\n\nNormal timeline:\n- Weeks 1-4: honeymoon period. Relief, media attention, celebration.\n- Months 1-6: reality sets in. PTSD symptoms may emerge. Sleep disruption, anxiety, flashbacks.\n- Months 6-12: integration. Processing the experience. Finding meaning.\n- 12+ months: most survivors report significant growth alongside lingering effects.\n\nWhat helps:\n- Professional trauma counseling (not debriefing — actual therapy)\n- Connecting with other survivors\n- Gradual return to normal routines\n- Physical exercise (reduces PTSD symptoms by 50%)\n- Writing about the experience (structured narrative processing)\n\nWhat to expect: you will never be the 'same person' you were before. Most survivors report both lasting negative effects AND profound positive growth. Both are real and valid.",
       "relatedTechniqueIDs": [

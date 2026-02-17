@@ -52,12 +52,12 @@ struct EmergencyMenuView: View {
                     if searchText.isEmpty {
                         VStack(alignment: .leading, spacing: 6) {
                             Text("Emergency", comment: "Section Title")
-                                .font(.system(size: 42, weight: .black, design: .serif)) // Match Revive Brand
+                                .font(.system(size: 42, weight: .black)) // Match Revive Brand
                                 .foregroundStyle(DesignSystem.textPrimary)
-                                .tracking(-0.5)
+                                .tracking(-0.5) // Tight tracking for impact
                             
                             Text("Fast response protocols", comment: "Section Subtitle")
-                                .font(.system(size: 20, weight: .medium, design: .serif)) // Match Subtitle Style
+                                .font(.system(size: 20, weight: .medium)) // Match Subtitle Style
                                 .foregroundStyle(DesignSystem.textSecondary)
                         }
                         .padding(.horizontal, 24)

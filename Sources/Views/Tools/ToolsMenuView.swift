@@ -29,20 +29,17 @@ struct ToolsMenuView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 32) {
 
-                    // MARK: - Banner
-                    EmergencyBanner()
-                        .padding(.horizontal, 24)
-                        .padding(.top, 16) // Top Spacing
+
 
                     // MARK: - Header
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Tools", comment: "Section Title")
-                            .font(.system(size: 42, weight: .black, design: .serif))
+                            .font(.system(size: 42, weight: .black))
                             .foregroundStyle(DesignSystem.textPrimary)
                             .tracking(-0.5)
                         
                         Text("Offline Survival Utilities", comment: "Section Subtitle")
-                            .font(.system(size: 20, weight: .medium, design: .serif))
+                            .font(.system(size: 20, weight: .medium))
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
                     .padding(.horizontal, 24)
@@ -165,7 +162,7 @@ struct GlassToolCard: View {
                 )
                 .overlay(
                     RoundedRectangle(cornerRadius: 24, style: .continuous)
-                        .stroke(color.opacity(0.2), lineWidth: 1)
+                        .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
                 )
 
             HStack(spacing: 16) {
@@ -182,7 +179,7 @@ struct GlassToolCard: View {
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(title)
-                        .font(.system(size: 20, weight: .bold, design: .rounded))
+                        .font(.system(size: 20, weight: .bold))
                         .foregroundStyle(DesignSystem.textPrimary)
                         .minimumScaleFactor(0.8)
                     

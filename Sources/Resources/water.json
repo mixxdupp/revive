@@ -1378,7 +1378,9 @@
       "body": "Dehydration progresses through recognizable stages:\n\n2% body weight lost: Thirst, decreased performance, irritability. Urine is dark yellow.\n\n5% lost: Headache, nausea, dizziness, rapid heart rate. Reduced sweat production.\n\n7% lost: Stumbling, confusion, no urination. Skin loses elasticity (pinch test).\n\n10% lost: Delirium, swollen tongue, fading vision. Walking becomes impossible.\n\n15% lost: Fatal without intervention.\n\nThe pinch test: Pinch skin on back of hand. If it stays tented for >2 seconds, significant dehydration exists.\n\nOral rehydration recipe: 1 liter water + 6 tsp sugar + 1/2 tsp salt. Sip slowly.\n\nCritical rule: If you find water, drink your fill NOW. Your body is the best water container. Dehydration compromises every survival activity.",
       "relatedTechniqueIDs": [
         "water-rationing"
-      ]
+      ],
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/dehydration/symptoms-causes/syc-20354086"
     },
     {
       "id": "water-article-purification",
@@ -1480,7 +1482,7 @@
       ]
     },
     {
-      "id": "water-article-desert",
+      "id": "water-article-desert-survival",
       "title": "Water in Desert Environments",
       "body": "Desert dehydration can kill in 1-2 days. Water procurement is your #1 priority.\n\nWater loss rates:\n- Resting in shade: 1 liter/day minimum\n- Walking at night: 2-3 liters/day\n- Walking in daytime heat: 4+ liters/day\n- Without water in 120\u00b0F heat: death in 2-3 days (walking) or 4-5 days (resting in shade)\n\nWhere to find water:\n- Canyons and slot canyons: water collects in potholes and shaded pools\n- Base of cliffs: seeps and springs where geology changes\n- Dry riverbeds: dig at outside of bends, 1-3 feet deep\n- After rain: collect immediately in any container (evaporates fast)\n- Plants: barrel cactus, prickly pear, cottonwood trees indicate water\n\nConserving water:\n- Travel only at night or early morning\n- Stay in shade during midday (10am-4pm)\n- Breathe through nose (mouth breathing wastes moisture)\n- Minimize talking and physical activity\n- Cover exposed skin (prevents sweat evaporation, which paradoxically helps cooling)\n\nCritical rule: NEVER ration water in the desert. Drink when thirsty. Your body needs it now, not later. Water in your stomach keeps you alive; water in your canteen does not.",
       "relatedTechniqueIDs": [

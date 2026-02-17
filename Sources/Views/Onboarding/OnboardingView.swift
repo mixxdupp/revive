@@ -60,7 +60,7 @@ struct OnboardingPage: View {
             
             VStack(spacing: 12) {
                 Text(title)
-                    .font(.system(size: 32, weight: .bold, design: .rounded))
+                    .font(.system(size: 32, weight: .bold))
                     .foregroundStyle(DesignSystem.textPrimary)
                     .multilineTextAlignment(.center)
                 

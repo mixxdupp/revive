@@ -11,7 +11,7 @@ struct LocationView: View {
             VStack(spacing: 24) {
                 // Header
                 Text("GPS Data")
-                    .font(.system(size: 32, weight: .black, design: .serif))
+                    .font(.system(size: 32, weight: .black))
                     .foregroundStyle(DesignSystem.textPrimary)
                     .padding(.top, 20)
                 

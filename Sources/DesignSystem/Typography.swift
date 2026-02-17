@@ -18,8 +18,8 @@ struct Typography {
     
     // MARK: - Data/Numbers
     // Apple Health uses rounded fonts for data values
-    static let stepNumber: Font = .system(size: 80, weight: .bold, design: .rounded)
-    static let stepWatermark: Font = .system(size: 80, weight: .bold, design: .rounded)
+    static let stepNumber: Font = .system(size: 80, weight: .bold)
+    static let stepWatermark: Font = .system(size: 80, weight: .bold)
     
     // MARK: - Tracking (Standard)
     static let trackingTight: CGFloat = 0

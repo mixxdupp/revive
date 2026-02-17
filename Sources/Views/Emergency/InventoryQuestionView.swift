@@ -78,7 +78,7 @@ struct TriageQuestionView: View {
                 // Question
                 HStack {
                     Text(node.question)
-                        .font(.system(size: 32, weight: .bold, design: .serif)) // Serif for questions
+                        .font(.system(size: 32, weight: .bold)) // Serif for questions
                         .foregroundColor(DesignSystem.textPrimary)
                         .fixedSize(horizontal: false, vertical: true)
                     Spacer()
@@ -168,7 +168,7 @@ struct TriageOptionCard: View {
                 
                 // Label
                 Text(option.label)
-                    .font(.system(size: 18, weight: .semibold, design: .rounded))
+                    .font(.system(size: 18, weight: .semibold))
                     .foregroundStyle(DesignSystem.textPrimary)
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)

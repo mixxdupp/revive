@@ -18,7 +18,7 @@ struct TermsGateView: View {
                             .padding(.top, 40)
                         
                         Text("Legal Agreement")
-                            .font(.system(size: 28, weight: .black, design: .serif))
+                            .font(.system(size: 28, weight: .black))
                             .foregroundStyle(DesignSystem.textPrimary)
                         
                         Text("Please read carefully before using Revive.")
@@ -29,7 +29,7 @@ struct TermsGateView: View {
                 } else {
                     // Simpler header for onboarding
                     Text("Final Step: Safety")
-                         .font(.system(size: 32, weight: .bold, design: .rounded))
+                         .font(.system(size: 32, weight: .bold))
                          .foregroundStyle(DesignSystem.textPrimary)
                          .padding(.top, 60)
                          .padding(.bottom, 20)

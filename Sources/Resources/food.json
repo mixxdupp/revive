@@ -1542,6 +1542,8 @@
   "articles": [
     {
       "id": "food-article-calories",
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/calories/art-20048065",
       "title": "Caloric Needs in Survival",
       "body": "Your body needs fuel. Understanding caloric needs helps prioritize food sources.\n\nDaily caloric needs:\n- Resting in shelter: 1,200-1,500 cal\n- Light activity: 2,000-2,500 cal\n- Heavy activity (building, hiking): 3,000-4,000 cal\n- Cold weather: add 500-1,000 cal for thermogenesis\n\nCaloric density of survival foods:\n- Fat: 9 cal/gram (most efficient)\n- Protein: 4 cal/gram\n- Carbohydrates: 4 cal/gram\n- Insects: 400-500 cal per 100g\n- Pine inner bark: 500-600 cal per 100g\n- Pemmican: 250 cal per ounce\n\nThe body can survive 3 weeks without food but performance degrades rapidly after 3 days. Cognitive function and decision-making decline first — exactly when you need them most.",
       "relatedTechniqueIDs": [
@@ -1551,6 +1553,8 @@
     },
     {
       "id": "food-article-trapping",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Trapping vs. Hunting: Efficiency",
       "body": "Trapping is dramatically more efficient than hunting in survival situations.\n\nHunting:\n- Requires weapon, skill, and energy expenditure\n- You pursue ONE animal at a time\n- Success rate for untrained hunters: ~5%\n- Burns 300-600 calories per hour\n\nTrapping:\n- Set once, works 24/7\n- Multiple traps = multiple chances simultaneously\n- Set 12 snares for ~1 hr effort, catching odds improve to 50%+\n- Burns 0 additional calories while waiting\n\nBest practice: Set 10-12 snares on active game trails. Refresh every 48 hours. Check twice daily. The energy investment in setting traps pays dividends.\n\nEthical note: Check traps regularly. An animal suffering in a trap attracts predators to your area and wastes meat to stress hormones.",
       "relatedTechniqueIDs": [
@@ -1561,6 +1565,8 @@
     },
     {
       "id": "food-article-insects",
+      "sourceName": "Food and Agriculture Organization (FAO)",
+      "sourceUrl": "https://www.fao.org/edible-insects/en/",
       "title": "Insects as Survival Food",
       "body": "Insects are the world's most underutilized food source. Over 2 billion people eat insects daily.\n\nNutrition per 100g:\n- Crickets: 21g protein, 6g fat, 121 calories\n- Grasshoppers: 20g protein, 6g fat, 153 calories\n- Mealworms: 20g protein, 13g fat, 206 calories\n- Termites: 14g protein, 2g fat, 535 calories\n- Ants: 14g protein, 4g fat, 100 calories\n\nSafe to eat (worldwide):\n- Ants (not fire ants — remove heads), crickets, grasshoppers, beetle larvae/grubs, termites, cicadas, scorpions (remove stinger, cook)\n\nAvoid:\n- Brightly colored insects (warning coloration = toxic)\n- Hairy caterpillars (urticating hairs cause allergic reactions)\n- Anything that stinks when crushed\n- Ticks, mosquitoes, flies (disease vectors)\n- Spiders (not insects but commonly confused)\n\nCollection methods: Turn over logs and rocks, shake vegetation in early morning when cold, attract with light at night.",
       "relatedTechniqueIDs": [
@@ -1570,6 +1576,8 @@
     },
     {
       "id": "food-article-fishing",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Fishing in Survival Situations",
       "body": "Fish are the easiest wild protein to catch with improvised gear.\n\nBest times: Dawn and dusk. Fish feed most actively in low light.\n\nBest locations:\n- Where streams meet (confluences)\n- Behind rocks in flowing water (fish rest in eddies)\n- Undercut banks and overhanging vegetation\n- Deeper pools in shallow streams\n- Inlets and outlets of lakes\n\nPassive fishing > active fishing. Set trotlines (multiple baited hooks on a line anchored at both ends) and fish traps, then go do other survival tasks.\n\nLegal note: In survival situations, fish and game laws still technically apply. However, courts have consistently recognized 'necessity defense' for genuine survival situations.\n\nPreservation: Fish spoils fastest of all meats. Cook immediately or smoke/dry within 2 hours of catching.",
       "relatedTechniqueIDs": [
@@ -1580,6 +1588,8 @@
     },
     {
       "id": "food-article-poisonous",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Poisonous Plants: Warning Signs",
       "body": "When in doubt, do NOT eat it. These signs suggest a plant may be toxic:\n\n- Milky or discolored sap (exception: dandelion)\n- Beans, bulbs, or seeds inside pods\n- Bitter or soapy taste\n- Spines, thorns, or fine hairs\n- 'Almond' scent in leaves or wood (= cyanide compounds)\n- Three-leaflet growth pattern (poison ivy/oak)\n- Umbrella-shaped flower clusters (hemlock family)\n- White or yellow berries (90% toxic)\n- Grain heads with pink, purple, or black spurs (ergot fungus)\n\nSpecific plants to memorize as deadly:\n- Water hemlock (most violent plant toxin in North America)\n- Death camas (looks like wild onion)\n- Amanita mushrooms (death cap, destroying angel)\n- Castor bean (contains ricin)\n- Oleander (every part is lethal)\n- Nightshade (berries look edible)\n\nIf plant poisoning occurs: induce vomiting if conscious and within 1 hour of ingestion. Drink large amounts of water. Seek medical care.",
       "relatedTechniqueIDs": [
@@ -1589,6 +1599,8 @@
     },
     {
       "id": "food-article-preservation",
+      "sourceName": "National Center for Home Food Preservation",
+      "sourceUrl": "https://nchfp.uga.edu/",
       "title": "Food Preservation Without Refrigeration",
       "body": "In a survival situation, you cannot afford to waste food. Preservation methods:\n\nSmoking (6-12 hours):\n- Creates acidic surface that inhibits bacteria\n- Adds antimicrobial compounds from wood smoke\n- Result lasts 1-4 weeks\n\nDrying/Dehydrating (1-3 days):\n- Removes moisture bacteria need to grow\n- Requires hot, dry, windy conditions\n- Result lasts 2-4 weeks\n\nSalting:\n- Pack in salt or create a brine\n- Draws moisture out through osmosis\n- Result lasts months\n\nCold storage:\n- Bury in stream beds (cold running water)\n- Hang in shade at altitude (cool air)\n- Cache in snow or permafrost\n\nFat rendering:\n- Slowly heat fat until liquid\n- Strain and store — pure rendered fat lasts months\n- Used in pemmican production\n\nCritical rule: when in doubt, smell it. Spoiled meat has a distinct sweet-putrid smell that's unmistakable. Trust your nose — it evolved specifically for this.",
       "relatedTechniqueIDs": [
@@ -1598,6 +1610,8 @@
     },
     {
       "id": "food-article-nutrition",
+      "sourceName": "National Institutes of Health (NIH)",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK232870/",
       "title": "Nutritional Priorities in Survival",
       "body": "In survival, calories matter more than balanced nutrition short-term.\n\nPriority hierarchy:\n1. Calories (energy to function)\n2. Water (can't digest food without hydration)\n3. Fat (most calorie-dense — 9 cal/gram)\n4. Protein (muscle maintenance, immune function)\n5. Carbohydrates (quick energy, brain fuel)\n6. Micronutrients (Vitamin C prevents scurvy after 30 days)\n\nStarvation timeline:\n- Day 1-3: Glycogen depletion\n- Day 3-7: Cognitive decline, irritability\n- Day 7-14: Muscle breakdown for energy\n- Day 14-21: Severe weakness, organ stress\n- Day 21+: Cardiac irregularity risk\n\nPerformance declines severely after 72 hours. Even small amounts of food (insects, bark, roots) maintain cognitive function.",
       "relatedTechniqueIDs": [
@@ -1608,6 +1622,8 @@
     },
     {
       "id": "food-article-wild-plants",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Wild Plant Basics",
       "body": "Plants are the most accessible food source but also dangerous if misidentified.\n\nAlways-safe plants worldwide:\n- Dandelion (entire plant edible)\n- Cattail (shoots, roots, pollen year-round)\n- Pine (inner bark, needles for tea, nuts)\n- Clover (flowers and leaves)\n- Plantain weed (leaves edible and medicinal)\n\nUniversal Edibility Test:\n1. Test on skin (wait 15 min)\n2. Touch to lip (wait 15 min)\n3. Touch to tongue (wait 15 min)\n4. Chew and spit (wait 15 min)\n5. Eat small amount (wait 8 hours)\n\nWARNING: This test does NOT work for mushrooms — some deadly mushrooms taste pleasant and show no symptoms for 6-12 hours before organ failure.\n\nCooking makes many marginal plants safer by breaking down irritants and toxins. When in doubt, boil it.",
       "relatedTechniqueIDs": [
@@ -1618,6 +1634,8 @@
     },
     {
       "id": "food-article-safety",
+      "sourceName": "FoodSafety.gov",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-cooking-temperatures",
       "title": "Food Safety Without Refrigeration",
       "body": "Food poisoning in survival can be fatal — dehydration from vomiting depletes limited water reserves.\n\nGeneral rules:\n- Cook ALL meat thoroughly (165°F/74°C)\n- Eat food within 2 hours of cooking if not preserved\n- Smell test: if it smells off, don't eat it\n- Never eat meat from animals found already dead\n- Avoid scavengers' kills (possible disease)\n\nHigh-risk foods to avoid:\n- Raw freshwater fish (parasites)\n- Raw shellfish from warm waters\n- Any plant with milky sap (except dandelion)\n- Unidentified mushrooms\n- Grain with black/purple growths (ergot fungus)\n\nSafe handling:\n- Clean hands before prep (ash works as soap)\n- Separate raw meat from other foods\n- Cook on clean surfaces\n- Store surplus elevated and sealed\n\nThe survival paradox: you need food for energy, but contaminated food kills faster than starvation.",
       "relatedTechniqueIDs": [
@@ -1628,6 +1646,8 @@
     },
     {
       "id": "food-article-starvation",
+      "sourceName": "National Institutes of Health (NIH)",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539822/",
       "title": "Starvation Physiology: What Happens to Your Body",
       "body": "Understanding starvation helps you prioritize and conserve energy.\n\nPhase 1 (0-24 hours): Glycogen depletion\n- Body burns stored glycogen (sugar) in liver and muscles\n- Blood sugar remains normal\n- Performance is near normal\n- Strong hunger signals\n\nPhase 2 (1-3 days): Fat burning begins\n- Body switches to burning fat for energy (ketosis)\n- Hunger may actually decrease (ketones suppress appetite)\n- Mental fog and irritability\n- Fatigue during physical activity\n\nPhase 3 (3-14 days): Sustained fat burning\n- Body adapts to fat-burning metabolism\n- Weight loss of 1-2 pounds per day\n- Muscle wasting begins as body needs protein for vital functions\n- Cold intolerance increases (less insulation, less metabolic heat)\n\nPhase 4 (14+ days): Critical decline\n- Muscle wasting accelerates\n- Immune function collapses (infections become deadly)\n- Mental function deteriorates severely\n- Organ failure begins\n\nKey takeaway: the body can survive 3+ weeks without food, but cognitive and physical performance degrades within days. In a survival situation, your brain failing to make good decisions is more dangerous than the starvation itself.",
       "relatedTechniqueIDs": [
@@ -1637,6 +1657,8 @@
     },
     {
       "id": "food-article-plant-poisoning",
+      "sourceName": "Poison Control",
+      "sourceUrl": "https://www.poison.org/articles/plant",
       "title": "Plant Poisoning: Recognition & Treatment",
       "body": "Misidentification of wild plants is the leading cause of foraging deaths.\n\nDangerous plant families:\n- Hemlock (Conium, Cicuta): looks like carrot/parsley. Causes respiratory paralysis. Fatal.\n- Death camas: looks like wild onion but NO onion smell. Causes heart failure.\n- Nightshade: black or red berries. Neurological symptoms. Can be fatal.\n- Castor bean: seeds contain ricin. A few chewed seeds can kill.\n- Oleander: all parts toxic. Even smoke from burning is dangerous.\n\nUniversal warning signs in plants (avoid if present):\n- Milky sap (exception: dandelion)\n- Shiny leaves with thorns\n- Seeds inside pods\n- Bitter or soapy taste\n- Umbrella-shaped flower clusters (many toxic species)\n\nPoisoning treatment:\n- If conscious: do NOT induce vomiting (may cause more damage)\n- Activated charcoal if available (1g per kg body weight)\n- Drink large amounts of water to dilute\n- If convulsing: protect the head, maintain airway\n- Red flag: any difficulty breathing, hallucinations, or loss of consciousness = critical emergency\n\nPrevention rule: NEVER eat any plant you cannot identify with 100% certainty. The universal edibility test takes 24+ hours and should only be used as a last resort.",
       "relatedTechniqueIDs": [
@@ -1646,6 +1668,8 @@
     },
     {
       "id": "food-article-protein-hierarchy",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Survival Protein Sources: Ranked by Effort",
       "body": "Not all protein sources are equal. Rank by calories gained versus calories expended to acquire them.\n\nBest return on effort (passive methods):\n1. Insects & grubs: everywhere, easy to collect, high calorie. Best ROI in survival.\n2. Crayfish/shellfish: trap overnight, minimal effort, reliable.\n3. Snares/traps: set and walk away. Check twice daily. 10+ traps = good odds.\n4. Fishing (passive): set lines, trotlines, fish traps. Work while you sleep.\n\nModerate effort:\n5. Fishing (active): hook and line, spearing. Hours of investment but reliable in good water.\n6. Frogs: easy to catch by hand at night with a light source.\n7. Birds (snares): passive but lower success rate than mammal snares.\n\nHigh effort (often not worth it in short-term survival):\n8. Large game hunting: requires weapon, skill, tracking. Very high energy expenditure.\n9. Running down small game: exhausting and rarely successful.\n\nCritical insight: a person who sets 12 snares and spends the day collecting insects and fishing with passive lines will outperform a person who spends all day stalking deer. The deer hunter exerts 3,000+ calories and may get nothing. The passive forager expends 500 calories and reliably gathers 1,000+.\n\nRule: work smarter, not harder. Passive calorie acquisition beats active hunting in survival.",
       "relatedTechniqueIDs": [
@@ -1656,6 +1680,8 @@
     },
     {
       "id": "food-article-long-preservation",
+      "sourceName": "National Center for Home Food Preservation",
+      "sourceUrl": "https://nchfp.uga.edu/",
       "title": "Long-Term Food Preservation Methods",
       "body": "Surplus food spoils quickly. Preservation extends your food supply for days or weeks.\n\nDrying/Dehydration:\n- Most universal method. Works on meat, fish, plants, fruits, insects.\n- Cut thin strips (1/4 inch). Hang in sun and wind, or smoke near fire.\n- Properly dried food lasts weeks to months.\n- Test: should be brittle, not bendy. Bendy = still moist = will rot.\n\nSmoking:\n- Smoke contains antimicrobial compounds that preserve meat.\n- Cold smoking (below 90°F): best for preservation — 12-24 hours minimum.\n- Hot smoking (above 150°F): cooks and partially preserves — eat within a week.\n- Build a simple smokehouse: tripod frame, covered with bark or canvas.\n\nSalt curing:\n- Salt dehydrates bacteria. Pack meat in salt (if available).\n- Salt + drying = most effective combination.\n- Ocean water: boil to extract salt crystals.\n\nPemmican (ultimate survival food):\n- Dried meat powder + rendered fat + dried berries.\n- Lasts months to years if properly made.\n- Calorie-dense: 135 cal per ounce.\n- Complete nutrition: protein, fat, carbohydrates, vitamins.\n\nFreezing (cold climates):\n- Simply hang food above predator reach in freezing temperatures.\n- Thaw and refreeze degrades quality — keep frozen solid.",
       "relatedTechniqueIDs": [
@@ -1666,6 +1692,8 @@
     },
     {
       "id": "food-article-cooking-methods",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Primitive Cooking Methods",
       "body": "Cooking improves digestibility, kills pathogens, and makes many foods edible that are toxic raw.\n\nDirect heat:\n- Spit roasting: skewer food on stick over fire. Rotate constantly. Best for small game and fish.\n- Planking: pin food to flat wood propped near fire. Great for fish fillets.\n- Ember roasting: wrap food in green leaves, bury in hot coals. Root vegetables and tubers.\n\nBoiling without a metal pot:\n- Rock boiling: heat stones in fire, drop into water in bark/skin/stomach container. Water boils in minutes.\n- Bamboo cooking: fill bamboo segment with water and food, prop over fire. Bamboo chars but doesn't burn through before food cooks.\n- Clay pot: make a simple pot from clay (see technique).\n\nEarth oven:\n- Pit filled with hot rocks, food layered between wet leaves.\n- Slow cooks large quantities — feeds groups.\n- 4-8 hours cooking time.\n\nWhy cooking matters:\n- Doubles the caloric yield from meat (cooked protein is 60% digestible vs 30% raw)\n- Kills parasites (trichinella, tapeworm, toxoplasma)\n- Breaks down plant toxins (tannins, oxalates, cyanogenic glycosides)\n- Makes starchy roots digestible (raw starch passes through undigested)\n\nRule: always cook when possible. Raw food is a caloric and health gamble.",
       "relatedTechniqueIDs": [
@@ -1675,6 +1703,8 @@
     },
     {
       "id": "food-article-deficiencies",
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/vitamin-deficiency-anemia/symptoms-causes/syc-20355025",
       "title": "Nutritional Deficiencies in Survival",
       "body": "Long-term survival requires more than just calories. Specific deficiencies create specific problems.\n\nVitamin C deficiency (Scurvy):\n- Onset: 4-12 weeks without vitamin C\n- Symptoms: bleeding gums, loose teeth, wounds won't heal, fatigue\n- Sources: pine needle tea, rose hips, spruce tips, dandelion greens, berries\n- Fix: any fresh plant material provides vitamin C\n\nSalt deficiency (Hyponatremia):\n- Risk: heavy sweating + drinking lots of water without salt\n- Symptoms: nausea, headache, confusion, seizures\n- Sources: sea water (boil to concentrate), animal blood, wood ash (contains potassium)\n\nFat deficiency (Rabbit starvation):\n- Risk: eating only lean protein (rabbit, squirrel) without fat\n- Symptoms: diarrhea, headache, fatigue, low blood pressure\n- Your body CANNOT survive on protein alone — fat is essential\n- Sources: bone marrow, brain tissue, grubs, nuts, fish oils\n\nIron deficiency:\n- Risk: vegetarian survival diet, chronic blood loss\n- Symptoms: weakness, rapid heartbeat, cold intolerance\n- Sources: organ meat (liver), dark leafy greens, insects, cooking in iron vessels\n\nKey insight: a varied diet solves most deficiency problems. Eat from every food group available: plants, meat, insects, fish. Organ meats are the most nutritionally complete single food source.",
       "relatedTechniqueIDs": [

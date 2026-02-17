@@ -45,12 +45,12 @@ struct EmergencyDirectoryView: View {
                     // MARK: - Header
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Directory")
-                            .font(.system(size: 42, weight: .black, design: .serif))
+                            .font(.system(size: 42, weight: .black))
                             .foregroundStyle(DesignSystem.textPrimary)
                             .tracking(-0.5)
                         
                         Text("Global Emergency Numbers")
-                            .font(.system(size: 20, weight: .medium, design: .serif))
+                            .font(.system(size: 20, weight: .medium))
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
                     .padding(.horizontal, 24)

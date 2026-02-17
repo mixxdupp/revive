@@ -2999,6 +2999,8 @@
     },
     {
       "id": "firstaid-article-kit",
+      "sourceName": "American Red Cross",
+      "sourceUrl": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
       "title": "Survival First Aid Kit Essentials",
       "body": "Minimum wilderness first aid kit:\n\nBleeding control:\n- Tourniquet (CAT or SOFTT-W)\n- Israeli bandage\n- Hemostatic gauze (QuikClot)\n- Roller gauze (2x)\n- Medical tape\n\nWound care:\n- Irrigation syringe\n- Wound closure strips (Steri-Strips)\n- Tincture of benzoin\n- Antibiotic ointment\n- Non-stick pads\n\nMedications:\n- Ibuprofen 200mg\n- Diphenhydramine 25mg (Benadryl)\n- Loperamide (Imodium)\n- Electrolyte packets\n- Epinephrine auto-injector (if prescribed)\n\nTools:\n- Trauma shears\n- Fine-point tweezers\n- Safety pins\n- Nitrile gloves (4+ pairs)\n- SAM splint\n- Moleskin\n- Elastic bandage (ACE wrap)\n- Emergency blanket\n\nAll items should be checked and refreshed annually. Medications expire. Adhesives degrade.",
       "relatedTechniqueIDs": [
@@ -3009,6 +3011,8 @@
     },
     {
       "id": "firstaid-article-priorities",
+      "sourceName": "Wilderness Medical Society",
+      "sourceUrl": "https://wms.org/",
       "title": "Triage & Treatment Priorities",
       "body": "When someone is injured, assess in this order (MARCH):\n\nM \u2014 Massive hemorrhage: Stop life-threatening bleeding FIRST. This kills fastest.\n\nA \u2014 Airway: Is the airway open? Head tilt, chin lift. Clear obstructions.\n\nR \u2014 Respiration: Are they breathing? Look, listen, feel. Start rescue breathing if not.\n\nC \u2014 Circulation: Is there a pulse? Start CPR if not. Treat for shock.\n\nH \u2014 Hypothermia/Head injury: Prevent heat loss. Assess level of consciousness.\n\nThe biggest mistake in field medicine is treating the dramatic wound while missing the critical one. A tourniquet on a spurting artery takes priority over a broken arm.\n\nScene safety: ALWAYS ensure the scene is safe before providing care. You cannot help if you become a victim. Check for traffic, fire, electrical hazards, aggressive animals, or ongoing violence.",
       "relatedTechniqueIDs": [
@@ -3019,6 +3023,8 @@
     },
     {
       "id": "firstaid-article-infection",
+      "sourceName": "Mayo Clinic",
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
       "title": "Wound Infection Prevention",
       "body": "In survival, infection is the slow killer. Every wound becomes a race against bacteria.\n\nSigns of infection (usually appear 24-72 hours after injury):\n- Increasing redness spreading from wound edges\n- Warmth around the wound\n- Swelling that worsens over time\n- Pus (white, yellow, or green drainage)\n- Red streaks radiating from the wound (lymphangitis \u2014 URGENT)\n- Fever and chills (systemic infection \u2014 EMERGENCY)\n\nPrevention steps:\n1. Clean the wound immediately with clean water (irrigation pressure matters more than sterility)\n2. Remove all debris and foreign material\n3. Apply antibiotic ointment if available\n4. Change dressings every 12-24 hours\n5. Keep the wound dry between changes\n\nField antiseptics when nothing else is available:\n- Diluted iodine (2-3 drops per liter of clean water)\n- Honey (raw honey has natural antibacterial properties)\n- Salt water (1 teaspoon per cup)\n- Clean urine is NOT antiseptic \u2014 this is a myth\n\nCritical rule: a wound that is getting worse after 48 hours needs antibiotics or surgical care. Field treatment can only buy time.",
       "relatedTechniqueIDs": [
@@ -3028,6 +3034,8 @@
     },
     {
       "id": "firstaid-article-pediatric",
+      "sourceName": "American Academy of Pediatrics",
+      "sourceUrl": "https://www.aap.org/en/patient-care/disasters-and-children/",
       "title": "Pediatric Emergencies",
       "body": "Children are NOT small adults. Their physiology differs in critical ways that affect emergency treatment.\n\nKey differences:\n- Higher heart rate (infant: 120-160 bpm is NORMAL)\n- Higher respiratory rate (infant: 30-60 breaths/min is NORMAL)\n- Proportionally larger head (higher spinal injury risk)\n- Less blood volume (small blood loss = big problem)\n- Faster dehydration (higher surface area to volume ratio)\n- Better compensation until sudden collapse (children 'look fine' until they crash)\n\nCPR modifications:\n- Infant (under 1 year): 2 fingers, 1.5 inches deep, 30:2 ratio\n- Child (1-8 years): 1 hand, 2 inches deep, 30:2 ratio\n- Ventilation: gentle puffs only \u2014 too much pressure damages small lungs\n\nChoking:\n- Infant: 5 back blows + 5 chest thrusts (NO abdominal thrusts)\n- Child over 1: standard Heimlich maneuver\n\nPsychological first aid:\n- Children respond to calm, reassuring voices\n- Let them hold a parent or familiar object\n- Explain what you're doing in simple terms\n- Never lie about pain \u2014 say 'this will hurt but it will help you'\n- Their fear can escalate an emergency if not managed",
       "relatedTechniqueIDs": [
@@ -3037,6 +3045,8 @@
     },
     {
       "id": "firstaid-article-improvised",
+      "sourceName": "NOLS Wilderness Medicine",
+      "sourceUrl": "https://www.nols.edu/en/wilderness-medicine/resources/",
       "title": "Improvised Medical Tools",
       "body": "When proper medical supplies aren't available, improvisation saves lives.\n\nImprovised tourniquet:\n- Material: belt, strip of cloth, bandana (at least 1.5 inches wide)\n- Windlass: stick, pen, spoon handle\n- Apply 2-3 inches above wound, tighten until bleeding stops\n- Mark time of application on patient's forehead\n\nImprovised splint materials:\n- SAM splint alternatives: folded cardboard, newspaper, sticks, trekking poles\n- Padding: clothing, moss, leaves\n- Ties: torn fabric strips, shoelaces, tape, paracord\n\nImprovised wound closure:\n- Butterfly strips from tape (cut into hourglass shape)\n- Super glue on SUPERFICIAL cuts only (not deep wounds)\n- Hair: tie strands across the wound to hold edges together\n- Thorns as suture pins in extreme situations\n\nImprovised irrigation syringe:\n- Plastic bag with a small hole poked in the corner\n- Water bottle with hole in cap\n- Goal: pressurized stream to flush debris from wounds\n\nImprovised cervical collar:\n- Rolled towel or jacket wrapped around neck\n- Secured with tape, strips, or safety pins\n- Must NOT compress the airway",
       "relatedTechniqueIDs": [
@@ -3047,6 +3057,8 @@
     },
     {
       "id": "firstaid-article-crush-syndrome",
+      "sourceName": "National Institutes of Health (NIH)",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK430752/",
       "title": "Understanding Crush Syndrome",
       "body": "Crush syndrome is one of the most counterintuitive killers in disaster medicine. The patient seems fine while trapped \u2014 then dies within minutes of being freed.\n\nWhat happens:\n- Prolonged pressure on muscles (1+ hours) causes cell death\n- Dead muscle cells accumulate potassium, myoglobin, and lactate\n- When pressure is released, these toxins flood the bloodstream\n- Potassium stops the heart. Myoglobin destroys the kidneys.\n\nTimeline of danger:\n- Crush time < 1 hour: usually safe to release immediately\n- Crush time 1-4 hours: moderate risk. Tourniquet before release if possible\n- Crush time 4+ hours: high risk. Do NOT release without medical preparation\n\nField management:\n1. If possible, start IV fluids BEFORE releasing the crushing object (1L/hr normal saline)\n2. Apply tourniquet above crush site before release\n3. After release: push fluids aggressively (oral if IV unavailable)\n4. Monitor heart rhythm \u2014 sudden cardiac arrest is the primary killer\n5. Transport to hospital immediately \u2014 dialysis may be needed\n\nIn mass casualty events (earthquakes, building collapse), crush syndrome is a leading cause of delayed death. Knowledge of this condition saves lives that are otherwise lost to well-intentioned but uninformed rescue.",
       "relatedTechniqueIDs": [
@@ -3056,6 +3068,8 @@
     },
     {
       "id": "firstaid-article-environmental-emergencies",
+      "sourceName": "Centers for Disease Control and Prevention (CDC)",
+      "sourceUrl": "https://www.cdc.gov/disasters/extremeheat/warning.html",
       "title": "Environmental Emergencies: Heat & Cold",
       "body": "The human body operates in a narrow temperature range. Deviation in either direction can be fatal.\n\nHeat Spectrum:\n- Heat cramps: muscle spasms from salt loss. Treatment: rest, water, salt.\n- Heat exhaustion: heavy sweating, weakness, nausea. Temp < 104\u00b0F. Treatment: cool environment, fluids.\n- Heat stroke: altered mental status, temp > 104\u00b0F. EMERGENCY. Active cooling required immediately.\n\nKey distinction: heat exhaustion = sweating and aware. Heat stroke = confused/combative. If in doubt, treat as heat stroke.\n\nCold Spectrum:\n- Mild hypothermia (90-95\u00b0F): shivering, poor coordination. Treatment: warm environment, dry clothes, warm drinks.\n- Moderate hypothermia (82-90\u00b0F): shivering stops, confusion, slurred speech. Treatment: active rewarming of core.\n- Severe hypothermia (<82\u00b0F): unconscious, barely detectable pulse. Handle GENTLY. Active core rewarming.\n\nCritical cold rules:\n- 'Nobody is dead until they're warm and dead' \u2014 always attempt resuscitation\n- Do NOT warm extremities before core (causes afterdrop)\n- Do NOT give alcohol (dilates blood vessels, accelerates heat loss)\n- Do NOT rub frostbitten skin (causes tissue damage)",
       "relatedTechniqueIDs": [
@@ -3065,6 +3079,8 @@
     },
     {
       "id": "firstaid-article-airway",
+      "sourceName": "American Red Cross",
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps",
       "title": "Airway Management Priorities",
       "body": "Without an open airway, nothing else matters. A patient can survive massive bleeding for minutes, but complete airway obstruction kills in 4-6 minutes.\n\nCommon causes of airway obstruction:\n- Tongue falling back (unconscious patient lying face-up)\n- Blood, vomit, or broken teeth\n- Swelling from burns, allergic reaction, or trauma\n- Foreign body (food, objects)\n\nBasic airway interventions (no equipment needed):\n1. Head-tilt chin-lift: tilt forehead back, lift chin. Opens airway in most unconscious patients.\n2. Jaw thrust: if spinal injury suspected. Push jaw forward without moving neck.\n3. Recovery position: unconscious but breathing \u2014 roll on side. Gravity clears the airway.\n4. Finger sweep: ONLY if you can see the obstruction. Never blind sweep.\n\nAdvanced considerations:\n- Snoring = partial obstruction (tongue). Reposition head.\n- Gurgling = fluid in airway. Turn patient on side, suction if available.\n- Stridor (high-pitched on inhale) = upper airway swelling. This is an emergency.\n- Silence with chest movement = complete obstruction. Immediate intervention needed.\n\nThe most important airway skill: recognizing that the airway is compromised. Check airway FIRST in every patient assessment.",
       "relatedTechniqueIDs": [
@@ -3074,6 +3090,8 @@
     },
     {
       "id": "firstaid-article-trauma-assessment",
+      "sourceName": "American College of Surgeons",
+      "sourceUrl": "https://www.facs.org/quality-programs/trauma/",
       "title": "Systematic Trauma Assessment",
       "body": "In a trauma situation, systematic assessment prevents you from missing life-threatening injuries.\n\nPrimary Survey (ABCDE) \u2014 find and fix immediate killers:\n- A: Airway \u2014 is it open? Clear obstructions. Protect cervical spine.\n- B: Breathing \u2014 is the chest rising equally? Listen for breath sounds. Seal chest wounds.\n- C: Circulation \u2014 control major bleeding. Check pulse. Note skin color.\n- D: Disability \u2014 consciousness level (alert, voice, pain, unresponsive). Pupil response.\n- E: Exposure \u2014 remove clothing to find hidden injuries. Prevent hypothermia.\n\nSecondary Survey \u2014 detailed head-to-toe exam (only after ABCDE is stable):\n1. Head: skull deformity, blood from ears/nose, pupil asymmetry\n2. Neck: tenderness, deformity, trachea midline?\n3. Chest: symmetrical? Tender ribs? Crepitus (grinding)?\n4. Abdomen: rigid? Tender? Distended?\n5. Pelvis: stable when gently pressed? (Only test ONCE)\n6. Extremities: deformity, swelling, circulation/sensation/motion check\n7. Back: log-roll to check. Tenderness along spine?\n\nReassess every 5 minutes. Conditions change. What was stable becomes unstable. Document findings and times.",
       "relatedTechniqueIDs": [
@@ -3084,6 +3102,8 @@
     },
     {
       "id": "firstaid-article-field-pharmacy",
+      "sourceName": "Wilderness Medical Society",
+      "sourceUrl": "https://wms.org/magazine/1213/2/medications-for-wilderness",
       "title": "Essential Medications for Wilderness First Aid",
       "body": "A basic medication kit can address most common wilderness medical problems.\n\nPain management:\n- Ibuprofen (Advil): anti-inflammatory + pain relief. 400-800mg every 6-8 hours. Best for musculoskeletal pain, headaches.\n- Acetaminophen (Tylenol): pain + fever reduction. 500-1000mg every 6 hours. Safe with most other medications.\n- Combination: ibuprofen + acetaminophen together is more effective than either alone and safe to combine.\n\nGastrointestinal:\n- Loperamide (Imodium): stops diarrhea. Critical in wilderness to prevent dehydration. 4mg initially, then 2mg after each loose stool.\n- Bismuth subsalicylate (Pepto-Bismol): nausea, heartburn, mild diarrhea.\n- Oral rehydration salts: for rehydrating after fluid loss.\n\nAllergy/Anaphylaxis:\n- Diphenhydramine (Benadryl): antihistamine for allergic reactions. 25-50mg every 6 hours. Causes drowsiness.\n- Epinephrine auto-injector: for anaphylaxis ONLY. Prescription required. Carry two.\n\nWound care:\n- Antibiotic ointment (bacitracin/Neosporin): for minor wounds to prevent infection\n- Povidone-iodine: wound cleaning and water purification\n\nAll medications have expiration dates but most retain 90%+ potency for years past expiration. In a survival situation, expired medication is better than no medication.",
       "relatedTechniqueIDs": [

@@ -68,7 +68,7 @@ struct InclinometerView: View {
             // MARK: - Angle Readout
             VStack(spacing: 8) {
                 Text(String(format: "%.1f°", slopeAngle))
-                    .font(.system(size: 56, weight: .bold, design: .rounded))
+                    .font(.system(size: 56, weight: .bold))
                     .foregroundStyle(slopeCategory.1)
                     .contentTransition(.numericText())
                     .animation(.default, value: slopeAngle)
@@ -84,7 +84,7 @@ struct InclinometerView: View {
             .accessibilityLabel("\(String(format: "%.1f°", slopeAngle)), \(slopeCategory.0)")
 
             Text("Inclinometer")
-                .font(.system(size: 28, weight: .bold, design: .serif))
+                .font(.system(size: 28, weight: .bold))
                 .foregroundStyle(DesignSystem.textPrimary)
 
             // MARK: - Usage hints

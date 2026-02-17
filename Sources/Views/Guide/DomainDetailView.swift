@@ -3,6 +3,12 @@ import SwiftUI
 struct DomainDetailView: View {
     let domain: SurvivalDomain
     @Environment(\.dismiss) var dismiss
+    @State private var selectedTab: DomainTab = .techniques
+    
+    enum DomainTab: String, CaseIterable {
+        case techniques = "Techniques"
+        case articles = "Articles"
+    }
     
     var techniques: [Technique] {
         ContentDatabase.shared.getTechniques(for: domain)
@@ -33,7 +39,7 @@ struct DomainDetailView: View {
                     
                     VStack(alignment: .leading, spacing: 4) {
                         Text(domain.displayName)
-                            .font(.system(size: 40, weight: .bold, design: .serif)) // New York
+                            .font(.system(size: 40, weight: .bold)) // New York
                             .foregroundStyle(DesignSystem.textPrimary)
                         
                         Text("Master essential skills for \(domain.displayName.lowercased()) scenarios.")
@@ -42,6 +48,15 @@ struct DomainDetailView: View {
                             .foregroundStyle(DesignSystem.textSecondary)
                             .lineLimit(2)
                     }
+                    
+                    // MARK: - Segmented Control
+                    Picker("Section", selection: $selectedTab) {
+                        ForEach(DomainTab.allCases, id: \.self) { tab in
+                            Text(tab.rawValue).tag(tab)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                    .padding(.top, 8)
                 }
                 .padding(.top, 24)
                 .padding(.horizontal, 24)
@@ -49,15 +64,11 @@ struct DomainDetailView: View {
                 // MARK: - CONTENT STACK
                 LazyVStack(spacing: 24) {
                     
-                    // TECHNIQUES SECTION
-                    if !techniques.isEmpty {
-                        VStack(alignment: .leading, spacing: 16) {
-                            Text("Techniques")
-                                .font(.title3)
-                                .fontWeight(.bold)
-                                .foregroundStyle(DesignSystem.textPrimary)
-                                .padding(.horizontal, 24)
-                            
+                    switch selectedTab {
+                    case .techniques:
+                        if techniques.isEmpty {
+                            ContentUnavailableView("No Techniques", systemImage: "list.bullet.clipboard", description: Text("No techniques available for this domain."))
+                        } else {
                             ForEach(techniques) { technique in
                                 NavigationLink(destination: VerticalGuideView(technique: technique)) {
                                     TechniqueRow(technique: technique)
@@ -66,17 +77,11 @@ struct DomainDetailView: View {
                             }
                             .padding(.horizontal, 24)
                         }
-                    }
-                    
-                    // ARTICLES SECTION
-                    if !articles.isEmpty {
-                        VStack(alignment: .leading, spacing: 16) {
-                            Text("Articles")
-                                .font(.title3)
-                                .fontWeight(.bold)
-                                .foregroundStyle(DesignSystem.textPrimary)
-                                .padding(.horizontal, 24)
-                            
+                        
+                    case .articles:
+                        if articles.isEmpty {
+                            ContentUnavailableView("No Articles", systemImage: "doc.text.magnifyingglass", description: Text("No articles available for this domain."))
+                        } else {
                             ForEach(articles) { article in
                                 NavigationLink(destination: ArticleView(article: article)) {
                                     HStack(spacing: 16) {

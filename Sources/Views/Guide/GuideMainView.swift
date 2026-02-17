@@ -50,12 +50,12 @@ struct GuideMainView: View {
                     if searchText.isEmpty {
                         VStack(alignment: .leading, spacing: 6) {
                             Text("Library", comment: "Section Title")
-                                .font(.system(size: 42, weight: .black, design: .serif))
+                                .font(.system(size: 42, weight: .black))
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .tracking(-0.5)
                             
                             Text("Survival Guide", comment: "Section Subtitle")
-                                .font(.system(size: 20, weight: .medium, design: .serif))
+                                .font(.system(size: 20, weight: .medium))
                                 .foregroundStyle(DesignSystem.textSecondary)
                             
                             // 3-Way Segmented Control
@@ -172,7 +172,7 @@ struct GlassDomainCell: View {
                 
                 // Title
                 Text(domain.displayName)
-                    .font(.system(size: 20, weight: .bold, design: .rounded))
+                    .font(.system(size: 20, weight: .bold))
                     .foregroundStyle(DesignSystem.textPrimary)
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)

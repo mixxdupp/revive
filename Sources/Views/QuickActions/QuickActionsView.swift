@@ -71,12 +71,12 @@ struct QuickActionsView: View {
                     // MARK: - Header
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Quick Actions")
-                            .font(.system(size: 42, weight: .black, design: .serif))
+                            .font(.system(size: 42, weight: .black))
                             .foregroundStyle(DesignSystem.textPrimary)
                             .tracking(-0.5)
                         
                         Text("Life-Threatening — 1-Tap Access")
-                            .font(.system(size: 20, weight: .medium, design: .serif))
+                            .font(.system(size: 20, weight: .medium))
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
                     .padding(.horizontal, 24)
@@ -138,7 +138,7 @@ struct GlassActionCell: View {
             
             // Title
             Text(LocalizedStringKey(technique.name))
-                .font(.system(size: 18, weight: .bold, design: .rounded))
+                .font(.system(size: 18, weight: .bold))
                 .foregroundStyle(DesignSystem.textPrimary)
                 .multilineTextAlignment(.center)
                 .lineLimit(3)

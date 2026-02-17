@@ -47,7 +47,7 @@ struct EmergencyCell: View {
                 
                 // Title
                 Text(situation.displayName)
-                    .font(.system(size: 20, weight: .bold, design: .rounded))
+                    .font(.system(size: 20, weight: .bold))
                     .foregroundStyle(DesignSystem.textPrimary)
                     .lineLimit(2)
                     .minimumScaleFactor(0.85)

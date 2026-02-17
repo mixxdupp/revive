@@ -26,7 +26,7 @@ struct CompassView: View {
                 // Header
                 VStack(spacing: 8) {
                     Text("Compass")
-                        .font(.system(size: 32, weight: .black, design: .serif))
+                        .font(.system(size: 32, weight: .black))
                         .foregroundStyle(DesignSystem.textPrimary)
                     
                     Text(locationManager.isLocked ? "Bearing Locked" : "Tap Center to Lock")
@@ -57,7 +57,7 @@ struct CompassView: View {
                         // Cardinal Directions
                         ForEach(Cardinal.allCases, id: \.self) { cardinal in
                             Text(cardinal.rawValue)
-                                .font(.system(size: 24, weight: .bold, design: .rounded))
+                                .font(.system(size: 24, weight: .bold))
                                 .foregroundStyle(cardinal == .N ? Color.red : DesignSystem.textPrimary)
                                 .offset(y: -110)
                                 .rotationEffect(.degrees(cardinal.degree))

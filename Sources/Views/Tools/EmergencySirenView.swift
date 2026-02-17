@@ -268,7 +268,7 @@ struct EmergencySirenView: View {
                 sirenIndicatorView
                 
                 Text("Emergency Siren")
-                    .font(.system(size: 28, weight: .bold, design: .serif))
+                    .font(.system(size: 28, weight: .bold))
                     .foregroundStyle(manager.isPlaying ? .white : DesignSystem.textPrimary)
 
                 Text(manager.isPlaying ? "Distress Signal Active" : "Generates loud alarm & strobe")

@@ -1856,6 +1856,8 @@
   "articles": [
     {
       "id": "shelter-article-site",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Site Selection Principles",
       "body": "Your shelter is only as good as its location. A perfect debris hut in a depression will become a bathtub in rain. A tarp tent under a dead branch is a death trap.\n\nFirst, look up. 'Widowmakers' are dead branches or trees that can fall in wind. Never sleep under them. Next, look down. Choose flat ground that drains away from you. Avoid dry riverbeds—flash floods can happen even if it's not raining where you are.\n\nConsider the 'Ws': Wind, Water, Wood. You want protection from the Wind (or breeze in hot climates), proximity to Water (but not too close due to bugs and floods), and available Wood for fuel and construction. Ideally, orient your shelter entrance 90 degrees to the prevailing wind to prevent it from blowing straight in or creating a vacuum that sucks heat out.",
       "relatedTechniqueIDs": [
@@ -1865,6 +1867,8 @@
     },
     {
       "id": "shelter-article-insulation",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Insulation: Dead Air Space",
       "body": "Insulation doesn't create heat; it traps it. The most effective insulator is 'dead air'—air that isn't moving. Your clothing, sleeping bag, and shelter materials all work by trapping pockets of air near your body.\n\nIn survival shelters, fluffiness equals warmth. Compressed leaves offer little insulation. You want a chaotic, fluffy pile of debris that traps millions of tiny air pockets. This limits convection (heat loss through air movement). \n\nThe colder it is, the thicker your insulation needs to be. In freezing conditions, you need at least 3 feet of debris overhead to stay warm without a fire. Don't stop when it looks like a shelter; keep piling until it looks like a massive mound.",
       "relatedTechniqueIDs": [
@@ -1874,6 +1878,8 @@
     },
     {
       "id": "shelter-article-ground",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Ground Insulation",
       "body": "The ground is an infinite heat sink. Through conduction, it will suck the heat out of your body faster than the air will. You can have a perfect roof, but if you sleep directly on the cold earth, you will hypothermic.\n\nBuild a mattress. Use boughs, leaves, dried grass, or even your spare clothes. The goal is to put distance between you and the dirt. Your bed should be at least 6-8 inches thick when uncompressed, because your body weight will squash it down to 2-3 inches.\n\nIn snow, this is even more critical. Ideally, lay down a layer of logs or branches locally called a 'swamp bed' to create a distinct air gap between you and the snow.",
       "relatedTechniqueIDs": [
@@ -1883,6 +1889,8 @@
     },
     {
       "id": "shelter-article-wind",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Wind Protection Orientation",
       "body": "Wind chill strips heat away from your shelter's surface. Your primary defense is orientation. In the Northern Hemisphere, prevailing winds often come from the West, but local terrain dictates the actual flow.\n\nObserve the direction the grass is leaning or wet your finger to find the wind. Position your shelter so the extensive wall faces the wind. The entrance should face roughly 90 degrees to the wind. If the door faces directly downwind, eddies can swirl snow and rain back into your shelter.\n\nUse natural windbreaks like large boulders or dense thickets. Building in the lee (protected side) of these features saves you work and materials.",
       "relatedTechniqueIDs": [
@@ -1892,6 +1900,8 @@
     },
     {
       "id": "shelter-article-rain",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Rain Runoff Management",
       "body": "Water always wins gravity battles. If your shelter roof isn't steep enough (at least 45 degrees), water will soak through instead of running off. This is the difference between a waterproof roof and a heavy, wet blanket over your head.\n\nDon't forget the ground. If you are on a slope, dig a small trench on the uphill side of your shelter to divert rainwater around your sleeping area. This 'gutter' can save you from waking up in a puddle.\n\nWhen using natural materials, 'shingling' is key. Place material from the bottom up, overlapping like roofing tiles. This ensures water runs from one layer to the next without penetrating.",
       "relatedTechniqueIDs": [
@@ -1901,6 +1911,8 @@
     },
     {
       "id": "shelter-article-snow-insulation",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Snow as Insulator",
       "body": "Snow is surprisingly warm. Fresh snow is 90-95% trapped air, making it an excellent insulator with a high R-value. This is why animals burrow into drifts to survive storms.\n\nInside a properly built snow shelter like a quinzhee or igloo, body heat can raise the temperature to near freezing (32°F / 0°C), even if it's -20°F outside. That 50-degree difference is life-saving.\n\nThe key is to prevent melting. If it gets too warm inside, the walls will glaze over and stop breathing, or drip on you. Regulate temperature by poking a ventilation hole in the roof. If you keep the inside just below freezing, you stay dry and relatively warm.",
       "relatedTechniqueIDs": [
@@ -1910,6 +1922,8 @@
     },
     {
       "id": "shelter-article-tropical",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Tropical Shelter Considerations",
       "body": "In the jungle, the priorities flip. Cold isn't the enemy; insects, snakes, and ground moisture are. You want to get off the ground. Hammocks are king here.\n\nIf you must build on the ground, create a raised platform using lashes poles. This keeps you away from ants and damp soil. Airflow is vital—a fully enclosed hut will become a stifling oven. Build an open-air roof with large overhangs to stop the torrential rains, but leave the walls open to catch the breeze.\n\nUse large leaves (banana, palm) for roofing. Split the palm fronds down the spine to make them easier to weave/shingle.",
       "relatedTechniqueIDs": [
@@ -1919,6 +1933,8 @@
     },
     {
       "id": "shelter-article-desert",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Desert Shelter Considerations",
       "body": "The desert has two faces: the baking sun of the day and the freezing cold of the night. Your shelter needs to handle both.\n\nDuring the day, shade is survival. Build an open-sided shade shelter to allow breeze but block UV rays. Double-layering your roof (with an air gap between layers) drastically reduces the temperature underneath.\n\nAt night, the desert loses heat rapidly. You may need to enclose your shelter or lower the roof to trap body heat. A classic desert strategy is the trench shelter: dig into the cooler sub-surface sand for day respite, and cover it to trap warmth at night.",
       "relatedTechniqueIDs": [
@@ -1927,6 +1943,8 @@
     },
     {
       "id": "shelter-article-bedding",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Bedding Construction",
       "body": "Bedding is the most overlooked part of shelter building. In a survival situation, you spend 50% of your time in your shelter. Comfort isn't a luxury; it's sleep hygiene, which preserves sanity.\n\nStart with a frame of logs to contain your material. Fill it with springy boughs (spruce/fir) placed convex side up. Cover this with finer material like ferns, dried grass, or leaves. \n\nCheck for ticks and insects in your bedding material. Avoid using material that is already decomposing, as it generates moisture and bacteria. Your finished bed should feel like a firm mattress, suspending you completely off the hard ground.",
       "relatedTechniqueIDs": [
@@ -1936,6 +1954,8 @@
     },
     {
       "id": "shelter-article-reflector",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Heat Reflector Walls",
       "body": "A fire warms your front, but your back freezes. A shelter helps, but a reflector wall turbocharges your warming setup. By placing a wall of logs or rocks behind the fire (opposite your shelter), you bounce radiant heat back towards you.\n\nBuild the reflector close to the fire (about 2-3 feet away). If using wood, ensure it's green or soaked so it doesn't burn. A U-shaped reflector is even better, focusing heat like a satellite dish.\n\nCombined with a lean-to shelter, this setup creates a 'heat oven' effect, trapping warm air between the shelter roof and the fire reflector, keeping you toasty with a much smaller fire.",
       "relatedTechniqueIDs": [
@@ -1945,6 +1965,8 @@
     },
     {
       "id": "shelter-article-urban",
+      "sourceName": "Ready.gov",
+      "sourceUrl": "https://www.ready.gov/shelter",
       "title": "Urban Shelter in Emergencies",
       "body": "Urban disasters create unique shelter challenges. Buildings may be damaged, utilities down, and normal shelter unavailable.\n\nImmediate urban shelter options:\n- Parking garages: concrete structure, wind protection, multiple levels\n- Underpasses and bridges: overhead cover (avoid in floods)\n- Abandoned vehicles: wind protection, seats as bedding\n- Shipping containers: extremely durable, wind/waterproof\n- Stairwells: interior stairwells in buildings are structurally strongest\n\nUrban insulation materials:\n- Cardboard: excellent insulator (homeless populations know this)\n- Newspaper: crumpled newspaper inside clothing adds significant warmth\n- Carpet: salvaged carpet is excellent ground insulation\n- Bubble wrap: if available, outstanding insulator\n- Trash bags: windproof, waterproof, vapor barrier\n\nSafety in urban shelter:\n- Check structural integrity before entering damaged buildings\n- Avoid buildings with gas leaks (smell for gas before entering)\n- Stay away from downed power lines (lethal even when they look dead)\n- Upper floors are safer in floods, lower floors safer in earthquakes\n- Have multiple exit routes identified",
       "relatedTechniqueIDs": [
@@ -1954,6 +1976,8 @@
     },
     {
       "id": "shelter-article-longterm",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Long-Term Camp Shelter",
       "body": "If rescue isn't coming soon, your shelter needs to evolve from emergency to homestead.\n\nProgression timeline:\n- Day 1: Emergency shelter (debris hut, tarp, whatever stops heat loss NOW)\n- Days 2-3: Improve current shelter (better insulation, wind wall, drainage)\n- Week 1: Build a permanent structure (log cabin, wattle-and-daub, semi-underground)\n- Ongoing: Continuously improve (furniture, storage, workshop area)\n\nLong-term shelter features:\n- Fire pit with chimney or ventilation (smoke management is critical for health)\n- Raised bed frame (off the ground, with replaceable bedding)\n- Storage shelves and hooks (organization preserves sanity)\n- Drying rack near fire (for clothes, food preservation)\n- Work bench area for tool making and repairs\n- Rain collection system integrated into roof\n\nSite management:\n- Latrine: at least 200 feet from shelter and water source, downhill\n- Food storage: hung from trees or sealed in cache, away from sleeping area\n- Firewood: stacked and covered, within easy reach\n- Clear brush 30 feet around shelter for fire safety and visibility\n\nThe psychological value of a well-built long-term shelter cannot be overstated. It becomes home, and home provides hope.",
       "relatedTechniqueIDs": [
@@ -1964,6 +1988,8 @@
     },
     {
       "id": "shelter-article-site-science",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Shelter Site Selection Science",
       "body": "Where you build matters more than how you build. The wrong site can kill you regardless of shelter quality.\n\nDanger zones:\n- Valley bottoms: cold air pools here (cold air sinks). Temperature can be 10-20°F colder than a spot 50 feet uphill\n- Ridgetops: maximum wind exposure. Wind chill can be deadly\n- Under dead trees/branches: 'widow makers' can fall without warning\n- Dry riverbeds: flash floods arrive with zero warning\n- Avalanche paths: look for debris fields, stripped trees, funnel-shaped terrain\n\nIdeal locations:\n- Mid-slope: warmer than valley, sheltered from ridgetop wind\n- Southeast-facing slope: morning sun for warmth, afternoon shade\n- Near water but not on it: 200 feet minimum. Too close invites insects and flooding\n- Natural windbreaks: rock faces, dense tree clusters, terrain features\n- Good drainage: slight slope so rainwater runs away, not into shelter\n\nChecklist before building:\n1. Look UP: dead branches, leaning trees, loose rock above?\n2. Look DOWN: is ground wet? In a drainage path? Near water?\n3. Look AROUND: wind direction, sun exposure, available materials?\n4. Listen: running water (flood risk), animal sounds, wind patterns?\n5. Consider time: how many hours of daylight remain for building?",
       "relatedTechniqueIDs": [
@@ -1973,6 +1999,8 @@
     },
     {
       "id": "shelter-article-insulation-values",
+      "sourceName": "Energy.gov",
+      "sourceUrl": "https://www.energy.gov/energysaver/insulation",
       "title": "Natural Insulation R-Values",
       "body": "Understanding insulation helps you choose the best materials and know how much you need.\n\nR-value measures thermal resistance. Higher = better insulation.\n\nNatural material R-values (per inch):\n- Dry leaves (loosely packed): R-1 per inch\n- Pine boughs: R-1.5 per inch\n- Dry grass: R-1 per inch\n- Moss (dry): R-2 per inch\n- Snow (packed): R-1 per inch\n- Cattail fluff: R-3 per inch (excellent)\n- Bark: R-1 per inch\n\nArtificial materials for comparison:\n- Cardboard: R-3.5 per inch\n- Newspaper (crumpled): R-2 per inch\n- Sleeping pad (foam): R-3 to R-6 per inch\n- Down insulation: R-8 per inch\n\nPractical application:\n- You need R-5 minimum between you and the ground in cold weather\n- That means: 5 inches of pine boughs, or 1.5 inches of cattail fluff, or 2 inches of cardboard\n- For walls: R-3 minimum for mild cold, R-8+ for subfreezing\n- Double your estimate for safety — material compresses under weight\n\nKey principle: insulation works by trapping STILL air. Packed material loses effectiveness. Wet material conducts heat away. Keep insulation dry and fluffy.",
       "relatedTechniqueIDs": [
@@ -1983,6 +2011,8 @@
     },
     {
       "id": "shelter-article-psychology",
+      "sourceName": "American Psychological Association",
+      "sourceUrl": "https://www.apa.org/topics/resilience",
       "title": "Shelter Psychology",
       "body": "Shelter does more than protect your body. It protects your mind.\n\nPsychological benefits:\n- Territory: having 'your' space provides sense of control and safety\n- Routine: maintaining and improving shelter gives daily purpose\n- Privacy: even in group survival, personal shelter space reduces conflict\n- Security: a good shelter allows relaxation and proper sleep\n- Pride: building with your hands creates confidence and self-sufficiency\n\nShelter-related stress factors:\n- Claustrophobia: some people panic in small debris huts. Know your limits\n- Noise: wind, rain, animal sounds amplified by shelter walls can cause anxiety\n- Darkness: windowless shelters feel oppressive. A small opening helps\n- Dampness: wet shelter destroys morale faster than cold\n- Insects: shelter without bug protection leads to sleep deprivation\n\nMitigation:\n- Build a shelter entrance you can see out of\n- Include a small window or viewing hole for situational awareness\n- Keep shelter organized — disorder increases stress\n- Personalize the space — even small touches (arranged stones, a carved stick) help\n- Invest in comfort: a good bed is worth hours of effort",
       "relatedTechniqueIDs": [
@@ -1992,6 +2022,8 @@
     },
     {
       "id": "shelter-article-wind",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
       "title": "Shelter in Extreme Wind",
       "body": "Wind is the most underestimated shelter threat. Wind chill kills faster than cold temperature alone.\n\nWind chill physics:\n- 20°F air with 20 mph wind feels like -2°F\n- Even mild temperatures become dangerous in sustained wind\n- Wind strips away the thin layer of warm air your body generates\n- Shelter that blocks wind is more important than shelter that insulates\n\nWind-resistant shelter designs (ranked):\n1. Underground/semi-underground: zero wind exposure\n2. Snow cave/quinzhee: excellent wind protection\n3. Debris hut (small, thick): low profile, minimal wind load\n4. Lean-to with windbreak: adequate if oriented correctly\n5. Tarp shelter: weakest against wind, requires careful pitch\n\nHigh-wind construction rules:\n- Build as low as possible\n- Angle windward side to deflect, not catch, wind (like a plow)\n- Anchor everything: rocks, stakes, buried logs\n- Double-lash all joints\n- Use aerodynamic shapes (domes, wedges) not flat faces\n\nCritical: if you cannot build shelter in extreme wind, dig. Even a shallow body-sized trench with a tarp pulled over it blocks most wind and can save your life.",
       "relatedTechniqueIDs": [
@@ -2002,6 +2034,8 @@
     },
     {
       "id": "shelter-article-mistakes",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Common Shelter Mistakes",
       "body": "Most shelter failures come from predictable, avoidable errors.\n\n1. Building too big:\n- Larger shelters lose more heat. Body heat alone warms a coffin-sized space but not a room-sized one\n- Build only as large as necessary to lie down and sit up\n\n2. Ignoring ground insulation:\n- You lose 80% of body heat to cold ground\n- Most people focus on roof and walls but sleep on bare ground\n- Ground insulation is MORE important than wall insulation\n\n3. Wrong location:\n- Building under dead trees (widow makers)\n- Building in a drainage path (flooding)\n- Building in a valley bottom (cold air pool)\n\n4. Insufficient debris thickness:\n- 2 inches of leaves is decoration, not insulation\n- You need 12-24 inches of debris on walls and roof\n- If you can see sky through the roof, you need more\n\n5. Entrance facing the wind:\n- Wind funnels through the entrance like a jet engine\n- Always face away from prevailing wind\n\n6. No drainage:\n- Rain rolls off the roof and pools at the base\n- Without a drainage trench, water enters from below\n\n7. Starting too late:\n- Shelter takes 1-3 hours to build properly\n- Start building with 3+ hours of daylight remaining\n- A bad shelter finished before dark beats a great shelter finished in darkness",
       "relatedTechniqueIDs": [
@@ -2012,6 +2046,8 @@
     },
     {
       "id": "shelter-article-maintenance",
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
       "title": "Long-Term Shelter Maintenance",
       "body": "Shelters deteriorate. Without maintenance, even well-built shelters fail within days.\n\nDaily checks:\n- Roof: look for new gaps, compressed debris, water penetration\n- Walls: check for animal damage, wind erosion, settling\n- Bed: fluff and replace compressed insulation\n- Drainage: clear trenches of debris after rain\n- Structural: check ridgepole, supports, and lashings for weakness\n\nWeekly maintenance:\n- Add fresh debris to roof and walls (natural materials compress and decompose)\n- Replace rotting or wet insulation\n- Reinforce lashings and structural connections\n- Improve ventilation or seal gaps as needed\n- Expand or modify as tools and materials become available\n\nUpgrades over time:\n- Week 1: basic survival shelter\n- Week 2: add door, improve insulation, build proper bed\n- Week 3: add cooking area, food cache, latrine\n- Week 4: build second shelter for storage, improve weatherproofing\n\nSeasonal adaptations:\n- Summer: increase ventilation, add bug protection, create shade\n- Fall: increase insulation, stockpile dry bedding material\n- Winter: seal all gaps, add heated rock thermal mass, reduce interior volume\n- Spring: improve drainage, watch for flooding, replace rotted materials",
       "relatedTechniqueIDs": [
