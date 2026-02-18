@@ -58,6 +58,7 @@ let package = Package(
                 .process("Resources/advanced_firstaid.json"),
                 .process("Resources/advanced_tools.json"),
                 .process("Resources/advanced_environments.json"),
+                .process("Resources/glossary.json"),
                 .process("Resources/hacks_general.json"),
                 .process("Resources/rebuilding_civilization.json"),
                 .process("Resources/expanded_firstaid.json"),

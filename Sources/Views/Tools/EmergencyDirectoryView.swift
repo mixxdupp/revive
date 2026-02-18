@@ -111,7 +111,7 @@ struct GlassCountryRow: View {
                 
                 HStack(spacing: 12) {
                     ServiceButton(icon: "shield.fill", label: "Police", number: country.police, color: .blue)
-                    ServiceButton(icon: "flame.fill", label: "Fire", number: country.fire, color: .orange)
+                    ServiceButton(icon: "flame", label: "Fire", number: country.fire, color: .orange)
                     ServiceButton(icon: "cross.fill", label: "Medical", number: country.ambulance, color: .red)
                 }
             }

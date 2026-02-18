@@ -6,146 +6,166 @@ struct VerticalGuideView: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        ZStack {
-            DesignSystem.backgroundPrimary.edgesIgnoringSafeArea(.all)
-            
-            ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    
-                    // MARK: - Header
-                    VStack(alignment: .leading, spacing: 8) {
-                        Button(action: { dismiss() }) {
-                            HStack(spacing: 4) {
-                                Image(systemName: "chevron.left")
-                                Text("Browse")
+        ScrollViewReader { proxy in
+            ZStack {
+                DesignSystem.backgroundPrimary.edgesIgnoringSafeArea(.all)
+                
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 24) {
+                        
+                        // MARK: - Header
+                        VStack(alignment: .leading, spacing: 8) {
+                            Button(action: { dismiss() }) {
+                                HStack(spacing: 4) {
+                                    Image(systemName: "chevron.left")
+                                    Text("Browse")
+                                }
+                                .font(.headline)
+                                .foregroundStyle(technique.domain.color)
                             }
-                            .font(.headline)
-                            .foregroundStyle(technique.domain.color)
+                            .padding(.bottom, 10)
+                            
+                            Text(technique.name)
+                                .font(.system(size: 34, weight: .bold))
+                                .foregroundStyle(DesignSystem.textPrimary)
+                                .fixedSize(horizontal: false, vertical: true)
+                            
+                            Text(technique.subtitle)
+                                .font(.body)
+                                .foregroundStyle(DesignSystem.textSecondary)
+                                .fixedSize(horizontal: false, vertical: true)
                         }
-                        .padding(.bottom, 10)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 20)
                         
-                        Text(technique.name)
-                            .font(.system(size: 34, weight: .bold))
-                            .foregroundStyle(DesignSystem.textPrimary)
-                            .fixedSize(horizontal: false, vertical: true)
-                        
-                        Text(technique.subtitle)
-                            .font(.body)
-                            .foregroundStyle(DesignSystem.textSecondary)
-                            .fixedSize(horizontal: false, vertical: true)
-                    }
-                    .padding(.horizontal, 20)
-                    .padding(.top, 20)
-                    
-                    if technique.isCritical {
-                        EmergencyWarningBanner()
-                            .padding(.horizontal, 20)
-                    }
-                    
-                    // MARK: - Steps List
-                    VStack(spacing: 16) {
-                        ForEach(0..<technique.steps.count, id: \.self) { index in
-                            StepAccordionRow(
-                                step: technique.steps[index],
-                                stepIndex: index,
-                                domain: technique.domain,
-                                expandedStep: $expandedStep
-                            )
+                        if technique.isCritical {
+                            EmergencyWarningBanner()
+                                .padding(.horizontal, 20)
                         }
-                    }
-
-                    
-                    // MARK: - Source Link
-                    if let sourceName = technique.sourceName, let sourceUrl = technique.sourceUrl, let url = URL(string: sourceUrl) {
-                        Link(destination: url) {
-                            HStack(spacing: 6) {
-                                Text("Source:")
-                                    .font(.footnote)
-                                    .foregroundStyle(.secondary)
-                                
-                                Text(sourceName)
-                                    .font(.footnote.weight(.semibold))
-                                    .foregroundStyle(technique.domain.color)
-                                    .underline()
-                                
-                                Image(systemName: "arrow.up.right")
-                                    .font(.caption2)
-                                    .foregroundStyle(technique.domain.color)
+                        
+                        // MARK: - Steps List
+                        VStack(spacing: 16) {
+                            ForEach(0..<technique.steps.count, id: \.self) { index in
+                                StepAccordionRow(
+                                    step: technique.steps[index],
+                                    stepIndex: index,
+                                    domain: technique.domain,
+                                    expandedStep: $expandedStep
+                                )
+                                .id(index) // Anchor for scrolling
+                            }
+                        }
+                        
+                        // MARK: - Source Link & Glossary
+                        HStack {
+                            if let sourceName = technique.sourceName, let sourceUrl = technique.sourceUrl, let url = URL(string: sourceUrl) {
+                                Link(destination: url) {
+                                    HStack(spacing: 6) {
+                                        Text("Source:")
+                                            .font(.footnote)
+                                            .foregroundStyle(.secondary)
+                                        
+                                        Text(sourceName)
+                                            .font(.footnote.weight(.semibold))
+                                            .foregroundStyle(technique.domain.color)
+                                            .underline()
+                                        
+                                        Image(systemName: "arrow.up.right")
+                                            .font(.caption2)
+                                            .foregroundStyle(technique.domain.color)
+                                    }
+                                }
+                            }
+                            
+                            Spacer()
+                            
+                            NavigationLink(destination: GlossaryView()) {
+                                HStack(spacing: 4) {
+                                    Image(systemName: "text.book.closed.fill")
+                                    Text("Glossary")
+                                }
+                                .font(.footnote.weight(.medium))
+                                .foregroundStyle(.secondary)
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 6)
+                                .background(Color(uiColor: .secondarySystemBackground))
+                                .clipShape(Capsule())
                             }
                         }
                         .padding(.horizontal, 20)
                         .padding(.top, 8)
-                    }
-                    
-                    // MARK: - Related Techniques
-                    if let relatedIds = technique.relatedIds, !relatedIds.isEmpty {
-                        VStack(alignment: .leading, spacing: 16) {
-                            Text("Related Guides")
+                        
+                        // MARK: - Related Techniques
+                        if let relatedIds = technique.relatedIds, !relatedIds.isEmpty {
+                            VStack(alignment: .leading, spacing: 16) {
+                                Text("Related Guides")
                                 .font(.title3.weight(.bold))
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .padding(.horizontal, 20)
                             
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                HStack(spacing: 16) { // Left padding handled by first item offset or padding on Hstack
-                                    ForEach(relatedIds, id: \.self) { id in
-                                        if let relatedTechnique = ContentDatabase.shared.techniques.first(where: { $0.id == id }) {
-                                            NavigationLink(destination: VerticalGuideView(technique: relatedTechnique)) {
-                                                RelatedTechniqueCard(technique: relatedTechnique)
+                                ScrollView(.horizontal, showsIndicators: false) {
+                                    HStack(spacing: 16) {
+                                        ForEach(relatedIds, id: \.self) { id in
+                                            if let relatedTechnique = ContentDatabase.shared.techniques.first(where: { $0.id == id }) {
+                                                NavigationLink(destination: VerticalGuideView(technique: relatedTechnique)) {
+                                                    RelatedTechniqueCard(technique: relatedTechnique)
+                                                }
+                                                .buttonStyle(ScalableButtonStyle())
                                             }
-                                            .buttonStyle(ScalableButtonStyle())
                                         }
                                     }
+                                    .padding(.horizontal, 20)
                                 }
-                                .padding(.horizontal, 20)
                             }
+                            .padding(.top, 24)
                         }
-                        .padding(.top, 24)
+                        
+                        Spacer().frame(height: 120) // Space for floating button
                     }
-                    
-                    Spacer().frame(height: 120) // Space for floating button
+                }
+                
+                // MARK: - Floating Action Button
+                VStack {
+                    Spacer()
+                    if let current = expandedStep, current < technique.steps.count - 1 {
+                        Button(action: {
+                            withAnimation(.easeInOut(duration: 0.35)) {
+                                expandedStep = current + 1
+                                proxy.scrollTo(current + 1, anchor: .center) // Auto-scroll
+                            }
+                            HapticsService.shared.playImpact(style: .medium)
+                        }) {
+                            Text("Next Step")
+                                .font(.headline.weight(.bold))
+                                .foregroundStyle(.white)
+                                .padding(.horizontal, 32)
+                                .padding(.vertical, 16)
+                                .background(technique.domain.color)
+                                .clipShape(Capsule())
+                                .shadow(color: technique.domain.color.opacity(0.4), radius: 10, x: 0, y: 5)
+                        }
+                        .padding(.bottom, 30)
+                        .transition(.scale.combined(with: .opacity))
+                    } else if expandedStep == technique.steps.count - 1 {
+                        Button(action: {
+                            dismiss()
+                            HapticsService.shared.playNotification(type: .success)
+                        }) {
+                            Text("Finish Guide")
+                                .font(.headline.weight(.bold))
+                                .foregroundStyle(.white)
+                                .padding(.horizontal, 32)
+                                .padding(.vertical, 16)
+                                .background(Color.green)
+                                .clipShape(Capsule())
+                                .shadow(color: Color.green.opacity(0.4), radius: 10, x: 0, y: 5)
+                        }
+                        .padding(.bottom, 30)
+                    }
                 }
             }
-            
-            // MARK: - Floating Action Button
-            VStack {
-                Spacer()
-                if let current = expandedStep, current < technique.steps.count - 1 {
-                    Button(action: {
-                        withAnimation(.easeInOut(duration: 0.35)) {
-                            expandedStep = current + 1
-                        }
-                        HapticsService.shared.playImpact(style: .medium)
-                    }) {
-                        Text("Next Step")
-                            .font(.headline.weight(.bold))
-                            .foregroundStyle(.white)
-                            .padding(.horizontal, 32)
-                            .padding(.vertical, 16)
-                            .background(technique.domain.color)
-                            .clipShape(Capsule())
-                            .shadow(color: technique.domain.color.opacity(0.4), radius: 10, x: 0, y: 5)
-                    }
-                    .padding(.bottom, 30)
-                    .transition(.scale.combined(with: .opacity))
-                } else if expandedStep == technique.steps.count - 1 {
-                    Button(action: {
-                        dismiss()
-                        HapticsService.shared.playNotification(type: .success)
-                    }) {
-                        Text("Finish Guide")
-                            .font(.headline.weight(.bold))
-                            .foregroundStyle(.white)
-                            .padding(.horizontal, 32)
-                            .padding(.vertical, 16)
-                            .background(Color.green)
-                            .clipShape(Capsule())
-                            .shadow(color: Color.green.opacity(0.4), radius: 10, x: 0, y: 5)
-                    }
-                    .padding(.bottom, 30)
-                }
-            }
+            .navigationBarHidden(true)
         }
-        .navigationBarHidden(true)
     }
 }
 

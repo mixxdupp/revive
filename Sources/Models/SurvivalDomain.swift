@@ -22,7 +22,7 @@ enum SurvivalDomain: String, Codable, CaseIterable, Identifiable {
     
     var icon: String {
         switch self {
-        case .fire: return "flame.fill"
+        case .fire: return "flame"
         case .shelter: return "tent.fill"
         case .water: return "drop.fill"
         case .navigation: return "location.fill" // Simpler, solid

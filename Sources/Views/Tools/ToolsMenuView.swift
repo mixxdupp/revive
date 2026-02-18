@@ -46,7 +46,38 @@ struct ToolsMenuView: View {
 
                     // MARK: - Tool Cards
                     VStack(spacing: 16) {
-                        // MARK: - Hardware Tools
+                        // MARK: - Priority: Emergency & Signaling
+                        NavigationLink(destination: EmergencySirenView()) {
+                            GlassToolCard(
+                                icon: "speaker.wave.3.fill",
+                                title: "Emergency Siren",
+                                subtitle: "Max-volume distress signal",
+                                color: .purple
+                            )
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
+                        NavigationLink(destination: SOSFlashlightView()) {
+                            GlassToolCard(
+                                icon: "flashlight.on.fill",
+                                title: "SOS Flashlight",
+                                subtitle: "Morse code SOS via camera flash",
+                                color: .orange
+                            )
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
+                        NavigationLink(destination: EmergencyDirectoryView()) {
+                            GlassToolCard(
+                                icon: "phone.circle.fill",
+                                title: "Emergency Directory",
+                                subtitle: "Global ambulance/police numbers",
+                                color: .green
+                            )
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
+                        // MARK: - Priority: Navigation
                         NavigationLink(destination: CompassView()) {
                             GlassToolCard(
                                 icon: "location.north.circle.fill",
@@ -76,43 +107,14 @@ struct ToolsMenuView: View {
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
-
-                        NavigationLink(destination: EmergencyDirectoryView()) {
-                            GlassToolCard(
-                                icon: "phone.circle.fill",
-                                title: "Emergency Directory",
-                                subtitle: "Global ambulance/police numbers",
-                                color: .green
-                            )
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-
-                        NavigationLink(destination: SOSFlashlightView()) {
-                            GlassToolCard(
-                                icon: "flashlight.on.fill",
-                                title: "SOS Flashlight",
-                                subtitle: "Morse code SOS via camera flash",
-                                color: .orange
-                            )
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-
+                        
+                        // MARK: - Priority: Medical & Utility
                         NavigationLink(destination: CPRMetronomeView()) {
                             GlassToolCard(
                                 icon: "heart.fill",
                                 title: "CPR Metronome",
                                 subtitle: "110 BPM chest compression pacer",
                                 color: .red
-                            )
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-
-                        NavigationLink(destination: EmergencySirenView()) {
-                            GlassToolCard(
-                                icon: "speaker.wave.3.fill",
-                                title: "Emergency Siren",
-                                subtitle: "Max-volume distress signal",
-                                color: .purple
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
@@ -133,6 +135,16 @@ struct ToolsMenuView: View {
                                 title: "Survival Stats",
                                 subtitle: "Hypothermia & Water Data",
                                 color: .pink
+                            )
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
+                        NavigationLink(destination: GlossaryView()) {
+                            GlassToolCard(
+                                icon: "text.book.closed.fill",
+                                title: "Survival Glossary",
+                                subtitle: "Terminology & Definitions",
+                                color: .brown
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())

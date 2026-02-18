@@ -6,7 +6,7 @@ struct TechniqueIconMapper {
         switch techniqueId {
         
         // FIRE
-        case "fire-bowdrill": return "flame.circle.fill"
+        case "fire-bowdrill": return "flame"
         case "fire-magnifying": return "magnifyingglass.circle.fill"
         case "fire-ferrorod": return "sparkles"
         case "fire-teepee": return "cone.fill"
@@ -24,7 +24,7 @@ struct TechniqueIconMapper {
         case "shelter-hammock": return "figure.mind.and.body"
         
         // WATER
-        case "water-boiling": return "flame.fill"
+        case "water-boiling": return "flame"
         case "water-solar-still": return "sun.max.circle.fill"
         case "water-transpiration-bag": return "leaf.circle.fill"
         case "water-charcoal-filter": return "line.3.horizontal.decrease.circle.fill"
@@ -35,7 +35,7 @@ struct TechniqueIconMapper {
         case "firstaid-tourniquet": return "bandage.fill" // or specialized icon
         case "firstaid-pressure-bandage": return "cross.case.fill"
         case "firstaid-hypothermia": return "thermometer.snowflake"
-        case "firstaid-burn": return "flame.circle"
+        case "firstaid-burn": return "flame"
         case "firstaid-snakebite": return "ant.fill" // closest to snake?
         
         // NAVIGATION

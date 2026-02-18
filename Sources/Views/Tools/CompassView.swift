@@ -3,6 +3,8 @@ import CoreLocation
 
 struct CompassView: View {
     @StateObject private var locationManager = LocationManager()
+    @State private var hasPlayedNorthHaptic = false
+    @State private var hasPlayedTargetHaptic = false
     
     var body: some View {
         ZStack {
@@ -141,6 +143,36 @@ struct CompassView: View {
         }
         .onAppear {
             locationManager.requestPermission()
+        }
+        .onChange(of: locationManager.trueNorth) { _, newHeading in
+            // 1. North Alignment Haptic (Light)
+            // Normalize heading to 0-360
+            let normalized = newHeading < 0 ? newHeading + 360 : newHeading
+            let distToNorth = min(abs(normalized - 0), abs(normalized - 360))
+            
+            if distToNorth < 3 { // 3 degree tolerance
+                if !hasPlayedNorthHaptic {
+                    HapticsService.shared.playImpact(style: .light)
+                    hasPlayedNorthHaptic = true
+                }
+            } else {
+                hasPlayedNorthHaptic = false
+            }
+            
+            // 2. Target Alignment Haptic (Heavy + Success)
+            if let target = locationManager.targetBearing {
+                let rawDiff = abs(normalized - target)
+                let diff = min(rawDiff, 360 - rawDiff) // Handle wrap-around
+                
+                if diff < 3 {
+                    if !hasPlayedTargetHaptic {
+                        HapticsService.shared.playNotification(type: .success)
+                        hasPlayedTargetHaptic = true
+                    }
+                } else {
+                    hasPlayedTargetHaptic = false
+                }
+            }
         }
         .onDisappear {
             locationManager.stopUpdating()

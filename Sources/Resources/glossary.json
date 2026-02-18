@@ -1,0 +1,104 @@
+{
+    "terms": [
+        {
+            "term": "Hypothermia",
+            "definition": "A medical emergency that occurs when your body loses heat faster than it can produce it, causing a dangerously low body temperature (below 95°F / 35°C)."
+        },
+        {
+            "term": "Hyperthermia",
+            "definition": "A condition where the body's temperature is elevated beyond normal due to failed thermoregulation. Heat exhaustion and heatstroke are forms of hyperthermia."
+        },
+        {
+            "term": "Dehydration",
+            "definition": "A harmful reduction in the amount of water in the body. Symptoms include thirst, dark urine, and fatigue. Severe dehydration can lead to confusion and death."
+        },
+        {
+            "term": "Tinder",
+            "definition": "Ideally dry, fluffy material that ignites easily from a spark or small flame. Examples include dry grass, birch bark, cotton balls, and char cloth."
+        },
+        {
+            "term": "Kindling",
+            "definition": "Small twigs and sticks (pencil-sized) used to transition a fire from tinder to larger fuel logs."
+        },
+        {
+            "term": "Fuel",
+            "definition": "Larger logs or wood used to sustain a fire. Ranges from wrist-thick branches to large logs depending on the fire's purpose."
+        },
+        {
+            "term": "Ferro Rod",
+            "definition": "Short for Ferrocerium Rod. A man-made metallic material that produces very hot sparks (3,000°C / 5,400°F) when scraped with a sharp edge."
+        },
+        {
+            "term": "Tourniquet",
+            "definition": "A constricting or compressing device used to control arterial and venous blood flow to a portion of an extremity for a period of time, typically to stop life-threatening bleeding."
+        },
+        {
+            "term": "CPR",
+            "definition": "Cardiopulmonary Resuscitation. A lifesaving technique useful in many emergencies, including a heart attack or near drowning, in which someone's breathing or heartbeat has stopped."
+        },
+        {
+            "term": "Shock",
+            "definition": "A critical condition brought on by a sudden drop in blood flow through the body. The circulatory system fails to maintain adequate blood flow, sharply curtailing the delivery of oxygen and nutrients to vital organs."
+        },
+        {
+            "term": "Shelter",
+            "definition": "A structure that provides protection from the elements (wind, rain, sun, snow) and helps maintain body temperature."
+        },
+        {
+            "term": "Lean-to",
+            "definition": "A simple shelter usually leaning against a solid object (like a fallen tree or rock) with an open front and a sloping roof."
+        },
+        {
+            "term": "A-Frame",
+            "definition": "A shelter design resembling the letter 'A', providing protection on two sides with a ridge pole at the top. Good for shedding rain and snow."
+        },
+        {
+            "term": "Potable Water",
+            "definition": "Water that is safe to drink or to use for food preparation."
+        },
+        {
+            "term": "Pathogen",
+            "definition": "An organism that causes disease, such as bacteria, viruses, or parasites. Water purification aims to remove or kill these."
+        },
+        {
+            "term": "Bearing",
+            "definition": "The direction you want to travel, expressed in degrees (0-360). 'Heading' is the direction you are currently facing."
+        },
+        {
+            "term": "Declination",
+            "definition": "The angular difference between true north (geographic) and magnetic north (where the compass needle points). It varies by location."
+        },
+        {
+            "term": "Waypoint",
+            "definition": "A reference point or set of coordinates that identify a specific location in physical space."
+        },
+        {
+            "term": "Latrine",
+            "definition": "A communal toilet facility in a camp or bivouac area."
+        },
+        {
+            "term": "Cathole",
+            "definition": "A small hole dug for the disposal of human waste in the wilderness to prevent contamination of water sources and spread of disease."
+        },
+        {
+            "term": "Bivy (Bivouac)",
+            "definition": "A temporary camp without tents or cover, used especially by soldiers or mountaineers. Also refers to a 'Bivy Sack', a lightweight waterproof cover for a sleeping bag."
+        },
+        {
+            "term": "Stop, Drop, and Roll",
+            "definition": "A simple fire safety technique taught to children and adults to extinguish a fire on their clothes or body."
+        },
+        {
+            "term": "Frostbite",
+            "definition": "Injury to body tissues caused by exposure to extreme cold, typically affecting the nose, fingers, or toes."
+        },
+        {
+            "term": "Solar Still",
+            "definition": "A device that uses solar energy to evaporate water (from purity or vegetation) and collect the condensate as clean drinking water."
+        },
+        {
+            "term": "Triage",
+            "definition": "The process of determining the priority of patients' treatments based on the severity of their condition."
+        }
+    ]
+}

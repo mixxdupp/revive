@@ -32,7 +32,7 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
     var icon: String {
         switch self {
         case .cold: return "thermometer.snowflake"
-        case .noFire: return "flame.fill"
+        case .noFire: return "flame"
         case .noWater: return "drop.fill"
         case .hurt: return "cross.case.fill"
         case .lost: return "location.fill"

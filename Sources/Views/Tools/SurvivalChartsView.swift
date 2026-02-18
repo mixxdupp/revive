@@ -24,7 +24,7 @@ struct SurvivalChartsView: View {
                     }
                     Spacer()
                     Text("Survival Stats")
-                        .font(.headline)
+                        .font(.system(size: 20, weight: .semibold, design: .serif))
                         .foregroundStyle(DesignSystem.textPrimary)
                     Spacer()
                     // Balance the back button
@@ -107,7 +107,7 @@ struct HypothermiaChartView: View {
                     )
                     .interpolationMethod(.catmullRom)
                     .symbol(by: .value("Condition", item.condition))
-                    .foregroundStyle(.blue)
+                    .foregroundStyle(Color.indigo)
                     
                     AreaMark(
                         x: .value("Water Temp", item.waterTemp),
@@ -116,7 +116,7 @@ struct HypothermiaChartView: View {
                     .interpolationMethod(.catmullRom)
                     .foregroundStyle(
                         LinearGradient(
-                            colors: [.blue.opacity(0.3), .blue.opacity(0.0)],
+                            colors: [Color.indigo.opacity(0.3), Color.indigo.opacity(0.0)],
                             startPoint: .top,
                             endPoint: .bottom
                         )
@@ -131,7 +131,7 @@ struct HypothermiaChartView: View {
                         AxisValueLabel {
                             if let doubleValue = value.as(Double.self) {
                                 Text("\(Int(doubleValue))°F")
-                                    .font(.caption2)
+                                    .font(.system(size: 10, weight: .medium, design: .serif))
                             }
                         }
                     }
@@ -202,12 +202,29 @@ struct WaterNeedsChartView: View {
                     .position(by: .value("Temp", item.tempRange))
                     .annotation(position: .top) {
                         Text("\(String(format: "%.1f", item.liters))")
-                            .font(.caption2)
+                            .font(.system(size: 10, weight: .medium, design: .serif))
                             .foregroundStyle(.secondary)
                     }
                 }
+                .chartXAxis {
+                    AxisMarks(position: .bottom) { _ in
+                        AxisGridLine()
+                        AxisTick()
+                        // Activity Level Labels
+                        AxisValueLabel()
+                            .font(.system(size: 10, weight: .medium, design: .serif))
+                    }
+                }
+                .chartYAxis {
+                    AxisMarks(position: .leading) { _ in
+                        AxisGridLine()
+                        AxisTick()
+                        AxisValueLabel()
+                            .font(.system(size: 10, weight: .medium, design: .serif))
+                    }
+                }
                 .chartForegroundStyleScale([
-                    "Moderate (70°F)": Color.cyan,
+                    "Moderate (70°F)": Color.teal,
                     "Hot (95°F)": Color.orange
                 ])
                 .frame(height: 300)
@@ -223,14 +240,16 @@ struct WaterNeedsChartView: View {
             VStack(alignment: .leading, spacing: 8) {
                 Label("Rationing Myth", systemImage: "drop.triangle.fill")
                     .font(.headline)
-                    .foregroundStyle(.blue)
+                    .foregroundStyle(Color.teal)
                 
                 Text("Do not ration water if you are thirsty. Drink what you have to maintain cognitive function. Dehydration kills faster than lack of water efficiency.")
                     .font(.subheadline)
                     .foregroundStyle(DesignSystem.textSecondary)
             }
             .padding(20)
-            .background(Color.blue.opacity(0.1))
+            .padding(20)
+            .background(Color.teal.opacity(0.1))
+            .cornerRadius(16)
             .cornerRadius(16)
             .padding(.horizontal, 20)
         }
@@ -245,7 +264,7 @@ struct ChartInfoCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title)
-                .font(.title2.weight(.bold))
+                .font(.system(size: 28, weight: .bold, design: .serif))
                 .foregroundStyle(DesignSystem.textPrimary)
             
             Text(description)

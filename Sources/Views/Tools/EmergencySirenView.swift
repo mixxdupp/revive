@@ -199,6 +199,7 @@ final class SirenManager: ObservableObject {
                 for (on, duration) in sosPattern {
                     if Task.isCancelled || !includeStrobe { break }
                     setTorch(on: on)
+                    if on { HapticsService.shared.playImpact(style: .heavy) } // Tactile Sync
                     try? await Task.sleep(nanoseconds: UInt64(duration * 1_000_000_000))
                 }
             }
@@ -249,6 +250,7 @@ struct EmergencySirenView: View {
     @State private var showSecurityInfo = false
     @State private var isGuidedAccessActive = UIAccessibility.isGuidedAccessEnabled
     @State private var blink = false
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         ZStack {
@@ -259,6 +261,24 @@ struct EmergencySirenView: View {
             } else {
                 Color(uiColor: .systemGroupedBackground)
                     .edgesIgnoringSafeArea(.all)
+            }
+            
+            // Close Button
+            VStack {
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        manager.stopSiren()
+                        dismiss()
+                    }) {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.system(size: 32))
+                            .foregroundStyle(manager.isPlaying ? .white.opacity(0.8) : DesignSystem.textSecondary)
+                            .padding()
+                    }
+                    .accessibilityLabel("Close Siren")
+                }
+                Spacer()
             }
             
             VStack(spacing: 32) {
@@ -495,6 +515,7 @@ struct LongPressButton: View {
     @State private var progress: CGFloat = 0.0
     private let holdDuration: TimeInterval = 3.0
     @State private var timer: Timer?
+    @State private var pulse = false
     
     var body: some View {
         ZStack {
@@ -524,6 +545,22 @@ struct LongPressButton: View {
         .accessibilityHint("Double tap and hold to activate")
         .scaleEffect(isHolding ? 0.95 : 1.0)
         .animation(.spring(response: 0.3, dampingFraction: 0.6), value: isHolding)
+        // Morphing Pulse Animation
+        .overlay(
+            Group {
+                if isPlaying {
+                    RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .stroke(Color.white, lineWidth: 2)
+                        .scaleEffect(pulse ? 1.3 : 1.0)
+                        .opacity(pulse ? 0.0 : 0.8)
+                        .onAppear {
+                            withAnimation(.easeOut(duration: 1.2).repeatForever(autoreverses: false)) {
+                                pulse = true
+                            }
+                        }
+                }
+            }
+        )
         .gesture(
             DragGesture(minimumDistance: 0)
                 .onChanged { _ in

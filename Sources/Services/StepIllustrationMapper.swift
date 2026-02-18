@@ -43,7 +43,7 @@ struct StepIllustrationMapper {
             if words.contains("help") || words.contains("call") { return "phone.fill" }
             
         case .fire:
-            if words.contains("drill") || words.contains("spin") || words.contains("friction") { return "flame.circle.fill" }
+            if words.contains("drill") || words.contains("spin") || words.contains("friction") { return "flame" }
             if words.contains("spark") || words.contains("strike") { return "sparkles" }
             if words.contains("tinder") || words.contains("kindling") || words.contains("nest") { return "leaf.fill" }
             if words.contains("notch") || words.contains("carve") || words.contains("cut") { return "scissors" }
@@ -52,7 +52,7 @@ struct StepIllustrationMapper {
             
         case .rescue:
             if words.contains("signal") {
-                if words.contains("fire") { return "flame.fill" }
+                if words.contains("fire") { return "flame" }
                 if words.contains("ground") || words.contains("visual") { return "eye.fill" }
                 if words.contains("radio") || words.contains("broadcast") { return "antenna.radiowaves.left.and.right" }
                 // Default visual signal
@@ -68,7 +68,7 @@ struct StepIllustrationMapper {
             if words.contains("bed") || words.contains("insulation") || words.contains("sleep") { return "bed.double.fill" }
             
         case .water:
-            if words.contains("boil") || words.contains("heat") { return "flame.fill" }
+            if words.contains("boil") || words.contains("heat") { return "flame" }
             if words.contains("filter") || words.contains("strain") { return "line.3.horizontal.decrease.circle" }
             if words.contains("collect") || words.contains("rain") || words.contains("dew") { return "cloud.rain.fill" }
             if words.contains("dig") { return "hammer.fill" }
@@ -102,7 +102,7 @@ struct StepIllustrationMapper {
         
         // 5. Domain Default Icons
         switch domain {
-        case .fire: return "flame.fill"
+        case .fire: return "flame"
         case .water: return "drop.fill"
         case .shelter: return "tent.fill"
         case .food: return "fork.knife"
@@ -127,7 +127,7 @@ struct StepIllustrationMapper {
     /// Returns a default icon for the domain (used as fallback).
     static func defaultIcon(for domain: SurvivalDomain) -> String {
         switch domain {
-        case .fire: return "flame.fill"
+        case .fire: return "flame"
         case .water: return "drop.fill"
         case .shelter: return "tent.fill"
         case .food: return "fork.knife"
