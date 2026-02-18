@@ -438,6 +438,7 @@ struct EmergencySirenView: View {
                 .frame(width: 160, height: 160)
 
             // Static Icon
+            Image(systemName: "light.beacon.max.fill")
                 .font(.system(size: 64))
                 .foregroundStyle(manager.isPlaying ? .white : DesignSystem.textPrimary)
         }

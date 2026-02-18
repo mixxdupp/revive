@@ -1,0 +1,307 @@
+{
+    "domain": "firstAid",
+    "domainDisplayName": "First Aid (Supplemental)",
+    "techniques": [
+        {
+            "id": "firstaid-heat-exhaustion",
+            "name": "Heat Exhaustion",
+            "subtitle": "Cool down immediately to prevent heat stroke",
+            "category": "Environmental",
+            "difficulty": 1,
+            "estimatedTime": "30 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Move to a cooler area out of direct sunlight.",
+                    "helpDetail": "Find shade or air conditioning. Lay the person down and elevate legs slightly.",
+                    "illustrationDescription": "Moving to shade."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Remove excess clothing and apply cool water.",
+                    "helpDetail": "Spray with water or apply cool wet cloths to head, neck, and armpits. Fan the person.",
+                    "illustrationDescription": "Cooling measures."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Drink cool water or sports drinks slowly.",
+                    "helpDetail": "Sip, don't gulp. Rehydrate with electrolytes if possible.",
+                    "illustrationDescription": "Hydration."
+                },
+                {
+                    "stepNumber": 4,
+                    "instruction": "Monitor for heat stroke signs.",
+                    "helpDetail": "If vomiting, confusion, or loss of consciousness occurs, call emergency services immediately.",
+                    "illustrationDescription": "Monitoring."
+                }
+            ],
+            "sourceName": "Mayo Clinic",
+            "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heat-exhaustion/basics/art-20056651"
+        },
+        {
+            "id": "firstaid-heat-cramps",
+            "name": "Heat Cramps",
+            "subtitle": "Relieve painful muscle spasms",
+            "category": "Environmental",
+            "difficulty": 1,
+            "estimatedTime": "15 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Stop activity and rest in a cool place.",
+                    "helpDetail": "Do not return to strenuous activity for several hours after cramps subside.",
+                    "illustrationDescription": "Resting."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Drink fluids containing electrolytes.",
+                    "helpDetail": "Sports drinks or water with a pinch of salt. Cramps are often caused by salt loss.",
+                    "illustrationDescription": "Electrolytes."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Gently stretch and massage the cramped muscle.",
+                    "helpDetail": "Do not use force. Hold the stretch until the spasm releases.",
+                    "illustrationDescription": "Stretching."
+                }
+            ],
+            "sourceName": "Mayo Clinic",
+            "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heat-cramps/basics/art-20056669"
+        },
+        {
+            "id": "firstaid-sunburn",
+            "name": "Sunburn Treatment",
+            "subtitle": "Soothe skin and prevent damage",
+            "category": "Environmental",
+            "difficulty": 1,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Get out of the sun immediately.",
+                    "helpDetail": "Continuing exposure deepens the burn.",
+                    "illustrationDescription": "Seeking shade."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Cool the skin with a cool bath or damp cloth.",
+                    "helpDetail": "Do not scrub. Pat dry gently.",
+                    "illustrationDescription": "Cooling skin."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Apply aloe vera or moisturizing lotion.",
+                    "helpDetail": "Avoid petroleum jelly or oil-based products which trap heat.",
+                    "illustrationDescription": "Applying aloe."
+                },
+                {
+                    "stepNumber": 4,
+                    "instruction": "Hydrate heavily.",
+                    "helpDetail": "Sunburn draws fluid to the skin surface, dehydrating the rest of the body.",
+                    "illustrationDescription": "Drinking water."
+                }
+            ],
+            "sourceName": "Mayo Clinic",
+            "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sunburn/basics/art-20056643"
+        },
+        {
+            "id": "firstaid-dehydration",
+            "name": "Dehydration Response",
+            "subtitle": "Rehydrate safely and effectively",
+            "category": "Environmental",
+            "difficulty": 1,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Drink small amounts of fluid frequently.",
+                    "helpDetail": "Gulping can cause vomiting. Sip constantly.",
+                    "illustrationDescription": "Sipping water."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Check urine color.",
+                    "helpDetail": "Target pale yellow. Dark yellow or amber indicates severe dehydration.",
+                    "illustrationDescription": "Urine chart."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Use Oral Rehydration Solution (ORS).",
+                    "helpDetail": "Mix 6 tsp sugar and 1/2 tsp salt into 1 liter of clean water if commercial hydration salts aren't available.",
+                    "illustrationDescription": "Mixing ORS."
+                }
+            ],
+            "sourceName": "Mayo Clinic",
+            "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/dehydration/diagnosis-treatment/drc-20354092"
+        },
+        {
+            "id": "firstaid-scene-safety",
+            "name": "Scene Safety",
+            "subtitle": "Don't become a second victim",
+            "category": "Basics",
+            "difficulty": 1,
+            "estimatedTime": "1 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Stop and scan the area before approaching.",
+                    "helpDetail": "Look for hazards: fire, wire, gas, glass, drugs, thugs. (FWGGDT mnemonics).",
+                    "illustrationDescription": "Scanning scene."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Listen for danger.",
+                    "helpDetail": "Gunshots, screaming, collapsing structures, gas hissing.",
+                    "illustrationDescription": "Listening."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Ensure you have an exit route.",
+                    "helpDetail": "Never box yourself in. Know where you will run if the situation changes.",
+                    "illustrationDescription": "Planning exit."
+                }
+            ],
+            "sourceName": "Red Cross",
+            "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
+        },
+        {
+            "id": "firstaid-decon",
+            "name": "Emergency Decontamination",
+            "subtitle": "Remove hazardous substances from skin",
+            "category": "Hazmat",
+            "difficulty": 2,
+            "estimatedTime": "15 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Remove contaminated clothing carefully.",
+                    "helpDetail": "Cut clothing off rather than pulling over the head to avoid face contact. 80-90% of contamination is on clothing.",
+                    "illustrationDescription": "Cutting clothes."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Wash with large amounts of lukewarm water.",
+                    "helpDetail": "Flush for at least 15 minutes. Use soap if available. Do not scrub hard (avoids abrasion allowing absorption).",
+                    "illustrationDescription": "Flushing water."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Move away from the contaminated area.",
+                    "helpDetail": "Stay upwind and uphill.",
+                    "illustrationDescription": "Moving away."
+                }
+            ],
+            "sourceName": "CDC",
+            "sourceUrl": "https://www.cdc.gov/cpr/infographics/00_images/decontamination.png"
+        },
+        {
+            "id": "firstaid-heatstroke",
+            "name": "Heat Stroke",
+            "subtitle": "Life-threatening medical emergency",
+            "category": "Environmental",
+            "difficulty": 2,
+            "estimatedTime": "Immediate",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Call emergency services immediately.",
+                    "helpDetail": "Heat stroke is fatal if untreated. Look for confusion, hot dry skin, and unconsciousness.",
+                    "illustrationDescription": "Calling for help."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Cool the person rapidly.",
+                    "helpDetail": "Immerse in cold water if possible. Place ice packs on neck, armpits, and groin.",
+                    "illustrationDescription": "Rapid cooling."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Do NOT give fluids if unconscious.",
+                    "helpDetail": "This is a choking hazard. Focus on external cooling.",
+                    "illustrationDescription": "No fluids."
+                }
+            ],
+            "sourceName": "Mayo Clinic",
+            "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/heat-stroke/diagnosis-treatment/drc-20353587"
+        },
+        {
+            "id": "firstaid-burn-treat",
+            "name": "Severe Burn Treatment",
+            "subtitle": "Care for 2nd and 3rd degree burns",
+            "category": "Trauma",
+            "difficulty": 2,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Stop the burning process.",
+                    "helpDetail": "Douse with cool water. Remove smoldering clothing unless stuck to skin.",
+                    "illustrationDescription": "Stopping burn."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Cover loosely with sterile, non-stick bandage.",
+                    "helpDetail": "Do not break blisters. Do not apply ice directly (causes tissue damage).",
+                    "illustrationDescription": "Covering burn."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Treat for shock.",
+                    "helpDetail": "Elevate feet and keep warm. Monitor breathing.",
+                    "illustrationDescription": "Treating shock."
+                }
+            ],
+            "sourceName": "Red Cross",
+            "sourceUrl": "https://www.redcross.org/take-a-class/first-aid/performing-first-aid/burns"
+        },
+        {
+            "id": "firstaid-chem-burn",
+            "name": "Chemical Burn",
+            "subtitle": "Neutralize and flush chemicals",
+            "category": "Hazmat",
+            "difficulty": 2,
+            "estimatedTime": "20 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Brush off dry chemicals before wetting.",
+                    "helpDetail": "Water can activate some dry chemicals. Brush away from face.",
+                    "illustrationDescription": "Brushing powder."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Flush with water for at least 20 minutes.",
+                    "helpDetail": "Use low pressure. Ensure runoff does not touch unaffected skin.",
+                    "illustrationDescription": "Flushing wound."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Remove contaminated clothing/jewelry.",
+                    "helpDetail": "Chemicals can stay in fabric and continue burning.",
+                    "illustrationDescription": "Removing contamination."
+                }
+            ],
+            "sourceName": "Mayo Clinic",
+            "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-chemical-burns/basics/art-20056667"
+        }
+    ],
+    "articles": []
+}

@@ -1,0 +1,253 @@
+{
+  "domain": "firstAid",
+  "domainDisplayName": "First Aid",
+  "techniques": [
+    {
+      "id": "firstaid-infection-management",
+      "name": "Wound Infection Management",
+      "subtitle": "Recognize and treat infected wounds in the field",
+      "category": "Medical",
+      "difficulty": 3,
+      "estimatedTime": "30 min + ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize infection: redness spreading from wound, warmth, swelling, pus, red streaks.",
+          "helpDetail": "Red streaks extending from the wound toward the body's core indicate lymphangitis — the infection is spreading to the bloodstream. This is a critical emergency. Fever with wound = systemic infection.",
+          "illustrationDescription": "Infection warning signs."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Reopen and flush the wound with clean water — at least 1 liter under pressure.",
+          "helpDetail": "Use a water bottle with a pin-hole to create a pressure stream. Flush deep into the wound. Remove any debris or dead tissue with sterilized tweezers. This is painful but essential.",
+          "illustrationDescription": "Flushing wound."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply a warm, wet compress to draw out infection.",
+          "helpDetail": "Soak cloth in warm (not boiling) water. Apply to wound for 20 minutes, 4x daily. Warmth increases blood flow which brings white blood cells. Change dressing after each application.",
+          "illustrationDescription": "Warm compress."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Apply natural antiseptics if no medical supplies available.",
+          "helpDetail": "Raw honey is a proven antibacterial — pack wound with it. Garlic paste has antibacterial properties. Pine resin (softened) has been used for millennia. Charcoal poultice draws toxins.",
+          "illustrationDescription": "Natural antiseptics."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Elevate the infected limb and keep the person hydrated.",
+          "helpDetail": "Elevation reduces swelling. Hydration supports immune response. Mark the boundary of redness with a pen/marker — if it expands, infection is advancing. Evacuation becomes critical.",
+          "illustrationDescription": "Elevation and tracking."
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+    },
+    {
+      "id": "firstaid-rib-fracture",
+      "name": "Rib Fracture Management",
+      "subtitle": "Stabilize and manage broken rib pain",
+      "category": "Medical",
+      "difficulty": 2,
+      "estimatedTime": "15 min + ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Confirm rib fracture: point tenderness on ribs, pain worse with breathing/coughing.",
+          "helpDetail": "Gently press each rib. Sharp pain at one point = likely fracture. If pain is on BOTH sides or across multiple ribs, suspect flail chest (medical emergency requiring evacuation).",
+          "illustrationDescription": "Palpating ribs."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "DO NOT wrap or bind the chest tightly.",
+          "helpDetail": "Old advice was to wrap ribs. This restricts breathing and causes pneumonia. Instead, support the injured side by holding a pillow or folded clothing against it when coughing.",
+          "illustrationDescription": "No wrapping chest."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Practice deep breathing exercises every hour despite the pain.",
+          "helpDetail": "Shallow breathing from pain leads to pneumonia — the #1 complication of rib fractures. Take 10 deep breaths every hour. Hold a pillow against the injured side for support.",
+          "illustrationDescription": "Deep breathing with support."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Position for sleep: sleep on the INJURED side.",
+          "helpDetail": "This seems counterintuitive but sleeping on the injured side splints the fracture naturally and allows the uninjured lung to expand fully. Use padding for comfort.",
+          "illustrationDescription": "Sleeping on injured side."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Monitor for pneumothorax: sudden worsening, one-sided chest expansion.",
+          "helpDetail": "If a broken rib punctures the lung: sudden severe shortness of breath, one side of chest doesn't move with breathing, crackling sensation under the skin. EMERGENCY — position sitting upright, evacuate.",
+          "illustrationDescription": "Pneumothorax signs."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+    },
+    {
+      "id": "firstaid-dental-emergency",
+      "name": "Dental Emergency (Field)",
+      "subtitle": "Manage tooth injury when no dentist is available",
+      "category": "Medical",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Knocked-out tooth: hold by crown (white part), NEVER by root.",
+          "helpDetail": "If the tooth is whole and clean, try to reimplant it immediately — push it back into the socket and bite on cloth. If dirty, rinse briefly with milk (not water). Reimplanted within 30 min has best chance.",
+          "illustrationDescription": "Holding tooth by crown."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Broken tooth: cover sharp edges with wax, gum, or clay.",
+          "helpDetail": "Sharp tooth edges cut the tongue and cheeks. Smooth with fine stone if possible. Pine resin softened with warmth can coat exposed nerve to reduce pain.",
+          "illustrationDescription": "Covering sharp edge."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Toothache: pack clove or garlic against the affected tooth.",
+          "helpDetail": "Clove oil (eugenol) is used professionally as dental anesthetic. Crush clove and pack against tooth. Garlic has antibacterial properties. Salt water rinse reduces bacteria.",
+          "illustrationDescription": "Clove application."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Prevent infection: rinse with warm salt water every 2 hours.",
+          "helpDetail": "Dental infections can spread to the jaw bone (osteomyelitis) or bloodstream (sepsis). Any swelling, fever, or pus requires immediate attention. Maintain oral hygiene even in survival situations.",
+          "illustrationDescription": "Salt water rinse."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "firstaid-trench-foot",
+      "name": "Trench Foot Prevention & Treatment",
+      "subtitle": "Wet feet in cold conditions can disable you",
+      "category": "Medical",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize early trench foot: tingling, numbness, itching, pale/blue feet.",
+          "helpDetail": "Trench foot occurs from prolonged exposure to wet, cold conditions (not necessarily freezing). Can develop in as little as 12 hours of wet feet. Acting early prevents permanent damage.",
+          "illustrationDescription": "Early signs."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Remove wet socks and boots. Air-dry feet thoroughly.",
+          "helpDetail": "Elevate feet and expose to air. Do NOT rub or massage — damaged tissues are fragile. Do NOT use direct heat (fire) — numbness means you'll burn without feeling it.",
+          "illustrationDescription": "Drying feet elevated."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Dry feet thoroughly, put on dry socks. Rotate sock pairs daily.",
+          "helpDetail": "Carry a spare pair of socks inside your clothing (body heat dries them). Change socks at least twice daily. Stuffing dry grass inside boots provides insulation and absorbs moisture.",
+          "illustrationDescription": "Dry sock rotation."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Waterproof your footwear: use plastic bags inside boots as liner.",
+          "helpDetail": "Bread bags, ziplock bags, or any plastic between sock and boot exterior keeps feet dry. Apply animal fat or pine resin to boot seams for waterproofing.",
+          "illustrationDescription": "Plastic bag liner trick."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "firstaid-choking-response",
+      "name": "Choking Response (Complete Guide)",
+      "subtitle": "Clear blocked airway — adult and child techniques",
+      "category": "Medical",
+      "difficulty": 2,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Assess: can they cough, speak, or breathe? If yes — encourage coughing.",
+          "helpDetail": "A person who can cough forcefully has a partial obstruction. Do NOT intervene with back blows yet — their own coughing is more effective. Stand ready. If coughing weakens or stops, proceed to step 2.",
+          "illustrationDescription": "Assessing choking victim."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Give 5 sharp back blows between the shoulder blades with heel of your hand.",
+          "helpDetail": "Support their chest with one hand, lean them forward. Strike firmly between the shoulder blades. Each blow should be a separate attempt to dislodge the object. Check mouth after each blow.",
+          "illustrationDescription": "Back blows technique."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If back blows fail: 5 abdominal thrusts (Heimlich maneuver).",
+          "helpDetail": "Stand behind them. Make a fist, place above navel below ribcage. Grasp fist with other hand. Pull sharply inward and upward. Each thrust should be forceful and deliberate.",
+          "illustrationDescription": "Heimlich maneuver."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Alternate: 5 back blows, then 5 abdominal thrusts until cleared.",
+          "helpDetail": "If victim becomes unconscious: lower to ground, begin CPR. Each time you open the airway to give breaths, look in the mouth for the object. If visible, sweep it out with a finger.",
+          "illustrationDescription": "CPR for unconscious choking."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "For infants: 5 back blows with baby face-down on your forearm, then 5 chest thrusts.",
+          "helpDetail": "Support the head, lay face-down on your forearm (head lower than body). Strike between shoulder blades with heel of hand. Flip over and give 5 chest thrusts with 2 fingers on the sternum. NEVER do abdominal thrusts on infants.",
+          "illustrationDescription": "Infant choking response."
+        }
+      ],
+      "sourceName": "Red Cross",
+      "sourceUrl": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/choking.html"
+    },
+    {
+      "id": "firstaid-eye-injury",
+      "name": "Eye Injury (Field Treatment)",
+      "subtitle": "Protect vision when medical help is far away",
+      "category": "Medical",
+      "difficulty": 3,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Foreign object: flush eye with clean water for 15+ minutes.",
+          "helpDetail": "Tilt head so affected eye is down. Pour water across from inner corner (nose side) to outer corner. Do NOT rub the eye — this can embed particles deeper. Blink repeatedly underwater if near a clean water source.",
+          "illustrationDescription": "Flushing eye."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Impaled object: DO NOT REMOVE IT. Stabilize in place.",
+          "helpDetail": "Build a protective cup around the object (bottom of a cup, rolled cloth) and tape it in place. Cover BOTH eyes — both eyes move together, and movement of the uninjured eye moves the injured one. Evacuate immediately.",
+          "illustrationDescription": "Stabilizing impaled object."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Chemical exposure: flush continuously for 20+ minutes.",
+          "helpDetail": "For acids or alkali: immediate, prolonged flushing is critical. Alkali burns are worse than acid — they penetrate deeper. Do not try to neutralize chemicals. Just flush with water.",
+          "illustrationDescription": "Chemical flush."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Snow blindness: patch both eyes with dark cloth for 24 hours.",
+          "helpDetail": "Snow blindness is UV sunburn on the cornea. Extremely painful but usually temporary (24-48 hours). Keep eyes closed and covered. Cold wet cloth can soothe. Prevent with improvised goggles (slit in bark or tape).",
+          "illustrationDescription": "Eye patching."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    }
+  ],
+  "articles": []
+}

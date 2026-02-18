@@ -36,7 +36,9 @@
           "helpDetail": "Use peanut butter, berries, seeds, or meat scraps. Set on game trails. Check twice daily — trapped animals attract predators.",
           "illustrationDescription": "Baited trap set on trail."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-snare",
@@ -72,7 +74,9 @@
           "helpDetail": "One snare has maybe a 10% chance. Twelve snares give you a reasonable chance of catching something. Set and forget — check morning and evening.",
           "illustrationDescription": "Multiple snares placed."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "food-bird-trap",
@@ -108,7 +112,9 @@
           "helpDetail": "A rock weight pulling the snare tight ensures the bird can't escape. The weight also swings the bird off the perch.",
           "illustrationDescription": "Weight attached to snare line."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-fish-spear",
@@ -144,7 +150,9 @@
           "helpDetail": "Water bends light. The fish is actually 25% deeper than it looks. Aim at its shadow on the bottom if visible.",
           "illustrationDescription": "Aiming below apparent fish position."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "food-fish-trap",
@@ -180,7 +188,9 @@
           "helpDetail": "Fish swim upstream naturally and enter the funnel. Weight with rocks to keep in place. Check twice daily.",
           "illustrationDescription": "Trap set in stream."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-hook-line",
@@ -216,7 +226,9 @@
           "helpDetail": "Tie lines to overhanging branches with bait in the water. Check periodically. This is more efficient than active fishing.",
           "illustrationDescription": "Multiple passive fishing lines set."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-insect-eating",
@@ -252,7 +264,9 @@
           "helpDetail": "100g of crickets has more protein than 100g of beef. But you need to eat a LOT. Set light traps at night or shake them from vegetation in the morning when cold.",
           "illustrationDescription": "Collecting insects in quantity."
         }
-      ]
+      ],
+      "sourceName": "Peterson Field Guide – Edible Wild Plants",
+      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
     },
     {
       "id": "food-universal-edibility",
@@ -294,7 +308,9 @@
           "helpDetail": "If still no effects, the plant part is likely safe. This test takes 24+ hours. Do NOT shortcut. Poisoning in a survival situation can be fatal.",
           "illustrationDescription": "Eating small portion."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "food-common-edibles",
@@ -336,7 +352,9 @@
           "helpDetail": "Young leaves raw in salads. Older leaves cooked like spinach. Crushed leaf poultice for insect bites and stings.",
           "illustrationDescription": "Broadleaf plantain."
         }
-      ]
+      ],
+      "sourceName": "Peterson Field Guide – Edible Wild Plants",
+      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
     },
     {
       "id": "food-avoid-plants",
@@ -378,7 +396,9 @@
           "helpDetail": "Many deadly mushrooms look identical to edible ones. Amanita species kill 95% of people who eat them. No edibility test works for mushrooms. Experts only.",
           "illustrationDescription": "Mushroom warning."
         }
-      ]
+      ],
+      "sourceName": "Peterson Field Guide – Edible Wild Plants",
+      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
     },
     {
       "id": "food-cooking-fire",
@@ -414,7 +434,9 @@
           "helpDetail": "Banana leaves, burdock, grape leaves. Creates a steaming packet. Food cooks evenly and stays moist.",
           "illustrationDescription": "Leaf-wrapped food on coals."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-boiling-rocks",
@@ -450,7 +472,9 @@
           "helpDetail": "2-3 fist-sized rocks will boil 1 liter. Remove cooled rocks with sticks and add newly heated ones to maintain the boil.",
           "illustrationDescription": "Water boiling from hot rocks."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-preservation",
@@ -486,7 +510,9 @@
           "helpDetail": "Properly dried meat can last 2-4 weeks without refrigeration. Store in breathable cloth or bark containers. Mold means it's too moist.",
           "illustrationDescription": "Testing dried meat flexibility."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-pemmican",
@@ -522,7 +548,9 @@
           "helpDetail": "Pemmican stores for months at room temperature and years if kept cool. One pound provides 3,500 calories — a full day's rations.",
           "illustrationDescription": "Formed pemmican bars."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-crayfish",
@@ -552,7 +580,9 @@
           "helpDetail": "Never eat raw—parasites. Discard any dead before cooking.",
           "illustrationDescription": "Boiling crayfish."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-seaweed",
@@ -582,7 +612,9 @@
           "helpDetail": "Kelp, nori, dulse, sea lettuce all edible. Sun-dry for preservation.",
           "illustrationDescription": "Eating seaweed."
         }
-      ]
+      ],
+      "sourceName": "Peterson Field Guide – Edible Wild Plants",
+      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
     },
     {
       "id": "food-cattail",
@@ -618,7 +650,9 @@
           "helpDetail": "Mix with water for pancakes. Summer harvest only.",
           "illustrationDescription": "Cattail pollen."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-pine-tea",
@@ -654,7 +688,9 @@
           "helpDetail": "Also contains vitamin A. Pleasant forest taste.",
           "illustrationDescription": "Pine needle tea."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "food-smoking-meat",
@@ -690,7 +726,9 @@
           "helpDetail": "Properly smoked jerky lasts 2-4 weeks unrefrigerated.",
           "illustrationDescription": "Testing doneness."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "food-animal-skinning",
@@ -726,7 +764,9 @@
           "helpDetail": "Hindquarters = most meat. Backstrap along spine = best cut.",
           "illustrationDescription": "Butchering."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-shellfish",
@@ -762,7 +802,9 @@
           "helpDetail": "Paralytic shellfish poisoning is fatal. No field treatment.",
           "illustrationDescription": "Red tide warning."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-wild-onion",
@@ -798,7 +840,9 @@
           "helpDetail": "Bulb, leaves, flowers all edible. Roasting sweetens.",
           "illustrationDescription": "Eating."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-frog-catching",
@@ -834,7 +878,9 @@
           "helpDetail": "Skin may have irritants. Legs are the meat. Taste like chicken.",
           "illustrationDescription": "Preparing."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-pine-bark-flour",
@@ -864,7 +910,9 @@
           "helpDetail": "Dried pine bark flour contains 500-600 calories per 100g. It can be eaten raw, boiled into porridge, or mixed with other flours. It kept Scandinavian populations alive through famine.",
           "illustrationDescription": "Making pine flour."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-cattail-harvest",
@@ -900,7 +948,9 @@
           "helpDetail": "Wash and peel the roots. The starchy core can be eaten raw, boiled, or dried and ground to flour. Rhizomes are the highest calorie part of the plant.",
           "illustrationDescription": "Harvesting roots."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-crayfish-trap",
@@ -936,7 +986,9 @@
           "helpDetail": "MUST be cooked — crayfish carry parasites when raw. Twist the tail from the body, peel the shell, eat the meat.",
           "illustrationDescription": "Cooking crayfish."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-bird-snare-ojibwe",
@@ -972,7 +1024,9 @@
           "helpDetail": "Set multiple snares in a line for better odds. Check every few hours.",
           "illustrationDescription": "Baiting snare."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-pemmican-making",
@@ -1008,7 +1062,9 @@
           "helpDetail": "Pemmican is the most calorie-dense survival food: 3,000+ calories per pound. Keeps for years if stored dry.",
           "illustrationDescription": "Forming pemmican bars."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-jerky-no-salt",
@@ -1044,7 +1100,9 @@
           "helpDetail": "Takes 6-12 hours over smoke. Without salt, keeps 1-2 weeks. Eat it fast or make pemmican.",
           "illustrationDescription": "Testing dryness."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-mushroom-safety",
@@ -1074,7 +1132,9 @@
           "helpDetail": "Most mushrooms are low in calories (20-30 cal per cup). A misidentification can cause liver failure and death. The risk/reward ratio is terrible. Focus caloric foraging on plants, insects, and animals instead.",
           "illustrationDescription": "Risk assessment."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-seaweed-harvesting",
@@ -1104,7 +1164,9 @@
           "helpDetail": "Blue-green algae looks like green paint in water. It produces neurotoxins and liver toxins. Real seaweed is brown, green, or red and has a plant-like structure. If it looks like scum or slime, avoid it.",
           "illustrationDescription": "Algae warning."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-pine-needle-tea",
@@ -1134,7 +1196,9 @@
           "helpDetail": "Pine needle tea prevents scurvy and provides immune support. Pleasant, mild taste. Can be re-steeped 2-3 times. Also works cold-steeped overnight. The inner bark is also edible and calorie-dense.",
           "illustrationDescription": "Drinking tea."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-acorn-processing",
@@ -1164,7 +1228,9 @@
           "helpDetail": "Dried acorn flour can be used for flatbread, porridge, or thickening. 100g of acorn flour = 500+ calories. Acorns were a staple food for indigenous peoples worldwide. An oak tree produces 10,000-20,000 acorns per year.",
           "illustrationDescription": "Making flour."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "food-bird-snare",
@@ -1194,7 +1260,9 @@
           "helpDetail": "Pluck feathers while still warm (easier). Gut immediately. Small birds can be roasted whole on a spit. All birds are edible — there are no poisonous birds (though some taste terrible). Cook thoroughly for food safety.",
           "illustrationDescription": "Processing catch."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-small-game-cleaning",
@@ -1224,7 +1292,9 @@
           "helpDetail": "For rabbits: cut around all four feet. Cut from foot to belly cut on each leg. Pull skin off like peeling a banana. Rinse carcass with clean water. Cook thoroughly — all wild game must be fully cooked.",
           "illustrationDescription": "Skinning."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-fish-spearing",
@@ -1254,7 +1324,9 @@
           "helpDetail": "Light bends at the water surface, making the fish appear higher than it actually is. Aim at the bottom of the fish's shadow, not the fish itself. Thrust quickly and pin against the bottom.",
           "illustrationDescription": "Spearing technique."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-crayfish-trapping",
@@ -1284,7 +1356,9 @@
           "helpDetail": "Do NOT eat dead crayfish (toxin buildup). Twist tail from body, peel shell, eat tail meat. Claw meat is also edible on larger specimens. 100g of crayfish = 80 calories and 16g protein.",
           "illustrationDescription": "Cooking crayfish."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-grub-finding",
@@ -1314,7 +1388,9 @@
           "helpDetail": "Roasted grubs taste nutty and buttery. A single large grub can contain 50+ calories — mostly fat and protein. 10 large grubs = a small meal. Can also be dried for storage.",
           "illustrationDescription": "Cooking grubs."
         }
-      ]
+      ],
+      "sourceName": "CDC – Insect-Borne Diseases",
+      "sourceUrl": "https://www.cdc.gov/niosh/topics/outdoor/"
     },
     {
       "id": "food-bone-broth",
@@ -1344,7 +1420,9 @@
           "helpDetail": "The fat floating on top is pure energy. Save it for cooking other foods. The broth provides minerals, electrolytes, and gelatin. Bones can be reboiled 2-3 times for diminishing but real returns.",
           "illustrationDescription": "Consuming broth."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-wild-garlic",
@@ -1374,7 +1452,9 @@
           "helpDetail": "All parts are edible: bulbs, leaves, flowers. Excellent addition to bland survival food. Contains vitamin C, selenium, and has antimicrobial properties. Dry and crush leaves for seasoning that stores well.",
           "illustrationDescription": "Using wild alliums."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "food-dandelion",
@@ -1404,7 +1484,9 @@
           "helpDetail": "Dandelion greens contain more vitamin A than carrots, more iron than spinach, and more calcium than milk per gram. Harvest away from roads (lead contamination) and lawns (herbicides).",
           "illustrationDescription": "Nutritional value."
         }
-      ]
+      ],
+      "sourceName": "Peterson Field Guide – Edible Wild Plants",
+      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
     },
     {
       "id": "food-clay-pot-cooking",
@@ -1434,7 +1516,9 @@
           "helpDetail": "Fast drying causes cracking. Place near fire for gentle drying first. Then bury in hot coals for 2-3 hours. Let cool slowly in the ashes. The pot will be fragile but functional for boiling water and cooking stews.",
           "illustrationDescription": "Firing pot."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "food-earth-oven",
@@ -1464,7 +1548,9 @@
           "helpDetail": "Seal edges with packed dirt so steam can't escape. This method slow-cooks everything evenly. Root vegetables become soft and sweet. Meat falls off the bone. Can cook for a large group efficiently.",
           "illustrationDescription": "Covering and waiting."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-rationing",
@@ -1494,7 +1580,9 @@
           "helpDetail": "Eat before heavy exertion (hiking/building) or before sleep (to stay warm). Don't graze all day.",
           "illustrationDescription": "Timed eating."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "food-wild-fruit",
@@ -1536,7 +1624,9 @@
           "helpDetail": "If no rash, burning, or numbness, place a small amount on your lip. Wait 15 minutes. Then on tongue. Wait 15 minutes. Then chew and spit. If no reaction after 8 hours, eat a small amount.",
           "illustrationDescription": "Skin contact test."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     }
   ],
   "articles": [

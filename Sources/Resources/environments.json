@@ -15,12 +15,12 @@
         {
           "stepNumber": 1,
           "instruction": "Travel only at night or during dawn/dusk.",
-          "helpDetail": "Midday desert temps can exceed 130\u00b0F at ground level. You'll lose 1-2 quarts of sweat per hour walking in heat. At night, temps drop 30-50\u00b0F.",
+          "helpDetail": "Midday desert temps can exceed 130°F at ground level. You'll lose 1-2 quarts of sweat per hour walking in heat. At night, temps drop 30-50°F.",
           "illustrationDescription": "Night travel timeline."
         },
         {
           "stepNumber": 2,
-          "instruction": "Stay covered \u2014 loose, light-colored clothing covering all skin.",
+          "instruction": "Stay covered — loose, light-colored clothing covering all skin.",
           "helpDetail": "Exposed skin in direct sun dehydrates faster than covered skin. Arabic robes exist for a reason. Cover your head and neck.",
           "illustrationDescription": "Proper desert clothing."
         },
@@ -36,7 +36,9 @@
           "helpDetail": "Desert survival without water: 2-3 days walking, 5-7 days resting in shade. Your water goes in you, not on you.",
           "illustrationDescription": "Water management."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-desert-shelter",
@@ -51,13 +53,13 @@
         {
           "stepNumber": 1,
           "instruction": "Create a double-layer shade with 12-inch air gap.",
-          "helpDetail": "Two layers of material (tarp over tarp) with an air gap between them reduces ground-level temperature by 30-40\u00b0F.",
+          "helpDetail": "Two layers of material (tarp over tarp) with an air gap between them reduces ground-level temperature by 30-40°F.",
           "illustrationDescription": "Double-layer shade."
         },
         {
           "stepNumber": 2,
           "instruction": "Raise the shelter 18 inches off the ground.",
-          "helpDetail": "Ground surface temperature can be 30\u00b0F hotter than air 18 inches up. A raised platform or elevated tarp helps.",
+          "helpDetail": "Ground surface temperature can be 30°F hotter than air 18 inches up. A raised platform or elevated tarp helps.",
           "illustrationDescription": "Raised shelter."
         },
         {
@@ -69,10 +71,12 @@
         {
           "stepNumber": 4,
           "instruction": "If no materials: dig a trench and cover with any available material.",
-          "helpDetail": "Dig 2 feet deep \u2014 subterranean temps are significantly cooler. Cover for shade. Even a backpack propped up provides head shade.",
+          "helpDetail": "Dig 2 feet deep — subterranean temps are significantly cooler. Cover for shade. Even a backpack propped up provides head shade.",
           "illustrationDescription": "Trench shelter."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-desert-water",
@@ -86,7 +90,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Look for green vegetation \u2014 especially cottonwood, willow, and palm.",
+          "instruction": "Look for green vegetation — especially cottonwood, willow, and palm.",
           "helpDetail": "These trees require consistent water. Their roots reach groundwater. Dig at the base of these trees.",
           "illustrationDescription": "Green vegetation in desert."
         },
@@ -98,7 +102,7 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Watch for birds (especially doves) at dusk \u2014 they fly toward water.",
+          "instruction": "Watch for birds (especially doves) at dusk — they fly toward water.",
           "helpDetail": "Grain-eating birds need daily water. At dusk they fly in straight lines to water sources. Follow their direction.",
           "illustrationDescription": "Birds flying toward water."
         },
@@ -108,7 +112,9 @@
           "helpDetail": "Tinajas (natural rock pools) can hold water for weeks after rain. Check shaded depressions in rock.",
           "illustrationDescription": "Rock crevice water."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-jungle-travel",
@@ -122,29 +128,31 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Follow streams downstream \u2014 they lead to rivers, rivers lead to people.",
+          "instruction": "Follow streams downstream — they lead to rivers, rivers lead to people.",
           "helpDetail": "99% of tropical settlements are on waterways. Walking along a stream also ensures water access.",
           "illustrationDescription": "Following stream."
         },
         {
           "stepNumber": 2,
-          "instruction": "Travel on ridgelines when possible \u2014 less vegetation, better visibility.",
+          "instruction": "Travel on ridgelines when possible — less vegetation, better visibility.",
           "helpDetail": "Valley floors have the densest vegetation. Ridges are drier and sparser. Navigation is easier with visibility.",
           "illustrationDescription": "Ridgeline travel."
         },
         {
           "stepNumber": 3,
-          "instruction": "Mark your path \u2014 the jungle looks identical in every direction.",
+          "instruction": "Mark your path — the jungle looks identical in every direction.",
           "helpDetail": "Blaze trees (cut bark), break branches, tie cloth. Without markers you will loop back to where you started.",
           "illustrationDescription": "Marking trail."
         },
         {
           "stepNumber": 4,
-          "instruction": "Watch your feet and where you grab \u2014 snakes and insects are everywhere.",
+          "instruction": "Watch your feet and where you grab — snakes and insects are everywhere.",
           "helpDetail": "Never put hands or feet where you can't see. Probe ahead with a stick. Shake out boots and clothing before wearing.",
           "illustrationDescription": "Watching for hazards."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "env-jungle-water",
@@ -159,7 +167,7 @@
         {
           "stepNumber": 1,
           "instruction": "Bamboo segments hold clean water between nodes.",
-          "helpDetail": "Shake green bamboo \u2014 if you hear sloshing, it contains water. Cut a small hole to access. This water is usually potable.",
+          "helpDetail": "Shake green bamboo — if you hear sloshing, it contains water. Cut a small hole to access. This water is usually potable.",
           "illustrationDescription": "Bamboo water."
         },
         {
@@ -170,17 +178,19 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Collect rainwater from large leaves \u2014 banana leaves are ideal.",
+          "instruction": "Collect rainwater from large leaves — banana leaves are ideal.",
           "helpDetail": "Tropical rainfall is frequent and heavy. Channel large leaves into containers. Rain is the safest water source.",
           "illustrationDescription": "Leaf water collection."
         },
         {
           "stepNumber": 4,
-          "instruction": "Still purify stream water \u2014 jungle water carries parasites.",
+          "instruction": "Still purify stream water — jungle water carries parasites.",
           "helpDetail": "Tropical waterways have the highest parasite load on Earth. Schistosomiasis from skin contact alone. Boil everything.",
           "illustrationDescription": "Water purification reminder."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-jungle-shelter",
@@ -201,13 +211,13 @@
         {
           "stepNumber": 2,
           "instruction": "Use poncho or tarp as a rain fly above your sleeping area.",
-          "helpDetail": "It rains daily in the tropics. An overhead cover is critical. Angle it for runoff \u2014 water pooling causes collapse.",
+          "helpDetail": "It rains daily in the tropics. An overhead cover is critical. Angle it for runoff — water pooling causes collapse.",
           "illustrationDescription": "Rain fly above elevated bed."
         },
         {
           "stepNumber": 3,
           "instruction": "Tuck mosquito netting under your sleeping surface.",
-          "helpDetail": "Malaria, dengue, Zika \u2014 all transmitted by night-biting mosquitoes. A net is possibly the single most important piece of jungle survival gear.",
+          "helpDetail": "Malaria, dengue, Zika — all transmitted by night-biting mosquitoes. A net is possibly the single most important piece of jungle survival gear.",
           "illustrationDescription": "Mosquito net setup."
         },
         {
@@ -216,12 +226,14 @@
           "helpDetail": "Green wood and damp leaves create smoke. Keep the fire small and smoky. The smoke deters mosquitoes within a 10-foot radius.",
           "illustrationDescription": "Smudge fire for insects."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-arctic-shelter",
       "name": "Snow Shelter (Quinzhee)",
-      "subtitle": "Pile, settle, hollow \u2014 warmer than outside",
+      "subtitle": "Pile, settle, hollow — warmer than outside",
       "category": "Arctic",
       "difficulty": 2,
       "estimatedTime": "2 hours",
@@ -237,7 +249,7 @@
         {
           "stepNumber": 2,
           "instruction": "Let the mound settle for 1-2 hours (sintering).",
-          "helpDetail": "Snow crystals bond together. This makes the structure strong enough to hollow out without collapsing. Critical step \u2014 don't skip.",
+          "helpDetail": "Snow crystals bond together. This makes the structure strong enough to hollow out without collapsing. Critical step — don't skip.",
           "illustrationDescription": "Snow sintering."
         },
         {
@@ -249,7 +261,7 @@
         {
           "stepNumber": 4,
           "instruction": "Hollow from a low entrance upward. Sleep platform above entrance.",
-          "helpDetail": "Cold air sinks. The entrance should be below the sleeping platform. Interior temp stays near 32\u00b0F even when it's -40\u00b0F outside.",
+          "helpDetail": "Cold air sinks. The entrance should be below the sleeping platform. Interior temp stays near 32°F even when it's -40°F outside.",
           "illustrationDescription": "Hollowed interior."
         },
         {
@@ -258,7 +270,9 @@
           "helpDetail": "Carbon dioxide from breathing accumulates. Without ventilation, you'll suffocate. Check the hole isn't blocked by new snowfall.",
           "illustrationDescription": "Ventilation hole."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-arctic-travel",
@@ -285,7 +299,7 @@
         {
           "stepNumber": 3,
           "instruction": "Use snowshoes or improvised floatation to prevent post-holing.",
-          "helpDetail": "Walking through deep snow without snowshoes burns 3\u00d7 the calorie. Tie evergreen branches to feet for improvised snowshoes.",
+          "helpDetail": "Walking through deep snow without snowshoes burns 3× the calorie. Tie evergreen branches to feet for improvised snowshoes.",
           "illustrationDescription": "Improvised snowshoes."
         },
         {
@@ -294,12 +308,14 @@
           "helpDetail": "Clear blue ice = strong. White/opaque ice = weaker (air bubbles). Snow masks thin spots. Near inlets/outlets ice is always thinner.",
           "illustrationDescription": "Ice safety assessment."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-arctic-frostbite",
       "name": "Frostbite Prevention & Treatment",
-      "subtitle": "Frozen tissue dies \u2014 prevent at all costs",
+      "subtitle": "Frozen tissue dies — prevent at all costs",
       "category": "Arctic",
       "difficulty": 2,
       "estimatedTime": "30 min",
@@ -309,7 +325,7 @@
         {
           "stepNumber": 1,
           "instruction": "Recognize: white/gray waxy skin, numbness, hardness.",
-          "helpDetail": "Frostbite progresses: frostnip (red, painful) \u2192 superficial (blistered, numb) \u2192 deep (hard, frozen solid). Early stages are fully reversible.",
+          "helpDetail": "Frostbite progresses: frostnip (red, painful) → superficial (blistered, numb) → deep (hard, frozen solid). Early stages are fully reversible.",
           "illustrationDescription": "Frostbite stages."
         },
         {
@@ -320,8 +336,8 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "If possible, rewarm in 98-102\u00b0F water for 20-30 minutes.",
-          "helpDetail": "NOT hot water \u2014 lukewarm. Rewarming is extremely painful. Give pain medication first if available. Do NOT rub or massage.",
+          "instruction": "If possible, rewarm in 98-102°F water for 20-30 minutes.",
+          "helpDetail": "NOT hot water — lukewarm. Rewarming is extremely painful. Give pain medication first if available. Do NOT rub or massage.",
           "illustrationDescription": "Warm water rewarming."
         },
         {
@@ -330,7 +346,9 @@
           "helpDetail": "Thawed-then-refrozen tissue suffers far worse damage than tissue left frozen. If you can't maintain warmth, leave it frozen until you reach help.",
           "illustrationDescription": "Warning: no refreeze."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-mountain-lightning",
@@ -366,7 +384,9 @@
           "helpDetail": "Ground current from a nearby strike can hit everyone if huddled together. Spread out so a single strike doesn't incapacitate all members.",
           "illustrationDescription": "Group separation."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Lightning Safety",
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "env-mountain-altitude",
@@ -392,17 +412,19 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Hydrate aggressively \u2014 3-4 liters per day at altitude.",
+          "instruction": "Hydrate aggressively — 3-4 liters per day at altitude.",
           "helpDetail": "Altitude increases fluid loss through respiration (drier air, faster breathing). Dehydration worsens altitude sickness.",
           "illustrationDescription": "Hydration at altitude."
         },
         {
           "stepNumber": 4,
           "instruction": "Golden rule: if symptoms worsen, descend immediately.",
-          "helpDetail": "AMS \u2192 HACE or HAPE can progress in hours. Altitude illness has one treatment: lower altitude. Everything else is a stopgap.",
+          "helpDetail": "AMS → HACE or HAPE can progress in hours. Altitude illness has one treatment: lower altitude. Everything else is a stopgap.",
           "illustrationDescription": "Descend when symptoms worsen."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "env-ocean-survival",
@@ -438,7 +460,9 @@
           "helpDetail": "Use any fabric, life raft surfaces, or clothing to channel rainwater into containers. Your survival depends entirely on fresh water.",
           "illustrationDescription": "Rain collection at sea."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Water Safety",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "env-flood-survival",
@@ -465,7 +489,7 @@
         {
           "stepNumber": 3,
           "instruction": "If swept away: float on your back, feet downstream.",
-          "helpDetail": "Use your feet to push off obstacles. Do NOT try to stand up in moving water \u2014 foot entrapment is a leading cause of drowning.",
+          "helpDetail": "Use your feet to push off obstacles. Do NOT try to stand up in moving water — foot entrapment is a leading cause of drowning.",
           "illustrationDescription": "Defensive swimming position."
         },
         {
@@ -474,7 +498,9 @@
           "helpDetail": "Flash floods can originate from storms miles away with no local rain. A dry wash can become a raging river in 15 minutes.",
           "illustrationDescription": "Dangerous camping locations."
         }
-      ]
+      ],
+      "sourceName": "FEMA – Flood Safety",
+      "sourceUrl": "https://www.ready.gov/floods"
     },
     {
       "id": "env-urban-disaster",
@@ -501,7 +527,7 @@
         {
           "stepNumber": 3,
           "instruction": "Building collapse: protect airways, tap on pipes to signal.",
-          "helpDetail": "Cover nose and mouth with fabric. Do not use matches (gas leaks). Tap SOS on pipes or walls \u2014 sound travels through structure. Conserve energy.",
+          "helpDetail": "Cover nose and mouth with fabric. Do not use matches (gas leaks). Tap SOS on pipes or walls — sound travels through structure. Conserve energy.",
           "illustrationDescription": "Signaling from rubble."
         },
         {
@@ -510,7 +536,9 @@
           "helpDetail": "Water supply may be disrupted. Fill every container. Stay away from windows. Identify multiple exit routes from your building.",
           "illustrationDescription": "Urban shelter in place."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-swamp-survival",
@@ -542,11 +570,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Water is abundant but contaminated\u2014always purify.",
+          "instruction": "Water is abundant but contaminated—always purify.",
           "helpDetail": "Boil, filter, or use tablets. Never drink swamp water untreated.",
           "illustrationDescription": "Purifying."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-coastal-tidal",
@@ -560,7 +590,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Learn tide cycle\u2014changes every ~6 hours.",
+          "instruction": "Learn tide cycle—changes every ~6 hours.",
           "helpDetail": "Note high water debris line on beach. Camp ABOVE it.",
           "illustrationDescription": "Tide awareness."
         },
@@ -573,21 +603,23 @@
         {
           "stepNumber": 3,
           "instruction": "Forage at low tide: tidal pools have shellfish, crabs, seaweed.",
-          "helpDetail": "Mussels, clams, limpets, snails\u2014all edible when cooked.",
+          "helpDetail": "Mussels, clams, limpets, snails—all edible when cooked.",
           "illustrationDescription": "Tidal foraging."
         },
         {
           "stepNumber": 4,
-          "instruction": "Signal from headlands\u2014most visible from sea and air.",
+          "instruction": "Signal from headlands—most visible from sea and air.",
           "helpDetail": "Build signal fires on high points. Lay SOS in rocks on beach.",
           "illustrationDescription": "Coastal signaling."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Water Safety",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "env-earthquake",
       "name": "Earthquake Survival",
-      "subtitle": "Drop, Cover, Hold On \u2014 then assess",
+      "subtitle": "Drop, Cover, Hold On — then assess",
       "category": "Disaster",
       "difficulty": 2,
       "estimatedTime": "5 min",
@@ -618,7 +650,9 @@
           "helpDetail": "Gas smell = leave immediately. No flames or switches.",
           "illustrationDescription": "Hazard check."
         }
-      ]
+      ],
+      "sourceName": "FEMA – Earthquake Safety",
+      "sourceUrl": "https://www.ready.gov/earthquakes"
     },
     {
       "id": "env-tornado",
@@ -654,7 +688,9 @@
           "helpDetail": "Do not outrun. Park, duck below windows, cover with blanket.",
           "illustrationDescription": "Vehicle."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Tornado Safety",
+      "sourceUrl": "https://www.weather.gov/safety/tornado"
     },
     {
       "id": "env-wildfire",
@@ -690,7 +726,9 @@
           "helpDetail": "Clear 10-foot radius. Lie face down. Breathe ground-level air.",
           "illustrationDescription": "Last resort."
         }
-      ]
+      ],
+      "sourceName": "NWCG – Wildfire Safety",
+      "sourceUrl": "https://www.nwcg.gov/"
     },
     {
       "id": "env-avalanche",
@@ -705,7 +743,7 @@
         {
           "stepNumber": 1,
           "instruction": "If caught: swim aggressively to stay on surface.",
-          "helpDetail": "Backstroke motion. Ditch heavy gear\u2014it drags you down.",
+          "helpDetail": "Backstroke motion. Ditch heavy gear—it drags you down.",
           "illustrationDescription": "Swimming."
         },
         {
@@ -722,16 +760,18 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Push one arm up. Stay calm \u2014 panic uses 3x oxygen.",
+          "instruction": "Push one arm up. Stay calm — panic uses 3x oxygen.",
           "helpDetail": "If near surface, hand may break through for rescuers.",
           "illustrationDescription": "Conserving."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-quicksand",
       "name": "Quicksand Escape",
-      "subtitle": "You will NOT sink completely \u2014 stay calm",
+      "subtitle": "You will NOT sink completely — stay calm",
       "category": "Swamp",
       "difficulty": 2,
       "estimatedTime": "15 min",
@@ -762,7 +802,9 @@
           "helpDetail": "Small movements. Pull at angle, not straight up. Slow wins.",
           "illustrationDescription": "Wiggle free."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "env-lightning",
@@ -798,7 +840,9 @@
           "helpDetail": "No charge remains. Check breathing and pulse immediately.",
           "illustrationDescription": "Helping victim."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Lightning Safety",
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "env-tsunami-response",
@@ -834,7 +878,9 @@
           "helpDetail": "The first wave is often NOT the largest. Waves can continue for 8-12 hours. Wait for official all-clear before returning to low ground.",
           "illustrationDescription": "Staying safe."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Tsunami Safety",
+      "sourceUrl": "https://www.tsunami.gov/"
     },
     {
       "id": "env-tornado-shelter",
@@ -870,7 +916,9 @@
           "helpDetail": "Do not enter damaged buildings. Smell for gas. Avoid downed wires. Check on neighbors, especially elderly and disabled individuals.",
           "illustrationDescription": "Post-tornado safety."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Tornado Safety",
+      "sourceUrl": "https://www.weather.gov/safety/tornado"
     },
     {
       "id": "env-wildfire-evac",
@@ -903,10 +951,12 @@
         {
           "stepNumber": 4,
           "instruction": "Cover exposed skin and breathe through a wet cloth.",
-          "helpDetail": "Radiant heat can burn skin without direct flame contact. A wet bandana over nose and mouth filters some smoke particles. Synthetic clothing melts \u2014 natural fibers are safer.",
+          "helpDetail": "Radiant heat can burn skin without direct flame contact. A wet bandana over nose and mouth filters some smoke particles. Synthetic clothing melts — natural fibers are safer.",
           "illustrationDescription": "Protecting from heat."
         }
-      ]
+      ],
+      "sourceName": "NWCG – Wildfire Safety",
+      "sourceUrl": "https://www.nwcg.gov/"
     },
     {
       "id": "env-earthquake-indoor",
@@ -921,7 +971,7 @@
         {
           "stepNumber": 1,
           "instruction": "DROP to your hands and knees immediately.",
-          "helpDetail": "This position prevents you from being knocked down by shaking. It also allows you to crawl to cover. Do NOT try to run outside \u2014 falling debris is the greatest danger.",
+          "helpDetail": "This position prevents you from being knocked down by shaking. It also allows you to crawl to cover. Do NOT try to run outside — falling debris is the greatest danger.",
           "illustrationDescription": "Dropping down."
         },
         {
@@ -942,7 +992,9 @@
           "helpDetail": "Use stairs, never elevators. Check for gas leaks. Be prepared for aftershocks. Turn off utilities if you suspect damage. Do not re-enter damaged buildings.",
           "illustrationDescription": "Safe exit."
         }
-      ]
+      ],
+      "sourceName": "FEMA – Earthquake Safety",
+      "sourceUrl": "https://www.ready.gov/earthquakes"
     },
     {
       "id": "env-earthquake-outdoor",
@@ -972,7 +1024,9 @@
           "helpDetail": "Avoid stopping under bridges, overpasses, or near buildings. The car provides protection from falling debris. Set the parking brake.",
           "illustrationDescription": "Vehicle response."
         }
-      ]
+      ],
+      "sourceName": "FEMA – Earthquake Safety",
+      "sourceUrl": "https://www.ready.gov/earthquakes"
     },
     {
       "id": "env-flash-flood-response",
@@ -987,7 +1041,7 @@
         {
           "stepNumber": 1,
           "instruction": "Move to higher ground immediately. Do not wait.",
-          "helpDetail": "Flash floods rise in minutes. Even 6 inches of fast-moving water can knock you down. Don't try to save belongings \u2014 save yourself.",
+          "helpDetail": "Flash floods rise in minutes. Even 6 inches of fast-moving water can knock you down. Don't try to save belongings — save yourself.",
           "illustrationDescription": "Moving to high ground."
         },
         {
@@ -1008,7 +1062,9 @@
           "helpDetail": "Standing floodwater contains sewage, chemicals, snakes, and may hide downed power lines or sinkholes. Contaminated water can cause serious illness.",
           "illustrationDescription": "Post-flood caution."
         }
-      ]
+      ],
+      "sourceName": "FEMA – Flood Safety",
+      "sourceUrl": "https://www.ready.gov/floods"
     },
     {
       "id": "env-lightning-position",
@@ -1038,7 +1094,9 @@
           "helpDetail": "This prevents a single strike from hitting multiple people via ground current. If someone is struck, others can provide aid immediately.",
           "illustrationDescription": "Group spacing."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Lightning Safety",
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "env-volcanic-ashfall",
@@ -1053,7 +1111,7 @@
         {
           "stepNumber": 1,
           "instruction": "Get indoors and seal windows and doors.",
-          "helpDetail": "Volcanic ash is not like wood ash \u2014 it's pulverized rock and glass. Breathing it causes severe lung damage. Seal gaps with wet towels or tape.",
+          "helpDetail": "Volcanic ash is not like wood ash — it's pulverized rock and glass. Breathing it causes severe lung damage. Seal gaps with wet towels or tape.",
           "illustrationDescription": "Sealing indoors."
         },
         {
@@ -1064,7 +1122,7 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Clear ash from roofs \u2014 wet ash can collapse structures.",
+          "instruction": "Clear ash from roofs — wet ash can collapse structures.",
           "helpDetail": "Volcanic ash is extremely heavy, especially when wet. As little as 4 inches of wet ash can collapse a roof. Remove it from the roof when safe to do so.",
           "illustrationDescription": "Clearing roofs."
         },
@@ -1074,7 +1132,9 @@
           "helpDetail": "Ash clogs air filters, abrades moving parts, and turns roads into slippery surfaces. Drive only if evacuating, at very low speed with lights on.",
           "illustrationDescription": "Vehicle hazards."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-jungle-movement",
@@ -1088,14 +1148,14 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Follow streams and rivers \u2014 they're natural highways in dense jungle.",
+          "instruction": "Follow streams and rivers — they're natural highways in dense jungle.",
           "helpDetail": "Dense jungle off-trail movement is ~0.5 miles/hour. Along waterways: 1-2 miles/hour. Streams lead to rivers, rivers lead to settlements. Stay near the bank, not in the water (parasites, current).",
           "illustrationDescription": "Stream following."
         },
         {
           "stepNumber": 2,
           "instruction": "Use a machete or heavy stick to probe ahead. Watch for snakes.",
-          "helpDetail": "Prod vegetation before stepping. Many venomous snakes are camouflaged in leaf litter. Step ON logs, not over them \u2014 snakes rest on the far side. Always look before grabbing branches or vines.",
+          "helpDetail": "Prod vegetation before stepping. Many venomous snakes are camouflaged in leaf litter. Step ON logs, not over them — snakes rest on the far side. Always look before grabbing branches or vines.",
           "illustrationDescription": "Probing ahead."
         },
         {
@@ -1104,7 +1164,9 @@
           "helpDetail": "Midday jungle heat + humidity = dangerous core temperature rise. Travel 0600-1000 and 1500-1800. Rest during the hottest hours. Dehydration rate in tropical jungle: 1-2 liters per hour of heavy movement.",
           "illustrationDescription": "Travel timing."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-swamp-movement",
@@ -1124,7 +1186,7 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Follow animal trails \u2014 they use the firmest paths.",
+          "instruction": "Follow animal trails — they use the firmest paths.",
           "helpDetail": "Deer, hogs, and other animals know the solid ground. Follow their trails. Animal trails also lead to water sources and higher ground. If a trail dead-ends at water, look for where it resumes on the other side.",
           "illustrationDescription": "Animal trails."
         },
@@ -1134,7 +1196,9 @@
           "helpDetail": "Swamp hazards: mosquitoes (malaria, dengue), leeches (infection risk), parasitic worms in water (enter through skin). Cover all exposed skin. Apply mud as insect barrier. Check for leeches every hour.",
           "illustrationDescription": "Parasite protection."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-altitude-sickness",
@@ -1149,7 +1213,7 @@
         {
           "stepNumber": 1,
           "instruction": "Recognize symptoms: headache, nausea, fatigue, dizziness above 8,000 feet.",
-          "helpDetail": "Acute Mountain Sickness (AMS) affects most people above 8,000 feet. Symptoms start 6-12 hours after ascending. The ONLY reliable cure is descending. Do NOT ignore symptoms \u2014 AMS can progress to fatal brain or lung swelling.",
+          "helpDetail": "Acute Mountain Sickness (AMS) affects most people above 8,000 feet. Symptoms start 6-12 hours after ascending. The ONLY reliable cure is descending. Do NOT ignore symptoms — AMS can progress to fatal brain or lung swelling.",
           "illustrationDescription": "Symptoms."
         },
         {
@@ -1161,10 +1225,12 @@
         {
           "stepNumber": 3,
           "instruction": "Climb high, sleep low. Ascend no more than 1,000 feet per day above 10,000 feet.",
-          "helpDetail": "Acclimatization takes 1-3 days per 1,000 feet. You can climb higher during the day but should sleep at a lower elevation. Hydrate aggressively \u2014 dehydration accelerates AMS. Avoid alcohol and sleeping pills.",
+          "helpDetail": "Acclimatization takes 1-3 days per 1,000 feet. You can climb higher during the day but should sleep at a lower elevation. Hydrate aggressively — dehydration accelerates AMS. Avoid alcohol and sleeping pills.",
           "illustrationDescription": "Acclimatization."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "env-desert-night-travel",
@@ -1179,7 +1245,7 @@
         {
           "stepNumber": 1,
           "instruction": "Move between sunset and sunrise. Rest during daylight in shade.",
-          "helpDetail": "Desert day temperatures can exceed 130\u00b0F. Night temperatures may drop to 40\u00b0F. You lose 0.5-1 liter of water per hour walking in day heat vs. 0.25 liters at night. Night travel doubles your range on the same water.",
+          "helpDetail": "Desert day temperatures can exceed 130°F. Night temperatures may drop to 40°F. You lose 0.5-1 liter of water per hour walking in day heat vs. 0.25 liters at night. Night travel doubles your range on the same water.",
           "illustrationDescription": "Night schedule."
         },
         {
@@ -1191,10 +1257,12 @@
         {
           "stepNumber": 3,
           "instruction": "Watch for temperature extremes: hypothermia is a real desert risk at night.",
-          "helpDetail": "Desert temperature swings of 60-80\u00b0F between day and night are common. Dress in layers. The same sun protection worn by day traps warmth at night. Start walking to generate body heat if cold.",
+          "helpDetail": "Desert temperature swings of 60-80°F between day and night are common. Dress in layers. The same sun protection worn by day traps warmth at night. Start walking to generate body heat if cold.",
           "illustrationDescription": "Temperature management."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-coastal-storm",
@@ -1209,7 +1277,7 @@
         {
           "stepNumber": 1,
           "instruction": "Get to high ground immediately. Storm surge kills more than wind.",
-          "helpDetail": "Storm surge can push seawater 20+ feet above normal. Move to ground at least 30 feet above sea level and 2 miles from coast. Storm surge arrives fast \u2014 within minutes. Don't wait for official warnings.",
+          "helpDetail": "Storm surge can push seawater 20+ feet above normal. Move to ground at least 30 feet above sea level and 2 miles from coast. Storm surge arrives fast — within minutes. Don't wait for official warnings.",
           "illustrationDescription": "High ground."
         },
         {
@@ -1224,7 +1292,9 @@
           "helpDetail": "Post-storm drowning in flood water is common. Electricity in standing water is invisible and lethal. Don't drink tap water until cleared. Structural damage may cause delayed collapse. Stay alert for 48+ hours.",
           "illustrationDescription": "Post-storm dangers."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "env-cave-survival",
@@ -1239,22 +1309,24 @@
         {
           "stepNumber": 1,
           "instruction": "Check for animal inhabitants before entering. Look for tracks, droppings, bones.",
-          "helpDetail": "Bears, big cats, snakes, and bats use caves. Fresh droppings = occupied. Strong musky smell = recent large animal. Throw rocks inside and listen. Never enter a cave that smells of ammonia (bat guano \u2014 histoplasmosis risk).",
+          "helpDetail": "Bears, big cats, snakes, and bats use caves. Fresh droppings = occupied. Strong musky smell = recent large animal. Throw rocks inside and listen. Never enter a cave that smells of ammonia (bat guano — histoplasmosis risk).",
           "illustrationDescription": "Checking for animals."
         },
         {
           "stepNumber": 2,
-          "instruction": "Check airflow. Stale or foul air means poor ventilation \u2014 don't go deep.",
-          "helpDetail": "Caves can accumulate CO2, radon, and methane. If a flame burns dim or goes out, air is poor. Stay near the entrance where airflow is good. Never build a fire deep in a cave \u2014 smoke accumulation is lethal.",
+          "instruction": "Check airflow. Stale or foul air means poor ventilation — don't go deep.",
+          "helpDetail": "Caves can accumulate CO2, radon, and methane. If a flame burns dim or goes out, air is poor. Stay near the entrance where airflow is good. Never build a fire deep in a cave — smoke accumulation is lethal.",
           "illustrationDescription": "Air quality."
         },
         {
           "stepNumber": 3,
           "instruction": "Build fire near the entrance, not inside. Use cave for wind protection only.",
-          "helpDetail": "Fire at cave mouth provides warmth without smoke buildup. The cave walls reflect heat. Sleep between fire and back wall. Mark your entrance clearly if exploring deeper \u2014 cave disorientation is common and deadly.",
+          "helpDetail": "Fire at cave mouth provides warmth without smoke buildup. The cave walls reflect heat. Sleep between fire and back wall. Mark your entrance clearly if exploring deeper — cave disorientation is common and deadly.",
           "illustrationDescription": "Fire placement."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-flash-flood",
@@ -1274,8 +1346,8 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Move perpendicular to the flood path \u2014 go UP, not downstream.",
-          "helpDetail": "Don't try to outrun a flood downstream \u2014 water is faster than you. Move sideways and uphill. Even 10-20 feet of elevation gain can save your life. 6 inches of moving water can knock you down.",
+          "instruction": "Move perpendicular to the flood path — go UP, not downstream.",
+          "helpDetail": "Don't try to outrun a flood downstream — water is faster than you. Move sideways and uphill. Even 10-20 feet of elevation gain can save your life. 6 inches of moving water can knock you down.",
           "illustrationDescription": "Escape direction."
         },
         {
@@ -1284,7 +1356,9 @@
           "helpDetail": "Standing in floodwater risks foot entrapment (getting stuck between underwater rocks). Float on your back, feet downstream to fend off obstacles. Grab onto anything stable (tree, rock) when possible.",
           "illustrationDescription": "Water survival."
         }
-      ]
+      ],
+      "sourceName": "FEMA – Flood Safety",
+      "sourceUrl": "https://www.ready.gov/floods"
     },
     {
       "id": "env-lightning-safety",
@@ -1305,16 +1379,18 @@
         {
           "stepNumber": 2,
           "instruction": "Avoid: tall trees, hilltops, open fields, water, metal objects.",
-          "helpDetail": "Lightning hits the tallest object. Don't BE the tallest object. Avoid isolated trees \u2014 seek a uniform stand of short trees. Get off ridgelines. Leave water immediately. Remove metal frame backpacks.",
+          "helpDetail": "Lightning hits the tallest object. Don't BE the tallest object. Avoid isolated trees — seek a uniform stand of short trees. Get off ridgelines. Leave water immediately. Remove metal frame backpacks.",
           "illustrationDescription": "What to avoid."
         },
         {
           "stepNumber": 3,
           "instruction": "Lightning crouch: squat low, feet together, hands on knees, head down.",
-          "helpDetail": "If caught in the open: make yourself as small as possible while minimizing ground contact. Feet together reduces ground current risk. Don't lie flat \u2014 it increases ground current exposure. Space group members 50 feet apart.",
+          "helpDetail": "If caught in the open: make yourself as small as possible while minimizing ground contact. Feet together reduces ground current risk. Don't lie flat — it increases ground current exposure. Space group members 50 feet apart.",
           "illustrationDescription": "Lightning position."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Lightning Safety",
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "env-sandstorm",
@@ -1329,7 +1405,7 @@
         {
           "stepNumber": 1,
           "instruction": "Turn your back to the wind. Cover nose and mouth immediately.",
-          "helpDetail": "Sand particles cause severe lung damage. Wrap cloth tightly over nose and mouth \u2014 breathe through the fabric. Cover eyes completely \u2014 sand abrasion can blind you. Goggles or sunglasses help but wrap with cloth too.",
+          "helpDetail": "Sand particles cause severe lung damage. Wrap cloth tightly over nose and mouth — breathe through the fabric. Cover eyes completely — sand abrasion can blind you. Goggles or sunglasses help but wrap with cloth too.",
           "illustrationDescription": "Face protection."
         },
         {
@@ -1344,7 +1420,9 @@
           "helpDetail": "Sandstorms reduce visibility to zero. Walking blind in desert = circling, falling into gullies, or walking the wrong direction. Before the storm hits, note your compass bearing and direction to shelter. Then wait it out.",
           "illustrationDescription": "Wait it out."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-tundra-travel",
@@ -1358,14 +1436,14 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Navigate by wind direction \u2014 prevailing winds are the most reliable compass in featureless terrain.",
+          "instruction": "Navigate by wind direction — prevailing winds are the most reliable compass in featureless terrain.",
           "helpDetail": "Snow drifts, sastrugi (wind ridges), and vegetation lean indicate prevailing wind direction. Once established, use wind angle to maintain a bearing. Sun position helps when visible but arctic sun angles are extreme.",
           "illustrationDescription": "Wind navigation."
         },
         {
           "stepNumber": 2,
           "instruction": "Avoid thin ice: dark ice, snow-covered ice, ice near current or outflows.",
-          "helpDetail": "Clear blue ice 4+ inches thick supports a person. White/opaque ice is weaker. Snow-covered ice hides thickness. Stream inlets, outlets, and narrows have thinner ice. Spread your weight if unsure \u2014 crawl.",
+          "helpDetail": "Clear blue ice 4+ inches thick supports a person. White/opaque ice is weaker. Snow-covered ice hides thickness. Stream inlets, outlets, and narrows have thinner ice. Spread your weight if unsure — crawl.",
           "illustrationDescription": "Ice assessment."
         },
         {
@@ -1374,7 +1452,9 @@
           "helpDetail": "Wind chill is the primary killer in tundra. A snow wall reduces wind by 70%. A snow trench takes 30 minutes to dig and provides immediate wind protection. Block the entrance and body heat warms the space above freezing.",
           "illustrationDescription": "Snow shelter."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-tropical-disease",
@@ -1395,16 +1475,18 @@
         {
           "stepNumber": 2,
           "instruction": "Purify ALL water. Don't wade barefoot. Cover all wounds.",
-          "helpDetail": "Tropical parasites enter through skin (schistosomiasis), mouth (giardia, ameba), and wounds (tropical ulcers). Boil all water. Wear foot covering in water. Any wound, however small, must be cleaned and covered \u2014 tropical infection is aggressive.",
+          "helpDetail": "Tropical parasites enter through skin (schistosomiasis), mouth (giardia, ameba), and wounds (tropical ulcers). Boil all water. Wear foot covering in water. Any wound, however small, must be cleaned and covered — tropical infection is aggressive.",
           "illustrationDescription": "Water and wound care."
         },
         {
           "stepNumber": 3,
-          "instruction": "Watch for fever, shaking chills, or progressive wound redness \u2014 these are emergencies.",
+          "instruction": "Watch for fever, shaking chills, or progressive wound redness — these are emergencies.",
           "helpDetail": "Malaria symptoms: cyclical fever and chills starting 7-30 days after bite. Untreated falciparum malaria can kill in 24-48 hours. Red streaks from a wound = spreading infection. Both require evacuation to medical care.",
           "illustrationDescription": "Warning signs."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-wildfire-survival",
@@ -1419,13 +1501,13 @@
         {
           "stepNumber": 1,
           "instruction": "Move to the largest burned area (black), a road, water body, or rocky area.",
-          "helpDetail": "Already-burned areas won't burn again. Large clearings and rock fields have no fuel. Water bodies provide heat protection. Roads create fuel breaks. Running uphill from fire is deadly \u2014 fire travels uphill 4x faster than on flat ground.",
+          "helpDetail": "Already-burned areas won't burn again. Large clearings and rock fields have no fuel. Water bodies provide heat protection. Roads create fuel breaks. Running uphill from fire is deadly — fire travels uphill 4x faster than on flat ground.",
           "illustrationDescription": "Safety zones."
         },
         {
           "stepNumber": 2,
           "instruction": "If trapped: lie face-down in a depression, cover exposed skin.",
-          "helpDetail": "Clear vegetation around you in a 10-foot radius if possible. Lie in the lowest spot available. Cover your body with dirt. Breathe through cloth near the ground \u2014 superheated air rises. The fire front passes in 1-3 minutes.",
+          "helpDetail": "Clear vegetation around you in a 10-foot radius if possible. Lie in the lowest spot available. Cover your body with dirt. Breathe through cloth near the ground — superheated air rises. The fire front passes in 1-3 minutes.",
           "illustrationDescription": "Entrapment position."
         },
         {
@@ -1434,7 +1516,9 @@
           "helpDetail": "Burned trees fall without warning. Root systems burn underground creating hidden holes. Ash conceals hot spots that can cause severe burns. Move carefully with a probing stick. Watch for rolling rocks on burned slopes.",
           "illustrationDescription": "Post-fire hazards."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-hurricane",
@@ -1460,11 +1544,13 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Stay inside during the 'eye' \u2014 calm is temporary.",
+          "instruction": "Stay inside during the 'eye' — calm is temporary.",
           "helpDetail": "The eye passes in 10-30 mins. Winds return suddenly from opposite direction with full force. Don't go out.",
           "illustrationDescription": "Waiting out the eye."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Hurricane Preparedness",
+      "sourceUrl": "https://www.weather.gov/safety/hurricane"
     },
     {
       "id": "env-blizzard",
@@ -1494,7 +1580,9 @@
           "helpDetail": " stopping shivering is a sign of severe hypothermia. Move fingers/toes. Huddle for warmth.",
           "illustrationDescription": "Moving inside car."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "env-volcanic-ash",
@@ -1524,7 +1612,9 @@
           "helpDetail": "Ash is heavy and fine. It enters everywhere. Don't run AC/fans.",
           "illustrationDescription": "Sealing door gaps."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-volcanic-eruption",
@@ -1554,7 +1644,9 @@
           "helpDetail": "Radiant heat can burn from distance. Thick clothing (cotton/wool) protects against heat pulse.",
           "illustrationDescription": "Covering skin."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-tsunami",
@@ -1584,7 +1676,9 @@
           "helpDetail": "Waves arrive 10-60 mins apart. Stay high for HOURS. Water withdraws violently between waves.",
           "illustrationDescription": "Staying on roof."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Tsunami Safety",
+      "sourceUrl": "https://www.tsunami.gov/"
     },
     {
       "id": "env-extreme-heat",
@@ -1599,7 +1693,7 @@
         {
           "stepNumber": 1,
           "instruction": "Stop all activity. Find or build shade.",
-          "helpDetail": "Direct sun adds 15-20\u00b0F to heat load. Dig to cooler soil if necessary.",
+          "helpDetail": "Direct sun adds 15-20°F to heat load. Dig to cooler soil if necessary.",
           "illustrationDescription": "Resting in shade."
         },
         {
@@ -1614,7 +1708,9 @@
           "helpDetail": "Promotes circulation. Heat exhaustion leads to stroke quickly. Monitor urine color (dark = danger).",
           "illustrationDescription": "Elevating feet."
         }
-      ]
+      ],
+      "sourceName": "CDC – Heat Stress",
+      "sourceUrl": "https://www.cdc.gov/niosh/topics/heatstress/"
     },
     {
       "id": "env-rip-current",
@@ -1644,7 +1740,9 @@
           "helpDetail": "Waves help push you in. If tired, float to recover.",
           "illustrationDescription": "Swimming to shore."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-ice-fall-through",
@@ -1674,7 +1772,9 @@
           "helpDetail": "Once on ice, ROLL away. Do not stand up until on thick ice/land.",
           "illustrationDescription": "Rolling on ice."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-bear-black",
@@ -1704,7 +1804,9 @@
           "helpDetail": "Punch eyes/nose. Use rocks/sticks. Do NOT play dead with black bears.",
           "illustrationDescription": "Fighting back."
         }
-      ]
+      ],
+      "sourceName": "National Park Service – Bear Safety",
+      "sourceUrl": "https://www.nps.gov/subjects/bears/safety.htm"
     },
     {
       "id": "env-bear-grizzly",
@@ -1734,7 +1836,9 @@
           "helpDetail": "Drop to stomach. Hands clasped behind neck. Spread legs (harder to flip). Stay still until bear leaves (20+ mins).",
           "illustrationDescription": "Playing dead."
         }
-      ]
+      ],
+      "sourceName": "National Park Service – Bear Safety",
+      "sourceUrl": "https://www.nps.gov/subjects/bears/safety.htm"
     },
     {
       "id": "env-bear-polar",
@@ -1755,10 +1859,12 @@
         {
           "stepNumber": 2,
           "instruction": "Fight for your life. Use any weapon.",
-          "helpDetail": "Playing dead DOES NOT WORK \u2014 they will eat you. Lethal force is usually required.",
+          "helpDetail": "Playing dead DOES NOT WORK — they will eat you. Lethal force is usually required.",
           "illustrationDescription": "Defending aggressively."
         }
-      ]
+      ],
+      "sourceName": "National Park Service – Bear Safety",
+      "sourceUrl": "https://www.nps.gov/subjects/bears/safety.htm"
     },
     {
       "id": "env-cougar",
@@ -1788,7 +1894,9 @@
           "helpDetail": "Use rocks, sticks, fists. Gouge eyes. They give up if prey fights too hard.",
           "illustrationDescription": "Fighting back."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-wolf",
@@ -1818,7 +1926,9 @@
           "helpDetail": "Wolves fear fire. Throw rocks aggressively.",
           "illustrationDescription": "Throwing rocks."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-moose-elk",
@@ -1848,7 +1958,9 @@
           "helpDetail": "They stomp. Stay ball until they leave.",
           "illustrationDescription": "Curled in ball."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-alligator",
@@ -1875,10 +1987,12 @@
         {
           "stepNumber": 3,
           "instruction": "If bitten: attack eyes and snout. Don't pull.",
-          "helpDetail": "Teeth curve back \u2014 pulling rips flesh. Poking eyes triggers release.",
+          "helpDetail": "Teeth curve back — pulling rips flesh. Poking eyes triggers release.",
           "illustrationDescription": "Attacking eyes."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "env-tick-removal",
@@ -1908,7 +2022,9 @@
           "helpDetail": "Wash with soap/water. Watch for bulls-eye rash (Lyme).",
           "illustrationDescription": "Cleaning bite."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-shark",
@@ -1938,7 +2054,9 @@
           "helpDetail": "Sensitive areas. Use camera, rock, or fist. Be aggressive.",
           "illustrationDescription": "Striking gills."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "env-jellyfish",
@@ -1964,11 +2082,13 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Hot water soak (110\u00b0F) for pain.",
+          "instruction": "Hot water soak (110°F) for pain.",
           "helpDetail": "Heat breaks down protein venom. 20-45 minutes.",
           "illustrationDescription": "Hot soak."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-wildfire-monitor",
@@ -2004,7 +2124,9 @@
           "helpDetail": "Have your 'go-bag' in the car. Back the car into the driveway for fast exit.",
           "illustrationDescription": "Ready to go."
         }
-      ]
+      ],
+      "sourceName": "NWCG – Wildfire Safety",
+      "sourceUrl": "https://www.nwcg.gov/"
     },
     {
       "id": "env-wildfire-vehicle",
@@ -2040,7 +2162,9 @@
           "helpDetail": "The main fire front often passes in 5-10 minutes. The car body protects you from radiant heat that would kill you outside.",
           "illustrationDescription": "Waiting it out."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "env-tornado-mobile",
@@ -2076,7 +2200,9 @@
           "helpDetail": "Debris from the mobile home itself will become projectiles. Get distance.",
           "illustrationDescription": "Distance from debris."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Tornado Safety",
+      "sourceUrl": "https://www.weather.gov/safety/tornado"
     },
     {
       "id": "env-tornado-ditch",
@@ -2112,7 +2238,9 @@
           "helpDetail": "Tornadoes come with heavy rain. Be ready to move if the ditch fills rapidly with water.",
           "illustrationDescription": "Flood watch."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Tornado Safety",
+      "sourceUrl": "https://www.weather.gov/safety/tornado"
     },
     {
       "id": "env-tornado-drive",
@@ -2148,7 +2276,9 @@
           "helpDetail": "Winds accelerate under bridges (Venturi effect). Debris is channeled there. It is a very dangerous spot.",
           "illustrationDescription": "Avoid overpass."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Tornado Safety",
+      "sourceUrl": "https://www.weather.gov/safety/tornado"
     },
     {
       "id": "env-bear-black-avoid",
@@ -2184,7 +2314,9 @@
           "helpDetail": "Show you are not prey. You are a threat.",
           "illustrationDescription": "Throwing rocks."
         }
-      ]
+      ],
+      "sourceName": "National Park Service – Bear Safety",
+      "sourceUrl": "https://www.nps.gov/subjects/bears/safety.htm"
     },
     {
       "id": "env-bear-grizzly-avoid",
@@ -2220,7 +2352,9 @@
           "helpDetail": "Move only when the bear is not advancing. Give it space.",
           "illustrationDescription": "Retreating."
         }
-      ]
+      ],
+      "sourceName": "National Park Service – Bear Safety",
+      "sourceUrl": "https://www.nps.gov/subjects/bears/safety.htm"
     },
     {
       "id": "env-snake-avoid",
@@ -2256,7 +2390,9 @@
           "helpDetail": "Snakes sense vibration. Heavy steps alert them to your presence.",
           "illustrationDescription": "Stomping."
         }
-      ]
+      ],
+      "sourceName": "WHO – Snakebite Envenoming",
+      "sourceUrl": "https://www.who.int/health-topics/snakebite"
     },
     {
       "id": "env-lightning-dist",
@@ -2292,14 +2428,16 @@
           "helpDetail": "You are within striking distance. 30 minutes must pass after the last thunder before leaving shelter.",
           "illustrationDescription": "Shelter immediately."
         }
-      ]
+      ],
+      "sourceName": "NOAA – Lightning Safety",
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     }
   ],
   "articles": [
     {
       "id": "env-article-desert",
       "title": "Desert Survival Principles",
-      "body": "The desert kills through dehydration and heat. Everything else is secondary.\n\nThe Big Three rules:\n1. Shade is your primary need (shelter from sun)\n2. Water is your second need\n3. Everything else can wait\n\nBody mechanics in heat:\n- Resting in shade: 1 quart water per day to survive\n- Walking at night: 1 gallon per night\n- Walking in daytime: 1 quart per HOUR (unsustainable)\n\nCommon mistakes:\n- Walking during the day (dehydrates 3\u00d7 faster)\n- Rationing water (drink when thirsty \u2014 always)\n- Removing clothing (exposed skin dehydrates faster)\n- Following mirages (heat shimmer, not water)\n\nDesert navigation:\n- Sand dunes trend perpendicular to prevailing wind\n- Vegetation increases toward water\n- Roads and power lines lead to civilization\n- Aircraft contrails indicate flight paths between cities",
+      "body": "The desert kills through dehydration and heat. Everything else is secondary.\n\nThe Big Three rules:\n1. Shade is your primary need (shelter from sun)\n2. Water is your second need\n3. Everything else can wait\n\nBody mechanics in heat:\n- Resting in shade: 1 quart water per day to survive\n- Walking at night: 1 gallon per night\n- Walking in daytime: 1 quart per HOUR (unsustainable)\n\nCommon mistakes:\n- Walking during the day (dehydrates 3× faster)\n- Rationing water (drink when thirsty — always)\n- Removing clothing (exposed skin dehydrates faster)\n- Following mirages (heat shimmer, not water)\n\nDesert navigation:\n- Sand dunes trend perpendicular to prevailing wind\n- Vegetation increases toward water\n- Roads and power lines lead to civilization\n- Aircraft contrails indicate flight paths between cities",
       "relatedTechniqueIDs": [
         "env-desert-travel",
         "env-desert-shelter",
@@ -2309,7 +2447,7 @@
     {
       "id": "env-article-arctic",
       "title": "Arctic & Cold Weather Survival",
-      "body": "Cold kills through hypothermia, which is insidious. You don't realize it's happening until you can't think clearly enough to act.\n\nThe insulation hierarchy:\n- Still air is the best insulator\n- Layering creates pockets of still air\n- Cotton kills (absorbs water, loses insulation)\n- Wool retains warmth when wet\n- Synthetic insulation dries fastest\n\nCaloric demands in extreme cold:\n- Shivering burns 400-600 calories per hour\n- Cold weather activity: 4,000-6,000 calories per day needed\n- Without adequate calories, hypothermia accelerates\n\nKey principles:\n- Stay DRY at all costs \u2014 wetness = death\n- Ventilate to prevent sweating inside layers\n- Keep extremities protected (fingers, toes, ears, nose)\n- Never sit directly on snow \u2014 insulate from ground\n- Eat before sleeping \u2014 digestion generates heat\n\nWind chill: 10\u00b0F with 30mph wind has the same cooling effect as -33\u00b0F in calm air. Wind protection is as important as insulation.",
+      "body": "Cold kills through hypothermia, which is insidious. You don't realize it's happening until you can't think clearly enough to act.\n\nThe insulation hierarchy:\n- Still air is the best insulator\n- Layering creates pockets of still air\n- Cotton kills (absorbs water, loses insulation)\n- Wool retains warmth when wet\n- Synthetic insulation dries fastest\n\nCaloric demands in extreme cold:\n- Shivering burns 400-600 calories per hour\n- Cold weather activity: 4,000-6,000 calories per day needed\n- Without adequate calories, hypothermia accelerates\n\nKey principles:\n- Stay DRY at all costs — wetness = death\n- Ventilate to prevent sweating inside layers\n- Keep extremities protected (fingers, toes, ears, nose)\n- Never sit directly on snow — insulate from ground\n- Eat before sleeping — digestion generates heat\n\nWind chill: 10°F with 30mph wind has the same cooling effect as -33°F in calm air. Wind protection is as important as insulation.",
       "relatedTechniqueIDs": [
         "env-arctic-shelter",
         "env-arctic-travel",
@@ -2319,7 +2457,7 @@
     {
       "id": "env-article-jungle",
       "title": "Tropical & Jungle Survival",
-      "body": "The jungle provides everything for survival \u2014 and everything that can kill you.\n\nAdvantages:\n- Abundant water (rainfall, streams, plants)\n- Abundant food (plants, insects, fish)\n- Unlimited building materials\n- Shelter from wind\n\nDangers:\n- Infections: every cut becomes infected within 24 hours in tropical humidity\n- Parasites: waterborne and insect-borne diseases are the primary threat\n- Dehydration: despite humidity, you sweat heavily and lose electrolytes\n- Immersion foot: constant wet feet leads to tissue breakdown\n- Predators: minimal risk compared to disease\n\nMedical priorities:\n1. Keep wounds clean and dry (impossible but try)\n2. Use mosquito netting religiously (malaria kills)\n3. Dry your feet completely once per day\n4. Boil ALL water (jungle water has the highest parasite load)\n5. Check body for leeches and ticks daily\n\nNavigation: Following water downstream is the most reliable method to reach civilization in tropical environments.",
+      "body": "The jungle provides everything for survival — and everything that can kill you.\n\nAdvantages:\n- Abundant water (rainfall, streams, plants)\n- Abundant food (plants, insects, fish)\n- Unlimited building materials\n- Shelter from wind\n\nDangers:\n- Infections: every cut becomes infected within 24 hours in tropical humidity\n- Parasites: waterborne and insect-borne diseases are the primary threat\n- Dehydration: despite humidity, you sweat heavily and lose electrolytes\n- Immersion foot: constant wet feet leads to tissue breakdown\n- Predators: minimal risk compared to disease\n\nMedical priorities:\n1. Keep wounds clean and dry (impossible but try)\n2. Use mosquito netting religiously (malaria kills)\n3. Dry your feet completely once per day\n4. Boil ALL water (jungle water has the highest parasite load)\n5. Check body for leeches and ticks daily\n\nNavigation: Following water downstream is the most reliable method to reach civilization in tropical environments.",
       "relatedTechniqueIDs": [
         "env-jungle-travel",
         "env-jungle-water",
@@ -2329,7 +2467,7 @@
     {
       "id": "env-article-mountain",
       "title": "Mountain Hazard Awareness",
-      "body": "Mountains compress multiple environments into short vertical distances. You can go from summer to winter in 3,000 feet of elevation.\n\nMain hazards by altitude:\n- Below treeline: exposure, getting lost, streams/rivers\n- At treeline: lightning, wind, sudden weather\n- Above treeline: altitude sickness, falls, avalanche, hypothermia\n\nWeather changes:\n- Mountains create their own weather. Clear mornings can become violent storms by 2 PM.\n- Temperature drops approximately 3.5\u00b0F per 1,000 feet of elevation gain\n- Start early, summit by noon, descend before afternoon storms\n\nAvalanche awareness:\n- Slopes 30-45\u00b0 are highest risk\n- New snow on old snow (weak layer) is the primary trigger\n- Convex slopes are more dangerous than concave\n- If buried: create air pocket in front of face, spit to determine which way is up (gravity), dig in the opposite direction\n\nFalls:\n- The #1 killer in mountains is falling\n- Self-arrest with ice axe: roll onto stomach, dig pick into slope\n- Three points of contact on exposed terrain at all times",
+      "body": "Mountains compress multiple environments into short vertical distances. You can go from summer to winter in 3,000 feet of elevation.\n\nMain hazards by altitude:\n- Below treeline: exposure, getting lost, streams/rivers\n- At treeline: lightning, wind, sudden weather\n- Above treeline: altitude sickness, falls, avalanche, hypothermia\n\nWeather changes:\n- Mountains create their own weather. Clear mornings can become violent storms by 2 PM.\n- Temperature drops approximately 3.5°F per 1,000 feet of elevation gain\n- Start early, summit by noon, descend before afternoon storms\n\nAvalanche awareness:\n- Slopes 30-45° are highest risk\n- New snow on old snow (weak layer) is the primary trigger\n- Convex slopes are more dangerous than concave\n- If buried: create air pocket in front of face, spit to determine which way is up (gravity), dig in the opposite direction\n\nFalls:\n- The #1 killer in mountains is falling\n- Self-arrest with ice axe: roll onto stomach, dig pick into slope\n- Three points of contact on exposed terrain at all times",
       "relatedTechniqueIDs": [
         "env-mountain-lightning",
         "env-mountain-altitude"
@@ -2338,7 +2476,7 @@
     {
       "id": "env-article-ocean",
       "title": "Ocean & Coastal Survival",
-      "body": "Survival at sea is one of the most challenging environments. Your three enemies: dehydration, hypothermia, and sun exposure.\n\nSurvival priorities at sea:\n1. Stay afloat (PFD, debris, HELP position)\n2. Protection from elements (shade from sun, insulate from cold water)\n3. Fresh water (rain collection is your only reliable source)\n4. Signaling (mirror, dye, flares, electronics)\n5. Food (last on the list \u2014 you can survive weeks without food)\n\nCold water immersion survival:\n- 50\u00b0F water: 1-3 hours\n- 60\u00b0F water: 3-12 hours\n- 70\u00b0F water: 12-40 hours\n- 80\u00b0F water: indefinite (but sunburn and dehydration kill)\n\nIf in a life raft:\n- Stay dry if possible (wet clothing in the open = hypothermia)\n- Collect rainwater in every possible surface\n- Fish for food: trailing a line behind the raft works\n- Signal EVERY aircraft and vessel\n- Maintain morale: routine, tasks, hope\n\nShark awareness: sharks rarely attack humans. Avoid splashing, bleeding in water, and dawn/dusk swimming. If approached, maintain eye contact and back away slowly.",
+      "body": "Survival at sea is one of the most challenging environments. Your three enemies: dehydration, hypothermia, and sun exposure.\n\nSurvival priorities at sea:\n1. Stay afloat (PFD, debris, HELP position)\n2. Protection from elements (shade from sun, insulate from cold water)\n3. Fresh water (rain collection is your only reliable source)\n4. Signaling (mirror, dye, flares, electronics)\n5. Food (last on the list — you can survive weeks without food)\n\nCold water immersion survival:\n- 50°F water: 1-3 hours\n- 60°F water: 3-12 hours\n- 70°F water: 12-40 hours\n- 80°F water: indefinite (but sunburn and dehydration kill)\n\nIf in a life raft:\n- Stay dry if possible (wet clothing in the open = hypothermia)\n- Collect rainwater in every possible surface\n- Fish for food: trailing a line behind the raft works\n- Signal EVERY aircraft and vessel\n- Maintain morale: routine, tasks, hope\n\nShark awareness: sharks rarely attack humans. Avoid splashing, bleeding in water, and dawn/dusk swimming. If approached, maintain eye contact and back away slowly.",
       "relatedTechniqueIDs": [
         "env-ocean-survival"
       ]
@@ -2382,7 +2520,7 @@
     {
       "id": "env-article-altitude",
       "title": "Altitude Sickness: From Mild to Fatal",
-      "body": "Altitude sickness is progressive and predictable. Understanding the stages can save your life.\n\nStage 1 \u2014 Acute Mountain Sickness (AMS): 8,000-12,000 feet\n- Headache (primary symptom)\n- Nausea, loss of appetite\n- Fatigue, weakness\n- Dizziness\n- Difficulty sleeping\nTreatment: rest at same altitude, hydrate, ibuprofen. Resolves in 24-48 hours if you don't ascend.\n\nStage 2 \u2014 HACE (High Altitude Cerebral Edema): 12,000+ feet\n- Severe headache unresponsive to medication\n- Confusion, disorientation\n- Loss of coordination (ataxia)\n- Irrational behavior\n- Hallucinations\nTreatment: IMMEDIATE descent. This is a medical emergency. Fatal within 24 hours without descent.\n\nStage 3 \u2014 HAPE (High Altitude Pulmonary Edema): 8,000+ feet\n- Persistent dry cough, then wet cough\n- Breathlessness at rest\n- Gurgling sounds when breathing\n- Blue/gray lips and fingernails\n- Pink, frothy sputum\nTreatment: IMMEDIATE descent + supplemental oxygen. Fatal within hours if untreated.\n\nPrevention: ascend slowly, hydrate, descend at first sign of worsening symptoms.",
+      "body": "Altitude sickness is progressive and predictable. Understanding the stages can save your life.\n\nStage 1 — Acute Mountain Sickness (AMS): 8,000-12,000 feet\n- Headache (primary symptom)\n- Nausea, loss of appetite\n- Fatigue, weakness\n- Dizziness\n- Difficulty sleeping\nTreatment: rest at same altitude, hydrate, ibuprofen. Resolves in 24-48 hours if you don't ascend.\n\nStage 2 — HACE (High Altitude Cerebral Edema): 12,000+ feet\n- Severe headache unresponsive to medication\n- Confusion, disorientation\n- Loss of coordination (ataxia)\n- Irrational behavior\n- Hallucinations\nTreatment: IMMEDIATE descent. This is a medical emergency. Fatal within 24 hours without descent.\n\nStage 3 — HAPE (High Altitude Pulmonary Edema): 8,000+ feet\n- Persistent dry cough, then wet cough\n- Breathlessness at rest\n- Gurgling sounds when breathing\n- Blue/gray lips and fingernails\n- Pink, frothy sputum\nTreatment: IMMEDIATE descent + supplemental oxygen. Fatal within hours if untreated.\n\nPrevention: ascend slowly, hydrate, descend at first sign of worsening symptoms.",
       "relatedTechniqueIDs": [
         "env-altitude-sickness"
       ]
@@ -2390,7 +2528,7 @@
     {
       "id": "env-article-jungle-medicine",
       "title": "Jungle Survival Medicine",
-      "body": "The tropical jungle is the most medically hostile environment for survival.\n\nTop jungle medical threats:\n1. Dehydration/heat stroke (primary killer)\n2. Infected wounds (tropical ulcers form in 24 hours)\n3. Mosquito-borne disease (malaria, dengue)\n4. Waterborne parasites (giardia, amoeba)\n5. Venomous bites (snakes, spiders, scorpions)\n\nWound care in the jungle:\n- ANY wound, no matter how small, must be cleaned immediately\n- Wash with boiled water and natural antiseptics (tree tea oil plants, honey)\n- Keep wounds open and draining \u2014 closing wounds in tropical conditions traps bacteria\n- Change dressings twice daily, inspect for redness spreading, pus, or odor\n- Tropical ulcers can become systemic infections within 48 hours\n\nNatural jungle remedies:\n- Aloe-type plants: apply gel to burns and wounds\n- Honey: natural antibacterial (if available from wild bees)\n- Charcoal: crushed and mixed with water for poison ingestion\n- Citrus: natural vitamin C prevents scurvy on extended survival\n- Turmeric root: anti-inflammatory, apply paste to wounds\n\nWater discipline: in jungle, you need 1-2 liters per HOUR of movement. Plan routes around water sources.",
+      "body": "The tropical jungle is the most medically hostile environment for survival.\n\nTop jungle medical threats:\n1. Dehydration/heat stroke (primary killer)\n2. Infected wounds (tropical ulcers form in 24 hours)\n3. Mosquito-borne disease (malaria, dengue)\n4. Waterborne parasites (giardia, amoeba)\n5. Venomous bites (snakes, spiders, scorpions)\n\nWound care in the jungle:\n- ANY wound, no matter how small, must be cleaned immediately\n- Wash with boiled water and natural antiseptics (tree tea oil plants, honey)\n- Keep wounds open and draining — closing wounds in tropical conditions traps bacteria\n- Change dressings twice daily, inspect for redness spreading, pus, or odor\n- Tropical ulcers can become systemic infections within 48 hours\n\nNatural jungle remedies:\n- Aloe-type plants: apply gel to burns and wounds\n- Honey: natural antibacterial (if available from wild bees)\n- Charcoal: crushed and mixed with water for poison ingestion\n- Citrus: natural vitamin C prevents scurvy on extended survival\n- Turmeric root: anti-inflammatory, apply paste to wounds\n\nWater discipline: in jungle, you need 1-2 liters per HOUR of movement. Plan routes around water sources.",
       "relatedTechniqueIDs": [
         "env-jungle-movement",
         "env-tropical-disease"
@@ -2399,7 +2537,7 @@
     {
       "id": "env-article-flash-flood-science",
       "title": "Flash Flood: Understanding the Deadliest Weather Killer",
-      "body": "Flash floods kill more people annually than any other weather event. Understanding them is critical.\n\nWhat makes flash floods deadly:\n- Speed: water can rise 10+ feet in minutes\n- Force: 6 inches of moving water knocks down an adult\n- Invisibility: caused by rain miles away that you can't see\n- Terrain multiplier: narrow canyons funnel and amplify water\n\nWhere flash floods occur:\n- Slot canyons (most dangerous \u2014 vertical walls, no escape)\n- Dry riverbeds (arroyos, wadis) in desert and arid regions\n- Mountain stream valleys after heavy upstream rain\n- Urban areas with poor drainage\n- Below dam spillways\n\nWarning signs:\n1. Rumbling sound upstream (like a freight train)\n2. Sudden increase in water turbidity (muddy water)\n3. Floating debris in rising water\n4. Dark clouds or heavy rain visible upstream\n5. Rapid water level change in streams\n\nSurvival rules:\n- Never camp below the high-water mark (look for debris lines on canyon walls)\n- Never cross flooded roadways (2 feet of water floats most vehicles)\n- Always have an uphill escape route planned\n- In slot canyons, check weather forecasts for the entire watershed, not just your location\n- If caught: climb, don't run. Vertical is safer than horizontal.",
+      "body": "Flash floods kill more people annually than any other weather event. Understanding them is critical.\n\nWhat makes flash floods deadly:\n- Speed: water can rise 10+ feet in minutes\n- Force: 6 inches of moving water knocks down an adult\n- Invisibility: caused by rain miles away that you can't see\n- Terrain multiplier: narrow canyons funnel and amplify water\n\nWhere flash floods occur:\n- Slot canyons (most dangerous — vertical walls, no escape)\n- Dry riverbeds (arroyos, wadis) in desert and arid regions\n- Mountain stream valleys after heavy upstream rain\n- Urban areas with poor drainage\n- Below dam spillways\n\nWarning signs:\n1. Rumbling sound upstream (like a freight train)\n2. Sudden increase in water turbidity (muddy water)\n3. Floating debris in rising water\n4. Dark clouds or heavy rain visible upstream\n5. Rapid water level change in streams\n\nSurvival rules:\n- Never camp below the high-water mark (look for debris lines on canyon walls)\n- Never cross flooded roadways (2 feet of water floats most vehicles)\n- Always have an uphill escape route planned\n- In slot canyons, check weather forecasts for the entire watershed, not just your location\n- If caught: climb, don't run. Vertical is safer than horizontal.",
       "relatedTechniqueIDs": [
         "env-flash-flood"
       ]
@@ -2407,7 +2545,7 @@
     {
       "id": "env-article-cave-guide",
       "title": "Cave Use in Survival: Complete Guide",
-      "body": "Caves provide excellent shelter but come with unique hazards.\n\nCave advantages:\n- Constant temperature (typically 50-60\u00b0F year-round in temperate zones)\n- Wind protection\n- Rain/snow protection\n- Concealment\n- Stone reflects fire heat\n\nCave hazards:\n- Bad air: CO2 accumulates, oxygen depletes. Test with flame.\n- Falls: cave floors are uneven, wet, and slippery\n- Flooding: many caves flood during rain. Look for water marks on walls.\n- Animal inhabitants: bats, snakes, spiders, bears\n- Collapse: loose rock, especially near entrances\n- Disorientation: beyond visual range of entrance, navigation is impossible without light\n\nSafe cave use rules:\n1. STAY near the entrance. Never explore deeper than you can see daylight.\n2. Fire at the entrance, sleep between fire and back wall.\n3. Check ceiling for loose rock before setting up camp.\n4. Ensure drainage \u2014 even light rain can flood a cavity.\n5. Mark the entrance from outside (pile of rocks) so you can find it again.\n6. Never enter narrow passages \u2014 getting stuck is a fatal scenario.\n\nCave temperature is your friend: cool in summer, warm (relatively) in winter. This constant temperature reduces exposure risk significantly.",
+      "body": "Caves provide excellent shelter but come with unique hazards.\n\nCave advantages:\n- Constant temperature (typically 50-60°F year-round in temperate zones)\n- Wind protection\n- Rain/snow protection\n- Concealment\n- Stone reflects fire heat\n\nCave hazards:\n- Bad air: CO2 accumulates, oxygen depletes. Test with flame.\n- Falls: cave floors are uneven, wet, and slippery\n- Flooding: many caves flood during rain. Look for water marks on walls.\n- Animal inhabitants: bats, snakes, spiders, bears\n- Collapse: loose rock, especially near entrances\n- Disorientation: beyond visual range of entrance, navigation is impossible without light\n\nSafe cave use rules:\n1. STAY near the entrance. Never explore deeper than you can see daylight.\n2. Fire at the entrance, sleep between fire and back wall.\n3. Check ceiling for loose rock before setting up camp.\n4. Ensure drainage — even light rain can flood a cavity.\n5. Mark the entrance from outside (pile of rocks) so you can find it again.\n6. Never enter narrow passages — getting stuck is a fatal scenario.\n\nCave temperature is your friend: cool in summer, warm (relatively) in winter. This constant temperature reduces exposure risk significantly.",
       "relatedTechniqueIDs": [
         "env-cave-survival"
       ]
@@ -2415,7 +2553,7 @@
     {
       "id": "env-article-wildfire-behavior",
       "title": "Understanding Wildfire Behavior",
-      "body": "Knowing how wildfire moves can save your life. Fire is predictable once you understand its physics.\n\nThe fire triangle: Heat + Fuel + Oxygen. Remove any one element and fire stops.\n\nHow fire spreads:\n- Uphill: fire preheats fuel above it via convection. Fire travels uphill 4x faster than on flat ground.\n- With wind: wind pushes flame into unburned fuel. A 20mph wind can drive fire at 6+ mph.\n- Into dry fuel: dry grass, brush, and pine needles ignite fastest.\n- Through spotting: embers carried by wind start new fires ahead of the main front.\n\nDangerous terrain features:\n- Narrow canyons (chimney effect \u2014 fire accelerates dramatically)\n- Saddles between hills (wind funnels accelerate fire)\n- South-facing slopes (dryer fuel, more sun exposure)\n- Steep slopes (most dangerous \u2014 fire races uphill)\n\nSafe zones:\n- Already-burned areas (black)\n- Rock fields and gravel\n- Wide roads and clearings\n- Large water bodies\n- Irrigated farmland\n\nFire behavior changes rapidly with wind shifts. The most dangerous moment is when wind shifts \u2014 what was the flank becomes the front, and escape routes become traps.\n\nRule of thumb: if you can't outrun the fire in 5 minutes, find a safety zone instead of running.",
+      "body": "Knowing how wildfire moves can save your life. Fire is predictable once you understand its physics.\n\nThe fire triangle: Heat + Fuel + Oxygen. Remove any one element and fire stops.\n\nHow fire spreads:\n- Uphill: fire preheats fuel above it via convection. Fire travels uphill 4x faster than on flat ground.\n- With wind: wind pushes flame into unburned fuel. A 20mph wind can drive fire at 6+ mph.\n- Into dry fuel: dry grass, brush, and pine needles ignite fastest.\n- Through spotting: embers carried by wind start new fires ahead of the main front.\n\nDangerous terrain features:\n- Narrow canyons (chimney effect — fire accelerates dramatically)\n- Saddles between hills (wind funnels accelerate fire)\n- South-facing slopes (dryer fuel, more sun exposure)\n- Steep slopes (most dangerous — fire races uphill)\n\nSafe zones:\n- Already-burned areas (black)\n- Rock fields and gravel\n- Wide roads and clearings\n- Large water bodies\n- Irrigated farmland\n\nFire behavior changes rapidly with wind shifts. The most dangerous moment is when wind shifts — what was the flank becomes the front, and escape routes become traps.\n\nRule of thumb: if you can't outrun the fire in 5 minutes, find a safety zone instead of running.",
       "relatedTechniqueIDs": [
         "env-wildfire-survival",
         "env-wildfire-evac"

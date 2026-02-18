@@ -1,0 +1,141 @@
+{
+    "domain": "psychology",
+    "domainDisplayName": "Psychology (Supplemental)",
+    "techniques": [
+        {
+            "id": "psych-evasion",
+            "name": "Evasion & Escape",
+            "subtitle": "Break contact and disappear",
+            "category": "Security",
+            "difficulty": 2,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Break line of sight immediately.",
+                    "helpDetail": "Turn corners, enter buildings, or drop behind cover. Distance is less important than visibility.",
+                    "illustrationDescription": "Breaking line of sight."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Change your appearance/silhouette.",
+                    "helpDetail": "Remove a jacket, put on a hat, change posture. Look different than the person they started chasing.",
+                    "illustrationDescription": "Changing appearance."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Move against the flow or into complexity.",
+                    "helpDetail": "Crowds, confusing architecture, and noise mask your movement.",
+                    "illustrationDescription": "Moving into crowds."
+                }
+            ],
+            "sourceName": "U.S. Army Survival Manual FM 21-76",
+            "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+        },
+        {
+            "id": "psych-gray-man",
+            "name": "Gray Man Theory",
+            "subtitle": "Blend in to become invisible",
+            "category": "Security",
+            "difficulty": 1,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Dress to match the average baseline of the crowd.",
+                    "helpDetail": "No bright colors, tactical gear, or ragged clothes. Look boringly normal for the specific location.",
+                    "illustrationDescription": "Baseline clothing."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Mask your movement and energy.",
+                    "helpDetail": "Walk at the same speed as others. Do not look hurried or lost. Do not make eye contact, but scan surroundings.",
+                    "illustrationDescription": "Blending movement."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Remove identifying markers.",
+                    "helpDetail": "Cover tattoos, remove distinctive jewelry. Hide your face with a hat or mask if appropriate for the setting.",
+                    "illustrationDescription": "Removing identifiers."
+                }
+            ],
+            "sourceName": "Security Experts",
+            "sourceUrl": "https://thepreciseproject.com/gray-man-theory/"
+        },
+        {
+            "id": "psych-antisurveillance",
+            "name": "Antisurveillance",
+            "subtitle": "Detect if you are being followed",
+            "category": "Security",
+            "difficulty": 2,
+            "estimatedTime": "Ongoing",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Use shop windows as mirrors.",
+                    "helpDetail": "Look at reflections to see who is behind you without turning your head.",
+                    "illustrationDescription": "Reflection check."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Make a logical turn or stop.",
+                    "helpDetail": "Turn right, then right again. Or stop to tie a shoe. If they mimic your illogical move, you are being followed.",
+                    "illustrationDescription": "Detection move."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Do not react if confirmed.",
+                    "helpDetail": "Keep behaving normally until you can safely pivot to evasion. Letting them know you know destroys your advantage.",
+                    "illustrationDescription": "Maintaining calm."
+                }
+            ],
+            "sourceName": "Security Experts",
+            "sourceUrl": "https://www.stratfor.com/"
+        },
+        {
+            "id": "psych-conflict-resolution",
+            "name": "De-escalation",
+            "subtitle": "Defuse hostile situations",
+            "category": "Security",
+            "difficulty": 2,
+            "estimatedTime": "Immediate",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Show open hands (palms up).",
+                    "helpDetail": "This is a universal biological signal of non-aggression. Keep hands visible at chest level.",
+                    "illustrationDescription": "Hands visible."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Lower your voice and speak slowly.",
+                    "helpDetail": "Emotions are contagious. A calm demeanor can lower the other person's arousal level.",
+                    "illustrationDescription": "Speaking calmly."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Agree with their grievance (Validate).",
+                    "helpDetail": "Say 'I can see why you are angry.' You don't have to agree with the facts, just the emotion.",
+                    "illustrationDescription": "Validating emotion."
+                },
+                {
+                    "stepNumber": 4,
+                    "instruction": "Exit/Retreat as soon as possible.",
+                    "helpDetail": "Do not try to 'win' the argument. The goal is to survive.",
+                    "illustrationDescription": "Backing away."
+                }
+            ],
+            "sourceName": "Psychology Today",
+            "sourceUrl": "https://www.psychologytoday.com/us/blog/talking-about-trauma/201306/de-escalation-techniques"
+        }
+    ],
+    "articles": []
+}

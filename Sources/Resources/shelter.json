@@ -44,7 +44,9 @@
           "helpDetail": "Shingle the material so rain runs off. Thickness should be at least 1-2 feet for insulation.",
           "illustrationDescription": "Person piling leaves and branches onto the framework, starting from the bottom."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-debris-aframe",
@@ -86,7 +88,9 @@
           "helpDetail": "Fill it completely, then burrow in. This creates dead air space around your body.",
           "illustrationDescription": "Interior view showing the space filled with dry bedding material."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-debris-round",
@@ -122,7 +126,9 @@
           "helpDetail": "You pull this in after you to seal the entrance.",
           "illustrationDescription": "Small bundle of branches shaped to fit the door opening."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-tarp-aframe",
@@ -164,7 +170,9 @@
           "helpDetail": "The ground steals more heat than cold air. Pile at least 4 inches of material underneath your sleeping area. Compressed insulation loses effectiveness — use fluffy, dry material.",
           "illustrationDescription": "Ground insulation."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-tarp-leanto",
@@ -206,7 +214,9 @@
           "helpDetail": "Stack brush, branches, or pine boughs on the sides to block crosswind. Even a partial wind block significantly increases warmth.",
           "illustrationDescription": "Side walls."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-tarp-cfly",
@@ -236,7 +246,9 @@
           "helpDetail": "Use two poles at the corners and guy lines to pull it taut. It creates a wedge shape.",
           "illustrationDescription": "Wedge shape shelter with floor, supported by two poles at the front."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-tarp-diamond",
@@ -266,7 +278,9 @@
           "helpDetail": "This opens up the interior space. Adjust tension to remove wrinkles.",
           "illustrationDescription": "Side corners staked out to form a diamond shape."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-snow-trench",
@@ -302,7 +316,9 @@
           "helpDetail": "Snow insulates. Pile it gently on top of the tarp.",
           "illustrationDescription": "Tarp and snow layer covering the roof structure."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-quinzhee",
@@ -338,7 +354,9 @@
           "helpDetail": "Throw snow out behind you. Dig until you see the ends of your guide sticks.",
           "illustrationDescription": "Person digging into the mound from ground level."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-igloo",
@@ -380,7 +398,9 @@
           "helpDetail": "Trim it to fit the final hole perfectly from the outside.",
           "illustrationDescription": "Final block being placed at the very top."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-wickiup",
@@ -410,7 +430,9 @@
           "helpDetail": "Layer them like shingles. Bark works excellent for rain proofing.",
           "illustrationDescription": "Cone covered in strips of bark or mats."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-tree-well",
@@ -440,7 +462,9 @@
           "helpDetail": "Sit on branches, not snow.",
           "illustrationDescription": "Insulation layer added to the floor of the hollow."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-hammock",
@@ -470,7 +494,9 @@
           "helpDetail": "Tie a ridgeline higher up the trees and drape the cover.",
           "illustrationDescription": "Tarp suspended above the hammock."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-mylar-wrap",
@@ -512,7 +538,9 @@
           "helpDetail": "Mylar is useless in wind — it rattles, tears, and allows convective heat loss. Even a small windbreak transforms its effectiveness.",
           "illustrationDescription": "Wind protection."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-vehicle",
@@ -548,7 +576,9 @@
           "helpDetail": "Conserve battery. Periodic honking. Hazards visible from distance.",
           "illustrationDescription": "Vehicle signaling."
         }
-      ]
+      ],
+      "sourceName": "AAA – Vehicle Emergency",
+      "sourceUrl": "https://www.aaa.com/"
     },
     {
       "id": "shelter-emergency-bivy",
@@ -590,7 +620,9 @@
           "helpDetail": "Fetal position minimizes exposed surface area. Place hands in armpits or between thighs. Tensing and relaxing muscles generates some heat.",
           "illustrationDescription": "Heat conservation."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-raised-platform",
@@ -626,7 +658,9 @@
           "helpDetail": "Leaves layered like shingles from bottom up sheds rain.",
           "illustrationDescription": "Adding roof."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-poncho",
@@ -656,7 +690,9 @@
           "helpDetail": "Never sleep on bare ground. Ground steals heat 25x faster than air.",
           "illustrationDescription": "Insulation."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-snow-cave",
@@ -692,7 +728,9 @@
           "helpDetail": "Critical for preventing CO2 buildup and suffocation. Make it fist-sized. If it snows, check and clear it regularly. Mark the entrance outside with a stick.",
           "illustrationDescription": "Ventilation hole."
         }
-      ]
+      ],
+      "sourceName": "CDC – Hypothermia Prevention",
+      "sourceUrl": "https://www.cdc.gov/niosh/topics/coldstress/"
     },
     {
       "id": "shelter-vehicle",
@@ -728,7 +766,9 @@
           "helpDetail": "Make the vehicle visible to rescuers. Hazard lights drain the battery, so use them intermittently. A bright flag on the antenna is visible even in snow.",
           "illustrationDescription": "Signaling from vehicle."
         }
-      ]
+      ],
+      "sourceName": "AAA – Vehicle Emergency",
+      "sourceUrl": "https://www.aaa.com/"
     },
     {
       "id": "shelter-tree-platform",
@@ -764,7 +804,9 @@
           "helpDetail": "Tropical rain is intense. Overlap leaves from bottom to top like shingles. Make the roof extend well beyond the platform edges.",
           "illustrationDescription": "Adding leaf roof."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-rock-overhang",
@@ -794,7 +836,9 @@
           "helpDetail": "Rock floors steal heat rapidly. Layer pine boughs, leaves, or grass at least 6 inches thick. Your body compresses it significantly.",
           "illustrationDescription": "Ground insulation."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-poncho",
@@ -830,7 +874,9 @@
           "helpDetail": "If rain isn't the threat but ground moisture is, use the poncho as a vapor barrier between you and the ground.",
           "illustrationDescription": "Ground cloth use."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-parachute",
@@ -860,7 +906,9 @@
           "helpDetail": "Wrap around the outside, overlapping at the entrance. Stake the bottom edge. Leave the top open for smoke ventilation if using a fire inside.",
           "illustrationDescription": "Draping parachute."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-group",
@@ -890,7 +938,9 @@
           "helpDetail": "Rotate 2-hour watch shifts. The person on watch tends the fire, monitors weather, and lets others sleep. This is critical for multi-day situations.",
           "illustrationDescription": "Watch shifts."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-underground",
@@ -926,7 +976,9 @@
           "helpDetail": "Dig a small drainage trench along one wall lower than the sleeping area. Rain water channels to this trench instead of pooling under you.",
           "illustrationDescription": "Floor preparation."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-bough-bed",
@@ -956,7 +1008,9 @@
           "helpDetail": "You lose more heat to the cold ground than to cold air. If you can feel the ground through the boughs, add more. A good bough bed is the single most important comfort improvement in a survival shelter.",
           "illustrationDescription": "Testing bed."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-grass-bed",
@@ -986,7 +1040,9 @@
           "helpDetail": "The goal is to not feel the ground. Also stuff material into your clothing for additional insulation. Replace bedding every 2-3 days as it compresses and absorbs moisture.",
           "illustrationDescription": "Filling bed."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-heated-bed",
@@ -1016,7 +1072,9 @@
           "helpDetail": "The soil layer prevents burns and distributes heat evenly. Add boughs or grass on top of the soil. A well-heated bed stays warm for 6-8 hours. NEVER sleep directly on coals.",
           "illustrationDescription": "Covering coals."
         }
-      ]
+      ],
+      "sourceName": "CDC – Hypothermia Prevention",
+      "sourceUrl": "https://www.cdc.gov/niosh/topics/coldstress/"
     },
     {
       "id": "shelter-insulation-techniques",
@@ -1046,7 +1104,9 @@
           "helpDetail": "A smaller space heats faster and retains warmth from your body heat alone. A shelter just large enough to sit up in is warmer than a standing-height shelter.",
           "illustrationDescription": "Size reduction."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-door-construction",
@@ -1076,7 +1136,9 @@
           "helpDetail": "An L-shaped entry forces wind to turn a corner, losing most energy. The first section faces away from wind; you turn 90 degrees to enter the main shelter. This design dramatically reduces heat loss.",
           "illustrationDescription": "L-shaped entrance."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-ventilation",
@@ -1106,7 +1168,9 @@
           "helpDetail": "Your breath produces moisture. Without ventilation, it condenses on shelter walls, soaking insulation and dripping back on you. If walls are wet in the morning, increase ventilation holes.",
           "illustrationDescription": "Checking moisture."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-waterproofing",
@@ -1136,7 +1200,9 @@
           "helpDetail": "Even with a waterproof roof, ground water can flood your shelter. Dig a shallow trench (4-6 inches) around the shelter, sloping away downhill. This diverts rain runoff.",
           "illustrationDescription": "Drainage trench."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-storm-proofing",
@@ -1166,7 +1232,9 @@
           "helpDetail": "Tall shelters catch wind. If a storm is coming, reduce height. Double the insulation/debris on the windward side. Sleep with head toward the windward side (more protected).",
           "illustrationDescription": "Lowering profile."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-fallen-tree",
@@ -1196,7 +1264,9 @@
           "helpDetail": "Pile leaves, grass, ferns, and moss over the branch walls. Minimum 12 inches thick. This is essentially a lean-to shelter with the work half done by nature.",
           "illustrationDescription": "Adding debris."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-rock-windbreak",
@@ -1226,7 +1296,9 @@
           "helpDetail": "Rock absorbs heat from the fire and re-radiates it toward you. Sleep between the fire and the wall. The wall acts as both windbreak and heat reflector.",
           "illustrationDescription": "Fire and wall."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-snow-wall",
@@ -1256,7 +1328,9 @@
           "helpDetail": "Contact between blocks melts slightly then refreezes, bonding them. Pour a small amount of water on seams to accelerate bonding. The wall becomes very solid once frozen.",
           "illustrationDescription": "Letting freeze."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-shade-structure",
@@ -1286,7 +1360,9 @@
           "helpDetail": "The sun moves east to west. Build shade to block the south sky (Northern Hemisphere) for maximum midday protection. Adjust position as sun moves if possible.",
           "illustrationDescription": "Sun orientation."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-camouflage",
@@ -1316,7 +1392,9 @@
           "helpDetail": "The shelter itself may be hidden, but worn paths leading to it, fire-blackened ground, and scattered debris reveal your presence. Vary your approach route. Keep the area clean.",
           "illustrationDescription": "Hide signs."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-urban-debris",
@@ -1346,7 +1424,9 @@
           "helpDetail": "Cardboard is an exceptional insulator (better than many purpose-made materials). Newspaper stuffed in clothing adds insulation. Layer carpet on floors as ground insulation.",
           "illustrationDescription": "Insulating."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-coastal-driftwood",
@@ -1376,7 +1456,9 @@
           "helpDetail": "Dried seagrass bundles make decent insulation. Sand piled against the base prevents wind from blowing under. DO NOT dig into sand for shelter — sand collapses and can bury you.",
           "illustrationDescription": "Adding insulation."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-swamp",
@@ -1406,7 +1488,9 @@
           "helpDetail": "Swamps produce heavy mosquitoes. A smudge fire at the entrance helps. Cover the platform with as much dry material as available. Build a lean-to or A-frame overhead for rain.",
           "illustrationDescription": "Completing shelter."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-tarp-plowpoint",
@@ -1436,7 +1520,9 @@
           "helpDetail": "The two rear corners stake out for living space. This configuration provides excellent wind and rain protection with a dry living area. Great for long-term base camps.",
           "illustrationDescription": "Completed setup."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-ground-insulation",
@@ -1478,7 +1564,9 @@
           "helpDetail": "Body moisture makes insulation damp by morning. Rotate and fluff material. Gather fresh dry material when possible. Damp insulation is worse than none.",
           "illustrationDescription": "Maintenance."
         }
-      ]
+      ],
+      "sourceName": "CDC – Hypothermia Prevention",
+      "sourceUrl": "https://www.cdc.gov/niosh/topics/coldstress/"
     },
     {
       "id": "shelter-elevated-cache",
@@ -1508,7 +1596,9 @@
           "helpDetail": "Bears follow food smells. If they find the cache, you want them far from your shelter. Cook 100 feet from shelter, cache 100 feet in a different direction. Triangle arrangement.",
           "illustrationDescription": "Securing cache."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-thermal-mass",
@@ -1538,7 +1628,9 @@
           "helpDetail": "The combination of earth insulation and heated rock thermal mass creates a stable temperature environment. This is the principle behind traditional earth lodges that maintained comfort in extreme climates.",
           "illustrationDescription": "Sealed shelter."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-desert-trench",
@@ -1568,7 +1660,9 @@
           "helpDetail": "The desert gets freezing at night. Lowering the tarp traps your body heat in the trench. The sand retains some day heat.",
           "illustrationDescription": "Lowered roof."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-swamp-bed",
@@ -1598,7 +1692,9 @@
           "helpDetail": "Cover the deck with palm fronds, grass, or leaves for cushioning. This keeps you dry and away from ground dwelling insects/snakes.",
           "illustrationDescription": "Platform bed."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-fire-reflector",
@@ -1628,7 +1724,9 @@
           "helpDetail": "This prevents them from catching fire and adds thermal mass to radiate heat back at you.",
           "illustrationDescription": "Mud coating."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-tarp-plowpoint",
@@ -1658,7 +1756,9 @@
           "helpDetail": "Creates a triangular wedge shape. Very wind resistant if the low point faces the wind. Good for shedding rain.",
           "illustrationDescription": "Triangular tent."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "shelter-tarp-flying-v",
@@ -1688,7 +1788,9 @@
           "helpDetail": "This lifts the 'wings' up, creating a V shape that catches breeze but blocks sun/rain from above. Excellent for hot weather.",
           "illustrationDescription": "Wings guyed out."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-rock-overhang",
@@ -1718,7 +1820,9 @@
           "helpDetail": "Use a reflector wall to bounce heat in. A fire too deep inside can smoke you out or heat cracks in the roof rock.",
           "illustrationDescription": "Fire near mouth."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-tarp-leanto",
@@ -1760,7 +1864,9 @@
           "helpDetail": "Stack brush, branches, or pine boughs on the sides to block crosswind. Even a partial wind block significantly increases warmth.",
           "illustrationDescription": "Side walls."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "shelter-poncho",
@@ -1790,7 +1896,9 @@
           "helpDetail": "Creates a small pyramid tent. Very tight space but decent storm protection.",
           "illustrationDescription": "Center prop."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-natural-hollow",
@@ -1820,7 +1928,9 @@
           "helpDetail": "Hollows can be damp and cold sinks. Use extra bedding.",
           "illustrationDescription": "Insulated floor."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "shelter-debris-hut",
@@ -1850,7 +1960,9 @@
           "helpDetail": "Compressed weight is insulation. If you think you have enough, add more. It should shed water like shingles.",
           "illustrationDescription": "Debris pile."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     }
   ],
   "articles": [

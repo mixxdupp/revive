@@ -112,7 +112,7 @@ struct EmergencyMenuView: View {
                                             .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                                             .overlay(
                                                 RoundedRectangle(cornerRadius: 16, style: .continuous)
-                                                    .stroke(Color.white.opacity(0.2), lineWidth: 0.5)
+                                                    .strokeBorder(Color.white.opacity(0.2), lineWidth: 0.5)
                                             )
                                         }
                                         .buttonStyle(ScalableButtonStyle())

@@ -77,6 +77,31 @@ struct VerticalGuideView: View {
                         .padding(.top, 8)
                     }
                     
+                    // MARK: - Related Techniques
+                    if let relatedIds = technique.relatedIds, !relatedIds.isEmpty {
+                        VStack(alignment: .leading, spacing: 16) {
+                            Text("Related Guides")
+                                .font(.title3.weight(.bold))
+                                .foregroundStyle(DesignSystem.textPrimary)
+                                .padding(.horizontal, 20)
+                            
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 16) { // Left padding handled by first item offset or padding on Hstack
+                                    ForEach(relatedIds, id: \.self) { id in
+                                        if let relatedTechnique = ContentDatabase.shared.techniques.first(where: { $0.id == id }) {
+                                            NavigationLink(destination: VerticalGuideView(technique: relatedTechnique)) {
+                                                RelatedTechniqueCard(technique: relatedTechnique)
+                                            }
+                                            .buttonStyle(ScalableButtonStyle())
+                                        }
+                                    }
+                                }
+                                .padding(.horizontal, 20)
+                            }
+                        }
+                        .padding(.top, 24)
+                    }
+                    
                     Spacer().frame(height: 120) // Space for floating button
                 }
             }
@@ -86,7 +111,7 @@ struct VerticalGuideView: View {
                 Spacer()
                 if let current = expandedStep, current < technique.steps.count - 1 {
                     Button(action: {
-                        withAnimation {
+                        withAnimation(.easeInOut(duration: 0.35)) {
                             expandedStep = current + 1
                         }
                         HapticsService.shared.playImpact(style: .medium)
@@ -121,5 +146,44 @@ struct VerticalGuideView: View {
             }
         }
         .navigationBarHidden(true)
+    }
+}
+
+struct RelatedTechniqueCard: View {
+    let technique: Technique
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            ZStack {
+                Circle()
+                    .fill(technique.domain.color.opacity(0.15))
+                    .frame(width: 48, height: 48)
+                
+                Image(systemName: technique.icon)
+                    .font(.system(size: 22))
+                    .foregroundStyle(technique.domain.color)
+            }
+            
+            VStack(alignment: .leading, spacing: 4) {
+                Text(technique.name)
+                    .font(.headline)
+                    .foregroundStyle(DesignSystem.textPrimary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                
+                Text(technique.domain.rawValue.capitalized)
+                    .font(.caption.weight(.medium))
+                    .foregroundStyle(technique.domain.color)
+            }
+        }
+        .padding(16)
+        .frame(width: 160, height: 180, alignment: .topLeading)
+        .background(Color(uiColor: .secondarySystemGroupedBackground))
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
+        )
+        .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
     }
 }

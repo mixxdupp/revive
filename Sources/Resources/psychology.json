@@ -36,7 +36,9 @@
           "helpDetail": "The empty hold is the key differentiator. It activates the parasympathetic nervous system. Navy SEALs use this technique before operations.",
           "illustrationDescription": "Holding empty."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-54321-grounding",
@@ -78,7 +80,9 @@
           "helpDetail": "'I taste water.' This exercise grounds you in physical reality, breaking the panic cycle. Panic is future-focused; senses are present-focused.",
           "illustrationDescription": "Tasting 1 flavor."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-stop-method",
@@ -114,7 +118,9 @@
           "helpDetail": "Now act deliberately. Every decision should be based on the information you just gathered, not on panic or emotion.",
           "illustrationDescription": "Creating a plan."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-positive-self-talk",
@@ -141,7 +147,7 @@
         {
           "stepNumber": 3,
           "instruction": "Acknowledge fear, then redirect: 'I'm scared AND I can still act.'",
-          "helpDetail": "Fear is not the enemy \u2014 paralysis is. You can be terrified and still functional. Bravery is action despite fear, not absence of it.",
+          "helpDetail": "Fear is not the enemy — paralysis is. You can be terrified and still functional. Bravery is action despite fear, not absence of it.",
           "illustrationDescription": "Acknowledging and acting."
         },
         {
@@ -150,7 +156,9 @@
           "helpDetail": "This is literally true. Every challenge you've faced, you've survived. That track record is unbroken. Use it.",
           "illustrationDescription": "100% survival rate."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-sleep-deprivation",
@@ -165,7 +173,7 @@
         {
           "stepNumber": 1,
           "instruction": "Take 20-minute power naps whenever safe to do so.",
-          "helpDetail": "20 minutes is optimal \u2014 you get light sleep restoration without entering deep sleep, which causes grogginess.",
+          "helpDetail": "20 minutes is optimal — you get light sleep restoration without entering deep sleep, which causes grogginess.",
           "illustrationDescription": "20-minute nap."
         },
         {
@@ -186,7 +194,9 @@
           "helpDetail": "Sleep is when your body repairs injury, consolidates memory, and restores immune function. Skipping sleep to 'push through' is false economy.",
           "illustrationDescription": "Sleep as survival priority."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-will-to-live",
@@ -200,7 +210,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Identify your 'anchor' \u2014 the person or thing you are surviving FOR.",
+          "instruction": "Identify your 'anchor' — the person or thing you are surviving FOR.",
           "helpDetail": "Research on disaster survivors shows that people who survive for someone else last longer than those surviving for themselves. Name them. Picture their face.",
           "illustrationDescription": "Personal anchor visualization."
         },
@@ -212,7 +222,7 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Maintain routines \u2014 they create normalcy in chaos.",
+          "instruction": "Maintain routines — they create normalcy in chaos.",
           "helpDetail": "Wake up at the same time. Eat at regular intervals. Check signals at set times. Routine fights despair.",
           "illustrationDescription": "Daily routine in survival."
         },
@@ -222,7 +232,9 @@
           "helpDetail": "Always have a task. Improve your shelter. Gather more firewood. Set another trap. Purposeful activity prevents the downward spiral of hopelessness.",
           "illustrationDescription": "Staying productive."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "psych-group-leadership",
@@ -249,7 +261,7 @@
         {
           "stepNumber": 3,
           "instruction": "Communicate openly about resources and situation.",
-          "helpDetail": "Hoarding information or resources destroys group cohesion. Share what you know \u2014 good and bad. Rumors fill information vacuums.",
+          "helpDetail": "Hoarding information or resources destroys group cohesion. Share what you know — good and bad. Rumors fill information vacuums.",
           "illustrationDescription": "Open communication."
         },
         {
@@ -258,7 +270,9 @@
           "helpDetail": "Isolate panic, address it privately. Keep the group focused on tasks. Evening check-ins help detect morale problems early.",
           "illustrationDescription": "Morale monitoring."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-children-survival",
@@ -278,7 +292,7 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Give them jobs \u2014 simple, achievable tasks.",
+          "instruction": "Give them jobs — simple, achievable tasks.",
           "helpDetail": "'Can you find me 10 sticks this big?' 'Can you count the birds?' Purpose reduces fear. Achievement builds confidence.",
           "illustrationDescription": "Assigning simple tasks."
         },
@@ -294,7 +308,9 @@
           "helpDetail": "Hugs, holding hands, keeping them in your lap at night. Physical touch is the most powerful anxiety reducer for children.",
           "illustrationDescription": "Physical comfort contact."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-decision-fatigue",
@@ -314,14 +330,14 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Default to the survival priority list: Shelter \u2192 Water \u2192 Fire \u2192 Food.",
+          "instruction": "Default to the survival priority list: Shelter → Water → Fire → Food.",
           "helpDetail": "When you can't decide, work down this list. Address the first unmet need. Don't think about food if you don't have water.",
           "illustrationDescription": "Priority list."
         },
         {
           "stepNumber": 3,
           "instruction": "Use the 'good enough' principle.",
-          "helpDetail": "A good enough shelter NOW is better than a perfect shelter in 3 hours \u2014 especially at dusk. Satisfice, don't optimize.",
+          "helpDetail": "A good enough shelter NOW is better than a perfect shelter in 3 hours — especially at dusk. Satisfice, don't optimize.",
           "illustrationDescription": "Good enough principle."
         },
         {
@@ -330,7 +346,9 @@
           "helpDetail": "Blood sugar, hydration, and fatigue all degrade judgment. If a decision can wait 30 minutes, eat and rest first.",
           "illustrationDescription": "Rest before deciding."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-fear-management",
@@ -345,13 +363,13 @@
         {
           "stepNumber": 1,
           "instruction": "Name the fear specifically. Vague fear is paralyzing.",
-          "helpDetail": "'I'm scared' \u2192 'I'm scared a bear will attack me at night.' Once named, you can address it: 'I'll hang my food 200 feet away and make noise.'",
+          "helpDetail": "'I'm scared' → 'I'm scared a bear will attack me at night.' Once named, you can address it: 'I'll hang my food 200 feet away and make noise.'",
           "illustrationDescription": "Naming the fear."
         },
         {
           "stepNumber": 2,
           "instruction": "Separate real threats from perceived threats.",
-          "helpDetail": "Is a bear actually likely? Have you seen signs? Most nighttime noises are small animals. Knowledge replaces fear \u2014 learn what actually threatens you.",
+          "helpDetail": "Is a bear actually likely? Have you seen signs? Most nighttime noises are small animals. Knowledge replaces fear — learn what actually threatens you.",
           "illustrationDescription": "Real vs perceived threats."
         },
         {
@@ -362,11 +380,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Accept residual fear as your ally \u2014 it keeps you alert.",
+          "instruction": "Accept residual fear as your ally — it keeps you alert.",
           "helpDetail": "Complete fearlessness is dangerous. Fear is your brain's danger detection system. The goal is manageable fear, not zero fear.",
           "illustrationDescription": "Fear as ally."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "psych-routine",
@@ -386,7 +406,7 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Set specific goals for each day\u2014even small ones.",
+          "instruction": "Set specific goals for each day—even small ones.",
           "helpDetail": "Improve shelter, find better firewood. Accomplishment fuels morale.",
           "illustrationDescription": "Daily goals."
         },
@@ -402,7 +422,9 @@
           "helpDetail": "Gives sense of control. Mark days on stick calendar.",
           "illustrationDescription": "Evening review."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-pain-management",
@@ -416,7 +438,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Focus breathing: slow, deep\u20144 in, 8 out.",
+          "instruction": "Focus breathing: slow, deep—4 in, 8 out.",
           "helpDetail": "Extended exhale activates parasympathetic system. Reduces pain signals.",
           "illustrationDescription": "Breathing technique."
         },
@@ -434,11 +456,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Accept the pain\u2014resistance amplifies it.",
+          "instruction": "Accept the pain—resistance amplifies it.",
           "helpDetail": "Acknowledge without fighting. Resistance creates tension which increases pain.",
           "illustrationDescription": "Acceptance."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-loneliness",
@@ -474,7 +498,9 @@
           "helpDetail": "Externalizes negative thoughts. Gives purpose.",
           "illustrationDescription": "Journaling."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-ooda-loop",
@@ -510,7 +536,9 @@
           "helpDetail": "Take action, observe results. Continuous adaptation.",
           "illustrationDescription": "Acting."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "psych-sleep-hygiene",
@@ -546,7 +574,9 @@
           "helpDetail": "Even a small amount of food raises core temperature. Warm liquids before bed dramatically improve sleep onset.",
           "illustrationDescription": "Pre-sleep nutrition."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-grief-management",
@@ -582,7 +612,9 @@
           "helpDetail": "Ritual closure is psychologically critical. It allows the brain to categorize the loss as processed rather than pending.",
           "illustrationDescription": "Memorial ritual."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-children-survival",
@@ -618,7 +650,9 @@
           "helpDetail": "Even fabricated routines provide psychological scaffolding. 'Breakfast at sunrise, story at sunset' creates predictability in chaos.",
           "illustrationDescription": "Routine maintenance."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-boredom-management",
@@ -654,7 +688,9 @@
           "helpDetail": "Skill practice is never wasted time. It builds confidence and competence that may save your life when conditions change.",
           "illustrationDescription": "Skill practice."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-conflict-resolution",
@@ -690,7 +726,9 @@
           "helpDetail": "Equal portions, rotating priority, or needs-based allocation — decide while rational. Scarcity makes fair decisions impossible.",
           "illustrationDescription": "Resource rules."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-night-anxiety",
@@ -726,7 +764,9 @@
           "helpDetail": "The 4-7-8 pattern activates the parasympathetic nervous system within 2 cycles. It physically slows heart rate and reduces cortisol.",
           "illustrationDescription": "Calming breathing."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-motivation-anchors",
@@ -762,7 +802,9 @@
           "helpDetail": "Spoken words activate different brain regions than thoughts. Saying it makes it a declaration, not just a wish.",
           "illustrationDescription": "Verbal commitment."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "psych-journaling",
@@ -798,7 +840,9 @@
           "helpDetail": "Expressing thoughts to an imagined audience reduces psychological isolation. If rescued, these notes become powerful personal artifacts.",
           "illustrationDescription": "Personal messages."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-acceptance-stages",
@@ -834,7 +878,9 @@
           "helpDetail": "Acceptance is not giving up. It is the most powerful mental state: clear-eyed assessment of reality combined with the determination to act within it.",
           "illustrationDescription": "Acceptance stage."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-leadership-handoff",
@@ -870,7 +916,9 @@
           "helpDetail": "Critical information must always exist in at least two minds. If the leader is injured, unconscious, or dead, the plan must survive.",
           "illustrationDescription": "Documenting plan."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-combat-breathing",
@@ -900,7 +948,9 @@
           "helpDetail": "You'll feel the shift within 4-6 cycles. Panic narrows your vision and thinking. This technique reverses that. Use it before any critical decision, after any fear trigger, and before sleep.",
           "illustrationDescription": "Calming effect."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "psych-cognitive-reframe",
@@ -930,7 +980,9 @@
           "helpDetail": "Shift from passive fear to active problem-solving. The antidote to helplessness is action. Even small actions (improve shelter, gather firewood) restore a sense of control and reduce panic.",
           "illustrationDescription": "Action shift."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-sleep-discipline",
@@ -960,7 +1012,9 @@
           "helpDetail": "Your body won't sleep well if cold, wet, or uncomfortable. Invest time in making your sleep spot warm and dry. The time spent improving your bed pays back in better decisions and physical performance.",
           "illustrationDescription": "Sleep setup."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-decision-fatigue",
@@ -990,7 +1044,9 @@
           "helpDetail": "In survival, a good decision now beats a perfect decision tomorrow. If you have two reasonable options, pick one and execute. Indecision is more dangerous than a slightly suboptimal choice.",
           "illustrationDescription": "Good enough principle."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-grief-processing",
@@ -1020,7 +1076,9 @@
           "helpDetail": "Survivors consistently report that purpose was more powerful than will. Transforming grief into motivation creates a powerful drive. 'They would want me to survive' is both healthy and effective.",
           "illustrationDescription": "Purpose finding."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-conflict-resolution",
@@ -1050,7 +1108,9 @@
           "helpDetail": "Reframe disputes around common interest. Not 'you vs. me' but 'us vs. the situation.' Make decisions that advance survival for all, even if imperfect for individuals.",
           "illustrationDescription": "Common ground."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-teach-to-cope",
@@ -1080,7 +1140,9 @@
           "helpDetail": "If only one person knows how to start fire or find water, the group is fragile. Distribute skills across the group. Redundancy is resilience.",
           "illustrationDescription": "Knowledge sharing."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-gratitude-practice",
@@ -1110,7 +1172,9 @@
           "helpDetail": "Instead of comparing to home comforts (depressing), compare to day one or the worst day. 'At least I have fire now. At least I know where water is.' This reframe builds a sense of progress.",
           "illustrationDescription": "Progress mindset."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-visualization",
@@ -1140,7 +1204,9 @@
           "helpDetail": "The subconscious processes problems during sleep. By visualizing your situation before sleeping, you often wake with solutions or renewed energy. Many survivors report 'waking up knowing what to do.'",
           "illustrationDescription": "Pre-sleep practice."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "psych-humor",
@@ -1170,7 +1236,9 @@
           "helpDetail": "Healthy humor laughs at the situation, not at individuals. If someone is in genuine crisis, humor can feel dismissive and damage trust. Read the room — humor heals when shared, hurts when forced.",
           "illustrationDescription": "Appropriate limits."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "psych-normalcy",
@@ -1200,7 +1268,9 @@
           "helpDetail": "Hygiene matters psychologically as much as physically. Washing hands, cleaning camp, organizing gear — these create a sense of control and self-respect that prevents psychological decline.",
           "illustrationDescription": "Hygiene maintenance."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "psych-acceptance",
@@ -1230,7 +1300,9 @@
           "helpDetail": "Commitment is the bridge between acceptance and action. You accept reality, then commit to making the best of it. This combination — realistic assessment + determined action — is found in virtually every survivor's account.",
           "illustrationDescription": "Commitment."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     }
   ],
   "articles": [
@@ -1239,7 +1311,7 @@
       "sourceName": "The Lancet (Survival Psychology)",
       "sourceUrl": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32943-9/fulltext",
       "title": "The Psychology of Survival",
-      "body": "Studies of survival situations consistently show the same pattern: the #1 predictor of survival is not physical fitness, equipment, or training \u2014 it's mental attitude.\n\nPeople who survive tend to:\n- Accept the situation quickly (no denial phase)\n- Stay busy with purposeful tasks\n- Maintain hope while being realistic\n- Have a reason to live beyond themselves\n- Adapt to changing conditions\n\nPeople who don't survive tend to:\n- Deny reality ('this can't be happening')\n- Panic or give up ('there's no point')\n- Wait passively for rescue\n- Focus on comfort rather than survival\n- Make impulsive decisions driven by emotion\n\nThe most dangerous moment is the first 72 hours. This is when panic, poor decisions, and hopelessness peak. If you survive the first 3 days with your mind intact, your chances increase dramatically.",
+      "body": "Studies of survival situations consistently show the same pattern: the #1 predictor of survival is not physical fitness, equipment, or training — it's mental attitude.\n\nPeople who survive tend to:\n- Accept the situation quickly (no denial phase)\n- Stay busy with purposeful tasks\n- Maintain hope while being realistic\n- Have a reason to live beyond themselves\n- Adapt to changing conditions\n\nPeople who don't survive tend to:\n- Deny reality ('this can't be happening')\n- Panic or give up ('there's no point')\n- Wait passively for rescue\n- Focus on comfort rather than survival\n- Make impulsive decisions driven by emotion\n\nThe most dangerous moment is the first 72 hours. This is when panic, poor decisions, and hopelessness peak. If you survive the first 3 days with your mind intact, your chances increase dramatically.",
       "relatedTechniqueIDs": [
         "psych-stop-method",
         "psych-will-to-live"
@@ -1250,7 +1322,7 @@
       "sourceName": "Mayo Clinic",
       "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/panic-attacks/symptoms-causes/syc-20376021",
       "title": "Understanding & Defeating Panic",
-      "body": "Panic is not weakness \u2014 it's a neurological event. Your amygdala (threat center) hijacks your prefrontal cortex (rational brain). The result: tunnel vision, loss of fine motor skills, racing heart, inability to think clearly.\n\nThe physiological cascade:\n1. Threat detected \u2192 adrenaline surge\n2. Heart rate spikes above 115 BPM \u2192 fine motor skills lost\n3. Above 145 BPM \u2192 complex motor skills lost\n4. Above 175 BPM \u2192 cognitive processing collapses\n\nDisengaging panic:\n- Box breathing forces heart rate down mechanically\n- 5-4-3-2-1 grounding engages the prefrontal cortex\n- Cold water on face triggers the dive reflex (instantly slows heart rate)\n- Physical movement (even pacing) metabolizes adrenaline\n\nPractice these techniques BEFORE you need them. Under panic, you revert to trained responses. If you've never practiced, you have no trained response to revert to.",
+      "body": "Panic is not weakness — it's a neurological event. Your amygdala (threat center) hijacks your prefrontal cortex (rational brain). The result: tunnel vision, loss of fine motor skills, racing heart, inability to think clearly.\n\nThe physiological cascade:\n1. Threat detected → adrenaline surge\n2. Heart rate spikes above 115 BPM → fine motor skills lost\n3. Above 145 BPM → complex motor skills lost\n4. Above 175 BPM → cognitive processing collapses\n\nDisengaging panic:\n- Box breathing forces heart rate down mechanically\n- 5-4-3-2-1 grounding engages the prefrontal cortex\n- Cold water on face triggers the dive reflex (instantly slows heart rate)\n- Physical movement (even pacing) metabolizes adrenaline\n\nPractice these techniques BEFORE you need them. Under panic, you revert to trained responses. If you've never practiced, you have no trained response to revert to.",
       "relatedTechniqueIDs": [
         "psych-box-breathing",
         "psych-54321-grounding"
@@ -1261,7 +1333,7 @@
       "sourceName": "American Psychological Association",
       "sourceUrl": "https://www.apa.org/topics/social-psychology/group-behavior",
       "title": "Group Dynamics in Survival",
-      "body": "Groups have both advantages and severe challenges in survival.\n\nAdvantages:\n- Distributed tasks (someone always watching fire, signals)\n- Shared body heat\n- Morale support\n- More eyes for danger, food, signals\n- Physical help (carrying injured, building shelter)\n\nChallenges:\n- Social loafing (some don't contribute)\n- Resource competition (rationing disputes)\n- Panic contagion (one person's panic spreads)\n- Leadership conflict\n- Information hoarding\n\nPreventing group breakdown:\n1. Establish leadership immediately \u2014 preferably someone calm, not necessarily the most skilled\n2. Democratize information, autocratize decisions\n3. Ensure everyone has a role \u2014 purpose prevents despair\n4. Address conflict privately and immediately\n5. Communal meals \u2014 shared food rituals build cohesion\n\nHistorical patterns show that groups with clear leadership and assigned roles survive at 3-4\u00d7 the rate of leaderless groups.",
+      "body": "Groups have both advantages and severe challenges in survival.\n\nAdvantages:\n- Distributed tasks (someone always watching fire, signals)\n- Shared body heat\n- Morale support\n- More eyes for danger, food, signals\n- Physical help (carrying injured, building shelter)\n\nChallenges:\n- Social loafing (some don't contribute)\n- Resource competition (rationing disputes)\n- Panic contagion (one person's panic spreads)\n- Leadership conflict\n- Information hoarding\n\nPreventing group breakdown:\n1. Establish leadership immediately — preferably someone calm, not necessarily the most skilled\n2. Democratize information, autocratize decisions\n3. Ensure everyone has a role — purpose prevents despair\n4. Address conflict privately and immediately\n5. Communal meals — shared food rituals build cohesion\n\nHistorical patterns show that groups with clear leadership and assigned roles survive at 3-4× the rate of leaderless groups.",
       "relatedTechniqueIDs": [
         "psych-group-leadership",
         "psych-children-survival"
@@ -1272,7 +1344,7 @@
       "sourceName": "NASA Human Research Program",
       "sourceUrl": "https://www.nasa.gov/hrp/social-isolation/",
       "title": "Coping with Isolation",
-      "body": "Solitary survival creates unique psychological challenges that group survival does not.\n\nTimeline of isolation effects:\n- Day 1-3: Anxiety, hyper-alertness, difficulty sleeping\n- Day 4-7: Loneliness, talking to yourself (this is NORMAL and healthy)\n- Week 2-3: Altered time perception, emotional suppression\n- Week 4+: Potential dissociation, hallucinations, deep introspection\n\nCoping strategies:\n- Talk out loud \u2014 narrate your activities. Your own voice is comforting.\n- Keep a journal \u2014 scratching marks on wood, arranging stones to track days.\n- Create a 'companion' \u2014 cast away style. It sounds silly. Survivors swear by it.\n- Maintain personal grooming \u2014 it preserves self-identity.\n- Create daily rituals \u2014 morning routine, evening reflection.\n\nThe greatest danger of isolation is apathy. When there's no one to perform for, no one watching, motivation evaporates. Combat this by making promises to yourself and keeping them.",
+      "body": "Solitary survival creates unique psychological challenges that group survival does not.\n\nTimeline of isolation effects:\n- Day 1-3: Anxiety, hyper-alertness, difficulty sleeping\n- Day 4-7: Loneliness, talking to yourself (this is NORMAL and healthy)\n- Week 2-3: Altered time perception, emotional suppression\n- Week 4+: Potential dissociation, hallucinations, deep introspection\n\nCoping strategies:\n- Talk out loud — narrate your activities. Your own voice is comforting.\n- Keep a journal — scratching marks on wood, arranging stones to track days.\n- Create a 'companion' — cast away style. It sounds silly. Survivors swear by it.\n- Maintain personal grooming — it preserves self-identity.\n- Create daily rituals — morning routine, evening reflection.\n\nThe greatest danger of isolation is apathy. When there's no one to perform for, no one watching, motivation evaporates. Combat this by making promises to yourself and keeping them.",
       "relatedTechniqueIDs": [
         "psych-will-to-live",
         "psych-positive-self-talk"
@@ -1283,7 +1355,7 @@
       "sourceName": "Sleep Foundation",
       "sourceUrl": "https://www.sleepfoundation.org/sleep-deprivation",
       "title": "Sleep and Survival",
-      "body": "Sleep is not optional. It is a survival necessity equal to water.\n\nCognitive decline timeline:\n- 17 hours awake: equivalent to 0.05% BAC (legally impaired in many countries)\n- 24 hours: equivalent to 0.10% BAC (legally drunk)\n- 36 hours: emotional instability, memory failures, pain sensitivity increases\n- 48 hours: microsleeps begin (uncontrollable 1-30 second sleep episodes)\n- 72 hours: perceptual distortions, paranoia, hallucinations\n- 96+ hours: psychosis-like symptoms\n\nSleep optimization in the field:\n- Any sleep surface is better than bare ground \u2014 insulate from below\n- Sleeping bags work by trapping YOUR heat \u2014 they don't generate warmth\n- 60\u00b0F is the sleep onset threshold \u2014 your core temp needs to drop 1-2\u00b0F\n- Wind is the #1 sleep destroyer \u2014 prioritize wind protection in shelter\n- Full stomach + warm feet = fastest sleep onset\n\nIf you can't sleep: even lying still with eyes closed provides 60-70% of sleep's restorative benefit. Don't stress about not sleeping \u2014 the stress is worse than the insomnia.",
+      "body": "Sleep is not optional. It is a survival necessity equal to water.\n\nCognitive decline timeline:\n- 17 hours awake: equivalent to 0.05% BAC (legally impaired in many countries)\n- 24 hours: equivalent to 0.10% BAC (legally drunk)\n- 36 hours: emotional instability, memory failures, pain sensitivity increases\n- 48 hours: microsleeps begin (uncontrollable 1-30 second sleep episodes)\n- 72 hours: perceptual distortions, paranoia, hallucinations\n- 96+ hours: psychosis-like symptoms\n\nSleep optimization in the field:\n- Any sleep surface is better than bare ground — insulate from below\n- Sleeping bags work by trapping YOUR heat — they don't generate warmth\n- 60°F is the sleep onset threshold — your core temp needs to drop 1-2°F\n- Wind is the #1 sleep destroyer — prioritize wind protection in shelter\n- Full stomach + warm feet = fastest sleep onset\n\nIf you can't sleep: even lying still with eyes closed provides 60-70% of sleep's restorative benefit. Don't stress about not sleeping — the stress is worse than the insomnia.",
       "relatedTechniqueIDs": [
         "psych-sleep-deprivation"
       ]

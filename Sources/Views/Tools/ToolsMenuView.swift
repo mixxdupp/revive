@@ -127,6 +127,16 @@ struct ToolsMenuView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
 
+                        NavigationLink(destination: SurvivalChartsView()) {
+                            GlassToolCard(
+                                icon: "chart.xyaxis.line",
+                                title: "Survival Stats",
+                                subtitle: "Hypothermia & Water Data",
+                                color: .pink
+                            )
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
                     }
                     .padding(.horizontal, 24)
                     .padding(.bottom, 40)
@@ -153,8 +163,8 @@ struct GlassToolCard: View {
                 .overlay(
                     LinearGradient(
                         colors: [
-                            color.opacity(0.1),
-                            color.opacity(0.02)
+                            color.opacity(0.15),
+                            color.opacity(0.05)
                         ],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
@@ -162,8 +172,9 @@ struct GlassToolCard: View {
                 )
                 .overlay(
                     RoundedRectangle(cornerRadius: 24, style: .continuous)
-                        .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
+                        .strokeBorder(color.opacity(0.3), lineWidth: 1)
                 )
+                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
 
             HStack(spacing: 16) {
                 // Icon Box
@@ -200,6 +211,7 @@ struct GlassToolCard: View {
         }
         .frame(minHeight: 96)
         .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
+        .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
     }

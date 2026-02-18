@@ -17,9 +17,6 @@ struct InventoryView: View {
     }
     
     var body: some View {
-        ZStack {
-            DesignSystem.backgroundPrimary.ignoresSafeArea()
-            
             VStack(spacing: 0) {
                 // Header
                 VStack(alignment: .leading, spacing: 8) {
@@ -32,7 +29,9 @@ struct InventoryView: View {
                         .foregroundStyle(DesignSystem.textSecondary)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(24)
+                .padding(.horizontal, 24)
+                .padding(.bottom, 24)
+                .padding(.top, 10)
                 
                 // Item Grid
                 VStack(alignment: .leading, spacing: 24) {
@@ -80,7 +79,6 @@ struct InventoryView: View {
                 }
             }
         }
-    }
     
     func toggleItem(_ item: String) {
         if selectedItems.contains(item) {

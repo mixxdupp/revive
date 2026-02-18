@@ -14,7 +14,7 @@ struct StepAccordionRow: View {
         VStack(spacing: 0) {
             // MARK: - Header (Always Visible)
             Button(action: {
-                withAnimation(.spring(response: 0.4, dampingFraction: 0.7)) {
+                withAnimation(.easeInOut(duration: 0.35)) {
                     if isExpanded {
                         expandedStep = nil
                     } else {
@@ -100,7 +100,7 @@ struct StepAccordionRow: View {
                         .foregroundColor(Color(uiColor: .separator)),
                     alignment: .top
                 )
-                .transition(.opacity.combined(with: .move(edge: .top)))
+                .transition(.opacity)
             }
         }
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))

@@ -1,0 +1,167 @@
+{
+    "domain": "environments",
+    "domainDisplayName": "Environments (Supplemental)",
+    "techniques": [
+        {
+            "id": "env-vehicle-escape",
+            "name": "Vehicle Escape",
+            "subtitle": "Get out of a trapped or crashed car",
+            "category": "Vehicle",
+            "difficulty": 2,
+            "estimatedTime": "1 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Unbuckle seatbelt immediately.",
+                    "helpDetail": "Cutting the belt is a last resort. Try the release button first.",
+                    "illustrationDescription": "Unbuckling."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Open or break the window.",
+                    "helpDetail": "Do not try the door if jammed. Use a window punch tool or headrest prongs to break side windows (aim for the corner).",
+                    "illustrationDescription": "Breaking window."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Exit through the window.",
+                    "helpDetail": "Push children out first. Do not return for possessions.",
+                    "illustrationDescription": "Climbing out."
+                }
+            ],
+            "sourceName": "AAA",
+            "sourceUrl": "https://www.aaa.com/autorepair/articles/how-to-escape-a-submerged-vehicle"
+        },
+        {
+            "id": "env-vehicle-water-escape",
+            "name": "Sinking Vehicle Escape",
+            "subtitle": "S.W.O. - Seatbelt, Window, Out",
+            "category": "Vehicle",
+            "difficulty": 3,
+            "estimatedTime": "30 sec",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Don't open the door. Water pressure will make it impossible.",
+                    "helpDetail": "Opening the door floods the car instantly and sinks it faster.",
+                    "illustrationDescription": "Do not open door."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Roll down windows immediately hitting water.",
+                    "helpDetail": "Electric windows often work for 30-60 seconds underwater.",
+                    "illustrationDescription": "Rolling down windows."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "If trapped, wait for equalization.",
+                    "helpDetail": "If windows won't open, wait until water reaches your neck. Take a breath. Open the door when pressure equalizes (hard but possible).",
+                    "illustrationDescription": "Pressure equalization."
+                }
+            ],
+            "sourceName": "MythBusters / Safety Experts",
+            "sourceUrl": "https://www.wikihow.com/Escape-from-a-Sinking-Car"
+        },
+        {
+            "id": "env-winter-car-kit",
+            "name": "Winter Vehicle Kit",
+            "subtitle": "Essentials for cold weather breakdown",
+            "category": "Vehicle",
+            "difficulty": 1,
+            "estimatedTime": "Pre-prep",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Pack warmth: Blankets, sleeping bag, extra hats/gloves.",
+                    "helpDetail": "The car cools down instantly when the engine dies.",
+                    "illustrationDescription": "Warmth gear."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Include sand/litter for traction and a shovel.",
+                    "helpDetail": "Getting unstuck prevents needing to survive in the car.",
+                    "illustrationDescription": "Traction aids."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Food and water (rotate regularly).",
+                    "helpDetail": "Energy bars and water bottles. Keep water from freezing if possible (keep inside cabin while driving).",
+                    "illustrationDescription": "Food water."
+                }
+            ],
+            "sourceName": "Ready.gov",
+            "sourceUrl": "https://www.ready.gov/car"
+        },
+        {
+            "id": "env-hazmat-evac",
+            "name": "Hazmat Evacuation",
+            "subtitle": "Move crosswind and uphill",
+            "category": "Hazmat",
+            "difficulty": 2,
+            "estimatedTime": "Immediate",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Determine wind direction.",
+                    "helpDetail": "Look at flags, smoke, or toss grass. Do NOT move downwind.",
+                    "illustrationDescription": "Checking wind."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Move CROSSWIND (perpendicular to wind).",
+                    "helpDetail": "This gets you out of the plume path fastest.",
+                    "illustrationDescription": "Moving crosswind."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Seek higher ground.",
+                    "helpDetail": "Many toxic gases (chlorine, propane) are heavier than air and settle in valleys/basements.",
+                    "illustrationDescription": "Uphill movement."
+                }
+            ],
+            "sourceName": "FEMA",
+            "sourceUrl": "https://www.fema.gov/"
+        },
+        {
+            "id": "env-nuclear-fallout",
+            "name": "Nuclear Fallout Protection",
+            "subtitle": "Distance + Shielding + Time",
+            "category": "Hazmat",
+            "difficulty": 3,
+            "estimatedTime": "14 days",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Get inside immediately. Deep is good.",
+                    "helpDetail": "Go to basement or center of a large building. Visual: Put as much concrete/earth between you and outside as possible.",
+                    "illustrationDescription": "Sheltering deep."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Stay inside for at least 24-72 hours.",
+                    "helpDetail": "Fallout radiation decays rapidly. 80% decay in 24 hours. Waiting saves your life.",
+                    "illustrationDescription": "Waiting."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Seal vents and windows.",
+                    "helpDetail": "Use plastic and tape. Turn off AC/Heater that pulls outside air.",
+                    "illustrationDescription": "Sealing vents."
+                }
+            ],
+            "sourceName": "Ready.gov",
+            "sourceUrl": "https://www.ready.gov/nuclear-explosion"
+        }
+    ],
+    "articles": []
+}

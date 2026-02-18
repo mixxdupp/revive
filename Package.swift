@@ -21,7 +21,7 @@ let package = Package(
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),
-            accentColor: .presetColor(.orange),
+            accentColor: .presetColor(.yellow),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
@@ -43,7 +43,6 @@ let package = Package(
         .executableTarget(
             name: "AppModule",
             path: "Sources",
-            exclude: ["Resources/Assets.xcassets"],
             resources: [
                 .process("Resources/Assets.xcassets"),
                 .process("Resources/fire.json"),
@@ -61,6 +60,12 @@ let package = Package(
                 .process("Resources/advanced_environments.json"),
                 .process("Resources/hacks_general.json"),
                 .process("Resources/rebuilding_civilization.json"),
+                .process("Resources/expanded_firstaid.json"),
+                .process("Resources/expanded_environments.json"),
+                .process("Resources/missing_firstaid.json"),
+                .process("Resources/missing_environments.json"),
+                .process("Resources/missing_psychology.json"),
+                .process("Resources/missing_shelter.json"),
                 .process("Resources/Localizable.xcstrings")
             ]
         )

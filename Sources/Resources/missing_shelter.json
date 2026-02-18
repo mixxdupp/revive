@@ -1,0 +1,103 @@
+{
+    "domain": "shelter",
+    "domainDisplayName": "Shelter (Supplemental)",
+    "techniques": [
+        {
+            "id": "shelter-camouflage",
+            "name": "Personal Camouflage",
+            "subtitle": "Disrupt your outline and blend in",
+            "category": "Concealment",
+            "difficulty": 2,
+            "estimatedTime": "10 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Break up the human silhouette.",
+                    "helpDetail": "The head-and-shoulders outline is instantly recognizable. Use vegetation or a poncho to distort your shape.",
+                    "illustrationDescription": "Breaking silhouette."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Match the background texture and color.",
+                    "helpDetail": "Use mud, charcoal, or crushed leaves to darken skin. Match vertical lines in forests, horizontal lines in grass.",
+                    "illustrationDescription": "Texture matching."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Stay low and still.",
+                    "helpDetail": "Movement attracts the eye 10x faster than color. Freeze when observed.",
+                    "illustrationDescription": "Stillness."
+                }
+            ],
+            "sourceName": "U.S. Army Survival Manual FM 21-76",
+            "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+        },
+        {
+            "id": "shelter-barricade",
+            "name": "Barricading",
+            "subtitle": "Fortify a room against entry",
+            "category": "Urban",
+            "difficulty": 2,
+            "estimatedTime": "15 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Block the door from the inside.",
+                    "helpDetail": "Use heavy furniture. Wedge a chair under the doorknob. The heavier the better.",
+                    "illustrationDescription": "Blocking door."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Stay away from the \"fatal funnel\".",
+                    "helpDetail": "The doorway is where fire is concentrated. Position yourself in a corner out of the line of fire.",
+                    "illustrationDescription": "Fatal funnel avoidance."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Cover windows and turn off lights.",
+                    "helpDetail": "Deny visual information to anyone outside. Silence creates uncertainty.",
+                    "illustrationDescription": "Covering windows."
+                }
+            ],
+            "sourceName": "Security Experts",
+            "sourceUrl": "https://www.ready.gov/"
+        },
+        {
+            "id": "shelter-seal-room",
+            "name": "Seal a Room (Shelter in Place)",
+            "subtitle": "Protect against chemical/biological threats",
+            "category": "Hazmat",
+            "difficulty": 2,
+            "estimatedTime": "10 min",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Choose an interior room with few windows.",
+                    "helpDetail": "Ideally above ground floor (some gases sink) but not the roof. Bathroom or large closet works.",
+                    "illustrationDescription": "Choosing room."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Turn off all ventilation (HVAC, fans).",
+                    "helpDetail": "Stop outside air from entering.",
+                    "illustrationDescription": "Turning off HVAC."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Tape plastic sheeting over windows, doors, and vents.",
+                    "helpDetail": "Use duct tape and heavy plastic (garbage bags work). Creates a temporary airlock.",
+                    "illustrationDescription": "Taping plastic."
+                }
+            ],
+            "sourceName": "FEMA",
+            "sourceUrl": "https://www.ready.gov/shelter"
+        }
+    ],
+    "articles": []
+}

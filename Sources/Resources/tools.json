@@ -5,7 +5,7 @@
     {
       "id": "tools-bowline",
       "name": "Bowline Knot",
-      "subtitle": "The king of knots \u2014 a fixed loop that won't slip",
+      "subtitle": "The king of knots — a fixed loop that won't slip",
       "category": "Knots",
       "difficulty": 1,
       "estimatedTime": "2 min",
@@ -36,7 +36,9 @@
           "helpDetail": "The rabbit goes back in the hole. Pull tight. The bowline creates a fixed-size loop that will NOT tighten under load.",
           "illustrationDescription": "Back through the loop."
         }
-      ]
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
     },
     {
       "id": "tools-clove-hitch",
@@ -63,10 +65,12 @@
         {
           "stepNumber": 3,
           "instruction": "Tuck the working end under the second wrap.",
-          "helpDetail": "Pull tight. The clove hitch grips under tension. Use for ridge poles, hanging clotheslines, and temporary anchors. Not for critical loads \u2014 it can slip.",
+          "helpDetail": "Pull tight. The clove hitch grips under tension. Use for ridge poles, hanging clotheslines, and temporary anchors. Not for critical loads — it can slip.",
           "illustrationDescription": "Working end tucked under."
         }
-      ]
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
     },
     {
       "id": "tools-taut-line",
@@ -87,7 +91,7 @@
         {
           "stepNumber": 2,
           "instruction": "Make 2 wraps inside the loop around the standing part.",
-          "helpDetail": "Coil the working end around the standing part INSIDE the loop \u2014 going toward the anchor. Two full wraps.",
+          "helpDetail": "Coil the working end around the standing part INSIDE the loop — going toward the anchor. Two full wraps.",
           "illustrationDescription": "Two inside wraps."
         },
         {
@@ -102,7 +106,9 @@
           "helpDetail": "The taut-line hitch grips when loaded but slides when unloaded. Perfect for tent guylines, tarps, and clotheslines.",
           "illustrationDescription": "Sliding knot for adjustment."
         }
-      ]
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
     },
     {
       "id": "tools-square-lashing",
@@ -144,7 +150,9 @@
           "helpDetail": "Square lashing is used for shelter frames, racks, bridges, ladders, and any structure requiring right-angle joints.",
           "illustrationDescription": "Finished lashing."
         }
-      ]
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
     },
     {
       "id": "tools-knife-sharpening",
@@ -165,7 +173,7 @@
         {
           "stepNumber": 2,
           "instruction": "Hold blade at 15-20 degree angle to the stone.",
-          "helpDetail": "Lay blade flat, then raise spine about two nickels' thickness. Maintain this angle consistently \u2014 angle consistency matters more than angle precision.",
+          "helpDetail": "Lay blade flat, then raise spine about two nickels' thickness. Maintain this angle consistently — angle consistency matters more than angle precision.",
           "illustrationDescription": "Proper blade angle."
         },
         {
@@ -180,7 +188,9 @@
           "helpDetail": "A sharp knife should slice paper or a leaf cleanly. If it tears, continue sharpening. Finish with lighter strokes for a fine edge.",
           "illustrationDescription": "Testing sharpness."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-flint-knapping",
@@ -207,16 +217,18 @@
         {
           "stepNumber": 3,
           "instruction": "Use the sharp flakes as-is for cutting.",
-          "helpDetail": "Fresh flint flakes are sharper than surgical steel. Handle with care \u2014 wrap the non-cutting edge with bark or leather.",
+          "helpDetail": "Fresh flint flakes are sharper than surgical steel. Handle with care — wrap the non-cutting edge with bark or leather.",
           "illustrationDescription": "Using sharp flakes."
         },
         {
           "stepNumber": 4,
           "instruction": "Shape a larger piece into a hand axe by removing flakes around the edges.",
-          "helpDetail": "Work from both sides, thinning and shaping. This is the oldest human technology \u2014 2.6 million years proven. It works.",
+          "helpDetail": "Work from both sides, thinning and shaping. This is the oldest human technology — 2.6 million years proven. It works.",
           "illustrationDescription": "Shaping hand axe."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-cordage",
@@ -252,7 +264,9 @@
           "helpDetail": "Stagger additions so splices don't align. This lets you make cordage of unlimited length. Test strength after each splice.",
           "illustrationDescription": "Adding new fibers."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-improvised-container",
@@ -288,7 +302,9 @@
           "helpDetail": "Willow, reed, or split bamboo. Start with a cross base, weave outward. Line with large leaves for waterproofing.",
           "illustrationDescription": "Woven basket."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-spear-making",
@@ -303,7 +319,7 @@
         {
           "stepNumber": 1,
           "instruction": "Find a straight hardwood pole 5-6 feet long.",
-          "helpDetail": "Green hardwood \u2014 ash, oak, hickory, or ironwood. Avoid softwoods (pine, willow) which dull quickly.",
+          "helpDetail": "Green hardwood — ash, oak, hickory, or ironwood. Avoid softwoods (pine, willow) which dull quickly.",
           "illustrationDescription": "Selecting pole."
         },
         {
@@ -324,12 +340,14 @@
           "helpDetail": "Split the shaft, insert the blade, and lash tightly with cordage. Apply pine resin over the lashing for waterproofing and adhesion.",
           "illustrationDescription": "Lashing blade to shaft."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-sling",
       "name": "Throwing Sling",
-      "subtitle": "David's weapon \u2014 hunt and defend at range",
+      "subtitle": "David's weapon — hunt and defend at range",
       "category": "Weapons",
       "difficulty": 3,
       "estimatedTime": "30 min",
@@ -360,7 +378,9 @@
           "helpDetail": "Release when the stone is aimed at target (forward position in the circle). Effective range: 30-100 meters. Accurate with practice.",
           "illustrationDescription": "Releasing projectile."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-repair",
@@ -396,7 +416,9 @@
           "helpDetail": "Sharpen a thin bone fragment or use a strong thorn. Thread with inner bark fiber. Use a simple running stitch.",
           "illustrationDescription": "Sewing with bone needle."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-camp-organization",
@@ -432,12 +454,14 @@
           "helpDetail": "Keep knife, fire kit, water, and first aid within reach even in the dark. Establish fixed locations so you find things by feel.",
           "illustrationDescription": "Organized supply area."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-fish-hook",
       "name": "Carving a Fish Hook",
-      "subtitle": "Bone, thorn, or wood\u2014the oldest fishing technology",
+      "subtitle": "Bone, thorn, or wood—the oldest fishing technology",
       "category": "Craft",
       "difficulty": 2,
       "estimatedTime": "15 min",
@@ -468,7 +492,9 @@
           "helpDetail": "Thread, wrap 5 times, pull through loop.",
           "illustrationDescription": "Attaching hook."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-net-making",
@@ -482,7 +508,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Make cordage first\u2014need 50-100 feet minimum.",
+          "instruction": "Make cordage first—need 50-100 feet minimum.",
           "helpDetail": "Natural fiber, paracord inner strands, or any thin strong string.",
           "illustrationDescription": "Preparing cordage."
         },
@@ -504,7 +530,9 @@
           "helpDetail": "Use mesh gauge stick for consistency. Sheet bend at each cross.",
           "illustrationDescription": "Weaving."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-bow-making",
@@ -518,7 +546,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Find dead, dry hardwood stave \u2014 yew, ash, hickory, oak.",
+          "instruction": "Find dead, dry hardwood stave — yew, ash, hickory, oak.",
           "helpDetail": "5-6 feet, 1.5 inches thick. No cracks. Dry and springy.",
           "illustrationDescription": "Selecting wood."
         },
@@ -540,7 +568,9 @@
           "helpDetail": "2-3 feet, pencil thickness. Weight front more than back.",
           "illustrationDescription": "Making arrows."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-stone-axe",
@@ -572,11 +602,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Wrap split with wet rawhide \u2014 shrinks as it dries.",
+          "instruction": "Wrap split with wet rawhide — shrinks as it dries.",
           "helpDetail": "Creates incredibly strong bond. Figure-8 wrap pattern.",
           "illustrationDescription": "Binding."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-bone-needle",
@@ -612,7 +644,9 @@
           "helpDetail": "Smooth the eye hole carefully. Any rough edge will cut your thread.",
           "illustrationDescription": "Polishing."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-bark-container",
@@ -648,7 +682,9 @@
           "helpDetail": "Melt pine resin mixed with charcoal. Smear over seams/holes to make it water-tight.",
           "illustrationDescription": "Sealing."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-bark-container-adv",
@@ -684,7 +720,9 @@
           "helpDetail": "Apply resin while warm along every seam. Let cool completely. Test by filling with water. Reseal any leaks.",
           "illustrationDescription": "Sealing seams."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-stone-drill",
@@ -717,10 +755,12 @@
         {
           "stepNumber": 4,
           "instruction": "Push down on the crossbar repeatedly. The string winds and unwinds, spinning the drill.",
-          "helpDetail": "Push down smoothly \u2014 the string unwinds, spinning the shaft. Let the crossbar rise \u2014 the string rewinds. Continuous pumping drills through wood and bone.",
+          "helpDetail": "Push down smoothly — the string unwinds, spinning the shaft. Let the crossbar rise — the string rewinds. Continuous pumping drills through wood and bone.",
           "illustrationDescription": "Pump drilling."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-fire-hardened-spear",
@@ -756,7 +796,9 @@
           "helpDetail": "Fire-hardened points were used for millennia before stone tools. They can penetrate fish, small game, and serve as defensive weapons.",
           "illustrationDescription": "Finished spear."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-sinew-cordage",
@@ -776,23 +818,25 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Dry the sinew completely \u2014 it becomes hard and brittle.",
+          "instruction": "Dry the sinew completely — it becomes hard and brittle.",
           "helpDetail": "Hang sinew strips in sun and wind. Fully dried sinew looks like thin white plastic. It stores indefinitely in this state.",
           "illustrationDescription": "Drying sinew."
         },
         {
           "stepNumber": 3,
           "instruction": "When needed, chew or soak the sinew to soften it.",
-          "helpDetail": "Chewing is traditional and effective \u2014 saliva softens sinew quickly. Once pliable, separate into thin fibers. Each fiber is incredibly strong.",
+          "helpDetail": "Chewing is traditional and effective — saliva softens sinew quickly. Once pliable, separate into thin fibers. Each fiber is incredibly strong.",
           "illustrationDescription": "Softening sinew."
         },
         {
           "stepNumber": 4,
           "instruction": "Twist or braid fibers into cord. Sinew shrinks as it dries, tightening bindings.",
-          "helpDetail": "This shrinking property makes sinew ideal for hafting (attaching stone to handles). Wrap wet sinew around the joint \u2014 as it dries, it contracts and locks tight.",
+          "helpDetail": "This shrinking property makes sinew ideal for hafting (attaching stone to handles). Wrap wet sinew around the joint — as it dries, it contracts and locks tight.",
           "illustrationDescription": "Twisting sinew cord."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-clay-pot",
@@ -818,17 +862,19 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Build the pot using coil method \u2014 roll ropes of clay and stack.",
+          "instruction": "Build the pot using coil method — roll ropes of clay and stack.",
           "helpDetail": "Roll clay into finger-thick ropes. Coil in a circle for the base, then build walls by stacking coils. Smooth inside and outside surfaces as you go.",
           "illustrationDescription": "Coil building."
         },
         {
           "stepNumber": 4,
           "instruction": "Dry slowly for 1-2 days, then fire in a pit fire for 2-3 hours.",
-          "helpDetail": "Rapid drying or heating causes cracking. Dry in shade first. Place in fire gradually \u2014 start at the edge, move to center. After firing, the pot can withstand direct flame for cooking.",
+          "helpDetail": "Rapid drying or heating causes cracking. Dry in shade first. Place in fire gradually — start at the edge, move to center. After firing, the pot can withstand direct flame for cooking.",
           "illustrationDescription": "Firing the pot."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-atlatl",
@@ -849,7 +895,7 @@
         {
           "stepNumber": 2,
           "instruction": "Carve or attach a small spur (hook) at the far end.",
-          "helpDetail": "The spur engages a dimple in the back of the dart/spear. This is the launch point \u2014 when you swing, the spur pushes the dart forward.",
+          "helpDetail": "The spur engages a dimple in the back of the dart/spear. This is the launch point — when you swing, the spur pushes the dart forward.",
           "illustrationDescription": "Adding spur."
         },
         {
@@ -860,11 +906,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Practice the overhand throwing motion \u2014 flick the wrist at the end.",
+          "instruction": "Practice the overhand throwing motion — flick the wrist at the end.",
           "helpDetail": "The atlatl effectively extends your arm by 2 feet, dramatically increasing dart velocity. Early humans used atlatls to hunt mammoths. Effective range: 30-40 yards.",
           "illustrationDescription": "Throwing technique."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-bone-fishhook",
@@ -884,7 +932,7 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Score the hook shape with a sharp stone \u2014 J-curve with a barb.",
+          "instruction": "Score the hook shape with a sharp stone — J-curve with a barb.",
           "helpDetail": "Scratch the outline deeply on both sides. The hook should be 1-2 inches total. Include a small barb near the point to prevent fish from escaping.",
           "illustrationDescription": "Scoring hook shape."
         },
@@ -900,7 +948,9 @@
           "helpDetail": "Wrap the line around the shank several times and tie with a secure knot. Natural cordage, fishing line, or even unraveled paracord inner strands work.",
           "illustrationDescription": "Attaching line."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-bark-cloth",
@@ -936,7 +986,9 @@
           "helpDetail": "Bark cloth was used worldwide before woven textiles. It can be sewn, folded, and layered. Use for clothing, bandages, cordage backing, or shelter material.",
           "illustrationDescription": "Finished bark cloth."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-bamboo-tools",
@@ -966,7 +1018,9 @@
           "helpDetail": "Hold the working edge 4-6 inches above coals. Rotate continuously. The heat drives out moisture and hardens the fibers. The edge should darken slightly but not char. Fire-hardened bamboo holds its edge remarkably well.",
           "illustrationDescription": "Fire hardening."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-natural-glue",
@@ -996,7 +1050,9 @@
           "helpDetail": "Apply to both surfaces while molten. Press together firmly and hold for 2 minutes. Can be reheated and reapplied by warming near fire. This pitch glue is waterproof and strong enough for tool hafting and waterproofing containers.",
           "illustrationDescription": "Application."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-torch",
@@ -1026,7 +1082,9 @@
           "helpDetail": "Angle matters: too vertical drips hot material on your hand; too horizontal burns out faster. Walk slowly — wind will extinguish a fast-moving torch. Carry backup fuel material to repack when it burns low.",
           "illustrationDescription": "Using the torch."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-fishing-hooks",
@@ -1056,7 +1114,9 @@
           "helpDetail": "Carve a shank from hardwood with a notch for the point. Lash a sharpened bone fragment at 45 degrees. Secure with pitch glue and cordage. This style is strong enough for large fish. Barb the point with a small notch.",
           "illustrationDescription": "Composite hook."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-trap-triggers",
@@ -1086,7 +1146,9 @@
           "helpDetail": "Bend a sapling over the trail. Attach a trigger line to a toggle peg seated in a notched base stake. The noose loops around the peg. When an animal enters the noose and pulls, the peg releases and the sapling springs up.",
           "illustrationDescription": "Spring trigger."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-digging-stick",
@@ -1116,7 +1178,9 @@
           "helpDetail": "This drives out moisture, compresses fibers, and creates a much harder surface. The tip should turn golden-brown, not black. A fire-hardened digging stick can break through hard clay and frozen ground.",
           "illustrationDescription": "Hardening."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-rock-hammer",
@@ -1146,7 +1210,9 @@
           "helpDetail": "The flat face crushes nuts and pounds stakes. An edge face splits wood. A pointed face chips other stones for tool making. One good hammerstone serves dozens of purposes — it's arguably the most versatile primitive tool.",
           "illustrationDescription": "Multi-use."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-water-carrier",
@@ -1176,7 +1242,9 @@
           "helpDetail": "Cut bamboo at an angle just above a node (sealed end = bottom). The natural tube holds water perfectly. Carve a wooden plug for the top. A 4-inch diameter bamboo section holds about 1 liter. Carry multiple.",
           "illustrationDescription": "Bamboo bottle."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-snow-goggles",
@@ -1206,7 +1274,9 @@
           "helpDetail": "Darken the inside surface with charcoal or soot to reduce reflective glare. Secure with cordage tied behind the head. These goggles reduce UV exposure by 90%+ and are the difference between navigating and incapacitation.",
           "illustrationDescription": "Final assembly."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-hand-drill-improvement",
@@ -1236,7 +1306,9 @@
           "helpDetail": "A pinch of fine sand in the hearth board notch increases friction dramatically. Rub crushed green plantain leaves on your palms — the slight tackiness prevents slipping. These two additions make the hand drill significantly easier.",
           "illustrationDescription": "Friction enhancers."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-figure4-deadfall",
@@ -1266,7 +1338,9 @@
           "helpDetail": "Build small stick fences on either side to funnel the animal toward the bait. Smear bait on the horizontal stick. Place at trail junctions or near den entrances. Set at dusk, check at dawn. Reset daily.",
           "illustrationDescription": "Baiting and placement."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-hide-tanning",
@@ -1296,7 +1370,9 @@
           "helpDetail": "After brain tanning and drying, the leather will stiffen if it gets wet — unless smoked. Drape over a smoldering fire (punk wood, no flame) for 2-4 hours per side. The smoke locks in the oils and makes the hide permanently soft.",
           "illustrationDescription": "Smoking."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "tools-charcoal-filter",
@@ -1326,7 +1402,9 @@
           "helpDetail": "This filter removes sediment, improves taste, and reduces (not eliminates) bacteria. The charcoal absorbs many chemical contaminants. But it does NOT reliably kill all pathogens — always boil filtered water before drinking.",
           "illustrationDescription": "Filtering."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "tools-improvised-saw",
@@ -1356,7 +1434,9 @@
           "helpDetail": "An aluminum can edge is razor-sharp when cut. Fold one edge over several times for a grip. The working edge cuts cordage, flesh, and thin materials. Wrap the handle in cloth or bark to prevent cuts. Short lifespan but immediate results.",
           "illustrationDescription": "Can knife."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "tools-weighted-net",
@@ -1386,14 +1466,16 @@
           "helpDetail": "The net must hang vertically in water. Stones every 6 inches on the bottom, bark or wood floats on top. Set across a stream with stake anchors. Fish swim into the mesh and become tangled. Check every few hours.",
           "illustrationDescription": "Weighted net deployment."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     }
   ],
   "articles": [
     {
       "id": "tools-article-knots",
       "title": "Essential Knots Every Survivor Must Know",
-      "body": "You don't need to know 50 knots. You need to know 5 perfectly.\n\nThe essential five:\n1. Bowline \u2014 fixed loop, rescue, tying to rings/anchors\n2. Clove Hitch \u2014 quick tie to posts, ridge poles, temporary anchors\n3. Taut-Line Hitch \u2014 adjustable tension for guylines and shelters\n4. Sheet Bend \u2014 joining two ropes of different diameters\n5. Figure-8 \u2014 stopper knot, climbing anchor\n\nKnot principles:\n- A knot reduces rope strength by 20-50%. The sharper the bends, the more strength lost.\n- Wet knots are harder to untie \u2014 use knots with easy release in wet conditions.\n- All knots should be dressed (tightened neatly) and set (loaded gently before heavy use).\n- Practice until you can tie them in the dark, wet, with cold hands.\n\nLashing vs knots:\nLashings join structural members (shelter building). Knots connect ropes or ropes to objects. Learn both. Square lashing for right angles, diagonal lashing for X-joints, sheer lashing for A-frames.",
+      "body": "You don't need to know 50 knots. You need to know 5 perfectly.\n\nThe essential five:\n1. Bowline — fixed loop, rescue, tying to rings/anchors\n2. Clove Hitch — quick tie to posts, ridge poles, temporary anchors\n3. Taut-Line Hitch — adjustable tension for guylines and shelters\n4. Sheet Bend — joining two ropes of different diameters\n5. Figure-8 — stopper knot, climbing anchor\n\nKnot principles:\n- A knot reduces rope strength by 20-50%. The sharper the bends, the more strength lost.\n- Wet knots are harder to untie — use knots with easy release in wet conditions.\n- All knots should be dressed (tightened neatly) and set (loaded gently before heavy use).\n- Practice until you can tie them in the dark, wet, with cold hands.\n\nLashing vs knots:\nLashings join structural members (shelter building). Knots connect ropes or ropes to objects. Learn both. Square lashing for right angles, diagonal lashing for X-joints, sheer lashing for A-frames.",
       "relatedTechniqueIDs": [
         "tools-bowline",
         "tools-clove-hitch",
@@ -1404,7 +1486,7 @@
     {
       "id": "tools-article-blade",
       "title": "The Survival Knife: Your Most Important Tool",
-      "body": "If you can carry only one tool into the wilderness, carry a knife. It makes every other tool.\n\nWith a knife you can:\n- Build shelter (cut branches, split wood, carve stakes)\n- Start fire (baton wood, make feather sticks, throw sparks with ferro rod)\n- Get food (carve snares, spear, fishhooks, process game)\n- Make tools (carve bowls, spoons, handles, digging sticks)\n- First aid (cut bandages, remove splinters, improvise tools)\n\nIdeal survival knife:\n- Full-tang fixed blade (folding knives break under stress)\n- 4-5 inch blade (large enough to baton, small enough for detail)\n- High carbon steel (easier to sharpen in the field than stainless)\n- Flat or scandi grind (most versatile for bushcraft)\n- No serrations (hard to sharpen without tools)\n\nField care:\n- Clean and dry after each use\n- Oil the blade with any fat to prevent rust\n- Sharpen regularly \u2014 10 strokes per side daily\n- Never throw your knife (you risk losing or breaking it)\n- Always cut away from your body\n\nBatoning: split wood by placing the knife edge on the end of a log and striking the spine with another piece of wood. This splits wood without an axe.",
+      "body": "If you can carry only one tool into the wilderness, carry a knife. It makes every other tool.\n\nWith a knife you can:\n- Build shelter (cut branches, split wood, carve stakes)\n- Start fire (baton wood, make feather sticks, throw sparks with ferro rod)\n- Get food (carve snares, spear, fishhooks, process game)\n- Make tools (carve bowls, spoons, handles, digging sticks)\n- First aid (cut bandages, remove splinters, improvise tools)\n\nIdeal survival knife:\n- Full-tang fixed blade (folding knives break under stress)\n- 4-5 inch blade (large enough to baton, small enough for detail)\n- High carbon steel (easier to sharpen in the field than stainless)\n- Flat or scandi grind (most versatile for bushcraft)\n- No serrations (hard to sharpen without tools)\n\nField care:\n- Clean and dry after each use\n- Oil the blade with any fat to prevent rust\n- Sharpen regularly — 10 strokes per side daily\n- Never throw your knife (you risk losing or breaking it)\n- Always cut away from your body\n\nBatoning: split wood by placing the knife edge on the end of a log and striking the spine with another piece of wood. This splits wood without an axe.",
       "relatedTechniqueIDs": [
         "tools-knife-sharpening",
         "tools-flint-knapping"
@@ -1413,7 +1495,7 @@
     {
       "id": "tools-article-repair",
       "title": "Field Repair & Improvisation",
-      "body": "In survival, everything breaks eventually. The ability to repair and improvise separates survivors from victims.\n\nUniversal repair materials found in nature:\n- Pine resin: waterproof glue, sealant, fire starter, torch fuel\n- Plant cordage: rope, thread, lashing, fishing line\n- Bone: needles, hooks, toggles, awls, scrapers\n- Rock: hammers, anvils, scrapers, cutting edges\n- Clay: pottery, ovens, sealant, fire reflectors\n- Birch bark: containers, shingles, fire starter, waterproofing\n\nPine resin recipe (the survival super-glue):\n1. Collect hardened sap from pine/spruce trees\n2. Heat slowly until liquid (do not boil)\n3. Mix 1:1 with crushed charcoal\n4. Add small amount of plant fiber\n5. Apply while warm \u2014 hardens as it cools\n\nMental framework: Every object has multiple uses. A belt is a strap, a tourniquet, a strop, a lashing. A tarp is a shelter, a rain collector, a carrying bag, a signaling device. Think in terms of material properties (strong, sharp, flexible, waterproof) not intended use.",
+      "body": "In survival, everything breaks eventually. The ability to repair and improvise separates survivors from victims.\n\nUniversal repair materials found in nature:\n- Pine resin: waterproof glue, sealant, fire starter, torch fuel\n- Plant cordage: rope, thread, lashing, fishing line\n- Bone: needles, hooks, toggles, awls, scrapers\n- Rock: hammers, anvils, scrapers, cutting edges\n- Clay: pottery, ovens, sealant, fire reflectors\n- Birch bark: containers, shingles, fire starter, waterproofing\n\nPine resin recipe (the survival super-glue):\n1. Collect hardened sap from pine/spruce trees\n2. Heat slowly until liquid (do not boil)\n3. Mix 1:1 with crushed charcoal\n4. Add small amount of plant fiber\n5. Apply while warm — hardens as it cools\n\nMental framework: Every object has multiple uses. A belt is a strap, a tourniquet, a strop, a lashing. A tarp is a shelter, a rain collector, a carrying bag, a signaling device. Think in terms of material properties (strong, sharp, flexible, waterproof) not intended use.",
       "relatedTechniqueIDs": [
         "tools-repair",
         "tools-cordage",
@@ -1423,7 +1505,7 @@
     {
       "id": "tools-article-camp",
       "title": "Camp Setup & Management",
-      "body": "A well-organized camp is a force multiplier. Disorganization wastes time, energy, and morale.\n\nCamp selection criteria:\n- Water: within 200 yards but not in a flood plain\n- Shelter: protected from wind, not under dead trees/branches\n- Fire: dry ground, fuel nearby, fire reflector potential\n- Signals: visible from air/ground, near open area\n- Hazards: away from animal trails, ant hills, hornet nests, cliff edges\n\nCamp zones (concentric rings):\n1. Sleep zone: warmest, most protected, clean\n2. Work zone: fire, cooking, tool maintenance\n3. Storage zone: food cache, water storage, firewood\n4. Waste zone: latrine, garbage pit, fish cleaning\n\nFirewood rule of three:\n- The firewood you think you need \u00d7 3 = what you actually need\n- Gather firewood before dark \u2014 ALWAYS\n- Sort by size: tinder, kindling, fuel, overnight logs\n\nDefensive camp features:\n- Noise-makers on perimeter approach lines (cans with rocks, sticks)\n- Fire maintained through night (deters most wildlife)\n- Food hung 12+ feet, 200+ feet from camp\n- Clear sightlines around shelter",
+      "body": "A well-organized camp is a force multiplier. Disorganization wastes time, energy, and morale.\n\nCamp selection criteria:\n- Water: within 200 yards but not in a flood plain\n- Shelter: protected from wind, not under dead trees/branches\n- Fire: dry ground, fuel nearby, fire reflector potential\n- Signals: visible from air/ground, near open area\n- Hazards: away from animal trails, ant hills, hornet nests, cliff edges\n\nCamp zones (concentric rings):\n1. Sleep zone: warmest, most protected, clean\n2. Work zone: fire, cooking, tool maintenance\n3. Storage zone: food cache, water storage, firewood\n4. Waste zone: latrine, garbage pit, fish cleaning\n\nFirewood rule of three:\n- The firewood you think you need × 3 = what you actually need\n- Gather firewood before dark — ALWAYS\n- Sort by size: tinder, kindling, fuel, overnight logs\n\nDefensive camp features:\n- Noise-makers on perimeter approach lines (cans with rocks, sticks)\n- Fire maintained through night (deters most wildlife)\n- Food hung 12+ feet, 200+ feet from camp\n- Clear sightlines around shelter",
       "relatedTechniqueIDs": [
         "tools-camp-organization"
       ]
@@ -1431,7 +1513,7 @@
     {
       "id": "tools-article-cordage",
       "title": "Natural Cordage: The Universal Survival Material",
-      "body": "Cord connects everything in survival \u2014 shelters, traps, fishing, weapons, and tools. Natural cordage is everywhere if you know where to look.\n\nBest natural cordage materials:\n- Plant fibers: dogbane, milkweed, stinging nettle, yucca, cattail leaves\n- Bark fibers: basswood inner bark, cedar bark, willow bark\n- Animal: sinew (strongest), rawhide strips, gut\n- Roots: spruce roots, pine roots (flexible and strong)\n\nBasic twist cordage technique:\n1. Gather long fibers and bundle them\n2. Divide into two equal bundles\n3. Twist each bundle clockwise individually\n4. Wrap the two bundles counter-clockwise around each other\n5. The opposing twists lock each other in place\n\nSplicing (adding length):\n- When a bundle runs thin, insert new fibers alongside the short ones\n- Stagger splices \u2014 never splice both bundles at the same point\n- A well-made cordage splice is nearly as strong as unspliced cord\n\nStrength comparison:\n- Paracord inner strand: 50 lbs\n- Good plant cordage (2-ply): 30-50 lbs\n- Sinew cord: 80+ lbs\n- Rawhide strip: 100+ lbs",
+      "body": "Cord connects everything in survival — shelters, traps, fishing, weapons, and tools. Natural cordage is everywhere if you know where to look.\n\nBest natural cordage materials:\n- Plant fibers: dogbane, milkweed, stinging nettle, yucca, cattail leaves\n- Bark fibers: basswood inner bark, cedar bark, willow bark\n- Animal: sinew (strongest), rawhide strips, gut\n- Roots: spruce roots, pine roots (flexible and strong)\n\nBasic twist cordage technique:\n1. Gather long fibers and bundle them\n2. Divide into two equal bundles\n3. Twist each bundle clockwise individually\n4. Wrap the two bundles counter-clockwise around each other\n5. The opposing twists lock each other in place\n\nSplicing (adding length):\n- When a bundle runs thin, insert new fibers alongside the short ones\n- Stagger splices — never splice both bundles at the same point\n- A well-made cordage splice is nearly as strong as unspliced cord\n\nStrength comparison:\n- Paracord inner strand: 50 lbs\n- Good plant cordage (2-ply): 30-50 lbs\n- Sinew cord: 80+ lbs\n- Rawhide strip: 100+ lbs",
       "relatedTechniqueIDs": [
         "tools-cordage",
         "tools-sinew-cordage"
@@ -1440,7 +1522,7 @@
     {
       "id": "tools-article-stone",
       "title": "The Stone Age Toolkit",
-      "body": "For 2.5 million years, stone was humanity's primary material. The skills still work.\n\nEssential stone tools:\n1. Chopper: crude cutting edge on a river cobble \u2014 the simplest stone tool\n2. Hand axe: bifacially flaked teardrop shape \u2014 cuts, scrapes, digs\n3. Scraper: steep-edged flake for hide processing and wood shaping\n4. Knife: thin, long flake with sharp edge \u2014 the most useful daily tool\n5. Drill point: small, triangular piece for piercing bone, shell, and wood\n\nBest rocks for tools:\n- Flint/chert: king of toolmaking, conchoidal fracture, razor edges\n- Obsidian: volcanic glass, sharpest edges in nature (thinner than steel scalpels)\n- Quartzite: tough, holds up for chopping and hammering\n- Jasper: fine-grained, makes excellent small tools\n- Basalt: coarse but good for heavy-duty choppers and hammers\n\nCollecting strategy:\n- Riverbeds are natural rock shops \u2014 water sorts by density and hardness\n- Look for rocks that ring when tapped (indicates fine grain)\n- Avoid rocks with visible cracks, inclusions, or layering\n- Carry good stone when you find it \u2014 the perfect rock may not be at your camp",
+      "body": "For 2.5 million years, stone was humanity's primary material. The skills still work.\n\nEssential stone tools:\n1. Chopper: crude cutting edge on a river cobble — the simplest stone tool\n2. Hand axe: bifacially flaked teardrop shape — cuts, scrapes, digs\n3. Scraper: steep-edged flake for hide processing and wood shaping\n4. Knife: thin, long flake with sharp edge — the most useful daily tool\n5. Drill point: small, triangular piece for piercing bone, shell, and wood\n\nBest rocks for tools:\n- Flint/chert: king of toolmaking, conchoidal fracture, razor edges\n- Obsidian: volcanic glass, sharpest edges in nature (thinner than steel scalpels)\n- Quartzite: tough, holds up for chopping and hammering\n- Jasper: fine-grained, makes excellent small tools\n- Basalt: coarse but good for heavy-duty choppers and hammers\n\nCollecting strategy:\n- Riverbeds are natural rock shops — water sorts by density and hardness\n- Look for rocks that ring when tapped (indicates fine grain)\n- Avoid rocks with visible cracks, inclusions, or layering\n- Carry good stone when you find it — the perfect rock may not be at your camp",
       "relatedTechniqueIDs": [
         "tools-flint-knapping",
         "tools-stone-axe"

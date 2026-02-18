@@ -1,157 +1,513 @@
 {
-    "domain": "environments",
-    "domainDisplayName": "Environments",
-    "techniques": [
+  "domain": "environments",
+  "domainDisplayName": "Environments (Advanced)",
+  "techniques": [
+    {
+      "id": "env-flash-flood-response",
+      "name": "Flash Flood Response",
+      "subtitle": "Survive sudden flooding — seconds matter",
+      "category": "Weather",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
         {
-            "id": "env-ziptie-escape",
-            "name": "Zip Tie Escape",
-            "subtitle": "Break free from illegal restraints",
-            "category": "Urban Evasion",
-            "difficulty": 3,
-            "estimatedTime": "10 sec",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Bring hands high above head, knuckles touching.",
-                    "helpDetail": "The locking mechanism of the zip tie should be between your hands or facing outward. Do not have the lock against your skin.",
-                    "illustrationDescription": "Hands high, knuckles touching."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Explosively bring hands down into your stomach.",
-                    "helpDetail": "Simultaneously flare your elbows out like chicken wings. The force breaks the locking prow.",
-                    "illustrationDescription": "Downward thrust."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Alternative: Friction Saw with shoelace.",
-                    "helpDetail": "Remove shoelace, thread through tie. Loop ends on feet (bicycle motion). Saw back and forth to melt plastic.",
-                    "illustrationDescription": "Friction saw."
-                }
-            ]
+          "stepNumber": 1,
+          "instruction": "Move to high ground IMMEDIATELY. Do not wait to gather belongings.",
+          "helpDetail": "Flash floods can rise 6+ feet in minutes. If you hear a roar upstream or see water suddenly turn muddy, you have seconds. Abandon camp, abandon gear. Your life is the only priority.",
+          "illustrationDescription": "Running uphill from flood."
         },
         {
-            "id": "env-door-barricade",
-            "name": "Door Barricade",
-            "subtitle": "Secure a room without a lock",
-            "category": "Urban Evasion",
-            "difficulty": 2,
-            "estimatedTime": "2 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Use a door wedge / shim under the door.",
-                    "helpDetail": "Kick a rubber wedge or wooden shim hard under the door. This prevents opening from the outside.",
-                    "illustrationDescription": "Wedge under door."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Tie the door handle to a heavy immovable object.",
-                    "helpDetail": "Use belt or cordage to tie handle to a bed frame or radiator. Reduce slack to zero.",
-                    "illustrationDescription": "Tying handle."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Chair method: Wedge chair back under the door knob.",
-                    "helpDetail": "Tilt chair so top of backrest is under the knob, legs are on floor. Pressure from opening drives chair into floor.",
-                    "illustrationDescription": "Chair under knob."
-                }
-            ]
+          "stepNumber": 2,
+          "instruction": "Never cross flowing water deeper than your ankles.",
+          "helpDetail": "6 inches of fast-moving water can knock you down. 2 feet will float a car. If water is above your knees, do NOT attempt to cross. Find alternate route or wait.",
+          "illustrationDescription": "Ankle-deep water limit."
         },
         {
-            "id": "env-urban-grayman",
-            "name": "Gray Man Protocol",
-            "subtitle": "Blend into crowds and avoid attention",
-            "category": "Urban Evasion",
-            "difficulty": 1,
-            "estimatedTime": "Ongoing",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Remove all tactical gear and identifying patches.",
-                    "helpDetail": "No camo, no morale patches, no MOLLE packs. Look like a refugee or local commuter.",
-                    "illustrationDescription": "Civilian clothing."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Adjust walking pace to match the crowd baseline.",
-                    "helpDetail": "Do not run (attracts pursuit). Do not loiter (attracts security). Flow with the 'river' of people.",
-                    "illustrationDescription": "Matching pace."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Avoid eye contact but maintain situational awareness.",
-                    "helpDetail": "Scan using reflections (shop windows, phone screen). Direct eye contact is a threat signal.",
-                    "illustrationDescription": "Peripheral scanning."
-                }
-            ]
+          "stepNumber": 3,
+          "instruction": "If swept away: float on your back with feet downstream.",
+          "helpDetail": "Feet first protects your head from rocks. Keep arms out to steer. Look for branch or rock to grab. Do NOT try to stand in fast water — foot entrapment can drown you. Aggressive swimming at an angle toward shore is your best escape.",
+          "illustrationDescription": "Defensive swimming position."
         },
         {
-            "id": "env-vehicle-entry",
-            "name": "Emergency Vehicle Entry",
-            "subtitle": "Break a window safely",
-            "category": "Urban Evasion",
-            "difficulty": 2,
-            "estimatedTime": "1 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Choose the side window furthest from occupants/gear.",
-                    "helpDetail": "Windshields are laminated (won't shatter). Side windows are tempered (will shatter).",
-                    "illustrationDescription": "Selecting window."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Strike the bottom corner of the glass, not the center.",
-                    "helpDetail": "The center flexes. The corners are rigid break points. Use a spark plug ceramic, center punch, or sharp rock.",
-                    "illustrationDescription": "Striking corner."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Look away and cover eyes precisely when striking.",
-                    "helpDetail": "Glass dust will explode inward. Clear remaining jagged edges with a tool before reaching in.",
-                    "illustrationDescription": "Covering eyes."
-                }
-            ]
-        },
-        {
-            "id": "env-anti-tracking",
-            "name": "Anti-Tracking Basics",
-            "subtitle": "Minimize sign and confuse pursuers",
-            "category": "Urban Evasion",
-            "difficulty": 3,
-            "estimatedTime": "Ongoing",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Walk on hard surfaces (rock, pavement) to reduce footprints.",
-                    "helpDetail": "Avoid mud, soft sand, and snow. Step on rocks or logs (disturbed environment detection).",
-                    "illustrationDescription": "Hard surface walking."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Fish-hook maneuver: Walk past your hide site, then loop back.",
-                    "helpDetail": "Walk 100m past where you intend to hide, then circle back in a wide loop to watch your own trail.",
-                    "illustrationDescription": "Fish-hook path."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Avoid breaking branches or disturbing spider webs.",
-                    "helpDetail": "These are 'ground sign' indicators. Move slowly and deliberately.",
-                    "illustrationDescription": "Avoiding disturbance."
-                }
-            ]
+          "stepNumber": 4,
+          "instruction": "If in a vehicle: abandon it if water starts rising around it.",
+          "helpDetail": "Do NOT drive through flooded roads. If water rises around your car: unbuckle, lower windows immediately (before electrical shorts), climb out through window. If submerged: wait for pressure to equalize, then open door.",
+          "illustrationDescription": "Exiting vehicle in flood."
         }
-    ],
-    "articles": []
+      ],
+      "sourceName": "FEMA – Flood Safety",
+      "sourceUrl": "https://www.ready.gov/floods"
+    },
+    {
+      "id": "env-flood-survival",
+      "name": "Post-Flood Survival",
+      "subtitle": "Hazards after floodwaters recede",
+      "category": "Weather",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT drink floodwater or any water contaminated by flooding.",
+          "helpDetail": "Floodwater contains sewage, chemicals, dead animals, and bacteria. Boil all water twice. Filter before boiling if water is silty. Dysentery kills more flood survivors than the flood itself.",
+          "illustrationDescription": "Contaminated water warning."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Avoid walking through standing floodwater.",
+          "helpDetail": "Hidden hazards: open manholes, downed power lines (electrocution), sharp debris, snakes seeking high ground. Use a long stick to probe ahead.",
+          "illustrationDescription": "Hidden hazards under water."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Discard all food that contacted floodwater.",
+          "helpDetail": "Canned goods with intact seals can be sanitized (wash in bleach solution). Everything else is contaminated and dangerous.",
+          "illustrationDescription": "Discarding wet food."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Watch for structural collapse in buildings.",
+          "helpDetail": "Foundations may be undermined. Walls may be weakened. Enter damaged buildings with extreme caution. Look for cracks, tilting, or sagging before entering.",
+          "illustrationDescription": "Inspecting damaged building."
+        }
+      ],
+      "sourceName": "FEMA – Flood Safety",
+      "sourceUrl": "https://www.ready.gov/floods"
+    },
+    {
+      "id": "env-ocean-survival",
+      "name": "Ocean Survival (Adrift)",
+      "subtitle": "Staying alive at sea without a vessel",
+      "category": "Water",
+      "difficulty": 5,
+      "estimatedTime": "Days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Conserve energy above all else. Float, don't swim.",
+          "helpDetail": "Swimming burns 10x more calories than floating. Unless shore is clearly visible and close, conserve energy. Use any flotation device. Even partially inflated clothing can keep you afloat.",
+          "illustrationDescription": "Floating to conserve energy."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Protect yourself from sun and cold water.",
+          "helpDetail": "Sunburn and dehydration kill faster at sea. Cover skin with clothing. In cold water, adopt the HELP position (Heat Escape Lessening Posture): knees to chest, arms crossed. In warm water, shade your head.",
+          "illustrationDescription": "HELP position."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Collect rainwater immediately when it falls.",
+          "helpDetail": "NEVER drink seawater — it accelerates dehydration and kidney failure. Collect rain using clothing as a funnel into any container. Dew on surfaces at dawn is also drinkable.",
+          "illustrationDescription": "Collecting rainwater."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Fish near floating debris — it attracts marine life.",
+          "helpDetail": "Improvise hook from anything: safety pin, wire, bone. Small fish gather under floating objects. Fish blood is hydrating if you're desperate — but fish eyes and spinal fluid contain more fresh water.",
+          "illustrationDescription": "Fishing near debris."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Signal constantly — use anything reflective or bright.",
+          "helpDetail": "Planes scan for survivors visually. Mirror flashes visible 40+ miles away. Dye marker, whistle, any contrasting color against water. At night, any light source. Stay near wreckage — rescuers search there first.",
+          "illustrationDescription": "Signaling from water."
+        }
+      ],
+      "sourceName": "U.S. Coast Guard – Water Safety",
+      "sourceUrl": "https://www.uscg.mil/"
+    },
+    {
+      "id": "env-coastal-tidal",
+      "name": "Coastal & Tidal Hazards",
+      "subtitle": "Surviving rip currents, tidal cuts, and surges",
+      "category": "Water",
+      "difficulty": 3,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Rip current: SWIM PARALLEL to shore, never against the current.",
+          "helpDetail": "Rip currents are narrow channels of water flowing away from shore. They will exhaust even Olympic swimmers. Swim sideways until you exit the current (usually 50-100 feet), then swim diagonally toward shore.",
+          "illustrationDescription": "Rip current escape diagram."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tidal cut-offs: check tide tables before exploring coastal areas.",
+          "helpDetail": "Incoming tides can cut off beaches, headlands, and rock platforms. If water is rising around your path back, go NOW. Don't wait to see if it gets worse. Climb to the highest point if trapped.",
+          "illustrationDescription": "Tidal cut-off warning."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Storm surge: evacuate to high ground before the storm arrives.",
+          "helpDetail": "Storm surge can push 20+ feet of water inland. If ordered to evacuate, GO. The surge comes fast and can arrive before the storm eye. Most hurricane deaths are from drowning, not wind.",
+          "illustrationDescription": "Storm surge height."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Tsunami warning signs: rapidly receding water, unusual roar from sea.",
+          "helpDetail": "If the ocean suddenly pulls back dramatically, exposing the seafloor, a tsunami is imminent. Run to high ground immediately. Tsunamis travel 500+ mph in open ocean. You cannot outrun one on flat ground.",
+          "illustrationDescription": "Receding water warning."
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+    },
+    {
+      "id": "env-tropical-disease",
+      "name": "Tropical Disease Prevention",
+      "subtitle": "Avoiding malaria, dengue, and waterborne illness",
+      "category": "Environment",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Prevent mosquito bites: cover all skin, especially at dawn and dusk.",
+          "helpDetail": "Malaria mosquitoes (Anopheles) bite dawn/dusk. Dengue mosquitoes (Aedes) bite daytime. Cover skin with long sleeves and pants. Tuck pants into socks. If available, treat clothing with permethrin.",
+          "illustrationDescription": "Full coverage clothing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Sleep under a net or in a sealed shelter.",
+          "helpDetail": "Improvise a net from any fine mesh material. Smoke near your sleeping area repels insects. Citronella, eucalyptus, and certain ferns provide mild natural repellent when crushed and rubbed on skin.",
+          "illustrationDescription": "Sleeping under net."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Purify ALL water in tropical environments.",
+          "helpDetail": "Tropical waterborne diseases: cholera, typhoid, amoebic dysentery, giardia, hepatitis A. Boil water for 3+ minutes. Even clear streams can be contaminated. Diarrheal diseases kill through dehydration.",
+          "illustrationDescription": "Boiling water."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Treat any cut or scratch immediately — tropical infections spread fast.",
+          "helpDetail": "Bacteria thrive in tropical heat and humidity. A minor scratch can turn septic within hours. Clean with boiled water, apply any antiseptic available. Keep wounds dry and covered. Change dressings daily.",
+          "illustrationDescription": "Wound cleaning."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Monitor for fever, chills, severe headache — signs of tropical infection.",
+          "helpDetail": "Malaria: cyclic fever every 48-72 hours with shaking chills. Dengue: high fever, severe headache behind eyes, joint pain. Both can be fatal without treatment. Rest, hydrate, and seek help.",
+          "illustrationDescription": "Fever monitoring."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "env-desert-night-travel",
+      "name": "Desert Night Travel",
+      "subtitle": "Navigate safely when the sun is down",
+      "category": "Desert",
+      "difficulty": 3,
+      "estimatedTime": "All night",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Travel only at night in extreme desert heat.",
+          "helpDetail": "Daytime desert travel can cause heat stroke and death within hours. Night travel reduces water needs by up to 60%. Rest during the day in shade. Start moving at dusk, stop at dawn.",
+          "illustrationDescription": "Night travel timing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Navigate by stars: Polaris (north) or Southern Cross (south).",
+          "helpDetail": "In the Northern Hemisphere, find Polaris using the Big Dipper's pointer stars. In the Southern Hemisphere, the Southern Cross points south. The moon rises in the east and sets west — use it for general direction.",
+          "illustrationDescription": "Star navigation."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Watch for nocturnal wildlife — scorpions, snakes are active at night.",
+          "helpDetail": "Shake out clothing and shoes before wearing. Don't place hands where you can't see. Walk with a stick to probe ahead. Scorpions glow under UV light if you have one.",
+          "illustrationDescription": "Night wildlife hazards."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Stay warm — deserts drop 40-50°F at night.",
+          "helpDetail": "The same desert that was 120°F can drop to 60°F at night. Layer clothing and keep moving. Sand retains heat — dig into it for warmth if you must rest. Build a small fire if you have materials.",
+          "illustrationDescription": "Desert temperature swing."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "env-desert-shelter",
+      "name": "Desert Shelter",
+      "subtitle": "Shade is survival in the desert",
+      "category": "Desert",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create shade — even 15°F cooler in shade vs. full sun.",
+          "helpDetail": "Use anything: tarp, space blanket, clothing, branches with leaves. Double-layer shade (two layers with air gap) is vastly more effective than single layer. The air gap prevents heat transfer.",
+          "illustrationDescription": "Double-layer shade."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig a trench 18 inches deep and lie in it.",
+          "helpDetail": "Desert surface can be 150°F but 18 inches down is 20-30°F cooler. Dig long enough to lie in. Cover with shade material. This combination can make 130°F surface temps survivable.",
+          "illustrationDescription": "Trench shelter."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Elevate yourself off the ground surface if possible.",
+          "helpDetail": "Ground radiation heats you from below. Even 12 inches of elevation (sitting on a pack, making a raised platform) significantly reduces heat absorption from the ground.",
+          "illustrationDescription": "Elevated platform."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "env-desert-water",
+      "name": "Finding Water in the Desert",
+      "subtitle": "Desert water sources that most people miss",
+      "category": "Desert",
+      "difficulty": 4,
+      "estimatedTime": "Hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Look for green vegetation — it always indicates water nearby.",
+          "helpDetail": "Cottonwood, willow, and cattails only grow near water. Dig at the base of green vegetation in dry riverbeds. Water may be just inches below the surface.",
+          "illustrationDescription": "Green vegetation in desert."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Follow animal tracks downhill — they lead to water.",
+          "helpDetail": "Converging game trails lead to water holes. Birds flying in a straight line at dawn/dusk are heading to water. Bees are always within 3 miles of water.",
+          "illustrationDescription": "Animal tracks converging."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Dig in the outside bend of dry riverbeds.",
+          "helpDetail": "Water collects on the outside of bends where the current was slowest. Dig until sand gets moist, then let water seep in. May need to dig 2-3 feet. Line hole with rocks to prevent cave-in.",
+          "illustrationDescription": "Digging river bend."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Make a solar still: plastic sheet over a hole with a collection container.",
+          "helpDetail": "Dig a hole 3 feet wide, place container in center, cover with clear plastic, weight the center with a rock so condensation drips into container. Add vegetation to increase moisture. Produces 1-2 cups per day.",
+          "illustrationDescription": "Solar still diagram."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "env-jungle-movement",
+      "name": "Jungle Movement",
+      "subtitle": "Moving through dense tropical forest without getting lost",
+      "category": "Jungle",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Follow waterways downstream — they lead to civilization.",
+          "helpDetail": "Streams merge into rivers, rivers reach settlements. Walking along water also provides drinking water and food (fish, frogs). Be aware of waterfalls and steep gorges — scout ahead.",
+          "illustrationDescription": "Following stream."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use a stick to probe ahead and clear spider webs.",
+          "helpDetail": "Wave a stick at face-height as you walk. This catches webs and disturbs snakes before you step on them. Listen for falling debris — monkeys dropping food means fruit trees above.",
+          "illustrationDescription": "Probing with stick."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Step on logs, not over them. Check before grabbing vines.",
+          "helpDetail": "Snakes rest against logs. Step on top and look on the other side. Never grab a vine without looking — it could be a snake. Test vine strength before swinging or climbing.",
+          "illustrationDescription": "Stepping safely."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Move slowly during the hottest hours. Pace yourself.",
+          "helpDetail": "Jungle heat + humidity makes dehydration rapid. Drink water constantly. If you're not urinating, you're dehydrated. Machete work burns enormous calories — rest every 15 minutes.",
+          "illustrationDescription": "Resting in shade."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "env-jungle-travel",
+      "name": "Jungle Travel Planning",
+      "subtitle": "Route selection and daily rhythm in tropical forest",
+      "category": "Jungle",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Travel in the early morning (6-10 AM) and late afternoon (3-6 PM).",
+          "helpDetail": "Midday heat in the jungle is debilitating. Use the hottest hours for rest, water collection, and shelter improvement. Dawn and dusk also have better visibility in forest.",
+          "illustrationDescription": "Daily travel schedule."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use ridgelines when possible — they're above the undergrowth.",
+          "helpDetail": "Valley floors are choked with vegetation. Ridge tops have thinner growth and better visibility. Follow ridges parallel to your direction of travel, descending to streams for water.",
+          "illustrationDescription": "Ridgeline vs. valley."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Mark your trail to prevent circling.",
+          "helpDetail": "Cut visible marks on trees at eye level. Break branches pointing in your direction of travel. Without landmarks, people naturally walk in circles in dense forest.",
+          "illustrationDescription": "Trail marking."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Camp early — set up shelter before dark (5 PM in tropics).",
+          "helpDetail": "Darkness comes fast near the equator. You need 1+ hours to set up shelter and make fire. Sleeping on the ground in the jungle invites ants, snakes, and scorpions. Hammock or elevated platform is essential.",
+          "illustrationDescription": "Early camp routine."
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+    },
+    {
+      "id": "env-jungle-shelter",
+      "name": "Jungle Shelter",
+      "subtitle": "Stay dry and off the ground in tropical forests",
+      "category": "Jungle",
+      "difficulty": 2,
+      "estimatedTime": "2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build elevated — a platform or hammock at least 2 feet off the ground.",
+          "helpDetail": "Ground in the jungle is wet, full of insects, and often populated with snakes at night. Lash a platform between trees using vines or paracord. Layer with broad leaves for comfort.",
+          "illustrationDescription": "Elevated platform."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Roof with large overlapping leaves — banana, palm, or similar.",
+          "helpDetail": "Layer like shingles, starting from bottom row. Overlap by half. A roof of 3-4 layers thick will shed tropical downpours. Angle steeply (45°+) for drainage.",
+          "illustrationDescription": "Leaf-shingled roof."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Clear vegetation 3 feet around your shelter — airflow deters mosquitoes.",
+          "helpDetail": "Stagnant air = mosquitoes. Clearing around the shelter allows breeze to pass through. A small fire with green leaves creates smoke that repels insects.",
+          "illustrationDescription": "Cleared area with smoke."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Dig drainage channels around your shelter footprint.",
+          "helpDetail": "Tropical rain is intense. Even elevated shelters get flooded from ground runoff. A small trench directing water away from your sleep area keeps you dry.",
+          "illustrationDescription": "Drainage channels."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+    },
+    {
+      "id": "env-jungle-water",
+      "name": "Jungle Water Sources",
+      "subtitle": "Water is everywhere in the jungle — know where to look",
+      "category": "Jungle",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut green bamboo — it contains drinkable water in the stems.",
+          "helpDetail": "Bend a green bamboo stalk and cut the tip. Water drips out. One stalk may yield a cup. Water collected in bamboo internodes (the hollow sections) is clean and safe to drink without purification.",
+          "illustrationDescription": "Bamboo water collection."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Collect water from large-leaf plants early morning.",
+          "helpDetail": "Dew collects on broad leaves like taro, banana, and elephant ear. Funnel dew into a container. Pitcher plants and bromeliads also hold water in their cups — filter through cloth.",
+          "illustrationDescription": "Leaf dew collection."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use vine water: cut vine at the TOP first, then cut bottom to drain.",
+          "helpDetail": "If you cut bottom first, capillary action holds the water. Cut high, then low, and water flows out. Test taste first — if bitter or milky, discard. Clear, neutral-tasting vine water is safe.",
+          "illustrationDescription": "Vine cutting order."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Running streams are safest — still water is highest risk.",
+          "helpDetail": "Even in the jungle, purify stream water if possible. But in emergency, fast-moving mountain streams are lower risk than stagnant pools. Avoid water near human settlements (contamination).",
+          "illustrationDescription": "Stream vs. pool."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+    },
+    {
+      "id": "env-arctic-shelter",
+      "name": "Arctic Shelter Building",
+      "subtitle": "Surviving polar temperatures — snow is your insulator",
+      "category": "Cold",
+      "difficulty": 3,
+      "estimatedTime": "2 hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Use snow as your primary building material — it's an excellent insulator.",
+          "helpDetail": "Snow is 90% trapped air, making it one of nature's best insulators. A snow shelter can maintain 32°F inside even when it's -40°F outside. Your body heat alone warms it.",
+          "illustrationDescription": "Snow insulation diagram."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build a quinzhee: pile snow 5 feet high, let it settle 2 hours, hollow it out.",
+          "helpDetail": "Faster than an igloo and requires no block-cutting skill. Pile snow, wait for it to sinter (crystals bond), then dig out the interior from one side. Walls should be at least 12 inches thick.",
+          "illustrationDescription": "Quinzhee construction."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Always create a ventilation hole in the roof — CO2 can kill you.",
+          "helpDetail": "Poke a fist-sized hole in the top of your shelter. Carbon dioxide from breathing is heavier than air and pools at floor level. The entrance should be lower than your sleeping platform to trap warm air.",
+          "illustrationDescription": "Ventilation hole."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build a sleeping platform ABOVE the entrance — warm air rises.",
+          "helpDetail": "Cold air sinks and pools at the lowest point. Your sleeping area should be the highest point inside. Even 12 inches higher than the entrance makes a significant difference. Insulate the platform with boughs.",
+          "illustrationDescription": "Elevated sleeping platform."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Block the entrance with a pack or snow block at night.",
+          "helpDetail": "Leave a small gap for air exchange but block wind. A windbreak wall outside the entrance adds further protection. Candle or body heat alone will maintain above-freezing temperatures inside.",
+          "illustrationDescription": "Blocked entrance with gap."
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    }
+  ],
+  "articles": []
 }

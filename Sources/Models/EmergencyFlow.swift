@@ -5,6 +5,7 @@ import SwiftUI
 
 enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
     case cold, noFire, noWater, hurt, lost, trapped, disaster, noFood, animal, inWater, shelter
+    case extremeHeat, humanThreat, vehicleEmergency, chemicalExposure
     
     var id: String { rawValue }
     
@@ -21,6 +22,10 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .animal: return String(localized: "Animal Encounter", comment: "Emergency Situation")
         case .inWater: return String(localized: "In Water", comment: "Emergency Situation")
         case .shelter: return String(localized: "Need Shelter", comment: "Emergency Situation")
+        case .extremeHeat: return String(localized: "Extreme Heat", comment: "Emergency Situation")
+        case .humanThreat: return String(localized: "Human Threat", comment: "Emergency Situation")
+        case .vehicleEmergency: return String(localized: "Vehicle Emergency", comment: "Emergency Situation")
+        case .chemicalExposure: return String(localized: "Chemical / Hazmat", comment: "Emergency Situation")
         }
     }
     
@@ -37,6 +42,10 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .animal: return "pawprint.fill"
         case .inWater: return "figure.water.fitness"
         case .shelter: return "tent.fill"
+        case .extremeHeat: return "sun.max.fill"
+        case .humanThreat: return "figure.run"
+        case .vehicleEmergency: return "car.fill"
+        case .chemicalExposure: return "burn"
         }
     }
     
@@ -53,6 +62,10 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .animal: return .brown
         case .inWater: return .blue
         case .shelter: return .brown
+        case .extremeHeat: return .red
+        case .humanThreat: return .gray
+        case .vehicleEmergency: return .blue
+        case .chemicalExposure: return .green
         }
     }
 }
@@ -72,6 +85,8 @@ enum TriageDestination {
     case nextQuestion(TriageNode)
     case technique(String)        // single techniqueID
     case techniqueList([String])  // multiple techniqueIDs — user picks
+    case article(String)          // single articleID — "Learn More" link
+    case articleList([String])    // multiple articleIDs — reference reading
 }
 
 /// A single selectable option in a triage question.

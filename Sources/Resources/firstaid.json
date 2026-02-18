@@ -179,6 +179,50 @@
       "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/concussion/symptoms-causes/syc-20355594"
     },
     {
+      "id": "firstaid-concussion",
+      "name": "Concussion Quick Guide",
+      "subtitle": "Rapid field assessment for suspected concussion",
+      "category": "Medical",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stop all activity. Sit them down in a safe location.",
+          "helpDetail": "A concussed brain needs zero exertion. Even if they say they feel fine, make them rest. A second impact before the first concussion resolves can be fatal (Second Impact Syndrome).",
+          "illustrationDescription": "Sitting patient down."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Check pupils: shine light in each eye. Both should be equal size.",
+          "helpDetail": "Unequal pupils (one large, one small) = potential brain bleed = EMERGENCY. Both dilated but equal = possible concussion. Use phone flashlight or sunlight.",
+          "illustrationDescription": "Checking pupils."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Test orientation: name, location, day of the week.",
+          "helpDetail": "Wrong or confused answers = moderate-severe concussion. Correct but slow answers = mild concussion. Test memory: ask them to repeat 3 words after 5 minutes.",
+          "illustrationDescription": "Orientation questions."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Check balance: stand with eyes closed for 30 seconds.",
+          "helpDetail": "Significant swaying or inability to stand = cerebellar involvement. Keep them lying with head slightly elevated.",
+          "illustrationDescription": "Balance test."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Monitor for 24 hours. Wake every 2 hours during sleep.",
+          "helpDetail": "EVACUATE if: worsening headache, repeated vomiting, seizures, increasing confusion, clear fluid from ears/nose (skull fracture sign), one pupil larger than the other.",
+          "illustrationDescription": "24-hour watch."
+        }
+      ],
+      "sourceName": "CDC",
+      "sourceUrl": "https://www.cdc.gov/traumatic-brain-injury/about/concussion-signs-and-symptoms.html"
+    },
+    {
       "id": "firstaid-sting-treat",
       "name": "Insect Sting Treatment",
       "subtitle": "Bee, Wasp, Ant (Non-Allergic)",

@@ -109,6 +109,9 @@ struct TriageQuestionView: View {
                 TriageOptionCard(option: option, situationColor: situationColor)
             }
             .buttonStyle(ScalableButtonStyle())
+            .simultaneousGesture(TapGesture().onEnded {
+                HapticsService.shared.playImpact(style: .light)
+            })
             
         case .technique(let techniqueID):
             if let technique = ContentDatabase.shared.techniques.first(where: { $0.id == techniqueID }) {
@@ -116,6 +119,9 @@ struct TriageQuestionView: View {
                     TriageOptionCard(option: option, situationColor: situationColor, isLeaf: true)
                 }
                 .buttonStyle(ScalableButtonStyle())
+                .simultaneousGesture(TapGesture().onEnded {
+                    HapticsService.shared.playImpact(style: .medium)
+                })
             } else {
                 TriageOptionCard(option: option, situationColor: situationColor)
                     .opacity(0.4)
@@ -130,6 +136,40 @@ struct TriageQuestionView: View {
                     TriageOptionCard(option: option, situationColor: situationColor, isLeaf: true)
                 }
                 .buttonStyle(ScalableButtonStyle())
+                .simultaneousGesture(TapGesture().onEnded {
+                    HapticsService.shared.playImpact(style: .medium)
+                })
+            } else {
+                TriageOptionCard(option: option, situationColor: situationColor)
+                    .opacity(0.4)
+            }
+            
+        case .article(let articleID):
+            if let article = ContentDatabase.shared.articles.first(where: { $0.id == articleID }) {
+                NavigationLink(destination: ArticleView(article: article)) {
+                    TriageOptionCard(option: option, situationColor: situationColor, isLeaf: true)
+                }
+                .buttonStyle(ScalableButtonStyle())
+                .simultaneousGesture(TapGesture().onEnded {
+                    HapticsService.shared.playImpact(style: .light)
+                })
+            } else {
+                TriageOptionCard(option: option, situationColor: situationColor)
+                    .opacity(0.4)
+            }
+            
+        case .articleList(let articleIDs):
+            let articles = articleIDs.compactMap { id in
+                ContentDatabase.shared.articles.first(where: { $0.id == id })
+            }
+            if !articles.isEmpty {
+                NavigationLink(destination: TriageArticleListView(articles: articles, situationColor: situationColor)) {
+                    TriageOptionCard(option: option, situationColor: situationColor, isLeaf: true)
+                }
+                .buttonStyle(ScalableButtonStyle())
+                .simultaneousGesture(TapGesture().onEnded {
+                    HapticsService.shared.playImpact(style: .light)
+                })
             } else {
                 TriageOptionCard(option: option, situationColor: situationColor)
                     .opacity(0.4)
@@ -230,42 +270,7 @@ struct TriageTechniqueListView: View {
                     VStack(spacing: 12) {
                         ForEach(techniques) { technique in
                             NavigationLink(destination: VerticalGuideView(technique: technique)) {
-                                HStack(spacing: 14) {
-                                    Image(systemName: "checkmark.circle.fill")
-                                        .font(.system(size: 20))
-                                        .foregroundColor(situationColor)
-                                        .frame(width: 40, height: 40)
-                                        .background(situationColor.opacity(0.15))
-                                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                                    
-                                    VStack(alignment: .leading, spacing: 3) {
-                                        Text(technique.name)
-                                            .font(Typography.headline)
-                                            .foregroundColor(DesignSystem.textPrimary)
-                                            .lineLimit(1)
-                                        
-                                        Text(technique.subtitle)
-                                            .font(Typography.caption)
-                                            .foregroundColor(DesignSystem.textSecondary)
-                                            .lineLimit(2)
-                                    }
-                                    
-                                    Spacer()
-                                    
-                                    Image(systemName: "chevron.right")
-                                        .font(.system(size: 14, weight: .semibold))
-                                        .foregroundColor(DesignSystem.textSecondary)
-                                }
-                                .padding(14)
-                                .padding(14)
-                                .background(.ultraThinMaterial)
-                                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 16, style: .continuous)
-                                        .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
-                                )
-                                .accessibilityElement(children: .combine)
-                                .accessibilityAddTraits(.isButton)
+                                TechniqueRow(technique: technique)
                             }
                             .buttonStyle(ScalableButtonStyle())
                         }
@@ -276,5 +281,106 @@ struct TriageTechniqueListView: View {
             }
         }
         .navigationBarHidden(true)
+    }
+}
+
+// MARK: - Article List (for .articleList destination)
+
+struct TriageArticleListView: View {
+    let articles: [Article]
+    let situationColor: Color
+    @Environment(\.dismiss) var dismiss
+    
+    var body: some View {
+        ZStack {
+            DesignSystem.backgroundPrimary.edgesIgnoringSafeArea(.all)
+            
+            VStack(spacing: 0) {
+                backButton
+                titleHeader
+                articleList
+            }
+        }
+        .navigationBarHidden(true)
+    }
+    
+    private var backButton: some View {
+        HStack {
+            Button(action: { dismiss() }) {
+                HStack(spacing: 4) {
+                    Image(systemName: "chevron.left")
+                    Text("Back")
+                }
+                .font(Typography.button)
+                .foregroundColor(DesignSystem.textSecondary)
+            }
+            Spacer()
+        }
+        .padding(.horizontal, Layout.screenPadding)
+        .padding(.top, 20)
+        .padding(.bottom, 10)
+    }
+    
+    private var titleHeader: some View {
+        Text("Learn More")
+            .font(Typography.emergencyTitle)
+            .foregroundColor(DesignSystem.textPrimary)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.horizontal, Layout.screenPadding)
+            .padding(.bottom, 20)
+    }
+    
+    private var articleList: some View {
+        ScrollView {
+            VStack(spacing: 12) {
+                ForEach(articles) { article in
+                    articleRow(article)
+                }
+            }
+            .padding(.horizontal, Layout.screenPadding)
+            .padding(.bottom, 30)
+        }
+    }
+    
+    @ViewBuilder
+    private func articleRow(_ article: Article) -> some View {
+        NavigationLink(destination: ArticleView(article: article)) {
+            HStack(spacing: 14) {
+                Image(systemName: "book.fill")
+                    .font(.system(size: 20))
+                    .foregroundColor(situationColor)
+                    .frame(width: 40, height: 40)
+                    .background(situationColor.opacity(0.15))
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(article.title)
+                        .font(Typography.headline)
+                        .foregroundColor(DesignSystem.textPrimary)
+                        .lineLimit(1)
+                    
+                    Text(String(article.body.prefix(100)))
+                        .font(Typography.caption)
+                        .foregroundColor(DesignSystem.textSecondary)
+                        .lineLimit(2)
+                }
+                
+                Spacer()
+                
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 14, weight: .semibold))
+                    .foregroundColor(DesignSystem.textSecondary)
+            }
+            .padding(14)
+            .background(.ultraThinMaterial)
+            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
+            )
+            .accessibilityElement(children: .combine)
+            .accessibilityAddTraits(.isButton)
+        }
+        .buttonStyle(ScalableButtonStyle())
     }
 }

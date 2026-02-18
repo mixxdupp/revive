@@ -36,7 +36,9 @@
           "helpDetail": "At night, keep fires burning with dry wood for bright flames. During day, switch to smoky materials.",
           "illustrationDescription": "Bright flames at night."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-signal-mirror",
@@ -72,7 +74,9 @@
           "helpDetail": "Keep signaling even if you think the aircraft hasn't seen you. Pilots scan with binoculars and may see you long before you realize it.",
           "illustrationDescription": "SOS flash pattern."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-ground-signal",
@@ -108,7 +112,9 @@
           "helpDetail": "Stack rocks, logs, or mound dirt to create 3D signals that cast shadows. Shadows dramatically increase visibility.",
           "illustrationDescription": "3D signal with shadows."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-whistle",
@@ -150,7 +156,9 @@
           "helpDetail": "Banging rocks creates a sharp, carrying sound unnatural to the wilderness. A metal pot or cup struck with a rock is even louder. Three strikes = distress.",
           "illustrationDescription": "Improvised signals."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-sos",
@@ -180,7 +188,9 @@
           "helpDetail": "Make letters as large as possible. Use contrasting materials. SOS is understood in every language worldwide.",
           "illustrationDescription": "SOS written large."
         }
-      ]
+      ],
+      "sourceName": "International Maritime Organization",
+      "sourceUrl": "https://www.imo.org/"
     },
     {
       "id": "rescue-phone-emergency",
@@ -222,7 +232,9 @@
           "helpDetail": "Open maps app, copy coordinates, text to contact. Even if the text doesn't send immediately, it will queue and send when signal is found.",
           "illustrationDescription": "Sending GPS coordinates."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "rescue-gps-reading",
@@ -258,7 +270,9 @@
           "helpDetail": "The app works offline. Example: ///filled.count.soap. Emergency services in many countries accept What3Words addresses.",
           "illustrationDescription": "What3Words example."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "rescue-self-rescue",
@@ -300,7 +314,9 @@
           "helpDetail": "Hang vertically with face in water, arms and legs dangling. Lift head to breathe every 10-15 seconds. This uses almost zero energy and you can last for hours.",
           "illustrationDescription": "Survival float."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-leave-trail",
@@ -336,7 +352,9 @@
           "helpDetail": "In mud, sand, or snow — drag a line or make arrows. These are visible from the air and ground.",
           "illustrationDescription": "Arrows drawn in dirt."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-helicopter",
@@ -372,7 +390,9 @@
           "helpDetail": "The downwash is extreme — loose items become projectiles. Shield your eyes. Never approach from the tail rotor side. Wait for pilot signal.",
           "illustrationDescription": "Safe approach behavior."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-morse-code",
@@ -402,7 +422,9 @@
           "helpDetail": "Signal 1 minute, rest 1 minute. Conserve energy.",
           "illustrationDescription": "Continuous signaling."
         }
-      ]
+      ],
+      "sourceName": "International Maritime Organization",
+      "sourceUrl": "https://www.imo.org/"
     },
     {
       "id": "rescue-helicopter-lz",
@@ -438,7 +460,9 @@
           "helpDetail": "Tail rotor kills. Approach front/side only when pilot signals. Stay low.",
           "illustrationDescription": "Safe approach."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-trail-markers",
@@ -474,7 +498,9 @@
           "helpDetail": "Tear clothing if needed. Visible in both directions.",
           "illustrationDescription": "Cloth markers."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "rescue-panel-signals",
@@ -510,7 +536,9 @@
           "helpDetail": "3-foot letters invisible from 1000 feet. Think highway-scale.",
           "illustrationDescription": "Size."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-smoke-signal",
@@ -546,7 +574,9 @@
           "helpDetail": "Use a blanket or coat. Cover the fire, let smoke build, release. Three puffs is the international distress signal.",
           "illustrationDescription": "Puff signal."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-plb",
@@ -582,7 +612,9 @@
           "helpDetail": "If you move, carry the beacon. Response times: 1-4 hours in populated areas, 8-24 hours in remote wilderness.",
           "illustrationDescription": "Staying with beacon."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "rescue-vhf-radio",
@@ -618,7 +650,9 @@
           "helpDetail": "VHF range is line-of-sight: 5-25 miles depending on terrain and antenna height. Move to high ground to extend range.",
           "illustrationDescription": "Listening for response."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-night-signaling",
@@ -654,7 +688,9 @@
           "helpDetail": "Emergency blankets, foil, even wet metal surfaces reflect moonlight and starlight. Hang them at angles facing likely rescue directions.",
           "illustrationDescription": "Reflective surfaces."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-vehicle-signal",
@@ -690,7 +726,9 @@
           "helpDetail": "Drain oil onto dirt, ignite with battery spark. Black smoke is visible for miles against any sky. Use only when rescue is imminent.",
           "illustrationDescription": "Smoke from vehicle."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-flag-signals",
@@ -720,7 +758,9 @@
           "helpDetail": "Wind keeps it moving, which catches attention. Moving objects are detected 10x faster than static ones by human vision.",
           "illustrationDescription": "Planted flag."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-drone-awareness",
@@ -750,7 +790,9 @@
           "helpDetail": "Emergency blankets, phone screens, anything shiny. Movement triggers drone operator attention faster than static signals.",
           "illustrationDescription": "Reflective signaling."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "rescue-satellite-messenger",
@@ -786,7 +828,9 @@
           "helpDetail": "Most satellite messengers last 24-100 hours. Turn off interval tracking. Send messages only when needed. Keep warm to preserve battery.",
           "illustrationDescription": "Battery conservation."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-throw-bag",
@@ -828,7 +872,9 @@
           "helpDetail": "Quickly stuff rope back into bag (doesn't need to be neat). Or gather rope in loose coils and throw the coils. Speed matters more than technique on the second throw.",
           "illustrationDescription": "Second throw."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "rescue-cliff-signals",
@@ -858,7 +904,9 @@
           "helpDetail": "Smoke is the one signal type that works from canyon bottoms. Hot air rises, carrying smoke up and out of the canyon.",
           "illustrationDescription": "Smoke rising from canyon."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-improvised-flotation",
@@ -894,7 +942,9 @@
           "helpDetail": "Also called 'dead man's float.' Arms and legs hang relaxed. Lift face to inhale, then relax. Uses almost zero energy. Can sustain for hours.",
           "illustrationDescription": "Survival float."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-signal-panel",
@@ -924,7 +974,9 @@
           "helpDetail": "Aircraft cannot see through tree canopy. Place signals in the largest open area available. Multiple signals increase detection probability. Maintain signals daily — wind and weather degrade them.",
           "illustrationDescription": "Placement."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-whistle-patterns",
@@ -954,7 +1006,9 @@
           "helpDetail": "Used to get attention or locate group members. A whistle is the single most important signaling device to carry. It works when you're too exhausted to shout. It works in fog, darkness, and wind.",
           "illustrationDescription": "Attention signal."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-throw-line",
@@ -984,7 +1038,9 @@
           "helpDetail": "Sit down, brace feet against rocks or trees. A panicking victim pulls with surprising force. Pull steadily — don't let them pull you in. Talk calmly and firmly: 'Hold on. I'm pulling you in.'",
           "illustrationDescription": "Pulling in."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "rescue-vehicle-signal",
@@ -1014,7 +1070,9 @@
           "helpDetail": "Tire fires produce thick black smoke visible for 20+ miles. Only burn if rescue is actively being sought and you need rapid attention. Keep fire away from the fuel tank. Flash headlights at night.",
           "illustrationDescription": "Smoke signal."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-cold-water-self",
@@ -1056,7 +1114,9 @@
           "helpDetail": "You have 10-15 minutes of meaningful swimming ability in cold water before muscles fail. After that, focused stillness and flotation are your only survival tools. Blow a whistle or yell periodically to attract attention.",
           "illustrationDescription": "Conserving energy."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-helicopter-approach",
@@ -1086,7 +1146,9 @@
           "helpDetail": "The tail rotor is nearly invisible and instantly lethal. Always approach where the pilot can see you. Stay low — rotor blades dip. On slopes, approach from the downhill side. Wait for crew signal before approaching.",
           "illustrationDescription": "Safe approach."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-smoke-timing",
@@ -1116,7 +1178,9 @@
           "helpDetail": "Pre-build signal fires with tinder and kindling ready. Put a cover over them to keep dry. When you detect aircraft, light all three quickly. Keep green branches nearby to throw on for smoke.",
           "illustrationDescription": "Fire readiness."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-signal-kite",
@@ -1146,7 +1210,9 @@
           "helpDetail": "A kite flying 100+ feet above tree canopy is visible for miles. Attach reflective tape, bright fabric, or foil pieces to the line. Even in moderate wind, a properly built kite extends your visual signature dramatically.",
           "illustrationDescription": "Flying kite."
         }
-      ]
+      ],
+      "sourceName": "U.S. Coast Guard – Distress Signals",
+      "sourceUrl": "https://www.uscg.mil/"
     },
     {
       "id": "rescue-urban-marking",
@@ -1176,7 +1242,9 @@
           "helpDetail": "When you begin searching: draw one slash (\\). When complete: add the second slash to complete the X and fill in quadrants. This prevents duplicate searches and communicates status to other teams.",
           "illustrationDescription": "Marking progression."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "rescue-river-self",
@@ -1218,7 +1286,9 @@
           "helpDetail": "Strainers let water pass through but trap bodies. If you cannot avoid one, swim TOWARD it aggressively and try to climb up and over it. Never turn your back to a strainer.",
           "illustrationDescription": "Avoiding strainers."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "rescue-self-evacuation",
@@ -1248,7 +1318,9 @@
           "helpDetail": "If you leave camp: leave a note (under a rock, protected from weather), build arrows pointing your direction, mark trees along your route. This lets rescuers follow you if a search begins after you leave.",
           "illustrationDescription": "Leave markers."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "rescue-improvised-litter",
@@ -1278,7 +1350,9 @@
           "helpDetail": "A 150-lb patient on a litter is exhausting. Rotate carriers every 200 meters or every 5 minutes. Need minimum 4 carriers (2 working, 2 resting). Over rough terrain, 6-8 carriers is ideal.",
           "illustrationDescription": "Rotation system."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     }
   ],
   "articles": [

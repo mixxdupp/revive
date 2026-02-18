@@ -168,7 +168,7 @@ struct GlassActionCell: View {
         .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .stroke(Color.red.opacity(0.2), lineWidth: 1)
+                .strokeBorder(Color.red.opacity(0.2), lineWidth: 1)
         )
         .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 4)
         .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))

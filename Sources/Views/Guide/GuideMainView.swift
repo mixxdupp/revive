@@ -88,7 +88,6 @@ struct GuideMainView: View {
                             
                         case 1: // INVENTORY
                             InventoryView()
-                                .padding(.top, 8)
                             
                         case 2: // SAVED
                             SavedTechniquesView()

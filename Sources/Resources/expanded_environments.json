@@ -1,0 +1,197 @@
+{
+  "domain": "environments",
+  "domainDisplayName": "Environments",
+  "techniques": [
+    {
+      "id": "env-anti-tracking",
+      "name": "Anti-Tracking & Evasion",
+      "subtitle": "Move without leaving a trail",
+      "category": "Evasion",
+      "difficulty": 4,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Walk on hard surfaces: rock, gravel, packed earth. Avoid mud and soft ground.",
+          "helpDetail": "Footprints in mud persist for days. Walk on rocks, fallen logs, or along stream beds. If you must cross soft ground, use brush or branches underfoot to disperse your print.",
+          "illustrationDescription": "Walking on rocks."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Brush out visible tracks behind you with a leafy branch.",
+          "helpDetail": "Don't create obvious sweep marks — use a natural-looking branch and vary your strokes. Better yet, walk backward through your own tracks to create confusion about direction.",
+          "illustrationDescription": "Brushing tracks."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Change direction at hard-surface intersections to break the trail.",
+          "helpDetail": "Walk 50+ feet along a stream, rocky ridge, or road before exiting in a different direction. This creates a 'lost trail' point that forces trackers to search in all directions.",
+          "illustrationDescription": "Direction changes."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Avoid breaking branches, disturbing spider webs, or crushing vegetation.",
+          "helpDetail": "Skilled trackers read disturbed vegetation, overturned stones (dry side up = recently moved), and broken spider webs. Move slowly and deliberately. Travel in the rain if possible — it washes signs.",
+          "illustrationDescription": "Minimal disturbance."
+        }
+      ],
+      "sourceName": "U.S. Army FM 21-76 – Evasion",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+    },
+    {
+      "id": "env-door-barricade",
+      "name": "Door Barricade & Room Security",
+      "subtitle": "Secure a room when there is no lock",
+      "category": "Security",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Wedge a door with a belt, rope, or improvised doorstop.",
+          "helpDetail": "Loop a belt around the door handle and tie to a heavy, immovable object (radiator, bed frame). For inward-opening doors, jam a chair under the handle at an angle. Fork bent into a U-shape can act as a latch.",
+          "illustrationDescription": "Belt barricade."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stack heavy furniture against the door.",
+          "helpDetail": "Push a desk, dresser, or bed against the door. For maximum effect, wedge furniture so it's braced between the door and an opposite wall. The more mass, the harder to push open.",
+          "illustrationDescription": "Furniture barricade."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create an early warning system with glass or cans near the entrance.",
+          "helpDetail": "Stack bottles or cans on the door handle or lean them against the door. Any attempt to open will cause noise. Place crunchy debris (broken glass, gravel) on the floor outside.",
+          "illustrationDescription": "Alert system."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Secure windows: block visibility and restrict entry.",
+          "helpDetail": "Hang cloth over windows to prevent observation. If ground floor, lean furniture or boards against windows. Lock all secondary entry points. Identify an escape route that isn't the main door.",
+          "illustrationDescription": "Window security."
+        }
+      ],
+      "sourceName": "FEMA – Shelter-in-Place",
+      "sourceUrl": "https://www.ready.gov/shelter"
+    },
+    {
+      "id": "env-urban-grayman",
+      "name": "Urban Gray Man (Blending In)",
+      "subtitle": "Become invisible in an urban environment",
+      "category": "Evasion",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dress in neutral, common clothing that blends with the local population.",
+          "helpDetail": "No bright colors, logos, or military-style gear. Wear what most people in the area wear. In business districts: business casual. In rural areas: work clothes. Mirror the locals.",
+          "illustrationDescription": "Neutral clothing."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Match the pace and behavior of those around you.",
+          "helpDetail": "Don't walk faster or slower than the crowd. Don't make eye contact or avoid it conspicuously. Look natural. Carry a bag or item that's common (grocery bag, coffee cup). Act like you belong.",
+          "illustrationDescription": "Matching crowd behavior."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Avoid patterns: change routes, timing, and appearance regularly.",
+          "helpDetail": "Surveillance relies on patterns. Don't use the same route twice. Change hats, jackets, or accessories to alter your silhouette. Cross the street frequently and naturally.",
+          "illustrationDescription": "Varying routes."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Use reflective surfaces (windows, mirrors) to check for followers.",
+          "helpDetail": "Never turn around to check behind you — use shop windows, car mirrors, and turns to observe. If you suspect a tail, make 4 right turns (a square). If they're still behind you, you're being followed.",
+          "illustrationDescription": "Counter-surveillance."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+    },
+    {
+      "id": "env-vehicle-entry",
+      "name": "Emergency Vehicle Entry",
+      "subtitle": "Access a locked vehicle in a life-threatening emergency",
+      "category": "Security",
+      "difficulty": 3,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Break a SIDE window, never the windshield.",
+          "helpDetail": "Side windows are tempered glass — they shatter into safe cubes. Windshields are laminated and won't break cleanly. Strike the corner of the window, never the center. Use a pointed metal object (spark plug ceramic shard works instantly).",
+          "illustrationDescription": "Breaking side window corner."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use headrest metal prongs to shatter the window.",
+          "helpDetail": "Remove the headrest from seats. The metal prongs are designed to break windows in emergencies. Wedge the prong into the window corner gap and lever outward. Some modern windows resist this — use a spring-loaded center punch if available.",
+          "illustrationDescription": "Headrest as tool."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Clear all glass before reaching through the opening.",
+          "helpDetail": "Run a cloth around the entire frame to remove glass shards. Tempered glass shatters into thousands of small pieces — shake them out of clothing and seats before sitting. Cover the frame with cloth.",
+          "illustrationDescription": "Clearing glass."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Only use this skill in genuine life-threatening emergencies.",
+          "helpDetail": "Child or pet locked in a hot vehicle, submerged vehicle, or similar. Document the emergency if possible. Call emergency services first if time permits. This is a last resort.",
+          "illustrationDescription": "Emergency only warning."
+        }
+      ],
+      "sourceName": "AAA – Vehicle Emergency",
+      "sourceUrl": "https://www.aaa.com/"
+    },
+    {
+      "id": "env-ziptie-escape",
+      "name": "Zip Tie / Duct Tape Escape",
+      "subtitle": "Break free from improvised restraints",
+      "category": "Evasion",
+      "difficulty": 3,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Zip ties: tighten them yourself first, then position the locking mechanism between your wrists.",
+          "helpDetail": "If hands are in front: raise arms above head and bring down hard against your hip bones while pulling arms apart. The sudden force breaks the locking mechanism. Works with single zip ties, not double-looped.",
+          "illustrationDescription": "Zip tie break technique."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Alternative: use friction from a shoelace to saw through zip ties.",
+          "helpDetail": "Thread a shoelace through the zip tie, tie to both feet, and pedal in a bicycle motion. The friction from the lace melts through the plastic in 30-60 seconds.",
+          "illustrationDescription": "Shoelace friction."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Duct tape: rotate wrists during application to create slack.",
+          "helpDetail": "Keep wrists slightly apart and angled. Once taped, bring hands together tightly (this creates slack from the angle), then use the same overhead-slam technique as zip ties. Duct tape tears more easily than zip ties.",
+          "illustrationDescription": "Creating slack."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If hands are behind your back: step through your arms to bring them in front.",
+          "helpDetail": "Flexibility permitting, bring bound hands under your bottom, past your feet, to the front. This gives you infinitely more options for escape. If not possible, find a sharp edge (screw head, rough wall) to saw against.",
+          "illustrationDescription": "Stepping through."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+    }
+  ],
+  "articles": []
+}

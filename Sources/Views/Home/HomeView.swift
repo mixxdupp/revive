@@ -14,6 +14,8 @@ struct HomeView: View {
     ]
     
     @State private var showSettings = false
+    @State private var showContent = false
+    @Environment(\.accessibilityReduceMotion) var reduceMotion
     
     var body: some View {
         // No NavigationStack here (managed by ContentView / NavigationSplitView)
@@ -90,21 +92,32 @@ struct HomeView: View {
                             FeatureCard(title: "Library", subtitle: "Survival Guide", icon: "book.fill", iconColor: .blue)
                         }
                         .buttonStyle(ScalableButtonStyle())
+                        .offset(y: showContent ? 0 : 20)
+                        .opacity(showContent ? 1 : 0)
                         
                         NavigationLink(destination: ToolsMenuView()) {
                             FeatureCard(title: "Tools", subtitle: "Utilities", icon: "wrench.and.screwdriver.fill", iconColor: .indigo)
                         }
                         .buttonStyle(ScalableButtonStyle())
+                        .offset(y: showContent ? 0 : 20)
+                        .opacity(showContent ? 1 : 0)
+                        .animation(reduceMotion ? nil : .easeOut(duration: 0.5).delay(0.1), value: showContent)
                         
                         NavigationLink(destination: QuickActionsView()) {
                             FeatureCard(title: "Actions", subtitle: "Shortcuts", icon: "bolt.heart.fill", iconColor: .green)
                         }
                         .buttonStyle(ScalableButtonStyle())
+                        .offset(y: showContent ? 0 : 20)
+                        .opacity(showContent ? 1 : 0)
+                        .animation(reduceMotion ? nil : .easeOut(duration: 0.5).delay(0.2), value: showContent)
                         
                         NavigationLink(destination: EmergencyDirectoryView()) {
                             FeatureCard(title: "Directory", subtitle: "Global Numbers", icon: "globe", iconColor: .orange)
                         }
                         .buttonStyle(ScalableButtonStyle())
+                        .offset(y: showContent ? 0 : 20)
+                        .opacity(showContent ? 1 : 0)
+                        .animation(reduceMotion ? nil : .easeOut(duration: 0.5).delay(0.3), value: showContent)
                     }
                     .padding(.horizontal, 20)
                     
@@ -134,6 +147,18 @@ struct HomeView: View {
                     .padding(.bottom, 40)
                     .accessibilityLabel("Panic Siren, activates loud alarm and strobe")
                     .accessibilityAddTraits(.isButton)
+                    .offset(y: showContent ? 0 : 20)
+                    .opacity(showContent ? 1 : 0)
+                    .animation(reduceMotion ? nil : .easeOut(duration: 0.5).delay(0.4), value: showContent)
+                }
+            }
+            .onAppear {
+                if reduceMotion {
+                    showContent = true
+                } else {
+                    withAnimation(.easeOut(duration: 0.6)) {
+                        showContent = true
+                    }
                 }
             }
             

@@ -1,181 +1,191 @@
 {
-    "domain": "tools",
-    "domainDisplayName": "Tools & Knots",
-    "techniques": [
+  "domain": "tools",
+  "domainDisplayName": "Tools & Knots",
+  "techniques": [
+    {
+      "id": "tools-truckers-hitch",
+      "name": "Trucker's Hitch",
+      "subtitle": "The most powerful tensioning knot",
+      "category": "Knots",
+      "difficulty": 3,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
         {
-            "id": "tools-truckers-hitch",
-            "name": "Trucker's Hitch",
-            "subtitle": "The most powerful tensioning knot",
-            "category": "Knots",
-            "difficulty": 3,
-            "estimatedTime": "1 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Tie a slip knot or alpine butterfly in the standing part of the rope.",
-                    "helpDetail": "This forms the upper loop. Leave enough tail to go around the anchor and back up.",
-                    "illustrationDescription": "Upper loop created."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Pass the free end around the anchor point (hook, tree, bumper).",
-                    "helpDetail": "Go completely around the anchor point.",
-                    "illustrationDescription": "Around anchor."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Bring the free end up and through the upper loop.",
-                    "helpDetail": "This creates a 3:1 mechanical advantage pulley system.",
-                    "illustrationDescription": "Through the loop."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Pull down hard to tension, then secure with two half hitches.",
-                    "helpDetail": "Cinch it tight. Lock it in place so it doesn't slip. Essential for securing loads or guy lines.",
-                    "illustrationDescription": "Tension and lock."
-                }
-            ]
+          "stepNumber": 1,
+          "instruction": "Tie a slip knot or alpine butterfly in the standing part of the rope.",
+          "helpDetail": "This forms the upper loop. Leave enough tail to go around the anchor and back up.",
+          "illustrationDescription": "Upper loop created."
         },
         {
-            "id": "tools-prusik-knot",
-            "name": "Prusik Knot",
-            "subtitle": "Friction hitch that slides and grips",
-            "category": "Knots",
-            "difficulty": 3,
-            "estimatedTime": "1 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Take a smaller loop of cord (prussik loop) behind the main rope.",
-                    "helpDetail": "The cord must be thinner than the main rope (e.g., 5mm cord on 10mm rope).",
-                    "illustrationDescription": "Loop behind rope."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Pass the knot end through the loop center 3 times, wrapping the main rope.",
-                    "helpDetail": "Wrap it neatly inside itself. Keep coils flat and parallel.",
-                    "illustrationDescription": "Three wraps."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Pull the knot tight and dress the coils.",
-                    "helpDetail": "Make sure the coils are not crossed. It should look symmetrical.",
-                    "illustrationDescription": "Dressed knot."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Test grip: Pull on loop to lock, push barrel to slide.",
-                    "helpDetail": "Used for ascending ropes or capturing progress in hauling systems.",
-                    "illustrationDescription": "Testing grip."
-                }
-            ]
+          "stepNumber": 2,
+          "instruction": "Pass the free end around the anchor point (hook, tree, bumper).",
+          "helpDetail": "Go completely around the anchor point.",
+          "illustrationDescription": "Around anchor."
         },
         {
-            "id": "tools-sheet-bend",
-            "name": "Sheet Bend",
-            "subtitle": "Join two ropes of different thicknesses",
-            "category": "Knots",
-            "difficulty": 2,
-            "estimatedTime": "30 sec",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Form a bight (U-shape) with the thicker rope.",
-                    "helpDetail": "Hold the bight in one hand.",
-                    "illustrationDescription": "Thick rope bight."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Pass the thinner rope UP through the bight from below.",
-                    "helpDetail": "Come up through the U.",
-                    "illustrationDescription": "Thin rope up."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Wrap the thinner rope around the back of the thick bight.",
-                    "helpDetail": "Go behind both strands of the thick rope.",
-                    "illustrationDescription": "Wrap behind."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Tuck the thin rope under itself (across the top of the bight).",
-                    "helpDetail": "Do not go back down the hole. Tuck it under its own standing part.",
-                    "illustrationDescription": "Tuck and tighten."
-                }
-            ]
+          "stepNumber": 3,
+          "instruction": "Bring the free end up and through the upper loop.",
+          "helpDetail": "This creates a 3:1 mechanical advantage pulley system.",
+          "illustrationDescription": "Through the loop."
         },
         {
-            "id": "tools-alpine-butterfly",
-            "name": "Alpine Butterfly Loop",
-            "subtitle": "Strong fixed loop in the middle of a rope",
-            "category": "Knots",
-            "difficulty": 3,
-            "estimatedTime": "1 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Wrap the rope twice around your hand to make 3 strands.",
-                    "helpDetail": "Palm up. Strand 1 (closest to thumb), Strand 2, Strand 3 (fingertips).",
-                    "illustrationDescription": "Three strands on hand."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Take Strand 1 and move it to the center (between 2 and 3).",
-                    "helpDetail": "Now order is 2, 1, 3.",
-                    "illustrationDescription": "Move strand 1."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Take the NEW Strand closest to thumb (was 2) and pull it all the way across to fingertips.",
-                    "helpDetail": "Move it over the other two.",
-                    "illustrationDescription": "Move strand 2 across."
-                },
-                {
-                    "stepNumber": 4,
-                    "instruction": "Tuck it underneath the other strands and pull through to form the loop.",
-                    "helpDetail": "Pull the loop and the ends to tighten. Loads 3 ways perfectly.",
-                    "illustrationDescription": "Pull loop through."
-                }
-            ]
-        },
-        {
-            "id": "tools-constrictor-knot",
-            "name": "Constrictor Knot",
-            "subtitle": "Binding knot that will not slip",
-            "category": "Knots",
-            "difficulty": 2,
-            "estimatedTime": "30 sec",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Make a turn around the object, crossing the rope over itself.",
-                    "helpDetail": "Form an X on the surface.",
-                    "illustrationDescription": "X shape."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Route the working end under the intersection of the X.",
-                    "helpDetail": "Go over the standing part, then under the crossing point.",
-                    "illustrationDescription": "Under the X."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Pull tight. The knot binds fiercely.",
-                    "helpDetail": "Often requires a knife to cut off. Use for bag closures or temporary hose clamps.",
-                    "illustrationDescription": "Tightened knot."
-                }
-            ]
+          "stepNumber": 4,
+          "instruction": "Pull down hard to tension, then secure with two half hitches.",
+          "helpDetail": "Cinch it tight. Lock it in place so it doesn't slip. Essential for securing loads or guy lines.",
+          "illustrationDescription": "Tension and lock."
         }
-    ],
-    "articles": []
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
+    },
+    {
+      "id": "tools-prusik-knot",
+      "name": "Prusik Knot",
+      "subtitle": "Friction hitch that slides and grips",
+      "category": "Knots",
+      "difficulty": 3,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Take a smaller loop of cord (prussik loop) behind the main rope.",
+          "helpDetail": "The cord must be thinner than the main rope (e.g., 5mm cord on 10mm rope).",
+          "illustrationDescription": "Loop behind rope."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pass the knot end through the loop center 3 times, wrapping the main rope.",
+          "helpDetail": "Wrap it neatly inside itself. Keep coils flat and parallel.",
+          "illustrationDescription": "Three wraps."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pull the knot tight and dress the coils.",
+          "helpDetail": "Make sure the coils are not crossed. It should look symmetrical.",
+          "illustrationDescription": "Dressed knot."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Test grip: Pull on loop to lock, push barrel to slide.",
+          "helpDetail": "Used for ascending ropes or capturing progress in hauling systems.",
+          "illustrationDescription": "Testing grip."
+        }
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
+    },
+    {
+      "id": "tools-sheet-bend",
+      "name": "Sheet Bend",
+      "subtitle": "Join two ropes of different thicknesses",
+      "category": "Knots",
+      "difficulty": 2,
+      "estimatedTime": "30 sec",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Form a bight (U-shape) with the thicker rope.",
+          "helpDetail": "Hold the bight in one hand.",
+          "illustrationDescription": "Thick rope bight."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pass the thinner rope UP through the bight from below.",
+          "helpDetail": "Come up through the U.",
+          "illustrationDescription": "Thin rope up."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wrap the thinner rope around the back of the thick bight.",
+          "helpDetail": "Go behind both strands of the thick rope.",
+          "illustrationDescription": "Wrap behind."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Tuck the thin rope under itself (across the top of the bight).",
+          "helpDetail": "Do not go back down the hole. Tuck it under its own standing part.",
+          "illustrationDescription": "Tuck and tighten."
+        }
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
+    },
+    {
+      "id": "tools-alpine-butterfly",
+      "name": "Alpine Butterfly Loop",
+      "subtitle": "Strong fixed loop in the middle of a rope",
+      "category": "Knots",
+      "difficulty": 3,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Wrap the rope twice around your hand to make 3 strands.",
+          "helpDetail": "Palm up. Strand 1 (closest to thumb), Strand 2, Strand 3 (fingertips).",
+          "illustrationDescription": "Three strands on hand."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Take Strand 1 and move it to the center (between 2 and 3).",
+          "helpDetail": "Now order is 2, 1, 3.",
+          "illustrationDescription": "Move strand 1."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Take the NEW Strand closest to thumb (was 2) and pull it all the way across to fingertips.",
+          "helpDetail": "Move it over the other two.",
+          "illustrationDescription": "Move strand 2 across."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Tuck it underneath the other strands and pull through to form the loop.",
+          "helpDetail": "Pull the loop and the ends to tighten. Loads 3 ways perfectly.",
+          "illustrationDescription": "Pull loop through."
+        }
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
+    },
+    {
+      "id": "tools-constrictor-knot",
+      "name": "Constrictor Knot",
+      "subtitle": "Binding knot that will not slip",
+      "category": "Knots",
+      "difficulty": 2,
+      "estimatedTime": "30 sec",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Make a turn around the object, crossing the rope over itself.",
+          "helpDetail": "Form an X on the surface.",
+          "illustrationDescription": "X shape."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Route the working end under the intersection of the X.",
+          "helpDetail": "Go over the standing part, then under the crossing point.",
+          "illustrationDescription": "Under the X."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pull tight. The knot binds fiercely.",
+          "helpDetail": "Often requires a knife to cut off. Use for bag closures or temporary hose clamps.",
+          "illustrationDescription": "Tightened knot."
+        }
+      ],
+      "sourceName": "Animated Knots by Grog",
+      "sourceUrl": "https://www.animatedknots.com/"
+    }
+  ],
+  "articles": []
 }

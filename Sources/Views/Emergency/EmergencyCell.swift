@@ -59,7 +59,7 @@ struct EmergencyCell: View {
         .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .stroke(situation.color.opacity(0.2), lineWidth: 1)
+                .strokeBorder(situation.color.opacity(0.2), lineWidth: 1)
         )
         // Soft Shadow for Depth
         .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 4)

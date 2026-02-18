@@ -15,7 +15,7 @@
         {
           "stepNumber": 1,
           "instruction": "Bring water to a rolling boil.",
-          "helpDetail": "A rolling boil means large bubbles breaking the surface continuously \u2014 not just small bubbles on the bottom.",
+          "helpDetail": "A rolling boil means large bubbles breaking the surface continuously — not just small bubbles on the bottom.",
           "illustrationDescription": "Rolling boil."
         },
         {
@@ -27,10 +27,12 @@
         {
           "stepNumber": 3,
           "instruction": "Let cool before drinking.",
-          "helpDetail": "Store in a clean container. Do not add untreated water to the clean water. Boiled water tastes flat \u2014 pour between containers to add air.",
+          "helpDetail": "Store in a clean container. Do not add untreated water to the clean water. Boiled water tastes flat — pour between containers to add air.",
           "illustrationDescription": "Cooling boiled water."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-iodine",
@@ -45,7 +47,7 @@
         {
           "stepNumber": 1,
           "instruction": "Add 5 drops of 2% iodine tincture per quart of clear water.",
-          "helpDetail": "Double the dose for cloudy water. Triple for very cold water (below 40\u00b0F).",
+          "helpDetail": "Double the dose for cloudy water. Triple for very cold water (below 40°F).",
           "illustrationDescription": "Adding iodine drops."
         },
         {
@@ -60,7 +62,9 @@
           "helpDetail": "Vitamin C neutralizes iodine taste. Add AFTER the treatment period, not before. Lemon juice also works.",
           "illustrationDescription": "Adding vitamin C powder."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-uv-purification",
@@ -75,7 +79,7 @@
         {
           "stepNumber": 1,
           "instruction": "Fill clear PET plastic bottles with clear water.",
-          "helpDetail": "Water must be clear \u2014 pre-filter if turbid. Only works with PET bottles (recycling number 1). Glass and colored plastic block UV.",
+          "helpDetail": "Water must be clear — pre-filter if turbid. Only works with PET bottles (recycling number 1). Glass and colored plastic block UV.",
           "illustrationDescription": "Clear water in PET bottle."
         },
         {
@@ -90,7 +94,9 @@
           "helpDetail": "UV-A radiation kills bacteria and viruses. Combined with heat, it's highly effective. Does NOT remove chemical contaminants.",
           "illustrationDescription": "Extended treatment in clouds."
         }
-      ]
+      ],
+      "sourceName": "EPA – Drinking Water Treatment",
+      "sourceUrl": "https://www.epa.gov/ground-water-and-drinking-water"
     },
     {
       "id": "water-filter-sock",
@@ -120,7 +126,9 @@
           "helpDetail": "This filter removes sediment and some bacteria but does NOT guarantee safe water. It's a pre-treatment step.",
           "illustrationDescription": "Warning: still needs purification."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-charcoal-filter",
@@ -141,13 +149,13 @@
         {
           "stepNumber": 2,
           "instruction": "Crush charcoal into fine granules.",
-          "helpDetail": "The finer the better \u2014 more surface area means better filtration. Remove any large chunks.",
+          "helpDetail": "The finer the better — more surface area means better filtration. Remove any large chunks.",
           "illustrationDescription": "Crushing charcoal."
         },
         {
           "stepNumber": 3,
-          "instruction": "Build a filter: container with hole \u2192 grass \u2192 charcoal \u2192 sand \u2192 gravel.",
-          "helpDetail": "Use a cut bottle, bark funnel, or bamboo section. The tight-packed charcoal layer should be the thickest \u2014 at least 4 inches.",
+          "instruction": "Build a filter: container with hole → grass → charcoal → sand → gravel.",
+          "helpDetail": "Use a cut bottle, bark funnel, or bamboo section. The tight-packed charcoal layer should be the thickest — at least 4 inches.",
           "illustrationDescription": "Charcoal filter assembly."
         },
         {
@@ -156,7 +164,9 @@
           "helpDetail": "Each pass improves clarity. Even so, boil or chemically treat afterward. Charcoal improves taste significantly.",
           "illustrationDescription": "Multiple filter passes."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-solar-still",
@@ -171,13 +181,13 @@
         {
           "stepNumber": 1,
           "instruction": "Dig a hole 3 feet wide and 2 feet deep.",
-          "helpDetail": "Choose a sunny spot with moist soil. Near vegetation is better \u2014 plant roots indicate moisture.",
+          "helpDetail": "Choose a sunny spot with moist soil. Near vegetation is better — plant roots indicate moisture.",
           "illustrationDescription": "Hole dimensions."
         },
         {
           "stepNumber": 2,
           "instruction": "Place a collection container in the center of the hole.",
-          "helpDetail": "A cup, can, water bottle \u2014 anything that can collect drips. If you have a drinking tube, run it from the container up out of the hole.",
+          "helpDetail": "A cup, can, water bottle — anything that can collect drips. If you have a drinking tube, run it from the container up out of the hole.",
           "illustrationDescription": "Container in center of hole."
         },
         {
@@ -192,7 +202,9 @@
           "helpDetail": "This creates a cone shape. Evaporated moisture condenses on the plastic and drips into the container. Expect 1-2 cups per day.",
           "illustrationDescription": "Rock creating drip point."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-transpiration-bag",
@@ -207,7 +219,7 @@
         {
           "stepNumber": 1,
           "instruction": "Place a clear plastic bag over a leafy tree branch.",
-          "helpDetail": "Choose a branch with lots of green leaves in direct sunlight. Non-poisonous trees only \u2014 avoid oleander, yew, rhododendron.",
+          "helpDetail": "Choose a branch with lots of green leaves in direct sunlight. Non-poisonous trees only — avoid oleander, yew, rhododendron.",
           "illustrationDescription": "Bag over leafy branch."
         },
         {
@@ -222,7 +234,9 @@
           "helpDetail": "A single bag can produce 1-3 cups per day. Set up multiple bags. Move to new branches daily as leaves deplete.",
           "illustrationDescription": "Water collected in bag corner."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-dew-collection",
@@ -248,11 +262,13 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Purify if possible \u2014 dew from grass may contain contaminants.",
+          "instruction": "Purify if possible — dew from grass may contain contaminants.",
           "helpDetail": "Dew is condensed atmospheric moisture and is usually clean, but plant surfaces may harbor bacteria.",
           "illustrationDescription": "Purifying collected dew."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-rain-collection",
@@ -272,7 +288,7 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Use any available containers \u2014 bottles, pots, carved wood, pits lined with plastic.",
+          "instruction": "Use any available containers — bottles, pots, carved wood, pits lined with plastic.",
           "helpDetail": "Set out every container you have. A 1-hour moderate rain on a 6x6 tarp can yield 5+ gallons.",
           "illustrationDescription": "Multiple containers collecting rain."
         },
@@ -282,7 +298,9 @@
           "helpDetail": "Initial runoff picks up dirt and contaminants from the collection surface. Discard the first accumulation.",
           "illustrationDescription": "Discarding initial runoff."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-vegetation-indicators",
@@ -302,13 +320,13 @@
         },
         {
           "stepNumber": 2,
-          "instruction": "Follow animal trails that converge \u2014 they lead to water.",
+          "instruction": "Follow animal trails that converge — they lead to water.",
           "helpDetail": "Trails from multiple directions meeting indicate a water source. Follow them downhill.",
           "illustrationDescription": "Converging animal trails."
         },
         {
           "stepNumber": 3,
-          "instruction": "Watch birds at dawn and dusk \u2014 grain-eating birds fly toward water.",
+          "instruction": "Watch birds at dawn and dusk — grain-eating birds fly toward water.",
           "helpDetail": "Pigeons, doves, and finches need daily water. They fly in straight lines toward sources. Follow their flight path.",
           "illustrationDescription": "Birds flying toward water."
         },
@@ -318,7 +336,9 @@
           "helpDetail": "Water pools on the outside of bends. Dig 1-3 feet and wait. Seepage indicates groundwater.",
           "illustrationDescription": "Digging at dry riverbed bend."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-seawater",
@@ -332,7 +352,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "NEVER drink seawater directly \u2014 it accelerates dehydration.",
+          "instruction": "NEVER drink seawater directly — it accelerates dehydration.",
           "helpDetail": "Salt concentration in seawater requires your kidneys to use more water than the drink provides. Drinking seawater kills.",
           "illustrationDescription": "Warning: never drink seawater."
         },
@@ -354,7 +374,9 @@
           "helpDetail": "A solar still may only give 1-2 cups per day but that's enough to survive. Set up multiple stills.",
           "illustrationDescription": "Small but vital fresh water."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-snow-ice",
@@ -368,19 +390,19 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Never eat snow directly \u2014 it lowers core body temp.",
+          "instruction": "Never eat snow directly — it lowers core body temp.",
           "helpDetail": "The energy cost of melting snow in your mouth is significant. In a cold environment, this accelerates hypothermia.",
           "illustrationDescription": "Warning: don't eat snow."
         },
         {
           "stepNumber": 2,
           "instruction": "Melt snow or ice in a dark container in the sun.",
-          "helpDetail": "Black or dark containers absorb heat. Pack loosely \u2014 compressed snow takes longer to melt and can scorch the container.",
+          "helpDetail": "Black or dark containers absorb heat. Pack loosely — compressed snow takes longer to melt and can scorch the container.",
           "illustrationDescription": "Dark container melting snow."
         },
         {
           "stepNumber": 3,
-          "instruction": "Prefer ice over snow \u2014 ice yields more water per volume.",
+          "instruction": "Prefer ice over snow — ice yields more water per volume.",
           "helpDetail": "Snow is 90% air. You need roughly 10 gallons of snow to get 1 gallon of water. Old sea ice (blue/clear) is desalinated.",
           "illustrationDescription": "Ice vs snow volume comparison."
         },
@@ -390,7 +412,9 @@
           "helpDetail": "Snow in a dry pot over flame scorches before melting. Add a splash of water first, then gradually add snow.",
           "illustrationDescription": "Water in pot before adding snow."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-storage",
@@ -426,7 +450,9 @@
           "helpDetail": "Use cork, carved wood plugs, or bunched cloth to seal improvised containers.",
           "illustrationDescription": "Sealed improvised containers."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-rationing",
@@ -441,7 +467,7 @@
         {
           "stepNumber": 1,
           "instruction": "Drink when thirsty. Do NOT ration your water.",
-          "helpDetail": "Your body needs water now, not later. Rationing leads to inefficiency \u2014 you become too weak to get more water. Many people have died with water in their canteen.",
+          "helpDetail": "Your body needs water now, not later. Rationing leads to inefficiency — you become too weak to get more water. Many people have died with water in their canteen.",
           "illustrationDescription": "Drink now, don't save."
         },
         {
@@ -456,7 +482,9 @@
           "helpDetail": "In hot desert conditions, you can lose 1-2 quarts per HOUR of heavy exertion. Monitor urine color.",
           "illustrationDescription": "Daily water requirements chart."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-condensation-trap",
@@ -470,7 +498,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Find a metal surface\u2014car hood, sheet metal, or large flat rock.",
+          "instruction": "Find a metal surface—car hood, sheet metal, or large flat rock.",
           "helpDetail": "Metal cools faster than air at night, causing condensation. Bigger surface = more water.",
           "illustrationDescription": "Metal surface."
         },
@@ -486,7 +514,9 @@
           "helpDetail": "Desert nights are ideal due to extreme temperature swings. Can yield 1-2 cups overnight.",
           "illustrationDescription": "Morning collection."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-bamboo-collection",
@@ -500,7 +530,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Find green bamboo with thick stems. Shake\u2014hear water inside.",
+          "instruction": "Find green bamboo with thick stems. Shake—hear water inside.",
           "helpDetail": "Old dry bamboo is empty. Look for green, thick-stemmed living bamboo.",
           "illustrationDescription": "Selecting bamboo."
         },
@@ -516,7 +546,9 @@
           "helpDetail": "Punch, drain, move to next node. Each compartment is separate.",
           "illustrationDescription": "Punching holes."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-birch-tapping",
@@ -548,11 +580,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Collect sap. Drinkable immediately\u2014slightly sweet.",
+          "instruction": "Collect sap. Drinkable immediately—slightly sweet.",
           "helpDetail": "A large birch produces 1-2 gallons per day in spring. Contains water, sugars, minerals.",
           "illustrationDescription": "Collecting sap."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-rock-seepage",
@@ -566,7 +600,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Look for wet rock faces\u2014dark stains, moss, fern growth.",
+          "instruction": "Look for wet rock faces—dark stains, moss, fern growth.",
           "helpDetail": "Limestone and sandstone are porous. Water seeps through naturally.",
           "illustrationDescription": "Identifying seepage."
         },
@@ -582,7 +616,9 @@
           "helpDetail": "Even small trickles add up over time. Leave collection overnight.",
           "illustrationDescription": "Channeling flow."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-desalination",
@@ -618,7 +654,9 @@
           "helpDetail": "Sun heats saltwater, evaporation condenses on plastic, drips into inner container. Yield: 500ml-1L per day in strong sun.",
           "illustrationDescription": "Solar desalination in action."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-birch-container",
@@ -651,10 +689,12 @@
         {
           "stepNumber": 4,
           "instruction": "You can even boil water in birch bark directly over fire.",
-          "helpDetail": "Birch bark containers can go directly over flame. The water inside prevents the bark from burning. The bark ignites at 450\u00b0F but water keeps it below 212\u00b0F.",
+          "helpDetail": "Birch bark containers can go directly over flame. The water inside prevents the bark from burning. The bark ignites at 450°F but water keeps it below 212°F.",
           "illustrationDescription": "Boiling in bark."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-vine-extraction",
@@ -669,7 +709,7 @@
         {
           "stepNumber": 1,
           "instruction": "Identify thick, woody vines in tropical or subtropical forest.",
-          "helpDetail": "Water vines are 1-3 inches thick with rough bark. Common species: grape vine, rattan, and various lianas. Avoid milky or colored sap \u2014 these are toxic.",
+          "helpDetail": "Water vines are 1-3 inches thick with rough bark. Common species: grape vine, rattan, and various lianas. Avoid milky or colored sap — these are toxic.",
           "illustrationDescription": "Identifying water vines."
         },
         {
@@ -681,10 +721,12 @@
         {
           "stepNumber": 3,
           "instruction": "Hold the cut section over your mouth. Water drips from the bottom cut.",
-          "helpDetail": "Clear, tasteless water is safe. If the liquid is colored, milky, or bitter, spit it out immediately \u2014 that vine is not a water source.",
+          "helpDetail": "Clear, tasteless water is safe. If the liquid is colored, milky, or bitter, spit it out immediately — that vine is not a water source.",
           "illustrationDescription": "Drinking from vine."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-fog-nets",
@@ -698,7 +740,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Stretch fabric or mesh between two poles at a 90\u00b0 angle to prevailing wind.",
+          "instruction": "Stretch fabric or mesh between two poles at a 90° angle to prevailing wind.",
           "helpDetail": "The mesh catches fog droplets which coalesce and run down. Position on a ridge or exposed hillside where fog flows across.",
           "illustrationDescription": "Fog net setup."
         },
@@ -714,7 +756,9 @@
           "helpDetail": "In coastal areas with regular fog, yields of 1-5 liters per square meter per night are common. This is used as primary water supply in some coastal deserts.",
           "illustrationDescription": "Overnight collection."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-well-digging",
@@ -746,11 +790,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Filter and purify before drinking \u2014 groundwater still needs treatment.",
+          "instruction": "Filter and purify before drinking — groundwater still needs treatment.",
           "helpDetail": "Groundwater is usually cleaner than surface water but can contain bacteria and parasites. Always boil or chemically treat.",
           "illustrationDescription": "Purifying well water."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-snow-melting",
@@ -764,7 +810,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Never eat snow directly \u2014 it lowers core body temperature dangerously.",
+          "instruction": "Never eat snow directly — it lowers core body temperature dangerously.",
           "helpDetail": "Eating snow uses body heat to melt it. In cold conditions, this accelerates hypothermia. It takes 1 calorie to melt 1 gram of snow.",
           "illustrationDescription": "Never eat snow."
         },
@@ -782,11 +828,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Use ice instead of snow when available \u2014 it yields more water per volume.",
+          "instruction": "Use ice instead of snow when available — it yields more water per volume.",
           "helpDetail": "Snow is 90% air. A liter of snow yields only ~100ml water. Ice yields ~900ml. Always prefer ice to snow.",
           "illustrationDescription": "Ice vs snow yield."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-testing",
@@ -800,19 +848,19 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Check clarity \u2014 hold water up to light. Clear is better than cloudy.",
+          "instruction": "Check clarity — hold water up to light. Clear is better than cloudy.",
           "helpDetail": "Turbidity indicates suspended particles. These particles can harbor bacteria and interfere with chemical treatment. Always filter turbid water first.",
           "illustrationDescription": "Checking clarity."
         },
         {
           "stepNumber": 2,
-          "instruction": "Smell the water \u2014 chemical or sulfur odors mean contamination.",
+          "instruction": "Smell the water — chemical or sulfur odors mean contamination.",
           "helpDetail": "Clean water has no smell. Rotten egg smell = hydrogen sulfide. Chemical smell = industrial contamination. Sweet smell = algae blooms (some toxic).",
           "illustrationDescription": "Smelling water."
         },
         {
           "stepNumber": 3,
-          "instruction": "Look at the surroundings \u2014 dead animals, algae blooms, or industrial runoff.",
+          "instruction": "Look at the surroundings — dead animals, algae blooms, or industrial runoff.",
           "helpDetail": "Dead fish or animals near water = toxins. Blue-green algae mats = cyanobacteria (potentially fatal). Upstream mines or farms = chemical contamination.",
           "illustrationDescription": "Environmental assessment."
         },
@@ -822,7 +870,9 @@
           "helpDetail": "Even clear, odorless water from a pristine stream can contain Giardia or Crypto. Always purify unless collecting direct rainfall.",
           "illustrationDescription": "Purify always."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-transpiration-enhanced",
@@ -854,11 +904,13 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Set up multiple bags \u2014 each yields only 60-200ml per day.",
+          "instruction": "Set up multiple bags — each yields only 60-200ml per day.",
           "helpDetail": "One bag is not enough. Set 5-10 bags to get meaningful water. Replace branches daily as transpiration declines after cutting.",
           "illustrationDescription": "Multiple bags."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-cactus-extraction",
@@ -872,28 +924,30 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Identify barrel cactus (Ferocactus) \u2014 the only safe species for water.",
+          "instruction": "Identify barrel cactus (Ferocactus) — the only safe species for water.",
           "helpDetail": "NOT all cacti contain drinkable water. Many contain toxic alkaloids that cause vomiting (which accelerates dehydration). Barrel cactus is the safest option. Prickly pear fruit is also safe.",
           "illustrationDescription": "Barrel cactus."
         },
         {
           "stepNumber": 2,
           "instruction": "Cut off the top of the cactus and mash the pulp inside.",
-          "helpDetail": "Use a knife or rock to slice the top. The interior pulp is moist and fibrous. Mash it to release moisture. Do NOT drink the liquid directly \u2014 chew the pulp and spit out the fiber.",
+          "helpDetail": "Use a knife or rock to slice the top. The interior pulp is moist and fibrous. Mash it to release moisture. Do NOT drink the liquid directly — chew the pulp and spit out the fiber.",
           "illustrationDescription": "Cutting cactus."
         },
         {
           "stepNumber": 3,
           "instruction": "Squeeze pulp through cloth to extract moisture. Drink in small amounts.",
-          "helpDetail": "Yield is small: a large barrel cactus may give 1-2 cups. The liquid may taste bitter. Drink slowly. If it causes nausea, stop \u2014 you have the wrong species.",
+          "helpDetail": "Yield is small: a large barrel cactus may give 1-2 cups. The liquid may taste bitter. Drink slowly. If it causes nausea, stop — you have the wrong species.",
           "illustrationDescription": "Squeezing pulp."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-coconut-safety",
       "name": "Coconut Water Safety",
-      "subtitle": "Use green coconuts for hydration \u2014 avoid mature ones",
+      "subtitle": "Use green coconuts for hydration — avoid mature ones",
       "category": "Finding Water",
       "difficulty": 1,
       "estimatedTime": "5 min",
@@ -909,7 +963,7 @@
         {
           "stepNumber": 2,
           "instruction": "Pierce the soft eye of the coconut with a sharp point or knife.",
-          "helpDetail": "Each coconut has 2-3 'eyes' (dark spots) at one end. One eye is softer than the others \u2014 test each with your knife tip. Pierce through this soft eye to access the water inside.",
+          "helpDetail": "Each coconut has 2-3 'eyes' (dark spots) at one end. One eye is softer than the others — test each with your knife tip. Pierce through this soft eye to access the water inside.",
           "illustrationDescription": "Piercing eye."
         },
         {
@@ -918,7 +972,9 @@
           "helpDetail": "Green coconuts: drink freely. Mature coconuts: limit to 2-3 daily to avoid digestive issues. Coconut water contains electrolytes (potassium, sodium) making it superior to plain water for rehydration.",
           "illustrationDescription": "Drinking."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-banana-plant",
@@ -948,7 +1004,9 @@
           "helpDetail": "Each filling yields about 1 cup. Scoop out the first fill (may be bitter) and drink subsequent fills. A single plant can provide 2-3 cups of water over several hours.",
           "illustrationDescription": "Collecting water."
         }
-      ]
+      ],
+      "sourceName": "Peterson Field Guide – Edible Wild Plants",
+      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
     },
     {
       "id": "water-clay-pot-filter",
@@ -978,7 +1036,9 @@
           "helpDetail": "Maintain high heat. The sawdust vaporizes, leaving a network of micropores. After firing and cooling, test: water should seep through slowly (1-2 liters per hour). Too fast = pores too large.",
           "illustrationDescription": "Firing pot."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-bio-sand-filter",
@@ -1008,7 +1068,9 @@
           "helpDetail": "The magic is the biofilm that forms on the top sand layer after 2 weeks of regular use. This living layer consumes pathogens. Once established, the filter removes 96-99% of bacteria. Never let it dry out.",
           "illustrationDescription": "Mature filter."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-morning-dew-drag",
@@ -1023,7 +1085,7 @@
         {
           "stepNumber": 1,
           "instruction": "Before sunrise, tie absorbent cloth around your ankles and legs.",
-          "helpDetail": "T-shirts, towels, bandanas \u2014 any absorbent cotton material. Wrap around lower legs and feet. Walk through tall, dew-covered grass in the early morning.",
+          "helpDetail": "T-shirts, towels, bandanas — any absorbent cotton material. Wrap around lower legs and feet. Walk through tall, dew-covered grass in the early morning.",
           "illustrationDescription": "Wrapping cloth."
         },
         {
@@ -1038,7 +1100,9 @@
           "helpDetail": "Each wringing yields 1-4 ounces depending on dew intensity and cloth size. In heavy dew conditions, you can collect 1+ liters in an hour. The water is generally clean but filter if possible.",
           "illustrationDescription": "Wringing cloth."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-seawater-ice",
@@ -1064,11 +1128,13 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Melt the ice. Taste test \u2014 repeat freeze/pour if still salty.",
-          "helpDetail": "First freeze removes about 70% of salt. A second freeze-pour cycle gets it close to drinkable. Old sea ice (multi-year) found in Arctic regions is naturally fresh \u2014 it has a blue tint.",
+          "instruction": "Melt the ice. Taste test — repeat freeze/pour if still salty.",
+          "helpDetail": "First freeze removes about 70% of salt. A second freeze-pour cycle gets it close to drinkable. Old sea ice (multi-year) found in Arctic regions is naturally fresh — it has a blue tint.",
           "illustrationDescription": "Melting ice."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-tarp-rain-catch",
@@ -1098,7 +1164,9 @@
           "helpDetail": "Let the first 30 seconds of rain wash dirt off the tarp before collecting. Rain water collected on a clean surface is safe to drink without treatment in most environments.",
           "illustrationDescription": "Collecting rain."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-activated-charcoal",
@@ -1119,16 +1187,18 @@
         {
           "stepNumber": 2,
           "instruction": "Crush charcoal into small granules (pea-sized to sand-sized).",
-          "helpDetail": "Smaller pieces have more surface area for adsorption. Crush with rocks between two flat surfaces. Remove any unburned wood \u2014 it should be uniformly black and lightweight.",
+          "helpDetail": "Smaller pieces have more surface area for adsorption. Crush with rocks between two flat surfaces. Remove any unburned wood — it should be uniformly black and lightweight.",
           "illustrationDescription": "Crushing charcoal."
         },
         {
           "stepNumber": 3,
           "instruction": "Layer crushed charcoal in filter between sand layers.",
-          "helpDetail": "Charcoal adsorbs chemical contaminants, chlorine, and some organic toxins. It does NOT reliably kill bacteria or viruses \u2014 still boil or treat chemically after charcoal filtering. Replace charcoal weekly.",
+          "helpDetail": "Charcoal adsorbs chemical contaminants, chlorine, and some organic toxins. It does NOT reliably kill bacteria or viruses — still boil or treat chemically after charcoal filtering. Replace charcoal weekly.",
           "illustrationDescription": "Charcoal filter."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-spring-identification",
@@ -1155,10 +1225,12 @@
         {
           "stepNumber": 3,
           "instruction": "Test: spring water is typically cold, clear, and flowing.",
-          "helpDetail": "Good springs produce clear, cold water (ground temperature, ~55\u00b0F). If the water is warm, cloudy, or has an odor, it may be surface runoff, not a true spring. True spring water is generally safe but still filter if possible.",
+          "helpDetail": "Good springs produce clear, cold water (ground temperature, ~55°F). If the water is warm, cloudy, or has an odor, it may be surface runoff, not a true spring. True spring water is generally safe but still filter if possible.",
           "illustrationDescription": "Testing water."
         }
-      ]
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
     },
     {
       "id": "water-underground-seep",
@@ -1185,10 +1257,12 @@
         {
           "stepNumber": 3,
           "instruction": "Wait for the hole to fill. Filter and purify the seep water.",
-          "helpDetail": "Seep water may take 15-60 minutes to collect. Let sediment settle before scooping. The water has been naturally filtered through soil but may still contain pathogens \u2014 purify before drinking.",
+          "helpDetail": "Seep water may take 15-60 minutes to collect. Let sediment settle before scooping. The water has been naturally filtered through soil but may still contain pathogens — purify before drinking.",
           "illustrationDescription": "Waiting for water."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-altitude-boiling",
@@ -1202,14 +1276,14 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "At sea level, water boils at 212\u00b0F (100\u00b0C). At altitude, it boils at lower temperatures.",
-          "helpDetail": "For every 1,000 feet of elevation, the boiling point drops about 2\u00b0F. At 10,000 feet, water boils at 193\u00b0F. At 14,000 feet: 187\u00b0F. This matters for purification.",
+          "instruction": "At sea level, water boils at 212°F (100°C). At altitude, it boils at lower temperatures.",
+          "helpDetail": "For every 1,000 feet of elevation, the boiling point drops about 2°F. At 10,000 feet, water boils at 193°F. At 14,000 feet: 187°F. This matters for purification.",
           "illustrationDescription": "Boiling point chart."
         },
         {
           "stepNumber": 2,
           "instruction": "Good news: pathogens die well below boiling temperature.",
-          "helpDetail": "Most waterborne pathogens die at 160\u00b0F (71\u00b0C). Even at extreme altitude (Everest base camp at 17,600 feet), water boils at 179\u00b0F \u2014 still hot enough to kill all common pathogens.",
+          "helpDetail": "Most waterborne pathogens die at 160°F (71°C). Even at extreme altitude (Everest base camp at 17,600 feet), water boils at 179°F — still hot enough to kill all common pathogens.",
           "illustrationDescription": "Kill temperatures."
         },
         {
@@ -1218,7 +1292,9 @@
           "helpDetail": "CDC recommendation. At sea level, 1 minute is sufficient. Above 6,500 feet, boil for 3 minutes to compensate for the lower temperature. Rolling boil means large, vigorous bubbles.",
           "illustrationDescription": "Timing boil."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-animal-indicators",
@@ -1232,7 +1308,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Follow grazing animals (deer, cattle) at dawn and dusk \u2014 they head to water.",
+          "instruction": "Follow grazing animals (deer, cattle) at dawn and dusk — they head to water.",
           "helpDetail": "Grazing animals drink at dawn and dusk. Their trails converge toward water sources. Fresh tracks in dry areas always lead to water if you follow them long enough.",
           "illustrationDescription": "Animal trails."
         },
@@ -1244,11 +1320,13 @@
         },
         {
           "stepNumber": 3,
-          "instruction": "Listen for frogs and insects at night \u2014 they indicate water nearby.",
+          "instruction": "Listen for frogs and insects at night — they indicate water nearby.",
           "helpDetail": "Frog calls mean standing water within earshot. Dense insect swarms (mosquitoes, midges) often hover over or near water sources. Bees are rarely more than 3 miles from water.",
           "illustrationDescription": "Listening for clues."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-from-fruits",
@@ -1278,7 +1356,9 @@
           "helpDetail": "Green grass, sugar cane, and young bark can be chewed to extract moisture. Chew thoroughly, swallow the juice, spit out the fiber. This provides small but meaningful amounts of hydration.",
           "illustrationDescription": "Chewing for moisture."
         }
-      ]
+      ],
+      "sourceName": "Peterson Field Guide – Edible Wild Plants",
+      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
     },
     {
       "id": "water-emergency-sources",
@@ -1308,7 +1388,9 @@
           "helpDetail": "After water supply stops, pipes still contain residual water. Open the lowest faucet in the building. Gravity drains water from upper pipes down. May yield 1-5 gallons.",
           "illustrationDescription": "Draining pipes."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     },
     {
       "id": "water-poncho-rain-catch",
@@ -1338,7 +1420,9 @@
           "helpDetail": "Tree canopy intercepts significant rainfall. Move catchment to the most open area available. A 3x3 foot poncho in moderate rain collects about 1 gallon per hour.",
           "illustrationDescription": "Maximizing collection."
         }
-      ]
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
     },
     {
       "id": "water-electrolyte-solution",
@@ -1352,8 +1436,8 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Mix: 1 liter clean water + 6 teaspoons sugar + \u00bd teaspoon salt.",
-          "helpDetail": "This is the WHO oral rehydration formula. The precise ratio matters \u2014 too much sugar causes diarrhea; too much salt causes vomiting. Measure carefully.",
+          "instruction": "Mix: 1 liter clean water + 6 teaspoons sugar + ½ teaspoon salt.",
+          "helpDetail": "This is the WHO oral rehydration formula. The precise ratio matters — too much sugar causes diarrhea; too much salt causes vomiting. Measure carefully.",
           "illustrationDescription": "Mixing solution."
         },
         {
@@ -1368,7 +1452,9 @@
           "helpDetail": "Rapid drinking can trigger vomiting in dehydrated individuals. Small, frequent sips allow maximum absorption. This solution treats dehydration 10x more effectively than plain water because of electrolyte replacement.",
           "illustrationDescription": "Sipping slowly."
         }
-      ]
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
     }
   ],
   "articles": [
@@ -1397,7 +1483,7 @@
     {
       "id": "water-article-finding",
       "title": "Where to Find Water",
-      "body": "Water follows gravity. Think downhill.\n\nBest natural sources:\n- Springs (look where geological layers meet \u2014 water seeps at boundaries)\n- Streams (upstream is cleaner than downstream)\n- Morning dew (most abundant on clear nights following warm days)\n- Rain (cleanest source \u2014 collect aggressively)\n\nUnobvious sources:\n- Green vegetation in dry terrain indicates subsurface water\n- Insects (bees live within 3 miles of water, ants climbing a tree may lead to a water cache)\n- Dry riverbeds (dig at outside bends, 1-3 feet deep)\n- Rock crevices after rain (tinajas can hold water for weeks)\n\nDangerous sources to avoid:\n- Standing stagnant water (highest bacterial load)\n- Water near mining operations (heavy metals)\n- Water downstream of agriculture (pesticides, fertilizer)\n- Brackish coastal water (salt content too high)\n\nAll sources except rainwater directly collected should be purified.",
+      "body": "Water follows gravity. Think downhill.\n\nBest natural sources:\n- Springs (look where geological layers meet — water seeps at boundaries)\n- Streams (upstream is cleaner than downstream)\n- Morning dew (most abundant on clear nights following warm days)\n- Rain (cleanest source — collect aggressively)\n\nUnobvious sources:\n- Green vegetation in dry terrain indicates subsurface water\n- Insects (bees live within 3 miles of water, ants climbing a tree may lead to a water cache)\n- Dry riverbeds (dig at outside bends, 1-3 feet deep)\n- Rock crevices after rain (tinajas can hold water for weeks)\n\nDangerous sources to avoid:\n- Standing stagnant water (highest bacterial load)\n- Water near mining operations (heavy metals)\n- Water downstream of agriculture (pesticides, fertilizer)\n- Brackish coastal water (salt content too high)\n\nAll sources except rainwater directly collected should be purified.",
       "relatedTechniqueIDs": [
         "water-solar-still",
         "water-transpiration-bag",
@@ -1409,7 +1495,7 @@
     {
       "id": "water-article-oceansurv",
       "title": "Water in Ocean Survival",
-      "body": "The ocean survival paradox: surrounded by water but dying of thirst. Seawater is 3.5% salt \u2014 your kidneys cannot process this concentration without using more water than gained.\n\nNever drink seawater. Never mix seawater with freshwater. Never drink urine (same principle \u2014 waste concentration is too high).\n\nOcean water sources:\n- Rain (your primary source \u2014 collect aggressively on tarps and sails)\n- Solar stills (commercial inflatable versions exist for life rafts)\n- Fish eyes and spinal fluid (small amounts of fresh water)\n- Sea turtle blood (used historically; not ideal but survivable)\n\nConservation:\n- Stay shaded under tarp or canopy\n- Wet clothing in seawater to cool (reduces sweating)\n- Minimize talking and movement\n- Breathe through nose only\n\nA person lost at sea with no fresh water has approximately 3-5 days to live in moderate conditions, less if exposed to direct sun.",
+      "body": "The ocean survival paradox: surrounded by water but dying of thirst. Seawater is 3.5% salt — your kidneys cannot process this concentration without using more water than gained.\n\nNever drink seawater. Never mix seawater with freshwater. Never drink urine (same principle — waste concentration is too high).\n\nOcean water sources:\n- Rain (your primary source — collect aggressively on tarps and sails)\n- Solar stills (commercial inflatable versions exist for life rafts)\n- Fish eyes and spinal fluid (small amounts of fresh water)\n- Sea turtle blood (used historically; not ideal but survivable)\n\nConservation:\n- Stay shaded under tarp or canopy\n- Wet clothing in seawater to cool (reduces sweating)\n- Minimize talking and movement\n- Breathe through nose only\n\nA person lost at sea with no fresh water has approximately 3-5 days to live in moderate conditions, less if exposed to direct sun.",
       "relatedTechniqueIDs": [
         "water-seawater",
         "water-rain-collection"
@@ -1418,7 +1504,7 @@
     {
       "id": "water-article-contamination",
       "title": "Waterborne Diseases",
-      "body": "The main killers in contaminated water:\n\nBacteria:\n- E. coli, Salmonella, Cholera\n- Symptoms: diarrhea (often bloody), cramps, vomiting\n- Treatment: rehydration, antibiotics in severe cases\n\nParasites:\n- Giardia (beaver fever): watery diarrhea 1-2 weeks after exposure\n- Cryptosporidium: resistant to chlorine/iodine, requires boiling or filtration\n- Amoebic dysentery: bloody diarrhea, liver abscess\n\nViruses:\n- Hepatitis A, Norovirus, Rotavirus\n- Very small \u2014 most filters don't catch them\n- Requires boiling, UV, or chemical treatment\n\nThe real danger of waterborne illness in survival situations is dehydration from diarrhea and vomiting. The disease kills you by accelerating water loss \u2014 the exact resource you're already short on.\n\nPrevention hierarchy: purification > treatment > suffering. The energy cost of purifying water is always less than the cost of treating illness.",
+      "body": "The main killers in contaminated water:\n\nBacteria:\n- E. coli, Salmonella, Cholera\n- Symptoms: diarrhea (often bloody), cramps, vomiting\n- Treatment: rehydration, antibiotics in severe cases\n\nParasites:\n- Giardia (beaver fever): watery diarrhea 1-2 weeks after exposure\n- Cryptosporidium: resistant to chlorine/iodine, requires boiling or filtration\n- Amoebic dysentery: bloody diarrhea, liver abscess\n\nViruses:\n- Hepatitis A, Norovirus, Rotavirus\n- Very small — most filters don't catch them\n- Requires boiling, UV, or chemical treatment\n\nThe real danger of waterborne illness in survival situations is dehydration from diarrhea and vomiting. The disease kills you by accelerating water loss — the exact resource you're already short on.\n\nPrevention hierarchy: purification > treatment > suffering. The energy cost of purifying water is always less than the cost of treating illness.",
       "relatedTechniqueIDs": [
         "water-boiling",
         "water-iodine"
@@ -1427,7 +1513,7 @@
     {
       "id": "water-article-signs",
       "title": "Signs of Water Nearby",
-      "body": "Nature provides many indicators of water if you know how to read them:\n\nVisual cues:\n- Green vegetation in otherwise dry terrain\n- Valley bottoms and lowest terrain\n- Fog or mist collecting in depressions\n- Dark soil or mud patches\n- Exposed rock faces with wet patches\n\nAnimal behavior:\n- Grazing animals drink at dawn and dusk \u2014 follow their trails\n- Birds (especially pigeons and finches) fly toward water at dusk\n- Insects in large numbers (mosquitoes are within 1/4 mile of water)\n- Frogs and crickets at night indicate very near water\n\nGeological signs:\n- Limestone terrain often has springs where layers meet\n- Sandstone supports vegetation at spring lines\n- Volcanic rock has poor surface water but natural cisterns\n\nSound:\n- Running water can be heard from significant distance at night when ambient noise drops\n- Train your ear to filter for the sound of flowing water",
+      "body": "Nature provides many indicators of water if you know how to read them:\n\nVisual cues:\n- Green vegetation in otherwise dry terrain\n- Valley bottoms and lowest terrain\n- Fog or mist collecting in depressions\n- Dark soil or mud patches\n- Exposed rock faces with wet patches\n\nAnimal behavior:\n- Grazing animals drink at dawn and dusk — follow their trails\n- Birds (especially pigeons and finches) fly toward water at dusk\n- Insects in large numbers (mosquitoes are within 1/4 mile of water)\n- Frogs and crickets at night indicate very near water\n\nGeological signs:\n- Limestone terrain often has springs where layers meet\n- Sandstone supports vegetation at spring lines\n- Volcanic rock has poor surface water but natural cisterns\n\nSound:\n- Running water can be heard from significant distance at night when ambient noise drops\n- Train your ear to filter for the sound of flowing water",
       "relatedTechniqueIDs": [
         "water-vegetation-indicators",
         "water-dew-collection"
@@ -1436,7 +1522,7 @@
     {
       "id": "water-article-desert",
       "title": "Finding Water in the Desert",
-      "body": "Deserts are not waterless \u2014 they are water-hidden. Learning where to look is the difference between survival and death.\n\nWhere water hides in desert:\n- Wash bottoms: Dig 1-3 feet in the outside bend of dry washes after rain\n- Rocky canyons: Tinajas (natural rock pools) hold water for weeks after rain\n- Base of cliffs: Water seeps where impermeable rock meets permeable layers\n- Sand dunes: Dig at the base of the steep (leeward) side\n- Date palms, cottonwoods, willows: These trees ONLY grow where water table is shallow\n\nBehavioral water conservation:\n- Travel at night or early morning only (reduce sweat loss by 60%)\n- Stay in shade during midday (radiant heat increases water loss 3x)\n- Breathe through nose only (oral breathing loses moisture 2x faster)\n- Don't ration water \u2014 drink when thirsty (your body needs it NOW, not later)\n- Keep clothing on \u2014 it reduces sweat evaporation rate and insulates\n\nDesert water math:\n- Normal conditions: 2-3 liters/day needed\n- Desert walking in sun: 6-8 liters/day needed\n- Rest in shade: 3-4 liters/day needed\n- Death from dehydration: 2-5 days without water in hot desert",
+      "body": "Deserts are not waterless — they are water-hidden. Learning where to look is the difference between survival and death.\n\nWhere water hides in desert:\n- Wash bottoms: Dig 1-3 feet in the outside bend of dry washes after rain\n- Rocky canyons: Tinajas (natural rock pools) hold water for weeks after rain\n- Base of cliffs: Water seeps where impermeable rock meets permeable layers\n- Sand dunes: Dig at the base of the steep (leeward) side\n- Date palms, cottonwoods, willows: These trees ONLY grow where water table is shallow\n\nBehavioral water conservation:\n- Travel at night or early morning only (reduce sweat loss by 60%)\n- Stay in shade during midday (radiant heat increases water loss 3x)\n- Breathe through nose only (oral breathing loses moisture 2x faster)\n- Don't ration water — drink when thirsty (your body needs it NOW, not later)\n- Keep clothing on — it reduces sweat evaporation rate and insulates\n\nDesert water math:\n- Normal conditions: 2-3 liters/day needed\n- Desert walking in sun: 6-8 liters/day needed\n- Rest in shade: 3-4 liters/day needed\n- Death from dehydration: 2-5 days without water in hot desert",
       "relatedTechniqueIDs": [
         "water-solar-still",
         "water-well-digging",
@@ -1446,7 +1532,7 @@
     {
       "id": "water-article-ice-snow",
       "title": "Water from Ice and Snow",
-      "body": "Cold environments have abundant water \u2014 all in frozen form. Converting it efficiently is critical.\n\nSnow vs Ice conversion efficiency:\n- 10 liters of fluffy snow = approximately 1 liter of water\n- 1 liter of ice = approximately 0.9 liters of water\n- Always use ice over snow when both are available\n\nEnergy cost of melting:\n- Melting snow with body heat costs significant calories\n- A fire consumes fuel; fuel gathering takes energy\n- Solar melting in dark containers costs nothing but time\n\nSea ice for drinking water:\n- New sea ice is salty (avoid)\n- Old sea ice (multi-year, blue-tinted) has had salt drain out and is drinkable\n- Taste test: if it tastes salty, spit it out\n- Icebergs are compressed freshwater snow \u2014 always safe to melt\n\nBest practice in cold environments:\n1. Keep water bottle inside clothing against body to prevent freezing\n2. Fill bottle before night \u2014 it may freeze by morning\n3. Sleep with water bottle in sleeping bag\n4. Insulate water containers with socks or spare clothing",
+      "body": "Cold environments have abundant water — all in frozen form. Converting it efficiently is critical.\n\nSnow vs Ice conversion efficiency:\n- 10 liters of fluffy snow = approximately 1 liter of water\n- 1 liter of ice = approximately 0.9 liters of water\n- Always use ice over snow when both are available\n\nEnergy cost of melting:\n- Melting snow with body heat costs significant calories\n- A fire consumes fuel; fuel gathering takes energy\n- Solar melting in dark containers costs nothing but time\n\nSea ice for drinking water:\n- New sea ice is salty (avoid)\n- Old sea ice (multi-year, blue-tinted) has had salt drain out and is drinkable\n- Taste test: if it tastes salty, spit it out\n- Icebergs are compressed freshwater snow — always safe to melt\n\nBest practice in cold environments:\n1. Keep water bottle inside clothing against body to prevent freezing\n2. Fill bottle before night — it may freeze by morning\n3. Sleep with water bottle in sleeping bag\n4. Insulate water containers with socks or spare clothing",
       "relatedTechniqueIDs": [
         "water-snow-melting",
         "water-boiling"
@@ -1455,7 +1541,7 @@
     {
       "id": "water-article-storage",
       "title": "Water Storage and Transport",
-      "body": "Finding water is half the battle. Storing and transporting it is equally critical.\n\nImprovised containers:\n- Birch bark sealed with pine resin\n- Bamboo sections (naturally waterproof between nodes)\n- Animal stomachs and bladders (historical, effective)\n- Trash bags and ziplock bags (surprisingly durable)\n- Hollowed logs sealed with clay\n\nContainer hygiene:\n- Bacteria multiply in stored water. Use within 24 hours or re-purify.\n- Clean containers between fills \u2014 biofilm builds quickly\n- Sun exposure kills bacteria in clear containers (SODIS method: 6 hours in full sun)\n\nTransport considerations:\n- Water weighs 1 kg per liter. Carrying more than 4 liters while hiking is impractical.\n- Drink your fill at the source, then carry what you can.\n- Know your route to the next water source \u2014 carry only what you need to reach it.\n- Cache water at camp and along planned routes when possible.\n\nThe best water storage strategy: your body. Drink as much as you can hold at every water source.",
+      "body": "Finding water is half the battle. Storing and transporting it is equally critical.\n\nImprovised containers:\n- Birch bark sealed with pine resin\n- Bamboo sections (naturally waterproof between nodes)\n- Animal stomachs and bladders (historical, effective)\n- Trash bags and ziplock bags (surprisingly durable)\n- Hollowed logs sealed with clay\n\nContainer hygiene:\n- Bacteria multiply in stored water. Use within 24 hours or re-purify.\n- Clean containers between fills — biofilm builds quickly\n- Sun exposure kills bacteria in clear containers (SODIS method: 6 hours in full sun)\n\nTransport considerations:\n- Water weighs 1 kg per liter. Carrying more than 4 liters while hiking is impractical.\n- Drink your fill at the source, then carry what you can.\n- Know your route to the next water source — carry only what you need to reach it.\n- Cache water at camp and along planned routes when possible.\n\nThe best water storage strategy: your body. Drink as much as you can hold at every water source.",
       "relatedTechniqueIDs": [
         "water-birch-container",
         "water-boiling"
@@ -1484,7 +1570,7 @@
     {
       "id": "water-article-desert-survival",
       "title": "Water in Desert Environments",
-      "body": "Desert dehydration can kill in 1-2 days. Water procurement is your #1 priority.\n\nWater loss rates:\n- Resting in shade: 1 liter/day minimum\n- Walking at night: 2-3 liters/day\n- Walking in daytime heat: 4+ liters/day\n- Without water in 120\u00b0F heat: death in 2-3 days (walking) or 4-5 days (resting in shade)\n\nWhere to find water:\n- Canyons and slot canyons: water collects in potholes and shaded pools\n- Base of cliffs: seeps and springs where geology changes\n- Dry riverbeds: dig at outside of bends, 1-3 feet deep\n- After rain: collect immediately in any container (evaporates fast)\n- Plants: barrel cactus, prickly pear, cottonwood trees indicate water\n\nConserving water:\n- Travel only at night or early morning\n- Stay in shade during midday (10am-4pm)\n- Breathe through nose (mouth breathing wastes moisture)\n- Minimize talking and physical activity\n- Cover exposed skin (prevents sweat evaporation, which paradoxically helps cooling)\n\nCritical rule: NEVER ration water in the desert. Drink when thirsty. Your body needs it now, not later. Water in your stomach keeps you alive; water in your canteen does not.",
+      "body": "Desert dehydration can kill in 1-2 days. Water procurement is your #1 priority.\n\nWater loss rates:\n- Resting in shade: 1 liter/day minimum\n- Walking at night: 2-3 liters/day\n- Walking in daytime heat: 4+ liters/day\n- Without water in 120°F heat: death in 2-3 days (walking) or 4-5 days (resting in shade)\n\nWhere to find water:\n- Canyons and slot canyons: water collects in potholes and shaded pools\n- Base of cliffs: seeps and springs where geology changes\n- Dry riverbeds: dig at outside of bends, 1-3 feet deep\n- After rain: collect immediately in any container (evaporates fast)\n- Plants: barrel cactus, prickly pear, cottonwood trees indicate water\n\nConserving water:\n- Travel only at night or early morning\n- Stay in shade during midday (10am-4pm)\n- Breathe through nose (mouth breathing wastes moisture)\n- Minimize talking and physical activity\n- Cover exposed skin (prevents sweat evaporation, which paradoxically helps cooling)\n\nCritical rule: NEVER ration water in the desert. Drink when thirsty. Your body needs it now, not later. Water in your stomach keeps you alive; water in your canteen does not.",
       "relatedTechniqueIDs": [
         "water-cactus-extraction",
         "water-underground-seep",
@@ -1494,7 +1580,7 @@
     {
       "id": "water-article-winter",
       "title": "Winter Water Collection",
-      "body": "Cold environments create a paradox: surrounded by water (snow/ice) but at high risk of dehydration.\n\nWhy winter dehydration is dangerous:\n- Cold air holds less moisture \u2014 you dehydrate through breathing\n- Thirst response is reduced by 40% in cold (you don't feel as thirsty)\n- Heavy clothing causes sweating during exertion\n- Heating and melting snow requires significant energy\n\nDo NOT eat snow directly:\n- Eating snow lowers core body temperature (costs 80 calories per liter to melt internally)\n- In hypothermia situations, this can be fatal\n- Always melt snow before drinking when possible\n\nMelting snow efficiently:\n- Start with a small amount of water in the pot, then add snow gradually\n- Dry, powdery snow has a 10:1 ratio (10 inches of snow = 1 inch of water)\n- Wet, heavy snow has a 4:1 ratio\n- Pack snow tightly to melt faster\n\nIce vs snow:\n- Ice yields more water per volume than snow\n- Old sea ice (blue tint) is fresh and safe to melt\n- New sea ice is salty \u2014 avoid it\n- Clear river ice is excellent \u2014 already purified by freezing",
+      "body": "Cold environments create a paradox: surrounded by water (snow/ice) but at high risk of dehydration.\n\nWhy winter dehydration is dangerous:\n- Cold air holds less moisture — you dehydrate through breathing\n- Thirst response is reduced by 40% in cold (you don't feel as thirsty)\n- Heavy clothing causes sweating during exertion\n- Heating and melting snow requires significant energy\n\nDo NOT eat snow directly:\n- Eating snow lowers core body temperature (costs 80 calories per liter to melt internally)\n- In hypothermia situations, this can be fatal\n- Always melt snow before drinking when possible\n\nMelting snow efficiently:\n- Start with a small amount of water in the pot, then add snow gradually\n- Dry, powdery snow has a 10:1 ratio (10 inches of snow = 1 inch of water)\n- Wet, heavy snow has a 4:1 ratio\n- Pack snow tightly to melt faster\n\nIce vs snow:\n- Ice yields more water per volume than snow\n- Old sea ice (blue tint) is fresh and safe to melt\n- New sea ice is salty — avoid it\n- Clear river ice is excellent — already purified by freezing",
       "relatedTechniqueIDs": [
         "water-seawater-ice",
         "water-boiling"
@@ -1503,7 +1589,7 @@
     {
       "id": "water-article-rationing",
       "title": "Water Rationing Strategy",
-      "body": "How to manage limited water supplies to maximize survival time.\n\nThe 3-3-3 rule:\n- 3 minutes without air\n- 3 hours without shelter (in extreme conditions)\n- 3 days without water\n- 3 weeks without food\n\nRationing guidelines:\n- Minimum survival: 1 liter per day (resting in shade, temperate climate)\n- Functional minimum: 2 liters per day (light activity)\n- Active requirement: 3-4 liters per day (hiking, building)\n\nPriority system:\n1. Find new water source (highest priority \u2014 solve the problem)\n2. Reduce water loss (shade, rest, minimize sweating)\n3. Ration existing supply (last resort)\n\nImportant: NEVER ration water in extreme heat. Drink what you have. People have died of dehydration with water still in their canteens because they were rationing.\n\nSignaling dehydration levels:\n- Mild: dark yellow urine, dry mouth, headache\n- Moderate: very dark urine, dizziness, rapid heartbeat, no tears\n- Severe: no urine output, confusion, fainting, sunken eyes\n- Emergency: unconsciousness, seizures (organ failure imminent)\n\nRecovery: rehydrate slowly. 1 liter per hour maximum. Add electrolytes if possible.",
+      "body": "How to manage limited water supplies to maximize survival time.\n\nThe 3-3-3 rule:\n- 3 minutes without air\n- 3 hours without shelter (in extreme conditions)\n- 3 days without water\n- 3 weeks without food\n\nRationing guidelines:\n- Minimum survival: 1 liter per day (resting in shade, temperate climate)\n- Functional minimum: 2 liters per day (light activity)\n- Active requirement: 3-4 liters per day (hiking, building)\n\nPriority system:\n1. Find new water source (highest priority — solve the problem)\n2. Reduce water loss (shade, rest, minimize sweating)\n3. Ration existing supply (last resort)\n\nImportant: NEVER ration water in extreme heat. Drink what you have. People have died of dehydration with water still in their canteens because they were rationing.\n\nSignaling dehydration levels:\n- Mild: dark yellow urine, dry mouth, headache\n- Moderate: very dark urine, dizziness, rapid heartbeat, no tears\n- Severe: no urine output, confusion, fainting, sunken eyes\n- Emergency: unconsciousness, seizures (organ failure imminent)\n\nRecovery: rehydrate slowly. 1 liter per hour maximum. Add electrolytes if possible.",
       "relatedTechniqueIDs": [
         "water-electrolyte-solution",
         "water-solar-still"
@@ -1521,7 +1607,7 @@
     {
       "id": "water-article-testing",
       "title": "Field Water Quality Testing",
-      "body": "How to assess water safety when you can't run a lab test.\n\nVisual inspection:\n- Clear water: likely safer but not guaranteed\n- Cloudy/turbid water: contains particles, always filter first\n- Green water: algae present, may contain toxins \u2014 avoid if possible\n- Oily sheen: hydrocarbon contamination \u2014 DO NOT drink\n- Foam: may indicate detergent or organic contamination\n\nSmell test:\n- No odor: good sign\n- Sulfur (rotten egg): may be safe (mineral spring) but unpleasant\n- Chemical odor: contaminated \u2014 DO NOT drink\n- Sewage odor: fecal contamination \u2014 DO NOT drink\n\nSource assessment (safest to most risky):\n1. Spring (direct from ground): safest natural source\n2. Fast-moving stream at high elevation: generally safe\n3. Large river: moderate risk (upstream contamination unknown)\n4. Small pond/lake: higher risk (stagnant, more pathogen growth)\n5. Standing puddle: high risk (concentrated contamination)\n6. Urban water source: highest risk (chemical + biological contamination)\n\nWhen in doubt: boil it. Boiling kills all biological pathogens. It does not remove chemical contamination, but in a survival situation, biological threats kill faster than most chemical contaminants.",
+      "body": "How to assess water safety when you can't run a lab test.\n\nVisual inspection:\n- Clear water: likely safer but not guaranteed\n- Cloudy/turbid water: contains particles, always filter first\n- Green water: algae present, may contain toxins — avoid if possible\n- Oily sheen: hydrocarbon contamination — DO NOT drink\n- Foam: may indicate detergent or organic contamination\n\nSmell test:\n- No odor: good sign\n- Sulfur (rotten egg): may be safe (mineral spring) but unpleasant\n- Chemical odor: contaminated — DO NOT drink\n- Sewage odor: fecal contamination — DO NOT drink\n\nSource assessment (safest to most risky):\n1. Spring (direct from ground): safest natural source\n2. Fast-moving stream at high elevation: generally safe\n3. Large river: moderate risk (upstream contamination unknown)\n4. Small pond/lake: higher risk (stagnant, more pathogen growth)\n5. Standing puddle: high risk (concentrated contamination)\n6. Urban water source: highest risk (chemical + biological contamination)\n\nWhen in doubt: boil it. Boiling kills all biological pathogens. It does not remove chemical contamination, but in a survival situation, biological threats kill faster than most chemical contaminants.",
       "relatedTechniqueIDs": [
         "water-boiling",
         "water-charcoal-filter",
