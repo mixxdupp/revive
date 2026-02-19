@@ -1,8 +1,11 @@
 import SwiftUI
 
-
 struct EmergencyDirectoryView: View {
     @State private var searchText = ""
+    @Environment(\.dismiss) var dismiss
+    
+    // For smooth mesh gradient animation
+    @State private var isAnimating = false
     
     // Sort countries alphabetically
     private var countries: [CountryEmergency] {
@@ -20,56 +23,79 @@ struct EmergencyDirectoryView: View {
             DesignSystem.backgroundPrimary
                 .ignoresSafeArea()
             
-            // Subtle Mesh Gradient Simulation (Blue/Teal for Directory)
+            // Subtle Animated Mesh Gradient Simulation (Blue/Teal/Indigo for Directory)
             GeometryReader { proxy in
                 ZStack {
                     Circle()
-                        .fill(Color.blue.opacity(0.1))
-                        .frame(width: 300, height: 300)
+                        .fill(Color.blue.opacity(0.12))
+                        .frame(width: 350, height: 350)
                         .blur(radius: 60)
-                        .offset(x: -100, y: -100)
+                        .offset(x: isAnimating ? -50 : -150, y: isAnimating ? -50 : -150)
                     
                     Circle()
-                        .fill(Color.teal.opacity(0.1))
+                        .fill(Color.teal.opacity(0.12))
                         .frame(width: 300, height: 300)
                         .blur(radius: 60)
-                        .offset(x: 200, y: 100)
+                        .offset(x: isAnimating ? 150 : 250, y: isAnimating ? 50 : 150)
+                        
+                    Circle()
+                        .fill(Color.indigo.opacity(0.08))
+                        .frame(width: 400, height: 400)
+                        .blur(radius: 80)
+                        .offset(x: isAnimating ? -100 : 100, y: isAnimating ? 300 : 400)
                 }
                 .frame(width: proxy.size.width, height: proxy.size.height)
+                .onAppear {
+                    withAnimation(.easeInOut(duration: 8.0).repeatForever(autoreverses: true)) {
+                        isAnimating = true
+                    }
+                }
             }
             .ignoresSafeArea()
             
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     
-                    // MARK: - Header
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text("Directory")
-                            .font(.system(size: 42, weight: .black))
-                            .foregroundStyle(DesignSystem.textPrimary)
-                            .tracking(-0.5)
+                    // MARK: - Custom Header
+                    VStack(alignment: .leading, spacing: 16) {
+                        Button(action: { dismiss() }) {
+                            HStack(spacing: 6) {
+                                Image(systemName: "chevron.left")
+                                    .font(.body.weight(.semibold))
+                                Text("Back")
+                                    .font(.headline)
+                            }
+                            .foregroundStyle(Color.blue)
+                        }
+                        .padding(.top, 16)
                         
-                        Text("Global Emergency Numbers")
-                            .font(.system(size: 20, weight: .medium))
-                            .foregroundStyle(DesignSystem.textSecondary)
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text("Directory")
+                                .font(.system(size: 42, weight: .black))
+                                .foregroundStyle(DesignSystem.textPrimary)
+                                .tracking(-0.5)
+                            
+                            Text("Global Emergency Numbers")
+                                .font(.system(size: 20, weight: .medium))
+                                .foregroundStyle(DesignSystem.textSecondary)
+                        }
                     }
                     .padding(.horizontal, 24)
-                    .padding(.top, 16)
                     
                     // MARK: - Search Results
-                    LazyVStack(spacing: 16) {
+                    LazyVStack(spacing: 20) {
                         ForEach(filteredCountries) { country in
                             GlassCountryRow(country: country)
                         }
                     }
                     .padding(.horizontal, 24)
                     .padding(.bottom, 40)
+                    .animation(.spring(response: 0.4, dampingFraction: 0.8), value: searchText)
                 }
             }
         }
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search country (e.g. Japan)")
-        .navigationTitle("")
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarHidden(true)
     }
 }
 
@@ -78,13 +104,14 @@ struct GlassCountryRow: View {
     let country: CountryEmergency
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 14) {
             // Country Header
-            HStack {
+            HStack(alignment: .center, spacing: 12) {
                 Text(country.flag)
-                    .font(.system(size: 32))
+                    .font(.system(size: 28))
+                    
                 Text(country.name)
-                    .font(.title3.weight(.bold))
+                    .font(.headline)
                     .foregroundStyle(DesignSystem.textPrimary)
                     .lineLimit(2)
                     .minimumScaleFactor(0.85)
@@ -93,40 +120,61 @@ struct GlassCountryRow: View {
                 Spacer()
                 
                 if let unified = country.unifiedNumber {
-                    Link("Call \(unified)", destination: URL(string: "tel://\(unified)")!)
-                        .font(.headline.weight(.bold))
-                        .foregroundStyle(.white)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 10)
-                        .background(Color.red)
+                    Link(destination: URL(string: "tel://\(unified)")!) {
+                        HStack(spacing: 4) {
+                            Image(systemName: "phone.fill")
+                            Text("Call \(unified)")
+                        }
+                        .font(.subheadline.weight(.bold))
+                        .foregroundStyle(Color.red)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 8)
+                        .background(Color.red.opacity(0.15))
                         .clipShape(Capsule())
-                        .shadow(color: Color.red.opacity(0.4), radius: 6, x: 0, y: 3)
+                    }
                 }
             }
             
             // Detailed Numbers if not unified
             if country.unifiedNumber == nil {
                 Divider()
-                    .background(Color.white.opacity(0.2))
+                    .background(Color.white.opacity(0.1))
                 
                 HStack(spacing: 12) {
-                    ServiceButton(icon: "shield.fill", label: "Police", number: country.police, color: .blue)
-                    ServiceButton(icon: "flame", label: "Fire", number: country.fire, color: .orange)
-                    ServiceButton(icon: "cross.fill", label: "Medical", number: country.ambulance, color: .red)
+                    ServiceButton(
+                        icon: "shield.fill",
+                        label: "Police",
+                        number: country.police,
+                        color: .blue
+                    )
+                    
+                    ServiceButton(
+                        icon: "flame.fill",
+                        label: "Fire",
+                        number: country.fire,
+                        color: .orange
+                    )
+                    
+                    ServiceButton(
+                        icon: "cross.fill",
+                        label: "Medical",
+                        number: country.ambulance,
+                        color: .red
+                    )
                 }
             }
         }
-        .padding(20)
+        .padding(16)
         .background(.ultraThinMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .overlay(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .stroke(Color.white.opacity(0.1), lineWidth: 1)
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
         )
-        .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
     }
 }
 
+// MARK: - Premium Service Button
 struct ServiceButton: View {
     let icon: String
     let label: String
@@ -137,21 +185,26 @@ struct ServiceButton: View {
         Link(destination: URL(string: "tel://\(number)")!) {
             VStack(spacing: 6) {
                 Image(systemName: icon)
-                    .font(.system(size: 20))
-                Text(label)
-                    .font(.caption2.weight(.bold))
-                    .textCase(.uppercase)
-                Text(number)
-                    .font(.headline)
+                    .font(.system(size: 20, weight: .medium))
+                
+                VStack(spacing: 2) {
+                    Text(label)
+                        .font(.caption2.weight(.medium))
+                        .textCase(.uppercase)
+                        .opacity(0.8)
+                        
+                    Text(number)
+                        .font(.headline.weight(.bold))
+                }
             }
-            .foregroundStyle(color) // Colored text/icon
+            .foregroundStyle(color)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 12)
             .padding(.horizontal, 4)
-            .background(color.opacity(0.1))
-            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .background(color.opacity(0.15))
+            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
         }
-        .buttonStyle(.plain) // Standard tap behavior
+        .buttonStyle(ScalableButtonStyle()) // Uses standard app scaler logic
         .accessibilityElement(children: .combine)
         .accessibilityLabel("\(label), \(number)")
         .accessibilityAddTraits(.isButton)
