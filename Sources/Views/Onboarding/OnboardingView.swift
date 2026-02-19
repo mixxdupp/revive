@@ -255,5 +255,8 @@ struct OnboardingVoicePage: View {
                 .foregroundStyle(.gray)
                 .padding(.bottom, 50)
         }
+        .onAppear {
+            SpeechRecognitionService.shared.requestAuthorization()
+        }
     }
 }

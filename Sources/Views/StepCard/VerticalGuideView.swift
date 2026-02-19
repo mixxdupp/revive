@@ -5,6 +5,11 @@ struct VerticalGuideView: View {
     @State private var expandedStep: Int? = 0 // Start with step 1 open
     @Environment(\.dismiss) var dismiss
     
+    // Voice Control
+    @ObservedObject private var speech = SpeechRecognitionService.shared
+    @State private var isAudioReadingEnabled = false
+    @State private var idleSpeechTimer: Timer?
+    
     var body: some View {
         ScrollViewReader { proxy in
             ZStack {
@@ -14,29 +19,7 @@ struct VerticalGuideView: View {
                     VStack(alignment: .leading, spacing: 24) {
                         
                         // MARK: - Header
-                        VStack(alignment: .leading, spacing: 8) {
-                            Button(action: { dismiss() }) {
-                                HStack(spacing: 4) {
-                                    Image(systemName: "chevron.left")
-                                    Text("Browse")
-                                }
-                                .font(.headline)
-                                .foregroundStyle(technique.domain.color)
-                            }
-                            .padding(.bottom, 10)
-                            
-                            Text(technique.name)
-                                .font(.system(size: 34, weight: .bold))
-                                .foregroundStyle(DesignSystem.textPrimary)
-                                .fixedSize(horizontal: false, vertical: true)
-                            
-                            Text(technique.subtitle)
-                                .font(.body)
-                                .foregroundStyle(DesignSystem.textSecondary)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        .padding(.horizontal, 20)
-                        .padding(.top, 20)
+                        headerView
                         
                         if technique.isCritical {
                             EmergencyWarningBanner()
@@ -123,6 +106,47 @@ struct VerticalGuideView: View {
                         Spacer().frame(height: 120) // Space for floating button
                     }
                 }
+                .onChange(of: speech.detectedCommand) { _, command in
+                    guard let command = command else { return }
+                    withAnimation {
+                        if command == "next" {
+                            if let current = expandedStep, current < technique.steps.count - 1 {
+                                expandedStep = current + 1
+                                proxy.scrollTo(current + 1, anchor: .center)
+                                HapticsService.shared.playImpact(style: .medium)
+                            }
+                        } else if command == "back" {
+                            if let current = expandedStep, current > 0 {
+                                expandedStep = current - 1
+                                proxy.scrollTo(current - 1, anchor: .center)
+                                HapticsService.shared.playImpact(style: .light)
+                            }
+                        } else if command == "stop" {
+                            speech.stopListening()
+                        }
+                    }
+                }
+                .onChange(of: expandedStep) { _, newStep in
+                    if let stepIndex = newStep, isAudioReadingEnabled {
+                        let step = technique.steps[stepIndex]
+                        let fullText = "\(step.instruction). \(step.helpDetail)"
+                        speech.speak(fullText)
+                        scheduleIdleSpeechTimer(text: fullText)
+                    }
+                }
+                .onChange(of: speech.isSpeaking) { _, isSpeaking in
+                    if !isSpeaking && isAudioReadingEnabled {
+                        // Speech just finished. Start the exact 15 second timer.
+                        if let currentStep = expandedStep {
+                            let step = technique.steps[currentStep]
+                            let fullText = "\(step.instruction). \(step.helpDetail)"
+                            scheduleIdleSpeechTimer(text: fullText)
+                        }
+                    } else if isSpeaking {
+                        // Pause the timer while speaking
+                        idleSpeechTimer?.invalidate()
+                    }
+                }
                 
                 // MARK: - Floating Action Button
                 VStack {
@@ -165,7 +189,122 @@ struct VerticalGuideView: View {
                 }
             }
             .navigationBarHidden(true)
+            .onAppear {
+                // Voice control is now explicitly opt-in via the top right toggle
+                print("Vertical Guide View Appeared - Hands free is opt-in")
+            }
+            .onDisappear {
+                speech.stopListening()
+                speech.stopSpeaking()
+                idleSpeechTimer?.invalidate()
+            }
         }
+    }
+    
+    // MARK: - Auto-Repeat Timer Logic
+    private func scheduleIdleSpeechTimer(text: String) {
+        // Invalidate any existing timer
+        idleSpeechTimer?.invalidate()
+        
+        // Wait 8 seconds after the current speech finishes before repeating
+        idleSpeechTimer = Timer.scheduledTimer(withTimeInterval: 8.0, repeats: true) { _ in
+            if isAudioReadingEnabled, !speech.isSpeaking {
+                speech.speak(text)
+            }
+        }
+    }
+}
+
+extension VerticalGuideView {
+    private var headerView: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Button(action: { dismiss() }) {
+                    HStack(spacing: 4) {
+                        Image(systemName: "chevron.left")
+                        Text("Browse")
+                    }
+                    .font(.headline)
+                    .foregroundStyle(technique.domain.color)
+                }
+                
+                Spacer()
+                
+                HStack(spacing: 8) {
+                    // Text-to-Speech Toggle
+                    Button(action: {
+                        isAudioReadingEnabled.toggle()
+                        if !isAudioReadingEnabled {
+                            speech.stopSpeaking()
+                            idleSpeechTimer?.invalidate()
+                        } else {
+                            if let currentStep = expandedStep {
+                                let step = technique.steps[currentStep]
+                                let fullText = "\(step.instruction). \(step.helpDetail)"
+                                speech.speak(fullText)
+                                scheduleIdleSpeechTimer(text: fullText)
+                            }
+                        }
+                        HapticsService.shared.playImpact(style: .light)
+                    }) {
+                        HStack(spacing: 4) {
+                            Image(systemName: isAudioReadingEnabled ? "speaker.wave.3.fill" : "speaker.slash.fill")
+                                .foregroundStyle(isAudioReadingEnabled ? technique.domain.color : .secondary)
+                        }
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 6)
+                        .background(.ultraThinMaterial)
+                        .clipShape(Capsule())
+                    }
+
+                    // Voice Control Toggle (Mic)
+                    Button(action: {
+                        if speech.isRecording {
+                            speech.stopListening()
+                            HapticsService.shared.playImpact(style: .light)
+                        } else {
+                            do {
+                                try speech.startListening()
+                                HapticsService.shared.playImpact(style: .medium)
+                            } catch {
+                                print("Voice control failed: \(error)")
+                            }
+                        }
+                    }) {
+                        HStack(spacing: 4) {
+                            Image(systemName: speech.isRecording ? "mic.fill" : "mic.slash.fill")
+                                .foregroundStyle(speech.isRecording ? .red : .secondary)
+                                .symbolEffect(.pulse.byLayer, isActive: speech.isRecording)
+                            
+                            Text(speech.isRecording ? "Listening" : "Hands-Free")
+                                .font(.caption2.bold())
+                                .foregroundStyle(speech.isRecording ? .red : .secondary)
+                        }
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 6)
+                        .background(.ultraThinMaterial)
+                        .clipShape(Capsule())
+                        .overlay(
+                            Capsule()
+                                .stroke(speech.isRecording ? Color.red.opacity(0.3) : Color.clear, lineWidth: 1)
+                        )
+                    }
+                }
+            }
+            .padding(.bottom, 6)
+            
+            Text(technique.name)
+                .font(.system(size: 34, weight: .bold))
+                .foregroundStyle(DesignSystem.textPrimary)
+                .fixedSize(horizontal: false, vertical: true)
+            
+            Text(technique.subtitle)
+                .font(.body)
+                .foregroundStyle(DesignSystem.textSecondary)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(.horizontal, 20)
+        .padding(.top, 20)
     }
 }
 

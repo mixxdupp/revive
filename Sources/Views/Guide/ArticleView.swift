@@ -93,7 +93,7 @@ struct ArticleView: View {
                                 
                             case .paragraph:
                                 // Markdown parsing for Bold/Italics
-                                Text(try! AttributedString(markdown: section.content))
+                                Text((try? AttributedString(markdown: section.content)) ?? AttributedString(section.content))
                                     .font(.system(.body, design: .serif))
                                     .foregroundStyle(DesignSystem.textPrimary.opacity(0.9))
                                     .lineSpacing(8)
@@ -105,7 +105,7 @@ struct ArticleView: View {
                                         .frame(width: 5, height: 5)
                                         .padding(.top, 10)
                                     
-                                    Text(try! AttributedString(markdown: section.content))
+                                    Text((try? AttributedString(markdown: section.content)) ?? AttributedString(section.content))
                                         .font(.system(.body, design: .serif))
                                         .foregroundStyle(DesignSystem.textPrimary.opacity(0.9))
                                         .lineSpacing(8)
@@ -118,7 +118,7 @@ struct ArticleView: View {
                                         .foregroundStyle(article.domain.color)
                                         .frame(width: 24, alignment: .trailing)
                                     
-                                    Text(try! AttributedString(markdown: section.content))
+                                    Text((try? AttributedString(markdown: section.content)) ?? AttributedString(section.content))
                                         .font(.system(.body, design: .serif))
                                         .foregroundStyle(DesignSystem.textPrimary.opacity(0.9))
                                         .lineSpacing(8)
@@ -130,7 +130,7 @@ struct ArticleView: View {
                                         .fill(article.domain.color.opacity(0.4))
                                         .frame(width: 3)
                                     
-                                    Text(try! AttributedString(markdown: section.content))
+                                    Text((try? AttributedString(markdown: section.content)) ?? AttributedString(section.content))
                                         .font(.system(.body, design: .serif).italic())
                                         .foregroundStyle(DesignSystem.textSecondary)
                                         .lineSpacing(4)
@@ -204,46 +204,43 @@ struct ArticleView: View {
 
             
             // MARK: - Sticky Navigation Bar
-            ZStack(alignment: .top) {
-                // Dynamic Blur Background
-                Rectangle()
-                    .fill(.ultraThinMaterial)
-                    .frame(height: 110)
-                    .edgesIgnoringSafeArea(.top)
-                    .opacity(scrollOffset < -300 ? 1 : 0)
-                    .animation(.easeInOut(duration: 0.2), value: scrollOffset < -300)
-                
+            VStack {
                 HStack {
                     Button(action: { dismiss() }) {
                         Image(systemName: "chevron.left")
                             .font(.system(size: 18, weight: .semibold))
                             .foregroundStyle(DesignSystem.textPrimary)
                             .frame(width: 40, height: 40)
-                            .background(.ultraThinMaterial.opacity(scrollOffset < -300 ? 0 : 1))
+                            .background(.ultraThinMaterial)
                             .clipShape(Circle())
-                            .shadow(color: .black.opacity(scrollOffset < -300 ? 0 : 0.1), radius: 4, x: 0, y: 2)
+                            .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
                     }
-                    .padding(.leading, 20)
+                    .padding(.leading, 24)
                     
                     Spacer()
                     
                     // Glossary Link (Standard Right Placement)
                     NavigationLink(destination: GlossaryView()) {
                         Image(systemName: "text.book.closed.fill")
-                            .font(.system(size: 18, weight: .semibold)) // Matched size
+                            .font(.system(size: 18, weight: .semibold))
                             .foregroundStyle(DesignSystem.textSecondary)
-                            .frame(width: 40, height: 40) // Matched frame
+                            .frame(width: 40, height: 40)
                             .background(.ultraThinMaterial)
                             .clipShape(Circle())
                     }
-                    .padding(.trailing, 20)
-                    
-                    // Sticky Title (Hidden for now to simplify layout and avoid conflicts)
+                    .padding(.trailing, 24)
                 }
-                .padding(.top, 60) // Safe Area
-                .padding(.bottom, 10)
+                .padding(.top, 16)
+                .padding(.bottom, 16)
+                .background(
+                    Rectangle()
+                        .fill(.ultraThinMaterial)
+                        .edgesIgnoringSafeArea(.top)
+                        .opacity(min(1, max(0, (-scrollOffset - 50) / 100)))
+                )
+                
+                Spacer()
             }
-            .frame(maxHeight: .infinity, alignment: .top)
         }
         .navigationBarHidden(true)
     }

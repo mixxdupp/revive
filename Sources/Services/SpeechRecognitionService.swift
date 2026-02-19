@@ -2,22 +2,28 @@ import Speech
 import Combine
 import AVFoundation
 
-class SpeechRecognitionService: ObservableObject {
+class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDelegate, AVSpeechSynthesizerDelegate {
     static let shared = SpeechRecognitionService()
     
     @Published var isRecording = false
     @Published var detectedCommand: String?
+    @Published var isSpeaking = false
     
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     private let audioEngine = AVAudioEngine()
     
+    // Text to Speech
+    private let synthesizer = AVSpeechSynthesizer()
+    
     // Valid commands
     private let commands = ["next", "back", "stop", "repeat"]
     
-    private init() {
+    private override init() {
+        super.init()
         requestAuthorization()
+        synthesizer.delegate = self
     }
     
     func requestAuthorization() {
@@ -54,10 +60,15 @@ class SpeechRecognitionService: ObservableObject {
         }
         
         recognitionRequest.shouldReportPartialResults = true
-        
-        // Keep speech recognition data on device for privacy
+        // Keep speech recognition data strictly on-device for privacy and offline requirement
         if #available(iOS 13, *) {
-            recognitionRequest.requiresOnDeviceRecognition = false // Set to true if possible, but false for wider compatibility in sim
+            recognitionRequest.requiresOnDeviceRecognition = true
+            
+            if speechRecognizer?.supportsOnDeviceRecognition == false {
+                print("WARNING: On-device recognition not supported in this environment (likely Simulator or missing models). Speech recognition may fail.")
+                // We keep requiresOnDeviceRecognition = true to force the requirement.
+                // It will fail gracefully in the recognitionTask block if it cannot fulfill the request off-device.
+            }
         }
         
         let inputNode = audioEngine.inputNode
@@ -100,6 +111,30 @@ class SpeechRecognitionService: ObservableObject {
         audioEngine.stop()
         recognitionRequest?.endAudio()
         isRecording = false
+        stopSpeaking() // Ensure speech also stops when listening stops
+    }
+    
+    func stopSpeaking() {
+        synthesizer.stopSpeaking(at: .immediate)
+    }
+    
+    func speak(_ text: String) {
+        // Stop any current speech
+        synthesizer.stopSpeaking(at: .immediate)
+        
+        let utterance = AVSpeechUtterance(string: text)
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        utterance.rate = AVSpeechUtteranceDefaultSpeechRate
+        
+        // Pause listening while speaking to prevent feedback loops, if recording
+        let wasRecording = isRecording
+        if wasRecording {
+            audioEngine.pause()
+        }
+        
+        synthesizer.speak(utterance)
+        
+        // Note: Resuming listening is now handled by AVSpeechSynthesizerDelegate didFinish utterance.
     }
     
     private func processCommand(_ text: String) {
@@ -117,6 +152,31 @@ class SpeechRecognitionService: ObservableObject {
                     }
                 }
             }
+        }
+    }
+    
+    // MARK: - AVSpeechSynthesizerDelegate
+    
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didStart utterance: AVSpeechUtterance) {
+        DispatchQueue.main.async {
+            self.isSpeaking = true
+        }
+    }
+    
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
+        DispatchQueue.main.async {
+            self.isSpeaking = false
+        }
+        
+        // Resume listening if we were recording
+        if isRecording && !audioEngine.isRunning {
+            try? audioEngine.start()
+        }
+    }
+    
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
+        DispatchQueue.main.async {
+            self.isSpeaking = false
         }
     }
 }

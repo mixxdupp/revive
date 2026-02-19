@@ -19,7 +19,7 @@ struct ReviveApp: App {
             }
             .onAppear {
                 // Simulate app loading / splash duration
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                     withAnimation(.easeOut(duration: 0.5)) {
                         showLaunchScreen = false
                     }
