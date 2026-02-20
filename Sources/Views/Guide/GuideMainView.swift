@@ -50,7 +50,7 @@ struct GuideMainView: View {
                     if searchText.isEmpty {
                         VStack(alignment: .leading, spacing: 6) {
                             Text("Library", comment: "Section Title")
-                                .font(.system(size: 42, weight: .black))
+                                .font(.system(size: 42, weight: .bold))
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .tracking(-0.5)
                             
@@ -126,9 +126,9 @@ struct GlassDomainCell: View {
     let domain: SurvivalDomain
     
     var body: some View {
-        ZStack(alignment: .bottomLeading) {
-            // MARK: - 1. Glassmorphic Background with Gradient
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
+        ZStack(alignment: .topLeading) {
+            // MARK: - 1. Glassmorphic Background with Gradient Tint
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .fill(.ultraThinMaterial)
                 .overlay(
                     LinearGradient(
@@ -142,51 +142,52 @@ struct GlassDomainCell: View {
                 )
             
             // MARK: - 2. Content
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 0) {
                 // Icon Header
                 HStack(alignment: .top) {
                     ZStack {
                         Circle()
-                            .fill(domain.color.opacity(0.1))
-                            .frame(width: 48, height: 48)
+                            .fill(domain.color.opacity(0.15))
+                            .frame(width: 44, height: 44)
                         
                         Image(systemName: domain.icon)
-                            .font(.system(size: 24, weight: .semibold))
+                            .font(.system(size: 20, weight: .semibold))
                             .foregroundStyle(domain.color)
                     }
                     
                     Spacer()
                     
-                    // Count Badge (Pill)
+                    // Count Badge (Minimalist)
                     Text("\(ContentDatabase.shared.getTechniques(for: domain).count)")
-                        .font(.system(size: 14, weight: .bold))
+                        .font(.system(size: 13, weight: .bold, design: .rounded))
                         .foregroundStyle(domain.color)
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
-                        .background(domain.color.opacity(0.1))
+                        .background(domain.color.opacity(0.12))
                         .clipShape(Capsule())
                 }
                 
-                Spacer()
+                Spacer(minLength: 0)
                 
                 // Title
                 Text(domain.displayName)
-                    .font(.system(size: 20, weight: .bold))
+                    .font(.system(size: 18, weight: .bold, design: .default))
                     .foregroundStyle(DesignSystem.textPrimary)
                     .multilineTextAlignment(.leading)
-                    .fixedSize(horizontal: false, vertical: true)
+                    .lineLimit(2)
                     .minimumScaleFactor(0.85)
+                    .fixedSize(horizontal: false, vertical: true)
             }
             .padding(16)
         }
-        .frame(height: 160) // Standard box height matches Emergency
-        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .frame(height: 160) // Increased for better breathing room and tap target
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .overlay(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .stroke(domain.color.opacity(0.2), lineWidth: 1)
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .strokeBorder(Color.white.opacity(0.1), lineWidth: 0.5)
         )
         // Soft Shadow for Depth
-        .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 4)
+        .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 5)
         .accessibilityElement(children: .combine)
         .accessibilityLabel("\(domain.displayName), \(ContentDatabase.shared.getTechniques(for: domain).count) techniques")
         .accessibilityAddTraits(.isButton)

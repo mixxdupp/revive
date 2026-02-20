@@ -131,14 +131,18 @@ final class SirenManager: ObservableObject {
 
     private func setupAudioSession() {
         do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [])
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.duckOthers])
             try AVAudioSession.sharedInstance().setActive(true)
         } catch { print("Audio Session Error: \(error)") }
     }
     
     private func startAudioEngine() {
         let engine = AVAudioEngine()
-        let sampleRate = engine.outputNode.outputFormat(forBus: 0).sampleRate
+        
+        // Define an explicit audio format because Swift Playgrounds/Simulator can fail to route implicitly
+        guard let format = AVAudioFormat(standardFormatWithSampleRate: 44100.0, channels: 1) else { return }
+        
+        let sampleRate = format.sampleRate
         var lfoPhase: Double = 0
         var tonePhase: Double = 0
         
@@ -155,7 +159,7 @@ final class SirenManager: ObservableObject {
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
                 let val = sin(2.0 * .pi * tonePhase)
-                let sample: Float = (val >= 0 ? 0.9 : -0.9)
+                let sample: Float = (val >= 0 ? 1.0 : -1.0)
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
@@ -166,7 +170,7 @@ final class SirenManager: ObservableObject {
         }
 
         engine.attach(source)
-        engine.connect(source, to: engine.mainMixerNode, format: nil)
+        engine.connect(source, to: engine.mainMixerNode, format: format)
         
         do {
             try engine.start()
@@ -183,6 +187,9 @@ final class SirenManager: ObservableObject {
 
     // MARK: - Volume & Flashlight Internal
     private func maximizeVolume() {
+        // Guarantee internal engine volume is absolutely maxed out
+        audioEngine?.mainMixerNode.outputVolume = 1.0
+        
         // Known workaround: Use MPVolumeView slider to set system volume
         let volumeView = MPVolumeView()
         if let slider = volumeView.subviews.first(where: { $0 is UISlider }) as? UISlider {
@@ -263,20 +270,26 @@ struct EmergencySirenView: View {
                     .edgesIgnoringSafeArea(.all)
             }
             
-            // Close Button
+            // Back Button
             VStack {
                 HStack {
-                    Spacer()
                     Button(action: {
                         manager.stopSiren()
                         dismiss()
                     }) {
-                        Image(systemName: "xmark.circle.fill")
-                            .font(.system(size: 32))
-                            .foregroundStyle(manager.isPlaying ? .white.opacity(0.8) : DesignSystem.textSecondary)
-                            .padding()
+                        HStack(spacing: 6) {
+                            Image(systemName: "chevron.left")
+                                .font(.body.weight(.semibold))
+                            Text("Back")
+                                .font(.headline)
+                        }
+                        .foregroundStyle(manager.isPlaying ? .white.opacity(0.8) : Color.blue)
                     }
-                    .accessibilityLabel("Close Siren")
+                    .padding(.top, 16)
+                    .padding(.horizontal, 24)
+                    .accessibilityLabel("Go Back")
+                    
+                    Spacer()
                 }
                 Spacer()
             }
@@ -435,6 +448,8 @@ struct EmergencySirenView: View {
         }
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
         .onAppear {
             if autoPlay {
                 manager.includeStrobe = true
@@ -518,7 +533,7 @@ struct LongPressButton: View {
     @State private var pulse = false
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .leading) {
             // Background
             RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .fill(isPlaying ? .white : Color.purple)
@@ -532,6 +547,7 @@ struct LongPressButton: View {
                         .frame(width: geo.size.width * progress, height: 64)
                         .animation(.linear(duration: 0.1), value: progress)
                 }
+                .frame(height: 64)
                 .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
             }
             
@@ -539,6 +555,7 @@ struct LongPressButton: View {
             Text(buttonText)
                 .font(.title3.weight(.bold))
                 .foregroundStyle(isPlaying ? (progress > 0.5 ? .white : .red) : .white)
+                .frame(maxWidth: .infinity, alignment: .center)
         }
         .accessibilityLabel(buttonText)
         .accessibilityAddTraits(.isButton)

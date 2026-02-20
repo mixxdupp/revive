@@ -48,9 +48,9 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
             recognitionTask = nil
         }
         
-        // Configure Audio Session
+        // Configure Audio Session for Simultaneous Recording and Playback
         let audioSession = AVAudioSession.sharedInstance()
-        try audioSession.setCategory(.record, mode: .measurement, options: .duckOthers)
+        try audioSession.setCategory(.playAndRecord, mode: .measurement, options: [.defaultToSpeaker, .duckOthers])
         try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
         
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
@@ -126,31 +126,32 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
         utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
         utterance.rate = AVSpeechUtteranceDefaultSpeechRate
         
-        // Pause listening while speaking to prevent feedback loops, if recording
-        let wasRecording = isRecording
-        if wasRecording {
-            audioEngine.pause()
-        }
-        
         synthesizer.speak(utterance)
-        
-        // Note: Resuming listening is now handled by AVSpeechSynthesizerDelegate didFinish utterance.
     }
     
     private func processCommand(_ text: String) {
-        // Simple keyword matching from the last few words
-        let words = text.components(separatedBy: " ")
-        if let lastWord = words.last {
-            if commands.contains(lastWord) {
+        // Ignore commands if the app is currently speaking to prevent feedback loops
+        guard !isSpeaking else { return }
+        
+        // Clean text of punctuation
+        let cleanText = text.lowercased().components(separatedBy: .punctuationCharacters).joined()
+        let words = cleanText.components(separatedBy: .whitespacesAndNewlines).filter { !$0.isEmpty }
+        
+        // Search backwards for the most recent valid command
+        for word in words.reversed() {
+            if commands.contains(word) {
                 DispatchQueue.main.async {
-                    self.detectedCommand = lastWord
-                    // Reset command after a short delay
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                        if self.detectedCommand == lastWord {
-                            self.detectedCommand = nil
+                    if self.detectedCommand != word {
+                        self.detectedCommand = word
+                        // Reset command after a short delay
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                            if self.detectedCommand == word {
+                                self.detectedCommand = nil
+                            }
                         }
                     }
                 }
+                break
             }
         }
     }
@@ -167,10 +168,8 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
         DispatchQueue.main.async {
             self.isSpeaking = false
         }
-        
-        // Resume listening if we were recording
-        if isRecording && !audioEngine.isRunning {
-            try? audioEngine.start()
+        DispatchQueue.main.async {
+            self.isSpeaking = false
         }
     }
     

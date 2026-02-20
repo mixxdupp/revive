@@ -2,6 +2,7 @@ import SwiftUI
 
 struct QuickActionsView: View {
     @ObservedObject var db = ContentDatabase.shared
+    @State private var isAnimating = false
     
     private var criticalTechniques: [Technique] {
         let criticalIds = [
@@ -38,64 +39,55 @@ struct QuickActionsView: View {
     init() {}
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             // MARK: - Ambient Background
             DesignSystem.backgroundPrimary
                 .ignoresSafeArea()
             
-            // Subtle Mesh Gradient Simulation (Red/Orange for Urgency)
+            // Subtle Animated Mesh Gradient Simulation (Red/Orange for Urgency)
             GeometryReader { proxy in
                 ZStack {
                     Circle()
-                        .fill(Color.red.opacity(0.1))
-                        .frame(width: 300, height: 300)
+                        .fill(Color.red.opacity(0.15))
+                        .frame(width: 350, height: 350)
                         .blur(radius: 60)
-                        .offset(x: -100, y: -100)
+                        .offset(x: isAnimating ? -50 : -150, y: isAnimating ? -50 : -150)
                     
                     Circle()
-                        .fill(Color.orange.opacity(0.1))
+                        .fill(Color.orange.opacity(0.12))
                         .frame(width: 300, height: 300)
                         .blur(radius: 60)
-                        .offset(x: 200, y: 100)
+                        .offset(x: isAnimating ? 150 : 250, y: isAnimating ? 50 : 150)
                 }
                 .frame(width: proxy.size.width, height: proxy.size.height)
+                .onAppear {
+                    withAnimation(.easeInOut(duration: 8.0).repeatForever(autoreverses: true)) {
+                        isAnimating = true
+                    }
+                }
             }
             .ignoresSafeArea()
             
-            ScrollView {
-                VStack(alignment: .leading, spacing: 32) {
-                    
-                    // MARK: - Warning
-                    // Removed as per user request (Home only)
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .leading, spacing: 20) {
                     
                     // MARK: - Header
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Quick Actions")
-                            .font(.system(size: 42, weight: .black))
+                            .font(.system(size: 40, weight: .bold)) // High-impact native title
                             .foregroundStyle(DesignSystem.textPrimary)
                             .tracking(-0.5)
                         
-                        Text("Life-Threatening — 1-Tap Access")
-                            .font(.system(size: 20, weight: .medium))
+                        Text("Life-threatening conditions — 1-tap access")
+                            .font(.system(size: 16, weight: .medium)) // Fixed sub-heading typography
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
                     .padding(.horizontal, 24)
+                    .padding(.top, 16)
+                    .padding(.bottom, 8)
 
 
                     // MARK: - Critical Techniques
-                    LazyVGrid(columns: [
-                        GridItem(.flexible(), spacing: 16),
-                        GridItem(.flexible(), spacing: 16)
-                    ], spacing: 16) {
-                        ForEach(criticalTechniques) { technique in
-                            NavigationLink(destination: VerticalGuideView(technique: technique)) {
-                                GlassActionCell(technique: technique)
-                            }
-                            .buttonStyle(ScalableButtonStyle())
-                        }
-                    }
-                    .padding(.horizontal, 24)
-                    
                     if criticalTechniques.isEmpty {
                         VStack(spacing: 12) {
                             Image(systemName: "heart.text.square")
@@ -106,7 +98,20 @@ struct QuickActionsView: View {
                                 .foregroundStyle(DesignSystem.textSecondary)
                         }
                         .frame(maxWidth: .infinity)
-                        .padding(.vertical, 40)
+                        .padding(.vertical, 60)
+                    } else {
+                        LazyVGrid(columns: [
+                            GridItem(.flexible(), spacing: 16),
+                            GridItem(.flexible(), spacing: 16)
+                        ], spacing: 16) {
+                            ForEach(criticalTechniques) { technique in
+                                NavigationLink(destination: VerticalGuideView(technique: technique)) {
+                                    GlassActionCell(technique: technique)
+                                }
+                                .buttonStyle(ScalableButtonStyle())
+                            }
+                        }
+                        .padding(.horizontal, 24)
                     }
 
                     Spacer(minLength: 40)
@@ -123,55 +128,41 @@ struct GlassActionCell: View {
     let technique: Technique
     
     var body: some View {
-        VStack(spacing: 16) {
-            // Large Icon
+        VStack(alignment: .center, spacing: 14) {
+            // Refined Crisp Icon Box (Smaller, more elegant)
             ZStack {
                 Circle()
-                    .fill(Color.red.opacity(0.15))
-                    .frame(width: 72, height: 72)
+                    .fill(Color.red.opacity(0.12))
+                    .frame(width: 50, height: 50)
                 
                 Image(systemName: technique.icon)
-                    .font(.system(size: 32, weight: .semibold))
+                    .font(.system(size: 20, weight: .semibold))
                     .foregroundStyle(Color.red)
             }
-            .shadow(color: Color.red.opacity(0.2), radius: 8, x: 0, y: 4)
+            .padding(.top, 4)
             
-            // Title
+            // Clean Typography Title
             Text(LocalizedStringKey(technique.name))
-                .font(.system(size: 18, weight: .bold))
+                .font(.system(size: 15, weight: .semibold, design: .default))
                 .foregroundStyle(DesignSystem.textPrimary)
                 .multilineTextAlignment(.center)
                 .lineLimit(3)
-                .minimumScaleFactor(0.8)
+                .minimumScaleFactor(0.85)
                 .fixedSize(horizontal: false, vertical: true)
-        }
-        .padding(20)
-        .frame(maxWidth: .infinity)
-        .frame(minHeight: 180) // Taller for vertical layout
-        .background(
-            ZStack {
-                // Material Background
-                Rectangle()
-                    .fill(.ultraThinMaterial)
+                .frame(maxWidth: .infinity)
                 
-                // Red Gradient Tint
-                LinearGradient(
-                    colors: [
-                        Color.red.opacity(0.1),
-                        Color.red.opacity(0.02)
-                    ],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-            }
-        )
-        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+            Spacer(minLength: 0)
+        }
+        .padding(16)
+        .frame(height: 140) // Fixed Apple-standard square-ish tile height
+        .frame(maxWidth: .infinity)
+        .background(.ultraThinMaterial) // Pure uncolored glass
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous)) // Squircle aesthetic
         .overlay(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .strokeBorder(Color.red.opacity(0.2), lineWidth: 1)
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .strokeBorder(Color.white.opacity(0.1), lineWidth: 0.5)
         )
-        .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 4)
-        .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .contentShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
     }

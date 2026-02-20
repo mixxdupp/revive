@@ -12,15 +12,23 @@ struct LegalView: View {
                             .font(.title2)
                             .fontWeight(.bold)
                         
-                        Text("The content provided in Revive is for **informational and educational purposes only**. It is not a substitute for professional medical advice, diagnosis, or treatment.")
+                        Text("1. NO MEDICAL ADVICE (INFORMATIONAL ONLY)")
+                            .font(.headline)
+                            .foregroundStyle(.red)
+                        Text("The content of this app is for educational and reference purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment. NEVER disregard professional medical advice or delay seeking it because of something you have read in this app. ALWAYS CALL EMERGENCY SERVICES (911/112/999) IN A MEDICAL EMERGENCY.")
                         
-                        Text("Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. **Never disregard professional medical advice or delay in seeking it because of something you have read in this application.**")
+                        Text("2. COMPLETE WAIVER OF LIABILITY")
+                            .font(.headline)
+                            .foregroundStyle(.red)
+                        Text("By using this app, you AUTOMATICALLY AND COMPLETELY WAIVE ANY AND ALL RIGHTS TO HOLD THE DEVELOPERS, CREATORS, OR CONTRIBUTORS LIABLE for any injury, loss, property damage, or death resulting from the use or misuse of the information provided herein. YOU USE THIS APP ENTIRELY AT YOUR OWN RISK.")
                         
-                        Text("Reliance on any information provided by this application is solely at your own risk. The developers of Revive assume no liability for injury or damage resulting from the use of this information.")
+                        Text("3. ASSUMPTION OF RISK & NO WARRANTY")
+                            .font(.headline)
+                        Text("Survival and medical emergencies are inherently dangerous. The developers make NO WARRANTIES, express or implied, regarding the accuracy, completeness, or effectiveness of the information provided. The app is provided 'AS IS'.")
                         
-                        Text("IN A MEDICAL EMERGENCY, CALL YOUR LOCAL EMERGENCY SERVICES IMMEDIATELY.")
-                            .fontWeight(.bold)
-                            .foregroundColor(.red)
+                        Text("4. OFFLINE USE & PRIVACY")
+                            .font(.headline)
+                        Text("This app is designed to function offline. Location services are processed entirely on-device for the Compass/GPS tools. Revive does not collect, transmit, or store personal data.")
                     }
                     .font(.body)
                     .foregroundColor(.primary)

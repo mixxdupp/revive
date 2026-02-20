@@ -9,29 +9,31 @@ struct SurvivalChartsView: View {
     
     var body: some View {
         ZStack {
-            DesignSystem.backgroundPrimary.edgesIgnoringSafeArea(.all)
+            DesignSystem.backgroundPrimary
+                .ignoresSafeArea()
             
             VStack(spacing: 0) {
                 // Header
                 HStack {
                     Button(action: { dismiss() }) {
-                        HStack(spacing: 4) {
+                        HStack(spacing: 6) {
                             Image(systemName: "chevron.left")
+                                .font(.body.weight(.semibold))
                             Text("Back")
+                                .font(.headline)
                         }
-                        .font(Typography.button)
-                        .foregroundColor(DesignSystem.textSecondary)
+                        .foregroundStyle(Color.blue)
                     }
                     Spacer()
                     Text("Survival Stats")
-                        .font(.system(size: 20, weight: .semibold, design: .serif))
+                        .font(.headline)
                         .foregroundStyle(DesignSystem.textPrimary)
                     Spacer()
                     // Balance the back button
                     Color.clear.frame(width: 60)
                 }
-                .padding(.horizontal, 20)
-                .padding(.top, 20)
+                .padding(.horizontal, 24)
+                .padding(.top, 16)
                 .padding(.bottom, 20)
                 
                 // Picker
@@ -53,6 +55,8 @@ struct SurvivalChartsView: View {
                             .transition(.opacity.combined(with: .move(edge: .trailing)))
                     }
                 }
+                
+                Spacer(minLength: 0)
             }
         }
         .navigationBarHidden(true)

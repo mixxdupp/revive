@@ -44,7 +44,6 @@ let package = Package(
             name: "AppModule",
             path: "Sources",
             resources: [
-                .process("Resources/Assets.xcassets"),
                 .process("Resources/fire.json"),
                 .process("Resources/shelter.json"),
                 .process("Resources/water.json"),

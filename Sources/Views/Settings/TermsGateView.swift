@@ -39,21 +39,23 @@ struct TermsGateView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 16) {
                         Group {
-                            Text("1. NO MEDICAL ADVICE")
+                            Text("1. NO MEDICAL ADVICE (INFORMATIONAL ONLY)")
                                 .font(.headline)
-                            Text("The content of this app is for educational and informational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always call your local emergency services in a medical emergency.")
+                                .foregroundStyle(.red)
+                            Text("The content of this app is for educational and reference purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment. NEVER disregard professional medical advice or delay seeking it because of something you have read in this app. ALWAYS CALL EMERGENCY SERVICES (911/112/999) IN A MEDICAL EMERGENCY.")
                             
-                            Text("2. LIABILITY WAIVER")
+                            Text("2. COMPLETE WAIVER OF LIABILITY")
                                 .font(.headline)
-                            Text("By using this app, you agree that the developers and contributors of Revive are not liable for any injury, loss, or damage resulting from the use or misuse of the information provided herein. You use this app entirely at your own risk.")
+                                .foregroundStyle(.red)
+                            Text("By clicking 'I Agree' and using this app, you AUTOMATICALLY AND COMPLETELY WAIVE ANY AND ALL RIGHTS TO HOLD THE DEVELOPERS, CREATORS, OR CONTRIBUTORS LIABLE for any injury, loss, property damage, or death resulting from the use or misuse of the information provided herein. YOU USE THIS APP ENTIRELY AT YOUR OWN RISK.")
                             
-                            Text("3. OFFLINE USE")
+                            Text("3. ASSUMPTION OF RISK & NO WARRANTY")
                                 .font(.headline)
-                            Text("This app is designed to function offline. However, location services and other hardware features may be limited by your device's battery and sensor availability.")
+                            Text("Survival and medical emergencies are inherently dangerous. The developers make NO WARRANTIES, express or implied, regarding the accuracy, completeness, or effectiveness of the information provided. The app is provided 'AS IS'.")
                             
-                            Text("4. PRIVACY POLICY")
+                            Text("4. OFFLINE USE & PRIVACY")
                                 .font(.headline)
-                            Text("Revive does not collect, store, or transmit any personal data. All location data stays on your device and is used solely for the Compass and GPS features.")
+                            Text("This app is designed to function offline. Location services are processed entirely on-device for the Compass/GPS tools. Revive does not collect, transmit, or store personal data.")
                         }
                         .font(.system(size: 15))
                         .foregroundStyle(DesignSystem.textPrimary)

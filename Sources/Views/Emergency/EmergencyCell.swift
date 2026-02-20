@@ -4,9 +4,9 @@ struct EmergencyCell: View {
     let situation: EmergencySituation
     
     var body: some View {
-        ZStack(alignment: .bottomLeading) {
-            // MARK: - 1. Glassmorphic Background with Gradient
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
+        ZStack(alignment: .topLeading) {
+            // MARK: - 1. Glassmorphic Background with Gradient Tint
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .fill(.ultraThinMaterial)
                 .overlay(
                     LinearGradient(
@@ -20,22 +20,22 @@ struct EmergencyCell: View {
                 )
             
             // MARK: - 2. Content
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 0) {
                 // Icon Header
                 HStack(alignment: .top) {
                     ZStack {
                         Circle()
-                            .fill(situation.color.opacity(0.1))
-                            .frame(width: 48, height: 48)
+                            .fill(situation.color.opacity(0.15))
+                            .frame(width: 44, height: 44)
                         
                         Image(systemName: situation.icon)
-                            .font(.system(size: 24, weight: .semibold))
+                            .font(.system(size: 20, weight: .semibold))
                             .foregroundStyle(situation.color)
                     }
                     
                     Spacer()
                     
-                    // Optional: Chevron or Indicator (Clean)
+                    // Subtle Navigation Chevron
                     Image(systemName: "chevron.right")
                         .font(.system(size: 14, weight: .bold))
                         .foregroundStyle(situation.color.opacity(0.4))
@@ -43,11 +43,11 @@ struct EmergencyCell: View {
                         .padding(.trailing, 4)
                 }
                 
-                Spacer()
+                Spacer(minLength: 0)
                 
                 // Title
                 Text(situation.displayName)
-                    .font(.system(size: 20, weight: .bold))
+                    .font(.system(size: 18, weight: .bold, design: .default))
                     .foregroundStyle(DesignSystem.textPrimary)
                     .lineLimit(2)
                     .minimumScaleFactor(0.85)
@@ -55,14 +55,14 @@ struct EmergencyCell: View {
             }
             .padding(16)
         }
-        .frame(minHeight: 160)
-        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .frame(height: 160) // Increased for better breathing room
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .overlay(
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .strokeBorder(situation.color.opacity(0.2), lineWidth: 1)
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .strokeBorder(Color.white.opacity(0.1), lineWidth: 0.5)
         )
         // Soft Shadow for Depth
-        .shadow(color: Color.black.opacity(0.05), radius: 10, x: 0, y: 4)
+        .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 5)
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
     }

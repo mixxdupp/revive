@@ -1,40 +1,51 @@
 import SwiftUI
 
 struct ToolsMenuView: View {
+    @State private var isAnimating = false
+
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             // MARK: - Ambient Background
             DesignSystem.backgroundPrimary
                 .ignoresSafeArea()
             
-            // Subtle Mesh Gradient Simulation
+            // Subtle Animated Mesh Gradient Simulation
             GeometryReader { proxy in
                 ZStack {
                     Circle()
-                        .fill(Color.purple.opacity(0.1))
-                        .frame(width: 300, height: 300)
+                        .fill(Color.purple.opacity(0.12))
+                        .frame(width: 350, height: 350)
                         .blur(radius: 60)
-                        .offset(x: -100, y: -100)
+                        .offset(x: isAnimating ? -50 : -150, y: isAnimating ? -50 : -150)
                     
                     Circle()
-                        .fill(Color.indigo.opacity(0.1))
+                        .fill(Color.indigo.opacity(0.12))
                         .frame(width: 300, height: 300)
                         .blur(radius: 60)
-                        .offset(x: 200, y: 100)
+                        .offset(x: isAnimating ? 150 : 250, y: isAnimating ? 50 : 150)
+
+                    Circle()
+                        .fill(Color.blue.opacity(0.08))
+                        .frame(width: 400, height: 400)
+                        .blur(radius: 80)
+                        .offset(x: isAnimating ? -100 : 100, y: isAnimating ? 300 : 400)
                 }
                 .frame(width: proxy.size.width, height: proxy.size.height)
+                .onAppear {
+                    withAnimation(.easeInOut(duration: 8.0).repeatForever(autoreverses: true)) {
+                        isAnimating = true
+                    }
+                }
             }
             .ignoresSafeArea()
             
             ScrollView {
-                VStack(alignment: .leading, spacing: 32) {
-
-
+                VStack(alignment: .leading, spacing: 24) {
 
                     // MARK: - Header
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Tools", comment: "Section Title")
-                            .font(.system(size: 42, weight: .black))
+                            .font(.system(size: 42, weight: .bold))
                             .foregroundStyle(DesignSystem.textPrimary)
                             .tracking(-0.5)
                         
@@ -43,6 +54,7 @@ struct ToolsMenuView: View {
                             .foregroundStyle(DesignSystem.textSecondary)
                     }
                     .padding(.horizontal, 24)
+                    .padding(.top, 16)
 
                     // MARK: - Tool Cards
                     VStack(spacing: 16) {
@@ -63,16 +75,6 @@ struct ToolsMenuView: View {
                                 title: "SOS Flashlight",
                                 subtitle: "Morse code SOS via camera flash",
                                 color: .orange
-                            )
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-
-                        NavigationLink(destination: EmergencyDirectoryView()) {
-                            GlassToolCard(
-                                icon: "phone.circle.fill",
-                                title: "Emergency Directory",
-                                subtitle: "Global ambulance/police numbers",
-                                color: .green
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
@@ -149,6 +151,16 @@ struct ToolsMenuView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
 
+                        NavigationLink(destination: EmergencyDirectoryView()) {
+                            GlassToolCard(
+                                icon: "phone.circle.fill",
+                                title: "Emergency Directory",
+                                subtitle: "Global ambulance/police numbers",
+                                color: .green
+                            )
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
                     }
                     .padding(.horizontal, 24)
                     .padding(.bottom, 40)
@@ -169,46 +181,35 @@ struct GlassToolCard: View {
 
     var body: some View {
         ZStack(alignment: .leading) {
-            // Glass Background
-            RoundedRectangle(cornerRadius: 24, style: .continuous)
+            // Glass Background - Clean, uncolored ultraThinMaterial
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .fill(.ultraThinMaterial)
                 .overlay(
-                    LinearGradient(
-                        colors: [
-                            color.opacity(0.15),
-                            color.opacity(0.05)
-                        ],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
+                    RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .strokeBorder(Color.white.opacity(0.1), lineWidth: 0.5)
                 )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 24, style: .continuous)
-                        .strokeBorder(color.opacity(0.3), lineWidth: 1)
-                )
-                .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
 
             HStack(spacing: 16) {
                 // Icon Box
                 ZStack {
                     Circle()
-                        .fill(color.opacity(0.15))
-                        .frame(width: 56, height: 56)
+                        .fill(color.opacity(0.12))
+                        .frame(width: 44, height: 44)
                     
                     Image(systemName: icon)
-                        .font(.system(size: 26))
+                        .font(.system(size: 20, weight: .semibold))
                         .foregroundStyle(color)
                 }
 
-                VStack(alignment: .leading, spacing: 4) {
+                VStack(alignment: .leading, spacing: 2) {
                     Text(title)
-                        .font(.system(size: 20, weight: .bold))
+                        .font(.system(size: 17, weight: .semibold, design: .default))
                         .foregroundStyle(DesignSystem.textPrimary)
-                        .minimumScaleFactor(0.8)
+                        .minimumScaleFactor(0.85)
                     
                     Text(subtitle)
-                        .font(.subheadline)
-                        .foregroundStyle(DesignSystem.textSecondary)
+                        .font(.system(size: 13, weight: .medium))
+                        .foregroundStyle(DesignSystem.textSecondary.opacity(0.8))
                         .lineLimit(1)
                         .minimumScaleFactor(0.9)
                 }
@@ -216,14 +217,14 @@ struct GlassToolCard: View {
                 Spacer()
 
                 Image(systemName: "chevron.right")
-                    .font(.system(size: 14, weight: .bold))
-                    .foregroundStyle(DesignSystem.textSecondary.opacity(0.5))
+                    .font(.system(size: 14, weight: .semibold))
+                    .foregroundStyle(DesignSystem.textSecondary.opacity(0.4))
             }
-            .padding(20)
+            .padding(16)
         }
-        .frame(minHeight: 96)
-        .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
-        .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .frame(minHeight: 80)
+        .contentShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 5)
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
     }

@@ -1341,7 +1341,7 @@ class ContentDatabase: ObservableObject {
                     // Vehicle Accident
                     TriageOption(id: "trapped-vehicle", label: "Vehicle Accident / Crash", icon: "car.fill", destination: .nextQuestion(
                         TriageNode(id: "trapped-vehicle-q", question: "Immediate danger?", options: [
-                            TriageOption(id: "veh-fire", label: "Fire / Smoke", icon: "flame", destination: .technique("fire-article-safety")),
+                            TriageOption(id: "veh-fire", label: "Fire / Smoke", icon: "flame", destination: .article("fire-article-safety")),
                             TriageOption(id: "veh-leak", label: "Fuel Leak / Smell Gas", icon: "drop.triangle.fill", destination: .technique("env-urban-disaster")),
                             TriageOption(id: "veh-pinned", label: "Pinned Inside", icon: "rectangle.compress.vertical", destination: .technique("rescue-vehicle-signal")),
                             TriageOption(id: "veh-safe-loc", label: "Safe Location (Wait)", icon: "checkmark.circle", destination: .techniqueList(["shelter-vehicle", "rescue-vehicle-signal"]))
@@ -1655,14 +1655,14 @@ class ContentDatabase: ObservableObject {
                     TriageOption(id: "unrest-home", label: "Sheltering at Home", icon: "house.fill", destination: .techniqueList(["env-door-barricade", "env-urban-disaster"])),
                     TriageOption(id: "unrest-move", label: "Need to Move / Evade", icon: "figure.walk", destination: .techniqueList(["env-urban-grayman", "env-anti-tracking", "env-vehicle-entry"])),
                     TriageOption(id: "unrest-detained", label: "Detained / Restrained", icon: "lock.fill", destination: .technique("env-ziptie-escape")),
-                    TriageOption(id: "unrest-crowd", label: "Caught in Crowd", icon: "exclamationmark.triangle.fill", destination: .technique("psych-article-panic")) // Fixed ID
+                    TriageOption(id: "unrest-crowd", label: "Caught in Crowd", icon: "exclamationmark.triangle.fill", destination: .article("psych-article-panic")) // Fixed ID
                 ])
             )),
 
             // --- CYBER / GRID DOWN ---
             TriageOption(id: "dis-cyber", label: "Solar Flare / Cyber Attack", icon: "bolt.slash.fill", destination: .nextQuestion(
                 TriageNode(id: "dis-cyber-q", question: "Main challenge?", options: [
-                    TriageOption(id: "cyber-comms", label: "No Communications", icon: "antenna.radiowaves.left.and.right.slash", destination: .techniqueList(["rescue-article-radio", "rescue-cd-mirror"])),
+                    TriageOption(id: "cyber-comms", label: "No Communications", icon: "antenna.radiowaves.left.and.right.slash", destination: .technique("rescue-cd-mirror")),
                     TriageOption(id: "cyber-power", label: "Power Outage Survival", icon: "bolt.slash.fill", destination: .technique("env-urban-disaster")),
                     TriageOption(id: "cyber-supply", label: "Supply Chain / Food", icon: "cart.fill", destination: .technique("food-rationing"))
                 ])
@@ -1775,7 +1775,7 @@ class ContentDatabase: ObservableObject {
                         TriageNode(id: "food-berry-know", question: "Do you recognize it?", options: [
                             TriageOption(id: "food-berry-yes", label: "Yes — 100% Sure", icon: "checkmark.seal.fill", destination: .technique("food-wild-fruit")),
                             TriageOption(id: "food-berry-no", label: "No / Unsure", icon: "questionmark.circle", destination: .technique("food-universal-edibility")),
-                            TriageOption(id: "food-poison-symp", label: "Poisoning Symptoms?", icon: "exclamationmark.triangle.fill", destination: .technique("food-article-plant-poisoning")) // Added orphan
+                            TriageOption(id: "food-poison-symp", label: "Poisoning Symptoms?", icon: "exclamationmark.triangle.fill", destination: .article("food-article-plant-poisoning")) // Added orphan
                         ])
                     )),
                     TriageOption(id: "food-mushrooms", label: "Mushrooms", icon: "umbrella.fill", destination: .nextQuestion(
@@ -2386,8 +2386,8 @@ class ContentDatabase: ObservableObject {
             // Learn More
             TriageOption(id: "heat-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "heat-learn-q", question: "Read about heat safety?", options: [
-                    TriageOption(id: "heat-art-illness", label: "Heat Illnesses", icon: "thermometer.sun.fill", destination: .article("firstaid-article-heat-illness")),
-                    TriageOption(id: "heat-art-water", label: "Water Needs", icon: "drop.fill", destination: .article("water-article-needs"))
+                    TriageOption(id: "heat-art-illness", label: "Heat Illnesses", icon: "thermometer.sun.fill", destination: .article("firstaid-article-environmental")),
+                    TriageOption(id: "heat-art-water", label: "Water Needs", icon: "drop.fill", destination: .article("water-article-rationing"))
                 ])
             ))
         ])
@@ -2418,7 +2418,7 @@ class ContentDatabase: ObservableObject {
             TriageOption(id: "human-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "human-learn-q", question: "Security topics?", options: [
                     TriageOption(id: "human-art-psych", label: "Survival Psychology", icon: "brain.head.profile", destination: .article("psych-article-mindset")),
-                    TriageOption(id: "human-art-sit", label: "Situational Awareness", icon: "eye.fill", destination: .article("psych-article-awareness"))
+                    TriageOption(id: "human-art-sit", label: "Situational Awareness", icon: "eye.fill", destination: .article("psych-article-mindset"))
                 ])
             ))
         ])
@@ -2448,8 +2448,8 @@ class ContentDatabase: ObservableObject {
             // Learn More
             TriageOption(id: "veh-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "veh-learn-q", question: "Vehicle safety topics?", options: [
-                    TriageOption(id: "veh-art-kit", label: "Vehicle Kits", icon: "case.fill", destination: .article("tools-article-vehicle-kit")), // Placeholder
-                    TriageOption(id: "veh-art-signal", label: "Signaling", icon: "antenna.radiowaves.left.and.right", destination: .article("rescue-article-visual"))
+                    TriageOption(id: "veh-art-kit", label: "Vehicle Kits", icon: "case.fill", destination: .article("tools-article-camp")), // Placeholder
+                    TriageOption(id: "veh-art-signal", label: "Signaling", icon: "antenna.radiowaves.left.and.right", destination: .article("rescue-article-signaling"))
                 ])
             ))
         ])
@@ -2477,8 +2477,8 @@ class ContentDatabase: ObservableObject {
             // Learn More
             TriageOption(id: "chem-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "chem-learn-q", question: "Hazmat safety topics?", options: [
-                    TriageOption(id: "chem-art-decon", label: "Decontamination", icon: "shower.fill", destination: .article("firstaid-article-decon")), // Placeholder
-                    TriageOption(id: "chem-art-shelter", label: "Sheltering in Place", icon: "house.fill", destination: .article("shelter-article-home")) // Placeholder
+                    TriageOption(id: "chem-art-decon", label: "Decontamination", icon: "shower.fill", destination: .article("firstaid-article-environmental")), // Placeholder
+                    TriageOption(id: "chem-art-shelter", label: "Sheltering in Place", icon: "house.fill", destination: .article("shelter-article-urban")) // Placeholder
                 ])
             ))
         ])

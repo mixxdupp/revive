@@ -27,10 +27,11 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     
                     // MARK: - Header (SF Pro Display)
-                    VStack(alignment: .leading, spacing: 4) {
+                    VStack(alignment: .leading, spacing: 6) {
                         Text(dateString)
-                            .font(.footnote.weight(.semibold))
+                            .font(.system(size: 14, weight: .bold))
                             .foregroundStyle(.secondary)
+                            .tracking(1.0)
                             .textCase(.uppercase)
                         
                         Text("Revive", comment: "App Name")
@@ -51,12 +52,13 @@ struct HomeView: View {
                         HStack(alignment: .top) {
                             VStack(alignment: .leading, spacing: 8) {
                                 Text("Emergency \nGuide", comment: "Hero Card Title")
-                                    .font(.title2.weight(.bold))
+                                    .font(.system(size: 32, weight: .bold))
                                     .foregroundStyle(.white)
                                     .multilineTextAlignment(.leading)
+                                    .tracking(-0.5)
                                 
                                 Text("Start Triage & First Aid", comment: "Hero Card Subtitle")
-                                    .font(.subheadline.weight(.medium))
+                                    .font(.system(size: 16, weight: .semibold))
                                     .foregroundStyle(.white.opacity(0.85))
                             }
                             Spacer()
@@ -206,12 +208,12 @@ struct FeatureCard: View {
             
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)
-                    .font(.headline.weight(.semibold))
+                    .font(.system(size: 18, weight: .semibold))
                     .foregroundStyle(.primary)
                     .minimumScaleFactor(0.8)
                 
                 Text(subtitle)
-                    .font(.caption)
+                    .font(.system(size: 14, weight: .medium))
                     .foregroundStyle(.secondary)
                     .minimumScaleFactor(0.8)
             }

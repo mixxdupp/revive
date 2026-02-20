@@ -52,7 +52,7 @@ struct EmergencyMenuView: View {
                     if searchText.isEmpty {
                         VStack(alignment: .leading, spacing: 6) {
                             Text("Emergency", comment: "Section Title")
-                                .font(.system(size: 42, weight: .black)) // Match Revive Brand
+                                .font(.system(size: 42, weight: .bold)) // Match Revive Brand
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .tracking(-0.5) // Tight tracking for impact
                             

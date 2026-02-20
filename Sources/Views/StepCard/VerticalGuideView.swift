@@ -21,11 +21,7 @@ struct VerticalGuideView: View {
                         // MARK: - Header
                         headerView
                         
-                        if technique.isCritical {
-                            EmergencyWarningBanner()
-                                .padding(.horizontal, 20)
-                        }
-                        
+
                         // MARK: - Steps List
                         VStack(spacing: 16) {
                             ForEach(0..<technique.steps.count, id: \.self) { index in
@@ -77,6 +73,35 @@ struct VerticalGuideView: View {
                         }
                         .padding(.horizontal, 20)
                         .padding(.top, 8)
+                        
+
+                        // MARK: - Special Tool Redirects
+                        if technique.id == "rescue-morse-code" {
+                            NavigationLink(destination: SOSFlashlightView()) {
+                                HStack {
+                                    Image(systemName: "flashlight.on.fill")
+                                        .font(.title2)
+                                    VStack(alignment: .leading) {
+                                        Text("Open SOS Flashlight Tool")
+                                            .font(.headline)
+                                        Text("Use your phone's camera flash to send SOS automatically.")
+                                            .font(.caption)
+                                    }
+                                    Spacer()
+                                    Image(systemName: "chevron.right")
+                                }
+                                .padding()
+                                .background(Color.orange.opacity(0.15))
+                                .foregroundStyle(.orange)
+                                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                        .stroke(Color.orange.opacity(0.3), lineWidth: 1)
+                                )
+                                .padding(.horizontal, 20)
+                                .padding(.top, 16)
+                            }
+                        }
                         
                         // MARK: - Related Techniques
                         if let relatedIds = technique.relatedIds, !relatedIds.isEmpty {

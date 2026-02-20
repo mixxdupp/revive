@@ -71,7 +71,7 @@ struct EmergencyDirectoryView: View {
                         
                         VStack(alignment: .leading, spacing: 6) {
                             Text("Directory")
-                                .font(.system(size: 42, weight: .black))
+                                .font(.system(size: 42, weight: .bold))
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .tracking(-0.5)
                             
@@ -79,6 +79,25 @@ struct EmergencyDirectoryView: View {
                                 .font(.system(size: 20, weight: .medium))
                                 .foregroundStyle(DesignSystem.textSecondary)
                         }
+                        
+                        // MARK: - Search Bar
+                        HStack {
+                            Image(systemName: "magnifyingglass")
+                                .foregroundStyle(DesignSystem.textSecondary)
+                            TextField("Search country (e.g. Japan)", text: $searchText)
+                                .font(.body)
+                                .foregroundStyle(DesignSystem.textPrimary)
+                                .submitLabel(.search)
+                        }
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 14)
+                        .background(.ultraThinMaterial)
+                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                .stroke(Color.white.opacity(0.15), lineWidth: 0.5)
+                        )
+                        .padding(.top, 8)
                     }
                     .padding(.horizontal, 24)
                     
@@ -166,10 +185,10 @@ struct GlassCountryRow: View {
         }
         .padding(16)
         .background(.ultraThinMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .overlay(
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .strokeBorder(Color.white.opacity(0.1), lineWidth: 0.5)
         )
     }
 }
