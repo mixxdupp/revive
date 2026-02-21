@@ -28,71 +28,77 @@ struct TermsGateView: View {
                     .padding(.bottom, 20)
                 } else {
                     // Simpler header for onboarding
-                    Text("Final Step: Safety")
-                         .font(.system(size: 32, weight: .bold))
-                         .foregroundStyle(DesignSystem.textPrimary)
-                         .padding(.top, 60)
-                         .padding(.bottom, 20)
+                    VStack(alignment: .center, spacing: 12) {
+                        Image(systemName: "shield.fill")
+                            .font(.system(size: 44))
+                            .foregroundStyle(.blue.gradient)
+                        
+                        Text("Terms & Conditions")
+                             .font(.system(size: 34, weight: .bold))
+                             .foregroundStyle(DesignSystem.textPrimary)
+                             .multilineTextAlignment(.center)
+                    }
+                    .padding(.top, 60)
+                    .padding(.bottom, 24)
                 }
                 
                 // Scrollable Legalese
                 ScrollView {
-                    VStack(alignment: .leading, spacing: 16) {
+                    VStack(alignment: .leading, spacing: 24) {
                         Group {
-                            Text("1. NO MEDICAL ADVICE (INFORMATIONAL ONLY)")
-                                .font(.headline)
-                                .foregroundStyle(.red)
-                            Text("The content of this app is for educational and reference purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment. NEVER disregard professional medical advice or delay seeking it because of something you have read in this app. ALWAYS CALL EMERGENCY SERVICES (911/112/999) IN A MEDICAL EMERGENCY.")
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text("1. No Medical Advice")
+                                    .font(.headline)
+                                    .foregroundStyle(DesignSystem.textPrimary)
+                                Text("The content of this app is for educational and reference purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always call emergency services (911) in a medical emergency.")
+                            }
                             
-                            Text("2. COMPLETE WAIVER OF LIABILITY")
-                                .font(.headline)
-                                .foregroundStyle(.red)
-                            Text("By clicking 'I Agree' and using this app, you AUTOMATICALLY AND COMPLETELY WAIVE ANY AND ALL RIGHTS TO HOLD THE DEVELOPERS, CREATORS, OR CONTRIBUTORS LIABLE for any injury, loss, property damage, or death resulting from the use or misuse of the information provided herein. YOU USE THIS APP ENTIRELY AT YOUR OWN RISK.")
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text("2. Waiver of Liability")
+                                    .font(.headline)
+                                    .foregroundStyle(DesignSystem.textPrimary)
+                                Text("By selecting 'Agree', you completely waive all rights to hold the developers or contributors liable for any injury, loss, property damage, or death resulting from the use or misuse of the information provided herein. You use this app entirely at your own risk.")
+                            }
                             
-                            Text("3. ASSUMPTION OF RISK & NO WARRANTY")
-                                .font(.headline)
-                            Text("Survival and medical emergencies are inherently dangerous. The developers make NO WARRANTIES, express or implied, regarding the accuracy, completeness, or effectiveness of the information provided. The app is provided 'AS IS'.")
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text("3. Assumption of Risk")
+                                    .font(.headline)
+                                    .foregroundStyle(DesignSystem.textPrimary)
+                                Text("Survival and medical emergencies are inherently dangerous. The developers make no warranties, express or implied, regarding the accuracy or completeness of the information provided. The app is provided 'as is'.")
+                            }
                             
-                            Text("4. OFFLINE USE & PRIVACY")
-                                .font(.headline)
-                            Text("This app is designed to function offline. Location services are processed entirely on-device for the Compass/GPS tools. Revive does not collect, transmit, or store personal data.")
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text("4. Offline Use & Privacy")
+                                    .font(.headline)
+                                    .foregroundStyle(DesignSystem.textPrimary)
+                                Text("This app is designed to function entirely offline. Location services are processed strictly on-device for the mapping tools. Revive does not collect, transmit, or store personal data.")
+                            }
                         }
                         .font(.system(size: 15))
-                        .foregroundStyle(DesignSystem.textPrimary)
+                        .foregroundStyle(DesignSystem.textSecondary)
+                        .lineSpacing(4)
                         
-                        Text("LAST UPDATED: FEB 2026")
+                        Text("Last Updated: Feb 2026")
                             .font(.caption)
-                            .foregroundStyle(.secondary)
-                            .padding(.top, 20)
+                            .foregroundStyle(Color.gray.opacity(0.6))
+                            .padding(.top, 16)
                     }
                     .padding(24)
                 }
-                .background(Color(uiColor: .systemBackground))
+                .background(Color(uiColor: .systemGray6).opacity(0.1))
                 .cornerRadius(16)
-                .padding(.horizontal, 20)
-                .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
+                .padding(.horizontal, 24)
+                // Removed aggressive shadow for cleaner iOS look
                 
-                // Sticky Footer Actions
-                VStack(spacing: 16) {
-                    Text("Do you agree to these terms?")
-                        .font(.headline)
+                // Sticky Footer Actions (Native Apple Style)
+                VStack(spacing: 24) {
+                    Text("By selecting 'Agree', you accept the Terms & Conditions and acknowledge this app does not provide professional medical advice.")
+                        .font(.caption)
+                        .foregroundStyle(Color.gray)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 16)
                     
-                    HStack(spacing: 16) {
-                        // DISAGREE -> KILL APP
-                        Button(action: {
-                            print("User disagreed. Terminating app.")
-                            exit(0)
-                        }) {
-                            Text("Disagree")
-                                .font(.headline)
-                                .foregroundColor(.red)
-                                .frame(maxWidth: .infinity)
-                                .padding()
-                                .background(Color.red.opacity(0.1))
-                                .cornerRadius(12)
-                        }
-                        .accessibilityLabel("Disagree, terminates app")
-                        
+                    VStack(spacing: 12) {
                         // AGREE -> ENTER APP
                         Button(action: {
                             HapticsService.shared.playNotification(type: .success)
@@ -100,18 +106,33 @@ struct TermsGateView: View {
                                 settings.hasAcceptedLiability = true
                             }
                         }) {
-                            Text("I Agree")
-                                .font(.headline)
+                            Text("Agree")
+                                .font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.black)
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 16)
+                                .background(Color.white)
+                                .clipShape(Capsule())
+                        }
+                        .accessibilityLabel("Agree to terms")
+                        
+                        // DISAGREE -> KILL APP
+                        Button(action: {
+                            print("User disagreed. Terminating app.")
+                            exit(0)
+                        }) {
+                            Text("Disagree")
+                                .font(.system(size: 17, weight: .regular))
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity)
-                                .padding()
-                                .background(Color.green)
-                                .cornerRadius(12)
-                                .shadow(color: Color.green.opacity(0.3), radius: 5, x: 0, y: 2)
+                                .padding(.vertical, 16)
                         }
+                        .accessibilityLabel("Disagree, terminates app")
                     }
                 }
-                .padding(24)
+                .padding(.horizontal, 32)
+                .padding(.bottom, 40)
+                .padding(.top, 24)
                 .background(DesignSystem.backgroundPrimary)
             }
         }

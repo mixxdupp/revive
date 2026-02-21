@@ -105,8 +105,8 @@ struct HomeView: View {
                         .opacity(showContent ? 1 : 0)
                         .animation(reduceMotion ? nil : .easeOut(duration: 0.5).delay(0.1), value: showContent)
                         
-                        NavigationLink(destination: QuickActionsView()) {
-                            FeatureCard(title: "Actions", subtitle: "Shortcuts", icon: "bolt.heart.fill", iconColor: .green)
+                        NavigationLink(destination: KitBuilderView()) {
+                            FeatureCard(title: "Readiness", subtitle: "Gear Tracker", icon: "cross.case.fill", iconColor: .green)
                         }
                         .buttonStyle(ScalableButtonStyle())
                         .offset(y: showContent ? 0 : 20)

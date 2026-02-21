@@ -64,6 +64,8 @@ struct EmergencyCell: View {
         // Soft Shadow for Depth
         .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 5)
         .accessibilityElement(children: .combine)
+        .accessibilityLabel(situation.displayName)
+        .accessibilityHint("Opens triage guide for \(situation.displayName)")
         .accessibilityAddTraits(.isButton)
     }
 }

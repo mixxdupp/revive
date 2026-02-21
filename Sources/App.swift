@@ -1,5 +1,7 @@
 import SwiftUI
 import AppIntents
+import SwiftData
+import UIKit
 
 @main
 struct ReviveApp: App {
@@ -25,6 +27,7 @@ struct ReviveApp: App {
                     }
                 }
             }
+            .modelContainer(for: KitItem.self)
         }
     }
 }
