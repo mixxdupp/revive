@@ -117,7 +117,7 @@ struct CompassView: View {
                 // Readout
                 VStack(spacing: 4) {
                     Text("\(Int(locationManager.trueNorth))°")
-                        .font(.system(size: 64, weight: .light, design: .monospaced))
+                        .font(.system(size: 64, weight: .light).monospacedDigit())
                         .foregroundStyle(DesignSystem.textPrimary)
                     
                     Text(cardinalFromHeading(locationManager.trueNorth))
@@ -131,7 +131,7 @@ struct CompassView: View {
                                 .foregroundStyle(Color.green)
                             
                             Text(formatDistance(distance))
-                                .font(.system(size: 24, weight: .bold, design: .monospaced))
+                                .font(.system(size: 24, weight: .bold).monospacedDigit())
                                 .foregroundStyle(Color.green)
                         }
                         .padding(.top, 16)

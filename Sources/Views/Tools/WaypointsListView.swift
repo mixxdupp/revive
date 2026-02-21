@@ -15,7 +15,6 @@ struct WaypointsListView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                DesignSystem.backgroundPrimary.ignoresSafeArea()
                 
                 if waypointsService.waypoints.isEmpty {
                     VStack(spacing: 20) {
@@ -65,7 +64,7 @@ struct WaypointsListView: View {
                                     
                                     VStack(alignment: .trailing, spacing: 2) {
                                         Text(formatDistance(distance))
-                                            .font(.system(size: 14, weight: .bold, design: .monospaced))
+                                            .font(.system(size: 14, weight: .bold).monospacedDigit())
                                             .foregroundStyle(DesignSystem.textPrimary)
                                         
                                         HStack(spacing: 2) {
@@ -91,7 +90,6 @@ struct WaypointsListView: View {
                                 .buttonStyle(PlainButtonStyle())
                             }
                             .padding(.vertical, 4)
-                            .listRowBackground(Color.clear)
                         }
                         .onDelete { indexSet in
                             indexSet.forEach { index in
@@ -103,7 +101,7 @@ struct WaypointsListView: View {
                             }
                         }
                     }
-                    .listStyle(.plain)
+                    .listStyle(.insetGrouped)
                 }
             }
             .navigationTitle("Waypoints")

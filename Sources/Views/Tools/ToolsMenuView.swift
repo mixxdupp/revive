@@ -131,15 +131,7 @@ struct ToolsMenuView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
 
-                        NavigationLink(destination: SurvivalChartsView()) {
-                            GlassToolCard(
-                                icon: "chart.xyaxis.line",
-                                title: "Survival Stats",
-                                subtitle: "Hypothermia & Water Data",
-                                color: .pink
-                            )
-                        }
-                        .buttonStyle(ScalableButtonStyle())
+
 
                         NavigationLink(destination: GlossaryView()) {
                             GlassToolCard(
