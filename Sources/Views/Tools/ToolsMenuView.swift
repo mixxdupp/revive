@@ -42,19 +42,11 @@ struct ToolsMenuView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
 
-                    // MARK: - Header
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text("Tools", comment: "Section Title")
-                            .font(.system(size: 42, weight: .bold))
-                            .foregroundStyle(DesignSystem.textPrimary)
-                            .tracking(-0.5)
-                        
-                        Text("Offline Survival Utilities", comment: "Section Subtitle")
-                            .font(.system(size: 20, weight: .medium))
-                            .foregroundStyle(DesignSystem.textSecondary)
-                    }
-                    .padding(.horizontal, 24)
-                    .padding(.top, 16)
+                    // MARK: - Subtitle
+                    Text("Offline Survival Utilities", comment: "Section Subtitle")
+                        .font(.system(size: 20, weight: .medium))
+                        .foregroundStyle(DesignSystem.textSecondary)
+                        .padding(.horizontal, 16)
 
                     // MARK: - Tool Cards
                     VStack(spacing: 16) {
@@ -154,13 +146,13 @@ struct ToolsMenuView: View {
                         .buttonStyle(ScalableButtonStyle())
 
                     }
-                    .padding(.horizontal, 24)
+                    .padding(.horizontal, 16)
                     .padding(.bottom, 40)
                 }
             }
         }
-        .navigationTitle("")
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Tools")
+        .navigationBarTitleDisplayMode(.large)
     }
 }
 

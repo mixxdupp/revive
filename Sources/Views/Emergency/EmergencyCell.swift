@@ -21,26 +21,15 @@ struct EmergencyCell: View {
             
             // MARK: - 2. Content
             VStack(alignment: .leading, spacing: 0) {
-                // Icon Header
-                HStack(alignment: .top) {
-                    ZStack {
-                        Circle()
-                            .fill(situation.color.opacity(0.15))
-                            .frame(width: 44, height: 44)
-                        
-                        Image(systemName: situation.icon)
-                            .font(.system(size: 20, weight: .semibold))
-                            .foregroundStyle(situation.color)
-                    }
+                // Icon
+                ZStack {
+                    Circle()
+                        .fill(situation.color.opacity(0.15))
+                        .frame(width: 44, height: 44)
                     
-                    Spacer()
-                    
-                    // Subtle Navigation Chevron
-                    Image(systemName: "chevron.right")
-                        .font(.system(size: 14, weight: .bold))
-                        .foregroundStyle(situation.color.opacity(0.4))
-                        .padding(.top, 8)
-                        .padding(.trailing, 4)
+                    Image(systemName: situation.icon)
+                        .font(.system(size: 20, weight: .semibold))
+                        .foregroundStyle(situation.color)
                 }
                 
                 Spacer(minLength: 0)
@@ -55,7 +44,7 @@ struct EmergencyCell: View {
             }
             .padding(16)
         }
-        .frame(height: 160) // Increased for better breathing room
+        .frame(height: 160)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 20, style: .continuous)

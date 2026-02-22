@@ -62,7 +62,7 @@ struct EmergencyDirectoryView: View {
                     Text("Global Emergency Numbers")
                         .font(.system(size: 20, weight: .medium))
                         .foregroundStyle(DesignSystem.textSecondary)
-                        .padding(.horizontal, 24)
+                        .padding(.horizontal, 16)
                     
                     // MARK: - Search Bar
                     HStack(spacing: 8) {

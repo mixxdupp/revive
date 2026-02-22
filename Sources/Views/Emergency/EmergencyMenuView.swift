@@ -40,40 +40,61 @@ struct EmergencyMenuView: View {
             .ignoresSafeArea()
             
             ScrollView {
-                VStack(alignment: .leading, spacing: 32) {
+                VStack(alignment: .leading, spacing: 20) {
                     
-                    // MARK: - Banner
-                    // Removed as per user request (Home only)
+                    // MARK: - Subtitle (always visible, below native large title)
+                    Text("Fast response protocols", comment: "Section Subtitle")
+                        .font(.system(size: 20, weight: .medium))
+                        .foregroundStyle(DesignSystem.textSecondary)
+                        .padding(.horizontal, 16)
                     
-                    // MARK: - Header (Clean Apple)
-                    // Left-Aligned Large Title
-                    // MARK: - Header (Brand Style)
-                    // Left-Aligned Large Title
-                    if searchText.isEmpty {
-                        VStack(alignment: .leading, spacing: 6) {
-                            Text("Emergency", comment: "Section Title")
-                                .font(.system(size: 42, weight: .bold)) // Match Revive Brand
-                                .foregroundStyle(DesignSystem.textPrimary)
-                                .tracking(-0.5) // Tight tracking for impact
-                            
-                            Text("Fast response protocols", comment: "Section Subtitle")
-                                .font(.system(size: 20, weight: .medium)) // Match Subtitle Style
+                    // MARK: - Search Bar
+                    HStack(spacing: 8) {
+                        Image(systemName: "magnifyingglass")
+                            .foregroundStyle(DesignSystem.textSecondary)
+                        TextField("Search situations", text: $searchText)
+                            .font(.body)
+                            .foregroundStyle(DesignSystem.textPrimary)
+                            .submitLabel(.search)
+                        
+                        if !searchText.isEmpty {
+                            Button {
+                                searchText = ""
+                            } label: {
+                                Image(systemName: "xmark.circle.fill")
+                                    .foregroundStyle(DesignSystem.textSecondary)
+                            }
+                        }
+                    }
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 12)
+                    .background(Color(uiColor: .secondarySystemGroupedBackground))
+                    .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .padding(.horizontal, 24)
+                    
+                    // MARK: - SITUATIONS GRID
+                    if filteredSituations.isEmpty {
+                        VStack(spacing: 12) {
+                            Image(systemName: "magnifyingglass")
+                                .font(.system(size: 36))
+                                .foregroundStyle(DesignSystem.textSecondary)
+                            Text("No situations found")
+                                .font(.headline)
                                 .foregroundStyle(DesignSystem.textSecondary)
                         }
-                        .padding(.horizontal, 24)
-                        .padding(.top, 20)
-                    }
-                    
-                    // MARK: - SITUATIONS GRID (Shortcuts Style)
-                    LazyVGrid(columns: columns, spacing: 16) {
-                        ForEach(filteredSituations) { situation in
-                            NavigationLink(destination: destinationView(for: situation)) {
-                                EmergencyCell(situation: situation)
+                        .frame(maxWidth: .infinity)
+                        .padding(.top, 60)
+                    } else {
+                        LazyVGrid(columns: columns, spacing: 16) {
+                            ForEach(filteredSituations) { situation in
+                                NavigationLink(destination: destinationView(for: situation)) {
+                                    EmergencyCell(situation: situation)
+                                }
+                                .buttonStyle(ScalableButtonStyle())
                             }
-                            .buttonStyle(ScalableButtonStyle())
                         }
+                        .padding(.horizontal, 24)
                     }
-                    .padding(.horizontal, 24)
                     
                     // MARK: - Recently Viewed
                     if !RecentlyViewedService.shared.recentTechniques().isEmpty {
@@ -127,9 +148,8 @@ struct EmergencyMenuView: View {
                 }
             }
         }
-        .navigationTitle("")
-        .navigationBarTitleDisplayMode(.inline)
-        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: Text("Search situations", comment: "Search Placeholder"))
+        .navigationTitle("Emergency")
+        .navigationBarTitleDisplayMode(.large)
     }
     
 

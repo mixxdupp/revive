@@ -23,10 +23,9 @@ struct DomainDetailView: View {
             VStack(alignment: .leading, spacing: 24) {
                 
                 // MARK: - HERO HEADER (Clean List Style)
-                // New York Serif Large Title
                 VStack(alignment: .leading, spacing: 16) {
                     
-                    // Icon Container (Solid Color)
+                    // Icon Container (Flat, no glow)
                     ZStack {
                         Circle()
                             .fill(domain.color)
@@ -35,11 +34,10 @@ struct DomainDetailView: View {
                             .foregroundStyle(.white)
                     }
                     .frame(width: 64, height: 64)
-                    .shadow(color: domain.color.opacity(0.3), radius: 8, x: 0, y: 4)
                     
                     VStack(alignment: .leading, spacing: 4) {
                         Text(domain.displayName)
-                            .font(.system(size: 40, weight: .bold)) // New York
+                            .font(.system(size: 40, weight: .bold))
                             .foregroundStyle(DesignSystem.textPrimary)
                         
                         Text("Master essential skills for \(domain.displayName.lowercased()) scenarios.")
