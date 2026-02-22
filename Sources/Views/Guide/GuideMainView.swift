@@ -40,83 +40,84 @@ struct GuideMainView: View {
             }
             .ignoresSafeArea()
             
-            ScrollView {
-                VStack(alignment: .leading, spacing: 32) {
-                    
-                    // MARK: - Banner
-                    // Removed as per user request (Home only)
-                    
-                    // MARK: - Header (Brand Style)
-                    if searchText.isEmpty {
-                        VStack(alignment: .leading, spacing: 6) {
-                            Text("Library", comment: "Section Title")
-                                .font(.system(size: 42, weight: .bold))
-                                .foregroundStyle(DesignSystem.textPrimary)
-                                .tracking(-0.5)
-                            
-                            Text("Survival Guide", comment: "Section Subtitle")
-                                .font(.system(size: 20, weight: .medium))
-                                .foregroundStyle(DesignSystem.textSecondary)
-                            
-                            // 3-Way Segmented Control
-                            Picker("Mode", selection: $selectedMode) {
-                                Text("Browse", comment: "Library Mode").tag(0)
-                                Text("Inventory", comment: "Library Mode").tag(1)
-                                Text("Saved", comment: "Library Mode").tag(2)
-                            }
-                            .pickerStyle(.segmented)
-                            .padding(.vertical, 8)
-                        }
-                        .padding(.horizontal, 24)
-                        .padding(.top, 20)
+            VStack(spacing: 0) {
+                // MARK: - Pinned Segmented Control
+                // Only visible when not searching
+                if searchText.isEmpty {
+                    Picker("Mode", selection: $selectedMode) {
+                        Text("Browse", comment: "Library Mode").tag(0)
+                        Text("Inventory", comment: "Library Mode").tag(1)
+                        Text("Saved", comment: "Library Mode").tag(2)
                     }
-                    
-                    // MARK: - CONTENT SWITCHER
-                    if searchText.isEmpty {
-                        switch selectedMode {
-                        case 0: // BROWSE
-                            LazyVGrid(columns: columns, spacing: 16) {
-                                ForEach(SurvivalDomain.allCases) { domain in
-                                    NavigationLink(destination: DomainDetailView(domain: domain)) {
-                                        GlassDomainCell(domain: domain)
-                                    }
-                                    .buttonStyle(ScalableButtonStyle())
-                                }
-                            }
-                            .padding(.horizontal, 24)
-                            .padding(.bottom, 40)
-                            
-                        case 1: // INVENTORY
-                            InventoryView()
-                            
-                        case 2: // SAVED
-                            SavedTechniquesView()
-                                .padding(.horizontal, 24)
-                        default: EmptyView()
-                        }
+                    .pickerStyle(.segmented)
+                    .padding(.horizontal, 24)
+                    .padding(.vertical, 10)
+                }
+                
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 24) {
                         
-                    } else {
-                        // MARK: - SEARCH RESULTS
-                        LazyVStack(spacing: 16) {
-                            if filteredTechniques.isEmpty {
-                                Text("No results found")
-                                    .foregroundStyle(.secondary)
-                                    .padding(.top, 40)
-                            } else {
-                                ForEach(filteredTechniques) { technique in
-                                    NavigationLink(destination: VerticalGuideView(technique: technique)) {
-                                        TechniqueRow(technique: technique)
+                        // MARK: - CONTENT SWITCHER
+                        if searchText.isEmpty {
+                            switch selectedMode {
+                            case 0: // BROWSE
+                                LazyVGrid(columns: columns, spacing: 16) {
+                                    ForEach(SurvivalDomain.allCases) { domain in
+                                        NavigationLink(destination: DomainDetailView(domain: domain)) {
+                                            GlassDomainCell(domain: domain)
+                                        }
+                                        .buttonStyle(ScalableButtonStyle())
+                                    }
+                                }
+                                .padding(.horizontal, 24)
+                                .padding(.bottom, 40)
+                                .transition(.opacity.combined(with: .move(edge: .leading)))
+                                
+                            case 1: // INVENTORY
+                                InventoryView()
+                                    .transition(.opacity.combined(with: .move(edge: .trailing)))
+                                
+                            case 2: // SAVED
+                                SavedTechniquesView()
+                                    .padding(.horizontal, 24)
+                                    .transition(.opacity.combined(with: .move(edge: .trailing)))
+                            default: EmptyView()
+                            }
+                            
+                        } else {
+                            // MARK: - SEARCH RESULTS
+                            LazyVStack(spacing: 16) {
+                                if filteredTechniques.isEmpty {
+                                    VStack(spacing: 12) {
+                                        Image(systemName: "magnifyingglass")
+                                            .font(.system(size: 36))
+                                            .foregroundStyle(DesignSystem.textSecondary)
+                                        Text("No results found")
+                                            .font(.headline)
+                                            .foregroundStyle(DesignSystem.textSecondary)
+                                        Text("Try a different search term")
+                                            .font(.subheadline)
+                                            .foregroundStyle(DesignSystem.textSecondary.opacity(0.7))
+                                    }
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.top, 60)
+                                } else {
+                                    ForEach(filteredTechniques) { technique in
+                                        NavigationLink(destination: VerticalGuideView(technique: technique)) {
+                                            TechniqueRow(technique: technique)
+                                        }
                                     }
                                 }
                             }
+                            .padding(24)
                         }
-                        .padding(24)
                     }
                 }
+                .animation(.easeInOut(duration: 0.25), value: selectedMode)
             }
         }
-        .navigationTitle("")
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Library")
+        .navigationBarTitleDisplayMode(.large)
         .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: Text("Search techniques", comment: "Search Placeholder"))
     }
 }
@@ -157,9 +158,9 @@ struct GlassDomainCell: View {
                     
                     Spacer()
                     
-                    // Count Badge (Minimalist)
-                    Text("\(ContentDatabase.shared.getTechniques(for: domain).count)")
-                        .font(.system(size: 13, weight: .bold, design: .rounded))
+                    // Count Badge
+                    Text("\(ContentDatabase.shared.getTechniques(for: domain).count) guides")
+                        .font(.system(size: 12, weight: .semibold, design: .rounded))
                         .foregroundStyle(domain.color)
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
@@ -180,7 +181,7 @@ struct GlassDomainCell: View {
             }
             .padding(16)
         }
-        .frame(height: 160) // Increased for better breathing room and tap target
+        .frame(height: 160)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 20, style: .continuous)

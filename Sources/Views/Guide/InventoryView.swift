@@ -18,20 +18,14 @@ struct InventoryView: View {
     
     var body: some View {
             VStack(spacing: 0) {
-                // Header
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("Inventory", comment: "Screen Title")
-                        .font(.system(size: 34, weight: .black))
-                        .foregroundStyle(DesignSystem.textPrimary)
-                    
-                    Text("Select what you have to see what you can make.", comment: "Instruction Text")
-                        .font(.subheadline)
-                        .foregroundStyle(DesignSystem.textSecondary)
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.horizontal, 24)
-                .padding(.bottom, 24)
-                .padding(.top, 10)
+                // Header — no redundant title since nav bar says "Library" and segment says "Inventory"
+                Text("Select what you have to see what you can make.", comment: "Instruction Text")
+                    .font(.subheadline)
+                    .foregroundStyle(DesignSystem.textSecondary)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 24)
+                    .padding(.bottom, 24)
+                    .padding(.top, 10)
                 
                 // Item Grid
                 VStack(alignment: .leading, spacing: 24) {
@@ -119,7 +113,7 @@ struct InventoryEmptyState: View {
                 .padding(.horizontal, 40)
         }
         .frame(maxWidth: .infinity)
-        .padding(.vertical, 60)
+        .padding(.vertical, 32)
     }
 }
 
