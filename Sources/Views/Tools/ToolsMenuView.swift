@@ -1,71 +1,39 @@
 import SwiftUI
 
 struct ToolsMenuView: View {
-    @State private var isAnimating = false
-
     var body: some View {
         ZStack(alignment: .top) {
-            // MARK: - Ambient Background
             DesignSystem.backgroundPrimary
                 .ignoresSafeArea()
             
-            // Subtle Animated Mesh Gradient Simulation
-            GeometryReader { proxy in
-                ZStack {
-                    Circle()
-                        .fill(Color.purple.opacity(0.12))
-                        .frame(width: 350, height: 350)
-                        .blur(radius: 60)
-                        .offset(x: isAnimating ? -50 : -150, y: isAnimating ? -50 : -150)
-                    
-                    Circle()
-                        .fill(Color.indigo.opacity(0.12))
-                        .frame(width: 300, height: 300)
-                        .blur(radius: 60)
-                        .offset(x: isAnimating ? 150 : 250, y: isAnimating ? 50 : 150)
-
-                    Circle()
-                        .fill(Color.blue.opacity(0.08))
-                        .frame(width: 400, height: 400)
-                        .blur(radius: 80)
-                        .offset(x: isAnimating ? -100 : 100, y: isAnimating ? 300 : 400)
-                }
-                .frame(width: proxy.size.width, height: proxy.size.height)
-                .onAppear {
-                    withAnimation(.easeInOut(duration: 8.0).repeatForever(autoreverses: true)) {
-                        isAnimating = true
-                    }
-                }
-            }
-            .ignoresSafeArea()
-            
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-
+                    
                     // MARK: - Subtitle
                     Text("Offline Survival Utilities", comment: "Section Subtitle")
                         .font(.system(size: 20, weight: .medium))
                         .foregroundStyle(DesignSystem.textSecondary)
                         .padding(.horizontal, 16)
 
-                    // MARK: - Tool Cards
-                    VStack(spacing: 16) {
+                    // MARK: - Widget Dashboard Grid
+                    LazyVGrid(columns: [GridItem(.flexible(), spacing: 16), GridItem(.flexible(), spacing: 16)], spacing: 16) {
+                        
                         // MARK: - Priority: Emergency & Signaling
                         NavigationLink(destination: EmergencySirenView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "speaker.wave.3.fill",
                                 title: "Emergency Siren",
-                                subtitle: "Max-volume distress signal",
+                                subtitle: "Max-volume signal",
                                 color: .purple
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
 
                         NavigationLink(destination: SOSFlashlightView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "flashlight.on.fill",
                                 title: "SOS Flashlight",
-                                subtitle: "Morse code SOS via camera flash",
+                                subtitle: "Morse code strobe",
                                 color: .orange
                             )
                         }
@@ -73,30 +41,30 @@ struct ToolsMenuView: View {
 
                         // MARK: - Priority: Navigation
                         NavigationLink(destination: CompassView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "location.north.circle.fill",
                                 title: "Tactical Compass",
-                                subtitle: "Magnetic heading & bearing lock",
+                                subtitle: "Magnetic heading",
                                 color: .red
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
 
                         NavigationLink(destination: LocationView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "location.fill",
                                 title: "GPS Dashboard",
-                                subtitle: "Coords, Altitude, Speed (Offline)",
+                                subtitle: "Offline mapping",
                                 color: .blue
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
 
                         NavigationLink(destination: WaypointsListView(locationManager: LocationManager())) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "map.fill",
                                 title: "Waypoints",
-                                subtitle: "Save locations & navigate back",
+                                subtitle: "Save locations",
                                 color: .indigo
                             )
                         }
@@ -104,42 +72,40 @@ struct ToolsMenuView: View {
                         
                         // MARK: - Priority: Medical & Utility
                         NavigationLink(destination: CPRMetronomeView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "heart.fill",
                                 title: "CPR Metronome",
-                                subtitle: "110 BPM chest compression pacer",
+                                subtitle: "110 BPM pacer",
                                 color: .red
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
 
                         NavigationLink(destination: InclinometerView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "level.fill",
                                 title: "Inclinometer",
-                                subtitle: "Slope angle & bubble level",
+                                subtitle: "Slope angle",
                                 color: .teal
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
 
-
-
                         NavigationLink(destination: GlossaryView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "text.book.closed.fill",
                                 title: "Survival Glossary",
-                                subtitle: "Terminology & Definitions",
+                                subtitle: "Key definitions",
                                 color: .brown
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
 
                         NavigationLink(destination: EmergencyDirectoryView()) {
-                            GlassToolCard(
+                            GlassWidgetSquare(
                                 icon: "phone.circle.fill",
                                 title: "Emergency Directory",
-                                subtitle: "Global ambulance/police numbers",
+                                subtitle: "Global numbers",
                                 color: .green
                             )
                         }
@@ -156,60 +122,62 @@ struct ToolsMenuView: View {
     }
 }
 
-// MARK: - Glass Tool Card Component
-struct GlassToolCard: View {
+// MARK: - Widget Components
+
+struct GlassWidgetSquare: View {
     let icon: String
     let title: LocalizedStringKey
     let subtitle: LocalizedStringKey
     let color: Color
 
     var body: some View {
-        ZStack(alignment: .leading) {
-            // Glass Background - Clean, uncolored ultraThinMaterial
-            RoundedRectangle(cornerRadius: 20, style: .continuous)
+        VStack(alignment: .leading, spacing: 12) {
+            ZStack {
+                Circle()
+                    .fill(color.gradient.opacity(0.15))
+                    .frame(width: 44, height: 44)
+                Image(systemName: icon)
+                    .font(.system(size: 20, weight: .semibold))
+                    .foregroundStyle(color)
+            }
+            
+            Spacer(minLength: 0)
+            
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title)
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(DesignSystem.textPrimary)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
+                
+                Text(subtitle)
+                    .font(.system(size: 12, weight: .medium))
+                    .foregroundStyle(DesignSystem.textSecondary)
+                    .lineLimit(1)
+            }
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .frame(height: 140)
+        .background(
+            RoundedRectangle(cornerRadius: 24, style: .continuous)
                 .fill(.ultraThinMaterial)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .strokeBorder(Color.white.opacity(0.1), lineWidth: 0.5)
+                    LinearGradient(
+                        colors: [
+                            color.opacity(0.15),
+                            color.opacity(0.02)
+                        ],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
                 )
-
-            HStack(spacing: 16) {
-                // Icon Box
-                ZStack {
-                    Circle()
-                        .fill(color.opacity(0.12))
-                        .frame(width: 44, height: 44)
-                    
-                    Image(systemName: icon)
-                        .font(.system(size: 20, weight: .semibold))
-                        .foregroundStyle(color)
-                }
-
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(title)
-                        .font(.system(size: 17, weight: .semibold, design: .default))
-                        .foregroundStyle(DesignSystem.textPrimary)
-                        .minimumScaleFactor(0.85)
-                    
-                    Text(subtitle)
-                        .font(.system(size: 13, weight: .medium))
-                        .foregroundStyle(DesignSystem.textSecondary.opacity(0.8))
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.9)
-                }
-
-                Spacer()
-
-                Image(systemName: "chevron.right")
-                    .font(.system(size: 14, weight: .semibold))
-                    .foregroundStyle(DesignSystem.textSecondary.opacity(0.4))
-            }
-            .padding(16)
-        }
-        .frame(minHeight: 80)
-        .contentShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 5)
-        .accessibilityElement(children: .combine)
-        .accessibilityAddTraits(.isButton)
+        )
+        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 24, style: .continuous)
+                .strokeBorder(Color.white.opacity(0.15), lineWidth: 0.5)
+        )
+        .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
     }
 }
