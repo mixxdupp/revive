@@ -1741,7 +1741,7 @@
       "title": "Starvation Physiology: What Happens to Your Body",
       "body": "Understanding starvation helps you prioritize and conserve energy.\n\nPhase 1 (0-24 hours): Glycogen depletion\n- Body burns stored glycogen (sugar) in liver and muscles\n- Blood sugar remains normal\n- Performance is near normal\n- Strong hunger signals\n\nPhase 2 (1-3 days): Fat burning begins\n- Body switches to burning fat for energy (ketosis)\n- Hunger may actually decrease (ketones suppress appetite)\n- Mental fog and irritability\n- Fatigue during physical activity\n\nPhase 3 (3-14 days): Sustained fat burning\n- Body adapts to fat-burning metabolism\n- Weight loss of 1-2 pounds per day\n- Muscle wasting begins as body needs protein for vital functions\n- Cold intolerance increases (less insulation, less metabolic heat)\n\nPhase 4 (14+ days): Critical decline\n- Muscle wasting accelerates\n- Immune function collapses (infections become deadly)\n- Mental function deteriorates severely\n- Organ failure begins\n\nKey takeaway: the body can survive 3+ weeks without food, but cognitive and physical performance degrades within days. In a survival situation, your brain failing to make good decisions is more dangerous than the starvation itself.",
       "relatedTechniqueIDs": [
-        "food-edibility-test",
+        "food-universal-edibility",
         "food-insect-eating"
       ]
     },
@@ -1752,7 +1752,7 @@
       "title": "Plant Poisoning: Recognition & Treatment",
       "body": "Misidentification of wild plants is the leading cause of foraging deaths.\n\nDangerous plant families:\n- Hemlock (Conium, Cicuta): looks like carrot/parsley. Causes respiratory paralysis. Fatal.\n- Death camas: looks like wild onion but NO onion smell. Causes heart failure.\n- Nightshade: black or red berries. Neurological symptoms. Can be fatal.\n- Castor bean: seeds contain ricin. A few chewed seeds can kill.\n- Oleander: all parts toxic. Even smoke from burning is dangerous.\n\nUniversal warning signs in plants (avoid if present):\n- Milky sap (exception: dandelion)\n- Shiny leaves with thorns\n- Seeds inside pods\n- Bitter or soapy taste\n- Umbrella-shaped flower clusters (many toxic species)\n\nPoisoning treatment:\n- If conscious: do NOT induce vomiting (may cause more damage)\n- Activated charcoal if available (1g per kg body weight)\n- Drink large amounts of water to dilute\n- If convulsing: protect the head, maintain airway\n- Red flag: any difficulty breathing, hallucinations, or loss of consciousness = critical emergency\n\nPrevention rule: NEVER eat any plant you cannot identify with 100% certainty. The universal edibility test takes 24+ hours and should only be used as a last resort.",
       "relatedTechniqueIDs": [
-        "food-edibility-test",
+        "food-universal-edibility",
         "food-mushroom-safety"
       ]
     },

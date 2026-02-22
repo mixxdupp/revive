@@ -1560,7 +1560,7 @@
       "body": "Traveling at night is sometimes necessary (desert heat avoidance, enemy evasion, emergency). It requires different skills.\n\nAdvantages of night travel:\n- Cooler temperatures reduce water consumption by 50-75%\n- Stars provide reliable direction (Polaris, Southern Cross)\n- In desert environments, night travel is sometimes the only safe option\n\nChallenges:\n- Cannot see terrain hazards (cliffs, holes, snakes)\n- Cannot read vegetation or terrain for direction\n- Fatigue impairs judgment and navigation accuracy\n- Distance estimation is very poor at night\n\nTechniques:\n1. Star steering: pick a low star in your direction, walk toward it, replace every 15 min\n2. Moon direction: crescent moon — connect the horns with a line to the horizon = south (Northern Hemisphere)\n3. Horizon glow: cities create light pollution visible from 50+ miles. Navigate toward or away from glow\n4. Sound navigation: rivers, highways, railroads, dog barking = civilization\n5. Wind consistency: maintain a constant angle to the wind (recalibrate hourly)\n\nSafety rules:\n- Move slowly. Probe ahead with a stick in unfamiliar terrain\n- Allow 30 minutes for night vision to develop (avoid looking at any lights)\n- If terrain becomes dangerous, stop and wait for dawn",
       "relatedTechniqueIDs": [
         "nav-night-star-steering",
-        "nav-polaris"
+        "nav-north-star"
       ]
     },
     {

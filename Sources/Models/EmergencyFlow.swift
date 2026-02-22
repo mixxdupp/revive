@@ -51,21 +51,21 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
     
     var color: Color {
         switch self {
-        case .cold: return .cyan
-        case .noFire: return .orange
-        case .noWater: return .indigo
-        case .hurt: return .red
-        case .lost: return .gray
-        case .trapped: return .yellow
-        case .disaster: return .purple
-        case .noFood: return .green
-        case .animal: return .brown
-        case .inWater: return .blue
-        case .shelter: return .brown
-        case .extremeHeat: return .red
-        case .humanThreat: return .gray
-        case .vehicleEmergency: return .blue
-        case .chemicalExposure: return .green
+        case .cold: return DesignSystem.environmentDomain
+        case .noFire: return DesignSystem.fireDomain
+        case .noWater: return DesignSystem.waterDomain
+        case .hurt: return DesignSystem.firstAidDomain
+        case .lost: return DesignSystem.navigationDomain
+        case .trapped: return DesignSystem.rescueDomain
+        case .disaster: return DesignSystem.environmentDomain
+        case .noFood: return DesignSystem.foodDomain
+        case .animal: return DesignSystem.environmentDomain
+        case .inWater: return DesignSystem.waterDomain
+        case .shelter: return DesignSystem.shelterDomain
+        case .extremeHeat: return DesignSystem.environmentDomain
+        case .humanThreat: return DesignSystem.psychologyDomain
+        case .vehicleEmergency: return DesignSystem.toolsDomain
+        case .chemicalExposure: return DesignSystem.firstAidDomain
         }
     }
 }

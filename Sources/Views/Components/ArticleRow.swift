@@ -17,7 +17,7 @@ struct ArticleRow: View {
             Spacer()
             
             Image(systemName: "doc.text.fill")
-                .foregroundColor(DesignSystem.textSecondary)
+                .foregroundColor(article.domain.color)
         }
         .padding()
     }
