@@ -207,9 +207,9 @@ struct OnboardingSurvivalDemoPage: View {
                 VStack(spacing: 24) {
                     
                     if step >= 2 {
-                        // The Question Header
+                        // The Question Header (matches fire-root in ContentDatabase)
                         HStack {
-                            Text("What is your environment?")
+                            Text("What fire-starting tools do you have?")
                                 .font(.system(size: 28, weight: .bold))
                                 .foregroundStyle(DesignSystem.textPrimary)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -219,21 +219,21 @@ struct OnboardingSurvivalDemoPage: View {
                     }
                     
                     if step >= 3 {
-                        // Options Grid (Simulated)
+                        // Options Grid (real options from fire triage tree)
                         LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 16) {
                             
                             MockTriageOptionCard(
-                                icon: "thermometer.snowflake",
-                                label: "Sub-Zero",
-                                color: .cyan,
+                                icon: "xmark.circle.fill",
+                                label: "Nothing — No Tools",
+                                color: .red,
                                 isSelected: false
                             )
                             
                             MockTriageOptionCard(
-                                icon: "leaf.fill",
-                                label: "Dense Forest",
-                                color: .green,
-                                isSelected: step >= 4 // Highlights on step 4
+                                icon: "lightbulb.fill",
+                                label: "Household Hacks",
+                                color: .yellow,
+                                isSelected: step >= 4
                             )
                         }
                         .transition(.scale.combined(with: .opacity))
@@ -241,39 +241,87 @@ struct OnboardingSurvivalDemoPage: View {
                     
                     // The Final Recommendation (The "Lean-To" Card)
                     if step >= 5 {
-                        VStack(spacing: 16) {
+                        VStack(spacing: 12) {
+                            // Card header: label + toggles toolbar
                             HStack {
                                 Text("Recommended Technique")
                                     .font(.caption)
                                     .foregroundStyle(.orange)
                                     .fontWeight(.bold)
-                                    .textCase(.uppercase)
                                 Spacer()
+                                
+                                // Voice toggles toolbar (right-aligned, matching VerticalGuideView)
+                                if step >= 6 {
+                                    HStack(spacing: 8) {
+                                        // Text-to-Speech
+                                        HStack(spacing: 4) {
+                                            Image(systemName: "speaker.wave.3.fill")
+                                                .foregroundStyle(.orange)
+                                                .font(.system(size: 13))
+                                        }
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 6)
+                                        .background(.ultraThinMaterial)
+                                        .clipShape(Capsule())
+                                        .transition(.scale.combined(with: .opacity))
+                                        
+                                        // Hands-Free
+                                        if step >= 7 {
+                                            HStack(spacing: 4) {
+                                                Image(systemName: "mic.fill")
+                                                    .foregroundStyle(.red)
+                                                    .font(.system(size: 13))
+                                                    .symbolEffect(.pulse.byLayer)
+                                                
+                                                Text("Listening")
+                                                    .font(.system(size: 12, weight: .bold))
+                                                    .foregroundStyle(.red)
+                                            }
+                                            .padding(.horizontal, 10)
+                                            .padding(.vertical, 6)
+                                            .background(.ultraThinMaterial)
+                                            .clipShape(Capsule())
+                                            .overlay(
+                                                Capsule().strokeBorder(Color.red.opacity(0.5), lineWidth: 1)
+                                            )
+                                            .transition(.scale.combined(with: .opacity))
+                                        }
+                                    }
+                                }
                             }
                             
+                            // Technique content
                             HStack(spacing: 16) {
                                 Circle()
                                     .fill(Color.orange.opacity(0.2))
                                     .frame(width: 44, height: 44)
                                     .overlay(
-                                        Image(systemName: "tent.fill")
+                                        Image(systemName: "bolt.fill")
                                             .foregroundStyle(.orange)
                                             .font(.title3)
                                     )
                                 
                                 VStack(alignment: .leading, spacing: 4) {
-                                    Text("Construct a Lean-To")
+                                    Text("Battery & Gum Wrapper Fire")
                                         .font(.body.weight(.bold))
                                         .foregroundStyle(.white)
-                                    Text("Find a sturdy ridgepole and rest it securely against a tree.")
+                                    Text("Bridge a battery with foil to ignite a flame in seconds.")
                                         .font(.caption)
                                         .foregroundStyle(.gray)
                                         .fixedSize(horizontal: false, vertical: true)
                                 }
                                 Spacer()
                             }
+                            
+                            // Contextual voice caption
+                            if step >= 7 {
+                                Text("Hands full? Read steps aloud & go hands-free.")
+                                    .font(.caption2)
+                                    .foregroundStyle(.secondary)
+                                    .transition(.opacity)
+                            }
                         }
-                        .padding(20)
+                        .padding(16)
                         .background(.ultraThinMaterial)
                         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
                         .overlay(
@@ -282,59 +330,6 @@ struct OnboardingSurvivalDemoPage: View {
                         )
                         .shadow(color: Color.black.opacity(0.2), radius: 15, x: 0, y: 10)
                         .transition(.move(edge: .bottom).combined(with: .opacity))
-                    }
-                    
-                    if step >= 6 {
-                        VStack(spacing: 10) {
-                            // The Toggles Row mimicking VerticalGuideView header
-                            HStack(spacing: 12) {
-                                Spacer()
-                                
-                                // Text-to-Speech Mock
-                                HStack(spacing: 6) {
-                                    Image(systemName: "speaker.wave.3.fill")
-                                        .foregroundStyle(.orange)
-                                        .font(.system(size: 16))
-                                }
-                                .padding(.horizontal, 14)
-                                .padding(.vertical, 10)
-                                .background(.ultraThinMaterial)
-                                .clipShape(Capsule())
-                                .transition(.scale.combined(with: .opacity))
-                                
-                                // Hands-Free Trigger Mock
-                                if step >= 7 {
-                                    HStack(spacing: 6) {
-                                        Image(systemName: "mic.fill")
-                                            .foregroundStyle(.red)
-                                            .font(.system(size: 16))
-                                            .symbolEffect(.pulse.byLayer)
-                                        
-                                        Text("Listening")
-                                            .font(.system(size: 14, weight: .bold))
-                                            .foregroundStyle(.red)
-                                    }
-                                    .padding(.horizontal, 16)
-                                    .padding(.vertical, 10)
-                                    .background(.ultraThinMaterial)
-                                    .clipShape(Capsule())
-                                    .overlay(
-                                        Capsule().strokeBorder(Color.red.opacity(0.5), lineWidth: 1.5)
-                                    )
-                                    .transition(.scale.combined(with: .opacity))
-                                }
-                                
-                                Spacer()
-                            }
-                            
-                            // Contextual caption
-                            Text("Hands full? Read steps aloud & go hands-free with voice.")
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                                .multilineTextAlignment(.center)
-                                .transition(.opacity)
-                        }
-                        .padding(.top, 8)
                     }
                 }
                 .padding(.horizontal, 24)
@@ -345,7 +340,7 @@ struct OnboardingSurvivalDemoPage: View {
         }
         .onAppear {
             if reduceMotion {
-                step = 5
+                step = 7
             } else {
                 // Sequence the dynamic Q&A animation
                 withAnimation(.spring(response: 0.8, dampingFraction: 0.7).delay(0.1)) { step = 1 }
@@ -397,13 +392,7 @@ struct MockTriageOptionCard: View {
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)
                 
-                // Leaf indicator
-                HStack {
-                    Spacer()
-                    Image(systemName: "arrow.right")
-                        .font(.system(size: 14, weight: .bold))
-                        .foregroundStyle(color.opacity(0.6))
-                }
+
             }
             .padding(16)
         }
