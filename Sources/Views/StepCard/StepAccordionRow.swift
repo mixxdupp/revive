@@ -91,6 +91,45 @@ struct StepAccordionRow: View {
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 8)
                     }
+                    
+                    // MARK: - Emergency Directory Link
+                    // Shown when step mentions calling emergency services
+                    if step.instruction.localizedCaseInsensitiveContains("emergency services") ||
+                       step.helpDetail.localizedCaseInsensitiveContains("call emergency services") {
+                        NavigationLink(destination: EmergencyDirectoryView()) {
+                            HStack(spacing: 10) {
+                                Image(systemName: "phone.arrow.up.right.fill")
+                                    .font(.system(size: 16, weight: .semibold))
+                                    .foregroundStyle(.white)
+                                    .frame(width: 32, height: 32)
+                                    .background(Color.red)
+                                    .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                                
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text("Find Your Emergency Number")
+                                        .font(.subheadline.weight(.semibold))
+                                        .foregroundStyle(.primary)
+                                    Text("Global directory of emergency services")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                }
+                                
+                                Spacer()
+                                
+                                Image(systemName: "chevron.right")
+                                    .font(.caption.weight(.bold))
+                                    .foregroundStyle(.secondary)
+                            }
+                            .padding(12)
+                            .background(Color.red.opacity(0.08))
+                            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .strokeBorder(Color.red.opacity(0.2), lineWidth: 1)
+                            )
+                        }
+                        .buttonStyle(.plain)
+                    }
                 }
                 .padding(20)
                 .background(Color(uiColor: .secondarySystemGroupedBackground))

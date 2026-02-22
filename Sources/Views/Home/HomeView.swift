@@ -57,13 +57,13 @@ struct HomeView: View {
                                     .multilineTextAlignment(.leading)
                                     .tracking(-0.5)
                                 
-                                Text("Start Triage & First Aid", comment: "Hero Card Subtitle")
+                                Text("Start Decision Engine", comment: "Hero Card Subtitle")
                                     .font(.system(size: 16, weight: .semibold))
                                     .foregroundStyle(.white.opacity(0.85))
                             }
                             Spacer()
                             
-                            Image(systemName: "cross.case.fill")
+                            Image(systemName: "exclamationmark.triangle.fill")
                                 .font(.largeTitle)
                                     .foregroundStyle(.red)
                                     .padding(12)
@@ -85,7 +85,7 @@ struct HomeView: View {
                     }
                     .padding(.horizontal, 20)
                     .buttonStyle(ScalableButtonStyle())
-                    .accessibilityLabel("Emergency Guide, Start Triage and First Aid")
+                    .accessibilityLabel("Emergency Guide, Start Decision Engine")
                     .accessibilityAddTraits(.isButton)
                     
                     // MARK: - Features Grid

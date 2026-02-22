@@ -933,7 +933,7 @@
     {
       "id": "firstaid-anaphylaxis",
       "name": "Anaphylaxis Response",
-      "subtitle": "EpiPen + call 911 immediately",
+      "subtitle": "Epinephrine + call emergency services immediately",
       "category": "Allergic Reactions",
       "difficulty": 2,
       "estimatedTime": "2 min",
@@ -1042,7 +1042,7 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "Evacuate immediately. This is a 911 call.",
+          "instruction": "Evacuate immediately. Call emergency services.",
           "helpDetail": "Untreated heat stroke has a 70%+ mortality rate. Brain damage starts quickly. No home remedy suffices.",
           "illustrationDescription": "Emergency evacuation call."
         }

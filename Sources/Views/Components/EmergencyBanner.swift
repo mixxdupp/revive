@@ -11,12 +11,11 @@ struct EmergencyBanner: View {
                 .foregroundStyle(.white)
                 .fixedSize(horizontal: false, vertical: true)
         }
-        .padding(12) // Reduced inner padding (was 16)
+        .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color.red.opacity(0.85))
-        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous)) // Reduced corner radius slightly
+        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
         .padding(.horizontal, 24)
-        // Removed outer vertical padding to reduce gap
     }
 }
 

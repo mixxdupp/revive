@@ -222,8 +222,8 @@
         },
         {
           "stepNumber": 4,
-          "instruction": "112 and 911 work on any network and without a SIM.",
-          "helpDetail": "Emergency calls route through ANY available carrier, not just yours. 112 is the international equivalent of 911.",
+          "instruction": "Emergency numbers (112, 911, 999, etc.) work on any network and often without a SIM.",
+          "helpDetail": "Emergency calls route through ANY available carrier, not just yours. 112 works in most countries worldwide. Check your local number in this app's Emergency Directory.",
           "illustrationDescription": "Emergency number access."
         },
         {

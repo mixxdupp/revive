@@ -50,7 +50,7 @@ struct TermsGateView: View {
                                 Text("1. No Medical Advice")
                                     .font(.headline)
                                     .foregroundStyle(DesignSystem.textPrimary)
-                                Text("The content of this app is for educational and reference purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always call emergency services (911) in a medical emergency.")
+                                Text("The content of this app is for educational and reference purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always call your local emergency services in a medical emergency.")
                             }
                             
                             VStack(alignment: .leading, spacing: 6) {

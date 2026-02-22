@@ -31,12 +31,12 @@ struct ScenarioGear {
     static let all: [ScenarioGear] = [
         // MARK: First Aid / Injury
         ScenarioGear(scenario: .hurt, items: [
-            ("CAT Tourniquet", 50),
-            ("Hemostatic Gauze (QuikClot)", 40),
-            ("Israeli Pressure Bandage", 35),
+            ("Combat Tourniquet", 50),
+            ("Hemostatic Gauze", 40),
+            ("Pressure Bandage", 35),
             ("Vented Chest Seal (x2)", 30),
             ("Trauma Shears", 20),
-            ("SAM Splint (36\")", 20),
+            ("Moldable Splint (36\")", 20),
             ("Medical Tape Roll", 10),
             ("Nitrile Gloves (2 Pairs)", 10),
             ("CPR Face Shield", 10)
@@ -54,12 +54,12 @@ struct ScenarioGear {
             ("Ferro Rod + Striker", 50),
             ("Waterproof Storm Matches", 30),
             ("Cotton Tinder Bundle / Vaseline Balls", 20),
-            ("BIC Lighter (Backup)", 15)
+            ("Backup Lighter", 15)
         ]),
         // MARK: Need Water
         ScenarioGear(scenario: .noWater, items: [
-            ("Water Purification Tablets (Aquatabs)", 50),
-            ("LifeStraw Personal Filter", 40),
+            ("Water Purification Tablets", 50),
+            ("Portable Water Filter", 40),
             ("Collapsible Water Container (2L)", 30),
             ("Metal Cup / Canteen (for boiling)", 20)
         ]),
@@ -67,22 +67,22 @@ struct ScenarioGear {
         ScenarioGear(scenario: .lost, items: [
             ("Button Compass", 40),
             ("Signal Mirror", 30),
-            ("Emergency Whistle (Fox 40)", 30),
+            ("Emergency Whistle", 30),
             ("Headlamp + Spare Batteries", 25),
             ("Bright Orange Bandana", 10)
         ]),
         // MARK: Trapped / Rescue
         ScenarioGear(scenario: .trapped, items: [
             ("Emergency Whistle", 40),
-            ("Glow Stick (Cyalume, x3)", 30),
+            ("Chemical Glow Sticks (x3)", 30),
             ("Glass Breaker Tool", 25),
             ("Paracord Bracelet (12ft)", 20),
-            ("Dust Mask (N95)", 15)
+            ("Dust Mask", 15)
         ]),
         // MARK: Natural Disaster
         ScenarioGear(scenario: .disaster, items: [
             ("Emergency Crank Radio (AM/FM)", 50),
-            ("N95 Dust Masks (3-Pack)", 30),
+            ("Dust Masks (3-Pack)", 30),
             ("Headlamp / Flashlight", 25),
             ("Heavy-Duty Trash Bags (x3)", 20),
             ("Cash (Small Bills)", 15),
@@ -97,7 +97,7 @@ struct ScenarioGear {
         ]),
         // MARK: Animal Encounter
         ScenarioGear(scenario: .animal, items: [
-            ("Bear Spray / Animal Deterrent", 50),
+            ("Animal Deterrent Spray", 50),
             ("Emergency Whistle", 30),
             ("Headlamp (Animals avoid bright light)", 20)
         ]),
@@ -112,7 +112,7 @@ struct ScenarioGear {
         ScenarioGear(scenario: .shelter, items: [
             ("Emergency Bivvy Sack", 50),
             ("Lightweight Tarp (8x10ft)", 30),
-            ("550 Paracord (50ft)", 25),
+            ("Paracord (50ft)", 25),
             ("Duct Tape Roll (Mini)", 15)
         ]),
         // MARK: Extreme Heat
@@ -140,7 +140,7 @@ struct ScenarioGear {
         ]),
         // MARK: Chemical / Hazmat
         ScenarioGear(scenario: .chemicalExposure, items: [
-            ("N95/P100 Respirator", 50),
+            ("Respirator Mask", 50),
             ("Chemical-Resistant Gloves", 30),
             ("Eye Wash Bottle (500ml)", 30),
             ("Sealed Plastic Poncho", 20)
