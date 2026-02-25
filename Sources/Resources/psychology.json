@@ -38,7 +38,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-54321-grounding",
@@ -82,7 +82,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-stop-method",
@@ -120,7 +120,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-positive-self-talk",
@@ -158,7 +158,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-sleep-deprivation",
@@ -196,7 +196,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-will-to-live",
@@ -234,7 +234,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "psych-group-leadership",
@@ -272,7 +272,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-children-survival",
@@ -310,7 +310,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-decision-fatigue",
@@ -348,7 +348,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-fear-management",
@@ -386,7 +386,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "psych-routine",
@@ -424,7 +424,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-pain-management",
@@ -462,7 +462,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-loneliness",
@@ -500,7 +500,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-ooda-loop",
@@ -538,7 +538,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "psych-sleep-hygiene",
@@ -576,7 +576,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-grief-management",
@@ -614,10 +614,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "psych-children-survival",
+      "id": "psych-children-manage",
       "name": "Managing Children in Survival",
       "subtitle": "Keep kids calm, safe, and occupied",
       "category": "Group",
@@ -652,7 +652,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-boredom-management",
@@ -690,7 +690,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-conflict-resolution",
@@ -728,7 +728,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-night-anxiety",
@@ -766,7 +766,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-motivation-anchors",
@@ -804,7 +804,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "psych-journaling",
@@ -842,7 +842,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-acceptance-stages",
@@ -880,7 +880,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-leadership-handoff",
@@ -918,7 +918,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-combat-breathing",
@@ -950,7 +950,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "psych-cognitive-reframe",
@@ -982,7 +982,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-sleep-discipline",
@@ -1014,10 +1014,10 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
-      "id": "psych-decision-fatigue",
+      "id": "psych-decision-mgmt",
       "name": "Decision Fatigue Management",
       "subtitle": "Prevent poor choices by managing mental energy",
       "category": "Mental Resilience",
@@ -1046,7 +1046,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-grief-processing",
@@ -1078,10 +1078,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "psych-conflict-resolution",
+      "id": "psych-group-conflict",
       "name": "Group Conflict Resolution",
       "subtitle": "Resolve disputes before they become dangerous",
       "category": "Group Dynamics",
@@ -1110,7 +1110,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-teach-to-cope",
@@ -1142,7 +1142,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-gratitude-practice",
@@ -1174,7 +1174,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-visualization",
@@ -1206,7 +1206,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "psych-humor",
@@ -1238,7 +1238,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "psych-normalcy",
@@ -1270,7 +1270,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "psych-acceptance",
@@ -1302,7 +1302,2946 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "psych-trauma-response-phases",
+      "name": "Trauma Response Phases",
+      "subtitle": "Understand the psychological stages after a traumatic event",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Phase 1 — Impact: shock, disbelief, numbness. The brain shuts down non-essential functions. This is normal.",
+          "helpDetail": "This phase lasts minutes to hours. Automatic survival responses take over. Don't expect rational thought or emotional processing during impact.",
+          "illustrationDescription": "Phase 1 — Impact: shock, disbe"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Phase 2 — Recoil: reality sets in. Emotions flood: fear, anger, grief, guilt. Physical symptoms appear.",
+          "helpDetail": "Shaking, nausea, crying, hypervigilance are all normal stress responses. These are signs of a working nervous system, not weakness.",
+          "illustrationDescription": "Phase 2 — Recoil: reality sets"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Phase 3 — Adjustment: begins within hours to days. Problem-solving resumes. New routines form.",
+          "helpDetail": "The brain starts adapting to the new reality. Energy should be directed toward survival tasks. Routine creates stability.",
+          "illustrationDescription": "Phase 3 — Adjustment: begins w"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Phase 4 — Reconstruction: days to weeks. Long-term coping develops. Identity integrates the experience.",
+          "helpDetail": "You begin thinking about the future again. The event becomes part of your story rather than your entire reality.",
+          "illustrationDescription": "Phase 4 — Reconstruction: days"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Key insight: allowing emotions to FLOW rather than suppressing them speeds recovery. Cry if you need to. Then act.",
+          "helpDetail": "Suppressed emotions resurface as anxiety, rage, or paralysis. A 5-minute emotional release followed by action is healthier than forced stoicism.",
+          "illustrationDescription": "Key insight: allowing emotions"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-acute-stress-mgmt",
+      "name": "Acute Stress Management",
+      "subtitle": "Control the stress response in the first critical hours",
+      "category": "Stress Management",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": true,
+      "hapticType": "breathingPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize stress activation: racing heart, rapid breathing, tunnel vision, shaking hands.",
+          "helpDetail": "These are NORMAL fight-or-flight responses. Your body is preparing for action. Acknowledge them without judgment: 'My body is doing its job.'",
+          "illustrationDescription": "Recognize stress activation: r"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tactical breathing: inhale 4 counts through nose, hold 4, exhale 4 through mouth, hold 4. Repeat 4 cycles.",
+          "helpDetail": "Box breathing activates the parasympathetic nervous system within 30 seconds. Used by military, first responders, and athletes worldwide.",
+          "illustrationDescription": "Tactical breathing: inhale 4 c"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Ground yourself: plant your feet, squeeze your fists, name 5 things you see. Re-enter the present moment.",
+          "helpDetail": "Stress causes mental time-travel (future worry or past replay). Grounding anchors you in the present where you can act.",
+          "illustrationDescription": "Ground yourself: plant your fe"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Create an immediate priority: 'Right now, the ONE thing I need to do is ______.'",
+          "helpDetail": "A single, concrete next step breaks paralysis. Not 'survive the week' — but 'gather wood for the next hour.' Small, achievable, immediate.",
+          "illustrationDescription": "Create an immediate priority: "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Alternate 45 minutes of action with 15 minutes of rest. Sustained stress without breaks causes collapse.",
+          "helpDetail": "Your stress system can operate at high intensity for about 45 minutes before degrading. Scheduled rest prevents burnout and maintains effectiveness.",
+          "illustrationDescription": "Alternate 45 minutes of action"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-solo-pep-talk",
+      "name": "Solo Self-Talk Strategy",
+      "subtitle": "Use structured self-talk to maintain morale alone",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Talk out loud to yourself. This is not madness — it is a validated psychological survival technique.",
+          "helpDetail": "Verbal self-talk engages the language-processing brain, which is more rational than the emotional brain. Hearing your own voice is calming.",
+          "illustrationDescription": "Talk out loud to yourself. Thi"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Narrate your actions: 'I am building a fire. I need kindling. I see dry bark on that tree.'",
+          "helpDetail": "Narration keeps you focused on the task. It prevents the mind from wandering into catastrophic thinking. Treat yourself as your own partner.",
+          "illustrationDescription": "Narrate your actions: 'I am bu"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Give yourself direct instructions: 'Stand up. Walk to the stream. Fill the bottle.'",
+          "helpDetail": "Second-person self-talk ('You need to...') is shown to be more effective than first-person ('I need to...'). Command yourself as you would a teammate.",
+          "illustrationDescription": "Give yourself direct instructi"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Counter negative thoughts immediately: replace 'I'm going to die' with 'People have survived worse. I am acting now.'",
+          "helpDetail": "Negative spiral thoughts are automatic. They require active, deliberate replacement. Not denial — redirection toward agency.",
+          "illustrationDescription": "Counter negative thoughts imme"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "End each day by verbally listing three things you accomplished. No matter how small.",
+          "helpDetail": "Gratitude journaling works even when spoken aloud alone. 'I found water. I built shelter. I kept my fire going.' This builds self-efficacy.",
+          "illustrationDescription": "End each day by verbally listi"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-survival-priorities-recitation",
+      "name": "Survival Priorities Recitation",
+      "subtitle": "Remember and recite the critical survival priority order",
+      "category": "Mindset",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "The Rule of 3s: 3 minutes without air, 3 hours without shelter (in harsh conditions), 3 days without water, 3 weeks without food.",
+          "helpDetail": "This mnemonic prevents misplaced priorities. People often panic about food when shelter is the immediate threat. The timeframes are approximate but directionally correct.",
+          "illustrationDescription": "The Rule of 3s: 3 minutes with"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Priority 1: IMMEDIATE THREATS. Stop bleeding, escape danger, get out of the water.",
+          "helpDetail": "Before anything else, address what will kill you in the next 3 minutes. Breathing, severe bleeding, and drowning come first.",
+          "illustrationDescription": "Priority 1: IMMEDIATE THREATS."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Priority 2: SHELTER. Protect from wind, rain, cold, or extreme heat.",
+          "helpDetail": "Exposure kills faster than dehydration or starvation. Hypothermia can kill in 3 hours. Build or find shelter before searching for water.",
+          "illustrationDescription": "Priority 2: SHELTER. Protect f"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Priority 3: WATER. Find, collect, or purify water.",
+          "helpDetail": "After shelter, water becomes critical. Start looking for water sources within the first few hours. Dehydration impairs judgment within 24 hours.",
+          "illustrationDescription": "Priority 3: WATER. Find, colle"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Priority 4: FIRE, SIGNALING, FOOD — in that order. Fire provides warmth, purification, signaling, and morale.",
+          "helpDetail": "Fire is the fourth priority because it serves multiple needs. Signaling is next — rescue is the best outcome. Food is last — you have weeks before it's critical.",
+          "illustrationDescription": "Priority 4: FIRE, SIGNALING, F"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-meditation-breathing",
+      "name": "Field Meditation",
+      "subtitle": "Calm the mind using breathing meditation",
+      "category": "Mental Resilience",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": true,
+      "hapticType": "breathingPacer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a comfortable position: sitting, lying down, or leaning against something stable.",
+          "helpDetail": "You do not need a special posture. Comfort allows relaxation. Close your eyes if it feels safe, or soften your gaze downward.",
+          "illustrationDescription": "Find a comfortable position: s"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Focus entirely on your breath. Count each exhale: 1, 2, 3... up to 10, then restart.",
+          "helpDetail": "When your mind wanders (it will), gently return to counting. No judgment. The act of returning attention IS the practice.",
+          "illustrationDescription": "Focus entirely on your breath."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Breathe naturally — do not force deep breaths. Simply observe the rhythm.",
+          "helpDetail": "Natural breathing activates the resting nervous system. Forced breathing can cause hyperventilation. Let the body find its own rhythm.",
+          "illustrationDescription": "Breathe naturally — do not for"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "If distressing thoughts arise, label them: 'worry,' 'fear,' 'plan' — and return to the breath.",
+          "helpDetail": "Labeling thoughts creates distance from them. You are not your thoughts. You are the observer of your thoughts. This distinction reduces their power.",
+          "illustrationDescription": "If distressing thoughts arise,"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "5-10 minutes of meditation reduces cortisol, lowers heart rate, and restores decision-making capacity.",
+          "helpDetail": "Even combat soldiers use field meditation. It is not spiritual — it is a clinical technique for nervous system regulation. Practice daily for best effect.",
+          "illustrationDescription": "5-10 minutes of meditation red"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-progressive-muscle-relaxation",
+      "name": "Progressive Muscle Relaxation",
+      "subtitle": "Release physical tension to calm the mind",
+      "category": "Stress Management",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Start with your feet: squeeze all foot muscles TIGHT for 5 seconds, then release completely.",
+          "helpDetail": "The contrast between tight and relaxed teaches your body what 'relaxed' actually feels like. Many people hold tension without realizing it.",
+          "illustrationDescription": "Start with your feet: squeeze "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Move upward: calves (squeeze 5 sec, release), thighs, buttocks, stomach, chest.",
+          "helpDetail": "Work each muscle group for 5 seconds of tension, then 10 seconds of release. Feel the difference between states.",
+          "illustrationDescription": "Move upward: calves (squeeze 5"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Continue: make fists and squeeze forearms (5 sec, release), biceps, shoulders (raise to ears then drop).",
+          "helpDetail": "Shoulders carry the most unconscious tension. The dramatic drop from raised to relaxed is the most noticeable release in the sequence.",
+          "illustrationDescription": "Continue: make fists and squee"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Face: scrunch your entire face tightly (5 sec), then let it go completely slack.",
+          "helpDetail": "Jaw tension, forehead tension, and eye squinting are common stress holders. A relaxed face sends calming signals to the brain.",
+          "illustrationDescription": "Face: scrunch your entire face"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Final: tense ENTIRE BODY at once for 10 seconds, then release everything simultaneously.",
+          "helpDetail": "The full-body tense-and-release creates a wave of relaxation that can dramatically reduce anxiety and prepare for sleep.",
+          "illustrationDescription": "Final: tense ENTIRE BODY at on"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-hope-anchoring",
+      "name": "Hope Anchoring",
+      "subtitle": "Create mental anchors that sustain the will to survive",
+      "category": "Resilience",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Choose your anchor: visualize a specific person, place, or future moment worth surviving for.",
+          "helpDetail": "Not a vague 'my family' — but a specific image: your child's face, a promise you made, a future moment you want to experience.",
+          "illustrationDescription": "Choose your anchor: visualize "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Make the image vivid: colors, sounds, smells, textures. The more detailed, the more powerful.",
+          "helpDetail": "The brain responds to vivid imagery almost identically to real experience. A detailed mental image activates the same neural pathways as the real thing.",
+          "illustrationDescription": "Make the image vivid: colors, "
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create a physical trigger: a word, a gesture (touching a ring, pressing your thumb), a phrase you say.",
+          "helpDetail": "Pair the vivid image with a physical action. After repetition, the gesture alone triggers the emotional response without needing full visualization.",
+          "illustrationDescription": "Create a physical trigger: a w"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Access the anchor when despair, exhaustion, or hopelessness threatens your will.",
+          "helpDetail": "In the darkest moments, rational thought fails. The emotional anchor bypasses logic and connects directly to motivation. Use it deliberately.",
+          "illustrationDescription": "Access the anchor when despair"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Survival studies consistently show: the will to live is the #1 differentiator between those who survive and those who don't.",
+          "helpDetail": "Skills matter, equipment helps, but WILL determines outcome. People with inferior skills but strong will survive situations that break the skilled-but-hopeless.",
+          "illustrationDescription": "Survival studies consistently "
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-team-morale-games",
+      "name": "Team Morale Activities",
+      "subtitle": "Maintain group spirit through structured activities",
+      "category": "Group",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Storytelling circles: each person shares a favorite memory, a joke, or a made-up story.",
+          "helpDetail": "Stories activate the brain's social bonding system. They transport the mind out of the immediate hardship. Laughter is a powerful stress reducer.",
+          "illustrationDescription": "Storytelling circles: each per"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Skill sharing: each person teaches the group something they know — a trick, technique, or knowledge.",
+          "helpDetail": "Everyone knows something others don't. Teaching builds the teacher's self-worth and the group's capabilities. It creates interdependence.",
+          "illustrationDescription": "Skill sharing: each person tea"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Planning sessions: discuss rescue scenarios, what you'll eat first when home, future plans.",
+          "helpDetail": "Positive future visualization is a clinically proven morale booster. Saying it out loud to others amplifies the effect.",
+          "illustrationDescription": "Planning sessions: discuss res"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Work competitions: who can process the most firewood, find the most water, build the best shelter addition.",
+          "helpDetail": "Friendly competition transforms drudgery into engagement. It produces more work output while feeling less like suffering.",
+          "illustrationDescription": "Work competitions: who can pro"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Daily gratitude round: each person names one positive thing about the day. No skipping.",
+          "helpDetail": "Even in the worst conditions, something went right. Verbalizing it rewires the brain's threat-response toward opportunity-recognition.",
+          "illustrationDescription": "Daily gratitude round: each pe"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-night-anxiety-mgmt",
+      "name": "Night Anxiety Management",
+      "subtitle": "Handle the psychological challenge of darkness in the wild",
+      "category": "Mental Resilience",
+      "difficulty": 1,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Night anxiety is universal and evolutionary — our ancestors WERE prey in the dark. This fear is hardwired.",
+          "helpDetail": "Acknowledge the fear as normal biology, not personal weakness. Even experienced survivalists feel increased vigilance at night.",
+          "illustrationDescription": "Night anxiety is universal and"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Fire is the #1 night anxiety reducer. Even a small fire provides light, warmth, and a psychological barrier.",
+          "helpDetail": "Fire has been humanity's darkness defense for 400,000 years. The primal comfort it provides is unmatched by any other intervention.",
+          "illustrationDescription": "Fire is the #1 night anxiety r"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create a defensible sleeping position: back against solid object, clear sightlines, obstacles for approach noise.",
+          "helpDetail": "Knowing you are positioned well reduces anxiety. Clear away noisy debris (dry leaves, sticks) around your sleep area — anything approaching makes noise.",
+          "illustrationDescription": "Create a defensible sleeping p"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Identify night sounds: most are wood settling, small animals, wind, and temperature-related cracking.",
+          "helpDetail": "99% of night sounds are benign. Learning to identify common forest sounds (owl calls, rodent rustling, branch snaps from temperature change) reduces startle response.",
+          "illustrationDescription": "Identify night sounds: most ar"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "If sleep is impossible: productive night tasks reduce anxiety. Process materials, plan tomorrow, tend fire.",
+          "helpDetail": "Lying awake in fear is worse than being productively occupied. Working gives your hands and mind something to focus on besides fear.",
+          "illustrationDescription": "If sleep is impossible: produc"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-leadership-survival",
+      "name": "Survival Group Leadership",
+      "subtitle": "Provide effective leadership in a crisis group",
+      "category": "Group",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Establish leadership immediately — groups without leadership dissolve into conflict within hours.",
+          "helpDetail": "Someone must coordinate decisions. Leadership can be earned, volunteered, or assigned. Hesitation is more dangerous than imperfect leadership.",
+          "illustrationDescription": "Establish leadership immediate"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assign roles based on strengths: fire keeper, water finder, shelter builder, lookout, medic.",
+          "helpDetail": "Roles give people purpose. Purpose prevents despair. Even a simple task like 'keep the fire going tonight' gives meaning and responsibility.",
+          "illustrationDescription": "Assign roles based on strength"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Make decisions transparently. Explain reasoning. Ask for input but don't debate endlessly.",
+          "helpDetail": "In crisis, clear decisions beat perfect decisions. '70% sure and acting' beats '100% sure after 3 hours of discussion while conditions worsen.'",
+          "illustrationDescription": "Make decisions transparently. "
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Monitor every person for: withdrawal, excessive silence, refusal to eat/drink, irrational behavior.",
+          "helpDetail": "These are signs of psychological breakdown. Intervene early — assign the person a meaningful task. Human connection and purpose reverse the spiral.",
+          "illustrationDescription": "Monitor every person for: with"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Never show despair to the group. Process your emotions privately, then present a calm, steady front.",
+          "helpDetail": "The leader's emotional state is contagious. If you project calm confidence, others absorb it. If you display panic, it spreads instantly.",
+          "illustrationDescription": "Never show despair to the grou"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-sensory-deprivation-mgmt",
+      "name": "Sensory Deprivation Management",
+      "subtitle": "Cope with isolation in snow caves or dark environments",
+      "category": "Mental Resilience",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the symptoms: after 24-48 hours in dark, silent environments (like a snow cave), the brain starts hallucinating.",
+          "helpDetail": "Without sensory input, the brain manufactures its own. You may hear voices, music, or see phantom shapes. This is normal, not insanity.",
+          "illustrationDescription": "Recognize the symptoms: after "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create artificial routine. Tap a rhythm on your leg, count seconds, recite poems or songs aloud.",
+          "helpDetail": "Providing the brain with structured, self-generated sensory input prevents it from creating disordered hallucinations.",
+          "illustrationDescription": "Create artificial routine. Tap"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Engage in detailed visualization. Mentally walk through every room of your house, naming every object.",
+          "helpDetail": "Active visualization requires intense cognitive focus, keeping the logical parts of the brain engaged and suppressing the panicked/primitive parts.",
+          "illustrationDescription": "Engage in detailed visualizati"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Perform physical isometrics. Press your hands together as hard as you can. Flex and release leg muscles.",
+          "helpDetail": "Proprioception (the sense of where your body is in space) degrades in the dark. Muscle tension sends strong signals to the brain that you exist in a physical space.",
+          "illustrationDescription": "Perform physical isometrics. P"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Talk aloud. Explain your situation, your plans, and your feelings to an imaginary companion or yourself.",
+          "helpDetail": "Hearing your own voice breaks the silence and forces you to articulate thoughts logically rather than letting them spiral into panic.",
+          "illustrationDescription": "Talk aloud. Explain your situa"
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "psych-fear-vs-panic",
+      "name": "Fear vs. Panic Protocol",
+      "subtitle": "Convert paralyzing panic into productive fear",
+      "category": "Emotional Management",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Acknowledge the difference: Fear is a survival tool that heightens senses. Panic is a loss of rational control.",
+          "helpDetail": "Fear tells you 'this is dangerous, be careful'. Panic tells you 'run blindly'. Accept the fear; reject the panic.",
+          "illustrationDescription": "Acknowledge the difference: Fe"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Identify panic somatic markers: tunnel vision, hyperventilation, trembling, inability to process instructions.",
+          "helpDetail": "When you notice these physical signs, recognize that your prefrontal cortex (logic center) is shutting down. You must intervene immediately.",
+          "illustrationDescription": "Identify panic somatic markers"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Execute a physical interrupter: splash cold water on your face, bite your lip, snap a rubber band on your wrist.",
+          "helpDetail": "A sharp physical sensation forces the brain to process a new, immediate input, snapping it out of the escalating panic loop.",
+          "illustrationDescription": "Execute a physical interrupter"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Apply the STOP acronym: Stop moving. Take a breath. Observe your surroundings. Plan your next action.",
+          "helpDetail": "Forcing yourself to physically stop prevents the common panic response of fleeing into worse danger (e.g., running off a cliff in the dark).",
+          "illustrationDescription": "Apply the STOP acronym: Stop m"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Assign yourself ONE micro-task. 'I will pick up that stick.' 'I will tie my shoe.' Complete it.",
+          "helpDetail": "Panic overwhelms the brain with the magnitude of the situation. A micro-task demands focus on a solvable problem, jumpstarting logical thought.",
+          "illustrationDescription": "Assign yourself ONE micro-task"
+        }
+      ],
+      "sourceName": "NOLS Wilderness Medicine",
+      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+    },
+    {
+      "id": "psych-sleep-deprivation-coping",
+      "name": "Sleep Deprivation Coping",
+      "subtitle": "Maintain decision-making ability under severe fatigue",
+      "category": "Physical-Mental",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Understand the timeline: at 24 hours awake, cognitive impairment equals a 0.10 BAC (legally drunk).",
+          "helpDetail": "You cannot trust your judgment when severely fatigued. Your brain will convince you that terrible ideas (like crossing a frozen river at night) are safe.",
+          "illustrationDescription": "Understand the timeline: at 24"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Implement the 2-Person Rule for all critical decisions. No one decides to move, cross water, or abandon gear alone.",
+          "helpDetail": "A fatigued brain fails to see obvious risks. A second pair of eyes, even tired ones, often catches what the first missed. If alone, delay the decision.",
+          "illustrationDescription": "Implement the 2-Person Rule fo"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use caffeine or stimulants strategically, not constantly. Save them for when physical movement is mandatory.",
+          "helpDetail": "Constant caffeine use masks exhaustion until you crash completely. Use it only when you must navigate a hazard, then allow the crash to happen when safe.",
+          "illustrationDescription": "Use caffeine or stimulants str"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Take 'combat naps.' A 20-minute nap clears adenosine (sleep pressure chemical) from the brain, restoring temporary function.",
+          "helpDetail": "Any longer than 30 minutes risks entering deep sleep, causing severe sleep inertia (grogginess) upon waking. Set a hard alarm.",
+          "illustrationDescription": "Take 'combat naps.' A 20-minut"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Recognize microsleeps. If you catch your head nodding or realize you don't remember the last 10 seconds of walking, STOP.",
+          "helpDetail": "Microsleeps mean the brain is forcing shutdown. Continuing to move, especially near hazards, is suddenly lethal. You must rest immediately.",
+          "illustrationDescription": "Recognize microsleeps. If you "
+        }
+      ],
+      "sourceName": "NOLS Wilderness Medicine",
+      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+    },
+    {
+      "id": "psych-morale-food-psychology",
+      "name": "Food Psychology",
+      "subtitle": "Use rationing and food rituals to maintain hope",
+      "category": "Morale",
+      "difficulty": 1,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Do NOT eat all your food on day one. Establish rationing immediately, even if rescue seems imminent.",
+          "helpDetail": "The psychological blow of running out of food completely destroys morale. Having a tiny ration remaining provides massive psychological comfort.",
+          "illustrationDescription": "Do NOT eat all your food on da"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create a dining ritual. Eat at specific times, prepare the food deliberately, and eat it slowly.",
+          "helpDetail": "Survival strips away humanity. Rituals reinforce civilization and control. Do not eat while walking; sit down and make a 'meal' of it.",
+          "illustrationDescription": "Create a dining ritual. Eat at"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Divide rations into physical portions representing days. Seeing the plan visually reduces anxiety about starving.",
+          "helpDetail": "Make piles or mark the container. When anxiety flares, look at the physical proof that you have enough calories to survive another week.",
+          "illustrationDescription": "Divide rations into physical p"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Save the best-tasting or highest-energy item for the hardest moment or the worst weather.",
+          "helpDetail": "A piece of chocolate or hard candy kept in reserve acts as a psychological lifeline. Knowing it's there gives strength; eating it breaks despair.",
+          "illustrationDescription": "Save the best-tasting or highe"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Forage for 'filler' — tea from pine needles, boiled roots. Hot liquids provide the psychological sensation of a meal.",
+          "helpDetail": "A hot drink expands the stomach and provides warmth. The brain registers a hot cup of weak tea as a massive comfort compared to sipping cold water.",
+          "illustrationDescription": "Forage for 'filler' — tea from"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-survivor-guilt-management",
+      "name": "Survivor Guilt Management",
+      "subtitle": "Process grief while continuing to survive in group disasters",
+      "category": "Resilience",
+      "difficulty": 3,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize survivor guilt early. If you survived a crash or event that others didn't, the brain often defaults to self-blame.",
+          "helpDetail": "Thoughts of 'I should have done more' or 'Why me?' are universally common. They are a trauma response, not an objective truth.",
+          "illustrationDescription": "Recognize survivor guilt early"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Compartmentalize the grief until safety is secured. Box the emotions up verbally: 'I will mourn them when I am safe.'",
+          "helpDetail": "In the immediate survival phase, deep grief is a liability. You need adrenaline and focus. You must defer the emotional processing.",
+          "illustrationDescription": "Compartmentalize the grief unt"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Reframe survival as an obligation to the deceased. Their death makes your survival more important, not less.",
+          "helpDetail": "Shift the thought from 'I shouldn't be alive' to 'I must stay alive to tell their story.' Give your survival a purpose tied to them.",
+          "illustrationDescription": "Reframe survival as an obligat"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Perform a brief, structured ritual. A 1-minute moment of silence, or placing a rock marker.",
+          "helpDetail": "Allowing a tiny, controlled release of grief prevents it from building up and exploding as panic. A brief ritual acknowledges the loss without surrendering to it.",
+          "illustrationDescription": "Perform a brief, structured ri"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Focus obsessively on the living. Direct all your energy to helping injured or panicked survivors.",
+          "helpDetail": "Action destroys anxiety and guilt. Serving others forces your brain outward, preventing the inward spiral of despair.",
+          "illustrationDescription": "Focus obsessively on the livin"
+        }
+      ],
+      "sourceName": "NOLS Wilderness Medicine",
+      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+    },
+    {
+      "id": "psych-decision-fatigue-halt",
+      "name": "Combating Decision Fatigue",
+      "subtitle": "When to stop making choices that could kill you",
+      "category": "Mental",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the signs of decision fatigue.",
+          "helpDetail": "Are you acting impulsively? Are you taking shortcuts that violate safety rules? Do you feel incapable of deciding between two simple options? You are fatigued.",
+          "illustrationDescription": "Recognize the signs of decisio"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Apply the HALT protocol.",
+          "helpDetail": "Ask yourself: Am I Hungry, Angry, Lonely, or Tired? If you have two or more of these, your judgment is compromised.",
+          "illustrationDescription": "Apply the HALT protocol."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stop moving immediately.",
+          "helpDetail": "Do not choose a route, do not attempt to cross a river, do not decide to abandon your gear. Sit down.",
+          "illustrationDescription": "Stop moving immediately."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Consume calories and water.",
+          "helpDetail": "The brain runs on glucose. When blood sugar drops, the prefrontal cortex (responsible for complex planning) shuts down. Eat sugar if you have it.",
+          "illustrationDescription": "Consume calories and water."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Defer non-critical decisions until after sleep.",
+          "helpDetail": "If a decision doesn't need to be made right this second to save your life, sleep on it. The woods will look different in the morning.",
+          "illustrationDescription": "Defer non-critical decisions u"
+        }
+      ],
+      "sourceName": "NOLS Wilderness Medicine",
+      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+    },
+    {
+      "id": "psych-sensory-deprivation",
+      "name": "Managing Sensory Deprivation",
+      "subtitle": "Surviving total darkness or whiteouts without losing your mind",
+      "category": "Mental",
+      "difficulty": 3,
+      "estimatedTime": "Always On",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Sensory deprivation occurs in dark caves, massive snow whiteouts, or dense jungle nights.",
+          "helpDetail": "Your brain begins to hallucinate audio and visuals to fill the void. This is normal, do not panic.",
+          "illustrationDescription": "Sensory deprivation occurs in "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Ground yourself physically.",
+          "helpDetail": "Keep your hands on solid objects. Trace the outline of your gear. Physical sensation overrides visual hallucinations.",
+          "illustrationDescription": "Ground yourself physically."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create your own rhythm.",
+          "helpDetail": "Tap your boots, hum a song, or count aloud. You must generate your own sensory input to structure your perception of time.",
+          "illustrationDescription": "Create your own rhythm."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Focus on entirely mundane, detailed memories.",
+          "helpDetail": "Reconstruct the exact floor plan of your childhood home. Recall every line of dialogue from a movie. Keep the cognitive brain engaged.",
+          "illustrationDescription": "Focus on entirely mundane, det"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Do not attempt to navigate.",
+          "helpDetail": "Moving without sensory input guarantees injury (walking off a cliff or in circles). Hunker down, stay warm, and wait for the environment to change.",
+          "illustrationDescription": "Do not attempt to navigate."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "psych-conflict-deescalation",
+      "name": "Group Conflict De-escalation",
+      "subtitle": "Preserving group unity in high-stress survival scenarios",
+      "category": "Leadership",
+      "difficulty": 4,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize that fear manifests as anger.",
+          "helpDetail": "When people are terrified, starving, and exhausted, they snap at each other. The anger is rarely about the argument; it's about the lack of control.",
+          "illustrationDescription": "Recognize that fear manifests "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Separate the conflicting parties physically.",
+          "helpDetail": "Give them a direct, physical task. 'John, fetch firewood. Mark, boil water.' Idle time breeds resentment.",
+          "illustrationDescription": "Separate the conflicting parti"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Acknowledge the fear explicitly.",
+          "helpDetail": "Say it out loud: 'We are all scared, we are all tired, and fighting is going to get us killed.' Bringing the subtext to the surface diffuses it.",
+          "illustrationDescription": "Acknowledge the fear explicitl"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Never take sides in an emotional dispute.",
+          "helpDetail": "Be a neutral arbiter focusing entirely on the objective: getting rescued. 'It doesn't matter who lost the compass, what matters is how we stay warm tonight.'",
+          "illustrationDescription": "Never take sides in an emotion"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Enforce strict routine.",
+          "helpDetail": "Structure eliminates bickering over 'what to do next'. Assign permanent roles (Firemaster, Water Collector, Shelter Builder) so everyone has ownership.",
+          "illustrationDescription": "Enforce strict routine."
+        }
+      ],
+      "sourceName": "NOLS Wilderness Medicine",
+      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+    },
+    {
+      "id": "psych-grief-triage",
+      "name": "Immediate Grief Triage",
+      "subtitle": "Managing shock after the sudden loss of a group member",
+      "category": "Mental",
+      "difficulty": 5,
+      "estimatedTime": "Always On",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Accept the acute shock response.",
+          "helpDetail": "Survivors may scream, go completely numb, or vomit. Give them 15 to 30 minutes to process the initial endocrine rush. Ensure they are physically safe.",
+          "illustrationDescription": "Accept the acute shock respons"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Prevent irrational actions.",
+          "helpDetail": "People in acute grief may attempt to stay with the body in a dangerous area, or abandon gear in despair. You must take firm, directive control of their actions.",
+          "illustrationDescription": "Prevent irrational actions."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Focus on the living.",
+          "helpDetail": "State the objective clearly: 'We must survive so we can tell their family what happened. If we die, no one will know.' This provides a massive burst of purpose.",
+          "illustrationDescription": "Focus on the living."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Assign them a mechanical, repetitive task.",
+          "helpDetail": "The brain needs a distraction from the trauma loop. Give them something to sort, pack, or build that requires manual dexterity but low cognition.",
+          "illustrationDescription": "Assign them a mechanical, repe"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Do not offer false platitudes.",
+          "helpDetail": "Do not say 'it's going to be okay.' Acknowledge the horror. Say 'This is terrible, but we are leaving now.' Save the deep processing for after rescue.",
+          "illustrationDescription": "Do not offer false platitudes."
+        }
+      ],
+      "sourceName": "NOLS Wilderness Medicine",
+      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+    },
+    {
+      "id": "psych-panic-stop-protocol",
+      "name": "STOP Panic Protocol",
+      "subtitle": "A memorized sequence to interrupt full-blown panic attacks",
+      "category": "Mental",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "S — SIT DOWN.",
+          "helpDetail": "The physical act of sitting breaks the flight response. Your body cannot simultaneously flee and rest.",
+          "illustrationDescription": "S — SIT DOWN."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "T — THINK.",
+          "helpDetail": "What is the actual, immediate threat? Not the imagined future catastrophe. Right now, are you in danger?",
+          "illustrationDescription": "T — THINK."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "O — OBSERVE.",
+          "helpDetail": "Look around deliberately. Name 5 things you can see. Touch 4 things. Listen for 3 sounds. This forces sensory engagement with reality.",
+          "illustrationDescription": "O — OBSERVE."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "P — PLAN.",
+          "helpDetail": "Pick ONE task. Not three. Not the whole rescue. One single concrete task: gather firewood, filter water, build a signal.",
+          "illustrationDescription": "P — PLAN."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Execute the single task.",
+          "helpDetail": "Completion of one task provides a massive dopamine hit that breaks the anxiety spiral and gives you momentum for the next task.",
+          "illustrationDescription": "Execute the single task."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "psych-night-fear",
+      "name": "Coping with Darkness and Night Fear",
+      "subtitle": "Managing primal terror when alone in complete darkness",
+      "category": "Mental",
+      "difficulty": 2,
+      "estimatedTime": "Always On",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Darkness triggers ancient predator-response circuitry in the amygdala.",
+          "helpDetail": "Every sound becomes a threat. Your brain is doing exactly what evolution designed it to do. The fear is normal.",
+          "illustrationDescription": "Darkness triggers ancient pred"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build a fire.",
+          "helpDetail": "Fire is the single most powerful psychological tool in survival. The light, warmth, and crackling sound directly suppress the amygdala's fear response.",
+          "illustrationDescription": "Build a fire."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "If you cannot build a fire, create tactile comfort.",
+          "helpDetail": "Wrap yourself tightly in a blanket or sleeping bag. The sensation of being enclosed (like swaddling) reduces cortisol.",
+          "illustrationDescription": "If you cannot build a fire, cr"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Identify every sound deliberately.",
+          "helpDetail": "That crashing noise? Likely a raccoon. That howl? Coyotes, which are harmless to adult humans. Naming the sound defuses the fear.",
+          "illustrationDescription": "Identify every sound deliberat"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Remind yourself: most predators avoid humans.",
+          "helpDetail": "Bears, wolves, and cougars almost universally flee from human scent. You are more dangerous to them than they are to you.",
+          "illustrationDescription": "Remind yourself: most predator"
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "psych-survival-priorities",
+      "name": "The Survival Priority Pyramid",
+      "subtitle": "What to focus on first when everything goes wrong",
+      "category": "Planning",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "IMMEDIATE THREATS (seconds): Stop bleeding, escape fire/flood, remove from avalanche debris.",
+          "helpDetail": "If you are actively dying, fix that first. Everything else is irrelevant.",
+          "illustrationDescription": "IMMEDIATE THREATS (seconds): S"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "SHELTER (hours): Exposure kills faster than dehydration or starvation.",
+          "helpDetail": "In cold or wet environments, hypothermia can kill in 3 hours. Build or find shelter.",
+          "illustrationDescription": "SHELTER (hours): Exposure kill"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "WATER (days): Dehydration kills in 3 days.",
+          "helpDetail": "Find, collect, or purify water after shelter is established.",
+          "illustrationDescription": "WATER (days): Dehydration kill"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "FIRE (variable): Fire provides warmth, water purification, signaling, and morale.",
+          "helpDetail": "In cold/wet environments, fire may be Priority #2 or even #1.",
+          "illustrationDescription": "FIRE (variable): Fire provides"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "FOOD (weeks): Starvation takes 3+ weeks to kill a healthy adult.",
+          "helpDetail": "Food is the LOWEST priority in the first 72 hours. Do not waste critical energy foraging when you need shelter and water.",
+          "illustrationDescription": "FOOD (weeks): Starvation takes"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-will-to-survive",
+      "name": "The Will to Survive",
+      "subtitle": "Why mental attitude is the single greatest survival factor",
+      "category": "Mental",
+      "difficulty": 1,
+      "estimatedTime": "Always On",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Survival studies consistently show that physical fitness, gear, and training are secondary to mental attitude.",
+          "helpDetail": "People with minimal skills but iron will survive. Highly trained people who give up die.",
+          "illustrationDescription": "Survival studies consistently "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Set micro-goals.",
+          "helpDetail": "Do not think about rescue in 5 days. Think about the next 30 minutes. Get through THIS hour. Then the next one.",
+          "illustrationDescription": "Set micro-goals."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Find a reason to survive.",
+          "helpDetail": "Family, children, unfinished business, pure spite — anything that gives you a reason to keep fighting when your body wants to quit.",
+          "illustrationDescription": "Find a reason to survive."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Acceptance is not the same as giving up.",
+          "helpDetail": "Accept your situation truthfully ('I am lost, cold, and alone') without surrendering ('I am going to die'). Acceptance enables action.",
+          "illustrationDescription": "Acceptance is not the same as "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "People who die with the ability to survive simply stopped trying.",
+          "helpDetail": "The difference between life and death in every survival situation study is the decision to keep going.",
+          "illustrationDescription": "People who die with the abilit"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "psych-combat-breathing-tactical",
+      "category": "Psychology",
+      "name": "Autonomic Reset (Combat Breathing)",
+      "subtitle": "Down-regulating the sympathetic nervous system",
+      "difficulty": 3,
+      "isCritical": true,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Inhale deeply for 4 seconds.",
+          "helpDetail": "Breathe in slowly through your nose, expanding your diaphragm (stomach area), not your upper chest."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Hold full lungs for 4 seconds.",
+          "helpDetail": "Retain the breath with deliberate control. Feel your heartbeat slowing down."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Exhale slowly for 4 seconds.",
+          "helpDetail": "Release the air smoothly through your mouth or nose, letting physical tension drop from your shoulders."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Hold empty lungs for 4 seconds.",
+          "helpDetail": "Suspend breathing while empty. The CO2 buildup naturally triggers an emergency reset in your brain stem, halting adrenaline production."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Repeat 4 cycles.",
+          "helpDetail": "Do this a minimum of 4 times until the tunnel vision breaks and logical thinking returns."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-tactical-breathing-extended",
+      "category": "Stress Control",
+      "name": "Tactical Breathing (Extended Protocol)",
+      "subtitle": "Advanced breathing for sustained high-stress operations",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "4-count box breathing for initial control",
+          "helpDetail": "Inhale 4, hold 4, exhale 4, hold 4. Minimum 4 cycles."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Transition to 4-7-8 pattern",
+          "helpDetail": "Inhale 4, hold 7, exhale 8. The extended exhale activates the parasympathetic system."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Add belly breathing awareness",
+          "helpDetail": "Place hand on stomach. It should rise before your chest."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Use as a pre-performance ritual",
+          "helpDetail": "Before high-stakes decisions, dangerous tasks, or confrontations."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-cognitive-offloading",
+      "category": "Decision Making",
+      "name": "Cognitive Offloading",
+      "subtitle": "Using external tools to reduce mental load",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Write everything down",
+          "helpDetail": "In survival, memory is degraded by stress, cold, hunger, and sleep deprivation."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use the ground as a whiteboard",
+          "helpDetail": "Draw maps, lists, plans in dirt or snow."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create physical checklists",
+          "helpDetail": "Tie knots in a cord for each task. Untie as completed."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Delegate tasks to group members",
+          "helpDetail": "Distributing cognitive load prevents decision fatigue in the leader."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-stress-inoculation",
+      "category": "Mental Preparation",
+      "name": "Stress Inoculation Training",
+      "subtitle": "Pre-exposure to build stress tolerance",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Visualize worst-case scenarios",
+          "helpDetail": "Mental rehearsal of emergency responses reduces panic when they occur."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Practice skills under artificial stress",
+          "helpDetail": "Cold water, physical exhaustion, sleep deprivation during training."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use self-talk scripts",
+          "helpDetail": "Pre-planned phrases: 'I've trained for this. I know what to do. Focus on the next step.'"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Expose gradually to fear triggers",
+          "helpDetail": "Heights, water, darkness, confinement. Controlled exposure builds tolerance."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-grief-field-management",
+      "category": "Emotional Support",
+      "name": "Field Grief Management",
+      "subtitle": "Processing loss in a survival scenario",
+      "difficulty": 3,
+      "isCritical": true,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Acknowledge the loss plainly",
+          "helpDetail": "Denial costs energy. State the reality clearly to yourself and the group."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Allow 15 minutes for emotion",
+          "helpDetail": "Set a time boundary. Grief is necessary but unlimited grief is fatal in survival."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Redirect to immediate needs",
+          "helpDetail": "After the 15 minutes: 'What do we need to do RIGHT NOW to stay alive?'"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Create a memorial marker if possible",
+          "helpDetail": "This gives closure and purpose. Promise yourself a proper mourning later."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-hostage-survival",
+      "category": "Captivity",
+      "name": "Hostage Survival Psychology",
+      "subtitle": "Mental strategies during captivity or abduction",
+      "difficulty": 3,
+      "isCritical": true,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stay calm in the first moments",
+          "helpDetail": "The abduction phase is the most dangerous. Compliance reduces harm."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Humanize yourself to captors",
+          "helpDetail": "Share your name, family details. Make yourself a person, not an object."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain a routine",
+          "helpDetail": "Exercise, mental games, time tracking. Structure prevents psychological collapse."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Observe and memorize",
+          "helpDetail": "Route, sounds, smells, captor habits, routines. This information aids rescue or escape."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-combat-mindset-reset",
+      "category": "Performance",
+      "name": "Combat Mindset Reset",
+      "subtitle": "Transitioning between survival states of alertness",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cooper Color Code: White → Yellow → Orange → Red → Black",
+          "helpDetail": "White = unaware. Yellow = relaxed alert. Orange = specific threat. Red = fight."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Train yourself to live in Yellow",
+          "helpDetail": "Aware without anxiety. Scanning without paranoia."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Practice transition drills",
+          "helpDetail": "From Yellow to Orange to Red should be automatic, not requiring conscious thought."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Avoid Black (panic freeze)",
+          "helpDetail": "If you reach Black, you've lost. Box breathing pulls you back to Red/Orange."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-learned-helplessness-counter",
+      "category": "Resilience",
+      "name": "Countering Learned Helplessness",
+      "subtitle": "Breaking the cycle of passive surrender",
+      "difficulty": 3,
+      "isCritical": true,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify helplessness thoughts",
+          "helpDetail": "'Nothing I do matters' / 'I can't change this' / 'Why bother trying.'"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Force micro-victories",
+          "helpDetail": "Complete the smallest possible task: organize your gear, clean your nails, fix something minor."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Increase task complexity gradually",
+          "helpDetail": "Each completed task proves your agency. Stack small wins into momentum."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Assign yourself daily objectives",
+          "helpDetail": "Even arbitrary goals provide purpose. Purpose prevents surrender."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-night-watch-protocol",
+      "category": "Sleep Management",
+      "name": "Night Watch Protocol",
+      "subtitle": "Rotating watch schedule for group survival",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Divide night into equal shifts",
+          "helpDetail": "Everyone gets equal sleep. Leader takes the worst shift to demonstrate commitment."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Each shift: 2 hours maximum",
+          "helpDetail": "Longer shifts cause dangerous drowsiness."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Use a buddy system for accountability",
+          "helpDetail": "Two people on watch prevents both from falling asleep."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Brief the next watch before sleeping",
+          "helpDetail": "Transfer status: fire condition, weather changes, sounds heard, threats observed."
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-managing-children-crisis",
+      "name": "Managing Children in a Crisis",
+      "subtitle": "Age-appropriate crisis communication and task assignment",
+      "category": "Children",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Be honest but age-appropriate: 'We need to camp outside tonight. I need your help.'",
+          "helpDetail": "Children sense lying. Dishonesty increases their anxiety. Frame challenges as adventures with tasks.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assign them age-appropriate jobs: gathering tinder, sorting supplies, water collection.",
+          "helpDetail": "Purpose combats fear. Even a 4-year-old can stack sticks or fill a bottle.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain routines: meals at set times, songs before bed, morning 'briefings'.",
+          "helpDetail": "Routine provides psychological stability. The content doesn't matter — the pattern does.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Physical comfort is emotional comfort: keep them warm, dry, and fed first.",
+          "helpDetail": "A well-fed, warm child copes dramatically better with stress than a cold, hungry one. Prioritize their physical needs.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-long-term-isolation",
+      "name": "Long-Term Solo Isolation Survival",
+      "subtitle": "Maintain sanity over weeks or months alone",
+      "category": "Long-Term",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create and maintain a daily schedule — structure prevents psychological deterioration.",
+          "helpDetail": "Wake, exercise, work, eat, rest — at the same times daily. Without structure, time becomes meaningless and depression follows.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Talk out loud. Name your tools. Narrate your activities.",
+          "helpDetail": "Vocal expression maintains language capability and provides social simulation. Many solo survivors credit this with maintaining sanity.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Keep a journal or calendar — count days, document observations, plan.",
+          "helpDetail": "Marking time gives a sense of progress. Documenting observations gives purpose. Planning gives hope.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Exercise daily — it's the most effective anti-depressant in any setting.",
+          "helpDetail": "Physical exertion produces endorphins, maintains fitness for rescue opportunities, and occupies the mind constructively.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-captivity-survival",
+      "name": "Hostage/Captivity Survival Psychology",
+      "subtitle": "Maintain will and opportunities for escape or rescue",
+      "category": "Captivity",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "In the first 15 minutes: comply, observe, and memorize details.",
+          "helpDetail": "Initial phase is most dangerous. Captors are nervous and reactive. Be non-threatening. Memorize: faces, names, locations, routines.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Humanize yourself: share your name, talk about your children/family.",
+          "helpDetail": "Captors find it harder to harm someone they know as a person. This is documented survival psychology.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain physical fitness: exercise in confined space (isometrics, squats, push-ups).",
+          "helpDetail": "Fitness = readiness for escape opportunity. Also combats depression and learned helplessness.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Watch for patterns in guard schedules and look for escape opportunities.",
+          "helpDetail": "Never attempt escape unless conditions are favorable. Failed escapes result in worse treatment. Wait for the right moment.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-night-anxiety-management",
+      "name": "Night Anxiety Management",
+      "subtitle": "Handle nighttime fear and hypervigilance in wilderness",
+      "category": "Fear Management",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Most noises at night are small animals — your brain magnifies threats in darkness.",
+          "helpDetail": "Mice, raccoons, deer, and owls account for 99% of nighttime sounds. Your amygdala assigns danger to everything in the dark.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Orient yourself: know the location of your tools, fire, water, and exit.",
+          "helpDetail": "Uncertainty amplifies fear. Knowing exactly where everything is reduces it dramatically.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain a small fire or light source. Complete darkness maximizes fear response.",
+          "helpDetail": "Even a single coal or small candle provides enough light to orient and reduces cortisol levels.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "4-7-8 breathing: inhale 4 seconds, hold 7, exhale 8. Repeat 4 cycles.",
+          "helpDetail": "This activates the parasympathetic nervous system and physically reduces heart rate and anxiety. Works within 2 minutes.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-stockholm-prevention",
+      "name": "Stockholm Syndrome Awareness",
+      "subtitle": "Recognize captor-bonding and maintain rescue-oriented mindset",
+      "category": "Captivity",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Understand: emotional bonding with captors is a normal psychological survival mechanism.",
+          "helpDetail": "It's not weakness. It's your brain trying to survive.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Counter it: internally maintain your pre-capture identity, values, and rescue goals.",
+          "helpDetail": "Cooperate outwardly while maintaining inner resolve.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Remember: compliance is not agreement. Acting friendly is not becoming friends.",
+          "helpDetail": "Tactical behavior adaptation ≠ Stockholm syndrome.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Keep a mental list of captor behaviors and routines for potential future testimony.",
+          "helpDetail": "Observing objectively maintains emotional distance.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-morale-boosting",
+      "name": "Group Morale Building Techniques",
+      "subtitle": "Prevent group despair through structured activities",
+      "category": "Group Psychology",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Share a meal together daily — even if the meal is minimal.",
+          "helpDetail": "Communal eating is a fundamental human bonding activity. It maintains group cohesion.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Tell stories at night — structured group entertainment prevents isolation.",
+          "helpDetail": "Stories, jokes, and shared experiences build psychological resilience.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Celebrate small victories: first fire, clean water, shelter complete.",
+          "helpDetail": "Acknowledging progress counters the feeling of hopelessness.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Assign everyone a role — purpose is the strongest anti-depressant.",
+          "helpDetail": "People without purpose deteriorate fastest. Everyone needs a job, no matter how small.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-rule-of-threes",
+      "name": "The Rule of Threes — Priority Framework",
+      "subtitle": "Set survival priorities correctly every time",
+      "category": "Decision Making",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "3 minutes without AIR: clear airway, control severe bleeding.",
+          "helpDetail": "First priority always. If you can't breathe, nothing else matters.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "3 hours without SHELTER in harsh conditions: get out of wind, rain, cold, or extreme heat.",
+          "helpDetail": "Exposure kills faster than dehydration or starvation. Build/find shelter BEFORE everything else.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "3 days without WATER: find, collect, purify water before food.",
+          "helpDetail": "Dehydration degrades decision-making within 24 hours.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "3 weeks without FOOD: food is last priority.",
+          "helpDetail": "Your body has weeks of stored energy. Don't waste early survival hours on food — spend them on shelter and water.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-panic-management",
+      "name": "Controlling Panic Response — STOP Protocol",
+      "subtitle": "Break the panic cycle before it kills you",
+      "category": "Stress Response",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "S — SIT DOWN. Physical action breaks the panic loop.",
+          "helpDetail": "Sitting reduces energy expenditure, prevents wandering, and forces a pause.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "T — THINK. Assess your actual situation, not your fear.",
+          "helpDetail": "Am I injured? Do I have water? Can anyone see me? What resources do I have?",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "O — OBSERVE. Look around with purpose. What can you use? Where are you?",
+          "helpDetail": "Shift from emotional to analytical thinking. Name objects you see — this engages the prefrontal cortex.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "P — PLAN. Make a simple, achievable plan with 3 steps maximum.",
+          "helpDetail": "Small immediate goals: build a fire, find water, create a signal. Action without a plan is panic. Plan without action is denial.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-leadership-small-group",
+      "name": "Small Group Survival Leadership",
+      "subtitle": "Lead a group effectively when lives are at stake",
+      "category": "Group Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Establish leadership immediately — democratic decision-making kills in emergencies.",
+          "helpDetail": "One person decides. They can delegate and consult, but someone must have final authority.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Communicate the plan simply. Repeat it. Ask for confirmation.",
+          "helpDetail": "Stress reduces comprehension. Say it twice. Ask them to repeat it back.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Assign specific tasks to specific people. 'Everyone help' means nobody helps.",
+          "helpDetail": "Name the person, name the task, name the deadline. 'John: build a fire here within 30 minutes.'",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Make decisions with available information — waiting for perfect information means waiting until death.",
+          "helpDetail": "80% solution now beats 100% solution too late. Decide, act, adjust.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-survival-circle",
+      "name": "The Survival Circle — Managing Group Dynamics",
+      "subtitle": "Establish communication and decision-making protocols",
+      "category": "Group Psychology",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "At the start of any survival situation: gather everyone in a circle face-to-face.",
+          "helpDetail": "Physical circle eliminates hierarchy, promotes inclusion, and allows eye contact with everyone.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Each person reports: name, any injuries, special skills, inventory of personal gear.",
+          "helpDetail": "This creates a skills-and-resources database. You may discover a nurse, mechanic, or navigation expert.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Establish three things: leader, immediate priorities, individual assignments.",
+          "helpDetail": "Leader should be the most experienced calm person — not necessarily the loudest or highest rank.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Schedule regular circle check-ins: morning briefing, evening debrief.",
+          "helpDetail": "Consistent communication prevents rumor, manages morale, and catches problems early. People excluded from information become anxious and disruptive.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-coping-with-injury",
+      "name": "Psychological Coping with Personal Injury",
+      "subtitle": "Manage the mental impact of being injured in a survival situation",
+      "category": "Stress Response",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Acknowledge the injury honestly to yourself — denial delays adaptation.",
+          "helpDetail": "Take inventory: what CAN you still do? Focus on ability, not disability.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Adjust your role: if you can't walk, you can still process food, maintain fire, craft tools.",
+          "helpDetail": "Injured people who maintain a role recover psychologically faster than those who are sidelined.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pain management through distraction: counting, singing, detailed observation of surroundings.",
+          "helpDetail": "Mental engagement reduces perceived pain by up to 40% (proven in clinical studies).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Fear of being a burden is the most dangerous psychological effect of injury.",
+          "helpDetail": "Address this directly: you ARE useful. Dead weight doesn't exist in survival — everyone has skills to contribute regardless of physical state.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-fear-inventory",
+      "name": "Survival Fear Inventory",
+      "subtitle": "Separate real threats from imagined ones",
+      "category": "Fear Management",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "List every fear you have RIGHT NOW — out loud or on paper.",
+          "helpDetail": "'I'm afraid of bears. I'm afraid of running out of water. I'm afraid of the dark.'",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Categorize: REAL threat (actionable) vs IMAGINED threat (not actionable right now).",
+          "helpDetail": "'Running out of water' = real, actionable. 'Bear attack while sleeping' = low probability, partially mitigatable.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "For each REAL threat: identify ONE specific action you can take.",
+          "helpDetail": "Low water → build a solar still. Cold → build a fire. Injury → clean and bandage.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "For IMAGINED threats: acknowledge them and consciously set them aside.",
+          "helpDetail": "'I notice I'm afraid of X. I'm going to focus on Y instead because Y is actionable.' This is the foundation of cognitive behavioral therapy adapted for field use.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-sensory-grounding",
+      "name": "5-4-3-2-1 Sensory Grounding",
+      "subtitle": "Interrupt panic attacks and dissociation using five senses",
+      "category": "Stress Response",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "5 things you can SEE: name them out loud.",
+          "helpDetail": "'Rock. Tree. Cloud. Boot. Smoke.' — forces visual cortex engagement.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "4 things you can TOUCH: describe texture.",
+          "helpDetail": "'Rough bark. Cold water. Smooth rock. Soft moss.' — tactile input anchors you in the present.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "3 things you can HEAR: identify source.",
+          "helpDetail": "'Wind in trees. Water over rocks. Bird call.' — auditory engagement overrides anxiety circuits.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "2 things you can SMELL, 1 you can TASTE.",
+          "helpDetail": "Engaging all five senses simultaneously makes it neurologically impossible to maintain a panic state. This is emergency-room-level technique.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training (SERE) Manual",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-sere-pattern-of-survival",
+      "name": "The SERE Pattern of Survival",
+      "subtitle": "Prioritization framework under extreme stress",
+      "category": "Psychology",
+      "difficulty": 1,
+      "estimatedTime": "immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Stop and assess your immediate situation (S.T.O.P. methodology).",
+          "helpDetail": "Stop, Think, Observe, Plan. The first 24 hours of isolation are the most deadly due to panic, shock, and poor immediate decision making.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Address First Aid and immediate, life-threatening environment issues.",
+          "helpDetail": "Treat massive bleeding, stabilize your position if falling/drowning, and secure immediate cover from extreme weather. This supersedes everything else.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Determine 'Priority of Work' based on imminent threats.",
+          "helpDetail": "Does the environment demand immediate shelter (Arctic/Desert) or can you survive 48 hours without one (Temperate)? Build the most critical missing element first.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Establish 'Will to Survive' mechanics.",
+          "helpDetail": "Focus on small, achievable, immediate tasks. The AFMAN manual notes that survivors who break tasks down into micro-steps maintain morale better than those staring at the grand objective of 'get home'.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training Manual (AFMAN 10-100)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-sere-boredom-management",
+      "name": "Managing Isolation Boredom and Apathy",
+      "subtitle": "Preventing cognitive decline during extended waiting periods",
+      "category": "Psychology",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize apathy as the silent killer.",
+          "helpDetail": "Boredom breeds apathy. Apathy breeds resignation. The USAF SERE school teaches that boredom is as lethal as cold; survivors who stop improving their situation often die of exposure just steps from safety.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Establish a strict daily routine and schedule.",
+          "helpDetail": "Assign specific times for gathering wood, improving shelter, checking signals, sleeping, and forced rest. Routine provides the brain with predictable structure and a sense of control.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Engage in deliberate 'make-work' projects.",
+          "helpDetail": "Carve tools you don't strictly need. Weave complex cordage. Build defensive perimeters. The ACT of working prevents the brain from slipping into the apathy spiral.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Utilize mental games and visualization.",
+          "helpDetail": "Calculate math problems, reconstruct movie plots chronologically, or visualize the steps of building a car engine. Engage the analytical portion of the brain to suppress the emotional/panic center.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USAF Survival Training Manual (AFMAN 10-100)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-combat-baseline",
+      "name": "Establish the Baseline",
+      "subtitle": "Combat Hunter protocol for identifying anomalies.",
+      "category": "Threat Assessment",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Observe the environment passively.",
+          "helpDetail": "Do not look for the threat immediately. Look at what is NORMAL for the environment (the baseline). How are people walking? Animals moving? What is the ambient noise level?",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Identify the anomaly.",
+          "helpDetail": "An anomaly is anything that breaks the baseline. A sudden silence in a jungle, or a person running when everyone else is walking casually.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Categorize the anomaly.",
+          "helpDetail": "Is it a 'heuristic' indicator? E.g., rigid body language, blading away from you (hiding a weapon), or target-glancing (looking directly at you, then at an exit).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "React preemptively.",
+          "helpDetail": "Do not wait for the anomaly to manifest as a direct attack. Act on the first confirmed anomaly by changing your route, taking cover, or drawing deterrence weapons.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USMC Combat Hunter MCRP 3-01B",
+      "sourceUrl": "https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899981/mcrp-3-01b/"
+    },
+    {
+      "id": "psych-coopers-colors",
+      "name": "Cooper's Color Code",
+      "subtitle": "The definitive physiological state of readiness.",
+      "category": "Psychology",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Condition White: Unaware.",
+          "helpDetail": "You are completely relaxed and unprepared. You are scrolling on your phone parsing a busy street. If attacked, you will die before your brain processes the event.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Condition Yellow: Relaxed Alert.",
+          "helpDetail": "Your head is up, parsing anomalies. You are aware of your 360-degree environment. There is no specific threat, but you are mentally prepared to engage if one appears.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Condition Orange: Specific Alert.",
+          "helpDetail": "You have identified an anomaly/threat. You are focusing on it, evaluating if it requires lethal force or evasion. Your heart rate is climbing. You are determining a specific plan of action ('If he turns down this alley, I run').",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Condition Red: Fight.",
+          "helpDetail": "The mental trigger has been flipped. The plan determined in Orange is now being executed flawlessly and violently. Lethal force or total evasion is actively occurring.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "USMC Combat Hunter MCRP 3-01B",
+      "sourceUrl": "https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899981/mcrp-3-01b/"
+    },
+    {
+      "id": "psych-the-stockdale-paradox",
+      "name": "The Stockdale Paradox",
+      "subtitle": "Balancing brutal realism with absolute faith in survival.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Acknowledge the brutal reality.",
+          "helpDetail": "Do not lie to yourself. 'I am deeply lost. I have a broken leg. I have no water.' Denying the severity of the situation leads to fatal mistakes.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Reject false hope timelines.",
+          "helpDetail": "Never say 'I will be rescued by Christmas.' When Christmas passes, the psychological crash can be lethal. Optimists die first because their hearts break when expectations fail.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain absolute faith in the endgame.",
+          "helpDetail": "You must possess the unwavering, irrational conviction that you will eventually prevail, regardless of how long it takes.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Focus on the immediate next step.",
+          "helpDetail": "Merge the brutal reality with the absolute faith by focusing ONLY on the very next action. 'I will crawl 10 feet to that shade.' Surviving minute-by-minute guarantees the endgame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-fear-management-box-breathing",
+      "name": "Box Breathing (Autonomic Down-Regulation)",
+      "subtitle": "Forcing the parasympathetic nervous system online.",
+      "category": "Psychology",
+      "difficulty": 1,
+      "estimatedTime": "4 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Acknowledge the adrenaline dump.",
+          "helpDetail": "When a threat appears, your heart spikes to 150+ BPM, fine motor skills vanish, and tunnel vision sets in. This is the sympathetic nervous system (fight or flight).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Inhale deeply for 4 seconds.",
+          "helpDetail": "Pull air entirely into the bottom of your stomach, expanding the diaphragm. Do not chest-breathe.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hold the full breath for 4 seconds.",
+          "helpDetail": "Lock the air inside. Keep your shoulders relaxed.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Exhale completely for 4 seconds, hold empty for 4.",
+          "helpDetail": "Push every ounce of air out over 4 seconds, then hold your lungs empty for 4 seconds. Repeat the 4-part cycle 4 times. This physically forces the Vagus nerve to lower your heart rate, restoring higher cognitive functions.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-isolation-compartmentalization",
+      "name": "Compartmentalization vs Isolation",
+      "subtitle": "Applying compartmentalization as a direct countermeasure to isolation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Isolation degradation curve.",
+          "helpDetail": "Sustained isolation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Compartmentalization immediately.",
+          "helpDetail": "Actively switch your mental processing over to compartmentalization. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Compartmentalization loop.",
+          "helpDetail": "Do not stop the compartmentalization process until the immediate panic or pain of the isolation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of compartmentalization is to barricade your core personality and will-to-live against the relentless assault of isolation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-isolation-rhythmic-breathing",
+      "name": "Rhythmic vs Isolation",
+      "subtitle": "Applying rhythmic breathing as a direct countermeasure to isolation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Isolation degradation curve.",
+          "helpDetail": "Sustained isolation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Rhythmic immediately.",
+          "helpDetail": "Actively switch your mental processing over to rhythmic breathing. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Rhythmic Breathing loop.",
+          "helpDetail": "Do not stop the rhythmic process until the immediate panic or pain of the isolation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of rhythmic breathing is to barricade your core personality and will-to-live against the relentless assault of isolation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-isolation-mental-mathematics",
+      "name": "Mental vs Isolation",
+      "subtitle": "Applying mental mathematics as a direct countermeasure to isolation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Isolation degradation curve.",
+          "helpDetail": "Sustained isolation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Mental immediately.",
+          "helpDetail": "Actively switch your mental processing over to mental mathematics. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Mental Mathematics loop.",
+          "helpDetail": "Do not stop the mental process until the immediate panic or pain of the isolation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of mental mathematics is to barricade your core personality and will-to-live against the relentless assault of isolation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-isolation-anger-spite-generation",
+      "name": "Anger/Spite vs Isolation",
+      "subtitle": "Applying anger/spite generation as a direct countermeasure to isolation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Isolation degradation curve.",
+          "helpDetail": "Sustained isolation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Anger/Spite immediately.",
+          "helpDetail": "Actively switch your mental processing over to anger/spite generation. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Anger/Spite Generation loop.",
+          "helpDetail": "Do not stop the anger/spite process until the immediate panic or pain of the isolation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of anger/spite generation is to barricade your core personality and will-to-live against the relentless assault of isolation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-isolation-hymn-mantra-repetition",
+      "name": "Hymn/Mantra vs Isolation",
+      "subtitle": "Applying hymn/mantra repetition as a direct countermeasure to isolation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Isolation degradation curve.",
+          "helpDetail": "Sustained isolation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Hymn/Mantra immediately.",
+          "helpDetail": "Actively switch your mental processing over to hymn/mantra repetition. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Hymn/Mantra Repetition loop.",
+          "helpDetail": "Do not stop the hymn/mantra process until the immediate panic or pain of the isolation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of hymn/mantra repetition is to barricade your core personality and will-to-live against the relentless assault of isolation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-interrogation-compartmentalization",
+      "name": "Compartmentalization vs Interrogation",
+      "subtitle": "Applying compartmentalization as a direct countermeasure to interrogation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Interrogation degradation curve.",
+          "helpDetail": "Sustained interrogation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Compartmentalization immediately.",
+          "helpDetail": "Actively switch your mental processing over to compartmentalization. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Compartmentalization loop.",
+          "helpDetail": "Do not stop the compartmentalization process until the immediate panic or pain of the interrogation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of compartmentalization is to barricade your core personality and will-to-live against the relentless assault of interrogation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-interrogation-rhythmic-breathing",
+      "name": "Rhythmic vs Interrogation",
+      "subtitle": "Applying rhythmic breathing as a direct countermeasure to interrogation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Interrogation degradation curve.",
+          "helpDetail": "Sustained interrogation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Rhythmic immediately.",
+          "helpDetail": "Actively switch your mental processing over to rhythmic breathing. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Rhythmic Breathing loop.",
+          "helpDetail": "Do not stop the rhythmic process until the immediate panic or pain of the interrogation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of rhythmic breathing is to barricade your core personality and will-to-live against the relentless assault of interrogation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-interrogation-mental-mathematics",
+      "name": "Mental vs Interrogation",
+      "subtitle": "Applying mental mathematics as a direct countermeasure to interrogation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Interrogation degradation curve.",
+          "helpDetail": "Sustained interrogation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Mental immediately.",
+          "helpDetail": "Actively switch your mental processing over to mental mathematics. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Mental Mathematics loop.",
+          "helpDetail": "Do not stop the mental process until the immediate panic or pain of the interrogation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of mental mathematics is to barricade your core personality and will-to-live against the relentless assault of interrogation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-interrogation-anger-spite-generation",
+      "name": "Anger/Spite vs Interrogation",
+      "subtitle": "Applying anger/spite generation as a direct countermeasure to interrogation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Interrogation degradation curve.",
+          "helpDetail": "Sustained interrogation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Anger/Spite immediately.",
+          "helpDetail": "Actively switch your mental processing over to anger/spite generation. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Anger/Spite Generation loop.",
+          "helpDetail": "Do not stop the anger/spite process until the immediate panic or pain of the interrogation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of anger/spite generation is to barricade your core personality and will-to-live against the relentless assault of interrogation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-interrogation-hymn-mantra-repetition",
+      "name": "Hymn/Mantra vs Interrogation",
+      "subtitle": "Applying hymn/mantra repetition as a direct countermeasure to interrogation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Interrogation degradation curve.",
+          "helpDetail": "Sustained interrogation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Hymn/Mantra immediately.",
+          "helpDetail": "Actively switch your mental processing over to hymn/mantra repetition. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Hymn/Mantra Repetition loop.",
+          "helpDetail": "Do not stop the hymn/mantra process until the immediate panic or pain of the interrogation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of hymn/mantra repetition is to barricade your core personality and will-to-live against the relentless assault of interrogation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-sleep-deprivation-compartmentalization",
+      "name": "Compartmentalization vs Sleep Deprivation",
+      "subtitle": "Applying compartmentalization as a direct countermeasure to sleep deprivation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Sleep Deprivation degradation curve.",
+          "helpDetail": "Sustained sleep deprivation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Compartmentalization immediately.",
+          "helpDetail": "Actively switch your mental processing over to compartmentalization. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Compartmentalization loop.",
+          "helpDetail": "Do not stop the compartmentalization process until the immediate panic or pain of the sleep deprivation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of compartmentalization is to barricade your core personality and will-to-live against the relentless assault of sleep deprivation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-sleep-deprivation-rhythmic-breathing",
+      "name": "Rhythmic vs Sleep Deprivation",
+      "subtitle": "Applying rhythmic breathing as a direct countermeasure to sleep deprivation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Sleep Deprivation degradation curve.",
+          "helpDetail": "Sustained sleep deprivation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Rhythmic immediately.",
+          "helpDetail": "Actively switch your mental processing over to rhythmic breathing. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Rhythmic Breathing loop.",
+          "helpDetail": "Do not stop the rhythmic process until the immediate panic or pain of the sleep deprivation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of rhythmic breathing is to barricade your core personality and will-to-live against the relentless assault of sleep deprivation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-sleep-deprivation-anger-spite-generation",
+      "name": "Anger/Spite vs Sleep Deprivation",
+      "subtitle": "Applying anger/spite generation as a direct countermeasure to sleep deprivation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Sleep Deprivation degradation curve.",
+          "helpDetail": "Sustained sleep deprivation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Anger/Spite immediately.",
+          "helpDetail": "Actively switch your mental processing over to anger/spite generation. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Anger/Spite Generation loop.",
+          "helpDetail": "Do not stop the anger/spite process until the immediate panic or pain of the sleep deprivation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of anger/spite generation is to barricade your core personality and will-to-live against the relentless assault of sleep deprivation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-sleep-deprivation-hymn-mantra-repetition",
+      "name": "Hymn/Mantra vs Sleep Deprivation",
+      "subtitle": "Applying hymn/mantra repetition as a direct countermeasure to sleep deprivation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Sleep Deprivation degradation curve.",
+          "helpDetail": "Sustained sleep deprivation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Hymn/Mantra immediately.",
+          "helpDetail": "Actively switch your mental processing over to hymn/mantra repetition. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Hymn/Mantra Repetition loop.",
+          "helpDetail": "Do not stop the hymn/mantra process until the immediate panic or pain of the sleep deprivation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of hymn/mantra repetition is to barricade your core personality and will-to-live against the relentless assault of sleep deprivation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-starvation-compartmentalization",
+      "name": "Compartmentalization vs Starvation",
+      "subtitle": "Applying compartmentalization as a direct countermeasure to starvation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Starvation degradation curve.",
+          "helpDetail": "Sustained starvation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Compartmentalization immediately.",
+          "helpDetail": "Actively switch your mental processing over to compartmentalization. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Compartmentalization loop.",
+          "helpDetail": "Do not stop the compartmentalization process until the immediate panic or pain of the starvation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of compartmentalization is to barricade your core personality and will-to-live against the relentless assault of starvation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-starvation-rhythmic-breathing",
+      "name": "Rhythmic vs Starvation",
+      "subtitle": "Applying rhythmic breathing as a direct countermeasure to starvation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Starvation degradation curve.",
+          "helpDetail": "Sustained starvation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Rhythmic immediately.",
+          "helpDetail": "Actively switch your mental processing over to rhythmic breathing. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Rhythmic Breathing loop.",
+          "helpDetail": "Do not stop the rhythmic process until the immediate panic or pain of the starvation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of rhythmic breathing is to barricade your core personality and will-to-live against the relentless assault of starvation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-starvation-mental-mathematics",
+      "name": "Mental vs Starvation",
+      "subtitle": "Applying mental mathematics as a direct countermeasure to starvation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Starvation degradation curve.",
+          "helpDetail": "Sustained starvation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Mental immediately.",
+          "helpDetail": "Actively switch your mental processing over to mental mathematics. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Mental Mathematics loop.",
+          "helpDetail": "Do not stop the mental process until the immediate panic or pain of the starvation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of mental mathematics is to barricade your core personality and will-to-live against the relentless assault of starvation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-starvation-anger-spite-generation",
+      "name": "Anger/Spite vs Starvation",
+      "subtitle": "Applying anger/spite generation as a direct countermeasure to starvation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Starvation degradation curve.",
+          "helpDetail": "Sustained starvation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Anger/Spite immediately.",
+          "helpDetail": "Actively switch your mental processing over to anger/spite generation. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Anger/Spite Generation loop.",
+          "helpDetail": "Do not stop the anger/spite process until the immediate panic or pain of the starvation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of anger/spite generation is to barricade your core personality and will-to-live against the relentless assault of starvation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-starvation-hymn-mantra-repetition",
+      "name": "Hymn/Mantra vs Starvation",
+      "subtitle": "Applying hymn/mantra repetition as a direct countermeasure to starvation.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Starvation degradation curve.",
+          "helpDetail": "Sustained starvation destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Hymn/Mantra immediately.",
+          "helpDetail": "Actively switch your mental processing over to hymn/mantra repetition. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Hymn/Mantra Repetition loop.",
+          "helpDetail": "Do not stop the hymn/mantra process until the immediate panic or pain of the starvation has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of hymn/mantra repetition is to barricade your core personality and will-to-live against the relentless assault of starvation.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-extreme-pain-compartmentalization",
+      "name": "Compartmentalization vs Extreme Pain",
+      "subtitle": "Applying compartmentalization as a direct countermeasure to extreme pain.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Extreme Pain degradation curve.",
+          "helpDetail": "Sustained extreme pain destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Compartmentalization immediately.",
+          "helpDetail": "Actively switch your mental processing over to compartmentalization. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Compartmentalization loop.",
+          "helpDetail": "Do not stop the compartmentalization process until the immediate panic or pain of the extreme pain has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of compartmentalization is to barricade your core personality and will-to-live against the relentless assault of extreme pain.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-extreme-pain-rhythmic-breathing",
+      "name": "Rhythmic vs Extreme Pain",
+      "subtitle": "Applying rhythmic breathing as a direct countermeasure to extreme pain.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Extreme Pain degradation curve.",
+          "helpDetail": "Sustained extreme pain destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Rhythmic immediately.",
+          "helpDetail": "Actively switch your mental processing over to rhythmic breathing. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Rhythmic Breathing loop.",
+          "helpDetail": "Do not stop the rhythmic process until the immediate panic or pain of the extreme pain has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of rhythmic breathing is to barricade your core personality and will-to-live against the relentless assault of extreme pain.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-extreme-pain-mental-mathematics",
+      "name": "Mental vs Extreme Pain",
+      "subtitle": "Applying mental mathematics as a direct countermeasure to extreme pain.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Extreme Pain degradation curve.",
+          "helpDetail": "Sustained extreme pain destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Mental immediately.",
+          "helpDetail": "Actively switch your mental processing over to mental mathematics. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Mental Mathematics loop.",
+          "helpDetail": "Do not stop the mental process until the immediate panic or pain of the extreme pain has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of mental mathematics is to barricade your core personality and will-to-live against the relentless assault of extreme pain.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-extreme-pain-anger-spite-generation",
+      "name": "Anger/Spite vs Extreme Pain",
+      "subtitle": "Applying anger/spite generation as a direct countermeasure to extreme pain.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Extreme Pain degradation curve.",
+          "helpDetail": "Sustained extreme pain destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Anger/Spite immediately.",
+          "helpDetail": "Actively switch your mental processing over to anger/spite generation. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Anger/Spite Generation loop.",
+          "helpDetail": "Do not stop the anger/spite process until the immediate panic or pain of the extreme pain has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of anger/spite generation is to barricade your core personality and will-to-live against the relentless assault of extreme pain.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
+    },
+    {
+      "id": "psych-encyclopedia-sere-extreme-pain-hymn-mantra-repetition",
+      "name": "Hymn/Mantra vs Extreme Pain",
+      "subtitle": "Applying hymn/mantra repetition as a direct countermeasure to extreme pain.",
+      "category": "Psychology",
+      "difficulty": 3,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Recognize the Extreme Pain degradation curve.",
+          "helpDetail": "Sustained extreme pain destroys the willpower and cognitive logic necessary for survival. Identify when your decision-making is failing.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Deploy Hymn/Mantra immediately.",
+          "helpDetail": "Actively switch your mental processing over to hymn/mantra repetition. This requires immense discipline when the body demands to panic or surrender.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain the Hymn/Mantra Repetition loop.",
+          "helpDetail": "Do not stop the hymn/mantra process until the immediate panic or pain of the extreme pain has receded enough to make a rational secondary decision.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Protect the core identity.",
+          "helpDetail": "The fundamental goal of hymn/mantra repetition is to barricade your core personality and will-to-live against the relentless assault of extreme pain.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "AFMAN 10-100 (SERE)",
+      "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
     }
   ],
   "articles": [

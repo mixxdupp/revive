@@ -38,7 +38,7 @@
         }
       ],
       "sourceName": "U.S. Army FM 21-76 – Evasion",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "env-door-barricade",
@@ -114,7 +114,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "env-vehicle-entry",
@@ -190,7 +190,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     }
   ],
   "articles": []

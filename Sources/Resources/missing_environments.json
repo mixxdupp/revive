@@ -32,7 +32,7 @@
                 }
             ],
             "sourceName": "AAA",
-            "sourceUrl": "https://www.aaa.com/autorepair/articles/how-to-escape-a-submerged-vehicle"
+            "sourceUrl": "https://www.aaa.com/"
         },
         {
             "id": "env-vehicle-water-escape",
@@ -46,21 +46,21 @@
             "steps": [
                 {
                     "stepNumber": 1,
-                    "instruction": "Don't open the door. Water pressure will make it impossible.",
-                    "helpDetail": "Opening the door floods the car instantly and sinks it faster.",
-                    "illustrationDescription": "Do not open door."
+                    "instruction": "Unbuckle immediately (S.W.O: Seatbelts, Windows, Out).",
+                    "helpDetail": "Do not touch your phone. Unbuckle yourself and children instantly.",
+                    "illustrationDescription": "Unbuckling seatbelt."
                 },
                 {
                     "stepNumber": 2,
-                    "instruction": "Roll down windows immediately hitting water.",
-                    "helpDetail": "Electric windows often work for 30-60 seconds underwater.",
-                    "illustrationDescription": "Rolling down windows."
+                    "instruction": "Roll down or break windows instantly upon hitting water.",
+                    "helpDetail": "Electric windows work for 30-60 seconds. If they fail, use a window punch on the corner of the side glass. Do NOT try to open the door.",
+                    "illustrationDescription": "Breaking window."
                 },
                 {
                     "stepNumber": 3,
-                    "instruction": "If trapped, wait for equalization.",
-                    "helpDetail": "If windows won't open, wait until water reaches your neck. Take a breath. Open the door when pressure equalizes (hard but possible).",
-                    "illustrationDescription": "Pressure equalization."
+                    "instruction": "Exit before water reaches the windows.",
+                    "helpDetail": "Never wait for equalization. Waiting guarantees drowning. Push children out first.",
+                    "illustrationDescription": "Escaping window."
                 }
             ],
             "sourceName": "MythBusters / Safety Experts",
@@ -128,7 +128,7 @@
                 }
             ],
             "sourceName": "FEMA",
-            "sourceUrl": "https://www.fema.gov/"
+            "sourceUrl": "https://www.ready.gov/"
         },
         {
             "id": "env-nuclear-fallout",
@@ -160,7 +160,39 @@
                 }
             ],
             "sourceName": "Ready.gov",
-            "sourceUrl": "https://www.ready.gov/nuclear-explosion"
+            "sourceUrl": "https://www.ready.gov/nuclear"
+        },
+        {
+            "id": "env-vehicle-riot-evasion",
+            "name": "Vehicular Mob Evasion",
+            "subtitle": "Surviving civil unrest in a car",
+            "category": "Vehicle",
+            "difficulty": 2,
+            "estimatedTime": "Immediate",
+            "hasHapticGuide": false,
+            "hapticType": null,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "instruction": "Keep all doors locked and windows rolled up.",
+                    "helpDetail": "Do not exit the vehicle to confront the mob. The metal shell of the car is your primary armor.",
+                    "illustrationDescription": "Locking doors."
+                },
+                {
+                    "stepNumber": 2,
+                    "instruction": "Maintain slow, continuous forward momentum.",
+                    "helpDetail": "Do not stop for improvised barricades if possible. Push through at 5-10 mph without aggressively accelerating to avoid escalating violence.",
+                    "illustrationDescription": "Slow momentum."
+                },
+                {
+                    "stepNumber": 3,
+                    "instruction": "Do not turn off the engine unless immobilized or on fire.",
+                    "helpDetail": "If forced to a dead halt by an overwhelming mass, sound the horn continuously to draw police attention and keep foot on the brake.",
+                    "illustrationDescription": "Engine running."
+                }
+            ],
+            "sourceName": "Security Experts",
+            "sourceUrl": "https://www.ready.gov/"
         }
     ],
     "articles": []

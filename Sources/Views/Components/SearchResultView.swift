@@ -12,6 +12,7 @@ struct SearchResultView: View {
                         Image(systemName: "magnifyingglass")
                             .font(.system(size: 48))
                             .foregroundColor(DesignSystem.textSecondary.opacity(0.5))
+                        .accessibilityHidden(true)
                         
                         Text("No techniques found")
                             .font(Typography.headline)

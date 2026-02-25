@@ -111,7 +111,7 @@
             "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sunburn/basics/art-20056643"
         },
         {
-            "id": "firstaid-dehydration",
+            "id": "firstaid-dehydration-response",
             "name": "Dehydration Response",
             "subtitle": "Rehydrate safely and effectively",
             "category": "Environmental",
@@ -186,28 +186,28 @@
             "steps": [
                 {
                     "stepNumber": 1,
-                    "instruction": "Remove contaminated clothing carefully.",
-                    "helpDetail": "Cut clothing off rather than pulling over the head to avoid face contact. 80-90% of contamination is on clothing.",
-                    "illustrationDescription": "Cutting clothes."
+                    "instruction": "Brush off dry powder BEFORE applying water.",
+                    "helpDetail": "Water activates many dangerous chemicals (exothermic reaction). Use a cloth or brush to carefully remove dry powder away from the face.",
+                    "illustrationDescription": "Brushing powder."
                 },
                 {
                     "stepNumber": 2,
-                    "instruction": "Wash with large amounts of lukewarm water.",
-                    "helpDetail": "Flush for at least 15 minutes. Use soap if available. Do not scrub hard (avoids abrasion allowing absorption).",
-                    "illustrationDescription": "Flushing water."
+                    "instruction": "Remove contaminated clothing carefully.",
+                    "helpDetail": "Cut clothing off rather than pulling over the head to avoid spreading it to your eyes. This removes 90% of contamination.",
+                    "illustrationDescription": "Cutting clothes."
                 },
                 {
                     "stepNumber": 3,
-                    "instruction": "Move away from the contaminated area.",
-                    "helpDetail": "Stay upwind and uphill.",
-                    "illustrationDescription": "Moving away."
+                    "instruction": "Flush with lukewarm water for 15+ minutes.",
+                    "helpDetail": "Once dry powder is gone (or if it's a liquid spill), flush the skin with low-pressure water. Do not scrub hard.",
+                    "illustrationDescription": "Flushing skin."
                 }
             ],
             "sourceName": "CDC",
-            "sourceUrl": "https://www.cdc.gov/cpr/infographics/00_images/decontamination.png"
+            "sourceUrl": "https://www.cdc.gov/chemical-emergencies/index.html"
         },
         {
-            "id": "firstaid-heatstroke",
+            "id": "firstaid-heatstroke-response",
             "name": "Heat Stroke",
             "subtitle": "Life-threatening medical emergency",
             "category": "Environmental",
@@ -268,7 +268,7 @@
                 }
             ],
             "sourceName": "Red Cross",
-            "sourceUrl": "https://www.redcross.org/take-a-class/first-aid/performing-first-aid/burns"
+            "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
         },
         {
             "id": "firstaid-chem-burn",

@@ -81,18 +81,6 @@ struct StepAccordionRow: View {
                             .foregroundStyle(DesignSystem.textSecondary)
                             .fixedSize(horizontal: false, vertical: true)
                     }
-                    
-                    if let illustration = step.illustrationName {
-                        Image(systemName: illustration)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(height: 120)
-                            .foregroundStyle(domain.color)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
-                    }
-                    
-                    // MARK: - Emergency Directory Link
                     // Shown when step mentions calling emergency services
                     if step.instruction.localizedCaseInsensitiveContains("emergency services") ||
                        step.helpDetail.localizedCaseInsensitiveContains("call emergency services") {
@@ -145,7 +133,6 @@ struct StepAccordionRow: View {
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .background(Color(uiColor: .secondarySystemGroupedBackground))
         .cornerRadius(16)
-        .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 2)
         .padding(.horizontal, 20)
     }
 }

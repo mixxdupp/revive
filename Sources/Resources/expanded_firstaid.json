@@ -44,7 +44,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "firstaid-rib-fracture",
@@ -88,7 +88,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "firstaid-dental-emergency",
@@ -126,10 +126,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "firstaid-trench-foot",
+      "id": "firstaid-trench-foot-adv",
       "name": "Trench Foot Prevention & Treatment",
       "subtitle": "Wet feet in cold conditions can disable you",
       "category": "Medical",
@@ -164,10 +164,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "firstaid-choking-response",
+      "id": "firstaid-choking-complete",
       "name": "Choking Response (Complete Guide)",
       "subtitle": "Clear blocked airway — adult and child techniques",
       "category": "Medical",
@@ -208,10 +208,10 @@
         }
       ],
       "sourceName": "Red Cross",
-      "sourceUrl": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/choking.html"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
-      "id": "firstaid-eye-injury",
+      "id": "firstaid-eye-field",
       "name": "Eye Injury (Field Treatment)",
       "subtitle": "Protect vision when medical help is far away",
       "category": "Medical",
@@ -246,7 +246,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     }
   ],
   "articles": []

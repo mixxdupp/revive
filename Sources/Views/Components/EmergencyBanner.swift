@@ -6,6 +6,7 @@ struct EmergencyBanner: View {
             Image(systemName: "exclamationmark.triangle.fill")
                 .font(.title3)
                 .foregroundStyle(.yellow)
+            .accessibilityHidden(true)
             Text("Call Emergency Services if someone is unresponsive or not breathing.")
                 .font(.subheadline.weight(.medium))
                 .foregroundStyle(.white)

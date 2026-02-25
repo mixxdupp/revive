@@ -115,6 +115,7 @@ struct LocationView: View {
                 }) {
                     HStack {
                         Image(systemName: "doc.on.doc")
+                        .accessibilityHidden(true)
                         Text("Copy Coordinates")
                     }
                     .frame(maxWidth: .infinity, alignment: .center)
@@ -154,6 +155,7 @@ struct TelemetryRow: View {
             Image(systemName: icon)
                 .foregroundStyle(color)
                 .frame(width: 24, alignment: .center)
+            .accessibilityHidden(true)
             
             Text(title)
                 .foregroundStyle(DesignSystem.textPrimary)

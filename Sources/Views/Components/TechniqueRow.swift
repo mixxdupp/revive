@@ -16,8 +16,6 @@ struct TechniqueRow: View {
                     .foregroundStyle(.white)
             }
             .frame(width: 48, height: 48) // Standard List Icon Size
-            // Subtle shadow for depth
-            .shadow(color: technique.domain.color.opacity(0.3), radius: 6, x: 0, y: 3)
             
             // MARK: - CONTENT
             VStack(alignment: .leading, spacing: 4) {
@@ -44,8 +42,6 @@ struct TechniqueRow: View {
         .padding(16)
         .background(Color(uiColor: .secondarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-        // Very subtle card shadow
-        .shadow(color: Color.black.opacity(0.04), radius: 8, x: 0, y: 2)
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
     }

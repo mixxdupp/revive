@@ -27,6 +27,7 @@ struct SavedTechniquesView: View {
                                         .font(.title3)
                                         .foregroundStyle(Color.orange)
                                         .padding(16)
+                                    .accessibilityHidden(true)
                                 }
                             }
                         }

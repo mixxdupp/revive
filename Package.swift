@@ -21,7 +21,7 @@ let package = Package(
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),
-            accentColor: .presetColor(.yellow),
+            accentColor: .presetColor(.orange),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
@@ -33,8 +33,8 @@ let package = Package(
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
             ],
             capabilities: [
-                .microphone(purposeString: "Ember uses the microphone for hands-free voice commands."),
-                .speechRecognition(purposeString: "Ember uses speech recognition to detect commands like 'next' or 'help'."),
+                .microphone(purposeString: "Revive uses the microphone for hands-free voice commands."),
+                .speechRecognition(purposeString: "Revive uses speech recognition to detect commands like 'next' or 'help'."),
                 .locationWhenInUse(purposeString: "Revive uses your location to display GPS coordinates and Compass heading offline.")
             ]
         )

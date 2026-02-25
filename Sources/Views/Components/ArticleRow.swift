@@ -18,6 +18,7 @@ struct ArticleRow: View {
             
             Image(systemName: "doc.text.fill")
                 .foregroundColor(article.domain.color)
+            .accessibilityHidden(true)
         }
         .padding()
     }

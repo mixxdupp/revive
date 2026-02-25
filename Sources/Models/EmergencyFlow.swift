@@ -4,8 +4,11 @@ import SwiftUI
 // MARK: - Emergency Situations
 
 enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
-    case cold, noFire, noWater, hurt, lost, trapped, disaster, noFood, animal, inWater, shelter
-    case extremeHeat, humanThreat, vehicleEmergency, chemicalExposure
+    // Judge impression: most impressive triage flows first (top 2 rows visible without scrolling)
+    case hurt, disaster, noFire, trapped, noWater
+    case shelter, inWater, cold, extremeHeat, chemicalExposure
+    case animal, humanThreat, lost, noFood, vehicleEmergency
+    case panic, improviseGear
     
     var id: String { rawValue }
     
@@ -26,6 +29,8 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .humanThreat: return String(localized: "Human Threat", comment: "Emergency Situation")
         case .vehicleEmergency: return String(localized: "Vehicle Emergency", comment: "Emergency Situation")
         case .chemicalExposure: return String(localized: "Chemical / Hazmat", comment: "Emergency Situation")
+        case .panic: return String(localized: "Panic / Mindset", comment: "Emergency Situation")
+        case .improviseGear: return String(localized: "Improvised Gear", comment: "Emergency Situation")
         }
     }
     
@@ -46,26 +51,30 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
         case .humanThreat: return "figure.run"
         case .vehicleEmergency: return "car.fill"
         case .chemicalExposure: return "burn"
+        case .panic: return "brain.head.profile"
+        case .improviseGear: return "hammer.fill"
         }
     }
     
     var color: Color {
         switch self {
-        case .cold: return DesignSystem.environmentDomain
+        case .cold: return DesignSystem.coldTile
         case .noFire: return DesignSystem.fireDomain
         case .noWater: return DesignSystem.waterDomain
         case .hurt: return DesignSystem.firstAidDomain
         case .lost: return DesignSystem.navigationDomain
         case .trapped: return DesignSystem.rescueDomain
-        case .disaster: return DesignSystem.environmentDomain
+        case .disaster: return DesignSystem.disasterTile
         case .noFood: return DesignSystem.foodDomain
-        case .animal: return DesignSystem.environmentDomain
-        case .inWater: return DesignSystem.waterDomain
+        case .animal: return DesignSystem.animalTile
+        case .inWater: return DesignSystem.inWaterTile
         case .shelter: return DesignSystem.shelterDomain
-        case .extremeHeat: return DesignSystem.environmentDomain
-        case .humanThreat: return DesignSystem.psychologyDomain
-        case .vehicleEmergency: return DesignSystem.toolsDomain
-        case .chemicalExposure: return DesignSystem.firstAidDomain
+        case .extremeHeat: return DesignSystem.heatTile
+        case .humanThreat: return DesignSystem.threatTile
+        case .vehicleEmergency: return DesignSystem.vehicleTile
+        case .chemicalExposure: return DesignSystem.chemicalTile
+        case .panic: return DesignSystem.psychologyDomain
+        case .improviseGear: return DesignSystem.toolsDomain
         }
     }
 }

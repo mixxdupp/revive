@@ -161,6 +161,7 @@ struct ArticleView: View {
                                             Image(systemName: "safari.fill")
                                                 .font(.system(size: 20))
                                                 .foregroundStyle(article.domain.color)
+                                            .accessibilityHidden(true)
                                         }
                                         
                                         VStack(alignment: .leading, spacing: 4) {
@@ -178,6 +179,7 @@ struct ArticleView: View {
                                         Image(systemName: "arrow.up.right")
                                             .font(.body.weight(.semibold))
                                             .foregroundStyle(DesignSystem.textSecondary)
+                                        .accessibilityHidden(true)
                                     }
                                     .padding(16)
                                     .background(DesignSystem.backgroundSecondary)
@@ -214,6 +216,7 @@ struct ArticleView: View {
                             .background(.ultraThinMaterial)
                             .clipShape(Circle())
                             .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+                        .accessibilityHidden(true)
                     }
                     .padding(.leading, 24)
                     
@@ -227,6 +230,7 @@ struct ArticleView: View {
                             .frame(width: 40, height: 40)
                             .background(.ultraThinMaterial)
                             .clipShape(Circle())
+                        .accessibilityHidden(true)
                     }
                     .padding(.trailing, 24)
                 }

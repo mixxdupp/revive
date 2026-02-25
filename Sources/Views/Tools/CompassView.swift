@@ -72,6 +72,7 @@ struct CompassView: View {
                             .frame(width: 200, height: 200)
                             .foregroundStyle(Color.red)
                             .padding()
+                        .accessibilityHidden(true)
                     }
                     .rotationEffect(.degrees(-locationManager.trueNorth))
                     .animation(.spring(response: 0.4, dampingFraction: 0.6), value: locationManager.trueNorth)
@@ -92,6 +93,7 @@ struct CompassView: View {
                                 .font(.system(size: 40, weight: .black))
                                 .foregroundStyle(Color.green)
                                 .offset(y: -120)
+                            .accessibilityHidden(true)
                             
                             // Target Icon
                             if let icon = locationManager.activeTarget?.icon {
@@ -102,6 +104,7 @@ struct CompassView: View {
                                     .background(Color.green)
                                     .clipShape(Circle())
                                     .offset(y: -155)
+                                .accessibilityHidden(true)
                             }
                         }
                         .rotationEffect(.degrees(targetBearing)) // Rotates to point to target (relative to North)

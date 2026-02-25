@@ -8,6 +8,7 @@ struct EmergencyWarningBanner: View {
             Image(systemName: "exclamationmark.triangle.fill")
                 .font(.system(size: 20, weight: .bold))
                 .foregroundColor(.white)
+            .accessibilityHidden(true)
             
             VStack(alignment: .leading, spacing: 2) {
                 Text("CALL EMERGENCY SERVICES FIRST")

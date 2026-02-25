@@ -31,28 +31,14 @@ struct OnboardingView: View {
                 TermsGateView(isOnboarding: true)
                     .tag(4)
             }
-            .tabViewStyle(.page(indexDisplayMode: .never)) // Hide default dots for a cleaner modern look
+            .tabViewStyle(.page(indexDisplayMode: .never))
             .animation(.spring(response: 0.6, dampingFraction: 0.8), value: currentPage)
             .sensoryFeedback(.selection, trigger: currentPage)
             
-            // Modern Apple Sticky Bottom CTA
+            // Sticky Bottom CTA
             if currentPage < 4 {
                 VStack(spacing: 16) {
-                    // Custom Page Indicator (Hidden on Welcome Page)
-                    if currentPage > 0 {
-                        HStack(spacing: 8) {
-                            ForEach(0..<4) { index in
-                                Capsule()
-                                    .fill(currentPage == index ? Color.white : Color.gray.opacity(0.4))
-                                    .frame(width: currentPage == index ? 20 : 8, height: 8)
-                                    .animation(.spring(response: 0.4, dampingFraction: 0.7), value: currentPage)
-                            }
-                        }
-                        .padding(.bottom, 8)
-                    }
-                    
                     Button(action: {
-                        // If on Voice Page (3), request speech auth on continue tap, then proceed
                         if currentPage == 3 {
                             SpeechRecognitionService.shared.requestAuthorization()
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
@@ -79,6 +65,26 @@ struct OnboardingView: View {
                 .padding(.horizontal, 24)
                 .padding(.bottom, 40)
                 .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+            
+            // Top-right Skip button (pages 1-3 only)
+            if currentPage > 0 && currentPage < 4 {
+                VStack {
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            withAnimation { currentPage = 4 }
+                        }) {
+                            Text("Skip")
+                                .font(.system(size: 17))
+                                .foregroundStyle(Color.gray)
+                        }
+                        .accessibilityLabel("Skip onboarding")
+                        .padding(.trailing, 24)
+                        .padding(.top, 16)
+                    }
+                    Spacer()
+                }
             }
         }
     }
@@ -407,24 +413,26 @@ struct OnboardingToolsDemoPage: View {
     @State private var isVisible = false
     @Environment(\.accessibilityReduceMotion) var reduceMotion
     
-    let tools = [
-        ("Offline Compass", "True-north navigation even deep in the backcountry without GPS.", "location.north.fill", Color.red),
-        ("Emergency Siren", "120dB distress signal to instantly alert nearby rescue teams.", "speaker.wave.3.fill", Color.orange),
-        ("Coordinates", "Pinpoint your exact latitude and longitude to relay to authorities.", "mappin.and.ellipse", Color.blue),
-        ("Gear Tracker", "Inventory your essential kit to guarantee readiness before disaster.", "briefcase.fill", Color.green)
+    let tools: [(name: String, icon: String, color: Color)] = [
+        ("Offline Compass", "location.north.fill", .red),
+        ("Emergency Siren", "speaker.wave.3.fill", .orange),
+        ("GPS Coordinates", "mappin.and.ellipse", .blue),
+        ("SOS Flashlight", "flashlight.on.fill", .yellow),
+        ("CPR Metronome", "heart.fill", .pink),
+        ("Gear Tracker", "briefcase.fill", .green)
     ]
     
     var body: some View {
         ZStack {
-            // Background glow to make glassmorphism pop
+            // Background glow
             Circle()
                 .fill(Color.blue.opacity(0.15))
                 .blur(radius: 60)
                 .frame(width: 250, height: 250)
                 .offset(y: 50)
                 
-            VStack(spacing: 24) {
-                Spacer()
+            VStack(spacing: 20) {
+                Spacer(minLength: 20)
                 
                 // Header
                 VStack(spacing: 12) {
@@ -442,50 +450,63 @@ struct OnboardingToolsDemoPage: View {
                 .padding(.horizontal, 24)
                 .opacity(isVisible ? 1 : 0)
                 .offset(y: isVisible ? 0 : 20)
+                .padding(.bottom, 24)
                 
-                Spacer()
-                
-                // Premium Glassmorphic Tool Grid
+                // Tool Grid (clean card style)
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 16), GridItem(.flexible(), spacing: 16)], spacing: 16) {
                     ForEach(0..<tools.count, id: \.self) { index in
                         let tool = tools[index]
                         
-                        VStack(alignment: .leading, spacing: 12) {
-                            Image(systemName: tool.2)
-                                .font(.system(size: 28))
-                                .foregroundStyle(tool.3)
-                                .frame(width: 48, height: 48)
-                                .background(tool.3.opacity(0.15))
-                                .clipShape(Circle())
-                                .symbolEffect(.bounce, value: isVisible)
+                        ZStack(alignment: .topLeading) {
+                            // Glassmorphic background with color tint
+                            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                                .fill(.ultraThinMaterial)
+                                .overlay(
+                                    LinearGradient(
+                                        colors: [
+                                            tool.color.opacity(0.15),
+                                            tool.color.opacity(0.02)
+                                        ],
+                                        startPoint: .topLeading,
+                                        endPoint: .bottomTrailing
+                                    )
+                                )
                             
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text(tool.0)
-                                    .font(.system(size: 15, weight: .bold))
-                                    .foregroundStyle(.white)
-                                    .lineLimit(1)
-                                    .minimumScaleFactor(0.8)
+                            VStack(alignment: .leading, spacing: 0) {
+                                // Icon in circle
+                                ZStack {
+                                    Circle()
+                                        .fill(tool.color.opacity(0.15))
+                                        .frame(width: 48, height: 48)
+                                    
+                                    Image(systemName: tool.icon)
+                                        .font(.system(size: 22, weight: .semibold))
+                                        .foregroundStyle(tool.color)
+                                        .symbolEffect(.bounce, value: isVisible)
+                                }
                                 
-                                Text(tool.1)
-                                    .font(.system(size: 13))
-                                    .foregroundStyle(.gray)
+                                Spacer(minLength: 0)
+                                
+                                // Bold title at bottom
+                                Text(tool.name)
+                                    .font(.system(size: 16, weight: .bold))
+                                    .foregroundStyle(DesignSystem.textPrimary)
+                                    .lineLimit(2)
+                                    .minimumScaleFactor(0.85)
                                     .fixedSize(horizontal: false, vertical: true)
-                                    .lineSpacing(2)
                             }
+                            .padding(16)
                         }
-                        .padding(16)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                        .background(.ultraThinMaterial)
+                        .frame(height: 125)
                         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
                         .overlay(
                             RoundedRectangle(cornerRadius: 20, style: .continuous)
-                                .strokeBorder(LinearGradient(colors: [tool.3.opacity(0.4), .clear], startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 1)
+                                .strokeBorder(tool.color.opacity(0.3), lineWidth: 1)
                         )
                         .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 5)
                         .opacity(isVisible ? 1 : 0)
                         .scaleEffect(isVisible ? 1 : 0.95)
-                        // Stagger the animation timing based on index
-                        .animation(reduceMotion ? nil : .spring(response: 0.6, dampingFraction: 0.7).delay(Double(index) * 0.15 + 0.3), value: isVisible)
+                        .animation(reduceMotion ? nil : .spring(response: 0.6, dampingFraction: 0.7).delay(Double(index) * 0.12 + 0.3), value: isVisible)
                     }
                 }
                 .padding(.horizontal, 24)
@@ -499,7 +520,7 @@ struct OnboardingToolsDemoPage: View {
                     .lineLimit(1)
                     .opacity(isVisible ? 1 : 0)
             }
-            .padding(.bottom, 160) // Clear safe area for sticky CTA
+            .padding(.bottom, 160)
         }
         .onAppear {
             if reduceMotion {

@@ -32,7 +32,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "agri-three-sisters",
@@ -64,7 +64,7 @@
         }
       ],
       "sourceName": "Peterson Field Guide – Edible Wild Plants",
-      "sourceUrl": "https://www.hmhbooks.com/shop/books/A-Field-Guide-to-Edible-Wild-Plants/9780395926222"
+      "sourceUrl": "https://openlibrary.org/isbn/9780395926222"
     },
     {
       "id": "agri-seed-saving",
@@ -96,7 +96,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "agri-composting",
@@ -140,7 +140,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "hygiene-charcoal-toothpaste",
@@ -172,7 +172,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "industry-tanning",
@@ -204,7 +204,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "industry-basketry",
@@ -236,7 +236,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     }
   ],
   "articles": []

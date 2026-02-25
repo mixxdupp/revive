@@ -32,7 +32,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-steel-wool",
@@ -64,7 +64,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "water-condom-canteen",
@@ -96,7 +96,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "firstaid-tampon-dressing",
@@ -128,7 +128,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "firstaid-duct-tape-butterfly",
@@ -160,7 +160,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "rescue-cd-mirror",
@@ -192,7 +192,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil/"
+      "sourceUrl": "https://www.uscg.mil"
     }
   ],
   "articles": []

@@ -65,7 +65,6 @@ struct RelatedTechniquesCard: View {
             .mask(RoundedRectangle(cornerRadius: Layout.cornerRadius))
             .padding(.horizontal, Layout.screenPadding)
             .padding(.vertical, 10)
-            .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 10)
         }
     }
 }

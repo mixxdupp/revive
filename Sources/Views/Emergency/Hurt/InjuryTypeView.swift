@@ -31,6 +31,7 @@ struct InjuryTypeView: View {
                     Button(action: { dismiss() }) {
                         HStack(spacing: 4) {
                             Image(systemName: "chevron.left")
+                            .accessibilityHidden(true)
                             Text("Back")
                         }
                         .font(Typography.button)
@@ -60,6 +61,7 @@ struct InjuryTypeView: View {
                                         .frame(width: 40, height: 40)
                                         .background(DesignSystem.emergencyRed.opacity(0.15))
                                         .clipShape(RoundedRectangle(cornerRadius: 10))
+                                    .accessibilityHidden(true)
                                     
                                     VStack(alignment: .leading, spacing: 3) {
                                         Text(technique.name)
@@ -78,6 +80,7 @@ struct InjuryTypeView: View {
                                     Image(systemName: "chevron.right")
                                         .font(.system(size: 14, weight: .semibold))
                                         .foregroundColor(DesignSystem.textSecondary)
+                                    .accessibilityHidden(true)
                                 }
                                 .padding(14)
                                 .background(DesignSystem.backgroundSecondary)
@@ -91,6 +94,7 @@ struct InjuryTypeView: View {
                                 Image(systemName: "bandage")
                                     .font(.system(size: 40))
                                     .foregroundColor(DesignSystem.textSecondary)
+                                .accessibilityHidden(true)
                                 Text("No specific techniques found.\nUse the Knowledge Base for general first aid.")
                                     .font(Typography.body)
                                     .foregroundColor(DesignSystem.textSecondary)

@@ -191,7 +191,6 @@ struct VerticalGuideView: View {
                                 .padding(.vertical, 16)
                                 .background(technique.domain.color)
                                 .clipShape(Capsule())
-                                .shadow(color: technique.domain.color.opacity(0.4), radius: 10, x: 0, y: 5)
                         }
                         .padding(.bottom, 30)
                         .transition(.scale.combined(with: .opacity))
@@ -207,7 +206,6 @@ struct VerticalGuideView: View {
                                 .padding(.vertical, 16)
                                 .background(Color.green)
                                 .clipShape(Capsule())
-                                .shadow(color: Color.green.opacity(0.4), radius: 10, x: 0, y: 5)
                         }
                         .padding(.bottom, 30)
                     }
@@ -368,6 +366,5 @@ struct RelatedTechniqueCard: View {
             RoundedRectangle(cornerRadius: 16, style: .continuous)
                 .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
         )
-        .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
     }
 }

@@ -21,6 +21,7 @@ struct WaypointsListView: View {
                         Image(systemName: "location.slash.circle.fill")
                             .font(.system(size: 80))
                             .foregroundStyle(Color.gray.opacity(0.3))
+                        .accessibilityHidden(true)
                         Text("No Orbit Points")
                             .font(.title2.bold())
                             .foregroundStyle(DesignSystem.textSecondary)
@@ -41,6 +42,7 @@ struct WaypointsListView: View {
                                     .frame(width: 40, height: 40)
                                     .background(Color.teal.opacity(0.1))
                                     .clipShape(Circle())
+                                .accessibilityHidden(true)
                                 
                                 // Details
                                 VStack(alignment: .leading, spacing: 4) {
@@ -71,6 +73,7 @@ struct WaypointsListView: View {
                                             Image(systemName: "location.north.fill")
                                                 .rotationEffect(.degrees(bearing - (locationManager.heading?.trueHeading ?? 0)))
                                                 .font(.caption2)
+                                            .accessibilityHidden(true)
                                             Text("\(Int(bearing))°")
                                                 .font(.caption2)
                                         }
@@ -86,6 +89,7 @@ struct WaypointsListView: View {
                                     Image(systemName: "arrow.triangle.turn.up.right.circle.fill")
                                         .font(.title2)
                                         .foregroundStyle(Color.green)
+                                    .accessibilityHidden(true)
                                 }
                                 .buttonStyle(PlainButtonStyle())
                             }
@@ -116,6 +120,7 @@ struct WaypointsListView: View {
                         showingAddSheet = true
                     } label: {
                         Image(systemName: "plus")
+                        .accessibilityHidden(true)
                     }
                 }
             }
@@ -128,6 +133,7 @@ struct WaypointsListView: View {
                                 Picker("Icon", selection: $selectedIcon) {
                                     ForEach(icons, id: \.self) { icon in
                                         Image(systemName: icon).tag(icon)
+                                        .accessibilityHidden(true)
                                     }
                                 }
                                 .pickerStyle(.segmented)

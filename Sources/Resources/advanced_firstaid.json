@@ -38,7 +38,7 @@
         }
       ],
       "sourceName": "Merck Manuals",
-      "sourceUrl": "https://www.merckmanuals.com/professional/injuries-poisoning/dislocations/shoulder-dislocation"
+      "sourceUrl": "https://www.merckmanuals.com/professional"
     },
     {
       "id": "firstaid-dental-abscess",
@@ -65,7 +65,7 @@
         {
           "stepNumber": 3,
           "instruction": "Make a small incision at the most swollen point.",
-          "helpDetail": "Cut only the surface mucosa. Pus should drain immediately. Spit out pus\u2014do not swallow.",
+          "helpDetail": "Cut only the surface mucosa. Pus should drain immediately. Spit out pus—do not swallow.",
           "illustrationDescription": "Incision point."
         },
         {
@@ -103,7 +103,7 @@
         {
           "stepNumber": 3,
           "instruction": "Apply thin layer of glue ON TOP of the crack, not inside.",
-          "helpDetail": "Do not get glue inside the wound\u2014it prevents healing. Bridge the gap on the surface.",
+          "helpDetail": "Do not get glue inside the wound—it prevents healing. Bridge the gap on the surface.",
           "illustrationDescription": "Applying glue on top."
         },
         {
@@ -115,44 +115,6 @@
       ],
       "sourceName": "Healthline",
       "sourceUrl": "https://www.healthline.com/health/super-glue-on-cuts"
-    },
-    {
-      "id": "firstaid-fishhook-removal",
-      "name": "Fishhook Removal",
-      "subtitle": "String-Yank Method",
-      "category": "Extreme Measures",
-      "difficulty": 3,
-      "estimatedTime": "2 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Tie a loop of strong line/floss around the hook curve.",
-          "helpDetail": "Loop goes in the bend of the hook. Secure it well.",
-          "illustrationDescription": "Tying loop on hook."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Press down on the hook eye to disengage the barb.",
-          "helpDetail": "Push the eye down against the skin. This aligns the barb with the entry path.",
-          "illustrationDescription": "Pressing eye down."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Yank the line sharply parallel to the skin.",
-          "helpDetail": "Do not pull up. Pull straight back, parallel to the skin surface. Commit to the motion.",
-          "illustrationDescription": "Yanking parallel."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Clean wound and apply antibiotic.",
-          "helpDetail": "Fishhooks carry waterborne bacteria. Monitor for infection.",
-          "illustrationDescription": "Cleaning wound."
-        }
-      ],
-      "sourceName": "AAFP",
-      "sourceUrl": "https://www.aafp.org/pubs/afp/issues/2001/0601/p2231.html"
     },
     {
       "id": "firstaid-finger-amputation",

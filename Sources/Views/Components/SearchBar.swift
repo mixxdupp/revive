@@ -9,6 +9,7 @@ struct SearchBar: View {
             HStack {
                 Image(systemName: "magnifyingglass")
                     .foregroundColor(DesignSystem.textSecondary)
+                .accessibilityHidden(true)
                 
                 TextField(placeholder, text: $text)
                     .foregroundColor(DesignSystem.textPrimary)
@@ -20,6 +21,7 @@ struct SearchBar: View {
                     }) {
                         Image(systemName: "xmark.circle.fill")
                             .foregroundColor(DesignSystem.textSecondary)
+                        .accessibilityHidden(true)
                     }
                 }
             }

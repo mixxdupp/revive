@@ -22,8 +22,18 @@ struct DesignSystem {
     static let foodDomain = Color.purple
     static let rescueDomain = Color.indigo
     static let psychologyDomain = Color.brown
-    static let environmentDomain = Color.cyan
+    static let environmentDomain = Color.teal
     static let toolsDomain = Color.gray
+    
+    // MARK: - Supplemental Root Accents for Triage Board
+    static let coldTile = Color.cyan
+    static let heatTile = Color(uiColor: .systemYellow)
+    static let disasterTile = Color(uiColor: .systemTeal)
+    static let animalTile = Color.mint
+    static let inWaterTile = Color(uiColor: .systemIndigo)
+    static let threatTile = Color.pink
+    static let vehicleTile = Color(uiColor: .darkGray)
+    static let chemicalTile = Color.purple
     
     // MARK: - Emergency
     static let emergencyRed = Color.red

@@ -52,6 +52,7 @@ struct EmergencyMenuView: View {
                     HStack(spacing: 8) {
                         Image(systemName: "magnifyingglass")
                             .foregroundStyle(DesignSystem.textSecondary)
+                        .accessibilityHidden(true)
                         TextField("Search situations", text: $searchText)
                             .font(.body)
                             .foregroundStyle(DesignSystem.textPrimary)
@@ -63,6 +64,7 @@ struct EmergencyMenuView: View {
                             } label: {
                                 Image(systemName: "xmark.circle.fill")
                                     .foregroundStyle(DesignSystem.textSecondary)
+                                .accessibilityHidden(true)
                             }
                         }
                     }
@@ -78,6 +80,7 @@ struct EmergencyMenuView: View {
                             Image(systemName: "magnifyingglass")
                                 .font(.system(size: 36))
                                 .foregroundStyle(DesignSystem.textSecondary)
+                            .accessibilityHidden(true)
                             Text("No situations found")
                                 .font(.headline)
                                 .foregroundStyle(DesignSystem.textSecondary)
@@ -116,6 +119,7 @@ struct EmergencyMenuView: View {
                                                     .frame(width: 44, height: 44)
                                                     .background(.ultraThinMaterial)
                                                     .clipShape(Circle())
+                                                .accessibilityHidden(true)
                                                 
                                                 VStack(alignment: .leading, spacing: 2) {
                                                     Text(LocalizedStringKey(technique.name))

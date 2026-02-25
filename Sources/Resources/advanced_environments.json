@@ -3,7 +3,7 @@
   "domainDisplayName": "Environments (Advanced)",
   "techniques": [
     {
-      "id": "env-flash-flood-response",
+      "id": "env-flash-flood-adv",
       "name": "Flash Flood Response",
       "subtitle": "Survive sudden flooding — seconds matter",
       "category": "Weather",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.ready.gov/floods"
     },
     {
-      "id": "env-flood-survival",
+      "id": "env-post-flood",
       "name": "Post-Flood Survival",
       "subtitle": "Hazards after floodwaters recede",
       "category": "Weather",
@@ -79,7 +79,7 @@
       "sourceUrl": "https://www.ready.gov/floods"
     },
     {
-      "id": "env-ocean-survival",
+      "id": "env-ocean-adrift",
       "name": "Ocean Survival (Adrift)",
       "subtitle": "Staying alive at sea without a vessel",
       "category": "Water",
@@ -120,10 +120,10 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Water Safety",
-      "sourceUrl": "https://www.uscg.mil/"
+      "sourceUrl": "https://www.uscg.mil"
     },
     {
-      "id": "env-coastal-tidal",
+      "id": "env-coastal-tidal-adv",
       "name": "Coastal & Tidal Hazards",
       "subtitle": "Surviving rip currents, tidal cuts, and surges",
       "category": "Water",
@@ -158,10 +158,10 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
-      "id": "env-tropical-disease",
+      "id": "env-tropical-disease-adv",
       "name": "Tropical Disease Prevention",
       "subtitle": "Avoiding malaria, dengue, and waterborne illness",
       "category": "Environment",
@@ -202,10 +202,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "env-desert-night-travel",
+      "id": "env-desert-night-adv",
       "name": "Desert Night Travel",
       "subtitle": "Navigate safely when the sun is down",
       "category": "Desert",
@@ -240,10 +240,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "env-desert-shelter",
+      "id": "env-desert-shelter-adv",
       "name": "Desert Shelter",
       "subtitle": "Shade is survival in the desert",
       "category": "Desert",
@@ -272,10 +272,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "env-desert-water",
+      "id": "env-desert-water-adv",
       "name": "Finding Water in the Desert",
       "subtitle": "Desert water sources that most people miss",
       "category": "Desert",
@@ -310,10 +310,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "env-jungle-movement",
+      "id": "env-jungle-movement-adv",
       "name": "Jungle Movement",
       "subtitle": "Moving through dense tropical forest without getting lost",
       "category": "Jungle",
@@ -348,10 +348,10 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
-      "id": "env-jungle-travel",
+      "id": "env-jungle-travel-plan",
       "name": "Jungle Travel Planning",
       "subtitle": "Route selection and daily rhythm in tropical forest",
       "category": "Jungle",
@@ -386,10 +386,10 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
-      "id": "env-jungle-shelter",
+      "id": "env-jungle-shelter-adv",
       "name": "Jungle Shelter",
       "subtitle": "Stay dry and off the ground in tropical forests",
       "category": "Jungle",
@@ -424,10 +424,10 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
-      "id": "env-jungle-water",
+      "id": "env-jungle-water-adv",
       "name": "Jungle Water Sources",
       "subtitle": "Water is everywhere in the jungle — know where to look",
       "category": "Jungle",
@@ -462,10 +462,10 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
-      "id": "env-arctic-shelter",
+      "id": "env-arctic-shelter-adv",
       "name": "Arctic Shelter Building",
       "subtitle": "Surviving polar temperatures — snow is your insulator",
       "category": "Cold",
@@ -506,7 +506,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     }
   ],
   "articles": []

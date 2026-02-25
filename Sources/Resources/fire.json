@@ -44,7 +44,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-handdrill",
@@ -82,7 +82,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-firesaw",
@@ -120,7 +120,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-ferrorod",
@@ -158,7 +158,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-flint-steel",
@@ -196,7 +196,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-magnifying",
@@ -234,7 +234,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-ice-lens",
@@ -272,7 +272,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-teepee",
@@ -310,7 +310,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-log-cabin",
@@ -348,7 +348,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-lean-to",
@@ -386,7 +386,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-long-fire",
@@ -424,7 +424,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-dakota-hole",
@@ -462,7 +462,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-battery",
@@ -500,7 +500,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-wet-conditions",
@@ -544,7 +544,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-extinguish",
@@ -620,7 +620,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-chemical",
@@ -652,7 +652,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-ember-carrier",
@@ -690,7 +690,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-feather-stick",
@@ -728,7 +728,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-pine-torch",
@@ -760,7 +760,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-charcloth",
@@ -798,7 +798,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-piston",
@@ -830,7 +830,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-plow",
@@ -868,7 +868,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-saw",
@@ -906,7 +906,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-reflector-wall",
@@ -938,7 +938,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-waterproof-kit",
@@ -976,7 +976,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-fatwood-id",
@@ -1008,7 +1008,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-birch-bark",
@@ -1040,7 +1040,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-star-fire",
@@ -1072,7 +1072,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-keyhole-fire",
@@ -1104,7 +1104,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-trench-fire",
@@ -1136,7 +1136,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-hand-sanitizer",
@@ -1168,7 +1168,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-vaseline-cotton",
@@ -1200,7 +1200,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-in-snow",
@@ -1232,7 +1232,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-in-wind",
@@ -1264,7 +1264,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-signal-maintenance",
@@ -1296,7 +1296,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil/"
+      "sourceUrl": "https://www.uscg.mil"
     },
     {
       "id": "fire-concealed",
@@ -1328,7 +1328,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-upside-down",
@@ -1360,7 +1360,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-bamboo-fire-saw",
@@ -1392,7 +1392,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-chocolate-can",
@@ -1424,7 +1424,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-john-lofty-wiseman"
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "fire-fuel-stages",
@@ -1462,7 +1462,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-insect-repellent",
@@ -1494,7 +1494,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-char-rope",
@@ -1558,7 +1558,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
     },
     {
       "id": "fire-fire-bundle",
@@ -1590,7 +1590,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://www.simonandschuster.com/books/Bushcraft-101/Dave-Canterbury/9781440579776"
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
       "id": "fire-safety-perimeter",
@@ -1622,14 +1622,3638 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://fas.org/irp/doddir/army/fm3-05-70.pdf"
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-pump-drill",
+      "name": "Pump Drill Fire",
+      "subtitle": "Spin-driven friction fire using weighted flywheel",
+      "category": "Friction",
+      "difficulty": 3,
+      "estimatedTime": "45 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve a spindle 12-18 inches long, pointed at the bottom, with a hole drilled through the top.",
+          "helpDetail": "The spindle should be straight hardwood. The top hole accepts the crossbar. The bottom point fits into the fireboard socket.",
+          "illustrationDescription": "Carve a spindle 12-18 inches l"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create a flywheel — a flat, heavy disc (stone or hardwood) drilled through the center and threaded onto the spindle.",
+          "helpDetail": "The flywheel stores rotational energy. Heavier = more momentum = more friction heat. 3-4 inches diameter, 1 inch thick.",
+          "illustrationDescription": "Create a flywheel — a flat, he"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Attach a crossbar with cordage wound around the spindle above the flywheel.",
+          "helpDetail": "Push down on the crossbar to unwind the cord, spinning the spindle. The flywheel's momentum rewinds the cord when you release.",
+          "illustrationDescription": "Attach a crossbar with cordage"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Prepare a fireboard with a socket and notch, exactly like a bow drill setup.",
+          "helpDetail": "Same principles: dry softwood fireboard, V-notch to the edge, tinder bundle beneath the notch to catch the ember.",
+          "illustrationDescription": "Prepare a fireboard with a soc"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Pump the crossbar rhythmically. Increase speed gradually until ember forms in the notch.",
+          "helpDetail": "Steady pumping builds heat faster than fast-slow-fast. Start medium and build. The pump drill is less tiring than a bow drill over time.",
+          "illustrationDescription": "Pump the crossbar rhythmically"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-fire-from-ice",
+      "name": "Fire from Ice Lens",
+      "subtitle": "Focus sunlight through shaped ice to ignite tinder",
+      "category": "Solar",
+      "difficulty": 3,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find or create clear ice — cloudy ice scatters light and won't focus. Use slowly frozen lake or river ice.",
+          "helpDetail": "Boiled water frozen slowly produces the clearest ice. Pond ice is often too cloudy. Look for icicles — they're naturally clear.",
+          "illustrationDescription": "Find or create clear ice — clo"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Shape the ice into a lens using warm hands or a knife — convex on both sides, 2-3 inches diameter.",
+          "helpDetail": "Shape it like a magnifying glass. Thin edges, thick center. Your warm hands are the best tools — press and rotate to shape.",
+          "illustrationDescription": "Shape the ice into a lens usin"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hold the ice lens between the sun and your finest tinder at the focal distance.",
+          "helpDetail": "The focal point should be a bright, tiny dot of light. Move closer or farther until the dot is smallest and brightest.",
+          "illustrationDescription": "Hold the ice lens between the "
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Hold steady for 1-3 minutes. The tinder must be bone-dry charred material or commercial tinder.",
+          "helpDetail": "This method produces a weak focal point compared to glass. Only the finest, driest tinder will catch. Char cloth is ideal.",
+          "illustrationDescription": "Hold steady for 1-3 minutes. T"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "As smoke appears, gently blow on the tinder to develop the ember. Transfer to tinder bundle.",
+          "helpDetail": "The ice lens melts during use — work quickly. In sub-zero conditions, the lens lasts longer. This technique is real but extremely difficult.",
+          "illustrationDescription": "As smoke appears, gently blow "
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "fire-resin-collection",
+      "name": "Pine Resin Collection",
+      "subtitle": "Harvest natural fire-starting adhesive from conifers",
+      "category": "Preparation",
+      "difficulty": 1,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find coniferous trees (pine, spruce, fir) with visible resin deposits — look for amber-colored lumps on bark.",
+          "helpDetail": "Resin flows from wounds in the tree — look for broken branches, woodpecker holes, or old cuts. Fresh resin is sticky; old resin is hard.",
+          "illustrationDescription": "Find coniferous trees (pine, s"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Scrape resin off the bark using a knife blade, stick, or flat rock. Collect on a leaf or bark piece.",
+          "helpDetail": "Both fresh (gooey) and old (crystallized) resin work for fire. Hard resin crumbles into excellent fire-starting material.",
+          "illustrationDescription": "Scrape resin off the bark usin"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Mix crumbled resin with dry materials: bark fiber, cotton, dryer lint, or fine wood shavings.",
+          "helpDetail": "The mix burns longer and hotter than either material alone. The resin acts as accelerant; the fiber provides structure.",
+          "illustrationDescription": "Mix crumbled resin with dry ma"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Resin also works as a standalone fire extender — press lumps directly onto burning tinder.",
+          "helpDetail": "A marble-sized lump of pine resin burns for 5-10 minutes with a hot, sustained flame. Excellent for difficult fire conditions.",
+          "illustrationDescription": "Resin also works as a standalo"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Store extra resin in a bark pouch or wrap. It stays effective indefinitely when dry.",
+          "helpDetail": "Resin is waterproof and doesn't degrade. Carry it as emergency fire-starting material. It also works as glue, wound sealant, and torch fuel.",
+          "illustrationDescription": "Store extra resin in a bark po"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-char-material",
+      "name": "Char Material Preparation",
+      "subtitle": "Create charred tinder for spark-catching",
+      "category": "Preparation",
+      "difficulty": 1,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut 100% cotton cloth into 2-inch squares. Pack loosely into a small metal tin with a tight lid.",
+          "helpDetail": "Only pure plant fiber works — cotton, linen, hemp. Synthetic fabrics melt instead of charring. An Altoids tin is ideal.",
+          "illustrationDescription": "Cut 100% cotton cloth into 2-i"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Punch a small hole in the tin lid — this allows gas to escape without letting oxygen in.",
+          "helpDetail": "The hole prevents the tin from bursting and allows the pyrolysis gases to vent. A nail hole is perfect — not too big.",
+          "illustrationDescription": "Punch a small hole in the tin "
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place the tin on hot coals or near flames. Smoke will vent from the hole.",
+          "helpDetail": "The cloth is undergoing pyrolysis — converting to carbon without burning. Smoke should be steady, not flames shooting from the hole.",
+          "illustrationDescription": "Place the tin on hot coals or "
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "When smoke stops, remove from heat. DO NOT open until completely cool.",
+          "helpDetail": "Opening hot allows oxygen in and ignites the char, destroying it. Wait 10+ minutes. The tin should be cool to touch.",
+          "illustrationDescription": "When smoke stops, remove from "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Good char cloth is jet black, holds its shape, and catches a spark instantly.",
+          "helpDetail": "If it's brown, it's under-charred — repeat. If it crumbles to ash, it's over-charred. Perfect char cloth glows from a single spark.",
+          "illustrationDescription": "Good char cloth is jet black, "
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-wet-wood-processing",
+      "name": "Wet Wood Processing",
+      "subtitle": "Extract dry fuel from wet wood",
+      "category": "Preparation",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Never use wood from the ground in wet conditions — it absorbs moisture like a sponge.",
+          "helpDetail": "Standing dead wood, even in rain, has dry interiors. Snap branches off dead trees rather than picking up branches from the forest floor.",
+          "illustrationDescription": "Never use wood from the ground"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Split wet wood to expose the dry interior. Even soaked logs have dry centers.",
+          "helpDetail": "Use a knife and baton (striking stick) to split logs. The outer 1/4 inch absorbs rain; the inner core may be perfectly dry.",
+          "illustrationDescription": "Split wet wood to expose the d"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Shave feather sticks from the dry inner wood — thin curls that catch fire easily.",
+          "helpDetail": "A feather stick is a stick with thin curls shaved but left attached. Multiple curls create a self-contained tinder bundle. Keep curls pencil-thin.",
+          "illustrationDescription": "Shave feather sticks from the "
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Collect birch bark — it contains oils that burn even when wet.",
+          "helpDetail": "Birch bark is the best natural wet-weather fire starter. The oil (betulin) is waterproof and flammable. Peel thin layers from fallen birch.",
+          "illustrationDescription": "Collect birch bark — it contai"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Use a 'fire sandwich': lay wet wood near the fire to dry while burning dry wood. Rotate as wood dries.",
+          "helpDetail": "Drying wood hisses and steams. When the hissing stops, the wood is ready to burn. Always have the next batch drying.",
+          "illustrationDescription": "Use a 'fire sandwich': lay wet"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-fire-plough",
+      "name": "Fire Plough",
+      "subtitle": "Friction fire by rubbing a stick in a groove",
+      "category": "Friction",
+      "difficulty": 3,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a soft baseboard — dead hibiscus, willow, cedar, or cottonwood. Must be bone-dry.",
+          "helpDetail": "The baseboard should be flat, about 2 feet long. Same wood hardness rules as bow drill — softer is better.",
+          "illustrationDescription": "Select a soft baseboard — dead"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve a straight groove down the center, 12 inches long, 1/4 inch deep.",
+          "helpDetail": "The groove guides the rubbing stick and concentrates the heated wood dust at the far end.",
+          "illustrationDescription": "Carve a straight groove down t"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Select a hardwood rubbing stick — the tip should be rounded, not pointed.",
+          "helpDetail": "A rounded tip creates more friction surface area. Too pointed and it digs in; too flat and it slides without friction.",
+          "illustrationDescription": "Select a hardwood rubbing stic"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Rub the stick back and forth in the groove with downward pressure and increasing speed.",
+          "helpDetail": "Use your body weight. Long, fast strokes produce more heat than short, rapid ones. Push the heated dust to the end of the groove.",
+          "illustrationDescription": "Rub the stick back and forth i"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Hot dust accumulates at the end of the groove. When it begins to smoke consistently, tip onto tinder bundle.",
+          "helpDetail": "The fire plough is harder than a bow drill but requires no cordage. It works best in tropical conditions with hibiscus wood.",
+          "illustrationDescription": "Hot dust accumulates at the en"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-coal-burning-container",
+      "name": "Coal-Burned Container",
+      "subtitle": "Hollow wood using hot coals to make bowls and tools",
+      "category": "Advanced",
+      "difficulty": 2,
+      "estimatedTime": "2 hrs",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a log section of appropriate size — green or slightly dry hardwood works best.",
+          "helpDetail": "The log should be wider than your desired container. Hardwood (oak, maple) produces more durable containers than softwood.",
+          "illustrationDescription": "Select a log section of approp"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place a hot coal from your fire on the surface where you want to hollow.",
+          "helpDetail": "Use tongs, split sticks, or a bark scoop to transport the coal. Position it in the center of the log where the bowl will be.",
+          "illustrationDescription": "Place a hot coal from your fir"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Blow gently on the coal to maintain heat. Add new coals as needed.",
+          "helpDetail": "A steady, gentle airflow keeps the coal burning into the wood. A reed or hollow tube makes directed blowing easier and more controlled.",
+          "illustrationDescription": "Blow gently on the coal to mai"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Scrape away charred wood with a sharp stone or shell. Repeat: burn, scrape, burn, scrape.",
+          "helpDetail": "The charred layer scrapes easily, revealing fresh wood underneath. Each cycle deepens the container about 1/4 inch.",
+          "illustrationDescription": "Scrape away charred wood with "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Control the burn area with wet clay or mud paste around the edges of the desired shape.",
+          "helpDetail": "Wet clay prevents burning beyond your intended boundary. By controlling where fire touches, you can create precise shapes.",
+          "illustrationDescription": "Control the burn area with wet"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-rain-fire-management",
+      "name": "Fire Management in Rain",
+      "subtitle": "Keep a fire burning during wet weather",
+      "category": "Maintenance",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build your fire on a raised platform of green logs if ground is saturated.",
+          "helpDetail": "A 'fire altar' of 4-6 green logs laid side by side creates a dry, elevated platform. The fire burns on top; the green logs resist burning.",
+          "illustrationDescription": "Build your fire on a raised pl"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Create a rain cover: lean a bark slab or tarp at an angle over the fire, high enough to avoid catching fire.",
+          "helpDetail": "At least 3 feet above the flames. The cover keeps direct rain off the fire while allowing smoke to escape from the sides.",
+          "illustrationDescription": "Create a rain cover: lean a ba"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Maintain a larger fire than usual — more mass resists rain extinguishment.",
+          "helpDetail": "A small fire dies in rain. A large fire produces enough heat to evaporate raindrops before they reach the coals. Build bigger than normal.",
+          "illustrationDescription": "Maintain a larger fire than us"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Store dry firewood NEAR the fire (not on it) to keep it dry. Under a tarp or sheltered overhang.",
+          "helpDetail": "Wet wood kills fires. Having a 2-hour supply of dry wood protected from rain is essential. Stack it close enough to benefit from fire's heat.",
+          "illustrationDescription": "Store dry firewood NEAR the fi"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "If fire dies to coals, protect the coal bed from rain and rebuild with feather sticks and dry tinder.",
+          "helpDetail": "Coals survive brief rain if the bed is deep enough. Cover exposed coals with a bark lid. Reignite with resinous wood or birch bark.",
+          "illustrationDescription": "If fire dies to coals, protect"
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "fire-fire-safety-camp",
+      "name": "Camp Fire Safety",
+      "subtitle": "Prevent uncontrolled fire spread at camp",
+      "category": "Maintenance",
+      "difficulty": 1,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Clear all leaves, needles, and dry debris in a 10-foot diameter circle around the fire.",
+          "helpDetail": "Ground fires spread through dry litter. Scrape down to mineral soil. One ember in leaf litter can start a wildfire.",
+          "illustrationDescription": "Clear all leaves, needles, and"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build a fire ring from rocks — do NOT use river rocks (they can explode from trapped moisture).",
+          "helpDetail": "Dry rocks from slopes work best. River rocks contain water in tiny pores that turns to steam under heat, causing violent cracking.",
+          "illustrationDescription": "Build a fire ring from rocks —"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Keep the fire only as large as you need. A fist-sized fire boils water; a torso-sized fire heats a shelter.",
+          "helpDetail": "Bigger fires waste fuel, throw dangerous sparks, and are harder to control. Most camp tasks need only a small-to-medium fire.",
+          "illustrationDescription": "Keep the fire only as large as"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Never leave a fire unattended. When leaving, drown it — stir — drown again — feel with hand.",
+          "helpDetail": "The 'drown, stir, drown, feel' method: pour water, stir the ashes to expose hot spots, pour more water, hold your hand over the ashes. If any warmth, repeat.",
+          "illustrationDescription": "Never leave a fire unattended."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "In windy conditions, keep fire LOW or dig a Dakota fire hole to contain flames.",
+          "helpDetail": "Wind turns sparks into embers that travel hundreds of feet. A below-ground fire pit shields flames from wind completely.",
+          "illustrationDescription": "In windy conditions, keep fire"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-pine-pitch-torch",
+      "name": "Pine Pitch Torch",
+      "subtitle": "Create a long-burning torch from resin-soaked wood",
+      "category": "Advanced",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a fatwood source — the resin-saturated heartwood of dead pine stumps.",
+          "helpDetail": "Fatwood occurs where branches meet the trunk and at the base of dead pines. It's heavy, amber-colored, and smells strongly of pine.",
+          "illustrationDescription": "Find a fatwood source — the re"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Split fatwood into a bundle of sticks about 12 inches long and finger-thickness.",
+          "helpDetail": "A bundle of 6-8 sticks bound together burns longer and brighter than a single piece. Tie at the base with cordage.",
+          "illustrationDescription": "Split fatwood into a bundle of"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Alternatively: wrap cloth around a green stick and soak with melted pine resin.",
+          "helpDetail": "Heat resin in a rock depression or bark container until liquid. Dip or pour over the cloth wrapping. Let cool to set.",
+          "illustrationDescription": "Alternatively: wrap cloth arou"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Light the torch — fatwood ignites from a match, ferro rod, or existing fire. Burns with a bright, smoky flame.",
+          "helpDetail": "A fatwood torch burns 20-30 minutes. The resin content determines burn time. Hold at arm's length — it drips flaming resin.",
+          "illustrationDescription": "Light the torch — fatwood igni"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "To extinguish: press the burning end into dirt or sand. Do NOT stomp — this scatters burning material.",
+          "helpDetail": "Snuffing in dirt or sand cuts oxygen instantly. Smothered resin can be re-lit. Store unused torches horizontally to prevent resin from pooling.",
+          "illustrationDescription": "To extinguish: press the burni"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-two-person-bow-drill",
+      "name": "Two-Person Bow Drill",
+      "subtitle": "Cooperative friction fire for easier ignition",
+      "category": "Friction",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Person 1 holds the bearing block on top of the spindle and provides downward pressure.",
+          "helpDetail": "Kneel on the fireboard with one knee. Use body weight through the hand block. Steady pressure is more important than heavy pressure.",
+          "illustrationDescription": "Person 1 holds the bearing blo"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Person 2 operates the bow with long, full-length strokes.",
+          "helpDetail": "The operator can focus entirely on speed and rhythm without worrying about downward pressure. Use the full length of the bow for maximum spin.",
+          "illustrationDescription": "Person 2 operates the bow with"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Communication: call 'more pressure' or 'faster' as smoke increases.",
+          "helpDetail": "The team approach is much less tiring and more successful than solo. The pressure person watches the coal formation and directs the pace.",
+          "illustrationDescription": "Communication: call 'more pres"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "When thick smoke pours from the notch, Person 2 increases to maximum speed for 10 final strokes.",
+          "helpDetail": "The final burst of speed generates the crucial last bit of heat to form a glowing coal. Both people should be giving maximum effort.",
+          "illustrationDescription": "When thick smoke pours from th"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Person 1 carefully lifts the spindle. Person 2 gently fans the coal in the notch, then transfers to tinder bundle.",
+          "helpDetail": "One person transfers the ember while the other prepares the tinder bundle. Teamwork continues through the entire fire-building process.",
+          "illustrationDescription": "Person 1 carefully lifts the s"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-fire-cement",
+      "name": "Fire-Proof Cement",
+      "subtitle": "Create heat-resistant mortar for fire structures",
+      "category": "Advanced",
+      "difficulty": 2,
+      "estimatedTime": "1 hr",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Mix clay soil with grass, straw, or animal hair in a 3:1 ratio (clay to fiber).",
+          "helpDetail": "The fiber prevents cracking as the clay dries and heats. Without fiber, pure clay cracks and crumbles. Any long natural fiber works.",
+          "illustrationDescription": "Mix clay soil with grass, stra"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Add water until the mixture has a thick, workable consistency — like cookie dough.",
+          "helpDetail": "Too wet = slumps and cracks while drying. Too dry = crumbles during application. Should hold its shape when squeezed.",
+          "illustrationDescription": "Add water until the mixture ha"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Apply the mixture as mortar between rocks in a fire ring or chimney structure.",
+          "helpDetail": "Press firmly into all gaps. Build up layers 1 inch thick. For a reflector wall, apply over a stick framework as a thick coating.",
+          "illustrationDescription": "Apply the mixture as mortar be"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Let it air-dry for 24 hours before exposing to fire. Slow drying prevents cracking.",
+          "helpDetail": "Shade the structure from direct sun during initial drying. Rapid drying = rapid shrinking = cracking. Patience pays off.",
+          "illustrationDescription": "Let it air-dry for 24 hours be"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "A small initial fire 'fires' the clay like pottery, making it permanent and waterproof.",
+          "helpDetail": "Start with a small fire and build up over hours. The heat converts mud-mortar into ceramic. Once fired, it resists rain and repeated heating.",
+          "illustrationDescription": "A small initial fire 'fires' t"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-steel-wool-battery",
+      "name": "Steel Wool & Battery Fire",
+      "subtitle": "Ignite tinder using steel wool and a battery",
+      "category": "Ignition",
+      "difficulty": 1,
+      "estimatedTime": "2 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Pull apart fine-grade steel wool (0000 grade) into a loose, airy ball about fist-sized.",
+          "helpDetail": "Finer grade = faster ignition. Coarse steel wool may not ignite. The airier the ball, the more oxygen reaches the steel fibers.",
+          "illustrationDescription": "Pull apart fine-grade steel wo"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use a 9V battery (ideal) or any battery 3V+. Touch both terminals to the steel wool simultaneously.",
+          "helpDetail": "A 9V battery's terminals are close together, making contact easy. AA/AAA batteries work by touching both ends to the wool.",
+          "illustrationDescription": "Use a 9V battery (ideal) or an"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "The steel wool glows orange and burns quickly. Have your tinder bundle ready beneath.",
+          "helpDetail": "Steel wool burns fast — 10-15 seconds. You cannot delay. Place the burning wool INTO the tinder bundle immediately.",
+          "illustrationDescription": "The steel wool glows orange an"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "No steel wool? Any fine metal strand works: picture wire, wire brush strands, metal scrubbing pads.",
+          "helpDetail": "The key is fine metal filaments with high surface area. Thick wire won't ignite. Thinner = better.",
+          "illustrationDescription": "No steel wool? Any fine metal "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "This method works in rain and wind — the chemical reaction doesn't require the spark to catch. Just contact.",
+          "helpDetail": "Steel wool fire-starting is one of the most reliable methods in wet conditions. Carry fine steel wool in your emergency kit — it weighs nothing.",
+          "illustrationDescription": "This method works in rain and "
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-fire-bundle-carry",
+      "name": "Carrying Fire",
+      "subtitle": "Transport a live ember over long distances",
+      "category": "Maintenance",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Create a fire bundle: wrap a glowing coal in dry grass, bark fiber, or punk wood.",
+          "helpDetail": "The wrapping material must be dry enough to catch but dense enough to smolder slowly — not flare up. Tightly packed grass smolders for hours.",
+          "illustrationDescription": "Create a fire bundle: wrap a g"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Enclose the bundle in a larger layer of green leaves or bark to insulate and protect.",
+          "helpDetail": "The outer layer prevents heat loss and protects against wind. Green leaves slow the burn rate without extinguishing it.",
+          "illustrationDescription": "Enclose the bundle in a larger"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Carry the bundle carefully. Blow on it gently every 15-20 minutes to maintain the ember.",
+          "helpDetail": "Too much air = flare up and burn through. Too little = ember dies. A gentle breath should produce visible smoke.",
+          "illustrationDescription": "Carry the bundle carefully. Bl"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "A hollowed-out log section or large conch shell works as a portable fire carrier.",
+          "helpDetail": "Pack the ember with smoldering punky wood inside. The container protects from wind and rain. Aboriginal Australians carried fire this way for centuries.",
+          "illustrationDescription": "A hollowed-out log section or "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "When you arrive: unwrap the bundle, place the ember in a tinder nest, and blow into flame.",
+          "helpDetail": "The ember may be small — that's fine. As long as it glows when blown on, it can start a fire. Handle with care to avoid crumbling the ember.",
+          "illustrationDescription": "When you arrive: unwrap the bu"
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "fire-underground-fire",
+      "name": "Underground Fire (Dakota Hole)",
+      "subtitle": "Build a concealed, efficient fire below ground",
+      "category": "Structure",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig a main fire pit — 12 inches wide, 12 inches deep. Flare the bottom slightly wider.",
+          "helpDetail": "The fire burns in this pit. A wider bottom allows better coal formation and air circulation around the fuel.",
+          "illustrationDescription": "Dig a main fire pit — 12 inche"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig a ventilation tunnel angled from 12 inches upwind to the bottom of the fire pit.",
+          "helpDetail": "The tunnel should be 6 inches diameter, entering the pit at the bottom. This provides forced draft from the wind — natural bellows effect.",
+          "illustrationDescription": "Dig a ventilation tunnel angle"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build your fire in the bottom of the main pit. Start small and build up.",
+          "helpDetail": "The draft through the tunnel makes excellent combustion. Dakota fires burn hotter and more efficiently than surface fires.",
+          "illustrationDescription": "Build your fire in the bottom "
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Advantages: minimal smoke, low visibility, wind-resistant, concentrated heat for cooking.",
+          "helpDetail": "The below-ground fire is nearly invisible at distance. Smoke dissipates quickly through the earth opening. Ideal for concealment.",
+          "illustrationDescription": "Advantages: minimal smoke, low"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Place a flat rock or green wood grill across the top for cooking. The pit concentrates heat upward.",
+          "helpDetail": "The narrow opening focuses heat on the cooking surface. Boiling water is significantly faster with a Dakota fire than an open fire.",
+          "illustrationDescription": "Place a flat rock or green woo"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-magnifying-glass",
+      "name": "Magnifying Glass Fire",
+      "subtitle": "Focus sunlight through a lens to ignite tinder",
+      "category": "Solar",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Any convex lens works: magnifying glass, binocular lens, eyeglasses (farsighted only), camera lens, water-filled bag.",
+          "helpDetail": "Farsighted (convex) lenses converge light. Nearsighted (concave) lenses diverge light and cannot focus fire. Test by looking through — magnified = convex.",
+          "illustrationDescription": "Any convex lens works: magnify"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Prepare the finest, darkest tinder available. Char cloth is ideal. Dark materials absorb more energy.",
+          "helpDetail": "Dark materials absorb up to 95% of solar energy vs. 20% for light materials. If using natural tinder, scorch it first to darken it.",
+          "illustrationDescription": "Prepare the finest, darkest ti"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Angle the lens between the sun and the tinder. Move lens closer/farther until the light dot is smallest.",
+          "helpDetail": "The smallest dot is the focal point — maximum concentrated energy. Even a slight cloud reduces effectiveness dramatically.",
+          "illustrationDescription": "Angle the lens between the sun"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Hold the focal point still on the tinder. Within 10-60 seconds, it will begin to smoke and glow.",
+          "helpDetail": "Absolute stillness is essential. Any movement breaks contact and allows the heated spot to cool. Brace your arms.",
+          "illustrationDescription": "Hold the focal point still on "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Once glowing, transfer the ember to a tinder bundle and blow gently into flame.",
+          "helpDetail": "Solar embers are often small and fragile. Handle carefully. The technique only works with direct sunlight — not through clouds or windows.",
+          "illustrationDescription": "Once glowing, transfer the emb"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-fire-saw",
+      "name": "Fire Saw",
+      "subtitle": "Friction fire by sawing a flexible strip through a groove",
+      "category": "Friction",
+      "difficulty": 3,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Split a dry bamboo section lengthwise. One half becomes the baseboard, the other the saw.",
+          "helpDetail": "Bamboo is ideal for the fire saw — it creates fine, heat-holding dust. Non-bamboo alternative: use a rattan strip against a softwood board.",
+          "illustrationDescription": "Split a dry bamboo section len"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve a narrow notch across the baseboard — this is where heated dust collects.",
+          "helpDetail": "The notch should be just wide enough for the saw strip to fit through. Angle it slightly so dust falls to one side.",
+          "illustrationDescription": "Carve a narrow notch across th"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place tinder beneath the notch to catch falling hot dust.",
+          "helpDetail": "A single dry leaf or piece of dried coconut husk positioned under the notch catches the smoldering sawdust as it falls through.",
+          "illustrationDescription": "Place tinder beneath the notch"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Saw the strip back and forth through the notch with rapid, forceful strokes.",
+          "helpDetail": "Downward pressure into the notch combined with speed creates friction heat. Use arm and shoulder muscles — this method is tiring.",
+          "illustrationDescription": "Saw the strip back and forth t"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Hot dust accumulates below the notch and begins to smoke. Gently tip onto tinder bundle.",
+          "helpDetail": "The fire saw is the predominant primitive fire method in Southeast Asia and the Pacific Islands. It works best in humid, tropical conditions where bamboo is abundant.",
+          "illustrationDescription": "Hot dust accumulates below the"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-birch-bark-uses",
+      "name": "Birch Bark Fire Uses",
+      "subtitle": "Maximize birch bark as fire-starting material",
+      "category": "Preparation",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Birch bark contains betulin oil — naturally waterproof and highly flammable even when wet.",
+          "helpDetail": "This makes birch bark the single best natural fire starter in northern forests. It burns even in rain and can be lit with a single match.",
+          "illustrationDescription": "Birch bark contains betulin oi"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Peel thin layers from dead or fallen birch — NEVER strip bark from a living tree (it kills the tree).",
+          "helpDetail": "Fallen birch retains its bark for years. Peel paper-thin sheets for tinder. Thicker rolls for longer-burning applications.",
+          "illustrationDescription": "Peel thin layers from dead or "
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Thin sheets: light directly as tinder. They curl while burning, creating excellent fire starters.",
+          "helpDetail": "One match can light a thin birch bark sheet that burns hot enough to ignite twigs. The curling creates air gaps that sustain combustion.",
+          "illustrationDescription": "Thin sheets: light directly as"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Thick rolls: create birch bark torches by rolling tightly and binding with cordage.",
+          "helpDetail": "A fist-sized roll of birch bark burns for 15-20 minutes with a bright, hot flame. Ideal as a torch or as sustained ignition for damp wood.",
+          "illustrationDescription": "Thick rolls: create birch bark"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Birch bark also works as container, roofing, writing material, and waterproof wrapping.",
+          "helpDetail": "Versatility makes birch bark one of the most valuable natural resources in northern survival. Collect and store whenever encountered.",
+          "illustrationDescription": "Birch bark also works as conta"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-night-fire-management",
+      "name": "Night Fire Management",
+      "subtitle": "Maintain fire through the night for warmth",
+      "category": "Maintenance",
+      "difficulty": 2,
+      "estimatedTime": "Ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build a large coal bed before sleeping — feed the fire heavily with hardwood 30 minutes before bedtime.",
+          "helpDetail": "A thick coal bed (3+ inches deep) sustains heat for hours. Hardwood coals last much longer than softwood. Oak, hickory, and maple are ideal.",
+          "illustrationDescription": "Build a large coal bed before "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Use the long-log method: place 2-3 large logs side by side on the coal bed.",
+          "helpDetail": "6-8 inch diameter green or dense hardwood logs burn slowly from the bottom contact with coals. They self-feed and need minimal attention.",
+          "illustrationDescription": "Use the long-log method: place"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Bank the fire: push ash and coals against the logs on the sleeping side. Reduce open flames.",
+          "helpDetail": "Banking conserves fuel and extends burn time. The ash insulates the coals. Heat radiates from the log surfaces toward you.",
+          "illustrationDescription": "Bank the fire: push ash and co"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Set a mental alarm or buddy system to check the fire every 2-3 hours.",
+          "helpDetail": "Two quick log adjustments during the night keeps the fire alive. Assign shifts in a group — one person tends fire while others sleep.",
+          "illustrationDescription": "Set a mental alarm or buddy sy"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "In morning: rake the coals apart, add fine kindling, blow gently to reignite.",
+          "helpDetail": "Even a single glowing coal from a banked fire can restart a fire. Rake coals into a pile, add fine fuel, and blow steadily.",
+          "illustrationDescription": "In morning: rake the coals apa"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-chemical-permanganate",
+      "name": "Permanganate & Sugar",
+      "subtitle": "Spontaneous chemical combustion",
+      "category": "Chemical",
+      "difficulty": 3,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Potassium Permanganate (purple water purification crystals) produces severe exothermic reactions when mixed with certain organic compounds or sugars.",
+          "helpDetail": "Warning: This reaction is volatile and burns incredibly hot (up to 4,000°F).",
+          "illustrationDescription": "Potassium Permanganate (purple"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place one teaspoon of Potassium Permanganate crystals onto a flat, dry rock.",
+          "helpDetail": "Ensure the surrounding area is fully prepped with tinder (dry leaves, shaved wood) ready to be dropped on the flame.",
+          "illustrationDescription": "Place one teaspoon of Potassiu"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Add an equal amount of granulated sugar to the pile of purple crystals.",
+          "helpDetail": "If you don't have sugar, glycerin (from a first aid kit) or anti-freeze works even better and faster.",
+          "illustrationDescription": "Add an equal amount of granula"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Grind the two powders together vigorously using a smooth, blunt stick.",
+          "helpDetail": "The friction begins the oxidation process. If using glycerin, simply let the liquid soak into the crystals—no grinding required.",
+          "illustrationDescription": "Grind the two powders together"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Step back instantly as soon as it begins to smoke.",
+          "helpDetail": "It will erupt into a brilliant purple and sparking white flame almost instantly. Carefully move your dry tinder over the chemical fire to ignite the wood.",
+          "illustrationDescription": "Step back instantly as soon as"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-chemical-brake-fluid",
+      "name": "Brake Fluid & Pool Shock",
+      "subtitle": "Emergency vehicle/urban chemical fire",
+      "category": "Chemical",
+      "difficulty": 4,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "WARNING: This combination produces violently toxic chlorine gas before combusting.",
+          "helpDetail": "Do this entirely outdoors, upwind from the reaction, and hold your breath when mixing.",
+          "illustrationDescription": "WARNING: This combination prod"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pool shock relies on Calcium Hypochlorite (a massive oxidizer). Brake fluid relies on Polyethylene Glycol.",
+          "helpDetail": "This is useful if you are stranded near an abandoned vehicle or urban setting.",
+          "illustrationDescription": "Pool shock relies on Calcium H"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pour 2 tablespoons of Calcium Hypochlorite onto a dry piece of cardboard or wood.",
+          "helpDetail": "Do not use a metal container, it will melt.",
+          "illustrationDescription": "Pour 2 tablespoons of Calcium "
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Pour 1 tablespoon of DOT-3 or DOT-4 brake fluid directly onto the powder.",
+          "helpDetail": "Do NOT stir it. Do NOT lean over it.",
+          "illustrationDescription": "Pour 1 tablespoon of DOT-3 or "
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Run immediately upwind.",
+          "helpDetail": "Within 15 to 45 seconds, the mixture will boil, release a cloud of toxic white gas, and spontaneously explode into an intense fireball. Throw wood on it from a distance.",
+          "illustrationDescription": "Run immediately upwind."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "fire-char-cloth",
+      "name": "Making Char Cloth",
+      "subtitle": "Converting cotton into the ultimate spark-catcher",
+      "category": "Preparation",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Char cloth is 100% natural cotton (like an old t-shirt or denim) that has been baked in the absence of oxygen.",
+          "helpDetail": "You need a small metal tin (like a mint tin) with a tiny hole punctured in the lid.",
+          "illustrationDescription": "Char cloth is 100% natural cot"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut your 100% cotton fabric into 2-inch squares.",
+          "helpDetail": "Fill the metal tin with the squares, but do not pack them so tight that the lid bulges. Close the lid.",
+          "illustrationDescription": "Cut your 100% cotton fabric in"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place the tin directly onto the glowing coal bed of an established fire.",
+          "helpDetail": "Smoke (burning off the impure gases) will violently jet out of the tiny hole in the lid. Sometimes this smoke jet will catch fire. This is normal.",
+          "illustrationDescription": "Place the tin directly onto th"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wait until the smoke completely stops jetting out of the hole (about 5-10 minutes).",
+          "helpDetail": "Carefully remove the tin from the fire using tongs or a stick. DO NOT OPEN THE LID yet. Oxygen rushing in while it's hot will incinerate the cloth inside to ash.",
+          "illustrationDescription": "Wait until the smoke completel"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Let the tin cool completely to the touch.",
+          "helpDetail": "Open it. The cloth should be entirely black, shrunken, and fragile. A single weak spark from flint or a dead lighter will instantly ignite this material into a glowing red ember.",
+          "illustrationDescription": "Let the tin cool completely to"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-hand-drill",
+      "name": "Hand Drill Fire",
+      "subtitle": "The most primitive friction fire method",
+      "category": "Friction",
+      "difficulty": 5,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a straight, dry spindle (18–24 inches long, pencil-thick) from yucca, mullein, cattail, or clematis.",
+          "helpDetail": "The spindle wood must be dead-dry and lightweight. If it bends, it is too green.",
+          "illustrationDescription": "Select a straight, dry spindle"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve a fireboard from a flat piece of soft, dry wood (cedar, willow, cottonwood).",
+          "helpDetail": "The board must be flat on the bottom so it does not rock. Carve a shallow starter dimple.",
+          "illustrationDescription": "Carve a fireboard from a flat "
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Cut a V-shaped notch from the edge of the board into the dimple.",
+          "helpDetail": "This notch collects the hot black dust (char) and concentrates it into an ember.",
+          "illustrationDescription": "Cut a V-shaped notch from the "
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Place a dry leaf or piece of bark under the notch to catch the ember.",
+          "helpDetail": "Spin the spindle between your palms using fast, downward-pressure strokes.",
+          "illustrationDescription": "Place a dry leaf or piece of b"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "When a thick column of smoke rises from the notch and the char glows red, carefully transfer the tiny ember to your tinder bundle.",
+          "helpDetail": "Gently blow the tinder bundle into flame. This is the hardest fire method and requires extreme patience.",
+          "illustrationDescription": "When a thick column of smoke r"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-bow-drill",
+      "name": "Bow Drill Fire",
+      "subtitle": "The most reliable primitive friction fire method",
+      "category": "Friction",
+      "difficulty": 4,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Construct a bow: a curved, sturdy stick about 2 feet long with paracord or shoelace tied at both ends.",
+          "helpDetail": "The cord should have slight slack so you can wrap it around the spindle.",
+          "illustrationDescription": "Construct a bow: a curved, stu"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Select a spindle and fireboard (same woods as the hand drill).",
+          "helpDetail": "The spindle should be thumb-thick and 8 inches long with rounded ends.",
+          "illustrationDescription": "Select a spindle and fireboard"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Carve a bearing block (socket) from hardwood or a smooth stone with a natural depression.",
+          "helpDetail": "This goes on top of the spindle. Lubricate the socket dimple with leaf wax, ear wax, or nose grease to reduce friction at the top.",
+          "illustrationDescription": "Carve a bearing block (socket)"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wrap the bow string once around the spindle. Place the spindle in the fireboard dimple, press the socket on top.",
+          "helpDetail": "Kneel with one foot pinning the fireboard. Saw the bow back and forth rapidly while pressing down firmly.",
+          "illustrationDescription": "Wrap the bow string once aroun"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Generate maximum smoke, then stop. An ember should be glowing in the V-notch.",
+          "helpDetail": "Transfer it to a tinder bundle and gently blow into flame.",
+          "illustrationDescription": "Generate maximum smoke, then s"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-flint-steel-traditional",
+      "name": "Traditional Flint & Steel",
+      "subtitle": "Striking sparks using carbon steel on sharp flint",
+      "category": "Spark",
+      "difficulty": 3,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Obtain a piece of high-carbon steel (an old file, the spine of a carbon steel knife, or a dedicated striker).",
+          "helpDetail": "Stainless steel will NOT work. Only high-carbon steel produces sparks.",
+          "illustrationDescription": "Obtain a piece of high-carbon "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Find a hard, sharp-edged stone: flint, chert, jasper, agate, or quartz.",
+          "helpDetail": "The edge must be sharp enough to shave tiny slivers of steel off the striker.",
+          "illustrationDescription": "Find a hard, sharp-edged stone"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place a piece of char cloth directly on top of the sharp edge of the flint.",
+          "helpDetail": "Hold them together tightly between your thumb and forefinger.",
+          "illustrationDescription": "Place a piece of char cloth di"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Strike the steel downward against the sharp edge of the flint at a glancing 30-degree angle.",
+          "helpDetail": "The goal is to shave microscopic curls of steel off the striker. These curls ignite from friction and land on the char cloth.",
+          "illustrationDescription": "Strike the steel downward agai"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "When a spark catches on the char cloth (it will glow orange), transfer it to a tinder bundle and blow.",
+          "helpDetail": "Traditional flint and steel requires char cloth or amadou fungus; it will not ignite raw tinder directly.",
+          "illustrationDescription": "When a spark catches on the ch"
+        }
+      ],
+      "sourceName": "Bushcraft 101 – Dave Canterbury",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-battery-steel-wool",
+      "name": "Battery & Steel Wool Fire",
+      "subtitle": "Starting a fire using electrical short-circuiting",
+      "category": "Electrical",
+      "difficulty": 1,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Obtain a 9-volt battery (or two AA batteries taped in series) and fine-grade (#0000) steel wool.",
+          "helpDetail": "Coarser steel wool will not ignite. It must be ultra-fine.",
+          "illustrationDescription": "Obtain a 9-volt battery (or tw"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Pull the steel wool into a loose, fluffy bird's nest shape.",
+          "helpDetail": "Tight, compressed steel wool will not ignite because air cannot circulate.",
+          "illustrationDescription": "Pull the steel wool into a loo"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Touch both terminals of the 9-volt battery to the steel wool simultaneously.",
+          "helpDetail": "The electrical current will flow through the ultra-thin steel fibers, heating them past their ignition point almost instantly.",
+          "illustrationDescription": "Touch both terminals of the 9-"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "The steel wool will erupt into a brilliant cascade of orange sparks.",
+          "helpDetail": "Immediately place it into your prepared tinder bundle.",
+          "illustrationDescription": "The steel wool will erupt into"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Blow gently to transfer the burning steel wool's heat to the tinder.",
+          "helpDetail": "This method works even in wet or windy conditions because the spark shower is intense and sustained.",
+          "illustrationDescription": "Blow gently to transfer the bu"
+        }
+      ],
+      "sourceName": "SAS Survival Handbook – John Wiseman",
+      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+    },
+    {
+      "id": "fire-coal-carry-fungus",
+      "name": "Fire Carry with Fungus",
+      "subtitle": "Transporting a live ember using fungal tinder",
+      "category": "Fire Carry",
+      "difficulty": 3,
+      "estimatedTime": "1 hr prep",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Amadou (horse hoof fungus, Fomes fomentarius) is the premier fire-carrying material.",
+          "helpDetail": "Found on birch and beech trees. It is a hard, hoof-shaped bracket fungus.",
+          "illustrationDescription": "Amadou (horse hoof fungus, Fom"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cut the fungus in half and extract the inner trama layer.",
+          "helpDetail": "This brown, felt-like material is the amadou. Slice it into thin sheets.",
+          "illustrationDescription": "Cut the fungus in half and ext"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Touch a glowing ember to the amadou sheet.",
+          "helpDetail": "It will catch and smolder extremely slowly — a single piece can hold an ember for 12+ hours.",
+          "illustrationDescription": "Touch a glowing ember to the a"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wrap the smoldering amadou inside dry grass or bark to insulate it.",
+          "helpDetail": "Carry it in a ventilated container (punched tin can, bark tube) to allow oxygen flow while preventing wind from extinguishing it.",
+          "illustrationDescription": "Wrap the smoldering amadou ins"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "To restart your fire: unwrap the amadou, blow on it until it glows, place it in a tinder bundle.",
+          "helpDetail": "Amadou was carried by indigenous peoples, mountain men, and Ötzi the Iceman (5,300 years ago).",
+          "illustrationDescription": "To restart your fire: unwrap t"
+        }
+      ],
+      "sourceName": "Bushcraft 101",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-slow-match",
+      "name": "Slow Match Fire Cord",
+      "subtitle": "Making a rope that smolders for hours to carry fire between camps",
+      "category": "Fire Carry",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Tightly twist or braid a rope from fibrous bark (cedar, tulip poplar) or cattail.",
+          "helpDetail": "The cord should be pencil-thick and at least 2 feet long.",
+          "illustrationDescription": "Tightly twist or braid a rope "
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Soak the cord in a saltpeter (potassium nitrate) solution if available.",
+          "helpDetail": "Historically, this was urine that had been aged for weeks. It adds oxidizer that sustains combustion.",
+          "illustrationDescription": "Soak the cord in a saltpeter ("
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Dry the cord completely.",
+          "helpDetail": "A wet slow match will not smolder.",
+          "illustrationDescription": "Dry the cord completely."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Light one end.",
+          "helpDetail": "The cord smolders slowly along its length at approximately 1 inch per 15 minutes.",
+          "illustrationDescription": "Light one end."
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Coil the smoldering cord and carry it.",
+          "helpDetail": "When you need fire, blow on the glowing tip and touch it to fine tinder. This was the standard military fire-starting method for centuries.",
+          "illustrationDescription": "Coil the smoldering cord and c"
+        }
+      ],
+      "sourceName": "U.S. Army Survival Manual FM 21-76",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+    },
+    {
+      "id": "fire-coal-extender",
+      "name": "Coal Extender Bundle",
+      "subtitle": "Wrapping a live coal for extended transport",
+      "category": "Fire Carry",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a large, solid hardwood coal from your campfire.",
+          "helpDetail": "The coal should be glowing red-hot and about the size of your fist.",
+          "illustrationDescription": "Select a large, solid hardwood"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Wrap the coal in a thick layer of green leaves (non-toxic species).",
+          "helpDetail": "The leaves insulate and prevent the coal from burning through too quickly.",
+          "illustrationDescription": "Wrap the coal in a thick layer"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Wrap the leaf bundle in a thick layer of dry grass or bark.",
+          "helpDetail": "This outer layer provides additional insulation and fuel.",
+          "illustrationDescription": "Wrap the leaf bundle in a thic"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wrap the entire package in wet clay or mud.",
+          "helpDetail": "The mud creates a kiln-like shell that holds in heat while allowing minimal oxygen.",
+          "illustrationDescription": "Wrap the entire package in wet"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "The bundle can keep a coal alive for 6-12 hours.",
+          "helpDetail": "When you arrive at your new camp, break open the clay shell, blow on the coal, and place it in a tinder bundle.",
+          "illustrationDescription": "The bundle can keep a coal ali"
+        }
+      ],
+      "sourceName": "Bushcraft 101",
+      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+    },
+    {
+      "id": "fire-dakota-hole",
+      "category": "Methods",
+      "name": "Dakota Fire Hole",
+      "subtitle": "Concealed, wind-proof tactical fire",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig the main fire chamber.",
+          "helpDetail": "Dig a hole about 1 foot wide and 1 foot deep. This is where the fire will burn."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig the air intake shaft.",
+          "helpDetail": "Dig a second hole 1 foot away, angled down to connect to the bottom of the main chamber."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Orient to the wind.",
+          "helpDetail": "The air intake hole must face the prevailing wind to feed oxygen into the bottom of the fire."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build fire in the main hole.",
+          "helpDetail": "The fire burns incredibly hot and nearly smokeless, with the flames hidden below ground level."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-wood-gasifier",
+      "category": "Methods",
+      "name": "Improvised Wood Gasifier",
+      "subtitle": "High-efficiency tin can stove",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find two nested cans.",
+          "helpDetail": "You need a large can (like a coffee can) and a smaller can that fits inside it with an air gap."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Puncture the outer can.",
+          "helpDetail": "Punch holes around the bottom edge of the large can for primary air intake."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Puncture the inner can.",
+          "helpDetail": "Punch holes in the bottom, and a ring of holes around the top rim of the smaller can."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Nest and ignite.",
+          "helpDetail": "Place the small can inside the large one. Burn thumb-sized twigs in the center. The jets of air at the top will ignite wood smoke, burning intensely hot with zero visible smoke."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-chemical-brake-fluid",
+      "category": "Chemical",
+      "name": "Pool Chlorine & Brake Fluid",
+      "subtitle": "Chemical delayed ignition",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Crush calcium hypochlorite.",
+          "helpDetail": "HTH pool shock must be finely powdered. Place a small pile on a dry rock."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Add automotive brake fluid.",
+          "helpDetail": "Use standard polyethylene glycol brake fluid. Pour a few drops onto the powder."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Stand back immediately.",
+          "helpDetail": "The chemical reaction is exothermic and delayed. After 5-30 seconds, it will violently erupt into intense flame and toxic smoke."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Apply tinder once burning.",
+          "helpDetail": "Throw a bundle of dry tinder onto the flames from a distance. Do not breathe the initial fumes."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-ember-extension",
+      "category": "Fire Management",
+      "name": "Ember Extension & Transport",
+      "subtitle": "Carrying fire between camps using charred material",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select punk wood or cattail",
+          "helpDetail": "These materials hold an ember for hours."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place ember in tinder bundle",
+          "helpDetail": "Surround with dry grass and wrap loosely in bark."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Carry in a fire horn",
+          "helpDetail": "A rolled bark cylinder with ventilation holes keeps the ember alive."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Fan to flame at destination",
+          "helpDetail": "Unwrap and blow gently into a prepared tinder nest."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fatwood-harvesting",
+      "category": "Fire Starting",
+      "name": "Fatwood Identification & Harvesting",
+      "subtitle": "Finding resin-saturated ignition material",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Locate dead standing pine or conifer",
+          "helpDetail": "Resin concentrates in the heartwood after death."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Split stump or root junction",
+          "helpDetail": "Fatwood is orange/amber and smells strongly of turpentine."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Shave fine curls",
+          "helpDetail": "Create feathered shavings for quick ignition."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Ignite with single spark",
+          "helpDetail": "Fatwood burns even when wet and in wind."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-char-cloth-production",
+      "category": "Fire Starting",
+      "name": "Char Cloth Production",
+      "subtitle": "Manufacturing optimal tinder from cotton",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut 100% cotton into 2-inch squares",
+          "helpDetail": "Synthetic fabrics melt rather than char."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place in sealed tin with small hole",
+          "helpDetail": "An Altoids tin works perfectly. Punch one small hole in the lid."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place tin in fire for 15 minutes",
+          "helpDetail": "Smoke and flame will vent from the hole as volatiles burn off."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Remove and seal hole",
+          "helpDetail": "Let cool completely before opening. The cloth should be black and fragile."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-ferro-rod-technique",
+      "category": "Fire Starting",
+      "name": "Ferro Rod Technique",
+      "subtitle": "Maximizing sparks from ferrocerium rods",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Scrape off black coating first",
+          "helpDetail": "New ferro rods have an oxide layer that must be removed."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Push rod away, not scraper",
+          "helpDetail": "Lock the scraper in place and push the rod backward for controlled sparks."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Direct sparks into fine tinder",
+          "helpDetail": "Cotton balls with petroleum jelly, birch bark, or char cloth."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Shield from wind",
+          "helpDetail": "Cup your hand or body to block air from scattering sparks."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fire-piston",
+      "category": "Fire Starting",
+      "name": "Fire Piston Ignition",
+      "subtitle": "Pneumatic compression fire starting",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Prepare char cloth or tinder fungus on piston tip",
+          "helpDetail": "The material must be able to catch an ember."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Insert piston into cylinder",
+          "helpDetail": "Must form an airtight seal."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Strike piston sharply downward",
+          "helpDetail": "The rapid compression heats air to 500°F+, igniting the tinder."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Quickly extract ember",
+          "helpDetail": "Transfer immediately to tinder bundle and blow to flame."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-platform-base",
+      "category": "Fire Management",
+      "name": "Wet Ground Fire Platform",
+      "subtitle": "Building a fire base on snow, mud, or wet ground",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Lay a platform of green logs",
+          "helpDetail": "3-4 wrist-thick green logs laid parallel create a dry base."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Add a layer of bark or stones",
+          "helpDetail": "This insulates the fire from moisture-wicking."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build fire on top of platform",
+          "helpDetail": "Start with small tinder and work up as normal."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Replace platform logs as needed",
+          "helpDetail": "Green logs will eventually char through after several hours."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-swedish-torch",
+      "category": "Fire Management",
+      "name": "Swedish Torch (Log Candle)",
+      "subtitle": "Self-contained cooking fire from a single log",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a dry log 12-18 inches tall",
+          "helpDetail": "Standing upright, the log becomes both fuel and stove."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Split into quarters with an axe",
+          "helpDetail": "Cut 3/4 of the way down, leaving the base intact."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Insert tinder in the center cracks",
+          "helpDetail": "Stuff with birch bark, paper, or fatwood shavings."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Light from the center",
+          "helpDetail": "The log burns from inside out, creating a stable, flat cooking surface on top."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-bank-fire-overnight",
+      "category": "Fire Management",
+      "name": "Banking a Fire for Overnight Burn",
+      "subtitle": "Preserving coals through the night",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build a thick coal bed",
+          "helpDetail": "Let your fire burn down to deep, red-hot coals."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cover coals with ash",
+          "helpDetail": "Push a layer of ash over the entire coal bed."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place a large green log on top",
+          "helpDetail": "This smothers the fire but preserves heat in the coal bed."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Uncover and add tinder in the morning",
+          "helpDetail": "Push aside the ash, blow on the coals, and rebuild."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-signal-smoke-colors",
+      "category": "Signaling",
+      "name": "Signal Fire Smoke Control",
+      "subtitle": "Creating visible smoke in different conditions",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "White smoke for dark backgrounds",
+          "helpDetail": "Add green boughs, moss, or damp leaves to produce white smoke."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Black smoke for light/snow backgrounds",
+          "helpDetail": "Add rubber, oil, or plastic to produce dark smoke."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Three fires in triangle = distress",
+          "helpDetail": "International distress signal. Space fires 50-100 feet apart."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Time with clear skies",
+          "helpDetail": "Smoke dissipates quickly in wind. Wait for calm conditions if possible."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-underground-flue",
+      "category": "Fire Management",
+      "name": "Underground Heating Flue",
+      "subtitle": "Channeling heat beneath a sleeping platform",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig a shallow trench",
+          "helpDetail": "12 inches deep, running from fire pit to far end of sleeping area."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Cover trench with flat stones",
+          "helpDetail": "Leave a gap at the fire end for intake and far end for exhaust."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build fire at intake end",
+          "helpDetail": "Hot air and smoke flow through the trench, heating the stones above."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Lay insulation and bedding on heated stones",
+          "helpDetail": "This Korean ondol-style system provides all-night radiant heat."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fire-plow-technique",
+      "category": "Fire Starting",
+      "name": "Fire Plow",
+      "subtitle": "Friction fire without a spindle or bow",
+      "difficulty": 3,
+      "isCritical": false,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a soft wood base",
+          "helpDetail": "Hibiscus, willow, or cottonwood work well. The base must be softer than the plow."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Carve a groove in the base",
+          "helpDetail": "6-8 inches long, running with the grain."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Plow hard and fast with a hardwood stick",
+          "helpDetail": "Press the pointed tip into the groove and push forward rapidly."
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Collect the hot dust at the end of the groove",
+          "helpDetail": "Accumulated charred dust forms a coal. Transfer to tinder bundle."
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fire-from-battery",
+      "name": "Fire from Batteries (Any Type)",
+      "subtitle": "Create sparks or heat from batteries and wire",
+      "category": "Ignition — Electrical",
+      "difficulty": 2,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find a battery and any thin conductive material: steel wool, foil gum wrapper, or wire.",
+          "helpDetail": "9V batteries work best. AA/AAA work with steel wool. Car batteries can arc-weld.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Steel wool method: touch both battery terminals to fine steel wool.",
+          "helpDetail": "The wool ignites instantly — have tinder ready. Works even with partially dead batteries.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Gum wrapper method: cut the foil-backed wrapper into an hourglass shape (thin center).",
+          "helpDetail": "Touch ends to battery terminals. The thin center heats and ignites.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Car battery: touch jumper cable ends together briefly near tinder.",
+          "helpDetail": "CAUTION: creates intense sparks. Keep face away. Car batteries produce hydrogen gas — spark AWAY from the battery.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-birch-bark-fire",
+      "name": "Birch Bark Fire Starting",
+      "subtitle": "Nature's best fire starter — burns even when wet",
+      "category": "Tinder",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Harvest birch bark: peel thin, papery outer bark from living or dead birch trees.",
+          "helpDetail": "Take bark from dead/fallen trees first. Peel from living trees minimally — deep cuts harm the tree.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "The bark contains betulin oil — it burns hot even when soaking wet.",
+          "helpDetail": "Crumple loosely for maximum oxygen exposure. Don't compress into a tight ball.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Ignite with a small spark or match. It catches almost immediately.",
+          "helpDetail": "Birch bark is the single best natural fire starter in the Northern Hemisphere.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build your fire on the burning bark. Add small tinder, then kindling.",
+          "helpDetail": "Even a small piece of birch bark can start a fire in rain. Carry birch bark in your kit as emergency tinder.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-upside-down-fire",
+      "name": "Upside-Down (Top-Down) Fire",
+      "subtitle": "Self-feeding fire that requires no tending for hours",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Lay 3-4 large logs parallel on the ground as the base.",
+          "helpDetail": "These are the last to burn — largest pieces go on the bottom.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stack medium logs perpendicular on top, then smaller pieces, then kindling and tinder on top.",
+          "helpDetail": "Building from large to small, bottom to top. Opposite of normal fire building.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Light the tinder on TOP.",
+          "helpDetail": "Fire burns downward through each layer.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "The fire feeds itself as embers fall onto the next layer — burns 3-5 hours unattended.",
+          "helpDetail": "Perfect for overnight fires or when you're too busy/injured to tend the fire constantly. No poking or rearranging needed.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fire-reflector-wall",
+      "name": "Fire Reflector Wall",
+      "subtitle": "Double your fire's heat output directed at your shelter",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build a wall of green logs stacked 3-4 feet high, 4 feet wide, 3 feet behind your fire.",
+          "helpDetail": "Green logs won't burn. They reflect infrared heat back toward you.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Angle the wall slightly toward you for maximum heat reflection.",
+          "helpDetail": "A 10-degree forward lean focuses the heat.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Position yourself between the fire and your shelter, reflector behind the fire.",
+          "helpDetail": "You receive heat from both the fire AND its reflection off the wall.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Replaces huge quantities of firewood — you get more heat from less fuel.",
+          "helpDetail": "A fire with a reflector is roughly 2x as effective as one without. Essential in cold weather when wood is scarce.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-bow-drill-mastery",
+      "name": "Bow Drill Mastery — Complete Protocol",
+      "subtitle": "Friction fire from scratch — the most important primitive skill",
+      "category": "Friction Method",
+      "difficulty": 3,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Materials: fireboard and spindle from SOFT dry wood (willow, cottonwood, cedar). They must match.",
+          "helpDetail": "Different density woods create dust that doesn't coalesce into an ember. Match the species.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Bow: curved stick with cordage (shoelace, paracord, bark strip). Wrap once around spindle.",
+          "helpDetail": "The cord must grip the spindle without slipping. One wrap, not two.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Carve a V-notch in the fireboard with a depression where the spindle sits. Place tinder below the notch.",
+          "helpDetail": "The V-notch collects hot dust that forms the ember. It must extend to the center of the depression.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Bear down with socket, saw bow rapidly. Smoke = keep going. Stop after dark brown dust pill forms in the notch.",
+          "helpDetail": "The pile of hot dust self-ignites into a glowing ember. Transfer to tinder nest and gently blow to flame. This takes practice — expect to fail many times before succeeding.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-hand-drill-technique",
+      "name": "Hand Drill Fire Starting",
+      "subtitle": "Friction fire with no cordage — just your hands and wood",
+      "category": "Friction Method",
+      "difficulty": 3,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a straight, dry spindle: cattail, mullein, yucca stalk, or sotol. 18 inches long.",
+          "helpDetail": "These plants have pithy centers that create friction dust efficiently.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Fireboard: flat piece of dry softwood with a depression and V-notch.",
+          "helpDetail": "Same setup as bow drill. The spindle rotates in the depression.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Spin the spindle between your palms, pressing down as you roll.",
+          "helpDetail": "Your hands naturally migrate downward. When they reach the bottom, quickly reposition at the top.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Key technique: 'float' your pressure — heavy at first, lighter as smoke appears.",
+          "helpDetail": "The hand drill requires more skill and arm endurance than the bow drill. Practice daily. The moment you see thick smoke and smell charring, you're seconds from an ember.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-char-cloth-making",
+      "name": "Char Cloth Production",
+      "subtitle": "Create the best spark-catching material from cotton",
+      "category": "Tinder Preparation",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Cut 100% cotton cloth into 2-inch squares.",
+          "helpDetail": "Cotton only — synthetics melt. Old t-shirts, bandanas, jeans all work.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Place squares in a small metal tin with a tiny hole in the lid.",
+          "helpDetail": "Altoids tins are perfect. The hole lets gas escape but not air enter.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Place the tin in a fire. Smoke pours from the hole — this is pyrolysis.",
+          "helpDetail": "The cloth is being converted to carbon without oxygen. Don't open until smoke stops.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "When smoke stops: remove from fire, plug the hole, let cool completely before opening.",
+          "helpDetail": "The result: black, fragile cloth that catches a spark from a ferro rod or flint-and-steel instantly. Char cloth catches sparks that would bounce off everything else.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fatwood-finding",
+      "name": "Fatwood Identification & Harvesting",
+      "subtitle": "Nature's firestarter — resin-saturated wood that lights instantly",
+      "category": "Tinder Preparation",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find dead pine stumps or dead pine branches still attached to the tree.",
+          "helpDetail": "Resin concentrates in stumps and knots as the wood decomposes.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Look for reddish, waxy-smelling wood. It feels heavier than surrounding dead wood.",
+          "helpDetail": "Fatwood is saturated with flammable resin. It smells like turpentine when cut.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Split off splinters with a knife — they should be orange/red and waxy.",
+          "helpDetail": "Shave thin curls for best ignition. Thicker pieces burn longer.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Lights with a single spark from a ferro rod. Burns hot even when wet.",
+          "helpDetail": "Fatwood ignites in rain, wind, and snow. It's the single most reliable natural fire starter in coniferous forests. Carry a few sticks in your kit at all times.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-rocket-stove",
+      "name": "Improvised Rocket Stove",
+      "subtitle": "Ultra-efficient cooking fire that uses 80% less wood",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "30 min to build",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Build an L-shaped combustion chamber from rocks, bricks, cans, or clay.",
+          "helpDetail": "Vertical chamber (chimney) sits atop a horizontal chamber (fuel shelf).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Insulate the outside of the chimney with mud, earth, or double walls.",
+          "helpDetail": "Insulation keeps heat inside, increasing efficiency.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Feed small sticks into the horizontal opening. Fire burns intensely at the elbow where channels meet.",
+          "helpDetail": "The venturi effect pulls air through the horizontal chamber, superheating combustion.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Cooking pot sits directly on top of the chimney.",
+          "helpDetail": "A rocket stove reaches cooking temperature with just a few sticks. Uses 1/5 the wood of an open fire. Reduces smoke by 90%. The single most efficient wood-burning camp stove design ever created.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-tinder-collection",
+      "name": "Tinder Collection & Storage Guide",
+      "subtitle": "Know the best tinders for every environment",
+      "category": "Tinder Preparation",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Best tinders: birch bark, fatwood shavings, char cloth, dried grass, cattail fluff, cedar bark.",
+          "helpDetail": "All catch sparks or small flames instantly.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Medium tinders: dryer lint, steel wool, cotton balls with petroleum jelly, birch polypore fungus.",
+          "helpDetail": "These are fire-starting gold — carry them in your kit.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Collect and DRY tinder continuously — even when you don't need fire.",
+          "helpDetail": "Store dry tinder in a waterproof container. Ziploc bag, tin, or sealed bark container.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Wet environment: look INSIDE standing dead trees, under bark, and in bird nests.",
+          "helpDetail": "The inside of dead trees stays dry. Pine pitch is waterproof and flammable even when covered in rain.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fire-lay-types",
+      "name": "Fire Lay Configurations",
+      "subtitle": "Match your fire structure to your purpose",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Teepee: kindling leaned together in a cone shape — best for starting fires and quick heating.",
+          "helpDetail": "The cone shape feeds air from below. Good for cooking over as coals develop.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Log cabin: alternating layers of parallel sticks — burns hot and produces excellent coals.",
+          "helpDetail": "Best for cooking: produces a level surface for pots and even heat.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Star fire: long logs radiating from central point — push inward as they burn.",
+          "helpDetail": "Fuel-efficient. Uses large logs without cutting them. Push ends inward as they burn. Good for overnight fires.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Long fire: two parallel logs with fire between — radiates heat along the entire length.",
+          "helpDetail": "Best for sleeping beside. The full-body heat radiation keeps you warm head to toe.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-wet-wood-fire",
+      "name": "Starting Fire with Wet Wood",
+      "subtitle": "Overcome moisture when everything is damp",
+      "category": "Wet Conditions",
+      "difficulty": 2,
+      "estimatedTime": "20 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Find the DRIEST material first: inside standing dead trees, under bark, in the center of dead branches.",
+          "helpDetail": "The outside is wet but the inside of dead wood stays dry.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Baton (split) larger pieces to expose dry interior wood.",
+          "helpDetail": "Use your knife like a wedge and strike with a baton stick to split logs.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Create feather sticks: shave thin curls along a dry stick without detaching them.",
+          "helpDetail": "The curled shavings catch fire easily even if the core is slightly damp.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build a platform of wet sticks to elevate your fire off the wet ground.",
+          "helpDetail": "The platform keeps your tinder dry while the fire gets established. Once burning hot, wet wood will dry and burn.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (John Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire- Dakota-hole",
+      "name": "Dakota Fire Hole",
+      "subtitle": "Concealed, windproof, high-efficiency fire",
+      "category": "Tactical Fire",
+      "difficulty": 3,
+      "estimatedTime": "30 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Dig the main fire chamber: a hole about 1 foot in diameter and 1 foot deep.",
+          "helpDetail": "The bottom should be slightly wider than the top, resembling a jug shape.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Dig a second, smaller ventilation hole roughly 1 foot upwind from the first.",
+          "helpDetail": "This hole should angle downward to intersect the bottom of the main fire chamber.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Build a small fire in the main chamber.",
+          "helpDetail": "The design draws fresh air down the ventilation tube and into the base of the fire (the venturi effect).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Use for cooking or stealth.",
+          "helpDetail": "The fire burns extremely hot with almost no smoke, is unaffected by high surface winds, and the flames are invisible from a distance. Best fire for open plains.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-flint-and-steel",
+      "name": "Traditional Flint and Steel",
+      "subtitle": "Ancient fire-making using high-carbon steel",
+      "category": "Spark Fire",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Obtain a piece of high-carbon steel (like an old file or a dedicated striker) and a hard, sharp-edged rock (flint, chert, or quartz).",
+          "helpDetail": "Stainless steel will NOT produce sparks. The rock must be harder than the steel (7+ on Mohs scale).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Prepare true Char Cloth or amadou fungus.",
+          "helpDetail": "You must catch the spark on a material that takes a low-temperature spark and turns it into a slow-burning ember.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Hold the rock and the char cloth in your non-dominant hand.",
+          "helpDetail": "Place the char cloth flat on top of the rock, very close to the sharp edge.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Strike the edge of the rock with the steel rapidly.",
+          "helpDetail": "The sharp rock shaves microscopic pieces of steel off. The friction ignites the steel shavings (sparks). The sparks land on the char cloth. Transfer the glowing char cloth edge to a tinder nest and blow.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook (Wiseman)",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+    },
+    {
+      "id": "fire-fire-feather-stick",
+      "name": "Carving a Feather Stick",
+      "subtitle": "Creating massive surface area on wet wood.",
+      "category": "Fire Starting",
+      "difficulty": 2,
+      "estimatedTime": "10 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select a piece of straight-grained deadwood.",
+          "helpDetail": "Split a 2-inch thick log to expose the dry inner heartwood. The outer bark and sapwood will be wet/damp.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Lock your knife arm.",
+          "helpDetail": "Do not whittle with your wrist or elbow. Lock your elbow against your ribs and use your entire torso to push the knife down the wood.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Slice extremely thin, long curls.",
+          "helpDetail": "Stop the blade just before it exits the wood, leaving the curl attached to the base. Rotate the stick slightly and repeat.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Build a 'tree' of curls.",
+          "helpDetail": "Create 3-4 dense feather sticks. They will ignite from a single ferrocerium spark because the wood is paper-thin and perfectly dry inside.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-fire-birch-bark-prep",
+      "name": "White Birch Bark Ignition",
+      "subtitle": "The ultimate natural waterproof tinder.",
+      "category": "Fire Starting",
+      "difficulty": 1,
+      "estimatedTime": "5 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Harvest from dead/fallen trees first.",
+          "helpDetail": "If you must take from a live tree, peel ONLY the paper-thin outer layer. Never cut into the inner green cambium layer, which will scar or kill the tree.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process for sparks.",
+          "helpDetail": "A large sheet of bark will not take a spark. You must scrape the surface with a 90-degree knife spine to create a fluffy pile of microscopic birch-dust.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Ignite the dust.",
+          "helpDetail": "Drop a spark directly into the fluffy scrapings. Birch bark contains highly volatile betulin oil, which burns furiously even if the bark was initially submerged in water.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Feed the flame.",
+          "helpDetail": "Once the dust flares, lay the larger, rolled sheets of bark on top. They will produce thick, black, oily smoke and intense heat to dry out damp kindling.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-oak-hardwood",
+      "name": "Fuel Dynamics: Oak (Hardwood)",
+      "subtitle": "Utilizing Oak for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Oak in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Requires splitting with an axe or wedge. Hardwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as primary sustaining fuel (coals) after the fire is raging.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will produce a long-lasting, intensely hot coal bed excellent for cooking/overnight heat.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-hickory-hardwood",
+      "name": "Fuel Dynamics: Hickory (Hardwood)",
+      "subtitle": "Utilizing Hickory for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Hickory in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Requires splitting with an axe or wedge. Hardwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as primary sustaining fuel (coals) after the fire is raging.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will produce a long-lasting, intensely hot coal bed excellent for cooking/overnight heat.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-maple-hardwood",
+      "name": "Fuel Dynamics: Maple (Hardwood)",
+      "subtitle": "Utilizing Maple for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Maple in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Requires splitting with an axe or wedge. Hardwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as primary sustaining fuel (coals) after the fire is raging.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will produce a long-lasting, intensely hot coal bed excellent for cooking/overnight heat.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-ash-hardwood",
+      "name": "Fuel Dynamics: Ash (Hardwood)",
+      "subtitle": "Utilizing Ash for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Ash in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Requires splitting with an axe or wedge. Hardwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as primary sustaining fuel (coals) after the fire is raging.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will produce a long-lasting, intensely hot coal bed excellent for cooking/overnight heat.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-pine-softwood",
+      "name": "Fuel Dynamics: Pine (Softwood)",
+      "subtitle": "Utilizing Pine for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Pine in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Easily broken by hand or impact. Softwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as initial kindling to generate rapid, high flames.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will burn fast and hot, leaving fluffy ash and quickly dying coals; terrible for overnight heating.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-cedar-softwood",
+      "name": "Fuel Dynamics: Cedar (Softwood)",
+      "subtitle": "Utilizing Cedar for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Cedar in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Easily broken by hand or impact. Softwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as initial kindling to generate rapid, high flames.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will burn fast and hot, leaving fluffy ash and quickly dying coals; terrible for overnight heating.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-spruce-softwood",
+      "name": "Fuel Dynamics: Spruce (Softwood)",
+      "subtitle": "Utilizing Spruce for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Spruce in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Easily broken by hand or impact. Softwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as initial kindling to generate rapid, high flames.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will burn fast and hot, leaving fluffy ash and quickly dying coals; terrible for overnight heating.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-birch",
+      "name": "Fuel Dynamics: Birch",
+      "subtitle": "Utilizing Birch for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Birch in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Easily broken by hand or impact. Softwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as initial kindling to generate rapid, high flames.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will burn fast and hot, leaving fluffy ash and quickly dying coals; terrible for overnight heating.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-poplar-aspen",
+      "name": "Fuel Dynamics: Poplar/Aspen",
+      "subtitle": "Utilizing Poplar/Aspen for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Poplar/Aspen in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Easily broken by hand or impact. Softwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as initial kindling to generate rapid, high flames.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will burn fast and hot, leaving fluffy ash and quickly dying coals; terrible for overnight heating.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-fuel-willow",
+      "name": "Fuel Dynamics: Willow",
+      "subtitle": "Utilizing Willow for sustained fire building.",
+      "category": "Fire Management",
+      "difficulty": 1,
+      "estimatedTime": "ongoing",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Identify Willow in the field.",
+          "helpDetail": "Assess the bark, branching structure, and density of the deadfall before harvesting.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Process according to density.",
+          "helpDetail": "Easily broken by hand or impact. Softwoods burn differently and require specific prep.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Sequence in the fire lay.",
+          "helpDetail": "Use as initial kindling to generate rapid, high flames.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Evaluate the coal bed.",
+          "helpDetail": "Will burn fast and hot, leaving fluffy ash and quickly dying coals; terrible for overnight heating.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-geometry-teepee",
+      "name": "Fire Geometry: Teepee Lay",
+      "subtitle": "Constructing a Teepee configuration for specific thermal needs.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select the Teepee based on constraints.",
+          "helpDetail": "Consider wind direction, ground moisture, and desired burn time (rapid heat vs sustained overnight coals).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build the foundation of the Teepee.",
+          "helpDetail": "Establish the base structure. Ensure there is adequate airflow engineered into the bottom of the structure.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Position the tinder and kindling.",
+          "helpDetail": "Place the micro-tinder where it will immediately ignite the pencil-lead sized twigs without being smothered by the larger logs.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Ignite and transition.",
+          "helpDetail": "Light the tinder and monitor the flame path. Do not force large fuel onto the fire until the geometric structure naturally catches.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-geometry-log-cabin",
+      "name": "Fire Geometry: Log Cabin Lay",
+      "subtitle": "Constructing a Log Cabin configuration for specific thermal needs.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select the Log Cabin based on constraints.",
+          "helpDetail": "Consider wind direction, ground moisture, and desired burn time (rapid heat vs sustained overnight coals).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build the foundation of the Log Cabin.",
+          "helpDetail": "Establish the base structure. Ensure there is adequate airflow engineered into the bottom of the structure.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Position the tinder and kindling.",
+          "helpDetail": "Place the micro-tinder where it will immediately ignite the pencil-lead sized twigs without being smothered by the larger logs.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Ignite and transition.",
+          "helpDetail": "Light the tinder and monitor the flame path. Do not force large fuel onto the fire until the geometric structure naturally catches.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-geometry-lean-to",
+      "name": "Fire Geometry: Lean-To Lay",
+      "subtitle": "Constructing a Lean-To configuration for specific thermal needs.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select the Lean-To based on constraints.",
+          "helpDetail": "Consider wind direction, ground moisture, and desired burn time (rapid heat vs sustained overnight coals).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build the foundation of the Lean-To.",
+          "helpDetail": "Establish the base structure. Ensure there is adequate airflow engineered into the bottom of the structure.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Position the tinder and kindling.",
+          "helpDetail": "Place the micro-tinder where it will immediately ignite the pencil-lead sized twigs without being smothered by the larger logs.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Ignite and transition.",
+          "helpDetail": "Light the tinder and monitor the flame path. Do not force large fuel onto the fire until the geometric structure naturally catches.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-geometry-star-fire",
+      "name": "Fire Geometry: Star Fire Lay",
+      "subtitle": "Constructing a Star Fire configuration for specific thermal needs.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select the Star Fire based on constraints.",
+          "helpDetail": "Consider wind direction, ground moisture, and desired burn time (rapid heat vs sustained overnight coals).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build the foundation of the Star Fire.",
+          "helpDetail": "Establish the base structure. Ensure there is adequate airflow engineered into the bottom of the structure.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Position the tinder and kindling.",
+          "helpDetail": "Place the micro-tinder where it will immediately ignite the pencil-lead sized twigs without being smothered by the larger logs.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Ignite and transition.",
+          "helpDetail": "Light the tinder and monitor the flame path. Do not force large fuel onto the fire until the geometric structure naturally catches.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-geometry-parallel-trench",
+      "name": "Fire Geometry: Parallel/Trench Lay",
+      "subtitle": "Constructing a Parallel/Trench configuration for specific thermal needs.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select the Parallel/Trench based on constraints.",
+          "helpDetail": "Consider wind direction, ground moisture, and desired burn time (rapid heat vs sustained overnight coals).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build the foundation of the Parallel/Trench.",
+          "helpDetail": "Establish the base structure. Ensure there is adequate airflow engineered into the bottom of the structure.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Position the tinder and kindling.",
+          "helpDetail": "Place the micro-tinder where it will immediately ignite the pencil-lead sized twigs without being smothered by the larger logs.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Ignite and transition.",
+          "helpDetail": "Light the tinder and monitor the flame path. Do not force large fuel onto the fire until the geometric structure naturally catches.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-geometry-upside-down-(top-lit)",
+      "name": "Fire Geometry: Upside Down (Top-Lit) Lay",
+      "subtitle": "Constructing a Upside Down (Top-Lit) configuration for specific thermal needs.",
+      "category": "Fire Management",
+      "difficulty": 2,
+      "estimatedTime": "15 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Select the Upside Down (Top-Lit) based on constraints.",
+          "helpDetail": "Consider wind direction, ground moisture, and desired burn time (rapid heat vs sustained overnight coals).",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Build the foundation of the Upside Down (Top-Lit).",
+          "helpDetail": "Establish the base structure. Ensure there is adequate airflow engineered into the bottom of the structure.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Position the tinder and kindling.",
+          "helpDetail": "Place the micro-tinder where it will immediately ignite the pencil-lead sized twigs without being smothered by the larger logs.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Ignite and transition.",
+          "helpDetail": "Light the tinder and monitor the flame path. Do not force large fuel onto the fire until the geometric structure naturally catches.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "Bushcraft (Mors Kochanski)",
+      "sourceUrl": "https://karstsports.com/bushcraft-outdoor-skills-and-wilderness-survival-book/"
+    },
+    {
+      "id": "fire-encyclopedia-friction-bow-yucca",
+      "name": "Bow Drill: Yucca Stalk",
+      "subtitle": "Executing the bow drill technique utilizing yucca stalk materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Yucca Stalk spindle/hearth.",
+          "helpDetail": "The yucca stalk must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the bow drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-bow-cottonwood",
+      "name": "Bow Drill: Cottonwood Root",
+      "subtitle": "Executing the bow drill technique utilizing cottonwood root materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Cottonwood Root spindle/hearth.",
+          "helpDetail": "The cottonwood root must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the bow drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-bow-cedar",
+      "name": "Bow Drill: Cedar",
+      "subtitle": "Executing the bow drill technique utilizing cedar materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Cedar spindle/hearth.",
+          "helpDetail": "The cedar must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the bow drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-bow-basswood",
+      "name": "Bow Drill: Basswood",
+      "subtitle": "Executing the bow drill technique utilizing basswood materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Basswood spindle/hearth.",
+          "helpDetail": "The basswood must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the bow drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-bow-willow",
+      "name": "Bow Drill: Willow",
+      "subtitle": "Executing the bow drill technique utilizing willow materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Willow spindle/hearth.",
+          "helpDetail": "The willow must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the bow drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-hand-yucca",
+      "name": "Hand Drill: Yucca Stalk",
+      "subtitle": "Executing the hand drill technique utilizing yucca stalk materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Yucca Stalk spindle/hearth.",
+          "helpDetail": "The yucca stalk must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the hand drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-hand-cottonwood",
+      "name": "Hand Drill: Cottonwood Root",
+      "subtitle": "Executing the hand drill technique utilizing cottonwood root materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Cottonwood Root spindle/hearth.",
+          "helpDetail": "The cottonwood root must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the hand drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-hand-basswood",
+      "name": "Hand Drill: Basswood",
+      "subtitle": "Executing the hand drill technique utilizing basswood materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Basswood spindle/hearth.",
+          "helpDetail": "The basswood must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the hand drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-pump-yucca",
+      "name": "Pump Drill: Yucca Stalk",
+      "subtitle": "Executing the pump drill technique utilizing yucca stalk materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Yucca Stalk spindle/hearth.",
+          "helpDetail": "The yucca stalk must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the pump drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-pump-cottonwood",
+      "name": "Pump Drill: Cottonwood Root",
+      "subtitle": "Executing the pump drill technique utilizing cottonwood root materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Cottonwood Root spindle/hearth.",
+          "helpDetail": "The cottonwood root must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the pump drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-pump-cedar",
+      "name": "Pump Drill: Cedar",
+      "subtitle": "Executing the pump drill technique utilizing cedar materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Cedar spindle/hearth.",
+          "helpDetail": "The cedar must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the pump drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-pump-basswood",
+      "name": "Pump Drill: Basswood",
+      "subtitle": "Executing the pump drill technique utilizing basswood materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Basswood spindle/hearth.",
+          "helpDetail": "The basswood must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the pump drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-pump-willow",
+      "name": "Pump Drill: Willow",
+      "subtitle": "Executing the pump drill technique utilizing willow materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Willow spindle/hearth.",
+          "helpDetail": "The willow must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the pump drill.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-fire-yucca",
+      "name": "Fire Plow: Yucca Stalk",
+      "subtitle": "Executing the fire plow technique utilizing yucca stalk materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Yucca Stalk spindle/hearth.",
+          "helpDetail": "The yucca stalk must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the fire plow.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-fire-cedar",
+      "name": "Fire Plow: Cedar",
+      "subtitle": "Executing the fire plow technique utilizing cedar materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Cedar spindle/hearth.",
+          "helpDetail": "The cedar must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the fire plow.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-fire-basswood",
+      "name": "Fire Plow: Basswood",
+      "subtitle": "Executing the fire plow technique utilizing basswood materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Basswood spindle/hearth.",
+          "helpDetail": "The basswood must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the fire plow.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-fire-willow",
+      "name": "Fire Plow: Willow",
+      "subtitle": "Executing the fire plow technique utilizing willow materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Willow spindle/hearth.",
+          "helpDetail": "The willow must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the fire plow.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+    },
+    {
+      "id": "fire-encyclopedia-friction-fire-cottonwood",
+      "name": "Fire Saw: Cottonwood Root",
+      "subtitle": "Executing the fire saw technique utilizing cottonwood root materials.",
+      "category": "Primitive Fire",
+      "difficulty": 4,
+      "estimatedTime": "hours",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Carve the Cottonwood Root spindle/hearth.",
+          "helpDetail": "The cottonwood root must be completely dead and bone dry. Carve a straight spindle and a flat hearth board with a sharp-edged notch.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Assemble the fire saw.",
+          "helpDetail": "Set the spindle into the hearth depression. If using a bow, string the cord tightly around the spindle with zero slack.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Burn in the socket.",
+          "helpDetail": "Apply heavy downward pressure while spinning the spindle to 'burn in' a perfectly mated socket before attempting to create an actual coal.",
+          "illustrationDescription": ""
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Spin for a coal.",
+          "helpDetail": "Cut a notch into the burned-in socket. Spin aggressively until thick brown smoke pours out. Tap the burning {wood.lower()} dust out into a tinder bundle and blow to flame.",
+          "illustrationDescription": ""
+        }
+      ],
+      "sourceName": "SAS Survival Handbook",
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
     }
   ],
   "articles": [
     {
       "id": "fire-article-fuel",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Fuel Selection: Tinder, Kindling, Fuel",
       "body": "Fire needs three sizes of fuel, used in sequence:\n\nTinder (catches a spark/ember):\n- Dryer lint, charcloth, cotton balls in vaseline\n- Birch bark (contains flammable oils — burns even wet)\n- Cedar bark (shred into fine fibers)\n- Fatwood shavings (resinous pine)\n- Dried grass or cattail fluff\n- Fine wood shavings (feather sticks)\n\nKindling (catches from tinder flame):\n- Pencil-lead to pencil-thick dead twigs\n- Split softwood sticks\n- Small bark strips\n- Must be DRY — snap test (dry twigs snap cleanly)\n\nFuel (sustains the fire):\n- Wrist-thick and larger branches\n- Split logs\n- Hardwoods for long burn (oak, hickory, maple)\n- Softwoods for quick heat (pine, cedar, spruce)\n\nGather 3× more than you think you'll need. The universal survival rule: you always underestimate fuel requirements.",
       "relatedTechniqueIDs": [
@@ -1640,7 +5264,7 @@
     {
       "id": "fire-article-methods",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Fire-Starting Methods Compared",
       "body": "Ranked by reliability (best to worst):\n\n1. Lighter — easiest, works thousands of times, even when empty (spark ignites tinder)\n2. Ferrocerium rod — 3,000°F sparks, works wet, 10,000+ strikes\n3. Matches (stormproof) — reliable but finite, keep dry\n4. Magnifying lens — unlimited uses, requires direct sunlight\n5. Flint & steel — requires skill, needs charcloth/fungi\n6. Battery + steel wool — requires specific materials, fast when available\n7. Bow drill — no materials needed except wood, highest skill requirement\n8. Hand drill — extreme difficulty, requires perfect materials\n9. Fire plow — exhausting, inconsistent\n10. Ice lens — last resort, requires clear ice + sun\n\nRedundancy rule: carry AT LEAST three fire-starting methods. Primary (lighter), backup (ferro rod), emergency (knowledge-based friction method).\n\nThe best fire-starting method is the one that works when you need it. Practice all methods before you're in a survival situation.",
       "relatedTechniqueIDs": [
@@ -1655,7 +5279,7 @@
     {
       "id": "fire-article-signaling",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Fire as a Signaling Tool",
       "body": "Fire is one of the most visible signals available to survivors.\n\nDaytime: SMOKE\n- Green branches, wet wood, and damp leaves create thick white smoke\n- Rubber, oil-soaked cloth, and plastics create black smoke\n- White smoke against dark forest, black smoke against snow/sand\n- Three smoke columns in a triangle = universal distress signal\n\nNighttime: FLAME\n- Bright flames visible for miles in darkness\n- Three fires in a triangle = distress\n- A single large fire on a hilltop can be seen 20+ miles\n- Maintain fires through the night when rescue is expected\n\nSignal fire preparation:\n- Pre-build signal fires at your camp, ready to light\n- Cover with bark or tarp to protect from rain\n- Keep accelerants nearby (birch bark, fatwood, resin)\n- Can you light all three within 2 minutes? Practice.\n\nAircraft detection: pilots scan for smoke columns and fire at night. A signal fire has saved more lives than any other primitive signaling method.",
       "relatedTechniqueIDs": [
@@ -1678,7 +5302,7 @@
     {
       "id": "fire-article-maintenance",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Fire Maintenance Through the Night",
       "body": "A fire that dies at 3 AM is a survival setback. Maintaining fire through the night is a core skill.\n\nBanking a fire for the night:\n1. Let fire burn down to a deep coal bed (1-2 hours of steady burning)\n2. Push coals together into a compact pile\n3. Cover with a thick layer of ash (insulation)\n4. Place two large, dense hardwood logs on top\n5. The logs smolder and can be blown back to flame in the morning\n\nLong-burn fuel selection:\n- Hardwoods burn longest: oak, hickory, maple, ironwood\n- Dense green wood smolders for hours (not ideal but functional)\n- Large diameter logs (6+ inches) last much longer than splits\n- Avoid softwoods for overnight — they burn fast and create sparks\n\nMorning restart:\n1. Remove ash cover gently\n2. Expose glowing coals underneath\n3. Place tinder directly on coals\n4. Blow gently until flames appear\n5. Add kindling, then fuel\n\nIf coals are out, check for warm spots with your hand (6 inches above). Even warm ash may have a surviving ember buried deep.",
       "relatedTechniqueIDs": [
@@ -1689,7 +5313,7 @@
     {
       "id": "fire-article-primitive",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "The Science of Primitive Fire",
       "body": "Understanding WHY friction fire works makes you better at it.\n\nThe physics:\n- Friction generates heat. Wood ignites at approximately 450°F (230°C).\n- A bow drill concentrates friction at a single point (the spindle/hearth interface).\n- The coal that forms is actually pyrolyzed wood dust — carbon heated past its ignition point.\n- The notch in the hearth board is critical: it collects the hot dust and allows oxygen access.\n\nWood selection science:\n- Ideal spindle and hearth: same species, medium hardness, DRY\n- Too hard: insufficient friction heat generation\n- Too soft: spindle drills through hearth without generating enough heat\n- Best: willow, cedar, cottonwood, basswood, yucca stalk\n- Test: can you dent it with your thumbnail? Good. Can you scratch it easily? Too soft.\n\nMoisture is the enemy:\n- Wet wood conducts heat away from the friction point\n- Dry wood insulates, keeping heat at the contact zone\n- Dead standing wood is almost always drier than fallen wood\n\nThe critical moment:\n- Brown dust = getting warm (300°F)\n- Black dust = approaching ignition (400°F)\n- Wisp of smoke = ember forming (450°F+)\n- Self-sustaining smoke after stopping = success",
       "relatedTechniqueIDs": [
@@ -1701,7 +5325,7 @@
     {
       "id": "fire-article-wood-id",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Wood Identification for Fire",
       "body": "Not all wood is equal. Knowing your fuel transforms fire-making from frustration to science.\n\nHardwoods (best for long-burning coals):\n- Oak: king of fuel woods. Burns hot, long, makes excellent coals\n- Maple: nearly as good as oak, widely available\n- Hickory: hottest burning hardwood, excellent for cooking\n- Ash: burns well even when slightly green\n- Beech: steady, reliable burn\n\nSoftwoods (best for quick ignition and kindling):\n- Pine: easy to light, resinous, burns fast. Produces sparks\n- Cedar: excellent tinder (bark shreds easily), lights fast\n- Spruce: good kindling, available in cold climates\n- Fir: clean burning, moderate heat\n\nWoods to AVOID:\n- Driftwood: salt content creates toxic fumes\n- Oleander: smoke is toxic, can cause serious illness\n- Poison ivy/oak/sumac: smoke carries urushiol (causes respiratory reaction)\n- Pressure-treated or painted wood: toxic chemicals when burned\n- Green/wet wood: smokes excessively, wastes energy drying\n\nRule of thumb: dead standing wood is almost always significantly drier than wood found on the ground.",
       "relatedTechniqueIDs": [
@@ -1712,7 +5336,7 @@
     {
       "id": "fire-article-biomes",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Fire in Different Biomes",
       "body": "Every environment presents unique fire challenges. Adapt your approach.\n\nDesert:\n- Fuel is scarce. Dried animal dung burns well. Dead brush and sage work.\n- Wind is constant. Use trench fires or Dakota holes.\n- Temperature swings are extreme — nighttime fires are critical for warmth.\n\nArctic/Tundra:\n- Above treeline: no wood. Use animal fats, dried moss, or heather.\n- Below treeline: birch bark is your best tinder, dead spruce for fuel.\n- Fire on snow requires a log platform to prevent melt-through.\n\nJungle/Tropical:\n- Everything is wet. Dead standing bamboo is often the driest material.\n- Resinous tropical hardwoods (wax palm, resin-rich species) burn despite moisture.\n- Termite nests (dried ones) make excellent tinder in tropical forests.\n\nGrassland/Prairie:\n- Dried grass burns fast but hot. Bundle tightly for longer burn.\n- Dried animal dung (buffalo chips, cow patties) is a staple fuel.\n- Wind is the primary challenge — trench or pit fires essential.\n\nCoastal:\n- Driftwood is available but salty (pops and sparks). Use with caution.\n- Kelp and seaweed burn poorly. Stick to actual wood.\n- Wind and salt spray make fire maintenance difficult. Windbreaks mandatory.",
       "relatedTechniqueIDs": [
@@ -1735,7 +5359,7 @@
     {
       "id": "fire-article-chemical",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Chemical Fire Starters Guide",
       "body": "Modern materials that ignite easily — many are in your pocket or pack right now.\n\nCommon accelerants:\n- Hand sanitizer (60-70% alcohol): gel stays in place, burns 30-60 sec\n- Petroleum jelly + cotton: waterproof, burns 5-8 min\n- Chapstick/lip balm: petroleum-based, burns like a candle on cloth\n- Insect repellent (DEET-based): flammable spray\n- Duct tape: burns slowly with a hot flame\n- Steel wool + 9V battery: instant ignition from short circuit\n\nChemical reactions:\n- Potassium permanganate + glycerin: self-igniting in 30-60 seconds\n- Potassium permanganate + sugar: ignites from friction or spark\n- Steel wool + battery: any battery 3V+ creates ignition\n\nPreparation kits:\n- Fire wallet: charcloth + ferro rod + jute twine in a waterproof pouch\n- Fire pills: cotton balls saturated in wax (waterproof, burns 5 min)\n- Dryer lint + egg carton: pour melted wax over dryer lint in egg carton cups\n\nSafety: NEVER add accelerant to an already-burning fire. The flame can travel up the stream or splash back. Apply to cold tinder only.",
       "relatedTechniqueIDs": [
@@ -1747,7 +5371,7 @@
     {
       "id": "fire-article-cooking",
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm21-76.pdf",
+      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual",
       "title": "Cooking Fire Configurations",
       "body": "Cooking on a campfire is not the same as cooking on a stove. Different configurations serve different purposes.\n\nDirect flame cooking:\n- Good for: boiling water, searing meat\n- Bad for: controlled temperature, slow cooking\n- Method: hang pot over flames or place directly in embers\n\nCoal cooking:\n- Good for: even heat, grilling, baking\n- Bad for: quick boiling\n- Method: rake coals from main fire into separate cooking area\n- Keyhole fire configuration is ideal for this\n\nSpit roasting:\n- Good for: whole animals, large cuts\n- Method: green wood spit over coals (not flames)\n- Must rotate continuously for even cooking\n- Height adjustment controls temperature\n\nStone boiling:\n- Good for: containers that can't go over fire (bark, skin, stomach)\n- Method: heat rocks in fire, drop into water in container\n- Use 5-6 fist-sized rocks, rotating in and out\n- Water boils in 10-15 minutes\n\nEarth oven (pit cooking):\n- Good for: large quantities, slow cooking, tough meats\n- Method: dig pit, line with hot rocks, add food wrapped in leaves, cover with earth\n- Cooking time: 4-12 hours depending on size\n- Extremely fuel efficient — uses residual heat",
       "relatedTechniqueIDs": [

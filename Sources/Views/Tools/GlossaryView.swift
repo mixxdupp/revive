@@ -27,12 +27,14 @@ struct GlossaryView: View {
                     HStack {
                         Image(systemName: "magnifyingglass")
                             .foregroundStyle(.secondary)
+                        .accessibilityHidden(true)
                         TextField("Search terms...", text: $searchText)
                             .foregroundStyle(.primary)
                         if !searchText.isEmpty {
                             Button(action: { searchText = "" }) {
                                 Image(systemName: "xmark.circle.fill")
                                     .foregroundStyle(.secondary)
+                                .accessibilityHidden(true)
                             }
                         }
                     }
@@ -74,6 +76,7 @@ struct GlossaryView: View {
                     HStack(spacing: 4) {
                         Image(systemName: "chevron.left")
                             .font(.system(size: 18, weight: .semibold))
+                        .accessibilityHidden(true)
                         Text("Back")
                             .font(.system(size: 17, weight: .medium))
                     }

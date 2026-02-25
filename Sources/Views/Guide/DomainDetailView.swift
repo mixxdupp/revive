@@ -32,6 +32,7 @@ struct DomainDetailView: View {
                         Image(systemName: domain.icon)
                             .font(.system(size: 32, weight: .bold))
                             .foregroundStyle(.white)
+                        .accessibilityHidden(true)
                     }
                     .frame(width: 64, height: 64)
                     
@@ -89,6 +90,7 @@ struct DomainDetailView: View {
                                             Image(systemName: "doc.text.fill")
                                                 .font(.system(size: 20))
                                                 .foregroundStyle(domain.color)
+                                            .accessibilityHidden(true)
                                         }
                                         .frame(width: 48, height: 48)
                                         
@@ -109,6 +111,7 @@ struct DomainDetailView: View {
                                         Image(systemName: "chevron.right")
                                             .font(.system(size: 14, weight: .bold))
                                             .foregroundStyle(DesignSystem.textSecondary.opacity(0.5))
+                                        .accessibilityHidden(true)
                                     }
                                     .padding(16)
                                     .background(Color(uiColor: .secondarySystemGroupedBackground))
