@@ -68,6 +68,8 @@ struct TriageQuestionView: View {
                         }
                         .font(Typography.button)
                         .foregroundColor(DesignSystem.textSecondary)
+                        .padding(.vertical, 8)
+                        .contentShape(Rectangle())
                     }
                     Spacer()
                 }
@@ -77,18 +79,18 @@ struct TriageQuestionView: View {
                 
                 // Question
                 HStack {
-                    Text(node.question)
+                    Text(node.displayQuestion)
                         .font(.system(size: 32, weight: .bold)) // Serif for questions
                         .foregroundColor(DesignSystem.textPrimary)
                         .fixedSize(horizontal: false, vertical: true)
                     Spacer()
                 }
                 .padding(.horizontal, Layout.screenPadding)
-                .padding(.bottom, 24)
+                .padding(.bottom, 28)
                 
                 // Options
                 ScrollView {
-                    LazyVGrid(columns: columns, spacing: 16) {
+                    LazyVGrid(columns: columns, spacing: 14) {
                         ForEach(node.options) { option in
                             triageOptionView(option)
                         }
@@ -110,7 +112,7 @@ struct TriageQuestionView: View {
             }
             .buttonStyle(ScalableButtonStyle())
             .simultaneousGesture(TapGesture().onEnded {
-                HapticsService.shared.playImpact(style: .light)
+                HapticsService.shared.playImpact(style: .medium)
             })
             
         case .technique(let techniqueID):
@@ -120,7 +122,8 @@ struct TriageQuestionView: View {
                 }
                 .buttonStyle(ScalableButtonStyle())
                 .simultaneousGesture(TapGesture().onEnded {
-                    HapticsService.shared.playImpact(style: .medium)
+                    let isUrgent = option.icon.contains("exclamationmark")
+                    HapticsService.shared.playImpact(style: isUrgent ? .heavy : .medium)
                 })
             } else {
                 TriageOptionCard(option: option, situationColor: situationColor)
@@ -137,7 +140,26 @@ struct TriageQuestionView: View {
                 }
                 .buttonStyle(ScalableButtonStyle())
                 .simultaneousGesture(TapGesture().onEnded {
-                    HapticsService.shared.playImpact(style: .medium)
+                    let isUrgent = option.icon.contains("exclamationmark")
+                    HapticsService.shared.playImpact(style: isUrgent ? .heavy : .medium)
+                })
+            } else {
+                TriageOptionCard(option: option, situationColor: situationColor)
+                    .opacity(0.4)
+            }
+            
+        case .rankedTechniqueList(let rankedTechniques, _):
+            let techniques = rankedTechniques.compactMap { ranked in
+                ContentDatabase.shared.techniques.first(where: { $0.id == ranked.id })
+            }
+            if !techniques.isEmpty {
+                NavigationLink(destination: TriageTechniqueListView(techniques: techniques, situationColor: situationColor)) {
+                    TriageOptionCard(option: option, situationColor: situationColor, isLeaf: true)
+                }
+                .buttonStyle(ScalableButtonStyle())
+                .simultaneousGesture(TapGesture().onEnded {
+                    let isUrgent = option.icon.contains("exclamationmark")
+                    HapticsService.shared.playImpact(style: isUrgent ? .heavy : .medium)
                 })
             } else {
                 TriageOptionCard(option: option, situationColor: situationColor)
@@ -213,19 +235,27 @@ struct TriageOptionCard: View {
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)
                 
-                // Leaf indicator
+                // Leaf indicator — tinted pill for clear action affordance
                 if isLeaf {
                     HStack {
                         Spacer()
-                        Image(systemName: "arrow.right")
-                            .font(.system(size: 14, weight: .bold))
-                            .foregroundStyle(situationColor.opacity(0.6))
+                        HStack(spacing: 4) {
+                            Text("View")
+                                .font(.system(size: 12, weight: .semibold))
+                            Image(systemName: "arrow.right")
+                                .font(.system(size: 11, weight: .bold))
+                        }
+                        .foregroundStyle(situationColor)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 5)
+                        .background(situationColor.opacity(0.12))
+                        .clipShape(Capsule())
                     }
                 }
             }
             .padding(16)
         }
-        .frame(minHeight: 160, alignment: .topLeading)
+        .frame(minHeight: 164, alignment: .topLeading)
         .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
@@ -252,6 +282,8 @@ struct TriageTechniqueListView: View {
                         }
                         .font(Typography.button)
                         .foregroundColor(DesignSystem.textSecondary)
+                        .padding(.vertical, 8)
+                        .contentShape(Rectangle())
                     }
                     Spacer()
                 }
@@ -259,7 +291,7 @@ struct TriageTechniqueListView: View {
                 .padding(.top, 20)
                 .padding(.bottom, 10)
                 
-                Text("Recommended Techniques")
+                Text("Choose a Guide")
                     .font(Typography.emergencyTitle)
                     .foregroundColor(DesignSystem.textPrimary)
                     .frame(maxWidth: .infinity, alignment: .leading)

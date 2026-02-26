@@ -120,7 +120,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Water Safety",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "env-coastal-tidal-adv",
@@ -202,7 +202,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "env-desert-night-adv",
@@ -240,7 +240,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "env-desert-shelter-adv",
@@ -272,7 +272,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "env-desert-water-adv",
@@ -310,7 +310,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "env-jungle-movement-adv",
@@ -348,7 +348,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "env-jungle-travel-plan",
@@ -506,7 +506,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     }
   ],
   "articles": []

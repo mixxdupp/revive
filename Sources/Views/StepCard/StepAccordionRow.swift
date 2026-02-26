@@ -14,7 +14,7 @@ struct StepAccordionRow: View {
         VStack(spacing: 0) {
             // MARK: - Header (Always Visible)
             Button(action: {
-                withAnimation(.easeInOut(duration: 0.35)) {
+                withAnimation(.easeInOut(duration: 0.25)) {
                     if isExpanded {
                         expandedStep = nil
                     } else {
@@ -25,9 +25,9 @@ struct StepAccordionRow: View {
                 HStack {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Step \(stepIndex + 1)")
-                            .font(.caption.weight(.bold))
+                            .font(.footnote.weight(.heavy))
                             .textCase(.uppercase)
-                            .foregroundStyle(isExpanded ? .white.opacity(0.8) : .secondary)
+                            .foregroundStyle(isExpanded ? .white.opacity(0.8) : domain.color)
                         
                         Text(step.instruction)
                             .font(.headline.weight(.bold))
@@ -43,6 +43,7 @@ struct StepAccordionRow: View {
                         .font(.system(size: 14, weight: .bold))
                         .foregroundStyle(isExpanded ? .white : .secondary)
                         .rotationEffect(.degrees(isExpanded ? 180 : 0))
+                        .animation(.easeInOut(duration: 0.25), value: isExpanded)
                 }
                 .padding(20)
                 .background(
@@ -127,12 +128,10 @@ struct StepAccordionRow: View {
                         .foregroundColor(Color(uiColor: .separator)),
                     alignment: .top
                 )
-                .transition(.opacity)
+                .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-        .background(Color(uiColor: .secondarySystemGroupedBackground))
-        .cornerRadius(16)
         .padding(.horizontal, 20)
     }
 }

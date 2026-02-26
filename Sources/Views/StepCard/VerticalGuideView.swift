@@ -178,9 +178,9 @@ struct VerticalGuideView: View {
                     Spacer()
                     if let current = expandedStep, current < technique.steps.count - 1 {
                         Button(action: {
-                            withAnimation(.easeInOut(duration: 0.35)) {
+                            withAnimation(.easeInOut(duration: 0.25)) {
                                 expandedStep = current + 1
-                                proxy.scrollTo(current + 1, anchor: .center) // Auto-scroll
+                                proxy.scrollTo(current + 1, anchor: .center)
                             }
                             HapticsService.shared.playImpact(style: .medium)
                         }) {
@@ -191,6 +191,7 @@ struct VerticalGuideView: View {
                                 .padding(.vertical, 16)
                                 .background(technique.domain.color)
                                 .clipShape(Capsule())
+                                .shadow(color: technique.domain.color.opacity(0.4), radius: 12, x: 0, y: 6)
                         }
                         .padding(.bottom, 30)
                         .transition(.scale.combined(with: .opacity))
@@ -206,6 +207,7 @@ struct VerticalGuideView: View {
                                 .padding(.vertical, 16)
                                 .background(Color.green)
                                 .clipShape(Capsule())
+                                .shadow(color: Color.green.opacity(0.4), radius: 12, x: 0, y: 6)
                         }
                         .padding(.bottom, 30)
                     }
@@ -213,8 +215,7 @@ struct VerticalGuideView: View {
             }
             .navigationBarHidden(true)
             .onAppear {
-                // Voice control is now explicitly opt-in via the top right toggle
-                print("Vertical Guide View Appeared - Hands free is opt-in")
+                // Voice control opt-in via top-right toggle
             }
             .onDisappear {
                 speech.stopListening()
@@ -245,10 +246,12 @@ extension VerticalGuideView {
                 Button(action: { dismiss() }) {
                     HStack(spacing: 4) {
                         Image(systemName: "chevron.left")
-                        Text("Browse")
+                        Text("Back")
                     }
                     .font(.headline)
                     .foregroundStyle(technique.domain.color)
+                    .padding(.vertical, 8)
+                    .contentShape(Rectangle())
                 }
                 
                 Spacer()

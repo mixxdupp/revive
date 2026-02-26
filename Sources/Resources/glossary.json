@@ -1,104 +1,1304 @@
 {
     "terms": [
         {
-            "term": "Hypothermia",
-            "definition": "A medical emergency that occurs when your body loses heat faster than it can produce it, causing a dangerously low body temperature (below 95°F / 35°C)."
-        },
-        {
-            "term": "Hyperthermia",
-            "definition": "A condition where the body's temperature is elevated beyond normal due to failed thermoregulation. Heat exhaustion and heatstroke are forms of hyperthermia."
-        },
-        {
-            "term": "Dehydration",
-            "definition": "A harmful reduction in the amount of water in the body. Symptoms include thirst, dark urine, and fatigue. Severe dehydration can lead to confusion and death."
-        },
-        {
-            "term": "Tinder",
-            "definition": "Ideally dry, fluffy material that ignites easily from a spark or small flame. Examples include dry grass, birch bark, cotton balls, and char cloth."
-        },
-        {
-            "term": "Kindling",
-            "definition": "Small twigs and sticks (pencil-sized) used to transition a fire from tinder to larger fuel logs."
-        },
-        {
-            "term": "Fuel",
-            "definition": "Larger logs or wood used to sustain a fire. Ranges from wrist-thick branches to large logs depending on the fire's purpose."
-        },
-        {
-            "term": "Ferro Rod",
-            "definition": "Short for Ferrocerium Rod. A man-made metallic material that produces very hot sparks (3,000°C / 5,400°F) when scraped with a sharp edge."
-        },
-        {
-            "term": "Tourniquet",
-            "definition": "A constricting or compressing device used to control arterial and venous blood flow to a portion of an extremity for a period of time, typically to stop life-threatening bleeding."
-        },
-        {
-            "term": "CPR",
-            "definition": "Cardiopulmonary Resuscitation. A lifesaving technique useful in many emergencies, including a heart attack or near drowning, in which someone's breathing or heartbeat has stopped."
-        },
-        {
-            "term": "Shock",
-            "definition": "A critical condition brought on by a sudden drop in blood flow through the body. The circulatory system fails to maintain adequate blood flow, sharply curtailing the delivery of oxygen and nutrients to vital organs."
-        },
-        {
-            "term": "Shelter",
-            "definition": "A structure that provides protection from the elements (wind, rain, sun, snow) and helps maintain body temperature."
-        },
-        {
-            "term": "Lean-to",
-            "definition": "A simple shelter usually leaning against a solid object (like a fallen tree or rock) with an open front and a sloping roof."
-        },
-        {
             "term": "A-Frame",
             "definition": "A shelter design resembling the letter 'A', providing protection on two sides with a ridge pole at the top. Good for shedding rain and snow."
         },
         {
-            "term": "Potable Water",
-            "definition": "Water that is safe to drink or to use for food preparation."
+            "term": "Abdomen",
+            "definition": "The area of the body between the chest and the pelvis, containing the stomach, intestines, liver, and other vital organs."
         },
         {
-            "term": "Pathogen",
-            "definition": "An organism that causes disease, such as bacteria, viruses, or parasites. Water purification aims to remove or kill these."
+            "term": "Abrasion",
+            "definition": "A superficial wound where the top layers of skin are scraped or worn away by friction. Road rash is a common example."
+        },
+        {
+            "term": "Abscess",
+            "definition": "A pocket of pus that forms in tissue, usually caused by bacterial infection. Common in untreated wounds and dental infections."
+        },
+        {
+            "term": "Acetaminophen",
+            "definition": "A pain reliever and fever reducer that does not reduce inflammation. Known as paracetamol outside the US. Brand name: Tylenol."
+        },
+        {
+            "term": "Acorn",
+            "definition": "The nut of an oak tree. Edible after leaching out bitter tannins by soaking in water. A high-calorie survival food source."
+        },
+        {
+            "term": "Administer",
+            "definition": "To give or apply a treatment, medication, or remedy to a patient."
+        },
+        {
+            "term": "Adze",
+            "definition": "A cutting tool with the blade set perpendicular to the handle, used for shaping wood. Like an axe but cuts across the grain."
+        },
+        {
+            "term": "Alkaloid",
+            "definition": "A naturally occurring chemical compound in plants that can have strong effects on the body. Some are medicinal (caffeine, quinine), others are toxic (nicotine, strychnine)."
+        },
+        {
+            "term": "Allergen",
+            "definition": "A substance that triggers an allergic reaction in sensitive individuals. Common allergens include insect venom, foods, pollen, and plant oils."
+        },
+        {
+            "term": "Alpine",
+            "definition": "Relating to high mountain environments above the tree line, characterized by cold temperatures, thin air, and exposure to wind and UV radiation."
+        },
+        {
+            "term": "Ambient",
+            "definition": "Relating to the immediate surrounding conditions. Ambient temperature is the air temperature of the environment."
+        },
+        {
+            "term": "AMS",
+            "definition": "Acute Mountain Sickness — the mildest form of altitude illness, characterized by headache, nausea, fatigue, and dizziness above 8,000 feet."
+        },
+        {
+            "term": "Analgesic",
+            "definition": "A medication that relieves pain without causing loss of consciousness. Examples: ibuprofen, acetaminophen, aspirin."
+        },
+        {
+            "term": "Anaphylaxis",
+            "definition": "A severe, potentially life-threatening allergic reaction that occurs within seconds or minutes of exposure to an allergen. Symptoms include swelling, hives, breathing difficulty, and a drop in blood pressure."
+        },
+        {
+            "term": "Anterior",
+            "definition": "The front side of the body. An anterior wound is on the front."
+        },
+        {
+            "term": "Antihistamine",
+            "definition": "A medication that blocks the effects of histamine, reducing allergic symptoms like swelling, itching, and hives. Examples: Benadryl, Zyrtec."
+        },
+        {
+            "term": "Antiseptic",
+            "definition": "A chemical substance applied to skin or wounds to kill or prevent the growth of harmful microorganisms. Examples: iodine, alcohol, hydrogen peroxide."
+        },
+        {
+            "term": "Arctic",
+            "definition": "The region around the North Pole, characterized by extreme cold, permafrost, and polar conditions. Arctic survival requires specialized skills."
+        },
+        {
+            "term": "Arid",
+            "definition": "Extremely dry with very little rainfall. Arid environments (deserts) present challenges of heat, dehydration, and sun exposure."
+        },
+        {
+            "term": "Arterial",
+            "definition": "Relating to arteries — the blood vessels carrying oxygen-rich blood from the heart. Arterial bleeding is bright red and spurts with each heartbeat."
+        },
+        {
+            "term": "Asphyxiation",
+            "definition": "Death or loss of consciousness caused by being unable to breathe. Can result from choking, drowning, smoke inhalation, or chest compression."
+        },
+        {
+            "term": "Aspirate",
+            "definition": "To accidentally inhale food, liquid, or vomit into the lungs. Also: to draw fluid out of a body cavity using suction."
+        },
+        {
+            "term": "Assess",
+            "definition": "To evaluate a patient's condition through observation, questioning, and physical examination to determine appropriate treatment."
+        },
+        {
+            "term": "AVPU",
+            "definition": "Alert, Voice responsive, Pain responsive, Unresponsive — a quick scale for assessing a patient's level of consciousness."
+        },
+        {
+            "term": "Awl",
+            "definition": "A pointed tool used for piercing holes in leather, wood, or other materials. Can be improvised from bone, thorns, or sharpened sticks."
+        },
+        {
+            "term": "Azimuth",
+            "definition": "A horizontal angle measured clockwise from north. Used in navigation to express direction, equivalent to bearing in most contexts."
+        },
+        {
+            "term": "Bamboo",
+            "definition": "A fast-growing woody grass found in tropical and subtropical regions. Extremely versatile in survival: used for shelter, water containers, tools, weapons, and food (young shoots are edible)."
+        },
+        {
+            "term": "Bark",
+            "definition": "The outer protective covering of a tree trunk and branches. Inner bark (cambium) of many trees is edible. Outer bark is used for containers, cordage, and fire starting."
+        },
+        {
+            "term": "Barotrauma",
+            "definition": "Physical damage to body tissues caused by a difference in pressure between a gas space inside the body and the surrounding fluid or air."
+        },
+        {
+            "term": "Baton",
+            "definition": "A thick stick used to strike the spine of a knife to split wood (batoning). A technique for processing firewood without an axe."
         },
         {
             "term": "Bearing",
             "definition": "The direction you want to travel, expressed in degrees (0-360). 'Heading' is the direction you are currently facing."
         },
         {
-            "term": "Declination",
-            "definition": "The angular difference between true north (geographic) and magnetic north (where the compass needle points). It varies by location."
+            "term": "Belay",
+            "definition": "To secure a rope around a fixed object (tree, rock, cleat) to control or stop movement. Used in climbing and rescue."
         },
         {
-            "term": "Waypoint",
-            "definition": "A reference point or set of coordinates that identify a specific location in physical space."
+            "term": "Berm",
+            "definition": "A raised bank or barrier of earth. Used in shelter construction and water management to redirect flow."
         },
         {
-            "term": "Latrine",
-            "definition": "A communal toilet facility in a camp or bivouac area."
+            "term": "Bight",
+            "definition": "A curved section or loop in a rope between the two ends. Many knots are tied 'in the bight,' meaning without needing access to the rope ends."
         },
         {
-            "term": "Cathole",
-            "definition": "A small hole dug for the disposal of human waste in the wilderness to prevent contamination of water sources and spread of disease."
+            "term": "Biome",
+            "definition": "A large ecological area defined by its climate, soil, and dominant vegetation. Examples: tundra, tropical rainforest, desert, boreal forest."
+        },
+        {
+            "term": "Birch Bark",
+            "definition": "The outer bark of birch trees, which is thin, papery, and contains flammable oils. Excellent fire-starting tinder even when damp."
         },
         {
             "term": "Bivy (Bivouac)",
             "definition": "A temporary camp without tents or cover, used especially by soldiers or mountaineers. Also refers to a 'Bivy Sack', a lightweight waterproof cover for a sleeping bag."
         },
         {
-            "term": "Stop, Drop, and Roll",
-            "definition": "A simple fire safety technique taught to children and adults to extinguish a fire on their clothes or body."
+            "term": "Black Widow",
+            "definition": "A venomous spider identified by a red hourglass marking on its abdomen. Its bite causes severe muscle pain and cramping."
+        },
+        {
+            "term": "Blunt Trauma",
+            "definition": "Injury caused by a forceful impact from a dull object, without penetrating the skin. Can cause internal bleeding, organ damage, and fractures."
+        },
+        {
+            "term": "Boreal",
+            "definition": "Relating to the northern forests of cold regions, characterized by coniferous trees (spruce, pine, fir). Also called taiga."
+        },
+        {
+            "term": "Bow Drill",
+            "definition": "A friction-based fire-starting method using a spindle, fireboard, bearing block, and bow to generate an ember through rotational friction."
+        },
+        {
+            "term": "Bowline",
+            "definition": "A knot that creates a fixed loop at the end of a rope. Known as the 'king of knots' because it's secure, easy to tie, and easy to untie even after loading."
+        },
+        {
+            "term": "Bradycardia",
+            "definition": "An abnormally slow heart rate, usually defined as fewer than 60 beats per minute."
+        },
+        {
+            "term": "Brine",
+            "definition": "A strong saltwater solution used to preserve food. Brining draws moisture out of meat and creates an inhospitable environment for bacteria."
+        },
+        {
+            "term": "Brown Recluse",
+            "definition": "A venomous spider identified by a violin-shaped marking on its back. Its bite can cause necrotic (tissue-destroying) wounds."
+        },
+        {
+            "term": "Bulb",
+            "definition": "A round underground storage organ of a plant (like an onion). Wild onion and garlic bulbs are edible and found in many regions."
+        },
+        {
+            "term": "Burdock",
+            "definition": "A plant with large leaves and sticky burrs. Its root is edible when cooked — tastes similar to potato. Used in herbal medicine for skin conditions."
+        },
+        {
+            "term": "Cache",
+            "definition": "A hidden store of supplies or food placed in advance along a route or at a survival location for later retrieval."
+        },
+        {
+            "term": "Cairn",
+            "definition": "A man-made pile of stones used as a trail marker or navigational aid in wilderness areas."
+        },
+        {
+            "term": "Cambium",
+            "definition": "The thin layer of living tissue between tree bark and wood. Edible in many tree species (pine, birch, maple) and a survival food source."
+        },
+        {
+            "term": "Canopy",
+            "definition": "The uppermost layer of branches and leaves in a forest, forming a natural roof. Dense canopy reduces ground-level rainfall and sunlight."
+        },
+        {
+            "term": "Canteen",
+            "definition": "A portable water container, typically made of metal or plastic, carried for drinking water in the field."
+        },
+        {
+            "term": "Capillary",
+            "definition": "The smallest blood vessels connecting arteries to veins. Capillary bleeding (scrapes, minor cuts) is slow, oozing, and stops on its own."
+        },
+        {
+            "term": "Carabiner",
+            "definition": "A metal loop with a spring-loaded gate, used to quickly and reversibly connect ropes, harnesses, and equipment."
+        },
+        {
+            "term": "Carotid",
+            "definition": "The major artery on each side of the neck supplying blood to the brain. The carotid pulse is checked to assess circulation."
+        },
+        {
+            "term": "Catchment",
+            "definition": "An area from which rainfall is collected. In survival, a rain catchment is a system of tarps or containers to collect drinking water."
+        },
+        {
+            "term": "Cathole",
+            "definition": "A small hole dug for the disposal of human waste in the wilderness to prevent contamination of water sources and spread of disease."
+        },
+        {
+            "term": "Cattail",
+            "definition": "A tall wetland plant (Typha) with a distinctive brown cigar-shaped seed head. Nearly every part is edible: roots, shoots, pollen, and young flower stalks."
+        },
+        {
+            "term": "Cellulitis",
+            "definition": "A bacterial skin infection that causes redness, swelling, warmth, and pain. Can spread rapidly and become life-threatening if untreated."
+        },
+        {
+            "term": "Char",
+            "definition": "Partially burned organic material that catches sparks easily. Charred cotton (char cloth) is a traditional fire-starting aid."
+        },
+        {
+            "term": "Char Cloth",
+            "definition": "Cotton fabric that has been charred (heated without oxygen) so it ignites from a single spark. Used as fire-starting tinder."
+        },
+        {
+            "term": "Chert",
+            "definition": "A fine-grained sedimentary rock similar to flint. Produces sparks when struck and can be shaped into cutting tools."
+        },
+        {
+            "term": "Chicory",
+            "definition": "A plant with bright blue flowers. The roasted root is used as a coffee substitute. Young leaves are edible as salad greens."
+        },
+        {
+            "term": "Clavicle",
+            "definition": "The collarbone — a thin bone connecting the shoulder blade to the sternum. One of the most commonly broken bones."
+        },
+        {
+            "term": "Clove",
+            "definition": "A dried flower bud used as a spice, with strong natural analgesic (pain-killing) properties. Clove oil applied to a tooth relieves dental pain."
+        },
+        {
+            "term": "Clove Hitch",
+            "definition": "A simple knot used to attach a rope to a post or pole. Quick to tie but can slip under varying loads."
+        },
+        {
+            "term": "Combustion",
+            "definition": "The chemical process of burning, where a substance reacts with oxygen to produce heat and light. Requires fuel, heat, and oxygen (fire triangle)."
+        },
+        {
+            "term": "Compartment Syndrome",
+            "definition": "A painful condition caused by pressure buildup within muscles. Can lead to tissue death if not treated. Often follows crush injuries or tight splinting."
+        },
+        {
+            "term": "Compress",
+            "definition": "To apply firm, steady pressure to a wound or injury. A cold compress reduces swelling; a warm compress increases blood flow."
+        },
+        {
+            "term": "Concussion",
+            "definition": "A mild traumatic brain injury caused by a blow to the head. Symptoms include confusion, headache, dizziness, and sometimes loss of consciousness."
+        },
+        {
+            "term": "Condensation",
+            "definition": "Water droplets that form when warm, moist air meets a cooler surface. Important in water collection and shelter management."
+        },
+        {
+            "term": "Conduction",
+            "definition": "Heat transfer through direct contact. Sitting on cold ground causes conductive heat loss — ground insulation prevents this."
+        },
+        {
+            "term": "Constrict",
+            "definition": "To tighten or squeeze. A tourniquet constricts blood flow. Constriction bands are used for some envenomations."
+        },
+        {
+            "term": "Constricting Band",
+            "definition": "A flat, wide elastic band wrapped above a snakebite to slow the spread of venom through the lymphatic system. NOT a tourniquet — does not stop blood flow."
+        },
+        {
+            "term": "Contagious",
+            "definition": "Able to spread from person to person through direct or indirect contact. Contagious diseases require isolation and hygiene precautions."
+        },
+        {
+            "term": "Contaminated",
+            "definition": "Made impure or unsafe by contact with harmful substances or organisms. Contaminated water, wounds, or food can cause illness."
+        },
+        {
+            "term": "Contour Line",
+            "definition": "A line on a topographic map connecting points of equal elevation. Closely spaced lines indicate steep terrain; widely spaced indicate flat ground."
+        },
+        {
+            "term": "Contusion",
+            "definition": "A bruise — an injury where blood vessels under the skin are damaged without breaking the skin surface."
+        },
+        {
+            "term": "Convection",
+            "definition": "Heat transfer through the movement of fluids (air or water). Wind causes convective heat loss from the body."
+        },
+        {
+            "term": "Coral Snake",
+            "definition": "A highly venomous snake with distinctive red, yellow, and black bands. Remembered by the rhyme: 'Red touches yellow, kill a fellow.' Has neurotoxic venom."
+        },
+        {
+            "term": "Cordage",
+            "definition": "Rope, string, or cord made from natural or synthetic fibers. In survival, can be made from plant fibers, bark, or animal sinew."
+        },
+        {
+            "term": "CPR",
+            "definition": "Cardiopulmonary Resuscitation. A lifesaving technique useful in many emergencies, including a heart attack or near drowning, in which someone's breathing or heartbeat has stopped."
+        },
+        {
+            "term": "Cravat",
+            "definition": "A triangular bandage folded into a strip, used for binding splints, making slings, or applying pressure to wounds."
+        },
+        {
+            "term": "Creosote",
+            "definition": "A black, tar-like substance that builds up in chimneys and flues from incomplete combustion of wood. Highly flammable — a chimney fire hazard."
+        },
+        {
+            "term": "Crepitus",
+            "definition": "A grinding or crackling sensation felt or heard when fractured bone ends rub together, or air trapped in tissues."
+        },
+        {
+            "term": "Cryptosporidium",
+            "definition": "A waterborne parasite resistant to iodine and chlorine treatment. Removed by filtration (pore size ≤1 micron) or UV treatment."
+        },
+        {
+            "term": "Dakota Hole",
+            "definition": "A below-ground fire pit connected to an air tunnel, producing a smokeless, wind-resistant fire with efficient heat for cooking."
+        },
+        {
+            "term": "Dandelion",
+            "definition": "A common plant with yellow flowers and jagged leaves. Entirely edible: leaves for salad, roots roasted as coffee substitute, flowers for tea. High in vitamins A, C, K."
+        },
+        {
+            "term": "Dead Reckoning",
+            "definition": "Navigating by tracking direction and distance traveled from a known position, without celestial or electronic aids."
+        },
+        {
+            "term": "Deadfall Trap",
+            "definition": "A trap that kills game by dropping a heavy weight (rock or log) when a trigger mechanism is disturbed by the animal."
+        },
+        {
+            "term": "Debilitating",
+            "definition": "Causing severe weakness or impairment. A debilitating injury prevents normal function and self-rescue."
+        },
+        {
+            "term": "Debridement",
+            "definition": "The removal of dead, damaged, or infected tissue from a wound to promote healing and prevent infection."
+        },
+        {
+            "term": "Debris",
+            "definition": "Scattered remains of something broken or destroyed. In shelter building, loose natural materials (leaves, branches, bark) used for insulation and covering."
+        },
+        {
+            "term": "Debris Hut",
+            "definition": "An insulated shelter built by piling leaves, branches, and other forest debris over a framework of sticks. Highly effective for cold weather survival."
+        },
+        {
+            "term": "Declination",
+            "definition": "The angular difference between true north (geographic) and magnetic north (where the compass needle points). It varies by location."
+        },
+        {
+            "term": "Decoction",
+            "definition": "A preparation made by boiling plant material (bark, roots, seeds) in water to extract its active compounds. Stronger than an infusion."
+        },
+        {
+            "term": "Dehydration",
+            "definition": "A harmful reduction in the amount of water in the body. Symptoms include thirst, dark urine, and fatigue. Severe dehydration can lead to confusion and death."
+        },
+        {
+            "term": "Disinfect",
+            "definition": "To reduce the number of harmful microorganisms to a safe level. Less thorough than sterilizing but adequate for most field situations."
+        },
+        {
+            "term": "Dislocation",
+            "definition": "A joint injury where bones are forced out of their normal alignment. Causes intense pain, swelling, and inability to move the joint."
+        },
+        {
+            "term": "Distal",
+            "definition": "Farther from the center of the body or point of attachment. The fingers are distal to the elbow."
+        },
+        {
+            "term": "Dorsal",
+            "definition": "Relating to the back or upper surface. The top of the hand is the dorsal side."
+        },
+        {
+            "term": "Dress",
+            "definition": "To apply a sterile covering (dressing) to a wound. A wound dressing protects from contamination and absorbs fluids."
+        },
+        {
+            "term": "Eddy",
+            "definition": "A circular current in water, formed where the main current meets an obstruction. Can trap swimmers but also indicates calmer water behind obstacles."
+        },
+        {
+            "term": "Edema",
+            "definition": "Swelling caused by excess fluid trapped in the body's tissues. Can indicate injury, allergic reaction, or systemic illness."
+        },
+        {
+            "term": "Edible",
+            "definition": "Safe to eat. In survival, edible plants are those tested or known to be non-toxic for human consumption."
+        },
+        {
+            "term": "Electrolyte",
+            "definition": "Minerals in blood and body fluids that carry an electric charge (sodium, potassium, chloride, bicarbonate). Essential for muscle and nerve function."
+        },
+        {
+            "term": "Elevate",
+            "definition": "To raise a body part above the level of the heart to reduce swelling and slow bleeding. A key component of RICE treatment."
+        },
+        {
+            "term": "Ember",
+            "definition": "A small, glowing piece of combustible material (like charred wood) that can be nursed into flame when placed in a tinder bundle."
+        },
+        {
+            "term": "Ember Bed",
+            "definition": "A thick layer of hot coals remaining after a fire burns down. Used for cooking, warmth, and maintaining fire overnight."
+        },
+        {
+            "term": "Envenomation",
+            "definition": "The process by which venom is injected into another organism by a bite or sting from a venomous animal."
+        },
+        {
+            "term": "Epinephrine",
+            "definition": "A hormone and medication also known as adrenaline. Used to treat severe allergic reactions, cardiac arrest, and severe asthma attacks."
+        },
+        {
+            "term": "EpiPen",
+            "definition": "A brand-name auto-injector that delivers a measured dose of epinephrine (adrenaline) to treat severe allergic reactions (anaphylaxis)."
+        },
+        {
+            "term": "EPIRB",
+            "definition": "Emergency Position Indicating Radio Beacon — a maritime distress beacon that alerts search and rescue services via satellite when activated."
+        },
+        {
+            "term": "Esophagus",
+            "definition": "The tube connecting the throat to the stomach. Food passes through the esophagus; it sits behind the trachea."
+        },
+        {
+            "term": "Estuary",
+            "definition": "Where a river meets the sea, creating a mix of fresh and salt water. Rich in food resources but water is not potable without desalination."
+        },
+        {
+            "term": "Evacuate",
+            "definition": "To move a patient from a dangerous location to a place where they can receive medical care. Also: to clear an area of people."
+        },
+        {
+            "term": "Evaporation",
+            "definition": "The process of liquid becoming vapor, which removes heat. Sweating cools the body through evaporation, but also causes fluid loss."
+        },
+        {
+            "term": "Expose",
+            "definition": "To uncover or reveal a wound or injury for examination. In trauma assessment, 'expose' means removing clothing to check for hidden injuries."
+        },
+        {
+            "term": "Extremity",
+            "definition": "A limb of the body — an arm or leg. 'Upper extremity' = arm; 'lower extremity' = leg."
+        },
+        {
+            "term": "Extricate",
+            "definition": "To free someone from a trapped or confined situation, such as a collapsed structure, vehicle wreck, or avalanche debris."
+        },
+        {
+            "term": "FAST",
+            "definition": "Face drooping, Arm weakness, Speech difficulty, Time to call emergency services — a mnemonic for stroke recognition."
+        },
+        {
+            "term": "Fatwood",
+            "definition": "Resinous heartwood from dead pine trees, naturally saturated with flammable resin. Lights easily even when wet. Also called lighter wood."
+        },
+        {
+            "term": "Femur",
+            "definition": "The thighbone — the longest and strongest bone in the human body. A femur fracture can cause life-threatening internal bleeding."
+        },
+        {
+            "term": "Ferro Rod",
+            "definition": "Short for Ferrocerium Rod. A man-made metallic material that produces very hot sparks (3,000°C / 5,400°F) when scraped with a sharp edge."
+        },
+        {
+            "term": "Fire Lay",
+            "definition": "The arrangement of tinder, kindling, and fuel for starting a fire. Common lays include teepee, log cabin, lean-to, and star fire."
+        },
+        {
+            "term": "Fire Reflector",
+            "definition": "A wall of logs or rocks built behind a fire to reflect heat toward a shelter or sleeping area, increasing warmth efficiency."
+        },
+        {
+            "term": "Flaking",
+            "definition": "The process of chipping thin pieces off a stone to create a sharp edge. Used in making stone knives, arrowheads, and scrapers."
+        },
+        {
+            "term": "Flash Point",
+            "definition": "The lowest temperature at which a substance produces enough vapor to ignite when exposed to a spark or flame."
+        },
+        {
+            "term": "Flint",
+            "definition": "A hard, dark gray stone (a type of quartz) that produces sparks when struck against steel. Used for fire-starting since prehistoric times."
+        },
+        {
+            "term": "Flint and Steel",
+            "definition": "A traditional fire-starting method using a piece of high-carbon steel struck against flint to produce sparks that ignite charcloth or tinder."
+        },
+        {
+            "term": "Flush",
+            "definition": "To wash out a wound, eye, or area with a large volume of clean water. Used for chemical burns, contaminated wounds, and eye injuries."
+        },
+        {
+            "term": "Forage",
+            "definition": "To search for and collect wild food (plants, berries, nuts, insects). A critical survival skill when food supplies are unavailable."
+        },
+        {
+            "term": "Fracture",
+            "definition": "A break or crack in a bone. Types include simple (closed), compound (open — bone pierces skin), hairline, and comminuted (shattered)."
+        },
+        {
+            "term": "Frond",
+            "definition": "A large, divided leaf, especially of a fern or palm. Palm fronds are used for thatching shelters; some fern fiddleheads are edible."
         },
         {
             "term": "Frostbite",
             "definition": "Injury to body tissues caused by exposure to extreme cold, typically affecting the nose, fingers, or toes."
         },
         {
+            "term": "Fuel",
+            "definition": "Larger logs or wood used to sustain a fire. Ranges from wrist-thick branches to large logs depending on the fire's purpose."
+        },
+        {
+            "term": "Gale",
+            "definition": "A very strong wind (39-54 mph / 63-87 km/h). Gale-force winds can destroy shelters and make travel dangerous."
+        },
+        {
+            "term": "Gangrene",
+            "definition": "Death and decay of body tissue, usually caused by a lack of blood supply. Can be wet (infected) or dry."
+        },
+        {
+            "term": "Gauge",
+            "definition": "A standard measure. Wire gauge measures thickness; rain gauge measures precipitation. In medical context, the diameter of a needle."
+        },
+        {
+            "term": "GCS",
+            "definition": "Glasgow Coma Scale — a neurological scale used to objectively record a patient's level of consciousness, scored 3-15."
+        },
+        {
+            "term": "Genus",
+            "definition": "A biological classification grouping of closely related species. For example, the genus Quercus includes all oak trees."
+        },
+        {
+            "term": "Giardia",
+            "definition": "A waterborne parasite that causes severe diarrhea, cramps, and dehydration. Found in untreated wilderness water sources worldwide."
+        },
+        {
+            "term": "Grit",
+            "definition": "Coarse particles of stone or sand. In water filtration, grit layers help remove larger suspended particles."
+        },
+        {
+            "term": "Ground Insulation",
+            "definition": "Material placed between the body and the ground to prevent conductive heat loss. Critical in cold environments — the ground draws heat 25x faster than air."
+        },
+        {
+            "term": "Ground-to-Air Signal",
+            "definition": "A large visual symbol placed on the ground to communicate with aircraft. Common signals include V (need assistance), X (need medical help), and arrows."
+        },
+        {
+            "term": "Grub",
+            "definition": "The larval stage of an insect, typically found in rotting wood or soil. High in protein and fat. A legitimate survival food source."
+        },
+        {
+            "term": "Habitat",
+            "definition": "The natural environment where a particular species of plant or animal lives and grows. Knowing habitats helps locate food and predict animal behavior."
+        },
+        {
+            "term": "HACE",
+            "definition": "High Altitude Cerebral Edema — a severe and potentially fatal condition where the brain swells with fluid at high altitude."
+        },
+        {
+            "term": "Hand Drill",
+            "definition": "The most primitive friction fire method, using only a spindle and fireboard rotated between the palms. Requires very dry materials."
+        },
+        {
+            "term": "HAPE",
+            "definition": "High Altitude Pulmonary Edema — a life-threatening accumulation of fluid in the lungs occurring at high altitudes, typically above 8,000 feet."
+        },
+        {
+            "term": "Heimlich Maneuver",
+            "definition": "An emergency technique used to dislodge a foreign object from a choking person's airway using abdominal thrusts."
+        },
+        {
+            "term": "Hemorrhage",
+            "definition": "Severe, uncontrolled bleeding. Can be external (visible) or internal (hidden). Life-threatening — a person can bleed out in minutes."
+        },
+        {
+            "term": "Hemostatic Agent",
+            "definition": "A substance that promotes blood clotting and stops bleeding. Examples include QuikClot, Celox, and improvised alternatives like cobwebs."
+        },
+        {
+            "term": "Humidity",
+            "definition": "The amount of water vapor in the air. High humidity slows sweat evaporation, reducing the body's cooling ability and increasing heat illness risk."
+        },
+        {
+            "term": "Husk",
+            "definition": "The dry outer covering of a seed, fruit, or nut. Coconut husk fiber (coir) is used for cordage; corn husks for wrapping food."
+        },
+        {
+            "term": "Hyperthermia",
+            "definition": "A condition where the body's temperature is elevated beyond normal due to failed thermoregulation. Heat exhaustion and heatstroke are forms of hyperthermia."
+        },
+        {
+            "term": "Hypoglycemia",
+            "definition": "Dangerously low blood sugar levels causing shakiness, confusion, dizziness, and potentially unconsciousness. Treated with sugar intake."
+        },
+        {
+            "term": "Hypothermia",
+            "definition": "A medical emergency that occurs when your body loses heat faster than it can produce it, causing a dangerously low body temperature (below 95°F / 35°C)."
+        },
+        {
+            "term": "Hypothermic",
+            "definition": "Relating to or suffering from hypothermia. A hypothermic patient has a dangerously low core body temperature."
+        },
+        {
+            "term": "Hypothermic Wrap",
+            "definition": "A multi-layer insulation system using vapor barriers, insulation, and wind protection to rewarm a hypothermic patient in the field."
+        },
+        {
+            "term": "Ibuprofen",
+            "definition": "A non-steroidal anti-inflammatory drug (NSAID) used to reduce pain, fever, and inflammation. Common brand names: Advil, Motrin."
+        },
+        {
+            "term": "Immobilize",
+            "definition": "To prevent a body part from moving, typically using a splint, sling, or bandage. Critical for fractures and spinal injuries to prevent further damage."
+        },
+        {
+            "term": "Improvise",
+            "definition": "To create or perform something using whatever materials are immediately available, without advance planning or specialized tools."
+        },
+        {
+            "term": "Improvised",
+            "definition": "Made from whatever materials are available rather than purpose-built equipment. A key survival concept — adapting tools from the environment."
+        },
+        {
+            "term": "Incision",
+            "definition": "A clean, deliberate cut made with a sharp instrument. Distinguished from a laceration which has irregular, torn edges."
+        },
+        {
+            "term": "Infection",
+            "definition": "The invasion and multiplication of harmful microorganisms (bacteria, viruses, fungi) in body tissue. Signs include redness, swelling, warmth, pus, and fever."
+        },
+        {
+            "term": "Inflammation",
+            "definition": "The body's response to injury or infection, characterized by redness, swelling, heat, and pain. A protective mechanism that can become harmful if excessive."
+        },
+        {
+            "term": "Infusion",
+            "definition": "A preparation made by steeping plant material (leaves, flowers) in hot water. Similar to tea. Used for medicinal purposes in the field."
+        },
+        {
+            "term": "Insulate",
+            "definition": "To add material between surfaces to prevent heat transfer. In survival, insulation between the body and ground/air is critical for warmth."
+        },
+        {
+            "term": "Iodine",
+            "definition": "A chemical element used to purify water by killing bacteria, viruses, and parasites. Added as drops or tablets. Leaves a slight taste."
+        },
+        {
+            "term": "Irrigate",
+            "definition": "To flush a wound, eye, or body cavity with a stream of water or saline solution to clean out debris, chemicals, or contaminants."
+        },
+        {
+            "term": "Jerky",
+            "definition": "Meat that has been cut into thin strips and dried (by sun, smoke, or salt) to preserve it. Lightweight, high-protein survival food."
+        },
+        {
+            "term": "Kindling",
+            "definition": "Small twigs and sticks (pencil-sized) used to transition a fire from tinder to larger fuel logs."
+        },
+        {
+            "term": "Kindling Bundle",
+            "definition": "A prepared collection of small, dry sticks organized for efficient fire starting. Pre-arranged so flame can spread easily from tinder."
+        },
+        {
+            "term": "Knapping",
+            "definition": "The art of shaping stone (flint, obsidian, chert) into tools by controlled fracturing. An ancient skill for creating cutting edges."
+        },
+        {
+            "term": "Laceration",
+            "definition": "A deep cut or tear in the skin or flesh, often caused by sharp objects. Distinguished from incisions by their irregular edges."
+        },
+        {
+            "term": "Landmark",
+            "definition": "A recognizable natural or man-made feature used as a reference point for navigation. Mountains, rivers, towers, and distinctive trees serve as landmarks."
+        },
+        {
+            "term": "Larvae",
+            "definition": "The immature form of an insect before metamorphosis. Mealworms, beetle grubs, and fly larvae are protein-rich emergency food sources."
+        },
+        {
+            "term": "Lashing",
+            "definition": "A technique for binding poles or sticks together using rope or cordage to build frameworks, shelters, rafts, and tools."
+        },
+        {
+            "term": "Latrine",
+            "definition": "A communal toilet facility in a camp or bivouac area."
+        },
+        {
+            "term": "Leaching",
+            "definition": "The process of soaking a substance in water to remove unwanted chemicals. Acorns must be leached to remove bitter, toxic tannins before eating."
+        },
+        {
+            "term": "Lean-to",
+            "definition": "A simple shelter usually leaning against a solid object (like a fallen tree or rock) with an open front and a sloping roof."
+        },
+        {
+            "term": "Leeward",
+            "definition": "The side sheltered from the wind. Building shelter on the leeward side of a hill or rock provides wind protection."
+        },
+        {
+            "term": "Leverage",
+            "definition": "Using a rigid bar (lever) pivoting on a fixed point (fulcrum) to multiply force. Essential for moving heavy objects in rescue and construction."
+        },
+        {
+            "term": "Lichen",
+            "definition": "A composite organism of fungus and algae growing on rocks and trees. Some species are edible (rock tripe), others are toxic. A slow-growing food of last resort."
+        },
+        {
+            "term": "Ligament",
+            "definition": "A band of tough, fibrous tissue connecting bones at a joint. Ligaments stabilize joints and can be damaged by sprains."
+        },
+        {
+            "term": "Litter",
+            "definition": "A stretcher or portable platform used to carry an injured person who cannot walk. Can be improvised from poles and clothing."
+        },
+        {
+            "term": "Load-Bearing",
+            "definition": "Capable of supporting weight or force without breaking. A load-bearing knot must hold securely under tension."
+        },
+        {
+            "term": "Magnetic North",
+            "definition": "The direction a compass needle points — toward the Earth's magnetic pole, which differs from true geographic north by a variable amount (declination)."
+        },
+        {
+            "term": "Marrow",
+            "definition": "The soft, fatty tissue inside bones. Extremely calorie-dense and nutritious. Extracted by splitting bones and scooping or boiling."
+        },
+        {
+            "term": "Marsh",
+            "definition": "A type of wetland with grassy vegetation, saturated with water. Marshes are rich in edible plants (cattails) but present navigation and shelter challenges."
+        },
+        {
+            "term": "Medevac",
+            "definition": "Medical evacuation — transporting an injured or ill person to a medical facility, typically by helicopter or ambulance."
+        },
+        {
+            "term": "Monitor",
+            "definition": "To continuously observe and check a patient's vital signs and condition over time for changes."
+        },
+        {
+            "term": "Mullein",
+            "definition": "A tall plant with large, fuzzy leaves and a yellow flower spike. Leaves used as improvised wound padding, toilet paper, and insulation. Tea used for respiratory issues."
+        },
+        {
+            "term": "Mylar Blanket",
+            "definition": "An ultra-thin, lightweight sheet made of heat-reflective metallic coating. Reflects up to 90% of radiated body heat. Also called a space blanket or emergency blanket."
+        },
+        {
+            "term": "Necrosis",
+            "definition": "The death of body tissue. Often appears as blackened, dead skin. Can result from severe frostbite, venom, infection, or loss of blood supply."
+        },
+        {
+            "term": "Nematocyst",
+            "definition": "A specialized stinging cell found in jellyfish tentacles. When triggered, it injects venom through a microscopic barbed thread."
+        },
+        {
+            "term": "Nettle",
+            "definition": "A plant with stinging hairs that cause a burning rash on contact. Once boiled or dried, nettles are highly nutritious — rich in iron, calcium, and vitamins."
+        },
+        {
+            "term": "Normalcy Bias",
+            "definition": "A cognitive bias causing people to underestimate the likelihood and impact of a disaster, leading to inadequate preparation and delayed response."
+        },
+        {
+            "term": "Notch",
+            "definition": "A V-shaped cut or indentation. In fire-starting, the notch in a fireboard collects hot dust. In shelter building, notches join logs together."
+        },
+        {
+            "term": "Obsidian",
+            "definition": "Volcanic glass — extremely hard and can be knapped into razor-sharp edges. Used historically for cutting tools and arrowheads."
+        },
+        {
+            "term": "Occlusive Dressing",
+            "definition": "An airtight, waterproof wound covering used to seal chest wounds (sucking chest wounds) and prevent air from entering the pleural space."
+        },
+        {
+            "term": "Offal",
+            "definition": "The internal organs of an animal (heart, liver, kidneys, intestines). Highly nutritious and should not be discarded in a survival situation."
+        },
+        {
+            "term": "ORS",
+            "definition": "Oral Rehydration Solution — a precise mixture of water, salt, and sugar used to treat dehydration, especially from diarrhea or vomiting."
+        },
+        {
+            "term": "Pace Count",
+            "definition": "A method of measuring distance traveled on foot by counting steps. A known number of paces equals a specific distance (commonly 100 meters)."
+        },
+        {
+            "term": "Palpate",
+            "definition": "To examine by touch, especially as part of a medical assessment. Feeling for broken bones, swelling, tenderness, or abnormal masses."
+        },
+        {
+            "term": "Paracord",
+            "definition": "Type III 550 parachute cord — a lightweight nylon rope originally used in parachute suspension lines. Has a minimum breaking strength of 550 pounds."
+        },
+        {
+            "term": "Pathogen",
+            "definition": "An organism that causes disease, such as bacteria, viruses, or parasites. Water purification aims to remove or kill these."
+        },
+        {
+            "term": "Pemmican",
+            "definition": "A concentrated, long-lasting food made from dried meat, rendered fat, and sometimes dried berries. A traditional survival ration."
+        },
+        {
+            "term": "Penetrating Trauma",
+            "definition": "Injury where an object pierces the skin and enters body tissue. Stab wounds, gunshot wounds, and impalement are penetrating injuries."
+        },
+        {
+            "term": "Percussion",
+            "definition": "Striking one object against another. In fire-starting, striking steel against flint to produce sparks. In knapping, shaping stone tools by striking."
+        },
+        {
+            "term": "Permafrost",
+            "definition": "Ground that remains frozen for two or more consecutive years. Found in arctic and subarctic regions. Limits digging for shelter, latrines, and graves."
+        },
+        {
+            "term": "Pine Needle Tea",
+            "definition": "A tea brewed from fresh pine needles, rich in vitamin C. Used in survival to prevent scurvy and as a warm, immune-boosting drink."
+        },
+        {
+            "term": "Pit Viper",
+            "definition": "A family of venomous snakes with heat-sensing pits between their eyes and nostrils. Includes rattlesnakes, copperheads, and cottonmouths. Found throughout the Americas."
+        },
+        {
+            "term": "Pith",
+            "definition": "The soft, spongy tissue in the center of stems and branches. Elderberry pith is used for tinder; cattail pith is edible."
+        },
+        {
+            "term": "Plantain",
+            "definition": "A common broadleaf weed (Plantago major), NOT the banana-like fruit. The leaves can be chewed and applied to insect stings, bites, and minor wounds as a field remedy."
+        },
+        {
+            "term": "PLB",
+            "definition": "Personal Locator Beacon — a device that transmits a distress signal on 406 MHz to search and rescue satellites, providing your GPS location."
+        },
+        {
+            "term": "Pneumothorax",
+            "definition": "A collapsed lung caused by air leaking into the space between the lung and chest wall. Can result from a penetrating chest wound."
+        },
+        {
+            "term": "Posterior",
+            "definition": "The back side of the body. A posterior wound is on the back."
+        },
+        {
+            "term": "Potable Water",
+            "definition": "Water that is safe to drink or to use for food preparation."
+        },
+        {
+            "term": "Potash",
+            "definition": "Potassium-rich ash from burned hardwood. Used in soap making, fertilizer, and water purification in survival contexts."
+        },
+        {
+            "term": "Poultice",
+            "definition": "A soft, moist mass of plant material, clay, or other substance applied to the body to relieve soreness, inflammation, or draw out infection."
+        },
+        {
+            "term": "Precipitation",
+            "definition": "Any form of water falling from the atmosphere — rain, snow, sleet, hail. Important for water collection and shelter planning."
+        },
+        {
+            "term": "Pressure Bandage",
+            "definition": "A bandage applied firmly to a wound to maintain constant pressure and control bleeding. Also called a compression bandage."
+        },
+        {
+            "term": "Prusik Knot",
+            "definition": "A friction hitch used to attach a cord to a rope, gripping when loaded and sliding when unloaded. Used in climbing and rescue."
+        },
+        {
+            "term": "Pulse",
+            "definition": "The rhythmic expansion of an artery as the heart pumps blood. Checked at the wrist (radial) or neck (carotid) to assess heart rate and circulation."
+        },
+        {
+            "term": "Pulse Oximeter",
+            "definition": "A small device clipped to a fingertip that measures blood oxygen saturation (SpO2) and pulse rate."
+        },
+        {
+            "term": "Punk Wood",
+            "definition": "Soft, rotten, dry wood that crumbles easily. Excellent for catching sparks and holding an ember. Found in dead standing trees."
+        },
+        {
+            "term": "Purify",
+            "definition": "To remove contaminants, pathogens, or impurities from water to make it safe for drinking. Methods include boiling, chemical treatment, filtering, and UV."
+        },
+        {
+            "term": "Quinzhee",
+            "definition": "A shelter made by hollowing out a mound of settled snow. Simpler to build than an igloo and provides excellent cold weather protection."
+        },
+        {
+            "term": "Rabies",
+            "definition": "A fatal viral infection transmitted through the bite of an infected animal. Once symptoms appear, it is almost always fatal."
+        },
+        {
+            "term": "Radial",
+            "definition": "Relating to the radius bone in the forearm, or the radial artery at the wrist where a pulse is commonly checked."
+        },
+        {
+            "term": "Radiation",
+            "definition": "Heat transfer through electromagnetic waves. The body radiates heat to cooler surroundings. Reflective blankets reduce radiated heat loss."
+        },
+        {
+            "term": "Rappel",
+            "definition": "To descend a cliff or steep surface by sliding down a rope in a controlled manner. Also called abseiling."
+        },
+        {
+            "term": "Ravine",
+            "definition": "A deep, narrow valley with steep sides, typically formed by water erosion. Dangerous in flash flood zones but can provide shelter from wind."
+        },
+        {
+            "term": "Recovery Position",
+            "definition": "A stable side-lying position used to maintain an unconscious but breathing person's open airway and prevent aspiration of vomit."
+        },
+        {
+            "term": "Reishi",
+            "definition": "A medicinal mushroom (Ganoderma) that grows on dead hardwood trees. Used in traditional medicine for immune support. Has a distinctive kidney-shaped, lacquered appearance."
+        },
+        {
+            "term": "Render",
+            "definition": "To melt down animal fat by heating it slowly. Rendered fat (tallow or lard) is used for cooking, waterproofing, candles, and making pemmican."
+        },
+        {
+            "term": "Resin",
+            "definition": "Sticky substance produced by trees, especially conifers. Flammable, waterproof, and useful as glue, sealant, and fire starter."
+        },
+        {
+            "term": "Rhizome",
+            "definition": "An underground horizontal stem that sends out roots and shoots. Cattail, ginger, and many ferns spread via rhizomes. Often edible."
+        },
+        {
+            "term": "RICE",
+            "definition": "Rest, Ice, Compression, Elevation — a standard first aid protocol for treating soft tissue injuries like sprains and strains."
+        },
+        {
+            "term": "Ridgeline",
+            "definition": "The top edge of a hill, mountain, or roof where two slopes meet. In shelter building, the ridgeline is the main horizontal support."
+        },
+        {
+            "term": "Ridgepole",
+            "definition": "The horizontal beam at the top of a shelter or roof that supports the rafters. The structural backbone of an A-frame or lean-to."
+        },
+        {
+            "term": "Rule of Threes",
+            "definition": "A survival guideline: 3 minutes without air, 3 hours without shelter (in harsh conditions), 3 days without water, 3 weeks without food."
+        },
+        {
+            "term": "Saline",
+            "definition": "A solution of salt (sodium chloride) dissolved in water, matching the body's natural salt concentration. Used for wound irrigation and IV fluids."
+        },
+        {
+            "term": "SAM Splint",
+            "definition": "A lightweight, highly moldable padded aluminum splint that can be shaped to immobilize almost any bone or joint."
+        },
+        {
+            "term": "Sap",
+            "definition": "The fluid inside a plant that carries water and nutrients. Maple and birch sap can be drunk directly or boiled into syrup."
+        },
+        {
+            "term": "Scree",
+            "definition": "Small loose rocks covering a mountain slope. Difficult and dangerous to traverse — rocks slide underfoot."
+        },
+        {
+            "term": "Seep",
+            "definition": "A place where groundwater slowly oozes to the surface. Found at the base of hills, in shady areas, or where vegetation is unusually green."
+        },
+        {
+            "term": "Sepsis",
+            "definition": "A life-threatening condition where the body's response to infection damages its own tissues and organs. Can progress rapidly from a wound infection."
+        },
+        {
+            "term": "Sheath",
+            "definition": "The outer covering of a rope that protects the inner core strands from abrasion and UV damage. Paracord has a braided nylon sheath."
+        },
+        {
+            "term": "Sheepshank",
+            "definition": "A knot used to shorten a rope without cutting it, or to bypass a damaged section. Useful but can slip if not under constant tension."
+        },
+        {
+            "term": "Shelter",
+            "definition": "A structure that provides protection from the elements (wind, rain, sun, snow) and helps maintain body temperature."
+        },
+        {
+            "term": "Shock",
+            "definition": "A critical condition brought on by a sudden drop in blood flow through the body. The circulatory system fails to maintain adequate blood flow, sharply curtailing the delivery of oxygen and nutrients to vital organs."
+        },
+        {
+            "term": "Signal Mirror",
+            "definition": "A reflective device used to signal rescue aircraft or distant observers by reflecting sunlight. Effective at distances up to 50 miles."
+        },
+        {
+            "term": "Sling",
+            "definition": "A device used to support and immobilize an injured arm, typically made from a triangular bandage or improvised from clothing."
+        },
+        {
+            "term": "Smoke",
+            "definition": "Using wood smoke to preserve and flavor food. Smoking creates an acidic coating that inhibits bacterial growth. Hot smoking cooks; cold smoking preserves."
+        },
+        {
+            "term": "Snare",
+            "definition": "A trap made from wire, cord, or natural fiber designed to catch small game by tightening around the animal as it passes through."
+        },
+        {
+            "term": "Snow Cave",
+            "definition": "A shelter dug into deep snow, providing insulation and protection from wind. Interior temperature stays near 32°F/0°C regardless of outside temperature."
+        },
+        {
             "term": "Solar Still",
             "definition": "A device that uses solar energy to evaporate water (from purity or vegetation) and collect the condensate as clean drinking water."
         },
         {
+            "term": "Sorrel",
+            "definition": "A tangy, edible wild green plant high in vitamin C. Identify by arrow-shaped leaves. Eat in moderation — high oxalic acid content."
+        },
+        {
+            "term": "SOS",
+            "definition": "A universally recognized distress signal: three short, three long, three short (· · · — — — · · ·) in Morse code, or simply the letters 'SOS'."
+        },
+        {
+            "term": "Species",
+            "definition": "A group of organisms that can reproduce with each other. The most specific level of biological classification (e.g., Achillea millefolium = yarrow)."
+        },
+        {
+            "term": "Sphagnum Moss",
+            "definition": "A type of peat moss with natural antiseptic properties. Historically used as wound dressings due to its absorbency and mild antibacterial qualities."
+        },
+        {
+            "term": "Spindle",
+            "definition": "A tapered rod rotated against a fireboard to generate friction heat in bow drill and hand drill fire-starting methods."
+        },
+        {
+            "term": "Splice",
+            "definition": "To join two pieces of rope or cord together by interweaving their strands, creating a permanent connection stronger than a knot."
+        },
+        {
+            "term": "Splint",
+            "definition": "A rigid or flexible device used to immobilize a fractured or injured body part, preventing further damage during transport."
+        },
+        {
+            "term": "Sprain",
+            "definition": "An injury to a ligament (tissue connecting bones at a joint) caused by stretching or tearing. Graded I (mild) to III (complete tear)."
+        },
+        {
+            "term": "Squall",
+            "definition": "A sudden, violent gust of wind, often accompanied by rain or snow. Squalls can appear with little warning, especially near water."
+        },
+        {
+            "term": "Stabilize",
+            "definition": "To make a patient's condition steady and prevent it from worsening. Often the primary goal in field medicine before evacuation."
+        },
+        {
+            "term": "Standing End",
+            "definition": "The part of a rope that is not actively being used to tie a knot — the 'static' end. Opposite of the working end."
+        },
+        {
+            "term": "Sterilize",
+            "definition": "To completely destroy all microorganisms on a surface or instrument, typically using heat, chemicals, or radiation. More thorough than disinfecting."
+        },
+        {
+            "term": "Sternum",
+            "definition": "The breastbone — the flat bone in the center of the chest. CPR compressions are performed on the lower half of the sternum."
+        },
+        {
+            "term": "Stop, Drop, and Roll",
+            "definition": "A simple fire safety technique taught to children and adults to extinguish a fire on their clothes or body."
+        },
+        {
+            "term": "Strain",
+            "definition": "An injury to a muscle or tendon (tissue connecting muscle to bone) caused by overstretching or tearing. Different from a sprain."
+        },
+        {
+            "term": "Strainer",
+            "definition": "A river hazard where water flows through an obstruction (like fallen trees or rocks) but solid objects (including people) cannot pass through."
+        },
+        {
+            "term": "Suction",
+            "definition": "The act of drawing fluid out using a vacuum or negative pressure. Used to clear airways, drain wounds, and extract venom (limited effectiveness)."
+        },
+        {
+            "term": "Survival Mindset",
+            "definition": "The mental attitude and psychological preparedness that determines whether a person thrives or gives up in a survival situation."
+        },
+        {
+            "term": "Suture",
+            "definition": "A stitch or series of stitches used to close a wound. In field medicine, improvised sutures can be made from fishing line or thread."
+        },
+        {
+            "term": "Tannin",
+            "definition": "A bitter-tasting organic substance found in bark, leaves, and unripe fruit. Used to tan leather, purify water, and as an astringent for wounds. Must be leached from acorns before eating."
+        },
+        {
+            "term": "Tarp",
+            "definition": "A large sheet of waterproof material (tarpaulin) used for shelter, rain collection, ground cover, and improvised stretchers."
+        },
+        {
+            "term": "Taut-Line Hitch",
+            "definition": "An adjustable loop knot that can be tightened or loosened while under tension. Commonly used for tent guy lines."
+        },
+        {
+            "term": "Tendon",
+            "definition": "A cord of strong tissue connecting a muscle to a bone. Tendons transmit the force of muscle contraction to move bones."
+        },
+        {
+            "term": "Terrain",
+            "definition": "The physical features and characteristics of an area of land — hills, valleys, rivers, forests, rocks. Understanding terrain is essential for navigation."
+        },
+        {
+            "term": "Terrain Association",
+            "definition": "Navigation by comparing visible terrain features (hills, rivers, ridgelines) to a topographic map to determine position."
+        },
+        {
+            "term": "Tetanus",
+            "definition": "A serious bacterial infection that causes painful muscle spasms and can be fatal. Enters through deep puncture wounds or cuts contaminated with soil."
+        },
+        {
+            "term": "Thatch",
+            "definition": "A roof covering made from dried plant materials (grass, reeds, palm leaves) layered to shed rain. One of the oldest roofing methods."
+        },
+        {
+            "term": "Thistle",
+            "definition": "A prickly plant with purple flowers. Despite the spines, the stalks, roots, and young leaves are edible when the spines are removed."
+        },
+        {
+            "term": "Thorax",
+            "definition": "The chest area — the part of the body between the neck and the abdomen, containing the heart and lungs."
+        },
+        {
+            "term": "Tincture",
+            "definition": "A concentrated herbal extract made by soaking plant material in alcohol or vinegar. Used in field medicine for wound treatment."
+        },
+        {
+            "term": "Tinder",
+            "definition": "Ideally dry, fluffy material that ignites easily from a spark or small flame. Examples include dry grass, birch bark, cotton balls, and char cloth."
+        },
+        {
+            "term": "Toggle",
+            "definition": "A short crosspiece (stick, bone, or metal) pushed through a loop to fasten something. Used in improvised closures, snares, and shelters."
+        },
+        {
+            "term": "Topographic Map",
+            "definition": "A detailed map showing terrain features using contour lines, elevation markings, and symbols for water, vegetation, and human-made structures."
+        },
+        {
+            "term": "Tourniquet",
+            "definition": "A constricting or compressing device used to control arterial and venous blood flow to a portion of an extremity for a period of time, typically to stop life-threatening bleeding."
+        },
+        {
+            "term": "Trachea",
+            "definition": "The windpipe — the tube carrying air from the throat to the lungs. Choking occurs when the trachea is blocked."
+        },
+        {
+            "term": "Traction",
+            "definition": "A pulling force applied to a limb or body part to realign bones or relieve muscle spasm. Used in femur fracture management."
+        },
+        {
+            "term": "Transpiration Bag",
+            "definition": "A clear plastic bag tied over a leafy branch to collect water. The sun causes the leaves to release moisture, which condenses inside the bag."
+        },
+        {
             "term": "Triage",
             "definition": "The process of determining the priority of patients' treatments based on the severity of their condition."
+        },
+        {
+            "term": "Tributary",
+            "definition": "A stream or river that flows into a larger river. Following tributaries downstream leads to larger water sources and often to civilization."
+        },
+        {
+            "term": "Tropical",
+            "definition": "Relating to the warm, humid region near the equator. Tropical environments have dense vegetation, high rainfall, and unique survival challenges (insects, humidity, fungal infections)."
+        },
+        {
+            "term": "True North",
+            "definition": "The direction toward the geographic North Pole — the fixed point where Earth's axis of rotation meets its surface. Different from magnetic north."
+        },
+        {
+            "term": "Tuber",
+            "definition": "A thickened underground stem or root of a plant, used as food storage. Examples include cattail roots, Jerusalem artichoke, and wild potato."
+        },
+        {
+            "term": "Turbidity",
+            "definition": "The cloudiness or haziness of water caused by suspended particles. High turbidity can harbor pathogens and must be addressed before purification."
+        },
+        {
+            "term": "Turmeric",
+            "definition": "A bright yellow root related to ginger, with anti-inflammatory properties. Used in field medicine to reduce swelling and as a mild antiseptic."
+        },
+        {
+            "term": "Undergrowth",
+            "definition": "Low-growing vegetation beneath the main canopy of a forest. Includes shrubs, ferns, and young trees. Can impede movement."
+        },
+        {
+            "term": "Universal Edibility Test",
+            "definition": "A systematic, multi-step process for testing an unknown wild plant for toxicity before eating. Takes approximately 24 hours to complete safely."
+        },
+        {
+            "term": "UTM",
+            "definition": "Universal Transverse Mercator — a coordinate system that divides the Earth into 60 zones and uses meters for precise location description."
+        },
+        {
+            "term": "Venous",
+            "definition": "Relating to veins — the blood vessels carrying oxygen-depleted blood back to the heart. Venous bleeding is dark red and flows steadily."
+        },
+        {
+            "term": "Ventral",
+            "definition": "Relating to the front or belly side of the body."
+        },
+        {
+            "term": "Vital Signs",
+            "definition": "Measurable indicators of essential body functions: pulse rate, breathing rate, blood pressure, and temperature. Changes indicate patient deterioration."
+        },
+        {
+            "term": "Water Purification Tablet",
+            "definition": "A chemical tablet (typically containing iodine or chlorine dioxide) dissolved in water to kill pathogens and make it safe to drink."
+        },
+        {
+            "term": "Watershed",
+            "definition": "An area of land where all water drains to a common outlet point (river, lake, or ocean). Understanding watersheds helps locate water sources."
+        },
+        {
+            "term": "Wattle and Daub",
+            "definition": "A building technique using woven wooden strips (wattle) coated with a mixture of mud, clay, and straw (daub). Creates solid walls."
+        },
+        {
+            "term": "Waypoint",
+            "definition": "A reference point or set of coordinates that identify a specific location in physical space."
+        },
+        {
+            "term": "Webbing",
+            "definition": "Strong, flat woven fabric (usually nylon) used for straps, belts, and harnesses. Found in backpack straps, seat belts, and rescue equipment."
+        },
+        {
+            "term": "Whetstone",
+            "definition": "A stone used for sharpening blades by grinding the edge at the correct angle. Natural whetstones are found in riverbeds."
+        },
+        {
+            "term": "Whipping",
+            "definition": "Tightly wrapping thread or cord around the end of a rope to prevent it from unraveling (fraying)."
+        },
+        {
+            "term": "Whiteout",
+            "definition": "A weather condition where snow and cloud cover make it impossible to distinguish the ground from the sky. Causes total disorientation."
+        },
+        {
+            "term": "Willow Bark",
+            "definition": "The bark of willow trees, containing salicin — a natural compound similar to aspirin. Chewed or brewed as tea to reduce pain and fever."
+        },
+        {
+            "term": "Wind Chill",
+            "definition": "The perceived decrease in air temperature felt by the body due to wind. Moving air strips heat from the body faster than still air."
+        },
+        {
+            "term": "Windbreak",
+            "definition": "A barrier (natural or constructed) that blocks or reduces wind speed, significantly reducing wind chill and heat loss."
+        },
+        {
+            "term": "Windward",
+            "definition": "The side facing into the wind. Exposed to the full force of the wind."
+        },
+        {
+            "term": "Working End",
+            "definition": "The active end of a rope being used to tie a knot. The end you're manipulating."
+        },
+        {
+            "term": "Yarrow",
+            "definition": "A flowering plant (Achillea millefolium) with feathery leaves and white/pink flower clusters. Used in field medicine to help stop bleeding and as an antiseptic poultice."
         }
     ]
 }

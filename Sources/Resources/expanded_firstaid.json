@@ -44,7 +44,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-rib-fracture",
@@ -88,7 +88,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-dental-emergency",
@@ -126,7 +126,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-trench-foot-adv",
@@ -164,7 +164,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-choking-complete",
@@ -246,7 +246,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     }
   ],
   "articles": []

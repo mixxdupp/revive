@@ -44,7 +44,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-blisters/basics/art-20056691"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649"
     },
     {
       "id": "firstaid-burn-char",
@@ -384,7 +384,7 @@
         }
       ],
       "sourceName": "Mount Sinai",
-      "sourceUrl": "https://www.mountsinai.org/health-library"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-wound-cleaning",
@@ -422,7 +422,7 @@
         }
       ],
       "sourceName": "Cleveland Clinic",
-      "sourceUrl": "https://my.clevelandclinic.org/health/treatments/15856-wound-care-how-to-care-for-a-wound"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-wound-closure",
@@ -890,7 +890,7 @@
         }
       ],
       "sourceName": "CDC",
-      "sourceUrl": "https://www.cdc.gov/ticks/removing-a-tick.html"
+      "sourceUrl": "https://www.cdc.gov/ticks/index.html"
     },
     {
       "id": "firstaid-bee-sting",
@@ -928,7 +928,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-anaphylaxis",
@@ -966,7 +966,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-anaphylaxis/basics/art-20056608"
     },
     {
       "id": "firstaid-hypothermia",
@@ -1010,7 +1010,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056677"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/hypothermia/symptoms-causes/syc-20352682"
     },
     {
       "id": "firstaid-heatstroke",
@@ -1086,7 +1086,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-dehydration",
@@ -1124,7 +1124,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/dehydration/diagnosis-treatment/drc-20354092"
     },
     {
       "id": "firstaid-dental",
@@ -1162,7 +1162,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-blister",
@@ -1200,7 +1200,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/blisters/symptoms-causes/syc-20370493"
     },
     {
       "id": "firstaid-ankle-wrap",
@@ -1238,7 +1238,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-drowning",
@@ -1276,7 +1276,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies.html"
     },
     {
       "id": "firstaid-seizure",
@@ -1314,7 +1314,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sprains/basics/art-20056622"
     },
     {
       "id": "firstaid-poison",
@@ -1352,7 +1352,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-nosebleed",
@@ -1428,7 +1428,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-electrocution",
@@ -1466,7 +1466,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-electrical-burns/basics/art-20056687"
     },
     {
       "id": "firstaid-heart-attack",
@@ -1504,7 +1504,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679"
     },
     {
       "id": "firstaid-stroke",
@@ -1580,7 +1580,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-asthma-attack/basics/art-20056610"
     },
     {
       "id": "firstaid-choking-infant",
@@ -1618,7 +1618,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637"
     },
     {
       "id": "firstaid-dislocated-joint",
@@ -1656,7 +1656,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-dislocation/basics/art-20056693"
     },
     {
       "id": "firstaid-hyperventilation",
@@ -1732,7 +1732,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-wound-packing",
@@ -1770,7 +1770,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-improvised-stretcher",
@@ -1808,7 +1808,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-tooth-emergency",
@@ -1846,7 +1846,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-eye-injury",
@@ -1884,7 +1884,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-spinal-immobilization",
@@ -1966,7 +1966,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/diabetic-ketoacidosis/symptoms-causes/syc-20371551"
     },
     {
       "id": "firstaid-drowning-rescue",
@@ -2004,7 +2004,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies.html"
     },
     {
       "id": "firstaid-chest-seal",
@@ -2048,7 +2048,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-crush-injury",
@@ -2092,7 +2092,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448124/"
     },
     {
       "id": "firstaid-heat-stroke",
@@ -2136,7 +2136,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-hypothermia-treatment",
@@ -2180,7 +2180,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-allergic-reaction",
@@ -2224,7 +2224,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/anaphylaxis/symptoms-causes/syc-20351468"
     },
     {
       "id": "firstaid-field-suturing",
@@ -2268,7 +2268,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-nerve-assessment",
@@ -2312,7 +2312,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-psychological-aid",
@@ -2356,7 +2356,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-abdominal-injury",
@@ -2400,7 +2400,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-choking-response",
@@ -2444,7 +2444,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637"
     },
     {
       "id": "firstaid-bleeding-control-advanced",
@@ -2488,7 +2488,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-poison-response",
@@ -2532,7 +2532,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-frostbite",
@@ -2620,7 +2620,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-spider-bite",
@@ -2664,7 +2664,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-splinter",
@@ -2708,7 +2708,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-sprain",
@@ -2752,7 +2752,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-knee-injury",
@@ -2796,7 +2796,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/knee-pain/symptoms-causes/syc-20350849"
     },
     {
       "id": "firstaid-femur-traction",
@@ -2840,7 +2840,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-trench-foot",
@@ -2884,7 +2884,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-sprained-ankle",
@@ -2928,7 +2928,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sprains/basics/art-20056622"
     },
     {
       "id": "firstaid-fever",
@@ -3060,7 +3060,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-overdose-response",
@@ -3104,7 +3104,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-asthma-attack",
@@ -3148,7 +3148,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-asthma-attack/basics/art-20056610"
     },
     {
       "id": "firstaid-flail-chest",
@@ -3192,7 +3192,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-pelvic-fracture",
@@ -3236,7 +3236,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-wound-irrigation",
@@ -3324,7 +3324,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-splint-basics",
@@ -3368,7 +3368,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-heat-illness-spectrum",
@@ -3412,7 +3412,7 @@
         }
       ],
       "sourceName": "CDC",
-      "sourceUrl": "https://www.cdc.gov/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-traumatic-amputation",
@@ -3456,7 +3456,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-tension-pneumo",
@@ -3500,7 +3500,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-eye-irrigation",
@@ -3544,7 +3544,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.cdc.gov/chemical-emergencies/about/index.html"
     },
     {
       "id": "firstaid-seizure-response",
@@ -3588,7 +3588,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093"
     },
     {
       "id": "firstaid-hypothermia-wrap",
@@ -3632,7 +3632,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-foreign-body-ear",
@@ -3676,7 +3676,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/ear-infections/symptoms-causes/syc-20351616"
     },
     {
       "id": "firstaid-blood-pressure-field",
@@ -3720,7 +3720,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-knee-stabilization",
@@ -3852,7 +3852,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-fishhook-removal",
@@ -3896,7 +3896,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-splinter-removal/basics/art-20056671"
     },
     {
       "id": "firstaid-lightning-strike",
@@ -3940,7 +3940,7 @@
         }
       ],
       "sourceName": "NOAA",
-      "sourceUrl": "https://www.weather.gov/"
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "firstaid-abdominal-assessment",
@@ -3984,7 +3984,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-femoral-pressure",
@@ -4028,7 +4028,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-emergency-dental-kit",
@@ -4072,7 +4072,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-rectal-temp-assessment",
@@ -4116,7 +4116,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-figure-8-bandage",
@@ -4204,7 +4204,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-abdominal-evisceration",
@@ -4248,7 +4248,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-eye-patch-technique",
@@ -4380,7 +4380,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-nail-bed-injury",
@@ -4424,7 +4424,7 @@
         }
       ],
       "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-field-sutures",
@@ -4468,7 +4468,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-chest-compressions-only-cpr",
@@ -4556,7 +4556,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-snake-bite-pressure-immobilization",
@@ -4600,7 +4600,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-infection-prevention-field",
@@ -4644,7 +4644,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-shoulder-reduction",
@@ -4688,7 +4688,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK13317/"
     },
     {
       "id": "firstaid-hypothermia-active-warming",
@@ -4732,7 +4732,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-spine-clearing-field",
@@ -4776,7 +4776,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677"
     },
     {
       "id": "firstaid-blood-clotting-agents",
@@ -4820,7 +4820,7 @@
         }
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-leukotape-blister",
@@ -4864,7 +4864,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/blisters/symptoms-causes/syc-20370493"
     },
     {
       "id": "firstaid-improvised-sam-splint",
@@ -4908,7 +4908,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-stingray-hot-water",
@@ -4952,7 +4952,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-marine-animal-stings/basics/art-20056606"
     },
     {
       "id": "firstaid-jellyfish-vinegar",
@@ -4996,7 +4996,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-marine-animal-stings/basics/art-20056606"
     },
     {
       "id": "firstaid-fishhook-string-yank",
@@ -5040,7 +5040,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-splinter-removal/basics/art-20056671"
     },
     {
       "id": "firstaid-altitude-sickness-ams",
@@ -5084,7 +5084,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-altitude-hace",
@@ -5128,7 +5128,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-altitude-hape",
@@ -5172,7 +5172,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-spider-bite-widow",
@@ -5216,7 +5216,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-spider-bite-recluse",
@@ -5260,7 +5260,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-cricothyrotomy-prep",
@@ -5304,7 +5304,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/coursefinder/courses/wilderness-first-responder-WFR/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-tourniquet-field",
@@ -5348,7 +5348,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-sucking-chest-seal",
@@ -5392,7 +5392,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-dislocated-shoulder",
@@ -5436,7 +5436,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK13317/"
     },
     {
       "id": "firstaid-dental-emergency",
@@ -5480,7 +5480,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-nosebleed-field",
@@ -5524,7 +5524,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-nosebleeds/basics/art-20056683"
     },
     {
       "id": "firstaid-field-hygiene",
@@ -5568,7 +5568,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-field-sanitation-latrine",
@@ -5612,7 +5612,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-insect-repellent-natural",
@@ -5656,7 +5656,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-chest-cpr",
@@ -5700,7 +5700,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-choking-heimlich",
@@ -5744,7 +5744,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637"
     },
     {
       "id": "firstaid-allergic-mild",
@@ -5788,7 +5788,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/allergies/symptoms-causes/syc-20351497"
     },
     {
       "id": "firstaid-wound-closure-strips",
@@ -5832,7 +5832,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-leech-removal",
@@ -5876,7 +5876,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-snow-blindness",
@@ -5920,7 +5920,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-frostbite-rewarm",
@@ -5964,7 +5964,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-primary-survey",
@@ -6008,7 +6008,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-secondary-survey",
@@ -6052,7 +6052,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-shock-treatment",
@@ -6096,7 +6096,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-shock/basics/art-20056620"
     },
     {
       "id": "firstaid-cold-water-immersion",
@@ -6140,7 +6140,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies.html"
     },
     {
       "id": "firstaid-scorpion-sting",
@@ -6184,7 +6184,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/scorpion-stings/symptoms-causes/syc-20353859"
     },
     {
       "id": "firstaid-centipede-bite",
@@ -6228,7 +6228,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-cone-snail",
@@ -6272,7 +6272,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-blue-ring-octopus",
@@ -6316,7 +6316,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-sea-urchin",
@@ -6360,7 +6360,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-marine-animal-stings/basics/art-20056606"
     },
     {
       "id": "firstaid-vital-signs",
@@ -6404,7 +6404,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-log-roll",
@@ -6448,7 +6448,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677"
     },
     {
       "id": "firstaid-cervical-collar",
@@ -6492,7 +6492,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677"
     },
     {
       "id": "firstaid-willow-bark",
@@ -6536,7 +6536,7 @@
         }
       ],
       "sourceName": "Bushcraft 101",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-plantain-poultice",
@@ -6580,7 +6580,7 @@
         }
       ],
       "sourceName": "Bushcraft 101",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-charcoal-ingestion",
@@ -6624,7 +6624,7 @@
         }
       ],
       "sourceName": "Bushcraft 101",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-honey-wound",
@@ -6668,7 +6668,7 @@
         }
       ],
       "sourceName": "Bushcraft 101",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-garlic-antibiotic",
@@ -6712,7 +6712,7 @@
         }
       ],
       "sourceName": "Bushcraft 101",
-      "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-airway-jaw-thrust",
@@ -6744,7 +6744,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677"
     },
     {
       "id": "firstaid-chest-seal-burp",
@@ -6776,7 +6776,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK441885/"
     },
     {
       "id": "firstaid-pelvic-binder-improvised",
@@ -6813,7 +6813,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-hemostatic-packing",
@@ -6845,7 +6845,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-hypothermia-burrito",
@@ -6877,7 +6877,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-frostbite-rapid-rewarm",
@@ -6914,7 +6914,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-heatstroke-tarp-cooling",
@@ -6951,7 +6951,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-chem-dry-decon",
@@ -6983,7 +6983,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/chemical-emergencies/about/index.html"
     },
     {
       "id": "firstaid-chem-wet-decon",
@@ -7015,7 +7015,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/chemical-emergencies/about/index.html"
     },
     {
       "id": "firstaid-tear-gas-recovery",
@@ -7047,7 +7047,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/chemical-emergencies/about/index.html"
     },
     {
       "id": "firstaid-nasopharyngeal-airway",
@@ -7079,7 +7079,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK513220/"
     },
     {
       "id": "firstaid-needle-decompression",
@@ -7111,7 +7111,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-combat-gauze-packing",
@@ -7143,7 +7143,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-pelvic-binder-sheet",
@@ -7175,7 +7175,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-morgan-lens-irrigation",
@@ -7207,7 +7207,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-kendrick-traction-device",
@@ -7239,7 +7239,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-rectal-thermometer-field",
@@ -7271,7 +7271,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-hemostatic-junctional",
@@ -7303,7 +7303,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-opa-insertion",
@@ -7335,7 +7335,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK470394/"
     },
     {
       "id": "firstaid-eye-shield-improvised",
@@ -7367,7 +7367,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-pericardiocentesis-signs",
@@ -7399,7 +7399,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK431090/"
     },
     {
       "id": "firstaid-blast-injury-primary",
@@ -7431,7 +7431,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-crush-syndrome-management",
@@ -7463,7 +7463,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448124/"
     },
     {
       "id": "firstaid-burn-escharotomy-signs",
@@ -7495,7 +7495,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649"
     },
     {
       "id": "firstaid-dental-avulsion",
@@ -7527,7 +7527,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-impaled-object-stabilize",
@@ -7559,7 +7559,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-open-fracture-management",
@@ -7591,7 +7591,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-compartment-syndrome",
@@ -7623,7 +7623,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448124/"
     },
     {
       "id": "firstaid-field-blood-transfusion-prep",
@@ -7655,7 +7655,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-heat-cramp-field",
@@ -7687,7 +7687,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heat-cramps/basics/art-20056669"
     },
     {
       "id": "firstaid-sucking-chest-3sided",
@@ -7719,7 +7719,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK441885/"
     },
     {
       "id": "firstaid-finger-thoracostomy",
@@ -7751,7 +7751,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-wound-vac-improvised",
@@ -7783,7 +7783,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-pediatric-assessment-triangle",
@@ -7815,7 +7815,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-mass-casualty-start",
@@ -7847,7 +7847,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-decompression-sickness",
@@ -7885,7 +7885,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-barotrauma-ear",
@@ -7923,7 +7923,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-drowning-management",
@@ -7961,7 +7961,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies.html"
     },
     {
       "id": "firstaid-marine-sting-jellyfish",
@@ -7999,7 +7999,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-marine-animal-stings/basics/art-20056606"
     },
     {
       "id": "firstaid-stingray-treatment",
@@ -8037,7 +8037,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-ams-recognition",
@@ -8075,7 +8075,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-hace-treatment",
@@ -8113,7 +8113,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-hape-treatment",
@@ -8151,7 +8151,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-snakebite-pit-viper",
@@ -8189,7 +8189,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-snakebite-coral",
@@ -8227,7 +8227,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-pediatric-choking",
@@ -8265,7 +8265,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637"
     },
     {
       "id": "firstaid-pediatric-fever",
@@ -8303,7 +8303,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-pediatric-dehydration",
@@ -8341,7 +8341,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/dehydration/diagnosis-treatment/drc-20354092"
     },
     {
       "id": "firstaid-dental-abscess",
@@ -8379,7 +8379,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-dental-temporary-filling",
@@ -8417,7 +8417,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-dental-jaw-dislocation",
@@ -8455,7 +8455,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-emergency-childbirth",
@@ -8493,7 +8493,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-postpartum-hemorrhage",
@@ -8531,7 +8531,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-field-soap-making",
@@ -8569,7 +8569,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
     },
     {
       "id": "firstaid-water-borne-disease-prevention",
@@ -8607,7 +8607,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.cdc.gov/drinking-water/index.html"
     },
     {
       "id": "firstaid-wound-irrigation-technique",
@@ -8645,7 +8645,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-willow-bark-aspirin",
@@ -8683,7 +8683,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-charcoal-poison-treatment",
@@ -8721,7 +8721,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-honey-wound-dressing",
@@ -8759,7 +8759,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-pine-needle-tea-vitamincC",
@@ -8797,7 +8797,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
     },
     {
       "id": "firstaid-tension-pneumo-recognition",
@@ -8835,7 +8835,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK441885/"
     },
     {
       "id": "firstaid-hemostatic-tourniquet-high-tight",
@@ -8873,7 +8873,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-junctional-hemorrhage",
@@ -8911,7 +8911,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-pelvic-fracture-wrap",
@@ -8949,7 +8949,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-flail-chest-management",
@@ -8987,7 +8987,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-start-triage",
@@ -9025,7 +9025,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-salt-triage",
@@ -9063,7 +9063,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-frostbite-rewarming",
@@ -9101,7 +9101,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-anaphylaxis-management",
@@ -9139,7 +9139,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-anaphylaxis/basics/art-20056608"
     },
     {
       "id": "firstaid-sucking-chest-wound",
@@ -9177,7 +9177,7 @@
         }
       ],
       "sourceName": "Wilderness Medical Society / TCCC Guidelines",
-      "sourceUrl": "https://wms.org/"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-finger-dislocation",
@@ -9215,7 +9215,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-hemostatic-agents",
@@ -9253,7 +9253,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-chest-seal-improvised",
@@ -9291,7 +9291,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-field-amputation-care",
@@ -9329,7 +9329,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-seizure-management",
@@ -9367,7 +9367,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093"
     },
     {
       "id": "firstaid-allergic-reaction-mild",
@@ -9405,7 +9405,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/allergies/symptoms-causes/syc-20351497"
     },
     {
       "id": "firstaid-nose-bleed-severe",
@@ -9443,7 +9443,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-nosebleeds/basics/art-20056683"
     },
     {
       "id": "firstaid-heat-stroke-cooling",
@@ -9481,7 +9481,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-asthma-field",
@@ -9519,7 +9519,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-asthma-attack/basics/art-20056610"
     },
     {
       "id": "firstaid-kidney-stone-field",
@@ -9557,7 +9557,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/kidney-stones/symptoms-causes/syc-20355755"
     },
     {
       "id": "firstaid-eye-foreign-body",
@@ -9595,7 +9595,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-constipation-field",
@@ -9633,7 +9633,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/constipation/symptoms-causes/syc-20354253"
     },
     {
       "id": "firstaid-anxiety-attack-field",
@@ -9671,7 +9671,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid"
     },
     {
       "id": "firstaid-toothache-field",
@@ -9709,7 +9709,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
     },
     {
       "id": "firstaid-urinary-tract-infection",
@@ -9747,7 +9747,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-hypothermia-mild-self",
@@ -9785,7 +9785,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-high-altitude-pulmonary-edema",
@@ -9823,7 +9823,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-high-altitude-cerebral-edema",
@@ -9861,7 +9861,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/altitude-sickness/symptoms-causes/syc-20369524"
     },
     {
       "id": "firstaid-black-widow-bite",
@@ -9899,7 +9899,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-immersion-foot",
@@ -9937,7 +9937,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine (6th Ed)",
-      "sourceUrl": "https://store.nols.edu/collections/books/products/nols-wilderness-medicine-6th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-expert-anaphylaxis-epinephrine",
@@ -9975,7 +9975,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-anaphylaxis/basics/art-20056608"
     },
     {
       "id": "firstaid-expert-tension-pneumothorax",
@@ -10013,7 +10013,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK441885/"
     },
     {
       "id": "firstaid-expert-flail-chest",
@@ -10051,7 +10051,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-expert-tourniquet-application",
@@ -10089,7 +10089,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-expert-hypoglycemia-field",
@@ -10127,7 +10127,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/hypoglycemia/symptoms-causes/syc-20373685"
     },
     {
       "id": "firstaid-expert-open-fracture-management",
@@ -10165,7 +10165,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-expert-compartment-syndrome",
@@ -10203,7 +10203,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448124/"
     },
     {
       "id": "firstaid-expert-frostbite-rewarming",
@@ -10241,7 +10241,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-expert-giardiasis-management",
@@ -10279,7 +10279,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/giardia/index.html"
     },
     {
       "id": "firstaid-expert-rabies-exposure",
@@ -10317,7 +10317,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/rabies/index.html"
     },
     {
       "id": "firstaid-encyclopedia-ankle-sprain-grade-ii-diagnosis",
@@ -10355,7 +10355,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sprains/basics/art-20056622"
     },
     {
       "id": "firstaid-encyclopedia-ankle-sprain-grade-ii-initial-stabilization",
@@ -10393,7 +10393,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sprains/basics/art-20056622"
     },
     {
       "id": "firstaid-encyclopedia-ankle-sprain-grade-ii-field-treatment",
@@ -10431,7 +10431,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sprains/basics/art-20056622"
     },
     {
       "id": "firstaid-encyclopedia-ankle-sprain-grade-ii-evacuation-criteria",
@@ -10469,7 +10469,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-sprains/basics/art-20056622"
     },
     {
       "id": "firstaid-encyclopedia-clavicle-fracture-diagnosis",
@@ -10507,7 +10507,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-clavicle-fracture-initial-stabilization",
@@ -10545,7 +10545,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-clavicle-fracture-field-treatment",
@@ -10583,7 +10583,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-clavicle-fracture-evacuation-criteria",
@@ -10621,7 +10621,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-shoulder-dislocation-anterior-diagnosis",
@@ -10659,7 +10659,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-shoulder-dislocation-anterior-initial-stabilization",
@@ -10697,7 +10697,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-shoulder-dislocation-anterior-field-treatment",
@@ -10735,7 +10735,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-shoulder-dislocation-anterior-evacuation-criteria",
@@ -10773,7 +10773,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-femur-fracture-diagnosis",
@@ -10811,7 +10811,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-femur-fracture-initial-stabilization",
@@ -10849,7 +10849,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-femur-fracture-field-treatment",
@@ -10887,7 +10887,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-femur-fracture-evacuation-criteria",
@@ -10925,7 +10925,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-radius-ulna-fracture-diagnosis",
@@ -10963,7 +10963,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-radius-ulna-fracture-initial-stabilization",
@@ -11001,7 +11001,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-radius-ulna-fracture-field-treatment",
@@ -11039,7 +11039,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-radius-ulna-fracture-evacuation-criteria",
@@ -11077,7 +11077,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-patellar-dislocation-diagnosis",
@@ -11115,7 +11115,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-patellar-dislocation-initial-stabilization",
@@ -11153,7 +11153,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-patellar-dislocation-field-treatment",
@@ -11191,7 +11191,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-patellar-dislocation-evacuation-criteria",
@@ -11229,7 +11229,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-encyclopedia-mild-hypothermia-diagnosis",
@@ -11267,7 +11267,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-mild-hypothermia-initial-stabilization",
@@ -11305,7 +11305,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-mild-hypothermia-field-treatment",
@@ -11343,7 +11343,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-mild-hypothermia-evacuation-criteria",
@@ -11381,7 +11381,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-heat-exhaustion-diagnosis",
@@ -11419,7 +11419,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heatstroke/basics/art-20056655"
     },
     {
       "id": "firstaid-encyclopedia-heat-exhaustion-initial-stabilization",
@@ -11457,7 +11457,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heatstroke/basics/art-20056655"
     },
     {
       "id": "firstaid-encyclopedia-heat-exhaustion-field-treatment",
@@ -11495,7 +11495,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heatstroke/basics/art-20056655"
     },
     {
       "id": "firstaid-encyclopedia-heat-exhaustion-evacuation-criteria",
@@ -11533,7 +11533,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heatstroke/basics/art-20056655"
     },
     {
       "id": "firstaid-encyclopedia-heat-stroke-diagnosis",
@@ -11571,7 +11571,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-encyclopedia-heat-stroke-initial-stabilization",
@@ -11609,7 +11609,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-encyclopedia-heat-stroke-field-treatment",
@@ -11647,7 +11647,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-encyclopedia-heat-stroke-evacuation-criteria",
@@ -11685,7 +11685,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-encyclopedia-chilblains-diagnosis",
@@ -11723,7 +11723,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-encyclopedia-chilblains-initial-stabilization",
@@ -11761,7 +11761,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-encyclopedia-chilblains-field-treatment",
@@ -11799,7 +11799,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-encyclopedia-chilblains-evacuation-criteria",
@@ -11837,7 +11837,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-encyclopedia-snow-blindness-photokeratitis-diagnosis",
@@ -11875,7 +11875,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-encyclopedia-snow-blindness-photokeratitis-initial-stabilization",
@@ -11913,7 +11913,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-encyclopedia-snow-blindness-photokeratitis-field-treatment",
@@ -11951,7 +11951,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645"
     },
     {
       "id": "firstaid-encyclopedia-snow-blindness-photokeratitis-evacuation-criteria",
@@ -11989,7 +11989,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-lightning-strike-aftermath-diagnosis",
@@ -12027,7 +12027,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "firstaid-encyclopedia-lightning-strike-aftermath-initial-stabilization",
@@ -12065,7 +12065,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "firstaid-encyclopedia-lightning-strike-aftermath-field-treatment",
@@ -12103,7 +12103,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "firstaid-encyclopedia-lightning-strike-aftermath-evacuation-criteria",
@@ -12141,7 +12141,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.weather.gov/safety/lightning"
     },
     {
       "id": "firstaid-encyclopedia-pit-viper-envenomation-diagnosis",
@@ -12179,7 +12179,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-pit-viper-envenomation-initial-stabilization",
@@ -12217,7 +12217,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-pit-viper-envenomation-field-treatment",
@@ -12255,7 +12255,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-pit-viper-envenomation-evacuation-criteria",
@@ -12293,7 +12293,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-brown-recluse-bite-diagnosis",
@@ -12331,7 +12331,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-brown-recluse-bite-initial-stabilization",
@@ -12369,7 +12369,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-brown-recluse-bite-field-treatment",
@@ -12407,7 +12407,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-brown-recluse-bite-evacuation-criteria",
@@ -12445,7 +12445,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-scorpion-sting-centruroides-diagnosis",
@@ -12483,7 +12483,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-scorpion-sting-centruroides-initial-stabilization",
@@ -12521,7 +12521,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-scorpion-sting-centruroides-field-treatment",
@@ -12559,7 +12559,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-scorpion-sting-centruroides-evacuation-criteria",
@@ -12597,7 +12597,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-poison-ivy-oak-sumac-diagnosis",
@@ -12635,7 +12635,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-encyclopedia-poison-ivy-oak-sumac-initial-stabilization",
@@ -12673,7 +12673,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-encyclopedia-poison-ivy-oak-sumac-field-treatment",
@@ -12711,7 +12711,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-encyclopedia-poison-ivy-oak-sumac-evacuation-criteria",
@@ -12749,7 +12749,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-encyclopedia-jellyfish-envenomation-nematocysts-diagnosis",
@@ -12787,7 +12787,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-jellyfish-envenomation-nematocysts-initial-stabilization",
@@ -12825,7 +12825,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-jellyfish-envenomation-nematocysts-field-treatment",
@@ -12863,7 +12863,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-jellyfish-envenomation-nematocysts-evacuation-criteria",
@@ -12901,7 +12901,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-encyclopedia-tick-borne-illness-lyme-rocky-mountain-diagnosis",
@@ -12939,7 +12939,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-tick-borne-illness-lyme-rocky-mountain-initial-stabilization",
@@ -12977,7 +12977,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-tick-borne-illness-lyme-rocky-mountain-field-treatment",
@@ -13015,7 +13015,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-tick-borne-illness-lyme-rocky-mountain-evacuation-criteria",
@@ -13053,7 +13053,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-norovirus-outbreak-in-camp-diagnosis",
@@ -13091,7 +13091,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/norovirus/index.html"
     },
     {
       "id": "firstaid-encyclopedia-norovirus-outbreak-in-camp-initial-stabilization",
@@ -13129,7 +13129,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/norovirus/index.html"
     },
     {
       "id": "firstaid-encyclopedia-norovirus-outbreak-in-camp-field-treatment",
@@ -13167,7 +13167,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/norovirus/index.html"
     },
     {
       "id": "firstaid-encyclopedia-norovirus-outbreak-in-camp-evacuation-criteria",
@@ -13205,7 +13205,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/norovirus/index.html"
     },
     {
       "id": "firstaid-encyclopedia-malaria-prevention-recognition-diagnosis",
@@ -13243,7 +13243,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/malaria/index.html"
     },
     {
       "id": "firstaid-encyclopedia-malaria-prevention-recognition-initial-stabilization",
@@ -13281,7 +13281,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/malaria/index.html"
     },
     {
       "id": "firstaid-encyclopedia-malaria-prevention-recognition-field-treatment",
@@ -13319,7 +13319,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/malaria/index.html"
     },
     {
       "id": "firstaid-encyclopedia-malaria-prevention-recognition-evacuation-criteria",
@@ -13357,7 +13357,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-leptospirosis-diagnosis",
@@ -13395,7 +13395,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/leptospirosis/index.html"
     },
     {
       "id": "firstaid-encyclopedia-leptospirosis-initial-stabilization",
@@ -13433,7 +13433,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/leptospirosis/index.html"
     },
     {
       "id": "firstaid-encyclopedia-leptospirosis-field-treatment",
@@ -13471,7 +13471,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/leptospirosis/index.html"
     },
     {
       "id": "firstaid-encyclopedia-leptospirosis-evacuation-criteria",
@@ -13509,7 +13509,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-tetanus-risk-assessment-diagnosis",
@@ -13547,7 +13547,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/tetanus/index.html"
     },
     {
       "id": "firstaid-encyclopedia-tetanus-risk-assessment-initial-stabilization",
@@ -13585,7 +13585,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/tetanus/index.html"
     },
     {
       "id": "firstaid-encyclopedia-tetanus-risk-assessment-field-treatment",
@@ -13623,7 +13623,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.cdc.gov/tetanus/index.html"
     },
     {
       "id": "firstaid-encyclopedia-tetanus-risk-assessment-evacuation-criteria",
@@ -13661,7 +13661,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-laceration-with-heavy-bleeding-diagnosis",
@@ -13699,7 +13699,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-laceration-with-heavy-bleeding-initial-stabilization",
@@ -13737,7 +13737,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-laceration-with-heavy-bleeding-field-treatment",
@@ -13775,7 +13775,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-laceration-with-heavy-bleeding-evacuation-criteria",
@@ -13813,7 +13813,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-puncture-wound-nail-thorn-diagnosis",
@@ -13851,7 +13851,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-puncture-wound-nail-thorn-initial-stabilization",
@@ -13889,7 +13889,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-puncture-wound-nail-thorn-field-treatment",
@@ -13927,7 +13927,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-puncture-wound-nail-thorn-evacuation-criteria",
@@ -13965,7 +13965,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-infected-abscess-diagnosis",
@@ -14003,7 +14003,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-infected-abscess-initial-stabilization",
@@ -14041,7 +14041,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-infected-abscess-field-treatment",
@@ -14079,7 +14079,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-infected-abscess-evacuation-criteria",
@@ -14117,7 +14117,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-fish-hook-removal-diagnosis",
@@ -14155,7 +14155,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-splinter-removal/basics/art-20056671"
     },
     {
       "id": "firstaid-encyclopedia-fish-hook-removal-initial-stabilization",
@@ -14193,7 +14193,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-splinter-removal/basics/art-20056671"
     },
     {
       "id": "firstaid-encyclopedia-fish-hook-removal-field-treatment",
@@ -14231,7 +14231,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-splinter-removal/basics/art-20056671"
     },
     {
       "id": "firstaid-encyclopedia-fish-hook-removal-evacuation-criteria",
@@ -14269,7 +14269,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-splinter-removal/basics/art-20056671"
     },
     {
       "id": "firstaid-encyclopedia-impaled-object-stabilization-diagnosis",
@@ -14307,7 +14307,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-impaled-object-stabilization-initial-stabilization",
@@ -14345,7 +14345,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-impaled-object-stabilization-field-treatment",
@@ -14383,7 +14383,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-impaled-object-stabilization-evacuation-criteria",
@@ -14421,7 +14421,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-acute-asthma-exacerbation-diagnosis",
@@ -14459,7 +14459,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-asthma-attack/basics/art-20056610"
     },
     {
       "id": "firstaid-encyclopedia-acute-asthma-exacerbation-initial-stabilization",
@@ -14497,7 +14497,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-asthma-attack/basics/art-20056610"
     },
     {
       "id": "firstaid-encyclopedia-acute-asthma-exacerbation-field-treatment",
@@ -14535,7 +14535,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-asthma-attack/basics/art-20056610"
     },
     {
       "id": "firstaid-encyclopedia-acute-asthma-exacerbation-evacuation-criteria",
@@ -14573,7 +14573,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-asthma-attack/basics/art-20056610"
     },
     {
       "id": "firstaid-encyclopedia-myocardial-infarction-heart-attack-diagnosis",
@@ -14611,7 +14611,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679"
     },
     {
       "id": "firstaid-encyclopedia-myocardial-infarction-heart-attack-initial-stabilization",
@@ -14649,7 +14649,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679"
     },
     {
       "id": "firstaid-encyclopedia-myocardial-infarction-heart-attack-field-treatment",
@@ -14687,7 +14687,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679"
     },
     {
       "id": "firstaid-encyclopedia-myocardial-infarction-heart-attack-evacuation-criteria",
@@ -14725,7 +14725,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679"
     },
     {
       "id": "firstaid-encyclopedia-seizure-grand-mal-diagnosis",
@@ -14763,7 +14763,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093"
     },
     {
       "id": "firstaid-encyclopedia-seizure-grand-mal-initial-stabilization",
@@ -14801,7 +14801,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093"
     },
     {
       "id": "firstaid-encyclopedia-seizure-grand-mal-field-treatment",
@@ -14839,7 +14839,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093"
     },
     {
       "id": "firstaid-encyclopedia-seizure-grand-mal-evacuation-criteria",
@@ -14877,7 +14877,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093"
     },
     {
       "id": "firstaid-encyclopedia-diabetic-ketoacidosis-recognition-diagnosis",
@@ -14915,7 +14915,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/diabetic-ketoacidosis/symptoms-causes/syc-20371551"
     },
     {
       "id": "firstaid-encyclopedia-diabetic-ketoacidosis-recognition-initial-stabilization",
@@ -14953,7 +14953,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/diabetic-ketoacidosis/symptoms-causes/syc-20371551"
     },
     {
       "id": "firstaid-encyclopedia-diabetic-ketoacidosis-recognition-field-treatment",
@@ -14991,7 +14991,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/diseases-conditions/diabetic-ketoacidosis/symptoms-causes/syc-20371551"
     },
     {
       "id": "firstaid-encyclopedia-diabetic-ketoacidosis-recognition-evacuation-criteria",
@@ -15029,7 +15029,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
     },
     {
       "id": "firstaid-encyclopedia-transient-ischemic-attack-stroke-diagnosis",
@@ -15067,7 +15067,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-encyclopedia-transient-ischemic-attack-stroke-initial-stabilization",
@@ -15105,7 +15105,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-encyclopedia-transient-ischemic-attack-stroke-field-treatment",
@@ -15143,7 +15143,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-encyclopedia-transient-ischemic-attack-stroke-evacuation-criteria",
@@ -15181,7 +15181,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
-      "sourceUrl": "https://www.elsevier.com/books/wilderness-medicine/auerbach/978-0-323-35942-9"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-med-willow-bark-tea",
@@ -15219,7 +15219,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
       "id": "firstaid-med-yarrow-styptic",
@@ -15295,7 +15295,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-herbal-astringent-insect",
@@ -15333,7 +15333,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-herbal-astringent-gastrointestinal",
@@ -15409,7 +15409,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-encyclopedia-herbal-astringent-skin",
@@ -15485,7 +15485,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-herbal-decoction-insect",
@@ -15523,7 +15523,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-herbal-decoction-gastrointestinal",
@@ -15599,7 +15599,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-encyclopedia-herbal-decoction-skin",
@@ -15675,7 +15675,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-herbal-infusion-insect",
@@ -15713,7 +15713,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-herbal-infusion-gastrointestinal",
@@ -15789,7 +15789,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-encyclopedia-herbal-infusion-skin",
@@ -15865,7 +15865,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-herbal-poultice-insect",
@@ -15903,7 +15903,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-herbal-poultice-gastrointestinal",
@@ -15941,7 +15941,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448124/"
     },
     {
       "id": "firstaid-encyclopedia-herbal-poultice-mild",
@@ -15979,7 +15979,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-encyclopedia-herbal-poultice-skin",
@@ -16017,7 +16017,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448124/"
     },
     {
       "id": "firstaid-encyclopedia-herbal-salve-minor",
@@ -16055,7 +16055,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     },
     {
       "id": "firstaid-encyclopedia-herbal-salve-insect",
@@ -16093,7 +16093,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593"
     },
     {
       "id": "firstaid-encyclopedia-herbal-salve-gastrointestinal",
@@ -16169,7 +16169,7 @@
         }
       ],
       "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
-      "sourceUrl": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685"
     },
     {
       "id": "firstaid-encyclopedia-herbal-salve-skin",
@@ -16245,7 +16245,7 @@
         }
       ],
       "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/fm21_10.pdf"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "firstaid-frostbite-thaw-decision",
@@ -16283,7 +16283,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653"
     },
     {
       "id": "firstaid-avalanche-burial-recovery",
@@ -16321,7 +16321,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448124/"
     },
     {
       "id": "firstaid-encyclopedia-evac-mild-self-evacuation",
@@ -16359,7 +16359,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-mild-improvised",
@@ -16397,7 +16397,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-mild-helicopter",
@@ -16435,7 +16435,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-mild-shelter",
@@ -16473,7 +16473,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-moderate-self-evacuation",
@@ -16511,7 +16511,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-moderate-improvised",
@@ -16549,7 +16549,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-moderate-helicopter",
@@ -16587,7 +16587,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-moderate-shelter",
@@ -16625,7 +16625,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-severe-improvised",
@@ -16663,7 +16663,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-severe-helicopter",
@@ -16701,7 +16701,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-severe-shelter",
@@ -16739,7 +16739,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624"
     },
     {
       "id": "firstaid-encyclopedia-evac-profound-helicopter",
@@ -16777,7 +16777,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-encyclopedia-evac-profound-shelter",
@@ -16815,7 +16815,7 @@
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://store.nols.edu/products/nols-wilderness-medicine-7th-edition"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps"
     },
     {
       "id": "firstaid-heat-exhaustion-stroke",
@@ -16853,7 +16853,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602"
     },
     {
       "id": "firstaid-pit-viper-bite",
@@ -16891,7 +16891,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681"
     },
     {
       "id": "firstaid-hyponatremia",
@@ -16929,7 +16929,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657"
     },
     {
       "id": "firstaid-encyclopedia-heat-heat",
@@ -16967,7 +16967,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-heatstroke/basics/art-20056655"
     },
     {
       "id": "firstaid-encyclopedia-heat-sunburn",
@@ -17005,7 +17005,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649"
     },
     {
       "id": "firstaid-encyclopedia-arid-scorpion",
@@ -17043,7 +17043,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-arid-black",
@@ -17081,7 +17081,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-arid-brown",
@@ -17119,7 +17119,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-spider-bites/basics/art-20056618"
     },
     {
       "id": "firstaid-encyclopedia-arid-cactus",
@@ -17157,7 +17157,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-splinter-removal/basics/art-20056671"
     },
     {
       "id": "firstaid-encyclopedia-arid-flash",
@@ -17195,7 +17195,7 @@
         }
       ],
       "sourceName": "Auerbach's Wilderness Medicine",
-      "sourceUrl": "https://www.us.elsevierhealth.com/auerbachs-wilderness-medicine-2-volume-set-9780323359429.html"
+      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711"
     }
   ],
   "articles": [
@@ -17313,7 +17313,7 @@
     {
       "id": "firstaid-article-improvised",
       "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://www.nols.edu/en/wilderness-medicine/resources/",
+      "sourceUrl": "https://en.wikipedia.org/wiki/National_Outdoor_Leadership_School/en/wilderness-medicine/resources/",
       "title": "Improvised Medical Tools",
       "body": "When proper medical supplies aren't available, improvisation saves lives.\n\nImprovised tourniquet:\n- Material: belt, strip of cloth, bandana (at least 1.5 inches wide)\n- Windlass: stick, pen, spoon handle\n- Apply 2-3 inches above wound, tighten until bleeding stops\n- Mark time of application on patient's forehead\n\nImprovised splint materials:\n- SAM splint alternatives: folded cardboard, newspaper, sticks, trekking poles\n- Padding: clothing, moss, leaves\n- Ties: torn fabric strips, shoelaces, tape, paracord\n\nImprovised wound closure:\n- Butterfly strips from tape (cut into hourglass shape)\n- Super glue on SUPERFICIAL cuts only (not deep wounds)\n- Hair: tie strands across the wound to hold edges together\n- Thorns as suture pins in extreme situations\n\nImprovised irrigation syringe:\n- Plastic bag with a small hole poked in the corner\n- Water bottle with hole in cap\n- Goal: pressurized stream to flush debris from wounds\n\nImprovised cervical collar:\n- Rolled towel or jacket wrapped around neck\n- Secured with tape, strips, or safety pins\n- Must NOT compress the airway",
       "relatedTechniqueIDs": [

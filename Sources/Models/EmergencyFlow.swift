@@ -89,11 +89,34 @@ struct TriageNode: Identifiable {
     let options: [TriageOption]
 }
 
+/// Confidence level of a leaf's technique recommendation.
+/// Used by the agent to modulate tone, urgency, and presentation.
+enum TriageLeafConfidence: String {
+    case highCertaintySingle      // Exactly 1 canonical action — present with full confidence
+    case rankedPrimaryBackup      // Primary + 1-2 ranked alternatives — present primary, offer fallbacks
+    case complexContextual        // 3+ context-dependent options — present ranked, invite user assessment
+}
+
+/// Role of a technique within a ranked leaf.
+enum TriageTechniqueRole: String {
+    case primary       // First-line action — do this first
+    case adjunct       // Complementary to primary — do alongside
+    case escalation    // Use if primary insufficient — step up
+    case contextual    // Context-dependent alternative — choose based on situation
+}
+
+/// A technique with its clinical role annotation.
+struct RankedTechnique {
+    let id: String
+    let role: TriageTechniqueRole
+}
+
 /// Where a triage option leads: another question, a single technique, or a list of techniques.
 enum TriageDestination {
     case nextQuestion(TriageNode)
     case technique(String)        // single techniqueID
     case techniqueList([String])  // multiple techniqueIDs — user picks
+    case rankedTechniqueList([RankedTechnique], confidence: TriageLeafConfidence) // V20: role-annotated
     case article(String)          // single articleID — "Learn More" link
     case articleList([String])    // multiple articleIDs — reference reading
 }

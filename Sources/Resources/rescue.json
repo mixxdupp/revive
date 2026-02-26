@@ -38,7 +38,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-mirror",
@@ -76,7 +76,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-ground-signal",
@@ -114,7 +114,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-whistle",
@@ -158,7 +158,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-sos",
@@ -316,7 +316,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-leave-trail",
@@ -354,7 +354,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-helicopter",
@@ -392,7 +392,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-morse-code",
@@ -462,7 +462,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-trail-markers",
@@ -538,7 +538,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-smoke-signal",
@@ -576,7 +576,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-plb",
@@ -652,7 +652,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-night-signaling",
@@ -690,7 +690,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-vehicle-signal",
@@ -728,7 +728,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-flag-signals",
@@ -760,7 +760,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-drone-awareness",
@@ -830,7 +830,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-throw-bag",
@@ -906,7 +906,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-improvised-flotation",
@@ -944,7 +944,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-signal-panel",
@@ -976,7 +976,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-whistle-patterns",
@@ -1008,7 +1008,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-throw-line",
@@ -1072,7 +1072,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-cold-water-self",
@@ -1116,7 +1116,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-helicopter-approach",
@@ -1148,7 +1148,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-smoke-timing",
@@ -1180,7 +1180,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-kite",
@@ -1212,7 +1212,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-urban-marking",
@@ -1320,7 +1320,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-improvised-litter",
@@ -1352,7 +1352,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-body-signals",
@@ -1396,7 +1396,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-reflective-signal",
@@ -1440,7 +1440,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-tire-fire-smoke",
@@ -1484,7 +1484,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-clothing-signals",
@@ -1528,7 +1528,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-horn-whistle-pattern",
@@ -1572,7 +1572,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-night-light-signals",
@@ -1616,7 +1616,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-water-dye-marker",
@@ -1660,7 +1660,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-self-evacuation-litter",
@@ -1704,7 +1704,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-attention-panel",
@@ -1748,7 +1748,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-sos-signal-fire",
@@ -1792,7 +1792,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-cell-phone-strategy",
@@ -1836,7 +1836,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-heli-lz-prep",
@@ -1880,7 +1880,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-plb-activation",
@@ -1968,7 +1968,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-sea-dye",
@@ -2012,7 +2012,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-aerial-flare",
@@ -2056,7 +2056,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-ground-air-symbols",
@@ -2100,7 +2100,7 @@
         }
       ],
       "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/details/FM21-76SurvivalManual"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-signal-epirb-activation",
@@ -2138,7 +2138,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-plb-registration",
@@ -2176,7 +2176,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-sart-operation",
@@ -2214,7 +2214,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-vhf-channel-16",
@@ -2252,7 +2252,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-dsc-distress",
@@ -2290,7 +2290,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-flares-solas-vs-coast-guard",
@@ -2328,7 +2328,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-v-sheet-deployment",
@@ -2366,7 +2366,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-signal-mirror-heliograph",
@@ -2404,7 +2404,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-strobe-lights",
@@ -2442,7 +2442,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-dye-marker-strategies",
@@ -2480,7 +2480,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-smoke-canisters",
@@ -2518,7 +2518,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-radar-reflectors",
@@ -2556,7 +2556,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-sound-signals",
@@ -2594,7 +2594,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-arm-signals",
@@ -2632,7 +2632,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-inverted-ensign",
@@ -2670,7 +2670,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-fire-on-deck",
@@ -2708,7 +2708,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-sos-flashlight",
@@ -2746,7 +2746,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-whistle-blasts",
@@ -2784,7 +2784,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-ground-to-air-panel",
@@ -2822,7 +2822,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-signal-helicopter-hoist-prep",
@@ -2860,7 +2860,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-man-overboard",
@@ -2904,7 +2904,7 @@
         }
       ],
       "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscg.mil"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-cell-phone-emergency",
@@ -3347,7 +3347,7 @@
         }
       ],
       "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://www.survivorlibrary.com/library/fm_21-76_survival_manual.pdf"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-confined-space-entry",
@@ -4019,7 +4019,7 @@
         }
       ],
       "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://www.survivorlibrary.com/library/fm_21-76_survival_manual.pdf"
+      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "rescue-knot-rescue-harness",
@@ -5615,7 +5615,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-pants-flotation",
@@ -5653,7 +5653,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-help-huddle-position",
@@ -5691,7 +5691,7 @@
         }
       ],
       "sourceName": "US Coast Guard Rescue & Survival Systems Manual",
-      "sourceUrl": "https://media.defense.gov/2017/Mar/29/2001723588/-1/-1/0/CIM_10470_10G.PDF"
+      "sourceUrl": "https://www.uscgboating.org"
     },
     {
       "id": "rescue-encyclopedia-adrift-cooler-heliograph",
@@ -5729,7 +5729,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-cooler-sea",
@@ -5767,7 +5767,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-cooler-flares",
@@ -5805,7 +5805,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-cooler-splash/movement",
@@ -5843,7 +5843,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-empty-heliograph",
@@ -5881,7 +5881,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-empty-sea",
@@ -5919,7 +5919,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-empty-flares",
@@ -5957,7 +5957,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-empty-splash/movement",
@@ -5995,7 +5995,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-life-heliograph",
@@ -6033,7 +6033,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-life-sea",
@@ -6071,7 +6071,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-life-flares",
@@ -6109,7 +6109,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-life-splash/movement",
@@ -6147,7 +6147,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-debris-heliograph",
@@ -6185,7 +6185,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-debris-sea",
@@ -6223,7 +6223,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-debris-flares",
@@ -6261,7 +6261,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-debris-splash/movement",
@@ -6299,7 +6299,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-improvised-heliograph",
@@ -6337,7 +6337,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-improvised-sea",
@@ -6375,7 +6375,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-improvised-flares",
@@ -6413,7 +6413,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-adrift-improvised-splash/movement",
@@ -6451,7 +6451,7 @@
         }
       ],
       "sourceName": "US Navy SEAL Survival Guide",
-      "sourceUrl": "https://www.simonandschuster.com/books/100-Deadly-Skills/Clint-Emerson/9781476796055"
+      "sourceUrl": "https://www.goodreads.com/book/show/25430713-100-deadly-skills"
     },
     {
       "id": "rescue-encyclopedia-rigging-crevasse-rescue-figure-8-on-a-bight",
@@ -7135,7 +7135,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-signal-deep",
@@ -7173,7 +7173,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-signal-high",
@@ -7211,7 +7211,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-signal-open",
@@ -7249,7 +7249,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-ground-to-air-open",
@@ -7287,7 +7287,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-ground-to-air-deep",
@@ -7325,7 +7325,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-ground-to-air-high",
@@ -7363,7 +7363,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-whistle-dense",
@@ -7401,7 +7401,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-whistle-open",
@@ -7439,7 +7439,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-whistle-deep",
@@ -7477,7 +7477,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-whistle-high",
@@ -7515,7 +7515,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-strobe-dense",
@@ -7553,7 +7553,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-strobe-open",
@@ -7591,7 +7591,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-strobe-deep",
@@ -7629,7 +7629,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
       "id": "rescue-encyclopedia-signal-strobe-high",
@@ -7667,7 +7667,7 @@
         }
       ],
       "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook"
+      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     }
   ],
   "articles": [
