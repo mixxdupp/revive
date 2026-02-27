@@ -37,8 +37,8 @@
           "illustrationDescription": "Water management."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-desert-shelter",
@@ -75,8 +75,8 @@
           "illustrationDescription": "Trench shelter."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-desert-water",
@@ -113,8 +113,8 @@
           "illustrationDescription": "Rock crevice water."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-jungle-travel",
@@ -153,44 +153,6 @@
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
       "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
-    },
-    {
-      "id": "env-jungle-water",
-      "name": "Jungle Water Sources",
-      "subtitle": "Water is abundant but needs treatment",
-      "category": "Jungle",
-      "difficulty": 1,
-      "estimatedTime": "10 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Bamboo segments hold clean water between nodes.",
-          "helpDetail": "Shake green bamboo — if you hear sloshing, it contains water. Cut a small hole to access. This water is usually potable.",
-          "illustrationDescription": "Bamboo water."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Vines can provide drinking water if cut correctly.",
-          "helpDetail": "Cut the vine HIGH first, then cut LOW. Water will flow from the bottom cut. If sap is milky or bitter, discard that vine.",
-          "illustrationDescription": "Cutting vine for water."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Collect rainwater from large leaves — banana leaves are ideal.",
-          "helpDetail": "Tropical rainfall is frequent and heavy. Channel large leaves into containers. Rain is the safest water source.",
-          "illustrationDescription": "Leaf water collection."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Still purify stream water — jungle water carries parasites.",
-          "helpDetail": "Tropical waterways have the highest parasite load on Earth. Schistosomiasis from skin contact alone. Boil everything.",
-          "illustrationDescription": "Water purification reminder."
-        }
-      ],
-      "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
       "id": "env-jungle-shelter",
@@ -271,8 +233,8 @@
           "illustrationDescription": "Ventilation hole."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-arctic-travel",
@@ -309,8 +271,8 @@
           "illustrationDescription": "Ice safety assessment."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-arctic-frostbite",
@@ -347,8 +309,8 @@
           "illustrationDescription": "Warning: no refreeze."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-mountain-lightning",
@@ -461,46 +423,8 @@
           "illustrationDescription": "Rain collection at sea."
         }
       ],
-      "sourceName": "U.S. Coast Guard – Water Safety",
-      "sourceUrl": "https://www.uscgboating.org"
-    },
-    {
-      "id": "env-flood-survival",
-      "name": "Flash Flood Survival",
-      "subtitle": "Get to high ground NOW",
-      "category": "Flood",
-      "difficulty": 2,
-      "estimatedTime": "Immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Move to high ground immediately. Do not wait.",
-          "helpDetail": "Flash floods can wall up to 20 feet high and arrive within minutes of rainfall. If you hear roaring water, you have seconds.",
-          "illustrationDescription": "Moving to high ground."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Never cross flowing water above your ankles.",
-          "helpDetail": "6 inches of fast-moving water can knock you down. 12 inches can carry away a vehicle. The force of flowing water is massively underestimated.",
-          "illustrationDescription": "Danger of flowing water."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "If swept away: float on your back, feet downstream.",
-          "helpDetail": "Use your feet to push off obstacles. Do NOT try to stand up in moving water — foot entrapment is a leading cause of drowning.",
-          "illustrationDescription": "Defensive swimming position."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Never camp in dry washes, canyons, or valley floors.",
-          "helpDetail": "Flash floods can originate from storms miles away with no local rain. A dry wash can become a raging river in 15 minutes.",
-          "illustrationDescription": "Dangerous camping locations."
-        }
-      ],
-      "sourceName": "FEMA – Flood Safety",
-      "sourceUrl": "https://www.ready.gov/floods"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-urban-disaster",
@@ -613,8 +537,8 @@
           "illustrationDescription": "Coastal signaling."
         }
       ],
-      "sourceName": "U.S. Coast Guard – Water Safety",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-earthquake",
@@ -727,8 +651,8 @@
           "illustrationDescription": "Last resort."
         }
       ],
-      "sourceName": "NWCG – Wildfire Safety",
-      "sourceUrl": "https://www.nifc.gov/"
+      "sourceName": "National Interagency Fire Center",
+      "sourceUrl": "https://www.nifc.gov/fire-information/fire-prevention-education-mitigation"
     },
     {
       "id": "env-avalanche",
@@ -879,8 +803,8 @@
           "illustrationDescription": "Staying safe."
         }
       ],
-      "sourceName": "NOAA – Tsunami Safety",
-      "sourceUrl": "https://www.tsunami.gov/"
+      "sourceName": "National Tsunami Warning Center",
+      "sourceUrl": "https://www.tsunami.gov/?page=safety"
     },
     {
       "id": "env-tornado-shelter",
@@ -955,8 +879,8 @@
           "illustrationDescription": "Protecting from heat."
         }
       ],
-      "sourceName": "NWCG – Wildfire Safety",
-      "sourceUrl": "https://www.nifc.gov/"
+      "sourceName": "National Interagency Fire Center",
+      "sourceUrl": "https://www.nifc.gov/fire-information/fire-prevention-education-mitigation"
     },
     {
       "id": "env-earthquake-indoor",
@@ -1027,38 +951,6 @@
       ],
       "sourceName": "FEMA – Earthquake Safety",
       "sourceUrl": "https://www.ready.gov/earthquakes"
-    },
-    {
-      "id": "env-flash-flood-response",
-      "name": "Flash Flood Response",
-      "subtitle": "React to sudden rising water",
-      "category": "Disaster",
-      "difficulty": 2,
-      "estimatedTime": "Immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Abandon the vehicle immediately.",
-          "helpDetail": "Do not attempt to drive through rushing water. 2 feet of water will float a car. Get to higher ground on foot.",
-          "illustrationDescription": "Abandoning car."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Do not walk through moving water.",
-          "helpDetail": "6 inches of moving water can knock you down. If you must walk, look for still water and use a stick to check firmness.",
-          "illustrationDescription": "Testing ground."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Move to the highest possible ground.",
-          "helpDetail": "Avoid canyons, dips, and low spots. Flash floods can rise dozens of feet in minutes.",
-          "illustrationDescription": "Moving uphill."
-        }
-      ],
-      "sourceName": "FEMA – Flood Safety",
-      "sourceUrl": "https://www.ready.gov/floods"
     },
     {
       "id": "env-lightning-position",
@@ -1159,8 +1051,8 @@
           "illustrationDescription": "Travel timing."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-swamp-movement",
@@ -1191,8 +1083,8 @@
           "illustrationDescription": "Parasite protection."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-altitude-sickness",
@@ -1225,38 +1117,6 @@
       ],
       "sourceName": "Bushcraft 101 – Dave Canterbury",
       "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
-    },
-    {
-      "id": "env-desert-night-travel",
-      "name": "Desert Night Travel",
-      "subtitle": "Travel at night to avoid dangerous daytime heat",
-      "category": "Desert",
-      "difficulty": 2,
-      "estimatedTime": "Ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Move between sunset and sunrise. Rest during daylight in shade.",
-          "helpDetail": "Desert day temperatures can exceed 130°F. Night temperatures may drop to 40°F. You lose 0.5-1 liter of water per hour walking in day heat vs. 0.25 liters at night. Night travel doubles your range on the same water.",
-          "illustrationDescription": "Night schedule."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Navigate by stars, moon shadow, or pre-set landmarks visible in moonlight.",
-          "helpDetail": "Before dark, identify your direction and noting landmarks. Walk toward a star (re-check every 15 minutes as stars shift). Full moon provides enough light to navigate safely. New moon requires extreme caution.",
-          "illustrationDescription": "Night navigation."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Watch for temperature extremes: hypothermia is a real desert risk at night.",
-          "helpDetail": "Desert temperature swings of 60-80°F between day and night are common. Dress in layers. The same sun protection worn by day traps warmth at night. Start walking to generate body heat if cold.",
-          "illustrationDescription": "Temperature management."
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "env-coastal-storm",
@@ -1323,38 +1183,6 @@
       "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
-      "id": "env-flash-flood",
-      "name": "Flash Flood Response",
-      "subtitle": "Recognize and escape flash flood danger",
-      "category": "All Environments",
-      "difficulty": 3,
-      "estimatedTime": "Immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "NEVER camp in dry riverbeds, narrow canyons, or at the base of slopes.",
-          "helpDetail": "Flash floods arrive with little warning. A dry wash can fill to 10 feet deep in minutes from rain miles away that you can't even see. If you hear roaring upstream, move to high ground IMMEDIATELY.",
-          "illustrationDescription": "Danger zones."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Move perpendicular to the flood path — go UP, not downstream.",
-          "helpDetail": "Don't try to outrun a flood downstream — water is faster than you. Move sideways and uphill. Even 10-20 feet of elevation gain can save your life. 6 inches of moving water can knock you down.",
-          "illustrationDescription": "Escape direction."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "If caught in water, do NOT try to stand. Float on your back feet-first.",
-          "helpDetail": "Standing in floodwater risks foot entrapment (getting stuck between underwater rocks). Float on your back, feet downstream to fend off obstacles. Grab onto anything stable (tree, rock) when possible.",
-          "illustrationDescription": "Water survival."
-        }
-      ],
-      "sourceName": "FEMA – Flood Safety",
-      "sourceUrl": "https://www.ready.gov/floods"
-    },
-    {
       "id": "env-lightning-safety",
       "name": "Lightning Safety Protocol",
       "subtitle": "Minimize lightning strike risk during thunderstorms",
@@ -1415,8 +1243,8 @@
           "illustrationDescription": "Wait it out."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-tundra-travel",
@@ -1447,40 +1275,8 @@
           "illustrationDescription": "Snow shelter."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "env-tropical-disease",
-      "name": "Tropical Disease Prevention",
-      "subtitle": "Prevent malaria, dengue, and other tropical infections",
-      "category": "Tropical",
-      "difficulty": 2,
-      "estimatedTime": "Ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Prevent mosquito bites: cover skin, use smoke, sleep under netting or cover.",
-          "helpDetail": "Malaria and dengue are transmitted by mosquitoes. Mosquitoes are most active at dawn and dusk. Burn smoky fires near sleeping area. Smear mud on exposed skin. Tuck pants into socks, sleeves into gloves.",
-          "illustrationDescription": "Mosquito prevention."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Purify ALL water. Don't wade barefoot. Cover all wounds.",
-          "helpDetail": "Tropical parasites enter through skin (schistosomiasis), mouth (giardia, ameba), and wounds (tropical ulcers). Boil all water. Wear foot covering in water. Any wound, however small, must be cleaned and covered — tropical infection is aggressive.",
-          "illustrationDescription": "Water and wound care."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Watch for fever, shaking chills, or progressive wound redness — these are emergencies.",
-          "helpDetail": "Malaria symptoms: cyclical fever and chills starting 7-30 days after bite. Untreated falciparum malaria can kill in 24-48 hours. Red streaks from a wound = spreading infection. Both require evacuation to medical care.",
-          "illustrationDescription": "Warning signs."
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-wildfire-survival",
@@ -1543,8 +1339,8 @@
           "illustrationDescription": "Waiting out the eye."
         }
       ],
-      "sourceName": "NOAA – Hurricane Preparedness",
-      "sourceUrl": "https://www.weather.gov/safety/hurricane"
+      "sourceName": "Ready.gov",
+      "sourceUrl": "https://www.ready.gov/hurricanes"
     },
     {
       "id": "env-blizzard",
@@ -1639,8 +1435,8 @@
           "illustrationDescription": "Covering skin."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-tsunami",
@@ -1671,8 +1467,8 @@
           "illustrationDescription": "Staying on roof."
         }
       ],
-      "sourceName": "NOAA – Tsunami Safety",
-      "sourceUrl": "https://www.tsunami.gov/"
+      "sourceName": "National Tsunami Warning Center",
+      "sourceUrl": "https://www.tsunami.gov/?page=safety"
     },
     {
       "id": "env-extreme-heat",
@@ -1703,8 +1499,8 @@
           "illustrationDescription": "Elevating feet."
         }
       ],
-      "sourceName": "CDC – Heat Stress",
-      "sourceUrl": "https://www.cdc.gov/niosh/topics/heatstress/"
+      "sourceName": "CDC",
+      "sourceUrl": "https://www.cdc.gov/disasters/extremeheat/index.html"
     },
     {
       "id": "env-rip-current",
@@ -1735,8 +1531,8 @@
           "illustrationDescription": "Swimming to shore."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-ice-fall-through",
@@ -1889,8 +1685,8 @@
           "illustrationDescription": "Fighting back."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-wolf",
@@ -1921,8 +1717,8 @@
           "illustrationDescription": "Throwing rocks."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-moose-elk",
@@ -1953,8 +1749,8 @@
           "illustrationDescription": "Curled in ball."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-alligator",
@@ -2017,8 +1813,8 @@
           "illustrationDescription": "Cleaning bite."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-shark",
@@ -2049,8 +1845,8 @@
           "illustrationDescription": "Striking gills."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-jellyfish",
@@ -2119,8 +1915,8 @@
           "illustrationDescription": "Ready to go."
         }
       ],
-      "sourceName": "NWCG – Wildfire Safety",
-      "sourceUrl": "https://www.nifc.gov/"
+      "sourceName": "National Interagency Fire Center",
+      "sourceUrl": "https://www.nifc.gov/fire-information/fire-prevention-education-mitigation"
     },
     {
       "id": "env-wildfire-vehicle",
@@ -2555,8 +2351,8 @@
           "illustrationDescription": "Do NOT move during the storm. "
         }
       ],
-      "sourceName": "NOAA",
-      "sourceUrl": "https://www.weather.gov/"
+      "sourceName": "National Weather Service Safety",
+      "sourceUrl": "https://www.weather.gov/safety/"
     },
     {
       "id": "env-hailstorm-shelter",
@@ -2599,8 +2395,8 @@
           "illustrationDescription": "After hailstorm: check for inj"
         }
       ],
-      "sourceName": "NOAA",
-      "sourceUrl": "https://www.weather.gov/"
+      "sourceName": "National Weather Service Safety",
+      "sourceUrl": "https://www.weather.gov/safety/"
     },
     {
       "id": "env-ice-storm-outage",
@@ -2687,8 +2483,8 @@
           "illustrationDescription": "Mark your trail: break branche"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-extreme-altitude",
@@ -2731,8 +2527,8 @@
           "illustrationDescription": "Eat high-carbohydrate foods — "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-cave-flood-response",
@@ -2775,8 +2571,8 @@
           "illustrationDescription": "If forced to swim out an under"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-railroad-navigation",
@@ -2819,52 +2615,8 @@
           "illustrationDescription": "Follow the direction with the "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "env-quicksand-response",
-      "name": "Quicksand Escape",
-      "subtitle": "Free yourself from quicksand or saturated ground",
-      "category": "Weather",
-      "difficulty": 2,
-      "estimatedTime": "15 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "STOP moving immediately. Quicksand reacts to vibration — struggling makes you sink faster.",
-          "helpDetail": "Quicksand is sand saturated with water that behaves like a liquid when disturbed. It cannot 'suck you under' — you float at about waist depth.",
-          "illustrationDescription": "STOP moving immediately. Quick"
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Drop anything heavy: backpack, gear, tools. Reducing weight increases buoyancy.",
-          "helpDetail": "You are less dense than quicksand — you WILL float. But heavy gear on your back pushes you deeper. Drop it all.",
-          "illustrationDescription": "Drop anything heavy: backpack,"
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Lean back slowly to distribute your weight over a larger surface area.",
-          "helpDetail": "Think of it like floating on water. More surface area = less pressure per square inch = you float higher. A slow leaning back motion is key.",
-          "illustrationDescription": "Lean back slowly to distribute"
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Work your legs in small, slow circles to introduce water around each leg. This breaks the suction.",
-          "helpDetail": "The vacuum seal around your legs is what traps you. Slow wiggling lets water flow in around your legs, breaking the seal.",
-          "illustrationDescription": "Work your legs in small, slow "
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "Once floating on your back, 'swim' slowly using a backstroke-like motion toward solid ground.",
-          "helpDetail": "Slow, deliberate movements work. Fast thrashing worsens the problem. Move like you're swimming through thick honey.",
-          "illustrationDescription": "Once floating on your back, 's"
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-mine-shaft-safety",
@@ -2907,8 +2659,8 @@
           "illustrationDescription": "Watch for vertical shafts (win"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-wildfire-smoke",
@@ -2951,8 +2703,8 @@
           "illustrationDescription": "Watch for symptoms: burning ey"
         }
       ],
-      "sourceName": "NOAA",
-      "sourceUrl": "https://www.weather.gov/"
+      "sourceName": "National Weather Service Safety",
+      "sourceUrl": "https://www.weather.gov/safety/"
     },
     {
       "id": "env-rip-current-escape",
@@ -2995,8 +2747,8 @@
           "illustrationDescription": "Identify rip currents BEFORE e"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-cold-water-immersion",
@@ -3039,8 +2791,8 @@
           "illustrationDescription": "Hypothermia sets in after 30+ "
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-avalanche-swim",
@@ -3127,52 +2879,8 @@
           "illustrationDescription": "Do NOT return when the water r"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
-    },
-    {
-      "id": "env-quicksand-escape",
-      "name": "Quicksand Escape",
-      "subtitle": "Breaking free from liquefied sand or mud",
-      "category": "Terrain",
-      "difficulty": 3,
-      "estimatedTime": "15 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "STOP MOVING IMMEDIATELY.",
-          "helpDetail": "Panicked thrashing forces you deeper. Quicksand is denser than the human body; you will float if you stop.",
-          "illustrationDescription": "STOP MOVING IMMEDIATELY."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Drop anything heavy.",
-          "helpDetail": "Backpacks and heavy gear increase your downward pressure massively.",
-          "illustrationDescription": "Drop anything heavy."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Slowly lean backward to distribute your weight across a larger surface area.",
-          "helpDetail": "Imagine you are floating on your back in a pool. The goal is to become as horizontal as possible.",
-          "illustrationDescription": "Slowly lean backward to distri"
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Wiggle your legs slowly and gently in small circles.",
-          "helpDetail": "This introduces water around your legs, breaking the suction seal. Never yank violently upward.",
-          "illustrationDescription": "Wiggle your legs slowly and ge"
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "Once free, belly-crawl to solid ground.",
-          "helpDetail": "Do not stand up until you are completely clear. Your weight concentrated on two feet will punch right back through the surface.",
-          "illustrationDescription": "Once free, belly-crawl to soli"
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-lightning-crouch",
@@ -3347,8 +3055,8 @@
           "illustrationDescription": "Signs of severe dehydration: d"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-arctic-movement",
@@ -3391,8 +3099,8 @@
           "illustrationDescription": "Keep water bottles inside your"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-sea-survival-raft",
@@ -3435,8 +3143,8 @@
           "illustrationDescription": "Signal constantly."
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-river-crossing",
@@ -3479,8 +3187,8 @@
           "illustrationDescription": "If you are swept off your feet"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-bear-encounter",
@@ -3565,50 +3273,6 @@
           "instruction": "Immobilize the bitten limb below heart level, keep the patient calm, and evacuate.",
           "helpDetail": "The patient's heart rate directly determines how fast venom circulates. Panic kills faster than venom.",
           "illustrationDescription": "Immobilize the bitten limb bel"
-        }
-      ],
-      "sourceName": "NOLS Wilderness Medicine",
-      "sourceUrl": "https://en.wikipedia.org/wiki/National_Outdoor_Leadership_School"
-    },
-    {
-      "id": "env-flood-vertical",
-      "name": "Flash Flood Survival",
-      "subtitle": "Emergency response when caught in rising water",
-      "category": "Weather",
-      "difficulty": 3,
-      "estimatedTime": "Immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "MOVE TO HIGH GROUND IMMEDIATELY.",
-          "helpDetail": "Do not waste time packing gear. Flash floods rise from ankle-deep to chest-deep in under 60 seconds in canyon terrain.",
-          "illustrationDescription": "MOVE TO HIGH GROUND IMMEDIATEL"
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Never attempt to walk or drive through moving water.",
-          "helpDetail": "6 inches of fast-moving water can knock you down. 2 feet of moving water floats a car. Most flood deaths occur in vehicles.",
-          "illustrationDescription": "Never attempt to walk or drive"
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "If swept into flood water, float on your back with feet downstream.",
-          "helpDetail": "Your feet act as bumpers against rocks and debris.",
-          "illustrationDescription": "If swept into flood water, flo"
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Grab onto sturdy trees, not fences or flimsier structures.",
-          "helpDetail": "Fences accumulate debris and create hydraulic death traps.",
-          "illustrationDescription": "Grab onto sturdy trees, not fe"
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "After the water recedes, avoid the area for hours.",
-          "helpDetail": "Secondary surges are common. Weakened banks and undercut terrain can collapse.",
-          "illustrationDescription": "After the water recedes, avoid"
         }
       ],
       "sourceName": "NOLS Wilderness Medicine",
@@ -3787,8 +3451,8 @@
           "illustrationDescription": "If you hear pursuers, freeze c"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-evasion-tracker-confusion",
@@ -3831,8 +3495,8 @@
           "illustrationDescription": "If dogs are tracking, cross th"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-evasion-face-paint",
@@ -3875,8 +3539,8 @@
           "illustrationDescription": "Cover all exposed skin includi"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-evasion-dog-evasion",
@@ -3919,8 +3583,8 @@
           "illustrationDescription": "The most effective dog evasion"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-evasion-checkpoint",
@@ -3963,8 +3627,8 @@
           "illustrationDescription": "Have a cover story with verifi"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-sea-shark-deterrent",
@@ -4007,8 +3671,8 @@
           "illustrationDescription": "Avoid splashing or erratic mov"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-sea-seasickness-pressure",
@@ -4051,8 +3715,8 @@
           "illustrationDescription": "If vomiting occurs, do so over"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-sea-raft-repair",
@@ -4095,8 +3759,8 @@
           "illustrationDescription": "If a major chamber fails, redi"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-sea-water-discipline",
@@ -4139,8 +3803,8 @@
           "illustrationDescription": "Reduce water loss: stay in sha"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-sea-barnacles",
@@ -4183,8 +3847,8 @@
           "illustrationDescription": "Do not eat barnacles if you ha"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-ice-fishing",
@@ -4227,8 +3891,8 @@
           "illustrationDescription": "Fish caught through ice keep i"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-vapor-barrier",
@@ -4271,8 +3935,8 @@
           "illustrationDescription": "At the end of each day, turn y"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-landslide-indoor",
@@ -4310,7 +3974,7 @@
         }
       ],
       "sourceName": "USGS Landslide Hazards Program",
-      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards"
+      "sourceUrl": "https://www.ready.gov/landslides-debris-flow"
     },
     {
       "id": "env-landslide-vehicle",
@@ -4342,7 +4006,7 @@
         }
       ],
       "sourceName": "USGS Landslide Hazards Program",
-      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards"
+      "sourceUrl": "https://www.ready.gov/landslides-debris-flow"
     },
     {
       "id": "env-landslide-outdoor",
@@ -4374,7 +4038,7 @@
         }
       ],
       "sourceName": "USGS Landslide Hazards Program",
-      "sourceUrl": "https://www.usgs.gov/programs/landslide-hazards"
+      "sourceUrl": "https://www.ready.gov/landslides-debris-flow"
     },
     {
       "id": "env-flood-swiftwater-swim",
@@ -4633,8 +4297,8 @@
           "illustrationName": "figure.pool.swim"
         }
       ],
-      "sourceName": "NHTSA Sinking Vehicle Safety",
-      "sourceUrl": "https://www.ready.gov/car",
+      "sourceName": "Ready.gov Safety",
+      "sourceUrl": "https://www.ready.gov/be-informed",
       "difficulty": 3
     },
     {
@@ -4701,8 +4365,8 @@
           "illustrationName": "flame.fill"
         }
       ],
-      "sourceName": "CDC Flood Recovery",
-      "sourceUrl": "https://www.ready.gov/floods",
+      "sourceName": "CDC",
+      "sourceUrl": "https://www.cdc.gov/disasters/floods/sanitation.html",
       "difficulty": 3
     },
     {
@@ -4733,7 +4397,7 @@
         }
       ],
       "sourceName": "USGS Early Warning Signs",
-      "sourceUrl": "https://www.usgs.gov",
+      "sourceUrl": "https://www.ready.gov/landslides-debris-flow",
       "difficulty": 3
     },
     {
@@ -4791,8 +4455,8 @@
           "helpDetail": "If water is rushing against the house exterior and building up, opening basement windows to intentionally flood the basement equalizes pressure and can prevent immediate wall shear."
         }
       ],
-      "sourceName": "FEMA Structural Safety",
-      "sourceUrl": "https://www.ready.gov",
+      "sourceName": "Ready.gov",
+      "sourceUrl": "https://www.ready.gov/floods",
       "difficulty": 3
     },
     {
@@ -4847,8 +4511,8 @@
           "helpDetail": "A solution of 1/4 cup liquid bleach per gallon of water is required to kill norovirus and vibrio. Scrub skin aggressively; prioritize open lacerations."
         }
       ],
-      "sourceName": "CDC Hazard Triage",
-      "sourceUrl": "https://www.ready.gov/floods",
+      "sourceName": "CDC",
+      "sourceUrl": "https://www.cdc.gov/disasters/floods/cleanupwater.html",
       "difficulty": 3
     },
     {
@@ -4876,7 +4540,7 @@
         }
       ],
       "sourceName": "USGS Geotechnical Warning",
-      "sourceUrl": "https://www.usgs.gov/media/images/landslide-warning-signs",
+      "sourceUrl": "https://www.ready.gov/landslides-debris-flow",
       "difficulty": 3
     },
     {
@@ -4909,7 +4573,7 @@
         }
       ],
       "sourceName": "USAR Collapse Rescue Protocol",
-      "sourceUrl": "https://www.ready.gov/earthquakes",
+      "sourceUrl": "https://www.ready.gov/landslides-debris-flow",
       "difficulty": 3
     },
     {
@@ -4946,8 +4610,8 @@
           "helpDetail": "Once you are out of the main current and near an eddy, flip onto your stomach and aggressively swim to shore."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-strainer-survival",
@@ -5249,40 +4913,8 @@
           "helpDetail": "Downed power lines, sewage, and chemical contamination make floodwater lethal."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "env-tornado-field-survival",
-      "category": "Disaster",
-      "name": "Tornado Survival (Open Field)",
-      "subtitle": "When you can't reach a building",
-      "difficulty": 3,
-      "isCritical": true,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Do NOT shelter under a bridge",
-          "helpDetail": "Wind accelerates under bridges (Venturi effect). This is more dangerous."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Find the lowest ground possible",
-          "helpDetail": "A ditch, ravine, or culvert. Lie flat with hands covering your neck."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Abandon your vehicle",
-          "helpDetail": "Cars are thrown easily. A ditch is safer than a parked car."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Watch for flying debris",
-          "helpDetail": "90% of tornado deaths are from debris impacts, not the wind itself."
-        }
-      ],
-      "sourceName": "SAS Survival Handbook (John Wiseman)",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-sandstorm-survival",
@@ -5409,8 +5041,8 @@
           "helpDetail": "Swimming accelerates heat loss 30-50%. Float if rescue is expected."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-urban-survival-basics",
@@ -5561,8 +5193,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-earthquake-during",
@@ -5675,8 +5307,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-hurricane-preparation",
@@ -5710,44 +5342,6 @@
           "stepNumber": 4,
           "instruction": "DO NOT go outside during the eye — the backside hits from the opposite direction with no warning.",
           "helpDetail": "The calm of the eye is temporary. The wind returns suddenly from the opposite direction, pushing storm surge back.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook (John Wiseman)",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-wildfire-entrapment",
-      "name": "Wildfire Entrapment Survival",
-      "subtitle": "Last resort when trapped by a fast-moving grass or forest fire",
-      "category": "Natural Disaster",
-      "difficulty": 3,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Look for the safest area: already-burned ground, road, rocky area, stream, or lake.",
-          "helpDetail": "Fire has already consumed fuel in burned areas — they're safer than unburned areas.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "If possible: get to already-burned ground and lie face down.",
-          "helpDetail": "The burned area will not re-ignite. Cover exposed skin.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "If no burned area: clear vegetation from a spot, dig into mineral soil.",
-          "helpDetail": "Create a 10-foot clear zone. Get as low as possible. Face down, cover skin.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Breathe through a cloth close to the ground — superheated air rises.",
-          "helpDetail": "The air at ground level is dramatically cooler and more breathable. Convective heat is the primary killer in wildfire.",
           "illustrationDescription": ""
         }
       ],
@@ -5869,44 +5463,6 @@
       "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     },
     {
-      "id": "env-lightning-safety-rules",
-      "name": "Lightning Safety Protocol",
-      "subtitle": "30/30 rule and position of last resort",
-      "category": "Weather Hazard",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "30/30 rule: if thunder follows lightning by <30 seconds, seek shelter. Stay inside 30 minutes after last thunder.",
-          "helpDetail": "30 seconds = lightning is within 6 miles. That's striking distance.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Best shelter: substantial building or hard-topped vehicle.",
-          "helpDetail": "Open shelters (pavilions, bus stops) do NOT protect. Convertibles do NOT protect.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "If caught in open: get to lowest ground. Crouch on balls of feet, feet together, head down.",
-          "helpDetail": "Minimize ground contact. Do NOT lie flat — ground current can kill through larger contact area.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Avoid: tall trees, metal fences, water, hilltops, open fields.",
-          "helpDetail": "If in a group: spread out at least 15 feet apart so one strike doesn't hit everyone.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook (John Wiseman)",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
       "id": "env-landslide-warning",
       "name": "Landslide & Mudflow Warning Signs",
       "subtitle": "Seconds of warning can save your life",
@@ -5938,44 +5494,6 @@
           "stepNumber": 4,
           "instruction": "After: avoid the area — secondary slides are common.",
           "helpDetail": "Do not cross fresh mudflows — they can reactivate. Report downed utilities from safe distance.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook (John Wiseman)",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-avalanche-survival",
-      "name": "Avalanche Survival",
-      "subtitle": "Create an air pocket and orient yourself",
-      "category": "Cold Weather",
-      "difficulty": 3,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "If caught: try to swim toward the surface using backstroke motion.",
-          "helpDetail": "The flowing snow behaves like a fluid — swimming motion keeps you near the surface.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "As the slide slows: cup hands over face to create an air pocket.",
-          "helpDetail": "This is the most critical action. The air pocket gives you 30-60 minutes of breathing time.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Spit to determine which way is down — gravity pulls saliva down.",
-          "helpDetail": "In burial, you may be completely disoriented. Saliva tells you which direction to dig.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Dig toward the surface. If deeply buried: conserve energy and wait for rescue.",
-          "helpDetail": "Rescuers have the best chance in the first 15 minutes. Your avalanche beacon is your lifeline. Without one: yell — snow transmits sound poorly but try anyway.",
           "illustrationDescription": ""
         }
       ],
@@ -6779,1830 +6297,6 @@
       ],
       "sourceName": "SAS Survival Handbook",
       "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-hyperthermia",
-      "name": "Desert: Mitigate Hyperthermia",
-      "subtitle": "Specific SAS protocol for managing Hyperthermia (Heat Stroke) in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hyperthermia (Heat Stroke) onset early.",
-          "helpDetail": "In the Desert (Arid), Hyperthermia (Heat Stroke) is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hyperthermia (Heat Stroke) is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Hyperthermia (Heat Stroke). (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-severe",
-      "name": "Desert: Mitigate Severe",
-      "subtitle": "Specific SAS protocol for managing Severe Dehydration in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Severe Dehydration onset early.",
-          "helpDetail": "In the Desert (Arid), Severe Dehydration is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Severe Dehydration is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Severe Dehydration. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-hypothermia",
-      "name": "Desert: Mitigate Hypothermia",
-      "subtitle": "Specific SAS protocol for managing Hypothermia in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hypothermia onset early.",
-          "helpDetail": "In the Desert (Arid), Hypothermia is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hypothermia is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Hypothermia. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-frostbite-immersion",
-      "name": "Desert: Mitigate Frostbite/Immersion",
-      "subtitle": "Specific SAS protocol for managing Frostbite/Immersion Foot in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Frostbite/Immersion Foot onset early.",
-          "helpDetail": "In the Desert (Arid), Frostbite/Immersion Foot is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Frostbite/Immersion Foot is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Frostbite/Immersion Foot. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-disorientation-mirages",
-      "name": "Desert: Mitigate Disorientation/Mirages",
-      "subtitle": "Specific SAS protocol for managing Disorientation/Mirages in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Disorientation/Mirages onset early.",
-          "helpDetail": "In the Desert (Arid), Disorientation/Mirages is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Disorientation/Mirages is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Disorientation/Mirages. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-predator",
-      "name": "Desert: Mitigate Predator",
-      "subtitle": "Specific SAS protocol for managing Predator Evasion in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Predator Evasion onset early.",
-          "helpDetail": "In the Desert (Arid), Predator Evasion is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Predator Evasion is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Predator Evasion. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-dangerous",
-      "name": "Desert: Mitigate Dangerous",
-      "subtitle": "Specific SAS protocol for managing Dangerous Flora Verification in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Dangerous Flora Verification onset early.",
-          "helpDetail": "In the Desert (Arid), Dangerous Flora Verification is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Dangerous Flora Verification is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Dangerous Flora Verification. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-flash",
-      "name": "Desert: Mitigate Flash",
-      "subtitle": "Specific SAS protocol for managing Flash Flooding in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Flash Flooding onset early.",
-          "helpDetail": "In the Desert (Arid), Flash Flooding is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Flash Flooding is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Flash Flooding. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-desert-tidal",
-      "name": "Desert: Mitigate Tidal",
-      "subtitle": "Specific SAS protocol for managing Tidal Shifts in a Desert (Arid) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Tidal Shifts onset early.",
-          "helpDetail": "In the Desert (Arid), Tidal Shifts is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Tidal Shifts is manifesting, continuing to push through the Desert (Arid) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Desert (Arid) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Desert (Arid) resources to counteract the Tidal Shifts. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-severe",
-      "name": "Arctic: Mitigate Severe",
-      "subtitle": "Specific SAS protocol for managing Severe Dehydration in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Severe Dehydration onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Severe Dehydration is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Severe Dehydration is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Severe Dehydration. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-hypothermia",
-      "name": "Arctic: Mitigate Hypothermia",
-      "subtitle": "Specific SAS protocol for managing Hypothermia in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hypothermia onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Hypothermia is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hypothermia is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Hypothermia. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-frostbite-immersion",
-      "name": "Arctic: Mitigate Frostbite/Immersion",
-      "subtitle": "Specific SAS protocol for managing Frostbite/Immersion Foot in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Frostbite/Immersion Foot onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Frostbite/Immersion Foot is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Frostbite/Immersion Foot is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Frostbite/Immersion Foot. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-disorientation-mirages",
-      "name": "Arctic: Mitigate Disorientation/Mirages",
-      "subtitle": "Specific SAS protocol for managing Disorientation/Mirages in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Disorientation/Mirages onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Disorientation/Mirages is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Disorientation/Mirages is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Disorientation/Mirages. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-predator",
-      "name": "Arctic: Mitigate Predator",
-      "subtitle": "Specific SAS protocol for managing Predator Evasion in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Predator Evasion onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Predator Evasion is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Predator Evasion is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Predator Evasion. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-dangerous",
-      "name": "Arctic: Mitigate Dangerous",
-      "subtitle": "Specific SAS protocol for managing Dangerous Flora Verification in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Dangerous Flora Verification onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Dangerous Flora Verification is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Dangerous Flora Verification is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Dangerous Flora Verification. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-flash",
-      "name": "Arctic: Mitigate Flash",
-      "subtitle": "Specific SAS protocol for managing Flash Flooding in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Flash Flooding onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Flash Flooding is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Flash Flooding is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Flash Flooding. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-tidal",
-      "name": "Arctic: Mitigate Tidal",
-      "subtitle": "Specific SAS protocol for managing Tidal Shifts in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Tidal Shifts onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Tidal Shifts is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Tidal Shifts is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Tidal Shifts. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-arctic-avalanche",
-      "name": "Arctic: Mitigate Avalanche",
-      "subtitle": "Specific SAS protocol for managing Avalanche Terrain in a Arctic (Sub-Zero) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Avalanche Terrain onset early.",
-          "helpDetail": "In the Arctic (Sub-Zero), Avalanche Terrain is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Avalanche Terrain is manifesting, continuing to push through the Arctic (Sub-Zero) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Arctic (Sub-Zero) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Arctic (Sub-Zero) resources to counteract the Avalanche Terrain. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-hyperthermia",
-      "name": "Jungle: Mitigate Hyperthermia",
-      "subtitle": "Specific SAS protocol for managing Hyperthermia (Heat Stroke) in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hyperthermia (Heat Stroke) onset early.",
-          "helpDetail": "In the Jungle (Tropical), Hyperthermia (Heat Stroke) is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hyperthermia (Heat Stroke) is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Hyperthermia (Heat Stroke). (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-severe",
-      "name": "Jungle: Mitigate Severe",
-      "subtitle": "Specific SAS protocol for managing Severe Dehydration in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Severe Dehydration onset early.",
-          "helpDetail": "In the Jungle (Tropical), Severe Dehydration is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Severe Dehydration is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Severe Dehydration. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-hypothermia",
-      "name": "Jungle: Mitigate Hypothermia",
-      "subtitle": "Specific SAS protocol for managing Hypothermia in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hypothermia onset early.",
-          "helpDetail": "In the Jungle (Tropical), Hypothermia is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hypothermia is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Hypothermia. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-disorientation-mirages",
-      "name": "Jungle: Mitigate Disorientation/Mirages",
-      "subtitle": "Specific SAS protocol for managing Disorientation/Mirages in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Disorientation/Mirages onset early.",
-          "helpDetail": "In the Jungle (Tropical), Disorientation/Mirages is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Disorientation/Mirages is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Disorientation/Mirages. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-predator",
-      "name": "Jungle: Mitigate Predator",
-      "subtitle": "Specific SAS protocol for managing Predator Evasion in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Predator Evasion onset early.",
-          "helpDetail": "In the Jungle (Tropical), Predator Evasion is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Predator Evasion is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Predator Evasion. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-dangerous",
-      "name": "Jungle: Mitigate Dangerous",
-      "subtitle": "Specific SAS protocol for managing Dangerous Flora Verification in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Dangerous Flora Verification onset early.",
-          "helpDetail": "In the Jungle (Tropical), Dangerous Flora Verification is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Dangerous Flora Verification is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Dangerous Flora Verification. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-flash",
-      "name": "Jungle: Mitigate Flash",
-      "subtitle": "Specific SAS protocol for managing Flash Flooding in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Flash Flooding onset early.",
-          "helpDetail": "In the Jungle (Tropical), Flash Flooding is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Flash Flooding is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Flash Flooding. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-tidal",
-      "name": "Jungle: Mitigate Tidal",
-      "subtitle": "Specific SAS protocol for managing Tidal Shifts in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Tidal Shifts onset early.",
-          "helpDetail": "In the Jungle (Tropical), Tidal Shifts is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Tidal Shifts is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Tidal Shifts. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-jungle-avalanche",
-      "name": "Jungle: Mitigate Avalanche",
-      "subtitle": "Specific SAS protocol for managing Avalanche Terrain in a Jungle (Tropical) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Avalanche Terrain onset early.",
-          "helpDetail": "In the Jungle (Tropical), Avalanche Terrain is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Avalanche Terrain is manifesting, continuing to push through the Jungle (Tropical) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Jungle (Tropical) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Jungle (Tropical) resources to counteract the Avalanche Terrain. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-severe",
-      "name": "Alpine: Mitigate Severe",
-      "subtitle": "Specific SAS protocol for managing Severe Dehydration in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Severe Dehydration onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Severe Dehydration is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Severe Dehydration is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Severe Dehydration. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-hypothermia",
-      "name": "Alpine: Mitigate Hypothermia",
-      "subtitle": "Specific SAS protocol for managing Hypothermia in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hypothermia onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Hypothermia is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hypothermia is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Hypothermia. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-frostbite-immersion",
-      "name": "Alpine: Mitigate Frostbite/Immersion",
-      "subtitle": "Specific SAS protocol for managing Frostbite/Immersion Foot in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Frostbite/Immersion Foot onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Frostbite/Immersion Foot is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Frostbite/Immersion Foot is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Frostbite/Immersion Foot. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-disorientation-mirages",
-      "name": "Alpine: Mitigate Disorientation/Mirages",
-      "subtitle": "Specific SAS protocol for managing Disorientation/Mirages in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Disorientation/Mirages onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Disorientation/Mirages is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Disorientation/Mirages is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Disorientation/Mirages. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-predator",
-      "name": "Alpine: Mitigate Predator",
-      "subtitle": "Specific SAS protocol for managing Predator Evasion in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Predator Evasion onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Predator Evasion is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Predator Evasion is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Predator Evasion. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-dangerous",
-      "name": "Alpine: Mitigate Dangerous",
-      "subtitle": "Specific SAS protocol for managing Dangerous Flora Verification in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Dangerous Flora Verification onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Dangerous Flora Verification is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Dangerous Flora Verification is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Dangerous Flora Verification. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-flash",
-      "name": "Alpine: Mitigate Flash",
-      "subtitle": "Specific SAS protocol for managing Flash Flooding in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Flash Flooding onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Flash Flooding is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Flash Flooding is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Flash Flooding. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-tidal",
-      "name": "Alpine: Mitigate Tidal",
-      "subtitle": "Specific SAS protocol for managing Tidal Shifts in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Tidal Shifts onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Tidal Shifts is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Tidal Shifts is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Tidal Shifts. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-alpine-avalanche",
-      "name": "Alpine: Mitigate Avalanche",
-      "subtitle": "Specific SAS protocol for managing Avalanche Terrain in a Alpine (High Altitude) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Avalanche Terrain onset early.",
-          "helpDetail": "In the Alpine (High Altitude), Avalanche Terrain is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Avalanche Terrain is manifesting, continuing to push through the Alpine (High Altitude) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Alpine (High Altitude) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Alpine (High Altitude) resources to counteract the Avalanche Terrain. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-oceanic-hyperthermia",
-      "name": "Oceanic: Mitigate Hyperthermia",
-      "subtitle": "Specific SAS protocol for managing Hyperthermia (Heat Stroke) in a Oceanic (Open Water) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hyperthermia (Heat Stroke) onset early.",
-          "helpDetail": "In the Oceanic (Open Water), Hyperthermia (Heat Stroke) is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hyperthermia (Heat Stroke) is manifesting, continuing to push through the Oceanic (Open Water) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Oceanic (Open Water) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Oceanic (Open Water) resources to counteract the Hyperthermia (Heat Stroke). (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-oceanic-severe",
-      "name": "Oceanic: Mitigate Severe",
-      "subtitle": "Specific SAS protocol for managing Severe Dehydration in a Oceanic (Open Water) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Severe Dehydration onset early.",
-          "helpDetail": "In the Oceanic (Open Water), Severe Dehydration is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Severe Dehydration is manifesting, continuing to push through the Oceanic (Open Water) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Oceanic (Open Water) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Oceanic (Open Water) resources to counteract the Severe Dehydration. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-oceanic-hypothermia",
-      "name": "Oceanic: Mitigate Hypothermia",
-      "subtitle": "Specific SAS protocol for managing Hypothermia in a Oceanic (Open Water) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Hypothermia onset early.",
-          "helpDetail": "In the Oceanic (Open Water), Hypothermia is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Hypothermia is manifesting, continuing to push through the Oceanic (Open Water) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Oceanic (Open Water) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Oceanic (Open Water) resources to counteract the Hypothermia. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-oceanic-disorientation-mirages",
-      "name": "Oceanic: Mitigate Disorientation/Mirages",
-      "subtitle": "Specific SAS protocol for managing Disorientation/Mirages in a Oceanic (Open Water) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Disorientation/Mirages onset early.",
-          "helpDetail": "In the Oceanic (Open Water), Disorientation/Mirages is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Disorientation/Mirages is manifesting, continuing to push through the Oceanic (Open Water) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Oceanic (Open Water) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Oceanic (Open Water) resources to counteract the Disorientation/Mirages. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-oceanic-predator",
-      "name": "Oceanic: Mitigate Predator",
-      "subtitle": "Specific SAS protocol for managing Predator Evasion in a Oceanic (Open Water) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Predator Evasion onset early.",
-          "helpDetail": "In the Oceanic (Open Water), Predator Evasion is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Predator Evasion is manifesting, continuing to push through the Oceanic (Open Water) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Oceanic (Open Water) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Oceanic (Open Water) resources to counteract the Predator Evasion. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-oceanic-flash",
-      "name": "Oceanic: Mitigate Flash",
-      "subtitle": "Specific SAS protocol for managing Flash Flooding in a Oceanic (Open Water) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Flash Flooding onset early.",
-          "helpDetail": "In the Oceanic (Open Water), Flash Flooding is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Flash Flooding is manifesting, continuing to push through the Oceanic (Open Water) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Oceanic (Open Water) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Oceanic (Open Water) resources to counteract the Flash Flooding. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-mitigation-oceanic-tidal",
-      "name": "Oceanic: Mitigate Tidal",
-      "subtitle": "Specific SAS protocol for managing Tidal Shifts in a Oceanic (Open Water) environment.",
-      "category": "Weather / Climate",
-      "difficulty": 3,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Tidal Shifts onset early.",
-          "helpDetail": "In the Oceanic (Open Water), Tidal Shifts is often the primary killer. Recognize the subtle preliminary physiological or environmental indicators before they become critical.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Halt movement and assess.",
-          "helpDetail": "If Tidal Shifts is manifesting, continuing to push through the Oceanic (Open Water) will rapidly multiply the danger. Stop and force an assessment of your shelter/clothing status.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Apply Oceanic (Open Water) specific countermeasures.",
-          "helpDetail": "Utilize the surrounding Oceanic (Open Water) resources to counteract the Tidal Shifts. (e.g., burying yourself in sand for insulation, or utilizing snow caves for windbreak).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain rigorous discipline.",
-          "helpDetail": "Survival in extreme environments requires military discipline regarding hydration, sleep, foot care, and monitoring your own psychology. Apathy is lethal.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "env-encyclopedia-ocean-hypothermia",
-      "name": "Ocean Survival: Hypothermia",
-      "subtitle": "USCG Standard protocols for mitigating hypothermia adrift at sea.",
-      "category": "Oceanic Survival",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Recognize the Hypothermia onset vectors.",
-          "helpDetail": "In open water, hypothermia strikes much faster than on land due to wind chill, reflective UV radiation, and hypertonic (salt) ingestion.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Initiate defensive isolation protocols.",
-          "helpDetail": "If dealing with hypothermia, utilize your raft canopy, clothing, or physical posturing (like H.E.L.P) to isolate yourself from the oceanic trigger.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Conserve energy strictly.",
-          "helpDetail": "Adrift survival is an endurance game. Adrenaline spikes from panicking over oceanic threats rapidly drain glucose and fresh water reserves.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Document and monitor.",
-          "helpDetail": "The psychological terror of the open ocean accelerates cognitive decline. Force yourself to verbally assess physical conditions and equipment status hourly.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "US Coast Guard Rescue & Survival Systems Manual",
-      "sourceUrl": "https://www.uscgboating.org"
-    },
-    {
-      "id": "env-encyclopedia-ocean-dehydration",
-      "name": "Ocean Survival: Dehydration",
-      "subtitle": "USCG Standard protocols for mitigating dehydration adrift at sea.",
-      "category": "Oceanic Survival",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Recognize the Dehydration onset vectors.",
-          "helpDetail": "In open water, dehydration strikes much faster than on land due to wind chill, reflective UV radiation, and hypertonic (salt) ingestion.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Initiate defensive isolation protocols.",
-          "helpDetail": "If dealing with dehydration, utilize your raft canopy, clothing, or physical posturing (like H.E.L.P) to isolate yourself from the oceanic trigger.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Conserve energy strictly.",
-          "helpDetail": "Adrift survival is an endurance game. Adrenaline spikes from panicking over oceanic threats rapidly drain glucose and fresh water reserves.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Document and monitor.",
-          "helpDetail": "The psychological terror of the open ocean accelerates cognitive decline. Force yourself to verbally assess physical conditions and equipment status hourly.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "US Coast Guard Rescue & Survival Systems Manual",
-      "sourceUrl": "https://www.uscgboating.org"
-    },
-    {
-      "id": "env-encyclopedia-ocean-shark",
-      "name": "Ocean Survival: Shark",
-      "subtitle": "USCG Standard protocols for mitigating shark encounter adrift at sea.",
-      "category": "Oceanic Survival",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Recognize the Shark onset vectors.",
-          "helpDetail": "In open water, shark strikes much faster than on land due to wind chill, reflective UV radiation, and hypertonic (salt) ingestion.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Initiate defensive isolation protocols.",
-          "helpDetail": "If dealing with shark, utilize your raft canopy, clothing, or physical posturing (like H.E.L.P) to isolate yourself from the oceanic trigger.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Conserve energy strictly.",
-          "helpDetail": "Adrift survival is an endurance game. Adrenaline spikes from panicking over oceanic threats rapidly drain glucose and fresh water reserves.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Document and monitor.",
-          "helpDetail": "The psychological terror of the open ocean accelerates cognitive decline. Force yourself to verbally assess physical conditions and equipment status hourly.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "US Coast Guard Rescue & Survival Systems Manual",
-      "sourceUrl": "https://www.uscgboating.org"
-    },
-    {
-      "id": "env-encyclopedia-ocean-jellyfish-man-o-war",
-      "name": "Ocean Survival: Jellyfish/Man-O-War",
-      "subtitle": "USCG Standard protocols for mitigating jellyfish/man-o-war attack adrift at sea.",
-      "category": "Oceanic Survival",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Recognize the Jellyfish/Man-O-War onset vectors.",
-          "helpDetail": "In open water, jellyfish/man-o-war strikes much faster than on land due to wind chill, reflective UV radiation, and hypertonic (salt) ingestion.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Initiate defensive isolation protocols.",
-          "helpDetail": "If dealing with jellyfish/man-o-war, utilize your raft canopy, clothing, or physical posturing (like H.E.L.P) to isolate yourself from the oceanic trigger.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Conserve energy strictly.",
-          "helpDetail": "Adrift survival is an endurance game. Adrenaline spikes from panicking over oceanic threats rapidly drain glucose and fresh water reserves.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Document and monitor.",
-          "helpDetail": "The psychological terror of the open ocean accelerates cognitive decline. Force yourself to verbally assess physical conditions and equipment status hourly.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "US Coast Guard Rescue & Survival Systems Manual",
-      "sourceUrl": "https://www.uscgboating.org"
-    },
-    {
-      "id": "env-encyclopedia-ocean-sun",
-      "name": "Ocean Survival: Sun",
-      "subtitle": "USCG Standard protocols for mitigating sun exposure (uv burn) adrift at sea.",
-      "category": "Oceanic Survival",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Recognize the Sun onset vectors.",
-          "helpDetail": "In open water, sun strikes much faster than on land due to wind chill, reflective UV radiation, and hypertonic (salt) ingestion.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Initiate defensive isolation protocols.",
-          "helpDetail": "If dealing with sun, utilize your raft canopy, clothing, or physical posturing (like H.E.L.P) to isolate yourself from the oceanic trigger.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Conserve energy strictly.",
-          "helpDetail": "Adrift survival is an endurance game. Adrenaline spikes from panicking over oceanic threats rapidly drain glucose and fresh water reserves.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Document and monitor.",
-          "helpDetail": "The psychological terror of the open ocean accelerates cognitive decline. Force yourself to verbally assess physical conditions and equipment status hourly.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "US Coast Guard Rescue & Survival Systems Manual",
-      "sourceUrl": "https://www.uscgboating.org"
     }
   ],
   "articles": [
@@ -8614,7 +6308,9 @@
         "env-desert-travel",
         "env-desert-shelter",
         "env-desert-water"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "env-article-arctic",
@@ -8624,7 +6320,9 @@
         "env-arctic-shelter",
         "env-arctic-travel",
         "env-arctic-frostbite"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "env-article-jungle",
@@ -8634,7 +6332,9 @@
         "env-jungle-travel",
         "env-jungle-water",
         "env-jungle-shelter"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "env-article-mountain",
@@ -8643,7 +6343,9 @@
       "relatedTechniqueIDs": [
         "env-mountain-lightning",
         "env-mountain-altitude"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "env-article-ocean",
@@ -8651,7 +6353,9 @@
       "body": "Survival at sea is one of the most challenging environments. Your three enemies: dehydration, hypothermia, and sun exposure.\n\nSurvival priorities at sea:\n1. Stay afloat (PFD, debris, HELP position)\n2. Protection from elements (shade from sun, insulate from cold water)\n3. Fresh water (rain collection is your only reliable source)\n4. Signaling (mirror, dye, flares, electronics)\n5. Food (last on the list — you can survive weeks without food)\n\nCold water immersion survival:\n- 50°F water: 1-3 hours\n- 60°F water: 3-12 hours\n- 70°F water: 12-40 hours\n- 80°F water: indefinite (but sunburn and dehydration kill)\n\nIf in a life raft:\n- Stay dry if possible (wet clothing in the open = hypothermia)\n- Collect rainwater in every possible surface\n- Fish for food: trailing a line behind the raft works\n- Signal EVERY aircraft and vessel\n- Maintain morale: routine, tasks, hope\n\nShark awareness: sharks rarely attack humans. Avoid splashing, bleeding in water, and dawn/dusk swimming. If approached, maintain eye contact and back away slowly.",
       "relatedTechniqueIDs": [
         "env-ocean-survival"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "env-article-flood",
@@ -8659,7 +6363,9 @@
       "body": "Floods are the #1 natural disaster killer worldwide. Most flood deaths are from vehicles driving into floodwater.\n\nCritical rules:\n- Turn around, don't drown: NEVER drive through flooded roads\n- 6 inches of water knocks you down\n- 12 inches of water carries away a car\n- 2 feet of water carries away an SUV/truck\n\nFlash flood indicators:\n- Heavy rain upstream (you may not see it locally)\n- Rising water in streams/creeks\n- Roaring sound from upstream\n- Muddy water where it was clear\n- Debris floating downstream\n\nIf trapped by rising water:\n- Go to the highest accessible point\n- Signal with lights, bright clothing, mirrors\n- Do NOT enter floodwater to swim\n- If swept away: float on back, feet downstream\n- Grab any stable object and climb above water\n\nAfter flood:\n- Never drink floodwater (sewage, chemicals, debris)\n- Avoid walking through standing water (contamination, hidden holes, downed power lines)\n- Check structural integrity before entering buildings",
       "relatedTechniqueIDs": [
         "env-flood-survival"
-      ]
+      ],
+      "sourceUrl": "https://www.ready.gov/be-informed",
+      "sourceName": "Ready.gov Safety"
     },
     {
       "id": "env-article-multihazard",
@@ -8669,7 +6375,9 @@
         "env-earthquake-indoor",
         "env-tornado-shelter",
         "env-flash-flood-response"
-      ]
+      ],
+      "sourceUrl": "https://www.ready.gov",
+      "sourceName": "Ready.gov"
     },
     {
       "id": "env-article-climate",
@@ -8678,7 +6386,9 @@
       "relatedTechniqueIDs": [
         "env-desert-travel",
         "env-arctic-travel"
-      ]
+      ],
+      "sourceUrl": "https://www.ready.gov/drought",
+      "sourceName": "Ready.gov"
     },
     {
       "id": "env-article-urban-disaster",
@@ -8687,7 +6397,9 @@
       "relatedTechniqueIDs": [
         "env-earthquake-indoor",
         "env-wildfire-evac"
-      ]
+      ],
+      "sourceUrl": "https://www.ready.gov/business",
+      "sourceName": "Ready.gov"
     },
     {
       "id": "env-article-altitude",
@@ -8695,7 +6407,9 @@
       "body": "Altitude sickness is progressive and predictable. Understanding the stages can save your life.\n\nStage 1 — Acute Mountain Sickness (AMS): 8,000-12,000 feet\n- Headache (primary symptom)\n- Nausea, loss of appetite\n- Fatigue, weakness\n- Dizziness\n- Difficulty sleeping\nTreatment: rest at same altitude, hydrate, ibuprofen. Resolves in 24-48 hours if you don't ascend.\n\nStage 2 — HACE (High Altitude Cerebral Edema): 12,000+ feet\n- Severe headache unresponsive to medication\n- Confusion, disorientation\n- Loss of coordination (ataxia)\n- Irrational behavior\n- Hallucinations\nTreatment: IMMEDIATE descent. This is a medical emergency. Fatal within 24 hours without descent.\n\nStage 3 — HAPE (High Altitude Pulmonary Edema): 8,000+ feet\n- Persistent dry cough, then wet cough\n- Breathlessness at rest\n- Gurgling sounds when breathing\n- Blue/gray lips and fingernails\n- Pink, frothy sputum\nTreatment: IMMEDIATE descent + supplemental oxygen. Fatal within hours if untreated.\n\nPrevention: ascend slowly, hydrate, descend at first sign of worsening symptoms.",
       "relatedTechniqueIDs": [
         "env-altitude-sickness"
-      ]
+      ],
+      "sourceUrl": "https://medlineplus.gov/ency/article/000133.htm",
+      "sourceName": "MedlinePlus"
     },
     {
       "id": "env-article-jungle-medicine",
@@ -8704,7 +6418,9 @@
       "relatedTechniqueIDs": [
         "env-jungle-movement",
         "env-tropical-disease"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "env-article-flash-flood-science",
@@ -8712,7 +6428,9 @@
       "body": "Flash floods kill more people annually than any other weather event. Understanding them is critical.\n\nWhat makes flash floods deadly:\n- Speed: water can rise 10+ feet in minutes\n- Force: 6 inches of moving water knocks down an adult\n- Invisibility: caused by rain miles away that you can't see\n- Terrain multiplier: narrow canyons funnel and amplify water\n\nWhere flash floods occur:\n- Slot canyons (most dangerous — vertical walls, no escape)\n- Dry riverbeds (arroyos, wadis) in desert and arid regions\n- Mountain stream valleys after heavy upstream rain\n- Urban areas with poor drainage\n- Below dam spillways\n\nWarning signs:\n1. Rumbling sound upstream (like a freight train)\n2. Sudden increase in water turbidity (muddy water)\n3. Floating debris in rising water\n4. Dark clouds or heavy rain visible upstream\n5. Rapid water level change in streams\n\nSurvival rules:\n- Never camp below the high-water mark (look for debris lines on canyon walls)\n- Never cross flooded roadways (2 feet of water floats most vehicles)\n- Always have an uphill escape route planned\n- In slot canyons, check weather forecasts for the entire watershed, not just your location\n- If caught: climb, don't run. Vertical is safer than horizontal.",
       "relatedTechniqueIDs": [
         "env-flash-flood"
-      ]
+      ],
+      "sourceUrl": "https://www.ready.gov/be-informed",
+      "sourceName": "Ready.gov Safety"
     },
     {
       "id": "env-article-cave-guide",
@@ -8720,7 +6438,9 @@
       "body": "Caves provide excellent shelter but come with unique hazards.\n\nCave advantages:\n- Constant temperature (typically 50-60°F year-round in temperate zones)\n- Wind protection\n- Rain/snow protection\n- Concealment\n- Stone reflects fire heat\n\nCave hazards:\n- Bad air: CO2 accumulates, oxygen depletes. Test with flame.\n- Falls: cave floors are uneven, wet, and slippery\n- Flooding: many caves flood during rain. Look for water marks on walls.\n- Animal inhabitants: bats, snakes, spiders, bears\n- Collapse: loose rock, especially near entrances\n- Disorientation: beyond visual range of entrance, navigation is impossible without light\n\nSafe cave use rules:\n1. STAY near the entrance. Never explore deeper than you can see daylight.\n2. Fire at the entrance, sleep between fire and back wall.\n3. Check ceiling for loose rock before setting up camp.\n4. Ensure drainage — even light rain can flood a cavity.\n5. Mark the entrance from outside (pile of rocks) so you can find it again.\n6. Never enter narrow passages — getting stuck is a fatal scenario.\n\nCave temperature is your friend: cool in summer, warm (relatively) in winter. This constant temperature reduces exposure risk significantly.",
       "relatedTechniqueIDs": [
         "env-cave-survival"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "env-article-wildfire-behavior",
@@ -8729,7 +6449,9 @@
       "relatedTechniqueIDs": [
         "env-wildfire-survival",
         "env-wildfire-evac"
-      ]
+      ],
+      "sourceUrl": "https://www.ready.gov/wildfires",
+      "sourceName": "Ready.gov"
     }
   ]
 }

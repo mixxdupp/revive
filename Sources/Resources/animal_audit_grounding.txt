@@ -1,0 +1,228 @@
+ID: env-alligator
+Title: NO TITLE
+Subtitle: Reptilian predator defense
+ - 
+ - 
+ - 
+
+ID: env-arctic-shelter
+Title: NO TITLE
+Subtitle: Pile, settle, hollow — warmer than outside
+ - 
+ - 
+ - 
+ - 
+ - 
+
+ID: env-article-desert
+Title: Desert Survival Principles
+Subtitle: NO SUBTITLE
+
+ID: env-article-jungle-medicine
+Title: Jungle Survival Medicine
+Subtitle: NO SUBTITLE
+
+ID: env-article-mountain
+Title: Mountain Hazard Awareness
+Subtitle: NO SUBTITLE
+
+ID: env-article-ocean
+Title: Ocean & Coastal Survival
+Subtitle: NO SUBTITLE
+
+ID: env-bear-black
+Title: NO TITLE
+Subtitle: Dealing with black bears
+ - 
+ - 
+ - 
+
+ID: env-bear-black-avoid
+Title: NO TITLE
+Subtitle: Intimidate and back away
+ - 
+ - 
+ - 
+ - 
+
+ID: env-bear-grizzly
+Title: NO TITLE
+Subtitle: Dealing with brown bears
+ - 
+ - 
+ - 
+
+ID: env-bear-grizzly-avoid
+Title: NO TITLE
+Subtitle: De-escalate and retreat
+ - 
+ - 
+ - 
+ - 
+
+ID: env-bear-polar
+Title: NO TITLE
+Subtitle: The only predator that actively hunts humans
+ - 
+ - 
+
+ID: env-cougar
+Title: NO TITLE
+Subtitle: Stalking predator defense
+ - 
+ - 
+ - 
+
+ID: env-desert-night-adv
+Title: NO TITLE
+Subtitle: Navigate safely when the sun is down
+ - 
+ - 
+ - 
+ - 
+
+ID: env-desert-shelter
+Title: NO TITLE
+Subtitle: Double-layer shade with air gap
+ - 
+ - 
+ - 
+ - 
+
+ID: env-desert-travel
+Title: NO TITLE
+Subtitle: Move at night, shelter by day
+ - 
+ - 
+ - 
+ - 
+
+ID: env-desert-water
+Title: NO TITLE
+Subtitle: Follow signs to hidden sources
+ - 
+ - 
+ - 
+ - 
+
+ID: env-jellyfish
+Title: NO TITLE
+Subtitle: Neutralize venom
+ - 
+ - 
+ - 
+
+ID: env-jungle-movement
+Title: NO TITLE
+Subtitle: Navigate dense tropical forest without trails
+ - 
+ - 
+ - 
+
+ID: env-jungle-shelter
+Title: NO TITLE
+Subtitle: Sleep off the ground away from insects and flooding
+ - 
+ - 
+ - 
+ - 
+
+ID: env-jungle-travel
+Title: NO TITLE
+Subtitle: Follow water, machete your path
+ - 
+ - 
+ - 
+ - 
+
+ID: env-moose-elk
+Title: NO TITLE
+Subtitle: Large herbivore defense
+ - 
+ - 
+ - 
+
+ID: env-shark
+Title: NO TITLE
+Subtitle: Defense in water
+ - 
+ - 
+ - 
+
+ID: env-snake-avoid
+Title: NO TITLE
+Subtitle: Step back and leave it alone
+ - 
+ - 
+ - 
+ - 
+
+ID: env-tick-removal
+Title: NO TITLE
+Subtitle: Safe removal to prevent disease
+ - 
+ - 
+ - 
+
+ID: env-tropical-disease-adv
+Title: NO TITLE
+Subtitle: Avoiding malaria, dengue, and waterborne illness
+ - 
+ - 
+ - 
+ - 
+ - 
+
+ID: env-wolf
+Title: NO TITLE
+Subtitle: Pack animal defense
+ - 
+ - 
+ - 
+
+ID: firstaid-anaphylaxis
+Title: NO TITLE
+Subtitle: Epinephrine + call emergency services immediately
+ - 
+ - 
+ - 
+ - 
+
+ID: firstaid-article-bites
+Title: Venomous Bites & Stings
+Subtitle: NO SUBTITLE
+
+ID: firstaid-article-environmental
+Title: Environmental Emergencies
+Subtitle: NO SUBTITLE
+
+ID: firstaid-article-environmental-emergencies
+Title: Environmental Emergencies: Heat & Cold
+Subtitle: NO SUBTITLE
+
+ID: firstaid-snakebite
+Title: NO TITLE
+Subtitle: Stay calm, immobilize, evacuate
+ - 
+ - 
+ - 
+ - 
+ - 
+
+ID: firstaid-spider-bite
+Title: NO TITLE
+Subtitle: Identify and manage venomous arthropod envenomation
+ - 
+ - 
+ - 
+ - 
+ - 
+
+ID: firstaid-sting-treat
+Title: NO TITLE
+Subtitle: Bee, Wasp, Ant (Non-Allergic)
+ - 
+ - 
+ - 
+ - 
+ - 

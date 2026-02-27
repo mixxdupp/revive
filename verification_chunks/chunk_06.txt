@@ -1,0 +1,1573 @@
+=== FILE: psychology.json ===
+
+ID: psych-box-breathing
+NAME: Box Breathing (4-4-4-4)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Inhale through your nose for 4 seconds.
+  STEP 2: Hold your breath for 4 seconds.
+  STEP 3: Exhale slowly through your mouth for 4 seconds.
+  STEP 4: Hold empty for 4 seconds. Repeat 4 cycles.
+
+ID: psych-54321-grounding
+NAME: 5-4-3-2-1 Grounding
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Name 5 things you can SEE.
+  STEP 2: Name 4 things you can TOUCH.
+  STEP 3: Name 3 things you can HEAR.
+  STEP 4: Name 2 things you can SMELL.
+  STEP 5: Name 1 thing you can TASTE.
+
+ID: psych-stop-method
+NAME: STOP Method
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: STOP. Literally stop moving.
+  STEP 2: THINK. What do I know? What are my resources?
+  STEP 3: OBSERVE. Look around. What's my environment telling me?
+  STEP 4: PLAN. Make a rational decision based on facts, not fear.
+
+ID: psych-positive-self-talk
+NAME: Positive Self-Talk Script
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Replace 'I can't' with 'I haven't figured out how yet.'
+  STEP 2: Break the task into the very next single step.
+  STEP 3: Acknowledge fear, then redirect: 'I'm scared AND I can still act.'
+  STEP 4: Repeat: 'I have survived every bad day so far. 100% success rate.'
+
+ID: psych-sleep-deprivation
+NAME: Managing Sleep Deprivation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Take 20-minute power naps whenever safe to do so.
+  STEP 2: Navy nap schedule: 20 min ON, 40 min OFF throughout the day.
+  STEP 3: Recognize cognitive decline: poor decisions, irritability, hallucinations.
+  STEP 4: Prioritize sleep as a survival task, not a luxury.
+
+ID: psych-will-to-live
+NAME: Strengthening the Will to Live
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Identify your 'anchor' — the person or thing you are surviving FOR.
+  STEP 2: Set micro-goals: survive the next hour. Then the next.
+  STEP 3: Maintain routines — they create normalcy in chaos.
+  STEP 4: Stay busy. Idle hands and idle minds are your enemy.
+
+ID: psych-group-leadership
+NAME: Group Survival Leadership
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Establish a single leader immediately.
+  STEP 2: Assign roles based on skills: fire, water, shelter, medical, signaling.
+  STEP 3: Communicate openly about resources and situation.
+  STEP 4: Monitor group morale. One panicking person can destroy the group.
+
+ID: psych-children-survival
+NAME: Keeping Children Calm
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Children mirror adult emotions. Control yours first.
+  STEP 2: Give them jobs — simple, achievable tasks.
+  STEP 3: Be honest at an age-appropriate level.
+  STEP 4: Physical comfort: stay close, maintain physical contact.
+
+ID: psych-decision-fatigue
+NAME: Combating Decision Fatigue
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Recognize the signs: everything feels equally important or impossible.
+  STEP 2: Default to the survival priority list: Shelter → Water → Fire → Food.
+  STEP 3: Use the 'good enough' principle.
+  STEP 4: Eat, drink, and rest before making any major decision.
+
+ID: psych-fear-management
+NAME: Managing Specific Fears
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Name the fear specifically. Vague fear is paralyzing.
+  STEP 2: Separate real threats from perceived threats.
+  STEP 3: Take one concrete action to address the fear.
+  STEP 4: Accept residual fear as your ally — it keeps you alert.
+
+ID: psych-routine
+NAME: Establishing Daily Routine
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Wake at same time daily. Begin with a task immediately.
+  STEP 2: Set specific goals for each day—even small ones.
+  STEP 3: Maintain hygiene even when it seems pointless.
+  STEP 4: End day reviewing accomplishments and planning tomorrow.
+
+ID: psych-pain-management
+NAME: Pain Management Without Meds
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Focus breathing: slow, deep—4 in, 8 out.
+  STEP 2: Mental distraction: count backward from 1000 by 7s.
+  STEP 3: Cold water on wrists and face triggers dive reflex.
+  STEP 4: Accept the pain—resistance amplifies it.
+
+ID: psych-loneliness
+NAME: Managing Isolation & Loneliness
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Talk out loud. Narrate your actions.
+  STEP 2: Create a companion: name a piece of gear.
+  STEP 3: Maintain physical appearance and camp neatness.
+  STEP 4: Journal with charcoal on bark. Record experience.
+
+ID: psych-ooda-loop
+NAME: OODA Loop Decision Making
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: OBSERVE: What is actually happening? Facts only.
+  STEP 2: ORIENT: What does this mean for survival?
+  STEP 3: DECIDE: Choose ONE action. Commit completely.
+  STEP 4: ACT: Execute, then loop back to OBSERVE.
+
+ID: psych-sleep-hygiene
+NAME: Field Sleep Hygiene
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Establish a consistent sleep schedule even without a clock.
+  STEP 2: Create a pre-sleep ritual: secure camp, bank fire, check water.
+  STEP 3: Insulate from below — ground steals heat 30x faster than air.
+  STEP 4: Eat something before sleeping — digestion generates internal heat.
+
+ID: psych-grief-management
+NAME: Grief Management in Crisis
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Acknowledge the loss — suppressing grief causes delayed breakdown.
+  STEP 2: Set a contained grief period — 10 minutes, then return to tasks.
+  STEP 3: Channel grief into purposeful action — build, signal, improve camp.
+  STEP 4: Create a memorial when safe — a cairn, carving, or moment of silence.
+
+ID: psych-children-manage
+NAME: Managing Children in Survival
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Control YOUR reaction first — children mirror adult emotions exactly.
+  STEP 2: Give age-appropriate honest information. No false promises.
+  STEP 3: Assign tasks — gathering sticks, counting supplies, watching for planes.
+  STEP 4: Maintain routines — meals, stories, bedtime. Normalcy is medicine.
+
+ID: psych-boredom-management
+NAME: Combating Boredom and Apathy
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Create a daily schedule with specific time blocks.
+  STEP 2: Set improvement projects — always have something to build or refine.
+  STEP 3: Exercise deliberately — even simple stretching or walking circuits.
+  STEP 4: Practice skills — knot tying, fire starting, navigation drills.
+
+ID: psych-conflict-resolution
+NAME: Conflict Resolution in Groups
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Address conflict immediately — unresolved tension escalates exponentially.
+  STEP 2: Separate parties. Let each state their position uninterrupted.
+  STEP 3: Reframe as 'us vs. the situation' not 'us vs. each other.'
+  STEP 4: Establish fair resource-sharing rules BEFORE scarcity hits.
+
+ID: psych-night-anxiety
+NAME: Managing Night Anxiety
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Accept that nighttime anxiety is universal and biological.
+  STEP 2: Maintain a fire — even a small flame resets primal fear circuits.
+  STEP 3: Identify every sound. Named threats feel manageable; unknown ones terrify.
+  STEP 4: Breathe slowly: 4 counts in, 7 counts hold, 8 counts out.
+
+ID: psych-motivation-anchors
+NAME: Motivation Anchoring
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Identify your anchor — the specific person or promise pulling you home.
+  STEP 2: Visualize the reunion in vivid, sensory detail every morning.
+  STEP 3: Make a physical token — a carved symbol, a tied knot, a scratched mark.
+  STEP 4: State your commitment out loud daily: 'I am getting home because...'
+
+ID: psych-journaling
+NAME: Survival Journaling
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Use any surface — bark, dirt, stone, clothing, skin.
+  STEP 2: Record date, weather, food/water intake, and emotional state.
+  STEP 3: Write observations about your environment — resources, wildlife patterns, weather.
+  STEP 4: Write messages to loved ones — even if never delivered, it helps.
+
+ID: psych-acceptance-stages
+NAME: Stages of Survival Acceptance
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Stage 1: Denial — 'This can't be happening.' Normal. Don't fight it.
+  STEP 2: Stage 2: Anger/Blame — 'Why me?' Channel this into action.
+  STEP 3: Stage 3: Bargaining/Planning — 'If I do X, I'll survive.' This is productive.
+  STEP 4: Stage 4: Acceptance — 'This is my reality. I will work with it.'
+
+ID: psych-leadership-handoff
+NAME: Leadership Succession
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify the calmest, most respected group member as backup leader.
+  STEP 2: Share all critical knowledge: water sources, fire methods, signal plans.
+  STEP 3: Delegate gradually — give increasing responsibility while you're still able.
+  STEP 4: Document the plan — scratched on bark, written in dirt, memorized by two people.
+
+ID: psych-combat-breathing
+NAME: Combat Breathing (Box Breathing)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Inhale through nose for 4 seconds.
+  STEP 2: Hold breath for 4 seconds. Then exhale for 4 seconds. Hold empty for 4 seconds.
+  STEP 3: Repeat until heart rate drops and thinking clears.
+
+ID: psych-cognitive-reframe
+NAME: Cognitive Reframing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify the negative thought: 'I'm going to die out here.'
+  STEP 2: Challenge it with evidence: 'People survive this. I have skills. I have resources.'
+  STEP 3: Replace with actionable thought: 'What is the next most useful thing I can do?'
+
+ID: psych-sleep-discipline
+NAME: Sleep Discipline in Survival
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Prioritize sleep over almost everything except immediate danger.
+  STEP 2: Use power naps: 20-minute naps every 4-6 hours if continuous sleep is impossible.
+  STEP 3: Create sleep conditions: darkness, warmth, wind protection, elevated surface.
+
+ID: psych-decision-mgmt
+NAME: Decision Fatigue Management
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Make critical decisions in the morning when mental energy is highest.
+  STEP 2: Establish routines to eliminate unnecessary decisions.
+  STEP 3: When stuck, use the 'good enough' rule — don't wait for perfect.
+
+ID: psych-grief-processing
+NAME: Processing Grief & Loss
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Acknowledge the loss. Don't suppress it or pretend it didn't happen.
+  STEP 2: Separate grieving from decision-making. Grieve, then decide.
+  STEP 3: Channel grief into purpose: 'I will survive to honor them.'
+
+ID: psych-group-conflict
+NAME: Group Conflict Resolution
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Address conflicts immediately. They escalate rapidly under stress.
+  STEP 2: Use structured discussion: each person states their view without interruption.
+  STEP 3: Focus on shared goals: 'We all want to survive and get home.'
+
+ID: psych-teach-to-cope
+NAME: Teaching as a Coping Mechanism
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Teach another person a survival skill you know.
+  STEP 2: Let beginners practice. Mastery builds confidence.
+  STEP 3: Share knowledge generously. Hoarding skills creates dependency.
+
+ID: psych-gratitude-practice
+NAME: Survival Gratitude Practice
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Each morning and evening, identify 3 things that went right or that you're grateful for.
+  STEP 2: In a group, share these aloud at mealtimes.
+  STEP 3: Compare today to the worst day, not to normal life.
+
+ID: psych-visualization
+NAME: Positive Visualization
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Close your eyes and vividly imagine being rescued and reuniting with loved ones.
+  STEP 2: Visualize successfully completing your next survival task.
+  STEP 3: Practice before sleep — this sets your subconscious working on solutions.
+
+ID: psych-humor
+NAME: Humor as a Survival Tool
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find something absurd or ironic about your situation and acknowledge it.
+  STEP 2: Share jokes and funny stories in the group, especially during downtime.
+  STEP 3: Never use humor to dismiss real problems or someone's genuine distress.
+
+ID: psych-normalcy
+NAME: Establishing Normalcy & Routine
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Establish a daily schedule within the first 24 hours.
+  STEP 2: Assign roles and responsibilities to every group member.
+  STEP 3: Maintain personal hygiene and camp organization.
+
+ID: psych-acceptance
+NAME: Acceptance & Commitment
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Accept the reality of your situation without judgment.
+  STEP 2: Identify what you CAN control. Focus exclusively on those things.
+  STEP 3: Commit to action: 'I will do everything in my power to survive.'
+
+ID: psych-trauma-response-phases
+NAME: Trauma Response Phases
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Phase 1 — Impact: shock, disbelief, numbness. The brain shuts down non-essential functions. This is normal.
+  STEP 2: Phase 2 — Recoil: reality sets in. Emotions flood: fear, anger, grief, guilt. Physical symptoms appear.
+  STEP 3: Phase 3 — Adjustment: begins within hours to days. Problem-solving resumes. New routines form.
+  STEP 4: Phase 4 — Reconstruction: days to weeks. Long-term coping develops. Identity integrates the experience.
+  STEP 5: Key insight: allowing emotions to FLOW rather than suppressing them speeds recovery. Cry if you need to. Then act.
+
+ID: psych-acute-stress-mgmt
+NAME: Acute Stress Management
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Recognize stress activation: racing heart, rapid breathing, tunnel vision, shaking hands.
+  STEP 2: Tactical breathing: inhale 4 counts through nose, hold 4, exhale 4 through mouth, hold 4. Repeat 4 cycles.
+  STEP 3: Ground yourself: plant your feet, squeeze your fists, name 5 things you see. Re-enter the present moment.
+  STEP 4: Create an immediate priority: 'Right now, the ONE thing I need to do is ______.'
+  STEP 5: Alternate 45 minutes of action with 15 minutes of rest. Sustained stress without breaks causes collapse.
+
+ID: psych-solo-pep-talk
+NAME: Solo Self-Talk Strategy
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Talk out loud to yourself. This is not madness — it is a validated psychological survival technique.
+  STEP 2: Narrate your actions: 'I am building a fire. I need kindling. I see dry bark on that tree.'
+  STEP 3: Give yourself direct instructions: 'Stand up. Walk to the stream. Fill the bottle.'
+  STEP 4: Counter negative thoughts immediately: replace 'I'm going to die' with 'People have survived worse. I am acting now.'
+  STEP 5: End each day by verbally listing three things you accomplished. No matter how small.
+
+ID: psych-survival-priorities-recitation
+NAME: Survival Priorities Recitation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: The Rule of 3s: 3 minutes without air, 3 hours without shelter (in harsh conditions), 3 days without water, 3 weeks without food.
+  STEP 2: Priority 1: IMMEDIATE THREATS. Stop bleeding, escape danger, get out of the water.
+  STEP 3: Priority 2: SHELTER. Protect from wind, rain, cold, or extreme heat.
+  STEP 4: Priority 3: WATER. Find, collect, or purify water.
+  STEP 5: Priority 4: FIRE, SIGNALING, FOOD — in that order. Fire provides warmth, purification, signaling, and morale.
+
+ID: psych-meditation-breathing
+NAME: Field Meditation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a comfortable position: sitting, lying down, or leaning against something stable.
+  STEP 2: Focus entirely on your breath. Count each exhale: 1, 2, 3... up to 10, then restart.
+  STEP 3: Breathe naturally — do not force deep breaths. Simply observe the rhythm.
+  STEP 4: If distressing thoughts arise, label them: 'worry,' 'fear,' 'plan' — and return to the breath.
+  STEP 5: 5-10 minutes of meditation reduces cortisol, lowers heart rate, and restores decision-making capacity.
+
+ID: psych-progressive-muscle-relaxation
+NAME: Progressive Muscle Relaxation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Start with your feet: squeeze all foot muscles TIGHT for 5 seconds, then release completely.
+  STEP 2: Move upward: calves (squeeze 5 sec, release), thighs, buttocks, stomach, chest.
+  STEP 3: Continue: make fists and squeeze forearms (5 sec, release), biceps, shoulders (raise to ears then drop).
+  STEP 4: Face: scrunch your entire face tightly (5 sec), then let it go completely slack.
+  STEP 5: Final: tense ENTIRE BODY at once for 10 seconds, then release everything simultaneously.
+
+ID: psych-hope-anchoring
+NAME: Hope Anchoring
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Choose your anchor: visualize a specific person, place, or future moment worth surviving for.
+  STEP 2: Make the image vivid: colors, sounds, smells, textures. The more detailed, the more powerful.
+  STEP 3: Create a physical trigger: a word, a gesture (touching a ring, pressing your thumb), a phrase you say.
+  STEP 4: Access the anchor when despair, exhaustion, or hopelessness threatens your will.
+  STEP 5: Survival studies consistently show: the will to live is the #1 differentiator between those who survive and those who don't.
+
+ID: psych-team-morale-games
+NAME: Team Morale Activities
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Storytelling circles: each person shares a favorite memory, a joke, or a made-up story.
+  STEP 2: Skill sharing: each person teaches the group something they know — a trick, technique, or knowledge.
+  STEP 3: Planning sessions: discuss rescue scenarios, what you'll eat first when home, future plans.
+  STEP 4: Work competitions: who can process the most firewood, find the most water, build the best shelter addition.
+  STEP 5: Daily gratitude round: each person names one positive thing about the day. No skipping.
+
+ID: psych-night-anxiety-mgmt
+NAME: Night Anxiety Management
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Night anxiety is universal and evolutionary — our ancestors WERE prey in the dark. This fear is hardwired.
+  STEP 2: Fire is the #1 night anxiety reducer. Even a small fire provides light, warmth, and a psychological barrier.
+  STEP 3: Create a defensible sleeping position: back against solid object, clear sightlines, obstacles for approach noise.
+  STEP 4: Identify night sounds: most are wood settling, small animals, wind, and temperature-related cracking.
+  STEP 5: If sleep is impossible: productive night tasks reduce anxiety. Process materials, plan tomorrow, tend fire.
+
+ID: psych-leadership-survival
+NAME: Survival Group Leadership
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Establish leadership immediately — groups without leadership dissolve into conflict within hours.
+  STEP 2: Assign roles based on strengths: fire keeper, water finder, shelter builder, lookout, medic.
+  STEP 3: Make decisions transparently. Explain reasoning. Ask for input but don't debate endlessly.
+  STEP 4: Monitor every person for: withdrawal, excessive silence, refusal to eat/drink, irrational behavior.
+  STEP 5: Never show despair to the group. Process your emotions privately, then present a calm, steady front.
+
+ID: psych-sensory-deprivation-mgmt
+NAME: Sensory Deprivation Management
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Recognize the symptoms: after 24-48 hours in dark, silent environments (like a snow cave), the brain starts hallucinating.
+  STEP 2: Create artificial routine. Tap a rhythm on your leg, count seconds, recite poems or songs aloud.
+  STEP 3: Engage in detailed visualization. Mentally walk through every room of your house, naming every object.
+  STEP 4: Perform physical isometrics. Press your hands together as hard as you can. Flex and release leg muscles.
+  STEP 5: Talk aloud. Explain your situation, your plans, and your feelings to an imaginary companion or yourself.
+
+ID: psych-fear-vs-panic
+NAME: Fear vs. Panic Protocol
+SOURCE: https://en.wikipedia.org/wiki/Wilderness_first_responder
+  STEP 1: Acknowledge the difference: Fear is a survival tool that heightens senses. Panic is a loss of rational control.
+  STEP 2: Identify panic somatic markers: tunnel vision, hyperventilation, trembling, inability to process instructions.
+  STEP 3: Execute a physical interrupter: splash cold water on your face, bite your lip, snap a rubber band on your wrist.
+  STEP 4: Apply the STOP acronym: Stop moving. Take a breath. Observe your surroundings. Plan your next action.
+  STEP 5: Assign yourself ONE micro-task. 'I will pick up that stick.' 'I will tie my shoe.' Complete it.
+
+ID: psych-sleep-deprivation-coping
+NAME: Sleep Deprivation Coping
+SOURCE: https://en.wikipedia.org/wiki/Wilderness_first_responder
+  STEP 1: Understand the timeline: at 24 hours awake, cognitive impairment equals a 0.10 BAC (legally drunk).
+  STEP 2: Implement the 2-Person Rule for all critical decisions. No one decides to move, cross water, or abandon gear alone.
+  STEP 3: Use caffeine or stimulants strategically, not constantly. Save them for when physical movement is mandatory.
+  STEP 4: Take 'combat naps.' A 20-minute nap clears adenosine (sleep pressure chemical) from the brain, restoring temporary function.
+  STEP 5: Recognize microsleeps. If you catch your head nodding or realize you don't remember the last 10 seconds of walking, STOP.
+
+ID: psych-morale-food-psychology
+NAME: Food Psychology
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Do NOT eat all your food on day one. Establish rationing immediately, even if rescue seems imminent.
+  STEP 2: Create a dining ritual. Eat at specific times, prepare the food deliberately, and eat it slowly.
+  STEP 3: Divide rations into physical portions representing days. Seeing the plan visually reduces anxiety about starving.
+  STEP 4: Save the best-tasting or highest-energy item for the hardest moment or the worst weather.
+  STEP 5: Forage for 'filler' — tea from pine needles, boiled roots. Hot liquids provide the psychological sensation of a meal.
+
+ID: psych-survivor-guilt-management
+NAME: Survivor Guilt Management
+SOURCE: https://en.wikipedia.org/wiki/Wilderness_first_responder
+  STEP 1: Recognize survivor guilt early. If you survived a crash or event that others didn't, the brain often defaults to self-blame.
+  STEP 2: Compartmentalize the grief until safety is secured. Box the emotions up verbally: 'I will mourn them when I am safe.'
+  STEP 3: Reframe survival as an obligation to the deceased. Their death makes your survival more important, not less.
+  STEP 4: Perform a brief, structured ritual. A 1-minute moment of silence, or placing a rock marker.
+  STEP 5: Focus obsessively on the living. Direct all your energy to helping injured or panicked survivors.
+
+ID: psych-sensory-deprivation
+NAME: Managing Sensory Deprivation
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Sensory deprivation occurs in dark caves, massive snow whiteouts, or dense jungle nights.
+  STEP 2: Ground yourself physically.
+  STEP 3: Create your own rhythm.
+  STEP 4: Focus on entirely mundane, detailed memories.
+  STEP 5: Do not attempt to navigate.
+
+ID: psych-conflict-deescalation
+NAME: Group Conflict De-escalation
+SOURCE: https://en.wikipedia.org/wiki/Wilderness_first_responder
+  STEP 1: Recognize that fear manifests as anger.
+  STEP 2: Separate the conflicting parties physically.
+  STEP 3: Acknowledge the fear explicitly.
+  STEP 4: Never take sides in an emotional dispute.
+  STEP 5: Enforce strict routine.
+
+ID: psych-grief-triage
+NAME: Immediate Grief Triage
+SOURCE: https://en.wikipedia.org/wiki/Wilderness_first_responder
+  STEP 1: Accept the acute shock response.
+  STEP 2: Prevent irrational actions.
+  STEP 3: Focus on the living.
+  STEP 4: Assign them a mechanical, repetitive task.
+  STEP 5: Do not offer false platitudes.
+
+ID: psych-panic-stop-protocol
+NAME: STOP Panic Protocol
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: S — SIT DOWN.
+  STEP 2: T — THINK.
+  STEP 3: O — OBSERVE.
+  STEP 4: P — PLAN.
+  STEP 5: Execute the single task.
+
+ID: psych-night-fear
+NAME: Coping with Darkness and Night Fear
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Darkness triggers ancient predator-response circuitry in the amygdala.
+  STEP 2: Build a fire.
+  STEP 3: If you cannot build a fire, create tactile comfort.
+  STEP 4: Identify every sound deliberately.
+  STEP 5: Remind yourself: most predators avoid humans.
+
+ID: psych-survival-priorities
+NAME: The Survival Priority Pyramid
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: IMMEDIATE THREATS (seconds): Stop bleeding, escape fire/flood, remove from avalanche debris.
+  STEP 2: SHELTER (hours): Exposure kills faster than dehydration or starvation.
+  STEP 3: WATER (days): Dehydration kills in 3 days.
+  STEP 4: FIRE (variable): Fire provides warmth, water purification, signaling, and morale.
+  STEP 5: FOOD (weeks): Starvation takes 3+ weeks to kill a healthy adult.
+
+ID: psych-will-to-survive
+NAME: The Will to Survive
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Survival studies consistently show that physical fitness, gear, and training are secondary to mental attitude.
+  STEP 2: Set micro-goals.
+  STEP 3: Find a reason to survive.
+  STEP 4: Acceptance is not the same as giving up.
+  STEP 5: People who die with the ability to survive simply stopped trying.
+
+ID: psych-combat-breathing-tactical
+NAME: Autonomic Reset (Combat Breathing)
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Inhale deeply for 4 seconds.
+  STEP 2: Hold full lungs for 4 seconds.
+  STEP 3: Exhale slowly for 4 seconds.
+  STEP 4: Hold empty lungs for 4 seconds.
+  STEP 5: Repeat 4 cycles.
+
+ID: psych-tactical-breathing-extended
+NAME: Tactical Breathing (Extended Protocol)
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: 4-count box breathing for initial control
+  STEP 2: Transition to 4-7-8 pattern
+  STEP 3: Add belly breathing awareness
+  STEP 4: Use as a pre-performance ritual
+
+ID: psych-cognitive-offloading
+NAME: Cognitive Offloading
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Write everything down
+  STEP 2: Use the ground as a whiteboard
+  STEP 3: Create physical checklists
+  STEP 4: Delegate tasks to group members
+
+ID: psych-stress-inoculation
+NAME: Stress Inoculation Training
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Visualize worst-case scenarios
+  STEP 2: Practice skills under artificial stress
+  STEP 3: Use self-talk scripts
+  STEP 4: Expose gradually to fear triggers
+
+ID: psych-grief-field-management
+NAME: Field Grief Management
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Acknowledge the loss plainly
+  STEP 2: Allow 15 minutes for emotion
+  STEP 3: Redirect to immediate needs
+  STEP 4: Create a memorial marker if possible
+
+ID: psych-hostage-survival
+NAME: Hostage Survival Psychology
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Stay calm in the first moments
+  STEP 2: Humanize yourself to captors
+  STEP 3: Maintain a routine
+  STEP 4: Observe and memorize
+
+ID: psych-combat-mindset-reset
+NAME: Combat Mindset Reset
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Cooper Color Code: White → Yellow → Orange → Red → Black
+  STEP 2: Train yourself to live in Yellow
+  STEP 3: Practice transition drills
+  STEP 4: Avoid Black (panic freeze)
+
+ID: psych-learned-helplessness-counter
+NAME: Countering Learned Helplessness
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Identify helplessness thoughts
+  STEP 2: Force micro-victories
+  STEP 3: Increase task complexity gradually
+  STEP 4: Assign yourself daily objectives
+
+ID: psych-night-watch-protocol
+NAME: Night Watch Protocol
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Divide night into equal shifts
+  STEP 2: Each shift: 2 hours maximum
+  STEP 3: Use a buddy system for accountability
+  STEP 4: Brief the next watch before sleeping
+
+ID: psych-managing-children-crisis
+NAME: Managing Children in a Crisis
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Be honest but age-appropriate: 'We need to camp outside tonight. I need your help.'
+  STEP 2: Assign them age-appropriate jobs: gathering tinder, sorting supplies, water collection.
+  STEP 3: Maintain routines: meals at set times, songs before bed, morning 'briefings'.
+  STEP 4: Physical comfort is emotional comfort: keep them warm, dry, and fed first.
+
+ID: psych-long-term-isolation
+NAME: Long-Term Solo Isolation Survival
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Create and maintain a daily schedule — structure prevents psychological deterioration.
+  STEP 2: Talk out loud. Name your tools. Narrate your activities.
+  STEP 3: Keep a journal or calendar — count days, document observations, plan.
+  STEP 4: Exercise daily — it's the most effective anti-depressant in any setting.
+
+ID: psych-captivity-survival
+NAME: Hostage/Captivity Survival Psychology
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: In the first 15 minutes: comply, observe, and memorize details.
+  STEP 2: Humanize yourself: share your name, talk about your children/family.
+  STEP 3: Maintain physical fitness: exercise in confined space (isometrics, squats, push-ups).
+  STEP 4: Watch for patterns in guard schedules and look for escape opportunities.
+
+ID: psych-stockholm-prevention
+NAME: Stockholm Syndrome Awareness
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Understand: emotional bonding with captors is a normal psychological survival mechanism.
+  STEP 2: Counter it: internally maintain your pre-capture identity, values, and rescue goals.
+  STEP 3: Remember: compliance is not agreement. Acting friendly is not becoming friends.
+  STEP 4: Keep a mental list of captor behaviors and routines for potential future testimony.
+
+ID: psych-morale-boosting
+NAME: Group Morale Building Techniques
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Share a meal together daily — even if the meal is minimal.
+  STEP 2: Tell stories at night — structured group entertainment prevents isolation.
+  STEP 3: Celebrate small victories: first fire, clean water, shelter complete.
+  STEP 4: Assign everyone a role — purpose is the strongest anti-depressant.
+
+ID: psych-rule-of-threes
+NAME: The Rule of Threes — Priority Framework
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: 3 minutes without AIR: clear airway, control severe bleeding.
+  STEP 2: 3 hours without SHELTER in harsh conditions: get out of wind, rain, cold, or extreme heat.
+  STEP 3: 3 days without WATER: find, collect, purify water before food.
+  STEP 4: 3 weeks without FOOD: food is last priority.
+
+ID: psych-panic-management
+NAME: Controlling Panic Response — STOP Protocol
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: S — SIT DOWN. Physical action breaks the panic loop.
+  STEP 2: T — THINK. Assess your actual situation, not your fear.
+  STEP 3: O — OBSERVE. Look around with purpose. What can you use? Where are you?
+  STEP 4: P — PLAN. Make a simple, achievable plan with 3 steps maximum.
+
+ID: psych-leadership-small-group
+NAME: Small Group Survival Leadership
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Establish leadership immediately — democratic decision-making kills in emergencies.
+  STEP 2: Communicate the plan simply. Repeat it. Ask for confirmation.
+  STEP 3: Assign specific tasks to specific people. 'Everyone help' means nobody helps.
+  STEP 4: Make decisions with available information — waiting for perfect information means waiting until death.
+
+ID: psych-survival-circle
+NAME: The Survival Circle — Managing Group Dynamics
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: At the start of any survival situation: gather everyone in a circle face-to-face.
+  STEP 2: Each person reports: name, any injuries, special skills, inventory of personal gear.
+  STEP 3: Establish three things: leader, immediate priorities, individual assignments.
+  STEP 4: Schedule regular circle check-ins: morning briefing, evening debrief.
+
+ID: psych-coping-with-injury
+NAME: Psychological Coping with Personal Injury
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Acknowledge the injury honestly to yourself — denial delays adaptation.
+  STEP 2: Adjust your role: if you can't walk, you can still process food, maintain fire, craft tools.
+  STEP 3: Pain management through distraction: counting, singing, detailed observation of surroundings.
+  STEP 4: Fear of being a burden is the most dangerous psychological effect of injury.
+
+ID: psych-fear-inventory
+NAME: Survival Fear Inventory
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: List every fear you have RIGHT NOW — out loud or on paper.
+  STEP 2: Categorize: REAL threat (actionable) vs IMAGINED threat (not actionable right now).
+  STEP 3: For each REAL threat: identify ONE specific action you can take.
+  STEP 4: For IMAGINED threats: acknowledge them and consciously set them aside.
+
+ID: psych-sensory-grounding
+NAME: 5-4-3-2-1 Sensory Grounding
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: 5 things you can SEE: name them out loud.
+  STEP 2: 4 things you can TOUCH: describe texture.
+  STEP 3: 3 things you can HEAR: identify source.
+  STEP 4: 2 things you can SMELL, 1 you can TASTE.
+
+ID: psych-sere-pattern-of-survival
+NAME: The SERE Pattern of Survival
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Stop and assess your immediate situation (S.T.O.P. methodology).
+  STEP 2: Address First Aid and immediate, life-threatening environment issues.
+  STEP 3: Determine 'Priority of Work' based on imminent threats.
+  STEP 4: Establish 'Will to Survive' mechanics.
+
+ID: psych-sere-boredom-management
+NAME: Managing Isolation Boredom and Apathy
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Recognize apathy as the silent killer.
+  STEP 2: Establish a strict daily routine and schedule.
+  STEP 3: Engage in deliberate 'make-work' projects.
+  STEP 4: Utilize mental games and visualization.
+
+ID: psych-combat-baseline
+NAME: Establish the Baseline
+SOURCE: https://archive.org/search?query=MCRP+3-01B+combat+skills
+  STEP 1: Observe the environment passively.
+  STEP 2: Identify the anomaly.
+  STEP 3: Categorize the anomaly.
+  STEP 4: React preemptively.
+
+ID: psych-coopers-colors
+NAME: Cooper's Color Code
+SOURCE: https://archive.org/search?query=MCRP+3-01B+combat+skills
+  STEP 1: Condition White: Unaware.
+  STEP 2: Condition Yellow: Relaxed Alert.
+  STEP 3: Condition Orange: Specific Alert.
+  STEP 4: Condition Red: Fight.
+
+ID: psych-the-stockdale-paradox
+NAME: The Stockdale Paradox
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Acknowledge the brutal reality.
+  STEP 2: Reject false hope timelines.
+  STEP 3: Maintain absolute faith in the endgame.
+  STEP 4: Focus on the immediate next step.
+
+ID: psych-fear-management-box-breathing
+NAME: Box Breathing (Autonomic Down-Regulation)
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Acknowledge the adrenaline dump.
+  STEP 2: Inhale deeply for 4 seconds.
+  STEP 3: Hold the full breath for 4 seconds.
+  STEP 4: Exhale completely for 4 seconds, hold empty for 4.
+
+ID: psych-article-mindset
+NAME: The Psychology of Survival
+SOURCE: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32943-9/fulltext
+
+ID: psych-article-panic
+NAME: Understanding & Defeating Panic
+SOURCE: https://www.mayoclinic.org/diseases-conditions/panic-attacks/symptoms-causes/syc-20376021
+
+ID: psych-article-group
+NAME: Group Dynamics in Survival
+SOURCE: https://www.apa.org/topics/social-psychology/group-behavior
+
+ID: psych-article-isolation
+NAME: Coping with Isolation
+SOURCE: https://www.nasa.gov/hrp/social-isolation/
+
+ID: psych-article-sleep
+NAME: Sleep and Survival
+SOURCE: https://www.sleepfoundation.org/sleep-deprivation
+
+ID: psych-article-children
+NAME: Children in Survival Situations
+SOURCE: https://www.healthychildren.org/English/safety-prevention/all-around/Pages/Disaster-Preparedness-for-Families.aspx
+
+ID: psych-article-night
+NAME: Psychology of Darkness
+SOURCE: https://www.psychologytoday.com/us/blog/the-power-rest/201011/fear-the-dark-why-we-need-it
+
+ID: psych-article-longterm
+NAME: Long-Term Survival Mindset
+SOURCE: https://www.bbc.com/future/article/20140225-survival-psychology-the-mindset
+
+ID: psych-article-decisions
+NAME: Decision Making Under Extreme Stress
+SOURCE: https://hbr.org/2017/08/how-stress-affects-your-brain
+
+ID: psych-article-sleep-deprivation
+NAME: Sleep Deprivation: The Silent Killer
+SOURCE: https://www.ncbi.nlm.nih.gov/books/NBK19961/
+
+ID: psych-article-children-management
+NAME: Children in Survival Situations
+SOURCE: https://www.aap.org/en/patient-care/disasters-and-children/
+
+ID: psych-article-isolation-effects
+NAME: Psychological Effects of Isolation
+SOURCE: https://www.nasa.gov/hrp
+
+ID: psych-article-postrescue
+NAME: Post-Rescue Psychological Adjustment
+SOURCE: https://www.ptsd.va.gov/
+
+=== FILE: rebuilding_civilization.json ===
+
+ID: hygiene-soap-making
+NAME: Wood Ash Soap (Lye)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect white wood ash (hardwood is best).
+  STEP 2: Leach the lye: Pour water over ash in a filtered container.
+  STEP 3: Mix lye water with animal fat (tallow) or oil.
+
+ID: agri-three-sisters
+NAME: Three Sisters Planting
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Plant Corn first in a mound.
+  STEP 2: Plant Pole Beans around the corn once it's 6 inches tall.
+  STEP 3: Plant Squash/Pumpkin around the base.
+
+ID: agri-seed-saving
+NAME: Seed Saving & Storage
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select only the best, healthiest plants.
+  STEP 2: Harvest seeds and dry them completely.
+  STEP 3: Store in a cool, dark, dry place (glass jar).
+
+ID: agri-composting
+NAME: Composting
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Choose a spot away from water and shelter — ideally shaded.
+  STEP 2: Layer green (nitrogen) and brown (carbon) materials alternately.
+  STEP 3: Keep the pile moist like a wrung-out sponge.
+  STEP 4: Turn the pile every 1-2 weeks with a stick or improvised fork.
+  STEP 5: Compost is ready when it's dark, crumbly, and earthy-smelling.
+
+ID: hygiene-charcoal-toothpaste
+NAME: Charcoal Toothpaste
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Crush charcoal from your fire into a fine powder.
+  STEP 2: Mix with a little water (and salt/mint if available).
+  STEP 3: Scrub teeth with finger or chew stick.
+
+ID: industry-tanning
+NAME: Brain Tanning (Leather)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Scrape all flesh and fat from the hide.
+  STEP 2: Mash the animal's brain in water to make a slurry.
+  STEP 3: Stretch and smoke the hide.
+
+ID: industry-basketry
+NAME: Basket Weaving
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Collect flexible vines, willow shoots, or roots.
+  STEP 2: Create the base (spokes) first.
+  STEP 3: Weave the sides up (over-under pattern).
+
+=== FILE: rescue.json ===
+
+ID: rescue-signal-fire
+NAME: Signal Fire
+SOURCE: https://www.uscgboating.org
+  STEP 1: Build 3 fires in a triangle, 100 feet apart.
+  STEP 2: Prepare each fire with dry tinder and kindling, ready to light.
+  STEP 3: Add green branches or wet material for heavy smoke.
+  STEP 4: At night, flames are more visible than smoke.
+
+ID: rescue-signal-mirror
+NAME: Signal Mirror
+SOURCE: https://www.uscgboating.org
+  STEP 1: Any reflective surface works: mirror, CD, phone screen, metal.
+  STEP 2: Hold the mirror near your eye and extend your other hand toward the target.
+  STEP 3: Reflect sunlight onto your extended hand, then move hand to align flash with target.
+  STEP 4: Flash in sets of three (SOS pattern) — three short, three long, three short.
+
+ID: rescue-ground-signal
+NAME: Ground-to-Air Signals
+SOURCE: https://www.uscgboating.org
+  STEP 1: Create symbols at least 10 feet tall, 3 feet wide.
+  STEP 2: Standard signals: V = need assistance, X = need medical help, → = traveling this direction.
+  STEP 3: Place in open areas visible from above — clearings, hilltops, beaches.
+  STEP 4: Add shadow-casting height for visibility from low angles.
+
+ID: rescue-whistle
+NAME: Whistle Signal
+SOURCE: https://www.uscgboating.org
+  STEP 1: Three sharp blasts = universal distress signal.
+  STEP 2: Blow in short, sharp bursts — not long continuous blows.
+  STEP 3: Point the whistle toward open areas, valleys, or potential rescuer direction.
+  STEP 4: Conserve energy: blow every 5 minutes, not continuously.
+  STEP 5: If no whistle: use two rocks struck together or a metal object.
+
+ID: rescue-sos
+NAME: SOS in Morse Code
+SOURCE: https://www.imo.org/
+  STEP 1: SOS = 3 short, 3 long, 3 short. Any medium: light, sound, flag.
+  STEP 2: With a flashlight: quick-quick-quick, looong-looong-looong, quick-quick-quick.
+  STEP 3: Write SOS in sand, snow, or any visible surface.
+
+ID: rescue-phone-emergency
+NAME: Maximizing Phone Battery in Emergency
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Turn on airplane mode immediately.
+  STEP 2: Turn off airplane mode ONLY to attempt calls/texts, then back on.
+  STEP 3: Send texts instead of calling — texts use far less power.
+  STEP 4: Emergency numbers (112, 911, 999, etc.) work on any network and often without a SIM.
+  STEP 5: Before battery dies: text your GPS coordinates to someone.
+
+ID: rescue-gps-reading
+NAME: Reading & Sharing GPS Coordinates
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: On iPhone: Open Compass app — coordinates shown at bottom.
+  STEP 2: On Android: Open Google Maps, tap the blue dot, coordinates appear.
+  STEP 3: Share coordinates as decimal degrees: e.g., 37.7749, -122.4194.
+  STEP 4: What3Words: every 3m×3m square has a unique 3-word address.
+
+ID: rescue-self-rescue
+NAME: Self-Rescue Decision Making
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Stop. Breathe. Think before acting.
+  STEP 2: Float on your back to rest and conserve energy.
+  STEP 3: Remove heavy items: shoes, backpack, heavy jacket.
+  STEP 4: Swim at 45-degree angle to current toward nearest shore.
+  STEP 5: If exhausted, switch to survival floating: face down, lift head to breathe.
+
+ID: rescue-leave-trail
+NAME: Leaving a Trail for Rescuers
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build rock cairns (stacked stones) at regular intervals.
+  STEP 2: Break branches at eye level pointing your direction.
+  STEP 3: Tie bright cloth strips to vegetation.
+  STEP 4: Drag a stick or mark the ground in soft terrain.
+
+ID: rescue-helicopter
+NAME: Helicopter Landing Zone Prep
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Clear a flat area at least 60×60 feet (20×20 meters).
+  STEP 2: Remove all overhead obstructions — trees, wires, branches.
+  STEP 3: Mark wind direction with a flag, smoke, or streamers.
+  STEP 4: Stay upwind and crouch when helicopter approaches.
+
+ID: rescue-morse-code
+NAME: Morse Code SOS
+SOURCE: https://www.imo.org/
+  STEP 1: SOS: three short, three long, three short.
+  STEP 2: Signal with flashlight, mirror, whistle, or tapping.
+  STEP 3: Repeat with 1-minute pauses between sets.
+
+ID: rescue-helicopter-lz
+NAME: Helicopter Landing Zone
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Clear a flat area at least 100x100 feet.
+  STEP 2: Mark with bright material. H = need helicopter. V = need help.
+  STEP 3: Indicate wind direction with smoke or flag.
+  STEP 4: Stand upwind, crouch when approaching. Never approach from rear.
+
+ID: rescue-trail-markers
+NAME: Trail Blazing Markers
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Break branches at shoulder height pointing your direction.
+  STEP 2: Stack 3 rocks (cairn) at every turn or decision point.
+  STEP 3: Scratch arrows on trees or dirt at junctions.
+  STEP 4: Tie bright cloth strips to branches every 50-100 feet.
+
+ID: rescue-panel-signals
+NAME: International Ground Signal Codes
+SOURCE: https://www.uscgboating.org
+  STEP 1: V = Need Help. X = Need Medical. I = Need Supplies.
+  STEP 2: Arrow = traveling this direction. Y = Yes. N = No.
+  STEP 3: Build with rocks, logs, clothing, or trenches.
+  STEP 4: Minimum 10 feet long, 3 feet wide. Bigger is better.
+
+ID: rescue-smoke-signal
+NAME: Colored Smoke Signals
+SOURCE: https://www.uscgboating.org
+  STEP 1: Build a standard fire and get it burning hot.
+  STEP 2: add GREEN vegetation for WHITE smoke.
+  STEP 3: Add OIL, RUBBER, or PLASTIC for BLACK smoke.
+  STEP 4: Create 3 distinct puffs (cover/uncover) for SOS.
+
+ID: rescue-plb
+NAME: Personal Locator Beacon (PLB)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Deploy the antenna fully and activate the beacon.
+  STEP 2: Place beacon with clear sky view — no canopy, no overhangs.
+  STEP 3: Leave activated for minimum 24 hours. Do not turn off and on.
+  STEP 4: Stay near the beacon. Rescuers will come to the signal location.
+
+ID: rescue-vhf-radio
+NAME: VHF Radio Distress Call
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Tune to Channel 16 (156.800 MHz) — monitored by Coast Guard worldwide.
+  STEP 2: Press transmit and say: MAYDAY MAYDAY MAYDAY, this is [your name/vessel].
+  STEP 3: State: position, nature of emergency, number of people, assistance needed.
+  STEP 4: Release transmit button and listen for response. Repeat every 2 minutes.
+
+ID: rescue-night-signaling
+NAME: Night Signaling Techniques
+SOURCE: https://www.uscgboating.org
+  STEP 1: Maintain a bright fire on the highest accessible point.
+  STEP 2: Use flashlight or phone flash in SOS pattern.
+  STEP 3: Create a torch from resinous wood or cloth soaked in fat.
+  STEP 4: Use reflective material to catch any light source.
+
+ID: rescue-vehicle-signal
+NAME: Vehicle-Based Signaling
+SOURCE: https://www.uscgboating.org
+  STEP 1: Stay with the vehicle — it is more visible than you are.
+  STEP 2: Open hood and trunk — this signals distress to aircraft.
+  STEP 3: Use mirrors, headlights, horn for active signaling.
+  STEP 4: Burn oil or tires for thick black smoke (extreme emergency only).
+
+ID: rescue-flag-signals
+NAME: Improvised Flag Signaling
+SOURCE: https://www.uscgboating.org
+  STEP 1: Tie the brightest fabric you have to a long pole or branch.
+  STEP 2: Wave in large, slow arcs — both arms overhead means 'need help.'
+  STEP 3: Plant the flag on the highest visible point when not actively waving.
+
+ID: rescue-drone-awareness
+NAME: Drone Search Awareness
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Maximize thermal contrast — drones often use infrared cameras.
+  STEP 2: Create large, clear ground signals visible from directly above.
+  STEP 3: Wave reflective materials — drones detect moving objects and reflections.
+
+ID: rescue-satellite-messenger
+NAME: Satellite Messenger Usage
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Activate SOS function — press and hold the dedicated SOS button.
+  STEP 2: Send a preset message with your GPS coordinates.
+  STEP 3: Use two-way messaging to communicate situation details.
+  STEP 4: Conserve battery — turn off tracking, reduce message frequency.
+
+ID: rescue-throw-bag
+NAME: Throw Bag River Rescue
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Yell to victim: 'GRAB THE BAG!' Get their attention first.
+  STEP 2: Open the bag, hold the end of the rope.
+  STEP 3: Throw underhanded PAST the victim, so rope drapes across them.
+  STEP 4: Once they grab the rope, brace yourself and pull.
+  STEP 5: If first throw misses: re-stuff bag quickly or throw loose coils.
+
+ID: rescue-cliff-signals
+NAME: Cliff and Canyon Signaling
+SOURCE: https://www.uscgboating.org
+  STEP 1: Use sound amplification — canyon walls reflect and amplify whistles.
+  STEP 2: Create signals on the canyon rim if possible, not the floor.
+  STEP 3: Use smoke — it rises out of canyons and is visible from above.
+
+ID: rescue-improvised-flotation
+NAME: Improvised Flotation Device
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Pants flotation: tie off leg openings, inflate by scooping air.
+  STEP 2: Use any sealed container — water bottles, dry bags, sealed coolers.
+  STEP 3: Logs, branches, and debris make effective rafts with cordage.
+  STEP 4: Survival float: face down, lift head only to breathe.
+
+ID: rescue-signal-panel
+NAME: Ground-to-Air Signal Panel
+SOURCE: https://www.uscgboating.org
+  STEP 1: Create a large V (need help), X (need medical), or arrow (traveling this direction).
+  STEP 2: Make signals at least 10 feet long using contrasting materials.
+  STEP 3: Place in open areas — meadows, beaches, ridgetops. Away from tree canopy.
+
+ID: rescue-whistle-patterns
+NAME: Survival Whistle Signaling
+SOURCE: https://www.uscgboating.org
+  STEP 1: Three blasts = universal distress signal. Pause. Repeat.
+  STEP 2: Two blasts = 'come to me' or acknowledgment from rescuers.
+  STEP 3: One long blast = 'attention' or 'where are you?'
+
+ID: rescue-throw-line
+NAME: Water Rescue Throw Line
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Throw a rope, cord, or improvised line to the person in the water.
+  STEP 2: Attach a flotation device to the line if possible.
+  STEP 3: Brace yourself firmly and pull them in slowly.
+
+ID: rescue-vehicle-signal-alt
+NAME: Vehicle Emergency Signaling
+SOURCE: https://www.uscgboating.org
+  STEP 1: Stay with the vehicle — it's much easier to spot than a person.
+  STEP 2: Use mirrors, hood, CDs, or any reflective surface to signal aircraft.
+  STEP 3: If safe, burn the spare tire for black smoke signal (extreme last resort).
+
+ID: rescue-cold-water-self
+NAME: Cold Water Self-Rescue
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Control your breathing: fight the cold shock gasp reflex.
+  STEP 2: Float on your back. Do NOT swim unless shore is within 50 meters.
+  STEP 3: Keep your head above water at all costs.
+  STEP 4: Grab onto any floating debris or solid object.
+  STEP 5: Minimize movement. Wait for rescue or drift to shore.
+
+ID: rescue-helicopter-approach
+NAME: Helicopter Rescue Procedures
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Clear a landing zone: 100x100 feet minimum, flat, no loose debris.
+  STEP 2: Signal the helicopter: both arms raised in a Y = need help. One arm up = all OK.
+  STEP 3: Approach from the FRONT and DOWNHILL side. NEVER approach from behind (tail rotor).
+
+ID: rescue-smoke-timing
+NAME: Smoke Signal Timing & Technique
+SOURCE: https://www.uscgboating.org
+  STEP 1: Build three fires in a triangle — three smoke columns = distress signal.
+  STEP 2: Use green vegetation for white smoke on dark backgrounds, tires/oil for dark smoke on light backgrounds.
+  STEP 3: Keep signal fires prepared but unlit. Light when you see or hear aircraft.
+
+ID: rescue-signal-kite
+NAME: Signal Kite Construction
+SOURCE: https://www.uscgboating.org
+  STEP 1: Build a diamond kite frame from two crossed sticks.
+  STEP 2: Cover with plastic bag, poncho, or large leaves tied to the frame.
+  STEP 3: Attach a long line and fly in open area. Tie bright streamers to the line.
+
+ID: rescue-urban-marking
+NAME: Urban Search & Rescue Marking
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Draw a large X on the outside of the building entrance.
+  STEP 2: Fill quadrants: top = team ID, left = date/time, right = hazards, bottom = victims found.
+  STEP 3: A single slash means search in progress. Complete X means search finished.
+
+ID: rescue-river-self
+NAME: River Self-Rescue Position
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Roll onto your back, feet pointing downstream.
+  STEP 2: Use feet to push off rocks and obstacles.
+  STEP 3: Look downstream for eddies (calm water behind rocks).
+  STEP 4: To reach shore: ferry angle at 45 degrees across current.
+  STEP 5: Avoid strainers (fallen trees, debris piles) at all costs.
+
+ID: rescue-self-evacuation
+NAME: Self-Evacuation Decision Making
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Stay put IF: someone knows your location, you filed a trip plan, you're injured, or terrain is dangerous.
+  STEP 2: Self-evacuate IF: no one knows you're missing, you know your location, and you're uninjured.
+  STEP 3: Leave clear signs at your camp indicating direction of travel.
+
+ID: rescue-improvised-litter
+NAME: Improvised Litter Carry Techniques
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a pole litter: two poles + fabric/jacket threaded between them.
+  STEP 2: For one-person carry: use a backpack frame as a seat carry.
+  STEP 3: Carry team rotation: switch every 200 meters to prevent exhaustion.
+
+ID: rescue-body-signals
+NAME: Ground-to-Air Body Signals
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Both arms raised above head, forming a Y = 'YES' / 'I need help'.
+  STEP 2: One arm raised, one down diagonally = 'NO' / 'I do not need assistance'.
+  STEP 3: Lie flat face-up with arms and legs spread (X shape) = 'Unable to proceed / need medical help'.
+  STEP 4: Wave one arm side to side while standing = 'I see you / pick me up here'.
+  STEP 5: Point both arms in one direction = 'Go this way' / indicating direction of other survivors.
+
+ID: rescue-reflective-signal
+NAME: Reflective Surface Signaling
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Any reflective surface works: mirror, glass, CD/DVD, phone screen, aluminum foil, credit card, belt buckle.
+  STEP 2: Hold the reflective surface near your eye. Extend your other hand toward the target (aircraft, ship, person).
+  STEP 3: Angle the reflective surface to catch sunlight. Move it until the bright spot appears on your outstretched hand.
+  STEP 4: Flash repeatedly — 3 quick flashes followed by a pause. Repeat. This mimics SOS pattern.
+  STEP 5: Even without a visible target, sweep the horizon periodically. Aircraft may see your flash before you see them.
+
+ID: rescue-tire-fire-smoke
+NAME: Tire Fire Smoke Signal
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Burning rubber (tires, shoe soles, rubber mats) produces thick, black smoke visible for miles.
+  STEP 2: Build a hot base fire first with dry wood. Once burning strongly, add rubber items.
+  STEP 3: If near a vehicle: use a spare tire, floor mats, or rubber hoses. Cut into pieces for controlled burning.
+  STEP 4: Alternate rubber (black smoke) with green vegetation (white smoke) for maximum contrast.
+  STEP 5: CAUTION: burning rubber is toxic. Stand upwind. Do NOT inhale the fumes.
+
+ID: rescue-clothing-signals
+NAME: Clothing Ground Signals
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Spread brightly colored clothing flat on the ground in an open clearing.
+  STEP 2: Arrange clothing in geometric shapes that don't occur in nature: X, V, or SOS.
+  STEP 3: Make signals as large as possible — minimum 10 feet across for aerial visibility.
+  STEP 4: Weight all items with rocks to prevent wind from blowing them away.
+  STEP 5: Keep signals in place 24/7. An aircraft may overfly once — your signal must be there when it happens.
+
+ID: rescue-horn-whistle-pattern
+NAME: Sound Signal Patterns
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: International distress signal: 3 blasts of any sound, followed by a 1-minute pause, then repeat.
+  STEP 2: Whistle: produces a sharp, far-carrying sound. Blow 3 long blasts (3 seconds each).
+  STEP 3: Car horn: sound SOS in Morse code — 3 short, 3 long, 3 short. Repeat every 2 minutes.
+  STEP 4: Voice: yell 'HELP' in groups of three. Project from the diaphragm, don't scream.
+  STEP 5: Bang rocks or sticks together for a sharp, carrying sound that travels through forest.
+
+ID: rescue-night-light-signals
+NAME: Night Light Signals
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Flash SOS with any light source: 3 short, 3 long, 3 short. Repeat every minute.
+  STEP 2: Build a signal fire on high ground. Bright flame is visible 5-15 miles at night.
+  STEP 3: Phone screen: set to maximum brightness, turn ON and OFF in SOS pattern. Even a cracked phone works.
+  STEP 4: Car headlights: flash high beams in SOS pattern. Visible for miles on flat terrain.
+  STEP 5: Light discipline when NOT signaling: keep your fire low and shielded if you want to avoid attention from threats.
+
+ID: rescue-water-dye-marker
+NAME: Water Dye Marker
+SOURCE: https://www.uscgboating.org
+  STEP 1: Commercial sea dye markers create bright green/yellow patches visible from aircraft. Use if available.
+  STEP 2: Improvised: motor oil creates a visible sheen on water. Pour around the raft or swim area.
+  STEP 3: Fluorescein (if available in first aid kits) creates an extremely bright green marker visible from miles.
+  STEP 4: At night on water: chemical light sticks in the water create a glowing marker visible to surface and air rescuers.
+  STEP 5: Spread any brightly colored fabric flat on the water surface around the raft.
+
+ID: rescue-self-evacuation-litter
+NAME: Improvised Litter (Stretcher)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find 2 strong poles 6-7 feet long, 2-3 inches diameter. Must support body weight without bending.
+  STEP 2: Method 1 (jacket): zip/button 2-3 jackets closed, thread poles through the sleeves.
+  STEP 3: Method 2 (blanket): lay a blanket flat, place one pole 1/3 from the edge, fold the short side over, place second pole, fold remaining fabric over both.
+  STEP 4: Method 3 (poles + crossbars): lash cross-sticks every 6 inches between the two poles. Weave small branches for a platform.
+  STEP 5: Pad the litter surface. Secure the patient with strips of cloth. 4 carriers is ideal — 2 minimum.
+
+ID: rescue-attention-panel
+NAME: Ground Signal Panels
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: V = 'Require Assistance'. Lay rocks, logs, or fabric in a V shape, 10+ feet per arm.
+  STEP 2: X = 'Require Medical Help'. Build an X, 10+ feet per arm, using contrasting materials.
+  STEP 3: I = 'Need Supplies'. A single straight line, 10+ feet long.
+  STEP 4: → (Arrow) = 'Traveling this direction'. Point the arrow the way you're heading.
+  STEP 5: Build signals from the most contrasting materials available: dark rocks on sand, white cloth on green grass.
+
+ID: rescue-sos-signal-fire
+NAME: SOS Signal Fire Triangle
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build 3 separate fire pits in an equilateral triangle pattern, 100 feet apart.
+  STEP 2: Prepare each fire pit with complete fire lay: tinder, kindling, fuel wood, and a smoke-producing layer.
+  STEP 3: For daytime: add green branches, wet leaves, or rubber to produce thick smoke.
+  STEP 4: For nighttime: keep fires burning brightly with dry hardwood for maximum flame visibility.
+  STEP 5: Maintain signal fire readiness 24/7. You may get only one chance when an aircraft passes.
+
+ID: rescue-cell-phone-strategy
+NAME: Emergency Cell Phone Strategy
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Enable airplane mode IMMEDIATELY to preserve battery. Only disable to make a call or send a text.
+  STEP 2: Text instead of calling — texts use less power and can send on weaker signals.
+  STEP 3: Climb to the highest elevated point before attempting a call. Even 50 feet helps signal reach.
+  STEP 4: Dial emergency number (911/112) — emergency calls can connect through ANY carrier's tower, including locked phones.
+  STEP 5: Send location via text before phone dies: 'LOST [GPS coordinates or landmark description] [your name] [condition]'.
+
+ID: rescue-heli-lz-prep
+NAME: Helicopter LZ Preparation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a flat, level area at least 100x100 feet (30x30 meters) clear of trees and power lines.
+  STEP 2: Remove all loose debris from the LZ: tents, tarps, loose branches, hats, trash.
+  STEP 3: Mark the four corners of the LZ and the wind direction.
+  STEP 4: Indicate wind direction using a windsock, smoke (outside the LZ), or standing with your back to the wind.
+  STEP 5: When the helicopter approaches: turn away, protect your eyes, and kneel down. DO NOT approach until signaled.
+
+ID: rescue-plb-activation
+NAME: PLB / inReach Activation Protocol
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Ensure the device has a clear, 360-degree view of the sky. Move out of deep canyons or thick canopy if possible.
+  STEP 2: Point the antenna straight up toward the sky. Do not lay the device flat or hold it horizontally.
+  STEP 3: Once activated, DO NOT turn it off. Keep it on and in place until rescuers arrive.
+  STEP 4: Stay put. Moving away from your activation point makes you harder to find.
+  STEP 5: Prepare for a long wait. Weather, terrain, and aircraft availability dictate response time.
+
+ID: rescue-water-evacuation
+NAME: Drowning Rescue (Reach-Throw-Row-Go)
+SOURCE: https://www.uscgboating.org
+  STEP 1: REACH: If the victim is close to the edge, extend a stick, paddle, branch, or towel from a secure position.
+  STEP 2: THROW: If they are out of reach, throw anything that floats — a cooler, life ring, jug, or rope.
+  STEP 3: ROW: Use a boat, kayak, or improvised raft to paddle to the victim.
+  STEP 4: GO (Only if trained): Swimming to a panicked victim is the absolute last resort and highly dangerous.
+  STEP 5: If grabbed: dive straight downward underwater. The victim wants to stay on the surface and will let go.
+
+ID: rescue-sea-dye
+NAME: Sea Dye Marker Deployment
+SOURCE: https://www.uscgboating.org
+  STEP 1: Keep the dye marker attached to your life vest via the lanyard.
+  STEP 2: Do NOT deploy the dye until you hear or see an aircraft.
+  STEP 3: Tear open the packet and empty the fluorescent uranine powder into the water downwind from you.
+  STEP 4: Agitate the water gently to help it spread into a massive slick.
+  STEP 5: Retain the empty packet.
+
+ID: rescue-aerial-flare
+NAME: Aerial Parachute Flare
+SOURCE: https://www.uscgboating.org
+  STEP 1: Assess the wind direction.
+  STEP 2: Wait until a vessel or aircraft is genuinely within visual range.
+  STEP 3: Hold the flare tube firmly in your non-dominant hand, pointed skyward at a 75 to 80-degree angle.
+  STEP 4: Pull the firing chain or strike the cap, keeping your face turned entirely away from the tube.
+  STEP 5: Once it fires, immediately drop the spent tube in the water.
+
+ID: rescue-ground-air-symbols
+NAME: Ground-to-Air Symbols
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a large, open clearing visible from the sky, contrasting strongly with the ground.
+  STEP 2: Construct symbols at least 10 feet wide and 3 feet thick.
+  STEP 3: V = Require Assistance.
+  STEP 4: X = Require Medical Assistance.
+  STEP 5: Arrow (->) = Proceeding in this direction.
+
+ID: rescue-man-overboard
+NAME: Man Overboard Response
+SOURCE: https://www.uscgboating.org
+  STEP 1: SHOUT 'MAN OVERBOARD!' immediately and point continuously at the person in the water.
+  STEP 2: Throw flotation immediately.
+  STEP 3: Activate the MOB button on GPS or drop a floating GPS marker.
+  STEP 4: Maneuver the vessel to approach the victim FROM DOWNWIND.
+  STEP 5: Get them aboard via the lowest point of the vessel.
+
+ID: rescue-cell-phone-emergency
+NAME: Emergency Cell Phone Techniques
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Switch to Airplane Mode to conserve battery, then enable Wi-Fi only if a network is available.
+  STEP 2: Text instead of calling.
+  STEP 3: Climb to the highest accessible point to attempt a call.
+  STEP 4: Dial 911/112 even without a SIM card or service plan.
+  STEP 5: Use the phone's flashlight for signaling at night.
+
+ID: rescue-z-drag
+NAME: Z-Drag (3:1 Haul System)
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Build a bombproof anchor.
+  STEP 2: Attach the load.
+  STEP 3: Attach a progress capture (Prusik 1).
+  STEP 4: Attach the tractor (Prusik 2).
+  STEP 5: Thread the Z.
+
+ID: rescue-breaching-interior
+NAME: Breaching Interior Walls
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Identify standard drywall.
+  STEP 2: Find the studs.
+  STEP 3: Kick the lowest point.
+  STEP 4: Tear the gypsum.
+  STEP 5: Crawl under electrical wires.
+
+ID: rescue-active-shooter-geometry
+NAME: Active Shooter Geometry
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Evacuate immediately (RUN).
+  STEP 2: Understand Cover vs. Concealment.
+  STEP 3: Slice the pie around corners.
+  STEP 4: Barricade deeply (HIDE).
+  STEP 5: Ambush with improvised weapons (FIGHT).
+
+ID: rescue-riot-mob-evasion
+NAME: Riot & Mob Evasion
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Move perpendicularly.
+  STEP 2: Avoid choke points.
+  STEP 3: Keep your chest protected.
+  STEP 4: Stay on your feet.
+
+ID: rescue-litter-drag
+NAME: One-Person Litter Drag
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Wrap patient in blanket/tarp
+  STEP 2: Grab the head end of the material
+  STEP 3: Maintain head-uphill orientation
+  STEP 4: Use smooth terrain
+
+ID: rescue-firemans-carry
+NAME: Fireman's Carry Technique
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Roll patient face-down
+  STEP 2: Pull patient onto your shoulders
+  STEP 3: Hold their right arm and right leg
+  STEP 4: Walk with short, steady steps
+
+ID: rescue-two-person-seat-carry
+NAME: Two-Person Seat Carry
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Face each other and grip wrists
+  STEP 2: Have patient sit on the seat
+  STEP 3: Stand together using a count
+  STEP 4: Walk in step
+
+ID: rescue-casualty-packaging
+NAME: Casualty Packaging for Transport
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Immobilize all known injuries first
+  STEP 2: Insulate from environment
+  STEP 3: Secure to litter with straps or cordage
+  STEP 4: Mark injuries on patient
+
+ID: rescue-helicopter-lz-marking
+NAME: Helicopter LZ Marking
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Clear a 100x100 foot area
+  STEP 2: Mark the center with a visible panel
+  STEP 3: Indicate wind direction
+  STEP 4: Approach from DOWNHILL side only
+
+ID: rescue-signal-panel-construction
+NAME: Ground Signal Panel Construction
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Use contrasting materials
+  STEP 2: Make signals at least 10 feet long
+  STEP 3: Standard ground-to-air signals
+  STEP 4: Place on open, elevated terrain
+
+ID: rescue-urban-rubble-rescue
+NAME: Urban Rubble Rescue Techniques
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Listen/call cycle
+  STEP 2: Mark searched areas
+  STEP 3: Shore as you go
+  STEP 4: Monitor for secondary collapse
+
+ID: rescue-swift-water-throw-technique
+NAME: Throw Bag Advanced Technique
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Throw UPSTREAM of the victim
+  STEP 2: Brace for load
+  STEP 3: Pendulum to shore
+  STEP 4: Coil for re-throw if first throw misses
+
+ID: rescue-confined-space-entry
+NAME: Confined Space Entry Protocols
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Test atmosphere if possible
+  STEP 2: Maintain contact with outside
+  STEP 3: Have a backup rescuer ready
+  STEP 4: Monitor for structural movement
+
+ID: rescue-rope-haul-system
+NAME: Simple 2:1 Rope Haul
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Anchor the standing end of the rope
+  STEP 2: Run rope through a pulley at the load
+  STEP 3: Haul on the free end
+  STEP 4: Add a prusik for ratcheting
+
+ID: rescue-semaphore-basics
+NAME: Semaphore Flag Signaling
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Each letter is a different arm position. Arms point like clock hands.
+  STEP 2: Learn the distress signals first: 'HELP' and 'SOS'.
+  STEP 3: Use brightly colored cloth attached to sticks for visibility.
+  STEP 4: Signal clearly with pauses between letters.
+
+ID: rescue-raft-building
+NAME: Emergency Log Raft
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Select 6-10 straight, dry logs of similar diameter (6-10 inches).
+  STEP 2: Lay logs parallel. Lash crosspieces at each end using square lashings.
+  STEP 3: Add a raised platform or deck from smaller sticks for keeping gear dry.
+  STEP 4: Create a steering oar or pole. Test the raft in shallow water before committing.
+
+ID: rescue-snowshoe-construction
+NAME: Improvised Snowshoe Construction
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Select two green branches, 4-5 feet long, flexible enough to bend into a teardrop shape.
+  STEP 2: Bend each branch into a teardrop frame, lash the overlapping ends.
+  STEP 3: Weave a platform of cordage, strips of bark, or wire across the frame.
+  STEP 4: Attach to boots with cordage — pivot point under the ball of your foot.
+
+ID: rescue-travois-construction
+NAME: Travois (Drag Sled) Construction
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Find two strong poles 8-10 feet long.
+  STEP 2: Spread narrow ends in front (pulling end), wide apart at back.
+  STEP 3: Lash crosspieces between the poles to create a platform.
+  STEP 4: Load attaches to the platform. Pull from the narrow end, or harness to a person/animal.
+
+ID: rescue-perimeter-alarm
+NAME: Perimeter Trip-Wire Alarm System
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Set trip wires at ankle height across all approach paths.
+  STEP 2: Attach noise makers: cans with pebbles, shells on cord, or bells.
+  STEP 3: Set at approach choke points: gaps in brush, trail intersections, stream crossings.
+  STEP 4: Check and maintain daily — weather, wind, and animals can trigger false alarms.
+
+ID: rescue-signal-fire-platform
+NAME: Signal Fire Platform
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Build a platform of dry wood, elevated off damp ground on a log base.
+  STEP 2: Cover with a waterproof layer (bark, plastic, large leaves) until needed.
+  STEP 3: When aircraft heard: remove cover, ignite from pre-positioned fire. Add green vegetation for smoke.
+  STEP 4: Three fires in a triangle = international distress signal.
+
+ID: rescue-ground-to-air-signals
+NAME: Ground-to-Air Emergency Symbols
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: V = need assistance. X = need medical help. I = need supplies.
+  STEP 2: Build from contrasting materials: dark rocks on light sand, bright fabric on dark earth.
+  STEP 3: An arrow (→) indicates direction of travel if you've moved from the signal site.
+  STEP 4: Stamp or dig letters in snow, sand, or soft earth if no materials available.
+
+ID: rescue-self-rescue-crevasse
+NAME: Crevasse Self-Rescue
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Stop falling. Catch your breath. Assess injuries.
+  STEP 2: Attach two prusik slings to the rope above you — one for foot, one for chest/harness.
+  STEP 3: Alternate: slide, weight, slide, weight — inching up the rope.
+  STEP 4: Once at the lip: use an ice axe or arm strength to roll over the edge.
+
+ID: rescue-river-rescue-self
+NAME: Swift Water Self-Rescue
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Float on your BACK, feet downstream, toes up.
+  STEP 2: Use arms to ferry across the current — angled swimming toward the nearest bank.
+  STEP 3: In rapids: take breaths in troughs between waves, protect head with arms in heavy water.
+  STEP 4: Grab onto anything solid: overhanging branch, boulder, bridge pylon.
+
+ID: rescue-stretcher-improvised
+NAME: Improvised Stretcher Construction
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Two strong poles (7+ feet) plus a connecting surface: jackets, tarp, blanket, or poncho.
+  STEP 2: Jacket method: zip/button two jackets closed, thread poles through the sleeves.
+  STEP 3: Blanket method: lay one pole 1/3 from edge, fold excess over. Repeat with second pole.
+  STEP 4: Carry with 4 people, patient head-first uphill. Communicate: 'ready, lift, walk.'
+
+ID: rescue-flotation-improvised
+NAME: Improvised Flotation Devices
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Pants: tie legs in knots, wet, inflate by scooping air — becomes a float vest.
+  STEP 2: Plastic containers: any sealed container displaces water. Two 2-liter bottles support an adult.
+  STEP 3: Coolers, fuel cans, spare tires — all float.
+  STEP 4: Backpack floats if sealed and mostly contains clothing or gear (not rocks).
+
+ID: rescue-fire-arrow-signal
+NAME: Fire Arrow Ground Signal
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Build an arrow on the ground pointing in your direction of travel.
+  STEP 2: Make the arrow visible from the air: rocks on sand, logs on grass, dug trenches in snow.
+  STEP 3: At night: three fires in the direction you're heading.
+  STEP 4: Update the arrow and signals each time you move to a new location.
+
+ID: rescue-whistle-signals
+NAME: Emergency Whistle Signal Protocol
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: THREE blasts = universal distress signal. Repeat every minute.
+  STEP 2: A whistle carries 10x farther than a human voice and requires less energy.
+  STEP 3: Pause and listen between signal sets for response.
+  STEP 4: Improvise a whistle: acorn cap, thick grass blade between thumbs, or hollowed stick.
+
+ID: rescue-cpr-adult
+NAME: Adult CPR Protocol
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Confirm unresponsive: tap shoulders, shout. Call for help.
+  STEP 2: Check for breathing: look, listen, feel for 10 seconds maximum.
+  STEP 3: 30 compressions: center of chest, 2 inches deep, hard and fast (100-120/min).
+  STEP 4: 2 rescue breaths: tilt head back, lift chin, seal mouth. Watch for chest rise.
+
+ID: rescue-choking-adult
+NAME: Adult Choking — Heimlich Maneuver
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Confirm choking: ask 'Can you breathe?' If they can't speak, cough, or breathe — act.
+  STEP 2: Stand behind the patient. Fist above navel, below ribcage.
+  STEP 3: Deliver sharp INWARD and UPWARD thrusts.
+  STEP 4: Repeat until object is expelled or patient becomes unconscious.
+
+ID: rescue-water-rescue-reach
+NAME: Water Rescue — Reach-Throw-Row-Go
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: REACH: extend a pole, branch, shirt, or any long object to the victim.
+  STEP 2: THROW: if too far to reach, throw a rope, life ring, cooler, or floating object.
+  STEP 3: ROW: if you have a boat, approach with stern toward the victim.
+  STEP 4: GO (swim rescue): LAST RESORT. Take a floatation device. Approach from behind.
+
+ID: rescue-knot-rescue-harness
+NAME: Improvised Rescue Harness (Swiss Seat)
+SOURCE: https://en.wikipedia.org/wiki/The_Ashley_Book_of_Knots
+  STEP 1: Middle a 20-foot rope. Place the midpoint at the small of your back.
+  STEP 2: Wrap both ends around to the front, cross them, and pull between your legs from front to back.
+  STEP 3: Bring the ends up through the waist wraps on each hip.
+  STEP 4: Tie off at the front with a square knot backed with overhand safeties.
+
+ID: rescue-rope-traverse
+NAME: Rope Traverse (Tyrolean)
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Anchor the rope on both sides of the gap — bombproof anchors (trees, boulders, multiple points).
+  STEP 2: Tension the rope using a 3:1 or 4:1 mechanical advantage system (Z-drag).
+  STEP 3: Clip into the rope with a carabiner and harness. Cross hand-over-hand or with pulleys.
+  STEP 4: Communication between both sides: establish signals before crossing begins.
+
+ID: rescue-cliff-rescue-basics
+NAME: Basic Cliff/Ledge Rescue
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Assess: can the person climb with assistance, or do they need to be lowered?
+  STEP 2: Simple belay: secure rope to a bombproof anchor. Lower end to the patient.
+  STEP 3: Lowering: seat them in an improvised harness (Swiss seat), lower with controlled friction.
+  STEP 4: Multiple rope lengths: tie ropes together with double fisherman's knot.
+
+ID: rescue-urban-escape
+NAME: Urban Building Escape (Fire/Collapse)
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Crawl low: smoke and heat rise. Breathable air is at floor level.
+  STEP 2: Check doors before opening: feel with back of hand. Hot door = fire behind it.
+  STEP 3: If exit blocked: seal the room. Stuff wet cloth under the door. Signal from window.
+  STEP 4: Escape from upper floors: tie sheets together for an improvised rope. Use square knots.
+
+ID: rescue-sere-vector-signaling
+NAME: Ground-to-Air Vector Signaling
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Identify a large, open clearing devoid of overhanging canopy.
+  STEP 2: Construct a large 'V' (Require Assistance) or 'X' (Require Medical).
+  STEP 3: Use 100% contrasting materials.
+  STEP 4: Ensure symmetry.
+
+ID: rescue-sere-night-pyrotechnics
+NAME: Improvised Flare & Pyrotechnic Setup
+SOURCE: https://irp.fas.org/doddir/usaf/afman10-100.pdf
+  STEP 1: Do not rely on a standard campfire for signaling aircraft.
+  STEP 2: Construct a 'Signal Tree'.
+  STEP 3: Prepare a reliable, instant ignition source at the exact base.
+  STEP 4: Construct 'V' formation fires.
+
+ID: rescue-navy-drownproofing
+NAME: Drownproofing (Survival Treading)
+SOURCE: https://www.goodreads.com/book/show/25430713-100-deadly-skills
+  STEP 1: Assume the resting position.
+  STEP 2: Prepare to breathe.
+  STEP 3: Exhale underwater, then press and snap.
+  STEP 4: Inhale quickly and return to rest.
+
+ID: rescue-pants-flotation
+NAME: Improvised Pants Flotation
+SOURCE: https://www.goodreads.com/book/show/25430713-100-deadly-skills
+  STEP 1: Remove trousers.
+  STEP 2: Tie off the legs.
+  STEP 3: Inflate the trousers.
+  STEP 4: Gather the waist.
+
+ID: rescue-help-huddle-position
+NAME: H.E.L.P. & Huddle Positions
+SOURCE: https://www.uscgboating.org
+  STEP 1: Understand the cold shock response.
+  STEP 2: Minimize movement.
+  STEP 3: Assume the H.E.L.P. position (Solo).
+  STEP 4: Form a Huddle (Group).

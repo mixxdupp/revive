@@ -1,0 +1,144 @@
+SSC Panic-UX Audit Report
+Total Nodes: 174
+Paths: 314
+Failures: 22
+
+[PANIC OVERLOAD]
+Node ID: trapped-root
+Question: What do you need help with?
+Problem: 32 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: trapped-rescue-q
+Question: What do you need?
+Problem: 7 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[TECHNIQUE MISFIT - TOO SLOW]
+Path: How close is the fire? -> Evacuating NOW
+Technique: None
+Problem: Instructs user to wait during a time-critical trauma path.
+
+[TECHNIQUE MISFIT - TOO SLOW]
+Path: What's your situation? -> Flash Flood — Act NOW
+Technique: None
+Problem: Instructs user to wait during a time-critical trauma path.
+
+[PANIC OVERLOAD]
+Node ID: shelter-root
+Question: What do you need?
+Problem: 14 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: hurt-nq-0-136
+Question: Select Equipment Status:
+Problem: 7 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: hurt-nq-1-136
+Question: Identify Primary Threat/Condition:
+Problem: 11 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: lost-root
+Question: What do you need?
+Problem: 10 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: water-em-root
+Question: What do you need?
+Problem: 7 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: vehicle-em-root
+Question: What happened to the vehicle?
+Problem: 7 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: water-root
+Question: What do you need?
+Problem: 11 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[PANIC OVERLOAD]
+Node ID: fire-root
+Question: What do you need?
+Problem: 7 options. Too many for panic cognition.
+Fix: Condense to <=6 options.
+
+[UNIVERSALITY FAIL]
+Node ID: trapped-root
+Question: What do you need help with?
+Problem: Options share significant vocabulary.
+Labels: 'unknown label' vs 'unknown label'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: an-enc-q
+Question: What animal?
+Problem: Options share significant vocabulary.
+Labels: 'grizzly — attacking' vs 'grizzly — not attacking'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: shelter-hot-q
+Question: What is your priority?
+Problem: Options share significant vocabulary.
+Labels: 'unknown label' vs 'unknown label'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: food-root
+Question: What do you need?
+Problem: Options share significant vocabulary.
+Labels: '4-7+ days — weak but mobile' vs '4-7+ days — can barely move'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: hurt-nq-0-136
+Question: Select Equipment Status:
+Problem: Options share significant vocabulary.
+Labels: 'unknown label' vs 'unknown label'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: hurt-nq-1-10
+Question: Identify Primary Threat/Condition:
+Problem: Options share significant vocabulary.
+Labels: 'unknown label' vs 'unknown label'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: hurt-nq-1-136
+Question: Identify Primary Threat/Condition:
+Problem: Options share significant vocabulary.
+Labels: 'unknown label' vs 'unknown label'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: water-em-root
+Question: What do you need?
+Problem: Options share significant vocabulary.
+Labels: 'rescuing someone — nearby' vs 'rescuing someone — far'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: water-root
+Question: What do you need?
+Problem: Options share significant vocabulary.
+Labels: 'unknown label' vs 'unknown label'
+Fix: Ambiguous options increase hesitation.
+
+[UNIVERSALITY FAIL]
+Node ID: water-root
+Question: What do you need?
+Problem: Options share significant vocabulary.
+Labels: 'charcoal / sand filter' vs 'build charcoal filter'
+Fix: Ambiguous options increase hesitation.

@@ -1,0 +1,854 @@
+
+[ContentDatabase+TrappedTriage.swift]
+Q: What do you need help with?
+  - I'm Injured or Trapped
+Q: What type of injury?
+  - Bleeding Heavily
+Q: Where is the bleeding?
+  - Arm or Leg — Spurting
+  - Arm or Leg — Flowing
+  - Torso / Chest
+  - Head Wound
+  - Object Impaled
+Q: Which body part?
+  - Arm / Wrist
+  - Leg / Ankle
+  - Joint Popped Out
+  - Sprain / Twist (Swelling)
+Q: Is the person conscious?
+  - Yes — Conscious
+  - No — Unconscious
+Q: What caused the burn?
+  - Fire / Heat (Thermal)
+  - Chemicals
+  - Electrical
+Q: What's happening?
+  - Choking on Object
+  - Smoke Inhalation
+Q: Immediate danger?
+  - Fire / Smoke
+  - Pinned Inside
+  - Safe Location (Wait)
+Q: What do you need?
+  - Signal for Help
+Q: What can you use?
+  - Visual Signals (Ground / Body)
+  - Mirror / Reflective Surface
+  - Signal Fire / Phone
+  - Whistle / Sound
+  - Night Signals
+  - Helicopter Approaching
+Q: What's your situation?
+  - Know the Way Out
+  - Follow Water Downhill
+  - Mark Path for Rescuers
+  - Escape Building (Fire / Collapse)
+  - Fell Into Crevasse
+Q: What's blocking you?
+  - Swamp / Wetland
+  - River Crossing
+  - Cliff / Ledge
+  - Deep Snow
+  - Urban Rubble / Debris
+Q: What's happening?
+  - Drowning — Reach / Throw
+  - Person Fell Overboard
+  - Need to Float / Tread
+Q: How many helpers?
+  - I'm Alone
+  - Two People
+  - Packaging for Transport
+Q: What do you need?
+  - STOP Method (First Steps)
+  - Decision Fatigue
+  - Sleep & Waiting
+  - Children in Survival
+  - Group Dynamics
+  - Building Morale
+Q: What do you need to make?
+  - Knots & Lashing
+Q: What's the purpose?
+  - Loop / Rescue (Bowline, Butterfly)
+  - Attach to Post / Pole
+  - Tension / Shelter Line
+  - Join Two Ropes
+  - Climbing / Ascending
+Q: What material?
+  - Bone (Needle, Hook, Saw)
+  - Bark & Fiber (Cloth, Container)
+  - Clay / Bamboo
+  - Fishing Gear (Hooks, Nets)
+Q: What do you need most?
+  - Water
+  - Warmth
+  - Food
+  - Staying Calm / Morale
+  - Making Tools / Traps
+Q: What would you like to read about?
+  - Survival Mindset
+  - Decision Making Under Stress
+  - Group Dynamics
+  - Children in Survival
+  - Isolation Effects
+  - Sleep Deprivation
+  - Surviving the Night
+  - Long-Term Survival
+  - Post-Rescue Recovery
+  - Essential Knots
+  - Cordage & Rope Making
+  - Stone Tool Craft
+  - Blade & Edge Tools
+  - Making Containers
+  - Natural Adhesives
+  - Leather Working
+  - Camp Craft
+  - Field Repairs
+  - Trapping Theory
+  - Fishing Technology
+
+[ContentDatabase+AnimalTriage.swift]
+Q: What animal?
+  - Bear
+Q: What type / color?
+  - Black Bear
+Q: Has it seen you?
+  - Yes — Stand Ground
+  - No — Back Away
+Q: Is it attacking?
+  - Yes — Play Dead
+  - No — Back Away Slowly
+Q: Trouble breathing?
+  - Yes — Swelling / Wheezing
+  - No — Just Pain/Itch
+Q: Did it bite you?
+  - Yes — bitten
+  - No — Just saw it
+Q: Head shape?
+  - Triangular / Diamond (Venomous)
+Q: What animal?
+  - Mountain Lion / Cougar
+  - Wolf Pack
+Q: Situation?
+  - See one nearby
+Q: What happened?
+  - Bitten (Spider/Scorpion)
+  - Tick Attached
+Q: What animal?
+  - Shark
+  - Jellyfish Sting
+Q: What environment?
+  - Tropical Disease Risk
+  - Desert Hazards
+Q: What do you need?
+  - Desert Travel
+  - Night Travel
+  - Desert Shelter
+  - Finding Water
+Q: What do you need?
+  - Jungle Movement
+  - Jungle Travel
+  - Jungle Shelter
+  - Jungle Water Sources
+Q: What would you like to read about?
+  - Bites & Envenomation
+  - Jungle Medicine
+  - Desert Hazards
+  - Ocean Wildlife
+  - Mountain Wildlife
+  - Environmental Emergencies
+
+[ContentDatabase+DisasterTriage.swift]
+Q: What disaster are you facing?
+  - Earthquake
+Q: What's happening?
+  - Shaking Right Now
+  - I'm Indoors
+  - I'm Outdoors
+  - Earthquake Over — Now What?
+Q: Where are you?
+  - In a Building
+  - Mobile Home
+  - In a Vehicle
+Q: Can you see its path?
+  - Yes — Drive Away
+  - Too Close — Abandon Car
+Q: How close is the fire?
+  - Visible but Far Away
+Q: What do you need?
+  - Track It — Stay or Go?
+  - Evacuating NOW
+  - Which Way Is It Moving?
+Q: What's your situation?
+  - Flash Flood — Act NOW
+  - Water Rising Indoors
+  - Swept into Water
+  - Vehicle in Floodwater
+  - After the Flood
+Q: What do you need?
+  - Safe Drinking Water
+  - Disease Prevention
+  - Contamination / HAZMAT
+  - Building Safety Check
+  - Post-Flood Survival
+Q: What stage?
+  - Approaching — Prepare Now
+  - During the Storm
+  - Coastal / Storm Surge
+Q: What's your situation?
+  - Stranded / Caught Outdoors
+  - At Home — No Power
+  - Whiteout — Can't See
+  - Fell Through Ice
+  - In Cold Water
+  - Need to Cross Ice
+Q: Where are you?
+  - Open / Exposed Area
+  - Mountain / Ridge
+  - Forest / Near Trees
+  - Calculate Storm Distance
+  - 30/30 Rule & Safety
+Q: What's happening?
+  - Caught in Avalanche NOW
+  - Buried Under Snow
+Q: What is the hazard?
+  - Ashfall — Hard to Breathe
+  - Lava / Pyroclastic Flow
+  - Eruption — What To Do
+  - Sheltering from Ashfall
+Q: What's happening?
+  - Warning Signs / Siren
+  - Earthquake Near Coast
+  - Wave Incoming / Hitting
+  - Tsunami Survival Basics
+Q: Any symptoms?
+  - Sweating / Cramps / Weak
+  - No Sweat / Confusion / Hot
+  - Staying Alive in Heat
+Q: What's your situation?
+  - Inside a Building
+  - I'm Outdoors
+  - In a Vehicle
+  - Trapped Under Debris
+  - Moving Debris / Mud
+  - Warning Signs — Assess
+Q: What type?
+  - Sandstorm — Can't See
+  - Dust Storm — Hard to Breathe
+  - Hailstorm — Take Cover
+  - Dense Fog — Can't Navigate
+Q: What happened?
+  - Stuck in Quicksand / Mud
+  - Sinkhole — Ground Collapsed
+  - Rocks Falling Above Me
+  - Spotting Sinkhole Danger
+  - Near Abandoned Mine
+Q: What is the threat?
+  - Nuclear Fallout — Shelter
+  - Quick Fallout Protection
+  - Chemical / HAZMAT Spill
+Q: What's happening?
+  - Adrift at Sea
+  - On a Life Raft
+  - Caught in Rip Current
+  - Marine Hazard (Shark, Jellyfish)
+  - Tidal / Coastal Hazard
+  - Severe Seasickness
+Q: Your situation?
+  - Sheltering at Home
+  - Need to Move Unseen
+  - In a Vehicle — Mob
+  - Detained / Restrained
+  - Emergency Vehicle Entry
+
+[ContentDatabase+ShelterTriage.swift]
+Q: What do you need?
+  - Temperate Forest
+Q: What do you have?
+  - Tarp / Poncho
+Q: What's the weather?
+  - Raining
+  - Windy
+  - Calm / Dry
+  - Need Flyover (Group)
+Q: What's around you?
+  - Lots of Leaves & Branches
+  - Some Debris — Can Pile
+  - Rock Overhang / Cave
+  - Fallen Tree
+  - Bare Ground Only
+Q: What snow conditions?
+  - Deep Snow (Waist+)
+Q: Do you have digging tools?
+  - Shovel / Pot / Flat Object
+  - Hands Only
+Q: What is your priority?
+  - Shade from Sun (Day)
+Q: Materials?
+  - Tarp / Cloth (Double Layer Best)
+  - Can Dig Trench
+  - Rocks / Boulders (Natural Shade)
+Q: What is the main threat?
+  - Heavy Rain
+  - Ground Moisture / Bugs
+  - Swamp / Wetland
+  - Off Ground — Hammock
+Q: What's available?
+  - Vehicle Available
+  - Tarp / Debris
+  - Nothing — Exposed
+Q: What improvement?
+  - Better Bedding / Insulation
+Q: What's available?
+  - Leaves / Debris
+  - Pine Boughs
+  - Tall Grass / Cattails
+  - Heated Bed (Hot Rocks)
+Q: What type?
+  - Wickiup (Long-Term)
+  - Group Shelter
+  - Parachute Shelter
+  - Debris Hut (All-Weather)
+Q: What would you like to read about?
+  - Site Selection
+  - Insulation Guide
+  - Ground Insulation
+  - Bedding Systems
+  - Wind Protection
+  - Rain & Waterproofing
+  - Heat Reflectors
+  - Snow Shelters
+  - Desert Shelters
+  - Tropical Shelters
+  - Urban Shelters
+  - Long-Term Shelters
+  - Maintenance & Repair
+  - Common Mistakes
+  - Psychology of Shelter
+
+[ContentDatabase+HumanThreatTriage.swift]
+Q: What is the threat?
+  - Active Attacker / Pursuer
+Q: Can you escape?
+  - Yes — Run / Evade
+  - No — Need to Hide
+  - Cornered — Self Defense
+Q: Location?
+  - On the Street
+  - In a Vehicle
+  - At Home
+Q: Security topics?
+  - Survival Psychology
+  - Situational Awareness
+
+[ContentDatabase+FoodTriage.swift]
+Q: What do you need?
+  - No Food for Days / Starving
+Q: How long without food?
+  - 1-3 Days — Can Still Forage
+  - 4-7+ Days — Weak but Mobile
+  - 4-7+ Days — Can Barely Move
+  - Have Small Amount Left
+Q: What's available?
+  - Berries / Fruit
+Q: Do you recognize it?
+  - Yes — 100% Sure
+  - No / Unsure
+  - Poisoning Symptoms?
+Q: Are you an expert?
+  - Yes — 100% Sure
+  - No / Unsure
+Q: What method?
+  - Active Triggers (Deadfall)
+  - Spear Hunting
+  - Bird Trap (Ojibwa)
+Q: What gear do you have?
+  - Hooks / Line
+  - Crayfish / Crawdad Trap
+Q: What do you need to do?
+  - Make Pemmican (Preserve)
+  - Boil Using Hot Rocks
+  - Skin / Gut Game
+  - Cook on Fire
+  - Smoke / Dry Meat
+  - General Preservation
+Q: What's available?
+  - Wild Onion / Garlic
+  - Pine Bark Flour
+  - Cattail (Full Harvest)
+  - Seaweed (Coastal)
+  - Grubs / Larvae
+Q: What method?
+  - Ojibwe Bird Snare
+  - Crayfish Trapping
+  - Fish Spearing
+  - Clay Pot Cooking
+Q: What would you like to read about?
+  - Survival Nutrition
+  - Calorie Needs
+  - Starvation Science
+  - Nutritional Deficiencies
+  - Wild Edible Plants
+  - Poisonous Plants
+  - Edible Insects
+  - Protein Sources (Ranked)
+  - Fishing Techniques
+  - Trapping Guide
+  - Cooking Methods
+  - Food Preservation
+  - Food Safety
+
+[ContentDatabase+HurtTriage.swift]
+Q: Select Equipment Status:
+  - Low / Improvised Equipment
+Q: Identify Primary Threat/Condition:
+  - Natural Remedies (Non-Life Threatening)
+Q: What is the primary condition or requirement?
+  - Insect Prevention (Repellent)
+  - Oral Pain/Fever Relief (Willow, Infusions)
+  - Topical Wound Care (Poultice)
+  - Topical Cleaning (Astringent, Honey)
+Q: Identify Primary Threat/Condition:
+  - Immediate Life Threats (< 2 Min)
+Q: What is the primary condition or requirement?
+  - Bleeding: Spurting Arterial Flow
+Q: What is the primary condition or requirement?
+  - Junctional (Neck/Groin/Armpit)
+  - Arm or Leg Bleed
+Q: What is the primary condition or requirement?
+  - Unconscious Patient
+  - Conscious Adult/Child
+  - Conscious Infant (< 1 Yr)
+Q: What is the primary condition or requirement?
+  - Postpartum / Vaginal hemorrhage
+  - Abdominal organ protrusion
+  - Wound contains debris
+  - Deep cut needing closure
+  - Continuous severe nosebleed
+  - Steady Heavy Flow
+Q: What is the primary condition or requirement?
+  - Amputated part
+  - Limb / Torso laceration
+Q: What is the primary condition or requirement?
+  - Trachea Shifted / Severe Dyspnea
+  - Bubbling / Sucking sound
+  - Chest collapsing paradoxically
+Q: What is the primary condition or requirement?
+  - Diabetic Emergency
+  - Asthma Attack (Wheezing but breathing)
+  - Altered Mental Status
+  - Post-Seizure Recovery
+  - Toxic Exposure / Overdose
+  - Mild Allergic Reaction (Rash/Itch)
+Q: What is the primary condition or requirement?
+  - Unconscious with suspected spine injury
+  - Head Injury / Confusion only
+  - Conscious but neck pain
+Q: What is the primary condition or requirement?
+  - Localized wound red/swollen/pus
+  - General Adult Fever
+  - Pediatric (Infant/Child) High Fever
+  - Painful urination / Flank pain
+Q: What is the primary condition or requirement?
+  - Kidney Stone / Severe Flank Pain
+  - General Stomach ache / GI
+  - Severe Constipation
+Q: What is the primary condition or requirement?
+  - Pelvis or Hip Pain
+  - Upper Leg Deformity (Femur)
+  - Bone protruding through skin (Open)
+  - Arm or Wrist Deformity
+  - Lower Leg or Knee Deformity
+  - Shoulder / General Support
+Q: What is the primary condition or requirement?
+  - Burn Size < 20% of body
+  - Burn Size > 20% of body
+  - Chemical exposure (Dry/Wet powder)
+  - Electrical / Lightning shock
+Q: What is the primary condition or requirement?
+  - Eye Injuries
+Q: What is the primary condition or requirement?
+  - Chemical splash / debris
+  - Flash blind / Glare
+  - Foreign body / General
+  - Penetrating object
+Q: What is the primary condition or requirement?
+  - Toothache / missing filling
+  - Avulsed (Knocked-out) tooth
+Q: What is the primary condition or requirement?
+  - Marine Stings (Stingray, Urchin, Jellyfish)
+  - Insect Stings (Bee, Wasp, Centipede)
+  - Snakebite
+  - Spider / Scorpion
+  - Mammal Bite (Dog, Bat, Rabies)
+Q: What is the primary condition or requirement?
+  - Altitude Illness (AMS, HAPE, HACE)
+  - Mild Hypothermia (Shivering / Alert)
+  - Severe Hypothermia (No Shivering)
+  - Frostbite / Trench Foot
+  - Salt Imbalance / Dehydration
+  - Heat Exhaustion (Cool / Rest / Fluids)
+Q: What is the primary condition or requirement?
+  - Mass Casualty Incident Sorting
+  - Checking Vitals
+  - Pediatric PAT Assessment
+  - Secondary Head-to-Toe Survey
+  - Primary ABCDE Survey
+Q: What is the primary condition or requirement?
+  - Chest Procedures (Needle Decomp, Dressing)
+  - Breathing: Panic / Hyperventilation
+  - Advanced Airway Insertion
+  - Cardiac / Shock / Blood
+  - Diver Pressure Injury Prep
+  - Emergency Childbirth / Trauma
+
+[ContentDatabase+LostTriage.swift]
+Q: What do you need?
+  - Just Realized I'm Lost
+Q: STOP. What can you use to navigate?
+  - I Remember the Way Back
+  - Phone (Any Battery)
+  - Map + Compass
+  - Compass Only
+  - Analog Watch + Sun
+  - Nothing — No Tools
+Q: What can you see?
+  - Sun Visible
+  - Stars / Moon Visible
+  - Overcast / Can't See Sky
+Q: What's your plan?
+  - Stay Put & Signal
+Q: What signaling tools?
+  - Whistle / Voice
+  - Signal Smoke
+  - Ground Signals
+  - ICAO Panel Codes
+Q: What can you see or hear?
+  - Can Hear Water
+  - Ridge / High Ground
+  - Trail / Road
+  - Wind / Tree Lean
+  - Dense Forest / Nothing
+Q: What terrain?
+  - Coastal / Shoreline
+  - Urban / City
+  - Read Weather
+  - Estimate Altitude
+Q: What technique?
+  - Back Bearing
+  - Deliberate Offset
+  - Magnetic Deviation
+  - Pace Beading
+  - Shadow Tip Compass
+  - Sun at Noon
+Q: What would you like to read about?
+  - Getting Un-Lost
+  - Psychology of Being Lost
+  - Celestial Navigation
+  - Map Reading Basics
+  - Terrain Association
+  - GPS Navigation
+  - Magnetic Declination
+  - Night Navigation
+  - Dense Forest Navigation
+  - Urban Navigation
+  - Emergency Navigation
+
+[ContentDatabase+InWaterTriage.swift]
+Q: What do you need?
+  - Struggling to Swim
+Q: What's happening?
+  - Exhausted / Going Under
+  - Leg / Calf Cramp
+  - Multiple Cramps
+  - Rescuing Someone — Nearby
+  - Rescuing Someone — Far
+  - After Rescue / Recovery
+Q: How long in water?
+  - Just Fell In (Cold Shock)
+  - Been In — Shivering / Numb
+  - Confused / Can't Move
+  - Fell Through Ice
+  - Need Flotation — Nothing
+Q: Where?
+  - Ocean Rip Current
+  - River — Rapids / Rocks
+  - River — No Rapids
+Q: What's the situation?
+  - Have Life Jacket — In Water
+  - No Life Jacket — Need to Float
+  - Need to Signal for Help
+Q: What method?
+  - Signal Mirror
+  - Night Signaling
+  - PLB / Satellite
+  - VHF Radio
+  - Helicopter Approaching
+  - Smoke Signal
+Q: What would you like to read about?
+  - Signaling Science
+  - Water Rescue Principles
+  - Search & Rescue Ops
+  - Group Rescue
+  - Night Rescue
+  - Emergency Phone Use
+  - PLB & Beacons
+  - Self-Rescue Navigation
+  - Ocean Survival Guide
+
+[ContentDatabase+VehicleTriage.swift]
+Q: What happened to the vehicle?
+  - Crash / Impact
+Q: What's the situation?
+  - Submerged / Sinking in Water
+  - Rolled Over
+  - Vehicle on Fire
+  - Trapped Inside — Need to Break Out
+  - Floodwater Rising
+  - Injured — Need First Aid
+Q: What environment?
+  - Desert / Extreme Heat
+  - Winter / Snow
+  - Wildfire Approaching
+  - Need to Signal for Help
+Q: Vehicle safety topics?
+  - Emergency Vehicle Kits
+  - Signaling from Vehicle
+
+[ContentDatabase+GearTriage.swift]
+Q: What category of tool or gear do you need to fabricate?
+  - Cutting & Piercing
+  - Cordage & Binding
+Q: What material or purpose are you working with?
+  - Plant Fibers (Spinning)
+  - Tree Bark / Roots
+  - Animal Hide
+Q: What material are you using?
+  - Clay / Mud (Ceramics)
+  - Wood / Birch Bark
+  - Animal Hide
+Q: What type of knot do you need?
+  - Joining Two Ropes
+  - Loops (Fixed or Sliding)
+  - Binding & Constricting
+  - Tensioning (Guy Lines)
+  - Friction & Climbing
+
+[ContentDatabase+PanicTriage.swift]
+Q: What is your primary mental or situational challenge right now?
+  - Overwhelming Fear / Hyperventilation
+  - Isolation / Hopelessness
+  - Exhaustion / Burnout
+  - Severe Anxiety / Dissociation
+  - Group Conflict / Leadership
+
+[ContentDatabase+ChemicalTriage.swift]
+Q: What is the exposure?
+  - Airborne Gas / Smoke
+Q: Can you evacuate?
+  - Yes — Move Crosswind
+  - No — Shelter in Place
+Q: What substance?
+  - Acid / Corrosive
+  - Unknown Powder/Liquid
+Q: Hazmat safety topics?
+  - Decontamination
+  - Sheltering in Place
+
+[ContentDatabase+WaterTriage.swift]
+Q: What do you need?
+  - Near Stream / River / Lake
+Q: Water quality?
+  - Clear / Running
+Q: How can you purify it?
+  - Boil It (Fire Available)
+  - Purification Tablets / Iodine
+  - Clear Bottle + Strong Sun
+  - Charcoal / Sand Filter
+  - Nothing — Drink It?
+Q: What can you do?
+  - Pre-Filter with Cloth + Boil
+  - Build Charcoal Filter
+  - Bio-Sand Filter (Long-Term)
+Q: How will you catch it?
+  - Tarp / Poncho
+  - Poncho / Tarp Funnel
+  - Any Container / Leaves
+Q: What resources are available?
+  - Plastic Sheet / Bag Available
+  - Vegetation Nearby
+Q: What type?
+  - Trees / Bushes
+  - Cactus / Succulents
+Q: Can you make fire?
+  - Yes — Melt Snow
+  - No — Body Heat Only
+  - High Altitude
+Q: What's available?
+  - Desalination Kit / Solar Still
+  - Seawater Only
+  - On Shore — Can Explore
+  - Old Sea Ice Available
+Q: What's around you?
+  - Bamboo
+  - Banana Plants
+  - Vines / Lianas
+  - Coconuts / Fruits
+  - Birch / Maple Trees
+  - Broad-Leaf Trees
+Q: What sources exist?
+  - Need to Store / Ration
+  - Water Heater Tank
+  - UV Sun Purification (SODIS)
+Q: What's available?
+  - Overview of All Sources
+  - Underground Seep / Dig
+  - Follow Animal Indicators
+  - Morning Dew (Drag Cloth)
+  - Make Electrolyte Solution
+  - Improvised Canteen
+Q: What do you need?
+  - Birch Bark Container
+  - Clay Pot Filter
+  - Coconut Water Safety
+  - Test Water Quality
+Q: What would you like to read about?
+  - Finding Water Sources
+  - Signs of Water Nearby
+  - Purification Methods
+  - Filter vs Purifier
+  - Water Contamination
+  - Waterborne Diseases
+  - Dehydration Management
+  - Water Rationing
+  - Desert Water Sources
+  - Rainwater Collection
+  - Ice & Snow Water
+  - Water Storage
+  - Ocean Water Survival
+
+[ContentDatabase+HeatTriage.swift]
+Q: What do you need?
+  - Feeling Sick / Dizzy
+Q: Symptoms?
+  - Muscle Cramps / Spasms
+  - Heavy Sweating / Pale / Weak
+  - Hot Dry Skin / Confusion / No Sweat
+  - Not Sure — Is it Exhaustion or Stroke?
+  - Child / Infant Dehydrated
+Q: Severity?
+  - Red / Painful (Sunburn)
+  - Blistered / Charred
+Q: How bad?
+  - Thirsty / Dry Mouth / Dark Urine
+  - Dizzy / Confused / No Urine
+  - Need to Find Water
+Q: What do you need?
+  - Shade / Shelter from Sun
+  - Travel Strategy (When / How)
+  - Water Rationing
+  - General Extreme Heat Tips
+Q: Read about heat safety?
+  - Heat Illnesses
+  - Water Needs
+  - Desert Survival
+
+[ContentDatabase+ColdTriage.swift]
+Q: What do you need?
+  - Build Shelter (No Shelter)
+Q: What environment?
+  - Forest — Have Tarp
+  - Forest — No Materials
+  - Deep Snow — Can Dig
+  - Snow — Surface Only
+  - Mountain / Exposed Ridge
+  - Urban / Outdoors
+Q: What do you have?
+  - Lighter / Matches
+  - Ferro Rod
+  - Sun + Lens / Bottle
+  - Nothing — No Tools
+Q: What symptoms?
+  - Shivering / Still Alert
+  - No Shivering / Confused / Unconscious
+  - Numbness / White Skin (Frostbite)
+  - Wet Painful Feet (Trench Foot)
+Q: What improvement?
+  - Heated Sleeping Platform
+  - Fire Reflector Wall
+  - Ventilation (Prevent CO)
+  - Snow Wall Windbreak
+  - Door / Entrance Block
+  - Insulation (Leaves/Boughs/Mylar)
+Q: Can you make fire?
+  - Yes — Can Make Fire
+  - No — No Fire
+Q: What terrain?
+  - Arctic / Polar
+  - Tundra / Open Frozen
+  - Snow Navigation
+  - Snow Blindness Prevention
+Q: What do you need?
+  - Calm Down / Breathe
+  - Can't Decide
+  - Feeling Alone
+Q: What would you like to read about?
+  - Insulation Science
+  - Snow Insulation
+  - Arctic Survival Guide
+  - Winter Water Sources
+  - Bedding & Ground Insulation
+
+[ContentDatabase+FireTriage.swift]
+Q: What do you need?
+  - I Have a Lighter or Matches
+Q: What's your situation?
+  - Dry Conditions
+  - Everything Is Wet
+  - I Need Low Smoke
+  - I Need a Signal Fire
+  - I Have a Waterproof Kit
+  - Repel Insects
+Q: Do you have tinder?
+  - Natural Tinder (Bark / Grass)
+  - Man-Made Tinder (Lint / Jute)
+  - No Tinder at All
+Q: Do you have charcloth or dry fungus?
+  - Yes — Have Char Material
+  - No — Need to Make Some
+Q: Is the sun visible?
+  - Yes — Sunny
+  - No Sun — Friction Methods
+Q: What do you need?
+  - Fuel & Structure
+  - Carry Fire to New Camp
+  - Fire Through the Night
+  - Extinguish Safely
+  - Signal Fire Maintenance
+  - Make a Torch
+Q: What's the problem?
+  - Rain / Wet Wood
+  - Snow / Ice on Ground
+  - High Wind
+  - Repel Insects
+Q: What's the purpose?
+  - Cooking Fire
+  - Concealed / Stealth
+  - Portable Torch
+  - Safety Perimeter
+Q: What are you preparing?
+  - Find Natural Tinder
+  - Make Tinder
+  - Accelerants
+Q: What would you like to read about?
+  - Fire-Starting Methods
+  - Primitive Fire Techniques
+  - Fuel Selection & Preparation
+  - Fire in Wet Conditions
+  - Fire Maintenance
+  - Cooking with Fire
+  - Signal Fires
+  - Fire by Biome
+  - Wood Identification
+  - Chemical Fire Starters
+  - Psychology of Fire
+  - Fire Safety

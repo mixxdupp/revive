@@ -37,8 +37,8 @@
           "illustrationDescription": "Minimal disturbance."
         }
       ],
-      "sourceName": "U.S. Army FM 21-76 – Evasion",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-door-barricade",
@@ -76,7 +76,7 @@
         }
       ],
       "sourceName": "FEMA – Shelter-in-Place",
-      "sourceUrl": "https://www.ready.gov/shelter"
+      "sourceUrl": "https://www.ready.gov/active-shooter"
     },
     {
       "id": "env-urban-grayman",
@@ -151,8 +151,8 @@
           "illustrationDescription": "Emergency only warning."
         }
       ],
-      "sourceName": "AAA – Vehicle Emergency",
-      "sourceUrl": "https://www.aaa.com/"
+      "sourceName": "AAA Foundation for Traffic Safety",
+      "sourceUrl": "https://exchange.aaa.com/safety/roadway-safety/breakdown-safety/"
     },
     {
       "id": "env-ziptie-escape",

@@ -1,199 +1,167 @@
 {
-    "domain": "environments",
-    "domainDisplayName": "Environments (Supplemental)",
-    "techniques": [
+  "domain": "environments",
+  "domainDisplayName": "Environments (Supplemental)",
+  "techniques": [
+    {
+      "id": "env-vehicle-escape",
+      "name": "Vehicle Escape",
+      "subtitle": "Get out of a trapped or crashed car",
+      "category": "Vehicle",
+      "difficulty": 2,
+      "estimatedTime": "1 min",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
         {
-            "id": "env-vehicle-escape",
-            "name": "Vehicle Escape",
-            "subtitle": "Get out of a trapped or crashed car",
-            "category": "Vehicle",
-            "difficulty": 2,
-            "estimatedTime": "1 min",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Unbuckle seatbelt immediately.",
-                    "helpDetail": "Cutting the belt is a last resort. Try the release button first.",
-                    "illustrationDescription": "Unbuckling."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Open or break the window.",
-                    "helpDetail": "Do not try the door if jammed. Use a window punch tool or headrest prongs to break side windows (aim for the corner).",
-                    "illustrationDescription": "Breaking window."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Exit through the window.",
-                    "helpDetail": "Push children out first. Do not return for possessions.",
-                    "illustrationDescription": "Climbing out."
-                }
-            ],
-            "sourceName": "AAA",
-            "sourceUrl": "https://www.aaa.com/"
+          "stepNumber": 1,
+          "instruction": "Unbuckle seatbelt immediately.",
+          "helpDetail": "Cutting the belt is a last resort. Try the release button first.",
+          "illustrationDescription": "Unbuckling."
         },
         {
-            "id": "env-vehicle-water-escape",
-            "name": "Sinking Vehicle Escape",
-            "subtitle": "S.W.O. - Seatbelt, Window, Out",
-            "category": "Vehicle",
-            "difficulty": 3,
-            "estimatedTime": "30 sec",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Unbuckle immediately (S.W.O: Seatbelts, Windows, Out).",
-                    "helpDetail": "Do not touch your phone. Unbuckle yourself and children instantly.",
-                    "illustrationDescription": "Unbuckling seatbelt."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Roll down or break windows instantly upon hitting water.",
-                    "helpDetail": "Electric windows work for 30-60 seconds. If they fail, use a window punch on the corner of the side glass. Do NOT try to open the door.",
-                    "illustrationDescription": "Breaking window."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Exit before water reaches the windows.",
-                    "helpDetail": "Never wait for equalization. Waiting guarantees drowning. Push children out first.",
-                    "illustrationDescription": "Escaping window."
-                }
-            ],
-            "sourceName": "MythBusters / Safety Experts",
-            "sourceUrl": "https://www.wikihow.com/Escape-from-a-Sinking-Car"
+          "stepNumber": 2,
+          "instruction": "Open or break the window.",
+          "helpDetail": "Do not try the door if jammed. Use a window punch tool or headrest prongs to break side windows (aim for the corner).",
+          "illustrationDescription": "Breaking window."
         },
         {
-            "id": "env-winter-car-kit",
-            "name": "Winter Vehicle Kit",
-            "subtitle": "Essentials for cold weather breakdown",
-            "category": "Vehicle",
-            "difficulty": 1,
-            "estimatedTime": "Pre-prep",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Pack warmth: Blankets, sleeping bag, extra hats/gloves.",
-                    "helpDetail": "The car cools down instantly when the engine dies.",
-                    "illustrationDescription": "Warmth gear."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Include sand/litter for traction and a shovel.",
-                    "helpDetail": "Getting unstuck prevents needing to survive in the car.",
-                    "illustrationDescription": "Traction aids."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Food and water (rotate regularly).",
-                    "helpDetail": "Energy bars and water bottles. Keep water from freezing if possible (keep inside cabin while driving).",
-                    "illustrationDescription": "Food water."
-                }
-            ],
-            "sourceName": "Ready.gov",
-            "sourceUrl": "https://www.ready.gov/car"
-        },
-        {
-            "id": "env-hazmat-evac",
-            "name": "Hazmat Evacuation",
-            "subtitle": "Move crosswind and uphill",
-            "category": "Hazmat",
-            "difficulty": 2,
-            "estimatedTime": "Immediate",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Determine wind direction.",
-                    "helpDetail": "Look at flags, smoke, or toss grass. Do NOT move downwind.",
-                    "illustrationDescription": "Checking wind."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Move CROSSWIND (perpendicular to wind).",
-                    "helpDetail": "This gets you out of the plume path fastest.",
-                    "illustrationDescription": "Moving crosswind."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Seek higher ground.",
-                    "helpDetail": "Many toxic gases (chlorine, propane) are heavier than air and settle in valleys/basements.",
-                    "illustrationDescription": "Uphill movement."
-                }
-            ],
-            "sourceName": "FEMA",
-            "sourceUrl": "https://www.ready.gov/"
-        },
-        {
-            "id": "env-nuclear-fallout",
-            "name": "Nuclear Fallout Protection",
-            "subtitle": "Distance + Shielding + Time",
-            "category": "Hazmat",
-            "difficulty": 3,
-            "estimatedTime": "14 days",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Get inside immediately. Deep is good.",
-                    "helpDetail": "Go to basement or center of a large building. Visual: Put as much concrete/earth between you and outside as possible.",
-                    "illustrationDescription": "Sheltering deep."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Stay inside for at least 24-72 hours.",
-                    "helpDetail": "Fallout radiation decays rapidly. 80% decay in 24 hours. Waiting saves your life.",
-                    "illustrationDescription": "Waiting."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Seal vents and windows.",
-                    "helpDetail": "Use plastic and tape. Turn off AC/Heater that pulls outside air.",
-                    "illustrationDescription": "Sealing vents."
-                }
-            ],
-            "sourceName": "Ready.gov",
-            "sourceUrl": "https://www.ready.gov/nuclear-explosion"
-        },
-        {
-            "id": "env-vehicle-riot-evasion",
-            "name": "Vehicular Mob Evasion",
-            "subtitle": "Surviving civil unrest in a car",
-            "category": "Vehicle",
-            "difficulty": 2,
-            "estimatedTime": "Immediate",
-            "hasHapticGuide": false,
-            "hapticType": null,
-            "steps": [
-                {
-                    "stepNumber": 1,
-                    "instruction": "Keep all doors locked and windows rolled up.",
-                    "helpDetail": "Do not exit the vehicle to confront the mob. The metal shell of the car is your primary armor.",
-                    "illustrationDescription": "Locking doors."
-                },
-                {
-                    "stepNumber": 2,
-                    "instruction": "Maintain slow, continuous forward momentum.",
-                    "helpDetail": "Do not stop for improvised barricades if possible. Push through at 5-10 mph without aggressively accelerating to avoid escalating violence.",
-                    "illustrationDescription": "Slow momentum."
-                },
-                {
-                    "stepNumber": 3,
-                    "instruction": "Do not turn off the engine unless immobilized or on fire.",
-                    "helpDetail": "If forced to a dead halt by an overwhelming mass, sound the horn continuously to draw police attention and keep foot on the brake.",
-                    "illustrationDescription": "Engine running."
-                }
-            ],
-            "sourceName": "Security Experts",
-            "sourceUrl": "https://www.ready.gov/"
+          "stepNumber": 3,
+          "instruction": "Exit through the window.",
+          "helpDetail": "Push children out first. Do not return for possessions.",
+          "illustrationDescription": "Climbing out."
         }
-    ],
-    "articles": []
+      ],
+      "sourceName": "AAA Foundation for Traffic Safety",
+      "sourceUrl": "https://exchange.aaa.com/safety/roadway-safety/submerged-vehicles/"
+    },
+    {
+      "id": "env-winter-car-kit",
+      "name": "Winter Vehicle Kit",
+      "subtitle": "Essentials for cold weather breakdown",
+      "category": "Vehicle",
+      "difficulty": 1,
+      "estimatedTime": "Pre-prep",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Pack warmth: Blankets, sleeping bag, extra hats/gloves.",
+          "helpDetail": "The car cools down instantly when the engine dies.",
+          "illustrationDescription": "Warmth gear."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Include sand/litter for traction and a shovel.",
+          "helpDetail": "Getting unstuck prevents needing to survive in the car.",
+          "illustrationDescription": "Traction aids."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Food and water (rotate regularly).",
+          "helpDetail": "Energy bars and water bottles. Keep water from freezing if possible (keep inside cabin while driving).",
+          "illustrationDescription": "Food water."
+        }
+      ],
+      "sourceName": "Ready.gov Safety",
+      "sourceUrl": "https://www.ready.gov/be-informed"
+    },
+    {
+      "id": "env-hazmat-evac",
+      "name": "Hazmat Evacuation",
+      "subtitle": "Move crosswind and uphill",
+      "category": "Hazmat",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Determine wind direction.",
+          "helpDetail": "Look at flags, smoke, or toss grass. Do NOT move downwind.",
+          "illustrationDescription": "Checking wind."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Move CROSSWIND (perpendicular to wind).",
+          "helpDetail": "This gets you out of the plume path fastest.",
+          "illustrationDescription": "Moving crosswind."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Seek higher ground.",
+          "helpDetail": "Many toxic gases (chlorine, propane) are heavier than air and settle in valleys/basements.",
+          "illustrationDescription": "Uphill movement."
+        }
+      ],
+      "sourceName": "FEMA",
+      "sourceUrl": "https://www.ready.gov/hazardous-materials-incidents"
+    },
+    {
+      "id": "env-nuclear-fallout",
+      "name": "Nuclear Fallout Protection",
+      "subtitle": "Distance + Shielding + Time",
+      "category": "Hazmat",
+      "difficulty": 3,
+      "estimatedTime": "14 days",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Get inside immediately. Deep is good.",
+          "helpDetail": "Go to basement or center of a large building. Visual: Put as much concrete/earth between you and outside as possible.",
+          "illustrationDescription": "Sheltering deep."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Stay inside for at least 24-72 hours.",
+          "helpDetail": "Fallout radiation decays rapidly. 80% decay in 24 hours. Waiting saves your life.",
+          "illustrationDescription": "Waiting."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Seal vents and windows.",
+          "helpDetail": "Use plastic and tape. Turn off AC/Heater that pulls outside air.",
+          "illustrationDescription": "Sealing vents."
+        }
+      ],
+      "sourceName": "Ready.gov",
+      "sourceUrl": "https://www.ready.gov/nuclear-explosion"
+    },
+    {
+      "id": "env-vehicle-riot-evasion",
+      "name": "Vehicular Mob Evasion",
+      "subtitle": "Surviving civil unrest in a car",
+      "category": "Vehicle",
+      "difficulty": 2,
+      "estimatedTime": "Immediate",
+      "hasHapticGuide": false,
+      "hapticType": null,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Keep all doors locked and windows rolled up.",
+          "helpDetail": "Do not exit the vehicle to confront the mob. The metal shell of the car is your primary armor.",
+          "illustrationDescription": "Locking doors."
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Maintain slow, continuous forward momentum.",
+          "helpDetail": "Do not stop for improvised barricades if possible. Push through at 5-10 mph without aggressively accelerating to avoid escalating violence.",
+          "illustrationDescription": "Slow momentum."
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Do not turn off the engine unless immobilized or on fire.",
+          "helpDetail": "If forced to a dead halt by an overwhelming mass, sound the horn continuously to draw police attention and keep foot on the brake.",
+          "illustrationDescription": "Engine running."
+        }
+      ],
+      "sourceName": "Security Experts",
+      "sourceUrl": "https://www.ready.gov/active-shooter"
+    }
+  ],
+  "articles": []
 }

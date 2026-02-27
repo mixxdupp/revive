@@ -215,8 +215,8 @@
           "illustrationDescription": "Side walls."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-tarp-cfly",
@@ -317,8 +317,8 @@
           "illustrationDescription": "Tarp and snow layer covering the roof structure."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-quinzhee",
@@ -355,8 +355,8 @@
           "illustrationDescription": "Person digging into the mound from ground level."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-igloo",
@@ -495,8 +495,8 @@
           "illustrationDescription": "Tarp suspended above the hammock."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-mylar-wrap",
@@ -577,8 +577,8 @@
           "illustrationDescription": "Vehicle signaling."
         }
       ],
-      "sourceName": "AAA – Vehicle Emergency",
-      "sourceUrl": "https://www.aaa.com/"
+      "sourceName": "Ready.gov",
+      "sourceUrl": "https://www.ready.gov/car"
     },
     {
       "id": "shelter-emergency-bivy",
@@ -621,8 +621,8 @@
           "illustrationDescription": "Heat conservation."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-raised-platform",
@@ -767,8 +767,8 @@
           "illustrationDescription": "Signaling from vehicle."
         }
       ],
-      "sourceName": "AAA – Vehicle Emergency",
-      "sourceUrl": "https://www.aaa.com/"
+      "sourceName": "Ready.gov",
+      "sourceUrl": "https://www.ready.gov/car"
     },
     {
       "id": "shelter-tree-platform",
@@ -805,8 +805,8 @@
           "illustrationDescription": "Adding leaf roof."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-rock-overhang",
@@ -943,44 +943,6 @@
       "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
-      "id": "shelter-underground",
-      "name": "Underground Shelter",
-      "subtitle": "Dig below the surface for extreme temperature regulation",
-      "category": "Advanced",
-      "difficulty": 3,
-      "estimatedTime": "3-5 hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Dig a trench 3 feet deep, body-length plus 1 foot, shoulder-width plus 6 inches.",
-          "helpDetail": "Choose well-drained soil. Sandy soil is easy to dig but may collapse. Clay holds shape but is exhausting. Avoid areas with high water table.",
-          "illustrationDescription": "Digging trench."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Lay poles across the top of the trench as roof beams.",
-          "helpDetail": "Poles must be strong enough to support the covering material weight. Space them 6-8 inches apart. Use the strongest wood available.",
-          "illustrationDescription": "Roof beams."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Cover with branches, leaves, and 6+ inches of soil.",
-          "helpDetail": "Layer: branches, then leaves/grass, then soil. The soil provides insulation and waterproofing. Leave entrance at one end.",
-          "illustrationDescription": "Covering the shelter."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Line the floor with insulating material. Create a drainage channel.",
-          "helpDetail": "Dig a small drainage trench along one wall lower than the sleeping area. Rain water channels to this trench instead of pooling under you.",
-          "illustrationDescription": "Floor preparation."
-        }
-      ],
-      "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
-    },
-    {
       "id": "shelter-bough-bed",
       "name": "Bough Bed Construction",
       "subtitle": "Build an insulating sleeping surface from branches",
@@ -1009,8 +971,8 @@
           "illustrationDescription": "Testing bed."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-grass-bed",
@@ -1105,8 +1067,8 @@
           "illustrationDescription": "Size reduction."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-door-construction",
@@ -1201,8 +1163,8 @@
           "illustrationDescription": "Drainage trench."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-storm-proofing",
@@ -1297,8 +1259,8 @@
           "illustrationDescription": "Fire and wall."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-snow-wall",
@@ -1361,8 +1323,8 @@
           "illustrationDescription": "Sun orientation."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-camouflage",
@@ -1393,8 +1355,8 @@
           "illustrationDescription": "Hide signs."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-urban-debris",
@@ -1425,8 +1387,8 @@
           "illustrationDescription": "Insulating."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-coastal-driftwood",
@@ -1661,8 +1623,8 @@
           "illustrationDescription": "Lowered roof."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-swamp-bed",
@@ -1693,8 +1655,8 @@
           "illustrationDescription": "Platform bed."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-fire-reflector",
@@ -1865,8 +1827,8 @@
           "illustrationDescription": "Side walls."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-poncho-tent",
@@ -2005,8 +1967,8 @@
           "illustrationDescription": "Build a raised sleeping platfo"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-pit-house",
@@ -2049,8 +2011,8 @@
           "illustrationDescription": "Leave an entrance on the downh"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-spider-hole",
@@ -2093,8 +2055,8 @@
           "illustrationDescription": "Leave a small opening for entr"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-snow-cave-insulation",
@@ -2313,8 +2275,8 @@
           "illustrationDescription": "Maintain the fire in a long tr"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-emergency-trash-insulation",
@@ -2357,8 +2319,8 @@
           "illustrationDescription": "Bubble wrap: wrap around torso"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-tree-house-platform",
@@ -2401,8 +2363,8 @@
           "illustrationDescription": "Build a wind/rain screen on th"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-door-insulation",
@@ -2709,8 +2671,8 @@
           "illustrationDescription": "Sleep near the entrance, not d"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-long-term-maintenance",
@@ -2845,50 +2807,6 @@
       "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
-      "id": "shelter-desert-trench-tarp",
-      "name": "Desert Trench Shelter",
-      "subtitle": "Escape extreme daytime heat using a subsurface trench",
-      "category": "Desert",
-      "difficulty": 2,
-      "estimatedTime": "1 hr",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Find a depression or dig a trench 18-24 inches deep in an East-West orientation.",
-          "helpDetail": "The East-West alignment minimizes direct sun exposure on the end walls as the sun moves across the sky.",
-          "illustrationDescription": "Find a depression or dig a tre"
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "The ground temperature 18 inches below the surface can be 20-30°F cooler than the surface air.",
-          "helpDetail": "Surface sand exceeds 140°F. Subsurface sand stays closer to the average annual temperature (70-80°F).",
-          "illustrationDescription": "The ground temperature 18 inch"
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Cover the trench with a tarp, poncho, or parachute cloth. Weight the edges with sand.",
-          "helpDetail": "The cover blocks the sun and traps the cooler air inside the trench. Ensure enough headroom so the hot tarp doesn't touch your skin.",
-          "illustrationDescription": "Cover the trench with a tarp, "
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Add a second layer of material suspended 6 inches above the first (double-roof).",
-          "helpDetail": "This creates insulating dead airspace. The top tarp takes the solar heat load while the bottom layer remains significantly cooler.",
-          "illustrationDescription": "Add a second layer of material"
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "Lie still during the heat of the day. Do not exert yourself between 10 AM and 4 PM.",
-          "helpDetail": "A trench shelter is for passive daytime survival. Sweating is the enemy in desert survival. Travel only at night or early morning.",
-          "illustrationDescription": "Lie still during the heat of t"
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
       "id": "shelter-raised-swamp-bed",
       "name": "Raised Swamp Bed",
       "subtitle": "Build an elevated sleeping platform in wet terrain",
@@ -3017,52 +2935,8 @@
           "illustrationDescription": "Build a simple A-frame roof ab"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-desert-shade",
-      "name": "Desert Shade Shelter",
-      "subtitle": "Double-layered shade to survive extreme solar radiation",
-      "category": "Desert",
-      "difficulty": 2,
-      "estimatedTime": "30 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "In desert survival, shade is more critical than water in the first 4 hours.",
-          "helpDetail": "Direct sun exposure causes heat stroke in as little as 30 minutes at 120°F.",
-          "illustrationDescription": "In desert survival, shade is m"
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Erect a poncho or tarp on 4 stakes about 2 feet off the ground.",
-          "helpDetail": "This is your primary shade layer. Sit or lie beneath it.",
-          "illustrationDescription": "Erect a poncho or tarp on 4 st"
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "If you have a second piece of fabric, erect it 12 inches ABOVE the first layer.",
-          "helpDetail": "The air gap between the two layers acts as insulation, reducing ground temperature by up to 40°F.",
-          "illustrationDescription": "If you have a second piece of "
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Dig a shallow body-length depression under the shade structure.",
-          "helpDetail": "Even 6 inches of depth puts you in contact with cooler subsurface sand.",
-          "illustrationDescription": "Dig a shallow body-length depr"
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "Restrict all movement to nighttime.",
-          "helpDetail": "Travel only between sunset and sunrise. Rest in your shade structure during the day to minimize water loss through sweat.",
-          "illustrationDescription": "Restrict all movement to night"
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-improvised-insulation",
@@ -3105,8 +2979,8 @@
           "illustrationDescription": "Replace the insulation if it g"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-improvised-poncho",
@@ -3237,8 +3111,8 @@
           "illustrationDescription": "Signal by tying bright cloth t"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-kochanski-supershelter",
@@ -3274,45 +3148,8 @@
           "helpDetail": "Short-wave thermal radiation passes through the clear plastic, warms the inside, and is trapped as long-wave heat (greenhouse effect)."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-spider-hole",
-      "category": "Evasion",
-      "name": "Spider Hole / Hideout",
-      "subtitle": "Concealed sub-surface evasion shelter",
-      "difficulty": 3,
-      "isCritical": false,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select a dry, elevated site.",
-          "helpDetail": "Choose a spot with natural camouflage (under a fallen tree or thick brush) that will not flood if it rains."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Dig a vertical shaft.",
-          "helpDetail": "Dig a hole just wide and deep enough to sit or crouch in. Scatter the excavated dirt far away to avoid leaving sign."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Construct a rigid lid.",
-          "helpDetail": "Build a frame out of sticks or use a sturdy piece of bark that completely covers the hole opening."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Camouflage the lid.",
-          "helpDetail": "Glue natural debris (leaves, moss, dirt) to the top of the lid using sap or mud so it perfectly matches the surrounding forest floor."
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "Ensure ventilation.",
-          "helpDetail": "Leave a small, stealthy gap for oxygen. Slide the lid over yourself when hiding."
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-wickiup-construction",
@@ -3343,8 +3180,8 @@
           "helpDetail": "Start at the bottom and layer upward like shingles. 12+ inch thickness for insulation."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-lean-to-advanced",
@@ -3375,8 +3212,8 @@
           "helpDetail": "Heat radiates toward you directly AND bounces off the reflector wall."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-super-shelter",
@@ -3407,8 +3244,8 @@
           "helpDetail": "Interior can be 50-60°F warmer than outside, even without a sleeping bag."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-hot-rock-bed",
@@ -3439,8 +3276,8 @@
           "helpDetail": "Provides 4-8 hours of gentle radiant warmth from below."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-para-hammock",
@@ -3471,8 +3308,8 @@
           "helpDetail": "Sleep diagonally for a flatter lay."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-snow-wall-windbreak",
@@ -3503,8 +3340,8 @@
           "helpDetail": "Wind protection makes fire maintenance much easier in storms."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-debris-insulation-calc",
@@ -3535,8 +3372,8 @@
           "helpDetail": "You lose 10x more heat by conduction to cold ground than to cold air."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-tarp-plow-point-advanced",
@@ -3567,8 +3404,8 @@
           "helpDetail": "The aerodynamic shape prevents wind from catching under the tarp."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-underground-bunker",
@@ -3599,8 +3436,8 @@
           "helpDetail": "Dig a small trench to prevent water from flooding your shelter."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-water-crossing-camp",
@@ -3631,8 +3468,8 @@
           "helpDetail": "Have warm clothing ready to change into immediately after crossing."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-log-cabin-basics",
@@ -3669,8 +3506,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-sod-house",
@@ -3707,8 +3544,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-tarp-configurations",
@@ -3745,8 +3582,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-root-cellar",
@@ -3783,8 +3620,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-chimney-fireplace",
@@ -3821,8 +3658,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-wattle-and-daub",
@@ -3859,8 +3696,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-vehicle-shelter",
@@ -3897,8 +3734,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-hammock-suspension",
@@ -3935,8 +3772,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-solar-still-shelter",
@@ -3973,8 +3810,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-debris-wall",
@@ -4011,8 +3848,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-brush-shelter",
@@ -4049,8 +3886,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-tarp-lean-to",
@@ -4087,8 +3924,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-underground-shelter",
@@ -4125,8 +3962,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-igloo-construction",
@@ -4163,46 +4000,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-desert-shade-structure",
-      "name": "Desert Shade Structure",
-      "subtitle": "Double-roof shade that drops temperature 30°F below ambient",
-      "category": "Desert Survival",
-      "difficulty": 2,
-      "estimatedTime": "1 hr",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Set up TWO shade layers with a 12-inch air gap between them.",
-          "helpDetail": "The first layer absorbs solar radiation. The air gap prevents heat transfer to the second layer.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Use any available materials: tarp, blanket, vegetation, fabric on a pole frame.",
-          "helpDetail": "Even thin fabric provides significant shade. The key is the air gap.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Open sides for maximum airflow — shade without ventilation traps heat.",
-          "helpDetail": "Orient the long axis east-west to catch north-south breezes.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "A double-roof shade structure reduces perceived temperature by 30°F.",
-          "helpDetail": "This is the difference between heat stroke and survival. Build shade FIRST in desert situations, before water procurement.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-swamp-platform",
@@ -4239,8 +4038,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-poncho-hooch",
@@ -4277,8 +4076,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-rock-wall-windbreak",
@@ -4315,8 +4114,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-desert-subterranean",
@@ -4353,8 +4152,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-parateepee",
@@ -4391,8 +4190,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-straddle-trench",
@@ -4429,8 +4228,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-camp-triad",
@@ -4467,1528 +4266,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-waste-jungle",
-      "name": "Waste Disposal Basin in Jungle",
-      "subtitle": "Adapting waste disposal basin construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the waste disposal basin foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the waste disposal basin deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the waste disposal basin.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-waste-alpine",
-      "name": "Waste Disposal Basin in Alpine",
-      "subtitle": "Adapting waste disposal basin construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the waste disposal basin foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the waste disposal basin deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the waste disposal basin.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-waste-desert",
-      "name": "Waste Disposal Basin in Desert",
-      "subtitle": "Adapting waste disposal basin construction for desert sand camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Desert.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the desert sand ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the waste disposal basin foundation.",
-          "helpDetail": "In a Desert, the ground may be frozen, sandy, or swampy. Anchor the waste disposal basin deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the waste disposal basin.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the desert sand.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-waste-coniferous",
-      "name": "Waste Disposal Basin in Coniferous",
-      "subtitle": "Adapting waste disposal basin construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the waste disposal basin foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the waste disposal basin deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the waste disposal basin.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-waste-swampland",
-      "name": "Waste Disposal Basin in Swampland",
-      "subtitle": "Adapting waste disposal basin construction for swampland camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Swampland.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the swampland ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the waste disposal basin foundation.",
-          "helpDetail": "In a Swampland, the ground may be frozen, sandy, or swampy. Anchor the waste disposal basin deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the waste disposal basin.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the swampland.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-greywater-jungle",
-      "name": "Greywater Sump in Jungle",
-      "subtitle": "Adapting greywater sump construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the greywater sump foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the greywater sump deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the greywater sump.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-greywater-alpine",
-      "name": "Greywater Sump in Alpine",
-      "subtitle": "Adapting greywater sump construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the greywater sump foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the greywater sump deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the greywater sump.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-greywater-desert",
-      "name": "Greywater Sump in Desert",
-      "subtitle": "Adapting greywater sump construction for desert sand camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Desert.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the desert sand ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the greywater sump foundation.",
-          "helpDetail": "In a Desert, the ground may be frozen, sandy, or swampy. Anchor the greywater sump deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the greywater sump.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the desert sand.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-greywater-coniferous",
-      "name": "Greywater Sump in Coniferous",
-      "subtitle": "Adapting greywater sump construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the greywater sump foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the greywater sump deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the greywater sump.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-greywater-swampland",
-      "name": "Greywater Sump in Swampland",
-      "subtitle": "Adapting greywater sump construction for swampland camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Swampland.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the swampland ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the greywater sump foundation.",
-          "helpDetail": "In a Swampland, the ground may be frozen, sandy, or swampy. Anchor the greywater sump deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the greywater sump.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the swampland.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-drying-jungle",
-      "name": "Drying Rack in Jungle",
-      "subtitle": "Adapting drying rack construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the drying rack foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the drying rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the drying rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-drying-alpine",
-      "name": "Drying Rack in Alpine",
-      "subtitle": "Adapting drying rack construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the drying rack foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the drying rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the drying rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-drying-desert",
-      "name": "Drying Rack in Desert",
-      "subtitle": "Adapting drying rack construction for desert sand camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Desert.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the desert sand ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the drying rack foundation.",
-          "helpDetail": "In a Desert, the ground may be frozen, sandy, or swampy. Anchor the drying rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the drying rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the desert sand.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-drying-coniferous",
-      "name": "Drying Rack in Coniferous",
-      "subtitle": "Adapting drying rack construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the drying rack foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the drying rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the drying rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-drying-swampland",
-      "name": "Drying Rack in Swampland",
-      "subtitle": "Adapting drying rack construction for swampland camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Swampland.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the swampland ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the drying rack foundation.",
-          "helpDetail": "In a Swampland, the ground may be frozen, sandy, or swampy. Anchor the drying rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the drying rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the swampland.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-fire-alpine",
-      "name": "Fire Reflector Wall in Alpine",
-      "subtitle": "Adapting fire reflector wall construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the fire reflector wall foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the fire reflector wall deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the fire reflector wall.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-fire-desert",
-      "name": "Fire Reflector Wall in Desert",
-      "subtitle": "Adapting fire reflector wall construction for desert sand camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Desert.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the desert sand ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the fire reflector wall foundation.",
-          "helpDetail": "In a Desert, the ground may be frozen, sandy, or swampy. Anchor the fire reflector wall deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the fire reflector wall.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the desert sand.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-fire-coniferous",
-      "name": "Fire Reflector Wall in Coniferous",
-      "subtitle": "Adapting fire reflector wall construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the fire reflector wall foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the fire reflector wall deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the fire reflector wall.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-raised-jungle",
-      "name": "Raised Bed Platform in Jungle",
-      "subtitle": "Adapting raised bed platform construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the raised bed platform foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the raised bed platform deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the raised bed platform.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-raised-alpine",
-      "name": "Raised Bed Platform in Alpine",
-      "subtitle": "Adapting raised bed platform construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the raised bed platform foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the raised bed platform deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the raised bed platform.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-raised-desert",
-      "name": "Raised Bed Platform in Desert",
-      "subtitle": "Adapting raised bed platform construction for desert sand camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Desert.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the desert sand ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the raised bed platform foundation.",
-          "helpDetail": "In a Desert, the ground may be frozen, sandy, or swampy. Anchor the raised bed platform deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the raised bed platform.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the desert sand.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-raised-coniferous",
-      "name": "Raised Bed Platform in Coniferous",
-      "subtitle": "Adapting raised bed platform construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the raised bed platform foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the raised bed platform deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the raised bed platform.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-raised-swampland",
-      "name": "Raised Bed Platform in Swampland",
-      "subtitle": "Adapting raised bed platform construction for swampland camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Swampland.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the swampland ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the raised bed platform foundation.",
-          "helpDetail": "In a Swampland, the ground may be frozen, sandy, or swampy. Anchor the raised bed platform deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the raised bed platform.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the swampland.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-smokehouse-jungle",
-      "name": "Smokehouse Rack in Jungle",
-      "subtitle": "Adapting smokehouse rack construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the smokehouse rack foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the smokehouse rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the smokehouse rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-smokehouse-alpine",
-      "name": "Smokehouse Rack in Alpine",
-      "subtitle": "Adapting smokehouse rack construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the smokehouse rack foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the smokehouse rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the smokehouse rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-smokehouse-desert",
-      "name": "Smokehouse Rack in Desert",
-      "subtitle": "Adapting smokehouse rack construction for desert sand camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Desert.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the desert sand ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the smokehouse rack foundation.",
-          "helpDetail": "In a Desert, the ground may be frozen, sandy, or swampy. Anchor the smokehouse rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the smokehouse rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the desert sand.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-smokehouse-coniferous",
-      "name": "Smokehouse Rack in Coniferous",
-      "subtitle": "Adapting smokehouse rack construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the smokehouse rack foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the smokehouse rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the smokehouse rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-smokehouse-swampland",
-      "name": "Smokehouse Rack in Swampland",
-      "subtitle": "Adapting smokehouse rack construction for swampland camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Swampland.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the swampland ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the smokehouse rack foundation.",
-          "helpDetail": "In a Swampland, the ground may be frozen, sandy, or swampy. Anchor the smokehouse rack deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the smokehouse rack.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the swampland.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-meat-jungle",
-      "name": "Meat Cache in Jungle",
-      "subtitle": "Adapting meat cache construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the meat cache foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the meat cache deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the meat cache.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-meat-alpine",
-      "name": "Meat Cache in Alpine",
-      "subtitle": "Adapting meat cache construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the meat cache foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the meat cache deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the meat cache.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-meat-coniferous",
-      "name": "Meat Cache in Coniferous",
-      "subtitle": "Adapting meat cache construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the meat cache foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the meat cache deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the meat cache.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-water-jungle",
-      "name": "Water Filtration Stand in Jungle",
-      "subtitle": "Adapting water filtration stand construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the water filtration stand foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the water filtration stand deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the water filtration stand.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-water-alpine",
-      "name": "Water Filtration Stand in Alpine",
-      "subtitle": "Adapting water filtration stand construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the water filtration stand foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the water filtration stand deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the water filtration stand.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-water-desert",
-      "name": "Water Filtration Stand in Desert",
-      "subtitle": "Adapting water filtration stand construction for desert sand camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Desert.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the desert sand ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the water filtration stand foundation.",
-          "helpDetail": "In a Desert, the ground may be frozen, sandy, or swampy. Anchor the water filtration stand deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the water filtration stand.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the desert sand.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-water-coniferous",
-      "name": "Water Filtration Stand in Coniferous",
-      "subtitle": "Adapting water filtration stand construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the water filtration stand foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the water filtration stand deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the water filtration stand.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-water-swampland",
-      "name": "Water Filtration Stand in Swampland",
-      "subtitle": "Adapting water filtration stand construction for swampland camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Swampland.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the swampland ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the water filtration stand foundation.",
-          "helpDetail": "In a Swampland, the ground may be frozen, sandy, or swampy. Anchor the water filtration stand deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the water filtration stand.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the swampland.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-rain-jungle",
-      "name": "Rain Catchment Tarp in Jungle",
-      "subtitle": "Adapting rain catchment tarp construction for jungle canopy camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Jungle.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the jungle canopy ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the rain catchment tarp foundation.",
-          "helpDetail": "In a Jungle, the ground may be frozen, sandy, or swampy. Anchor the rain catchment tarp deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the rain catchment tarp.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the jungle canopy.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-rain-alpine",
-      "name": "Rain Catchment Tarp in Alpine",
-      "subtitle": "Adapting rain catchment tarp construction for alpine terrain camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Alpine.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the alpine terrain ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the rain catchment tarp foundation.",
-          "helpDetail": "In a Alpine, the ground may be frozen, sandy, or swampy. Anchor the rain catchment tarp deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the rain catchment tarp.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the alpine terrain.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-rain-coniferous",
-      "name": "Rain Catchment Tarp in Coniferous",
-      "subtitle": "Adapting rain catchment tarp construction for coniferous forest camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Coniferous.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the coniferous forest ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the rain catchment tarp foundation.",
-          "helpDetail": "In a Coniferous, the ground may be frozen, sandy, or swampy. Anchor the rain catchment tarp deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the rain catchment tarp.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the coniferous forest.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "shelter-encyclopedia-infra-rain-swampland",
-      "name": "Rain Catchment Tarp in Swampland",
-      "subtitle": "Adapting rain catchment tarp construction for swampland camps.",
-      "category": "Camp Infrastructure",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select materials optimized for Swampland.",
-          "helpDetail": "Gather deadfall, rock, or foliage specific to the swampland ecosystem that resist rot/wear.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Construct the rain catchment tarp foundation.",
-          "helpDetail": "In a Swampland, the ground may be frozen, sandy, or swampy. Anchor the rain catchment tarp deeply using local stakes or heavy ballast stones.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Utilize the rain catchment tarp.",
-          "helpDetail": "Integrate it into the daily camp workflow to maximize efficiency and minimize caloric expenditure in the swampland.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain field sanitation.",
-          "helpDetail": "Ensure the structure does not harbor insects, mold, or predators over time. Breakdown and move if the immediate micro-environment degrades.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-10 US Army Field Hygiene",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-snow-trench-quinzee",
@@ -6065,1305 +4344,13 @@
       ],
       "sourceName": "SAS Survival Handbook",
       "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-tropical-woven",
-      "name": "Woven Palm Shingling in Tropical",
-      "subtitle": "Deploying woven palm/broadleaf specifically to shed the precipitation/wind of a Tropical biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Woven Palm sustainably.",
-          "helpDetail": "In a Tropical environment, gathering the massive volume of woven palm/broadleaf required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of woven palm/broadleaf in the Tropical requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the woven palm/broadleaf starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Tropical wind.",
-          "helpDetail": "The sheer weight or drag of woven palm/broadleaf makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-tropical-pine",
-      "name": "Pine Shingling in Tropical",
-      "subtitle": "Deploying pine bough thatch specifically to shed the precipitation/wind of a Tropical biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Pine sustainably.",
-          "helpDetail": "In a Tropical environment, gathering the massive volume of pine bough thatch required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of pine bough thatch in the Tropical requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the pine bough thatch starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Tropical wind.",
-          "helpDetail": "The sheer weight or drag of pine bough thatch makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-tropical-sod-grass",
-      "name": "Sod Shingling in Tropical",
-      "subtitle": "Deploying sod/grass plugs specifically to shed the precipitation/wind of a Tropical biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sod sustainably.",
-          "helpDetail": "In a Tropical environment, gathering the massive volume of sod/grass plugs required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sod/grass plugs in the Tropical requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sod/grass plugs starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Tropical wind.",
-          "helpDetail": "The sheer weight or drag of sod/grass plugs makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-tropical-bark",
-      "name": "Bark Shingling in Tropical",
-      "subtitle": "Deploying bark shingles specifically to shed the precipitation/wind of a Tropical biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Bark sustainably.",
-          "helpDetail": "In a Tropical environment, gathering the massive volume of bark shingles required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of bark shingles in the Tropical requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the bark shingles starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Tropical wind.",
-          "helpDetail": "The sheer weight or drag of bark shingles makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-tropical-sand-earth",
-      "name": "Sand Shingling in Tropical",
-      "subtitle": "Deploying sand/earth berm specifically to shed the precipitation/wind of a Tropical biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sand sustainably.",
-          "helpDetail": "In a Tropical environment, gathering the massive volume of sand/earth berm required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sand/earth berm in the Tropical requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sand/earth berm starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Tropical wind.",
-          "helpDetail": "The sheer weight or drag of sand/earth berm makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-tropical-canvas",
-      "name": "Canvas Shingling in Tropical",
-      "subtitle": "Deploying canvas tarp specifically to shed the precipitation/wind of a Tropical biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Canvas sustainably.",
-          "helpDetail": "In a Tropical environment, gathering the massive volume of canvas tarp required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of canvas tarp in the Tropical requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the canvas tarp starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Tropical wind.",
-          "helpDetail": "The sheer weight or drag of canvas tarp makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-boreal-pine",
-      "name": "Pine Shingling in Boreal",
-      "subtitle": "Deploying pine bough thatch specifically to shed the precipitation/wind of a Boreal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Pine sustainably.",
-          "helpDetail": "In a Boreal environment, gathering the massive volume of pine bough thatch required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of pine bough thatch in the Boreal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the pine bough thatch starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Boreal wind.",
-          "helpDetail": "The sheer weight or drag of pine bough thatch makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-boreal-sod-grass",
-      "name": "Sod Shingling in Boreal",
-      "subtitle": "Deploying sod/grass plugs specifically to shed the precipitation/wind of a Boreal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sod sustainably.",
-          "helpDetail": "In a Boreal environment, gathering the massive volume of sod/grass plugs required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sod/grass plugs in the Boreal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sod/grass plugs starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Boreal wind.",
-          "helpDetail": "The sheer weight or drag of sod/grass plugs makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-boreal-snow",
-      "name": "Snow Shingling in Boreal",
-      "subtitle": "Deploying snow blocks specifically to shed the precipitation/wind of a Boreal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Snow sustainably.",
-          "helpDetail": "In a Boreal environment, gathering the massive volume of snow blocks required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of snow blocks in the Boreal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the snow blocks starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Boreal wind.",
-          "helpDetail": "The sheer weight or drag of snow blocks makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-boreal-bark",
-      "name": "Bark Shingling in Boreal",
-      "subtitle": "Deploying bark shingles specifically to shed the precipitation/wind of a Boreal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Bark sustainably.",
-          "helpDetail": "In a Boreal environment, gathering the massive volume of bark shingles required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of bark shingles in the Boreal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the bark shingles starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Boreal wind.",
-          "helpDetail": "The sheer weight or drag of bark shingles makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-boreal-canvas",
-      "name": "Canvas Shingling in Boreal",
-      "subtitle": "Deploying canvas tarp specifically to shed the precipitation/wind of a Boreal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Canvas sustainably.",
-          "helpDetail": "In a Boreal environment, gathering the massive volume of canvas tarp required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of canvas tarp in the Boreal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the canvas tarp starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Boreal wind.",
-          "helpDetail": "The sheer weight or drag of canvas tarp makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-arid-pine",
-      "name": "Pine Shingling in Arid",
-      "subtitle": "Deploying pine bough thatch specifically to shed the precipitation/wind of a Arid biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Pine sustainably.",
-          "helpDetail": "In a Arid environment, gathering the massive volume of pine bough thatch required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of pine bough thatch in the Arid requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the pine bough thatch starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Arid wind.",
-          "helpDetail": "The sheer weight or drag of pine bough thatch makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-arid-sod-grass",
-      "name": "Sod Shingling in Arid",
-      "subtitle": "Deploying sod/grass plugs specifically to shed the precipitation/wind of a Arid biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sod sustainably.",
-          "helpDetail": "In a Arid environment, gathering the massive volume of sod/grass plugs required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sod/grass plugs in the Arid requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sod/grass plugs starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Arid wind.",
-          "helpDetail": "The sheer weight or drag of sod/grass plugs makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-arid-bark",
-      "name": "Bark Shingling in Arid",
-      "subtitle": "Deploying bark shingles specifically to shed the precipitation/wind of a Arid biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Bark sustainably.",
-          "helpDetail": "In a Arid environment, gathering the massive volume of bark shingles required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of bark shingles in the Arid requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the bark shingles starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Arid wind.",
-          "helpDetail": "The sheer weight or drag of bark shingles makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-arid-sand-earth",
-      "name": "Sand Shingling in Arid",
-      "subtitle": "Deploying sand/earth berm specifically to shed the precipitation/wind of a Arid biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sand sustainably.",
-          "helpDetail": "In a Arid environment, gathering the massive volume of sand/earth berm required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sand/earth berm in the Arid requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sand/earth berm starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Arid wind.",
-          "helpDetail": "The sheer weight or drag of sand/earth berm makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-arid-canvas",
-      "name": "Canvas Shingling in Arid",
-      "subtitle": "Deploying canvas tarp specifically to shed the precipitation/wind of a Arid biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Canvas sustainably.",
-          "helpDetail": "In a Arid environment, gathering the massive volume of canvas tarp required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of canvas tarp in the Arid requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the canvas tarp starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Arid wind.",
-          "helpDetail": "The sheer weight or drag of canvas tarp makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-high-pine",
-      "name": "Pine Shingling in High",
-      "subtitle": "Deploying pine bough thatch specifically to shed the precipitation/wind of a High biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Pine sustainably.",
-          "helpDetail": "In a High environment, gathering the massive volume of pine bough thatch required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of pine bough thatch in the High requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the pine bough thatch starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against High wind.",
-          "helpDetail": "The sheer weight or drag of pine bough thatch makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-high-sod-grass",
-      "name": "Sod Shingling in High",
-      "subtitle": "Deploying sod/grass plugs specifically to shed the precipitation/wind of a High biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sod sustainably.",
-          "helpDetail": "In a High environment, gathering the massive volume of sod/grass plugs required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sod/grass plugs in the High requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sod/grass plugs starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against High wind.",
-          "helpDetail": "The sheer weight or drag of sod/grass plugs makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-high-snow",
-      "name": "Snow Shingling in High",
-      "subtitle": "Deploying snow blocks specifically to shed the precipitation/wind of a High biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Snow sustainably.",
-          "helpDetail": "In a High environment, gathering the massive volume of snow blocks required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of snow blocks in the High requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the snow blocks starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against High wind.",
-          "helpDetail": "The sheer weight or drag of snow blocks makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-high-bark",
-      "name": "Bark Shingling in High",
-      "subtitle": "Deploying bark shingles specifically to shed the precipitation/wind of a High biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Bark sustainably.",
-          "helpDetail": "In a High environment, gathering the massive volume of bark shingles required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of bark shingles in the High requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the bark shingles starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against High wind.",
-          "helpDetail": "The sheer weight or drag of bark shingles makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-high-canvas",
-      "name": "Canvas Shingling in High",
-      "subtitle": "Deploying canvas tarp specifically to shed the precipitation/wind of a High biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Canvas sustainably.",
-          "helpDetail": "In a High environment, gathering the massive volume of canvas tarp required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of canvas tarp in the High requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the canvas tarp starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against High wind.",
-          "helpDetail": "The sheer weight or drag of canvas tarp makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-coastal-woven",
-      "name": "Woven Palm Shingling in Coastal",
-      "subtitle": "Deploying woven palm/broadleaf specifically to shed the precipitation/wind of a Coastal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Woven Palm sustainably.",
-          "helpDetail": "In a Coastal environment, gathering the massive volume of woven palm/broadleaf required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of woven palm/broadleaf in the Coastal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the woven palm/broadleaf starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Coastal wind.",
-          "helpDetail": "The sheer weight or drag of woven palm/broadleaf makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-coastal-pine",
-      "name": "Pine Shingling in Coastal",
-      "subtitle": "Deploying pine bough thatch specifically to shed the precipitation/wind of a Coastal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Pine sustainably.",
-          "helpDetail": "In a Coastal environment, gathering the massive volume of pine bough thatch required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of pine bough thatch in the Coastal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the pine bough thatch starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Coastal wind.",
-          "helpDetail": "The sheer weight or drag of pine bough thatch makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-coastal-sod-grass",
-      "name": "Sod Shingling in Coastal",
-      "subtitle": "Deploying sod/grass plugs specifically to shed the precipitation/wind of a Coastal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sod sustainably.",
-          "helpDetail": "In a Coastal environment, gathering the massive volume of sod/grass plugs required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sod/grass plugs in the Coastal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sod/grass plugs starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Coastal wind.",
-          "helpDetail": "The sheer weight or drag of sod/grass plugs makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-coastal-bark",
-      "name": "Bark Shingling in Coastal",
-      "subtitle": "Deploying bark shingles specifically to shed the precipitation/wind of a Coastal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Bark sustainably.",
-          "helpDetail": "In a Coastal environment, gathering the massive volume of bark shingles required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of bark shingles in the Coastal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the bark shingles starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Coastal wind.",
-          "helpDetail": "The sheer weight or drag of bark shingles makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-coastal-sand-earth",
-      "name": "Sand Shingling in Coastal",
-      "subtitle": "Deploying sand/earth berm specifically to shed the precipitation/wind of a Coastal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sand sustainably.",
-          "helpDetail": "In a Coastal environment, gathering the massive volume of sand/earth berm required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sand/earth berm in the Coastal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sand/earth berm starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Coastal wind.",
-          "helpDetail": "The sheer weight or drag of sand/earth berm makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-coastal-canvas",
-      "name": "Canvas Shingling in Coastal",
-      "subtitle": "Deploying canvas tarp specifically to shed the precipitation/wind of a Coastal biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Canvas sustainably.",
-          "helpDetail": "In a Coastal environment, gathering the massive volume of canvas tarp required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of canvas tarp in the Coastal requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the canvas tarp starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Coastal wind.",
-          "helpDetail": "The sheer weight or drag of canvas tarp makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-temperate-woven",
-      "name": "Woven Palm Shingling in Temperate",
-      "subtitle": "Deploying woven palm/broadleaf specifically to shed the precipitation/wind of a Temperate biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Woven Palm sustainably.",
-          "helpDetail": "In a Temperate environment, gathering the massive volume of woven palm/broadleaf required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of woven palm/broadleaf in the Temperate requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the woven palm/broadleaf starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Temperate wind.",
-          "helpDetail": "The sheer weight or drag of woven palm/broadleaf makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-temperate-pine",
-      "name": "Pine Shingling in Temperate",
-      "subtitle": "Deploying pine bough thatch specifically to shed the precipitation/wind of a Temperate biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Pine sustainably.",
-          "helpDetail": "In a Temperate environment, gathering the massive volume of pine bough thatch required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of pine bough thatch in the Temperate requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the pine bough thatch starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Temperate wind.",
-          "helpDetail": "The sheer weight or drag of pine bough thatch makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-temperate-sod-grass",
-      "name": "Sod Shingling in Temperate",
-      "subtitle": "Deploying sod/grass plugs specifically to shed the precipitation/wind of a Temperate biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sod sustainably.",
-          "helpDetail": "In a Temperate environment, gathering the massive volume of sod/grass plugs required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sod/grass plugs in the Temperate requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sod/grass plugs starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Temperate wind.",
-          "helpDetail": "The sheer weight or drag of sod/grass plugs makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-temperate-snow",
-      "name": "Snow Shingling in Temperate",
-      "subtitle": "Deploying snow blocks specifically to shed the precipitation/wind of a Temperate biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Snow sustainably.",
-          "helpDetail": "In a Temperate environment, gathering the massive volume of snow blocks required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of snow blocks in the Temperate requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the snow blocks starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Temperate wind.",
-          "helpDetail": "The sheer weight or drag of snow blocks makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-temperate-bark",
-      "name": "Bark Shingling in Temperate",
-      "subtitle": "Deploying bark shingles specifically to shed the precipitation/wind of a Temperate biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Bark sustainably.",
-          "helpDetail": "In a Temperate environment, gathering the massive volume of bark shingles required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of bark shingles in the Temperate requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the bark shingles starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Temperate wind.",
-          "helpDetail": "The sheer weight or drag of bark shingles makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-temperate-sand-earth",
-      "name": "Sand Shingling in Temperate",
-      "subtitle": "Deploying sand/earth berm specifically to shed the precipitation/wind of a Temperate biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Sand sustainably.",
-          "helpDetail": "In a Temperate environment, gathering the massive volume of sand/earth berm required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of sand/earth berm in the Temperate requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the sand/earth berm starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Temperate wind.",
-          "helpDetail": "The sheer weight or drag of sand/earth berm makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
-    },
-    {
-      "id": "shelter-encyclopedia-roofing-temperate-canvas",
-      "name": "Canvas Shingling in Temperate",
-      "subtitle": "Deploying canvas tarp specifically to shed the precipitation/wind of a Temperate biome.",
-      "category": "Shelter",
-      "difficulty": 2,
-      "estimatedTime": "hours",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Harvest Canvas sustainably.",
-          "helpDetail": "In a Temperate environment, gathering the massive volume of canvas tarp required without expending excessive calories is the primary hurdle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Establish the roof pitch.",
-          "helpDetail": "A roof of canvas tarp in the Temperate requires a specific angle (e.g., steep for rain/snow shedding, flat for desert shade) to function.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Layer from the bottom up.",
-          "helpDetail": "Apply the canvas tarp starting at the base of the shelter frame. Overlap each successive layer precisely so water flows down the exterior without penetrating the seams.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Anchor against Temperate wind.",
-          "helpDetail": "The sheer weight or drag of canvas tarp makes it vulnerable to structural lift. Tie down the final outer layer aggressively with cordage or heavy deadfall.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "SAS Survival Handbook",
-      "sourceUrl": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman"
     }
   ],
   "articles": [
     {
       "id": "shelter-article-site",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Site Selection Principles",
       "body": "Your shelter is only as good as its location. A perfect debris hut in a depression will become a bathtub in rain. A tarp tent under a dead branch is a death trap.\n\nFirst, look up. 'Widowmakers' are dead branches or trees that can fall in wind. Never sleep under them. Next, look down. Choose flat ground that drains away from you. Avoid dry riverbeds—flash floods can happen even if it's not raining where you are.\n\nConsider the 'Ws': Wind, Water, Wood. You want protection from the Wind (or breeze in hot climates), proximity to Water (but not too close due to bugs and floods), and available Wood for fuel and construction. Ideally, orient your shelter entrance 90 degrees to the prevailing wind to prevent it from blowing straight in or creating a vacuum that sucks heat out.",
       "relatedTechniqueIDs": [
@@ -7373,8 +4360,8 @@
     },
     {
       "id": "shelter-article-insulation",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Insulation: Dead Air Space",
       "body": "Insulation doesn't create heat; it traps it. The most effective insulator is 'dead air'—air that isn't moving. Your clothing, sleeping bag, and shelter materials all work by trapping pockets of air near your body.\n\nIn survival shelters, fluffiness equals warmth. Compressed leaves offer little insulation. You want a chaotic, fluffy pile of debris that traps millions of tiny air pockets. This limits convection (heat loss through air movement). \n\nThe colder it is, the thicker your insulation needs to be. In freezing conditions, you need at least 3 feet of debris overhead to stay warm without a fire. Don't stop when it looks like a shelter; keep piling until it looks like a massive mound.",
       "relatedTechniqueIDs": [
@@ -7384,8 +4371,8 @@
     },
     {
       "id": "shelter-article-ground",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Ground Insulation",
       "body": "The ground is an infinite heat sink. Through conduction, it will suck the heat out of your body faster than the air will. You can have a perfect roof, but if you sleep directly on the cold earth, you will hypothermic.\n\nBuild a mattress. Use boughs, leaves, dried grass, or even your spare clothes. The goal is to put distance between you and the dirt. Your bed should be at least 6-8 inches thick when uncompressed, because your body weight will squash it down to 2-3 inches.\n\nIn snow, this is even more critical. Ideally, lay down a layer of logs or branches locally called a 'swamp bed' to create a distinct air gap between you and the snow.",
       "relatedTechniqueIDs": [
@@ -7395,8 +4382,8 @@
     },
     {
       "id": "shelter-article-wind",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Wind Protection Orientation",
       "body": "Wind chill strips heat away from your shelter's surface. Your primary defense is orientation. In the Northern Hemisphere, prevailing winds often come from the West, but local terrain dictates the actual flow.\n\nObserve the direction the grass is leaning or wet your finger to find the wind. Position your shelter so the extensive wall faces the wind. The entrance should face roughly 90 degrees to the wind. If the door faces directly downwind, eddies can swirl snow and rain back into your shelter.\n\nUse natural windbreaks like large boulders or dense thickets. Building in the lee (protected side) of these features saves you work and materials.",
       "relatedTechniqueIDs": [
@@ -7406,8 +4393,8 @@
     },
     {
       "id": "shelter-article-rain",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Rain Runoff Management",
       "body": "Water always wins gravity battles. If your shelter roof isn't steep enough (at least 45 degrees), water will soak through instead of running off. This is the difference between a waterproof roof and a heavy, wet blanket over your head.\n\nDon't forget the ground. If you are on a slope, dig a small trench on the uphill side of your shelter to divert rainwater around your sleeping area. This 'gutter' can save you from waking up in a puddle.\n\nWhen using natural materials, 'shingling' is key. Place material from the bottom up, overlapping like roofing tiles. This ensures water runs from one layer to the next without penetrating.",
       "relatedTechniqueIDs": [
@@ -7417,8 +4404,8 @@
     },
     {
       "id": "shelter-article-snow-insulation",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Snow as Insulator",
       "body": "Snow is surprisingly warm. Fresh snow is 90-95% trapped air, making it an excellent insulator with a high R-value. This is why animals burrow into drifts to survive storms.\n\nInside a properly built snow shelter like a quinzhee or igloo, body heat can raise the temperature to near freezing (32°F / 0°C), even if it's -20°F outside. That 50-degree difference is life-saving.\n\nThe key is to prevent melting. If it gets too warm inside, the walls will glaze over and stop breathing, or drip on you. Regulate temperature by poking a ventilation hole in the roof. If you keep the inside just below freezing, you stay dry and relatively warm.",
       "relatedTechniqueIDs": [
@@ -7428,8 +4415,8 @@
     },
     {
       "id": "shelter-article-tropical",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Tropical Shelter Considerations",
       "body": "In the jungle, the priorities flip. Cold isn't the enemy; insects, snakes, and ground moisture are. You want to get off the ground. Hammocks are king here.\n\nIf you must build on the ground, create a raised platform using lashes poles. This keeps you away from ants and damp soil. Airflow is vital—a fully enclosed hut will become a stifling oven. Build an open-air roof with large overhangs to stop the torrential rains, but leave the walls open to catch the breeze.\n\nUse large leaves (banana, palm) for roofing. Split the palm fronds down the spine to make them easier to weave/shingle.",
       "relatedTechniqueIDs": [
@@ -7439,8 +4426,8 @@
     },
     {
       "id": "shelter-article-desert",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Desert Shelter Considerations",
       "body": "The desert has two faces: the baking sun of the day and the freezing cold of the night. Your shelter needs to handle both.\n\nDuring the day, shade is survival. Build an open-sided shade shelter to allow breeze but block UV rays. Double-layering your roof (with an air gap between layers) drastically reduces the temperature underneath.\n\nAt night, the desert loses heat rapidly. You may need to enclose your shelter or lower the roof to trap body heat. A classic desert strategy is the trench shelter: dig into the cooler sub-surface sand for day respite, and cover it to trap warmth at night.",
       "relatedTechniqueIDs": [
@@ -7449,8 +4436,8 @@
     },
     {
       "id": "shelter-article-bedding",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Bedding Construction",
       "body": "Bedding is the most overlooked part of shelter building. In a survival situation, you spend 50% of your time in your shelter. Comfort isn't a luxury; it's sleep hygiene, which preserves sanity.\n\nStart with a frame of logs to contain your material. Fill it with springy boughs (spruce/fir) placed convex side up. Cover this with finer material like ferns, dried grass, or leaves. \n\nCheck for ticks and insects in your bedding material. Avoid using material that is already decomposing, as it generates moisture and bacteria. Your finished bed should feel like a firm mattress, suspending you completely off the hard ground.",
       "relatedTechniqueIDs": [
@@ -7460,8 +4447,8 @@
     },
     {
       "id": "shelter-article-reflector",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Heat Reflector Walls",
       "body": "A fire warms your front, but your back freezes. A shelter helps, but a reflector wall turbocharges your warming setup. By placing a wall of logs or rocks behind the fire (opposite your shelter), you bounce radiant heat back towards you.\n\nBuild the reflector close to the fire (about 2-3 feet away). If using wood, ensure it's green or soaked so it doesn't burn. A U-shaped reflector is even better, focusing heat like a satellite dish.\n\nCombined with a lean-to shelter, this setup creates a 'heat oven' effect, trapping warm air between the shelter roof and the fire reflector, keeping you toasty with a much smaller fire.",
       "relatedTechniqueIDs": [
@@ -7471,8 +4458,8 @@
     },
     {
       "id": "shelter-article-urban",
-      "sourceName": "Ready.gov",
-      "sourceUrl": "https://www.ready.gov/shelter",
+      "sourceName": "Ready.gov Safety",
+      "sourceUrl": "https://www.ready.gov/be-informed",
       "title": "Urban Shelter in Emergencies",
       "body": "Urban disasters create unique shelter challenges. Buildings may be damaged, utilities down, and normal shelter unavailable.\n\nImmediate urban shelter options:\n- Parking garages: concrete structure, wind protection, multiple levels\n- Underpasses and bridges: overhead cover (avoid in floods)\n- Abandoned vehicles: wind protection, seats as bedding\n- Shipping containers: extremely durable, wind/waterproof\n- Stairwells: interior stairwells in buildings are structurally strongest\n\nUrban insulation materials:\n- Cardboard: excellent insulator (homeless populations know this)\n- Newspaper: crumpled newspaper inside clothing adds significant warmth\n- Carpet: salvaged carpet is excellent ground insulation\n- Bubble wrap: if available, outstanding insulator\n- Trash bags: windproof, waterproof, vapor barrier\n\nSafety in urban shelter:\n- Check structural integrity before entering damaged buildings\n- Avoid buildings with gas leaks (smell for gas before entering)\n- Stay away from downed power lines (lethal even when they look dead)\n- Upper floors are safer in floods, lower floors safer in earthquakes\n- Have multiple exit routes identified",
       "relatedTechniqueIDs": [
@@ -7482,8 +4469,8 @@
     },
     {
       "id": "shelter-article-longterm",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Long-Term Camp Shelter",
       "body": "If rescue isn't coming soon, your shelter needs to evolve from emergency to homestead.\n\nProgression timeline:\n- Day 1: Emergency shelter (debris hut, tarp, whatever stops heat loss NOW)\n- Days 2-3: Improve current shelter (better insulation, wind wall, drainage)\n- Week 1: Build a permanent structure (log cabin, wattle-and-daub, semi-underground)\n- Ongoing: Continuously improve (furniture, storage, workshop area)\n\nLong-term shelter features:\n- Fire pit with chimney or ventilation (smoke management is critical for health)\n- Raised bed frame (off the ground, with replaceable bedding)\n- Storage shelves and hooks (organization preserves sanity)\n- Drying rack near fire (for clothes, food preservation)\n- Work bench area for tool making and repairs\n- Rain collection system integrated into roof\n\nSite management:\n- Latrine: at least 200 feet from shelter and water source, downhill\n- Food storage: hung from trees or sealed in cache, away from sleeping area\n- Firewood: stacked and covered, within easy reach\n- Clear brush 30 feet around shelter for fire safety and visibility\n\nThe psychological value of a well-built long-term shelter cannot be overstated. It becomes home, and home provides hope.",
       "relatedTechniqueIDs": [
@@ -7494,8 +4481,8 @@
     },
     {
       "id": "shelter-article-site-science",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Shelter Site Selection Science",
       "body": "Where you build matters more than how you build. The wrong site can kill you regardless of shelter quality.\n\nDanger zones:\n- Valley bottoms: cold air pools here (cold air sinks). Temperature can be 10-20°F colder than a spot 50 feet uphill\n- Ridgetops: maximum wind exposure. Wind chill can be deadly\n- Under dead trees/branches: 'widow makers' can fall without warning\n- Dry riverbeds: flash floods arrive with zero warning\n- Avalanche paths: look for debris fields, stripped trees, funnel-shaped terrain\n\nIdeal locations:\n- Mid-slope: warmer than valley, sheltered from ridgetop wind\n- Southeast-facing slope: morning sun for warmth, afternoon shade\n- Near water but not on it: 200 feet minimum. Too close invites insects and flooding\n- Natural windbreaks: rock faces, dense tree clusters, terrain features\n- Good drainage: slight slope so rainwater runs away, not into shelter\n\nChecklist before building:\n1. Look UP: dead branches, leaning trees, loose rock above?\n2. Look DOWN: is ground wet? In a drainage path? Near water?\n3. Look AROUND: wind direction, sun exposure, available materials?\n4. Listen: running water (flood risk), animal sounds, wind patterns?\n5. Consider time: how many hours of daylight remain for building?",
       "relatedTechniqueIDs": [
@@ -7540,8 +4527,8 @@
     },
     {
       "id": "shelter-article-mistakes",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Common Shelter Mistakes",
       "body": "Most shelter failures come from predictable, avoidable errors.\n\n1. Building too big:\n- Larger shelters lose more heat. Body heat alone warms a coffin-sized space but not a room-sized one\n- Build only as large as necessary to lie down and sit up\n\n2. Ignoring ground insulation:\n- You lose 80% of body heat to cold ground\n- Most people focus on roof and walls but sleep on bare ground\n- Ground insulation is MORE important than wall insulation\n\n3. Wrong location:\n- Building under dead trees (widow makers)\n- Building in a drainage path (flooding)\n- Building in a valley bottom (cold air pool)\n\n4. Insufficient debris thickness:\n- 2 inches of leaves is decoration, not insulation\n- You need 12-24 inches of debris on walls and roof\n- If you can see sky through the roof, you need more\n\n5. Entrance facing the wind:\n- Wind funnels through the entrance like a jet engine\n- Always face away from prevailing wind\n\n6. No drainage:\n- Rain rolls off the roof and pools at the base\n- Without a drainage trench, water enters from below\n\n7. Starting too late:\n- Shelter takes 1-3 hours to build properly\n- Start building with 3+ hours of daylight remaining\n- A bad shelter finished before dark beats a great shelter finished in darkness",
       "relatedTechniqueIDs": [
@@ -7552,8 +4539,8 @@
     },
     {
       "id": "shelter-article-maintenance",
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761",
       "title": "Long-Term Shelter Maintenance",
       "body": "Shelters deteriorate. Without maintenance, even well-built shelters fail within days.\n\nDaily checks:\n- Roof: look for new gaps, compressed debris, water penetration\n- Walls: check for animal damage, wind erosion, settling\n- Bed: fluff and replace compressed insulation\n- Drainage: clear trenches of debris after rain\n- Structural: check ridgepole, supports, and lashings for weakness\n\nWeekly maintenance:\n- Add fresh debris to roof and walls (natural materials compress and decompose)\n- Replace rotting or wet insulation\n- Reinforce lashings and structural connections\n- Improve ventilation or seal gaps as needed\n- Expand or modify as tools and materials become available\n\nUpgrades over time:\n- Week 1: basic survival shelter\n- Week 2: add door, improve insulation, build proper bed\n- Week 3: add cooking area, food cache, latrine\n- Week 4: build second shelter for storage, improve weatherproofing\n\nSeasonal adaptations:\n- Summer: increase ventilation, add bug protection, create shade\n- Fall: increase insulation, stockpile dry bedding material\n- Winter: seal all gaps, add heated rock thermal mass, reduce interior volume\n- Spring: improve drainage, watch for flooding, replace rotted materials",
       "relatedTechniqueIDs": [

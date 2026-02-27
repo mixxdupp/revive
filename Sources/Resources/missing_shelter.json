@@ -31,8 +31,8 @@
           "illustrationDescription": "Stillness."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "shelter-barricade",
@@ -96,7 +96,7 @@
         }
       ],
       "sourceName": "FEMA",
-      "sourceUrl": "https://www.ready.gov/shelter"
+      "sourceUrl": "https://www.ready.gov/hazardous-materials-incidents"
     }
   ],
   "articles": []

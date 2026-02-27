@@ -64,8 +64,8 @@ struct EmergencyMenuView: View {
                             } label: {
                                 Image(systemName: "xmark.circle.fill")
                                     .foregroundStyle(DesignSystem.textSecondary)
-                                .accessibilityHidden(true)
                             }
+                            .accessibilityLabel("Clear search")
                         }
                     }
                     .padding(.horizontal, 16)

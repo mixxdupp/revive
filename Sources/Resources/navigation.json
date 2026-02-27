@@ -113,8 +113,8 @@
           "illustrationDescription": "East-west line with direction."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-sun-position",
@@ -291,8 +291,8 @@
           "illustrationDescription": "Moss myth debunked."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-star-movement",
@@ -443,8 +443,8 @@
           "illustrationDescription": "Deciding to stay or go."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-following-water",
@@ -519,8 +519,8 @@
           "illustrationDescription": "Aiming off technique."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-moon-navigation",
@@ -621,8 +621,8 @@
           "illustrationDescription": "Combined nav."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-back-bearing",
@@ -729,8 +729,8 @@
           "illustrationDescription": "Low tide travel."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-urban",
@@ -869,8 +869,8 @@
           "illustrationDescription": "Shortest shadow direction."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-pace-beading",
@@ -1067,8 +1067,8 @@
           "illustrationDescription": "Cloud layers."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-terrain-assoc-nav",
@@ -1099,8 +1099,8 @@
           "illustrationDescription": "Drainage patterns."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-back-bearing-check",
@@ -1163,8 +1163,8 @@
           "illustrationDescription": "Finding intersection."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-handrail-features",
@@ -1261,70 +1261,6 @@
       ],
       "sourceName": "SAS Survival Handbook – John Wiseman",
       "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
-    },
-    {
-      "id": "nav-coastal-navigation",
-      "name": "Coastal Navigation",
-      "subtitle": "Navigate along coastlines using tides, reefs, and landmarks",
-      "category": "Maritime",
-      "difficulty": 2,
-      "estimatedTime": "Ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Keep the coastline as your handrail. Note tide direction for orientation.",
-          "helpDetail": "If tide is flowing north (check with a floating stick), you know which direction is north. Tides reverse roughly every 6 hours. Track the cycle to maintain direction awareness.",
-          "illustrationDescription": "Tidal direction."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Use headlands and bays as navigation checkpoints.",
-          "helpDetail": "Count the bays you pass. Each headland (point of land) is a landmark. Note distinctive features: rock color, cliff height, vegetation patterns. These serve as your 'mile markers.'",
-          "illustrationDescription": "Counting features."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Wave patterns indicate underwater features and nearby land.",
-          "helpDetail": "Waves refract around islands and reefs. Disturbed wave patterns (confused seas) indicate shallow water or hidden obstacles. Calm water behind a headland indicates sheltered anchorage.",
-          "illustrationDescription": "Wave patterns."
-        }
-      ],
-      "sourceName": "SAS Survival Handbook – John Wiseman",
-      "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
-    },
-    {
-      "id": "nav-river-navigation",
-      "name": "River Following Strategy",
-      "subtitle": "Use rivers as navigation aids to find civilization",
-      "category": "Basic",
-      "difficulty": 1,
-      "estimatedTime": "Ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Follow rivers DOWNSTREAM. Rivers flow toward civilization, lakes, or the coast.",
-          "helpDetail": "Rivers grow larger downstream as tributaries join. Larger rivers are more likely to have settlements along them. This is the single most reliable lost-person strategy in most terrain.",
-          "illustrationDescription": "Following downstream."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Watch for signs of civilization: bridges, trash, cleared banks, power lines.",
-          "helpDetail": "Human activity leaves traces along rivers. Cut trees, livestock marks, discarded items, tire tracks, or footpaths all indicate people are nearby. Follow these signs.",
-          "illustrationDescription": "Civilization signs."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Stay on the side with the best terrain. Don't cross rivers unnecessarily.",
-          "helpDetail": "River crossings are dangerous. Stay on whichever bank has easier walking. If the river enters a gorge, climb above it and follow the rim. Rejoin the river when terrain permits.",
-          "illustrationDescription": "Choosing sides."
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
     },
     {
       "id": "nav-altitude-estimation",
@@ -1495,8 +1431,8 @@
           "illustrationDescription": "In mountains, wind typically f"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-cloud-type-identification",
@@ -1539,8 +1475,8 @@
           "illustrationDescription": "Towering cumulonimbus (thunder"
         }
       ],
-      "sourceName": "NOAA",
-      "sourceUrl": "https://www.weather.gov/"
+      "sourceName": "National Weather Service Safety",
+      "sourceUrl": "https://www.weather.gov/safety/"
     },
     {
       "id": "nav-insect-behavior",
@@ -1583,8 +1519,8 @@
           "illustrationDescription": "Fireflies: common near water s"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-animal-trail-following",
@@ -1627,8 +1563,8 @@
           "illustrationDescription": "CAUTION: animal trails may pas"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-snow-drift-orientation",
@@ -1671,8 +1607,8 @@
           "illustrationDescription": "Combine multiple snow indicato"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-lichen-growth",
@@ -1759,8 +1695,8 @@
           "illustrationDescription": "Geese and ducks flying in V-fo"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-pressure-detection",
@@ -1803,8 +1739,8 @@
           "illustrationDescription": "Rising pressure = clearing wea"
         }
       ],
-      "sourceName": "NOAA",
-      "sourceUrl": "https://www.weather.gov/"
+      "sourceName": "National Weather Service Safety",
+      "sourceUrl": "https://www.weather.gov/safety/"
     },
     {
       "id": "nav-creek-following",
@@ -1847,8 +1783,8 @@
           "illustrationDescription": "Watch for signs of civilizatio"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-night-horizon-glow",
@@ -1891,52 +1827,8 @@
           "illustrationDescription": "Aircraft landing lights or rep"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "nav-river-crossing-technique",
-      "name": "River Crossing Technique",
-      "subtitle": "Cross flowing water safely",
-      "category": "Emergency",
-      "difficulty": 2,
-      "estimatedTime": "20 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Scout the crossing: look for the widest, shallowest point. Wide = slower current. Avoid bends (deeper on outside).",
-          "helpDetail": "Rivers are always deeper and faster on the outside of bends. Straight sections or wide shallows with visible bottom are safest.",
-          "illustrationDescription": "Scout the crossing: look for t"
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Unclip pack waist belt and chest strap before entering. Hold pack by one shoulder strap.",
-          "helpDetail": "If you fall, an unclipped pack can be shed instantly. A buckled pack traps you underwater. One strap lets you ditch it if needed.",
-          "illustrationDescription": "Unclip pack waist belt and che"
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Use a sturdy staff on the upstream side. Plant it, step forward, replant. Move in a tripod pattern.",
-          "helpDetail": "The staff creates a third point of contact. Lean into it and the current. Ferry-angle: face slightly upstream at 45° to the current direction.",
-          "illustrationDescription": "Use a sturdy staff on the upst"
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Shuffle feet — never cross legs. Keep feet wide apart for stable base. Feel the bottom before weighting each step.",
-          "helpDetail": "Crossing legs kills your balance. Shuffling maintains a wide, stable stance. Rocks are slippery — test each foothold.",
-          "illustrationDescription": "Shuffle feet — never cross leg"
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "If swept off feet: get on your back, feet downstream to bounce off rocks. Swim aggressively toward shore.",
-          "helpDetail": "Defensive swimming position: on your back, feet first. This protects your head. Use aggressive backstroke to angle toward the nearest bank.",
-          "illustrationDescription": "If swept off feet: get on your"
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-shadow-board",
@@ -1979,8 +1871,8 @@
           "illustrationDescription": "For more accuracy, mark shadow"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-ocean-swel-reading",
@@ -2023,8 +1915,8 @@
           "illustrationDescription": "Watch for swell refraction aro"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "nav-stars-orion",
@@ -2111,8 +2003,8 @@
           "illustrationDescription": "Where these two imaginary line"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-moon-phase-direction",
@@ -2155,8 +2047,8 @@
           "illustrationDescription": "A full moon rises in the East "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-stars-cassiopeia",
@@ -2243,8 +2135,8 @@
           "illustrationDescription": "The line drawn from the center"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-improvising-compass-needle",
@@ -2287,8 +2179,8 @@
           "illustrationDescription": "The needle will slowly align i"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-tree-growth-rings",
@@ -2375,8 +2267,8 @@
           "illustrationDescription": "Draw a straight line connectin"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-stars-polaris-dipper",
@@ -2595,8 +2487,8 @@
           "illustrationDescription": "Pace counting is only accurate"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-float-compass",
@@ -2639,8 +2531,8 @@
           "illustrationDescription": "Determine which end is North u"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-backtracking",
@@ -2683,8 +2575,8 @@
           "illustrationDescription": "If you cannot backtrack, stay "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-map-reading-basic",
@@ -2727,8 +2619,8 @@
           "illustrationDescription": "Plan your route using the path"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-weather-barometric",
@@ -2951,38 +2843,6 @@
       "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
-      "id": "nav-deliberate-offset",
-      "category": "Land Navigation",
-      "name": "Deliberate Offset Aiming",
-      "subtitle": "Guaranteed interception of linear features",
-      "difficulty": 3,
-      "isCritical": false,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify a linear handrail.",
-          "helpDetail": "Find a road, river, or powerline on your map that your destination lies upon."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Aim intentionally off-target.",
-          "helpDetail": "Do not aim directly at your destination. Deliberately aim 10-15 degrees to the left (or right) of it."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Travel until you hit the handrail.",
-          "helpDetail": "Because you aimed left, you are 100% certain that when you hit the road/river, your destination is to your right."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Turn and follow.",
-          "helpDetail": "Turn toward your destination and follow the linear feature until you arrive."
-        }
-      ],
-      "sourceName": "FM 3-25.26 Map Reading and Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
       "id": "nav-stars-advanced",
       "category": "Celestial",
       "name": "Advanced Star Navigation",
@@ -3004,38 +2864,6 @@
           "stepNumber": 3,
           "instruction": "Track a random star.",
           "helpDetail": "If you don't know constellations, line up two sticks with any bright star. Wait 15 minutes. If it rises, you are facing East. If it drops, West. If it arcs left, North. If it arcs right, South."
-        }
-      ],
-      "sourceName": "FM 3-25.26 Map Reading and Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-handrail-navigation",
-      "category": "Navigation",
-      "name": "Handrail Navigation",
-      "subtitle": "Following linear features to avoid getting lost",
-      "difficulty": 3,
-      "isCritical": false,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify linear features on terrain",
-          "helpDetail": "Rivers, ridgelines, roads, power lines, fences, trails."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Travel parallel to the handrail",
-          "helpDetail": "Keep it visible or audible on one consistent side."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Use as a catching feature",
-          "helpDetail": "If you drift off course, return to the handrail and reorient."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Combine with attack points",
-          "helpDetail": "Leave the handrail at a recognizable point near your destination."
         }
       ],
       "sourceName": "FM 3-25.26 Map Reading and Land Navigation",
@@ -3326,8 +3154,8 @@
           "helpDetail": "Trails often cross or follow waterways."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "nav-urban-navigation-signs",
@@ -3717,44 +3545,6 @@
           "stepNumber": 4,
           "instruction": "Combine with vegetation: moss grows on the side that stays moist (sheltered from drying wind).",
           "helpDetail": "Multiple natural indicators used together increase navigational accuracy.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Map Reading and Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-star-navigation-south",
-      "name": "Southern Cross Navigation",
-      "subtitle": "Find south using the Southern Cross constellation",
-      "category": "Celestial Navigation",
-      "difficulty": 2,
-      "estimatedTime": "5 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the Southern Cross: four bright stars in a cross/kite shape.",
-          "helpDetail": "Visible from southern latitudes and some tropical northern locations. Two bright pointer stars nearby.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Extend the long axis of the cross 4.5 times its length toward the horizon.",
-          "helpDetail": "This imaginary point is approximately the South Celestial Pole.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Drop a vertical line from that point to the horizon — that's due south.",
-          "helpDetail": "The South Celestial Pole has no bright star (unlike Polaris for north).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Use the two pointer stars to confirm: their perpendicular bisector also points to the pole.",
-          "helpDetail": "Cross-checking with the pointers increases accuracy. Practice finding the cross before you need it.",
           "illustrationDescription": ""
         }
       ],
@@ -4294,44 +4084,6 @@
       "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
     },
     {
-      "id": "nav-army-terrain-association",
-      "name": "Terrain Association Navigation",
-      "subtitle": "Navigating by mapping topography to reality",
-      "category": "Land Navigation",
-      "difficulty": 2,
-      "estimatedTime": "ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the 5 major terrain features on your map.",
-          "helpDetail": "Hill, Valley, Ridge, Saddle, Depression. Recognizing these contour lines allows you to 'see' the 3D world on 2D paper.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Orient the map to the real world precisely.",
-          "helpDetail": "Use a compass to point the map's North lines directly to magnetic North, accounting for local declination (the difference between True and Magnetic North).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Use 'Handrails'.",
-          "helpDetail": "Identify linear features (roads, rivers, ridgelines, power lines) that parallel your direction of travel. Follow alongside them without needing to constantly check a compass bearing.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Establish 'Catching Features' (Backstops).",
-          "helpDetail": "A catching feature is an obvious, massive terrain change (e.g., a major highway or wide river) that sits just PAST your destination. If you hit the catching feature, you instantly know you have gone too far.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Map Reading",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
       "id": "nav-terrain-hill",
       "name": "Topography: The Hill",
       "subtitle": "Identifying a peak from contour lines.",
@@ -4750,538 +4502,6 @@
       "sourceUrl": "https://irp.fas.org/doddir/usaf/afman10-100.pdf"
     },
     {
-      "id": "nav-encyclopedia-terrain-cut",
-      "name": "Map Legend: Cut",
-      "subtitle": "Identifying and utilizing a Cut on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Cut.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Cut.",
-          "helpDetail": "Understand that a Cut represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Cut acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-fill",
-      "name": "Map Legend: Fill",
-      "subtitle": "Identifying and utilizing a Fill on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Fill.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Fill.",
-          "helpDetail": "Understand that a Fill represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Fill acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-draw",
-      "name": "Map Legend: Draw",
-      "subtitle": "Identifying and utilizing a Draw on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Draw.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Draw.",
-          "helpDetail": "Understand that a Draw represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Draw acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-spur",
-      "name": "Map Legend: Spur",
-      "subtitle": "Identifying and utilizing a Spur on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Spur.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Spur.",
-          "helpDetail": "Understand that a Spur represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Spur acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-cliff",
-      "name": "Map Legend: Cliff",
-      "subtitle": "Identifying and utilizing a Cliff on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Cliff.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Cliff.",
-          "helpDetail": "Understand that a Cliff represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Cliff acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-marsh",
-      "name": "Map Legend: Marsh",
-      "subtitle": "Identifying and utilizing a Marsh on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Marsh.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Marsh.",
-          "helpDetail": "Understand that a Marsh represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Marsh acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-intermittent-stream",
-      "name": "Map Legend: Intermittent Stream",
-      "subtitle": "Identifying and utilizing a Intermittent Stream on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Intermittent Stream.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Intermittent Stream.",
-          "helpDetail": "Understand that a Intermittent Stream represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Intermittent Stream acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-index-contour",
-      "name": "Map Legend: Index Contour",
-      "subtitle": "Identifying and utilizing a Index Contour on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Index Contour.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Index Contour.",
-          "helpDetail": "Understand that a Index Contour represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Index Contour acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-supplementary-contour",
-      "name": "Map Legend: Supplementary Contour",
-      "subtitle": "Identifying and utilizing a Supplementary Contour on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Supplementary Contour.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Supplementary Contour.",
-          "helpDetail": "Understand that a Supplementary Contour represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Supplementary Contour acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-benchmark",
-      "name": "Map Legend: Benchmark",
-      "subtitle": "Identifying and utilizing a Benchmark on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Benchmark.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Benchmark.",
-          "helpDetail": "Understand that a Benchmark represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Benchmark acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-declination-diagram",
-      "name": "Map Legend: Declination Diagram",
-      "subtitle": "Identifying and utilizing a Declination Diagram on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Declination Diagram.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Declination Diagram.",
-          "helpDetail": "Understand that a Declination Diagram represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Declination Diagram acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-grid-north",
-      "name": "Map Legend: Grid North",
-      "subtitle": "Identifying and utilizing a Grid North on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Grid North.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Grid North.",
-          "helpDetail": "Understand that a Grid North represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Grid North acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-magnetic-north",
-      "name": "Map Legend: Magnetic North",
-      "subtitle": "Identifying and utilizing a Magnetic North on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for Magnetic North.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the Magnetic North.",
-          "helpDetail": "Understand that a Magnetic North represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the Magnetic North acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-terrain-true-north",
-      "name": "Map Legend: True North",
-      "subtitle": "Identifying and utilizing a True North on an MGRS military topo map.",
-      "category": "Map Reading",
-      "difficulty": 2,
-      "estimatedTime": "immediate",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify the cartographic symbol for True North.",
-          "helpDetail": "Consult the map legend. MGRS maps use highly standardized colors and line weights for these specific features.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Determine the physical reality of the True North.",
-          "helpDetail": "Understand that a True North represents a specific topological challenge or advantage on the ground.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Assess cross-country mobility.",
-          "helpDetail": "Evaluate whether the True North acts as an obstacle to be bypassed, or a handrail/catching feature to utilize.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Measure off distance vectors.",
-          "helpDetail": "Use the scale block at the bottom of the map to determine exactly how many meters or kilometers you are from the feature.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Nav",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
       "id": "nav-analog-watch-method",
       "name": "Analog Watch Sun Compass",
       "subtitle": "Finding North/South using the hour hand in the Northern Hemisphere.",
@@ -5356,576 +4576,6 @@
       ],
       "sourceName": "FM 3-25.26 Land Navigation",
       "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-shadowtip-open",
-      "name": "Shadow-Tip in Open",
-      "subtitle": "Applying shadow-tip directional finding inside a Open environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Open limitations.",
-          "helpDetail": "The open arctic tundra presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Shadow-Tip.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Shadow-Tip protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Shadow-Tip is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Open handrail.",
-          "helpDetail": "Once a heading is found via Shadow-Tip, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a open arctic tundra guarantees you will veer left or right naturally over miles. Recalibrate your Shadow-Tip heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-shadowtip-featureless",
-      "name": "Shadow-Tip in Featureless",
-      "subtitle": "Applying shadow-tip directional finding inside a Featureless environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Featureless limitations.",
-          "helpDetail": "The featureless arid desert presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Shadow-Tip.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Shadow-Tip protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Shadow-Tip is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Featureless handrail.",
-          "helpDetail": "Once a heading is found via Shadow-Tip, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a featureless arid desert guarantees you will veer left or right naturally over miles. Recalibrate your Shadow-Tip heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-shadowtip-deep",
-      "name": "Shadow-Tip in Deep",
-      "subtitle": "Applying shadow-tip directional finding inside a Deep environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Deep limitations.",
-          "helpDetail": "The deep alpine valley presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Shadow-Tip.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Shadow-Tip protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Shadow-Tip is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Deep handrail.",
-          "helpDetail": "Once a heading is found via Shadow-Tip, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a deep alpine valley guarantees you will veer left or right naturally over miles. Recalibrate your Shadow-Tip heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-analog-open",
-      "name": "Analog Watch in Open",
-      "subtitle": "Applying analog watch directional finding inside a Open environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Open limitations.",
-          "helpDetail": "The open arctic tundra presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Analog Watch.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Analog Watch protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Analog Watch is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Open handrail.",
-          "helpDetail": "Once a heading is found via Analog Watch, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a open arctic tundra guarantees you will veer left or right naturally over miles. Recalibrate your Analog Watch heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-analog-featureless",
-      "name": "Analog Watch in Featureless",
-      "subtitle": "Applying analog watch directional finding inside a Featureless environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Featureless limitations.",
-          "helpDetail": "The featureless arid desert presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Analog Watch.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Analog Watch protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Analog Watch is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Featureless handrail.",
-          "helpDetail": "Once a heading is found via Analog Watch, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a featureless arid desert guarantees you will veer left or right naturally over miles. Recalibrate your Analog Watch heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-analog-deep",
-      "name": "Analog Watch in Deep",
-      "subtitle": "Applying analog watch directional finding inside a Deep environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Deep limitations.",
-          "helpDetail": "The deep alpine valley presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Analog Watch.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Analog Watch protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Analog Watch is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Deep handrail.",
-          "helpDetail": "Once a heading is found via Analog Watch, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a deep alpine valley guarantees you will veer left or right naturally over miles. Recalibrate your Analog Watch heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-improvised-dense",
-      "name": "Improvised Magnetic Needle in Dense",
-      "subtitle": "Applying improvised magnetic needle directional finding inside a Dense environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Dense limitations.",
-          "helpDetail": "The dense jungle canopy presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Improvised Magnetic Needle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Improvised Magnetic Needle protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Improvised Magnetic Needle is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Dense handrail.",
-          "helpDetail": "Once a heading is found via Improvised Magnetic Needle, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a dense jungle canopy guarantees you will veer left or right naturally over miles. Recalibrate your Improvised Magnetic Needle heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-improvised-open",
-      "name": "Improvised Magnetic Needle in Open",
-      "subtitle": "Applying improvised magnetic needle directional finding inside a Open environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Open limitations.",
-          "helpDetail": "The open arctic tundra presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Improvised Magnetic Needle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Improvised Magnetic Needle protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Improvised Magnetic Needle is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Open handrail.",
-          "helpDetail": "Once a heading is found via Improvised Magnetic Needle, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a open arctic tundra guarantees you will veer left or right naturally over miles. Recalibrate your Improvised Magnetic Needle heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-improvised-featureless",
-      "name": "Improvised Magnetic Needle in Featureless",
-      "subtitle": "Applying improvised magnetic needle directional finding inside a Featureless environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Featureless limitations.",
-          "helpDetail": "The featureless arid desert presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Improvised Magnetic Needle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Improvised Magnetic Needle protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Improvised Magnetic Needle is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Featureless handrail.",
-          "helpDetail": "Once a heading is found via Improvised Magnetic Needle, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a featureless arid desert guarantees you will veer left or right naturally over miles. Recalibrate your Improvised Magnetic Needle heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-improvised-deep",
-      "name": "Improvised Magnetic Needle in Deep",
-      "subtitle": "Applying improvised magnetic needle directional finding inside a Deep environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Deep limitations.",
-          "helpDetail": "The deep alpine valley presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Improvised Magnetic Needle.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Improvised Magnetic Needle protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Improvised Magnetic Needle is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Deep handrail.",
-          "helpDetail": "Once a heading is found via Improvised Magnetic Needle, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a deep alpine valley guarantees you will veer left or right naturally over miles. Recalibrate your Improvised Magnetic Needle heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-moss/vegetation-dense",
-      "name": "Moss/Vegetation Bias in Dense",
-      "subtitle": "Applying moss/vegetation bias directional finding inside a Dense environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Dense limitations.",
-          "helpDetail": "The dense jungle canopy presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Moss/Vegetation Bias.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Moss/Vegetation Bias protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Moss/Vegetation Bias is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Dense handrail.",
-          "helpDetail": "Once a heading is found via Moss/Vegetation Bias, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a dense jungle canopy guarantees you will veer left or right naturally over miles. Recalibrate your Moss/Vegetation Bias heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-moss/vegetation-deep",
-      "name": "Moss/Vegetation Bias in Deep",
-      "subtitle": "Applying moss/vegetation bias directional finding inside a Deep environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Deep limitations.",
-          "helpDetail": "The deep alpine valley presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Moss/Vegetation Bias.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Moss/Vegetation Bias protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Moss/Vegetation Bias is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Deep handrail.",
-          "helpDetail": "Once a heading is found via Moss/Vegetation Bias, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a deep alpine valley guarantees you will veer left or right naturally over miles. Recalibrate your Moss/Vegetation Bias heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-prevailing-open",
-      "name": "Prevailing Wind Striations in Open",
-      "subtitle": "Applying prevailing wind striations directional finding inside a Open environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Open limitations.",
-          "helpDetail": "The open arctic tundra presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Prevailing Wind Striations.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Prevailing Wind Striations protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Prevailing Wind Striations is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Open handrail.",
-          "helpDetail": "Once a heading is found via Prevailing Wind Striations, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a open arctic tundra guarantees you will veer left or right naturally over miles. Recalibrate your Prevailing Wind Striations heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-prevailing-featureless",
-      "name": "Prevailing Wind Striations in Featureless",
-      "subtitle": "Applying prevailing wind striations directional finding inside a Featureless environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Featureless limitations.",
-          "helpDetail": "The featureless arid desert presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Prevailing Wind Striations.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Prevailing Wind Striations protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Prevailing Wind Striations is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Featureless handrail.",
-          "helpDetail": "Once a heading is found via Prevailing Wind Striations, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a featureless arid desert guarantees you will veer left or right naturally over miles. Recalibrate your Prevailing Wind Striations heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
-    },
-    {
-      "id": "nav-encyclopedia-improv-prevailing-deep",
-      "name": "Prevailing Wind Striations in Deep",
-      "subtitle": "Applying prevailing wind striations directional finding inside a Deep environment.",
-      "category": "Navigation",
-      "difficulty": 3,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Assess Deep limitations.",
-          "helpDetail": "The deep alpine valley presents specific hurdles (e.g., lack of visible horizon, magnetic anomalies, constant cloud cover) that must be accounted for before using Prevailing Wind Striations.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Execute Prevailing Wind Striations protocol.",
-          "helpDetail": "Determine the cardinal directions. Relying solely on Prevailing Wind Striations is risky; always attempt to cross-verify the heading with a secondary natural indicator.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Establish a Deep handrail.",
-          "helpDetail": "Once a heading is found via Prevailing Wind Striations, immediately pick a massive feature in the distance along that exact azimuth to walk toward, so you don't have to constantly look at the sun/device.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Maintain the azimuth.",
-          "helpDetail": "The sheer scale of a deep alpine valley guarantees you will veer left or right naturally over miles. Recalibrate your Prevailing Wind Striations heading every 30 minutes minimum.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 3-25.26 Land Navigation",
-      "sourceUrl": "https://irp.fas.org/doddir/army/fm3-25-26.pdf"
     }
   ],
   "articles": [
@@ -5936,7 +4586,9 @@
       "relatedTechniqueIDs": [
         "nav-lost-procedure",
         "nav-compass-use"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "nav-article-celestial",
@@ -5946,7 +4598,9 @@
         "nav-north-star",
         "nav-southern-cross",
         "nav-star-movement"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "nav-article-magnetic",
@@ -5955,7 +4609,9 @@
       "relatedTechniqueIDs": [
         "nav-compass-use",
         "nav-map-reading"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "nav-article-emergency",
@@ -6016,8 +4672,8 @@
     },
     {
       "id": "nav-article-getting-unlost",
-      "sourceName": "U.S. Search and Rescue Task Force",
-      "sourceUrl": "http://www.ussartf.org/lost.htm",
+      "sourceName": "US Search & Rescue Task Force",
+      "sourceUrl": "http://www.ussartf.org/survival.htm",
       "title": "Getting Unlost: Step-by-Step Recovery",
       "body": "Being lost is not a failure. It's a situation to manage systematically.\n\nSTOP Protocol:\n- S: Sit down. Panic causes bad decisions. Calm yourself first.\n- T: Think. When did you last know your position? What have you done since?\n- O: Observe. What terrain features can you see? Sun direction? Sounds?\n- P: Plan. Make a deliberate decision based on information, not emotion.\n\nRecovery steps:\n1. Mark your current position (cairn, flag, knife mark on tree)\n2. Try to retrace your steps to your last known position\n3. If retracing fails, climb to high ground for a view\n4. Identify any linear feature (river, ridge, road) and travel to it\n5. Once on a linear feature, follow it to civilization\n\nCommon mistakes when lost:\n- Continuing to walk hoping things look familiar (makes it worse)\n- Walking faster (burns energy, covers ground but not in useful direction)\n- Not marking your position (wander in circles without knowing it)\n- Splitting up from group (exponentially harder to find multiple people)\n\nIf you cannot self-rescue:\n- Stay put. Search and rescue finds stationary targets faster.\n- Make yourself visible: bright colors, ground signals, fire, whistle\n- Three of anything is the universal distress signal: 3 fires, 3 whistle blasts, 3 rocks in a triangle",
       "relatedTechniqueIDs": [

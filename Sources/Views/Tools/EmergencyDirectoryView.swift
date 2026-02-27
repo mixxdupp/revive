@@ -80,6 +80,7 @@ struct EmergencyDirectoryView: View {
                                 Image(systemName: "xmark.circle.fill")
                                     .foregroundStyle(DesignSystem.textSecondary)
                             }
+                            .accessibilityLabel("Clear search")
                         }
                     }
                     .padding(.horizontal, 16)

@@ -31,8 +31,8 @@
           "illustrationDescription": "Igniting tinder."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "fire-steel-wool",
@@ -191,8 +191,8 @@
           "illustrationDescription": "Flashing light."
         }
       ],
-      "sourceName": "U.S. Coast Guard – Distress Signals",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     }
   ],
   "articles": []

@@ -16,13 +16,7 @@ extension ContentDatabase {
         TriageOption(id: "fa-fin-6", label: "Topical Cleaning (Astringent, Honey)", icon: "leaf.fill", destination: .technique("firstaid-honey-wound"))
     ])
         )),
-        TriageOption(id: "fa-fin-7", label: "Transport / Improvised Evacuation", icon: "hammer.fill", destination: .nextQuestion(
-            TriageNode(id: "hurt-nq-2-10", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-8", label: "Improvised Litter / Carry", icon: "hammer.fill", destination: .technique("firstaid-improvised-stretcher")),
-        TriageOption(id: "fa-fin-9", label: "Shelter / Evacuation Decision", icon: "figure.walk.departure", destination: .technique("firstaid-encyclopedia-evac-mild-shelter")),
-        TriageOption(id: "fa-fin-10", label: "Helicopter / Air Evac Prep", icon: "cross.case.fill", destination: .technique("firstaid-encyclopedia-evac-profound-helicopter"))
-    ])
-        ))
+        TriageOption(id: "fa-fin-7", label: "Transport / Improvised Evacuation", icon: "hammer.fill", destination: .technique("firstaid-improvised-stretcher"))
     ])
         )),
         TriageOption(id: "fa-fin-11", label: "Well-Equipped (Trauma/Med Kit Available)", icon: "cross.case.fill", destination: .nextQuestion(
@@ -31,7 +25,7 @@ extension ContentDatabase {
             TriageNode(id: "hurt-nq-2-22", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-13", label: "Bleeding: Spurting Arterial Flow", icon: "hammer.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-3-15", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-14", label: "Junctional (Neck/Groin/Armpit)", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-junctional-hemorrhage", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-hemostatic-junctional", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-14", label: "Junctional (Neck/Groin/Armpit)", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-hemostatic-packing", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-hemostatic-agents", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-15", label: "Arm or Leg Bleed", icon: "drop.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-tourniquet", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-hemostatic-tourniquet-high-tight", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup))
     ])
         )),
@@ -44,7 +38,7 @@ extension ContentDatabase {
         )),
         TriageOption(id: "fa-fin-20", label: "Allergic: Throat Swelling / Anaphylaxis", icon: "figure.run", destination: .technique("firstaid-anaphylaxis-management")),
         TriageOption(id: "fa-fin-21", label: "Bleeding: pooling in deep chest/abdomen", icon: "lungs.fill", destination: .technique("firstaid-combat-gauze-packing")),
-        TriageOption(id: "fa-fin-22", label: "Breathing: Absent or Gasping", icon: "lungs.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-chest-cpr", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-drowning-management", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup))
+        TriageOption(id: "fa-fin-22", label: "Breathing: Absent or Gasping", icon: "lungs.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-cpr", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-drowning-management", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup))
     ])
         )),
         TriageOption(id: "fa-fin-23", label: "Deep Lacerations / Heavy Bleeding", icon: "drop.fill", destination: .nextQuestion(
@@ -65,28 +59,17 @@ extension ContentDatabase {
         TriageOption(id: "fa-fin-32", label: "Chest Trauma", icon: "lungs.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-35", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-33", label: "Trachea Shifted / Severe Dyspnea", icon: "cross.case.fill", destination: .technique("firstaid-tension-pneumo-recognition")),
-        TriageOption(id: "fa-fin-34", label: "Bubbling / Sucking sound", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-sucking-chest-seal", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-chest-seal-improvised", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-34", label: "Bubbling / Sucking sound", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-chest-seal", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-chest-seal-improvised", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-35", label: "Chest collapsing paradoxically", icon: "lungs.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-rib-fracture", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-flail-chest-management", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup))
     ])
         )),
         TriageOption(id: "fa-fin-36", label: "Medical Emergencies", icon: "cross.case.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-50", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-37", label: "Diabetic: Low Sugar (Unconscious)", icon: "hammer.fill", destination: .technique("firstaid-expert-hypoglycemia-field")),
-        TriageOption(id: "fa-fin-38", label: "Asthma Attack (Wheezing but breathing)", icon: "lungs.fill", destination: .technique("firstaid-asthma-attack")),
-        TriageOption(id: "fa-fin-39", label: "Chest Pain (Rest / Monitor / Aspirin)", icon: "lungs.fill", destination: .technique("firstaid-encyclopedia-myocardial-infarction-heart-attack-field-treatment")),
-        TriageOption(id: "fa-fin-40", label: "Altered Mental Status", icon: "cross.case.fill", destination: .nextQuestion(
-            TriageNode(id: "hurt-nq-3-42", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-41", label: "Facial Droop / Weakness / Speech", icon: "cross.case.fill", destination: .technique("firstaid-encyclopedia-transient-ischemic-attack-stroke-field-treatment")),
-        TriageOption(id: "fa-fin-42", label: "Hot to touch / Recent heat exposure", icon: "flame.fill", destination: .technique("firstaid-heat-stroke-cooling"))
-    ])
-        )),
-        TriageOption(id: "fa-fin-43", label: "Active Seizure (Convulsions)", icon: "bolt.fill", destination: .technique("firstaid-encyclopedia-seizure-grand-mal-field-treatment")),
+        TriageOption(id: "fa-fin-37", label: "Diabetic Emergency", icon: "hammer.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-expert-hypoglycemia-field", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-diabetic-emergency", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-38", label: "Asthma Attack (Wheezing but breathing)", icon: "lungs.fill", destination: .technique("firstaid-asthma")),
+        TriageOption(id: "fa-fin-40", label: "Altered Mental Status", icon: "cross.case.fill", destination: .technique("firstaid-heat-stroke-cooling")),
         TriageOption(id: "fa-fin-44", label: "Post-Seizure Recovery", icon: "bed.double.fill", destination: .technique("firstaid-seizure-response")),
-        TriageOption(id: "fa-fin-45", label: "Diabetic: High Sugar / Sweet Breath", icon: "pills.fill", destination: .technique("firstaid-encyclopedia-diabetic-ketoacidosis-recognition-field-treatment")),
-        TriageOption(id: "fa-fin-46", label: "Diabetic: Alert monitoring", icon: "pills.fill", destination: .technique("firstaid-diabetic-emergency")),
-        TriageOption(id: "fa-fin-47", label: "General Toxic Exposure", icon: "cross.case.fill", destination: .technique("firstaid-poison-response")),
-        TriageOption(id: "fa-fin-48", label: "Suspected Ingestion / Overdose", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-charcoal-ingestion", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-overdose-response", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-49", label: "Topical Poison Plant exposure", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-encyclopedia-poison-ivy-oak-sumac-field-treatment")),
+        TriageOption(id: "fa-fin-47", label: "Toxic Exposure / Overdose", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-poison-response", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-charcoal-ingestion", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-overdose-response", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-50", label: "Mild Allergic Reaction (Rash/Itch)", icon: "allergens", destination: .technique("firstaid-allergic-reaction-mild"))
     ])
         )),
@@ -100,8 +83,6 @@ extension ContentDatabase {
         TriageOption(id: "fa-fin-55", label: "Infection / Fevers", icon: "thermometer", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-61", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-56", label: "Localized wound red/swollen/pus", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-garlic-antibiotic", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-infection-management", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-57", label: "High risk puncture (Tetanus check)", icon: "pin.fill", destination: .technique("firstaid-encyclopedia-tetanus-risk-assessment-field-treatment")),
-        TriageOption(id: "fa-fin-58", label: "Generalized fever with chills (Tropical)", icon: "thermometer", destination: .technique("firstaid-encyclopedia-tick-borne-illness-lyme-rocky-mountain-field-treatment")),
         TriageOption(id: "fa-fin-59", label: "General Adult Fever", icon: "thermometer", destination: .technique("firstaid-fever")),
         TriageOption(id: "fa-fin-60", label: "Pediatric (Infant/Child) High Fever", icon: "thermometer", destination: .technique("firstaid-pediatric-fever")),
         TriageOption(id: "fa-fin-61", label: "Painful urination / Flank pain", icon: "cross.case.fill", destination: .technique("firstaid-urinary-tract-infection"))
@@ -110,7 +91,6 @@ extension ContentDatabase {
         TriageOption(id: "fa-fin-62", label: "Sudden Illness (Stomach)", icon: "pills.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-66", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-63", label: "Kidney Stone / Severe Flank Pain", icon: "cross.case.fill", destination: .technique("firstaid-kidney-stone-field")),
-        TriageOption(id: "fa-fin-64", label: "Suspected Food/Water Borne Illness", icon: "pills.fill", destination: .technique("firstaid-encyclopedia-norovirus-outbreak-in-camp-field-treatment")),
         TriageOption(id: "fa-fin-65", label: "General Stomach ache / GI", icon: "pills.fill", destination: .technique("firstaid-expert-giardiasis-management")),
         TriageOption(id: "fa-fin-66", label: "Severe Constipation", icon: "cross.case.fill", destination: .technique("firstaid-constipation-field"))
     ])
@@ -121,9 +101,8 @@ extension ContentDatabase {
         TriageOption(id: "fa-fin-69", label: "Upper Leg Deformity (Femur)", icon: "figure.walk", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-femur-traction", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-kendrick-traction-device", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-70", label: "Bone protruding through skin (Open)", icon: "figure.walk", destination: .technique("firstaid-open-fracture-management")),
         TriageOption(id: "fa-fin-71", label: "Arm or Wrist Deformity", icon: "figure.walk", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-arm-splint", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-finger-dislocation", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-72", label: "Lower Leg or Knee Deformity", icon: "hammer.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-leg-splint", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-knee-stabilization", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-knee-injury", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-73", label: "Shoulder Deformity", icon: "figure.walk", destination: .technique("firstaid-shoulder-reduction")),
-        TriageOption(id: "fa-fin-74", label: "General Rest/Sling", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-splint-basics", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-sling", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-cravat-sling", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup))
+        TriageOption(id: "fa-fin-72", label: "Lower Leg or Knee Deformity", icon: "hammer.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-leg-splint", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-knee-injury", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-74", label: "Shoulder / General Support", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-shoulder-reduction", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-splint-basics", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-sling", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-cravat-sling", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual))
     ])
         )),
         TriageOption(id: "fa-fin-75", label: "Heat Burns / Chemical / Electrical", icon: "flame.fill", destination: .nextQuestion(
@@ -147,13 +126,12 @@ extension ContentDatabase {
         )),
         TriageOption(id: "fa-fin-88a", label: "Dental / Tooth", icon: "mouth", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-3-dental", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-88", label: "Toothache / missing filling", icon: "mouth", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-dental-temporary-filling", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-dental", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-dental-field-fix", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-toothache-field", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-dental-jaw-dislocation", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual)),
+        TriageOption(id: "fa-fin-88", label: "Toothache / missing filling", icon: "mouth", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-dental-temporary-filling", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-dental", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-toothache-field", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-dental-jaw-dislocation", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual)),
         TriageOption(id: "fa-fin-89", label: "Avulsed (Knocked-out) tooth", icon: "mouth", destination: .technique("firstaid-dental-avulsion"))
     ])
         )),
         TriageOption(id: "fa-fin-83", label: "Splinter / Cactus thorn", icon: "pin.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-splinter", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-nail-bed-injury", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-84", label: "Blisters / Scrapes", icon: "bandage", destination: .technique("firstaid-blister")),
-        TriageOption(id: "fa-fin-90", label: "Deep puncture (Clean object)", icon: "pin.fill", destination: .technique("firstaid-encyclopedia-puncture-wound-nail-thorn-field-treatment")),
         TriageOption(id: "fa-fin-91", label: "Embedded Fish Hook", icon: "pin.fill", destination: .technique("firstaid-fishhook-removal")),
         TriageOption(id: "fa-fin-92", label: "Impaled object (Left in place)", icon: "pin.fill", destination: .technique("firstaid-impaled-object-stabilize")),
         TriageOption(id: "fa-fin-93", label: "Visible object in Ear/Nose", icon: "ear.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-foreign-body-ear", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-leech-removal", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
@@ -162,31 +140,19 @@ extension ContentDatabase {
         )),
         TriageOption(id: "fa-fin-95", label: "Bites & Stings", icon: "ant.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-108", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-96", label: "Stingray / Spined marine", icon: "figure.stand", destination: .technique("firstaid-stingray-hot-water")),
-        TriageOption(id: "fa-fin-97", label: "Sea Urchin / Octopus / Snail", icon: "pin.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-cone-snail", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-blue-ring-octopus", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-sea-urchin", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-98", label: "Bee / Wasp Sting", icon: "ant.fill", destination: .technique("firstaid-bee-sting")),
-        TriageOption(id: "fa-fin-99", label: "Tick Attachment", icon: "cross.case.fill", destination: .technique("firstaid-tick-removal")),
-        TriageOption(id: "fa-fin-100", label: "Centipede Bite", icon: "ant.fill", destination: .technique("firstaid-centipede-bite")),
-        TriageOption(id: "fa-fin-101", label: "Coral Snake", icon: "bolt.fill", destination: .technique("firstaid-snakebite-coral")),
-        TriageOption(id: "fa-fin-102", label: "Rattlesnake / Pit Viper", icon: "bolt.fill", destination: .technique("firstaid-snakebite-pit-viper")),
-        TriageOption(id: "fa-fin-103", label: "General Snakebite", icon: "bolt.fill", destination: .technique("firstaid-snake-bite-pressure-immobilization")),
-        TriageOption(id: "fa-fin-104", label: "Black Widow Spider", icon: "ladybug.fill", destination: .technique("firstaid-black-widow-bite")),
-        TriageOption(id: "fa-fin-105", label: "Brown Recluse (Necrotic bite)", icon: "ladybug.fill", destination: .technique("firstaid-spider-bite-recluse")),
-        TriageOption(id: "fa-fin-106", label: "Scorpion Sting", icon: "bolt.fill", destination: .technique("firstaid-scorpion-sting")),
-        TriageOption(id: "fa-fin-107", label: "Mammal (Dog/Bat) Bite", icon: "pawprint.fill", destination: .technique("firstaid-expert-rabies-exposure")),
-        TriageOption(id: "fa-fin-108", label: "Jellyfish / Nematocyst", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-marine-sting-jellyfish", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-jellyfish-vinegar", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup))
+        TriageOption(id: "fa-fin-96", label: "Marine Stings (Stingray, Urchin, Jellyfish)", icon: "figure.stand", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-stingray-hot-water", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-sting-treat", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-jellyfish-vinegar", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-cone-snail", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-blue-ring-octopus", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-sea-urchin", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual)),
+        TriageOption(id: "fa-fin-98", label: "Insect Stings (Bee, Wasp, Centipede)", icon: "ant.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-bee-sting", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-centipede-bite", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-101", label: "Snakebite", icon: "bolt.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-snake-bite-pressure-immobilization", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-snakebite-pit-viper", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-snakebite-coral", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-104", label: "Spider / Scorpion", icon: "ladybug.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-black-widow-bite", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-spider-bite-recluse", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-scorpion-sting", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-107", label: "Mammal Bite (Dog, Bat, Rabies)", icon: "pawprint.fill", destination: .technique("firstaid-expert-rabies-exposure"))
     ])
         )),
         TriageOption(id: "fa-fin-109", label: "Environmental Extremes", icon: "cross.case.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-119", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-110", label: "HAPE: Altitude Breathing difficulty", icon: "lungs.fill", destination: .technique("firstaid-hape-treatment")),
+        TriageOption(id: "fa-fin-110", label: "Altitude Illness (AMS, HAPE, HACE)", icon: "mountain.2.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-altitude-sickness-ams", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-hape-treatment", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-hace-treatment", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-altitude", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual)),
         TriageOption(id: "fa-fin-111", label: "Mild Hypothermia (Shivering / Alert)", icon: "snowflake", destination: .technique("firstaid-hypothermia-mild-self")),
         TriageOption(id: "fa-fin-112", label: "Severe Hypothermia (No Shivering)", icon: "snowflake", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-hypothermia-active-warming", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-hypothermia-wrap", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-cold-water-immersion", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-113", label: "HACE: Altitude Confusion/Ataxia", icon: "mountain.2.fill", destination: .technique("firstaid-hace-treatment")),
-        TriageOption(id: "fa-fin-114", label: "Sunburn / Radiation", icon: "flame.fill", destination: .technique("firstaid-encyclopedia-heat-sunburn")),
-        TriageOption(id: "fa-fin-115", label: "Frostbite (Frozen/Numb localized)", icon: "snowflake", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-frostbite-thaw-decision", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-frostbite-rapid-rewarm", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-116", label: "Trench Foot (Wet/Cold prolonged)", icon: "snowflake", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-trench-foot-adv", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-chilblains", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-immersion-foot", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-117", label: "AMS: Mild Altitude Headache", icon: "mountain.2.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-altitude-sickness-ams", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-altitude", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-115", label: "Frostbite / Trench Foot", icon: "snowflake", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-frostbite-thaw-decision", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-frostbite-rapid-rewarm", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-trench-foot", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-chilblains", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-immersion-foot", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual)),
         TriageOption(id: "fa-fin-118", label: "Salt Imbalance / Dehydration", icon: "cross.case.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-dehydration-response", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-hyponatremia", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-pediatric-dehydration", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-119", label: "Heat Exhaustion (Cool / Rest / Fluids)", icon: "flame.fill", destination: .technique("firstaid-heat-exhaustion-stroke"))
     ])
@@ -202,16 +168,12 @@ extension ContentDatabase {
         )),
         TriageOption(id: "fa-fin-126", label: "Advanced Emergency Procedures", icon: "cross.case.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-136", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-127", label: "Needle Decompression (Tension Pneumo)", icon: "lungs.fill", destination: .technique("firstaid-needle-decompression")),
-        TriageOption(id: "fa-fin-128", label: "Sucking Chest Wound Dressing", icon: "lungs.fill", destination: .technique("firstaid-sucking-chest-dressing")),
-        TriageOption(id: "fa-fin-129", label: "Panic Breathing Control", icon: "lungs.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-hyperventilation", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-panic-attack", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-127", label: "Chest Procedures (Needle Decomp, Dressing)", icon: "lungs.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-needle-decompression", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-sucking-chest-dressing", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-129", label: "Breathing: Panic / Hyperventilation", icon: "lungs.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-hyperventilation", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-panic-attack", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-130", label: "Advanced Airway Insertion", icon: "lungs.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-nasopharyngeal-airway", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-airway-jaw-thrust", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-131", label: "Cardiac Tamponade Signs", icon: "heart.fill", destination: .technique("firstaid-pericardiocentesis-signs")),
+        TriageOption(id: "fa-fin-131", label: "Cardiac / Shock / Blood", icon: "heart.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-pericardiocentesis-signs", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-shock-treatment", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-field-blood-transfusion-prep", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual)),
         TriageOption(id: "fa-fin-132", label: "Diver Pressure Injury Prep", icon: "water.waves", destination: .technique("firstaid-decompression-sickness")),
-        TriageOption(id: "fa-fin-133", label: "Emergency Childbirth Protocol", icon: "figure.and.child.holdinghands", destination: .technique("firstaid-emergency-childbirth")),
-        TriageOption(id: "fa-fin-134", label: "Blood Transfusion Prep", icon: "ivfluid.bag", destination: .technique("firstaid-field-blood-transfusion-prep")),
-        TriageOption(id: "fa-fin-135", label: "Shock Treatment Prep", icon: "ivfluid.bag", destination: .technique("firstaid-shock-treatment")),
-        TriageOption(id: "fa-fin-136", label: "Crush / Blast Trauma Prep", icon: "burst.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-compartment-syndrome", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-blast-injury-primary", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-avalanche-burial-recovery", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-crush-syndrome-management", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual))
+        TriageOption(id: "fa-fin-133", label: "Emergency Childbirth / Trauma", icon: "figure.and.child.holdinghands", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-emergency-childbirth", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-compartment-syndrome", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-blast-injury-primary", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-avalanche-burial-recovery", role: TriageTechniqueRole.contextual), RankedTechnique(id: "firstaid-crush-syndrome-management", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.complexContextual))
     ])
         ))
     ])

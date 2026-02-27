@@ -171,8 +171,8 @@
           "illustrationDescription": "Planning exit."
         }
       ],
-      "sourceName": "Red Cross",
-      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
+      "sourceName": "British Red Cross",
+      "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/how-to-do-a-primary-survey"
     },
     {
       "id": "firstaid-decon",
@@ -268,39 +268,7 @@
         }
       ],
       "sourceName": "Red Cross",
-      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
-    },
-    {
-      "id": "firstaid-chem-burn",
-      "name": "Chemical Burn",
-      "subtitle": "Neutralize and flush chemicals",
-      "category": "Hazmat",
-      "difficulty": 2,
-      "estimatedTime": "20 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Brush off dry chemicals before wetting.",
-          "helpDetail": "Water can activate some dry chemicals. Brush away from face.",
-          "illustrationDescription": "Brushing powder."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Flush with water for at least 20 minutes.",
-          "helpDetail": "Use low pressure. Ensure runoff does not touch unaffected skin.",
-          "illustrationDescription": "Flushing wound."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Remove contaminated clothing/jewelry.",
-          "helpDetail": "Chemicals can stay in fabric and continue burning.",
-          "illustrationDescription": "Removing contamination."
-        }
-      ],
-      "sourceName": "Mayo Clinic",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-chemical-burns/basics/art-20056667"
+      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid/evaluating-first-aid/burns"
     }
   ],
   "articles": []

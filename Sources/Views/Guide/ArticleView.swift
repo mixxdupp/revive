@@ -216,8 +216,8 @@ struct ArticleView: View {
                             .background(.ultraThinMaterial)
                             .clipShape(Circle())
                             .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
-                        .accessibilityHidden(true)
                     }
+                    .accessibilityLabel("Back")
                     .padding(.leading, 24)
                     
                     Spacer()
@@ -230,8 +230,8 @@ struct ArticleView: View {
                             .frame(width: 40, height: 40)
                             .background(.ultraThinMaterial)
                             .clipShape(Circle())
-                        .accessibilityHidden(true)
                     }
+                    .accessibilityLabel("Glossary")
                     .padding(.trailing, 24)
                 }
                 .padding(.top, 16)

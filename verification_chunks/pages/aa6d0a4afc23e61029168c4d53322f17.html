@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://primitivetechnology.wordpress.com/xmlrpc.php">
+
+<title>Making stuff from scratch in the wild</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://primitivetechnology.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://primitivetechnology.wordpress.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='/wp-content/mu-plugins/jetpack-plugin/moon/modules/infinite-scroll/infinity.css?m=1770909026i&cssminify=yes' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='/wp-content/plugins/gutenberg-core/v22.5.3/build/styles/block-library/style.min.css?m=1770945363i&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.has-text-align-justify{text-align:justify;}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css'>
+.wp-block-button__link{background-color:#32373c;border-radius:9999px;box-shadow:none;color:#fff;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-file__button{background:#32373c;color:#fff}.wp-block-accordion-heading{margin:0}.wp-block-accordion-heading__toggle{background-color:inherit!important;color:inherit!important}.wp-block-accordion-heading__toggle:not(:focus-visible){outline:none}.wp-block-accordion-heading__toggle:focus,.wp-block-accordion-heading__toggle:hover{background-color:inherit!important;border:none;box-shadow:none;color:inherit;padding:var(--wp--preset--spacing--20,1em) 0;text-decoration:none}.wp-block-accordion-heading__toggle:focus-visible{outline:auto;outline-offset:0}
+/*# sourceURL=/wp-content/plugins/gutenberg-core/v22.5.3/build/styles/block-library/classic.min.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='/_static/??-eJyFjtEKwjAMRX/INqvKthfxU2TrwuzWtKVpHf69HYoKir6E5HLPIbAEob1L6BIEm0fjGLTvrdczw1aqVirBhoJFEfEi9zAYTs+G4HS1KDXzBt5ElMXLFbHkFLq0NggH06FFKrVf2BIKI/o+RGQWZZLJJNK5gPzB3WMIuQeXtcUuIvx9bMIUOj0/biDvHZyM0zCiw2gKwd/XVXqkg2oaVVf1rq2mG4pfeFA=&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='nucleare-fonts-css' href='https://fonts-api.wp.com/css?family=Roboto%3A400%2C700%2C700italic%2C400italic%7CPlayfair+Display%3A400%2C400italic%2C700italic%2C700&#038;subset=latin%2Clatin-ext' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='/_static/??-eJx9y80OwiAMB/AXsjZLMOrB+CyMdAxTWkIhe/0xL+rF2/8jP9wKBJVG0rCtlMmw9BmlByZfCYMZLuMHv5FppvMYTviFcofCPSYxrDSzxhHjm33qPxRJgTX4llR+CizsUz3oMz8md7k7d7tO7rUDjnZBsA==&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-7-1' href='/wp-content/mu-plugins/global-print/global-print.css?m=1465851035i&cssminify=yes' type='text/css' media='print' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='/wp-content/themes/pub/nucleare/inc/style-wpcom.css?m=1428690127i&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+/*# sourceURL=jetpack-global-styles-frontend-style-inline-css */
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='/wp-content/themes/h4/global.css?m=1420737423i&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="wpcom-actionbar-placeholder-js-extra">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"95157113","postID":"0","siteURL":"https://primitivetechnology.wordpress.com","xhrURL":"https://primitivetechnology.wordpress.com/wp-admin/admin-ajax.php","nonce":"f218127632","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https://s0.wp.com/wp-content/js/wpcom-proxy-request.js?m=1513050504i&amp;ver=20211021","i18n":{"followedText":"New posts from this site will now appear in your \u003Ca href=\"https://wordpress.com/reader\"\u003EReader\u003C/a\u003E","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","shortLinkCopied":"Shortlink copied to clipboard."}};
+//# sourceURL=wpcom-actionbar-placeholder-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-mu-wpcom-settings-js-before">
+/* <![CDATA[ */
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https://s0.wp.com/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/moon/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/"};
+//# sourceURL=jetpack-mu-wpcom-settings-js-before
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/wp-content/js/rlt-proxy.js?m=1720530689i'></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
+	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+//# sourceURL=rlt-proxy-js-after
+/* ]]> */
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://primitivetechnology.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='https://wp.me/6rgI9' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="(no title)" />
+<meta property="og:description" content="Making stuff from scratch in the wild" />
+<meta property="og:url" content="https://primitivetechnology.wordpress.com/" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg?m=1383295312i" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="fb:app_id" content="249643311490" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://s0.wp.com/i/favicon.ico?m=1713425267i" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s0.wp.com/i/favicon.ico?m=1713425267i" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="https://s0.wp.com/i/webclip.png?m=1713868326i" />
+<link rel='openid.server' href='https://primitivetechnology.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://primitivetechnology.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://primitivetechnology.wordpress.com/osd.xml" title="" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#f1f0ed" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="description" content="Making stuff from scratch in the wild" />
+	<style type="text/css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f0ed; }
+</style>
+	<style type="text/css" id="custom-colors-css">#wp-calendar > caption, .menu-toggle:focus, .menu-toggle:hover { color: #383838;}
+.social-links .top-search { color: #383838;}
+.widget.wp_widget_tag_cloud a, .more-link, .button, button, input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span { color: #383838;}
+.social-links .top-search:hover, .button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, #infinite-handle span:hover, .button:focus, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, #infinite-handle span:focus, .button:active, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, #infinite-handle span:active { color: #424242;}
+.widget, .widget a:hover, .widget a:focus, .widget a:active { color: #5E5E5E;}
+.site-title a:hover, .site-title a:focus, .site-title a:active { color: #5E5E5E;}
+.site-info, .site-description { color: #5E5E5E;}
+body { background-color: #f1f0ed;}
+.widget.wp_widget_tag_cloud a, .more-link, .button, button, input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span { background-color: #7db4b5;}
+#wp-calendar > caption { background-color: #7db4b5;}
+.social-links .top-search { background-color: #7db4b5;}
+#wp-calendar tbody td#today, blockquote, .main-navigation div > ul > li > ul > li:first-child { border-color: #7db4b5;}
+.main-navigation div > ul > li > ul::before { border-bottom-color: #7db4b5;}
+.entry-featured-image, .menu-toggle:focus, .menu-toggle:hover { background-color: #7db4b5;}
+.widget a, .site-info a, .site-title a { color: #3F6D6E;}
+.main-navigation a { color: #447677;}
+.social-links a:hover { color: #447677;}
+.entry-title a:hover, .entry-title a:focus, a { color: #447677;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-4' href='/_static/??-eJydj9uKAjEMhl9ou2FAHLwQH0VqGjSaNqVJZ9i3XwVPIAh6me8n/wHmGlCLU3HIPVTpey4GR/Ia8RTOaK6o+SpAVi03cTtRSdogdtcc3RnvbyjRjDH4gTKFA0mlBonNoZFVLcYThYkTqb2SXzT7gfe9nutsuSDsRPFkYDOfoz51yJq6kAHGpt1IHjuu4FtDZ6EU9lGE2t+76xKwyethHIflMK4Ww/EfP5Sbfw==&cssminify=yes' type='text/css' media='all' />
+
+</head>
+
+<body class="home blog custom-background wp-theme-pubnucleare customizer-styles-applied jetpack-reblog-enabled">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div class="navigation-bar clear">
+		<div class="navigation-block">
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><i class="fa fa-bars"></i><span class="screen-reader-text">Open Menu</span></button>
+				<div class="menu"><ul>
+<li class="current_page_item"><a href="https://primitivetechnology.wordpress.com/">Home</a></li><li class="page_item page-item-1"><a href="https://primitivetechnology.wordpress.com/about/">About Primitive Technology</a></li>
+</ul></div>
+			</nav><!-- #site-navigation -->
+
+							<div class="social-links">
+					
+											<div class="open-search top-search"><i class="fa fa-search"><span class="screen-reader-text">Search</span></i></div>
+									</div>
+					</div>
+	</div>
+
+			<div class="search-full">
+			<div class="search-container">
+				<form role="search" method="get" class="search-form" action="https://primitivetechnology.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>				<span><a class="close-search"><i class="fa fa-close space-right"></i>Close</a></span>
+			</div>
+		</div>
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+							<a href="https://primitivetechnology.wordpress.com/" rel="home">
+					<img src="https://primitivetechnology.wordpress.com/wp-content/uploads/2015/07/cropped-primitive-tech-logo_web.png" width="1285" height="282" alt="" class="custom-header">
+				</a>
+									<h1 class="site-title"><a href="https://primitivetechnology.wordpress.com/" rel="home"></a></h1>
+			<h2 class="site-description">Making stuff from scratch in the wild</h2>
+		</div><!-- .site-branding -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+						
+				
+<article id="post-254" class="post-254 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/" rel="bookmark">Iron Prills</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/" rel="bookmark"><time class="entry-date published updated" datetime="2018-08-17T21:05:06+00:00">August 17, 2018</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/#comments">24 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/DyGLE0usN_I?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I smelted iron bacteria in a short furnace and produced a small quantity of iron prills (small iron spheres). In my ongoing quest to reach the iron age, further experiments were conducted concerning furnace design and the treatment of ore. I began by making a very short furnace. A pit 25 cm wide and 25 cm deep was dug and the tuyere of the forge blower placed in a 15 degree downward angle into the pit. Onto this, a furnace stack made of mud and grass was built 25 cm above ground level. The furnace was fired at various stages to help dry it. It took less than a day to build.<br />
+Eucalyptus wood was collected dead off the ground and stacked into a re-useable charcoal mound I had made previously. The top was sealed with mud and the mound lit. It took about 2 hours 30 minutes for fire to reach the air entries, at which time the holes were sealed and the top closed with mud.<br />
+Iron bacteria from the creek was gathered and brought to the smelting hut for processing. Charcoal was ground into a powder and mixed with the ore and water in the proportions of 1:1 char to ore by volume. This mixture was formed into 59 pellets 2.5 cm in diameter and then dried on top of the furnace.<br />
+To make the smelt, a wood fire was made in the furnace and allowed to burn for about an hour by natural draft and blowing. When the wood burnt down to the tuyere the furnace was filled with charcoal and 10 pellets were added to the top and the blower was engaged. Three handfuls of charcoal and 10 pellets were added at about 7 minute intervals totaling about 42 minutes. Charcoal was then continuously added after the last charge until the basket was empty. It took a total of about 3 hours working the blower until the operation ended.<br />
+The mass of slag and iron prills was prized out of the furnace using a log and wooden tongs. It was hammered flat while hot but no large bloom was made. Instead many small iron prills were found. These mostly seemed to be cast iron.<br />
+So far this is the largest amount of iron I&#8217;ve made in the wild and it used less charcoal than previous attempts, so I consider it a success of sorts. The ore must be mixed with carbon to ensure the correct reduction chemistry normally provided by carbon monoxide in a taller bloomery furnace. The fact that cast iron was produced suggests that next time less charcoal powder be added to the ore pellets or perhaps none at all considering that dead iron bacteria may also contribute some carbon to the ore. Alternatively, cast iron can be re-melted in a &#8220;finery&#8221; furnace, a small highly oxidizing furnace, to remove excess carbon, producing steel or iron. Alternatively cast iron can be converted into malleable cast iron by heating it in an enclosed container at 800-1000 c for long periods. Further experiments will be conducted.</p>
+<p>&nbsp;</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-251" class="post-251 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2018/07/17/wood-ash-cement/" rel="bookmark">Wood ash cement</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/07/17/wood-ash-cement/" rel="bookmark"><time class="entry-date published updated" datetime="2018-07-17T21:03:16+00:00">July 17, 2018</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/07/17/wood-ash-cement/#comments">15 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/DP0t2MmOMEA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I developed an experimental cement from made only from re-fired wood ash as its cementitious material. It was mixed with crushed terracotta as an aggregate and formed into a cube. The cement set hard after 3 days and did not dissolve in water after this period.</p>
+<p>Process: First I burnt bark and leaves in a kiln at high temperatures to produce well burnt, mostly white wood ash. The ash was then mixed into water and stirred well. The excess water was poured off and the resulting paste was made into pellets and allowed to dry. A pellet was then re-heated in the forge until it glowed about orange hot. This was then taken out, cooled and dropped in a pot of water. The pellet dissolved and boiled due to a chemical reaction with the water. The paste was stirred and crushed terracotta (old tiles from previous projects) was added and mixed to form a mouldable mortar. This was formed into a cube and allowed to set for three days (in the video, a cube made exactly the same way 3 days previously was used due to time constraints). The resultant cube was strong and made a slight ringing sound when tapped with a finger nail. It was placed in water for 24 hours to simulate a very heavy rain event and did not dissolve or release residues into the water.</p>
+<p>My current theory: The main component of wood ash consists of calcium in some form (e.g. calcium carbonate, calcium oxide). This can be up to 45% from my research. Calcium is in higher concentration in the bark and leaves of a tree. When the ash is mixed with water, the soluble component of wood ash (10% pot ash) dissolves into the water. But seeing that it does nothing for the cementing process, it is drained off leaving the insoluble calcium (and other components) in the paste. Doing this probably raises the relative percentage of calcium in the paste to about 50% or more. Most of the other 50 % consists of silica and alumina which are pozzolans, materials that chemically react with calcium hydroxide to increase the durability of the cement product. The paste was then made into a pellet and fired again to high temperature to convert all the calcium compounds to calcium oxide. It also reduces any charcoal in the pellet to ash if it hadn’t already been burnt the first time. This step seemed important as un-fired ash pellets only partially hardened and would fall apart in water, though retaining a weak undissolved 5mm thick crust. I can only surmise that re-firing the ash just gave a greater conversion of the calcium components to calcium oxide. The pellet is slaked in water converting the calcium oxide to calcium hydroxide. This cement was mixed with crushed terracotta which may also help in some way that I’m not aware of as I only did this one experiment and did not test other aggregates yet (e.g. sand, gravel etc.). Terracotta is porous and might hold together better than other materials. The mixture is allowed to set in air where carbon dioxide reacts with calcium hydroxide to form calcium carbonate cementing the aggregate together. After this, the cement will not dissolve in water.</p>
+<p>Use: I think this material might have a potential use as a mortar holding rocks or bricks together in wet environments where limestone or snail shells are unavailable for making cement. Wood ash is a pretty ubiquitous material to most natural environments inhabited by people using biomass fuels. Wood ash cement turns a waste product into a valuable building material. From my research, wood ash is already being used as a partial replacement for cement in the building industry without decreases in strength of the final product. But I’ve only just started experimenting with it and don’t know its full capabilities and limitations. Calcium content of wood ash differs depending on the species of tree, the part of the tree burnt and the soil it’s grown on. Cautious experimentation is still required before committing to a hut built from this material.</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-249" class="post-249 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2018/06/15/yam-cultivate-and-cook/" rel="bookmark">Yam, cultivate and&nbsp;cook</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/06/15/yam-cultivate-and-cook/" rel="bookmark"><time class="entry-date published updated" datetime="2018-06-15T21:58:46+00:00">June 15, 2018</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/06/15/yam-cultivate-and-cook/#comments">3 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/J8MLpv_utfM?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I planted a yam in a large basket like enclosure and then 6 months later harvested, cooked and ate it. My previous attempts at growing yams were stymied by wild pigs and scrub turkeys. On learning that yams are in the area, these animals will seek out any tubers planted and eat them. So my solution was to build a large basket like enclosure to protect the growing vine. 13 wooden stakes were hammered into the ground (an odd number being important in any weaving project) and lawyer cane harvested from the forest was woven between these uprights. The basket was about 1 m in diameter and about 75 cm high.</p>
+<p>A large yam, partially eaten by wallabies from a location further down the creek, was dug up and carried to the site. A small pit was dug in the enclosure and the yam simply placed in it. The enclosure was then back filled with dead leaves for fertiliser. As time progressed the vine grew above the basket and a long pole attached to it so it could climb into the canopy making full use of the sun.</p>
+<p>After 6 months and no maintenance, weeding or watering the yam had grown into two large tubers whereas the original yam had rotted away leaving a thin husk. The new tubers were dug up using a digging stick. As carful as I was, the yams sill broke off with more tuber still under ground. This portion will probably strike next season anyway. In the canopy, the vine also produced smaller tubbers called “bulbils”. These were collected in a pot to be used as seed yams for a larger garden I’m planning. You can eat bulbils as well but the larger yam is generally eaten instead due to its larger size.</p>
+<p>To cook the yam a fire pit was dug about 30 cm in diameter and about 20 cm deep. Wood was piled above the pit and set alight. The hot coals then fell into the pit where rocks where added to retain heat. The coals were scraped aside and the large tuber was broken up and thrown on top. The coals were raked back over it and a fire started on top. This cooked for 30 minutes before being pulled out of the coals. The outer layer of the yam was charred black and burning but the inside was soft and well cooked. The yam was eaten while steaming hot and tasted similar to a potato but with a crunchier texture near the outside much like bread crust. Although bland, yams provide a good deal of carbohydrates and are eaten as a staple in certain cultures. The remaining large yam tuber was tied up in a tree where rats could not eat it (hopefully).</p>
+<p>This form of farming is a good way to get around the conventional farming practice of clearing trees to make fields. Instead the yam vine uses the trees as scaffolding to climb on, allowing it to reach the light in the forest canopy. The basket enclosure worked well to keep forest creatures from eating the investment. It also formed a good in-situ compost heap to nourish the yam as it grew. In future, I’d add sand to the mix as yams tend to do well in sandy soil and I expect it would be easier to dig up. Yams do well in dry conditions but will yield more if well-watered so digging a water retaining pit might help. Despite the large size of the yams I grew relative to ordinary potatoes, much larger ones are possible and are indeed routinely grown. The largest one from my research was 275 kg, grown in India. Yams have 116 calories per 100 grams compared to potatoes at only 93. They store well in the dry season as they are adapted to having a dormant period during these conditions. They are versatile in that they can be cooked into chips, roasted, boiled, mashed and made into a type of dough called “fu fu” typically eaten with stews.</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-247" class="post-247 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2018/05/18/blower-and-charcoal/" rel="bookmark">Blower and Charcoal</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/05/18/blower-and-charcoal/" rel="bookmark"><time class="entry-date published updated" datetime="2018-05-18T21:11:22+00:00">May 18, 2018</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/05/18/blower-and-charcoal/#comments">2 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/JgQ-07VgJuY?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I made a blower and some charcoal at the new area in order to create higher temperatures in for advancing my material technology. I took Fan palm leaves and fashioned them into an impellor (about 25 cm in diameter) held in a split stick as a rotor. I then built a housing from clay (slightly more than 25 cm diameter with inlet and outlet openings about 8cm in diameter) and assembled the blower. I opted not to make a bow or cord mechanism as I’ve done before due to the complexity and lower portability of such a device. The lighter impellor material (leaf instead of the previous bark) made it easier to spin by hand anyway as it has a lower momentum. Each stroke of the spindle with the hand produces 4 rotations, so about 2 strokes per second gives 480 rpm. The blower increases the heat of a fire when blowing into it and I would guess it’s more effective than a blow pipe and lungs but don’t how it would compare to a primitive pot or bag bellows for air supply. A small furnace was made and then fired with wood fuel. The wood was wet but managed to fuse and partially met sand in the furnace.</p>
+<p>To get better performance, I made charcoal from the poor quality wood. I made a reusable charcoal retort to make it. This was different from the previous reusable mound I built as it consisted of a mud cylinder with air holes around the base. To use, it was stacked with wood and the top was covered with mud as opposed to the previous design which had a side door. The fire was lit from the top as usual and when the fire reached the air entries at the base (after an hour or two) the holes were sealed and the mound left to cool. The top was the broken open the next day and the charcoal removed. Another batch was made using significantly less effort as the main structure of the mound did not need to be rebuilt each time, only the top.</p>
+<p>Iron bacteria was again used to test the furnace. Charcoal and ore was placed in the furnace and the blower utilised. After an hour of operation the furnace was left to cool. The next day the furnace was opened and only slag was found with no metallic iron this time. I think increasing the ratio of charcoal to ore might increase the temperature so that the slag flows better. Further experiments will be needed before I get used to the new materials here.</p>
+<p>The new area I’m in is significantly wetter than the old area and this has affected the order in which I create my pyro technology. The old spot was a dry eucalypt forest with an abundant source of energy dense fire wood. As a result, I developed kilns early on, powered with wood fuel and a natural draft, before developing charcoal fuelled forced air furnaces. In contrast, the new area is a wet tropical rainforest, where wood rots nearly as soon as it falls off the tree in the damp conditions. Wood is also more difficult to collect here because of hordes of mosquitoes (away from the fire) and unpleasant, spiky plants. Because of this I developed a forge blower first as it allows higher temperatures from a lower quantity and quality of fuel.</p>
+<p>This poor quality wood can further be improved by converting it to charcoal first. In future, it may be necessary to cut fire wood green and dry it as opposed to picking it up off the ground dead as was preferable in the Eucalyptus forest I came from. The blower is also handy for stoking a tired campfire back into flames, I simply scrape the coals into a small mound around the nose of the tuyere and spin the impellor. I use the blower each day I’m at the hut for this purpose to save blowing on hot coals each time I need a fire for something.</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-245" class="post-245 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2018/04/20/round-hut/" rel="bookmark">Round Hut</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/04/20/round-hut/" rel="bookmark"><time class="entry-date published updated" datetime="2018-04-20T21:29:01+00:00">April 20, 2018</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/04/20/round-hut/#comments">18 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/vAuO3bHxSpc?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I built a round hut using palm thatch and mud walls to replace the damaged A-frame hut built a few months ago. The A frame hut was damaged due to torrential rain and poor design elements considering the wet conditions. The thatch had rotted in the part of the roof that gets shade. Moth larvae and mold grew and consumed the thatch in these places. The hut also tilted forward due to the back post being hammered in only 25 cm into the ground. So on returning to the property (it was cut off by flooded bridge) I began work on a new hut.</p>
+<p>The new hut was positioned further into the open clearing to get more sunlight. A 3 meter diameter circle was scribed and 12 wooden posts were hammered into the ground, each 50 cm deep for a sturdier structure. Lintels were then tied to the top of the posts joining the posts together. A tripod ladder was made from poles lashed together at the top and a platform lashed to its frame. The roof poles were then attached to the top of the lintels and lashed together at the top to form a conical roof frame, 3 meters at the highest point. Loya cane was then tied on the eaves to act as support for the ends of the palm thatch.</p>
+<p>700 palm fronds were then cut split and thatched onto the roof. The tripod ladder was used to climb up and thatch the roof from the inside. A cap was then made to put on the very top of the cone when the roof was almost finished.</p>
+<p>A drainage moat was dug around the hut and the excavated soil was placed on the hut floor to raise its level above the damp ground. A deluge tested the hut’s water shedding abilities. Torrential rain fell while a fire was kept going inside the dry hut. The drainage moat flowed like a stream during the heavy rain event.</p>
+<p>Loya cane was then harvested and woven between the posts. This formed a low wall. It was then daubed with mud inside and out. The clay from this was taken from the drainage moat. Rain falling into the moat meant that water didn’t need to be collected from the stream to mix the mud. This is another benefit of the drainage moat.</p>
+<p>The low wall allows light and air into the hut. With a fire going in the central pit, mosquitoes are kept at bay. The central fire pit produces smoke and heat that will hopefully prevent moths laying eggs in the roof (the caterpillars of which eat thatch) and will prevent mold from growing. The hut will be used as an undercover work space for future projects.</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-240" class="post-240 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2018/03/06/lime/" rel="bookmark">Lime</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/03/06/lime/" rel="bookmark"><time class="entry-date published" datetime="2018-03-06T22:00:06+00:00">March 6, 2018</time><time class="updated" datetime="2018-03-07T20:48:55+00:00">March 7, 2018</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/03/06/lime/#comments">8 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/Ek3aeUhHaFY?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>At the old hut site (the new one being temporarily cut off by flooding) I made lime mortar from the shells of rainforest snails by firing them in a kiln, slaking them in water, mixing them into lime putty. Lime is basically calcium carbonate (CaCO3). The general source of lime is limestone and various other calcareous minerals, though shells, egg shells and coral are other sources of lime. When heated above 840 degrees Celsius, the lime decomposes into calcium oxide (CaO) or Quicklime and releases carbon dioxide (CO2). When water is added to the quicklime it becomes calcium hydroxide Ca (OH)2 or lime putty. From here the calcium hydroxide can then be shaped into a form and allowed to set. Carbon dioxide enters the lime putty as it dries causing it to turn back into calcium carbonate. The new calcium carbonate has then set, remaining solid and water resistant.</p>
+<p>In my local geography, calcareous rocks such as limestone are absent leading to a difficulty in acquiring the feed stock for lime making. However, I was still able to make lime by collecting the shells of large terrestrial snails that are native to the rainforest here. The unoccupied shells of these snails were gathered up and stored at the hut. Fire wood was gathered and packed neatly into the kiln. Importantly, the firewood was stacked on top of the grate rather than underneath it in the firebox as is the normal procedure for firing pottery. Using an ordinary updraft pottery kiln in this configuration allows it to reach much higher temperatures than would be possible during normal use. The wood was lit from above and the fire burned down towards the grate. Alternate layers of shells and wood were added on to this burning fuel bed. After adding the last layer of wood to act as a “lid” to prevent heat loss from above I left the kiln to finish on its own, unsupervised. The whole process took about an hour and a half.</p>
+<p>When the kiln had cooled down a few hours later, I took out the calcined shells. Not shown in the video was the fact that some shells got so hot, the dirt stuck to them turned into slag and fused to them, possibly with the lime acting a flux lowering its melting point. This extreme heat (+1200 c) should be avoided as the over burnt lime becomes “dead lime”, unable to slake in water. Most shells were still useable though. They were taken out of the kiln and had water added to them. An exothermic reaction then ensued. Heat was produced as the lime quicklime turned into slaked lime. The water heated up creating steam and the shells decomposed into a white paste. The paste was stirred and crushed pottery was added to it as an aggregate (sand is normally used for this, I just had a lot of old pot sherds lying about to dispose of). This lime mortar mixture was then formed into a block shape and left to dry. It took about a week and a half to set as we have had extremely humid, wet weather. The block was observed to have set demonstrating its properties.</p>
+<p>What I created is actually lime mortar, typically used for mortaring bricks and tiles together. It’s basically the ‘Glue’ that holds together the building blocks of masonry structures. From my research 20 kg of lime mortar is used on a 1 m square section of brick wall. 5 kg of lime to 15 kg of aggregate (sand, grog etc.) per a 1 m square section of bricks. The shells, though large, are not terribly abundant. A method for finding shells efficiently needs to be made before considering making lime mortar in this fashion. From my experience sand bars in a creek sometimes accumulate snail shells from higher up in the mountains. In these spots, water velocity decreases and shells in the water tend to drop out of the water column. Additionally lime may be partially replaced with ordinary wood ash in mortar without a corresponding decrease in strength. To conclude, making lime in a land without limestone is possible but can be problematic when trying to do so on a large scale.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-238" class="post-238 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2018/01/19/a-frame-hut/" rel="bookmark">A frame hut</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/01/19/a-frame-hut/" rel="bookmark"><time class="entry-date published updated" datetime="2018-01-19T21:09:14+00:00">January 19, 2018</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2018/01/19/a-frame-hut/#comments">6 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/_7985zBEM3o?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I built an A frame hut as a large work space for projects. First I made a celt hatchet to cut timber for the hut. The axe head was made of amphibolite and the handle was made of a species of wattle. For the hut the floor plan was 4 X 4m. The height of the ridgeline was 2 m above the ground. A post was planted in the ground to support the ridge pole at the back of the structure and an A frame was put in the front to support the ridgeline. The rafters of the hut were then attached to the ridgepole. Palm fronds were then collected, split and lashed to this frame. The dome hut was disassembled and its thatch was added to the structure. Approximately 1200 fronds were used in total. For the ridgeline, thatch was lifted in place and rested on without lashing it down. Instead, pairs of sticks lashed together were lifted in place sitting over thatch preventing it from blowing away. These are known as “jockeys” as they resemble a rider sitting on a horse.</p>
+<p>A wall of wattle and daub was built at the back of the structure. Wooden poles were planted into the ground and lawyer cane was woven between them. Soil was dug from around the hut forming drainage trenches while also supplying the mud used to daub the wall. No fibre was added to the daub, just straight mud. Pegs were stuck into the wall to form a convenient rack to hold the stone axe off the ground when not in use. Later, pegs were added to support the fire sticks too. A bed was made by hammering in wooden stakes and lashing timber to the frame. This was covered with palm fibre to act as bedding. Atherton oak nuts were then collected and eaten/stored in a pot. Latter, heavy rain fell testing the huts ability to shed rain. The hut stayed dry while the water flowed off the thatch and into the drainage trenches left over from digging the mud for the wall.</p>
+<p>The A frame hut is a simple shelter that can be built quickly and simply. It’s basically a large roof built directly on the ground. The shape is strong and should resist strong winds. This hut is the biggest one I’ve built on this channel and could fit both the tiled roof hut and wattle and daub hut inside it with room left over along the sides. It requires no scaffolding or ladders to build. A person can walk right down the centre without ducking while the sides that are too low to stand in are used for storing firewood, tools and other things. A fire lit in the entrance will greatly reduce the number of mosquitoes in the hut though it will get smokey occasionally. To reduce smoke, a small stove could be built to burn the wood more efficiently. A chimney and fireplace could be built also, but would take more time.</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-236" class="post-236 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2017/12/22/pottery-and-stove/" rel="bookmark">Pottery and Stove</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2017/12/22/pottery-and-stove/" rel="bookmark"><time class="entry-date published updated" datetime="2017-12-22T20:41:28+00:00">December 22, 2017</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2017/12/22/pottery-and-stove/#comments">18 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/_YDuLCIzbN4?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I made some pottery from the clay in the new area to see how well it performed. A large bank of clay was exposed by the side of the creek. I dug it out using a digging stick and took it back to the hut. Small sticks and stones were picked out of the clay and the whole mass was mixed to make sure there were no dry lumps. When this was done the clay was then left next to the fire to dry slightly so that it became a stiff workable material to form pots from. No further processing was done to the clay.</p>
+<p>I formed small pinch pots from the clay by taking balls of it and pinching out the shape of the pots. Small cracks that formed while shaping were simply mended by wetting and smoothing over. Several pots were made this way. They were then left to dry completely next to the fire until they were completely dry.</p>
+<p>To fire the pot, it was placed upside down in the hot coals and covered with sticks in a tipi fashion. The wood both acts as fuel and protects the pot from sudden changes in temperatures such as those caused by sudden winds. When the fire was burning well, I increased the temperature of the fire by fanning it with a fan palm frond. The pot glowed red hot amongst the coals and so was fired to a sufficient temperature. After waiting overnight, the pot was retrieved from the ashes and struck with a stick. The pot gave a clear ringing sound indicating it was strong and had no cracks (hollow sounds indicate the opposite).  Now I had a small bowl to carry water in.</p>
+<p>A larger pot was then made from the same clay. This time the walls of the pot were built up using the coil technique where long rolls of clay were rolled and then squashed onto previous layers. The last layer was pinched outwards to form a pot lip. A lid was made for the pot by making a flat disk of clay with a small handle for lifting. When dried the pot was then fired as before but in a larger pit outside the hut. Again, the pot was covered with wood protecting it from sudden breezes that might cool or heat the pot suddenly, possibly causing cracks. The firing went well and the pot sounded strong when struck.</p>
+<p>The pot was then placed on 3 rocks and a fire lit underneath. It took close to 30 minutes to boil this way with lots of sticks. But it did eventually come to the boil. I then made a stove inside the hut. The fire pit was dug and extended into a trench, sticks laid over the entrance and mud mixed from the excavated dirt was then used to form the walls of the stove over the trench. The stove was about 30 cm internal diameter but came in to about 20 cm. Three raised lumps were made on the top of the stove to hold the pot above. Then the stove was fired. Note that wood can be placed over the entrance of the stove at ground level and lit in a hob firebox like configuration. The flames then get sucked down and then up into the stove. I show this because it’s an easy way to manage the fire without making it too big which might burn the thatch.</p>
+<p>When the pot is on the stove, it’s easier just to put sticks straight into the top of the stove between its open top and the sides of the pot. If over stacked with wood, wood gas is produced burning in a second fireball above the stove. It’s best just to keep the flames big enough to surround the pot (to reduce fire hazards). The pot was quicker to come to the boil then over a three stone fire.</p>
+<p>The clay here in the new place is good, it didn’t take me long to make pottery here. Notably this clay doesn’t seem to need grog or temper added to it to prevent it from cracking. I think this is due to tiny specs of mica that weren’t present in the clay from my old area. The clay seems stronger and there also seems to be much more of it everywhere. The pot boiled after a while of tending, in future I’ll probably make thinner walled pots so that they boil quicker. The stove was useful for boiling the pot. It also seems to reduce the amount of smoke in the hut and increase the life of the coals in the base so that the fire could be re stoked at a later time.</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-231" class="post-231 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2017/11/24/new-area-starting-from-scratch/" rel="bookmark">New area Starting from&nbsp;scratch</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2017/11/24/new-area-starting-from-scratch/" rel="bookmark"><time class="entry-date published" datetime="2017-11-24T21:03:19+00:00">November 24, 2017</time><time class="updated" datetime="2017-11-24T21:40:16+00:00">November 24, 2017</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2017/11/24/new-area-starting-from-scratch/#comments">20 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/qQTVuRrZO8w?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I bought a new property to shoot primitive technology videos on. The new area is dense tropical rainforest with a permanent creek. Starting completely from scratch, my first project was to build a simple dome hut and make a fire. First, I took some wood, <em>Abroma mollis</em>, for fire sticks. I knapped a small stone blade and used it to strip the fire sicks. Palm fibre was then taken for the tinder. The fire stick kit was then placed under a palm leaf to keep it out of the rain.</p>
+<p>Next, a stone from the creek was fashioned into a simple hand axe. This was used to cut a staff that was used to clear a path to the hut location. The location for the hut was a clearing densely crowded by native raspberry. This was then cleared using the staff and a small 2.5 m circle was levelled ready for building.</p>
+<p>Eight 2.75 m long saplings were cut using the hand axe and brought to the site. Eight holes about 25 cm deep were hammered into the ground in a circle 2.5 m in diameter and the saplings were then planted in. The tops were brought together at the top and tied with vine. A door lintel stick was lashed to the front about 75 cm off the ground giving a low door way.</p>
+<p>A stone flake was used to cut about 600 palm fronds. These were split and lashed horizontally to the frame creating a thatched dome. Mosquitoes are a real problem here so a fire was lit. The fire sticks from before had a hole carved in the base boards and had a notch carved to let the powder pour out.</p>
+<p>The spindle was twirled in the socket and smoking powder poured out producing a hot coal. This then ignited the palm fibre tinder. The fire was transferred to the hut and a small hearth was made of stones. The fire makes a big difference in the number of mosquitoes which seem unable to tolerate the smoke. The dome was completed up to the top and a small cap was made from lawyer cane and fronds to place on the top to keep rain out. When not in use the cap can be removed to let in more light like a sky light.</p>
+<p>Finally wood was cut for a bed. This consisted of wooden stakes hammered into the ground at the back of the hut behind the fire pit. Part of the bed frame is attached to the sapling uprights that form the dome. This works ok without the frame shaking too much due to the low attachment point of the bed. Wooden boards were then placed on this and were covered with palm fibre for bedding. Firewood is stored just inside the entrance on the left side of the door looking in. The bed sits behind the fire pit so smoke and flames deter insects or large animals reaching the occupant. Fire sticks and tools are kept just inside the right side of the entrance.</p>
+<p>The small hut is simple to build and creates a small, dry shelter for camping and storing tools. Though it is dark, the cap can be removed in fine weather to provide a fairly well-lit workspace protected from annoying insects. This new area has good stone, clay and materials lending themselves to elaborate shelters. A permanent creek runs through it. Mosquitoes are abundant here though and will be an issue. The Cassowary, a large, horned, flightless bird lives in this forest. It’s the most dangerous bird in the world, but generally only attacks when threatened.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				
+<article id="post-228" class="post-228 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+		<h1 class="entry-title"><a href="https://primitivetechnology.wordpress.com/2017/10/27/natural-draft-furnace/" rel="bookmark">Natural Draft Furnace</a></h1>					<div class="entry-meta small-part">
+				<span class="posted-on"><i class="fa fa-clock-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2017/10/27/natural-draft-furnace/" rel="bookmark"><time class="entry-date published updated" datetime="2017-10-27T21:02:43+00:00">October 27, 2017</time></a></span><span class="byline"> <i class="fa fa-user space-left-right"></i><span class="author vcard"><a class="url fn n" href="https://primitivetechnology.wordpress.com/author/johnpla/">PrimitiveTechnology</a></span></span><span class="comments-link"><i class="fa fa-comments-o space-left-right"></i><a href="https://primitivetechnology.wordpress.com/2017/10/27/natural-draft-furnace/#comments">9 Comments</a></span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+			<div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="809" height="456" src="https://www.youtube.com/embed/u7wAJTGl2gc?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe></span></div>
+<p>I built a natural draft furnace to test ideas about how hot a furnace could get without the use of bellows. Natural draft is the flow of air through a furnace due to rising hot air. The hot gasses in the fuel bed are more buoyant than the cold air outside the furnace causing them to rise. Fresh combustion air then enters the base of the furnace to replace the rising combustion gasses, keeping the fuel bed burning. This effect increases with: 1. the average temperature of the fuel bed relative to the outside air and 2. The height of the furnace. Two other important factors are the size of the tuyere (air entry pipe) and lump size of the fuel bed as these effect the resistance to airflow through the furnace. The furnace was tested with wood fuel and some ore was melted but produced no iron. High temperature were indeed produced (probably about 1200 c). These types of furnaces were once used for smelting copper and iron ores in around the world in ancient times, usually using charcoal as a fuel and in some cases wood too.</p>
+<p>I designed the furnace using a formula from the book “The mastery and uses of fire in antiquity” by J.E. Rehder. It was designed to have a space velocity (air speed within the furnace) of 6 m per minute which is recommended for iron smelting. The furnace was 175 cm in total height but with a height of only 150 cm above the tuyere. The height between the air entry and the top of the furnace is what determines the strength of the draft, the space beneath the air entry is not included in the formula. The internal furnace diameter was 25 cm. The walls were about 12.5 cm thick at the base but got thinner with height. The tuyere (air entry pipe) was 7.5 cm internal diameter and about 20 cm long. The tuyere was placed into an opening in the base of the furnace and sealed with mud. The whole thing took about a week to make due to the slow drying time that was assisted by keeping a fire burning in side it. The furnace was designed to use charcoal (which in this case should be 2.5 cm diameter lumps) but I used wood to test it instead as it was easier to acquire. To test its melting ability, bog ore was found further down the creek and roasted. The roasted ore was then crushed and stored in a pot.</p>
+<p>The furnace was filled with wood and lit from the top. The fire burnt down the furnace producing charcoal. On reaching the tuyere the fire then started burning the charcoal. Wood was also continually added from the top along with a few small handfuls of the roasted bog ore (not shown in the video). The temperature of hot objects can be visually estimated from their incandescence.  After about an hour, the light coming out of the tuyere was high yellow to white hot indicating a temperature of at about 1200 c. Colour temperature charts vary but white hot is usually given to be at least 1200 c, examples of these charts can be found on the internet for reference. It was uncomfortable to stare into the tuyere and doing so left an after image when looking away, indicating the strength of its brightness. After about an hour and a half the furnace was left to burn out. When opened the next day the tuyere was covered in slag with bits of slag found on the furnace floor also.</p>
+<p>This experiment shows that high temperatures can be achieved without the use of bellows or charcoal, which might significantly reduce labour in the production of iron. The furnace was technically easy to build as it was a simple vertical cylinder. When running, the wood added to the top of the furnace converts to charcoal in the upper part of the stack and is consumed in the lower part. The ore I used was new to me, normally I use iron bacteria as an ore. This new ore produced no metallic iron so I’m inclined to use iron bacteria in future. Natural draft furnaces were once used to smelt copper and iron ores in the past, usually with charcoal fuel and less frequently with wood. The main benefit of these furnaces seems to have been the reduction in labour they provide and simplified infrastructure (fewer workers and no bellows required during operation).</p>
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<div class="entry-bottom small-part">
+					</div>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+				<nav class="navigation paging-navigation" role="navigation">
+		<h1 class="screen-reader-text">Posts navigation</h1>
+		<div class="nav-links">
+
+						<div class="nav-previous"><a href="https://primitivetechnology.wordpress.com/page/2/" ><div class="meta-nav"><i class="fa fa-lg fa-angle-left space-right"></i><span class="small-part">Older Posts</span></div></a></div>
+			
+			
+		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://primitivetechnology.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/">Iron Prills</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/07/17/wood-ash-cement/">Wood ash cement</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/06/15/yam-cultivate-and-cook/">Yam, cultivate and&nbsp;cook</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/05/18/blower-and-charcoal/">Blower and Charcoal</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/04/20/round-hut/">Round Hut</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tr><td title="Anonymole" class="recentcommentsavatartop" style="height:48px; width:48px;"><a href="http://anonymole.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='Anonymole&#039;s avatar' src='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=72&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=96&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=144&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstexttop" style=""><a href="http://anonymole.com" rel="nofollow">Anonymole</a> on <a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/comment-page-1/#comment-19493">Iron Prills</a></td></tr><tr><td title="Anonymole" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://anonymole.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='Anonymole&#039;s avatar' src='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=72&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=96&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=144&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://anonymole.wordpress.com" rel="nofollow">Anonymole</a> on <a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/comment-page-1/#comment-18440">Iron Prills</a></td></tr><tr><td title="Manufaktura" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://manufakturamiletin.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='Manufaktura&#039;s avatar' src='https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://manufakturamiletin.wordpress.com" rel="nofollow">Manufaktura</a> on <a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/comment-page-1/#comment-17656">Iron Prills</a></td></tr><tr><td title="DaveCline" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://davecline.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='DaveCline&#039;s avatar' src='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://davecline.wordpress.com" rel="nofollow">DaveCline</a> on <a href="https://primitivetechnology.wordpress.com/2015/07/08/24/comment-page-1/#comment-16448">Thatched Dome Hut</a></td></tr><tr><td title="DaveCline" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://davecline.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='DaveCline&#039;s avatar' src='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://davecline.wordpress.com" rel="nofollow">DaveCline</a> on <a href="https://primitivetechnology.wordpress.com/2015/07/08/24/comment-page-1/#comment-16389">Thatched Dome Hut</a></td></tr>				</table>
+				</aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>
+			<ul>
+					<li><a href='https://primitivetechnology.wordpress.com/2018/08/'>August 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/07/'>July 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/06/'>June 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/05/'>May 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/04/'>April 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/03/'>March 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/01/'>January 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/12/'>December 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/11/'>November 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/10/'>October 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/09/'>September 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/08/'>August 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/07/'>July 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/06/'>June 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/04/'>April 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/03/'>March 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/02/'>February 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/01/'>January 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/11/'>November 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/10/'>October 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/09/'>September 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/07/'>July 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/05/'>May 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/04/'>April 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/03/'>March 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/02/'>February 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/01/'>January 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/12/'>December 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/11/'>November 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/10/'>October 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/09/'>September 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/07/'>July 2015</a></li>
+			</ul>
+
+			</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>
+			<ul>
+					<li class="cat-item cat-item-1"><a href="https://primitivetechnology.wordpress.com/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>
+		<ul>
+			<li><a class="click-register" href="https://wordpress.com/start?ref=wplogin">Create account</a></li>			<li><a href="https://primitivetechnology.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://primitivetechnology.wordpress.com/feed/">Entries feed</a></li>
+			<li><a href="https://primitivetechnology.wordpress.com/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>
+		</ul>
+
+		</aside></div><!-- #secondary -->
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+		
+<div id="tertiary" class="widget-areas clear" role="complementary">
+			<div class="widget-area" id="footer-sidebar-1">
+			<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://primitivetechnology.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>
+		<aside id="recent-posts-3" class="widget widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/">Iron Prills</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/07/17/wood-ash-cement/">Wood ash cement</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/06/15/yam-cultivate-and-cook/">Yam, cultivate and&nbsp;cook</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/05/18/blower-and-charcoal/">Blower and Charcoal</a>
+									</li>
+											<li>
+					<a href="https://primitivetechnology.wordpress.com/2018/04/20/round-hut/">Round Hut</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-3" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tr><td title="Anonymole" class="recentcommentsavatartop" style="height:48px; width:48px;"><a href="http://anonymole.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='Anonymole&#039;s avatar' src='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=72&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=96&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=144&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstexttop" style=""><a href="http://anonymole.com" rel="nofollow">Anonymole</a> on <a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/comment-page-1/#comment-19493">Iron Prills</a></td></tr><tr><td title="Anonymole" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://anonymole.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='Anonymole&#039;s avatar' src='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=48&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=72&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=96&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=144&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/6261439fa48c88ff8b73cfe64f786b793697bc521973d19e9c4a0d87f3b090b0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://anonymole.wordpress.com" rel="nofollow">Anonymole</a> on <a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/comment-page-1/#comment-18440">Iron Prills</a></td></tr><tr><td title="Manufaktura" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://manufakturamiletin.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='Manufaktura&#039;s avatar' src='https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/b1869cef7481f9d7f1019208ec0a86d0e594debc157c3036e913aaf35e1f720f?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://manufakturamiletin.wordpress.com" rel="nofollow">Manufaktura</a> on <a href="https://primitivetechnology.wordpress.com/2018/08/17/iron-prills/comment-page-1/#comment-17656">Iron Prills</a></td></tr><tr><td title="DaveCline" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://davecline.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='DaveCline&#039;s avatar' src='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://davecline.wordpress.com" rel="nofollow">DaveCline</a> on <a href="https://primitivetechnology.wordpress.com/2015/07/08/24/comment-page-1/#comment-16448">Thatched Dome Hut</a></td></tr><tr><td title="DaveCline" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://davecline.wordpress.com" rel="nofollow"><img referrerpolicy="no-referrer" alt='DaveCline&#039;s avatar' src='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/239b5ecb97a961387ec166e9bf8d7ae500bd08d8ab9c58e943430e756105d6e0?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a></td><td class="recentcommentstextend" style=""><a href="http://davecline.wordpress.com" rel="nofollow">DaveCline</a> on <a href="https://primitivetechnology.wordpress.com/2015/07/08/24/comment-page-1/#comment-16389">Thatched Dome Hut</a></td></tr>				</table>
+				</aside><aside id="archives-3" class="widget widget_archive"><h2 class="widget-title">Archives</h2>
+			<ul>
+					<li><a href='https://primitivetechnology.wordpress.com/2018/08/'>August 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/07/'>July 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/06/'>June 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/05/'>May 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/04/'>April 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/03/'>March 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2018/01/'>January 2018</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/12/'>December 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/11/'>November 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/10/'>October 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/09/'>September 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/08/'>August 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/07/'>July 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/06/'>June 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/04/'>April 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/03/'>March 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/02/'>February 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2017/01/'>January 2017</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/11/'>November 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/10/'>October 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/09/'>September 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/07/'>July 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/05/'>May 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/04/'>April 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/03/'>March 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/02/'>February 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2016/01/'>January 2016</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/12/'>December 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/11/'>November 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/10/'>October 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/09/'>September 2015</a></li>
+	<li><a href='https://primitivetechnology.wordpress.com/2015/07/'>July 2015</a></li>
+			</ul>
+
+			</aside><aside id="categories-3" class="widget widget_categories"><h2 class="widget-title">Categories</h2>
+			<ul>
+					<li class="cat-item cat-item-1"><a href="https://primitivetechnology.wordpress.com/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</aside><aside id="meta-3" class="widget widget_meta"><h2 class="widget-title">Meta</h2>
+		<ul>
+			<li><a class="click-register" href="https://wordpress.com/start?ref=wplogin">Create account</a></li>			<li><a href="https://primitivetechnology.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://primitivetechnology.wordpress.com/feed/">Entries feed</a></li>
+			<li><a href="https://primitivetechnology.wordpress.com/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>
+		</ul>
+
+		</aside>		</div>
+	
+	
+	</div><!-- #secondary -->
+
+		<div class="site-info small-part">
+			<a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+<a href="#top" class="to-top"><i class="fa fa-angle-up fa-lg"><span class="screen-reader-text">Back to top</span></i></a>
+		<script type="text/javascript">
+		var infiniteScroll = {"settings":{"id":"main","ajaxurl":"https://primitivetechnology.wordpress.com/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"27.10.17","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":1,"history":{"host":"primitivetechnology.wordpress.com","path":"/page/%d/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"all","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"search_columns":[],"lazy_load_term_meta":false,"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"update_menu_item_cache":false,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"query_before":"2026-02-27 01:49:47","last_post_date":"2017-10-27 21:02:43","body_class":"infinite-scroll","loading_text":"Loading new page","stats":"blog=95157113\u0026v=wpcom\u0026tz=0\u0026user_id=0\u0026arch_home=1\u0026subd=primitivetechnology\u0026x_pagetype=infinite-click"}};
+		</script>
+		<!--  -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/files/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/pub/nucleare/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202609924dcd77a86c6f1d3698ec27fc5da92b28585ddad3ee636c0397cf312193b2a1" id="grofiles-cards-js"></script>
+<script type="text/javascript" id="wpgroho-js-extra">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+//# sourceURL=wpgroho-js-extra
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile →': 'Edit your profile →',
+							'View profile →': 'View profile →',
+							'Contact': 'Contact',
+							'Send money': 'Send money',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Gravatar not found.': 'Gravatar not found.',
+							'Too Many Requests.': 'Too Many Requests.',
+							'Internal Server Error.': 'Internal Server Error.',
+							'Is this you?': 'Is this you?',
+							'Claim your free profile.': 'Claim your free profile.',
+							'Email': 'Email',
+							'Home Phone': 'Home Phone',
+							'Work Phone': 'Work Phone',
+							'Cell Phone': 'Cell Phone',
+							'Contact Form': 'Contact Form',
+							'Calendar': 'Calendar',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-57475cf7d9b69c70ed7cbb16cd6d7a4e">
+	</div>
+	<div class="grofile-hash-map-586ea0877ac1e3606dad4fc404213ef0">
+	</div>
+	<div class="grofile-hash-map-0b47e771fee32b5c1a2de06580362876">
+	</div>
+	</div>
+		<div id="actionbar" dir="ltr" style="display: none;"
+			class="actnbr-pub-nucleare actnbr-has-follow actnbr-has-actions">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://primitivetechnology.wordpress.com">
+				<img loading='lazy' alt='' src='https://s0.wp.com/i/logo/wpcom-gray-white.png?m=1479929237i' srcset='https://s0.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				primitivetechnology.wordpress.com			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 5,379 other subscribers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="95157113" />
+										<input type="hidden" name="source" value="https://primitivetechnology.wordpress.com/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="c23c1f26e4" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fprimitivetechnology.wordpress.com%2F2018%2F08%2F17%2Firon-prills%2F&#038;signup_flow=account">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+								<li class="actnbr-sitename">
+			<a href="https://primitivetechnology.wordpress.com">
+				<img loading='lazy' alt='' src='https://s0.wp.com/i/logo/wpcom-gray-white.png?m=1479929237i' srcset='https://s0.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				primitivetechnology.wordpress.com			</a>
+		</li>
+								<li class="actnbr-folded-follow">
+										<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+								</li>
+														<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+							<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fprimitivetechnology.wordpress.com%2F2018%2F08%2F17%2Firon-prills%2F&#038;signup_flow=account">Log in</a></li>
+															<li class="flb-report">
+									<a href="https://wordpress.com/abuse/?report_url=https://primitivetechnology.wordpress.com" target="_blank" rel="noopener noreferrer">
+										Report this content									</a>
+								</li>
+															<li class="actnbr-reader">
+									<a href="https://wordpress.com/reader/feeds/36281809">
+										View site in Reader									</a>
+								</li>
+															<li class="actnbr-subs">
+									<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+								</li>
+																<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+														</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "DOMContentLoaded", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "/wp-content/mu-plugins/actionbar/actionbar.js?v=20250204";
+	document.body.appendChild( script );
+} );
+</script>
+
+			<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Loading Comments...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Write a Comment...</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Write a Comment..."
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">Email (Required)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Name (Required)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Website</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Post Comment" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/_static/??-eJyNj8EKwjAQRH/IdCmUigfxUyQmm7rpZhOapNq/t0IrHnubYd4MDLySMlEKSoFQVeI6kGTwWJI24+YhxChwJzHwqMQWSBwJFVTZTJF590sTSBqfT/C3Wp4YMEOqD5BqGPWE4PNPH8X1TIMuFI/u55GSYpJRuWhqVo7ee3P9wdWunRWzlAvMKDZO3yhFXhwxb0du4dqe+67vL13X+g++729v'></script>
+<script type="text/javascript" crossorigin='anonymous' src="https://s0.wp.com/wp-content/plugins/gutenberg-core/v22.5.3/build/scripts/hooks/index.min.js?m=1770945363i&amp;ver=7496969728ca0f95732d" id="wp-hooks-js"></script>
+<script type="text/javascript" crossorigin='anonymous' src="https://s0.wp.com/wp-content/plugins/gutenberg-core/v22.5.3/build/scripts/i18n/index.min.js?m=1770945363i&amp;ver=781d11515ad3d91786ec" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-carousel-js-extra">
+/* <![CDATA[ */
+var jetpackSwiperLibraryPath = {"url":"/wp-content/mu-plugins/jetpack-plugin/moon/_inc/blocks/swiper.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https://primitivetechnology.wordpress.com/wp-admin/admin-ajax.php","nonce":"20c72c72f5","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","image_label":"Open image in full-screen.","download_original":"View full size \u003Cspan class=\"photo-size\"\u003E{0}\u003Cspan class=\"photo-size-times\"\u003E\u00d7\u003C/span\u003E{1}\u003C/span\u003E","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https://primitivetechnology.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fprimitivetechnology.wordpress.com%2F2017%2F10%2F27%2Fnatural-draft-furnace%2F","blog_id":"95157113","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=95157113&v=wpcom&tz=0&user_id=0&arch_home=1&subd=primitivetechnology","is_public":"1"};
+//# sourceURL=jetpack-carousel-js-extra
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/_static/??-eJx9jksOwjAMBS9EMN2UbhBHqYJjUZckjmKnvT5dlI+ExHZG72lgLQ4lG2WD1FyJ7c5ZYSYrHh9uQ2tBSbuAJJJfclwoB6ngm0nyZozvGUavyuhsokRuolioQmA1qKRFsvJCbuFAor/kOOsB/md914ycEW6NYwD0VZpS/HTs4Jg4b7fXdOnOfTcMp64f5ietrV7O'></script>
+<script type="text/javascript" src="/wp-content/mu-plugins/jetpack-plugin/moon/_inc/build/tiled-gallery/tiled-gallery/tiled-gallery.min.js?m=1755006225i&amp;ver=15.6-a.6" id="tiled-gallery-js" defer="defer" data-wp-strategy="defer"></script>
+<script crossorigin='anonymous' type='text/javascript'  src='/wp-content/mu-plugins/carousel-wpcom/carousel-wpcom.js?m=1761899756i'></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/","ext":".png","svgUrl":"https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/","svgExt":".svg","source":{"concatemoji":"/wp-includes/js/wp-emoji-release.min.js?m=1764078722i&ver=6.9.1-alpha-61558"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+		<script type="text/javascript">
+			(function() {
+				var extend = function(out) {
+					out = out || {};
+
+					for (var i = 1; i < arguments.length; i++) {
+						if (!arguments[i])
+						continue;
+
+						for (var key in arguments[i]) {
+						if (arguments[i].hasOwnProperty(key))
+							out[key] = arguments[i][key];
+						}
+					}
+
+					return out;
+				};
+				extend( window.infiniteScroll.settings.scripts, ["jetpack-mu-wpcom-settings","rlt-proxy","wpcom-actionbar-placeholder","grofiles-cards","wpgroho","the-neverending-homepage","nucleare-custom","nucleare-navigation","nucleare-skip-link-focus-fix","wp-polyfill","wp-hooks","wp-i18n","jetpack-responsive-videos","jetpack-carousel","tiled-gallery","carousel-wpcom"] );
+				extend( window.infiniteScroll.settings.styles, ["the-neverending-homepage","wp-block-library","coblocks-frontend","wpcom-core-compat-playlist-styles","wpcom-bbpress2-staff-css","nucleare-style","genericons","nucleare-font-awesome","reblogging","geo-location-flair","a8c-global-print","nucleare-wpcom","h4-global","wp-emoji-styles","classic-theme-styles","nucleare-fonts","jetpack-global-styles-frontend-style","global-styles","jetpack-responsive-videos","jetpack-swiper-library","jetpack-carousel","tiled-gallery","core-block-supports-duotone"] );
+			})();
+		</script>
+				<span id="infinite-aria" aria-live="assertive"></span>
+		<script src="//stats.wp.com/w.js?68" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'95157113','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+		// Prevent sending pageview tracking from WP-Admin pages.
+		_stq.push(['view', {'blog':'95157113','v':'wpcom','tz':'0','user_id':'0','arch_home':'1','subd':'primitivetechnology'}]);
+		_stq.push(['extra', {'crypt':'UE5tW3cvZGRjeGRjVnhSRENOYWZoOWVZV0psNlBHSXN1W3ZMbis9NEl2MW9nJmtTaGZobFo3aTFnSkMucHImUitjX1lbWndTN2FiZ29hTHcvblhZS3dwZzddOHRpVDVyWCxtME9aZEYrZSZpOUNoNFAmMi9mRS9URGF6V1JXT1BdY1JaTn49Vmg2SiV0W2F6R0J3P0k5Mk4lU25hV1R3VT1CNE0tSVV4SHhKMytkYTFLWF1WMHV6Jl11cCVvd2lCbU9vLWp0VHFtZE9Bcw=='}]);
+_stq.push([ 'clickTrackerInit', '95157113', '0' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<meta id="bilmur" property="bilmur:data" content="" data-provider="wordpress.com" data-service="simple" data-site-tz="Etc/GMT-0" data-custom-props="{&quot;enq_wp-polyfill&quot;:&quot;1&quot;,&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;pub\/nucleare&quot;,&quot;wptheme_is_block&quot;:&quot;0&quot;}"  >
+		<script defer src="/wp-content/js/bilmur.min.js?i=17&amp;m=202609"></script> 	
+</body>
+</html>

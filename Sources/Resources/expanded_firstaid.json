@@ -91,82 +91,6 @@
       "sourceUrl": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone"
     },
     {
-      "id": "firstaid-dental-emergency",
-      "name": "Dental Emergency (Field)",
-      "subtitle": "Manage tooth injury when no dentist is available",
-      "category": "Medical",
-      "difficulty": 2,
-      "estimatedTime": "15 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Knocked-out tooth: hold by crown (white part), NEVER by root.",
-          "helpDetail": "If the tooth is whole and clean, try to reimplant it immediately — push it back into the socket and bite on cloth. If dirty, rinse briefly with milk (not water). Reimplanted within 30 min has best chance.",
-          "illustrationDescription": "Holding tooth by crown."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Broken tooth: cover sharp edges with wax, gum, or clay.",
-          "helpDetail": "Sharp tooth edges cut the tongue and cheeks. Smooth with fine stone if possible. Pine resin softened with warmth can coat exposed nerve to reduce pain.",
-          "illustrationDescription": "Covering sharp edge."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Toothache: pack clove or garlic against the affected tooth.",
-          "helpDetail": "Clove oil (eugenol) is used professionally as dental anesthetic. Crush clove and pack against tooth. Garlic has antibacterial properties. Salt water rinse reduces bacteria.",
-          "illustrationDescription": "Clove application."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Prevent infection: rinse with warm salt water every 2 hours.",
-          "helpDetail": "Dental infections can spread to the jaw bone (osteomyelitis) or bloodstream (sepsis). Any swelling, fever, or pus requires immediate attention. Maintain oral hygiene even in survival situations.",
-          "illustrationDescription": "Salt water rinse."
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628"
-    },
-    {
-      "id": "firstaid-trench-foot-adv",
-      "name": "Trench Foot Prevention & Treatment",
-      "subtitle": "Wet feet in cold conditions can disable you",
-      "category": "Medical",
-      "difficulty": 2,
-      "estimatedTime": "Ongoing",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Recognize early trench foot: tingling, numbness, itching, pale/blue feet.",
-          "helpDetail": "Trench foot occurs from prolonged exposure to wet, cold conditions (not necessarily freezing). Can develop in as little as 12 hours of wet feet. Acting early prevents permanent damage.",
-          "illustrationDescription": "Early signs."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Remove wet socks and boots. Air-dry feet thoroughly.",
-          "helpDetail": "Elevate feet and expose to air. Do NOT rub or massage — damaged tissues are fragile. Do NOT use direct heat (fire) — numbness means you'll burn without feeling it.",
-          "illustrationDescription": "Drying feet elevated."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Dry feet thoroughly, put on dry socks. Rotate sock pairs daily.",
-          "helpDetail": "Carry a spare pair of socks inside your clothing (body heat dries them). Change socks at least twice daily. Stuffing dry grass inside boots provides insulation and absorbs moisture.",
-          "illustrationDescription": "Dry sock rotation."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Waterproof your footwear: use plastic bags inside boots as liner.",
-          "helpDetail": "Bread bags, ziplock bags, or any plastic between sock and boot exterior keeps feet dry. Apply animal fat or pine resin to boot seams for waterproofing.",
-          "illustrationDescription": "Plastic bag liner trick."
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
       "id": "firstaid-choking-complete",
       "name": "Choking Response (Complete Guide)",
       "subtitle": "Clear blocked airway — adult and child techniques",
@@ -208,7 +132,7 @@
         }
       ],
       "sourceName": "Red Cross",
-      "sourceUrl": "https://www.redcross.org/take-a-class/first-aid"
+      "sourceUrl": "https://www.redcross.org/take-a-class/cpr/performing-cpr/choking"
     },
     {
       "id": "firstaid-eye-field",
@@ -245,8 +169,8 @@
           "illustrationDescription": "Eye patching."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     }
   ],
   "articles": []

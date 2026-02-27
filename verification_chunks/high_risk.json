@@ -1,0 +1,3025 @@
+[
+  {
+    "id": "firstaid-superglue-suture",
+    "name": "Superglue Wound Closure",
+    "source": "https://www.healthline.com/health/super-glue-on-cuts",
+    "sourceName": "Healthline",
+    "steps": [
+      "Clean and dry the wound thoroughly. Stop bleeding first.",
+      "Push wound edges together precisely.",
+      "Apply thin layer of glue ON TOP of the crack, not inside.",
+      "Hold shut for 60 seconds until dry."
+    ],
+    "file": "advanced_firstaid.json",
+    "matched_term": "superglue"
+  },
+  {
+    "id": "firstaid-finger-amputation",
+    "name": "Trapped Digit Amputation",
+    "source": "https://www.ncbi.nlm.nih.gov/books/NBK13317/",
+    "sourceName": "NIH",
+    "steps": [
+      "Verify impossibility of rescue. Tourniquet base of finger.",
+      "Cut skin and tendons around the bone (circumferential).",
+      "Locate the joint (knuckle). Bend finger to open joint gap.",
+      "Complete separation. Apply pressure dressing."
+    ],
+    "file": "advanced_firstaid.json",
+    "matched_term": "amputation"
+  },
+  {
+    "id": "env-arctic-frostbite",
+    "name": "Frostbite Prevention & Treatment",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Recognize: white/gray waxy skin, numbness, hardness.",
+      "Rewarm in body heat: armpit, groin, stomach.",
+      "If possible, rewarm in 98-102\u00b0F water for 20-30 minutes.",
+      "Do NOT rewarm if refreezing is possible."
+    ],
+    "file": "environments.json",
+    "matched_term": "frostbite"
+  },
+  {
+    "id": "env-wildfire",
+    "name": "Wildfire Survival",
+    "source": "https://www.nifc.gov/",
+    "sourceName": "NWCG \u2013 Wildfire Safety",
+    "steps": [
+      "Move downhill and into the wind.",
+      "Cover mouth with wet cloth. Stay low.",
+      "Go to water, roads, cleared areas, or burned zones.",
+      "Trapped: clear vegetation, lie face down in depression."
+    ],
+    "file": "environments.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "env-extreme-heat",
+    "name": "Extreme Heat Management",
+    "source": "https://www.cdc.gov/niosh/topics/heatstress/",
+    "sourceName": "CDC \u2013 Heat Stress",
+    "steps": [
+      "Stop all activity. Find or build shade.",
+      "Wet skin/clothes if water available (not drinking water).",
+      "Elevate feet. Loosen clothing. Fan yourself."
+    ],
+    "file": "environments.json",
+    "matched_term": "stroke"
+  },
+  {
+    "id": "env-alligator",
+    "name": "Alligator/Croc Evasion",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Stay 15ft from water edge. Don't wash/drink at same spot.",
+      "Run in straight line away. Do NOT zigzag.",
+      "If bitten: attack eyes and snout. Don't pull."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-snake-avoid",
+    "name": "Snake Avoidance",
+    "source": "https://www.who.int/health-topics/snakebite",
+    "sourceName": "WHO \u2013 Snakebite Envenoming",
+    "steps": [
+      "Freeze. Locate the snake.",
+      "Identify safe escape route (away from head).",
+      "Back away slowly and deliberately.",
+      "Stomp feet as you retreat (vibrations warn others)."
+    ],
+    "file": "environments.json",
+    "matched_term": "snake"
+  },
+  {
+    "id": "env-snake-encounter",
+    "name": "Snake Encounter Protocol",
+    "source": "https://en.wikipedia.org/wiki/National_Outdoor_Leadership_School",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Most snakebites occur when people try to catch or kill snakes.",
+      "Wear boots and long pants in snake country.",
+      "If bitten: remove rings, watches, and tight clothing near the bite.",
+      "Do NOT: cut the bite, suck out venom, apply ice, or apply a tourniquet.",
+      "Immobilize the bitten limb below heart level, keep the patient calm, and evacuate."
+    ],
+    "file": "environments.json",
+    "matched_term": "snakebite"
+  },
+  {
+    "id": "env-hypothermia-stages",
+    "name": "Hypothermia Stage Assessment",
+    "source": "https://en.wikipedia.org/wiki/National_Outdoor_Leadership_School",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "MILD (95\u201390\u00b0F / 35\u201332\u00b0C): Shivering, goosebumps, fumbling hands, stumbling.",
+      "MODERATE (90\u201382\u00b0F / 32\u201328\u00b0C): Violent shivering or shivering STOPS. Confusion, slurred speech, poor decisions.",
+      "SEVERE (<82\u00b0F / <28\u00b0C): No shivering. Rigid muscles. Unconscious or semi-conscious. Paradoxical undressing.",
+      "Handle severe hypothermia patients EXTREMELY gently.",
+      "Rewarm the CORE, not the extremities."
+    ],
+    "file": "environments.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "env-heat-exhaustion",
+    "name": "Heat Exhaustion vs Heat Stroke",
+    "source": "https://en.wikipedia.org/wiki/National_Outdoor_Leadership_School",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "HEAT EXHAUSTION: Heavy sweating, weakness, nausea, headache, dizziness, normal or slightly elevated temperature.",
+      "Treatment for heat exhaustion: Move to shade, remove excess clothing, drink cool water, apply cool wet cloths.",
+      "HEAT STROKE: Sweating STOPS. Hot, dry, red skin. Confusion or unconsciousness. Core temp above 104\u00b0F.",
+      "Heat stroke treatment: Aggressive emergency cooling.",
+      "The transition from heat exhaustion to heat stroke can happen in under 30 minutes."
+    ],
+    "file": "environments.json",
+    "matched_term": "stroke"
+  },
+  {
+    "id": "env-evasion-movement-night",
+    "name": "Night Movement Evasion",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Move only during the darkest 4 hours (typically 0100-0500).",
+      "Use the fox walk: Place the outside edge of your foot down first, roll inward, test for noise.",
+      "Navigate by stars or compass with luminous dial.",
+      "Stay in shadows and avoid silhouetting against the sky on ridgelines.",
+      "If you hear pursuers, freeze completely and remain motionless."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-evasion-tracker-confusion",
+    "name": "Anti-Tracking Techniques",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Walk in streams for at least 100 meters before exiting on rocky ground.",
+      "Walk backward for 50 meters, then sidestep to a hard surface.",
+      "Use the buttonhook: walk past your intended turn, continue 100m, then circle back at a right angle.",
+      "Cross hard surfaces (rock, pavement, gravel) whenever possible.",
+      "If dogs are tracking, cross through areas with strong-smelling plants (wild onion, camphor)."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-evasion-face-paint",
+    "name": "Camouflage Face Paint Application",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "The human face is highly recognizable due to its symmetry and light-dark contrast.",
+      "Darken light areas (forehead, nose, cheekbones, chin) with mud, charcoal, or dark clay.",
+      "Lighten dark areas (eye sockets, under nose, neck shadows) with lighter clay or ash.",
+      "Use irregular, diagonal stripes \u2014 never horizontal or symmetrical patterns.",
+      "Cover all exposed skin including ears, backs of hands, and neck."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-evasion-dog-evasion",
+    "name": "Dog Team Evasion",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Move downwind of your trail whenever possible.",
+      "Wade through water crossings at least 200 meters long.",
+      "Move through areas with strong competing scents: farms, garbage, wild garlic patches.",
+      "Pepper spray or chili powder on your trail causes temporary nasal pain and disruption.",
+      "The most effective dog evasion is SPEED and DISTANCE."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-evasion-checkpoint",
+    "name": "Checkpoint Bypass",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Observe the checkpoint from concealment for at least 30 minutes before attempting bypass.",
+      "Bypass by routing around it through terrain that is too difficult for guards to watch.",
+      "Move during shift changes or high-traffic periods when guards are distracted.",
+      "If you must pass through, blend with local pedestrian or vehicle traffic.",
+      "Have a cover story with verifiable details prepared."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-rockfall-evasion",
+    "name": "Rockfall Evasion",
+    "source": "https://www.mountaineers.org/books/books/mountaineering-the-freedom-of-the-hills-9th-edition-1",
+    "sourceName": "Mountaineering: The Freedom of the Hills",
+    "steps": [
+      "Look UP instantly and identify the fall line.",
+      "Dive behind a solid barrier or large tree uphill of you.",
+      "If caught without cover, minimize your profile."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-sinkhole-escape",
+    "name": "Sinkhole Escape & Evasion",
+    "source": "https://www.usgs.gov/special-topics/water-science-school/science/sinkholes",
+    "sourceName": "USGS Sinkholes",
+    "steps": [
+      "If the ground gives way, spread your arms wide immediately.",
+      "Do NOT stand near the edge. The lip will continue to collapse.",
+      "If trapped inside, climb only on stable, embedded roots or solid rock."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-flood-hydrology",
+    "name": "Flood: Hydrology & Current Evasion",
+    "source": "https://rescue3.com/",
+    "sourceName": "Swiftwater Rescue Operations",
+    "steps": [
+      "Identify and avoid 'Strainers'.",
+      "Target 'Eddies' for refuge.",
+      "Escape 'Hydraulic jumps' (Keepers)."
+    ],
+    "file": "environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "env-flood-chem-triage",
+    "name": "Flood: Pathogen & HAZMAT Protocol",
+    "source": "https://www.ready.gov/floods",
+    "sourceName": "CDC Hazard Triage",
+    "steps": [
+      "Assume Class 3 Biohazard status.",
+      "Strip and isolate clothing.",
+      "Sanitize with extreme dilution."
+    ],
+    "file": "environments.json",
+    "matched_term": "hazmat"
+  },
+  {
+    "id": "env-nuclear-fallout-shelter",
+    "name": "Nuclear Fallout Shelter-in-Place",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "FM 21-76 US Army Survival Manual",
+    "steps": [
+      "Get inside the most massive structure available \u2014 concrete, brick, underground.",
+      "Seal all openings: tape windows, block vents, close all doors.",
+      "Stay sheltered for minimum 48 hours, ideally 2 weeks.",
+      "If you were outside during the blast: remove ALL clothing, shower or wipe down thoroughly."
+    ],
+    "file": "environments.json",
+    "matched_term": "nuclear"
+  },
+  {
+    "id": "env-snake-avoidance",
+    "name": "Snake Encounter Prevention",
+    "source": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman",
+    "sourceName": "SAS Survival Handbook (John Wiseman)",
+    "steps": [
+      "Watch where you step and put your hands. 80% of bites are on hands and feet.",
+      "Wear boots and long pants in snake country.",
+      "At night: use a light and clear your sleeping area before lying down.",
+      "If you see a snake: freeze, then slowly back away. Most snakes strike within 1/3 of their body length."
+    ],
+    "file": "environments.json",
+    "matched_term": "snake"
+  },
+  {
+    "id": "env-heat-exhaustion-treatment",
+    "name": "Heat Exhaustion Emergency Treatment",
+    "source": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman",
+    "sourceName": "SAS Survival Handbook (John Wiseman)",
+    "steps": [
+      "Recognize: heavy sweating, weakness, cold/clammy skin, nausea, fast weak pulse.",
+      "Move to shade or coolest available area immediately.",
+      "Remove excess clothing. Apply cool water to skin, fan the patient.",
+      "If patient stops sweating, becomes confused, or has hot dry skin: this is HEAT STROKE. Emergency."
+    ],
+    "file": "environments.json",
+    "matched_term": "stroke"
+  },
+  {
+    "id": "env-arctic-snow-blindness-prevention",
+    "name": "Snow Blindness Prevention",
+    "source": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman",
+    "sourceName": "SAS Survival Handbook",
+    "steps": [
+      "Recognize the massive UV threat.",
+      "Do not squint; it is not enough.",
+      "Carve Inuit-style slit goggles.",
+      "Charcoal the ocular cavities."
+    ],
+    "file": "environments.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "env-anti-tracking",
+    "name": "Anti-Tracking & Evasion",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army FM 21-76 \u2013 Evasion",
+    "steps": [
+      "Walk on hard surfaces: rock, gravel, packed earth. Avoid mud and soft ground.",
+      "Brush out visible tracks behind you with a leafy branch.",
+      "Change direction at hard-surface intersections to break the trail.",
+      "Avoid breaking branches, disturbing spider webs, or crushing vegetation."
+    ],
+    "file": "expanded_environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "firstaid-rib-fracture",
+    "name": "Rib Fracture Management",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Confirm rib fracture: point tenderness on ribs, pain worse with breathing/coughing.",
+      "DO NOT wrap or bind the chest tightly.",
+      "Practice deep breathing exercises every hour despite the pain.",
+      "Position for sleep: sleep on the INJURED side.",
+      "Monitor for pneumothorax: sudden worsening, one-sided chest expansion."
+    ],
+    "file": "expanded_firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-choking-complete",
+    "name": "Choking Response (Complete Guide)",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Red Cross",
+    "steps": [
+      "Assess: can they cough, speak, or breathe? If yes \u2014 encourage coughing.",
+      "Give 5 sharp back blows between the shoulder blades with heel of your hand.",
+      "If back blows fail: 5 abdominal thrusts (Heimlich maneuver).",
+      "Alternate: 5 back blows, then 5 abdominal thrusts until cleared.",
+      "For infants: 5 back blows with baby face-down on your forearm, then 5 chest thrusts."
+    ],
+    "file": "expanded_firstaid.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "fire-log-cabin",
+    "name": "Log Cabin Fire Lay",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Lay 2 parallel sticks on the ground, 1 foot apart.",
+      "Stack 2 more sticks perpendicular on top, forming a square.",
+      "Continue stacking 3-4 layers high. Place tinder in the center hollow.",
+      "Light the center tinder. The structure burns inward and collapses into coals."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-battery",
+    "name": "Battery & Steel Wool Fire",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Stretch steel wool into a thin, loose pad.",
+      "Touch both terminals of a 9V battery to the steel wool.",
+      "The steel wool will glow and burn rapidly.",
+      "Transfer to tinder bundle immediately."
+    ],
+    "file": "fire.json",
+    "matched_term": "battery"
+  },
+  {
+    "id": "fire-chemical",
+    "name": "Potassium Permanganate Fire",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Place a small pile of potassium permanganate on dry surface.",
+      "Add a few drops of glycerin (antifreeze works too).",
+      "Stand back\u2014the mixture will spontaneously ignite."
+    ],
+    "file": "fire.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "fire-ember-carrier",
+    "name": "Carrying Fire / Ember Transport",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Place hot coal in bundle of dry punk wood or fungus.",
+      "Wrap in green leaves to insulate and contain.",
+      "Blow gently to feed ember when needed.",
+      "At new camp: place in tinder bundle, blow to flame."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-pine-torch",
+    "name": "Pine Resin Torch",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Collect pine resin from wounds on pine or spruce trees.",
+      "Wrap resin-soaked cloth or bark around the end of a green stick.",
+      "Light the torch. Burns 20-40 minutes with bright flame."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-star-fire",
+    "name": "Star Fire Configuration",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Arrange 4-6 large logs in a star pattern with ends meeting at center.",
+      "Light a small fire at the center where the logs meet.",
+      "Push logs inward as they burn. No chopping required."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-vaseline-cotton",
+    "name": "Vaseline Cotton Ball Fire Starter",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Work petroleum jelly thoroughly into a cotton ball.",
+      "Pull the cotton ball apart slightly to expose dry fibers.",
+      "Ignite the dry fibers. The flame will spread to the petroleum-soaked portion."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-upside-down",
+    "name": "Upside-Down Fire (Self-Feeding)",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Lay largest logs on the bottom in a tight row.",
+      "Stack progressively smaller wood in layers, perpendicular to the layer below.",
+      "Light the tinder on top. Fire burns downward through layers."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-char-rope",
+    "name": "Char Rope Making",
+    "source": "https://www.animatedknots.com/",
+    "sourceName": "Animated Knots by Grog",
+    "steps": [
+      "Find natural fiber rope: cotton, jute, hemp, or sisal.",
+      "Place rope in a metal container with a small vent hole. Cook in fire.",
+      "Test: char rope should catch a spark and glow for extended time."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-safety-perimeter",
+    "name": "Fire Safety Perimeter",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Clear all flammable material in a 10-foot circle around the fire pit.",
+      "Build a ring of rocks around the fire pit.",
+      "Keep water or loose soil staged nearby for emergency extinguishing."
+    ],
+    "file": "fire.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "fire-coal-burning-container",
+    "name": "Coal-Burned Container",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Select a log section of appropriate size \u2014 green or slightly dry hardwood works best.",
+      "Place a hot coal from your fire on the surface where you want to hollow.",
+      "Blow gently on the coal to maintain heat. Add new coals as needed.",
+      "Scrape away charred wood with a sharp stone or shell. Repeat: burn, scrape, burn, scrape.",
+      "Control the burn area with wet clay or mud paste around the edges of the desired shape."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-rain-fire-management",
+    "name": "Fire Management in Rain",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Build your fire on a raised platform of green logs if ground is saturated.",
+      "Create a rain cover: lean a bark slab or tarp at an angle over the fire, high enough to avoid catching fire.",
+      "Maintain a larger fire than usual \u2014 more mass resists rain extinguishment.",
+      "Store dry firewood NEAR the fire (not on it) to keep it dry. Under a tarp or sheltered overhang.",
+      "If fire dies to coals, protect the coal bed from rain and rebuild with feather sticks and dry tinder."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-pine-pitch-torch",
+    "name": "Pine Pitch Torch",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Find a fatwood source \u2014 the resin-saturated heartwood of dead pine stumps.",
+      "Split fatwood into a bundle of sticks about 12 inches long and finger-thickness.",
+      "Alternatively: wrap cloth around a green stick and soak with melted pine resin.",
+      "Light the torch \u2014 fatwood ignites from a match, ferro rod, or existing fire. Burns with a bright, smoky flame.",
+      "To extinguish: press the burning end into dirt or sand. Do NOT stomp \u2014 this scatters burning material."
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-steel-wool-battery",
+    "name": "Steel Wool & Battery Fire",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Pull apart fine-grade steel wool (0000 grade) into a loose, airy ball about fist-sized.",
+      "Use a 9V battery (ideal) or any battery 3V+. Touch both terminals to the steel wool simultaneously.",
+      "The steel wool glows orange and burns quickly. Have your tinder bundle ready beneath.",
+      "No steel wool? Any fine metal strand works: picture wire, wire brush strands, metal scrubbing pads.",
+      "This method works in rain and wind \u2014 the chemical reaction doesn't require the spark to catch. Just contact."
+    ],
+    "file": "fire.json",
+    "matched_term": "battery"
+  },
+  {
+    "id": "fire-chemical-permanganate",
+    "name": "Permanganate & Sugar",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Potassium Permanganate (purple water purification crystals) produces severe exothermic reactions when mixed with certain organic compounds or sugars.",
+      "Place one teaspoon of Potassium Permanganate crystals onto a flat, dry rock.",
+      "Add an equal amount of granulated sugar to the pile of purple crystals.",
+      "Grind the two powders together vigorously using a smooth, blunt stick.",
+      "Step back instantly as soon as it begins to smoke."
+    ],
+    "file": "fire.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "fire-chemical-brake-fluid",
+    "name": "Brake Fluid & Pool Shock",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "WARNING: This combination produces violently toxic chlorine gas before combusting.",
+      "Pool shock relies on Calcium Hypochlorite (a massive oxidizer). Brake fluid relies on Polyethylene Glycol.",
+      "Pour 2 tablespoons of Calcium Hypochlorite onto a dry piece of cardboard or wood.",
+      "Pour 1 tablespoon of DOT-3 or DOT-4 brake fluid directly onto the powder.",
+      "Run immediately upwind."
+    ],
+    "file": "fire.json",
+    "matched_term": "shock"
+  },
+  {
+    "id": "fire-bank-fire-overnight",
+    "name": "Banking a Fire for Overnight Burn",
+    "source": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman",
+    "sourceName": "SAS Survival Handbook (John Wiseman)",
+    "steps": [
+      "Build a thick coal bed",
+      "Cover coals with ash",
+      "Place a large green log on top",
+      "Uncover and add tinder in the morning"
+    ],
+    "file": "fire.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "fire-fire-from-battery",
+    "name": "Fire from Batteries (Any Type)",
+    "source": "https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman",
+    "sourceName": "SAS Survival Handbook (John Wiseman)",
+    "steps": [
+      "Find a battery and any thin conductive material: steel wool, foil gum wrapper, or wire.",
+      "Steel wool method: touch both battery terminals to fine steel wool.",
+      "Gum wrapper method: cut the foil-backed wrapper into an hourglass shape (thin center).",
+      "Car battery: touch jumper cable ends together briefly near tinder."
+    ],
+    "file": "fire.json",
+    "matched_term": "battery"
+  },
+  {
+    "id": "fire-article-chemical",
+    "name": "?",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [],
+    "file": "fire.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "firstaid-burn-blister",
+    "name": "Burn Blister Management",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Cool the burn under cool running water for 10-20 minutes.",
+      "Do NOT pop burn blisters \u2014 the fluid protects healing skin.",
+      "Cover loosely with non-stick gauze or clean cloth.",
+      "Elevate the burned area above heart level if possible.",
+      "Watch for infection: increasing redness, pus, fever, red streaks."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-burn-char",
+    "name": "Severe Burn (Third Degree)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Call emergency services immediately. This is life-threatening.",
+      "Do NOT remove burnt clothing stuck to the skin.",
+      "Cover loosely with clean, dry cloth. Do NOT apply water.",
+      "Elevate burned area above heart level.",
+      "Treat for shock: lay flat, keep warm, monitor breathing."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-head-trauma",
+    "name": "Head Trauma Assessment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-head-trauma/basics/art-20056626",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Keep the person still. Do NOT move them unless in immediate danger.",
+      "Check consciousness: ask their name, where they are, what happened.",
+      "Control any bleeding with gentle direct pressure.",
+      "Check for clear fluid leaking from ears or nose.",
+      "Monitor every 15 minutes: pupils, consciousness, breathing."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "head-trauma"
+  },
+  {
+    "id": "firstaid-head-concussion",
+    "name": "Concussion Management",
+    "source": "https://www.mayoclinic.org/diseases-conditions/concussion/symptoms-causes/syc-20355594",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Remove person from activity. Physical and mental rest is critical.",
+      "Apply cold pack to the impact area for 20 minutes.",
+      "Monitor for worsening symptoms over 24-48 hours.",
+      "Wake the person every 2-3 hours for the first night.",
+      "No blood-thinning painkillers (aspirin/ibuprofen) for 24 hours."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "concussion"
+  },
+  {
+    "id": "firstaid-concussion",
+    "name": "Concussion Quick Guide",
+    "source": "https://www.cdc.gov/traumatic-brain-injury/index.html",
+    "sourceName": "CDC",
+    "steps": [
+      "Stop all activity. Sit them down in a safe location.",
+      "Check pupils: shine light in each eye. Both should be equal size.",
+      "Test orientation: name, location, day of the week.",
+      "Check balance: stand with eyes closed for 30 seconds.",
+      "Monitor for 24 hours. Wake every 2 hours during sleep."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "concussion"
+  },
+  {
+    "id": "firstaid-choking",
+    "name": "Choking Response (Heimlich)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Ask 'Are you choking?' \u2014 if they can't speak or cough, act immediately.",
+      "Stand behind the person, wrap arms around their waist.",
+      "Make a fist, place thumb side against abdomen above navel.",
+      "Grasp fist with other hand. Thrust inward and upward sharply.",
+      "If object doesn't dislodge: alternate 5 back blows with 5 thrusts."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "firstaid-tourniquet",
+    "name": "Emergency Tourniquet",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "American Red Cross",
+    "steps": [
+      "Place tourniquet 2-3 inches above the wound.",
+      "Pull strap tight and secure it.",
+      "Twist the windlass rod until bleeding stops.",
+      "Lock the windlass in place and note the time."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "tourniquet"
+  },
+  {
+    "id": "firstaid-pressure-bandage",
+    "name": "Pressure Bandage",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Mount Sinai",
+    "steps": [
+      "Apply direct pressure with a clean cloth.",
+      "Elevate the wound above the heart if possible.",
+      "Wrap with elastic bandage snugly but not cutting off circulation.",
+      "If blood soaks through, add more material on top."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-cpr",
+    "name": "CPR (Cardiopulmonary Resuscitation)",
+    "source": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps",
+    "sourceName": "American Red Cross",
+    "steps": [
+      "Check responsiveness. Tap shoulders and shout.",
+      "Place heel of hand on center of chest, between nipples.",
+      "Compress chest 2 inches deep at 100-120 beats per minute.",
+      "Give 2 rescue breaths after every 30 compressions.",
+      "Continue 30:2 cycle without stopping until help arrives."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "cpr"
+  },
+  {
+    "id": "firstaid-heimlich",
+    "name": "Heimlich Maneuver (Choking)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Confirm choking \u2014 person cannot speak, cough, or breathe.",
+      "Stand behind the person and wrap arms around their waist.",
+      "Make a fist with one hand, place thumb side against abdomen above navel.",
+      "Thrust inward and upward with quick, forceful movements."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "firstaid-shock",
+    "name": "Treating Shock",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-shock/basics/art-20056620",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Recognize shock: pale/cool/clammy skin, rapid weak pulse, confusion.",
+      "Lay the person flat and elevate legs 8-12 inches.",
+      "Maintain body temperature \u2014 cover with blankets or coats.",
+      "Do NOT give food or water. Moisten lips only."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "shock"
+  },
+  {
+    "id": "firstaid-recovery-position",
+    "name": "Recovery Position",
+    "source": "https://www.nhs.uk/conditions/first-aid/recovery-position/",
+    "sourceName": "NHS",
+    "steps": [
+      "Kneel beside the person. Extend near arm at right angle.",
+      "Place far hand against their near cheek, hold it there.",
+      "Pull the far knee up with your other hand.",
+      "Roll them toward you by pulling the raised knee."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "recovery-position"
+  },
+  {
+    "id": "firstaid-arm-splint",
+    "name": "Arm/Wrist Splint",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Red Cross",
+    "steps": [
+      "Do NOT attempt to realign the bone.",
+      "Find a rigid splint material: stick, cardboard, rolled magazine.",
+      "Pad the splint with cloth and secure with bandages or strips.",
+      "Check circulation below the splint: warmth, color, feeling, pulse."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "splint"
+  },
+  {
+    "id": "firstaid-leg-splint",
+    "name": "Leg Splint",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Red Cross",
+    "steps": [
+      "Immobilize the leg in the position found.",
+      "Use two long rigid objects as splints \u2014 one inside, one outside the leg.",
+      "Pad between the leg and splints generously.",
+      "Secure with wide bandages at 4-5 points. Avoid tying over the break."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "splint"
+  },
+  {
+    "id": "firstaid-sling",
+    "name": "Arm Sling",
+    "source": "https://www.sja.org.uk/get-advice/first-aid-advice/",
+    "sourceName": "St John Ambulance",
+    "steps": [
+      "Fold a square cloth into a triangle.",
+      "Slide the triangle under the injured arm and behind the elbow.",
+      "Tie the two upper points behind the neck.",
+      "Pin or tie the elbow point to secure it."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "sling"
+  },
+  {
+    "id": "firstaid-burn",
+    "name": "Burn Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Remove from heat source. Remove clothing/jewelry from burn area.",
+      "Cool the burn with cool (not cold) running water for 20 minutes.",
+      "Cover with cling wrap or a clean non-fluffy dressing.",
+      "Do NOT pop blisters. They are sterile bandages."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-chemical-burn",
+    "name": "Chemical Burn",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-chemical-burns/basics/art-20056667",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Brush off dry chemicals before adding water.",
+      "Flush with large amounts of water for at least 20 minutes.",
+      "Remove contaminated clothing while flushing.",
+      "Do NOT try to neutralize the chemical."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-snakebite",
+    "name": "Snakebite Management",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Move away from the snake. Do NOT try to catch or kill it.",
+      "Keep the bitten limb below heart level and immobilize it.",
+      "Do NOT cut, suck, tourniquet, or apply ice to the bite.",
+      "Mark the edge of swelling and note the time.",
+      "Evacuate to a hospital. Antivenom is the only treatment."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "snakebite"
+  },
+  {
+    "id": "firstaid-bee-sting",
+    "name": "Bee/Wasp Sting Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Scrape the stinger out sideways with a flat edge.",
+      "Clean with soap and water. Apply cold pack for 15 minutes.",
+      "Watch for anaphylaxis: facial swelling, difficulty breathing, hives.",
+      "For mild reactions: antihistamine and pain reliever."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "anaphyl"
+  },
+  {
+    "id": "firstaid-anaphylaxis",
+    "name": "Anaphylaxis Response",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-anaphylaxis/basics/art-20056608",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Recognize: throat tightening, facial swelling, hives, wheezing, dizziness.",
+      "Use epinephrine auto-injector (EpiPen) into outer thigh.",
+      "Call emergency services immediately.",
+      "Place in position of comfort. Usually sitting up for breathing."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "anaphyl"
+  },
+  {
+    "id": "firstaid-hypothermia",
+    "name": "Hypothermia Treatment",
+    "source": "https://www.mayoclinic.org/diseases-conditions/hypothermia/symptoms-causes/syc-20352682",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Get the person out of the cold and remove wet clothing.",
+      "Insulate from the ground and cover with multiple layers.",
+      "Apply warm (not hot) packs to core areas: neck, armpits, groin.",
+      "Give warm sweet drinks if conscious and alert.",
+      "Handle gently \u2014 a severely hypothermic heart is fragile."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-heatstroke",
+    "name": "Heat Stroke Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-heatstroke/basics/art-20056655",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Recognize: hot/red/dry skin, confusion, temp over 104\u00b0F, loss of consciousness.",
+      "Move to shade. Remove excess clothing.",
+      "Cool aggressively: wet the entire body and fan.",
+      "Evacuate immediately. Call emergency services."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "heatstroke"
+  },
+  {
+    "id": "firstaid-dental",
+    "name": "Dental Emergency",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Pick up the tooth by the crown (white part), NEVER the root.",
+      "Rinse gently with milk or saliva. Do NOT scrub.",
+      "Attempt to reinsert into the socket.",
+      "Get to a dentist within 30 minutes."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "firstaid-seizure",
+    "name": "Seizure Management",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-sprains/basics/art-20056622",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Clear area around the person of hard or sharp objects.",
+      "Place something soft under their head.",
+      "Do NOT put anything in their mouth.",
+      "Time the seizure. Over 5 minutes is a medical emergency."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "seizure"
+  },
+  {
+    "id": "firstaid-impaled-object",
+    "name": "Impaled Object Management",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Do NOT remove the impaled object.",
+      "Stabilize the object so it cannot move.",
+      "Control bleeding around the object with direct pressure.",
+      "Immobilize the body part and transport carefully."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "firstaid-heart-attack",
+    "name": "Heart Attack Recognition",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Recognize: crushing chest pressure, left arm/jaw pain, shortness of breath, cold sweat.",
+      "Sit person upright, knees bent, back supported.",
+      "Give aspirin if available \u2014 have them chew it.",
+      "If unresponsive, begin CPR immediately."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "heart-attack"
+  },
+  {
+    "id": "firstaid-stroke",
+    "name": "Stroke Recognition (FAST)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "FACE: Ask them to smile. Does one side droop?",
+      "ARMS: Raise both arms. Does one drift down?",
+      "SPEECH: Repeat a sentence. Is it slurred?",
+      "TIME: Note when symptoms started. Get help NOW."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stroke"
+  },
+  {
+    "id": "firstaid-choking-infant",
+    "name": "Infant Choking Response",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Place infant face-down on forearm, head lower than chest.",
+      "5 firm back blows between shoulder blades.",
+      "Flip face-up. 5 chest thrusts with two fingers on breastbone.",
+      "Repeat until expelled. If unconscious, begin infant CPR."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "firstaid-dislocated-joint",
+    "name": "Dislocated Joint Management",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-dislocation/basics/art-20056693",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Do NOT try to pop the joint back in.",
+      "Immobilize in current position with splint or sling.",
+      "Apply cold compress. 20 minutes on, 20 off.",
+      "Check circulation below injury: pulse, sensation, color."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dislocat"
+  },
+  {
+    "id": "firstaid-wound-packing",
+    "name": "Wound Packing",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Identify the wound as deep and bleeding heavily despite direct pressure.",
+      "Using gauze or clean cloth, push material INTO the wound cavity.",
+      "Apply firm direct pressure on top of the packed wound for 3 minutes.",
+      "Secure with a pressure bandage. Monitor for continued bleeding."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-eye-injury",
+    "name": "Eye Injury Response",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Do NOT rub, press, or touch the injured eye.",
+      "For foreign objects: flush with clean water. Do NOT remove embedded objects.",
+      "Shield the injured eye with a rigid cover (cup, cardboard cone).",
+      "Cover BOTH eyes to prevent sympathetic movement."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "eye-injur"
+  },
+  {
+    "id": "firstaid-spinal-immobilization",
+    "name": "Spinal Immobilization",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Suspect spinal injury after any fall, dive, vehicle accident, or head impact.",
+      "Tell the patient: DO NOT MOVE. Stabilize the head and neck manually.",
+      "Improvise a cervical collar from rolled clothing or padding.",
+      "Do NOT move the patient unless there is immediate danger."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "spinal"
+  },
+  {
+    "id": "firstaid-chest-seal",
+    "name": "Improvised Chest Seal",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Identify the wound: look for bubbling blood or sucking sound on chest.",
+      "Expose the wound completely \u2014 remove clothing around it.",
+      "Cover wound with plastic (bag, wrapper, card) taped on THREE sides.",
+      "Position person sitting upright, leaning toward injured side.",
+      "Monitor breathing closely. If breathing worsens, briefly lift seal."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "chest-seal"
+  },
+  {
+    "id": "firstaid-heat-stroke",
+    "name": "Heat Stroke Emergency Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Move person to shade or coolest available area immediately.",
+      "Remove excess clothing. Expose skin to air.",
+      "Cool aggressively: pour water on skin, fan vigorously.",
+      "If conscious, give small sips of cool water.",
+      "Monitor mental status: confusion, seizures, unconsciousness."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "heat-stroke"
+  },
+  {
+    "id": "firstaid-hypothermia-treatment",
+    "name": "Hypothermia Field Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Get person out of cold environment and wind.",
+      "Remove ALL wet clothing. Replace with dry layers.",
+      "Insulate from the ground. Place padding underneath.",
+      "Apply heat to core: neck, armpits, groin.",
+      "Give warm sweet drinks if conscious and alert."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-allergic-reaction",
+    "name": "Severe Allergic Reaction Response",
+    "source": "https://www.mayoclinic.org/diseases-conditions/anaphylaxis/symptoms-causes/syc-20351468",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Identify signs: hives, swelling, difficulty breathing, dizziness.",
+      "If EpiPen available: inject into outer thigh, hold 10 seconds.",
+      "Have person sit upright if breathing is difficult.",
+      "Remove the allergen source if possible.",
+      "Monitor for at least 4 hours \u2014 reactions can return."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "anaphyl"
+  },
+  {
+    "id": "firstaid-choking-response",
+    "name": "Choking Response (Adult & Child)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Determine severity: can they cough, speak, or breathe?",
+      "Stand behind, give 5 sharp back blows between shoulder blades.",
+      "If back blows fail: give 5 abdominal thrusts (Heimlich).",
+      "Alternate: 5 back blows, then 5 abdominal thrusts. Repeat.",
+      "If person becomes unconscious: lower to ground, begin CPR."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "firstaid-bleeding-control-advanced",
+    "name": "Junctional Hemorrhage Control",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Apply direct pressure with hemostatic gauze if available.",
+      "For junctional wounds (neck, groin, armpit): pack tightly and hold.",
+      "Maintain constant, firm pressure for minimum 3 minutes.",
+      "Apply pressure bandage over the packed wound.",
+      "Elevate the wound above heart level if possible."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "tourniquet"
+  },
+  {
+    "id": "firstaid-poison-response",
+    "name": "Poisoning Emergency Response",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Identify the poison: what, how much, when, and how.",
+      "Do NOT induce vomiting unless specifically told to by poison control.",
+      "If poison is on skin: remove contaminated clothing, rinse with water.",
+      "If poison inhaled: move to fresh air immediately.",
+      "Monitor for shock, breathing difficulty, or seizures."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "poisoning"
+  },
+  {
+    "id": "firstaid-frostbite",
+    "name": "Frostbite Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Move to warm shelter. Do NOT rub or massage affected area.",
+      "Remove wet clothing and constricting items from affected area.",
+      "Rewarm in warm (not hot) water: 98-102\u00b0F (37-39\u00b0C) for 30 minutes.",
+      "Do NOT rewarm if refreezing is possible.",
+      "Protect rewarmed tissue: wrap loosely, separate fingers/toes."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "frostbite"
+  },
+  {
+    "id": "firstaid-snake-bite",
+    "name": "Snake Bite Response",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Move AWAY from the snake. Do NOT try to catch or kill it.",
+      "Keep the bitten limb BELOW heart level and still.",
+      "Do NOT: cut wound, suck venom, apply ice, or use tourniquet.",
+      "Clean the bite gently with water. Mark the edge of swelling with pen.",
+      "Keep calm and still. Monitor for systemic symptoms."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "snake"
+  },
+  {
+    "id": "firstaid-splinter",
+    "name": "Deep Splinter & Foreign Body Removal",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Clean the area with soap and water before removal.",
+      "Sterilize tweezers or needle with flame or alcohol.",
+      "Grasp the splinter near the skin and pull along the angle of entry.",
+      "Squeeze the wound gently to encourage bleeding.",
+      "Clean again, apply antibiotic if available, and cover."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "splint"
+  },
+  {
+    "id": "firstaid-knee-injury",
+    "name": "Knee Injury Stabilization",
+    "source": "https://www.mayoclinic.org/diseases-conditions/knee-pain/symptoms-causes/syc-20350849",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Immobilize the knee in the position found.",
+      "Check circulation below the knee: pulse, warmth, sensation in foot.",
+      "Apply cold to reduce swelling for 20 minutes.",
+      "Wrap with compression bandage in figure-8 pattern.",
+      "Create a walking aid: trekking pole, sturdy branch, or crutch."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "firstaid-femur-traction",
+    "name": "Femur Fracture Traction Splint",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Suspect femur fracture: severe thigh pain, inability to move leg, leg appears shortened.",
+      "Check for circulation, sensation, and movement in foot before splinting.",
+      "Create traction splint: one long pole from armpit to past foot.",
+      "Secure splint at chest, hip, above knee, and at ankle.",
+      "Apply gentle traction at ankle to realign and reduce pain."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-flail-chest",
+    "name": "Flail Chest Management",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Recognize flail chest: a section of ribs moves OPPOSITE to breathing (inward on inhale, outward on exhale).",
+      "Have the patient lie on the injured side, or stabilize the flail segment with your hand.",
+      "Do NOT wrap the entire chest \u2014 this restricts breathing of the good lung.",
+      "Monitor oxygen level: watch for blue lips, confusion, rapid heart rate, worsening distress.",
+      "Evacuate urgently. Keep patient semi-upright (45\u00b0) for easiest breathing."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "firstaid-pelvic-fracture",
+    "name": "Pelvic Fracture Management",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Suspect pelvic fracture if: pain in groin/hip area, inability to bear weight, leg appears shortened or rotated.",
+      "Do NOT move the patient unless in immediate danger. Stabilize where they lie.",
+      "Wrap a sheet, belt, or SAM splint tightly around the hips at the level of the greater trochanters.",
+      "Place a rolled blanket or pack between the knees and tie the legs together.",
+      "Treat for shock: keep warm, elevate legs only if no spinal injury suspected, monitor consciousness."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-splint-basics",
+    "name": "Basic Splinting Principles",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Splint in the position found. Do NOT try to straighten a deformed limb.",
+      "Splint must immobilize the joint ABOVE and BELOW the fracture.",
+      "Pad the splint generously \u2014 especially at bony prominences.",
+      "Tie splint firmly but not so tight that circulation is cut off. Check pulse, sensation, and movement below.",
+      "Materials: sticks, trekking poles, rolled magazines, SAM splints, cardboard, bark slabs, foam pads."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-heat-illness-spectrum",
+    "name": "Heat Illness Spectrum",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602",
+    "sourceName": "CDC",
+    "steps": [
+      "Heat Cramps (mild): muscle spasms during exertion. Stop activity, rest in shade, drink electrolyte water.",
+      "Heat Exhaustion (moderate): heavy sweating, weakness, nausea, headache, cool clammy skin, core temp under 104\u00b0F.",
+      "Heat Stroke (CRITICAL): core temp above 104\u00b0F, confusion, hot DRY skin, seizures, unconsciousness.",
+      "For heat stroke: cool AGGRESSIVELY. Immerse in cold water, pack ice around neck, armpits, groin.",
+      "Do NOT give fluids to a heat stroke patient who is confused or unconscious. Continue cooling until temp drops to 101\u00b0F."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stroke"
+  },
+  {
+    "id": "firstaid-traumatic-amputation",
+    "name": "Traumatic Amputation Response",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Control bleeding on the stump FIRST. Apply direct pressure, then tourniquet if bleeding is severe.",
+      "Wrap the stump with sterile gauze or clean cloth. Apply firm pressure bandage.",
+      "Treat for shock: lay flat, elevate legs, keep warm, reassure.",
+      "Recover the severed part if safe to do so. Rinse gently with clean water.",
+      "Wrap the part in moist gauze, place in a sealed bag, then place bag on ice. Do NOT freeze or submerge in water."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "amputation"
+  },
+  {
+    "id": "firstaid-eye-irrigation",
+    "name": "Emergency Eye Irrigation",
+    "source": "https://www.cdc.gov/chemical-emergencies/about/index.html",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Chemical exposure: begin flushing IMMEDIATELY. Do not wait to identify the chemical.",
+      "Use clean water \u2014 pour steadily from a bottle or cup. Hold eye open with fingers.",
+      "Flush continuously for minimum 15-20 minutes for chemicals. 5 minutes for debris.",
+      "For embedded debris (metal, glass): do NOT rub. Cover with a cup or cone taped over the eye.",
+      "After flushing: cover loosely with clean cloth. Do not patch tightly. Seek medical care."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "firstaid-seizure-response",
+    "name": "Seizure Response",
+    "source": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Do NOT restrain the person. Do NOT put anything in their mouth.",
+      "Clear the area of hazards: move furniture, sharp objects, rocks away from the person.",
+      "Time the seizure. If it exceeds 5 minutes, this is a medical emergency.",
+      "Once convulsions stop, roll the person onto their side (recovery position).",
+      "Stay with them until fully alert. Speak calmly. Orient them: 'You had a seizure. You are safe. It's [time].'"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "seizure"
+  },
+  {
+    "id": "firstaid-hypothermia-wrap",
+    "name": "Hypothermia Wrap",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Remove all wet clothing. Cut off if patient is shivering too hard to undress.",
+      "Lay a vapor barrier (tarp, emergency blanket, trash bags) on the ground first.",
+      "Wrap patient in dry insulation layers: sleeping bag, blankets, dry clothing. Cover head.",
+      "Add heat sources to the core: warm water bottles at neck, armpits, and groin.",
+      "Wrap the outer layer with another vapor barrier (tarp/emergency blanket). Create a 'burrito.'"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-femoral-pressure",
+    "name": "Femoral Artery Pressure Point",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Locate the femoral artery: in the crease where the leg meets the groin, midway between the hip bone and pubic bone.",
+      "Press firmly with the heel of your hand directly over the pulse point.",
+      "Maintain constant pressure while another person applies direct pressure or a tourniquet to the wound.",
+      "If alone: apply a tourniquet high and tight on the upper thigh, then release pressure point.",
+      "Monitor for shock: keep the patient warm, elevate uninjured legs, and reassure them."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-emergency-dental-kit",
+    "name": "Emergency Dental Pain Relief",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "For a lost filling: pack the cavity with softened candle wax, chewing gum, or pine resin.",
+      "For toothache: apply crushed clove (eugenol) or a piece of fresh garlic directly to the painful tooth.",
+      "For a knocked-out tooth: keep it moist in saliva (between cheek and gum) or milk. Reimplant within 30 minutes if possible.",
+      "For a broken tooth: cover sharp edges with wax to prevent tongue/cheek cuts. Take pain relief if available.",
+      "For an abscess (swelling with pus): rinse with warm salt water every 2 hours. Do NOT pop. Seek evacuation."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "firstaid-rectal-temp-assessment",
+    "name": "Core Temperature Assessment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Touch the skin at the abdomen or armpit \u2014 these reflect core temperature better than extremities.",
+      "Shivering assessment: mild hypothermia = vigorous shivering. Severe = shivering STOPS (very dangerous sign).",
+      "Mental status: mild cold = clear thinking. Moderate = confusion, slurred speech. Severe = unconscious.",
+      "For heat: hot, DRY skin = heat stroke (emergency). Hot, WET skin = heat exhaustion (serious but less critical).",
+      "Pulse assessment: cold = slow, weak pulse. Heat stroke = rapid, bounding pulse. Both indicate core temp emergency."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-cravat-sling",
+    "name": "Cravat Bandage Sling",
+    "source": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies.html",
+    "sourceName": "American Red Cross",
+    "steps": [
+      "Fold a square cloth (shirt, bandana, etc.) diagonally to create a triangle.",
+      "Place the forearm across the triangle with the elbow at the point and the hand toward the longest edge.",
+      "Bring both ends up and tie behind the neck. Adjust so the forearm is supported across the chest.",
+      "Pin or tie the elbow point to prevent the arm from swinging.",
+      "Check circulation: fingers should stay pink, warm, and mobile. Adjust tightness if circulation is compromised."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "sling"
+  },
+  {
+    "id": "firstaid-field-sutures",
+    "name": "Field Wound Closure",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "ONLY close wounds that are clean, less than 6 hours old, and have smooth edges.",
+      "Butterfly strips: cut tape into narrow strips with wider ends. Apply perpendicular to the wound, pulling edges together.",
+      "Improvised sutures: use a sterilized fishhook or needle and clean thread (dental floss, inner paracord strand).",
+      "Simple interrupted suture: enter 1/4 inch from wound edge, pass through both sides, tie with square knot.",
+      "Monitor for infection daily: redness spreading from wound, increased swelling, warmth, pus, or red streaks = remove sutures immediately."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "suture"
+  },
+  {
+    "id": "firstaid-chest-compressions-only-cpr",
+    "name": "Hands-Only CPR",
+    "source": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies.html",
+    "sourceName": "American Red Cross",
+    "steps": [
+      "Confirm the person is unresponsive: tap shoulders firmly and shout 'Are you okay?'",
+      "Call for help. If alone, call emergency services first if you have a phone. Speaker mode.",
+      "Place the heel of one hand on the center of the chest (between the nipples). Stack the other hand on top.",
+      "Push HARD and FAST: compress at least 2 inches deep, at 100-120 beats per minute.",
+      "DO NOT STOP until: the person starts breathing, professional help arrives, or you are physically unable to continue."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "cpr"
+  },
+  {
+    "id": "firstaid-water-purification-drops",
+    "name": "Chemical Water Purification",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Iodine: add 5-10 drops of 2% tincture of iodine per liter of clear water. Double for cloudy water.",
+      "Bleach: add 2 drops of unscented household bleach (5-8% sodium hypochlorite) per liter of clear water.",
+      "Wait 30 minutes before drinking. If water is cold or cloudy, wait 60 minutes.",
+      "After treatment, water should have a slight chemical taste/smell. If not, add another dose and wait 15 more minutes.",
+      "Limitations: chemical treatment does NOT remove chemical contaminants, and may not kill Cryptosporidium."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "firstaid-snake-bite-pressure-immobilization",
+    "name": "Snake Bite Pressure Immobilization",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "DO NOT: cut the wound, suck venom, apply ice, use a tourniquet, or apply electric shock.",
+      "Keep the victim CALM and STILL. Movement accelerates venom spread through the lymphatic system.",
+      "For neurotoxic snakes (cobras, mambas, sea snakes): apply a compression bandage starting at the bite, wrapping toward the heart.",
+      "Immobilize the bitten limb with a splint. Movement of muscles pumps lymph fluid, spreading venom.",
+      "For hemotoxic snakes (vipers, rattlesnakes): do NOT apply compression bandage. Keep limb below heart level and evacuate."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "snake"
+  },
+  {
+    "id": "firstaid-shoulder-reduction",
+    "name": "Dislocated Shoulder Reduction",
+    "source": "https://www.ncbi.nlm.nih.gov/books/NBK13317/",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Confirm dislocation: the shoulder looks squared off (not rounded), arm is held away from body, intense pain with movement.",
+      "Cunningham technique (safest): have the patient sit upright. Gently massage the muscles around the shoulder.",
+      "While massaging, instruct the patient to slowly shrug their shoulders upward and squeeze their shoulder blades together.",
+      "If the Cunningham technique fails: lay patient face-down with the injured arm hanging over a ledge. Hang a weight (8-10 lbs) from the wrist.",
+      "After reduction: immobilize in a sling. Ice if available. Do NOT use the arm for overhead activities."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dislocat"
+  },
+  {
+    "id": "firstaid-hypothermia-active-warming",
+    "name": "Active Rewarming Techniques",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Insulate from the ground FIRST \u2014 ground conducts heat 25x faster than air.",
+      "Warm the core, NOT the extremities. Apply heat to the neck, armpits, and groin.",
+      "Heat sources: hot water bottles (plastic bottles filled with warm water), heated rocks wrapped in cloth, body-to-body contact.",
+      "Warm, sweet drinks if the patient is conscious and can swallow. NO alcohol.",
+      "Rewarming takes HOURS, not minutes. Monitor continuously. Severe hypothermia patients may appear dead but still be viable."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-spine-clearing-field",
+    "name": "Field Spinal Assessment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Mechanism of injury: fall from height, vehicle accident, diving, or force to head/neck = suspect spine injury.",
+      "Ask: 'Do you have any neck or back pain?' If yes \u2014 immobilize. Do not move the patient.",
+      "Test sensation: can they feel you touch their fingers and toes? Compare both sides.",
+      "Test motor: can they wiggle fingers and toes on command? Can they squeeze your hands equally?",
+      "If alert, no pain, full sensation, full motor, and no intoxication \u2014 spine can be cautiously cleared for movement."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "spinal"
+  },
+  {
+    "id": "firstaid-blood-clotting-agents",
+    "name": "improvised Hemostatic Agents",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Yarrow (Achillea millefolium): crush fresh leaves and pack directly into the wound.",
+      "Spider web: collect and pack clean spider webs into minor wounds.",
+      "Wood ash (clean, white ash from hardwood): pack into wounds as a last resort.",
+      "Coffee grounds: unused, dry grounds packed into wounds promote clotting.",
+      "These are supplements to direct pressure \u2014 they do NOT replace it. Maintain firm pressure over any natural agent applied."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-improvised-sam-splint",
+    "name": "Improvised Rigid Foam Splint",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Cut a section of a closed-cell foam sleeping pad long enough to extend past the joints above and below the fracture.",
+      "Fold the pad lengthways into a U-shape or 'gutter'.",
+      "Pad the injured limb with spare clothing before applying the foam gutter.",
+      "Place the limb in the gutter and secure it tightly with cravats, ace bandages, or duct tape.",
+      "Elevate the splinted limb."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-tourniquet-field",
+    "name": "Improvised Tourniquet",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "A tourniquet is ONLY for life-threatening arterial bleeding that cannot be controlled by direct pressure.",
+      "Use a 2-inch-wide strip of material (belt, shirt strip, bandana). Never use narrow cords or wire.",
+      "Place the tourniquet 2 to 3 inches above the wound (between the wound and the heart).",
+      "Tie a half-knot, place a sturdy stick on top, tie a full knot over the stick.",
+      "Secure the windlass and write the time of application on the patient's forehead."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "tourniquet"
+  },
+  {
+    "id": "firstaid-dislocated-shoulder",
+    "name": "Shoulder Reduction (Field)",
+    "source": "https://www.ncbi.nlm.nih.gov/books/NBK13317/",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Confirm anterior shoulder dislocation: the arm is held away from the body, the shoulder looks squared off, and the patient cannot rotate the arm inward.",
+      "Have the patient sit upright in a chair, leaning slightly forward.",
+      "Have the patient shrug their shoulders upward and backward, pinching the shoulder blades together.",
+      "Gently massage the bicep, deltoid, and trapezius muscles to release the spasm.",
+      "Once reduced, immobilize the arm in a sling against the body."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dislocat"
+  },
+  {
+    "id": "firstaid-dental-emergency",
+    "name": "Field Dental Emergency",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Knocked-out tooth: Pick it up by the CROWN (the white part), never the root.",
+      "Attempt to reimplant the tooth into the socket immediately.",
+      "If you cannot reimplant it, store the tooth in milk, saliva, or held inside the cheek.",
+      "Lost filling or cracked tooth: Pack the cavity with sugar-free gum, dental wax, or candle wax.",
+      "Tooth abscess: Rinse with warm salt water. Take anti-inflammatory medication."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "firstaid-choking-heimlich",
+    "name": "Choking (Heimlich Maneuver)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Ask 'Are you choking?' If they cannot speak, cough, or breathe, they have a complete obstruction.",
+      "Stand behind the victim. Wrap your arms around their waist.",
+      "Grasp your fist with the other hand. Perform firm, quick, inward-and-upward thrusts.",
+      "Repeat until the object is expelled or the victim becomes unconscious.",
+      "For infants: Use back blows and chest thrusts, NOT abdominal thrusts."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "firstaid-wound-closure-strips",
+    "name": "Butterfly Closure Strips",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Clean the wound thoroughly with clean water under pressure.",
+      "Dry the skin on BOTH sides of the wound completely.",
+      "Apply tincture of benzoin to the skin on both sides of the wound.",
+      "Apply butterfly strips perpendicular to the wound, pulling the edges together firmly.",
+      "Cover with a sterile gauze pad and tape."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "suture"
+  },
+  {
+    "id": "firstaid-frostbite-rewarm",
+    "name": "Frostbite Rewarming Protocol",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Do NOT rewarm frostbitten tissue if there is ANY chance it will refreeze.",
+      "Immerse the affected area in water heated to 98-102\u00b0F (37-39\u00b0C).",
+      "Keep the water temperature constant for 30-60 minutes.",
+      "EXTREME PAIN accompanies successful rewarming.",
+      "After rewarming, place sterile gauze between fingers/toes, wrap loosely, and elevate."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "frostbite"
+  },
+  {
+    "id": "firstaid-shock-treatment",
+    "name": "Shock Treatment Protocol",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-shock/basics/art-20056620",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Recognize shock: pale/ashen skin, rapid weak pulse, rapid shallow breathing, confusion, anxiety.",
+      "Control the cause: stop bleeding, splint fractures, treat allergic reactions.",
+      "Lay the patient flat and elevate legs 12 inches.",
+      "Prevent heat loss aggressively.",
+      "Give small sips of water if the patient is conscious and not vomiting."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "shock"
+  },
+  {
+    "id": "firstaid-log-roll",
+    "name": "Spinal Log Roll",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "The log roll requires 3 people minimum: head holder + 2 body controllers.",
+      "The head holder is in charge.",
+      "Body controllers kneel beside the patient: one at shoulders/hips, one at hips/legs.",
+      "On command, roll the patient toward the controllers in ONE smooth motion.",
+      "Slide the backboard or pad under the patient, then roll them back."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "spinal"
+  },
+  {
+    "id": "firstaid-cervical-collar",
+    "name": "Improvised Cervical Collar",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "A cervical collar prevents flexion, extension, and rotation of the neck.",
+      "Use an SAM splint, rolled newspaper, or a folded towel wrapped inside a triangular bandage.",
+      "The collar must be tall enough to prevent the patient from looking down.",
+      "It must NOT compress the trachea or jugular veins.",
+      "A collar alone does NOT clear the spine."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "firstaid-charcoal-ingestion",
+    "name": "Activated Charcoal for Poisoning",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-poisoning/basics/art-20056657",
+    "sourceName": "Bushcraft 101",
+    "steps": [
+      "Activated charcoal adsorbs many poisons and prevents them from entering the bloodstream.",
+      "Grind hardwood charcoal into the finest possible powder.",
+      "Mix 2-3 tablespoons of charcoal powder into a cup of water.",
+      "Most effective within 1 hour of ingestion.",
+      "Charcoal does NOT work against: alcohols, cyanide, heavy metals, or caustic acids/bases."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "poisoning"
+  },
+  {
+    "id": "firstaid-airway-jaw-thrust",
+    "name": "Advanced Airway: Jaw Thrust",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-spinal-injury/basics/art-20056677",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Kneel at the victim's head.",
+      "Place palms on cheekbones.",
+      "Hook fingers under the jaw angle.",
+      "Lift the jaw upward."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "spinal"
+  },
+  {
+    "id": "firstaid-chest-seal-burp",
+    "name": "Manage Tension Pneumothorax",
+    "source": "https://www.ncbi.nlm.nih.gov/books/NBK441885/",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Monitor for worsening breathing.",
+      "Locate the chest seal edge.",
+      "Lift one edge upon exhalation.",
+      "Reseal the dressing."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "chest-seal"
+  },
+  {
+    "id": "firstaid-pelvic-binder-improvised",
+    "name": "Improvised Pelvic Binder",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Identify pelvic fracture.",
+      "Prepare a broad sheet.",
+      "Slide under the greater trochanters.",
+      "Pull tight and cross over.",
+      "Tie off or secure."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "firstaid-hemostatic-packing",
+    "name": "Hemostatic Wound Packing",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Identify source of massive bleed.",
+      "Push gauze deep into the cavity.",
+      "Pack tightly until full.",
+      "Apply direct downward pressure."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hemorrh"
+  },
+  {
+    "id": "firstaid-hypothermia-burrito",
+    "name": "Severe Hypothermia Wrap",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Remove wet clothing.",
+      "Layer a tarp and sleeping pad.",
+      "Add sleeping bags and patient.",
+      "Wrap the outer tarp."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-frostbite-rapid-rewarm",
+    "name": "Frostbite Rapid Rewarming",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Ensure no risk of refreezing.",
+      "Prepare a warm water bath.",
+      "Immerse the frozen tissue.",
+      "Circulate and refill.",
+      "Air dry and pad."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "frostbite"
+  },
+  {
+    "id": "firstaid-heatstroke-tarp-cooling",
+    "name": "Heat Stroke Rapid Cooling",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Recognize Heat Stroke.",
+      "Create a tarp basin.",
+      "Add ice and water.",
+      "Agitate the water.",
+      "Cool then transport."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "heatstroke"
+  },
+  {
+    "id": "firstaid-chem-dry-decon",
+    "name": "Dry Chemical Decontamination",
+    "source": "https://www.cdc.gov/chemical-emergencies/about/index.html",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Do NOT use water immediately.",
+      "Brush off the powder.",
+      "Remove contaminated clothing.",
+      "Flush ONLY after brushing."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "firstaid-chem-wet-decon",
+    "name": "Wet Chemical Decontamination",
+    "source": "https://www.cdc.gov/chemical-emergencies/about/index.html",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Protect yourself first.",
+      "Remove saturated clothing.",
+      "Irrigate with copious water.",
+      "Direct water away."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "firstaid-tear-gas-recovery",
+    "name": "Tear Gas/OC Recovery",
+    "source": "https://www.cdc.gov/chemical-emergencies/about/index.html",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Move to fresh air.",
+      "Do NOT rub eyes.",
+      "Blink rapidly and flush.",
+      "Blow nose, do not swallow."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "decon"
+  },
+  {
+    "id": "firstaid-pelvic-binder-sheet",
+    "name": "Improvised Pelvic Binder (Sheet)",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Fold sheet lengthwise",
+      "Slide under patient at hip level",
+      "Cross ends over pelvis and pull tight",
+      "Tie or clamp in place"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-morgan-lens-irrigation",
+    "name": "Morgan Lens Eye Irrigation",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-eye-injuries/basics/art-20056645",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Flush immediately with clean water",
+      "Pull lower lid down",
+      "Irrigate for minimum 20 minutes",
+      "Check pH if possible"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-kendrick-traction-device",
+    "name": "Improvised Traction Splint",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Pad the ankle and groin",
+      "Secure two rigid poles alongside the leg",
+      "Apply traction via ankle hitch",
+      "Twist a windlass to apply steady pull"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-rectal-thermometer-field",
+    "name": "Field Core Temperature Check",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Understand why oral temp fails",
+      "Use rectal or esophageal probe if available",
+      "Stage hypothermia by core temp",
+      "Document and monitor trends"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-burn-escharotomy-signs",
+    "name": "Circumferential Burn Assessment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Check for circumferential burns",
+      "Assess distal circulation",
+      "Elevate burned extremities",
+      "Prepare for escharotomy"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-dental-avulsion",
+    "name": "Knocked-Out Tooth Preservation",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Handle tooth by crown only",
+      "Reimplant within 30 minutes if possible",
+      "If can't reimplant, store properly",
+      "Seek dental care within 2 hours"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "firstaid-impaled-object-stabilize",
+    "name": "Impaled Object Stabilization",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "NEVER remove impaled objects",
+      "Stabilize with bulky dressings",
+      "Tape or bandage to prevent movement",
+      "Shorten if necessary for transport"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "firstaid-open-fracture-management",
+    "name": "Open Fracture Field Management",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Control bleeding first",
+      "Irrigate wound with clean water",
+      "Cover with moist sterile dressing",
+      "Splint in position found"
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-snakebite-pit-viper",
+    "name": "Pit Viper Snakebite (Rattlesnake, Copperhead, Cottonmouth)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Move away from the snake. Note appearance but do NOT try to catch it.",
+      "Remove jewelry and constricting clothing near the bite.",
+      "IMMOBILIZE the bitten limb at or below heart level.",
+      "Evacuate to hospital. Antivenom is the only definitive treatment."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "snakebite"
+  },
+  {
+    "id": "firstaid-snakebite-coral",
+    "name": "Coral Snake Bite",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Identify: red-yellow-black bands. 'Red touches yellow, kills a fellow.'",
+      "Apply a pressure immobilization bandage: firm wrap starting at the bite and wrapping toward the heart.",
+      "IMMOBILIZE entirely \u2014 splint the limb.",
+      "Transport immediately. Symptoms may be delayed 12+ hours but can progress to respiratory failure."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "snakebite"
+  },
+  {
+    "id": "firstaid-pediatric-choking",
+    "name": "Pediatric Choking (Infant < 1 year)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Position infant face-down along your forearm, head lower than body.",
+      "Deliver 5 firm back blows between the shoulder blades with heel of hand.",
+      "Flip infant face-up on your other forearm. Give 5 chest thrusts.",
+      "Alternate back blows and chest thrusts until object is expelled or infant becomes unconscious."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "firstaid-dental-abscess",
+    "name": "Dental Abscess Field Management",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Recognize: throbbing toothache, swelling of gum or face, fever, bad taste in mouth.",
+      "Rinse with warm salt water (\u00bd tsp salt in 8oz water) every 2 hours.",
+      "Pain management: ibuprofen 400-600mg every 6 hours.",
+      "If swelling spreads to eye, neck, or floor of mouth: EMERGENCY. This can become life-threatening."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "firstaid-dental-temporary-filling",
+    "name": "Improvised Temporary Filling",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Clean the cavity: rinse mouth with warm salt water, remove any debris.",
+      "Dry the tooth as much as possible.",
+      "Fill with temporary filling material, sugar-free gum, or candle wax.",
+      "Avoid chewing on that side. Replace the improvised filling daily."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "firstaid-dental-jaw-dislocation",
+    "name": "Jaw Dislocation Reduction",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Recognize: jaw locked open, patient cannot close mouth, drooling, extreme pain.",
+      "Wrap your thumbs in thick cloth for protection.",
+      "Place wrapped thumbs on the lower molars. Apply steady DOWNWARD then BACKWARD pressure.",
+      "The jaw should click back into place. Apply a bandage wrap to limit opening for 24 hours."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dislocat"
+  },
+  {
+    "id": "firstaid-postpartum-hemorrhage",
+    "name": "Postpartum Hemorrhage Management",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Recognize: soaking more than one pad per hour, large clots, dizziness, rapid pulse.",
+      "Fundal massage: place hand on lower abdomen and massage the uterus firmly.",
+      "Encourage breastfeeding immediately \u2014 nipple stimulation causes uterine contraction.",
+      "If bleeding won't stop: bimanual compression \u2014 one fist inside the vagina against the uterus, other hand on abdomen."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-hemostatic-tourniquet-high-tight",
+    "name": "Emergency Tourniquet (High and Tight)",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Place tourniquet as HIGH and TIGHT on the limb as possible.",
+      "Tighten until ALL bleeding stops and distal pulse is absent.",
+      "Note the TIME. Write 'TQ' and time on the patient's forehead.",
+      "A tourniquet can safely stay on for 6+ hours in most cases."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "tourniquet"
+  },
+  {
+    "id": "firstaid-flail-chest-management",
+    "name": "Flail Chest Stabilization",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Recognize: section of chest wall moves INWARD during inhalation (paradoxical motion).",
+      "Position patient with the INJURED SIDE DOWN.",
+      "Do NOT tape or strap the chest \u2014 this restricts breathing.",
+      "Support ventilation. If patient tires and breathing becomes shallow: assist ventilation with bag-valve-mask if available."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-anaphylaxis-management",
+    "name": "Anaphylaxis Emergency Protocol",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-anaphylaxis/basics/art-20056608",
+    "sourceName": "Wilderness Medical Society / TCCC Guidelines",
+    "steps": [
+      "Recognize: rapid onset of hives/swelling + breathing difficulty or low blood pressure.",
+      "Use epinephrine auto-injector (EpiPen) immediately if available \u2014 outer thigh, through clothing.",
+      "Position: sitting up if breathing difficulty, lying down with legs elevated if low blood pressure.",
+      "Antihistamines (Benadryl) are SECOND-LINE, NOT a replacement for epinephrine."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "anaphyl"
+  },
+  {
+    "id": "firstaid-finger-dislocation",
+    "name": "Finger Dislocation Reduction",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Confirm dislocation: finger is obviously crooked at a joint, painful, unable to bend.",
+      "Grip the dislocated segment firmly. Pull steady traction ALONG the finger axis.",
+      "As traction is applied, gently guide the tip back into normal alignment.",
+      "Buddy-tape to adjacent finger for 2-3 weeks. Ice and ibuprofen for swelling."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dislocat"
+  },
+  {
+    "id": "firstaid-hemostatic-agents",
+    "name": "Hemostatic Agent Application",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Pack the wound channel DEEP with hemostatic gauze.",
+      "Continue packing until wound is completely filled.",
+      "Apply direct pressure over the packed wound for 3+ minutes.",
+      "Cover with standard bandage, pressure bandage, or elastic wrap."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-chest-seal-improvised",
+    "name": "Improvised Chest Seal from Plastic",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-cuts/basics/art-20056711",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Find any non-porous material: credit card, plastic bag, duct tape, foil wrapper.",
+      "Wipe blood from skin around wound to help the seal stick.",
+      "Apply the material over the wound. Tape on THREE sides only.",
+      "Monitor for tension pneumothorax: worsening breathing, distended neck veins."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "chest-seal"
+  },
+  {
+    "id": "firstaid-field-amputation-care",
+    "name": "Traumatic Amputation Field Care",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Control bleeding from the stump: tourniquet high and tight, or direct pressure + packing.",
+      "Recover the amputated part if safe to do so.",
+      "Wrap the amputated part in moist gauze, seal in a plastic bag.",
+      "Transport patient and part together to the nearest surgical facility."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "amputation"
+  },
+  {
+    "id": "firstaid-seizure-management",
+    "name": "Seizure Management (Field)",
+    "source": "https://www.mayoclinic.org/diseases-conditions/epilepsy/symptoms-causes/syc-20350093",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "DO NOT restrain the patient or put anything in their mouth.",
+      "Clear the area of hard/sharp objects. Cushion the head.",
+      "Time the seizure. Turn on side (recovery position) after convulsions stop.",
+      "Stay with patient during the postictal (recovery) phase \u2014 they'll be confused and sleepy."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "seizure"
+  },
+  {
+    "id": "firstaid-heat-stroke-cooling",
+    "name": "Heat Stroke Emergency Cooling",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Recognize: hot DRY skin (sweating has stopped), altered mental status, core temp >104\u00b0F.",
+      "COOL BY ANY MEANS NECESSARY: immerse in cold water, pack ice in armpits/groin/neck.",
+      "If no cold water: spray/pour water on skin and fan aggressively.",
+      "Stop cooling when core temp reaches 102\u00b0F to avoid overshoot hypothermia."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "heat-stroke"
+  },
+  {
+    "id": "firstaid-toothache-field",
+    "name": "Toothache Emergency Relief",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-toothache/basics/art-20056628",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Clove oil (eugenol) is the strongest natural dental anesthetic \u2014 apply directly to cavity or gum.",
+      "Oil of oregano is a backup \u2014 strong antibacterial and mild anesthetic.",
+      "Ibuprofen 400mg + acetaminophen 500mg together (this combination exceeds either alone \u2014 proven in studies).",
+      "Warm salt water rinse every 2 hours."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "firstaid-hypothermia-mild-self",
+    "name": "Mild Hypothermia Self-Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-hypothermia/basics/art-20056624",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Recognize in yourself: uncontrollable shivering, fumbling hands, stumbling, confused thinking.",
+      "Get out of wind and wet \u2014 shelter is priority one.",
+      "Create insulation between yourself and the ground.",
+      "Exercise vigorously if you can \u2014 generate metabolic heat."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "firstaid-expert-anaphylaxis-epinephrine",
+    "name": "Anaphylaxis: Epinephrine Administration",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-anaphylaxis/basics/art-20056608",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Recognize anaphylaxis.",
+      "Prepare the Epinephrine Auto-Injector (EpiPen).",
+      "Inject into the outer mid-thigh.",
+      "Massage the area and prepare for a second dose."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "anaphyl"
+  },
+  {
+    "id": "firstaid-expert-tourniquet-application",
+    "name": "Combat Application Tourniquet (CAT)",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Identify massive arterial bleeding.",
+      "Apply the CAT 'High and Tight'.",
+      "Tighten the windlass until bleeding stops.",
+      "Secure the windlass and mark the time."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "tourniquet"
+  },
+  {
+    "id": "firstaid-expert-open-fracture-management",
+    "name": "Open Fracture Management",
+    "source": "https://www.redcross.org.uk/first-aid/learn-first-aid/broken-bone",
+    "sourceName": "Auerbach's Wilderness Medicine (7th Ed)",
+    "steps": [
+      "Control bleeding first.",
+      "Irrigate heavily if evacuation is delayed (>6 hours).",
+      "Dress and splint in place.",
+      "Do NOT attempt to push the bone back in."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-med-yarrow-styptic",
+    "name": "Styptic: Yarrow Poultice",
+    "source": "https://www.wiley.com/en-us/Medical+Botany%3A+Plants+Affecting+Human+Health%2C+2nd+Edition-p-9780471628828",
+    "sourceName": "Medical Botany (Lewis & Elvin-Lewis)",
+    "steps": [
+      "Identify Yarrow.",
+      "Chew or crush the fresh leaves.",
+      "Pack directly into the wound.",
+      "Utilize the alkaloid properties."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-frostbite-thaw-decision",
+    "name": "Frostbite: Thaw vs. Wait",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-frostbite/basics/art-20056653",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Assess the risk of re-freezing.",
+      "Determine evacuation capability.",
+      "Shelter-in-place scenario.",
+      "Protect thawed tissue."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "frostbite"
+  },
+  {
+    "id": "firstaid-heat-exhaustion-stroke",
+    "name": "Differentiating Heat Exhaustion vs Stroke",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-stroke/basics/art-20056602",
+    "sourceName": "Auerbach's Wilderness Medicine",
+    "steps": [
+      "Check the mental status.",
+      "Check the skin condition.",
+      "Treat Exhaustion with rest and hydration.",
+      "Treat Stroke with immediate, utterly aggressive cooling."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "stroke"
+  },
+  {
+    "id": "firstaid-pit-viper-bite",
+    "name": "Pit Viper Envenomation Protocol",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-snake-bites/basics/art-20056681",
+    "sourceName": "Auerbach's Wilderness Medicine",
+    "steps": [
+      "Do no further harm.",
+      "Keep the patient calm and immobile.",
+      "Splint the bitten extremity.",
+      "Mark swelling progression with a pen."
+    ],
+    "file": "firstaid.json",
+    "matched_term": "snake"
+  },
+  {
+    "id": "firstaid-article-bleeding",
+    "name": "?",
+    "source": "",
+    "sourceName": "",
+    "steps": [],
+    "file": "firstaid.json",
+    "matched_term": "bleeding"
+  },
+  {
+    "id": "firstaid-article-cpr-basics",
+    "name": "?",
+    "source": "",
+    "sourceName": "",
+    "steps": [],
+    "file": "firstaid.json",
+    "matched_term": "cpr"
+  },
+  {
+    "id": "firstaid-article-fractures",
+    "name": "?",
+    "source": "",
+    "sourceName": "",
+    "steps": [],
+    "file": "firstaid.json",
+    "matched_term": "fracture"
+  },
+  {
+    "id": "firstaid-article-burns",
+    "name": "?",
+    "source": "",
+    "sourceName": "",
+    "steps": [],
+    "file": "firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-article-anaphylaxis",
+    "name": "?",
+    "source": "",
+    "sourceName": "",
+    "steps": [],
+    "file": "firstaid.json",
+    "matched_term": "anaphyl"
+  },
+  {
+    "id": "food-tripod-cooking",
+    "name": "Tripod Cooking Setup",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101",
+    "steps": [
+      "Lash three sturdy poles together at the top using a tripod lashing.",
+      "Spread the legs and set the tripod over your fire.",
+      "Adjust cooking temperature by raising or lowering the pot.",
+      "The tripod is the most stable camp cooking system.",
+      "Remove the pot using a sturdy stick through the bail handle."
+    ],
+    "file": "food.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "food-fireweed-greens",
+    "name": "Fireweed as Food & Tea",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "FM 21-76 US Army Survival Manual",
+    "steps": [
+      "Identify: tall pink flower spikes on cleared or burned land.",
+      "Young shoots: eat like asparagus (steam or boil 3 min).",
+      "Mature leaves: dry for tea \u2014 this is traditional Russian Ivan Chai.",
+      "Stem pith: sweet and starchy, eat raw."
+    ],
+    "file": "food.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "food-article-plant-poisoning",
+    "name": "?",
+    "source": "https://www.poison.org/articles/plant",
+    "sourceName": "Poison Control",
+    "steps": [],
+    "file": "food.json",
+    "matched_term": "poisoning"
+  },
+  {
+    "id": "fire-battery-gum",
+    "name": "Battery & Gum Wrapper Fire",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Cut a gum wrapper into an hourglass shape.",
+      "Touch the foil ends to the positive and negative terminals of a battery.",
+      "Transfer the flame to your tinder bundle immediately."
+    ],
+    "file": "hacks_general.json",
+    "matched_term": "battery"
+  },
+  {
+    "id": "fire-steel-wool",
+    "name": "Steel Wool & 9V Battery",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Fluff up a piece of fine steel wool (Grade 0000 is best).",
+      "Touch the 9V battery terminals to the steel wool.",
+      "Blow on the glowing wool and add tinder."
+    ],
+    "file": "hacks_general.json",
+    "matched_term": "battery"
+  },
+  {
+    "id": "firstaid-duct-tape-butterfly",
+    "name": "Duct Tape Butterfly Stitch",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Cut two small strips of duct tape. Twist the middle of one strip.",
+      "Stick one end to skin, pull wound closed, then stick other end.",
+      "Method 2: Cut 'H' or Butterfly shape from tape."
+    ],
+    "file": "hacks_general.json",
+    "matched_term": "suture"
+  },
+  {
+    "id": "env-hazmat-evac",
+    "name": "Hazmat Evacuation",
+    "source": "https://www.ready.gov/",
+    "sourceName": "FEMA",
+    "steps": [
+      "Determine wind direction.",
+      "Move CROSSWIND (perpendicular to wind).",
+      "Seek higher ground."
+    ],
+    "file": "missing_environments.json",
+    "matched_term": "hazmat"
+  },
+  {
+    "id": "env-nuclear-fallout",
+    "name": "Nuclear Fallout Protection",
+    "source": "https://www.ready.gov/nuclear-explosion",
+    "sourceName": "Ready.gov",
+    "steps": [
+      "Get inside immediately. Deep is good.",
+      "Stay inside for at least 24-72 hours.",
+      "Seal vents and windows."
+    ],
+    "file": "missing_environments.json",
+    "matched_term": "nuclear"
+  },
+  {
+    "id": "env-vehicle-riot-evasion",
+    "name": "Vehicular Mob Evasion",
+    "source": "https://www.ready.gov/",
+    "sourceName": "Security Experts",
+    "steps": [
+      "Keep all doors locked and windows rolled up.",
+      "Maintain slow, continuous forward momentum.",
+      "Do not turn off the engine unless immobilized or on fire."
+    ],
+    "file": "missing_environments.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "firstaid-heat-exhaustion",
+    "name": "Heat Exhaustion",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-heat-exhaustion/basics/art-20056651",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Move to a cooler area out of direct sunlight.",
+      "Remove excess clothing and apply cool water.",
+      "Drink cool water or sports drinks slowly.",
+      "Monitor for heat stroke signs."
+    ],
+    "file": "missing_firstaid.json",
+    "matched_term": "stroke"
+  },
+  {
+    "id": "firstaid-sunburn",
+    "name": "Sunburn Treatment",
+    "source": "https://www.mayoclinic.org/first-aid/first-aid-sunburn/basics/art-20056643",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Get out of the sun immediately.",
+      "Cool the skin with a cool bath or damp cloth.",
+      "Apply aloe vera or moisturizing lotion.",
+      "Hydrate heavily."
+    ],
+    "file": "missing_firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "firstaid-decon",
+    "name": "Emergency Decontamination",
+    "source": "https://www.cdc.gov/chemical-emergencies/index.html",
+    "sourceName": "CDC",
+    "steps": [
+      "Brush off dry powder BEFORE applying water.",
+      "Remove contaminated clothing carefully.",
+      "Flush with lukewarm water for 15+ minutes."
+    ],
+    "file": "missing_firstaid.json",
+    "matched_term": "decon"
+  },
+  {
+    "id": "firstaid-heatstroke-response",
+    "name": "Heat Stroke",
+    "source": "https://www.mayoclinic.org/diseases-conditions/heat-stroke/diagnosis-treatment/drc-20353587",
+    "sourceName": "Mayo Clinic",
+    "steps": [
+      "Call emergency services immediately.",
+      "Cool the person rapidly.",
+      "Do NOT give fluids if unconscious."
+    ],
+    "file": "missing_firstaid.json",
+    "matched_term": "heatstroke"
+  },
+  {
+    "id": "firstaid-burn-treat",
+    "name": "Severe Burn Treatment",
+    "source": "https://www.redcross.org/take-a-class/first-aid",
+    "sourceName": "Red Cross",
+    "steps": [
+      "Stop the burning process.",
+      "Cover loosely with sterile, non-stick bandage.",
+      "Treat for shock."
+    ],
+    "file": "missing_firstaid.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "psych-evasion",
+    "name": "Evasion & Escape",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Break line of sight immediately.",
+      "Change your appearance/silhouette.",
+      "Move against the flow or into complexity."
+    ],
+    "file": "missing_psychology.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "psych-gray-man",
+    "name": "Gray Man Theory",
+    "source": "https://www.ready.gov/safety-skills",
+    "sourceName": "Security Experts",
+    "steps": [
+      "Dress to match the average baseline of the crowd.",
+      "Mask your movement and energy.",
+      "Remove identifying markers."
+    ],
+    "file": "missing_psychology.json",
+    "matched_term": "gray-man"
+  },
+  {
+    "id": "psych-antisurveillance",
+    "name": "Antisurveillance",
+    "source": "https://www.stratfor.com/",
+    "sourceName": "Security Experts",
+    "steps": [
+      "Use shop windows as mirrors.",
+      "Make a logical turn or stop.",
+      "Do not react if confirmed."
+    ],
+    "file": "missing_psychology.json",
+    "matched_term": "antisurveillance"
+  },
+  {
+    "id": "shelter-seal-room",
+    "name": "Seal a Room (Shelter in Place)",
+    "source": "https://www.ready.gov/shelter",
+    "sourceName": "FEMA",
+    "steps": [
+      "Choose an interior room with few windows.",
+      "Turn off all ventilation (HVAC, fans).",
+      "Tape plastic sheeting over windows, doors, and vents."
+    ],
+    "file": "missing_shelter.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "nav-gps-battery-conservation",
+    "name": "GPS Battery Conservation",
+    "source": "https://irp.fas.org/doddir/army/fm3-25-26.pdf",
+    "sourceName": "FM 3-25.26 Map Reading and Land Navigation",
+    "steps": [
+      "Turn off GPS between fixes",
+      "Use airplane mode on phones",
+      "Lower screen brightness",
+      "Keep battery warm"
+    ],
+    "file": "navigation.json",
+    "matched_term": "battery"
+  },
+  {
+    "id": "psych-routine",
+    "name": "Establishing Daily Routine",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Wake at same time daily. Begin with a task immediately.",
+      "Set specific goals for each day\u2014even small ones.",
+      "Maintain hygiene even when it seems pointless.",
+      "End day reviewing accomplishments and planning tomorrow."
+    ],
+    "file": "psychology.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "psych-normalcy",
+    "name": "Establishing Normalcy & Routine",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Establish a daily schedule within the first 24 hours.",
+      "Assign roles and responsibilities to every group member.",
+      "Maintain personal hygiene and camp organization."
+    ],
+    "file": "psychology.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "psych-grief-triage",
+    "name": "Immediate Grief Triage",
+    "source": "https://en.wikipedia.org/wiki/Wilderness_first_responder",
+    "sourceName": "NOLS Wilderness Medicine",
+    "steps": [
+      "Accept the acute shock response.",
+      "Prevent irrational actions.",
+      "Focus on the living.",
+      "Assign them a mechanical, repetitive task.",
+      "Do not offer false platitudes."
+    ],
+    "file": "psychology.json",
+    "matched_term": "shock"
+  },
+  {
+    "id": "psych-survival-circle",
+    "name": "The Survival Circle \u2014 Managing Group Dynamics",
+    "source": "https://irp.fas.org/doddir/usaf/afman10-100.pdf",
+    "sourceName": "USAF Survival Training (SERE) Manual",
+    "steps": [
+      "At the start of any survival situation: gather everyone in a circle face-to-face.",
+      "Each person reports: name, any injuries, special skills, inventory of personal gear.",
+      "Establish three things: leader, immediate priorities, individual assignments.",
+      "Schedule regular circle check-ins: morning briefing, evening debrief."
+    ],
+    "file": "psychology.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "psych-combat-baseline",
+    "name": "Establish the Baseline",
+    "source": "https://archive.org/search?query=MCRP+3-01B+combat+skills",
+    "sourceName": "USMC Combat Hunter MCRP 3-01B",
+    "steps": [
+      "Observe the environment passively.",
+      "Identify the anomaly.",
+      "Categorize the anomaly.",
+      "React preemptively."
+    ],
+    "file": "psychology.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "hygiene-charcoal-toothpaste",
+    "name": "Charcoal Toothpaste",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Crush charcoal from your fire into a fine powder.",
+      "Mix with a little water (and salt/mint if available).",
+      "Scrub teeth with finger or chew stick."
+    ],
+    "file": "rebuilding_civilization.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "rescue-phone-emergency",
+    "name": "Maximizing Phone Battery in Emergency",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Turn on airplane mode immediately.",
+      "Turn off airplane mode ONLY to attempt calls/texts, then back on.",
+      "Send texts instead of calling \u2014 texts use far less power.",
+      "Emergency numbers (112, 911, 999, etc.) work on any network and often without a SIM.",
+      "Before battery dies: text your GPS coordinates to someone."
+    ],
+    "file": "rescue.json",
+    "matched_term": "battery"
+  },
+  {
+    "id": "rescue-tire-fire-smoke",
+    "name": "Tire Fire Smoke Signal",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Burning rubber (tires, shoe soles, rubber mats) produces thick, black smoke visible for miles.",
+      "Build a hot base fire first with dry wood. Once burning strongly, add rubber items.",
+      "If near a vehicle: use a spare tire, floor mats, or rubber hoses. Cut into pieces for controlled burning.",
+      "Alternate rubber (black smoke) with green vegetation (white smoke) for maximum contrast.",
+      "CAUTION: burning rubber is toxic. Stand upwind. Do NOT inhale the fumes."
+    ],
+    "file": "rescue.json",
+    "matched_term": "burn"
+  },
+  {
+    "id": "rescue-active-shooter-geometry",
+    "name": "Active Shooter Geometry",
+    "source": "https://irp.fas.org/doddir/usaf/afman10-100.pdf",
+    "sourceName": "USAF Survival Training (SERE) Manual",
+    "steps": [
+      "Evacuate immediately (RUN).",
+      "Understand Cover vs. Concealment.",
+      "Slice the pie around corners.",
+      "Barricade deeply (HIDE).",
+      "Ambush with improvised weapons (FIGHT)."
+    ],
+    "file": "rescue.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "rescue-riot-mob-evasion",
+    "name": "Riot & Mob Evasion",
+    "source": "https://irp.fas.org/doddir/usaf/afman10-100.pdf",
+    "sourceName": "USAF Survival Training (SERE) Manual",
+    "steps": [
+      "Move perpendicularly.",
+      "Avoid choke points.",
+      "Keep your chest protected.",
+      "Stay on your feet."
+    ],
+    "file": "rescue.json",
+    "matched_term": "evasion"
+  },
+  {
+    "id": "rescue-cpr-adult",
+    "name": "Adult CPR Protocol",
+    "source": "https://irp.fas.org/doddir/usaf/afman10-100.pdf",
+    "sourceName": "USAF Survival Training (SERE) Manual",
+    "steps": [
+      "Confirm unresponsive: tap shoulders, shout. Call for help.",
+      "Check for breathing: look, listen, feel for 10 seconds maximum.",
+      "30 compressions: center of chest, 2 inches deep, hard and fast (100-120/min).",
+      "2 rescue breaths: tilt head back, lift chin, seal mouth. Watch for chest rise."
+    ],
+    "file": "rescue.json",
+    "matched_term": "cpr"
+  },
+  {
+    "id": "rescue-choking-adult",
+    "name": "Adult Choking \u2014 Heimlich Maneuver",
+    "source": "https://irp.fas.org/doddir/usaf/afman10-100.pdf",
+    "sourceName": "USAF Survival Training (SERE) Manual",
+    "steps": [
+      "Confirm choking: ask 'Can you breathe?' If they can't speak, cough, or breathe \u2014 act.",
+      "Stand behind the patient. Fist above navel, below ribcage.",
+      "Deliver sharp INWARD and UPWARD thrusts.",
+      "Repeat until object is expelled or patient becomes unconscious."
+    ],
+    "file": "rescue.json",
+    "matched_term": "choking"
+  },
+  {
+    "id": "rescue-help-huddle-position",
+    "name": "H.E.L.P. & Huddle Positions",
+    "source": "https://www.uscgboating.org",
+    "sourceName": "US Coast Guard Rescue & Survival Systems Manual",
+    "steps": [
+      "Understand the cold shock response.",
+      "Minimize movement.",
+      "Assume the H.E.L.P. position (Solo).",
+      "Form a Huddle (Group)."
+    ],
+    "file": "rescue.json",
+    "matched_term": "hypothermia"
+  },
+  {
+    "id": "tools-taut-line",
+    "name": "Taut-Line Hitch",
+    "source": "https://www.animatedknots.com/",
+    "sourceName": "Animated Knots by Grog",
+    "steps": [
+      "Loop rope around anchor (tree, stake).",
+      "Make 2 wraps inside the loop around the standing part.",
+      "Make 1 wrap outside the loop above the coils.",
+      "Slide the knot to adjust tension."
+    ],
+    "file": "tools.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "tools-sling",
+    "name": "Throwing Sling",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Cut two 24-inch lengths of cordage and a leather or woven pouch.",
+      "Attach cords to each side of the pouch.",
+      "Load a round stone and swing overhead in a circular motion.",
+      "Release the knotted cord at the right moment to launch the projectile."
+    ],
+    "file": "tools.json",
+    "matched_term": "sling"
+  },
+  {
+    "id": "tools-bamboo-tools",
+    "name": "Bamboo Multi-Tool Construction",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Select a green bamboo section at least 1 inch diameter.",
+      "Split lengthwise by scoring and applying pressure. Shape the edge with a rock.",
+      "Fire-harden the edge by slowly rotating over hot coals. Do not burn."
+    ],
+    "file": "tools.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "tools-sling-weapon",
+    "name": "Sling Weapon",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Cut two equal cords, each about 2.5 feet long. Any strong cordage works \u2014 paracord, braided plant fiber.",
+      "Create a pouch in the center from leather, woven cloth, or a flat piece of bark, 3x5 inches.",
+      "Attach each cord to opposite ends of the pouch. Tie a finger loop on one cord and leave the other plain.",
+      "Load a smooth, round stone (golf ball to tennis ball size) in the pouch.",
+      "Swing overhead 1-2 times, then release the plain cord at the point aimed at the target."
+    ],
+    "file": "tools.json",
+    "matched_term": "sling"
+  },
+  {
+    "id": "tools-deadfall-setting-safety",
+    "name": "Deadfall Safety Techniques",
+    "source": "https://primitivetechnology.wordpress.com/",
+    "sourceName": "Primitive Technology (John Plant)",
+    "steps": [
+      "Always approach from the side",
+      "Use a safety stick",
+      "Test trigger sensitivity before loading weight",
+      "Mind your fingers"
+    ],
+    "file": "tools.json",
+    "matched_term": "dental"
+  },
+  {
+    "id": "tools-anchor-hitch",
+    "name": "Anchor Hitch (Fisherman's Bend)",
+    "source": "https://www.animatedknots.com/",
+    "sourceName": "Animated Knots by Grog / Ashley Book of Knots",
+    "steps": [
+      "Pass the rope through the ring twice.",
+      "Bring the working end across and under both turns.",
+      "Make a half hitch around the standing part.",
+      "Add a second half hitch for security."
+    ],
+    "file": "tools.json",
+    "matched_term": "shock"
+  },
+  {
+    "id": "tools-spanish-bowline",
+    "name": "Spanish Bowline",
+    "source": "https://www.animatedknots.com/",
+    "sourceName": "Animated Knots by Grog / Ashley Book of Knots",
+    "steps": [
+      "Form two side-by-side loops in the rope.",
+      "Reach through each loop and grab the opposite side rope.",
+      "Pull both grabs through to form interlocking bights.",
+      "Adjust loop sizes as needed. Each loop can be sized independently."
+    ],
+    "file": "tools.json",
+    "matched_term": "sling"
+  },
+  {
+    "id": "tools-adjustable-grip-hitch",
+    "name": "Adjustable Grip Hitch",
+    "source": "https://www.animatedknots.com/",
+    "sourceName": "Animated Knots by Grog / Ashley Book of Knots",
+    "steps": [
+      "Wrap the rope around the anchor point and back toward the load.",
+      "Make two wraps around the standing part, moving toward the anchor.",
+      "Cross over and make one wrap on the load side.",
+      "Tuck the end and dress. Slide to adjust tension."
+    ],
+    "file": "tools.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "tools-girth-hitch",
+    "name": "Girth Hitch (Lark's Foot)",
+    "source": "https://www.animatedknots.com/",
+    "sourceName": "Animated Knots by Grog / Ashley Book of Knots",
+    "steps": [
+      "Pass the sling/loop around or through the object.",
+      "Thread one end of the loop through the other end.",
+      "Pull tight \u2014 the sling chokes around the object.",
+      "To release: push the choking loop back through."
+    ],
+    "file": "tools.json",
+    "matched_term": "sling"
+  },
+  {
+    "id": "tools-scaffold-knot",
+    "name": "Scaffold Knot (Poacher's Knot)",
+    "source": "https://www.animatedknots.com/",
+    "sourceName": "Animated Knots / Ashley Book of Knots",
+    "steps": [
+      "Form a loop in the rope.",
+      "Wrap the working end around BOTH sides of the loop 3+ times.",
+      "Pass the working end through the remaining loop opening.",
+      "Pull the standing end \u2014 the noose tightens. Pull the working end to adjust."
+    ],
+    "file": "tools.json",
+    "matched_term": "stab"
+  },
+  {
+    "id": "tools-birch-tar-adhesive",
+    "name": "Birch Tar Production (Natural Adhesive)",
+    "source": "https://primitivetechnology.wordpress.com/",
+    "sourceName": "Primitive Technology (John Plant)",
+    "steps": [
+      "Collect birch bark \u2014 fresh or recently fallen, paper-thin outer bark.",
+      "Double-pot method: place bark in a sealed container (clay pot, tin can) upside down over a collection pot.",
+      "Heat the top container \u2014 the tar drips down into the collection pot.",
+      "The resulting black tar is waterproof adhesive \u2014 used for hafting tools, sealing containers, patching boats."
+    ],
+    "file": "tools.json",
+    "matched_term": "superglue"
+  },
+  {
+    "id": "water-iodine",
+    "name": "Iodine Treatment",
+    "source": "https://openlibrary.org/isbn/9780062378071",
+    "sourceName": "SAS Survival Handbook \u2013 John Wiseman",
+    "steps": [
+      "Add 5 drops of 2% iodine tincture per quart of clear water.",
+      "Wait 30 minutes before drinking.",
+      "Add vitamin C powder after wait time to improve taste."
+    ],
+    "file": "water.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "water-charcoal-filter",
+    "name": "Charcoal Water Filter",
+    "source": "https://openlibrary.org/isbn/9781440579776",
+    "sourceName": "Bushcraft 101 \u2013 Dave Canterbury",
+    "steps": [
+      "Make charcoal from hardwood burned down to coals.",
+      "Crush charcoal into fine granules.",
+      "Build a filter: container with hole \u2192 grass \u2192 charcoal \u2192 sand \u2192 gravel.",
+      "Run water through multiple times for clearer results."
+    ],
+    "file": "water.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "water-iodine-purification",
+    "name": "Iodine Water Purification",
+    "source": "https://archive.org/search?query=FM+21-76+Survival+Manual",
+    "sourceName": "U.S. Army Survival Manual FM 21-76",
+    "steps": [
+      "Add 5 drops of 2% iodine tincture per liter of clear water.",
+      "If using iodine tablets (like Potable Aqua), add 2 tablets per liter.",
+      "Wait 30 minutes before drinking.",
+      "The water will taste slightly of iodine.",
+      "Pregnant women and people with thyroid conditions should avoid iodine."
+    ],
+    "file": "water.json",
+    "matched_term": "chemical"
+  },
+  {
+    "id": "water-purify-chlorine-dioxide",
+    "name": "Purification: Chlorine Dioxide Drops",
+    "source": "https://www.who.int/publications/i/item/9789241549950",
+    "sourceName": "WHO Guidelines for Drinking-Water Quality",
+    "steps": [
+      "Mix Parts A and B.",
+      "Add to 1 liter of clear water.",
+      "Wait the prescribed contact time.",
+      "Note the water temperature."
+    ],
+    "file": "water.json",
+    "matched_term": "chemical"
+  }
+]

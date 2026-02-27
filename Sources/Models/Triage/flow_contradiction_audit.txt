@@ -1,0 +1,70 @@
+
+[ContentDatabase+TrappedTriage.swift]
+
+[ContentDatabase+AnimalTriage.swift]
+
+  Q: What animal?
+  -> Opt: No — Back Away  [END: technique]
+
+
+[ContentDatabase+DisasterTriage.swift]
+
+  Q: What disaster are you facing?
+  -> Opt: I'm Indoors  [END: technique]
+
+
+  Q: What disaster are you facing?
+  -> Opt: I'm Outdoors  [END: technique]
+
+
+  Q: What disaster are you facing?
+  -> Opt: Earthquake Over — Now What?  [END: technique]
+
+
+[ContentDatabase+ShelterTriage.swift]
+
+[ContentDatabase+HumanThreatTriage.swift]
+
+  Q: What is the threat?
+  -> Opt: No — Need to Hide  [END: technique]
+
+
+  Q: What is the threat?
+  -> Opt: Cornered — Self Defense  [END: technique]
+
+
+[ContentDatabase+FoodTriage.swift]
+
+[ContentDatabase+HurtTriage.swift]
+
+[ContentDatabase+LostTriage.swift]
+
+[ContentDatabase+InWaterTriage.swift]
+
+[ContentDatabase+VehicleTriage.swift]
+
+[ContentDatabase+GearTriage.swift]
+
+[ContentDatabase+PanicTriage.swift]
+
+[ContentDatabase+ChemicalTriage.swift]
+
+  Q: What is the exposure?
+  -> Opt: No — Shelter in Place  [END: technique]
+
+
+[ContentDatabase+WaterTriage.swift]
+
+  Q: What do you need?
+  -> Opt: Purification Tablets / Iodine  [END: technique]
+
+
+  Q: What do you need?
+  -> Opt: Clear Bottle + Strong Sun  [END: technique]
+
+
+[ContentDatabase+HeatTriage.swift]
+
+[ContentDatabase+ColdTriage.swift]
+
+[ContentDatabase+FireTriage.swift]

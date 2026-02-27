@@ -1,0 +1,1370 @@
+=== FILE: tools.json ===
+
+ID: tools-bowline
+NAME: Bowline Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a small loop in the standing part of the rope.
+  STEP 2: Pass the working end UP through the loop.
+  STEP 3: Go around behind the standing part.
+  STEP 4: Pass back DOWN through the same loop.
+
+ID: tools-clove-hitch
+NAME: Clove Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap the rope around the post once.
+  STEP 2: Cross over the first wrap and wrap around the post again.
+  STEP 3: Tuck the working end under the second wrap.
+
+ID: tools-taut-line
+NAME: Taut-Line Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Loop rope around anchor (tree, stake).
+  STEP 2: Make 2 wraps inside the loop around the standing part.
+  STEP 3: Make 1 wrap outside the loop above the coils.
+  STEP 4: Slide the knot to adjust tension.
+
+ID: tools-square-lashing
+NAME: Square Lashing
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Start with a clove hitch on the vertical pole.
+  STEP 2: Weave over and under alternately around both poles.
+  STEP 3: Make 3-4 complete wrapping turns.
+  STEP 4: Frapping: wrap tightly between the poles to tighten.
+  STEP 5: Finish with a clove hitch on the horizontal pole.
+
+ID: tools-knife-sharpening
+NAME: Field Knife Sharpening
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a smooth, fine-grained stone (river rock works).
+  STEP 2: Hold blade at 15-20 degree angle to the stone.
+  STEP 3: Sweep the blade across the stone in smooth strokes, alternating sides.
+  STEP 4: Test sharpness: slice a leaf or shave arm hair.
+
+ID: tools-flint-knapping
+NAME: Flint Knapping (Stone Tools)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Find flint, chert, obsidian, or quartz.
+  STEP 2: Strike the edge with a harder hammerstone at a 45-degree angle.
+  STEP 3: Use the sharp flakes as-is for cutting.
+  STEP 4: Shape a larger piece into a hand axe by removing flakes around the edges.
+
+ID: tools-cordage
+NAME: Natural Fiber Cordage
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Gather long, strong plant fibers: inner bark, yucca, nettle, dogbane.
+  STEP 2: Bundle 2-3 fibers and twist them tightly in one direction.
+  STEP 3: Fold the twisted bundle in half and let it spin back on itself.
+  STEP 4: Add new fibers by overlapping 2-3 inches before the old run out.
+
+ID: tools-improvised-container
+NAME: Improvised Containers
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Birch bark container: fold bark into box shape, pin with thorns.
+  STEP 2: Green bamboo section: cut between nodes for natural cup.
+  STEP 3: Stone bowl: find a concave rock and grind it deeper.
+  STEP 4: Woven basket: weave flexible branches in over-under pattern.
+
+ID: tools-spear-making
+NAME: Making a Survival Spear
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Find a straight hardwood pole 5-6 feet long.
+  STEP 2: Carve the tip with a knife or sharp stone into a point.
+  STEP 3: Fire-harden the tip by slowly rotating above hot coals.
+  STEP 4: For a better spear: lash a stone or metal blade to the tip.
+
+ID: tools-sling
+NAME: Throwing Sling
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut two 24-inch lengths of cordage and a leather or woven pouch.
+  STEP 2: Attach cords to each side of the pouch.
+  STEP 3: Load a round stone and swing overhead in a circular motion.
+  STEP 4: Release the knotted cord at the right moment to launch the projectile.
+
+ID: tools-repair
+NAME: Field Gear Repair
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Pine resin glue: melt pine sap and mix with charcoal dust.
+  STEP 2: Patch holes in fabric with pine resin and a fabric patch.
+  STEP 3: Splint broken tool handles with sticks and cordage lashing.
+  STEP 4: Sew tears using a bone or thorn needle and plant fiber thread.
+
+ID: tools-camp-organization
+NAME: Camp Organization
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Fire pit at center, downwind from shelter.
+  STEP 2: Food storage 200 feet from camp, hung from a tree.
+  STEP 3: Latrine 200 feet from camp, downhill from water source.
+  STEP 4: Tool and supply area organized within arm's reach of shelter.
+
+ID: tools-fish-hook
+NAME: Carving a Fish Hook
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a thorn, bone splinter, safety pin, or hardwood twig.
+  STEP 2: Gorge hook: sharpen both ends of a 1-inch splinter, tie in middle.
+  STEP 3: Curved hook: heat and bend thorn/wire into J-shape with barb.
+  STEP 4: Attach to line with clinch knot. Test pull before fishing.
+
+ID: tools-net-making
+NAME: Net Making
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Make cordage first—need 50-100 feet minimum.
+  STEP 2: Tie horizontal header line between two supports.
+  STEP 3: Tie vertical lines using sheet bend knots at intervals.
+  STEP 4: Weave horizontal rows, knotting at each intersection.
+
+ID: tools-bow-making
+NAME: Bow & Arrow Making
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find dead, dry hardwood stave — yew, ash, hickory, oak.
+  STEP 2: Carve belly for flex, leave flat back intact.
+  STEP 3: Notch tips. String with cordage or sinew.
+  STEP 4: Arrows: straight dry sticks with sharpened tips and feather fletching.
+
+ID: tools-stone-axe
+NAME: Stone Axe Construction
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find flat, hard stone with natural edge.
+  STEP 2: Shape edge by pecking with harder stone.
+  STEP 3: Split green wood handle, wedge stone inside.
+  STEP 4: Wrap split with wet rawhide — shrinks as it dries.
+
+ID: tools-bone-needle
+NAME: Bone Needle Making
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a splinter of dense leg bone (deer/cow).
+  STEP 2: Grind on sandstone to shape and sharpen.
+  STEP 3: Drill the eye using a sharp flint flake or metal tip.
+  STEP 4: Polish smooth to prevent fraying cordage.
+
+ID: tools-bark-container
+NAME: Bark Container / Basket
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Cut a rectangle of flexible bark (birch, poplar, elm).
+  STEP 2: Fold the corners inward to create a tub shape.
+  STEP 3: Secure corners with split root or cordage stitches.
+  STEP 4: Seal seams with pine pitch for waterproofing.
+
+ID: tools-bark-container-adv
+NAME: Advanced Bark Container
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Harvest a large rectangular sheet of fresh birch, elm, or poplar bark.
+  STEP 2: Score fold lines for a box shape. Fold up the sides.
+  STEP 3: Pin corners with wooden pegs or sew with root cordage.
+  STEP 4: Seal all seams with heated pine resin mixed with charcoal.
+
+ID: tools-stone-drill
+NAME: Stone Drill (Pump Drill)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Knap a small, sharp stone point from flint or obsidian.
+  STEP 2: Lash the stone point to the end of a straight, round shaft.
+  STEP 3: Attach a crossbar with string to create the pump mechanism.
+  STEP 4: Push down on the crossbar repeatedly. The string winds and unwinds, spinning the drill.
+
+ID: tools-fire-hardened-spear
+NAME: Fire-Hardened Spear
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a straight hardwood sapling 5-7 feet long.
+  STEP 2: Carve the tip to a sharp point using a knife or sharp stone.
+  STEP 3: Slowly rotate the tip over hot coals (NOT in flame).
+  STEP 4: The hardened point is now denser and more durable than raw wood.
+
+ID: tools-sinew-cordage
+NAME: Sinew Cordage
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Remove tendons from along the backbone or leg of a game animal.
+  STEP 2: Dry the sinew completely — it becomes hard and brittle.
+  STEP 3: When needed, chew or soak the sinew to soften it.
+  STEP 4: Twist or braid fibers into cord. Sinew shrinks as it dries, tightening bindings.
+
+ID: tools-clay-pot
+NAME: Primitive Clay Pot
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect clay from riverbanks or exposed soil cuts.
+  STEP 2: Mix clay with sand or crushed shell (temper) at a 4:1 ratio.
+  STEP 3: Build the pot using coil method — roll ropes of clay and stack.
+  STEP 4: Dry slowly for 1-2 days, then fire in a pit fire for 2-3 hours.
+
+ID: tools-atlatl
+NAME: Atlatl (Spear Thrower)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Carve a flat board 18-24 inches long with a handle at one end.
+  STEP 2: Carve or attach a small spur (hook) at the far end.
+  STEP 3: Make lightweight darts 5-6 feet long with feather fletching.
+  STEP 4: Practice the overhand throwing motion — flick the wrist at the end.
+
+ID: tools-bone-fishhook
+NAME: Bone Fishhook
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Select a thin, flat bone fragment from a rib or shoulder blade.
+  STEP 2: Score the hook shape with a sharp stone — J-curve with a barb.
+  STEP 3: Snap away excess bone and refine the shape by grinding on stone.
+  STEP 4: Lash line to the shank using a snell knot or wrapping.
+
+ID: tools-bark-cloth
+NAME: Bark Cloth Processing
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Harvest inner bark strips from paper mulberry, basswood, or elm.
+  STEP 2: Soak the bark strips in water for 1-2 days.
+  STEP 3: Pound the soaked bark with a smooth stone or wooden mallet.
+  STEP 4: Dry the bark cloth in the sun. It becomes a durable, flexible fabric.
+
+ID: tools-bamboo-tools
+NAME: Bamboo Multi-Tool Construction
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a green bamboo section at least 1 inch diameter.
+  STEP 2: Split lengthwise by scoring and applying pressure. Shape the edge with a rock.
+  STEP 3: Fire-harden the edge by slowly rotating over hot coals. Do not burn.
+
+ID: tools-natural-glue
+NAME: Natural Adhesive Making
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Collect pine or spruce resin from tree wounds. Look for amber-colored lumps.
+  STEP 2: Melt resin over low heat. Mix with crushed charcoal (1:1 ratio) and optional plant fiber.
+  STEP 3: Apply hot to the joint. It sets in 1-2 minutes as it cools.
+
+ID: tools-torch
+NAME: Torch Construction
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a green hardwood stick 2-3 feet long and 1-2 inches thick.
+  STEP 2: Pack the split top with birch bark, pine resin, cloth, or fatwood shavings.
+  STEP 3: Light from existing fire. Hold at 45-degree angle to control dripping.
+
+ID: tools-fishing-hooks
+NAME: Improvised Fishing Hooks
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Gorge hook: carve a 1-inch sliver of bone or hardwood pointed at both ends.
+  STEP 2: Thorn hook: select a strong thorn from hawthorn, honey locust, or similar tree.
+  STEP 3: Composite hook: lash a sharp bone point to a hardwood shank at 45 degrees.
+
+ID: tools-trap-triggers
+NAME: Universal Trap Trigger Mechanisms
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Two-stick toggle trigger: carve two sticks with matching notches that hold under tension.
+  STEP 2: Figure-4 trigger: three sticks notched to create a free-standing support.
+  STEP 3: Spring snare trigger: a peg-in-notch system attached to a bent sapling.
+
+ID: tools-digging-stick
+NAME: Digging Stick & Pry Bar
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a hardwood branch 3-4 feet long, 1.5-2 inches diameter.
+  STEP 2: Sharpen one end to a chisel or point using a knife or sharp rock.
+  STEP 3: Fire-harden the working end by slowly rotating over coals.
+
+ID: tools-rock-hammer
+NAME: Cobble Hammer & Hammerstone
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a dense, egg-shaped river cobble that fits comfortably in your hand.
+  STEP 2: For a hafted hammer: find a stone with a natural groove or pecked groove for binding.
+  STEP 3: Use different faces for different tasks: flat for pounding, edge for splitting.
+
+ID: tools-water-carrier
+NAME: Improvised Water Containers
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Birch bark container: fold bark into a box shape, secure with pins or cordage.
+  STEP 2: Animal stomach or bladder: turn inside out, rinse, and inflate to dry.
+  STEP 3: Bamboo water bottle: cut a section with one node intact as the bottom.
+
+ID: tools-snow-goggles
+NAME: Improvised Snow Goggles
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select material: birch bark, cardboard, leather, or any opaque flexible sheet.
+  STEP 2: Cut a strip to cover both eyes. Cut narrow horizontal slits (1mm) at each eye position.
+  STEP 3: Attach cordage or elastic to wrap around the head. Blacken the inner surface.
+
+ID: tools-hand-drill-improvement
+NAME: Hand Drill Fire Optimization
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select spindle: dead, dry, straight, pithy stem. Mullein, cattail, or elderberry ideal.
+  STEP 2: Floating hand technique: alternate hands downward while maintaining speed and pressure.
+  STEP 3: Add friction enhancers: sand in the notch, and moisture from crushed green plants on your palms.
+
+ID: tools-hide-tanning
+NAME: Basic Hide Tanning
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Flesh the hide: scrape all meat, fat, and membrane from the inner surface.
+  STEP 2: Brain tan: mash the animal's brain and rub into the hide thoroughly.
+  STEP 3: Smoke the hide over a slow smoldering fire to set the tan.
+
+ID: tools-charcoal-filter
+NAME: Charcoal Water Filter Construction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Make charcoal: burn hardwood to coals, then smother. Crush into small pieces.
+  STEP 2: Layer in container: coarse gravel (bottom), fine sand, crushed charcoal, fine sand, grass (top).
+  STEP 3: Pour water through top. Collect filtered water below. STILL BOIL before drinking.
+
+ID: tools-improvised-saw
+NAME: Improvised Cutting Tools
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Wire saw: twist two strands of wire together. Loop handles at each end.
+  STEP 2: Stone edge tool: find flint, obsidian, or fine-grained stone and strike flakes.
+  STEP 3: Tin can knife: cut a can in half, fold the edge over for a handle.
+
+ID: tools-weighted-net
+NAME: Improvised Fishing & Trapping Net
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Make cordage from plant fibers: dogbane, nettle, milkweed, or inner bark.
+  STEP 2: Tie a mesh net using sheet bend knots or overhand knots at regular intervals.
+  STEP 3: Attach weights (stones) to the bottom edge and floats (bark pieces) to the top.
+
+ID: tools-bone-awl
+NAME: Bone Awl
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a strong leg bone from a medium-to-large animal. Deer, cow, or elk shin bones are ideal.
+  STEP 2: Break the bone at an angle to create a naturally pointed shard.
+  STEP 3: Sharpen the point by grinding on a rough rock surface — sandstone works like natural sandpaper.
+  STEP 4: Smooth the grip area to prevent hand blisters during use.
+  STEP 5: Use for: punching holes in leather/bark, sewing, basket weaving, fishing hook, and digging detail work.
+
+ID: tools-shell-scraper
+NAME: Shell Scraper
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Collect large, thick-shelled bivalves: mussels, clams, or oysters from freshwater or coastal areas.
+  STEP 2: Break the shell in half along its hinge. Each half becomes a scraping/cutting tool.
+  STEP 3: Sharpen the edge by grinding on rough stone. Create a beveled edge like a chisel.
+  STEP 4: Use as: hide scraper (removing fat and membrane), fish scaler, wood shaper, and cutting edge.
+  STEP 5: Large shells also serve as containers, cups, scoops, and cooking vessels (for rock-boiling small amounts).
+
+ID: tools-coconut-shell-bowl
+NAME: Coconut Shell Tools
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Crack a mature coconut in half by striking around the equator with a rock or the back of a machete.
+  STEP 2: Remove the meat by prying with a knife or sharp stick. Save the meat and water for food/drink.
+  STEP 3: Smooth the interior and edges by sanding on rough rock. Fire-hardening makes it more durable.
+  STEP 4: Half-shell uses: bowl, cup, water scoop, fire starter (coconut husk fiber is excellent tinder).
+  STEP 5: The hard shell can also be carved into buttons, fishhooks, spoons, and decorative items.
+
+ID: tools-fire-hardened-digging-stick
+NAME: Fire-Hardened Digging Stick
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a straight, green hardwood stick 3-4 feet long, 1.5-2 inches diameter.
+  STEP 2: Carve one end to a flat chisel point or a rounded spade shape using your knife.
+  STEP 3: Hold the carved end over hot coals (NOT flames) and rotate slowly until the surface darkens.
+  STEP 4: Let cool completely, then smooth by rubbing on a rock. The hardened tip resists dulling.
+  STEP 5: Uses: digging roots and tubers, making fire pits, building shelter foundations, prying loose bark.
+
+ID: tools-weaving-basics
+NAME: Basic Weaving
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Gather long, flexible materials: willow shoots, cattail leaves, grass bundles, split roots, or bark strips.
+  STEP 2: Start with a simple over-under pattern: lay warp fibers parallel, weave weft fibers perpendicular.
+  STEP 3: For a flat mat: keep warp fibers parallel and flat. Push weft fibers tight against each other.
+  STEP 4: For a basket: splay warp fibers from a center point like wheel spokes. Weave weft in a spiral.
+  STEP 5: Finish edges by folding warp ends over and tucking them into the weave.
+
+ID: tools-basket-fish-trap
+NAME: Basket Fish Trap
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Weave a cylindrical basket 2-3 feet long and 10-12 inches diameter using flexible sticks or reeds.
+  STEP 2: Close one end completely by bending warps inward and weaving them shut.
+  STEP 3: Create a funnel entrance at the open end: weave a cone that points inward with a small opening at the tip.
+  STEP 4: Bait the trap with food scraps, crushed insects, or fish guts placed inside near the closed end.
+  STEP 5: Set in a stream with the funnel opening facing downstream. Anchor with rocks. Check every 4-6 hours.
+
+ID: tools-toggle-harpoon
+NAME: Toggle Harpoon
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Carve a bone, hardwood, or stone toggle point — 2-3 inches long with a hole drilled or carved at the base.
+  STEP 2: Attach the toggle to a retrieval line (strong cordage) through the base hole.
+  STEP 3: Seat the toggle in a socket at the tip of the spear shaft. It should fit snugly but release on impact.
+  STEP 4: The toggle rotates inside the wound perpendicular to the entry angle, preventing pull-out.
+  STEP 5: Use for large fish and marine mammals where prey would pull free from a fixed-point spear.
+
+ID: tools-bola
+NAME: Bola Construction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect 2-3 smooth, heavy stones about 2 inches diameter (tennis ball-sized).
+  STEP 2: Wrap each stone tightly in leather, cloth, or woven bark. Tie securely with cordage.
+  STEP 3: Cut 3 cords of equal length — about 3 feet each. Tie all three together at one end.
+  STEP 4: Tie one wrapped stone to the free end of each cord.
+  STEP 5: Throwing: hold the center knot, spin overhead 2-3 times, release toward target. Cords wrap around legs/wings.
+
+ID: tools-bamboo-knife
+NAME: Bamboo Knife
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a mature bamboo section — green bamboo is easier to split but dulls faster. Dry bamboo holds an edge longer.
+  STEP 2: Split the bamboo lengthwise. Each half can be further split into knife-width strips.
+  STEP 3: Sharpen one edge by grinding at a low angle on a rough rock surface — 15-20° angle.
+  STEP 4: For a handle, wrap the base end with cordage, cloth, or leave a wider section unsharpened.
+  STEP 5: Bamboo knives are disposable — carry several. They take 5 minutes to make and are easily resharpened.
+
+ID: tools-gourd-canteen
+NAME: Gourd Canteen
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Harvest a mature, hard-shelled gourd — bottle gourds and dipper gourds work best.
+  STEP 2: Cut a small opening at the top. Remove all seeds and pulp with a stick or wire.
+  STEP 3: Fill with water and small pebbles. Shake vigorously to scour the interior walls.
+  STEP 4: Dry completely in the sun for several days. The interior must be fully dry to prevent mold.
+  STEP 5: Seal the opening with a carved wooden plug or corn cob stopper. Add a carrying cord through drilled holes.
+
+ID: tools-natural-adhesive
+NAME: Natural Adhesive (Pine Pitch Glue)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Collect pine resin — scrape from wounds on coniferous trees. You need about a golf ball-sized lump.
+  STEP 2: Melt the resin in a small rock depression or bark container near heat (not over flames — it's flammable).
+  STEP 3: Mix in finely powdered charcoal (1:3 charcoal to resin ratio) while the resin is liquid.
+  STEP 4: Add a small amount of finely shredded plant fiber or animal hair for additional reinforcement.
+  STEP 5: Apply while warm and liquid. It sets as it cools into a strong, waterproof bond.
+
+ID: tools-sling-weapon
+NAME: Sling Weapon
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut two equal cords, each about 2.5 feet long. Any strong cordage works — paracord, braided plant fiber.
+  STEP 2: Create a pouch in the center from leather, woven cloth, or a flat piece of bark, 3x5 inches.
+  STEP 3: Attach each cord to opposite ends of the pouch. Tie a finger loop on one cord and leave the other plain.
+  STEP 4: Load a smooth, round stone (golf ball to tennis ball size) in the pouch.
+  STEP 5: Swing overhead 1-2 times, then release the plain cord at the point aimed at the target.
+
+ID: tools-antler-tool
+NAME: Antler Tools
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find shed antlers on the ground in late winter/spring — deer, elk, and moose shed annually.
+  STEP 2: Use tine tips for pressure flaking — sharpening and shaping stone tools.
+  STEP 3: Use the base/brow tine as a wedge — drive between logs to split them.
+  STEP 4: Antler sections make excellent knife handles, toggles, buttons, and needle storage.
+  STEP 5: Antler tines can be sharpened into awls, fish hooks, and harpoon points.
+
+ID: tools-emergency-rope
+NAME: Emergency Rope Making
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Harvest long, strong plant fibers: inner bark of basswood/linden, yucca leaves, nettle stalks, cattail leaves.
+  STEP 2: Process fibers: soak in water to soften, then split into thin, consistent strands.
+  STEP 3: Reverse-wrap technique: take 2 fiber bundles. Twist each clockwise, then wrap them around each other counter-clockwise.
+  STEP 4: Splice new fibers in: when one bundle runs short, lay a new fiber alongside it overlapping 3+ inches, and continue twisting.
+  STEP 5: Test strength progressively. Two-ply cordage from basswood bark can support 100+ pounds.
+
+ID: tools-fish-scaler-tool
+NAME: Improvised Fish Scaler
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Nail or bind a bottle cap (teeth up) to a stick handle — the crimped edge scrapes scales efficiently.
+  STEP 2: Hold the fish by the tail. Scrape from tail toward head with firm, short strokes.
+  STEP 3: Scale both sides and the belly. Run your hand over the fish — any rough patches need more scraping.
+  STEP 4: Alternative: simply skin the fish instead of scaling. Cut behind the head, grip skin with cloth, and pull.
+  STEP 5: After scaling: gut immediately. Cut from vent to chin, remove organs, rinse cavity with clean water.
+
+ID: tools-bone-needle-craft
+NAME: Bone Needle Crafting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a straight, dense section of bone — a leg or wing bone from a bird or small mammal is ideal.
+  STEP 2: Shatter the bone carefully by striking it with a rock. Select a long, thin, pointed splinter.
+  STEP 3: Grind the splinter against a coarse rock (sandstone) to shape it into a smooth cylinder.
+  STEP 4: Flatten the opposite end slightly to create a surface for the eye using a smaller, harder grinding stone.
+  STEP 5: Bore the eye using a sharp stone flake (chert or flint) or the tip of a knife. Drill gently from both sides.
+
+ID: tools-improvised-goggles
+NAME: Arctic Snow Goggles
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Snow blindness (photokeratitis) is an agonizing sunburn of the cornea caused by UV reflection off snow.
+  STEP 2: Cut a piece of soft wood or stiff bark long enough to wrap slightly around your face, and wide enough to cover your eyes.
+  STEP 3: Carve out a section on the inside back to accommodate your nose.
+  STEP 4: Cut two very narrow horizontal slits corresponding to your pupils.
+  STEP 5: Blacken the inside of the goggles with charcoal from a fire.
+
+ID: tools-nettle-cordage
+NAME: Stinging Nettle Cordage
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Identify tall Stinging Nettle plants in late summer or fall.
+  STEP 2: Split the long green stem vertically with your fingernail.
+  STEP 3: Peel the strong green outer skin away from the woody core.
+  STEP 4: Hold the green skin strips over a fire or lay them in the sun to dry slightly.
+  STEP 5: Perform the reverse-wrap technique.
+
+ID: tools-fire-hardening
+NAME: Fire Hardening Wood
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Carve your tool to the desired shape while the wood is still green and workable.
+  STEP 2: Hold the carved tip over low, steady coals.
+  STEP 3: The wood should turn a deep tan to light brown color.
+  STEP 4: If the wood catches fire or turns black, it is burned and weakened.
+  STEP 5: A properly fire-hardened spear tip can penetrate thick animal hide.
+
+ID: tools-fish-bone-hook
+NAME: Fish Bone Hook
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a thick, strong bone splinter or a large, curved thorn (like honey locust or hawthorn).
+  STEP 2: If using bone, grind it against sandstone into a J or U shape.
+  STEP 3: Carve a barb near the point by making a small cut at a 45-degree angle.
+  STEP 4: Notch the shank (top of the J) to accept a fishing line.
+  STEP 5: Bait with insects, worms, berries, or small pieces of raw meat.
+
+ID: tools-pitch-glue
+NAME: Pine Pitch Glue
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Collect hardened pine, spruce, or fir resin from the bark of living trees.
+  STEP 2: Melt the resin over low heat in a small container (a shell, tin can, or rock depression).
+  STEP 3: Add crushed charcoal to the molten resin (approximately 1 part charcoal to 3 parts resin).
+  STEP 4: Optionally add beeswax or animal fat to make the mixture more flexible and less brittle when cooled.
+  STEP 5: Apply while warm and malleable.
+
+ID: tools-improvised-compass
+NAME: Improvised Compass from Razor
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: A steel razor blade can be magnetized by stroking it in one direction against silk or hair.
+  STEP 2: Alternatively, rub the blade against a magnet if one is available.
+  STEP 3: Suspend the blade from a thread or place it on a leaf floating in still water.
+  STEP 4: One end points to magnetic North.
+  STEP 5: The magnetization weakens over hours.
+
+ID: tools-travois
+NAME: Improvised Travois
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut two strong poles, each 8–10 feet long.
+  STEP 2: Lay the poles in a narrow V-shape.
+  STEP 3: Lash 3–4 crossbars between the poles to create a cargo platform.
+  STEP 4: Cover the platform with a blanket, tarp, or woven branches.
+  STEP 5: Drag the narrow (lashed) end.
+
+ID: tools-snare-wire-lock
+NAME: Locking Wire Snare
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut 2–3 feet of brass or steel snare wire.
+  STEP 2: Form a small loop (the 'eye') at one end by twisting the wire back on itself 5–6 times.
+  STEP 3: Thread the free end of the wire through the small eye loop to form a large noose.
+  STEP 4: Secure the free end of the wire to a stake, tree, or drag log.
+  STEP 5: Set the noose vertically over a game trail, 2 inches off the ground.
+
+ID: tools-body-rappel
+NAME: Emergency Body Rappel
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: The Dulfersitz (body rappel) requires NO hardware — only rope.
+  STEP 2: Route the rope: between the legs, over one hip, diagonally across the chest, over the opposite shoulder, and down the back to the braking hand.
+  STEP 3: Lean back, keeping feet wide apart against the rock face.
+  STEP 4: NEVER let go with your brake (lower) hand.
+  STEP 5: This method causes significant rope burn and clothing damage.
+
+ID: tools-z-drag-pulley
+NAME: Z-Drag Mechanical Advantage
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: The Z-drag creates a 3:1 mechanical advantage, letting you pull 3x your force.
+  STEP 2: Anchor the standing end of the rope to a strong point (tree, vehicle).
+  STEP 3: The rope forms a Z-shape when viewed from the side.
+  STEP 4: Use prussik knots as ratchets to prevent the load from sliding back.
+  STEP 5: Pull on the free end of the Z.
+
+ID: tools-tyrolean-traverse
+NAME: Tyrolean Traverse Setup
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Anchor a rope tightly between two points spanning a gap (river, crevasse).
+  STEP 2: Attach yourself to the rope with a carabiner or prusik loop on a harness or improvised sling.
+  STEP 3: The rope WILL sag under your weight.
+  STEP 4: Clip a second safety line to the traverse rope.
+  STEP 5: NEVER build a Tyrolean over a drop you cannot survive.
+
+ID: tools-highline-river
+NAME: River Highline Crossing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: The strongest swimmer crosses first with a rope tied to their harness.
+  STEP 2: Once across, the swimmer anchors the rope to a strong tree.
+  STEP 3: Crossing people clip into the tensioned rope with a carabiner and shuffle across.
+  STEP 4: Non-swimmers and injured persons are clipped to the rope and pulled across by haul lines.
+  STEP 5: The last person unties the far anchor and is hauled across by the group.
+
+ID: tools-birch-bark-basket
+NAME: Birch Bark Basket
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Peel a large rectangle of birch bark from a fallen or dead tree.
+  STEP 2: Score fold lines with a knife, but do NOT cut through.
+  STEP 3: Fold the bark into a box shape, creasing the corners.
+  STEP 4: Seal all seams with melted pine pitch to make the basket waterproof.
+  STEP 5: Birch bark containers can be used to boil water using hot rocks.
+
+ID: tools-brain-tanning
+NAME: Brain Tanning Hide
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Flesh the hide: scrape all meat, fat, and membrane from the skin side.
+  STEP 2: Remove the hair by soaking the hide in a wood ash solution for 3-5 days.
+  STEP 3: Scrape the hair off once it slips easily.
+  STEP 4: Apply a paste of mashed brain tissue to the hide.
+  STEP 5: Stretch and work the hide continuously as it dries.
+
+ID: tools-rawhide-making
+NAME: Rawhide Production
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Flesh the hide thoroughly, removing all fat and membrane.
+  STEP 2: Stretch the hide tightly in a frame made from bent branches.
+  STEP 3: Scrape both sides smooth while it dries in the frame.
+  STEP 4: Dried rawhide is extremely strong and rigid.
+  STEP 5: Rawhide shrinks as it dries.
+
+ID: tools-friction-saw
+NAME: Cordage Friction Saw
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Get a length of strong cord.
+  STEP 2: Loop around the target.
+  STEP 3: Create handles.
+  STEP 4: Saw back and forth rapidly.
+
+ID: tools-bow-drill-complete
+NAME: Bow Drill Complete Guide
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Select matched wood set
+  STEP 2: Carve spindle and notch
+  STEP 3: Create bearing block
+  STEP 4: Bow technique
+
+ID: tools-hand-drill-complete
+NAME: Hand Drill Complete Guide
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Select spindle
+  STEP 2: Prepare fireboard
+  STEP 3: Spin between palms
+  STEP 4: The difficulty is sustained friction
+
+ID: tools-pump-drill-assembly
+NAME: Pump Drill Assembly
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Attach heavy flywheel to spindle
+  STEP 2: Thread cord through crossbar holes
+  STEP 3: Wrap cord around spindle by spinning crossbar
+  STEP 4: Push crossbar down repeatedly
+
+ID: tools-stone-blade-knapping
+NAME: Stone Blade Knapping
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Select flint, obsidian, chert, or jasper
+  STEP 2: Use a hammerstone for initial shaping
+  STEP 3: Pressure flake for edge refinement
+  STEP 4: The conchoidal fracture is your friend
+
+ID: tools-fish-hook-bone
+NAME: Bone Fish Hook
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Select a thick bone splinter or large thorn
+  STEP 2: Carve a J-shape with a barb
+  STEP 3: Create a line attachment notch
+  STEP 4: Gorge hooks are simpler
+
+ID: tools-rope-from-plants
+NAME: Plant Fiber Rope Making
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Harvest suitable fibers
+  STEP 2: Ret fibers if needed
+  STEP 3: Reverse wrap technique
+  STEP 4: Splice in new fibers as you go
+
+ID: tools-water-filtration-build
+NAME: Improvised Water Filter Construction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Use a large container with drain at bottom
+  STEP 2: Layer from bottom: gravel, sand, charcoal, sand, grass
+  STEP 3: Pour muddy water through the top
+  STEP 4: The output is CLEAR but NOT sterile
+
+ID: tools-deadfall-setting-safety
+NAME: Deadfall Safety Techniques
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Always approach from the side
+  STEP 2: Use a safety stick
+  STEP 3: Test trigger sensitivity before loading weight
+  STEP 4: Mind your fingers
+
+ID: tools-camp-latrine-construction
+NAME: Camp Latrine Construction
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Dig at least 200 feet from any water source
+  STEP 2: Dig 6-8 inches deep
+  STEP 3: Sprinkle dirt over deposits after each use
+  STEP 4: Mark location clearly
+
+ID: tools-hammock-knot-system
+NAME: Hammock Hanging System
+SOURCE: https://en.wikipedia.org/wiki/The_Ashley_Book_of_Knots
+  STEP 1: Use tree straps to protect bark
+  STEP 2: Hang at 30° angle
+  STEP 3: Use a marlin spike hitch for adjustability
+  STEP 4: Ridgeline at 83% of distance between trees
+
+ID: tools-fire-reflector-oven
+NAME: Improvised Reflector Oven
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Build an angled reflector wall
+  STEP 2: Place food between fire and reflector
+  STEP 3: Use a flat stone as a baking surface
+  STEP 4: This is the wilderness equivalent of an oven
+
+ID: tools-reef-knot
+NAME: Reef Knot (Square Knot)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Cross right over left and tuck under.
+  STEP 2: Cross left over right and tuck under.
+  STEP 3: Pull tight. The knot should lie flat.
+  STEP 4: Verify: both free ends exit on the same side.
+
+ID: tools-constrictor-knot
+NAME: Constrictor Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap rope around the object once, crossing over the standing part.
+  STEP 2: Continue wrapping, passing the working end UNDER the X crossing.
+  STEP 3: Pull both ends hard to cinch down.
+  STEP 4: Trim excess rope.
+
+ID: tools-truckers-hitch
+NAME: Trucker's Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Tie one end to a fixed point.
+  STEP 2: Form a directional loop (slip knot) in the standing part.
+  STEP 3: Pass the working end around the second anchor and back UP through the loop.
+  STEP 4: Haul down hard, then lock with two half hitches.
+
+ID: tools-figure-eight-loop
+NAME: Figure-Eight on a Bight
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Double the rope to form a bight.
+  STEP 2: Make a loop with the doubled rope.
+  STEP 3: Pass the bight behind the standing parts and through the loop.
+  STEP 4: Dress the knot and pull tight.
+
+ID: tools-alpine-butterfly
+NAME: Alpine Butterfly Loop
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap the rope around your hand twice.
+  STEP 2: Pick up the outer wrap and move it over the inner wrap to the center.
+  STEP 3: Tuck that same wrap under all strands at the palm.
+  STEP 4: Slide off your hand and dress the knot.
+
+ID: tools-sheet-bend
+NAME: Sheet Bend
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a bight in the THICKER rope.
+  STEP 2: Pass the thinner rope UP through the bight.
+  STEP 3: Wrap around BOTH legs of the bight.
+  STEP 4: Tuck the thin rope under itself (but OVER the bight).
+
+ID: tools-double-fishermans
+NAME: Double Fisherman's Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Overlap the two rope ends by 12 inches.
+  STEP 2: With end A, make two wraps around rope B toward you.
+  STEP 3: Pass end A back through both wraps.
+  STEP 4: Repeat with end B on rope A. Slide the two barrel knots together.
+
+ID: tools-cleat-hitch
+NAME: Cleat Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Take a full turn around the base of the cleat.
+  STEP 2: Cross over the top to the opposite horn, forming a figure-8.
+  STEP 3: Repeat 2-3 figure-8 crosses.
+  STEP 4: Finish with a locking hitch on the last cross.
+
+ID: tools-munter-hitch
+NAME: Munter Hitch (Italian Hitch)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Clip a large locking carabiner to your anchor.
+  STEP 2: Form two opposing loops in the rope.
+  STEP 3: Fold the loops together and clip both through the carabiner.
+  STEP 4: Lock the carabiner. Control descent by holding the brake strand.
+
+ID: tools-blakes-hitch
+NAME: Blake's Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap the climbing line around the host rope 4 times, moving DOWN.
+  STEP 2: Bring the working end BACK UP to the top wrap.
+  STEP 3: Tuck the end between the host rope and wraps 2 and 3.
+  STEP 4: Dress tight. Weight it — it grips. Push it — it slides.
+
+ID: tools-water-knot
+NAME: Water Knot (Tape Knot)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Tie a loose overhand knot in one end of the webbing.
+  STEP 2: Feed the other webbing end into the knot, retracing the path in reverse.
+  STEP 3: Ensure the webbing lies flat throughout — no twists.
+  STEP 4: Pull all four strands tight. Leave 3-inch tails.
+
+ID: tools-anchor-hitch
+NAME: Anchor Hitch (Fisherman's Bend)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Pass the rope through the ring twice.
+  STEP 2: Bring the working end across and under both turns.
+  STEP 3: Make a half hitch around the standing part.
+  STEP 4: Add a second half hitch for security.
+
+ID: tools-marlinspike-hitch
+NAME: Marlinspike Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a loop in the rope at the pull point.
+  STEP 2: Reach through the loop and pull the standing part through.
+  STEP 3: Insert a stick or rod through the bight.
+  STEP 4: Pull — the hitch locks around the handle. Remove handle to release.
+
+ID: tools-monkey-fist
+NAME: Monkey Fist
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap the rope around your fingers 3 times to form vertical loops.
+  STEP 2: Wrap 3 times horizontally around the vertical loops.
+  STEP 3: Wrap 3 times through the center, inside the vertical loops but outside the horizontal ones.
+  STEP 4: Slowly tighten each wrap, working your way around the ball.
+
+ID: tools-chain-sinnet
+NAME: Chain Sinnet (Daisy Chain)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a slip knot near one end.
+  STEP 2: Pull a new bight through the slip knot loop.
+  STEP 3: Repeat — pull a new bight through each previous bight.
+  STEP 4: To deploy: pull the working end and the entire chain unravels instantly.
+
+ID: tools-spanish-bowline
+NAME: Spanish Bowline
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form two side-by-side loops in the rope.
+  STEP 2: Reach through each loop and grab the opposite side rope.
+  STEP 3: Pull both grabs through to form interlocking bights.
+  STEP 4: Adjust loop sizes as needed. Each loop can be sized independently.
+
+ID: tools-klemheist-knot
+NAME: Klemheist Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap the cord/sling around the main rope from bottom to top.
+  STEP 2: Pass the end of the cord back through the starting loop.
+  STEP 3: Weight it — it locks. Push up — it slides.
+  STEP 4: Advantage over prusik: works with flat webbing too.
+
+ID: tools-eye-splice
+NAME: Eye Splice
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Unlay the last 6 inches of three-strand rope into individual strands.
+  STEP 2: Form a loop and tuck the first strand under one strand of the standing part.
+  STEP 3: Tuck the second strand under the next standing strand, and the third under the last.
+  STEP 4: Repeat for 3-5 full tucks per strand. Roll and taper.
+
+ID: tools-short-splice
+NAME: Short Splice
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Unlay 8+ inches of both rope ends.
+  STEP 2: Marry the ropes — interleave the unlaid strands.
+  STEP 3: Tuck each strand over one, under one in the opposing rope.
+  STEP 4: Complete 4-5 tucks per strand, then taper and trim.
+
+ID: tools-reverse-wrap-cordage
+NAME: Reverse Wrap Cordage
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Harvest long plant fibers: inner bark, cattail leaves, nettle, yucca, or dogbane.
+  STEP 2: Bundle a pinch of fibers and fold at the center.
+  STEP 3: Twist the TOP strand away from you, then wrap it TOWARD you over the bottom strand.
+  STEP 4: Add new fibers by laying them alongside before a strand runs out.
+
+ID: tools-bark-rope
+NAME: Bark Rope
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Harvest inner bark from basswood, tulip poplar, mulberry, or cedar.
+  STEP 2: Soak the bark strips in water for 15+ minutes.
+  STEP 3: Separate into thin strips by pulling apart along the grain.
+  STEP 4: Reverse wrap for stronger cordage, or braid 3 strips for quick rope.
+
+ID: tools-butterfly-coil
+NAME: Butterfly Coil
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Drape the rope around the back of your neck.
+  STEP 2: Alternately wrap each side over your hands, extending arms wide.
+  STEP 3: Remove from neck, pinch the center, and wrap the remaining tail around the middle.
+  STEP 4: Tuck a bight through the top loop and pull snug.
+
+ID: tools-honda-knot
+NAME: Honda Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Tie an overhand knot near the rope end, leaving a 6-inch tail.
+  STEP 2: Tie a second overhand knot above the first, passing the standing end through.
+  STEP 3: Thread the standing end through the honda eye.
+  STEP 4: Swing and throw. The loop tightens on what it catches.
+
+ID: tools-handcuff-knot
+NAME: Handcuff Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form two loops, one in each hand, with the rope crossing in the center.
+  STEP 2: Overlap the loops, pulling each through the other.
+  STEP 3: Pull to tighten — two adjustable loops remain.
+  STEP 4: Practical uses: hobble livestock, create twin handles on a log, or improvised restraints.
+
+ID: tools-siberian-hitch
+NAME: Siberian Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap the rope around the post once.
+  STEP 2: Form a bight in the working end and tuck it under the standing part.
+  STEP 3: Pull the bight through to lock.
+  STEP 4: To release: pull the working end and everything falls free.
+
+ID: tools-bachmann-knot
+NAME: Bachmann Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Clip a carabiner to a cord loop.
+  STEP 2: Place the carabiner against the main rope.
+  STEP 3: Wrap the cord through the carabiner and around the rope 4-5 times.
+  STEP 4: Weight the cord — it grips. Lift the carabiner to release.
+
+ID: tools-pile-hitch
+NAME: Pile Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a bight (U-shape) in the rope near the end.
+  STEP 2: Place the bight over the top of the post.
+  STEP 3: Open the bight wide and fold it down below the rope's exit point.
+  STEP 4: Pull the standing part to cinch. It grips the post.
+
+ID: tools-adjustable-grip-hitch
+NAME: Adjustable Grip Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Wrap the rope around the anchor point and back toward the load.
+  STEP 2: Make two wraps around the standing part, moving toward the anchor.
+  STEP 3: Cross over and make one wrap on the load side.
+  STEP 4: Tuck the end and dress. Slide to adjust tension.
+
+ID: tools-girth-hitch
+NAME: Girth Hitch (Lark's Foot)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Pass the sling/loop around or through the object.
+  STEP 2: Thread one end of the loop through the other end.
+  STEP 3: Pull tight — the sling chokes around the object.
+  STEP 4: To release: push the choking loop back through.
+
+ID: tools-icicle-hitch
+NAME: Icicle Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Make 5-7 spiral wraps around the smooth object, moving away from the load direction.
+  STEP 2: Bring the working end back and tuck it under the first wrap.
+  STEP 3: Pull the standing end — all wraps cinch down progressively.
+  STEP 4: It holds on ice-covered posts, wet pipes, and tapered poles.
+
+ID: tools-highwaymans-hitch
+NAME: Highwayman's Hitch
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Pass a bight of the STANDING end around the post.
+  STEP 2: Form a bight in the WORKING end and pass it through the first bight.
+  STEP 3: Form one more bight (from the standing side) and pass it through the second bight.
+  STEP 4: Pull the free end — the entire hitch cascades free instantly.
+
+ID: tools-wrap-around-splice
+NAME: Whipping (Common Whipping)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Lay a loop of thin twine along the rope end.
+  STEP 2: Wrap tightly over the loop and rope, moving toward the end.
+  STEP 3: Thread the working end through the exposed loop.
+  STEP 4: Pull the other tail to drag the loop (and working end) under the wraps.
+
+ID: tools-double-bowline
+NAME: Double Bowline
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a long bight and tie a standard bowline with the doubled rope.
+  STEP 2: Dress the two loops to desired sizes.
+  STEP 3: The two loops distribute load across a wider area.
+  STEP 4: Used as improvised harness when no climbing gear available.
+
+ID: tools-bowline-on-bight
+NAME: Bowline on a Bight
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a bight in the middle of the rope.
+  STEP 2: Tie a bowline using the bight as the working end.
+  STEP 3: Pull the bight loop over the entire knot.
+  STEP 4: Two fixed loops for anchor points or rescue chair.
+
+ID: tools-two-half-hitches
+NAME: Two Half Hitches
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Pass the rope through or around the anchor.
+  STEP 2: Make a half hitch around the standing part.
+  STEP 3: Make a second half hitch in the same direction.
+  STEP 4: Pull snug. Add a turn around the anchor for heavy loads.
+
+ID: tools-overhand-knot
+NAME: Overhand Knot (Stopper)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a loop near the rope end.
+  STEP 2: Pass the working end through the loop.
+  STEP 3: Pull tight.
+  STEP 4: Use as a stopper to prevent rope slipping through holes or pulleys.
+
+ID: tools-figure-eight-stopper
+NAME: Figure-Eight Stopper Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a loop near the rope end.
+  STEP 2: Twist the loop one extra half-turn.
+  STEP 3: Pass the working end through the loop from behind.
+  STEP 4: The figure-8 shape makes it bulkier and easier to untie than an overhand.
+
+ID: tools-double-overhand
+NAME: Double Overhand Knot (Barrel Knot)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a loop like a standard overhand.
+  STEP 2: Pass the working end through the loop TWICE.
+  STEP 3: Pull slowly, rotating the knot as it tightens.
+  STEP 4: Larger and more secure than a single overhand.
+
+ID: tools-slip-knot
+NAME: Slip Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a bight near the working end.
+  STEP 2: Pass the bight through a loop in the standing part.
+  STEP 3: Pull the standing part to tighten around the bight.
+  STEP 4: Pull the working end to release instantly.
+
+ID: tools-cats-paw
+NAME: Cat's Paw
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form two loops in the rope, one in each hand.
+  STEP 2: Twist each loop 2-3 times inward.
+  STEP 3: Place both twisted loops over the hook.
+  STEP 4: Load pulls the twists tight against the hook.
+
+ID: tools-lark-head-tether
+NAME: Lark's Head Tether
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a bight in the rope.
+  STEP 2: Push bight through the ring from behind.
+  STEP 3: Pass both rope ends through the bight.
+  STEP 4: Pull tight — the rope is now attached to the ring.
+
+ID: tools-water-bowline
+NAME: Water Bowline
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a bowline but start with a CLOVE HITCH instead of a simple loop.
+  STEP 2: Thread the working end up through both loops of the clove hitch.
+  STEP 3: Around the standing part and back down.
+  STEP 4: The extra friction from the clove hitch prevents the bowline from loosening when wet.
+
+ID: tools-scaffold-knot
+NAME: Scaffold Knot (Poacher's Knot)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form a loop in the rope.
+  STEP 2: Wrap the working end around BOTH sides of the loop 3+ times.
+  STEP 3: Pass the working end through the remaining loop opening.
+  STEP 4: Pull the standing end — the noose tightens. Pull the working end to adjust.
+
+ID: tools-fishermans-knot
+NAME: Fisherman's Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Overlap the two rope ends.
+  STEP 2: Tie an overhand knot with end A around rope B.
+  STEP 3: Tie an overhand knot with end B around rope A.
+  STEP 4: Pull standing parts to slide the two knots together.
+
+ID: tools-round-turn-two-half
+NAME: Round Turn and Two Half Hitches
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Take a FULL turn around the post — rope wraps completely around.
+  STEP 2: Tie two half hitches around the standing part.
+  STEP 3: Snug everything tight.
+  STEP 4: More secure than two half hitches alone. The round turn absorbs shock loads.
+
+ID: tools-masthead-knot
+NAME: Masthead Knot
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Form three overlapping loops on a flat surface.
+  STEP 2: Weave each loop through its neighbors following the over-under pattern.
+  STEP 3: Place all three loops over a post or mast head.
+  STEP 4: Attach guy lines to each loop for three-way support.
+
+ID: tools-net-making-knot
+NAME: Net Making (Sheet Bend Method)
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Create a starting edge: tie loops at even intervals along a cord.
+  STEP 2: Tie sheet bends connecting each loop to the next row.
+  STEP 3: Use a mesh gauge (stick cut to desired mesh size) for consistency.
+  STEP 4: Continue row by row until the net reaches desired size.
+
+ID: tools-toggle-knot
+NAME: Toggle and Becket
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Tie a fixed loop (bowline or figure-8) in one rope end.
+  STEP 2: On the other rope, tie a toggle: a stick secured across the rope.
+  STEP 3: Push the toggle through the becket loop sideways.
+  STEP 4: Load pulls the toggle perpendicular to the loop — it cannot pull through.
+
+ID: tools-paracord-bracelet
+NAME: Paracord Survival Bracelet
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Measure paracord: wrist circumference × 12 = cord length needed.
+  STEP 2: Fold cord in half, attach to one side of a buckle with a lark's head.
+  STEP 3: Measure bracelet length against wrist. Attach the other buckle end.
+  STEP 4: Cobra weave: alternating left-over-right and right-over-left square knots along the core.
+
+ID: tools-rope-care-field
+NAME: Field Rope Care & Inspection
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Inspect for cuts, abrasion, and glazed/melted spots.
+  STEP 2: Check for UV damage: faded color and stiffness in nylon/polyester.
+  STEP 3: Coil properly: never store rope in random piles.
+  STEP 4: Retire rope when: sheath is damaged, core is visible, it's been shock loaded, or it's more than 10 years old.
+
+ID: tools-pottery-pit-firing
+NAME: Primitive Pottery (Pit Firing)
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Find clay: dig below topsoil near riverbanks. Clay feels smooth and sticky when wet.
+  STEP 2: Coil-build: roll clay into ropes, stack in spiraling layers to form a vessel.
+  STEP 3: Dry SLOWLY over 5-7 days. Rapid drying causes cracking.
+  STEP 4: Pit fire: dig a pit, line with fuel, place pots, cover with more fuel and a dirt layer. Burn for 4-8 hours.
+
+ID: tools-birch-tar-adhesive
+NAME: Birch Tar Production (Natural Adhesive)
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Collect birch bark — fresh or recently fallen, paper-thin outer bark.
+  STEP 2: Double-pot method: place bark in a sealed container (clay pot, tin can) upside down over a collection pot.
+  STEP 3: Heat the top container — the tar drips down into the collection pot.
+  STEP 4: The resulting black tar is waterproof adhesive — used for hafting tools, sealing containers, patching boats.
+
+ID: tools-hide-glue
+NAME: Hide Glue Production
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Collect skin/hide scraps, tendons, and connective tissue from butchered game.
+  STEP 2: Boil scraps in water for 2-3 hours, maintaining a low simmer.
+  STEP 3: Strain the liquid through cloth. The resulting solution IS the glue.
+  STEP 4: Apply warm, clamp until dry. Reactivate by reheating with moisture.
+
+ID: tools-fish-spear-multi
+NAME: Multi-Pronged Fish Spear (Gig)
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Select a straight green hardwood pole, 6-8 feet long, 1.5 inches thick.
+  STEP 2: Split the tip into 4 prongs about 8 inches deep.
+  STEP 3: Wedge small sticks between prongs to spread them apart.
+  STEP 4: Sharpen each prong tip. Fire-harden by rotating over flames until brown.
+
+ID: tools-candle-making-field
+NAME: Field Candle Making
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Render fat: melt animal fat scraps in a container over low heat.
+  STEP 2: Create a wick: twisted cotton, plant fiber cordage, or a rolled strip of bark.
+  STEP 3: Pour melted fat around the wick in a container (shell, bark cup, tin can).
+  STEP 4: Bayberry, beeswax, or pine pitch can substitute for animal fat.
+
+ID: tools-smoke-tanning
+NAME: Brain Tanning (Smoke-Tanned Hide)
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Flesh the hide: remove ALL meat and fat from the inner surface.
+  STEP 2: Remove the grain layer (epidermis) by soaking in wood ash water for 2-3 days.
+  STEP 3: Brain the hide: mash animal brains (or egg yolks + oil) into the stretched hide.
+  STEP 4: Stretch and work the hide as it dries, then smoke over a smoldering fire.
+
+ID: tools-pump-drill
+NAME: Pump Drill Fire Starter
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Create the spindle: straight hardwood 12-18 inches long.
+  STEP 2: Create the flywheel: a heavy disc (stone or wood) at the bottom of the spindle.
+  STEP 3: Attach a crossbar with cord: cord wraps around upper spindle, crossbar pumps up and down.
+  STEP 4: The pumping motion maintains continuous rotation with minimal effort.
+
+ID: tools-rawhide-production
+NAME: Rawhide Production — Rigid Natural Material
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Flesh the hide: remove ALL meat and fat.
+  STEP 2: Soak in wood ash water for 2 days to loosen hair.
+  STEP 3: Scrape hair off with a dull blade. Stretch on a frame to dry.
+  STEP 4: Rawhide dries rigid and extremely strong.
+
+ID: tools-natural-insect-repellent
+NAME: Natural Insect Repellent from Plants
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Mud: dried mud layer on skin is a physical barrier against biting insects.
+  STEP 2: Smoke: position yourself in campfire smoke — insects avoid it.
+  STEP 3: Plant repellents: crush and rub on skin — wild mint, lemon balm, yarrow, mugwort, catnip.
+  STEP 4: Preventive: sleep in smoke-filled shelter, wear long sleeves, tuck pants into socks.
+
+ID: tools-fire-steel-technique
+NAME: Ferro Rod / Fire Steel Technique
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Hold the ferro rod with one hand, striker/knife spine with the other.
+  STEP 2: Scrape firmly at 45° angle along the rod into your tinder bundle.
+  STEP 3: Aim sparks at the most combustible part of your tinder: char cloth, birch bark, or cotton.
+  STEP 4: Works when wet, in wind, at altitude, and in sub-zero temperatures.
+
+ID: tools-rope-bridge
+NAME: Improvised Rope Bridge (Monkey Bridge)
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Anchor three ropes on each side: one low (foot rope), two high (hand ropes in a V).
+  STEP 2: The foot rope should be taut with minimal sag under load.
+  STEP 3: Hand ropes attach at shoulder height, diverging to a V-shape at the far side.
+  STEP 4: Cross one person at a time. Each person clips a safety carabiner to a hand rope.
+
+ID: tools-whistle-carving
+NAME: Emergency Whistle Carving
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Select a straight, soft-wood branch about thumb thickness and 3 inches long.
+  STEP 2: Cut a flat notch/window 1 inch from one end, cutting about halfway through.
+  STEP 3: Carve a thin plug from the cut-away material and insert between the notch and mouthpiece.
+  STEP 4: Blow gently — adjust the plug position until you get a clear, loud tone.
+
+ID: tools-solar-reflector-oven
+NAME: Solar Reflector Oven
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Create a parabolic reflector from foil, emergency blanket, or any shiny surface.
+  STEP 2: Position a dark cooking container at the focal point.
+  STEP 3: Orient directly toward the sun. Adjust position every 30 minutes as the sun moves.
+  STEP 4: Cooking times: roughly double conventional oven times.
+
+ID: tools-charcoal-production
+NAME: Charcoal Production for Filtration & Fuel
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Build a fire and let it burn to a thick bed of coals.
+  STEP 2: Cover the coal bed with a thick layer of dirt or ash, cutting off oxygen.
+  STEP 3: Wait 4-6 hours. Uncover carefully — the wood should be black, lightweight, and porous.
+  STEP 4: Uses: water filtration (crushed charcoal removes chemicals), fuel (burns hotter and longer than wood), tooth cleaning, wound treatment, and drawing on surfaces.
+
+ID: tools-clay-lamp
+NAME: Clay Oil Lamp
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Form a shallow dish from clay — pinch the rim to create a wick channel.
+  STEP 2: Create a wick from twisted cotton, plant fiber, or cattail fluff.
+  STEP 3: Dry the clay lamp before first use — rapid heating of wet clay causes cracking.
+  STEP 4: Fill with rendered animal fat or plant oil. Light the wick.
+
+ID: tools-waterproof-container
+NAME: Waterproof Container from Birch Bark
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Peel birch bark in large sheets — harvest from fallen or recently dead trees.
+  STEP 2: Fold bark into a box shape: sides fold up, corners fold and pin with thin sticks.
+  STEP 3: Seal seams with pine pitch or birch tar for complete waterproofing.
+  STEP 4: These containers hold water, store food dry, and can even be used to boil water over a fire.
+
+ID: tools-fishing-net-cast
+NAME: Cast Net from Natural Cordage
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Weave a circular net using sheet bend knots, 3-4 feet in diameter.
+  STEP 2: Attach weights around the perimeter — stones wrapped in net loops.
+  STEP 3: Attach a retrieval line to the center of the net.
+  STEP 4: Throw: fold net over throwing arm, swing and release in a flat arc over the water.
+
+ID: tools-knot-bowline-on-a-bight
+NAME: Bowline on a Bight (ABOK #1080)
+SOURCE: https://en.wikipedia.org/wiki/The_Ashley_Book_of_Knots
+  STEP 1: Double the rope to form a bight.
+  STEP 2: Tie an overhand knot with the bight, but do not pull it through completely.
+  STEP 3: Open the protruding loop and pass it completely over the entire knot.
+  STEP 4: Pull the standing parts and the two new loops to tighten.
+
+ID: tools-knot-water-bowline
+NAME: Water Bowline (ABOK #1012)
+SOURCE: https://en.wikipedia.org/wiki/The_Ashley_Book_of_Knots
+  STEP 1: Form a clove hitch on the standing part instead of a single loop.
+  STEP 2: Pass the working end up through the clove hitch.
+  STEP 3: Wrap it around the standing part and back down through the clove hitch.
+  STEP 4: Dress the knot by pulling the working end and standing part in opposite directions.
+
+ID: tools-knot-alpine-butterfly-loop
+NAME: Alpine Butterfly Loop (ABOK #1053)
+SOURCE: https://en.wikipedia.org/wiki/The_Ashley_Book_of_Knots
+  STEP 1: Wrap the rope around your hand three times.
+  STEP 2: Take the middle wrap and pull it slightly outward.
+  STEP 3: Pass this middle wrap over the outer wrap and then back under all the wraps.
+  STEP 4: Remove your hand and pull the two standing ends to tighten.
+
+ID: tools-knot-sheet-bend-double
+NAME: Double Sheet Bend (ABOK #1434)
+SOURCE: https://en.wikipedia.org/wiki/The_Ashley_Book_of_Knots
+  STEP 1: Form a bight (U-shape) with the THICKER rope.
+  STEP 2: Pass the THINNER rope up through the bight.
+  STEP 3: Wrap the thinner rope around both parts of the thicker bight TWICE.
+  STEP 4: Tuck the working end of the thinner rope under its own standing part.
+
+ID: tools-knot-zeppelins-bend
+NAME: Zeppelin Bend (Ropers Knot)
+SOURCE: https://en.wikipedia.org/wiki/The_Ashley_Book_of_Knots
+  STEP 1: Form an overhand loop (a '6' shape) with the left rope.
+  STEP 2: Form an underhand loop (a '9' shape) with the right rope.
+  STEP 3: Place the '9' loop directly ON TOP of the '6' loop.
+  STEP 4: Thread the left working end up through the center of both loops. Thread the right end down through the center.
+
+ID: tools-craft-clay-processing
+NAME: Refining Wild Clay
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Locate clay-rich soil.
+  STEP 2: Slake the clay in water.
+  STEP 3: Sieve or decant to remove impurities.
+  STEP 4: Evaporate and collect the refined clay.
+
+ID: tools-craft-coil-pottery
+NAME: Coil Pottery Construction
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Create a flat, circular base.
+  STEP 2: Roll clay into uniform coils.
+  STEP 3: Score, slip, and stack the coils.
+  STEP 4: Smooth the walls.
+
+ID: tools-craft-pit-firing
+NAME: Pit Firing Pottery
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Bone-dry the pottery first.
+  STEP 2: Pre-heat the pottery slowly.
+  STEP 3: Construct the firing pit.
+  STEP 4: Burn intensely and let cool naturally.
+
+ID: tools-craft-cordage-reverse-wrap
+NAME: Reverse-Wrap Cordage
+SOURCE: https://primitivetechnology.wordpress.com/
+  STEP 1: Harvest and process suitable fiber.
+  STEP 2: Establish the central kink.
+  STEP 3: Twist ONE strand away, then cross it OVER the other.
+  STEP 4: Splice in new fibers continuously.
+
+ID: tools-weapon-atlatl-fabrication
+NAME: Atlatl (Spear Thrower) Fabrication
+SOURCE: https://www.youtube.com/@primitivetechnology9550
+  STEP 1: Select a sturdy branch for the atlatl body.
+  STEP 2: Carve the spur (the hook).
+  STEP 3: Fabricate the dart.
+  STEP 4: Fletch and socket the dart.
+
+ID: tools-weapon-hunting-boomerang
+NAME: Kylie (Hunting Boomerang)
+SOURCE: https://www.youtube.com/@primitivetechnology9550
+  STEP 1: Find an elbow-shaped branch.
+  STEP 2: Carve the airfoil profile.
+  STEP 3: Tune the weighting.
+  STEP 4: Throw horizontally.
+
+ID: tools-tool-bone-awl
+NAME: Bone Awl Fabrication
+SOURCE: https://www.youtube.com/@primitivetechnology9550
+  STEP 1: Source a long-bone from a large mammal.
+  STEP 2: Score and split the bone.
+  STEP 3: Grind the point.
+  STEP 4: Temper in animal fat (optional).
+
+ID: tools-tool-pine-pitch-glue
+NAME: Pine Pitch Adhesive
+SOURCE: https://www.youtube.com/@primitivetechnology9550
+  STEP 1: Harvest crystallized pine resin.
+  STEP 2: Melt over low heat.
+  STEP 3: Add binder (crushed charcoal).
+  STEP 4: Add plasticizer (herbivore dung/fur).
+
+ID: tools-lye-soap
+NAME: Hardwood Ash Lye Soap
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect pure white hardwood ashes.
+  STEP 2: Leach the potassium hydroxide (Lye).
+  STEP 3: Render animal fat (Tallow).
+  STEP 4: Saponification.
+
+ID: tools-padlock-shim
+NAME: Improvised Padlock Shim
+SOURCE: https://www.goodreads.com/book/show/25430713-100-deadly-skills
+  STEP 1: Cut an aluminum 'M' shape.
+  STEP 2: Wrap the M around the shackle.
+  STEP 3: Slide the shim downward.
+  STEP 4: Disengage the locking pawl.
+
+ID: tools-door-loiding
+NAME: Loiding a Door Latch
+SOURCE: https://www.goodreads.com/book/show/25430713-100-deadly-skills
+  STEP 1: Identify the lock type.
+  STEP 2: Insert a flexible plastic sheet.
+  STEP 3: Slide plastic downward to strike the latch.
+  STEP 4: Push inward and turn the knob.
+
+ID: tools-cover-vs-concealment
+NAME: Cover vs. Concealment
+SOURCE: https://archive.org/search?query=MCRP+3-01B+combat+skills
+  STEP 1: Identify Cover.
+  STEP 2: Identify Concealment.
+  STEP 3: Do not mistake car doors for cover.
+  STEP 4: Shoot FROM cover, not over it.
+
+ID: tools-knot-munter-mule
+NAME: Munter-Mule Tie Off
+SOURCE: https://archive.org/details/TheAshleyBookOfKnots
+  STEP 1: Establish the Munter Hitch.
+  STEP 2: Pinch the brake strand.
+  STEP 3: Tie the Mule Knot.
+  STEP 4: Lock it with an overhand.
+
+ID: tools-knot-water-knot-webbing
+NAME: Water Knot (Ring Bend)
+SOURCE: https://archive.org/details/TheAshleyBookOfKnots
+  STEP 1: Tie a loose overhand knot in one end.
+  STEP 2: Trace the knot with the second end.
+  STEP 3: Emerge from the other side.
+  STEP 4: Pull all four strands tight.

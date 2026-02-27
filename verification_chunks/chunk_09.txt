@@ -1,0 +1,821 @@
+=== FILE: water.json ===
+
+ID: water-boiling
+NAME: Boiling Water
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Bring water to a rolling boil.
+  STEP 2: Maintain the boil for 1 minute (3 minutes above 6,500 ft).
+  STEP 3: Let cool before drinking.
+
+ID: water-iodine
+NAME: Iodine Treatment
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Add 5 drops of 2% iodine tincture per quart of clear water.
+  STEP 2: Wait 30 minutes before drinking.
+  STEP 3: Add vitamin C powder after wait time to improve taste.
+
+ID: water-uv-purification
+NAME: UV Light Purification (SODIS)
+SOURCE: https://www.epa.gov/ground-water-and-drinking-water
+  STEP 1: Fill clear PET plastic bottles with clear water.
+  STEP 2: Lay bottles on dark surface in direct sunlight for 6 hours.
+  STEP 3: In cloudy weather, extend to 2 full days.
+
+ID: water-filter-sock
+NAME: Improvised Sock Filter
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Layer materials inside a sock or pant leg: charcoal, sand, gravel.
+  STEP 2: Pour water through slowly and collect from the bottom.
+  STEP 3: STILL PURIFY the filtered water by boiling or chemical treatment.
+
+ID: water-charcoal-filter
+NAME: Charcoal Water Filter
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Make charcoal from hardwood burned down to coals.
+  STEP 2: Crush charcoal into fine granules.
+  STEP 3: Build a filter: container with hole → grass → charcoal → sand → gravel.
+  STEP 4: Run water through multiple times for clearer results.
+
+ID: water-solar-still
+NAME: Solar Still
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a hole 3 feet wide and 2 feet deep.
+  STEP 2: Place a collection container in the center of the hole.
+  STEP 3: Cover the hole with clear plastic sheeting.
+  STEP 4: Place a small rock on the plastic directly above the container.
+
+ID: water-transpiration-bag
+NAME: Transpiration Bag
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Place a clear plastic bag over a leafy tree branch.
+  STEP 2: Tie the bag opening tightly around the branch.
+  STEP 3: Collect water from the lowest corner after several hours.
+
+ID: water-dew-collection
+NAME: Dew Collection
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Wrap absorbent cloth around your ankles and walk through grass at dawn.
+  STEP 2: Wring the cloth into a container when saturated.
+  STEP 3: Purify if possible — dew from grass may contain contaminants.
+
+ID: water-rain-collection
+NAME: Rain Collection
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Spread any waterproof material to maximize collection area.
+  STEP 2: Use any available containers — bottles, pots, carved wood, pits lined with plastic.
+  STEP 3: Let the first few minutes of rain wash the collection surface.
+
+ID: water-vegetation-indicators
+NAME: Finding Water by Vegetation
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Look for green vegetation in dry terrain.
+  STEP 2: Follow animal trails that converge — they lead to water.
+  STEP 3: Watch birds at dawn and dusk — grain-eating birds fly toward water.
+  STEP 4: Dig in the outside bend of dry riverbeds.
+
+ID: water-seawater
+NAME: Desalinating Seawater
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: NEVER drink seawater directly — it accelerates dehydration.
+  STEP 2: Build a solar still using seawater as the source.
+  STEP 3: Or boil seawater and collect condensation.
+  STEP 4: Even small amounts of fresh water are worth the effort.
+
+ID: water-snow-ice
+NAME: Melting Snow & Ice for Water
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Never eat snow directly — it lowers core body temp.
+  STEP 2: Melt snow or ice in a dark container in the sun.
+  STEP 3: Prefer ice over snow — ice yields more water per volume.
+  STEP 4: Use body heat or ambient sunlight to melt snow.
+
+ID: water-storage
+NAME: Water Storage & Transport
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Improvise containers: bamboo sections, animal stomachs, bark vessels.
+  STEP 2: Line pits with plastic, large leaves, or clay for ground storage.
+  STEP 3: Keep stored water covered and cool.
+  STEP 4: Seal containers to prevent spilling during travel.
+
+ID: water-rationing
+NAME: Water Rationing Strategy
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Drink when thirsty. Do NOT ration your water.
+  STEP 2: Ration your SWEAT instead.
+  STEP 3: Know your needs: minimum 1 quart/day resting in shade, 1 gallon/day with activity.
+
+ID: water-condensation-trap
+NAME: Condensation Trap
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Find a metal surface—car hood, sheet metal, or large flat rock.
+  STEP 2: Angle the surface so condensation runs to a collection point.
+  STEP 3: Best results at dawn when temperature difference is greatest.
+
+ID: water-bamboo-collection
+NAME: Bamboo Water Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find green bamboo with thick stems. Shake—hear water inside.
+  STEP 2: Bend a tall stalk and cut the top. Water drains out.
+  STEP 3: Alternatively, punch a hole just above each node.
+
+ID: water-birch-tapping
+NAME: Birch Tree Tapping
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a birch tree with trunk at least 10 inches diameter.
+  STEP 2: Carve a small hole 2 inches deep, angled slightly upward.
+  STEP 3: Insert a tube or hollow stick into the hole.
+  STEP 4: Collect sap. Drinkable immediately—slightly sweet.
+
+ID: water-rock-seepage
+NAME: Rock Seepage Collection
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Look for wet rock faces—dark stains, moss, fern growth.
+  STEP 2: Press absorbent cloth against wet rock, wring into container.
+  STEP 3: Create channel with clay or mud to direct trickle flow.
+
+ID: water-desalination
+NAME: Solar Desalination
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Fill a dark container with seawater. Place a smaller empty container inside.
+  STEP 2: Cover with clear plastic wrap. Seal edges tightly.
+  STEP 3: Place a small weight on the plastic above the inner container.
+  STEP 4: Place in direct sunlight. Collect fresh water from inner container.
+
+ID: water-birch-container
+NAME: Birch Bark Water Container
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Harvest a large sheet of birch bark without damaging the tree.
+  STEP 2: Fold into a box or cone shape. Secure with cordage or wooden pegs.
+  STEP 3: Seal seams with heated pine resin.
+  STEP 4: You can even boil water in birch bark directly over fire.
+
+ID: water-vine-extraction
+NAME: Water Vine Extraction
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Identify thick, woody vines in tropical or subtropical forest.
+  STEP 2: Cut the vine HIGH first, then cut low.
+  STEP 3: Hold the cut section over your mouth. Water drips from the bottom cut.
+
+ID: water-fog-nets
+NAME: Fog Collection
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Stretch fabric or mesh between two poles at a 90° angle to prevailing wind.
+  STEP 2: Channel the bottom edge into a collection container.
+  STEP 3: Leave overnight. Fog is heaviest from midnight to dawn.
+
+ID: water-well-digging
+NAME: Digging a Water Well
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Choose a location: outside bends of dry riverbeds, valley bottoms, base of hills.
+  STEP 2: Dig a hole 1-3 feet deep. Widen as you go for stability.
+  STEP 3: Wait 30 minutes for water to seep in from surrounding soil.
+  STEP 4: Filter and purify before drinking — groundwater still needs treatment.
+
+ID: water-snow-melting
+NAME: Snow Melting Best Practices
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Never eat snow directly — it lowers core body temperature dangerously.
+  STEP 2: Melt snow in a dark container in sunlight, or near (not on) fire.
+  STEP 3: Start with a small amount of water in the container, then add snow gradually.
+  STEP 4: Use ice instead of snow when available — it yields more water per volume.
+
+ID: water-testing
+NAME: Water Safety Assessment
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Check clarity — hold water up to light. Clear is better than cloudy.
+  STEP 2: Smell the water — chemical or sulfur odors mean contamination.
+  STEP 3: Look at the surroundings — dead animals, algae blooms, or industrial runoff.
+  STEP 4: When in doubt, purify. The cost of purification is always less than the cost of illness.
+
+ID: water-transpiration-enhanced
+NAME: Enhanced Transpiration Bag
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a sun-facing branch with the most leafy growth.
+  STEP 2: Enclose the leafy end in a clear plastic bag. Seal airtight around the branch.
+  STEP 3: Place a small rock in the bottom corner to create a collection point.
+  STEP 4: Set up multiple bags — each yields only 60-200ml per day.
+
+ID: water-cactus-extraction
+NAME: Cactus Water Extraction
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Identify barrel cactus (Ferocactus) — the only safe species for water.
+  STEP 2: Cut off the top of the cactus and mash the pulp inside.
+  STEP 3: Squeeze pulp through cloth to extract moisture. Drink in small amounts.
+
+ID: water-banana-plant
+NAME: Banana Plant Water
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Cut a banana plant trunk down to a 6-inch stump.
+  STEP 2: Scoop out the center of the stump to create a bowl shape.
+  STEP 3: Scoop water every 30 minutes. The stump refills 3-4 times.
+
+ID: water-clay-pot-filter
+NAME: Clay Pot Filter (Ceramic)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Mix clay with fine sawdust or rice husks (60% clay, 40% organic).
+  STEP 2: Shape into a pot or bowl and let dry completely (1-2 days).
+  STEP 3: Fire in a hot fire for 6-8 hours. The organic material burns out leaving pores.
+
+ID: water-bio-sand-filter
+NAME: Bio-Sand Filter
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Fill a large container with layers: gravel (bottom), coarse sand, fine sand (top).
+  STEP 2: Create an outlet at the bottom for filtered water to exit.
+  STEP 3: Use daily for 2 weeks. A biological layer (schmutzdecke) forms and filters bacteria.
+
+ID: water-morning-dew-drag
+NAME: Morning Dew Collection (Cloth Drag)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Before sunrise, tie absorbent cloth around your ankles and legs.
+  STEP 2: Walk through tall grass, collecting dew on the cloth.
+  STEP 3: Wring the cloth into a container. Repeat until enough water is collected.
+
+ID: water-seawater-ice
+NAME: Seawater Ice Desalination
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: In freezing conditions, collect seawater in shallow containers.
+  STEP 2: Let water freeze partially. Pour off the unfrozen brine (concentrated salt).
+  STEP 3: Melt the ice. Taste test — repeat freeze/pour if still salty.
+
+ID: water-tarp-rain-catch
+NAME: Tarp Rain Catchment
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Spread tarp with edges elevated and center dipped to form a funnel.
+  STEP 2: Place a container under the lowest point of the tarp.
+  STEP 3: Pre-rinse the tarp if dirty. First flush may contain debris.
+
+ID: water-activated-charcoal
+NAME: Activated Charcoal Making
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Make regular charcoal by burning hardwood in a low-oxygen fire.
+  STEP 2: Crush charcoal into small granules (pea-sized to sand-sized).
+  STEP 3: Layer crushed charcoal in filter between sand layers.
+
+ID: water-spring-identification
+NAME: Spring Identification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Look for unusually green vegetation on hillsides in dry areas.
+  STEP 2: Check the base of cliffs, rock outcrops, and where geology changes.
+  STEP 3: Test: spring water is typically cold, clear, and flowing.
+
+ID: water-underground-seep
+NAME: Underground Seep Location
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Dig at the outside bend of a dry streambed.
+  STEP 2: Dig at the base of a sand dune facing the valley.
+  STEP 3: Wait for the hole to fill. Filter and purify the seep water.
+
+ID: water-altitude-boiling
+NAME: Altitude Boiling Adjustments
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: At sea level, water boils at 212°F (100°C). At altitude, it boils at lower temperatures.
+  STEP 2: Good news: pathogens die well below boiling temperature.
+  STEP 3: Bring water to a rolling boil for 1 minute (3 minutes above 6,500 feet).
+
+ID: water-animal-indicators
+NAME: Animal Indicators for Water
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Follow grazing animals (deer, cattle) at dawn and dusk — they head to water.
+  STEP 2: Watch birds: grain-eaters fly toward water at dusk, away at dawn.
+  STEP 3: Listen for frogs and insects at night — they indicate water nearby.
+
+ID: water-from-fruits
+NAME: Water from Wild Fruits & Plants
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Identify water-rich wild fruits: berries, wild grapes, prickly pear.
+  STEP 2: Eat water-rich plants: cattail shoots, wild lettuce, clover.
+  STEP 3: Chew but do not swallow fibrous plants to extract moisture.
+
+ID: water-emergency-sources
+NAME: Emergency Urban Water Sources
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Hot water heater: 30-80 gallons of safe, stored water.
+  STEP 2: Toilet tanks (NOT bowls): contain 1-2 gallons of clean water.
+  STEP 3: Pipe drainage: open the lowest faucet to drain remaining water from pipes.
+
+ID: water-poncho-rain-catch
+NAME: Poncho Rain Collection
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Tie corners of poncho to trees or stakes at waist height.
+  STEP 2: Place a small rock in the center to create a funnel point.
+  STEP 3: In light rain, maximize catchment area. Move to open ground.
+
+ID: water-electrolyte-solution
+NAME: Improvised Oral Rehydration Solution
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Mix: 1 liter clean water + 6 teaspoons sugar + ½ teaspoon salt.
+  STEP 2: Stir thoroughly until fully dissolved. Taste should be like tears.
+  STEP 3: Sip slowly over 4-6 hours. Do not gulp.
+
+ID: water-sap-hydration
+NAME: Tree Sap as Water Source
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: In late winter/spring, many trees produce copious drinkable sap: maple, birch, walnut, sycamore.
+  STEP 2: Cut a V-shaped notch into the bark on the south-facing side, 3 feet from the ground.
+  STEP 3: Insert a spout: hollowed elder branch, folded bark channel, or angled stick under the cut.
+  STEP 4: Collect 1-3 liters per day per tap depending on tree size and conditions.
+  STEP 5: Drink sap raw — no purification needed. It tastes mildly sweet and clean.
+
+ID: water-beach-well
+NAME: Beach Well
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig above the high-tide line in a low area between sand dunes.
+  STEP 2: Dig until water begins seeping into the hole — typically 2-4 feet deep.
+  STEP 3: Taste the water. If only slightly salty, it is drinkable in an emergency.
+  STEP 4: Line the well walls with rocks or sticks to prevent sand from collapsing into the water.
+  STEP 5: If water is too salty, dig farther from the ocean or at higher elevation behind the first dunes.
+
+ID: water-cloth-filtration
+NAME: Cloth Filtration Layers
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Fold cloth into 4-8 layers. T-shirt cotton, bandana, or sock material all work.
+  STEP 2: Pour turbid water slowly through the cloth into a clean container.
+  STEP 3: For better results, create a layered filter: cloth > sand > charcoal > cloth > gravel.
+  STEP 4: This removes sediment, large parasites, and some bacteria — but NOT viruses or dissolved chemicals.
+  STEP 5: Replace cloth filters when they become clogged. Rinse and dry in sun to partially sterilize.
+
+ID: water-ceramic-filter-build
+NAME: Ceramic Filter Construction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Mix clay soil with fine sawdust, rice hulls, or coffee grounds in a 60:40 ratio.
+  STEP 2: Form the mixture into a pot or bowl shape, 8-10 inches diameter, 1/2 inch thick walls.
+  STEP 3: Dry the formed pot completely — at least 24-48 hours in warm air.
+  STEP 4: Fire the pot in a bonfire for 6-8 hours at sustained high temperature.
+  STEP 5: Test: fill with muddy water. Clean water should slowly drip through the bottom. Flow rate: 1-2 liters per hour.
+
+ID: water-uv-sun-purification
+NAME: UV Sun Purification (SODIS)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Fill a clear plastic or glass bottle with water. Pre-filter if turbid — water must be clear.
+  STEP 2: Lay the bottle on a reflective surface (metal sheet, foil, light-colored rock) in full sun.
+  STEP 3: Leave in direct sunlight for minimum 6 hours. If partly cloudy, extend to 2 full days.
+  STEP 4: Shake the bottle every hour to oxygenate — the combination of UV + oxygen is more lethal to pathogens.
+  STEP 5: Water is safe to drink after the treatment period. This method kills bacteria, viruses, and protozoa.
+
+ID: water-dew-trap
+NAME: Dew Trap (Advanced)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Spread a large plastic sheet, tarp, or emergency blanket on the ground in the evening.
+  STEP 2: Create a slight bowl shape by raising the edges with rocks or sticks.
+  STEP 3: Place a clean container at the lowest point in the center.
+  STEP 4: In addition: wrap cloth around your ankles and walk through dewy grass at dawn. Wring cloth into a container.
+  STEP 5: Best conditions for dew: clear nights, calm wind, temperature difference between air and surface.
+
+ID: water-seep-improvement
+NAME: Seep Well Improvement
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a natural seep: muddy ground on a hillside, moss growth in dry terrain, insect swarms over wet soil.
+  STEP 2: Dig a basin at the seep point — 12 inches deep, 18 inches wide.
+  STEP 3: Create an overflow channel on one side to prevent the basin from flooding and becoming muddy.
+  STEP 4: Line the approach path with rocks to prevent foot traffic from muddying the water source.
+  STEP 5: Cover the basin with bark or a flat rock when not in use to prevent contamination from animals and debris.
+
+ID: water-rationing-schedule
+NAME: Water Rationing Schedule
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: NEVER ration water below 500mL (1 pint) per day — your body needs minimum water to function.
+  STEP 2: Priority 1: sip small amounts frequently rather than gulping large amounts at once.
+  STEP 3: Priority 2: minimize water loss — rest in shade during heat, breathe through your nose, avoid sweating.
+  STEP 4: Priority 3: eat less if water is scarce — digestion requires water.
+  STEP 5: Signs of dehydration: dark urine, headache, dizziness, rapid heartbeat. If these appear, increase intake immediately.
+
+ID: water-rock-catchment
+NAME: Rock Catchment Basin
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find natural depressions in rock surfaces — these collect and hold rainwater.
+  STEP 2: Improve natural basins: clear debris, deepen with rock tools, create channels to direct more runoff.
+  STEP 3: Cover the basin with flat rocks or bark when not collecting to reduce evaporation.
+  STEP 4: Build artificial basins by stacking rocks with clay mortar in a natural drainage path.
+  STEP 5: Treat collected rainwater as potentially contaminated — bird droppings and debris can pollute standing rock pools.
+
+ID: water-water-testing-field
+NAME: Field Water Testing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Visual test: clear water is NOT necessarily safe, but cloudy, colored, or oily water is definitely suspect.
+  STEP 2: Smell test: if water smells of chemicals, sulfur (rotten eggs), or sewage — do not drink. Odorless is better but not proof of safety.
+  STEP 3: Flow test: flowing water is generally safer than stagnant water. Spring sources are safest natural water.
+  STEP 4: Animal indicators: animals drinking from a source is a PARTIALLY positive sign, but animals tolerate pathogens humans cannot.
+  STEP 5: When in doubt: ALWAYS purify. Boiling (1 minute rolling boil) kills all biological pathogens.
+
+ID: water-maple-birch-tapping
+NAME: Maple & Birch Tapping
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a tree at least 10 inches diameter. Maple and birch are best — both produce abundant, drinkable sap.
+  STEP 2: Using a knife, drill, or sharpened stick, create a hole 2 inches deep, angled slightly upward.
+  STEP 3: Carve a spile from elderberry, sumac, or any wood with soft pith — hollow out or split for channel.
+  STEP 4: Hang a container from the spile or place below it. Sap flow is highest when nights freeze and days thaw.
+  STEP 5: Drink sap raw for hydration. It is sterile, mildly sweet, and contains minerals.
+
+ID: water-rain-tarp-mega
+NAME: Mega Rain Catch System
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Stretch the largest available material (tarp, poncho, emergency blanket, trash bags) between trees.
+  STEP 2: Create a funnel point at the lowest corner. Direction all water flow to one collection point.
+  STEP 3: Weight the center slightly to create a bowl shape — prevents water from sheeting off the edges.
+  STEP 4: Channel ground runoff: dig small trenches that route ground-level rainwater to a collection basin.
+  STEP 5: First few minutes of rain: let it wash the collection surface clean before collecting for drinking.
+
+ID: water-fog-fence
+NAME: Fog Net Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a frame from sticks or poles, 4-6 feet tall, oriented perpendicular to prevailing wind.
+  STEP 2: Stretch fine mesh across the frame: mosquito netting, cheesecloth, or tightly woven fabric.
+  STEP 3: Attach a gutter or channel at the bottom of the mesh to catch dripping water.
+  STEP 4: Position on a ridge, hilltop, or coastal bluff where fog is densest.
+  STEP 5: Yield: 2-10 liters per day per square meter of mesh in good fog conditions.
+
+ID: water-vehicle-water-sources
+NAME: Vehicle Water Sources
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Windshield washer fluid: mostly water, but may contain methanol — NOT safe to drink.
+  STEP 2: Radiator coolant: contains ethylene glycol — LETHAL. Do NOT drink under any circumstances.
+  STEP 3: SAFE: condensation from AC system — a running AC drips clean condensate. Collect the drip.
+  STEP 4: SAFE: water from the tire — some tires contain water as ballast. Carefully puncture non-critical tires.
+  STEP 5: SAFE: solar still using clear car window or windshield glass as a collector over a dug pit.
+
+ID: water-banana-leaf-funnel
+NAME: Leaf Funnel Water Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find large, waxy leaves: banana, taro, elephant ear, or any smooth, broad leaf.
+  STEP 2: Fold a large leaf into a funnel shape and secure with a twig or thorn pin.
+  STEP 3: Position funnels to catch rain: lean against trees, prop on sticks, or wedge into forked branches.
+  STEP 4: For dew collection: leave funnels out overnight. Dew condenses on the waxy surface and drains to the collection point.
+  STEP 5: Replace leaves every 2-3 days as they dry out and lose their waxy, waterproof quality.
+
+ID: water-ice-melting-technique
+NAME: Ice Melting for Water
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: NEVER eat snow directly — it lowers core temperature and causes dehydration (your body uses more water to melt it).
+  STEP 2: Choose ice over snow when available — ice yields more water per volume (snow is 90% air).
+  STEP 3: Start with a small amount of water in the pot, then add snow/ice gradually.
+  STEP 4: Dark-colored containers left in sunlight passively melt snow without fire.
+  STEP 5: Sea ice: old sea ice (blue, rounded, less salty) is drinkable. New sea ice (milky, sharp) is too salty.
+
+ID: water-bamboo-segment-storage
+NAME: Bamboo Water Storage
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut a bamboo section with a natural node (solid partition) at the bottom — this creates a sealed cup.
+  STEP 2: Green (fresh) bamboo segments may already contain drinkable water — shake to check before cutting.
+  STEP 3: Seal the open top with leaves, clay, or a carved wooden plug for transport.
+  STEP 4: For larger storage: don't cut — drill a small hole in the side, fill through the hole, and plug it.
+  STEP 5: Bamboo containers can also be used for boiling water by filling and placing near (not in) the fire.
+
+ID: water-natural-spring-signs
+NAME: Natural Spring Indicators
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Green vegetation in an otherwise dry area = underground water surfacing.
+  STEP 2: Seepages on hillside slopes, especially at geological layer boundaries (rock type changes).
+  STEP 3: Insect swarms (especially mosquitoes, midges) concentrated in one area indicate moisture beneath.
+  STEP 4: Animal trails converging toward a single point — especially at dawn and dusk.
+  STEP 5: Dig at the base of slopes, outside bends of dry creek beds, and near rock outcrops where seeps are likely.
+
+ID: water-double-boil-purification
+NAME: Double-Boil Purification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Set up: place dirty water in a pot over fire. Cover with an angled lid (metal, flat rock, or bark).
+  STEP 2: Place a clean collection container at the low edge of the lid to catch condensate drips.
+  STEP 3: Cool the lid from above with a wet cloth or cold water to improve condensation.
+  STEP 4: Bring the dirty water to a steady simmer — not a rolling boil. Excess heat wastes fuel and reduces condensation.
+  STEP 5: This produces DISTILLED water — safe from biological AND chemical contaminants.
+
+ID: water-gypsy-well
+NAME: Gypsy Well (Seep Hole)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Locate a dry riverbed or a depression at the base of a slope.
+  STEP 2: Dig a hole 2 to 3 feet deep.
+  STEP 3: Let the hole sit undisturbed for 1 to 2 hours.
+  STEP 4: Line the sides of the hole with rocks or wooden stakes.
+  STEP 5: Carefully scoop the water out of the top layer.
+
+ID: water-solar-still-pit
+NAME: Pit Solar Still
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a pit roughly 3 feet wide and 2 feet deep in an area that receives full sunlight.
+  STEP 2: Place a clean catch container (cup, bottle, bowl) in the exact center of the pit.
+  STEP 3: Fill the empty space around the cup with chopped green vegetation or safely contaminated water.
+  STEP 4: Cover the pit with a large sheet of clear plastic.
+  STEP 5: Place a small rock in the center of the plastic, directly above the cup.
+
+ID: water-agave-cactus-safe
+NAME: Safe Cactus Hydration
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: WARNING: Most cacti are toxic and will cause severe vomiting, accelerating dehydration.
+  STEP 2: Instead of barrel cacti, look for Prickly Pear (Opuntia) fruit or pads.
+  STEP 3: If near Agave plants, you can harvest the flower stalk.
+  STEP 4: Do NOT drink milky sap.
+  STEP 5: Rely on solar stills or animal trails rather than cracking open random cacti.
+
+ID: water-tree-tapping-birch
+NAME: Birch and Maple Tapping
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: This method only works in late Winter or early Spring, when daytime temps are above freezing and nights are below freezing.
+  STEP 2: Identify a Sugar Maple, Silver Maple, or Birch tree.
+  STEP 3: Drill or carve a hole 2 inches deep into the trunk at a slight upward angle.
+  STEP 4: Insert a hollow spile.
+  STEP 5: Hang a container below the spile.
+
+ID: water-boil-rock-wood
+NAME: Hot Rock Boiling (Wooden Bowl)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a natural depression in a log, or carve/burn a bowl into heavy piece of wood.
+  STEP 2: Build a large fire and heat several fist-sized, dry, non-porous rocks.
+  STEP 3: Fill your wooden bowl or hide with the dirty water.
+  STEP 4: Using green wooden tongs, transfer a glowing hot rock from the fire into the water.
+  STEP 5: Rotate rocks as they cool.
+
+ID: water-uv-sodis
+NAME: Solar Disinfection (SODIS)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Fill a clean, clear PET plastic bottle (like a soda bottle) with water.
+  STEP 2: Lay the bottle on its side on a dark, reflective surface in direct sunlight.
+  STEP 3: Leave it exposed for a minimum of 6 hours of strong, direct sunlight.
+  STEP 4: UV-A radiation destroys the DNA of bacteria, viruses, and protozoa.
+  STEP 5: Drink directly from the bottle.
+
+ID: water-charcoal-filter-diy
+NAME: DIY Charcoal Water Filter
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Cut the bottom off a large plastic bottle or use a hollow log section.
+  STEP 2: Layer the filter materials from bottom to top: fine sand, crushed charcoal, coarse sand, gravel, grass.
+  STEP 3: The charcoal is the critical layer.
+  STEP 4: Pour dirty water into the top of the filter.
+  STEP 5: CRITICAL: This filter removes sediment and improves taste, but does NOT kill bacteria or viruses.
+
+ID: water-seawater-distillation
+NAME: Seawater Distillation
+SOURCE: https://www.uscgboating.org
+  STEP 1: NEVER drink seawater directly. The salt concentration (3.5%) accelerates dehydration and causes kidney failure.
+  STEP 2: Boil seawater in a pot or metal container.
+  STEP 3: Capture the steam.
+  STEP 4: Channel the condensed droplets into a catch container.
+  STEP 5: The collected water is pure H2O, free of salt and pathogens.
+
+ID: water-iodine-purification
+NAME: Iodine Water Purification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Add 5 drops of 2% iodine tincture per liter of clear water.
+  STEP 2: If using iodine tablets (like Potable Aqua), add 2 tablets per liter.
+  STEP 3: Wait 30 minutes before drinking.
+  STEP 4: The water will taste slightly of iodine.
+  STEP 5: Pregnant women and people with thyroid conditions should avoid iodine.
+
+ID: water-bleach-purification
+NAME: Bleach Water Purification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Use only unscented, plain household liquid bleach containing 5–6% sodium hypochlorite.
+  STEP 2: Add 2 drops per liter of clear water. If cloudy, add 4 drops.
+  STEP 3: Stir or shake the container and wait 30 minutes.
+  STEP 4: If there is no chlorine smell, add another 2 drops and wait 15 more minutes.
+  STEP 5: Recent CDC guidelines: if bleach concentration is 8.25% (newer bottles), use only 2 drops per gallon.
+
+ID: water-gravity-filter-system
+NAME: Multi-Stage Gravity Filter
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Stack three containers vertically
+  STEP 2: Fill top container with grass and sand
+  STEP 3: Fill middle with crushed charcoal
+  STEP 4: Collect clear water at bottom
+
+ID: water-well-digging-technique
+NAME: Emergency Well Digging
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Look for green vegetation in dry areas
+  STEP 2: Dig at the outside bend of a dry riverbed
+  STEP 3: Dig 2-3 feet down and wait
+  STEP 4: Let sediment settle before collecting
+
+ID: water-prickly-pear-water
+NAME: Prickly Pear Cactus Water
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify Opuntia (prickly pear) cactus
+  STEP 2: Carefully remove spines
+  STEP 3: Split pads and chew the inner flesh
+  STEP 4: Do NOT eat barrel cactus flesh
+
+ID: water-morning-dew-mop
+NAME: Dew Mopping Technique
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Wake before dawn
+  STEP 2: Tie absorbent cloth around ankles and wrists
+  STEP 3: Wring into a container
+  STEP 4: Repeat across multiple grass areas
+
+ID: water-solar-disinfection-advanced
+NAME: Advanced SODIS Technique
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Use clear PET bottles only
+  STEP 2: Fill 3/4, then shake vigorously
+  STEP 3: Place on reflective surface in direct sunlight
+  STEP 4: Expose for 6 hours in full sun, 48h if cloudy
+
+ID: water-water-vine-identification
+NAME: Water Vine Identification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify thick, woody vines
+  STEP 2: Cut high first, then low
+  STEP 3: Test: clear, odorless liquid is safe
+  STEP 4: Collect from the cut end
+
+ID: water-clay-pot-purification
+NAME: Clay Pot Water Purifier
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find and process clean clay
+  STEP 2: Mix clay with sawdust or rice husks
+  STEP 3: Shape into a pot and sun-dry
+  STEP 4: Fire in a kiln or large fire
+
+ID: water-activated-charcoal-making
+NAME: Making Activated Charcoal
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Make hardwood charcoal
+  STEP 2: Crush charcoal to granules
+  STEP 3: Wash charcoal before use
+  STEP 4: Pack into filter container
+
+ID: water-snow-melting-efficiency
+NAME: Efficient Snow Melting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Pack snow tightly
+  STEP 2: Start with seed water
+  STEP 3: Add snow gradually
+  STEP 4: Treat melted snow as untreated water
+
+ID: water-solar-still-tripod
+NAME: Elevated Solar Still
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a tripod 4-5 feet tall
+  STEP 2: Suspend a dark container with water at center
+  STEP 3: Cover tripod with clear plastic
+  STEP 4: Collect condensation at the lowest point
+
+ID: water-desalination-solar
+NAME: Solar Desalination Still
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a hole in sand near the waterline. Place a collection container at the center.
+  STEP 2: Pour seawater into the hole around (not into) the collection container.
+  STEP 3: Cover with clear plastic sheet, sealed at edges with sand. Place a small rock over the container.
+  STEP 4: Sun evaporates seawater; it condenses on the plastic and drips into the container.
+
+ID: water-vegetable-filter
+NAME: Improvised Sand-Charcoal-Gravel Filter
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut the bottom off a plastic bottle or use a birch bark cone.
+  STEP 2: Layer (bottom to top): gravel, crushed charcoal, fine sand, gravel again.
+  STEP 3: Pour water through the top and collect from the bottom.
+  STEP 4: This filter REDUCES but does NOT eliminate all pathogens — still boil or treat the output.
+
+ID: water-tree-bag-transpiration
+NAME: Tree Bag Water Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Tie a clear plastic bag around a living branch with green leaves.
+  STEP 2: Seal the bag opening tightly around the branch.
+  STEP 3: Water collects in the lowest corner of the bag over several hours.
+  STEP 4: Open carefully, collect water, re-seal. Change branches every 2-3 days.
+
+ID: water-uv-disinfection
+NAME: UV Water Disinfection (SODIS Method)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Fill a clear plastic (PET) bottle with reasonably clear water.
+  STEP 2: Lay bottle on a reflective surface (metal sheet, foil) in direct full sunlight.
+  STEP 3: Leave for 6 hours in full sun, or 2 days if cloudy.
+  STEP 4: WHO-endorsed method used by millions worldwide.
+
+ID: water-seawater-reverse-osmosis-field
+NAME: Improvised Seawater Distillation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Boil seawater in a covered pot with a tube/hose leading from the lid.
+  STEP 2: Run the tube through a cool water bath or cool sand to condense the steam.
+  STEP 3: Collect condensed freshwater from the end of the tube.
+  STEP 4: Add a pinch of seawater back to the distilled water for mineral content.
+
+ID: water-rock-seep-collection
+NAME: Rock Seep Water Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Look for wet patches, moss, or fern growth on rock faces — these indicate seeps.
+  STEP 2: Place a container directly under the drip or flow.
+  STEP 3: Channel the flow: use a trough made from bark, a curved leaf, or even a rope wick.
+  STEP 4: Seep water is often among the cleanest in nature — filtered through rock.
+
+ID: water-fog-collection
+NAME: Fog Water Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a vertical mesh screen: netting, cloth, or woven vegetation stretched between poles.
+  STEP 2: Fog droplets condense on the mesh and drip down into a collection trough.
+  STEP 3: Finer mesh catches more water but clogs faster — medium weave is optimal.
+  STEP 4: In coastal fog zones: a 10x10 foot screen can collect 5-15 gallons per day.
+
+ID: water-well-drilling-hand
+NAME: Hand-Drilled Well (Sandy Soil)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Create a drill: attach a pointed metal or hardwood tip to a long pole.
+  STEP 2: Rotate the drill while pushing down, periodically pulling up to clear loose material.
+  STEP 3: Water seeps in when you reach the water table — typically 5-30 feet in most areas.
+  STEP 4: Install a permanent casing and create a cover to prevent contamination.
+
+ID: water-birch-sap
+NAME: Birch Sap Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: In spring (before leaves appear): bore or cut a small hole 1-2 inches deep in a birch trunk.
+  STEP 2: Insert a tube, carved spout, or V-shaped twig to channel sap.
+  STEP 3: Collect 1-2 liters per day per tap.
+  STEP 4: Drink fresh, or boil to concentrate into syrup (like maple syrup but lighter flavor).
+
+ID: water-spring-finding
+NAME: Finding Natural Springs
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Look where the base of a hill meets a valley floor — groundwater often surfaces here.
+  STEP 2: Lush green vegetation in an otherwise dry area indicates subsurface water.
+  STEP 3: Animal trails converging toward a point often lead to water.
+  STEP 4: Dig at the base of these convergence points if no surface water is visible.
+
+ID: water-coconut-water
+NAME: Coconut Water — Field Rehydration
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a green (immature) coconut — more water and less meat than brown ones.
+  STEP 2: Cut the top off with a machete or sharp rock.
+  STEP 3: Drink directly or pour into container.
+  STEP 4: In emergency: coconut water has been used as IV fluid — it's that close to blood plasma.
+
+ID: water-cactus-water-extraction
+NAME: Cactus Water Extraction Methods
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Barrel cactus: cut the top off and mash the pulp inside to release moisture.
+  STEP 2: Prickly pear pads: peel and chew the moist interior flesh.
+  STEP 3: Agave leaves: cut and press to extract sap.
+  STEP 4: NEVER drink the liquid from a saguaro cactus — it contains alkaloids that cause vomiting and diarrhea.
+
+ID: water-vegtube-transpiration
+NAME: Vegetation Tube Transpiration
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a healthy, heavily foliated branch on a living tree or shrub.
+  STEP 2: Place a clear plastic bag over the end of the branch.
+  STEP 3: Tie the open end of the bag tightly around the branch.
+  STEP 4: Leave exposed to direct sunlight for 24 hours.
+
+ID: water-ice-desalination
+NAME: Sea Ice Desalination
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Locate mature, multi-year sea ice if possible.
+  STEP 2: Identify 'old ice' by its color and shape.
+  STEP 3: Chip away the top surface and collect the ice beneath.
+  STEP 4: Melt and taste-test a small amount.
+
+ID: water-mud-filtration-hole
+NAME: Seep Hole Water Filtration
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Locate a spot 1 to 3 meters back from the edge of a muddy water source.
+  STEP 2: Dig a hole about 1 meter deep.
+  STEP 3: Bail out the first few fillings of muddy water.
+  STEP 4: Allow the hole to refill with clear water.
+
+ID: water-purify-rolling-boil
+NAME: Purification: Rolling Boil
+SOURCE: https://www.who.int/publications/i/item/9789241549950
+  STEP 1: Filter out large particulates.
+  STEP 2: Bring to a rolling, vigorous boil.
+  STEP 3: Maintain the boil.
+  STEP 4: Cool and aerate.
+
+ID: water-purify-chlorine-dioxide
+NAME: Purification: Chlorine Dioxide Drops
+SOURCE: https://www.who.int/publications/i/item/9789241549950
+  STEP 1: Mix Parts A and B.
+  STEP 2: Add to 1 liter of clear water.
+  STEP 3: Wait the prescribed contact time.
+  STEP 4: Note the water temperature.
+
+ID: water-purify-uv-sodis
+NAME: Purification: Solar Water Disinfection (SODIS)
+SOURCE: https://www.who.int/publications/i/item/9789241549950
+  STEP 1: Select a CLEAR PET plastic bottle.
+  STEP 2: Fill with low-turbidity water.
+  STEP 3: Expose to direct, intense sunlight.
+  STEP 4: Adjust for cloud cover.
+
+ID: water-procure-beach-seep
+NAME: Procurement: Coastal Beach Seep
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Locate the high-tide line.
+  STEP 2: Move inland behind the first dune.
+  STEP 3: Dig a shallow hole.
+  STEP 4: Taste the seep water.
+
+ID: water-water-heater-extraction
+NAME: Water Heater Extraction
+SOURCE: https://www.goodreads.com/book/show/25430713-100-deadly-skills
+  STEP 1: Locate the hot water tank.
+  STEP 2: Shut off the inlet valve.
+  STEP 3: Open a hot water faucet upstairs.
+  STEP 4: Drain from the spigot.
+
+ID: water-toilet-tank-procurement
+NAME: Toilet Tank Procurement
+SOURCE: https://www.goodreads.com/book/show/25430713-100-deadly-skills
+  STEP 1: Remove the ceramic lid.
+  STEP 2: Verify water clarity.
+  STEP 3: Dip and purify.
+  STEP 4: Do not flush the toilet.
+
+ID: water-article-dehydration
+NAME: Stages of Dehydration
+SOURCE: https://www.mayoclinic.org/diseases-conditions/dehydration/symptoms-causes/syc-20354086

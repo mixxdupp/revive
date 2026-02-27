@@ -191,6 +191,8 @@ class ContentDatabase: ObservableObject {
         triageTrees[.humanThreat] = buildHumanThreatTriage()
         triageTrees[.vehicleEmergency] = buildVehicleTriage()
         triageTrees[.chemicalExposure] = buildChemicalTriage()
+        triageTrees[.panic] = buildPanicTriage()
+        triageTrees[.improviseGear] = buildGearTriage()
     }
 
 

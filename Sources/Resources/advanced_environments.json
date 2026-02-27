@@ -119,8 +119,8 @@
           "illustrationDescription": "Signaling from water."
         }
       ],
-      "sourceName": "U.S. Coast Guard – Water Safety",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "env-coastal-tidal-adv",
@@ -201,8 +201,8 @@
           "illustrationDescription": "Fever monitoring."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-desert-night-adv",
@@ -239,8 +239,8 @@
           "illustrationDescription": "Desert temperature swing."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-desert-shelter-adv",
@@ -271,8 +271,8 @@
           "illustrationDescription": "Elevated platform."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-desert-water-adv",
@@ -309,8 +309,8 @@
           "illustrationDescription": "Solar still diagram."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-jungle-movement-adv",
@@ -347,8 +347,8 @@
           "illustrationDescription": "Resting in shade."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "env-jungle-travel-plan",
@@ -505,8 +505,8 @@
           "illustrationDescription": "Blocked entrance with gap."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     }
   ],
   "articles": []

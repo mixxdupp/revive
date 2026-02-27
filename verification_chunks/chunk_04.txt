@@ -1,0 +1,1659 @@
+=== FILE: food.json ===
+
+ID: food-deadfall-trap
+NAME: Figure-4 Deadfall Trap
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Find a flat heavy rock (5-20 lbs depending on target).
+  STEP 2: Carve 3 sticks: vertical post, diagonal bait stick, horizontal trigger.
+  STEP 3: Assemble under the rock: vertical stick supports horizontal trigger, diagonal holds bait.
+  STEP 4: Place bait on the end of the diagonal stick.
+
+ID: food-snare
+NAME: Simple Wire Snare
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Make a noose loop from wire, paracord, or strong cordage.
+  STEP 2: Secure the free end to a stake, tree, or spring pole.
+  STEP 3: Set at head height on an active game trail.
+  STEP 4: Set 10-12 snares to increase your odds.
+
+ID: food-bird-trap
+NAME: Ojibwa Bird Snare
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Drive a pole into the ground near a bird-frequented area.
+  STEP 2: Drill a hole near the top for a perch toggle.
+  STEP 3: Attach a snare loop to the toggle, hanging down.
+  STEP 4: Attach a weight or spring to the snare line.
+
+ID: food-fish-spear
+NAME: Fish Spear (Gig)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a straight pole 6-8 feet long.
+  STEP 2: Split the tip into 4 prongs, 6-8 inches deep.
+  STEP 3: Harden the tips in fire.
+  STEP 4: Aim BELOW the fish — refraction makes fish appear higher than they are.
+
+ID: food-fish-trap
+NAME: Fish Basket Trap
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Weave a funnel-shaped basket from flexible branches or vines.
+  STEP 2: Create an inner funnel that points inward.
+  STEP 3: Bait with bread, berries, or fish guts inside the trap.
+  STEP 4: Set in streams facing upstream or in tidal areas.
+
+ID: food-hook-line
+NAME: Improvised Hook & Line
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Make hooks from thorns, bones, safety pins, or carved wood.
+  STEP 2: Use any strong thin material for line.
+  STEP 3: Bait with insects, worms, berries, or bright material.
+  STEP 4: Set multiple passive lines to maximize chance.
+
+ID: food-insect-eating
+NAME: Edible Insects
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Target: ants, grasshoppers, crickets, grubs, termites.
+  STEP 2: Always cook insects if possible.
+  STEP 3: Remove legs, wings, and heads before eating.
+  STEP 4: Collect in quantity — you need volume for meaningful nutrition.
+
+ID: food-universal-edibility
+NAME: Universal Edibility Test
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Test only ONE plant part at a time (leaf, root, fruit, stem).
+  STEP 2: Rub on inner wrist for 15 minutes. Wait 45 minutes for reaction.
+  STEP 3: Touch to lip corner for 3 minutes. Then tongue tip for 15 minutes.
+  STEP 4: Chew a small piece for 15 minutes without swallowing.
+  STEP 5: If no ill effects after 8 hours, eat 1/4 cup. Wait another 8 hours.
+
+ID: food-common-edibles
+NAME: Commonly Edible Wild Plants
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Dandelion: entire plant is edible — leaves, flowers, roots.
+  STEP 2: Cattail: the 'supermarket of the swamp.'
+  STEP 3: Pine: inner bark is edible, needles make vitamin C tea.
+  STEP 4: Clover: flowers and leaves are edible raw or cooked.
+  STEP 5: Plantain (broadleaf): common lawn weed, edible and medicinal.
+
+ID: food-avoid-plants
+NAME: Plants to Avoid
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Avoid: white or yellow berries. 90% are poisonous.
+  STEP 2: Avoid: plants with milky sap (except dandelion and coconut).
+  STEP 3: Avoid: umbrella-shaped flower clusters (parsley family).
+  STEP 4: Avoid: almond/peach scent in leaves or bark.
+  STEP 5: Avoid: mushrooms unless you are an expert.
+
+ID: food-cooking-fire
+NAME: Cooking Over Open Fire
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Spit roasting: skewer meat on a green stick over coals.
+  STEP 2: Rock cooking: heat flat rocks and cook directly on them.
+  STEP 3: Clay baking: coat meat in thick clay and bake in coals.
+  STEP 4: Leaf wrapping: wrap food in large non-toxic leaves and place on coals.
+
+ID: food-boiling-rocks
+NAME: Stone Boiling
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Fill a bark container, skin bag, or hollowed log with water.
+  STEP 2: Heat rocks in a fire until glowing hot.
+  STEP 3: Transfer hot rocks to the water with sticks or tongs.
+  STEP 4: Continue adding rocks until water reaches a rolling boil.
+
+ID: food-preservation
+NAME: Meat Preservation (Smoking/Drying)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Cut meat into thin strips — 1/4 inch thick.
+  STEP 2: For smoking: build a low smoky fire in an enclosed space.
+  STEP 3: For drying: hang strips in direct sun and wind.
+  STEP 4: Meat is done when it cracks but doesn't break when bent.
+
+ID: food-pemmican
+NAME: Pemmican
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Pound dried meat into powder.
+  STEP 2: Mix meat powder with rendered fat (50/50 ratio).
+  STEP 3: Add dried berries or nuts if available.
+  STEP 4: Form into bars or balls and let cool.
+
+ID: food-crayfish
+NAME: Catching Crayfish
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Look under rocks in shallow streams and rivers.
+  STEP 2: Bait trap: container with small opening and bait inside.
+  STEP 3: Boil 5-7 minutes until bright red. Eat tail meat.
+
+ID: food-seaweed
+NAME: Edible Seaweed Harvesting
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Harvest seaweed attached to rocks, not floating loose.
+  STEP 2: Rinse in fresh water if available to reduce salt.
+  STEP 3: Eat raw, dried, or add to soups. Rich in iodine and vitamins.
+
+ID: food-cattail
+NAME: Cattail Harvesting
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Identify: tall reeds with brown cigar-shaped seed heads.
+  STEP 2: Root: dig rhizome, peel and eat raw or roast. Starchy.
+  STEP 3: Young shoots: peel outer leaves, inner core is edible raw.
+  STEP 4: Pollen: shake from flower head. High-protein flour substitute.
+
+ID: food-pine-tea
+NAME: Pine Needle Tea
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Gather green pine needles. Avoid yew (flat needles, red berries—toxic).
+  STEP 2: Chop or bruise needles to release oils.
+  STEP 3: Steep in hot (not boiling) water for 10-15 minutes.
+  STEP 4: 5x more vitamin C than orange juice. Prevents scurvy.
+
+ID: food-smoking-meat
+NAME: Smoking Meat for Preservation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut meat into thin strips — 1/4 inch maximum.
+  STEP 2: Build smoking rack 2-3 feet above small, smoky fire.
+  STEP 3: Use hardwood: oak, hickory, maple, apple. Never pine.
+  STEP 4: Smoke 6-12 hours until dry and dark. Should snap, not fold.
+
+ID: food-animal-skinning
+NAME: Animal Skinning & Butchering
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Shallow cut from pelvis to ribcage — do not puncture organs.
+  STEP 2: Remove organs in one mass. Save heart, liver, kidneys.
+  STEP 3: Skin by pulling hide away, cutting connective tissue.
+  STEP 4: Separate meat along muscle groups. Cook or preserve immediately.
+
+ID: food-shellfish
+NAME: Shellfish & Mussel Gathering
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Gather at low tide. Mussels on rocks, clams in sand.
+  STEP 2: Discard any that are open and don't close when tapped.
+  STEP 3: Boil until shells open, 5-10 minutes. Discard unopened.
+  STEP 4: Avoid during red tide or warm months in tropics.
+
+ID: food-wild-onion
+NAME: Wild Onion & Garlic ID
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Crush leaf or bulb. MUST smell of onion or garlic.
+  STEP 2: Check for onion-like bulb with papery skin.
+  STEP 3: Leaves should be grass-like, from the base.
+  STEP 4: Eat raw, roasted, or in soups. Entire plant edible.
+
+ID: food-frog-catching
+NAME: Frog Catching
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Hunt at night near water with light. Frogs freeze in light.
+  STEP 2: Grab quickly from behind. They are fast and slippery.
+  STEP 3: Avoid brightly colored frogs — many are toxic.
+  STEP 4: Remove skin, cook legs thoroughly. Discard organs.
+
+ID: food-pine-bark-flour
+NAME: Pine Bark Flour
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Strip the outer bark from a pine tree to expose the inner bark.
+  STEP 2: Scrape off the inner bark (cambium) in thin strips.
+  STEP 3: Dry the strips and grind into flour. Mix with water for porridge.
+
+ID: food-crayfish-trap
+NAME: Crayfish Trapping
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Look for crayfish in shallow, rocky streams and pond edges.
+  STEP 2: Build a simple funnel trap from sticks or a plastic bottle.
+  STEP 3: Bait with fish scraps, meat, or strong-smelling food. Place in shallow water.
+  STEP 4: Boil crayfish in water for 5 minutes. Eat the tail meat.
+
+ID: food-bird-snare-ojibwe
+NAME: Ojibwe Bird Snare
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a flexible sapling near bird feeding areas.
+  STEP 2: Bend the sapling down and secure it with a trigger mechanism.
+  STEP 3: Attach a snare loop made from cordage to the trigger.
+  STEP 4: Place bait (berries, seeds, insects) around the trigger.
+
+ID: food-pemmican-making
+NAME: Pemmican Making
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Dry lean meat into jerky, then pound into powder.
+  STEP 2: Render fat by slowly heating it until it's liquid.
+  STEP 3: Mix powdered meat with warm rendered fat at a 1:1 ratio.
+  STEP 4: Press into bars. Stores for months without refrigeration.
+
+ID: food-jerky-no-salt
+NAME: Jerky Without Salt
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Cut meat into thin strips (1/4 inch) along the grain.
+  STEP 2: Build a drying rack over a smoky fire.
+  STEP 3: Hang strips on the rack 6-12 inches above the smoke.
+  STEP 4: Dry until strips crack when bent but don't break.
+
+ID: food-mushroom-safety
+NAME: Mushroom Safety Rules
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: NEVER eat a mushroom you cannot 100% identify. No exceptions.
+  STEP 2: Learn and focus ONLY on a few easily-identified safe species.
+  STEP 3: When in doubt, skip mushrooms. The caloric value isn't worth the risk.
+
+ID: food-seaweed-harvesting
+NAME: Seaweed & Kelp Harvesting
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Harvest seaweed from clean water, attached to rocks (not free-floating).
+  STEP 2: Rinse thoroughly and dry in sun or near fire to preserve.
+  STEP 3: Avoid blue-green algae (cyanobacteria) — it's toxic.
+
+ID: food-acorn-processing
+NAME: Acorn Processing & Cooking
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect fallen acorns. Discard any with holes (insect larvae inside).
+  STEP 2: Crush nutmeat and soak in running water or change water repeatedly.
+  STEP 3: Dry leached acorn meal and grind into flour for cooking.
+
+ID: food-bird-snare
+NAME: Bird Snare Construction
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Build an Ojibwa bird pole: tall pole with perch and snare.
+  STEP 2: Place in open area near water or food sources where birds congregate.
+  STEP 3: Check snares frequently. Process caught birds immediately.
+
+ID: food-small-game-cleaning
+NAME: Small Game Field Dressing
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Make a small cut through the belly skin (avoid puncturing organs).
+  STEP 2: Remove intestines, stomach, and bladder. Keep liver, heart, and kidneys.
+  STEP 3: Skin by pulling hide off like removing a sock.
+
+ID: food-fish-spearing
+NAME: Fish Spearing
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Create a multi-pronged spear by splitting a sapling tip into 4 prongs.
+  STEP 2: Stand still in shallow water. Wait for fish to come to you.
+  STEP 3: Aim below the fish to compensate for water refraction.
+
+ID: food-grub-finding
+NAME: Finding & Eating Grubs
+SOURCE: https://www.ready.gov/floods
+  STEP 1: Look inside rotting logs and under bark for beetle larvae (grubs).
+  STEP 2: Squeeze grubs gently to expel gut contents (optional but improves taste).
+  STEP 3: Roast on a stick near fire, or skewer and fry. Cook thoroughly.
+
+ID: food-bone-broth
+NAME: Bone Broth for Maximum Nutrition
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Crack or smash bones to expose marrow before boiling.
+  STEP 2: Boil cracked bones in water for 4-12 hours, keeping water level up.
+  STEP 3: Drink broth hot. Skim fat from surface for cooking or calories.
+
+ID: food-wild-garlic
+NAME: Wild Garlic & Onion Identification
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Look for grass-like leaves with a strong garlic or onion smell when crushed.
+  STEP 2: Dig up the bulb. It should look like a small onion or garlic clove.
+  STEP 3: Eat raw, add to cooking, or dry for preservation.
+
+ID: food-dandelion
+NAME: Dandelion: Complete Edible Plant
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Identify: jagged leaves, hollow stem with milky sap, yellow flower.
+  STEP 2: Harvest leaves (youngest are least bitter), flowers, and roots.
+  STEP 3: Rich in vitamins A, C, K, and minerals. More nutritious than spinach.
+
+ID: food-clay-pot-cooking
+NAME: Clay Pot Construction & Cooking
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find clay near stream banks — it holds shape when squeezed and doesn't crumble.
+  STEP 2: Build pot using coil method: roll long snakes of clay and stack in circles.
+  STEP 3: Dry slowly for 24-48 hours, then fire in a hot campfire for 2-3 hours.
+
+ID: food-earth-oven
+NAME: Earth Oven (Ground Pit Cooking)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Dig a pit 2-3 feet deep and wide. Build a large fire in it with stones.
+  STEP 2: Layer: hot stones, wet leaves/grass, food, wet leaves/grass, more hot stones.
+  STEP 3: Cover with earth and let cook 4-8 hours. The earth insulates the heat.
+
+ID: food-rationing
+NAME: Emergency Rationing Strategy
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Inventory EVERYTHING edible immediately.
+  STEP 2: Do NOT eat for the first 24 hours.
+  STEP 3: Eat small amounts during activity peaks.
+
+ID: food-wild-fruit
+NAME: Wild Fruit Identification
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Use the Universal Edibility Test: test ONE plant part at a time.
+  STEP 2: Avoid: white/yellow berries, umbrella-shaped flowers, milky sap.
+  STEP 3: Safe bets: blackberries, raspberries, blueberries, rose hips.
+  STEP 4: Smell test: crush a small amount and smell. Reject if bitter or almond-like.
+  STEP 5: Skin test: rub on inner wrist, wait 15 minutes for reaction.
+
+ID: food-pine-cambium
+NAME: Pine Cambium Harvest
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a living pine tree. Cut through the outer bark to expose the creamy-white inner bark (cambium).
+  STEP 2: Peel strips of cambium using a knife blade, scraping along the wood grain.
+  STEP 3: Eat raw — it is chewy with a mild, slightly resinous flavor.
+  STEP 4: For better flavor and nutrition: dry strips and grind into flour for flatbread.
+  STEP 5: Alternatively: boil strips into a starchy noodle-like food or fry in rendered animal fat.
+
+ID: food-clover-identification
+NAME: Clover Identification & Use
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Identify clover: three round leaflets with a pale V-shaped chevron on each. Grows in fields, lawns, and meadows.
+  STEP 2: All parts are edible: leaves, flowers, stems, and roots.
+  STEP 3: Eat flowers raw as a sweet trail snack, or steep in hot water for a mild, slightly sweet tea.
+  STEP 4: Cook leaves by boiling for 5-10 minutes to reduce the mild bitterness.
+  STEP 5: Dry flowers and leaves for long-term storage. Dried clover retains nutrition for months.
+
+ID: food-rose-hip-tea
+NAME: Rose Hip Tea
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Identify rose hips: red-orange fruit at the base of wild rose flowers, appearing in late summer through winter.
+  STEP 2: Harvest hips when red and slightly soft. They sweeten after the first frost.
+  STEP 3: Split hips open and remove the seeds and fine hairs inside. The hairs are irritating if swallowed.
+  STEP 4: Crush or chop the hip flesh. Steep in hot (not boiling) water for 15-20 minutes.
+  STEP 5: Rose hips contain 20x more vitamin C than oranges by weight. Critical for preventing scurvy in long-term survival.
+
+ID: food-organ-meat-nutrition
+NAME: Organ Meat Nutrition
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Liver: the most nutrient-dense organ. Provides massive amounts of vitamins A, B12, iron, and protein.
+  STEP 2: Heart: lean muscle tissue, high in protein, iron, and CoQ10. Treat like a steak — slice and cook.
+  STEP 3: Kidneys: high in B12 and selenium. Soak in cold water for 30 minutes first to reduce strong flavor.
+  STEP 4: Stomach and intestines: clean thoroughly, boil for 30+ minutes. Good source of fat and protein.
+  STEP 5: Bone marrow: crack long bones and roast near fire. Marrow is calorie-dense and rich in healthy fats.
+
+ID: food-gill-net
+NAME: Gill Net Fishing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Construct a net from paracord inner strands, fishing line, natural cordage, or unraveled fabric.
+  STEP 2: Tie mesh using a series of square knots or sheet bends. Create a net 3-4 feet tall and as wide as the stream.
+  STEP 3: Attach floats (bark, foam, sealed containers) to the top line and weights (rocks) to the bottom.
+  STEP 4: Set the net across a fish travel lane: stream narrows, inlet/outlet of a pool, near structure.
+  STEP 5: Check the net every few hours. Remove fish promptly — dead fish decay fast and deter other catches.
+
+ID: food-trotline-fishing
+NAME: Trotline Fishing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Tie a strong main line between two fixed points across a stream or pond.
+  STEP 2: Attach dropper lines (12-18 inches) every 3-4 feet along the main line.
+  STEP 3: Bait each hook — use insects, worms, small fish, bread, or meat scraps.
+  STEP 4: Set the trotline so hooks hang at different depths — some near surface, some mid-water, some near bottom.
+  STEP 5: Check every 2-4 hours. Re-bait empty hooks. Process caught fish immediately.
+
+ID: food-plantain-wild
+NAME: Wild Plantain (Plantago)
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Identify: rosette of broad oval leaves with prominent parallel veins, growing close to the ground.
+  STEP 2: Young leaves (under 4 inches) are best raw — mild flavor, slightly bitter like spinach.
+  STEP 3: Cook larger leaves by boiling for 5-10 minutes. The parallel veins become stringy — remove them like celery strings.
+  STEP 4: Seeds: harvest the rat-tail seed spikes when brown. Rub to free seeds. Use as grain substitute.
+  STEP 5: Medicinal: crush fresh leaves and apply as a poultice to insect bites, stings, and minor wounds.
+
+ID: food-acorn-leaching-methods
+NAME: Acorn Leaching Methods
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Crack acorn shells with a rock. Remove meats and discard any with insect holes or dark spots.
+  STEP 2: Cold water method (best): crush meats, submerge in cold flowing water (stream) for 24-48 hours.
+  STEP 3: Hot water method (faster): boil crushed acorn meat, pour off brown water, add fresh water, repeat 5-7 times.
+  STEP 4: Taste test: a small piece should be mild and nutty with no bitterness. If bitter, continue leaching.
+  STEP 5: Use leached acorn meal to make flatbread, porridge, or thickener for stews. Dry for long-term storage.
+
+ID: food-bird-call-trap
+NAME: Bird Call Trap
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Learn to mimic distress calls — kissing the back of your hand rapidly creates a high-pitched squeaking.
+  STEP 2: Set snares around a clearing or perch before calling. Use fine cordage in slip-noose loops.
+  STEP 3: Hide in concealment 10-20 feet from the snare area. Make distress calls for 3-5 minutes, then wait 5 minutes.
+  STEP 4: For waterfowl: create a blind near water and use splashing sounds to simulate feeding activity.
+  STEP 5: Process caught birds by plucking (hot water dipping loosens feathers) and gutting. Cook thoroughly.
+
+ID: food-sap-collection
+NAME: Tree Sap Collection
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Tappable trees: maple, birch, walnut, sycamore. Sap flows in late winter/early spring when nights are freezing and days thaw.
+  STEP 2: Drill or cut a 1-2 inch deep hole at a slight upward angle, 3 feet from the ground.
+  STEP 3: Insert a spile — a hollowed-out elderberry or sumac branch, or carved wooden spout.
+  STEP 4: Hang a container below the spout. A birch bark container, bottle, or pot works.
+  STEP 5: Drink sap directly — it is mildly sweet and hydrating. Boil down for syrup (40:1 ratio for maple).
+
+ID: food-hand-fishing
+NAME: Hand Fishing (Noodling)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Wade slowly through shallow water near undercut banks, submerged logs, and rock crevices.
+  STEP 2: Feel slowly under banks and into holes with your hands. Fish hiding in holes will not flee — they are cornered.
+  STEP 3: When you feel a fish, slide your hand forward to the gills. Grip firmly behind the gill plate.
+  STEP 4: For flatfish (catfish, flounder): pin against the bottom with both hands, then scoop upward.
+  STEP 5: Caution: be aware of snakes, turtles, and crayfish in the same holes. Feel carefully before grabbing.
+
+ID: food-rock-boiling-cooking
+NAME: Rock Boiling
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Create a watertight container: birch bark folded box, hollowed log, animal stomach, or depression in rock.
+  STEP 2: Heat rocks in your fire for 30+ minutes until they glow or hiss when sprinkled with water.
+  STEP 3: Use wooden tongs (split green sticks) to transfer hot rocks from fire to water container.
+  STEP 4: Each rock heats the water significantly. 3-4 rocks will bring a quart to a rolling boil.
+  STEP 5: Rock boiling can cook stews, soups, render fat, sterilize water, and process plant foods.
+
+ID: food-nettle-harvest
+NAME: Stinging Nettle Harvest
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Identify: tall plant with opposite, serrated, heart-shaped leaves. Covered in fine stinging hairs.
+  STEP 2: Harvest using gloves, thick cloth, or by gripping the stem firmly (the stingers fold flat under firm pressure).
+  STEP 3: Cooking neutralizes the sting completely. Boil for 2-3 minutes, steam, or sauté.
+  STEP 4: Nutritional powerhouse: more protein per weight than most vegetables, plus iron, calcium, and vitamins A/C.
+  STEP 5: Dry leaves for tea or future cooking. Dried nettles store for months and retain nutrition.
+
+ID: food-crayfish-by-hand
+NAME: Crayfish Catching by Hand
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Search in shallow streams and ponds — lift rocks slowly and look for crayfish underneath.
+  STEP 2: Approach from behind — crayfish escape by flipping their tail backward rapidly.
+  STEP 3: Grasp firmly behind the claws, pinching the body between thumb and finger.
+  STEP 4: Collect in a container of stream water. Keep alive until ready to cook.
+  STEP 5: Cook by boiling in water for 5-8 minutes until bright red. Eat the tail meat and claw meat.
+
+ID: food-solar-drying
+NAME: Solar Food Drying
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Slice meat into thin strips (1/4 inch or thinner). Cut against the grain for easier eating.
+  STEP 2: Build a drying rack: horizontal sticks between two uprights, 3-4 feet off the ground.
+  STEP 3: Drape strips over the rack sticks with space between each strip for airflow.
+  STEP 4: Build a small smoky fire beneath the rack to repel flies and add flavor.
+  STEP 5: Meat is done when strips crack when bent but don't break completely. Store in a dry, sealed container.
+
+ID: food-bait-collection
+NAME: Fishing Bait Collection
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Worms: drive a stake into moist ground and rub another stick across the top. Vibrations bring worms up.
+  STEP 2: Grubs: peel bark from dead logs and rotting stumps. Beetle larvae (white grubs) live underneath.
+  STEP 3: Insects: catch grasshoppers in the early morning when they're sluggish from cold.
+  STEP 4: Crayfish: catch small ones (1-2 inches) for bait — tail meat is irresistible to bass and catfish.
+  STEP 5: Improvised bait: cheese, bread balls, corn, berries, raw meat scraps, even soap (contains fat that attracts catfish).
+
+ID: food-bone-grease
+NAME: Bone Grease Rendering
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Crack long bones into 2-inch pieces using rocks. Smash thoroughly — expose the marrow and spongy interior.
+  STEP 2: Place crushed bones in a pot or rock-boiling container with water. Bring to a sustained boil.
+  STEP 3: Skim the fat that rises to the surface. Collect in a separate container.
+  STEP 4: Let rendered fat cool and solidify. It stores for weeks in a cool, sealed container.
+  STEP 5: Use bone grease for cooking, pemmican making, waterproofing leather, and skin protection.
+
+ID: food-hot-stone-oven
+NAME: Hot Stone Oven
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a hole 2 feet deep, 2 feet wide. Line the bottom and sides with flat stones.
+  STEP 2: Build a fire in the stone-lined pit and burn for 2+ hours until the stones are extremely hot.
+  STEP 3: Rake out all coals and ash. Place food directly on the hot stones or on a bed of green leaves.
+  STEP 4: Cover with more green leaves, then a layer of dirt or sand to seal in the heat.
+  STEP 5: Cook time: 1-2 hours for root vegetables, 3-4 hours for large meat pieces. Uncover carefully — steam is scalding.
+
+ID: food-improvised-flour
+NAME: Improvised Flour Sources
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Cattail root: harvest thick rhizomes, peel, and dry. Pound into starchy flour.
+  STEP 2: Acorns: shell, leach tannins by soaking/boiling, dry, and grind into a rich flour.
+  STEP 3: Pine cambium: dry inner bark strips, then grind into fibrous flour.
+  STEP 4: Dried grass seeds: many grass species produce small seeds that can be collected and ground.
+  STEP 5: Mix any flour with water to make dough. Cook as flatbread on hot stones, wrap around sticks for twist bread.
+
+ID: food-ash-caking
+NAME: Ash Caking (Nixtamalization)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Mix clean hardwood ash with water to create an alkaline solution (lye water).
+  STEP 2: Boil corn or grain kernels in the ash water for 1-2 hours until hulls begin to loosen.
+  STEP 3: Drain and rinse thoroughly — wash at least 3 times to remove all ash residue.
+  STEP 4: The resulting product (hominy/nixtamal) can be eaten as-is, dried for storage, or ground into masa flour.
+  STEP 5: This process increases calcium, iron, and niacin availability by 2-3x over unprocessed corn.
+
+ID: food-primitive-grill
+NAME: Primitive Grill Construction
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Cut 4-6 green (living) sticks about 2 feet long, finger-thickness.
+  STEP 2: Drive two forked sticks into the ground on opposite sides of the fire pit, 18 inches tall.
+  STEP 3: Lay a crossbar between the forks. Arrange remaining sticks perpendicular to the crossbar, creating a grate.
+  STEP 4: Position the grate 6-8 inches above the coals — not the flames.
+  STEP 5: Grill meat, fish, roots, and mushrooms directly. Rotate food for even cooking. Replace charred grate sticks.
+
+ID: food-seaweed-foraging
+NAME: Seaweed Foraging
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: RULE: all seaweed is technically edible, but some are tough or taste bad. Focus on soft, thin varieties.
+  STEP 2: Sea lettuce (Ulva): thin, bright green sheets. Eat raw or cooked. Found worldwide in intertidal zones.
+  STEP 3: Kelp: large brown fronds with a long stipe (stem). Cook or dry. The stipe can be pickled.
+  STEP 4: Dulse (Palmaria): flat, reddish-purple fronds. Eat raw, dried, or fried. Tastes smoky/savory.
+  STEP 5: Harvest from LIVING, attached plants — not dead seaweed washed on shore. Rinse in fresh water before eating.
+
+ID: food-snare-drag-set
+NAME: Drag Snare Set
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Instead of anchoring the snare to an immovable object, attach it to a heavy drag — a log or branch.
+  STEP 2: The drag should be heavy enough to slow the animal but not so heavy it can't move it at all.
+  STEP 3: The drag catches on brush and trees as the animal moves, preventing it from traveling far.
+  STEP 4: Set the snare on a known game trail with the drag positioned behind the snare, uphill if possible.
+  STEP 5: Check drag snares every few hours. Follow the drag trail to find the entangled animal.
+
+ID: food-edible-insect-guide
+NAME: Edible Insect Identification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: SAFE: crickets, grasshoppers (remove legs — spiny), ants, termites, beetle grubs, earthworms.
+  STEP 2: AVOID: brightly colored insects, hairy caterpillars, insects that smell strongly, stinging insects.
+  STEP 3: COOK all insects before eating when possible. Cooking kills parasites and improves flavor.
+  STEP 4: Where to find: under rocks and logs (grubs, worms), in rotting wood (beetle larvae), in grass (grasshoppers, crickets).
+  STEP 5: Nutritional value: 100g of crickets = 21g protein, 6g fat, plus iron, calcium, B12.
+
+ID: food-fish-smoking
+NAME: Fish Smoking Technique
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Gut and fillet fish. Make long, thin cuts to expose maximum surface area to smoke.
+  STEP 2: Brine in salt water for 30 minutes if salt is available. This firms the flesh and improves preservation.
+  STEP 3: Build a smoking rack: green sticks arranged as a grate over a small fire pit, enclosed with a shelter frame.
+  STEP 4: Use green wood for smoke: hickory, apple, alder, oak. Avoid resinous woods (pine, spruce) — they impart bitter resin.
+  STEP 5: Smoke for 4-8 hours at low heat (150-180°F). Fish is done when firm, golden-brown, and flakes with a fork.
+
+ID: food-salt-extraction
+NAME: Salt Extraction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Coastal: boil seawater in a shallow container until all water evaporates. White crystals remain.
+  STEP 2: Inland: find salt licks — mineral deposits where animals congregate. Break off salt-crusted rock.
+  STEP 3: Plant ash method: burn hardwood, dissolve ash in water, filter, and evaporate. The residue contains potassium salts.
+  STEP 4: Blood: animal blood contains significant salt. Use fresh blood as a soup base or seasoning.
+  STEP 5: Salt is essential for electrolyte balance, food preservation, and hide tanning. Prioritize finding a source.
+
+ID: food-deadfall-variations
+NAME: Deadfall Trap Variations
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Figure-4 deadfall: three sticks notched to interlock, supporting a heavy stone. Bait stick triggers collapse.
+  STEP 2: Paiute deadfall: uses a toggle and string trigger for more sensitivity than the figure-4.
+  STEP 3: Split-stick deadfall: a vertical stick holds the rock up. Bait is placed inside a split in the upright.
+  STEP 4: Place multiple deadfalls along game trails, near burrow openings, and at identified feeding areas.
+  STEP 5: Test the trigger before setting the weight stone. The trigger should release with a light touch.
+
+ID: food-wild-rice-harvest
+NAME: Wild Rice Harvest
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Wild rice (Zizania) grows in shallow lakes, ponds, and slow streams. Tall grass 4-8 feet with grain heads in late summer.
+  STEP 2: Harvest from a canoe/raft: bend the stalks over the vessel and knock the ripe seeds into the bottom.
+  STEP 3: Dry the harvested grain in the sun for 1-2 days. Stir occasionally to prevent mold.
+  STEP 4: Parch (lightly roast) the dried grain over low heat to loosen the hulls. Stir constantly.
+  STEP 5: Hull by rubbing between hands or treading in a bark container. Winnow by tossing in the wind.
+
+ID: food-fat-rendering-techniques
+NAME: Fat Rendering Techniques
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Collect all fat from the carcass: kidney fat (suet), belly fat, and fat trimmed from meat.
+  STEP 2: Cut fat into small pieces (1/2 inch cubes) or grind for faster rendering.
+  STEP 3: Heat slowly in a pot or on a rock near the fire. Do NOT let it boil or smoke.
+  STEP 4: Strain the liquid fat through cloth into a clean container. Discard the solid cracklings (or eat them).
+  STEP 5: Clean rendered fat solidifies into white, odorless tallow that stores for months.
+
+ID: food-natural-refrigeration
+NAME: Natural Refrigeration Methods
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cold stream method: seal food in waterproof containers and submerge in a cold stream.
+  STEP 2: Evaporative cooling: wrap food in wet cloth and place in the wind or shade.
+  STEP 3: Underground cache: dig a hole 2-3 feet deep in shade. Line with rocks. Place food inside and cover.
+  STEP 4: Snow/ice cache: bury food in snow or pack in natural ice. Snow insulates at 32°F.
+  STEP 5: Hang food from a tree in shade: keeps it away from ground predators and in the cooler air above.
+
+ID: food-pit-trap-technique
+NAME: Pit Trap
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a pit on an active game trail — 3 feet deep, 2 feet wide for rabbit-sized prey. Deeper for larger animals.
+  STEP 2: Drive sharpened stakes into the bottom of the pit, pointing upward.
+  STEP 3: Cover the pit with thin sticks, leaves, and debris to match the surrounding ground.
+  STEP 4: Funnel the game trail into the pit using brush barriers on either side.
+  STEP 5: Check pits every few hours. Mark pit locations clearly so YOU don't fall in.
+
+ID: food-rabbit-processing
+NAME: Rabbit Processing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Pinch the skin at the middle of the back and make a small cut through the skin only — not the muscle.
+  STEP 2: Insert two fingers into the cut and pull in opposite directions — the skin peels off like a shirt.
+  STEP 3: Cut off the head and feet with a knife. Make a small cut at the base of the belly to open the cavity.
+  STEP 4: Reach in and pull all organs out in one mass. Save the heart, liver, and kidneys — discard the rest.
+  STEP 5: Rinse the cavity with clean water. Cook immediately — rabbit has almost no fat and spoils quickly.
+
+ID: food-cordage-snare-sets
+NAME: Cordage Snare Sets
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Make 10-20 snare loops from cordage, wire, fishing line, or inner paracord strands.
+  STEP 2: Size the loop to the target: rabbit = 4-inch diameter, squirrel = 2-inch, deer = 10-inch.
+  STEP 3: Set snares on active game trails — look for fresh droppings, tracks, disturbed vegetation.
+  STEP 4: Use guide sticks to funnel animals through the snare — narrow the trail with sticks on either side.
+  STEP 5: Anchor snares to a strong stake or tree. For larger animals, use a spring pole to lift and strangle quickly.
+
+ID: food-wild-yam-potato
+NAME: Wild Root Vegetables
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Jerusalem artichoke (Helianthus tuberosus): follows sunflower-like tall plant. Knobby tubers at the root.
+  STEP 2: Wild carrot (Queen Anne's lace): feathery leaves, white flower cluster, hairy stem. Dig the first-year white root.
+  STEP 3: Burdock root: large, ruffled leaves, burr-producing plant. Dig the first-year taproot.
+  STEP 4: Wapato (Sagittaria): arrow-shaped leaves in shallow water. Tubers at the root in mud.
+  STEP 5: All wild root vegetables should be cooked to improve digestibility and destroy potential irritants.
+
+ID: food-animal-track-identification
+NAME: Animal Track Identification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Deer: split heart-shaped hooves, 2-3 inches long. Walking stride 14-18 inches.
+  STEP 2: Rabbit: hind feet (long, 3-4 in) land AHEAD of front feet (small, round, 1 in) when hopping.
+  STEP 3: Turkey: 3-toed, large (4 inches). Scratchings in leaf litter indicate feeding areas.
+  STEP 4: Raccoon: hand-like prints with 5 distinct toes. Often found near water sources.
+  STEP 5: Track freshness: sharp edges = hours old. Softened edges = days old. Water-filled = recent (after last rain).
+
+ID: food-trap-paiute
+NAME: Paiute Deadfall Trap
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: The Paiute deadfall is faster and more sensitive than a Figure-4, making it better for fast mice and rats.
+  STEP 2: Drive the Y-shaped vertical stick firmly into the ground.
+  STEP 3: Tie the cordage to the outward end of the lever stick.
+  STEP 4: Wrap the cordage halfway around the vertical Y-stick.
+  STEP 5: Bait the end of the bait stick under the rock.
+
+ID: food-trap-arapuca
+NAME: Arapuca Bird Trap
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Construct a pyramid-shaped cage out of small, straight twigs.
+  STEP 2: Carve a trigger system: a long stake, a toggle stick, and a catch stick.
+  STEP 3: Prop up one edge of the pyramid cage using the catch stick.
+  STEP 4: The pyramid acts as a heavy, weighted cage.
+  STEP 5: Check the trap frequently.
+
+ID: food-trap-spring-pole
+NAME: Spring Pole Snare
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a flexible, strong sapling near an animal trail to act as your spring engine.
+  STEP 2: Bend the sapling down to the trail.
+  STEP 3: Construct a trigger mechanism (like a toggle) and drive an anchor stake into the ground.
+  STEP 4: Set the trigger and arrange the snare loop vertically over the trail.
+  STEP 5: When triggered, the sapling violently snaps upright.
+
+ID: food-squirrel-pole
+NAME: Squirrel Snare Pole
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a long, thick logging pole or branch (4-6 inches diameter, 6-10 feet long).
+  STEP 2: Cut 4 to 6 wire snares. The loops should be 2.5 inches in diameter.
+  STEP 3: Attach the snares sequentially up the length of the pole.
+  STEP 4: Position each loop so it stands upright on the top face of the pole.
+  STEP 5: The squirrel gets caught and falls off the side of the pole, hanging.
+
+ID: food-fish-weir
+NAME: River Fish Weir
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Locate a shallow, narrow section of a stream or tidal inlet.
+  STEP 2: Drive heavy wooden stakes into the riverbed in a 'V' shape.
+  STEP 3: Weave smaller branches, reeds, or rocks between the stakes.
+  STEP 4: At the point of the 'V', leave a small opening and build a circular holding pen.
+  STEP 5: Wade in with a spear or net to harvest the trapped fish.
+
+ID: food-plant-pine-cambium
+NAME: Pine Inner Bark (Cambium)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Identify a healthy Pine, Birch, or Spruce tree.
+  STEP 2: Chop away the rough, dark outer bark using a knife or axe.
+  STEP 3: Scrape off the soft, wet, white layer (the cambium) underneath.
+  STEP 4: Eat it raw, boil it into a broth, or dry it and grind it into flour.
+  STEP 5: Pine needles can also be chopped and steeped in hot (not boiling) water for a massive Vitamin C boost.
+
+ID: food-plantain-weed
+NAME: Broadleaf Plantain (Plantago)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Identify Broadleaf Plantain (Plantago major) in lawns, trails, and disturbed dirt.
+  STEP 2: Check the distinct rubbery veins.
+  STEP 3: Harvest the smallest, youngest leaves from the center.
+  STEP 4: Boil the older leaves.
+  STEP 5: Use crushed leaves medicinally.
+
+ID: food-cattail-tubers
+NAME: Cattail Root Foraging
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Locate cattails in shallow water or muddy shorelines.
+  STEP 2: Wade in and dig deep into the mud around the base of the stalk.
+  STEP 3: Pull up the thick, ropey rhizome.
+  STEP 4: Peel the outer rind.
+  STEP 5: Extract the starch.
+
+ID: food-purslane-foraging
+NAME: Purslane Foraging
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Identify Purslane (Portulaca oleracea) growing flat on the ground in sunny, dry areas, sidewalks, or gardens.
+  STEP 2: Examine the leaves: They are fleshy, smooth, paddle-shaped, and succulent (thick).
+  STEP 3: Purslane is a survival superfood, containing more Omega-3 fatty acids than any other leafy green plant.
+  STEP 4: Harvest the entire plant by pulling it up.
+  STEP 5: Eat it raw or boiled.
+
+ID: food-smoking-preservation
+NAME: Smoke Preservation of Meat
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut the meat into thin strips, no thicker than 1/4 inch.
+  STEP 2: Build a small, low-heat smoldering fire.
+  STEP 3: Construct a drying rack 2–3 feet above the smoke source.
+  STEP 4: Maintain the smoke continuously for 12–24 hours.
+  STEP 5: Properly smoked jerky can last weeks at ambient temperature.
+
+ID: food-grub-eating
+NAME: Grub and Larva Consumption
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Look under rotting logs, peeling bark, and in the soil around dead trees.
+  STEP 2: Palm weevil larvae, witchetty grubs, and mealworms are all safe and highly nutritious.
+  STEP 3: Pinch the head off, as mandibles can bite your throat on the way down.
+  STEP 4: Eat raw or roasted on a hot rock near the fire.
+  STEP 5: A handful of large grubs provides more calories than a handful of berries.
+
+ID: food-crayfish-catching
+NAME: Crayfish Catching
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Look in shallow, rocky streams with clear water.
+  STEP 2: Slowly lift rocks and look underneath.
+  STEP 3: Grab from behind, pinching the back of the carapace (body shell).
+  STEP 4: Cook by boiling for 5 minutes.
+  STEP 5: Eat the tail meat.
+
+ID: food-dandelion-full
+NAME: Complete Dandelion Use
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Identify dandelions by their jagged, tooth-shaped leaves ('dent de lion') growing in a rosette from a central taproot.
+  STEP 2: Harvest young leaves before the plant flowers.
+  STEP 3: Eat leaves raw in a salad or boil to reduce bitterness.
+  STEP 4: Roast the taproot, grind it, and steep in hot water.
+  STEP 5: Flower heads can be eaten raw, battered and fried, or steeped into tea.
+
+ID: food-palm-heart
+NAME: Palm Heart Harvesting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: The heart of palm is the soft, white growing tip found inside the top of the trunk.
+  STEP 2: Fell a young palm tree (easier than a mature one).
+  STEP 3: Strip the outer layers of trunk until you reach the soft, white inner core.
+  STEP 4: Eat raw or sliced into soups.
+  STEP 5: WARNING: Harvesting kills the tree.
+
+ID: food-coconut-water-safety
+NAME: Coconut Water Safety
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Green (young) coconuts contain the most water and have thin, soft meat.
+  STEP 2: Brown (mature) coconuts have less water but thick, calorie-dense meat.
+  STEP 3: Limit coconut water intake to 3-4 coconuts per day.
+  STEP 4: Coconut meat provides fat, protein, and calories.
+  STEP 5: Use the husk fiber for cordage and the shell as a container or bowl.
+
+ID: food-reflector-oven
+NAME: Reflector Oven Baking
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Construct a V-shaped reflector from aluminum foil, flat bark, or sheet metal.
+  STEP 2: Place a flat cooking surface (rock, metal sheet) inside the V.
+  STEP 3: The reflector focuses the fire's radiant heat onto the food from multiple angles.
+  STEP 4: Adjust distance from fire to control temperature.
+  STEP 5: Rotate the food periodically for even cooking.
+
+ID: food-rock-oven
+NAME: Underground Rock Oven
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Dig a pit 2 feet deep and 2 feet wide.
+  STEP 2: Build a large fire in the pit and burn it for 2 hours.
+  STEP 3: Rake out the coals and ash.
+  STEP 4: Layer food (wrapped in non-toxic leaves like banana, burdock, or corn husks) on the hot rocks.
+  STEP 5: Cook for 2-4 hours.
+
+ID: food-tripod-cooking
+NAME: Tripod Cooking Setup
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Lash three sturdy poles together at the top using a tripod lashing.
+  STEP 2: Spread the legs and set the tripod over your fire.
+  STEP 3: Adjust cooking temperature by raising or lowering the pot.
+  STEP 4: The tripod is the most stable camp cooking system.
+  STEP 5: Remove the pot using a sturdy stick through the bail handle.
+
+ID: food-spit-roasting
+NAME: Spit Roasting Technique
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Drive two forked stakes into the ground on either side of the fire.
+  STEP 2: Skewer the meat lengthwise on a green, hardwood spit (avoid resinous pine).
+  STEP 3: Rest the spit in the forks. Let gravity rotate it or turn it manually every 10 minutes.
+  STEP 4: Cook over COALS, not flames.
+  STEP 5: Meat is done when the juices run clear, not pink.
+
+ID: food-box-trap
+NAME: Box Trap for Small Game
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a rectangular box from sticks lashed together, or use an existing container (bucket, crate).
+  STEP 2: Prop one end open with a stick connected to a trigger.
+  STEP 3: Bait the trigger with food appropriate for the target animal.
+  STEP 4: The animal enters, disturbs the trigger, and the propped end falls, trapping it inside.
+  STEP 5: Check box traps every 12 hours.
+
+ID: food-pit-trap
+NAME: Pit Trap with Stakes
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a pit 4 feet deep and 3 feet wide on a known game trail.
+  STEP 2: Sharpen 4-6 hardwood stakes and drive them into the pit floor, points up.
+  STEP 3: Cover the pit with thin, breakable sticks laid across the opening.
+  STEP 4: Build funnel walls (brush barriers converging toward the pit) to guide animals over it.
+  STEP 5: Mark the pit clearly so you don't fall into your own trap.
+
+ID: food-channel-deadfall
+NAME: Channel Deadfall Trap
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find or create a heavy, flat stone (20+ pounds).
+  STEP 2: Build two low brush walls creating a narrow channel leading to the trap.
+  STEP 3: Prop the stone on a Figure-4 trigger.
+  STEP 4: Bait the end of the bait stick.
+  STEP 5: Place the trap on a hard surface (flat rock) for maximum impact.
+
+ID: food-cambium-harvest
+NAME: Harvesting Inner Tree Bark (Cambium)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify an edible tree.
+  STEP 2: Score the outer bark.
+  STEP 3: Peel back to the cambium layer.
+  STEP 4: Scrape off the cambium.
+  STEP 5: Boil or fry to eat.
+
+ID: food-figure4-deadfall-bait
+NAME: Figure-4 Deadfall Bait Placement
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build trigger from three sticks
+  STEP 2: Place bait away from the back of the rock
+  STEP 3: Set trigger with minimal pressure
+  STEP 4: Check traps every 12 hours
+
+ID: food-tidal-pool-foraging
+NAME: Tidal Pool Foraging
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Time your visit to low tide
+  STEP 2: Look for limpets, mussels, periwinkles
+  STEP 3: Check for sea anemones and crabs
+  STEP 4: Cook all tidal pool catches thoroughly
+
+ID: food-bark-bread
+NAME: Tree Bark Bread
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Harvest inner bark (cambium layer)
+  STEP 2: Dry completely
+  STEP 3: Grind to flour
+  STEP 4: Mix with water and cook on hot stone
+
+ID: food-snare-set-optimization
+NAME: Snare Set Optimization
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Set snares on active game trails
+  STEP 2: Position loop at head height of target animal
+  STEP 3: Funnel animal into snare
+  STEP 4: Set 10+ snares to increase odds
+
+ID: food-earth-oven-cooking
+NAME: Earth Oven (Hangi/Imu)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a pit 2-3 feet deep
+  STEP 2: Heat rocks in a fire for 2+ hours
+  STEP 3: Layer: hot rocks, green leaves, food, leaves, dirt
+  STEP 4: Cook for 4-8 hours
+
+ID: food-crayfish-trap-improvised
+NAME: Improvised Crayfish Trap
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut a plastic bottle at the shoulder
+  STEP 2: Invert the top into the bottom
+  STEP 3: Bait with fish scraps or meat
+  STEP 4: Weight and submerge in stream
+
+ID: food-wild-greens-salad
+NAME: Wild Greens Identification Guide
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dandelion
+  STEP 2: Clover
+  STEP 3: Chickweed
+  STEP 4: Violets
+
+ID: food-primitive-jerky
+NAME: Primitive Jerky Making
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Slice meat into thin strips
+  STEP 2: Salt heavily if salt is available
+  STEP 3: Dry over low smoke for 6-12 hours
+  STEP 4: Test doneness by bending
+
+ID: food-acorn-cold-leaching
+NAME: Acorn Cold Water Leaching
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Crack and shell acorns
+  STEP 2: Grind to coarse meal
+  STEP 3: Place in a mesh bag in running water
+  STEP 4: Test for bitterness
+
+ID: food-cattail-multi-use
+NAME: Cattail Multi-Use Harvesting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Root starch
+  STEP 2: Young shoots
+  STEP 3: Pollen
+  STEP 4: Fluff for insulation/tinder
+
+ID: food-water-hemlock-warning
+NAME: Water Hemlock Identification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Grows in wet areas
+  STEP 2: Hollow stem with purple streaks
+  STEP 3: Symptoms appear in 15-30 minutes
+  STEP 4: If ingested, induce vomiting immediately
+
+ID: food-universal-edibility-test-full
+NAME: Universal Edibility Test (Complete)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Test one plant part at a time
+  STEP 2: Skin contact test (8 hours)
+  STEP 3: Lip and tongue test
+  STEP 4: Eat small amount and wait 8 hours
+
+ID: food-bird-snaring
+NAME: Bird Snaring Techniques
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify bird feeding areas
+  STEP 2: Set multiple small snares in a grid
+  STEP 3: Bait the center of the grid
+  STEP 4: Check frequently
+
+ID: food-fish-poison-plants
+NAME: Fish Stunning with Natural Compounds
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify rotenone-containing plants
+  STEP 2: Crush and release into still water
+  STEP 3: Fish float to surface stunned
+  STEP 4: This is a survival-only technique
+
+ID: food-chicory
+NAME: Chicory Root Coffee
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: blue daisy-like flowers, basal rosette of dandelion-like toothed leaves.
+  STEP 2: Dig roots — they're long, thick taproots.
+  STEP 3: Clean, chop into small pieces, and roast until dark brown and fragrant.
+  STEP 4: Grind roasted pieces and steep in boiling water like coffee.
+
+ID: food-burdock-root
+NAME: Burdock Root
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: large rhubarb-like leaves, sticky burrs, thick stem.
+  STEP 2: Dig the root — it can be 2+ feet deep.
+  STEP 3: Peel and slice thinly.
+  STEP 4: Boil, roast, or eat raw. Tastes like a mild potato.
+
+ID: food-lambs-quarters
+NAME: Lamb's Quarters (Wild Spinach)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: diamond-shaped leaves with white powdery coating underneath.
+  STEP 2: Harvest young leaves and growing tips.
+  STEP 3: Eat raw in salads or cook like spinach.
+  STEP 4: More protein, calcium, and iron than domestic spinach.
+
+ID: food-wood-sorrel
+NAME: Wood Sorrel
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: shamrock-shaped leaves (three heart-shaped leaflets), small yellow or pink flowers.
+  STEP 2: Taste a leaf — it's distinctly sour/lemony.
+  STEP 3: Eat raw. All parts are edible.
+  STEP 4: Excellent for seasoning bland survival foods and quenching thirst.
+
+ID: food-jerusalem-artichoke
+NAME: Jerusalem Artichoke (Sunchoke)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: tall sunflower-like plant with small yellow flowers.
+  STEP 2: Dig tubers from the root mass — looks like knobby ginger.
+  STEP 3: Scrub clean. Can eat raw (nutty/crunchy) or cooked.
+  STEP 4: High calorie density — one of the best wild calorie sources.
+
+ID: food-deer-tracking
+NAME: Deer Track Identification & Trailing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify tracks: two-toed heart-shaped prints, 2-3 inches long.
+  STEP 2: Read trail signs: browse lines on vegetation, rubs on trees, droppings.
+  STEP 3: Follow trails to feeding areas (forest edges) and watering spots.
+  STEP 4: Set snares or blinds along trails, NOT at water sources.
+
+ID: food-rabbit-tracking
+NAME: Rabbit Track Identification & Habits
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify tracks: two large hind prints ahead of two small front prints in a Y pattern.
+  STEP 2: Find runs: well-worn paths under brush, along fence lines, and between cover areas.
+  STEP 3: Locate warrens and forms (resting spots) — look for clusters of droppings.
+  STEP 4: Set snares at runs using slip knots at head height (3-4 inches off ground).
+
+ID: food-bird-tracking-habits
+NAME: Bird Observation for Food & Weather
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Follow birds to water: morning flights converge toward water sources.
+  STEP 2: Watch for ground-feeding birds (quail, grouse, turkeys) to find seed and berry sources.
+  STEP 3: Read weather from bird behavior: birds going quiet = storm approaching.
+  STEP 4: Hawks circling may indicate meadows with rodent populations — set traps there.
+
+ID: food-pit-roasting
+NAME: Underground Pit Roasting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a pit 2 feet deep and 3 feet wide. Line bottom with flat rocks.
+  STEP 2: Build a large fire in the pit and burn for 2+ hours until rocks are superheated.
+  STEP 3: Remove excess coals. Lay wet grass/leaves on rocks, add food, more wet vegetation on top.
+  STEP 4: Cover with earth and let cook for 3-8 hours depending on quantity.
+
+ID: food-ash-roasting
+NAME: Ash Roasting (Direct Coal Cooking)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Create a bed of hot coals (NOT flames) from a mature fire.
+  STEP 2: Wrap food in large green leaves or clay.
+  STEP 3: Bury wrapped food in hot coals and cover.
+  STEP 4: Cook time: fish 15-20 min, vegetables 20-30 min, game birds 45-60 min.
+
+ID: food-smoking-fish
+NAME: Fish Smoking — Field Preservation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Clean and split fish — remove guts, open flat, score thick portions.
+  STEP 2: Salt heavily if salt available. If not, proceed directly to smoking.
+  STEP 3: Build a smoking rack: green stick frame 2-3 feet above a smoky fire.
+  STEP 4: Maintain steady smoke (not flames) for 4-8 hours. Fish should be firm and golden.
+
+ID: food-spring-snare
+NAME: Spring Snare (Trigger Snare)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a flexible sapling near an active trail.
+  STEP 2: Carve trigger: two interlocking hooks (notch-and-peg system).
+  STEP 3: Attach snare loop to the sapling end. Set the trigger under tension.
+  STEP 4: Bait around the snare or set on a funnel point of a well-used trail.
+
+ID: food-improvised-fish-hook
+NAME: Improvised Fish Hook
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select material: thorn, bone shard, safety pin, soda can tab, wire, or wood.
+  STEP 2: Shape into a hook: curve with a sharp point and a barb if possible.
+  STEP 3: Attach to line (cordage, thread, dental floss, or unraveled paracord inner strand).
+  STEP 4: Bait with insects, worms, or small pieces of meat. Set in calm water near structure.
+
+ID: food-gill-net-construction
+NAME: Gill Net Construction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Determine mesh size by target fish: 2-inch mesh for panfish, 4-inch for larger.
+  STEP 2: Tie net-making knots (sheet bends) using a mesh gauge stick for consistent spacing.
+  STEP 3: Build net 3-4 feet deep and as wide as you can manage.
+  STEP 4: Set across current in rivers or perpendicular to shore in lakes. Weight the bottom, float the top.
+
+ID: food-insect-eating-guide
+NAME: Edible Insect Field Guide
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Safe to eat: grasshoppers, crickets, ants, termites, grubs, beetle larvae.
+  STEP 2: ALWAYS cook insects — heat kills parasites.
+  STEP 3: Remove legs and wings from grasshoppers/crickets before eating.
+  STEP 4: Protein content: 60-70% by dry weight — higher than beef.
+
+ID: food-earthworm-harvest
+NAME: Earthworm Harvesting & Preparation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find in moist soil: under rocks, rotting logs, or dig in rich forest floor.
+  STEP 2: Purge: place worms in damp grass for 24 hours to empty their digestive tracts.
+  STEP 3: Kill by dropping into boiling water. Boil 3-5 minutes.
+  STEP 4: Eat whole or add to stews. 60% protein, rich in iron.
+
+ID: food-dandelion-uses
+NAME: Dandelion Complete Harvest
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: jagged-tooth leaves in a rosette, hollow stem with white sap, yellow flower.
+  STEP 2: Young leaves: eat raw in salads. Older leaves: boil to reduce bitterness.
+  STEP 3: Roots: dig, clean, roast until dark brown, grind for coffee substitute.
+  STEP 4: Flowers: eat raw, batter and fry, or make wine.
+
+ID: food-clover-foraging
+NAME: Red & White Clover Foraging
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: three round leaflets, white or red-purple ball-shaped flowers.
+  STEP 2: Flowers: eat raw, dried for tea, or cooked.
+  STEP 3: Leaves: best cooked or dried — raw is tough to digest in quantity.
+  STEP 4: Seeds and dried flower heads can be ground into flour.
+
+ID: food-rose-hip-harvest
+NAME: Rose Hip Harvest & Use
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: red/orange seed pods that remain on rose bushes after petals fall.
+  STEP 2: Harvest by picking — they pull off easily when ripe.
+  STEP 3: Cut in half, scrape out seeds and fine hairs with a spoon.
+  STEP 4: Eat raw, brew into tea, or make syrup by boiling and straining.
+
+ID: food-mushroom-safety-rules
+NAME: Wild Mushroom Safety Rules
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: NEVER eat a mushroom you cannot positively identify with 100% certainty.
+  STEP 2: Start with foolproof species: morels, chicken of the woods, giant puffball.
+  STEP 3: Deadly species to memorize: Death Cap, Destroying Angel, Galerina.
+  STEP 4: When in doubt, DON'T EAT IT. No mushroom calorie is worth the risk of liver failure.
+
+ID: food-fish-trap-basket
+NAME: Basket Fish Trap (Funnel Trap)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Weave a cone-shaped basket from flexible branches (willow, vine).
+  STEP 2: Create a funnel entrance: a second smaller cone that fits inside the opening.
+  STEP 3: Bait with crushed insects, bread, or meat scraps inside the trap.
+  STEP 4: Set in stream facing downstream, or in still water near shore. Weight down with rocks.
+
+ID: food-solar-dehydrator
+NAME: Solar Food Dehydrator (Field Build)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a frame: 3 feet wide, 4 feet long, with a mesh bottom (screen, cloth, or woven grass).
+  STEP 2: Slice food thin: 1/4 inch strips for meat, thin slices for fruit and vegetables.
+  STEP 3: Place on mesh. Cover with a second mesh layer to keep insects off.
+  STEP 4: Dry for 1-3 days depending on humidity and food type. Food is done when leathery (fruit) or brittle (meat).
+
+ID: food-primitive-salt-extraction
+NAME: Salt Extraction from Natural Sources
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Seawater: boil in a wide pan until all water evaporates — salt remains.
+  STEP 2: Salt licks: scrape salt deposits from mineral deposits. Animals will lead you to them.
+  STEP 3: Hickory bark method: burn hickory bark, dissolve ash in water, evaporate water.
+  STEP 4: Salt is critical for: food preservation, electrolyte balance, hide tanning, and seasoning.
+
+ID: food-wild-grape
+NAME: Wild Grape Identification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: climbing vine with tendrils, toothed heart-shaped leaves, fruit in clusters.
+  STEP 2: Check for look-alikes: moonseed has no tendrils and single seed. Canada moonseed is toxic.
+  STEP 3: Harvest ripe fruit (dark purple/blue) in late summer through fall.
+  STEP 4: Eat raw, dry as raisins, or ferment. Young leaves edible stuffed and cooked.
+
+ID: food-pawpaw
+NAME: Pawpaw Fruit Harvest
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: small understory tree, large tropical-looking leaves 6-12 inches long.
+  STEP 2: Fruit ripens in September — green turning yellow-brown, feels soft like a ripe avocado.
+  STEP 3: Eat the custard-like flesh raw. Discard large brown seeds.
+  STEP 4: Cannot be stored long — eat within 2-3 days of ripening.
+
+ID: food-hickory-nut
+NAME: Hickory Nut Harvest & Cracking
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: compound leaves with 5-7 leaflets, thick-shelled round nuts in husks.
+  STEP 2: Harvest fallen nuts in autumn. Remove green husks.
+  STEP 3: Crack with a rock on a flat stone anvil. Pick out nut meat with a thorn or pin.
+  STEP 4: Eat raw or roast. Grind into nut butter. Boil shells for hickory nut milk.
+
+ID: food-black-walnut
+NAME: Black Walnut Processing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: compound leaves with 15-23 leaflets, round green-hulled nuts.
+  STEP 2: Remove green hulls: stomp with boots or drive over with vehicle.
+  STEP 3: Crack dried nuts with a hammer on concrete or flat rock.
+  STEP 4: Rich, intense flavor. Use sparingly in cooking or eat straight.
+
+ID: food-frog-hunting
+NAME: Frog Hunting & Preparation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Hunt at night: frogs are active and visible with any light source (firelight, flashlight).
+  STEP 2: Catch by hand: approach slowly from behind, grab firmly around the body.
+  STEP 3: Skin by cutting around the waist, pulling skin off like pants.
+  STEP 4: Cook legs simply: roast over fire or boil 5 minutes.
+
+ID: food-drying-meat-jerky
+NAME: Field Jerky — Meat Drying Without Tools
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Slice meat WITH the grain into thin strips, 1/4 inch thick maximum.
+  STEP 2: Salt heavily if salt available. If not, smoke will preserve alone.
+  STEP 3: Hang strips on a drying rack in direct sun with constant airflow.
+  STEP 4: Properly dried jerky snaps when bent and has no moist spots.
+
+ID: food-universal-edibility-test
+NAME: Universal Edibility Test (UET)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Fast for 8 hours. Test only ONE plant part at a time (leaf, stem, root separately).
+  STEP 2: Skin contact test: crush plant part, rub on inner wrist. Wait 15 minutes for reaction.
+  STEP 3: Lip test → tongue tip test → small bite (chew, don't swallow) → wait 8 hours.
+  STEP 4: If no reaction after 8 hours: eat a small handful. Wait 8 more hours. If fine: plant part is likely safe.
+
+ID: food-bow-fishing
+NAME: Bow Fishing (Improvised)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Modify an arrow: attach a line to the shaft behind the point.
+  STEP 2: Aim BELOW the fish — water refraction makes fish appear higher than they are.
+  STEP 3: Shoot at fish in shallow, clear water — ideally at pools where they congregate.
+  STEP 4: Retrieve arrow by pulling line. Re-use arrows — making them is time-consuming.
+
+ID: food-wild-berry-safety
+NAME: Wild Berry Safety Rules
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: White and yellow berries: 90% are poisonous. AVOID unless positively identified.
+  STEP 2: Blue and black berries: majority are safe (blueberry, blackberry, elderberry).
+  STEP 3: Red berries: 50/50 — some safe (strawberry, raspberry), some deadly (holly, yew).
+  STEP 4: Aggregate berries (like blackberry/raspberry structure) are almost always safe to eat.
+
+ID: food-bamboo-shoots
+NAME: Bamboo Shoot Harvesting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify bamboo shoots: emerging spears at the base of bamboo groves, under 12 inches tall.
+  STEP 2: Peel outer sheaths layer by layer to reveal the tender inner core.
+  STEP 3: Boil in water for 20-30 minutes to remove bitter compounds (cyanogenic glycosides).
+  STEP 4: Eat boiled, stir-fried, or added to soups. Mild, slightly sweet flavor.
+
+ID: food-wild-rice
+NAME: Wild Rice Harvesting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: tall grass growing in shallow water with grain heads drooping over the surface.
+  STEP 2: Harvest from a canoe or by wading: bend stalks over and knock seeds into a container.
+  STEP 3: Dry the harvested rice in sun or over low heat.
+  STEP 4: Parch in a dry pan over fire, then thresh to remove husks.
+
+ID: food-pine-nut-harvest
+NAME: Pine Nut Harvesting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify pine species with large cones: pinyon, stone pine, Korean pine, Swiss pine.
+  STEP 2: Harvest cones in fall when scales begin to open.
+  STEP 3: Extract seeds from between the cone scales.
+  STEP 4: Eat raw or roasted. Shell the hard outer coating to access the rich nut meat.
+
+ID: food-maple-syrup-field
+NAME: Field Maple Syrup Production
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify sugar maple: opposite branching, 5-lobed leaves. Can also use any maple, birch, or walnut.
+  STEP 2: Drill or carve a hole 2 inches deep, 3 feet up the trunk. Insert a tube or carved spout.
+  STEP 3: Collect sap — 1-3 gallons per day per tap. The sap is clear and slightly sweet.
+  STEP 4: Boil sap down: 40 gallons of sap = 1 gallon of syrup.
+
+ID: food-cactus-eating
+NAME: Cactus Fruit and Pad Preparation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Prickly pear pads (nopales): use tongs or a stick to remove. Burn off spines over flame.
+  STEP 2: Slice pads into strips. Boil or grill until tender (10-15 min).
+  STEP 3: Prickly pear fruit (tunas): pick with gloved hands when red/purple. Peel skin.
+  STEP 4: Fruit is sweet and juicy — eat raw. Pads provide moisture and nutrition.
+
+ID: food-rabbit-stick
+NAME: Rabbit Stick (Throwing Stick)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a dense hardwood stick: 2 feet long, slightly curved, forearm-thick.
+  STEP 2: Flatten one or both ends slightly for aerodynamics.
+  STEP 3: Throw sidearm at ground-level targets from 15-30 feet.
+  STEP 4: Practice extensively before hunting — accuracy improves dramatically with repetition.
+
+ID: food-ant-foraging
+NAME: Ant Foraging as Emergency Protein
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Locate ant colonies: mounds, rotting logs, under rocks.
+  STEP 2: Use a stick inserted into the colony — ants climb up and can be swept into a container.
+  STEP 3: Kill by immersing in water or freezing. Some species can be eaten raw.
+  STEP 4: Roast on a flat stone for a crunchy, slightly sour snack.
+
+ID: food-agave-heart
+NAME: Agave Heart Roasting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find mature agave — thick leaves, central stalk emerging.
+  STEP 2: Cut leaves off to expose the heart (piña).
+  STEP 3: Pit-roast for 24-48 hours until caramelized and soft.
+  STEP 4: Rich in carbohydrates and sugars when cooked.
+
+ID: food-mesquite-pod
+NAME: Mesquite Pod Flour
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Harvest ripe (dry, rattling) pods from mesquite trees in late summer.
+  STEP 2: Dry pods completely in sun — must be crispy.
+  STEP 3: Grind in a mortar or between stones into fine flour.
+  STEP 4: 35% sugar, 11% protein — makes sweet flatbread.
+
+ID: food-barrel-cactus-water
+NAME: Barrel Cactus Water Extraction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Carefully cut the top off a barrel cactus — avoid the spines.
+  STEP 2: Mash the pulp inside to release moisture into the cavity.
+  STEP 3: Strain liquid through cloth — it's bitter but drinkable.
+  STEP 4: Use only as LAST RESORT — the liquid can cause nausea and diarrhea in some species.
+
+ID: food-yucca-root
+NAME: Yucca Root Processing
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig yucca root — thick, brown, radiating from the base.
+  STEP 2: Peel the tough outer bark to expose white starchy interior.
+  STEP 3: Boil or roast until soft — raw yucca contains saponins that cause stomach upset.
+  STEP 4: High in carbohydrates, vitamin C, and potassium.
+
+ID: food-prickly-pear-jelly
+NAME: Prickly Pear Fruit Jelly
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Harvest ripe prickly pear fruit (bright red/purple).
+  STEP 2: Roll on ground to remove glochids, then peel.
+  STEP 3: Boil pulp with equal weight sugar for 30 minutes.
+  STEP 4: Strain through cloth for clear jelly, or leave pulp for fruit butter.
+
+ID: food-sassafras-tea
+NAME: Sassafras Root Tea
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: mitten-shaped, three-lobed, and simple oval leaves all on the same tree.
+  STEP 2: Dig small roots — scrub clean and slice thin.
+  STEP 3: Steep in boiling water 10 minutes for aromatic tea.
+  STEP 4: Traditional root beer flavoring.
+
+ID: food-spicebush-berry
+NAME: Spicebush Berry Harvest
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: aromatic shrub with small red berries in fall.
+  STEP 2: Scratch stem — spicy smell confirms ID.
+  STEP 3: Dry berries and grind as spice — tastes like allspice.
+  STEP 4: Young leaves and twigs make aromatic tea.
+
+ID: food-persimmon-harvest
+NAME: Wild Persimmon Harvest
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: gray blocky bark, oval leaves, round orange fruit.
+  STEP 2: MUST be fully ripe (soft, wrinkled) — unripe is intensely astringent.
+  STEP 3: Eat raw when soft, or dry into leather.
+  STEP 4: Very high in sugar (34%) when ripe — excellent energy food.
+
+ID: food-elderberry-harvest
+NAME: Elderberry Harvest & Preparation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: compound leaves, flat-topped clusters of tiny purple-black berries.
+  STEP 2: COOK ALL elderberries — raw berries, leaves, and stems contain cyanogenic glycosides.
+  STEP 3: Boil into syrup, jam, or wine.
+  STEP 4: Dried elderberry tea is antiviral — proven effective against influenza in clinical studies..
+
+ID: food-sumac-lemonade
+NAME: Sumac Lemonade
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify STAGHORN SUMAC: fuzzy red berry clusters, compound leaves.
+  STEP 2: NOT poison sumac (white berries, swamp habitat).
+  STEP 3: Crush berry clusters in cold water — soak 30 minutes.
+  STEP 4: Strain through cloth to remove fine hairs.
+
+ID: food-coconut-complete
+NAME: Coconut Complete Utilization
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Green coconut: chop top for electrolyte-rich water (1 cup per nut).
+  STEP 2: Mature coconut: crack open for dense white meat (350 cal per cup).
+  STEP 3: Grate and press meat for coconut oil and cream.
+  STEP 4: Husk fiber for cordage, shell for containers and charcoal.
+
+ID: food-breadfruit-cooking
+NAME: Breadfruit Cooking
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Harvest when mature (skin turns from green to yellow-green).
+  STEP 2: Roast whole over fire or in coals until skin chars and interior is soft.
+  STEP 3: Peel and eat — texture like fresh bread, taste like potato.
+  STEP 4: Can be sliced and dried for storage.
+
+ID: food-taro-preparation
+NAME: Taro Root Preparation
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Harvest corms (bulb-like roots) from muddy areas near water.
+  STEP 2: MUST BOIL 45+ minutes — raw taro contains calcium oxalate crystals that cause intense throat swelling.
+  STEP 3: Peeled, boiled taro tastes like mild potato.
+  STEP 4: Leaves also edible when thoroughly boiled (change water twice).
+
+ID: food-banana-plant-uses
+NAME: Banana Plant Complete Utilization
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Fruit: eat ripe raw, cook green as starchy vegetable (like potato).
+  STEP 2: Flower: edible raw or cooked — popular in Southeast Asian cuisine.
+  STEP 3: Leaves: waterproof wrappers for cooking, plates, temporary roofing.
+  STEP 4: Trunk: contains drinkable water — chop and squeeze.
+
+ID: food-nipa-palm-sugar
+NAME: Nipa Palm Sugar Production
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut the flower stalk and collect dripping sap in a container.
+  STEP 2: Fresh sap is sweet and drinkable — like coconut water.
+  STEP 3: Boil to reduce into syrup or solid sugar blocks.
+  STEP 4: One palm produces 1-2 liters of sap per day for months.
+
+ID: food-crowberry
+NAME: Crowberry Foraging
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: low evergreen shrub with tiny needle-like leaves and black berries.
+  STEP 2: Berries persist through winter under snow.
+  STEP 3: Eat raw — mild, slightly bitter, not sweet.
+  STEP 4: Mix with rendered fat for pemmican — adds vitamins and moisture.
+
+ID: food-labrador-tea
+NAME: Labrador Tea
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: leathery, rolled-edge leaves with fuzzy brown undersides.
+  STEP 2: Grows in bogs and boreal forests.
+  STEP 3: Steep a few leaves in boiling water 5 minutes — aromatic, slightly resinous flavor.
+  STEP 4: Contains caffeine-like compounds.
+
+ID: food-cloudberry
+NAME: Cloudberry Harvest
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: low plant with single white flower, one raspberry-like fruit per stem.
+  STEP 2: Ripens amber-gold in late summer on tundra and bogs.
+  STEP 3: Eat raw — sweet, creamy, slightly tart.
+  STEP 4: Extremely high in vitamin C (more than oranges).
+
+ID: food-fireweed-greens
+NAME: Fireweed as Food & Tea
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: tall pink flower spikes on cleared or burned land.
+  STEP 2: Young shoots: eat like asparagus (steam or boil 3 min).
+  STEP 3: Mature leaves: dry for tea — this is traditional Russian Ivan Chai.
+  STEP 4: Stem pith: sweet and starchy, eat raw.
+
+ID: food-lichen-rock-tripe
+NAME: Rock Tripe Lichen
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: leathery, dark brown/black lichen growing flat on rocks.
+  STEP 2: Peel from rocks — rubber-like when wet, brittle when dry.
+  STEP 3: MUST soak in multiple changes of water, then boil 1+ hours to remove harsh acids.
+  STEP 4: Minimal flavor, gummy texture, but prevents starvation.
+
+ID: food-chestnut-roasting
+NAME: Chestnut Roasting & Flour
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: spiny husks containing 1-3 glossy brown nuts with pointed tips.
+  STEP 2: Score the flat side with an X cut through the shell.
+  STEP 3: Roast in coals for 15-20 minutes or boil for 30 minutes.
+  STEP 4: Peel while warm. Eat directly or dry and grind into sweet, gluten-free flour.
+
+ID: food-crab-trapping
+NAME: Crab Trapping (Coastal)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a trap: weighted container with bait inside and funnel entrance.
+  STEP 2: Bait with fish heads, chicken pieces, or any meat scraps.
+  STEP 3: Set in shallow water along rocky coastline. Mark with a float or landmark.
+  STEP 4: Boil crabs in seawater for 10-12 minutes. Crack shells and eat body and leg meat.
+
+ID: food-turmeric-root
+NAME: Wild Turmeric Identification
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Identify: large broad leaves emerging from ground, similar to ginger plant.
+  STEP 2: Harvest rhizome by digging around the base of the plant.
+  STEP 3: Peel and grate raw, or dry and grind to powder.
+  STEP 4: Add to food as seasoning or make tea for anti-inflammatory benefits.
+
+ID: food-trap-line-management
+NAME: Trap Line Management Protocol
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Set 10-20 traps along a 1-2 mile circuit that returns to camp.
+  STEP 2: Check ALL traps at least twice daily: dawn and dusk.
+  STEP 3: Move unproductive traps after 48 hours to new locations.
+  STEP 4: Keep a mental or physical log of catch rates by location and trap type.
+
+ID: food-weir-fish-trap
+NAME: Fish Weir Construction
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a V-shaped wall of stones across a stream, point downstream.
+  STEP 2: At the point of the V: create a small catch basin or cage.
+  STEP 3: Walls should extend above the water surface to prevent fish from jumping over.
+  STEP 4: Check the basin hourly during fish migration or after rain (when fish move more).
+
+ID: food-snail-foraging
+NAME: Land Snail Foraging
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect snails after rain — they emerge in moist conditions.
+  STEP 2: Purge for 48 hours in a container with clean vegetation or cornmeal.
+  STEP 3: Boil for 10 minutes, then pick from shells with a pin or twig.
+  STEP 4: Season and eat. 80% protein by dry weight.
+
+ID: food-mussel-harvest
+NAME: Freshwater Mussel Harvest
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find mussels on river bottoms in clean-flowing water: feel with feet or hands.
+  STEP 2: Harvest by pulling from substrate. Check regulations — some species are protected.
+  STEP 3: Steam over fire or bake in coals until shells open (5-10 min).
+  STEP 4: Eat the orange/cream colored meat inside. Chewy texture.
+
+ID: food-birch-sap-syrup
+NAME: Birch Sap to Syrup
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect birch sap in spring: tap multiple trees for volume.
+  STEP 2: Boil in a wide, shallow pan over sustained fire.
+  STEP 3: Continue until the liquid thickens and darkens.
+  STEP 4: Store in sealed containers. Use as sweetener, medicine, or morale boost.
+
+ID: food-pinole
+NAME: Pinole (Parched Grain Flour)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Parch raw seeds/grain in a dry hot pan or on a flat rock over fire.
+  STEP 2: Grind toasted seeds into fine flour using stones.
+  STEP 3: Mix with water to drink, or eat dry as trail food.
+  STEP 4: Pinole keeps indefinitely when dry. Ultra-light, ultra-compact.
+
+ID: food-stinging-nettle-prep
+NAME: Stinging Nettle Foraging
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Identify Urtica dioica in moist, rich soil.
+  STEP 2: Harvest using heavy gloves or improvising 'tongs' from two sticks.
+  STEP 3: Neutralize the sting by boiling or crushing.
+  STEP 4: Consume as a nutrient-dense spinach substitute.
+
+ID: food-cattail-spring-shoots
+NAME: Cattail Shoot Harvest (Cossack Asparagus)
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Locate Typha latifolia in shallow wetlands or ditches.
+  STEP 2: Grasp the inner core of leaves (the center spike) near the water line.
+  STEP 3: Peel away the tough green outer layers.
+  STEP 4: Eat raw or boil briefly.
+
+ID: food-track-canine-vs-feline
+NAME: Canine vs Feline Tracks
+SOURCE: https://www.penguinrandomhouse.com/books/38775/tom-browns-field-guide-to-wilderness-survival-by-tom-brown-jr/
+  STEP 1: Check for claw marks.
+  STEP 2: Examine overall shape.
+  STEP 3: Look at the heel pad (metacarpal pad).
+  STEP 4: Draw the 'X'.
+
+ID: food-track-deer-aging
+NAME: Aging Ungulate (Deer) Tracks
+SOURCE: https://www.penguinrandomhouse.com/books/38775/tom-browns-field-guide-to-wilderness-survival-by-tom-brown-jr/
+  STEP 1: Assess edge sharpness.
+  STEP 2: Check for moisture and debris.
+  STEP 3: Examine the 'splash' or kick-up.
+  STEP 4: Compare with your own track.
+
+ID: food-trap-wire-snare-lift
+NAME: Spring-Pole Snare
+SOURCE: https://www.penguinrandomhouse.com/books/38775/tom-browns-field-guide-to-wilderness-survival-by-tom-brown-jr/
+  STEP 1: Select an incredibly supple sapling (the spring pole).
+  STEP 2: Create the trigger mechanism (Toggle).
+  STEP 3: Bend the sapling and set the trigger.
+  STEP 4: Set the wire noose.
+
+ID: food-trap-fish-basket
+NAME: Woven Fish Basket Trap
+SOURCE: https://www.penguinrandomhouse.com/books/38775/tom-browns-field-guide-to-wilderness-survival-by-tom-brown-jr/
+  STEP 1: Gather extremely flexible green wood.
+  STEP 2: Weave the outer cone.
+  STEP 3: Weave the inner funnel.
+  STEP 4: Insert the funnel into the open end of the basket.
+
+ID: food-mushroom-morel
+NAME: Foraging: True Morel
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Locate old orchards or burn sites.
+  STEP 2: Examine the cap structure.
+  STEP 3: Slice the mushroom in half lengthwise.
+  STEP 4: Verify it is NOT a False Morel (Gyromitra).
+
+ID: food-mushroom-puffball
+NAME: Foraging: Giant Puffball
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Locate large, white spherical fungi.
+  STEP 2: Slice directly down the center.
+  STEP 3: Check for toxic lookalikes.
+  STEP 4: Slice and fry.
+
+ID: food-mushroom-chicken-woods
+NAME: Foraging: Chicken of the Woods
+SOURCE: https://openlibrary.org/isbn/9780395926222
+  STEP 1: Locate dying or dead hardwood trees.
+  STEP 2: Examine the color.
+  STEP 3: Check the underside.
+  STEP 4: Harvest the outer edges.
+
+ID: food-trap-figure-4-deadfall
+NAME: Figure-4 Deadfall
+SOURCE: https://www.skyhorsepublishing.com/9781616085469/the-trappers-bible/
+  STEP 1: Carve the upward vertical post.
+  STEP 2: Carve the horizontal bait stick.
+  STEP 3: Carve the diagonal drop-stick.
+  STEP 4: Assemble under tension.
+
+ID: food-trap-paiute-deadfall
+NAME: Paiute Deadfall
+SOURCE: https://www.skyhorsepublishing.com/9781616085469/the-trappers-bible/
+  STEP 1: Construct the Y-post and lever.
+  STEP 2: Tie the toggle.
+  STEP 3: Set the bait stick.
+  STEP 4: Bait the tip.
+
+ID: food-trap-promontory-peg
+NAME: Promontory Peg Snare
+SOURCE: https://www.skyhorsepublishing.com/9781616085469/the-trappers-bible/
+  STEP 1: Drive the peg and carve the notch.
+  STEP 2: Bend the sapling engine.
+  STEP 3: Set the toggle under the peg lip.
+  STEP 4: Run the snare loop.
+
+ID: food-article-calories
+NAME: Caloric Needs in Survival
+SOURCE: https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/calories/art-20048065
+
+ID: food-article-trapping
+NAME: Trapping vs. Hunting: Efficiency
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: food-article-insects
+NAME: Insects as Survival Food
+SOURCE: https://www.fao.org/edible-insects/en/
+
+ID: food-article-fishing
+NAME: Fishing in Survival Situations
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: food-article-poisonous
+NAME: Poisonous Plants: Warning Signs
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: food-article-preservation
+NAME: Food Preservation Without Refrigeration
+SOURCE: https://nchfp.uga.edu/
+
+ID: food-article-nutrition
+NAME: Nutritional Priorities in Survival
+SOURCE: https://www.ncbi.nlm.nih.gov/books/NBK232870/
+
+ID: food-article-wild-plants
+NAME: Wild Plant Basics
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: food-article-safety
+NAME: Food Safety Without Refrigeration
+SOURCE: https://www.foodsafety.gov/food-safety-charts/safe-minimum-cooking-temperatures
+
+ID: food-article-starvation
+NAME: Starvation Physiology: What Happens to Your Body
+SOURCE: https://www.ncbi.nlm.nih.gov/books/NBK539822/
+
+ID: food-article-plant-poisoning
+NAME: Plant Poisoning: Recognition & Treatment
+SOURCE: https://www.poison.org/articles/plant
+
+ID: food-article-protein-hierarchy
+NAME: Survival Protein Sources: Ranked by Effort
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: food-article-long-preservation
+NAME: Long-Term Food Preservation Methods
+SOURCE: https://nchfp.uga.edu/
+
+ID: food-article-cooking-methods
+NAME: Primitive Cooking Methods
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: food-article-deficiencies
+NAME: Nutritional Deficiencies in Survival
+SOURCE: https://www.mayoclinic.org/diseases-conditions/vitamin-deficiency-anemia/symptoms-causes/syc-20355025

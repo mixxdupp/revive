@@ -17,11 +17,11 @@ extension ContentDatabase {
             TriageOption(id: "human-riot", label: "Civil Unrest / Riot", icon: "person.3.fill", destination: .nextQuestion(
                 TriageNode(id: "human-riot-q", question: "Location?", options: [
                     TriageOption(id: "human-riot-street", label: "On the Street", icon: "road.lanes", destination: .technique("psych-gray-man")),
-                    TriageOption(id: "human-riot-car", label: "In a Vehicle", icon: "car.fill", destination: .technique("env-vehicle-escape")), // Placeholder
-                    TriageOption(id: "human-riot-home", label: "At Home", icon: "house.fill", destination: .technique("shelter-barricade")) // Placeholder
+                    TriageOption(id: "human-riot-car", label: "In a Vehicle", icon: "car.fill", destination: .technique("env-vehicle-escape")),
+                    TriageOption(id: "human-riot-home", label: "At Home", icon: "house.fill", destination: .technique("shelter-barricade"))
                 ])
             )),
-            TriageOption(id: "human-stalk", label: "Being Followed", icon: "eye.fill", destination: .technique("psych-antisurveillance")), // Placeholder
+            TriageOption(id: "human-stalk", label: "Being Followed", icon: "eye.fill", destination: .technique("psych-antisurveillance")),
             
             // Learn More
             TriageOption(id: "human-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(

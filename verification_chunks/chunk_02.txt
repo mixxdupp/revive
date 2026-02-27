@@ -1,0 +1,792 @@
+=== FILE: fire.json ===
+
+ID: fire-bowdrill
+NAME: Bow Drill Fire
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Assemble 4 components: fireboard, spindle, bow, handhold.
+  STEP 2: Carve a notch in the fireboard to collect ember dust.
+  STEP 3: Wrap the bowstring around the spindle once.
+  STEP 4: Apply downward pressure with handhold and saw the bow back and forth.
+  STEP 5: When heavy smoke pours from the notch, stop. The ember is born.
+
+ID: fire-handdrill
+NAME: Hand Drill Fire
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a straight, dry spindle 18-24 inches long, pencil-thick.
+  STEP 2: Use the same fireboard setup as bow drill with V-notch.
+  STEP 3: Roll the spindle between your palms while pressing down.
+  STEP 4: Continue until ember forms in the notch dust.
+
+ID: fire-firesaw
+NAME: Fire Saw
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Split a dry bamboo or softwood piece lengthwise.
+  STEP 2: Cut a notch across the flat inner surface.
+  STEP 3: Saw a thin strip rapidly back and forth across the notch.
+  STEP 4: The accumulated dust ignites into an ember. Transfer to tinder.
+
+ID: fire-ferrorod
+NAME: Ferro Rod (Firesteel)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Prepare a tinder bundle of dry, fine material.
+  STEP 2: Hold the rod against the tinder. Pull the striker BACK toward you.
+  STEP 3: Strike firmly with fast, controlled strokes.
+  STEP 4: Once tinder catches, gently blow and transfer to fire lay.
+
+ID: fire-flint-steel
+NAME: Flint & Steel
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Find flint, quartz, or any hard glassy stone.
+  STEP 2: Strike the steel (knife spine) against the sharp stone edge.
+  STEP 3: Direct sparks onto charcloth or very fine tinder.
+  STEP 4: Transfer the glowing ember to tinder bundle and blow to flame.
+
+ID: fire-magnifying
+NAME: Solar Fire (Lens Method)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Use any convex lens: glasses, binoculars, camera lens, water-filled bag.
+  STEP 2: Focus the smallest possible bright dot on dark tinder.
+  STEP 3: Hold steady. The tinder will begin to smoke, then glow.
+  STEP 4: Transfer the ember to a tinder bundle and blow to flame.
+
+ID: fire-ice-lens
+NAME: Fire from Ice Lens
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Find or make a piece of clear ice 2-3 inches thick.
+  STEP 2: Shape into a lens by carving with a knife — thicker in center, thinner at edges.
+  STEP 3: Polish the surfaces smooth using your warm hands.
+  STEP 4: Focus sunlight through the ice lens onto dark tinder.
+
+ID: fire-teepee
+NAME: Teepee Fire Lay
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Place tinder bundle on the ground (dry leaves, bark shavings, grass).
+  STEP 2: Lean small twigs (pencil-lead thin) against each other in a cone over the tinder.
+  STEP 3: Add progressively larger sticks maintaining the cone shape.
+  STEP 4: Light the tinder through the opening at the base.
+
+ID: fire-log-cabin
+NAME: Log Cabin Fire Lay
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Lay 2 parallel sticks on the ground, 1 foot apart.
+  STEP 2: Stack 2 more sticks perpendicular on top, forming a square.
+  STEP 3: Continue stacking 3-4 layers high. Place tinder in the center hollow.
+  STEP 4: Light the center tinder. The structure burns inward and collapses into coals.
+
+ID: fire-lean-to
+NAME: Lean-To Fire Lay
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Push a thick green stick into the ground at a 30° angle, pointing into the wind.
+  STEP 2: Place tinder bundle under the lean-to stick.
+  STEP 3: Lean small kindling against the support stick, covering the tinder.
+  STEP 4: Light the tinder from the open side. Add larger sticks as it grows.
+
+ID: fire-long-fire
+NAME: Long Fire (All-Night Fire)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find 2 green logs, 6 inches thick and as long as your body.
+  STEP 2: Lay them parallel, 6-8 inches apart.
+  STEP 3: Build a small teepee fire in the gap to ignite the logs.
+  STEP 4: Sleep parallel to the fire, 2-3 feet away.
+
+ID: fire-dakota-hole
+NAME: Dakota Fire Hole
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Dig a hole 1 foot wide and 1 foot deep.
+  STEP 2: Dig a second hole 1 foot away, connected by a tunnel.
+  STEP 3: The air tunnel should face the prevailing wind.
+  STEP 4: Build fire in the main hole. The forced air creates intense heat.
+
+ID: fire-battery
+NAME: Battery & Steel Wool Fire
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Stretch steel wool into a thin, loose pad.
+  STEP 2: Touch both terminals of a 9V battery to the steel wool.
+  STEP 3: The steel wool will glow and burn rapidly.
+  STEP 4: Transfer to tinder bundle immediately.
+
+ID: fire-wet-conditions
+NAME: Starting Fire in Rain
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find dry tinder UNDER things: bark, overhangs, dead standing trees.
+  STEP 2: Split wet wood to expose the dry interior.
+  STEP 3: Build the fire on a platform of sticks above wet ground.
+  STEP 4: Use fatwood (resinous pine heartwood) — it burns even when wet.
+  STEP 5: Shield with your body and a covering while establishing the fire.
+
+ID: fire-extinguish
+NAME: Properly Extinguishing a Fire
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Let the fire burn down to coals — stop adding fuel well before departure.
+  STEP 2: Sprinkle water on the coals — do NOT dump.
+  STEP 3: Stir the ashes and wet every surface.
+  STEP 4: Hold your hand over the ashes at 6 inches. If warm, repeat.
+
+ID: fire-fire-plow
+NAME: Fire Plow
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Find a flat softwood board and a hardwood shaft.
+  STEP 2: Cut a groove 8 inches long in the board.
+  STEP 3: Rub the shaft back and forth rapidly in the groove.
+  STEP 4: Fine wood dust accumulates at the end—it will ignite.
+
+ID: fire-chemical
+NAME: Potassium Permanganate Fire
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Place a small pile of potassium permanganate on dry surface.
+  STEP 2: Add a few drops of glycerin (antifreeze works too).
+  STEP 3: Stand back—the mixture will spontaneously ignite.
+
+ID: fire-ember-carrier
+NAME: Carrying Fire / Ember Transport
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Place hot coal in bundle of dry punk wood or fungus.
+  STEP 2: Wrap in green leaves to insulate and contain.
+  STEP 3: Blow gently to feed ember when needed.
+  STEP 4: At new camp: place in tinder bundle, blow to flame.
+
+ID: fire-feather-stick
+NAME: Feather Stick Making
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Split a dead stick to expose dry interior.
+  STEP 2: Shave thin curls along stick — don't cut them off.
+  STEP 3: Make many curls — more surface area = better.
+  STEP 4: Light the curls. They ignite even in wet conditions.
+
+ID: fire-pine-torch
+NAME: Pine Resin Torch
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Collect pine resin from wounds on pine or spruce trees.
+  STEP 2: Wrap resin-soaked cloth or bark around the end of a green stick.
+  STEP 3: Light the torch. Burns 20-40 minutes with bright flame.
+
+ID: fire-charcloth
+NAME: Making Charcloth
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Cut 100% cotton fabric (t-shirt, jeans) into 2-inch squares.
+  STEP 2: Place cloth in a sealed metal tin with a small hole punched in the lid.
+  STEP 3: Place tin in fire. Smoke will jet from the hole. When smoke stops, remove tin.
+  STEP 4: Result: black, fragile cloth that catches the smallest spark.
+
+ID: fire-piston
+NAME: Fire Piston
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Place a small piece of charcloth or tinder fungus in the piston cup.
+  STEP 2: Ram the piston into the cylinder with one sharp stroke.
+  STEP 3: Quickly withdraw the piston. Transfer glowing ember to tinder bundle.
+
+ID: fire-plow
+NAME: Fire Plow Method
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Carve a groove 6-8 inches long in a softwood base board.
+  STEP 2: Use a hardwood stick to rapidly push back and forth in the groove.
+  STEP 3: Hot wood dust accumulates at the end of the groove.
+  STEP 4: Transfer ember to tinder bundle and blow to flame.
+
+ID: fire-saw
+NAME: Fire Saw Method
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Split a dry bamboo segment lengthwise.
+  STEP 2: Carve a small notch in the base piece. Place tinder underneath.
+  STEP 3: Saw the edge of the second piece rapidly across the notch.
+  STEP 4: Hot dust falls through notch onto tinder. Blow to flame.
+
+ID: fire-reflector-wall
+NAME: Fire Reflector Wall
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Stack green logs or flat rocks into a wall behind your fire.
+  STEP 2: Angle the wall slightly toward your shelter for maximum heat reflection.
+  STEP 3: Sit or sleep between the fire and your shelter — heat from both sides.
+
+ID: fire-waterproof-kit
+NAME: Waterproof Tinder Kit
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Coat cotton balls in petroleum jelly (Vaseline).
+  STEP 2: Dip wooden matches in melted wax for waterproofing.
+  STEP 3: Store charcloth in a sealed container with your ferro rod.
+  STEP 4: Add a birthday candle — guaranteed flame for 60 seconds.
+
+ID: fire-fatwood-id
+NAME: Fatwood Identification
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Look for dead pine/spruce stumps with resin-saturated heartwood.
+  STEP 2: Split the stump to find the resin-saturated core.
+  STEP 3: Shave thin curls for tinder. Fatwood ignites with a single spark.
+
+ID: fire-birch-bark
+NAME: Birch Bark Fire Starting
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Peel thin, papery bark from dead or fallen birch trees.
+  STEP 2: Shred or crumple the bark into a loose nest for tinder.
+  STEP 3: Ignite with spark or match. Bark burns hot and long enough to light kindling.
+
+ID: fire-star-fire
+NAME: Star Fire Configuration
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Arrange 4-6 large logs in a star pattern with ends meeting at center.
+  STEP 2: Light a small fire at the center where the logs meet.
+  STEP 3: Push logs inward as they burn. No chopping required.
+
+ID: fire-keyhole-fire
+NAME: Keyhole Fire (Cooking Fire)
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Dig or build a keyhole shape: circle for main fire, narrow channel for cooking.
+  STEP 2: Build main fire in the circular area. Let it produce coals.
+  STEP 3: Rake hot coals into the narrow channel for controlled cooking.
+
+ID: fire-trench-fire
+NAME: Trench Fire
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a narrow trench 12 inches deep, 8 inches wide, oriented into the wind.
+  STEP 2: Build fire at the downwind end of the trench.
+  STEP 3: Lay sticks or a grill across the trench for cooking.
+
+ID: fire-hand-sanitizer
+NAME: Hand Sanitizer Fire Starter
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Squeeze a quarter-sized amount of hand sanitizer onto your tinder bundle.
+  STEP 2: Ignite with spark, match, or lighter. The gel burns for 30-60 seconds.
+  STEP 3: Add kindling while the gel is burning.
+
+ID: fire-vaseline-cotton
+NAME: Vaseline Cotton Ball Fire Starter
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Work petroleum jelly thoroughly into a cotton ball.
+  STEP 2: Pull the cotton ball apart slightly to expose dry fibers.
+  STEP 3: Ignite the dry fibers. The flame will spread to the petroleum-soaked portion.
+
+ID: fire-in-snow
+NAME: Fire on Snow
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a platform of green logs laid side by side on the snow.
+  STEP 2: Add a second layer of logs perpendicular to the first.
+  STEP 3: Build your fire on top of the platform using dry dead wood.
+
+ID: fire-in-wind
+NAME: Fire in High Wind
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Build a windbreak from rocks, logs, or earth on the windward side.
+  STEP 2: Use a top-down fire lay: large logs on bottom, smaller fuel on top.
+  STEP 3: Feed fire from the downwind side. Keep fuel low profile.
+
+ID: fire-signal-maintenance
+NAME: Signal Fire Maintenance
+SOURCE: https://www.uscgboating.org
+  STEP 1: Pre-build 3 signal fire platforms in a triangle, 100 feet apart.
+  STEP 2: Cover each platform with a waterproof layer (bark, tarp, or leaves).
+  STEP 3: Prepare green branches or oil-soaked material for smoke production.
+
+ID: fire-concealed
+NAME: Concealed Fire (Low Signature)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Use a Dakota fire hole or deep trench to hide the flame below ground.
+  STEP 2: Burn only dry hardwood to minimize smoke.
+  STEP 3: Use a dispersal cover (branches with leaves) above the fire pit.
+
+ID: fire-upside-down
+NAME: Upside-Down Fire (Self-Feeding)
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Lay largest logs on the bottom in a tight row.
+  STEP 2: Stack progressively smaller wood in layers, perpendicular to the layer below.
+  STEP 3: Light the tinder on top. Fire burns downward through layers.
+
+ID: fire-bamboo-fire-saw
+NAME: Bamboo Fire Saw
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Split a dry bamboo section in half lengthwise.
+  STEP 2: Cut a notch in the flat side of the hearth half. Place tinder beneath.
+  STEP 3: Rapidly saw the edge of the saw half back and forth across the notch.
+
+ID: fire-chocolate-can
+NAME: Chocolate & Can Fire
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Apply chocolate or toothpaste to the bottom of an aluminum can.
+  STEP 2: Polish in circular motions for 20-30 minutes until mirror-reflective.
+  STEP 3: Aim the polished bottom at the sun. Focus the light point onto tinder.
+
+ID: fire-fuel-stages
+NAME: Fire Fuel Stage Management
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Gather tinder: pencil-lead thin, bone dry, catches from spark.
+  STEP 2: Gather kindling: pencil to finger thickness, catches from tinder flame.
+  STEP 3: Gather fuel: wrist thickness and larger, sustains the fire.
+  STEP 4: Progress through stages: tinder → kindling → fuel. Never skip.
+
+ID: fire-insect-repellent
+NAME: Smoky Fire for Insect Repellent
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a small fire and let it burn down to coals.
+  STEP 2: Add green leaves, damp grass, or punky wood to produce thick smoke.
+  STEP 3: Use a smudge pot (fire in a can or container) for portable smoke.
+
+ID: fire-char-rope
+NAME: Char Rope Making
+SOURCE: https://www.animatedknots.com/
+  STEP 1: Find natural fiber rope: cotton, jute, hemp, or sisal.
+  STEP 2: Place rope in a metal container with a small vent hole. Cook in fire.
+  STEP 3: Test: char rope should catch a spark and glow for extended time.
+
+ID: fire-jute-twine
+NAME: Jute Twine Fire Starter
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Cut 6-8 inches of jute twine and unravel the strands.
+  STEP 2: Fluff the separated fibers into a bird's nest shape.
+  STEP 3: Strike a ferro rod downward into the center of the nest.
+
+ID: fire-fire-bundle
+NAME: Fire Bundle Transport
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Wrap a glowing coal in dry grass, bark, or punky wood.
+  STEP 2: Enclose the wrapped coal in green bark or large green leaves.
+  STEP 3: Blow gently on the bundle every 15-20 minutes to keep the ember alive.
+
+ID: fire-safety-perimeter
+NAME: Fire Safety Perimeter
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Clear all flammable material in a 10-foot circle around the fire pit.
+  STEP 2: Build a ring of rocks around the fire pit.
+  STEP 3: Keep water or loose soil staged nearby for emergency extinguishing.
+
+ID: fire-pump-drill
+NAME: Pump Drill Fire
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Carve a spindle 12-18 inches long, pointed at the bottom, with a hole drilled through the top.
+  STEP 2: Create a flywheel — a flat, heavy disc (stone or hardwood) drilled through the center and threaded onto the spindle.
+  STEP 3: Attach a crossbar with cordage wound around the spindle above the flywheel.
+  STEP 4: Prepare a fireboard with a socket and notch, exactly like a bow drill setup.
+  STEP 5: Pump the crossbar rhythmically. Increase speed gradually until ember forms in the notch.
+
+ID: fire-resin-collection
+NAME: Pine Resin Collection
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find coniferous trees (pine, spruce, fir) with visible resin deposits — look for amber-colored lumps on bark.
+  STEP 2: Scrape resin off the bark using a knife blade, stick, or flat rock. Collect on a leaf or bark piece.
+  STEP 3: Mix crumbled resin with dry materials: bark fiber, cotton, dryer lint, or fine wood shavings.
+  STEP 4: Resin also works as a standalone fire extender — press lumps directly onto burning tinder.
+  STEP 5: Store extra resin in a bark pouch or wrap. It stays effective indefinitely when dry.
+
+ID: fire-char-material
+NAME: Char Material Preparation
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Cut 100% cotton cloth into 2-inch squares. Pack loosely into a small metal tin with a tight lid.
+  STEP 2: Punch a small hole in the tin lid — this allows gas to escape without letting oxygen in.
+  STEP 3: Place the tin on hot coals or near flames. Smoke will vent from the hole.
+  STEP 4: When smoke stops, remove from heat. DO NOT open until completely cool.
+  STEP 5: Good char cloth is jet black, holds its shape, and catches a spark instantly.
+
+ID: fire-wet-wood-processing
+NAME: Wet Wood Processing
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Never use wood from the ground in wet conditions — it absorbs moisture like a sponge.
+  STEP 2: Split wet wood to expose the dry interior. Even soaked logs have dry centers.
+  STEP 3: Shave feather sticks from the dry inner wood — thin curls that catch fire easily.
+  STEP 4: Collect birch bark — it contains oils that burn even when wet.
+  STEP 5: Use a 'fire sandwich': lay wet wood near the fire to dry while burning dry wood. Rotate as wood dries.
+
+ID: fire-fire-plough
+NAME: Fire Plough
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Select a soft baseboard — dead hibiscus, willow, cedar, or cottonwood. Must be bone-dry.
+  STEP 2: Carve a straight groove down the center, 12 inches long, 1/4 inch deep.
+  STEP 3: Select a hardwood rubbing stick — the tip should be rounded, not pointed.
+  STEP 4: Rub the stick back and forth in the groove with downward pressure and increasing speed.
+  STEP 5: Hot dust accumulates at the end of the groove. When it begins to smoke consistently, tip onto tinder bundle.
+
+ID: fire-coal-burning-container
+NAME: Coal-Burned Container
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a log section of appropriate size — green or slightly dry hardwood works best.
+  STEP 2: Place a hot coal from your fire on the surface where you want to hollow.
+  STEP 3: Blow gently on the coal to maintain heat. Add new coals as needed.
+  STEP 4: Scrape away charred wood with a sharp stone or shell. Repeat: burn, scrape, burn, scrape.
+  STEP 5: Control the burn area with wet clay or mud paste around the edges of the desired shape.
+
+ID: fire-rain-fire-management
+NAME: Fire Management in Rain
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Build your fire on a raised platform of green logs if ground is saturated.
+  STEP 2: Create a rain cover: lean a bark slab or tarp at an angle over the fire, high enough to avoid catching fire.
+  STEP 3: Maintain a larger fire than usual — more mass resists rain extinguishment.
+  STEP 4: Store dry firewood NEAR the fire (not on it) to keep it dry. Under a tarp or sheltered overhang.
+  STEP 5: If fire dies to coals, protect the coal bed from rain and rebuild with feather sticks and dry tinder.
+
+ID: fire-fire-safety-camp
+NAME: Camp Fire Safety
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Clear all leaves, needles, and dry debris in a 10-foot diameter circle around the fire.
+  STEP 2: Build a fire ring from rocks — do NOT use river rocks (they can explode from trapped moisture).
+  STEP 3: Keep the fire only as large as you need. A fist-sized fire boils water; a torso-sized fire heats a shelter.
+  STEP 4: Never leave a fire unattended. When leaving, drown it — stir — drown again — feel with hand.
+  STEP 5: In windy conditions, keep fire LOW or dig a Dakota fire hole to contain flames.
+
+ID: fire-pine-pitch-torch
+NAME: Pine Pitch Torch
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Find a fatwood source — the resin-saturated heartwood of dead pine stumps.
+  STEP 2: Split fatwood into a bundle of sticks about 12 inches long and finger-thickness.
+  STEP 3: Alternatively: wrap cloth around a green stick and soak with melted pine resin.
+  STEP 4: Light the torch — fatwood ignites from a match, ferro rod, or existing fire. Burns with a bright, smoky flame.
+  STEP 5: To extinguish: press the burning end into dirt or sand. Do NOT stomp — this scatters burning material.
+
+ID: fire-two-person-bow-drill
+NAME: Two-Person Bow Drill
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Person 1 holds the bearing block on top of the spindle and provides downward pressure.
+  STEP 2: Person 2 operates the bow with long, full-length strokes.
+  STEP 3: Communication: call 'more pressure' or 'faster' as smoke increases.
+  STEP 4: When thick smoke pours from the notch, Person 2 increases to maximum speed for 10 final strokes.
+  STEP 5: Person 1 carefully lifts the spindle. Person 2 gently fans the coal in the notch, then transfers to tinder bundle.
+
+ID: fire-fire-cement
+NAME: Fire-Proof Cement
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Mix clay soil with grass, straw, or animal hair in a 3:1 ratio (clay to fiber).
+  STEP 2: Add water until the mixture has a thick, workable consistency — like cookie dough.
+  STEP 3: Apply the mixture as mortar between rocks in a fire ring or chimney structure.
+  STEP 4: Let it air-dry for 24 hours before exposing to fire. Slow drying prevents cracking.
+  STEP 5: A small initial fire 'fires' the clay like pottery, making it permanent and waterproof.
+
+ID: fire-steel-wool-battery
+NAME: Steel Wool & Battery Fire
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Pull apart fine-grade steel wool (0000 grade) into a loose, airy ball about fist-sized.
+  STEP 2: Use a 9V battery (ideal) or any battery 3V+. Touch both terminals to the steel wool simultaneously.
+  STEP 3: The steel wool glows orange and burns quickly. Have your tinder bundle ready beneath.
+  STEP 4: No steel wool? Any fine metal strand works: picture wire, wire brush strands, metal scrubbing pads.
+  STEP 5: This method works in rain and wind — the chemical reaction doesn't require the spark to catch. Just contact.
+
+ID: fire-fire-bundle-carry
+NAME: Carrying Fire
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: Create a fire bundle: wrap a glowing coal in dry grass, bark fiber, or punk wood.
+  STEP 2: Enclose the bundle in a larger layer of green leaves or bark to insulate and protect.
+  STEP 3: Carry the bundle carefully. Blow on it gently every 15-20 minutes to maintain the ember.
+  STEP 4: A hollowed-out log section or large conch shell works as a portable fire carrier.
+  STEP 5: When you arrive: unwrap the bundle, place the ember in a tinder nest, and blow into flame.
+
+ID: fire-underground-fire
+NAME: Underground Fire (Dakota Hole)
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Dig a main fire pit — 12 inches wide, 12 inches deep. Flare the bottom slightly wider.
+  STEP 2: Dig a ventilation tunnel angled from 12 inches upwind to the bottom of the fire pit.
+  STEP 3: Build your fire in the bottom of the main pit. Start small and build up.
+  STEP 4: Advantages: minimal smoke, low visibility, wind-resistant, concentrated heat for cooking.
+  STEP 5: Place a flat rock or green wood grill across the top for cooking. The pit concentrates heat upward.
+
+ID: fire-magnifying-glass
+NAME: Magnifying Glass Fire
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Any convex lens works: magnifying glass, binocular lens, eyeglasses (farsighted only), camera lens, water-filled bag.
+  STEP 2: Prepare the finest, darkest tinder available. Char cloth is ideal. Dark materials absorb more energy.
+  STEP 3: Angle the lens between the sun and the tinder. Move lens closer/farther until the light dot is smallest.
+  STEP 4: Hold the focal point still on the tinder. Within 10-60 seconds, it will begin to smoke and glow.
+  STEP 5: Once glowing, transfer the ember to a tinder bundle and blow gently into flame.
+
+ID: fire-birch-bark-uses
+NAME: Birch Bark Fire Uses
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Birch bark contains betulin oil — naturally waterproof and highly flammable even when wet.
+  STEP 2: Peel thin layers from dead or fallen birch — NEVER strip bark from a living tree (it kills the tree).
+  STEP 3: Thin sheets: light directly as tinder. They curl while burning, creating excellent fire starters.
+  STEP 4: Thick rolls: create birch bark torches by rolling tightly and binding with cordage.
+  STEP 5: Birch bark also works as container, roofing, writing material, and waterproof wrapping.
+
+ID: fire-night-fire-management
+NAME: Night Fire Management
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Build a large coal bed before sleeping — feed the fire heavily with hardwood 30 minutes before bedtime.
+  STEP 2: Use the long-log method: place 2-3 large logs side by side on the coal bed.
+  STEP 3: Bank the fire: push ash and coals against the logs on the sleeping side. Reduce open flames.
+  STEP 4: Set a mental alarm or buddy system to check the fire every 2-3 hours.
+  STEP 5: In morning: rake the coals apart, add fine kindling, blow gently to reignite.
+
+ID: fire-chemical-permanganate
+NAME: Permanganate & Sugar
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Potassium Permanganate (purple water purification crystals) produces severe exothermic reactions when mixed with certain organic compounds or sugars.
+  STEP 2: Place one teaspoon of Potassium Permanganate crystals onto a flat, dry rock.
+  STEP 3: Add an equal amount of granulated sugar to the pile of purple crystals.
+  STEP 4: Grind the two powders together vigorously using a smooth, blunt stick.
+  STEP 5: Step back instantly as soon as it begins to smoke.
+
+ID: fire-chemical-brake-fluid
+NAME: Brake Fluid & Pool Shock
+SOURCE: https://openlibrary.org/isbn/9780062378071
+  STEP 1: WARNING: This combination produces violently toxic chlorine gas before combusting.
+  STEP 2: Pool shock relies on Calcium Hypochlorite (a massive oxidizer). Brake fluid relies on Polyethylene Glycol.
+  STEP 3: Pour 2 tablespoons of Calcium Hypochlorite onto a dry piece of cardboard or wood.
+  STEP 4: Pour 1 tablespoon of DOT-3 or DOT-4 brake fluid directly onto the powder.
+  STEP 5: Run immediately upwind.
+
+ID: fire-char-cloth
+NAME: Making Char Cloth
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Char cloth is 100% natural cotton (like an old t-shirt or denim) that has been baked in the absence of oxygen.
+  STEP 2: Cut your 100% cotton fabric into 2-inch squares.
+  STEP 3: Place the tin directly onto the glowing coal bed of an established fire.
+  STEP 4: Wait until the smoke completely stops jetting out of the hole (about 5-10 minutes).
+  STEP 5: Let the tin cool completely to the touch.
+
+ID: fire-flint-steel-traditional
+NAME: Traditional Flint & Steel
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Obtain a piece of high-carbon steel (an old file, the spine of a carbon steel knife, or a dedicated striker).
+  STEP 2: Find a hard, sharp-edged stone: flint, chert, jasper, agate, or quartz.
+  STEP 3: Place a piece of char cloth directly on top of the sharp edge of the flint.
+  STEP 4: Strike the steel downward against the sharp edge of the flint at a glancing 30-degree angle.
+  STEP 5: When a spark catches on the char cloth (it will glow orange), transfer it to a tinder bundle and blow.
+
+ID: fire-coal-carry-fungus
+NAME: Fire Carry with Fungus
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Amadou (horse hoof fungus, Fomes fomentarius) is the premier fire-carrying material.
+  STEP 2: Cut the fungus in half and extract the inner trama layer.
+  STEP 3: Touch a glowing ember to the amadou sheet.
+  STEP 4: Wrap the smoldering amadou inside dry grass or bark to insulate it.
+  STEP 5: To restart your fire: unwrap the amadou, blow on it until it glows, place it in a tinder bundle.
+
+ID: fire-slow-match
+NAME: Slow Match Fire Cord
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+  STEP 1: Tightly twist or braid a rope from fibrous bark (cedar, tulip poplar) or cattail.
+  STEP 2: Soak the cord in a saltpeter (potassium nitrate) solution if available.
+  STEP 3: Dry the cord completely.
+  STEP 4: Light one end.
+  STEP 5: Coil the smoldering cord and carry it.
+
+ID: fire-coal-extender
+NAME: Coal Extender Bundle
+SOURCE: https://openlibrary.org/isbn/9781440579776
+  STEP 1: Select a large, solid hardwood coal from your campfire.
+  STEP 2: Wrap the coal in a thick layer of green leaves (non-toxic species).
+  STEP 3: Wrap the leaf bundle in a thick layer of dry grass or bark.
+  STEP 4: Wrap the entire package in wet clay or mud.
+  STEP 5: The bundle can keep a coal alive for 6-12 hours.
+
+ID: fire-wood-gasifier
+NAME: Improvised Wood Gasifier
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Find two nested cans.
+  STEP 2: Puncture the outer can.
+  STEP 3: Puncture the inner can.
+  STEP 4: Nest and ignite.
+
+ID: fire-ember-extension
+NAME: Ember Extension & Transport
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Select punk wood or cattail
+  STEP 2: Place ember in tinder bundle
+  STEP 3: Carry in a fire horn
+  STEP 4: Fan to flame at destination
+
+ID: fire-fatwood-harvesting
+NAME: Fatwood Identification & Harvesting
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Locate dead standing pine or conifer
+  STEP 2: Split stump or root junction
+  STEP 3: Shave fine curls
+  STEP 4: Ignite with single spark
+
+ID: fire-char-cloth-production
+NAME: Char Cloth Production
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Cut 100% cotton into 2-inch squares
+  STEP 2: Place in sealed tin with small hole
+  STEP 3: Place tin in fire for 15 minutes
+  STEP 4: Remove and seal hole
+
+ID: fire-ferro-rod-technique
+NAME: Ferro Rod Technique
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Scrape off black coating first
+  STEP 2: Push rod away, not scraper
+  STEP 3: Direct sparks into fine tinder
+  STEP 4: Shield from wind
+
+ID: fire-fire-piston
+NAME: Fire Piston Ignition
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Prepare char cloth or tinder fungus on piston tip
+  STEP 2: Insert piston into cylinder
+  STEP 3: Strike piston sharply downward
+  STEP 4: Quickly extract ember
+
+ID: fire-platform-base
+NAME: Wet Ground Fire Platform
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Lay a platform of green logs
+  STEP 2: Add a layer of bark or stones
+  STEP 3: Build fire on top of platform
+  STEP 4: Replace platform logs as needed
+
+ID: fire-swedish-torch
+NAME: Swedish Torch (Log Candle)
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Select a dry log 12-18 inches tall
+  STEP 2: Split into quarters with an axe
+  STEP 3: Insert tinder in the center cracks
+  STEP 4: Light from the center
+
+ID: fire-bank-fire-overnight
+NAME: Banking a Fire for Overnight Burn
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Build a thick coal bed
+  STEP 2: Cover coals with ash
+  STEP 3: Place a large green log on top
+  STEP 4: Uncover and add tinder in the morning
+
+ID: fire-signal-smoke-colors
+NAME: Signal Fire Smoke Control
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: White smoke for dark backgrounds
+  STEP 2: Black smoke for light/snow backgrounds
+  STEP 3: Three fires in triangle = distress
+  STEP 4: Time with clear skies
+
+ID: fire-underground-flue
+NAME: Underground Heating Flue
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Dig a shallow trench
+  STEP 2: Cover trench with flat stones
+  STEP 3: Build fire at intake end
+  STEP 4: Lay insulation and bedding on heated stones
+
+ID: fire-fire-from-battery
+NAME: Fire from Batteries (Any Type)
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Find a battery and any thin conductive material: steel wool, foil gum wrapper, or wire.
+  STEP 2: Steel wool method: touch both battery terminals to fine steel wool.
+  STEP 3: Gum wrapper method: cut the foil-backed wrapper into an hourglass shape (thin center).
+  STEP 4: Car battery: touch jumper cable ends together briefly near tinder.
+
+ID: fire-upside-down-fire
+NAME: Upside-Down (Top-Down) Fire
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Lay 3-4 large logs parallel on the ground as the base.
+  STEP 2: Stack medium logs perpendicular on top, then smaller pieces, then kindling and tinder on top.
+  STEP 3: Light the tinder on TOP.
+  STEP 4: The fire feeds itself as embers fall onto the next layer — burns 3-5 hours unattended.
+
+ID: fire-bow-drill-mastery
+NAME: Bow Drill Mastery — Complete Protocol
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Materials: fireboard and spindle from SOFT dry wood (willow, cottonwood, cedar). They must match.
+  STEP 2: Bow: curved stick with cordage (shoelace, paracord, bark strip). Wrap once around spindle.
+  STEP 3: Carve a V-notch in the fireboard with a depression where the spindle sits. Place tinder below the notch.
+  STEP 4: Bear down with socket, saw bow rapidly. Smoke = keep going. Stop after dark brown dust pill forms in the notch.
+
+ID: fire-hand-drill-technique
+NAME: Hand Drill Fire Starting
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Select a straight, dry spindle: cattail, mullein, yucca stalk, or sotol. 18 inches long.
+  STEP 2: Fireboard: flat piece of dry softwood with a depression and V-notch.
+  STEP 3: Spin the spindle between your palms, pressing down as you roll.
+  STEP 4: Key technique: 'float' your pressure — heavy at first, lighter as smoke appears.
+
+ID: fire-rocket-stove
+NAME: Improvised Rocket Stove
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Build an L-shaped combustion chamber from rocks, bricks, cans, or clay.
+  STEP 2: Insulate the outside of the chimney with mud, earth, or double walls.
+  STEP 3: Feed small sticks into the horizontal opening. Fire burns intensely at the elbow where channels meet.
+  STEP 4: Cooking pot sits directly on top of the chimney.
+
+ID: fire-tinder-collection
+NAME: Tinder Collection & Storage Guide
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Best tinders: birch bark, fatwood shavings, char cloth, dried grass, cattail fluff, cedar bark.
+  STEP 2: Medium tinders: dryer lint, steel wool, cotton balls with petroleum jelly, birch polypore fungus.
+  STEP 3: Collect and DRY tinder continuously — even when you don't need fire.
+  STEP 4: Wet environment: look INSIDE standing dead trees, under bark, and in bird nests.
+
+ID: fire-fire-lay-types
+NAME: Fire Lay Configurations
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Teepee: kindling leaned together in a cone shape — best for starting fires and quick heating.
+  STEP 2: Log cabin: alternating layers of parallel sticks — burns hot and produces excellent coals.
+  STEP 3: Star fire: long logs radiating from central point — push inward as they burn.
+  STEP 4: Long fire: two parallel logs with fire between — radiates heat along the entire length.
+
+ID: fire-wet-wood-fire
+NAME: Starting Fire with Wet Wood
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Find the DRIEST material first: inside standing dead trees, under bark, in the center of dead branches.
+  STEP 2: Baton (split) larger pieces to expose dry interior wood.
+  STEP 3: Create feather sticks: shave thin curls along a dry stick without detaching them.
+  STEP 4: Build a platform of wet sticks to elevate your fire off the wet ground.
+
+ID: fire-flint-and-steel
+NAME: Traditional Flint and Steel
+SOURCE: https://www.harpercollins.com/products/sas-survival-handbook-third-edition-john-lofty-wiseman
+  STEP 1: Obtain a piece of high-carbon steel (like an old file or a dedicated striker) and a hard, sharp-edged rock (flint, chert, or quartz).
+  STEP 2: Prepare true Char Cloth or amadou fungus.
+  STEP 3: Hold the rock and the char cloth in your non-dominant hand.
+  STEP 4: Strike the edge of the rock with the steel rapidly.
+
+ID: fire-fire-feather-stick
+NAME: Carving a Feather Stick
+SOURCE: https://en.wikipedia.org/wiki/Dave_Canterbury
+  STEP 1: Select a piece of straight-grained deadwood.
+  STEP 2: Lock your knife arm.
+  STEP 3: Slice extremely thin, long curls.
+  STEP 4: Build a 'tree' of curls.
+
+ID: fire-fire-birch-bark-prep
+NAME: White Birch Bark Ignition
+SOURCE: https://en.wikipedia.org/wiki/Dave_Canterbury
+  STEP 1: Harvest from dead/fallen trees first.
+  STEP 2: Process for sparks.
+  STEP 3: Ignite the dust.
+  STEP 4: Feed the flame.
+
+ID: fire-article-fuel
+NAME: Fuel Selection: Tinder, Kindling, Fuel
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-methods
+NAME: Fire-Starting Methods Compared
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-signaling
+NAME: Fire as a Signaling Tool
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-wet
+NAME: Fire in Wet Weather
+SOURCE: https://www.outdoorlife.com/survival/how-to-start-fire-in-rain/
+
+ID: fire-article-maintenance
+NAME: Fire Maintenance Through the Night
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-primitive
+NAME: The Science of Primitive Fire
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-wood-id
+NAME: Wood Identification for Fire
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-biomes
+NAME: Fire in Different Biomes
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-psychology
+NAME: Fire Psychology & Morale
+SOURCE: https://www.apa.org/topics/resilience
+
+ID: fire-article-chemical
+NAME: Chemical Fire Starters Guide
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-cooking
+NAME: Cooking Fire Configurations
+SOURCE: https://archive.org/search?query=FM+21-76+Survival+Manual
+
+ID: fire-article-wet-weather
+NAME: Fire in Wet Conditions
+SOURCE: https://www.outdoorlife.com/survival/how-to-start-fire-in-rain/
+
+ID: fire-article-safety
+NAME: Fire Safety in Wilderness
+SOURCE: https://smokeybear.com/en/prevention-how-tos/campfire-safety

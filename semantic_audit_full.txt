@@ -1,0 +1,1043 @@
+
+=======================================================
+ContentDatabase+TrappedTriage.swift
+=======================================================
+
+[NODE ID: trapped-root]
+Q: What do you need help with?
+
+[NODE ID: trapped-fracture-q]
+Q: Which body part?
+
+[NODE ID: trapped-shock-q]
+Q: Is the person conscious?
+  -> OPTION: Yes — Conscious
+     ✅ T: firstaid-shock | Prevent circulatory collapse
+
+[NODE ID: trapped-burn-type]
+Q: What caused the burn?
+
+[NODE ID: trapped-breath-q]
+Q: What's happening?
+  -> OPTION: Choking on Object
+     ✅ T: firstaid-choking | Clear airway obstruction in adults
+
+[NODE ID: trapped-vehicle-q]
+Q: Immediate danger?
+  -> OPTION: Fire / Smoke
+  -> OPTION: Pinned Inside
+     ✅ T: rescue-vehicle-signal | Turn your vehicle into a rescue beacon
+
+[NODE ID: trapped-rescue-q]
+Q: What do you need?
+
+[NODE ID: trapped-self-q]
+Q: What's your situation?
+  -> OPTION: Know the Way Out
+     ✅ T: rescue-self-evacuation | Decide when to stay put vs. self-rescue
+  -> OPTION: Follow Water Downhill
+     ✅ T: nav-following-water | Streams → rivers → towns
+  -> OPTION: Mark Path for Rescuers
+     ✅ T: rescue-leave-trail | Breadcrumbs that save your life
+  -> OPTION: Escape Building (Fire / Collapse)
+     ✅ T: rescue-urban-escape | Evacuate a compromised building safely
+  -> OPTION: Fell Into Crevasse
+     ✅ T: rescue-self-rescue-crevasse | Climb out of a crevasse using prusik knots and self-rescue technique
+
+[NODE ID: trapped-terrain-q]
+Q: What's blocking you?
+  -> OPTION: Swamp / Wetland
+     ✅ T: env-swamp-survival | Navigate insects, mud, and hidden dangers
+
+[NODE ID: trapped-waterrescue-q]
+Q: What's happening?
+  -> OPTION: Drowning — Reach / Throw
+     ✅ T: rescue-water-rescue-reach | Rescue a drowning person without becoming a victim yourself
+  -> OPTION: Person Fell Overboard
+     ✅ T: rescue-man-overboard | Immediate actions when someone falls into the water from a vessel
+
+[NODE ID: trapped-transport-q]
+Q: How many helpers?
+
+[NODE ID: trapped-psych-q]
+Q: What do you need?
+  -> OPTION: STOP Method (First Steps)
+     ✅ T: psych-stop-method | Stop, Think, Observe, Plan
+  -> OPTION: Decision Fatigue
+     ✅ T: psych-decision-fatigue | When you're too tired to think straight
+
+[NODE ID: trapped-tools-q]
+Q: What do you need to make?
+
+[NODE ID: tool-bone-q]
+Q: What material?
+
+[NODE ID: trapped-needs]
+Q: What do you need most?
+
+[NODE ID: trap-learn-q]
+Q: What would you like to read about?
+  -> OPTION: Survival Mindset
+  -> OPTION: Decision Making Under Stress
+  -> OPTION: Group Dynamics
+
+=======================================================
+ContentDatabase+AnimalTriage.swift
+=======================================================
+
+[NODE ID: animal-root]
+Q: What animal?
+  -> OPTION: Bear
+     ✅ T: env-bear-black | Dealing with black bears
+  -> OPTION: No — Back Away
+     ✅ T: env-bear-black-avoid | Intimidate and back away
+
+[NODE ID: an-bear-griz-q]
+Q: Is it attacking?
+  -> OPTION: Yes — Play Dead
+     ✅ T: env-bear-grizzly | Dealing with brown bears
+  -> OPTION: No — Back Away Slowly
+     ✅ T: env-bear-grizzly-avoid | De-escalate and retreat
+
+[NODE ID: an-insect-q]
+Q: Trouble breathing?
+  -> OPTION: Yes — Swelling / Wheezing
+     ✅ T: firstaid-anaphylaxis | Epinephrine + call emergency services immediately
+  -> OPTION: No — Just Pain/Itch
+     ✅ T: firstaid-sting-treat | Bee, Wasp, Ant (Non-Allergic)
+
+[NODE ID: an-snake-q]
+Q: Did it bite you?
+  -> OPTION: Yes — bitten
+     ✅ T: firstaid-snakebite | Stay calm, immobilize, evacuate
+  -> OPTION: No — Just saw it
+     ✅ T: env-snake-avoid | Step back and leave it alone
+
+[NODE ID: an-pred-q]
+Q: What animal?
+  -> OPTION: Mountain Lion / Cougar
+     ✅ T: env-cougar | Stalking predator defense
+  -> OPTION: Wolf Pack
+     ✅ T: env-wolf | Pack animal defense
+
+[NODE ID: an-rep-q]
+Q: Situation?
+  -> OPTION: See one nearby
+     ✅ T: env-alligator | Reptilian predator defense
+
+[NODE ID: an-bug-q]
+Q: What happened?
+  -> OPTION: Bitten (Spider/Scorpion)
+     ✅ T: firstaid-spider-bite | Identify and manage venomous arthropod envenomation
+  -> OPTION: Tick Attached
+     ✅ T: env-tick-removal | Safe removal to prevent disease
+
+[NODE ID: an-marine-q]
+Q: What animal?
+  -> OPTION: Shark
+     ✅ T: env-shark | Defense in water
+  -> OPTION: Jellyfish Sting
+     ✅ T: env-jellyfish | Neutralize venom
+
+[NODE ID: an-env-q]
+Q: What environment?
+  -> OPTION: Tropical Disease Risk
+     ✅ T: env-tropical-disease-adv | Avoiding malaria, dengue, and waterborne illness
+  -> OPTION: Desert Hazards
+     ✅ T: env-desert-travel | Move at night, shelter by day
+  -> OPTION: Night Travel
+     ✅ T: env-desert-night-adv | Navigate safely when the sun is down
+  -> OPTION: Desert Shelter
+     ✅ T: env-desert-shelter | Double-layer shade with air gap
+  -> OPTION: Finding Water
+     ✅ T: env-desert-water | Follow signs to hidden sources
+
+[NODE ID: an-jungle-q]
+Q: What do you need?
+  -> OPTION: Jungle Movement
+     ✅ T: env-jungle-movement | Navigate dense tropical forest without trails
+  -> OPTION: Jungle Travel
+     ✅ T: env-jungle-travel | Follow water, machete your path
+  -> OPTION: Jungle Shelter
+     ✅ T: env-jungle-shelter | Sleep off the ground away from insects and flooding
+  -> OPTION: Jungle Water Sources
+     ✅ T: env-jungle-travel | Follow water, machete your path
+
+[NODE ID: animal-learn-q]
+Q: What would you like to read about?
+  -> OPTION: Bites & Envenomation
+  -> OPTION: Jungle Medicine
+  -> OPTION: Desert Hazards
+  -> OPTION: Ocean Wildlife
+  -> OPTION: Mountain Wildlife
+
+=======================================================
+ContentDatabase+DisasterTriage.swift
+=======================================================
+
+[NODE ID: disaster-root]
+Q: What disaster are you facing?
+  -> OPTION: Earthquake
+  -> OPTION: I'm Indoors
+  -> OPTION: I'm Outdoors
+  -> OPTION: Earthquake Over — Now What?
+
+[NODE ID: dis-tor-q]
+Q: Where are you?
+  -> OPTION: In a Building
+     ✅ T: env-tornado-shelter | Protect yourself from tornado winds and debris
+  -> OPTION: Mobile Home
+     ✅ T: env-tornado-mobile | Get out immediately
+  -> OPTION: In a Vehicle
+     ✅ T: env-tornado-drive | Assess path and evade
+  -> OPTION: Too Close — Abandon Car
+     ✅ T: env-tornado-ditch | Last resort outdoor protection
+
+[NODE ID: dis-fire-q]
+Q: How close is the fire?
+  -> OPTION: Visible but Far Away
+     ✅ T: env-wildfire-monitor | Watch for wind shifts and embers
+  -> OPTION: Evacuating NOW
+     ✅ T: env-wildfire-evac | Survive and escape an approaching wildfire
+  -> OPTION: Which Way Is It Moving?
+     ✅ T: env-forest-fire-approach | Determine if a wildfire threatens your position
+
+[NODE ID: dis-flood-q]
+Q: What's your situation?
+
+[NODE ID: dis-flood-aft-q]
+Q: What do you need?
+  -> OPTION: Safe Drinking Water
+     ✅ T: env-flood-water-sanitation | Survive massive water contamination
+  -> OPTION: Disease Prevention
+     ✅ T: env-flood-waterborne-disease | Treat contaminated floodwater exposure
+  -> OPTION: Contamination / HAZMAT
+     ✅ T: env-flood-chem-triage | Survive the toxic slurry of urban flooding
+  -> OPTION: Building Safety Check
+     ✅ T: env-flood-structural-diagnostics | Assess building collapse risk during inundation
+  -> OPTION: Post-Flood Survival
+     ✅ T: env-post-flood | Hazards after floodwaters recede
+
+[NODE ID: dis-hurr-q]
+Q: What stage?
+  -> OPTION: Approaching — Prepare Now
+     ✅ T: env-hurricane-preparation | 72-hour advance preparation protocol
+
+[NODE ID: dis-cold-q]
+Q: What's your situation?
+  -> OPTION: Stranded / Caught Outdoors
+     ✅ T: env-blizzard | Survive whiteout and extreme cold
+  -> OPTION: At Home — No Power
+     ✅ T: env-ice-storm-outage | Survive extended power loss during ice storms
+  -> OPTION: Whiteout — Can't See
+     ✅ T: env-whiteout-navigation | Moving safely in zero-visibility snow conditions
+  -> OPTION: Fell Through Ice
+     ✅ T: env-ice-fall-through | Escape after falling through ice
+
+[NODE ID: dis-light-q]
+Q: Where are you?
+  -> OPTION: Open / Exposed Area
+     ✅ T: env-lightning-crouch | Minimizing strike probability in open terrain
+  -> OPTION: Mountain / Ridge
+     ✅ T: env-mountain-lightning | Get low, get small, get separate
+  -> OPTION: Forest / Near Trees
+     ✅ T: env-lightning-safety | Minimize lightning strike risk during thunderstorms
+  -> OPTION: Calculate Storm Distance
+     ✅ T: env-lightning-dist | Flash-to-Bang Calculation
+
+[NODE ID: dis-aval-q]
+Q: What's happening?
+
+[NODE ID: dis-volc-q]
+Q: What is the hazard?
+
+[NODE ID: dis-tsu-q]
+Q: What's happening?
+  -> OPTION: Warning Signs / Siren
+     ✅ T: env-tsunami-warning-signs | Natural warnings that give you minutes to act
+  -> OPTION: Earthquake Near Coast
+     ✅ T: env-tsunami-response | Recognize warning signs and reach high ground
+
+[NODE ID: dis-heat-q]
+Q: Any symptoms?
+
+[NODE ID: dis-land-q]
+Q: What's your situation?
+  -> OPTION: Inside a Building
+     ✅ T: env-landslide-indoor | Survive a debris flow inside a structure
+  -> OPTION: I'm Outdoors
+     ✅ T: env-landslide-outdoor | Evasive action for ground-level debris flows
+  -> OPTION: In a Vehicle
+     ✅ T: env-landslide-vehicle | Respond to a mudslide while driving
+
+[NODE ID: dis-wx-q]
+Q: What type?
+
+[NODE ID: dis-gnd-q]
+Q: What happened?
+
+[NODE ID: dis-nuc-q]
+Q: What is the threat?
+  -> OPTION: Nuclear Fallout — Shelter
+     ✅ T: env-nuclear-fallout-shelter | Maximize shielding from radioactive fallout
+  -> OPTION: Quick Fallout Protection
+     ✅ T: env-nuclear-fallout | Distance + Shielding + Time
+  -> OPTION: Chemical / HAZMAT Spill
+     ✅ T: env-hazmat-evac | Move crosswind and uphill
+
+[NODE ID: dis-sea-q]
+Q: What's happening?
+
+[NODE ID: dis-unr-q]
+Q: Your situation?
+
+=======================================================
+ContentDatabase+ShelterTriage.swift
+=======================================================
+
+[NODE ID: shelter-root]
+Q: What do you need?
+  -> OPTION: Temperate Forest
+     ✅ T: shelter-tarp-aframe | Classic rain protection
+
+[NODE ID: shelter-temp-nat-q]
+Q: What's around you?
+  -> OPTION: Lots of Leaves & Branches
+     ✅ T: shelter-debris-aframe | High insulation value for cold nights
+
+[NODE ID: shelter-cold-q]
+Q: What snow conditions?
+
+[NODE ID: shelter-hot-q]
+Q: What is your priority?
+  -> OPTION: Shade from Sun (Day)
+     ✅ T: shelter-shade-structure | Create life-saving shade in open desert
+  -> OPTION: Can Dig Trench
+     ✅ T: shelter-desert-trench | Sub-surface cooling and warmth
+  -> OPTION: Rocks / Boulders (Natural Shade)
+     ✅ T: shelter-rock-overhang | Turn a natural rock shelter into a home
+
+[NODE ID: shelter-wet-q]
+Q: What is the main threat?
+  -> OPTION: Heavy Rain
+     ✅ T: shelter-raised-platform | Stay above water, insects, ground cold
+
+[NODE ID: shelter-urban-q]
+Q: What's available?
+  -> OPTION: Vehicle Available
+     ✅ T: shelter-vehicle | Your car is your best urban emergency shelter
+  -> OPTION: Tarp / Debris
+     ✅ T: shelter-tarp-leanto | Good for heat reflection from fire
+  -> OPTION: Nothing — Exposed
+     ✅ T: shelter-emergency-bivy | Trash bag or space blanket body wrap
+
+[NODE ID: shelter-imp-q]
+Q: What improvement?
+  -> OPTION: Better Bedding / Insulation
+     ✅ T: shelter-ground-insulation | Prevent heat loss to cold ground while sleeping
+  -> OPTION: Pine Boughs
+     ✅ T: shelter-bough-bed | Build an insulating sleeping surface from branches
+  -> OPTION: Tall Grass / Cattails
+     ✅ T: shelter-grass-bed | Create insulating bedding from grass and dry leaves
+  -> OPTION: Heated Bed (Hot Rocks)
+     ✅ T: shelter-heated-bed | Use buried coals to heat ground for warm sleeping
+
+[NODE ID: shelter-spec-q]
+Q: What type?
+  -> OPTION: Wickiup (Long-Term)
+     ✅ T: shelter-wickiup | Sturdy tipi-style shelter
+  -> OPTION: Group Shelter
+     ✅ T: shelter-group | Shelter for multiple people using shared body heat
+  -> OPTION: Parachute Shelter
+     ✅ T: shelter-parachute | Large group shelter from a parachute or large tarp
+  -> OPTION: Debris Hut (All-Weather)
+     ✅ T: shelter-debris-hut | The ultimate survival shelter
+
+[NODE ID: shelter-learn-q]
+Q: What would you like to read about?
+
+=======================================================
+ContentDatabase+HumanThreatTriage.swift
+=======================================================
+
+[NODE ID: human-em-root]
+Q: What is the threat?
+  -> OPTION: Active Attacker / Pursuer
+     ✅ T: psych-evasion | Break contact and disappear
+  -> OPTION: No — Need to Hide
+     ✅ T: shelter-camouflage | Build a shelter that blends into the environment
+  -> OPTION: Cornered — Self Defense
+     ✅ T: psych-conflict-resolution | Disputes kill groups faster than hunger
+
+[NODE ID: human-riot-q]
+Q: Location?
+  -> OPTION: On the Street
+     ✅ T: psych-gray-man | Blend in to become invisible
+  -> OPTION: In a Vehicle
+     ✅ T: env-vehicle-escape | Get out of a trapped or crashed car
+
+[NODE ID: human-learn-q]
+Q: Security topics?
+  -> OPTION: Survival Psychology
+  -> OPTION: Situational Awareness
+
+=======================================================
+ContentDatabase+FoodTriage.swift
+=======================================================
+
+[NODE ID: food-root]
+Q: What do you need?
+
+[NODE ID: food-forage-type]
+Q: What's available?
+  -> OPTION: Berries / Fruit
+     ✅ T: food-wild-fruit | Identify safe edible wild fruits
+  -> OPTION: No / Unsure
+     ✅ T: food-universal-edibility | Test unknown plants before eating
+
+[NODE ID: food-shroom-safety]
+Q: Are you an expert?
+  -> OPTION: Yes — 100% Sure
+     ✅ T: food-mushroom-safety | Critical rules for mushroom identification and consumption
+  -> OPTION: No / Unsure
+     ✅ T: food-avoid-plants | Recognition of dangerous plants
+
+[NODE ID: food-hunt-method]
+Q: What method?
+
+[NODE ID: food-fish-q]
+Q: What gear do you have?
+  -> OPTION: Hooks / Line
+     ✅ T: food-hook-line | Fishing with found materials
+  -> OPTION: Crayfish / Crawdad Trap
+     ✅ T: food-crayfish-trap | Easy protein from streams and ponds
+
+[NODE ID: food-prep-q]
+Q: What do you need to do?
+  -> OPTION: Make Pemmican (Preserve)
+     ✅ T: food-pemmican-making | The ultimate survival food: meat, fat, and berries
+  -> OPTION: Boil Using Hot Rocks
+     ✅ T: food-boiling-rocks | Boil water in non-fireproof containers
+
+[NODE ID: food-adv-q]
+Q: What's available?
+  -> OPTION: Wild Onion / Garlic
+     ✅ T: food-wild-onion | Smells like onion = safe. No smell = death camas
+  -> OPTION: Pine Bark Flour
+     ✅ T: food-pine-bark-flour | Emergency starch from inner pine bark
+  -> OPTION: Cattail (Full Harvest)
+     ✅ T: food-cattail | Survival supermarket — every part is edible
+  -> OPTION: Seaweed (Coastal)
+     ✅ T: food-seaweed-harvesting | Harvest nutritious seaweed from coastal environments
+  -> OPTION: Grubs / Larvae
+     ✅ T: food-grub-finding | High-calorie protein from rotting wood
+
+[NODE ID: food-adv-trap-q]
+Q: What method?
+  -> OPTION: Ojibwe Bird Snare
+     ✅ T: food-bird-snare-ojibwe | Traditional bird snare using a bent sapling
+  -> OPTION: Crayfish Trapping
+     ✅ T: food-crayfish | Freshwater lobsters found in most streams
+  -> OPTION: Fish Spearing
+     ✅ T: food-fish-spearing | Improvise a spear and catch fish in shallow water
+  -> OPTION: Clay Pot Cooking
+     ✅ T: food-clay-pot-cooking | Make a cooking vessel from natural clay
+
+[NODE ID: food-learn-q]
+Q: What would you like to read about?
+  -> OPTION: Survival Nutrition
+  -> OPTION: Calorie Needs
+  -> OPTION: Starvation Science
+  -> OPTION: Nutritional Deficiencies
+  -> OPTION: Wild Edible Plants
+
+=======================================================
+ContentDatabase+HurtTriage.swift
+=======================================================
+
+[NODE ID: hurt-nq-0-136]
+Q: Select Equipment Status:
+  -> OPTION: Low / Improvised Equipment
+     ✅ T: firstaid-insect-repellent-natural | Plants and techniques that deter mosquitoes and ticks
+  -> OPTION: Oral Pain/Fever Relief (Willow, Infusions)
+     ✅ T: firstaid-pine-needle-tea-vitamincC | Prevent scurvy in extended survival — massive vitamin C source
+  -> OPTION: Topical Wound Care (Poultice)
+     ✅ T: firstaid-med-yarrow-styptic | Stopping severe bleeding using Achillea millefolium.
+  -> OPTION: Topical Cleaning (Astringent, Honey)
+     ✅ T: firstaid-honey-wound | Using raw honey as an antimicrobial wound dressing
+
+[NODE ID: hurt-nq-1-136]
+Q: Identify Primary Threat/Condition:
+  -> OPTION: Immediate Life Threats (< 2 Min)
+     ✅ T: firstaid-hemostatic-packing | Stop massive junctional hemorrhage
+  -> OPTION: Arm or Leg Bleed
+     ✅ T: firstaid-tourniquet | Stop life-threatening limb bleeding
+
+[NODE ID: hurt-nq-3-19]
+Q: What is the primary condition or requirement?
+  -> OPTION: Unconscious Patient
+     ✅ T: firstaid-choking-complete | Clear blocked airway — adult and child techniques
+  -> OPTION: Conscious Adult/Child
+     ✅ T: firstaid-choking-response | Clear an obstructed airway using Heimlich and back blows
+  -> OPTION: Conscious Infant (< 1 Yr)
+     ✅ T: firstaid-choking-infant | Back blows and chest thrusts for babies
+
+[NODE ID: hurt-nq-2-31]
+Q: What is the primary condition or requirement?
+  -> OPTION: Postpartum / Vaginal hemorrhage
+     ✅ T: firstaid-tampon-dressing | Sterile, highly absorbent bandage
+  -> OPTION: Abdominal organ protrusion
+     ✅ T: firstaid-abdominal-injury | Manage open or closed abdominal trauma
+  -> OPTION: Wound contains debris
+     ✅ T: firstaid-wound-vac-improvised | Creating suction wound closure in the field
+  -> OPTION: Deep cut needing closure
+     ✅ T: firstaid-duct-tape-butterfly | Close wounds without suture kit
+  -> OPTION: Continuous severe nosebleed
+     ✅ T: firstaid-nosebleed-field | Stopping epistaxis in the field
+  -> OPTION: Steady Heavy Flow
+     ✅ T: firstaid-traumatic-amputation | Manage a severed body part in the field
+  -> OPTION: Limb / Torso laceration
+     ✅ T: firstaid-bleeding-control-advanced | Control bleeding at the neck, armpit, or groin where tourniquets can't go
+
+[NODE ID: hurt-nq-2-35]
+Q: What is the primary condition or requirement?
+  -> OPTION: Trachea Shifted / Severe Dyspnea
+     ✅ T: firstaid-tension-pneumo-recognition | Life-threatening air pressure buildup in chest — recognize and act fast
+  -> OPTION: Bubbling / Sucking sound
+     ✅ T: firstaid-chest-seal | Seal a penetrating chest wound to prevent lung collapse
+  -> OPTION: Chest collapsing paradoxically
+     ✅ T: firstaid-rib-fracture | Stabilize and manage broken rib pain
+
+[NODE ID: hurt-nq-2-50]
+Q: What is the primary condition or requirement?
+  -> OPTION: Diabetic Emergency
+     ✅ T: firstaid-expert-hypoglycemia-field | Treating dangerously low blood sugar.
+  -> OPTION: Asthma Attack (Wheezing but breathing)
+     ✅ T: firstaid-asthma | Sit upright, slow breathing, use inhaler
+  -> OPTION: Altered Mental Status
+     ✅ T: firstaid-heat-stroke-cooling | Core temp >104°F — cool AGGRESSIVELY or brain damage occurs
+  -> OPTION: Post-Seizure Recovery
+     ✅ T: firstaid-seizure-response | Protect a seizing person from injury
+  -> OPTION: Toxic Exposure / Overdose
+     ✅ T: firstaid-poison-response | Respond to ingested, inhaled, or absorbed poisons
+  -> OPTION: Mild Allergic Reaction (Rash/Itch)
+     ✅ T: firstaid-allergic-reaction-mild | Hives and itching without breathing difficulty
+
+[NODE ID: hurt-nq-2-54]
+Q: What is the primary condition or requirement?
+  -> OPTION: Unconscious with suspected spine injury
+     ✅ T: firstaid-log-roll | Safely rolling a supine patient for examination or transfer
+  -> OPTION: Head Injury / Confusion only
+     ✅ T: firstaid-concussion | Rapid field assessment for suspected concussion
+  -> OPTION: Conscious but neck pain
+     ✅ T: firstaid-cervical-collar | Building a neck stabilizer from field materials
+
+[NODE ID: hurt-nq-2-61]
+Q: What is the primary condition or requirement?
+  -> OPTION: Localized wound red/swollen/pus
+     ✅ T: firstaid-garlic-antibiotic | Using raw garlic for antimicrobial treatment
+  -> OPTION: General Adult Fever
+     ✅ T: firstaid-fever | Reduce fever and prevent dangerous temperature elevation
+  -> OPTION: Pediatric (Infant/Child) High Fever
+     ✅ T: firstaid-pediatric-fever | Manage high fever in children without pharmacy access
+  -> OPTION: Painful urination / Flank pain
+     ✅ T: firstaid-urinary-tract-infection | Manage urinary tract infection without antibiotics
+
+[NODE ID: hurt-nq-2-66]
+Q: What is the primary condition or requirement?
+  -> OPTION: Kidney Stone / Severe Flank Pain
+     ✅ T: firstaid-kidney-stone-field | Manage excruciating flank pain without hospital access
+  -> OPTION: General Stomach ache / GI
+     ✅ T: firstaid-expert-giardiasis-management | Treating the most common wilderness waterborne illness.
+  -> OPTION: Severe Constipation
+     ✅ T: firstaid-constipation-field | Common wilderness problem — dietary and mechanical solutions
+
+[NODE ID: hurt-nq-2-74]
+Q: What is the primary condition or requirement?
+  -> OPTION: Pelvis or Hip Pain
+     ✅ T: firstaid-pelvic-fracture | Stabilize a suspected broken pelvis
+  -> OPTION: Upper Leg Deformity (Femur)
+     ✅ T: firstaid-femur-traction | Emergency stabilization of the most dangerous long bone fracture
+  -> OPTION: Bone protruding through skin (Open)
+     ✅ T: firstaid-open-fracture-management | Managing bone protruding through skin
+  -> OPTION: Arm or Wrist Deformity
+     ✅ T: firstaid-arm-splint | Immobilize a broken arm or wrist
+  -> OPTION: Lower Leg or Knee Deformity
+     ✅ T: firstaid-leg-splint | Immobilize a broken leg
+  -> OPTION: Shoulder / General Support
+     ✅ T: firstaid-shoulder-reduction | External Rotation Method (Cunningham)
+
+[NODE ID: hurt-nq-2-79]
+Q: What is the primary condition or requirement?
+  -> OPTION: Burn Size < 20% of body
+     ✅ T: firstaid-burn | Cool, cover, and manage pain
+  -> OPTION: Burn Size > 20% of body
+     ✅ T: firstaid-burn-escharotomy-signs | Identifying compartment syndrome in burns
+  -> OPTION: Chemical exposure (Dry/Wet powder)
+     ✅ T: firstaid-chem-dry-decon | For unknown or reactive powders
+  -> OPTION: Electrical / Lightning shock
+     ✅ T: firstaid-lightning-strike | Respond to a lightning strike victim
+
+[NODE ID: hurt-nq-2-94]
+Q: What is the primary condition or requirement?
+  -> OPTION: Eye Injuries
+     ✅ T: firstaid-eye-irrigation | Flush chemicals or debris from the eye
+  -> OPTION: Flash blind / Glare
+     ✅ T: firstaid-snow-blindness | Managing ultraviolet keratitis from sun glare on snow
+  -> OPTION: Foreign body / General
+     ✅ T: firstaid-eye-foreign-body | Remove debris from the eye safely
+  -> OPTION: Penetrating object
+     ✅ T: firstaid-eye-shield-improvised | Protecting penetrating eye injuries
+
+[NODE ID: hurt-nq-3-dental]
+Q: What is the primary condition or requirement?
+  -> OPTION: Toothache / missing filling
+     ✅ T: firstaid-dental-temporary-filling | Seal a cavity or lost filling in the field
+  -> OPTION: Avulsed (Knocked-out) tooth
+     ✅ T: firstaid-dental-avulsion | Reimplantation window and storage
+
+[NODE ID: hurt-nq-2-108]
+Q: What is the primary condition or requirement?
+  -> OPTION: Marine Stings (Stingray, Urchin, Jellyfish)
+     ✅ T: firstaid-stingray-hot-water | Neutralize marine venom using extreme heat
+  -> OPTION: Insect Stings (Bee, Wasp, Centipede)
+     ✅ T: firstaid-bee-sting | Remove stinger, watch for anaphylaxis
+  -> OPTION: Snakebite
+     ✅ T: firstaid-snake-bite-pressure-immobilization | Apply pressure immobilization for neurotoxic snake bites
+  -> OPTION: Spider / Scorpion
+     ✅ T: firstaid-black-widow-bite | Managing severe neurotoxic spider bites
+  -> OPTION: Mammal Bite (Dog, Bat, Rabies)
+     ✅ T: firstaid-expert-rabies-exposure | Immediate actions following a bite from a high-risk mammal.
+
+[NODE ID: hurt-nq-2-119]
+Q: What is the primary condition or requirement?
+  -> OPTION: Altitude Illness (AMS, HAPE, HACE)
+     ✅ T: firstaid-altitude-sickness-ams | Identify and stop the progression of AMS
+  -> OPTION: Mild Hypothermia (Shivering / Alert)
+     ✅ T: firstaid-hypothermia-mild-self | Recognize and treat your own early hypothermia
+  -> OPTION: Severe Hypothermia (No Shivering)
+     ✅ T: firstaid-hypothermia-active-warming | Warm a hypothermia patient using available heat sources
+  -> OPTION: Frostbite / Trench Foot
+     ✅ T: firstaid-frostbite-thaw-decision | The critical NOLS decision matrix for freezing tissue.
+  -> OPTION: Salt Imbalance / Dehydration
+     ✅ T: firstaid-dehydration-response | Rehydrate safely and effectively
+  -> OPTION: Heat Exhaustion (Cool / Rest / Fluids)
+     ✅ T: firstaid-heat-exhaustion-stroke | The critical diagnostic line separating rest and immediate death.
+
+[NODE ID: hurt-nq-2-125]
+Q: What is the primary condition or requirement?
+  -> OPTION: Mass Casualty Incident Sorting
+  -> OPTION: Checking Vitals
+     ✅ T: firstaid-blood-pressure-field | Estimate blood pressure without equipment
+  -> OPTION: Pediatric PAT Assessment
+     ✅ T: firstaid-pediatric-assessment-triangle | Rapid pediatric evaluation without touching child
+  -> OPTION: Secondary Head-to-Toe Survey
+     ✅ T: firstaid-abdominal-assessment | Evaluate abdominal injury severity in the field
+  -> OPTION: Primary ABCDE Survey
+     ✅ T: firstaid-primary-survey | Rapid systematic assessment of a critically injured patient
+
+[NODE ID: hurt-nq-2-136]
+Q: What is the primary condition or requirement?
+  -> OPTION: Chest Procedures (Needle Decomp, Dressing)
+     ✅ T: firstaid-needle-decompression | Emergency tension pneumothorax relief
+  -> OPTION: Breathing: Panic / Hyperventilation
+     ✅ T: firstaid-hyperventilation | Coach slow breathing — no paper bag
+  -> OPTION: Advanced Airway Insertion
+     ✅ T: firstaid-nasopharyngeal-airway | NPA insertion for unconscious patients
+  -> OPTION: Cardiac / Shock / Blood
+     ✅ T: firstaid-pericardiocentesis-signs | Beck's Triad identification in trauma
+  -> OPTION: Diver Pressure Injury Prep
+     ✅ T: firstaid-decompression-sickness | Recognize and manage nitrogen bubble formation after diving
+  -> OPTION: Emergency Childbirth / Trauma
+     ✅ T: firstaid-emergency-childbirth | Deliver a baby when hospital is not reachable
+
+=======================================================
+ContentDatabase+LostTriage.swift
+=======================================================
+
+[NODE ID: lost-root]
+Q: What do you need?
+  -> OPTION: Just Realized I'm Lost
+     ✅ T: nav-lost-procedure | What to do the moment you realize you're lost
+
+[NODE ID: lost-notools]
+Q: What can you see?
+
+[NODE ID: lost-strategy]
+Q: What's your plan?
+
+[NODE ID: lost-walk-q]
+Q: What can you see or hear?
+  -> OPTION: Can Hear Water
+     ✅ T: nav-river-following | Rivers lead to civilization
+
+[NODE ID: lost-env-q]
+Q: What terrain?
+  -> OPTION: Coastal / Shoreline
+     ✅ T: nav-coastal | Use the shoreline as your guide
+  -> OPTION: Urban / City
+     ✅ T: nav-urban | Navigate a city when everything is down
+  -> OPTION: Read Weather
+     ✅ T: nav-weather-prediction | Forecast weather changes using natural signs
+  -> OPTION: Estimate Altitude
+     ✅ T: nav-altitude-estimation | Estimate your elevation using natural indicators
+
+[NODE ID: lost-adv-q]
+Q: What technique?
+  -> OPTION: Back Bearing
+     ✅ T: nav-back-bearing | Pinpoint your location using known landmarks
+  -> OPTION: Deliberate Offset
+     ✅ T: nav-deliberate-offset | Guaranteed interception of linear features
+  -> OPTION: Magnetic Deviation
+     ✅ T: nav-magnetic-deviation | Know what throws your compass off
+  -> OPTION: Pace Beading
+     ✅ T: nav-pace-beading | Track distance accurately while walking
+  -> OPTION: Shadow Tip Compass
+     ✅ T: nav-shadow-tip-compass | Find cardinal directions using a stick shadow
+  -> OPTION: Sun at Noon
+     ✅ T: nav-sun-noon | The shortest shadow points true north
+
+[NODE ID: lost-learn-q]
+Q: What would you like to read about?
+  -> OPTION: Getting Un-Lost
+  -> OPTION: Psychology of Being Lost
+  -> OPTION: Celestial Navigation
+  -> OPTION: Map Reading Basics
+  -> OPTION: Terrain Association
+
+=======================================================
+ContentDatabase+InWaterTriage.swift
+=======================================================
+
+[NODE ID: water-em-root]
+Q: What do you need?
+
+[NODE ID: wet-cold-q]
+Q: How long in water?
+
+[NODE ID: wet-curr-q]
+Q: Where?
+  -> OPTION: Ocean Rip Current
+     ✅ T: env-rip-current | Swim out of ocean currents
+  -> OPTION: River — Rapids / Rocks
+     ✅ T: rescue-river-self | Survive being swept away in river current
+
+[NODE ID: wet-boat-q]
+Q: What's the situation?
+  -> OPTION: Have Life Jacket — In Water
+     ✅ T: rescue-help-huddle-position | Delaying severe hypothermia in freezing water.
+
+[NODE ID: wet-sig-q]
+Q: What method?
+  -> OPTION: Signal Mirror
+     ✅ T: rescue-signal-mirror | Visible 50+ miles on a clear day
+  -> OPTION: Night Signaling
+     ✅ T: rescue-night-signaling | Be visible when darkness hides everything
+  -> OPTION: PLB / Satellite
+     ✅ T: rescue-satellite-messenger | Two-way emergency communication anywhere on Earth
+  -> OPTION: VHF Radio
+     ✅ T: rescue-vhf-radio | Channel 16: international distress frequency
+
+[NODE ID: wet-learn-q]
+Q: What would you like to read about?
+
+=======================================================
+ContentDatabase+VehicleTriage.swift
+=======================================================
+
+[NODE ID: vehicle-em-root]
+Q: What happened to the vehicle?
+
+[NODE ID: veh-break-q]
+Q: What environment?
+  -> OPTION: Desert / Extreme Heat
+     ✅ T: env-vehicle-breakdown-desert | Stay with the vehicle — it's your biggest survival asset
+  -> OPTION: Winter / Snow
+     ✅ T: env-vehicle-breakdown-winter | Your car is a survival shelter — don't leave it
+  -> OPTION: Wildfire Approaching
+     ✅ T: env-wildfire-vehicle | Last resort shelter implementation
+
+[NODE ID: veh-learn-q]
+Q: Vehicle safety topics?
+  -> OPTION: Emergency Vehicle Kits
+  -> OPTION: Signaling from Vehicle
+
+=======================================================
+ContentDatabase+GearTriage.swift
+=======================================================
+
+[NODE ID: gear-root]
+Q: What category of tool or gear do you need to fabricate?
+
+[NODE ID: gear-nq-cordage]
+Q: What material or purpose are you working with?
+
+[NODE ID: gear-nq-vessels]
+Q: What material are you using?
+
+[NODE ID: gear-nq-knots]
+Q: What type of knot do you need?
+
+=======================================================
+ContentDatabase+PanicTriage.swift
+=======================================================
+
+[NODE ID: panic-root]
+Q: What is your primary mental or situational challenge right now?
+
+=======================================================
+ContentDatabase+ChemicalTriage.swift
+=======================================================
+
+[NODE ID: chem-em-root]
+Q: What is the exposure?
+  -> OPTION: Airborne Gas / Smoke
+     ✅ T: env-hazmat-evac | Move crosswind and uphill
+
+[NODE ID: chem-skin-q]
+Q: What substance?
+  -> OPTION: Acid / Corrosive
+     ✅ T: firstaid-chemical-burn | Flush immediately with water
+
+[NODE ID: chem-learn-q]
+Q: Hazmat safety topics?
+  -> OPTION: Decontamination
+
+=======================================================
+ContentDatabase+WaterTriage.swift
+=======================================================
+
+[NODE ID: water-root]
+Q: What do you need?
+  -> OPTION: Near Stream / River / Lake
+     ✅ T: water-boiling | The gold standard of purification
+  -> OPTION: Purification Tablets / Iodine
+     ✅ T: water-iodine | Chemical purification for clear water
+  -> OPTION: Clear Bottle + Strong Sun
+     ✅ T: water-uv-purification | Use sunlight to kill pathogens
+
+[NODE ID: water-murky-q]
+Q: What can you do?
+  -> OPTION: Pre-Filter with Cloth + Boil
+     ✅ T: water-boiling | The gold standard of purification
+  -> OPTION: Build Charcoal Filter
+     ✅ T: water-charcoal-filter | Activated charcoal removes chemicals and taste
+  -> OPTION: Bio-Sand Filter (Long-Term)
+     ✅ T: water-bio-sand-filter | Build a biological filtration system for long-term use
+
+[NODE ID: water-rain-q]
+Q: How will you catch it?
+  -> OPTION: Tarp / Poncho
+     ✅ T: water-tarp-rain-catch | Maximize rain collection with a tarp funnel
+  -> OPTION: Poncho / Tarp Funnel
+     ✅ T: water-poncho-rain-catch | Use a poncho or garbage bag as rain catchment
+  -> OPTION: Any Container / Leaves
+     ✅ T: water-rain-collection | The cleanest natural water source
+
+[NODE ID: water-desert-q]
+Q: What resources are available?
+  -> OPTION: Plastic Sheet / Bag Available
+     ✅ T: water-solar-still | Extract water from the ground using sun
+  -> OPTION: Vegetation Nearby
+     ✅ T: water-transpiration-bag | Harvesting water from live trees
+  -> OPTION: Cactus / Succulents
+     ✅ T: water-cactus-extraction | Extract moisture from desert cacti (with caution)
+
+[NODE ID: water-snow-q]
+Q: Can you make fire?
+  -> OPTION: Yes — Melt Snow
+     ✅ T: water-snow-melting | Convert snow to water without losing body heat
+  -> OPTION: No — Body Heat Only
+     ✅ T: water-snow-melting | Convert snow to water without losing body heat
+  -> OPTION: High Altitude
+     ✅ T: water-altitude-boiling | Understand how altitude affects water purification
+
+[NODE ID: water-sea-q]
+Q: What's available?
+  -> OPTION: Desalination Kit / Solar Still
+     ✅ T: water-desalination | Convert seawater to drinkable water using sunlight
+  -> OPTION: Seawater Only
+     ✅ T: water-seawater | Remove salt through evaporation
+
+[NODE ID: water-jungle-q]
+Q: What's around you?
+  -> OPTION: Bamboo
+     ✅ T: water-bamboo-collection | Green bamboo stores water naturally
+  -> OPTION: Banana Plants
+     ✅ T: water-banana-plant | Extract water from banana plant trunks
+  -> OPTION: Vines / Lianas
+     ✅ T: water-vine-extraction | Cut tropical vines for immediate drinking water
+  -> OPTION: Coconuts / Fruits
+     ✅ T: water-from-fruits | Extract moisture from edible plants and fruits
+  -> OPTION: Birch / Maple Trees
+     ✅ T: water-birch-tapping | Birch sap is drinkable water with nutrients
+  -> OPTION: Broad-Leaf Trees
+     ✅ T: water-transpiration-enhanced | Maximize water output from vegetation bags
+
+[NODE ID: water-urban-q]
+Q: What sources exist?
+  -> OPTION: Need to Store / Ration
+     ✅ T: water-storage | Carry more, lose less
+  -> OPTION: Water Heater Tank
+     ✅ T: water-water-heater-extraction | Draining 40-80 gallons of pristine water from a defunct home.
+  -> OPTION: UV Sun Purification (SODIS)
+     ✅ T: water-uv-sun-purification | Sterilize water using ultraviolet sunlight
+
+[NODE ID: water-emerg-q]
+Q: What's available?
+  -> OPTION: Overview of All Sources
+     ✅ T: water-emergency-sources | Find drinkable water in buildings and vehicles after disaster
+  -> OPTION: Underground Seep / Dig
+     ✅ T: water-underground-seep | Find subsurface water by reading terrain clues
+  -> OPTION: Follow Animal Indicators
+     ✅ T: water-animal-indicators | Follow animal behavior to find water sources
+  -> OPTION: Morning Dew (Drag Cloth)
+     ✅ T: water-morning-dew-drag | Collect dew by dragging cloth through wet grass
+  -> OPTION: Make Electrolyte Solution
+     ✅ T: water-electrolyte-solution | Make WHO-standard rehydration fluid from basic ingredients
+  -> OPTION: Improvised Canteen
+     ✅ T: water-condom-canteen | Emergency water storage (1-2 Liters)
+
+[NODE ID: water-cont-q]
+Q: What do you need?
+  -> OPTION: Birch Bark Container
+     ✅ T: water-birch-container | Waterproof container from tree bark
+  -> OPTION: Clay Pot Filter
+     ✅ T: water-clay-pot-filter | Make a ceramic filter that removes bacteria
+  -> OPTION: Coconut Water Safety
+     ✅ T: water-coconut-water | Nature's isotonic sports drink — available across tropics
+  -> OPTION: Test Water Quality
+     ✅ T: water-testing | Evaluate unknown water sources before drinking
+
+[NODE ID: water-learn-q]
+Q: What would you like to read about?
+  -> OPTION: Finding Water Sources
+  -> OPTION: Signs of Water Nearby
+  -> OPTION: Purification Methods
+  -> OPTION: Filter vs Purifier
+  -> OPTION: Water Contamination
+  -> OPTION: Waterborne Diseases
+  -> OPTION: Dehydration Management
+  -> OPTION: Water Rationing
+
+=======================================================
+ContentDatabase+HeatTriage.swift
+=======================================================
+
+[NODE ID: heat-em-root]
+Q: What do you need?
+  -> OPTION: Feeling Sick / Dizzy
+     ✅ T: firstaid-heat-cramp-field | Managing exercise-associated muscle cramping
+
+[NODE ID: heat-burn-q]
+Q: Severity?
+  -> OPTION: Red / Painful (Sunburn)
+     ✅ T: firstaid-sunburn | Soothe skin and prevent damage
+  -> OPTION: Blistered / Charred
+     ✅ T: firstaid-burn-treat | Care for 2nd and 3rd degree burns
+
+[NODE ID: heat-dehydration-q]
+Q: How bad?
+  -> OPTION: Thirsty / Dry Mouth / Dark Urine
+     ✅ T: firstaid-dehydration | Oral rehydration therapy
+
+[NODE ID: heat-desert-q]
+Q: What do you need?
+
+[NODE ID: heat-learn-q]
+Q: Read about heat safety?
+  -> OPTION: Heat Illnesses
+  -> OPTION: Water Needs
+  -> OPTION: Desert Survival
+
+=======================================================
+ContentDatabase+ColdTriage.swift
+=======================================================
+
+[NODE ID: cold-root]
+Q: What do you need?
+
+[NODE ID: cold-fire-q]
+Q: What do you have?
+
+[NODE ID: cold-med-q]
+Q: What symptoms?
+  -> OPTION: Shivering / Still Alert
+     ✅ T: firstaid-hypothermia | Rewarm slowly and gently
+
+[NODE ID: cold-imp-q]
+Q: What improvement?
+  -> OPTION: Heated Sleeping Platform
+     ✅ T: shelter-heated-bed | Use buried coals to heat ground for warm sleeping
+  -> OPTION: Fire Reflector Wall
+     ✅ T: shelter-fire-reflector | Maximize fire warmth
+  -> OPTION: Ventilation (Prevent CO)
+     ✅ T: shelter-ventilation | Prevent carbon monoxide and condensation buildup
+  -> OPTION: Snow Wall Windbreak
+     ✅ T: shelter-snow-wall | Block wind with packed snow blocks
+  -> OPTION: Door / Entrance Block
+     ✅ T: shelter-door-construction | Build a door to retain heat and block weather
+
+[NODE ID: cold-wet-q]
+Q: Can you make fire?
+
+[NODE ID: cold-travel-q]
+Q: What terrain?
+  -> OPTION: Arctic / Polar
+     ✅ T: env-arctic-travel | Energy conservation is everything
+  -> OPTION: Tundra / Open Frozen
+     ✅ T: env-tundra-travel | Move safely in flat, featureless arctic environments
+  -> OPTION: Snow Navigation
+     ✅ T: nav-snow-navigation | Navigate in whiteout and snow-covered terrain
+  -> OPTION: Snow Blindness Prevention
+     ✅ T: tools-snow-goggles | Prevent snow blindness with improvised eye protection
+
+[NODE ID: cold-morale-q]
+Q: What do you need?
+  -> OPTION: Calm Down / Breathe
+     ✅ T: psych-box-breathing | Military-grade stress reset
+  -> OPTION: Can't Decide
+     ✅ T: psych-ooda-loop | Military decision framework for survival
+  -> OPTION: Feeling Alone
+     ✅ T: psych-loneliness | Your mind is your most dangerous enemy alone
+
+[NODE ID: cold-learn-q]
+Q: What would you like to read about?
+
+=======================================================
+ContentDatabase+FireTriage.swift
+=======================================================
+
+[NODE ID: fire-root]
+Q: What do you need?
+
+[NODE ID: fire-ferro-q]
+Q: Do you have tinder?
+
+[NODE ID: fire-flint-q]
+Q: Do you have charcloth or dry fungus?
+  -> OPTION: Yes — Have Char Material
+     ✅ T: fire-flint-steel | The original sparker — works when wet
+
+[NODE ID: fire-nothing-q]
+Q: Is the sun visible?
+
+[NODE ID: fire-maintain-q]
+Q: What do you need?
+
+[NODE ID: fire-conditions-q]
+Q: What's the problem?
+  -> OPTION: Rain / Wet Wood
+     ✅ T: fire-wet-conditions | Waterproof your fire-starting process
+
+[NODE ID: fire-specialty-q]
+Q: What's the purpose?
+
+[NODE ID: fire-tinder-q]
+Q: What are you preparing?
+
+[NODE ID: fire-learn-q]
+Q: What would you like to read about?
+  -> OPTION: Fire-Starting Methods
+  -> OPTION: Primitive Fire Techniques
+  -> OPTION: Fuel Selection & Preparation

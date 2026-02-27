@@ -127,8 +127,8 @@
           "illustrationDescription": "Warning: still needs purification."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-charcoal-filter",
@@ -203,8 +203,8 @@
           "illustrationDescription": "Rock creating drip point."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-transpiration-bag",
@@ -375,8 +375,8 @@
           "illustrationDescription": "Small but vital fresh water."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-snow-ice",
@@ -547,8 +547,8 @@
           "illustrationDescription": "Punching holes."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-birch-tapping",
@@ -795,8 +795,8 @@
           "illustrationDescription": "Purifying well water."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-snow-melting",
@@ -945,38 +945,6 @@
       "sourceUrl": "https://openlibrary.org/isbn/9780062378071"
     },
     {
-      "id": "water-coconut-safety",
-      "name": "Coconut Water Safety",
-      "subtitle": "Use green coconuts for hydration — avoid mature ones",
-      "category": "Finding Water",
-      "difficulty": 1,
-      "estimatedTime": "5 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Select GREEN coconuts (young). Avoid brown mature coconuts.",
-          "helpDetail": "Green coconut water is sterile, isotonic, and safe to drink in quantity. Brown coconut water is higher in oil and can act as a laxative, causing dehydration if consumed in large amounts.",
-          "illustrationDescription": "Green vs brown."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Pierce the soft eye of the coconut with a sharp point or knife.",
-          "helpDetail": "Each coconut has 2-3 'eyes' (dark spots) at one end. One eye is softer than the others — test each with your knife tip. Pierce through this soft eye to access the water inside.",
-          "illustrationDescription": "Piercing eye."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Drink directly or pour into container. Limit mature coconut to 2-3 per day.",
-          "helpDetail": "Green coconuts: drink freely. Mature coconuts: limit to 2-3 daily to avoid digestive issues. Coconut water contains electrolytes (potassium, sodium) making it superior to plain water for rehydration.",
-          "illustrationDescription": "Drinking."
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
       "id": "water-banana-plant",
       "name": "Banana Plant Water",
       "subtitle": "Extract water from banana plant trunks",
@@ -1037,8 +1005,8 @@
           "illustrationDescription": "Firing pot."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-bio-sand-filter",
@@ -1229,8 +1197,8 @@
           "illustrationDescription": "Testing water."
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-underground-seep",
@@ -1541,8 +1509,8 @@
           "illustrationDescription": "If water is too salty, dig far"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-cloth-filtration",
@@ -1585,8 +1553,8 @@
           "illustrationDescription": "Replace cloth filters when the"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-ceramic-filter-build",
@@ -1629,8 +1597,8 @@
           "illustrationDescription": "Test: fill with muddy water. C"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-uv-sun-purification",
@@ -1673,8 +1641,8 @@
           "illustrationDescription": "Water is safe to drink after t"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-dew-trap",
@@ -1805,8 +1773,8 @@
           "illustrationDescription": "Signs of dehydration: dark uri"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-rock-catchment",
@@ -1849,8 +1817,8 @@
           "illustrationDescription": "Treat collected rainwater as p"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-water-testing-field",
@@ -1893,8 +1861,8 @@
           "illustrationDescription": "When in doubt: ALWAYS purify. "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-maple-birch-tapping",
@@ -1941,50 +1909,6 @@
       "sourceUrl": "https://openlibrary.org/isbn/9781440579776"
     },
     {
-      "id": "water-condom-canteen-technique",
-      "name": "Condom Water Carrier",
-      "subtitle": "Use a condom as an emergency water container",
-      "category": "Storage",
-      "difficulty": 1,
-      "estimatedTime": "5 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "An unlubricated condom can hold 1-2 liters of water. Place inside a sock for structural support.",
-          "helpDetail": "The latex stretches to hold significant volume but is fragile. A sock, bandana, or pant leg provides the structural support the condom lacks.",
-          "illustrationDescription": "An unlubricated condom can hol"
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Fill slowly to avoid bursting. The condom stretches evenly when filled gradually.",
-          "helpDetail": "Submerge the opening in water and let it fill naturally, or pour carefully from a cup. Fast filling creates pressure points that burst.",
-          "illustrationDescription": "Fill slowly to avoid bursting."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Tie off the end with a simple overhand knot. Leave enough slack to untie for drinking.",
-          "helpDetail": "The knot should be secure but not so tight you can't open it. Practice tying and untying before your water source is far away.",
-          "illustrationDescription": "Tie off the end with a simple "
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Carry in a sock or sling made from a shirt sleeve. Never carry by the condom alone.",
-          "helpDetail": "The latex is tough but punctures easily on branches, rocks, and gear. The fabric carrier protects it during transport.",
-          "illustrationDescription": "Carry in a sock or sling made "
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "This also works as a solar still cover, waterproof fire kit storage, or emergency fishing float.",
-          "helpDetail": "Non-lubricated condoms are one of the most versatile survival items by weight. They are waterproof, elastic, and surprisingly durable when protected.",
-          "illustrationDescription": "This also works as a solar sti"
-        }
-      ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
       "id": "water-rain-tarp-mega",
       "name": "Mega Rain Catch System",
       "subtitle": "Maximize rainwater collection with large-scale tarp systems",
@@ -2025,8 +1949,8 @@
           "illustrationDescription": "First few minutes of rain: let"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-fog-fence",
@@ -2069,8 +1993,8 @@
           "illustrationDescription": "Yield: 2-10 liters per day per"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-vehicle-water-sources",
@@ -2113,8 +2037,8 @@
           "illustrationDescription": "SAFE: solar still using clear "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-banana-leaf-funnel",
@@ -2157,8 +2081,8 @@
           "illustrationDescription": "Replace leaves every 2-3 days "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-ice-melting-technique",
@@ -2201,8 +2125,8 @@
           "illustrationDescription": "Sea ice: old sea ice (blue, ro"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-bamboo-segment-storage",
@@ -2245,8 +2169,8 @@
           "illustrationDescription": "Bamboo containers can also be "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-natural-spring-signs",
@@ -2289,8 +2213,8 @@
           "illustrationDescription": "Dig at the base of slopes, out"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-double-boil-purification",
@@ -2333,8 +2257,8 @@
           "illustrationDescription": "This produces DISTILLED water "
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-gypsy-well",
@@ -2421,8 +2345,8 @@
           "illustrationDescription": "Place a small rock in the cent"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-agave-cactus-safe",
@@ -2597,8 +2521,8 @@
           "illustrationDescription": "Drink directly from the bottle"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-charcoal-filter-diy",
@@ -2685,8 +2609,8 @@
           "illustrationDescription": "The collected water is pure H2"
         }
       ],
-      "sourceName": "U.S. Coast Guard",
-      "sourceUrl": "https://www.uscgboating.org"
+      "sourceName": "US Coast Guard Boating",
+      "sourceUrl": "https://www.uscgboating.org/recreational-boaters/index.php"
     },
     {
       "id": "water-iodine-purification",
@@ -2729,8 +2653,8 @@
           "illustrationDescription": "Pregnant women and people with"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-bleach-purification",
@@ -2773,82 +2697,8 @@
           "illustrationDescription": "Recent CDC guidelines: if blea"
         }
       ],
-      "sourceName": "U.S. Army Survival Manual FM 21-76",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-transpiration-bag",
-      "category": "Collection",
-      "name": "Transpiration Bag",
-      "subtitle": "Harvesting water from live trees",
-      "difficulty": 3,
-      "isCritical": true,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Find a leafy hardwood tree.",
-          "helpDetail": "Choose a branch with dense, broad leaves that is fully exposed to sunlight. Avoid toxic sap trees like Oleander or Yew."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Enclose the branch in clear plastic.",
-          "helpDetail": "Slip a clear plastic garbage bag over the end of the branch, enclosing as many leaves as possible."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Tie off the open end tightly.",
-          "helpDetail": "Use cordage to seal the bag around the woody branch to prevent moisture from escaping."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Create a low collection point.",
-          "helpDetail": "Weigh down one corner of the bag with a small rock so the condensed water pools in one spot."
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "Harvest at sunset.",
-          "helpDetail": "The sun causes the leaves to sweat. At the end of the day, carefully tap the pooled water. Do not drink if the water is milky or foul-smelling."
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-gypsy-well",
-      "category": "Sourcing",
-      "name": "Gypsy Well (Seep Hole)",
-      "subtitle": "Filtering swamp/mud water safely",
-      "difficulty": 3,
-      "isCritical": true,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Locate a mud flat or swamp edge.",
-          "helpDetail": "Find an area of wet mud or a stagnant pool of dirty water."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Dig a hole nearby.",
-          "helpDetail": "Dig a hole 1-2 feet away from the water source, slightly deeper than the water level."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Let the soil filter the water.",
-          "helpDetail": "Wait 30-60 minutes. Water will slowly seep through the earth into your hole. The soil acts as a mechanical particulate filter."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Bail the first muddy fill.",
-          "helpDetail": "Bail out the first batch of cloudy water. The next batch that seeps in will be significantly clearer."
-        },
-        {
-          "stepNumber": 5,
-          "instruction": "Purify before drinking.",
-          "helpDetail": "This removes mud, but NOT bacteria or viruses. You must still boil or chemically treat the seep water."
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-gravity-filter-system",
@@ -2879,8 +2729,8 @@
           "helpDetail": "Always boil or treat the filtered water—filtration alone doesn't kill all pathogens."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-well-digging-technique",
@@ -2911,40 +2761,8 @@
           "helpDetail": "Scoop from the top surface. Filter through cloth before treating."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-rain-poncho-collection",
-      "category": "Collection",
-      "name": "Poncho Rain Collection",
-      "subtitle": "Maximizing rain catch with a poncho",
-      "difficulty": 3,
-      "isCritical": false,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Spread poncho between anchor points",
-          "helpDetail": "Create a bowl shape by tying corners to trees or sticks."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Place a rock in the center to create a funnel",
-          "helpDetail": "This channels water to one collection point."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Direct low point into a container",
-          "helpDetail": "Use a cup, bottle, or improvised bark container."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Rain from clean surfaces is safe to drink immediately",
-          "helpDetail": "First flush from roofs/tarps may contain debris—discard first minute."
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-prickly-pear-water",
@@ -2975,8 +2793,8 @@
           "helpDetail": "Despite myths, barrel cactus fluid can cause nausea and diarrhea."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-morning-dew-mop",
@@ -3007,8 +2825,8 @@
           "helpDetail": "Work systematically before the sun evaporates the dew."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-solar-disinfection-advanced",
@@ -3039,40 +2857,8 @@
           "helpDetail": "Temperature above 50°C combined with UV-A achieves 99.9% pathogen kill."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-pine-needle-tea",
-      "category": "Hydration",
-      "name": "Pine Needle Tea",
-      "subtitle": "Emergency vitamin C and hydration source",
-      "difficulty": 3,
-      "isCritical": false,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Identify safe pine species",
-          "helpDetail": "Most pines are safe. AVOID yew, Norfolk Island pine, and Ponderosa (toxic to livestock)."
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Collect fresh green needles",
-          "helpDetail": "Younger, lighter-colored needles have more vitamin C."
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Chop or bruise needles",
-          "helpDetail": "This releases oils and nutrients."
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Steep in hot (not boiling) water for 10-15 min",
-          "helpDetail": "Boiling destroys vitamin C. Warm water extracts it."
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-water-vine-identification",
@@ -3103,8 +2889,8 @@
           "helpDetail": "Hold your mouth or container under the vine. One vine can yield a pint."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-clay-pot-purification",
@@ -3135,8 +2921,8 @@
           "helpDetail": "Heat to 900°C for 8+ hours. The result is a porous ceramic filter."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-activated-charcoal-making",
@@ -3167,8 +2953,8 @@
           "helpDetail": "Layer: gravel, sand, charcoal, sand, gravel from bottom up."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-snow-melting-efficiency",
@@ -3199,8 +2985,8 @@
           "helpDetail": "Snow can contain pollutants, bacteria, and parasites. Always purify."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-solar-still-tripod",
@@ -3231,8 +3017,8 @@
           "helpDetail": "Pure distilled water drips down the plastic into a collection vessel."
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-desalination-solar",
@@ -3269,8 +3055,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-vegetable-filter",
@@ -3307,46 +3093,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-iv-fluid-improvised",
-      "name": "Improvised Oral Rehydration Solution",
-      "subtitle": "Medical-grade rehydration formula from basic ingredients",
-      "category": "Hydration",
-      "difficulty": 2,
-      "estimatedTime": "5 min",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Mix in 1 liter of CLEAN water: 6 level teaspoons of sugar + ½ level teaspoon of salt.",
-          "helpDetail": "Precision matters: too much salt can worsen dehydration. Too much sugar causes diarrhea.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Stir until completely dissolved.",
-          "helpDetail": "The solution should taste like tears — slightly salty, slightly sweet.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Sip slowly — 200-400ml per hour for adults, less for children.",
-          "helpDetail": "Gulping causes vomiting. Slow, steady intake is key.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "This formula is WHO-endorsed and saves millions of lives annually.",
-          "helpDetail": "It works because the glucose-sodium co-transport mechanism pulls water into the intestines 25x more effectively than plain water.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-tree-bag-transpiration",
@@ -3383,8 +3131,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-uv-disinfection",
@@ -3421,8 +3169,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-seawater-reverse-osmosis-field",
@@ -3459,8 +3207,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-rock-seep-collection",
@@ -3497,8 +3245,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-fog-collection",
@@ -3535,8 +3283,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-well-drilling-hand",
@@ -3573,8 +3321,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-birch-sap",
@@ -3611,8 +3359,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-spring-finding",
@@ -3649,8 +3397,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-coconut-water",
@@ -3687,8 +3435,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-cactus-water-extraction",
@@ -3725,8 +3473,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-vegtube-transpiration",
@@ -3763,8 +3511,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-ice-desalination",
@@ -3839,8 +3587,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-purify-rolling-boil",
@@ -3991,2288 +3739,8 @@
           "illustrationDescription": ""
         }
       ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-dew-collection-trap",
-      "name": "Dew Collection Trap in Desert",
-      "subtitle": "Adapting the dew collection trap technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the dew collection trap.",
-          "helpDetail": "Set up the dew collection trap in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-dew-collection-trap",
-      "name": "Dew Collection Trap in Jungle",
-      "subtitle": "Adapting the dew collection trap technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the dew collection trap.",
-          "helpDetail": "Set up the dew collection trap in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-dew-collection-trap",
-      "name": "Dew Collection Trap in Alpine",
-      "subtitle": "Adapting the dew collection trap technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the dew collection trap.",
-          "helpDetail": "Set up the dew collection trap in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-dew-collection-trap",
-      "name": "Dew Collection Trap in Coastal",
-      "subtitle": "Adapting the dew collection trap technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the dew collection trap.",
-          "helpDetail": "Set up the dew collection trap in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-dew-collection-trap",
-      "name": "Dew Collection Trap in Temperate Forest",
-      "subtitle": "Adapting the dew collection trap technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the dew collection trap.",
-          "helpDetail": "Set up the dew collection trap in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-dew-collection-trap",
-      "name": "Dew Collection Trap in Swamp/Marsh",
-      "subtitle": "Adapting the dew collection trap technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the dew collection trap.",
-          "helpDetail": "Set up the dew collection trap in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-transpiration-bag",
-      "name": "Transpiration Bag in Desert",
-      "subtitle": "Adapting the transpiration bag technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the transpiration bag.",
-          "helpDetail": "Set up the transpiration bag in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-arctic-transpiration-bag",
-      "name": "Transpiration Bag in Arctic",
-      "subtitle": "Adapting the transpiration bag technique specifically for arctic environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Arctic water profile.",
-          "helpDetail": "In a arctic environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the transpiration bag.",
-          "helpDetail": "Set up the transpiration bag in the optimal microclimate within the arctic (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a arctic can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-transpiration-bag",
-      "name": "Transpiration Bag in Jungle",
-      "subtitle": "Adapting the transpiration bag technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the transpiration bag.",
-          "helpDetail": "Set up the transpiration bag in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-transpiration-bag",
-      "name": "Transpiration Bag in Alpine",
-      "subtitle": "Adapting the transpiration bag technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the transpiration bag.",
-          "helpDetail": "Set up the transpiration bag in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-transpiration-bag",
-      "name": "Transpiration Bag in Coastal",
-      "subtitle": "Adapting the transpiration bag technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the transpiration bag.",
-          "helpDetail": "Set up the transpiration bag in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-transpiration-bag",
-      "name": "Transpiration Bag in Temperate Forest",
-      "subtitle": "Adapting the transpiration bag technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the transpiration bag.",
-          "helpDetail": "Set up the transpiration bag in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-transpiration-bag",
-      "name": "Transpiration Bag in Swamp/Marsh",
-      "subtitle": "Adapting the transpiration bag technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the transpiration bag.",
-          "helpDetail": "Set up the transpiration bag in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-solar-still",
-      "name": "Solar Still in Desert",
-      "subtitle": "Adapting the solar still technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the solar still.",
-          "helpDetail": "Set up the solar still in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-arctic-solar-still",
-      "name": "Solar Still in Arctic",
-      "subtitle": "Adapting the solar still technique specifically for arctic environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Arctic water profile.",
-          "helpDetail": "In a arctic environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the solar still.",
-          "helpDetail": "Set up the solar still in the optimal microclimate within the arctic (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a arctic can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-solar-still",
-      "name": "Solar Still in Jungle",
-      "subtitle": "Adapting the solar still technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the solar still.",
-          "helpDetail": "Set up the solar still in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-solar-still",
-      "name": "Solar Still in Alpine",
-      "subtitle": "Adapting the solar still technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the solar still.",
-          "helpDetail": "Set up the solar still in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-solar-still",
-      "name": "Solar Still in Coastal",
-      "subtitle": "Adapting the solar still technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the solar still.",
-          "helpDetail": "Set up the solar still in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-solar-still",
-      "name": "Solar Still in Temperate Forest",
-      "subtitle": "Adapting the solar still technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the solar still.",
-          "helpDetail": "Set up the solar still in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-solar-still",
-      "name": "Solar Still in Swamp/Marsh",
-      "subtitle": "Adapting the solar still technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the solar still.",
-          "helpDetail": "Set up the solar still in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-rock-crevice-siphoning",
-      "name": "Rock/Crevice Siphoning in Desert",
-      "subtitle": "Adapting the rock/crevice siphoning technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rock/crevice siphoning.",
-          "helpDetail": "Set up the rock/crevice siphoning in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-arctic-rock-crevice-siphoning",
-      "name": "Rock/Crevice Siphoning in Arctic",
-      "subtitle": "Adapting the rock/crevice siphoning technique specifically for arctic environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Arctic water profile.",
-          "helpDetail": "In a arctic environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rock/crevice siphoning.",
-          "helpDetail": "Set up the rock/crevice siphoning in the optimal microclimate within the arctic (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a arctic can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-rock-crevice-siphoning",
-      "name": "Rock/Crevice Siphoning in Jungle",
-      "subtitle": "Adapting the rock/crevice siphoning technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rock/crevice siphoning.",
-          "helpDetail": "Set up the rock/crevice siphoning in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-rock-crevice-siphoning",
-      "name": "Rock/Crevice Siphoning in Alpine",
-      "subtitle": "Adapting the rock/crevice siphoning technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rock/crevice siphoning.",
-          "helpDetail": "Set up the rock/crevice siphoning in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-rock-crevice-siphoning",
-      "name": "Rock/Crevice Siphoning in Coastal",
-      "subtitle": "Adapting the rock/crevice siphoning technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rock/crevice siphoning.",
-          "helpDetail": "Set up the rock/crevice siphoning in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-rock-crevice-siphoning",
-      "name": "Rock/Crevice Siphoning in Temperate Forest",
-      "subtitle": "Adapting the rock/crevice siphoning technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rock/crevice siphoning.",
-          "helpDetail": "Set up the rock/crevice siphoning in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-rock-crevice-siphoning",
-      "name": "Rock/Crevice Siphoning in Swamp/Marsh",
-      "subtitle": "Adapting the rock/crevice siphoning technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rock/crevice siphoning.",
-          "helpDetail": "Set up the rock/crevice siphoning in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-ice-desalination",
-      "name": "Ice Desalination in Desert",
-      "subtitle": "Adapting the ice desalination technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the ice desalination.",
-          "helpDetail": "Set up the ice desalination in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-arctic-ice-desalination",
-      "name": "Ice Desalination in Arctic",
-      "subtitle": "Adapting the ice desalination technique specifically for arctic environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Arctic water profile.",
-          "helpDetail": "In a arctic environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the ice desalination.",
-          "helpDetail": "Set up the ice desalination in the optimal microclimate within the arctic (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a arctic can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-ice-desalination",
-      "name": "Ice Desalination in Alpine",
-      "subtitle": "Adapting the ice desalination technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the ice desalination.",
-          "helpDetail": "Set up the ice desalination in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-ice-desalination",
-      "name": "Ice Desalination in Coastal",
-      "subtitle": "Adapting the ice desalination technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the ice desalination.",
-          "helpDetail": "Set up the ice desalination in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-ice-desalination",
-      "name": "Ice Desalination in Temperate Forest",
-      "subtitle": "Adapting the ice desalination technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the ice desalination.",
-          "helpDetail": "Set up the ice desalination in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-ice-desalination",
-      "name": "Ice Desalination in Swamp/Marsh",
-      "subtitle": "Adapting the ice desalination technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the ice desalination.",
-          "helpDetail": "Set up the ice desalination in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-grapevine-tapping",
-      "name": "Grapevine Tapping in Desert",
-      "subtitle": "Adapting the grapevine tapping technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the grapevine tapping.",
-          "helpDetail": "Set up the grapevine tapping in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-arctic-grapevine-tapping",
-      "name": "Grapevine Tapping in Arctic",
-      "subtitle": "Adapting the grapevine tapping technique specifically for arctic environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Arctic water profile.",
-          "helpDetail": "In a arctic environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the grapevine tapping.",
-          "helpDetail": "Set up the grapevine tapping in the optimal microclimate within the arctic (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a arctic can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-grapevine-tapping",
-      "name": "Grapevine Tapping in Jungle",
-      "subtitle": "Adapting the grapevine tapping technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the grapevine tapping.",
-          "helpDetail": "Set up the grapevine tapping in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-grapevine-tapping",
-      "name": "Grapevine Tapping in Alpine",
-      "subtitle": "Adapting the grapevine tapping technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the grapevine tapping.",
-          "helpDetail": "Set up the grapevine tapping in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-grapevine-tapping",
-      "name": "Grapevine Tapping in Coastal",
-      "subtitle": "Adapting the grapevine tapping technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the grapevine tapping.",
-          "helpDetail": "Set up the grapevine tapping in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-grapevine-tapping",
-      "name": "Grapevine Tapping in Temperate Forest",
-      "subtitle": "Adapting the grapevine tapping technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the grapevine tapping.",
-          "helpDetail": "Set up the grapevine tapping in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-grapevine-tapping",
-      "name": "Grapevine Tapping in Swamp/Marsh",
-      "subtitle": "Adapting the grapevine tapping technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the grapevine tapping.",
-          "helpDetail": "Set up the grapevine tapping in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-bamboo-node-extraction",
-      "name": "Bamboo Node Extraction in Desert",
-      "subtitle": "Adapting the bamboo node extraction technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the bamboo node extraction.",
-          "helpDetail": "Set up the bamboo node extraction in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-bamboo-node-extraction",
-      "name": "Bamboo Node Extraction in Jungle",
-      "subtitle": "Adapting the bamboo node extraction technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the bamboo node extraction.",
-          "helpDetail": "Set up the bamboo node extraction in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-bamboo-node-extraction",
-      "name": "Bamboo Node Extraction in Alpine",
-      "subtitle": "Adapting the bamboo node extraction technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the bamboo node extraction.",
-          "helpDetail": "Set up the bamboo node extraction in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-bamboo-node-extraction",
-      "name": "Bamboo Node Extraction in Coastal",
-      "subtitle": "Adapting the bamboo node extraction technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the bamboo node extraction.",
-          "helpDetail": "Set up the bamboo node extraction in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-bamboo-node-extraction",
-      "name": "Bamboo Node Extraction in Temperate Forest",
-      "subtitle": "Adapting the bamboo node extraction technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the bamboo node extraction.",
-          "helpDetail": "Set up the bamboo node extraction in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-bamboo-node-extraction",
-      "name": "Bamboo Node Extraction in Swamp/Marsh",
-      "subtitle": "Adapting the bamboo node extraction technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the bamboo node extraction.",
-          "helpDetail": "Set up the bamboo node extraction in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-mud-hole-filtration-(seep)",
-      "name": "Mud Hole Filtration (Seep) in Desert",
-      "subtitle": "Adapting the mud hole filtration (seep) technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the mud hole filtration (seep).",
-          "helpDetail": "Set up the mud hole filtration (seep) in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-arctic-mud-hole-filtration-(seep)",
-      "name": "Mud Hole Filtration (Seep) in Arctic",
-      "subtitle": "Adapting the mud hole filtration (seep) technique specifically for arctic environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Arctic water profile.",
-          "helpDetail": "In a arctic environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the mud hole filtration (seep).",
-          "helpDetail": "Set up the mud hole filtration (seep) in the optimal microclimate within the arctic (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a arctic can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-mud-hole-filtration-(seep)",
-      "name": "Mud Hole Filtration (Seep) in Jungle",
-      "subtitle": "Adapting the mud hole filtration (seep) technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the mud hole filtration (seep).",
-          "helpDetail": "Set up the mud hole filtration (seep) in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-mud-hole-filtration-(seep)",
-      "name": "Mud Hole Filtration (Seep) in Alpine",
-      "subtitle": "Adapting the mud hole filtration (seep) technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the mud hole filtration (seep).",
-          "helpDetail": "Set up the mud hole filtration (seep) in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-mud-hole-filtration-(seep)",
-      "name": "Mud Hole Filtration (Seep) in Coastal",
-      "subtitle": "Adapting the mud hole filtration (seep) technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the mud hole filtration (seep).",
-          "helpDetail": "Set up the mud hole filtration (seep) in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-mud-hole-filtration-(seep)",
-      "name": "Mud Hole Filtration (Seep) in Temperate Forest",
-      "subtitle": "Adapting the mud hole filtration (seep) technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the mud hole filtration (seep).",
-          "helpDetail": "Set up the mud hole filtration (seep) in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-mud-hole-filtration-(seep)",
-      "name": "Mud Hole Filtration (Seep) in Swamp/Marsh",
-      "subtitle": "Adapting the mud hole filtration (seep) technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the mud hole filtration (seep).",
-          "helpDetail": "Set up the mud hole filtration (seep) in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-desert-rain-catchment-basin",
-      "name": "Rain Catchment Basin in Desert",
-      "subtitle": "Adapting the rain catchment basin technique specifically for desert environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Desert water profile.",
-          "helpDetail": "In a desert environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rain catchment basin.",
-          "helpDetail": "Set up the rain catchment basin in the optimal microclimate within the desert (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a desert can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-arctic-rain-catchment-basin",
-      "name": "Rain Catchment Basin in Arctic",
-      "subtitle": "Adapting the rain catchment basin technique specifically for arctic environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Arctic water profile.",
-          "helpDetail": "In a arctic environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rain catchment basin.",
-          "helpDetail": "Set up the rain catchment basin in the optimal microclimate within the arctic (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a arctic can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-jungle-rain-catchment-basin",
-      "name": "Rain Catchment Basin in Jungle",
-      "subtitle": "Adapting the rain catchment basin technique specifically for jungle environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Jungle water profile.",
-          "helpDetail": "In a jungle environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rain catchment basin.",
-          "helpDetail": "Set up the rain catchment basin in the optimal microclimate within the jungle (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a jungle can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-alpine-rain-catchment-basin",
-      "name": "Rain Catchment Basin in Alpine",
-      "subtitle": "Adapting the rain catchment basin technique specifically for alpine environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Alpine water profile.",
-          "helpDetail": "In a alpine environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rain catchment basin.",
-          "helpDetail": "Set up the rain catchment basin in the optimal microclimate within the alpine (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a alpine can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-coastal-rain-catchment-basin",
-      "name": "Rain Catchment Basin in Coastal",
-      "subtitle": "Adapting the rain catchment basin technique specifically for coastal environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Coastal water profile.",
-          "helpDetail": "In a coastal environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rain catchment basin.",
-          "helpDetail": "Set up the rain catchment basin in the optimal microclimate within the coastal (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a coastal can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-temperate-forest-rain-catchment-basin",
-      "name": "Rain Catchment Basin in Temperate Forest",
-      "subtitle": "Adapting the rain catchment basin technique specifically for temperate forest environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Temperate Forest water profile.",
-          "helpDetail": "In a temperate forest environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rain catchment basin.",
-          "helpDetail": "Set up the rain catchment basin in the optimal microclimate within the temperate forest (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a temperate forest can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
-    },
-    {
-      "id": "water-encyclopedia-procure-swamp-marsh-rain-catchment-basin",
-      "name": "Rain Catchment Basin in Swamp/Marsh",
-      "subtitle": "Adapting the rain catchment basin technique specifically for swamp/marsh environments.",
-      "category": "Procurement",
-      "difficulty": 2,
-      "estimatedTime": "varies",
-      "hasHapticGuide": false,
-      "hapticType": null,
-      "steps": [
-        {
-          "stepNumber": 1,
-          "instruction": "Analyze the Swamp/Marsh water profile.",
-          "helpDetail": "In a swamp/marsh environment, finding surface water is secondary to extracting hidden moisture or preventing contamination.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 2,
-          "instruction": "Deploy the rain catchment basin.",
-          "helpDetail": "Set up the rain catchment basin in the optimal microclimate within the swamp/marsh (e.g., maximizing sun angle, or avoiding salt spray).",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 3,
-          "instruction": "Protect the yield.",
-          "helpDetail": "Evaporation or freezing in a swamp/marsh can steal your procured water. Extract and store it quickly in a sealed container.",
-          "illustrationDescription": ""
-        },
-        {
-          "stepNumber": 4,
-          "instruction": "Always purify.",
-          "helpDetail": "Regardless of the extraction method, assume all ground or plant water is biologically contaminated and must be boiled or treated.",
-          "illustrationDescription": ""
-        }
-      ],
-      "sourceName": "FM 21-76 US Army Survival Manual",
-      "sourceUrl": "https://archive.org/search?query=FM+21-76+Survival+Manual"
+      "sourceName": "US Army Survival Manual (FM 21-76)",
+      "sourceUrl": "https://archive.org/details/fm21-761"
     },
     {
       "id": "water-water-heater-extraction",
@@ -6372,7 +3840,9 @@
         "water-uv-purification",
         "water-filter-sock",
         "water-charcoal-filter"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-finding",
@@ -6384,7 +3854,9 @@
         "water-dew-collection",
         "water-rain-collection",
         "water-vegetation-indicators"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-oceansurv",
@@ -6393,7 +3865,9 @@
       "relatedTechniqueIDs": [
         "water-seawater",
         "water-rain-collection"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-contamination",
@@ -6402,7 +3876,9 @@
       "relatedTechniqueIDs": [
         "water-boiling",
         "water-iodine"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-signs",
@@ -6411,7 +3887,9 @@
       "relatedTechniqueIDs": [
         "water-vegetation-indicators",
         "water-dew-collection"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-desert",
@@ -6421,7 +3899,9 @@
         "water-solar-still",
         "water-well-digging",
         "water-vegetation-indicators"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-ice-snow",
@@ -6430,7 +3910,9 @@
       "relatedTechniqueIDs": [
         "water-snow-melting",
         "water-boiling"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-storage",
@@ -6439,7 +3921,9 @@
       "relatedTechniqueIDs": [
         "water-birch-container",
         "water-boiling"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-diseases",
@@ -6449,7 +3933,9 @@
         "water-boiling",
         "water-bio-sand-filter",
         "water-electrolyte-solution"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-filter-vs-purify",
@@ -6459,7 +3945,9 @@
         "water-charcoal-filter",
         "water-boiling",
         "water-activated-charcoal"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-desert-survival",
@@ -6469,7 +3957,9 @@
         "water-cactus-extraction",
         "water-underground-seep",
         "water-solar-still"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-winter",
@@ -6478,7 +3968,9 @@
       "relatedTechniqueIDs": [
         "water-seawater-ice",
         "water-boiling"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-rationing",
@@ -6487,7 +3979,9 @@
       "relatedTechniqueIDs": [
         "water-electrolyte-solution",
         "water-solar-still"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-rainwater",
@@ -6496,7 +3990,9 @@
       "relatedTechniqueIDs": [
         "water-tarp-rain-catch",
         "water-poncho-rain-catch"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     },
     {
       "id": "water-article-testing",
@@ -6506,7 +4002,9 @@
         "water-boiling",
         "water-charcoal-filter",
         "water-spring-identification"
-      ]
+      ],
+      "sourceUrl": "https://archive.org/details/fm21-761",
+      "sourceName": "US Army Survival Manual (FM 21-76)"
     }
   ]
 }
