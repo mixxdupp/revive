@@ -4,95 +4,65 @@ import CoreHaptics
 
 struct CPRMetronomeView: View {
     @State private var isRunning = false
-    @State private var beatCount = 0
+    @State private var beatCount = 0          // Total compressions
+    @State private var cycleCount = 0         // Current compression in 30-count set
+    @State private var setCount = 0           // Number of completed 30:2 sets
     @State private var isBeatOn = false
+    @State private var isBreathPause = false  // True during "GIVE 2 BREATHS" window
     @State private var engine: CHHapticEngine?
     @State private var timer: Timer?
 
-    // AHA Guidelines: 100-120 compressions/min → 110 BPM = ~0.545s interval
+    // AHA Guidelines: 100-120 compressions/min → 110 BPM
     private let bpm: Double = 110
     private var interval: Double { 60.0 / bpm }
+    private let compressionsPerSet = 30
+    private let breathPauseDuration: Double = 4.0 // ~4s for 2 rescue breaths
 
     var body: some View {
         ZStack {
-            Color.black.ignoresSafeArea()
+            // Full-screen beat flash — visible in peripheral vision
+            (isBeatOn ? Color(red: 0.15, green: 0.0, blue: 0.0) : Color.black)
+                .ignoresSafeArea()
+                .animation(.easeOut(duration: 0.06), value: isBeatOn)
             
-            // MARK: - Ambient OLED Glow (Apple Health style lighting)
-            Circle()
-                .fill(Color(red: 1.0, green: 0.15, blue: 0.15).opacity(isBeatOn ? 0.2 : 0.0))
-                .frame(width: 320, height: 320)
-                .blur(radius: 60)
-                .scaleEffect(isBeatOn ? 1.3 : 0.8)
-                .animation(.spring(response: 0.5, dampingFraction: 0.6), value: isBeatOn)
-                .offset(y: -50)
+            // Breath pause: full screen goes blue
+            if isBreathPause {
+                Color.blue.opacity(0.15)
+                    .ignoresSafeArea()
+            }
             
             VStack(spacing: 0) {
                 Spacer()
-                    .frame(height: 20)
-                
-                Spacer()
-                
-                // MARK: - Core Pulse Visuals
-                VStack(spacing: 8) {
-                    Text("\(isRunning ? beatCount : Int(bpm))")
-                        // iOS 18 Fitness-style massive tracking typography
-                        .font(.system(size: 150, weight: .light, design: .rounded).monospacedDigit())
-                        .foregroundStyle(.white)
-                        // True physical compression animation (chest pushes IN, not OUT)
-                        .scaleEffect(isBeatOn ? 0.94 : 1.0)
-                        .animation(.interactiveSpring(response: 0.25, dampingFraction: 0.4), value: isBeatOn)
-                        .contentTransition(.numericText())
-                    
-                    Text(isRunning ? "COMPRESSIONS" : "BEATS PER MINUTE")
-                        .font(.system(size: 15, weight: .bold, design: .rounded))
-                        .foregroundStyle(Color(red: 1.0, green: 0.25, blue: 0.25))
-                        .kerning(1.5)
+
+                if isBreathPause {
+                    // MARK: - Breath Pause State
+                    breathPauseView
+                } else {
+                    // MARK: - Compression State
+                    compressionView
                 }
-                .accessibilityElement(children: .combine)
-                .accessibilityLabel(isRunning ? "\(beatCount) Compressions" : "\(Int(bpm)) BPM")
 
                 Spacer()
 
-                // MARK: - iOS 18 Metric Cards (Apple Health aesthetic)
-                HStack(spacing: 12) {
-                    MetricCard(
-                        title: "DEPTH",
-                        value: "2 in",
-                        subtitle: "5 cm",
-                        icon: "arrow.down.to.line.compact"
-                    )
-                    
-                    MetricCard(
-                        title: "RECOIL",
-                        value: "Full",
-                        subtitle: "Release",
-                        icon: "arrow.up.and.down"
-                    )
-                }
-                .padding(.horizontal, 24)
-                .padding(.bottom, 32)
+                // MARK: - Guidance Strip (always visible)
+                guidanceStrip
+                    .padding(.bottom, 24)
 
-                // MARK: - Premium Action Capsule
+                // MARK: - Action Button
                 Button(action: toggleMetronome) {
-                    HStack(spacing: 12) {
+                    HStack(spacing: 10) {
                         Image(systemName: isRunning ? "stop.fill" : "play.fill")
-                            .font(.system(size: 20, weight: .black))
+                            .font(.system(size: 20, weight: .bold))
                         
-                        Text(isRunning ? "STOP PACER" : "START PACER")
-                            .font(.system(size: 18, weight: .heavy, design: .rounded))
-                            .kerning(1)
+                        Text(isRunning ? "STOP" : "START CPR")
+                            .font(.system(size: 20, weight: .bold, design: .rounded))
                     }
                     .foregroundStyle(isRunning ? .black : .white)
                     .frame(maxWidth: .infinity)
                     .frame(height: 72)
                     .background(
-                        Capsule()
-                            .fill(isRunning ? Color.white : Color(red: 0.9, green: 0.2, blue: 0.2))
-                    )
-                    // High-end iOS button stroke overlay
-                    .overlay(
-                        Capsule()
-                            .stroke(Color.white.opacity(isRunning ? 0.0 : 0.2), lineWidth: 1)
+                        RoundedRectangle(cornerRadius: 20, style: .continuous)
+                            .fill(isRunning ? Color.white : Color.red)
                     )
                 }
                 .padding(.horizontal, 24)
@@ -104,6 +74,94 @@ struct CPRMetronomeView: View {
         .onAppear { prepareHaptics() }
         .onDisappear { stopMetronome() }
     }
+    
+    // MARK: - Compression View (active during 30-count)
+    private var compressionView: some View {
+        VStack(spacing: 16) {
+            // Coaching word — massive, unmissable
+            Text(isBeatOn ? "PUSH" : "")
+                .font(.system(size: 28, weight: .black, design: .rounded))
+                .foregroundStyle(Color.red)
+                .frame(height: 36)
+            
+            // Compression counter
+            Text("\(cycleCount)")
+                .font(.system(size: 140, weight: .light, design: .rounded).monospacedDigit())
+                .foregroundStyle(.white)
+                .scaleEffect(isBeatOn ? 0.95 : 1.0)
+                .animation(.interactiveSpring(response: 0.2, dampingFraction: 0.5), value: isBeatOn)
+                .contentTransition(.numericText())
+            
+            // Progress — how far through the 30
+            Text("of \(compressionsPerSet)")
+                .font(.system(size: 18, weight: .medium, design: .rounded))
+                .foregroundStyle(Color(white: 0.4))
+            
+            // Set counter
+            if setCount > 0 {
+                Text("Set \(setCount + 1)")
+                    .font(.system(size: 15, weight: .semibold, design: .rounded))
+                    .foregroundStyle(Color(white: 0.35))
+                    .padding(.top, 4)
+            }
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("\(cycleCount) of \(compressionsPerSet) compressions")
+    }
+    
+    // MARK: - Breath Pause View (shown after 30 compressions)
+    private var breathPauseView: some View {
+        VStack(spacing: 20) {
+            Image(systemName: "wind")
+                .font(.system(size: 56, weight: .light))
+                .foregroundStyle(.blue)
+            
+            Text("GIVE 2 BREATHS")
+                .font(.system(size: 32, weight: .black, design: .rounded))
+                .foregroundStyle(.white)
+            
+            Text("Tilt head back, lift chin, seal mouth")
+                .font(.system(size: 16, weight: .medium, design: .rounded))
+                .foregroundStyle(Color(white: 0.5))
+                .multilineTextAlignment(.center)
+            
+            Text("Resuming compressions...")
+                .font(.system(size: 14, weight: .semibold, design: .rounded))
+                .foregroundStyle(Color(white: 0.3))
+                .padding(.top, 8)
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("Give 2 rescue breaths now")
+    }
+    
+    // MARK: - Bottom Guidance Strip
+    private var guidanceStrip: some View {
+        HStack(spacing: 0) {
+            guidanceItem(icon: "arrow.down", label: "2 in deep")
+            Spacer()
+            guidanceItem(icon: "arrow.up", label: "Full recoil")
+            Spacer()
+            guidanceItem(icon: "metronome", label: "110/min")
+        }
+        .padding(.horizontal, 32)
+        .padding(.vertical, 16)
+        .background(Color(white: 0.08))
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .padding(.horizontal, 24)
+    }
+    
+    private func guidanceItem(icon: String, label: String) -> some View {
+        HStack(spacing: 6) {
+            Image(systemName: icon)
+                .font(.system(size: 13, weight: .bold))
+                .foregroundStyle(Color(white: 0.5))
+            Text(label)
+                .font(.system(size: 13, weight: .semibold, design: .rounded))
+                .foregroundStyle(Color(white: 0.5))
+        }
+    }
+
+    // MARK: - Engine
 
     private func toggleMetronome() {
         let generator = UIImpactFeedbackGenerator(style: .rigid)
@@ -113,9 +171,12 @@ struct CPRMetronomeView: View {
 
     private func startMetronome() {
         beatCount = 0
+        cycleCount = 0
+        setCount = 0
         isRunning = true
+        isBreathPause = false
         
-        // Zero-latency instantaneous execution
+        // Zero-latency: first beat fires immediately
         beat()
         
         timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { _ in
@@ -126,23 +187,46 @@ struct CPRMetronomeView: View {
     private func stopMetronome() {
         isRunning = false
         isBeatOn = false
+        isBreathPause = false
         timer?.invalidate()
         timer = nil
     }
 
     private func beat() {
+        guard !isBreathPause else { return }
+        
         beatCount += 1
+        cycleCount += 1
         isBeatOn = true
 
-        // True haptic resistance
         triggerHaptic()
-
-        // Clinical metronome audio focus
         AudioServicesPlaySystemSound(1104)
 
-        // Perfect physical recoil release mapping (0.08s)
+        // Visual reset
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.08) {
             isBeatOn = false
+        }
+        
+        // 30:2 cycle check
+        if cycleCount >= compressionsPerSet {
+            // Pause for 2 rescue breaths
+            timer?.invalidate()
+            timer = nil
+            isBreathPause = true
+            
+            // Auto-resume after breath pause
+            DispatchQueue.main.asyncAfter(deadline: .now() + breathPauseDuration) {
+                guard isRunning else { return }
+                isBreathPause = false
+                cycleCount = 0
+                setCount += 1
+                
+                // Restart rhythm
+                beat()
+                timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { _ in
+                    beat()
+                }
+            }
         }
     }
 
@@ -152,7 +236,7 @@ struct CPRMetronomeView: View {
             engine = try CHHapticEngine()
             try engine?.start()
         } catch {
-            // Natively handled fallback
+            // Fallback to UIKit haptics
         }
     }
 
@@ -174,41 +258,5 @@ struct CPRMetronomeView: View {
             let generator = UIImpactFeedbackGenerator(style: .heavy)
             generator.impactOccurred()
         }
-    }
-}
-
-// MARK: - iOS 18 Design System Components
-
-private struct MetricCard: View {
-    let title: String
-    let value: String
-    let subtitle: String
-    let icon: String
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 6) {
-                Image(systemName: icon)
-                    .font(.system(size: 12, weight: .bold))
-                    .foregroundStyle(Color(red: 1.0, green: 0.3, blue: 0.3))
-                Text(title)
-                    .font(.system(size: 13, weight: .bold, design: .rounded))
-                    .foregroundStyle(Color(white: 0.5))
-                    .kerning(0.5)
-            }
-            
-            VStack(alignment: .leading, spacing: 0) {
-                Text(value)
-                    .font(.system(size: 26, weight: .bold, design: .rounded))
-                    .foregroundStyle(.white)
-                Text(subtitle)
-                    .font(.system(size: 14, weight: .semibold, design: .rounded))
-                    .foregroundStyle(Color(white: 0.4))
-            }
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(18)
-        .background(Color(white: 0.1)) // Deep dynamic black equivalent
-        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
     }
 }
