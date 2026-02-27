@@ -343,7 +343,7 @@ struct EmergencySirenView: View {
     // MARK: - Active View
     private var activeView: some View {
         VStack(spacing: 16) {
-            Text("BROADCASTING")
+            Text("SIREN ACTIVE")
                 .font(.title2.weight(.bold))
                 .foregroundStyle(Color.white.opacity(0.9))
                 .frame(height: 30)
@@ -356,10 +356,10 @@ struct EmergencySirenView: View {
             
             if !isGuidedAccessActive {
                 Text("TRIPLE-CLICK SIDE BUTTON TO LOCK")
-                    .font(.caption.weight(.bold))
+                    .font(.headline.weight(.bold))
                     .foregroundStyle(.black)
-                    .padding(.vertical, 8)
-                    .padding(.horizontal, 16)
+                    .padding(.vertical, 10)
+                    .padding(.horizontal, 20)
                     .background(Color.yellow)
                     .clipShape(Capsule())
                     .padding(.top, 16)
@@ -375,9 +375,12 @@ struct EmergencySirenView: View {
                 .font(.system(size: 56, weight: .light))
                 .foregroundStyle(.red)
             
-            Text("EMERGENCY SIREN")
-                .font(.largeTitle.weight(.bold))
-                .foregroundStyle(.white)
+            VStack(spacing: 0) {
+                Text("EMERGENCY")
+                Text("SIREN")
+            }
+            .font(.largeTitle.weight(.bold))
+            .foregroundStyle(.white)
             
             Text("Generates extremely loud 1400Hz sweep")
                 .font(.body)
@@ -502,8 +505,6 @@ struct LongPressActionButton: View {
         .padding(.bottom, 24)
         .scaleEffect(isHolding ? 0.96 : 1.0)
         .animation(.spring(response: 0.3, dampingFraction: 0.6), value: isHolding)
-        // Solid drop shadow when active to pop against background flash
-        .shadow(color: isPlaying ? .black.opacity(0.5) : .clear, radius: 10, x: 0, y: 5)
         .gesture(
             DragGesture(minimumDistance: 0)
                 .onChanged { _ in
