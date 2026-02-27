@@ -1,6 +1,7 @@
 import SwiftUI
 import AVFoundation
 import MediaPlayer
+import CoreHaptics
 
 final class SirenManager: ObservableObject {
     @Published var isPlaying = false
@@ -39,6 +40,8 @@ final class SirenManager: ObservableObject {
     }
 
     func toggleSiren() {
+        let generator = UIImpactFeedbackGenerator(style: .rigid)
+        generator.impactOccurred()
         if isPlaying { stopSiren() } else { startSiren() }
     }
     
@@ -251,278 +254,175 @@ final class SirenManager: ObservableObject {
     }
 }
 
+// MARK: - View
 struct EmergencySirenView: View {
     var autoPlay: Bool = false
     @StateObject private var manager = SirenManager()
     @State private var showSecurityInfo = false
     @State private var isGuidedAccessActive = UIAccessibility.isGuidedAccessEnabled
-    @State private var blink = false
-    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         ZStack {
-            // MARK: - Flashing Background
-            if manager.isPlaying {
-                manager.screenFlashColor
-                    .edgesIgnoringSafeArea(.all)
-            } else {
-                Color(uiColor: .systemGroupedBackground)
-                    .edgesIgnoringSafeArea(.all)
-            }
+            // Full-screen beat flash — visible in peripheral vision
+            (manager.isPlaying ? manager.screenFlashColor : Color.black)
+                .ignoresSafeArea()
+                .animation(.easeOut(duration: 0.06), value: manager.isPlaying)
             
-            // Back Button
-            VStack {
-                HStack {
-                    Button(action: {
-                        manager.stopSiren()
-                        dismiss()
-                    }) {
-                        HStack(spacing: 6) {
-                            Image(systemName: "chevron.left")
-                                .font(.body.weight(.semibold))
-                            Text("Back")
-                                .font(.headline)
-                        }
-                        .foregroundStyle(manager.isPlaying ? .white.opacity(0.8) : Color.blue)
-                    }
-                    .padding(.top, 16)
-                    .padding(.horizontal, 24)
-                    .accessibilityLabel("Go Back")
-                    
-                    Spacer()
-                }
-                Spacer()
-            }
-            
-            VStack(spacing: 32) {
+            VStack(spacing: 0) {
                 Spacer()
 
-                // Visual siren indicator (Circles)
-                sirenIndicatorView
-                
-                Text("Emergency Siren")
-                    .font(.system(size: 28, weight: .bold))
-                    .foregroundStyle(manager.isPlaying ? .white : DesignSystem.textPrimary)
-
-                Text(manager.isPlaying ? "Distress Signal Active" : "Generates loud alarm & strobe")
-                    .font(.body.weight(.medium))
-                    .foregroundStyle(manager.isPlaying ? .white.opacity(0.9) : DesignSystem.textSecondary)
-
-                if manager.isPlaying && !isGuidedAccessActive {
-                    Text("TRIPLE-CLICK SIDE BUTTON TO LOCK")
-                        .font(.headline.weight(.black))
-                        .foregroundStyle(.black)
-                        .padding(.vertical, 8)
-                        .padding(.horizontal, 16)
-                        .background(Color.yellow)
-                        .clipShape(Capsule())
+                if manager.isPlaying {
+                    // MARK: - Active State
+                    activeView
+                } else {
+                    // MARK: - Inactive State
+                    inactiveView
                 }
 
-                // Security Status Banner (Relocated)
-                Button(action: { showSecurityInfo = true }) {
-                    HStack(spacing: 8) {
-                        Image(systemName: isGuidedAccessActive ? "lock.shield.fill" : "lock.open.trianglebadge.exclamationmark.fill")
-                            .foregroundStyle(isGuidedAccessActive ? .green : .black)
-                        
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection: OFF")
-                                .font(.subheadline.weight(.semibold))
-                                .foregroundStyle(isGuidedAccessActive ? (manager.isPlaying ? .white : DesignSystem.textPrimary) : .black)
-                            
-                            if !isGuidedAccessActive {
-                                Text("Tap to learn how to lock buttons")
-                                    .font(.caption)
-                                    .foregroundStyle(isGuidedAccessActive ? (manager.isPlaying ? .white.opacity(0.7) : DesignSystem.textSecondary) : .black.opacity(0.8))
-                            }
-                        }
-                    }
-                    .padding(.vertical, 8)
-                    .padding(.horizontal, 16)
-                    .background(isGuidedAccessActive ? Color.green.opacity(0.15) : Color.yellow)
-                    .cornerRadius(12)
-                }
-                .sheet(isPresented: $showSecurityInfo) {
-                    NavigationStack {
-                        ScrollView {
-                            VStack(alignment: .leading, spacing: 16) {
-                                Text("Prevent Intruder Stop")
-                                    .font(.title2.weight(.bold))
-                                
-                                if UIAccessibility.isGuidedAccessEnabled {
-                                    Label("Guided Access is ENABLED", systemImage: "checkmark.shield.fill")
-                                        .font(.headline)
-                                        .foregroundStyle(.green)
-                                } else {
-                                    Label("Guided Access is DISABLED", systemImage: "exclamationmark.shield.fill")
-                                        .font(.headline)
-                                        .foregroundStyle(.orange)
-                                }
-                                
-                                Divider()
-                                
-                                Text("Can this be automatic?")
-                                    .font(.headline)
-                                Text("No. Apple security rules prevent apps from locking the phone automatically. You must manually trigger it.")
-                                    .font(.subheadline)
-                                    .foregroundStyle(.secondary)
-                                
-                                Text("Why use it?")
-                                    .font(.headline)
-                                Text("It disables the Power Button and Volume Buttons so no one can silence your device.")
-                                    .font(.body)
-                                
-                                VStack(alignment: .leading, spacing: 4) {
-                                    Text("How to Activate:")
-                                        .font(.caption.weight(.bold))
-                                    Text("1. Go to Settings > Accessibility > Guided Access > Toggle ON.")
-                                    Text("2. Create a Passcode.")
-                                    Text("3. Return here.")
-                                    Text("4. Triple-Click the Side Button.")
-                                    Text("5. CRITICAL: Tap 'Options' (bottom left) → Turn OFF EVERYTHING.")
-                                        .foregroundStyle(.red)
-                                        .bold()
-                                    Text("   • Side Button (Sleep/Wake)")
-                                        .font(.caption)
-                                        .foregroundStyle(.secondary)
-                                    Text("   • Volume Buttons")
-                                        .font(.caption)
-                                        .foregroundStyle(.secondary)
-                                    Text("   • Motion")
-                                        .font(.caption)
-                                        .foregroundStyle(.secondary)
-                                    Text("   • Keyboards")
-                                        .font(.caption)
-                                        .foregroundStyle(.secondary)
-                                }
-                                .padding()
-                                .background(Color(uiColor: .secondarySystemBackground))
-                                .cornerRadius(12)
-                                
-                                Divider()
-                                
-                                Text("Triple-Click to Activate Siren?")
-                                    .font(.headline)
-                                Text("Apple reserves the Side Button Triple-Click for Guided Access. However, you can use **Back Tap**.")
-                                    .font(.subheadline)
-                                    .foregroundStyle(.secondary)
-                                
-                                VStack(alignment: .leading, spacing: 4) {
-                                    Text("How to set up Back Tap:")
-                                        .font(.caption.weight(.bold))
-                                    Text("1. Settings > Accessibility > Touch > Back Tap.")
-                                    Text("2. Choose 'Double Tap' or 'Triple Tap'.")
-                                    Text("3. Scroll down to 'SHORTCUTS'.")
-                                    Text("4. Select 'Start Siren'.")
-                                    
-                                    Button("Open Shortcuts App") {
-                                        if let url = URL(string: "shortcuts://") {
-                                            UIApplication.shared.open(url)
-                                        }
-                                    }
-                                    .font(.caption.weight(.bold))
-                                    .padding(.top, 4)
-                                }
-                                .padding()
-                                .background(Color(uiColor: .secondarySystemBackground))
-                                .cornerRadius(12)
-                            }
-                            .padding()
-                        }
-                        .navigationTitle("Security Info")
-                        .navigationBarTitleDisplayMode(.inline)
-                        .toolbar {
-                            ToolbarItem(placement: .cancellationAction) {
-                                Button("Close") { showSecurityInfo = false }
-                            }
-                        }
-                    }
-                    .presentationDetents([.medium])
-                }
-                
                 Spacer()
 
-                // Controls
-                controlsView
-                    .padding(.bottom, 30)
+                // MARK: - Guidance Strip (always visible)
+                controlsStrip
+                    .padding(.bottom, 24)
+
+                // MARK: - Action Button
+                LongPressActionButton(isPlaying: manager.isPlaying, action: manager.toggleSiren)
             }
         }
-        .navigationTitle("")
+        .navigationTitle(manager.isPlaying ? "" : "Emergency Siren")
         .navigationBarTitleDisplayMode(.inline)
-        .navigationBarHidden(true)
-        .navigationBarBackButtonHidden(true)
+        .toolbarBackground(manager.isPlaying ? .hidden : .visible, for: .navigationBar)
         .onAppear {
             if autoPlay {
                 manager.includeStrobe = true
                 manager.startSiren()
             }
-            // Check Guided Access Status
             isGuidedAccessActive = UIAccessibility.isGuidedAccessEnabled
         }
         .onReceive(NotificationCenter.default.publisher(for: UIAccessibility.guidedAccessStatusDidChangeNotification)) { _ in
             isGuidedAccessActive = UIAccessibility.isGuidedAccessEnabled
         }
         .onDisappear { manager.stopSiren() }
-    }
-    
-    // MARK: - Subviews UI
-    private var sirenIndicatorView: some View {
-        ZStack {
-            // Static Background Circle
-            Circle()
-                .fill(manager.isPlaying ? manager.osColor : Color.purple.opacity(0.1))
-                .frame(width: 160, height: 160)
-
-            // Static Icon
-            Image(systemName: "light.beacon.max.fill")
-                .font(.system(size: 64))
-                .foregroundStyle(manager.isPlaying ? .white : DesignSystem.textPrimary)
+        .sheet(isPresented: $showSecurityInfo) {
+            SecurityInfoSheet(isGuidedAccessActive: isGuidedAccessActive)
         }
-        .accessibilityHidden(true)
     }
     
-    private var controlsView: some View {
-        VStack(spacing: 24) {
-            // Strobe Toggle
-            Toggle(isOn: $manager.includeStrobe) {
+    // MARK: - Active View
+    private var activeView: some View {
+        VStack(spacing: 16) {
+            Text("BROADCASTING")
+                .font(.system(size: 22, weight: .bold))
+                .foregroundStyle(Color.red)
+                .frame(height: 30)
+            
+            Image(systemName: "speaker.wave.3.fill")
+                .font(.system(size: 140, weight: .light, design: .rounded))
+                .foregroundStyle(.white)
+                .scaleEffect(manager.screenFlashColor != .clear ? 0.95 : 1.0)
+                .animation(.interactiveSpring(response: 0.2, dampingFraction: 0.5), value: manager.screenFlashColor)
+            
+            if !isGuidedAccessActive {
+                Text("TRIPLE-CLICK SIDE BUTTON TO LOCK")
+                    .font(.system(size: 14, weight: .black))
+                    .foregroundStyle(.black)
+                    .padding(.vertical, 8)
+                    .padding(.horizontal, 16)
+                    .background(Color.yellow)
+                    .clipShape(Capsule())
+                    .padding(.top, 16)
+            }
+        }
+        .accessibilityElement(children: .combine)
+    }
+    
+    // MARK: - Inactive View
+    private var inactiveView: some View {
+        VStack(spacing: 20) {
+            Image(systemName: "light.beacon.max.fill")
+                .font(.system(size: 56, weight: .light))
+                .foregroundStyle(.red)
+            
+            Text("EMERGENCY SIREN")
+                .font(.system(size: 28, weight: .bold))
+                .foregroundStyle(.white)
+            
+            Text("Generates extremely loud 1400Hz sweep")
+                .font(.system(size: 16, weight: .medium))
+                .foregroundStyle(Color(white: 0.5))
+                .multilineTextAlignment(.center)
+            
+            Text("Warning: Volume buttons can silence alarm")
+                .font(.system(size: 14, weight: .regular))
+                .foregroundStyle(Color(white: 0.3))
+                .padding(.top, 8)
+        }
+        .accessibilityElement(children: .combine)
+    }
+    
+    // MARK: - Bottom Controls Strip
+    private var controlsStrip: some View {
+        VStack(spacing: 0) {
+            HStack {
+                guidanceItem(
+                    icon: "flashlight.on.fill",
+                    label: "SOS Strobe",
+                    isActive: manager.includeStrobe,
+                    activeColor: .white
+                )
+                Spacer()
+                Toggle("", isOn: $manager.includeStrobe)
+                    .labelsHidden()
+                    .tint(.white)
+                    .onChange(of: manager.includeStrobe) { _, newValue in
+                        if manager.isPlaying {
+                            if newValue { manager.startFlash() } else { manager.stopFlash() }
+                        }
+                    }
+            }
+            .padding(.horizontal, 32)
+            .padding(.vertical, 16)
+            
+            Divider().background(Color(white: 0.2)).padding(.horizontal, 24)
+            
+            Button(action: { showSecurityInfo = true }) {
                 HStack {
-                    Image(systemName: "flashlight.on.fill")
-                        .foregroundStyle(manager.isPlaying ? .white.opacity(0.8) : DesignSystem.textSecondary)
-                    Text("Include SOS Strobe")
-                        .font(.body.weight(.medium))
-                        .foregroundStyle(manager.isPlaying ? .white : DesignSystem.textPrimary)
+                    guidanceItem(
+                        icon: isGuidedAccessActive ? "lock.shield.fill" : "exclamationmark.shield.fill",
+                        label: "Intruder Protection",
+                        isActive: isGuidedAccessActive,
+                        activeColor: .green
+                    )
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundStyle(Color(white: 0.4))
                 }
+                .padding(.horizontal, 32)
+                .padding(.vertical, 16)
             }
-            .toggleStyle(SwitchToggleStyle(tint: .white))
-            .padding(.horizontal, 24)
-            .padding(.vertical, 12)
-            .background(manager.isPlaying ? Color.black.opacity(0.2) : Color(uiColor: .secondarySystemGroupedBackground))
-            .clipShape(RoundedRectangle(cornerRadius: 16))
-            .padding(.horizontal, 40)
-            .onChange(of: manager.includeStrobe) { _, newValue in
-                if manager.isPlaying {
-                    if newValue { manager.startFlash() } else { manager.stopFlash() }
-                }
-            }
-
-            // Warning
-            HStack(spacing: 8) {
-                Image(systemName: "ear.trianglebadge.exclamationmark")
-                    .font(.subheadline)
-                Text("Very loud. Check device volume.")
-                    .font(.caption.weight(.medium))
-            }
-            .foregroundStyle(manager.isPlaying ? .white.opacity(0.8) : DesignSystem.textSecondary)
-
-            // Hold-to-Disarm Button
-            LongPressButton(isPlaying: manager.isPlaying) {
-                manager.toggleSiren()
-            }
-            .padding(.horizontal, 40)
+        }
+        .background(manager.isPlaying ? Color.black.opacity(0.4) : Color(white: 0.08))
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .padding(.horizontal, 24)
+        .disabled(manager.isPlaying)
+    }
+    
+    private func guidanceItem(icon: String, label: String, isActive: Bool, activeColor: Color) -> some View {
+        HStack(spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 18, weight: .bold))
+                .foregroundStyle(isActive ? activeColor : Color(white: 0.4))
+                .frame(width: 24)
+            Text(label)
+                .font(.system(size: 15, weight: .semibold, design: .rounded))
+                .foregroundStyle(isActive ? .white : Color(white: 0.5))
         }
     }
 }
 
-struct LongPressButton: View {
+// MARK: - Action Button
+struct LongPressActionButton: View {
     var isPlaying: Bool
     var action: () -> Void
     
@@ -530,71 +430,55 @@ struct LongPressButton: View {
     @State private var progress: CGFloat = 0.0
     private let holdDuration: TimeInterval = 3.0
     @State private var timer: Timer?
-    @State private var pulse = false
     
     var body: some View {
         ZStack(alignment: .leading) {
             // Background
             RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .fill(isPlaying ? .white : Color.purple)
-                .frame(height: 64)
+                .fill(isPlaying ? Color.white : Color.red)
+                .frame(height: 72)
             
             // Progress Fill (Red when holding to stop)
             if isPlaying {
                 GeometryReader { geo in
                     RoundedRectangle(cornerRadius: 20, style: .continuous)
                         .fill(Color.red)
-                        .frame(width: geo.size.width * progress, height: 64)
+                        .frame(width: geo.size.width * progress, height: 72)
                         .animation(.linear(duration: 0.1), value: progress)
                 }
-                .frame(height: 64)
+                .frame(height: 72)
                 .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
             }
             
-            // Text
-            Text(buttonText)
-                .font(.title3.weight(.bold))
-                .foregroundStyle(isPlaying ? (progress > 0.5 ? .white : .red) : .white)
-                .frame(maxWidth: .infinity, alignment: .center)
-        }
-        .accessibilityLabel(buttonText)
-        .accessibilityAddTraits(.isButton)
-        .accessibilityHint("Double tap and hold to activate")
-        .scaleEffect(isHolding ? 0.95 : 1.0)
-        .animation(.spring(response: 0.3, dampingFraction: 0.6), value: isHolding)
-        // Morphing Pulse Animation
-        .overlay(
-            Group {
-                if isPlaying {
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .stroke(Color.white, lineWidth: 2)
-                        .scaleEffect(pulse ? 1.3 : 1.0)
-                        .opacity(pulse ? 0.0 : 0.8)
-                        .onAppear {
-                            withAnimation(.easeOut(duration: 1.2).repeatForever(autoreverses: false)) {
-                                pulse = true
-                            }
-                        }
-                }
+            // Content
+            HStack(spacing: 10) {
+                Image(systemName: isPlaying ? "stop.fill" : "play.fill")
+                    .font(.system(size: 20, weight: .bold))
+                
+                Text(buttonText)
+                    .font(.system(size: 20, weight: .bold, design: .rounded))
             }
-        )
+            .foregroundStyle(isPlaying ? (progress > 0.5 ? .white : .black) : .white)
+            .frame(maxWidth: .infinity, alignment: .center)
+            .frame(height: 72)
+        }
+        .padding(.horizontal, 24)
+        .padding(.bottom, 24)
+        .scaleEffect(isHolding ? 0.96 : 1.0)
+        .animation(.spring(response: 0.3, dampingFraction: 0.6), value: isHolding)
         .gesture(
             DragGesture(minimumDistance: 0)
                 .onChanged { _ in
-                    if !isHolding {
-                        startHolding()
-                    }
+                    if !isHolding { startHolding() }
                 }
-                .onEnded { _ in
-                    stopHolding()
-                }
+                .onEnded { _ in stopHolding() }
         )
     }
     
     private var buttonText: String {
-        if !isPlaying { return "ACTIVATE SIGNAL" }
-        if isHolding { return "HOLD TO DISARM" }
-        return "HOLD 3S TO STOP"
+        if !isPlaying { return "START SIREN" }
+        if isHolding { return "HOLD TO STOP" }
+        return "SLIDE OR HOLD"
     }
     
     private func startHolding() {
@@ -606,13 +490,11 @@ struct LongPressButton: View {
         isHolding = true
         progress = 0.0
         
-        // Impact Haptic
         let generator = UIImpactFeedbackGenerator(style: .medium)
         generator.impactOccurred()
         
-        // Start Timer
         let startTime = Date()
-        timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { t in
+        timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { _ in
             let elapsed = Date().timeIntervalSince(startTime)
             progress = CGFloat(elapsed / holdDuration)
             
@@ -631,11 +513,85 @@ struct LongPressButton: View {
     
     private func completeHold() {
         stopHolding()
-        
-        // Success Haptic
         let generator = UINotificationFeedbackGenerator()
         generator.notificationOccurred(.success)
-        
         action()
+    }
+}
+
+// MARK: - Security Info Sheet
+struct SecurityInfoSheet: View {
+    var isGuidedAccessActive: Bool
+    @Environment(\.dismiss) var dismiss
+    
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    if isGuidedAccessActive {
+                        HStack {
+                            Image(systemName: "checkmark.shield.fill")
+                                .font(.system(size: 24))
+                                .foregroundStyle(.green)
+                            Text("Guided Access is ENABLED")
+                                .font(.system(size: 18, weight: .bold))
+                        }
+                    } else {
+                        HStack {
+                            Image(systemName: "exclamationmark.shield.fill")
+                                .font(.system(size: 24))
+                                .foregroundStyle(.orange)
+                            Text("Guided Access is DISABLED")
+                                .font(.system(size: 18, weight: .bold))
+                        }
+                    }
+                    
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Why use it?")
+                            .font(.system(size: 18, weight: .bold))
+                        Text("It disables the Power Button and Volume Buttons so an attacker cannot silence your device. It requires your passcode or FaceID to stop the siren.")
+                            .font(.system(size: 16))
+                            .foregroundStyle(Color(white: 0.8))
+                    }
+                    
+                    VStack(alignment: .leading, spacing: 16) {
+                        Text("How to Activate")
+                            .font(.system(size: 18, weight: .bold))
+                        
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("1. Go to Settings > Accessibility > Guided Access > Toggle ON.")
+                            Text("2. Create a Passcode.")
+                            Text("3. Return to this app.")
+                            Text("4. Triple-Click the Side Button.")
+                        }
+                        .font(.system(size: 16, weight: .medium))
+                        
+                        Text("CRITICAL: Tap 'Options' (bottom left) → Turn OFF EVERYTHING.")
+                            .font(.system(size: 16, weight: .bold))
+                            .foregroundStyle(.red)
+                        
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("• Side Button (Sleep/Wake)")
+                            Text("• Volume Buttons")
+                            Text("• Motion")
+                            Text("• Keyboards")
+                        }
+                        .font(.system(size: 14))
+                        .foregroundStyle(Color(white: 0.6))
+                        .padding(.leading, 8)
+                    }
+                }
+                .padding(24)
+            }
+            .background(Color.black.ignoresSafeArea())
+            .preferredColorScheme(.dark)
+            .navigationTitle("Intruder Protection")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Close") { dismiss() }
+                }
+            }
+        }
     }
 }
