@@ -337,6 +337,7 @@ struct EmergencySirenView: View {
         .onDisappear { manager.stopSiren() }
         .sheet(isPresented: $showSecurityInfo) {
             SecurityInfoSheet(isGuidedAccessActive: isGuidedAccessActive)
+                .presentationBackground(.black)
         }
     }
     
@@ -426,7 +427,7 @@ struct EmergencySirenView: View {
                     HStack {
                         guidanceItem(
                             icon: isGuidedAccessActive ? "lock.shield.fill" : "exclamationmark.shield.fill",
-                            label: "Intruder Protection",
+                            label: isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection Off",
                             isActive: isGuidedAccessActive,
                             activeColor: .green
                         )
@@ -565,7 +566,10 @@ struct SecurityInfoSheet: View {
     
     var body: some View {
         NavigationStack {
-            ScrollView {
+            ZStack {
+                Color.black.ignoresSafeArea()
+                
+                ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     if isGuidedAccessActive {
                         HStack {
@@ -622,10 +626,11 @@ struct SecurityInfoSheet: View {
                 }
                 .padding(24)
             }
-            .background(Color.black.ignoresSafeArea())
+            }
             .preferredColorScheme(.dark)
             .navigationTitle("Intruder Protection")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbarBackground(.black, for: .navigationBar)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Close") { dismiss() }
