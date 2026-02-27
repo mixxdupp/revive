@@ -286,17 +286,17 @@ struct EmergencySirenView: View {
                     Button(action: { showSecurityInfo = true }) {
                         HStack(spacing: 12) {
                             Image(systemName: isGuidedAccessActive ? "lock.shield.fill" : "lock.open.trianglebadge.exclamationmark.fill")
-                                .font(.system(size: 24))
+                                .font(.title2)
                                 .foregroundStyle(isGuidedAccessActive ? .green : .black)
                             
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection: OFF")
-                                    .font(.system(size: 16, weight: .bold, design: .rounded))
+                                    .font(.headline)
                                     .foregroundStyle(isGuidedAccessActive ? .white : .black)
                                 
                                 if !isGuidedAccessActive {
                                     Text("Requires Guided Access check")
-                                        .font(.system(size: 13, weight: .medium, design: .rounded))
+                                        .font(.caption)
                                         .foregroundStyle(.black.opacity(0.7))
                                 }
                             }
@@ -344,19 +344,19 @@ struct EmergencySirenView: View {
     private var activeView: some View {
         VStack(spacing: 16) {
             Text("BROADCASTING")
-                .font(.system(size: 22, weight: .bold, design: .rounded))
+                .font(.title2.weight(.bold))
                 .foregroundStyle(Color.white.opacity(0.9))
                 .frame(height: 30)
             
             Image(systemName: "speaker.wave.3.fill")
-                .font(.system(size: 140, weight: .light, design: .rounded))
+                .font(.system(size: 140, weight: .light))
                 .foregroundStyle(.white)
                 .scaleEffect(manager.screenFlashColor != .clear ? 0.95 : 1.0)
                 .animation(.interactiveSpring(response: 0.2, dampingFraction: 0.5), value: manager.screenFlashColor)
             
             if !isGuidedAccessActive {
                 Text("TRIPLE-CLICK SIDE BUTTON TO LOCK")
-                    .font(.system(size: 14, weight: .black))
+                    .font(.caption.weight(.bold))
                     .foregroundStyle(.black)
                     .padding(.vertical, 8)
                     .padding(.horizontal, 16)
@@ -376,16 +376,16 @@ struct EmergencySirenView: View {
                 .foregroundStyle(.red)
             
             Text("EMERGENCY SIREN")
-                .font(.system(size: 28, weight: .black, design: .rounded))
+                .font(.largeTitle.weight(.bold))
                 .foregroundStyle(.white)
             
             Text("Generates extremely loud 1400Hz sweep")
-                .font(.system(size: 16, weight: .medium))
-                .foregroundStyle(Color(white: 0.5))
+                .font(.body)
+                .foregroundStyle(Color(white: 0.6))
                 .multilineTextAlignment(.center)
             
             Text("Warning: Volume buttons can silence alarm")
-                .font(.system(size: 14, weight: .bold))
+                .font(.footnote.weight(.semibold))
                 .foregroundStyle(Color.red)
                 .padding(.top, 8)
         }
@@ -429,7 +429,7 @@ struct EmergencySirenView: View {
                         )
                         Spacer()
                         Image(systemName: "chevron.right")
-                            .font(.system(size: 14, weight: .semibold))
+                            .font(.subheadline)
                             .foregroundStyle(Color(white: 0.4))
                     }
                     .padding(.horizontal, 24)
@@ -447,11 +447,11 @@ struct EmergencySirenView: View {
     private func guidanceItem(icon: String, label: String, isActive: Bool, activeColor: Color) -> some View {
         HStack(spacing: 12) {
             Image(systemName: icon)
-                .font(.system(size: 18, weight: .bold))
+                .font(.headline)
                 .foregroundStyle(isActive ? activeColor : Color(white: 0.5))
                 .frame(width: 24)
             Text(label)
-                .font(.system(size: 16, weight: .bold, design: .rounded))
+                .font(.headline)
                 .foregroundStyle(isActive ? .white : Color(white: 0.6))
         }
     }
@@ -489,10 +489,10 @@ struct LongPressActionButton: View {
             // Content
             HStack(spacing: 10) {
                 Image(systemName: isPlaying ? "stop.fill" : "play.fill")
-                    .font(.system(size: 20, weight: .black))
+                    .font(.title3.weight(.bold))
                 
                 Text(buttonText)
-                    .font(.system(size: 20, weight: .black, design: .rounded))
+                    .font(.title3.weight(.bold))
             }
             .foregroundStyle(isPlaying ? (progress > 0.5 ? .white : .black) : .white)
             .frame(maxWidth: .infinity, alignment: .center)
@@ -569,32 +569,32 @@ struct SecurityInfoSheet: View {
                     if isGuidedAccessActive {
                         HStack {
                             Image(systemName: "checkmark.shield.fill")
-                                .font(.system(size: 24))
+                                .font(.title2)
                                 .foregroundStyle(.green)
                             Text("Guided Access is ENABLED")
-                                .font(.system(size: 18, weight: .bold))
+                                .font(.headline)
                         }
                     } else {
                         HStack {
                             Image(systemName: "exclamationmark.shield.fill")
-                                .font(.system(size: 24))
+                                .font(.title2)
                                 .foregroundStyle(.orange)
                             Text("Guided Access is DISABLED")
-                                .font(.system(size: 18, weight: .bold))
+                                .font(.headline)
                         }
                     }
                     
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Why use it?")
-                            .font(.system(size: 18, weight: .bold))
+                            .font(.headline)
                         Text("It disables the Power Button and Volume Buttons so an attacker cannot silence your device. It requires your passcode or FaceID to stop the siren.")
-                            .font(.system(size: 16))
+                            .font(.body)
                             .foregroundStyle(Color(white: 0.8))
                     }
                     
                     VStack(alignment: .leading, spacing: 16) {
                         Text("How to Activate")
-                            .font(.system(size: 18, weight: .bold))
+                            .font(.headline)
                         
                         VStack(alignment: .leading, spacing: 8) {
                             Text("1. Go to Settings > Accessibility > Guided Access > Toggle ON.")
@@ -602,10 +602,10 @@ struct SecurityInfoSheet: View {
                             Text("3. Return to this app.")
                             Text("4. Triple-Click the Side Button.")
                         }
-                        .font(.system(size: 16, weight: .medium))
+                        .font(.body)
                         
                         Text("CRITICAL: Tap 'Options' (bottom left) → Turn OFF EVERYTHING.")
-                            .font(.system(size: 16, weight: .bold))
+                            .font(.headline)
                             .foregroundStyle(.red)
                         
                         VStack(alignment: .leading, spacing: 4) {
@@ -614,7 +614,7 @@ struct SecurityInfoSheet: View {
                             Text("• Motion")
                             Text("• Keyboards")
                         }
-                        .font(.system(size: 14))
+                        .font(.subheadline)
                         .foregroundStyle(Color(white: 0.6))
                         .padding(.leading, 8)
                     }
