@@ -14,73 +14,113 @@ struct CPRMetronomeView: View {
     private var interval: Double { 60.0 / bpm }
 
     var body: some View {
-        VStack(spacing: 32) {
+        VStack(spacing: 0) {
             Spacer()
 
-            // BPM display
+            // MARK: - Core Metronome Visual
             ZStack {
+                // Background tracking ring
                 Circle()
-                    .stroke(Color.red.opacity(0.2), lineWidth: 8)
-                    .frame(width: 200, height: 200)
-
+                    .fill(Color.red.opacity(0.05))
+                    .frame(width: 240, height: 240)
+                
+                // Active compression ring
                 Circle()
-                    .fill(isBeatOn ? Color.red : Color.red.opacity(0.1))
-                    .frame(width: 180, height: 180)
-                    .animation(.easeOut(duration: 0.1), value: isBeatOn)
+                    .fill(isRunning ? Color.red : Color.red.opacity(0.15))
+                    // Physical compression scale: shrinks on the beat
+                    .frame(width: isBeatOn ? 190 : 220, height: isBeatOn ? 190 : 220)
+                    // Hyper-realistic spatial spring for a heavy chest compression
+                    .animation(.interpolatingSpring(stiffness: 300, damping: 20), value: isBeatOn)
+                    .shadow(color: isRunning ? Color.red.opacity(0.3) : .clear, radius: isBeatOn ? 5 : 20, y: isBeatOn ? 2 : 10)
 
-                VStack(spacing: 4) {
+                VStack(spacing: 2) {
                     Text("\(Int(bpm))")
-                        .font(.system(size: 56, weight: .bold))
-                        .foregroundStyle(isBeatOn ? .white : DesignSystem.textPrimary)
+                        .font(.system(size: 72, weight: .semibold, design: .rounded).monospacedDigit())
+                        .foregroundStyle(isRunning ? .white : DesignSystem.textPrimary)
+                        .scaleEffect(isBeatOn ? 0.95 : 1.0)
+                        .animation(.interpolatingSpring(stiffness: 300, damping: 20), value: isBeatOn)
+                    
                     Text("BPM")
-                        .font(.title3.weight(.semibold))
-                        .foregroundStyle(isBeatOn ? .white.opacity(0.8) : DesignSystem.textSecondary)
-                        .foregroundStyle(isBeatOn ? .white.opacity(0.8) : DesignSystem.textSecondary)
+                        .font(.system(size: 18, weight: .bold, design: .rounded))
+                        .foregroundStyle(isRunning ? .white.opacity(0.8) : DesignSystem.textSecondary)
+                        .kerning(1)
                 }
             }
             .accessibilityElement(children: .combine)
             .accessibilityLabel("\(Int(bpm)) BPM")
 
-            Text("CPR Metronome")
-                .font(.system(size: 28, weight: .bold))
-                .foregroundStyle(DesignSystem.textPrimary)
+            Spacer()
+                .frame(height: 48)
 
-            // Compression counter
-            if isRunning {
-                Text("Compressions: \(beatCount)")
-                    .font(.title3.weight(.medium).monospacedDigit())
-                    .foregroundStyle(DesignSystem.textSecondary)
+            // MARK: - Real-time Protocol Feedback
+            VStack(spacing: 8) {
+                if isRunning {
+                    Text("\(beatCount)")
+                        .font(.system(size: 44, weight: .heavy, design: .rounded).monospacedDigit())
+                        .foregroundStyle(Color.red)
+                        .contentTransition(.numericText())
+                        .animation(.snappy, value: beatCount)
+                    
+                    Text("COMPRESSIONS")
+                        .font(.system(size: 13, weight: .bold))
+                        .foregroundStyle(DesignSystem.textSecondary)
+                        .kerning(1.5)
+                } else {
+                    Text("Ready")
+                        .font(.system(size: 24, weight: .medium))
+                        .foregroundStyle(DesignSystem.textPrimary)
+                    
+                    Text("TAP START TO BEGIN PACER")
+                        .font(.system(size: 13, weight: .bold))
+                        .foregroundStyle(DesignSystem.textSecondary)
+                        .kerning(1.5)
+                }
             }
-
-            // Guidelines
-            VStack(spacing: 6) {
-                Text("Push hard, push fast")
-                    .font(.headline)
-                    .foregroundStyle(DesignSystem.textPrimary)
-                Text("At least 2 inches (5 cm) depth")
-                    .font(.subheadline)
-                    .foregroundStyle(DesignSystem.textSecondary)
-                Text("Allow full chest recoil between compressions")
-                    .font(.subheadline)
-                    .foregroundStyle(DesignSystem.textSecondary)
-            }
+            .frame(height: 80) // Fixed height to prevent layout shift
 
             Spacer()
 
-            // Start/Stop
-            Button(action: toggleMetronome) {
-                Text(isRunning ? "STOP" : "START CPR PACER")
-                    .font(.title2.weight(.bold))
-                    .foregroundStyle(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 20)
-                    .background(isRunning ? Color.gray : Color.red)
-                    .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            // MARK: - Clinical Guidelines (Ultra Minimal)
+            VStack(spacing: 8) {
+                Label("Push Hard & Fast", systemImage: "bolt.heart.fill")
+                    .font(.system(size: 17, weight: .bold))
+                    .foregroundStyle(DesignSystem.textPrimary)
+                
+                HStack(spacing: 16) {
+                    Text("2 INCHES DEEP")
+                    Text("•")
+                        .foregroundStyle(DesignSystem.textSecondary.opacity(0.5))
+                    Text("FULL RECOIL")
+                }
+                .font(.system(size: 13, weight: .semibold))
+                .foregroundStyle(DesignSystem.textSecondary)
             }
-            .padding(.horizontal, 40)
-            .padding(.bottom, 30)
+            .padding(.bottom, 48)
+
+            // MARK: - Primary Action
+            Button(action: toggleMetronome) {
+                HStack(spacing: 12) {
+                    Image(systemName: isRunning ? "stop.fill" : "play.fill")
+                        .font(.system(size: 20, weight: .black))
+                    Text(isRunning ? "STOP PACER" : "START CPR PACER")
+                        .font(.system(size: 18, weight: .heavy, design: .rounded))
+                        .kerning(1)
+                }
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 24)
+                // Apple Maps style hyper-smooth corner radius
+                .background(
+                    RoundedRectangle(cornerRadius: 24, style: .continuous)
+                        .fill(isRunning ? Color.primary.opacity(0.8) : Color.red)
+                )
+                // Spatial shadow mapping
+                .shadow(color: isRunning ? .clear : Color.red.opacity(0.25), radius: 20, y: 10)
+            }
+            .padding(.horizontal, 32)
+            .padding(.bottom, 40)
         }
-        .background(Color(uiColor: .systemGroupedBackground))
+        .background(DesignSystem.backgroundPrimary.ignoresSafeArea())
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { prepareHaptics() }
@@ -88,12 +128,16 @@ struct CPRMetronomeView: View {
     }
 
     private func toggleMetronome() {
+        let generator = UIImpactFeedbackGenerator(style: .rigid)
+        generator.impactOccurred()
         if isRunning { stopMetronome() } else { startMetronome() }
     }
 
     private func startMetronome() {
         beatCount = 0
         isRunning = true
+        // Fire first beat immediately for zero-latency UI response
+        beat()
         timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { _ in
             beat()
         }
@@ -110,13 +154,13 @@ struct CPRMetronomeView: View {
         beatCount += 1
         isBeatOn = true
 
-        // Haptic
+        // Core Haptic: Sharp, driving impact simulating actual chest compression depth
         triggerHaptic()
 
-        // Audio click
+        // Audio standard medical metronome click
         AudioServicesPlaySystemSound(1104)
 
-        // Reset visual after short delay
+        // Ultra-snappy visual release imitating optimal chest recoil (.08s)
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.08) {
             isBeatOn = false
         }
@@ -128,28 +172,51 @@ struct CPRMetronomeView: View {
             engine = try CHHapticEngine()
             try engine?.start()
         } catch {
-            // Device doesn't support haptics
+            // Fallback natively handled
         }
     }
 
     private func triggerHaptic() {
         guard let engine = engine else {
-            // Fallback to basic haptic
             let generator = UIImpactFeedbackGenerator(style: .heavy)
+            // Fallback for non-corehaptics
             generator.impactOccurred()
             return
         }
-        let sharpness = CHHapticEventParameter(parameterID: .hapticSharpness, value: 0.8)
+        
+        // Custom haptic matching CPR compression: maximum sharpness, maximum intensity
+        let sharpness = CHHapticEventParameter(parameterID: .hapticSharpness, value: 1.0)
         let intensity = CHHapticEventParameter(parameterID: .hapticIntensity, value: 1.0)
         let event = CHHapticEvent(eventType: .hapticTransient, parameters: [sharpness, intensity], relativeTime: 0)
+        
         do {
             let pattern = try CHHapticPattern(events: [event], parameters: [])
             let player = try engine.makePlayer(with: pattern)
             try player.start(atTime: 0)
         } catch {
-            // Fallback
             let generator = UIImpactFeedbackGenerator(style: .heavy)
             generator.impactOccurred()
+        }
+    }
+}
+
+struct GuidelineRow: View {
+    let icon: String
+    let text: String
+    
+    var body: some View {
+        HStack(alignment: .top, spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 16, weight: .semibold))
+                .foregroundStyle(.red)
+                .frame(width: 24)
+            
+            Text(text)
+                .font(.subheadline.weight(.medium))
+                .foregroundStyle(.primary)
+                .fixedSize(horizontal: false, vertical: true)
+            
+            Spacer(minLength: 0)
         }
     }
 }
