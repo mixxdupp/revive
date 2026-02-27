@@ -5,7 +5,7 @@ import CoreHaptics
 
 final class SirenManager: ObservableObject {
     @Published var isPlaying = false
-    @Published var includeStrobe = false
+    @Published var includeStrobe = true
     @Published var screenFlashColor: Color = .clear
     
     // Audio Components
