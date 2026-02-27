@@ -6,168 +6,196 @@ struct CompassView: View {
     @State private var hasPlayedNorthHaptic = false
     @State private var hasPlayedTargetHaptic = false
     
+    // Apple Watch Ultra / Wayfinder "Action" Orange
+    private let actionOrange = Color(red: 1.0, green: 0.35, blue: 0.0)
+    
     var body: some View {
         ZStack {
-            // Background
-            DesignSystem.backgroundPrimary
-                .ignoresSafeArea()
+            Color.black.ignoresSafeArea()
             
-            // Mesh Gradient
-            GeometryReader { proxy in
-                ZStack {
-                    Circle()
-                        .fill(Color.teal.opacity(0.1))
-                        .frame(width: 300, height: 300)
-                        .blur(radius: 60)
-                        .offset(x: -100, y: -100)
-                }
-            }
-            .ignoresSafeArea()
-            
-            VStack(spacing: 40) {
-                // Header
-                VStack(spacing: 8) {
-                    Text("Compass")
-                        .font(.system(size: 32, weight: .black))
-                        .foregroundStyle(DesignSystem.textPrimary)
+            VStack(spacing: 0) {
+                // MARK: - Navigation Header (Pro Aesthetic)
+                Text(locationManager.isLocked ? "HEADING LOCKED" : "MAGNETIC HEADING")
+                    .font(.system(size: 13, weight: .bold, design: .rounded))
+                    .foregroundStyle(locationManager.isLocked ? actionOrange : Color(white: 0.4))
+                    .kerning(2)
+                    .padding(.top, 40)
+                    .animation(.easeInOut, value: locationManager.isLocked)
                     
-                    Text(locationManager.isLocked ? "Bearing Locked" : "Tap Center to Lock")
-                        .font(.subheadline)
-                        .foregroundStyle(locationManager.isLocked ? Color.red : DesignSystem.textSecondary)
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 4)
-                        .background(
-                            Capsule()
-                                .fill(locationManager.isLocked ? Color.red.opacity(0.1) : Color.clear)
-                        )
-                }
-                .padding(.top, 20)
+                Spacer()
+                    .frame(height: 20)
                 
-                // Compass Rose
+                // MARK: - Massive True North Readout
+                VStack(spacing: -8) {
+                    Text("\(Int(locationManager.trueNorth))°")
+                        .font(.system(size: 110, weight: .ultraLight, design: .rounded).monospacedDigit())
+                        .foregroundStyle(.white)
+                        .contentTransition(.numericText())
+                    
+                    Text(cardinalFromHeading(locationManager.trueNorth))
+                        .font(.system(size: 28, weight: .medium, design: .rounded))
+                        .foregroundStyle(locationManager.isLocked ? actionOrange : .white)
+                }
+                .padding(.bottom, 60)
+                
+                Spacer()
+                
+                // MARK: - Precision Mechanical Dial
                 ZStack {
-                    // Static Tick Marks (Outer Ring)
-                    ForEach(0..<72) { tick in
-                        Rectangle()
-                            .fill(tick % 18 == 0 ? DesignSystem.textPrimary : DesignSystem.textSecondary.opacity(0.5))
-                            .frame(width: tick % 18 == 0 ? 3 : 1, height: tick % 18 == 0 ? 20 : 10)
-                            .offset(y: -140)
-                            .rotationEffect(.degrees(Double(tick) * 5))
+                    // Outer structural ring
+                    Circle()
+                        .stroke(Color(white: 0.1), lineWidth: 1)
+                        .frame(width: 340, height: 340)
+
+                    // Hash Marks (144 subdivisions for precision)
+                    ForEach(0..<144) { tick in
+                        let isMajor = tick % 36 == 0 // 90 degrees
+                        let isMinor = tick % 12 == 0 // 30 degrees
+                        let isTick = tick % 4 == 0   // 10 degrees
+
+                        Capsule()
+                            .fill(isMajor ? Color.white : (isMinor ? Color(white: 0.6) : (isTick ? Color(white: 0.4) : Color(white: 0.2))))
+                            .frame(
+                                width: isMajor ? 3 : (isMinor ? 2 : 1),
+                                height: isMajor ? 18 : (isMinor ? 12 : 6)
+                            )
+                            .offset(y: -160)
+                            .rotationEffect(.degrees(Double(tick) * 2.5))
                     }
                     
-                    // Rotating Rose
+                    // Rotating Inner Dial Plate
                     ZStack {
+                        // Degree markers inside
+                        ForEach(0..<12) { i in
+                            if i % 3 != 0 { 
+                                Text("\(i * 30)")
+                                    .font(.system(size: 16, weight: .medium, design: .rounded))
+                                    .foregroundStyle(Color(white: 0.5))
+                                    .offset(y: -120)
+                                    .rotationEffect(.degrees(Double(i) * 30))
+                            }
+                        }
+                        
                         // Cardinal Directions
                         ForEach(Cardinal.allCases, id: \.self) { cardinal in
                             Text(cardinal.rawValue)
-                                .font(.system(size: 24, weight: .bold))
-                                .foregroundStyle(cardinal == .N ? Color.red : DesignSystem.textPrimary)
-                                .offset(y: -110)
+                                .font(.system(size: 32, weight: .bold, design: .rounded))
+                                .foregroundStyle(cardinal == .N ? actionOrange : .white)
+                                .offset(y: -120)
                                 .rotationEffect(.degrees(cardinal.degree))
                         }
                         
-                        // Needle/Rose Body
-                        Image(systemName: "location.north.fill")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 200, height: 200)
-                            .foregroundStyle(Color.red)
-                            .padding()
-                        .accessibilityHidden(true)
+                        // Ultra-thin crosshairs
+                        Path { path in
+                            path.move(to: CGPoint(x: 170, y: 70))
+                            path.addLine(to: CGPoint(x: 170, y: 270))
+                            path.move(to: CGPoint(x: 70, y: 170))
+                            path.addLine(to: CGPoint(x: 270, y: 170))
+                        }
+                        .stroke(Color(white: 0.3), lineWidth: 0.5)
+                        
                     }
+                    .frame(width: 340, height: 340)
+                    // Fluid, weight-bearing compass rotation
                     .rotationEffect(.degrees(-locationManager.trueNorth))
-                    .animation(.spring(response: 0.4, dampingFraction: 0.6), value: locationManager.trueNorth)
+                    .animation(.interactiveSpring(response: 0.4, dampingFraction: 0.7), value: locationManager.trueNorth)
                     
-                    // Lock Indicator
-                    if locationManager.isLocked {
-                        Rectangle()
-                            .fill(Color.green)
-                            .frame(width: 4, height: 50)
-                            .offset(y: -140) // Top center fixed
+                    // Center Targeting Reticle
+                    Image(systemName: "plus")
+                        .font(.system(size: 32, weight: .ultraLight))
+                        .foregroundStyle(locationManager.isLocked ? actionOrange : .white)
+                    
+                    // Locked True North Indicator (Top fixed needle)
+                    Path { path in
+                        path.move(to: CGPoint(x: 170, y: -10))
+                        path.addLine(to: CGPoint(x: 170, y: 24))
                     }
+                    .stroke(locationManager.isLocked ? actionOrange : .white, style: StrokeStyle(lineWidth: 3, lineCap: .round))
+                    .frame(width: 340, height: 340)
                     
-                    // Target Indicator (Ghost Needle)
+                    // Active SOS / Waypoint Indicator (Green)
                     if let targetBearing = locationManager.targetBearing {
                         ZStack {
-                            // The Needle
-                            Image(systemName: "arrow.up")
-                                .font(.system(size: 40, weight: .black))
+                            Image(systemName: "triangle.fill")
+                                .font(.system(size: 14, weight: .regular))
                                 .foregroundStyle(Color.green)
-                                .offset(y: -120)
-                            .accessibilityHidden(true)
+                                .offset(y: -160)
                             
-                            // Target Icon
                             if let icon = locationManager.activeTarget?.icon {
                                 Image(systemName: icon)
-                                    .font(.caption.bold())
+                                    .font(.system(size: 14, weight: .heavy))
                                     .foregroundStyle(Color.black)
-                                    .padding(4)
+                                    .padding(8)
                                     .background(Color.green)
                                     .clipShape(Circle())
-                                    .offset(y: -155)
-                                .accessibilityHidden(true)
+                                    .shadow(color: .green.opacity(0.4), radius: 8)
+                                    .offset(y: -190)
                             }
                         }
-                        .rotationEffect(.degrees(targetBearing)) // Rotates to point to target (relative to North)
+                        // Rotates opposite the dial to match world coords
+                        .rotationEffect(.degrees(targetBearing - locationManager.trueNorth))
+                        .animation(.interactiveSpring(response: 0.4, dampingFraction: 0.7), value: targetBearing - locationManager.trueNorth)
                     }
-                    
-
                 }
-                .frame(width: 300, height: 300)
+                .frame(width: 340, height: 340)
+                // Lock trigger with rigid tactile feedback
                 .onTapGesture {
+                    let generator = UIImpactFeedbackGenerator(style: .rigid)
+                    generator.impactOccurred()
                     locationManager.toggleLock()
                 }
                 
-                // Readout
-                VStack(spacing: 4) {
-                    Text("\(Int(locationManager.trueNorth))°")
-                        .font(.system(size: 64, weight: .light).monospacedDigit())
-                        .foregroundStyle(DesignSystem.textPrimary)
-                    
-                    Text(cardinalFromHeading(locationManager.trueNorth))
-                        .font(.title2)
-                        .foregroundStyle(DesignSystem.textSecondary)
-                    
-                    if let distance = locationManager.distanceToTarget, let target = locationManager.activeTarget {
-                        VStack(spacing: 2) {
-                            Text(target.name)
-                                .font(.headline)
-                                .foregroundStyle(Color.green)
-                            
-                            Text(formatDistance(distance))
-                                .font(.system(size: 24, weight: .bold).monospacedDigit())
-                                .foregroundStyle(Color.green)
-                        }
-                        .padding(.top, 16)
-                    }
-                }
-                
                 Spacer()
+                
+                // MARK: - Waypoint / Metric Display
+                if let distance = locationManager.distanceToTarget, let target = locationManager.activeTarget {
+                    VStack(spacing: 6) {
+                        HStack(spacing: 6) {
+                            Image(systemName: "location.north.circle.fill")
+                            Text(target.name.uppercased())
+                        }
+                        .font(.system(size: 13, weight: .bold, design: .rounded))
+                        .foregroundStyle(Color.green)
+                        .kerning(1)
+                        
+                        Text(formatDistance(distance))
+                            .font(.system(size: 40, weight: .medium, design: .rounded).monospacedDigit())
+                            .foregroundStyle(.white)
+                    }
+                    .padding(.bottom, 60)
+                } else {
+                    // Tap to lock hint (subtle interface text)
+                    Text("TAP COMPASS TO LOCK BEARING")
+                        .font(.system(size: 13, weight: .bold, design: .rounded))
+                        .foregroundStyle(Color(white: 0.3))
+                        .kerning(1)
+                        .padding(.bottom, 60)
+                }
             }
         }
+        .toolbarBackground(.hidden, for: .navigationBar)
         .onAppear {
             locationManager.requestPermission()
         }
         .onChange(of: locationManager.trueNorth) { _, newHeading in
-            // 1. North Alignment Haptic (Light)
-            // Normalize heading to 0-360
             let normalized = newHeading < 0 ? newHeading + 360 : newHeading
             let distToNorth = min(abs(normalized - 0), abs(normalized - 360))
             
-            if distToNorth < 3 { // 3 degree tolerance
+            // Haptic bump across True North
+            if distToNorth < 2 {
                 if !hasPlayedNorthHaptic {
-                    HapticsService.shared.playImpact(style: .light)
+                    HapticsService.shared.playImpact(style: .medium)
                     hasPlayedNorthHaptic = true
                 }
             } else {
                 hasPlayedNorthHaptic = false
             }
             
-            // 2. Target Alignment Haptic (Heavy + Success)
+            // Haptic success on Waypoint Alignment
             if let target = locationManager.targetBearing {
                 let rawDiff = abs(normalized - target)
-                let diff = min(rawDiff, 360 - rawDiff) // Handle wrap-around
-                
-                if diff < 3 {
+                let diff = min(rawDiff, 360 - rawDiff)
+                if diff < 2 {
                     if !hasPlayedTargetHaptic {
                         HapticsService.shared.playNotification(type: .success)
                         hasPlayedTargetHaptic = true
@@ -192,19 +220,13 @@ struct CompassView: View {
         if meters < 1000 {
             return String(format: "%.0f m", meters)
         } else {
-            return String(format: "%.2f km", meters / 1000)
+            return String(format: "%.1f km", meters / 1000)
         }
     }
-    
-
 }
 
 enum Cardinal: String, CaseIterable {
-    case N
-    case E
-    case S
-    case W
-    
+    case N, E, S, W
     var degree: Double {
         switch self {
         case .N: return 0
