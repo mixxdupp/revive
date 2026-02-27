@@ -280,8 +280,40 @@ struct EmergencySirenView: View {
                 }
 
                 Spacer()
+                
+                // MARK: - Restored Detailed Intruder Protection Button
+                if !manager.isPlaying {
+                    Button(action: { showSecurityInfo = true }) {
+                        HStack(spacing: 12) {
+                            Image(systemName: isGuidedAccessActive ? "lock.shield.fill" : "lock.open.trianglebadge.exclamationmark.fill")
+                                .font(.system(size: 24))
+                                .foregroundStyle(isGuidedAccessActive ? .green : .black)
+                            
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection: OFF")
+                                    .font(.system(size: 16, weight: .bold, design: .rounded))
+                                    .foregroundStyle(isGuidedAccessActive ? .white : .black)
+                                
+                                if !isGuidedAccessActive {
+                                    Text("Requires Guided Access check")
+                                        .font(.system(size: 13, weight: .medium, design: .rounded))
+                                        .foregroundStyle(.black.opacity(0.7))
+                                }
+                            }
+                            Spacer()
+                            Image(systemName: "info.circle")
+                                .foregroundStyle(isGuidedAccessActive ? .white.opacity(0.5) : .black.opacity(0.5))
+                        }
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 16)
+                        .background(isGuidedAccessActive ? Color(white: 0.15) : Color.yellow)
+                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }
+                    .padding(.horizontal, 24)
+                    .padding(.bottom, 16)
+                }
 
-                // MARK: - Guidance Strip (always visible)
+                // MARK: - Controls Strip (Now with solid background matching active state)
                 controlsStrip
                     .padding(.bottom, 24)
 
@@ -312,8 +344,8 @@ struct EmergencySirenView: View {
     private var activeView: some View {
         VStack(spacing: 16) {
             Text("BROADCASTING")
-                .font(.system(size: 22, weight: .bold))
-                .foregroundStyle(Color.red)
+                .font(.system(size: 22, weight: .bold, design: .rounded))
+                .foregroundStyle(Color.white.opacity(0.9))
                 .frame(height: 30)
             
             Image(systemName: "speaker.wave.3.fill")
@@ -344,7 +376,7 @@ struct EmergencySirenView: View {
                 .foregroundStyle(.red)
             
             Text("EMERGENCY SIREN")
-                .font(.system(size: 28, weight: .bold))
+                .font(.system(size: 28, weight: .black, design: .rounded))
                 .foregroundStyle(.white)
             
             Text("Generates extremely loud 1400Hz sweep")
@@ -353,8 +385,8 @@ struct EmergencySirenView: View {
                 .multilineTextAlignment(.center)
             
             Text("Warning: Volume buttons can silence alarm")
-                .font(.system(size: 14, weight: .regular))
-                .foregroundStyle(Color(white: 0.3))
+                .font(.system(size: 14, weight: .bold))
+                .foregroundStyle(Color.red)
                 .padding(.top, 8)
         }
         .accessibilityElement(children: .combine)
@@ -373,50 +405,54 @@ struct EmergencySirenView: View {
                 Spacer()
                 Toggle("", isOn: $manager.includeStrobe)
                     .labelsHidden()
-                    .tint(.white)
+                    .tint(.red)
                     .onChange(of: manager.includeStrobe) { _, newValue in
                         if manager.isPlaying {
                             if newValue { manager.startFlash() } else { manager.stopFlash() }
                         }
                     }
             }
-            .padding(.horizontal, 32)
+            .padding(.horizontal, 24)
             .padding(.vertical, 16)
             
             Divider().background(Color(white: 0.2)).padding(.horizontal, 24)
             
-            Button(action: { showSecurityInfo = true }) {
-                HStack {
-                    guidanceItem(
-                        icon: isGuidedAccessActive ? "lock.shield.fill" : "exclamationmark.shield.fill",
-                        label: "Intruder Protection",
-                        isActive: isGuidedAccessActive,
-                        activeColor: .green
-                    )
-                    Spacer()
-                    Image(systemName: "chevron.right")
-                        .font(.system(size: 14, weight: .semibold))
-                        .foregroundStyle(Color(white: 0.4))
+            // Re-use info row for active state (since Intruder button is hidden when active)
+            if manager.isPlaying {
+                Button(action: { showSecurityInfo = true }) {
+                    HStack {
+                        guidanceItem(
+                            icon: isGuidedAccessActive ? "lock.shield.fill" : "exclamationmark.shield.fill",
+                            label: "Intruder Protection",
+                            isActive: isGuidedAccessActive,
+                            activeColor: .green
+                        )
+                        Spacer()
+                        Image(systemName: "chevron.right")
+                            .font(.system(size: 14, weight: .semibold))
+                            .foregroundStyle(Color(white: 0.4))
+                    }
+                    .padding(.horizontal, 24)
+                    .padding(.vertical, 16)
                 }
-                .padding(.horizontal, 32)
-                .padding(.vertical, 16)
             }
         }
-        .background(manager.isPlaying ? Color.black.opacity(0.4) : Color(white: 0.08))
+        // FIXED CONTRAST: Use solid black when playing so it stands out against red/blue flash
+        .background(manager.isPlaying ? Color.black.opacity(0.85) : Color(white: 0.1))
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .padding(.horizontal, 24)
-        .disabled(manager.isPlaying)
+        .disabled(manager.isPlaying && isGuidedAccessActive)
     }
     
     private func guidanceItem(icon: String, label: String, isActive: Bool, activeColor: Color) -> some View {
         HStack(spacing: 12) {
             Image(systemName: icon)
                 .font(.system(size: 18, weight: .bold))
-                .foregroundStyle(isActive ? activeColor : Color(white: 0.4))
+                .foregroundStyle(isActive ? activeColor : Color(white: 0.5))
                 .frame(width: 24)
             Text(label)
-                .font(.system(size: 15, weight: .semibold, design: .rounded))
-                .foregroundStyle(isActive ? .white : Color(white: 0.5))
+                .font(.system(size: 16, weight: .bold, design: .rounded))
+                .foregroundStyle(isActive ? .white : Color(white: 0.6))
         }
     }
 }
@@ -438,11 +474,11 @@ struct LongPressActionButton: View {
                 .fill(isPlaying ? Color.white : Color.red)
                 .frame(height: 72)
             
-            // Progress Fill (Red when holding to stop)
+            // Progress Fill (Black when holding to stop)
             if isPlaying {
                 GeometryReader { geo in
                     RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .fill(Color.red)
+                        .fill(Color.black)
                         .frame(width: geo.size.width * progress, height: 72)
                         .animation(.linear(duration: 0.1), value: progress)
                 }
@@ -453,10 +489,10 @@ struct LongPressActionButton: View {
             // Content
             HStack(spacing: 10) {
                 Image(systemName: isPlaying ? "stop.fill" : "play.fill")
-                    .font(.system(size: 20, weight: .bold))
+                    .font(.system(size: 20, weight: .black))
                 
                 Text(buttonText)
-                    .font(.system(size: 20, weight: .bold, design: .rounded))
+                    .font(.system(size: 20, weight: .black, design: .rounded))
             }
             .foregroundStyle(isPlaying ? (progress > 0.5 ? .white : .black) : .white)
             .frame(maxWidth: .infinity, alignment: .center)
@@ -466,6 +502,8 @@ struct LongPressActionButton: View {
         .padding(.bottom, 24)
         .scaleEffect(isHolding ? 0.96 : 1.0)
         .animation(.spring(response: 0.3, dampingFraction: 0.6), value: isHolding)
+        // Solid drop shadow when active to pop against background flash
+        .shadow(color: isPlaying ? .black.opacity(0.5) : .clear, radius: 10, x: 0, y: 5)
         .gesture(
             DragGesture(minimumDistance: 0)
                 .onChanged { _ in
