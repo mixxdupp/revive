@@ -290,7 +290,7 @@ struct EmergencySirenView: View {
                                 .foregroundStyle(isGuidedAccessActive ? .green : .black)
                             
                             VStack(alignment: .leading, spacing: 2) {
-                                Text(isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection: OFF")
+                                Text(isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection: Off")
                                     .font(.headline)
                                     .foregroundStyle(isGuidedAccessActive ? .white : .black)
                                 
@@ -343,7 +343,7 @@ struct EmergencySirenView: View {
     // MARK: - Active View
     private var activeView: some View {
         VStack(spacing: 16) {
-            Text("SIREN ACTIVE")
+            Text("Siren Active")
                 .font(.title2.weight(.bold))
                 .foregroundStyle(Color.white.opacity(0.9))
                 .frame(height: 30)
@@ -355,7 +355,7 @@ struct EmergencySirenView: View {
                 .animation(.interactiveSpring(response: 0.2, dampingFraction: 0.5), value: manager.screenFlashColor)
             
             if !isGuidedAccessActive {
-                Text("TRIPLE-CLICK SIDE BUTTON TO LOCK")
+                Text("Triple-Click Side Button to Lock")
                     .font(.headline.weight(.bold))
                     .foregroundStyle(.black)
                     .padding(.vertical, 10)
@@ -376,8 +376,8 @@ struct EmergencySirenView: View {
                 .foregroundStyle(.red)
             
             VStack(spacing: 0) {
-                Text("EMERGENCY")
-                Text("SIREN")
+                Text("Emergency")
+                Text("Siren")
             }
             .font(.largeTitle.weight(.bold))
             .foregroundStyle(.white)
@@ -515,9 +515,9 @@ struct LongPressActionButton: View {
     }
     
     private var buttonText: String {
-        if !isPlaying { return "START SIREN" }
-        if isHolding { return "HOLD TO STOP" }
-        return "SLIDE OR HOLD"
+        if !isPlaying { return "Start Siren" }
+        if isHolding { return "Hold to Stop" }
+        return "Slide or Hold"
     }
     
     private func startHolding() {
