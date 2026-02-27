@@ -14,14 +14,6 @@ struct CompassView: View {
             Color.black.ignoresSafeArea()
             
             VStack(spacing: 0) {
-                // MARK: - Navigation Header (Pro Aesthetic)
-                Text(locationManager.isLocked ? "HEADING LOCKED" : "MAGNETIC HEADING")
-                    .font(.system(size: 13, weight: .bold, design: .rounded))
-                    .foregroundStyle(locationManager.isLocked ? actionOrange : Color(white: 0.4))
-                    .kerning(2)
-                    .padding(.top, 40)
-                    .animation(.easeInOut, value: locationManager.isLocked)
-                    
                 Spacer()
                     .frame(height: 20)
                 
@@ -173,7 +165,8 @@ struct CompassView: View {
                 }
             }
         }
-        .toolbarBackground(.hidden, for: .navigationBar)
+        .navigationTitle("Compass")
+        .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             locationManager.requestPermission()
         }

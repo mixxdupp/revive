@@ -28,13 +28,7 @@ struct CPRMetronomeView: View {
             
             VStack(spacing: 0) {
                 Spacer()
-                    .frame(height: 40)
-                
-                // MARK: - Navigation Header (Apple Maps/Workout style)
-                Text("CPR PACER")
-                    .font(.system(size: 14, weight: .bold, design: .rounded))
-                    .foregroundStyle(Color.white.opacity(0.4))
-                    .kerning(2)
+                    .frame(height: 20)
                 
                 Spacer()
                 
@@ -105,9 +99,8 @@ struct CPRMetronomeView: View {
                 .padding(.bottom, 24)
             }
         }
-        .navigationTitle("")
+        .navigationTitle("CPR Pacer")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(.hidden, for: .navigationBar)
         .onAppear { prepareHaptics() }
         .onDisappear { stopMetronome() }
     }

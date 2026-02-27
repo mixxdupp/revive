@@ -30,12 +30,8 @@ struct InclinometerView: View {
             Color.black.ignoresSafeArea()
             
             VStack(spacing: 0) {
-                // MARK: - Header
-                Text("INCLINOMETER")
-                    .font(.system(size: 14, weight: .bold, design: .rounded))
-                    .foregroundStyle(Color(white: 0.4))
-                    .kerning(2)
-                    .padding(.top, 40)
+                Spacer()
+                    .frame(height: 20)
 
                 Spacer()
 
@@ -141,9 +137,8 @@ struct InclinometerView: View {
                 .padding(.bottom, 24)
             }
         }
-        .navigationTitle("")
+        .navigationTitle("Inclinometer")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(.hidden, for: .navigationBar)
         .onDisappear { stopMotion() }
     }
 

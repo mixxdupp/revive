@@ -35,12 +35,8 @@ struct SOSFlashlightView: View {
                 .offset(y: -40)
             
             VStack(spacing: 0) {
-                // MARK: - Header
-                Text("SOS SIGNAL")
-                    .font(.system(size: 14, weight: .bold, design: .rounded))
-                    .foregroundStyle(Color(white: 0.4))
-                    .kerning(2)
-                    .padding(.top, 40)
+                Spacer()
+                    .frame(height: 20)
                 
                 Spacer()
                 
@@ -122,9 +118,8 @@ struct SOSFlashlightView: View {
                 .padding(.bottom, 24)
             }
         }
-        .navigationTitle("")
+        .navigationTitle("SOS Signal")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(.hidden, for: .navigationBar)
         .onDisappear { stopFlashing() }
     }
 
