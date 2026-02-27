@@ -4,130 +4,153 @@ import UIKit
 
 struct LocationView: View {
     @StateObject private var locationManager = LocationManager()
+    @State private var copied = false
+    
+    // Signal color
+    private var signalColor: Color {
+        locationManager.location != nil ? .green : Color(red: 1.0, green: 0.3, blue: 0.2)
+    }
     
     var body: some View {
-        List {
-            // MARK: - Status Header
-            Section {
-                HStack {
-                    Text("Signal Status")
-                        .foregroundStyle(DesignSystem.textPrimary)
-                    
-                    Spacer()
-                    
-                    HStack(spacing: 6) {
+        ZStack {
+            Color.black.ignoresSafeArea()
+            
+            ScrollView(showsIndicators: false) {
+                VStack(spacing: 0) {
+                    // MARK: - Header
+                    HStack(spacing: 8) {
                         Circle()
-                            .fill(locationManager.location != nil ? Color.green : Color.red)
+                            .fill(signalColor)
                             .frame(width: 8, height: 8)
-                            .symbolEffect(.pulse.byLayer, isActive: locationManager.location == nil)
                         
-                        Text(locationManager.location != nil ? "Locked" : "Searching")
-                            .font(.subheadline.bold())
-                            .foregroundStyle(locationManager.location != nil ? .green : .red)
+                        Text(locationManager.location != nil ? "GPS LOCKED" : "ACQUIRING SIGNAL")
+                            .font(.system(size: 13, weight: .bold, design: .rounded))
+                            .foregroundStyle(signalColor)
+                            .kerning(1.5)
                     }
-                }
-            }
-            
-            // MARK: - Primary Coordinates
-            Section(header: Text("Coordinates")) {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("Latitude")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    .padding(.top, 24)
+                    .padding(.bottom, 40)
                     
-                    if let loc = locationManager.location {
-                        Text(formatCoord(loc.coordinate.latitude))
-                            .font(.title2.weight(.semibold).monospacedDigit())
-                            .foregroundStyle(DesignSystem.textPrimary)
-                            .contentTransition(.numericText())
-                            .animation(.spring(response: 0.3, dampingFraction: 0.7), value: loc.coordinate.latitude)
-                    } else {
-                        Text("--.-----")
-                            .font(.title2.weight(.semibold).monospacedDigit())
-                            .foregroundStyle(.secondary)
+                    // MARK: - Coordinate Display
+                    VStack(spacing: 32) {
+                        // Latitude
+                        VStack(spacing: 4) {
+                            Text("LATITUDE")
+                                .font(.system(size: 13, weight: .bold, design: .rounded))
+                                .foregroundStyle(Color(white: 0.4))
+                                .kerning(1.5)
+                            
+                            if let loc = locationManager.location {
+                                Text(formatCoord(loc.coordinate.latitude))
+                                    .font(.system(size: 48, weight: .light, design: .rounded).monospacedDigit())
+                                    .foregroundStyle(.white)
+                                    .contentTransition(.numericText())
+                            } else {
+                                Text("—.—————")
+                                    .font(.system(size: 48, weight: .light, design: .rounded).monospacedDigit())
+                                    .foregroundStyle(Color(white: 0.2))
+                            }
+                        }
+                        
+                        // Longitude
+                        VStack(spacing: 4) {
+                            Text("LONGITUDE")
+                                .font(.system(size: 13, weight: .bold, design: .rounded))
+                                .foregroundStyle(Color(white: 0.4))
+                                .kerning(1.5)
+                            
+                            if let loc = locationManager.location {
+                                Text(formatCoord(loc.coordinate.longitude))
+                                    .font(.system(size: 48, weight: .light, design: .rounded).monospacedDigit())
+                                    .foregroundStyle(.white)
+                                    .contentTransition(.numericText())
+                            } else {
+                                Text("—.—————")
+                                    .font(.system(size: 48, weight: .light, design: .rounded).monospacedDigit())
+                                    .foregroundStyle(Color(white: 0.2))
+                            }
+                        }
                     }
-                }
-                .padding(.vertical, 4)
-                
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("Longitude")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    .padding(.bottom, 48)
                     
-                    if let loc = locationManager.location {
-                        Text(formatCoord(loc.coordinate.longitude))
-                            .font(.title2.weight(.semibold).monospacedDigit())
-                            .foregroundStyle(DesignSystem.textPrimary)
-                            .contentTransition(.numericText())
-                            .animation(.spring(response: 0.3, dampingFraction: 0.7), value: loc.coordinate.longitude)
-                    } else {
-                        Text("--.-----")
-                            .font(.title2.weight(.semibold).monospacedDigit())
-                            .foregroundStyle(.secondary)
+                    // MARK: - Telemetry Grid
+                    LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
+                        GPSTelemetryCard(
+                            title: "ALTITUDE",
+                            value: locationManager.location.map { "\(Int($0.altitude))" } ?? "—",
+                            unit: "m",
+                            icon: "arrow.up.and.down",
+                            color: Color(red: 0.3, green: 0.6, blue: 1.0)
+                        )
+                        
+                        GPSTelemetryCard(
+                            title: "SPEED",
+                            value: locationManager.location.map { $0.speed > 0 ? String(format: "%.1f", $0.speed * 3.6) : "0.0" } ?? "—",
+                            unit: "km/h",
+                            icon: "speedometer",
+                            color: Color(red: 1.0, green: 0.6, blue: 0.0)
+                        )
+                        
+                        GPSTelemetryCard(
+                            title: "ACCURACY",
+                            value: locationManager.location.map { "±\(Int($0.horizontalAccuracy))" } ?? "—",
+                            unit: "m",
+                            icon: "scope",
+                            color: .green
+                        )
+                        
+                        GPSTelemetryCard(
+                            title: "COURSE",
+                            value: locationManager.location.map { $0.course >= 0 ? "\(Int($0.course))°" : "—°" } ?? "—°",
+                            unit: "True",
+                            icon: "location.north.line.fill",
+                            color: Color(red: 0.7, green: 0.4, blue: 1.0)
+                        )
                     }
+                    .padding(.horizontal, 24)
+                    .padding(.bottom, 32)
+                    
+                    // MARK: - Copy Action
+                    Button(action: {
+                        let generator = UIImpactFeedbackGenerator(style: .rigid)
+                        generator.impactOccurred()
+                        
+                        if let loc = locationManager.location {
+                            let text = "\(loc.coordinate.latitude), \(loc.coordinate.longitude)"
+                            UIPasteboard.general.string = text
+                            HapticsService.shared.playNotification(type: .success)
+                            copied = true
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                copied = false
+                            }
+                        }
+                    }) {
+                        HStack(spacing: 12) {
+                            Image(systemName: copied ? "checkmark" : "doc.on.doc")
+                                .font(.system(size: 20, weight: .black))
+                            
+                            Text(copied ? "COPIED" : "COPY COORDINATES")
+                                .font(.system(size: 18, weight: .heavy, design: .rounded))
+                                .kerning(1)
+                        }
+                        .foregroundStyle(.black)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 72)
+                        .background(
+                            Capsule()
+                                .fill(Color.white)
+                        )
+                    }
+                    .disabled(locationManager.location == nil)
+                    .opacity(locationManager.location == nil ? 0.3 : 1.0)
+                    .padding(.horizontal, 24)
+                    .padding(.bottom, 24)
                 }
-                .padding(.vertical, 4)
-            }
-            
-            // MARK: - Telemetry Data
-            Section(header: Text("Telemetry")) {
-                TelemetryRow(
-                    title: "Altitude",
-                    icon: "arrow.up.and.down",
-                    color: .blue,
-                    value: locationManager.location.map { "\(Int($0.altitude))" } ?? "--",
-                    unit: "m"
-                )
-                
-                TelemetryRow(
-                    title: "Speed",
-                    icon: "speedometer",
-                    color: .orange,
-                    value: locationManager.location.map { $0.speed > 0 ? String(format: "%.1f", $0.speed * 3.6) : "0.0" } ?? "--",
-                    unit: "km/h"
-                )
-                
-                TelemetryRow(
-                    title: "Accuracy",
-                    icon: "scope",
-                    color: .green,
-                    value: locationManager.location.map { "±\(Int($0.horizontalAccuracy))" } ?? "--",
-                    unit: "m"
-                )
-                
-                TelemetryRow(
-                    title: "Course",
-                    icon: "location.north.line.fill",
-                    color: .purple,
-                    value: locationManager.location.map { $0.course >= 0 ? "\(Int($0.course))°" : "--°" } ?? "--°",
-                    unit: "True"
-                )
-            }
-            
-            // MARK: - Actions
-            Section {
-                Button(action: {
-                    if let loc = locationManager.location {
-                        let text = "My Location: \(loc.coordinate.latitude), \(loc.coordinate.longitude)"
-                        UIPasteboard.general.string = text
-                        HapticsService.shared.playNotification(type: .success)
-                    }
-                }) {
-                    HStack {
-                        Image(systemName: "doc.on.doc")
-                        .accessibilityHidden(true)
-                        Text("Copy Coordinates")
-                    }
-                    .frame(maxWidth: .infinity, alignment: .center)
-                }
-                .disabled(locationManager.location == nil)
-                // In iOS 18 native lists, action buttons are often blue if generic, or rely on tint.
-                .foregroundStyle(locationManager.location != nil ? .blue : .gray)
             }
         }
-        .listStyle(.insetGrouped)
-        .navigationTitle("GPS Data")
+        .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(.hidden, for: .navigationBar)
         .onAppear {
             locationManager.requestPermission()
             locationManager.startUpdating()
@@ -142,37 +165,40 @@ struct LocationView: View {
     }
 }
 
-// MARK: - Components
-struct TelemetryRow: View {
+// MARK: - Telemetry Metric Card
+private struct GPSTelemetryCard: View {
     let title: String
-    let icon: String
-    let color: Color
     let value: String
     let unit: String
+    let icon: String
+    let color: Color
     
     var body: some View {
-        HStack {
-            Image(systemName: icon)
-                .foregroundStyle(color)
-                .frame(width: 24, alignment: .center)
-            .accessibilityHidden(true)
-            
-            Text(title)
-                .foregroundStyle(DesignSystem.textPrimary)
-            
-            Spacer()
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 6) {
+                Image(systemName: icon)
+                    .font(.system(size: 12, weight: .bold))
+                    .foregroundStyle(color)
+                Text(title)
+                    .font(.system(size: 13, weight: .bold, design: .rounded))
+                    .foregroundStyle(Color(white: 0.5))
+                    .kerning(0.5)
+            }
             
             HStack(alignment: .firstTextBaseline, spacing: 4) {
                 Text(value)
-                    .font(.body.monospacedDigit())
-                    .foregroundStyle(DesignSystem.textPrimary)
+                    .font(.system(size: 26, weight: .bold, design: .rounded).monospacedDigit())
+                    .foregroundStyle(.white)
                     .contentTransition(.numericText())
-                    .animation(.spring(response: 0.3, dampingFraction: 0.7), value: value)
                 
                 Text(unit)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .font(.system(size: 14, weight: .semibold, design: .rounded))
+                    .foregroundStyle(Color(white: 0.4))
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(18)
+        .background(Color(white: 0.1))
+        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
     }
 }
