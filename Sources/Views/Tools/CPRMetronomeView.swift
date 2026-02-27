@@ -80,9 +80,9 @@ struct CPRMetronomeView: View {
         VStack(spacing: 16) {
             // Coaching word — massive, unmissable
             Text(isBeatOn ? "PUSH" : "")
-                .font(.system(size: 28, weight: .black, design: .rounded))
+                .font(.system(size: 22, weight: .bold))
                 .foregroundStyle(Color.red)
-                .frame(height: 36)
+                .frame(height: 30)
             
             // Compression counter
             Text("\(cycleCount)")
@@ -117,16 +117,16 @@ struct CPRMetronomeView: View {
                 .foregroundStyle(.blue)
             
             Text("GIVE 2 BREATHS")
-                .font(.system(size: 32, weight: .black, design: .rounded))
+                .font(.system(size: 28, weight: .bold))
                 .foregroundStyle(.white)
             
             Text("Tilt head back, lift chin, seal mouth")
-                .font(.system(size: 16, weight: .medium, design: .rounded))
+                .font(.system(size: 16, weight: .medium))
                 .foregroundStyle(Color(white: 0.5))
                 .multilineTextAlignment(.center)
             
             Text("Resuming compressions...")
-                .font(.system(size: 14, weight: .semibold, design: .rounded))
+                .font(.system(size: 14, weight: .regular))
                 .foregroundStyle(Color(white: 0.3))
                 .padding(.top, 8)
         }
