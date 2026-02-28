@@ -141,16 +141,12 @@ final class SirenManager: ObservableObject {
     
     private func startAudioEngine() {
         let engine = AVAudioEngine()
-        
-        // Define an explicit audio format because Swift Playgrounds/Simulator can fail to route implicitly
         guard let format = AVAudioFormat(standardFormatWithSampleRate: 44100.0, channels: 1) else { return }
         
         let sampleRate = format.sampleRate
         var lfoPhase: Double = 0
         var tonePhase: Double = 0
         
-        // Use a very steep sine projection instead of raw binary (+1/-1)
-        // to prevent DC clicking and aliasing static on micro-speakers
         let source = AVAudioSourceNode { _, _, frameCount, audioBufferList -> OSStatus in
             let ablPointer = UnsafeMutableAudioBufferListPointer(audioBufferList)
             for frame in 0..<Int(frameCount) {
@@ -165,10 +161,9 @@ final class SirenManager: ObservableObject {
                 tonePhase += currentFreq / sampleRate
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                // Pure mathematical triangle wave:
-                // Hits exact absolute peak volume (+1.0 and -1.0) 
-                // but never instantly "jumps" across 0 (which causes static popping)
-                let sample = Float(abs(4.0 * tonePhase - 2.0) - 1.0)
+                // RESTORED: Raw binary square wave (+1.0 and -1.0).
+                // This produces the extreme harsh upper harmonics necessary to sound piercing.
+                let sample: Float = (tonePhase >= 0.5 ? 1.0 : -1.0)
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
