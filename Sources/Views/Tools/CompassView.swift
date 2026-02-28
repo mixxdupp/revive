@@ -134,6 +134,21 @@ struct CompassView: View {
                         .rotationEffect(.degrees(targetBearing - locationManager.trueNorth))
                         .animation(.interactiveSpring(response: 0.4, dampingFraction: 0.7), value: targetBearing - locationManager.trueNorth)
                     }
+                    
+                    // Locked Bearing Marker (Orange)
+                    if locationManager.isLocked {
+                        VStack(spacing: 2) {
+                            Image(systemName: "triangle.fill")
+                                .font(.system(size: 12, weight: .bold))
+                                .rotationEffect(.degrees(180))
+                            Rectangle()
+                                .frame(width: 2, height: 14)
+                        }
+                        .foregroundStyle(actionOrange)
+                        .offset(y: -158)
+                        .rotationEffect(.degrees(locationManager.lockedBearing - locationManager.trueNorth))
+                        .animation(.interactiveSpring(response: 0.4, dampingFraction: 0.7), value: locationManager.lockedBearing - locationManager.trueNorth)
+                    }
                 }
                 .frame(width: 340, height: 340)
                 // Lock trigger with rigid tactile feedback
@@ -164,11 +179,26 @@ struct CompassView: View {
                 } else {
                     // Lock status label
                     if locationManager.isLocked {
-                        Text("BEARING LOCKED")
-                            .font(.system(size: 13, weight: .medium, design: .rounded))
-                            .foregroundStyle(Color.red)
-                            .kerning(2)
-                            .padding(.bottom, 60)
+                        VStack(spacing: 6) {
+                            Text("LOCKED \(Int(locationManager.lockedBearing))° \(cardinalFromHeading(locationManager.lockedBearing))")
+                                .font(.system(size: 13, weight: .medium, design: .rounded))
+                                .foregroundStyle(actionOrange)
+                                .kerning(2)
+                            
+                            let deviation = bearingDeviation(from: locationManager.lockedBearing, to: locationManager.trueNorth)
+                            if abs(deviation) > 2 {
+                                Text("\(deviation > 0 ? "+" : "")\(Int(deviation))° OFF")
+                                    .font(.system(size: 12, weight: .regular, design: .rounded))
+                                    .foregroundStyle(Color(white: 0.4))
+                                    .kerning(1)
+                            } else {
+                                Text("ON BEARING")
+                                    .font(.system(size: 12, weight: .regular, design: .rounded))
+                                    .foregroundStyle(Color.green)
+                                    .kerning(1)
+                            }
+                        }
+                        .padding(.bottom, 60)
                     } else {
                         Text("TAP TO LOCK BEARING")
                             .font(.system(size: 13, weight: .medium, design: .rounded))
@@ -221,6 +251,13 @@ struct CompassView: View {
         let directions = ["N", "NE", "E", "SE", "S", "SW", "W", "NW", "N"]
         let index = Int((heading + 22.5) / 45.0)
         return directions[index]
+    }
+    
+    private func bearingDeviation(from locked: Double, to current: Double) -> Double {
+        var diff = current - locked
+        if diff > 180 { diff -= 360 }
+        if diff < -180 { diff += 360 }
+        return diff
     }
     
     private func formatDistance(_ meters: Double) -> String {
