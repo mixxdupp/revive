@@ -12,10 +12,12 @@ final class SirenManager: ObservableObject {
     private var audioEngine: AVAudioEngine?
     private var sourceNode: AVAudioSourceNode?
     
-    // Siren Parameters - Restored to original 600-1400Hz sweep for maximum acoustic clarity
-    private let lowFreq: Double = 600
-    private let highFreq: Double = 1400
-    private let sweepRate: Double = 2.0
+    // Siren Parameters - Hardware Piezo Rape Alarm Profile
+    // Physical alarms use two highly dissonant frequencies played extremely fast
+    // to penetrate background noise and trigger the human pain/panic threshold.
+    private let piezoFreq1: Double = 2750.0 // Primary piercing frequency
+    private let piezoFreq2: Double = 3250.0 // Dissonant secondary frequency
+    private let oscillationRate: Double = 12.0 // Rapid alternating speed (12Hz)
     
     // SOS Pattern
     private let sosPattern: [(Bool, Double)] = [
@@ -136,39 +138,24 @@ final class SirenManager: ObservableObject {
         var lfoPhase: Double = 0
         var tonePhase: Double = 0
         
+        // Exact hardware simulation of a Piezo-electric Panic Alarm
         let source = AVAudioSourceNode { _, _, frameCount, audioBufferList -> OSStatus in
             let ablPointer = UnsafeMutableAudioBufferListPointer(audioBufferList)
             for frame in 0..<Int(frameCount) {
-                lfoPhase += 1.0 / sampleRate
+                // LFO controls the rapid switching between the two frequencies (12Hz)
+                lfoPhase += self.oscillationRate / sampleRate
                 if lfoPhase >= 1.0 { lfoPhase -= 1.0 }
                 
-                let t = self.sweepRate * lfoPhase
-                let dt = t - floor(t)
-                let lfoValue = abs(2.0 * dt - 1.0)
+                // Hard snap between the dual-tones (like a true piezo alarm)
+                let currentFreq = lfoPhase < 0.5 ? self.piezoFreq1 : self.piezoFreq2
                 
-                let currentFreq = self.lowFreq + (self.highFreq - self.lowFreq) * lfoValue
-                let phaseInc = currentFreq / sampleRate
-                tonePhase += phaseInc
+                tonePhase += currentFreq / sampleRate
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                // SAWTOOTH WAVEFORM
-                // A pure sine gives no upper harmonics (sounds "muffled under a blanket").
-                // A raw square abruptly skips zero (sounds like "static/fan").
-                // A sawtooth mathematically sweeps from +1 to -1 evenly, 
-                // generating the aggressive high-pitch harmonics needed for clarity,
-                // WITHOUT exploding the DAC with an instant infinite-slope pop.
-                var sample = Float((2.0 * tonePhase) - 1.0)
-                
-                // PolyBLEP Anti-Aliasing (soften the single cliff jump at phase == 1.0)
-                if tonePhase < phaseInc {
-                    let t = tonePhase / phaseInc
-                    let blep = t + t - t * t - 1.0
-                    sample -= Float(blep)
-                } else if tonePhase > (1.0 - phaseInc) {
-                    let t = (tonePhase - 1.0) / phaseInc
-                    let blep = t * t + t + t + 1.0
-                    sample += Float(blep)
-                }
+                // Generate a pure sine at the piezo frequency. 
+                // The dissonance of the 12Hz instant-jump provides the piercing harshness naturally
+                // without the DAC static of square waves.
+                let sample: Float = Float(sin(2.0 * .pi * tonePhase))
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
@@ -378,7 +365,7 @@ struct EmergencySirenView: View {
             .font(.largeTitle.weight(.bold))
             .foregroundStyle(.white)
             
-            Text("Generates extremely loud 1400Hz sweep")
+            Text("Generates maximum decibel piezo sweep")
                 .font(.body)
                 .foregroundStyle(Color(white: 0.6))
                 .multilineTextAlignment(.center)
