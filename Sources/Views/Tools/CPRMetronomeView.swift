@@ -9,8 +9,10 @@ struct CPRMetronomeView: View {
     @State private var setCount = 0           // Number of completed 30:2 sets
     @State private var isBeatOn = false
     @State private var isBreathPause = false  // True during "GIVE 2 BREATHS" window
+    @State private var prepCountdown = 0      // 5-second countdown before starting
     @State private var engine: CHHapticEngine?
     @State private var timer: Timer?
+    @State private var prepTimer: Timer?
 
     // AHA Guidelines: 100-120 compressions/min → 110 BPM
     private let bpm: Double = 110
@@ -37,6 +39,9 @@ struct CPRMetronomeView: View {
                 if isBreathPause {
                     // MARK: - Breath Pause State
                     breathPauseView
+                } else if prepCountdown > 0 {
+                    // MARK: - Prep State
+                    prepCountdownView
                 } else {
                     // MARK: - Compression State
                     compressionView
@@ -105,8 +110,29 @@ struct CPRMetronomeView: View {
                     .padding(.top, 4)
             }
         }
-        .accessibilityElement(children: .combine)
         .accessibilityLabel("\(cycleCount) of \(compressionsPerSet) compressions")
+    }
+
+    // MARK: - Prep Countdown View (active during 5s countdown)
+    private var prepCountdownView: some View {
+        VStack(spacing: 16) {
+            Text("GET IN POSITION")
+                .font(.system(size: 22, weight: .bold))
+                .foregroundStyle(Color.yellow)
+                .frame(height: 30)
+            
+            Text("\(prepCountdown)")
+                .font(.system(size: 140, weight: .light, design: .rounded).monospacedDigit())
+                .foregroundStyle(.white)
+                .contentTransition(.numericText())
+                .animation(.spring(response: 0.3, dampingFraction: 0.6), value: prepCountdown)
+            
+            Text("Starting compressions...")
+                .font(.system(size: 18, weight: .medium, design: .rounded))
+                .foregroundStyle(Color(white: 0.4))
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("Starting in \(prepCountdown) seconds")
     }
     
     // MARK: - Breath Pause View (shown after 30 compressions)
@@ -166,16 +192,38 @@ struct CPRMetronomeView: View {
     private func toggleMetronome() {
         let generator = UIImpactFeedbackGenerator(style: .rigid)
         generator.impactOccurred()
-        if isRunning { stopMetronome() } else { startMetronome() }
+        if isRunning { stopMetronome() } else { beginPrepPhase() }
     }
 
-    private func startMetronome() {
+    private func beginPrepPhase() {
+        // Reset states
         beatCount = 0
         cycleCount = 0
         setCount = 0
         isRunning = true
         isBreathPause = false
+        prepCountdown = 5
         
+        // Initial pip
+        let generator = UIImpactFeedbackGenerator(style: .light)
+        generator.impactOccurred()
+        
+        prepTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
+            guard let self = self else { return }
+            self.prepCountdown -= 1
+            
+            if self.prepCountdown > 0 {
+                let generator = UIImpactFeedbackGenerator(style: .light)
+                generator.impactOccurred()
+            } else {
+                self.prepTimer?.invalidate()
+                self.prepTimer = nil
+                self.startMetronome()
+            }
+        }
+    }
+
+    private func startMetronome() {
         // Zero-latency: first beat fires immediately
         beat()
         
@@ -188,6 +236,10 @@ struct CPRMetronomeView: View {
         isRunning = false
         isBeatOn = false
         isBreathPause = false
+        prepCountdown = 0
+        
+        prepTimer?.invalidate()
+        prepTimer = nil
         timer?.invalidate()
         timer = nil
     }
