@@ -271,36 +271,7 @@ struct EmergencySirenView: View {
 
                 Spacer()
                 
-                if !manager.isPlaying {
-                    Button(action: { showSecurityInfo = true }) {
-                        HStack(spacing: 12) {
-                            Image(systemName: isGuidedAccessActive ? "lock.shield.fill" : "lock.open.trianglebadge.exclamationmark.fill")
-                                .font(.title2)
-                                .foregroundStyle(isGuidedAccessActive ? .green : .black)
-                            
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection Off")
-                                    .font(.headline)
-                                    .foregroundStyle(isGuidedAccessActive ? .white : .black)
-                                
-                                if !isGuidedAccessActive {
-                                    Text("Requires Guided Access check")
-                                        .font(.caption)
-                                        .foregroundStyle(.black.opacity(0.7))
-                                }
-                            }
-                            Spacer()
-                            Image(systemName: "info.circle")
-                                .foregroundStyle(isGuidedAccessActive ? .white.opacity(0.5) : .black.opacity(0.5))
-                        }
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 16)
-                        .background(isGuidedAccessActive ? Color(white: 0.15) : Color.yellow)
-                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-                    }
-                    .padding(.horizontal, 24)
-                    .padding(.bottom, 16)
-                }
+
 
                 controlsStrip
                     .padding(.bottom, 24)
@@ -383,18 +354,18 @@ struct EmergencySirenView: View {
                 Text("Emergency")
                 Text("Siren")
             }
-            .font(.largeTitle.weight(.bold))
+            .font(.system(size: 44, weight: .light))
             .foregroundStyle(.white)
             
-            Text("Generates 2000-3500Hz rapid FM chirp")
-                .font(.body)
-                .foregroundStyle(Color(white: 0.6))
+            Text("2000–3500Hz rapid FM chirp\nat maximum speaker volume")
+                .font(.system(size: 14, weight: .regular))
+                .foregroundStyle(Color(white: 0.4))
                 .multilineTextAlignment(.center)
+                .lineSpacing(2)
             
-            Text("Warning: Volume buttons can silence alarm")
-                .font(.footnote.weight(.semibold))
-                .foregroundStyle(Color.red)
-                .padding(.top, 8)
+            Text("Volume buttons can silence alarm")
+                .font(.system(size: 12, weight: .regular))
+                .foregroundStyle(Color(white: 0.25))
         }
         .accessibilityElement(children: .combine)
     }
@@ -423,26 +394,24 @@ struct EmergencySirenView: View {
             
             Divider().background(Color(white: 0.2)).padding(.horizontal, 24)
             
-            if manager.isPlaying {
-                Button(action: { showSecurityInfo = true }) {
-                    HStack {
-                        guidanceItem(
-                            icon: isGuidedAccessActive ? "lock.shield.fill" : "exclamationmark.shield.fill",
-                            label: isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection Off",
-                            isActive: isGuidedAccessActive,
-                            activeColor: .green
-                        )
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .font(.subheadline)
-                            .foregroundStyle(Color(white: 0.4))
-                    }
-                    .padding(.horizontal, 24)
-                    .padding(.vertical, 16)
+            Button(action: { showSecurityInfo = true }) {
+                HStack {
+                    guidanceItem(
+                        icon: isGuidedAccessActive ? "lock.shield.fill" : "exclamationmark.shield.fill",
+                        label: isGuidedAccessActive ? "Intruder Protection Active" : "Intruder Protection Off",
+                        isActive: isGuidedAccessActive,
+                        activeColor: .green
+                    )
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                        .font(.subheadline)
+                        .foregroundStyle(Color(white: 0.4))
                 }
+                .padding(.horizontal, 24)
+                .padding(.vertical, 16)
             }
         }
-        .background(manager.isPlaying ? Color.black.opacity(0.85) : Color(white: 0.1))
+        .background(Color(white: 0.1))
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .padding(.horizontal, 24)
         .disabled(manager.isPlaying && isGuidedAccessActive)
