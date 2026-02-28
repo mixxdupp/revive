@@ -44,10 +44,10 @@ enum QuestionStyler {
             return original
         }
         
-        // --- 1. Equipment gate ---
+        // --- 1. Main Category gate ---
         if q.contains("equipment") || q.contains("select") ||
-           combined.contains("well-equipped") || combined.contains("improvised equipment") {
-            return "What equipment do you have available?"
+           combined.contains("standard first aid") || combined.contains("wilderness") {
+            return "Select a First Aid category:"
         }
         
         // --- 2. Choking ---

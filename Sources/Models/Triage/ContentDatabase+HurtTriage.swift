@@ -5,8 +5,8 @@ extension ContentDatabase {
     // MARK: - FIRST AID / HURT (Precision Normalization V13)
     // =========================================================================
     func buildHurtTriage() -> TriageNode {
-        return TriageNode(id: "hurt-nq-0-136", question: "Select Equipment Status:", options: [
-        TriageOption(id: "fa-fin-11", label: "Well-Equipped (Trauma/Med Kit Available)", icon: "cross.case.fill", destination: .nextQuestion(
+        return TriageNode(id: "hurt-nq-0-136", question: "Select Category:", options: [
+        TriageOption(id: "fa-fin-11", label: "Standard First Aid / Trauma", icon: "cross.case.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-1-136", question: "Identify Primary Threat/Condition:", options: [
         TriageOption(id: "fa-fin-12", label: "Immediate Life Threats (< 2 Min)", icon: "cross.case.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-22", question: "What is the emergency?", options: [
@@ -179,7 +179,7 @@ extension ContentDatabase {
         ))
     ])
         )),
-        TriageOption(id: "fa-fin-1", label: "Low / Improvised Equipment", icon: "hammer.fill", destination: .nextQuestion(
+        TriageOption(id: "fa-fin-1", label: "Wilderness & Home Remedies", icon: "hammer.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-1-10", question: "Identify Primary Threat/Condition:", options: [
         TriageOption(id: "fa-fin-2", label: "Natural Remedies (Non-Life Threatening)", icon: "leaf.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-2-6", question: "What is the primary condition or requirement?", options: [
