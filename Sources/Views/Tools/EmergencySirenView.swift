@@ -155,19 +155,20 @@ final class SirenManager: ObservableObject {
             let ablPointer = UnsafeMutableAudioBufferListPointer(audioBufferList)
             for frame in 0..<Int(frameCount) {
                 lfoPhase += 1.0 / sampleRate
-                if lfoPhase >= 1.0 { lfoPhase -= 1.0 } // Keep phase bounded to prevent precision loss
+                if lfoPhase >= 1.0 { lfoPhase -= 1.0 }
                 
                 let t = self.sweepRate * lfoPhase
                 let dt = t - floor(t)
-                let lfoValue = abs(2.0 * dt - 1.0) // Triangle sweep
+                let lfoValue = abs(2.0 * dt - 1.0)
                 
                 let currentFreq = self.lowFreq + (self.highFreq - self.lowFreq) * lfoValue
                 tonePhase += currentFreq / sampleRate
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                // Anti-aliased square-like wave (overdriven sine)
-                let sineVal = sin(2.0 * .pi * tonePhase)
-                let sample = Float(max(-1.0, min(1.0, sineVal * 15.0))) // Fast roll-off, no instant 0-crossing POP
+                // Pure mathematical triangle wave:
+                // Hits exact absolute peak volume (+1.0 and -1.0) 
+                // but never instantly "jumps" across 0 (which causes static popping)
+                let sample = Float(abs(4.0 * tonePhase - 2.0) - 1.0)
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
