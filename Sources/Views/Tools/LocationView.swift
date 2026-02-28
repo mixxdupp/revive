@@ -120,24 +120,21 @@ struct LocationView: View {
                         }
                     }
                 }) {
-                    HStack(spacing: 10) {
-                        Image(systemName: copied ? "checkmark.circle.fill" : "doc.on.doc")
-                            .font(.system(size: 20, weight: .bold))
+                    HStack(spacing: 6) {
+                        Image(systemName: copied ? "checkmark" : "doc.on.doc")
+                            .font(.system(size: 13, weight: .semibold))
                         Text(copied ? "Copied" : "Copy Coordinates")
-                            .font(.system(size: 20, weight: .bold, design: .rounded))
+                            .font(.system(size: 14, weight: .medium, design: .rounded))
                     }
-                    .foregroundStyle(copied ? .black : .white)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 72)
-                    .background(
-                        RoundedRectangle(cornerRadius: 20, style: .continuous)
-                            .fill(copied ? Color.green : Color.blue)
-                    )
+                    .foregroundStyle(copied ? .green : Color(white: 0.6))
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 12)
+                    .background(Color(white: 0.1))
+                    .clipShape(Capsule())
                 }
                 .disabled(locationManager.location == nil)
-                .opacity(locationManager.location == nil ? 0.4 : 1.0)
-                .padding(.horizontal, 24)
-                .padding(.bottom, 24)
+                .opacity(locationManager.location == nil ? 0.3 : 1.0)
+                .padding(.bottom, 32)
             }
         }
         .navigationTitle("GPS Data")
