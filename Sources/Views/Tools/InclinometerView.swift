@@ -75,7 +75,7 @@ struct InclinometerView: View {
                     .frame(height: 40)
 
                 // MARK: - Massive Angle Readout
-                VStack(spacing: 4) {
+                VStack(spacing: 8) {
                     Text("INCLINOMETER")
                         .font(.system(size: 13, weight: .medium, design: .rounded))
                         .foregroundStyle(Color(white: 0.45))
