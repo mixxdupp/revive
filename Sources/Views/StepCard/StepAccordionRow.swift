@@ -22,21 +22,28 @@ struct StepAccordionRow: View {
                     }
                 }
             }) {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Step \(stepIndex + 1)")
-                        .font(.footnote.weight(.heavy))
-                        .textCase(.uppercase)
-                        .foregroundStyle(isExpanded ? .white.opacity(0.8) : domain.color)
+                HStack(alignment: .top, spacing: 16) {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Step \(stepIndex + 1)")
+                            .font(.footnote.weight(.heavy))
+                            .textCase(.uppercase)
+                            .foregroundStyle(isExpanded ? .white.opacity(0.8) : domain.color)
+                        
+                        Text(step.instruction)
+                            .font(.headline.weight(.bold))
+                            .foregroundStyle(isExpanded ? .white : .primary)
+                            .lineLimit(nil)
+                            .multilineTextAlignment(.leading)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                     
-                    Text(step.instruction)
-                        .font(.headline.weight(.bold))
-                        .foregroundStyle(isExpanded ? .white : .primary)
-                        .lineLimit(nil)
-                        .multilineTextAlignment(.leading)
-                        .fixedSize(horizontal: false, vertical: true)
+                    Image(systemName: "chevron.down")
+                        .font(.system(size: 14, weight: .bold))
+                        .foregroundStyle(isExpanded ? .white : .secondary)
+                        .rotationEffect(.degrees(isExpanded ? 180 : 0))
+                        .animation(.easeInOut(duration: 0.25), value: isExpanded)
+                        .padding(.top, 4)
                 }
-                .padding(.trailing, 24) // Hard buffer for the chevron
-                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(20)
                 .background(
                     Group {
@@ -46,15 +53,6 @@ struct StepAccordionRow: View {
                             Color(uiColor: .secondarySystemGroupedBackground)
                         }
                     }
-                )
-                .overlay(
-                    Image(systemName: "chevron.down")
-                        .font(.system(size: 14, weight: .bold))
-                        .foregroundStyle(isExpanded ? .white : .secondary)
-                        .rotationEffect(.degrees(isExpanded ? 180 : 0))
-                        .animation(.easeInOut(duration: 0.25), value: isExpanded)
-                        .padding(.trailing, 20), // Matches the 20 padding of the container
-                    alignment: .trailing
                 )
             }
             .buttonStyle(PlainButtonStyle())
