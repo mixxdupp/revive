@@ -78,35 +78,14 @@ struct SOSFlashlightView: View {
     }
     
     // MARK: - Inactive State
-    @State private var ringBreathing = false
     
     private var inactiveView: some View {
         VStack(spacing: 28) {
-            // Hero: SOS inside a glowing amber ring
-            ZStack {
-                // Outer breathing glow
-                Circle()
-                    .stroke(signalAmber.opacity(ringBreathing ? 0.3 : 0.1), lineWidth: 3)
-                    .frame(width: 180, height: 180)
-                    .scaleEffect(ringBreathing ? 1.08 : 1.0)
-                    .blur(radius: ringBreathing ? 6 : 0)
-                
-                // Main ring
-                Circle()
-                    .stroke(signalAmber.opacity(0.6), lineWidth: 3)
-                    .frame(width: 180, height: 180)
-                
-                // SOS text
-                Text("SOS")
-                    .font(.system(size: 56, weight: .bold, design: .rounded))
-                    .foregroundStyle(signalAmber)
-                    .kerning(6)
-            }
-            .onAppear {
-                withAnimation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true)) {
-                    ringBreathing = true
-                }
-            }
+            // Hero: bare SOS — same pattern as Inclinometer's angle readout
+            Text("SOS")
+                .font(.system(size: 80, weight: .light, design: .rounded))
+                .foregroundStyle(signalAmber)
+                .kerning(8)
             
             // Title + subtitle
             VStack(spacing: 8) {
