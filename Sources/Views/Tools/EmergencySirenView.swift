@@ -12,12 +12,12 @@ final class SirenManager: ObservableObject {
     private var audioEngine: AVAudioEngine?
     private var sourceNode: AVAudioSourceNode?
     
-    // Siren Parameters - Hardware Piezo Rape Alarm Profile
-    // Physical alarms use two highly dissonant frequencies played extremely fast
-    // to penetrate background noise and trigger the human pain/panic threshold.
-    private let piezoFreq1: Double = 2750.0 // Primary piercing frequency
-    private let piezoFreq2: Double = 3250.0 // Dissonant secondary frequency
-    private let oscillationRate: Double = 12.0 // Rapid alternating speed (12Hz)
+    // Siren Parameters - High-Frequency FM Chirp
+    // Sweeps rapidly through the iPhone speaker's peak physical resonance 
+    // to provide maximum ear-piercing loudness without Dac/PWM static.
+    private let lowFreq: Double = 2000.0
+    private let highFreq: Double = 3500.0
+    private let sweepRate: Double = 10.0 // 10 sweeps per second (rapid chirp)
     
     // SOS Pattern
     private let sosPattern: [(Bool, Double)] = [
@@ -138,23 +138,24 @@ final class SirenManager: ObservableObject {
         var lfoPhase: Double = 0
         var tonePhase: Double = 0
         
-        // Exact hardware simulation of a Piezo-electric Panic Alarm
+        // Rapid Continuous FM Sine Sweep (Chirp)
+        // Sweeps 2000Hz - 3500Hz at 10Hz to mimic a screamer alarm.
+        // Pure sine math guarantees absolute zero static/fan artifacting.
         let source = AVAudioSourceNode { _, _, frameCount, audioBufferList -> OSStatus in
             let ablPointer = UnsafeMutableAudioBufferListPointer(audioBufferList)
             for frame in 0..<Int(frameCount) {
-                // LFO controls the rapid switching between the two frequencies (12Hz)
-                lfoPhase += self.oscillationRate / sampleRate
+                lfoPhase += 1.0 / sampleRate
                 if lfoPhase >= 1.0 { lfoPhase -= 1.0 }
                 
-                // Hard snap between the dual-tones (like a true piezo alarm)
-                let currentFreq = lfoPhase < 0.5 ? self.piezoFreq1 : self.piezoFreq2
+                let t = self.sweepRate * lfoPhase
+                let dt = t - floor(t)
+                let lfoValue = abs(2.0 * dt - 1.0)
                 
+                let currentFreq = self.lowFreq + (self.highFreq - self.lowFreq) * lfoValue
                 tonePhase += currentFreq / sampleRate
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                // Generate a pure sine at the piezo frequency. 
-                // The dissonance of the 12Hz instant-jump provides the piercing harshness naturally
-                // without the DAC static of square waves.
+                // Pure Sine Wave for absolute mathematical clarity (no static)
                 let sample: Float = Float(sin(2.0 * .pi * tonePhase))
                 
                 for buffer in ablPointer {
@@ -365,7 +366,7 @@ struct EmergencySirenView: View {
             .font(.largeTitle.weight(.bold))
             .foregroundStyle(.white)
             
-            Text("Generates maximum decibel piezo sweep")
+            Text("Generates 2000-3500Hz rapid FM chirp")
                 .font(.body)
                 .foregroundStyle(Color(white: 0.6))
                 .multilineTextAlignment(.center)
