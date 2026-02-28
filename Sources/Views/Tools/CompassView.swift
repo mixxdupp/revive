@@ -156,12 +156,20 @@ struct CompassView: View {
                     }
                     .padding(.bottom, 60)
                 } else {
-                    // Tap to lock hint (subtle interface text)
-                    Text("TAP COMPASS TO LOCK BEARING")
-                        .font(.system(size: 13, weight: .bold, design: .rounded))
-                        .foregroundStyle(Color(white: 0.3))
-                        .kerning(1)
-                        .padding(.bottom, 60)
+                    // Lock status label
+                    if locationManager.isLocked {
+                        Text("BEARING LOCKED")
+                            .font(.system(size: 13, weight: .medium, design: .rounded))
+                            .foregroundStyle(Color.red)
+                            .kerning(2)
+                            .padding(.bottom, 60)
+                    } else {
+                        Text("TAP TO LOCK BEARING")
+                            .font(.system(size: 13, weight: .medium, design: .rounded))
+                            .foregroundStyle(Color(white: 0.3))
+                            .kerning(2)
+                            .padding(.bottom, 60)
+                    }
                 }
             }
         }
