@@ -34,9 +34,9 @@ extension ContentDatabase {
                 TriageNode(id: "water-env-q", question: "What environment?", options: [
                     TriageOption(id: "water-rain", label: "Rain / Precipitation", icon: "cloud.rain.fill", destination: .nextQuestion(
                         TriageNode(id: "water-rain-q", question: "How will you catch it?", options: [
-                            TriageOption(id: "water-rain-tarp", label: "Tarp / Poncho", icon: "square.fill", destination: .technique("water-tarp-rain-catch")),
-                            TriageOption(id: "water-rain-poncho", label: "Poncho / Tarp Funnel", icon: "chevron.down", destination: .technique("water-poncho-rain-catch")),
-                            TriageOption(id: "water-rain-collect", label: "Any Container / Leaves", icon: "cup.and.saucer.fill", destination: .technique("water-rain-collection"))
+                            TriageOption(id: "water-rain-tarp", label: "Tarp Catchment", icon: "square.fill", destination: .technique("water-tarp-rain-catch")),
+                            TriageOption(id: "water-rain-poncho", label: "Poncho Funnel", icon: "chevron.down", destination: .technique("water-poncho-rain-catch")),
+                            TriageOption(id: "water-rain-collect", label: "Containers / Leaves", icon: "cup.and.saucer.fill", destination: .technique("water-rain-collection"))
                         ])
                     )),
                     TriageOption(id: "water-desert", label: "Desert / Arid Land", icon: "sun.max.fill", destination: .nextQuestion(
