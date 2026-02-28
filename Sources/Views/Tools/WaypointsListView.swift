@@ -12,6 +12,7 @@ struct WaypointsListView: View {
     @State private var editingWaypoint: Waypoint?
     @State private var editName = ""
     @State private var editIcon = ""
+    @State private var editMode: EditMode = .inactive
     
     let icons = ["mappin.circle.fill", "tent.fill", "drop.fill", "car.fill", "cross.case.fill", "house.fill", "flag.fill", "figure.walk"]
     
@@ -118,6 +119,7 @@ struct WaypointsListView: View {
                         }
                     }
                     .listStyle(.insetGrouped)
+                    .environment(\.editMode, $editMode)
                 }
             }
             .navigationTitle("Waypoints")
@@ -128,7 +130,11 @@ struct WaypointsListView: View {
                 }
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     if !waypointsService.waypoints.isEmpty {
-                        EditButton()
+                        Button(editMode == .active ? "Done" : "Edit") {
+                            withAnimation(.easeInOut(duration: 0.25)) {
+                                editMode = editMode == .active ? .inactive : .active
+                            }
+                        }
                     }
                     Button {
                         newPointName = "Waypoint \(waypointsService.waypoints.count + 1)"
