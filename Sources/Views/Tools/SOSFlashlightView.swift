@@ -78,41 +78,69 @@ struct SOSFlashlightView: View {
     }
     
     // MARK: - Inactive State
+    @State private var ringBreathing = false
+    
     private var inactiveView: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "flashlight.on.fill")
-                .font(.system(size: 56, weight: .light))
-                .foregroundStyle(signalAmber)
-            
-            VStack(spacing: 0) {
+        VStack(spacing: 28) {
+            // Hero: SOS inside a glowing amber ring
+            ZStack {
+                // Outer breathing glow
+                Circle()
+                    .stroke(signalAmber.opacity(ringBreathing ? 0.3 : 0.1), lineWidth: 3)
+                    .frame(width: 180, height: 180)
+                    .scaleEffect(ringBreathing ? 1.08 : 1.0)
+                    .blur(radius: ringBreathing ? 6 : 0)
+                
+                // Main ring
+                Circle()
+                    .stroke(signalAmber.opacity(0.6), lineWidth: 3)
+                    .frame(width: 180, height: 180)
+                
+                // SOS text
                 Text("SOS")
-                Text("Signal")
+                    .font(.system(size: 56, weight: .bold, design: .rounded))
+                    .foregroundStyle(signalAmber)
+                    .kerning(6)
             }
-            .font(.largeTitle.weight(.bold))
-            .foregroundStyle(.white)
-            
-            Text("International Morse distress beacon")
-                .font(.body)
-                .foregroundStyle(Color(white: 0.6))
-                .multilineTextAlignment(.center)
-            
-            // Morse pattern visualization
-            HStack(spacing: 6) {
-                ForEach(0..<3, id: \.self) { _ in
-                    Capsule().fill(signalAmber.opacity(0.5)).frame(width: 8, height: 8)
-                }
-                Spacer().frame(width: 6)
-                ForEach(0..<3, id: \.self) { _ in
-                    Capsule().fill(signalAmber.opacity(0.5)).frame(width: 24, height: 8)
-                }
-                Spacer().frame(width: 6)
-                ForEach(0..<3, id: \.self) { _ in
-                    Capsule().fill(signalAmber.opacity(0.5)).frame(width: 8, height: 8)
+            .onAppear {
+                withAnimation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true)) {
+                    ringBreathing = true
                 }
             }
-            .padding(.top, 4)
+            
+            // Title + subtitle
+            VStack(spacing: 8) {
+                Text("Distress Signal")
+                    .font(.title2.weight(.semibold))
+                    .foregroundStyle(.white)
+                
+                Text("Flashes your torch in international\nMorse code SOS pattern")
+                    .font(.subheadline)
+                    .foregroundStyle(Color(white: 0.5))
+                    .multilineTextAlignment(.center)
+                    .lineSpacing(2)
+            }
+            
+            // Morse visualization — refined
+            HStack(spacing: 5) {
+                // S
+                ForEach(0..<3, id: \.self) { _ in
+                    RoundedRectangle(cornerRadius: 2).fill(signalAmber.opacity(0.4)).frame(width: 6, height: 6)
+                }
+                Spacer().frame(width: 10)
+                // O
+                ForEach(0..<3, id: \.self) { _ in
+                    RoundedRectangle(cornerRadius: 2).fill(signalAmber.opacity(0.4)).frame(width: 20, height: 6)
+                }
+                Spacer().frame(width: 10)
+                // S
+                ForEach(0..<3, id: \.self) { _ in
+                    RoundedRectangle(cornerRadius: 2).fill(signalAmber.opacity(0.4)).frame(width: 6, height: 6)
+                }
+            }
         }
         .accessibilityElement(children: .combine)
+        .accessibilityLabel("SOS Distress Signal, ready to transmit")
     }
     
     // MARK: - Active State
