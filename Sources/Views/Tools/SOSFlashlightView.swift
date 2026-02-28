@@ -1,21 +1,28 @@
 import SwiftUI
 import AVFoundation
+import CoreHaptics
 
 struct SOSFlashlightView: View {
     @State private var isFlashing = false
-    @State private var statusText = "STANDBY"
-    @State private var currentPulse = false // Tracks individual on/off flash state
+    @State private var statusText = "Standby"
+    @State private var currentPulse = false
+    @State private var cycleCount = 0
+    @State private var backgroundTaskID: UIBackgroundTaskIdentifier = .invalid
 
     // SOS Morse: ··· — — — ···
     // Dot = 0.2s, Dash = 0.6s, gap between = 0.2s, letter gap = 0.6s, word gap = 1.4s
-    private let sosPattern: [(Bool, Double)] = {
-        var pattern: [(Bool, Double)] = []
-        for i in 0..<3 { pattern.append((true, 0.2)); if i < 2 { pattern.append((false, 0.2)) } }
-        pattern.append((false, 0.6))
-        for i in 0..<3 { pattern.append((true, 0.6)); if i < 2 { pattern.append((false, 0.2)) } }
-        pattern.append((false, 0.6))
-        for i in 0..<3 { pattern.append((true, 0.2)); if i < 2 { pattern.append((false, 0.2)) } }
-        pattern.append((false, 1.4))
+    private let sosPattern: [(Bool, Double, Bool)] = {
+        // (torchOn, duration, isDash)
+        var pattern: [(Bool, Double, Bool)] = []
+        // S: · · ·
+        for i in 0..<3 { pattern.append((true, 0.2, false)); if i < 2 { pattern.append((false, 0.2, false)) } }
+        pattern.append((false, 0.6, false))
+        // O: — — —
+        for i in 0..<3 { pattern.append((true, 0.6, true)); if i < 2 { pattern.append((false, 0.2, false)) } }
+        pattern.append((false, 0.6, false))
+        // S: · · ·
+        for i in 0..<3 { pattern.append((true, 0.2, false)); if i < 2 { pattern.append((false, 0.2, false)) } }
+        pattern.append((false, 1.4, false))
         return pattern
     }()
 
@@ -24,7 +31,10 @@ struct SOSFlashlightView: View {
 
     var body: some View {
         ZStack {
-            Color.black.ignoresSafeArea()
+            // Background: pulses amber on torch-on beats
+            (currentPulse && isFlashing ? signalAmber.opacity(0.12) : Color.black)
+                .ignoresSafeArea()
+                .animation(.easeOut(duration: 0.08), value: currentPulse)
             
             // Ambient OLED glow synced to torch state
             Circle()
@@ -73,9 +83,16 @@ struct SOSFlashlightView: View {
                         .font(.system(size: 48, weight: .light, design: .rounded).monospacedDigit())
                         .foregroundStyle(isFlashing ? signalAmber : .white)
                         .contentTransition(.numericText())
+                    
+                    // Cycle counter
+                    if isFlashing && cycleCount > 0 {
+                        Text("Cycle \(cycleCount)")
+                            .font(.system(size: 15, weight: .semibold, design: .rounded))
+                            .foregroundStyle(Color(white: 0.4))
+                    }
                 }
                 .accessibilityElement(children: .combine)
-                .accessibilityLabel(isFlashing ? "SOS Signal Transmitting" : "SOS Signal Standby")
+                .accessibilityLabel(isFlashing ? "SOS Signal Transmitting, Cycle \(cycleCount)" : "SOS Signal Standby")
 
                 Spacer()
                 
@@ -92,26 +109,21 @@ struct SOSFlashlightView: View {
                 }
                 .padding(.bottom, 48)
 
-                // MARK: - Action Button
+                // MARK: - Action Button (matches Siren & CPR)
                 Button(action: toggleSOS) {
                     HStack(spacing: 12) {
                         Image(systemName: isFlashing ? "stop.fill" : "antenna.radiowaves.left.and.right")
                             .font(.system(size: 20, weight: .black))
                         
-                        Text(isFlashing ? "STOP SIGNAL" : "TRANSMIT SOS")
+                        Text(isFlashing ? "Stop Signal" : "Transmit SOS")
                             .font(.system(size: 18, weight: .heavy, design: .rounded))
-                            .kerning(1)
                     }
                     .foregroundStyle(isFlashing ? .black : .white)
                     .frame(maxWidth: .infinity)
                     .frame(height: 72)
                     .background(
-                        Capsule()
+                        RoundedRectangle(cornerRadius: 20, style: .continuous)
                             .fill(isFlashing ? Color.white : signalAmber)
-                    )
-                    .overlay(
-                        Capsule()
-                            .stroke(Color.white.opacity(isFlashing ? 0.0 : 0.15), lineWidth: 1)
                     )
                 }
                 .padding(.horizontal, 24)
@@ -135,27 +147,54 @@ struct SOSFlashlightView: View {
     }
 
     private func startFlashing() {
-        statusText = "TRANSMIT"
+        statusText = "Transmitting"
         isFlashing = true
+        cycleCount = 0
+        
+        // Prevent screen lock
+        UIApplication.shared.isIdleTimerDisabled = true
+        
+        // Keep running in background
+        backgroundTaskID = UIApplication.shared.beginBackgroundTask(withName: "SOSFlash") {
+            UIApplication.shared.endBackgroundTask(self.backgroundTaskID)
+            self.backgroundTaskID = .invalid
+        }
+        
         flashLoop()
     }
 
     private func stopFlashing() {
         isFlashing = false
         currentPulse = false
-        statusText = "STANDBY"
+        statusText = "Standby"
         setTorch(on: false)
+        
+        UIApplication.shared.isIdleTimerDisabled = false
+        
+        if backgroundTaskID != .invalid {
+            UIApplication.shared.endBackgroundTask(backgroundTaskID)
+            backgroundTaskID = .invalid
+        }
     }
 
     private func flashLoop() {
         Task {
             while isFlashing {
-                for (on, duration) in sosPattern {
+                for (on, duration, isDash) in sosPattern {
                     guard isFlashing else { return }
                     await MainActor.run { currentPulse = on }
                     setTorch(on: on)
+                    
+                    // Haptic sync: heavy for dashes, light for dots
+                    if on {
+                        let generator = UIImpactFeedbackGenerator(style: isDash ? .heavy : .light)
+                        generator.impactOccurred()
+                    }
+                    
                     try? await Task.sleep(nanoseconds: UInt64(duration * 1_000_000_000))
                 }
+                // One full SOS cycle completed
+                await MainActor.run { cycleCount += 1 }
             }
         }
     }
