@@ -188,27 +188,43 @@ extension ContentDatabase {
             // 6. LEARN & READ
             // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
             TriageOption(id: "trap-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
-                TriageNode(id: "trap-learn-q", question: "What would you like to read about?", options: [
-                    TriageOption(id: "trap-art-mindset", label: "Survival Mindset", icon: "brain.head.profile", destination: .article("psych-article-mindset")),
-                    TriageOption(id: "trap-art-decisions", label: "Decisions Under Stress", icon: "arrow.triangle.branch", destination: .article("psych-article-decisions")),
-                    TriageOption(id: "trap-art-group", label: "Group Dynamics", icon: "person.3.fill", destination: .article("psych-article-group")),
-                    TriageOption(id: "trap-art-children", label: "Children in Survival", icon: "figure.and.child.holdinghands", destination: .articleList(["psych-article-children", "psych-article-children-management"])),
-                    TriageOption(id: "trap-art-isolation", label: "Isolation Effects", icon: "person.fill.questionmark", destination: .articleList(["psych-article-isolation", "psych-article-isolation-effects"])),
-                    TriageOption(id: "trap-art-sleep", label: "Sleep Deprivation", icon: "moon.zzz.fill", destination: .articleList(["psych-article-sleep", "psych-article-sleep-deprivation"])),
-                    TriageOption(id: "trap-art-night", label: "Surviving the Night", icon: "moon.fill", destination: .article("psych-article-night")),
-                    TriageOption(id: "trap-art-longterm", label: "Long-Term Survival", icon: "calendar", destination: .article("psych-article-longterm")),
-                    TriageOption(id: "trap-art-postrescue", label: "Post-Rescue Recovery", icon: "heart.circle.fill", destination: .article("psych-article-postrescue")),
-                    TriageOption(id: "trap-art-knots", label: "Essential Knots", icon: "lasso", destination: .article("tools-article-knots")),
-                    TriageOption(id: "trap-art-cordage", label: "Cordage & Rope", icon: "line.diagonal", destination: .article("tools-article-cordage")),
-                    TriageOption(id: "trap-art-stone", label: "Stone Tool Craft", icon: "fossil.shell.fill", destination: .articleList(["tools-article-stone", "tools-article-stone-tools"])),
-                    TriageOption(id: "trap-art-blade", label: "Blade & Edge Tools", icon: "scissors", destination: .article("tools-article-blade")),
-                    TriageOption(id: "trap-art-containers", label: "Making Containers", icon: "cup.and.saucer.fill", destination: .article("tools-article-containers")),
-                    TriageOption(id: "trap-art-adhesives", label: "Natural Adhesives", icon: "drop.fill", destination: .article("tools-article-adhesives")),
-                    TriageOption(id: "trap-art-leather", label: "Leather Working", icon: "rectangle.fill", destination: .article("tools-article-leather")),
-                    TriageOption(id: "trap-art-camp", label: "Camp Craft", icon: "tent.fill", destination: .article("tools-article-camp")),
-                    TriageOption(id: "trap-art-repair", label: "Field Repairs", icon: "wrench.fill", destination: .article("tools-article-repair")),
-                    TriageOption(id: "trap-art-trapping", label: "Trapping Theory", icon: "hare.fill", destination: .article("tools-article-trapping")),
-                    TriageOption(id: "trap-art-fishing", label: "Fishing Technology", icon: "fish.fill", destination: .article("tools-article-fishing-tech"))
+                TriageNode(id: "trap-learn-q", question: "What topic?", options: [
+                    TriageOption(id: "trap-learn-mindset", label: "Survival Mindset", icon: "brain.head.profile", destination: .nextQuestion(
+                        TriageNode(id: "trap-learn-mind-q", question: "Select article:", options: [
+                            TriageOption(id: "trap-art-mindset", label: "Survival Mindset", icon: "brain.head.profile", destination: .article("psych-article-mindset")),
+                            TriageOption(id: "trap-art-decisions", label: "Decisions Under Stress", icon: "arrow.triangle.branch", destination: .article("psych-article-decisions")),
+                            TriageOption(id: "trap-art-group", label: "Group Dynamics", icon: "person.3.fill", destination: .article("psych-article-group")),
+                            TriageOption(id: "trap-art-children", label: "Children in Survival", icon: "figure.and.child.holdinghands", destination: .articleList(["psych-article-children", "psych-article-children-management"])),
+                            TriageOption(id: "trap-art-isolation", label: "Isolation Effects", icon: "person.fill.questionmark", destination: .articleList(["psych-article-isolation", "psych-article-isolation-effects"])),
+                            TriageOption(id: "trap-art-sleep", label: "Sleep Deprivation", icon: "moon.zzz.fill", destination: .articleList(["psych-article-sleep", "psych-article-sleep-deprivation"]))
+                        ])
+                    )),
+                    TriageOption(id: "trap-learn-skills", label: "Skills & Knots", icon: "lasso", destination: .nextQuestion(
+                        TriageNode(id: "trap-learn-skill-q", question: "Select article:", options: [
+                            TriageOption(id: "trap-art-knots", label: "Essential Knots", icon: "lasso", destination: .article("tools-article-knots")),
+                            TriageOption(id: "trap-art-cordage", label: "Cordage & Rope", icon: "line.diagonal", destination: .article("tools-article-cordage")),
+                            TriageOption(id: "trap-art-stone", label: "Stone Tool Craft", icon: "fossil.shell.fill", destination: .articleList(["tools-article-stone", "tools-article-stone-tools"])),
+                            TriageOption(id: "trap-art-blade", label: "Blade & Edge Tools", icon: "scissors", destination: .article("tools-article-blade")),
+                            TriageOption(id: "trap-art-trapping", label: "Trapping Theory", icon: "hare.fill", destination: .article("tools-article-trapping"))
+                        ])
+                    )),
+                    TriageOption(id: "trap-learn-camp", label: "Camp & Tools", icon: "tent.fill", destination: .nextQuestion(
+                        TriageNode(id: "trap-learn-camp-q", question: "Select article:", options: [
+                            TriageOption(id: "trap-art-containers", label: "Making Containers", icon: "cup.and.saucer.fill", destination: .article("tools-article-containers")),
+                            TriageOption(id: "trap-art-adhesives", label: "Natural Adhesives", icon: "drop.fill", destination: .article("tools-article-adhesives")),
+                            TriageOption(id: "trap-art-leather", label: "Leather Working", icon: "rectangle.fill", destination: .article("tools-article-leather")),
+                            TriageOption(id: "trap-art-camp", label: "Camp Craft", icon: "tent.fill", destination: .article("tools-article-camp")),
+                            TriageOption(id: "trap-art-repair", label: "Field Repairs", icon: "wrench.fill", destination: .article("tools-article-repair"))
+                        ])
+                    )),
+                    TriageOption(id: "trap-learn-longterm", label: "Long-Term & Recovery", icon: "calendar", destination: .nextQuestion(
+                        TriageNode(id: "trap-learn-lt-q", question: "Select article:", options: [
+                            TriageOption(id: "trap-art-night", label: "Surviving the Night", icon: "moon.fill", destination: .article("psych-article-night")),
+                            TriageOption(id: "trap-art-longterm", label: "Long-Term Survival", icon: "calendar", destination: .article("psych-article-longterm")),
+                            TriageOption(id: "trap-art-postrescue", label: "Post-Rescue Recovery", icon: "heart.circle.fill", destination: .article("psych-article-postrescue")),
+                            TriageOption(id: "trap-art-fishing", label: "Fishing Technology", icon: "fish.fill", destination: .article("tools-article-fishing-tech"))
+                        ])
+                    ))
                 ])
             ))
         ])
