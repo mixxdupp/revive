@@ -17,8 +17,7 @@ struct WaypointsListView: View {
     let icons = ["mappin.circle.fill", "tent.fill", "drop.fill", "car.fill", "cross.case.fill", "house.fill", "flag.fill", "figure.walk"]
     
     var body: some View {
-        NavigationView {
-            ZStack {
+        ZStack {
                 
                 if waypointsService.waypoints.isEmpty {
                     VStack(spacing: 20) {
@@ -125,9 +124,6 @@ struct WaypointsListView: View {
             .navigationTitle("Waypoints")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Close") { dismiss() }
-                }
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     if !waypointsService.waypoints.isEmpty {
                         Button(editMode == .active ? "Done" : "Edit") {
@@ -239,7 +235,6 @@ struct WaypointsListView: View {
                 .presentationDetents([.medium])
             }
         }
-    }
     
     private func formatDistance(_ meters: Double) -> String {
         if meters < 1000 {
