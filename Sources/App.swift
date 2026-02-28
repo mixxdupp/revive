@@ -217,7 +217,13 @@ struct CampfireIcon: View {
                                control1: CGPoint(x: w * 0.60, y: h * 0.50),
                                control2: CGPoint(x: w * 0.60, y: h * 0.65))
                 }
-                .fill(Color.orange)
+                .fill(
+                    LinearGradient(
+                        colors: [.yellow, .orange, .red],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    )
+                )
             }
         }
     }
