@@ -4,119 +4,64 @@ import CoreHaptics
 
 struct SOSFlashlightView: View {
     @State private var isFlashing = false
-    @State private var statusText = "Standby"
     @State private var currentPulse = false
     @State private var cycleCount = 0
     @State private var backgroundTaskID: UIBackgroundTaskIdentifier = .invalid
 
     // SOS Morse: ··· — — — ···
-    // Dot = 0.2s, Dash = 0.6s, gap between = 0.2s, letter gap = 0.6s, word gap = 1.4s
     private let sosPattern: [(Bool, Double, Bool)] = {
-        // (torchOn, duration, isDash)
         var pattern: [(Bool, Double, Bool)] = []
-        // S: · · ·
         for i in 0..<3 { pattern.append((true, 0.2, false)); if i < 2 { pattern.append((false, 0.2, false)) } }
         pattern.append((false, 0.6, false))
-        // O: — — —
         for i in 0..<3 { pattern.append((true, 0.6, true)); if i < 2 { pattern.append((false, 0.2, false)) } }
         pattern.append((false, 0.6, false))
-        // S: · · ·
         for i in 0..<3 { pattern.append((true, 0.2, false)); if i < 2 { pattern.append((false, 0.2, false)) } }
         pattern.append((false, 1.4, false))
         return pattern
     }()
 
-    // Apple Watch Ultra amber
     private let signalAmber = Color(red: 1.0, green: 0.6, blue: 0.0)
 
     var body: some View {
         ZStack {
-            // Background: pulses amber on torch-on beats
+            // Background: pulses amber when torch fires
             (currentPulse && isFlashing ? signalAmber.opacity(0.12) : Color.black)
                 .ignoresSafeArea()
                 .animation(.easeOut(duration: 0.08), value: currentPulse)
             
-            // Ambient OLED glow synced to torch state
-            Circle()
-                .fill(signalAmber.opacity(currentPulse ? 0.25 : 0.0))
-                .frame(width: 300, height: 300)
-                .blur(radius: 80)
-                .animation(.easeOut(duration: 0.1), value: currentPulse)
-                .offset(y: -40)
+            // Ambient glow
+            if isFlashing {
+                Circle()
+                    .fill(signalAmber.opacity(currentPulse ? 0.25 : 0.0))
+                    .frame(width: 300, height: 300)
+                    .blur(radius: 80)
+                    .animation(.easeOut(duration: 0.1), value: currentPulse)
+                    .offset(y: -40)
+            }
             
             VStack(spacing: 0) {
                 Spacer()
-                    .frame(height: 20)
-                
-                Spacer()
-                
-                // MARK: - Core Visualization
-                VStack(spacing: 24) {
-                    // Flashlight icon with pulse
-                    Image(systemName: currentPulse ? "flashlight.on.fill" : "flashlight.off.fill")
-                        .font(.system(size: 80, weight: .thin))
-                        .foregroundStyle(currentPulse ? signalAmber : Color(white: 0.3))
-                        .shadow(color: currentPulse ? signalAmber.opacity(0.6) : .clear, radius: 20)
-                        .animation(.easeOut(duration: 0.08), value: currentPulse)
-                    
-                    // Morse Code Visual
-                    HStack(spacing: 6) {
-                        // S: ···
-                        ForEach(0..<3, id: \.self) { _ in
-                            Capsule().fill(signalAmber).frame(width: 8, height: 8)
-                        }
-                        Spacer().frame(width: 8)
-                        // O: ———
-                        ForEach(0..<3, id: \.self) { _ in
-                            Capsule().fill(signalAmber).frame(width: 24, height: 8)
-                        }
-                        Spacer().frame(width: 8)
-                        // S: ···
-                        ForEach(0..<3, id: \.self) { _ in
-                            Capsule().fill(signalAmber).frame(width: 8, height: 8)
-                        }
-                    }
-                    .opacity(isFlashing ? 1.0 : 0.3)
-                    
-                    // Status
-                    Text(statusText)
-                        .font(.system(size: 48, weight: .light, design: .rounded).monospacedDigit())
-                        .foregroundStyle(isFlashing ? signalAmber : .white)
-                        .contentTransition(.numericText())
-                    
-                    // Cycle counter
-                    if isFlashing && cycleCount > 0 {
-                        Text("Cycle \(cycleCount)")
-                            .font(.system(size: 15, weight: .semibold, design: .rounded))
-                            .foregroundStyle(Color(white: 0.4))
-                    }
+
+                if isFlashing {
+                    activeView
+                } else {
+                    inactiveView
                 }
-                .accessibilityElement(children: .combine)
-                .accessibilityLabel(isFlashing ? "SOS Signal Transmitting, Cycle \(cycleCount)" : "SOS Signal Standby")
 
                 Spacer()
-                
-                // MARK: - Info
-                VStack(spacing: 8) {
-                    Text("INTERNATIONAL DISTRESS SIGNAL")
-                        .font(.system(size: 13, weight: .bold, design: .rounded))
-                        .foregroundStyle(Color(white: 0.5))
-                        .kerning(1)
-                    
-                    Text("· · ·  — — —  · · ·")
-                        .font(.system(size: 18, weight: .medium, design: .monospaced))
-                        .foregroundStyle(Color(white: 0.6))
-                }
-                .padding(.bottom, 48)
 
-                // MARK: - Action Button (matches Siren & CPR)
+                // MARK: - Guidance Strip
+                guidanceStrip
+                    .padding(.bottom, 24)
+
+                // MARK: - Action Button
                 Button(action: toggleSOS) {
-                    HStack(spacing: 12) {
+                    HStack(spacing: 10) {
                         Image(systemName: isFlashing ? "stop.fill" : "antenna.radiowaves.left.and.right")
-                            .font(.system(size: 20, weight: .black))
+                            .font(.system(size: 20, weight: .bold))
                         
                         Text(isFlashing ? "Stop Signal" : "Transmit SOS")
-                            .font(.system(size: 18, weight: .heavy, design: .rounded))
+                            .font(.system(size: 20, weight: .bold, design: .rounded))
                     }
                     .foregroundStyle(isFlashing ? .black : .white)
                     .frame(maxWidth: .infinity)
@@ -130,47 +75,140 @@ struct SOSFlashlightView: View {
                 .padding(.bottom, 24)
             }
         }
-        .navigationTitle("SOS Signal")
+        .navigationTitle(isFlashing ? "" : "SOS Signal")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(isFlashing ? .hidden : .visible, for: .navigationBar)
         .onDisappear { stopFlashing() }
     }
+    
+    // MARK: - Inactive State
+    private var inactiveView: some View {
+        VStack(spacing: 20) {
+            Image(systemName: "flashlight.on.fill")
+                .font(.system(size: 56, weight: .light))
+                .foregroundStyle(signalAmber)
+            
+            VStack(spacing: 0) {
+                Text("SOS")
+                Text("Signal")
+            }
+            .font(.largeTitle.weight(.bold))
+            .foregroundStyle(.white)
+            
+            Text("International Morse distress beacon")
+                .font(.body)
+                .foregroundStyle(Color(white: 0.6))
+                .multilineTextAlignment(.center)
+            
+            // Morse pattern visualization
+            HStack(spacing: 6) {
+                ForEach(0..<3, id: \.self) { _ in
+                    Capsule().fill(signalAmber.opacity(0.5)).frame(width: 8, height: 8)
+                }
+                Spacer().frame(width: 6)
+                ForEach(0..<3, id: \.self) { _ in
+                    Capsule().fill(signalAmber.opacity(0.5)).frame(width: 24, height: 8)
+                }
+                Spacer().frame(width: 6)
+                ForEach(0..<3, id: \.self) { _ in
+                    Capsule().fill(signalAmber.opacity(0.5)).frame(width: 8, height: 8)
+                }
+            }
+            .padding(.top, 4)
+        }
+        .accessibilityElement(children: .combine)
+    }
+    
+    // MARK: - Active State
+    private var activeView: some View {
+        VStack(spacing: 16) {
+            Text("Transmitting")
+                .font(.title2.weight(.bold))
+                .foregroundStyle(signalAmber.opacity(0.9))
+                .frame(height: 30)
+            
+            Image(systemName: "flashlight.on.fill")
+                .font(.system(size: 140, weight: .light))
+                .foregroundStyle(currentPulse ? signalAmber : Color(white: 0.2))
+                .shadow(color: currentPulse ? signalAmber.opacity(0.6) : .clear, radius: 30)
+                .scaleEffect(currentPulse ? 1.0 : 0.95)
+                .animation(.easeOut(duration: 0.08), value: currentPulse)
+            
+            // Morse pattern — highlights current pulse type
+            HStack(spacing: 6) {
+                ForEach(0..<3, id: \.self) { _ in
+                    Capsule().fill(signalAmber).frame(width: 8, height: 8)
+                }
+                Spacer().frame(width: 6)
+                ForEach(0..<3, id: \.self) { _ in
+                    Capsule().fill(signalAmber).frame(width: 24, height: 8)
+                }
+                Spacer().frame(width: 6)
+                ForEach(0..<3, id: \.self) { _ in
+                    Capsule().fill(signalAmber).frame(width: 8, height: 8)
+                }
+            }
+            
+            if cycleCount > 0 {
+                Text("Cycle \(cycleCount)")
+                    .font(.system(size: 15, weight: .semibold, design: .rounded))
+                    .foregroundStyle(Color(white: 0.35))
+                    .padding(.top, 4)
+            }
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("SOS Signal Transmitting, Cycle \(cycleCount)")
+    }
+    
+    // MARK: - Guidance Strip
+    private var guidanceStrip: some View {
+        HStack(spacing: 0) {
+            guidanceItem(icon: "dot.radiowaves.left.and.right", label: "· · ·  — — —  · · ·")
+            Spacer()
+            guidanceItem(icon: "info.circle", label: "Morse SOS")
+        }
+        .padding(.horizontal, 32)
+        .padding(.vertical, 16)
+        .background(isFlashing ? Color.black.opacity(0.85) : Color(white: 0.1))
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .padding(.horizontal, 24)
+    }
+    
+    private func guidanceItem(icon: String, label: String) -> some View {
+        HStack(spacing: 6) {
+            Image(systemName: icon)
+                .font(.system(size: 13, weight: .bold))
+                .foregroundStyle(Color(white: 0.5))
+            Text(label)
+                .font(.system(size: 13, weight: .semibold, design: .rounded))
+                .foregroundStyle(Color(white: 0.5))
+        }
+    }
+
+    // MARK: - Engine
 
     private func toggleSOS() {
         let generator = UIImpactFeedbackGenerator(style: .rigid)
         generator.impactOccurred()
-        
-        if isFlashing {
-            stopFlashing()
-        } else {
-            startFlashing()
-        }
+        if isFlashing { stopFlashing() } else { startFlashing() }
     }
 
     private func startFlashing() {
-        statusText = "Transmitting"
         isFlashing = true
         cycleCount = 0
-        
-        // Prevent screen lock
         UIApplication.shared.isIdleTimerDisabled = true
-        
-        // Keep running in background
         backgroundTaskID = UIApplication.shared.beginBackgroundTask(withName: "SOSFlash") {
             UIApplication.shared.endBackgroundTask(self.backgroundTaskID)
             self.backgroundTaskID = .invalid
         }
-        
         flashLoop()
     }
 
     private func stopFlashing() {
         isFlashing = false
         currentPulse = false
-        statusText = "Standby"
         setTorch(on: false)
-        
         UIApplication.shared.isIdleTimerDisabled = false
-        
         if backgroundTaskID != .invalid {
             UIApplication.shared.endBackgroundTask(backgroundTaskID)
             backgroundTaskID = .invalid
@@ -184,16 +222,12 @@ struct SOSFlashlightView: View {
                     guard isFlashing else { return }
                     await MainActor.run { currentPulse = on }
                     setTorch(on: on)
-                    
-                    // Haptic sync: heavy for dashes, light for dots
                     if on {
                         let generator = UIImpactFeedbackGenerator(style: isDash ? .heavy : .light)
                         generator.impactOccurred()
                     }
-                    
                     try? await Task.sleep(nanoseconds: UInt64(duration * 1_000_000_000))
                 }
-                // One full SOS cycle completed
                 await MainActor.run { cycleCount += 1 }
             }
         }
@@ -206,8 +240,6 @@ struct SOSFlashlightView: View {
             try device.lockForConfiguration()
             device.torchMode = on ? .on : .off
             device.unlockForConfiguration()
-        } catch {
-            // Silently fail if torch unsupported
-        }
+        } catch {}
     }
 }
