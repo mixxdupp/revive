@@ -207,6 +207,16 @@ struct WaypointsListView: View {
                         Section("Location") {
                             LabeledContent("Latitude", value: String(format: "%.6f", waypoint.latitude))
                             LabeledContent("Longitude", value: String(format: "%.6f", waypoint.longitude))
+                            
+                            Button {
+                                let url = URL(string: "http://maps.apple.com/?ll=\(waypoint.latitude),\(waypoint.longitude)&q=\(waypoint.name.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "Waypoint")")!
+                                UIApplication.shared.open(url)
+                            } label: {
+                                HStack {
+                                    Image(systemName: "map.fill")
+                                    Text("Open in Apple Maps")
+                                }
+                            }
                         }
                     }
                     .navigationTitle("Edit Waypoint")
