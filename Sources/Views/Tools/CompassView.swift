@@ -19,10 +19,16 @@ struct CompassView: View {
                 
                 // MARK: - Massive True North Readout
                 VStack(spacing: -8) {
-                    Text("\(Int(locationManager.trueNorth))°")
-                        .font(.system(size: 110, weight: .ultraLight, design: .rounded).monospacedDigit())
-                        .foregroundStyle(.white)
-                        .contentTransition(.numericText())
+                    HStack(alignment: .top, spacing: 0) {
+                        Text("\(Int(locationManager.trueNorth))")
+                            .font(.system(size: 110, weight: .ultraLight, design: .rounded).monospacedDigit())
+                            .foregroundStyle(.white)
+                        Text("°")
+                            .font(.system(size: 44, weight: .ultraLight, design: .rounded))
+                            .foregroundStyle(.white)
+                            .offset(y: 10)
+                    }
+                    .contentTransition(.numericText())
                     
                     Text(cardinalFromHeading(locationManager.trueNorth))
                         .font(.system(size: 28, weight: .medium, design: .rounded))
