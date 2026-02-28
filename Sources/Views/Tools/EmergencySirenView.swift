@@ -149,20 +149,25 @@ final class SirenManager: ObservableObject {
         var lfoPhase: Double = 0
         var tonePhase: Double = 0
         
+        // Use a very steep sine projection instead of raw binary (+1/-1)
+        // to prevent DC clicking and aliasing static on micro-speakers
         let source = AVAudioSourceNode { _, _, frameCount, audioBufferList -> OSStatus in
             let ablPointer = UnsafeMutableAudioBufferListPointer(audioBufferList)
             for frame in 0..<Int(frameCount) {
                 lfoPhase += 1.0 / sampleRate
+                if lfoPhase >= 1.0 { lfoPhase -= 1.0 } // Keep phase bounded to prevent precision loss
+                
                 let t = self.sweepRate * lfoPhase
                 let dt = t - floor(t)
-                let lfoValue = abs(2.0 * dt - 1.0)
+                let lfoValue = abs(2.0 * dt - 1.0) // Triangle sweep
                 
                 let currentFreq = self.lowFreq + (self.highFreq - self.lowFreq) * lfoValue
                 tonePhase += currentFreq / sampleRate
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                let val = sin(2.0 * .pi * tonePhase)
-                let sample: Float = (val >= 0 ? 1.0 : -1.0)
+                // Anti-aliased square-like wave (overdriven sine)
+                let sineVal = sin(2.0 * .pi * tonePhase)
+                let sample = Float(max(-1.0, min(1.0, sineVal * 15.0))) // Fast roll-off, no instant 0-crossing POP
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
