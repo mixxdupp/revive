@@ -50,10 +50,6 @@ struct SOSFlashlightView: View {
 
                 Spacer()
 
-                // MARK: - Guidance Strip
-                guidanceStrip
-                    .padding(.bottom, 24)
-
                 // MARK: - Action Button
                 Button(action: toggleSOS) {
                     HStack(spacing: 10) {
@@ -160,30 +156,7 @@ struct SOSFlashlightView: View {
         .accessibilityLabel("SOS Signal Transmitting, Cycle \(cycleCount)")
     }
     
-    // MARK: - Guidance Strip
-    private var guidanceStrip: some View {
-        HStack(spacing: 0) {
-            guidanceItem(icon: "dot.radiowaves.left.and.right", label: "· · ·  — — —  · · ·")
-            Spacer()
-            guidanceItem(icon: "info.circle", label: "Morse SOS")
-        }
-        .padding(.horizontal, 32)
-        .padding(.vertical, 16)
-        .background(isFlashing ? Color.black.opacity(0.85) : Color(white: 0.1))
-        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-        .padding(.horizontal, 24)
-    }
-    
-    private func guidanceItem(icon: String, label: String) -> some View {
-        HStack(spacing: 6) {
-            Image(systemName: icon)
-                .font(.system(size: 13, weight: .bold))
-                .foregroundStyle(Color(white: 0.5))
-            Text(label)
-                .font(.system(size: 13, weight: .semibold, design: .rounded))
-                .foregroundStyle(Color(white: 0.5))
-        }
-    }
+
 
     // MARK: - Engine
 
