@@ -62,16 +62,24 @@ extension ContentDatabase {
 
             // 📚 LEARN MORE
             TriageOption(id: "wet-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
-                TriageNode(id: "wet-learn-q", question: "What would you like to read about?", options: [
-                    TriageOption(id: "wet-art-signaling", label: "Signaling Science", icon: "antenna.radiowaves.left.and.right", destination: .articleList(["rescue-article-signaling", "rescue-article-signaling-science"])),
-                    TriageOption(id: "wet-art-water", label: "Water Rescue Principles", icon: "figure.water.fitness", destination: .articleList(["rescue-article-water-rescue", "rescue-article-water-principles"])),
-                    TriageOption(id: "wet-art-search", label: "Search & Rescue Ops", icon: "binoculars.fill", destination: .article("rescue-article-search")),
-                    TriageOption(id: "wet-art-group", label: "Group Rescue", icon: "person.3.fill", destination: .article("rescue-article-group-rescue")),
-                    TriageOption(id: "wet-art-night", label: "Night Rescue", icon: "moon.fill", destination: .article("rescue-article-night-rescue")),
-                    TriageOption(id: "wet-art-phone", label: "Emergency Phone Use", icon: "phone.fill", destination: .article("rescue-article-phone")),
-                    TriageOption(id: "wet-art-plb", label: "PLB & Beacons", icon: "antenna.radiowaves.left.and.right", destination: .article("rescue-article-plb")),
-                    TriageOption(id: "wet-art-selfrescue", label: "Self-Rescue Navigation", icon: "location.fill", destination: .article("rescue-article-self-rescue-nav")),
-                    TriageOption(id: "wet-art-ocean", label: "Ocean Survival Guide", icon: "water.waves", destination: .article("water-article-oceansurv"))
+                TriageNode(id: "wet-learn-q", question: "What topic?", options: [
+                    TriageOption(id: "wet-learn-rescue", label: "Water Rescue", icon: "figure.water.fitness", destination: .nextQuestion(
+                        TriageNode(id: "wet-learn-res-q", question: "Select article:", options: [
+                            TriageOption(id: "wet-art-water", label: "Water Rescue Principles", icon: "figure.water.fitness", destination: .articleList(["rescue-article-water-rescue", "rescue-article-water-principles"])),
+                            TriageOption(id: "wet-art-search", label: "Search & Rescue Ops", icon: "binoculars.fill", destination: .article("rescue-article-search")),
+                            TriageOption(id: "wet-art-group", label: "Group Rescue", icon: "person.3.fill", destination: .article("rescue-article-group-rescue")),
+                            TriageOption(id: "wet-art-selfrescue", label: "Self-Rescue Navigation", icon: "location.fill", destination: .article("rescue-article-self-rescue-nav")),
+                            TriageOption(id: "wet-art-ocean", label: "Ocean Survival Guide", icon: "water.waves", destination: .article("water-article-oceansurv"))
+                        ])
+                    )),
+                    TriageOption(id: "wet-learn-signal", label: "Signaling & Comms", icon: "antenna.radiowaves.left.and.right", destination: .nextQuestion(
+                        TriageNode(id: "wet-learn-sig-q", question: "Select article:", options: [
+                            TriageOption(id: "wet-art-signaling", label: "Signaling Science", icon: "antenna.radiowaves.left.and.right", destination: .articleList(["rescue-article-signaling", "rescue-article-signaling-science"])),
+                            TriageOption(id: "wet-art-night", label: "Night Rescue", icon: "moon.fill", destination: .article("rescue-article-night-rescue")),
+                            TriageOption(id: "wet-art-phone", label: "Emergency Phone Use", icon: "phone.fill", destination: .article("rescue-article-phone")),
+                            TriageOption(id: "wet-art-plb", label: "PLB & Beacons", icon: "antenna.radiowaves.left.and.right", destination: .article("rescue-article-plb"))
+                        ])
+                    ))
                 ])
             ))
         ])

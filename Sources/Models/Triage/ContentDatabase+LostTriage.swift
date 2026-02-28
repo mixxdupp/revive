@@ -72,18 +72,30 @@ extension ContentDatabase {
 
             // 📚 LEARN MORE
             TriageOption(id: "lost-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
-                TriageNode(id: "lost-learn-q", question: "What would you like to read about?", options: [
-                    TriageOption(id: "lost-art-unlost", label: "Getting Un-Lost", icon: "location.fill", destination: .article("nav-article-getting-unlost")),
-                    TriageOption(id: "lost-art-lost", label: "Psychology of Being Lost", icon: "brain.head.profile", destination: .article("nav-article-lost")),
-                    TriageOption(id: "lost-art-celestial", label: "Celestial Navigation", icon: "star.fill", destination: .article("nav-article-celestial")),
-                    TriageOption(id: "lost-art-map", label: "Map Reading Basics", icon: "map.fill", destination: .article("nav-article-map-basics")),
-                    TriageOption(id: "lost-art-terrain", label: "Terrain Association", icon: "mountain.2.fill", destination: .article("nav-article-terrain")),
-                    TriageOption(id: "lost-art-gps", label: "GPS Navigation", icon: "antenna.radiowaves.left.and.right", destination: .articleList(["nav-article-gps", "nav-article-gps-limitations"])),
-                    TriageOption(id: "lost-art-magnetic", label: "Magnetic Declination", icon: "safari", destination: .articleList(["nav-article-magnetic", "nav-article-declination"])),
-                    TriageOption(id: "lost-art-night", label: "Night Navigation", icon: "moon.stars.fill", destination: .articleList(["nav-article-night", "nav-article-night-nav"])),
-                    TriageOption(id: "lost-art-dense", label: "Dense Forest Navigation", icon: "tree.fill", destination: .article("nav-article-dense-forest")),
-                    TriageOption(id: "lost-art-urban", label: "Urban Navigation", icon: "building.2.fill", destination: .article("nav-article-urban-nav")),
-                    TriageOption(id: "lost-art-emergency", label: "Emergency Navigation", icon: "exclamationmark.triangle.fill", destination: .article("nav-article-emergency"))
+                TriageNode(id: "lost-learn-q", question: "What topic?", options: [
+                    TriageOption(id: "lost-learn-basics", label: "Navigation Basics", icon: "map.fill", destination: .nextQuestion(
+                        TriageNode(id: "lost-learn-basics-q", question: "Select article:", options: [
+                            TriageOption(id: "lost-art-unlost", label: "Getting Un-Lost", icon: "location.fill", destination: .article("nav-article-getting-unlost")),
+                            TriageOption(id: "lost-art-lost", label: "Psychology of Being Lost", icon: "brain.head.profile", destination: .article("nav-article-lost")),
+                            TriageOption(id: "lost-art-map", label: "Map Reading Basics", icon: "map.fill", destination: .article("nav-article-map-basics")),
+                            TriageOption(id: "lost-art-gps", label: "GPS Navigation", icon: "antenna.radiowaves.left.and.right", destination: .articleList(["nav-article-gps", "nav-article-gps-limitations"]))
+                        ])
+                    )),
+                    TriageOption(id: "lost-learn-celestial", label: "Celestial & Natural", icon: "star.fill", destination: .nextQuestion(
+                        TriageNode(id: "lost-learn-cel-q", question: "Select article:", options: [
+                            TriageOption(id: "lost-art-celestial", label: "Celestial Navigation", icon: "star.fill", destination: .article("nav-article-celestial")),
+                            TriageOption(id: "lost-art-magnetic", label: "Magnetic Declination", icon: "safari", destination: .articleList(["nav-article-magnetic", "nav-article-declination"])),
+                            TriageOption(id: "lost-art-night", label: "Night Navigation", icon: "moon.stars.fill", destination: .articleList(["nav-article-night", "nav-article-night-nav"])),
+                            TriageOption(id: "lost-art-emergency", label: "Emergency Navigation", icon: "exclamationmark.triangle.fill", destination: .article("nav-article-emergency"))
+                        ])
+                    )),
+                    TriageOption(id: "lost-learn-terrain", label: "Terrain & Urban", icon: "mountain.2.fill", destination: .nextQuestion(
+                        TriageNode(id: "lost-learn-ter-q", question: "Select article:", options: [
+                            TriageOption(id: "lost-art-terrain", label: "Terrain Association", icon: "mountain.2.fill", destination: .article("nav-article-terrain")),
+                            TriageOption(id: "lost-art-dense", label: "Dense Forest Navigation", icon: "tree.fill", destination: .article("nav-article-dense-forest")),
+                            TriageOption(id: "lost-art-urban", label: "Urban Navigation", icon: "building.2.fill", destination: .article("nav-article-urban-nav"))
+                        ])
+                    ))
                 ])
             ))
 
