@@ -334,10 +334,12 @@ struct EmergencySirenView: View {
                     Button(action: {
                         presentationMode.wrappedValue.dismiss()
                     }) {
-                        Image(systemName: "house.circle.fill")
-                            .font(.system(size: 28))
-                            .symbolRenderingMode(.hierarchical)
-                            .foregroundStyle(.white)
+                        HStack(spacing: 4) {
+                            Image(systemName: "chevron.backward")
+                                .font(Font.body.weight(.semibold))
+                            Text("Home")
+                        }
+                        .foregroundStyle(.white)
                     }
                 }
             }
