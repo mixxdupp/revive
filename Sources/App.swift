@@ -143,12 +143,12 @@ struct LaunchScreenView: View {
             
             VStack(spacing: 24) {
                 CampfireIcon()
-                    .frame(width: 64, height: 64)
+                    .frame(width: 96, height: 96)
                     .scaleEffect(iconVisible ? 1.0 : 0.5)
                     .opacity(iconVisible ? 1.0 : 0.0)
                 
                 Text("REVIVE")
-                    .font(.system(size: 28, weight: .light))
+                    .font(.system(size: 36, weight: .light))
                     .foregroundStyle(.white)
                     .kerning(textVisible ? 6 : 20)
                     .opacity(textVisible ? 1.0 : 0.0)
