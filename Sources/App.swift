@@ -142,7 +142,7 @@ struct LaunchScreenView: View {
             Color.black.ignoresSafeArea()
             
             VStack(spacing: 24) {
-                Image(systemName: "staroflife.fill")
+                Image(systemName: "flame.fill")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 64, height: 64)
