@@ -208,17 +208,16 @@ struct CPRMetronomeView: View {
         let generator = UIImpactFeedbackGenerator(style: .light)
         generator.impactOccurred()
         
-        prepTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
-            guard let self = self else { return }
-            self.prepCountdown -= 1
+        prepTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
+            prepCountdown -= 1
             
-            if self.prepCountdown > 0 {
+            if prepCountdown > 0 {
                 let generator = UIImpactFeedbackGenerator(style: .light)
                 generator.impactOccurred()
             } else {
-                self.prepTimer?.invalidate()
-                self.prepTimer = nil
-                self.startMetronome()
+                prepTimer?.invalidate()
+                prepTimer = nil
+                startMetronome()
             }
         }
     }
