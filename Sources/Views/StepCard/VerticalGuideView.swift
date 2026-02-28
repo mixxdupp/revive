@@ -37,22 +37,20 @@ struct VerticalGuideView: View {
                         
                         // MARK: - Source Link & Glossary
                         HStack {
-                            if let sourceName = technique.sourceName, let sourceUrl = technique.sourceUrl, let url = URL(string: sourceUrl) {
-                                Link(destination: url) {
-                                    HStack(spacing: 6) {
-                                        Text("Source:")
-                                            .font(.footnote)
-                                            .foregroundStyle(.secondary)
-                                        
-                                        Text(sourceName)
-                                            .font(.footnote.weight(.semibold))
-                                            .foregroundStyle(technique.domain.color)
-                                            .underline()
-                                        
-                                        Image(systemName: "arrow.up.right")
-                                            .font(.caption2)
-                                            .foregroundStyle(technique.domain.color)
-                                    }
+                            if let sourceName = technique.sourceName, let sourceUrl = technique.sourceUrl {
+                                HStack(spacing: 6) {
+                                    Text("Source:")
+                                        .font(.footnote)
+                                        .foregroundStyle(.secondary)
+                                    
+                                    Text(sourceName)
+                                        .font(.footnote.weight(.semibold))
+                                        .foregroundStyle(technique.domain.color)
+                                    
+                                    Text(sourceUrl)
+                                        .font(.caption2)
+                                        .foregroundStyle(.secondary)
+                                        .lineLimit(1)
                                 }
                             }
                             

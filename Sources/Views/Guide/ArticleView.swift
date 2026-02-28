@@ -143,7 +143,7 @@ struct ArticleView: View {
                             .padding(.vertical, 32)
                         
                         // MARK: - Footer / Source
-                        if let sourceUrl = article.sourceUrl, let url = URL(string: sourceUrl) {
+                        if let sourceUrl = article.sourceUrl {
                             VStack(alignment: .leading, spacing: 16) {
                                 Text("Source Material")
                                     .font(.caption.weight(.bold))
@@ -151,44 +151,39 @@ struct ArticleView: View {
                                     .textCase(.uppercase)
                                     .tracking(1)
                                 
-                                Link(destination: url) {
-                                    HStack(spacing: 16) {
-                                        ZStack {
-                                            Circle()
-                                                .fill(article.domain.color.opacity(0.1))
-                                                .frame(width: 48, height: 48)
-                                            
-                                            Image(systemName: "safari.fill")
-                                                .font(.system(size: 20))
-                                                .foregroundStyle(article.domain.color)
-                                            .accessibilityHidden(true)
-                                        }
+                                HStack(spacing: 16) {
+                                    ZStack {
+                                        Circle()
+                                            .fill(article.domain.color.opacity(0.1))
+                                            .frame(width: 48, height: 48)
                                         
-                                        VStack(alignment: .leading, spacing: 4) {
-                                            Text("Read full article")
-                                                .font(.headline)
-                                                .foregroundStyle(DesignSystem.textPrimary)
-                                            
-                                            Text(article.sourceName ?? "Original Source")
-                                                .font(.subheadline)
-                                                .foregroundStyle(DesignSystem.textSecondary)
-                                        }
-                                        
-                                        Spacer()
-                                        
-                                        Image(systemName: "arrow.up.right")
-                                            .font(.body.weight(.semibold))
-                                            .foregroundStyle(DesignSystem.textSecondary)
+                                        Image(systemName: "safari.fill")
+                                            .font(.system(size: 20))
+                                            .foregroundStyle(article.domain.color)
                                         .accessibilityHidden(true)
                                     }
-                                    .padding(16)
-                                    .background(DesignSystem.backgroundSecondary)
-                                    .cornerRadius(16)
-                                    .overlay(
-                                        RoundedRectangle(cornerRadius: 16)
-                                            .stroke(Color.black.opacity(0.05), lineWidth: 1)
-                                    )
+                                    
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        Text(article.sourceName ?? "Original Source")
+                                            .font(.headline)
+                                            .foregroundStyle(DesignSystem.textPrimary)
+                                        
+                                        Text(sourceUrl)
+                                            .font(.subheadline)
+                                            .foregroundStyle(DesignSystem.textSecondary)
+                                            .lineLimit(1)
+                                            .truncationMode(.tail)
+                                    }
+                                    
+                                    Spacer()
                                 }
+                                .padding(16)
+                                .background(DesignSystem.backgroundSecondary)
+                                .cornerRadius(16)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(Color.black.opacity(0.05), lineWidth: 1)
+                                )
                             }
                         }
                     }
