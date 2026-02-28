@@ -136,7 +136,6 @@ final class SirenManager: ObservableObject {
         var lfoPhase: Double = 0
         var tonePhase: Double = 0
         
-        // Return to perfectly clear, artifact-free continuous Sine Sweep
         let source = AVAudioSourceNode { _, _, frameCount, audioBufferList -> OSStatus in
             let ablPointer = UnsafeMutableAudioBufferListPointer(audioBufferList)
             for frame in 0..<Int(frameCount) {
@@ -148,11 +147,28 @@ final class SirenManager: ObservableObject {
                 let lfoValue = abs(2.0 * dt - 1.0)
                 
                 let currentFreq = self.lowFreq + (self.highFreq - self.lowFreq) * lfoValue
-                tonePhase += currentFreq / sampleRate
+                let phaseInc = currentFreq / sampleRate
+                tonePhase += phaseInc
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                // Pure Sine Wave for maximum clarity and total removal of static.
-                let sample: Float = Float(sin(2.0 * .pi * tonePhase))
+                // SAWTOOTH WAVEFORM
+                // A pure sine gives no upper harmonics (sounds "muffled under a blanket").
+                // A raw square abruptly skips zero (sounds like "static/fan").
+                // A sawtooth mathematically sweeps from +1 to -1 evenly, 
+                // generating the aggressive high-pitch harmonics needed for clarity,
+                // WITHOUT exploding the DAC with an instant infinite-slope pop.
+                var sample = Float((2.0 * tonePhase) - 1.0)
+                
+                // PolyBLEP Anti-Aliasing (soften the single cliff jump at phase == 1.0)
+                if tonePhase < phaseInc {
+                    let t = tonePhase / phaseInc
+                    let blep = t + t - t * t - 1.0
+                    sample -= Float(blep)
+                } else if tonePhase > (1.0 - phaseInc) {
+                    let t = (tonePhase - 1.0) / phaseInc
+                    let blep = t * t + t + t + 1.0
+                    sample += Float(blep)
+                }
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
@@ -233,6 +249,11 @@ final class SirenManager: ObservableObject {
             device.torchMode = on ? .on : .off
             device.unlockForConfiguration()
         } catch {}
+    }
+    
+    // Helpers for View
+    var osColor: Color {
+        return screenFlashColor == .red ? .blue : .red
     }
 }
 
@@ -491,7 +512,7 @@ struct LongPressActionButton: View {
     
     private func startHolding() {
         guard isPlaying else {
-            action()
+            action() // Tap to start is immediate
             return
         }
         
