@@ -71,9 +71,9 @@ struct SOSFlashlightView: View {
                 .padding(.bottom, 24)
             }
         }
-        .navigationTitle(isFlashing ? "" : "SOS Signal")
+        .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(isFlashing ? .hidden : .visible, for: .navigationBar)
+        .toolbarBackground(.hidden, for: .navigationBar)
         .onDisappear { stopFlashing() }
     }
     
