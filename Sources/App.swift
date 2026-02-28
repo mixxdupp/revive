@@ -144,7 +144,6 @@ struct LaunchScreenView: View {
             VStack(spacing: 24) {
                 CampfireIcon()
                     .frame(width: 64, height: 64)
-                    .foregroundStyle(Color.orange)
                     .scaleEffect(iconVisible ? 1.0 : 0.5)
                     .opacity(iconVisible ? 1.0 : 0.0)
                 
@@ -187,6 +186,7 @@ struct CampfireIcon: View {
                     p.addLine(to: CGPoint(x: w * 0.20, y: h * 0.70))
                 }
                 .stroke(style: StrokeStyle(lineWidth: w * 0.08, lineCap: .round, lineJoin: .round))
+                .foregroundStyle(Color.brown)
                 
                 // 3-Prong Flame
                 Path { p in
@@ -217,7 +217,7 @@ struct CampfireIcon: View {
                                control1: CGPoint(x: w * 0.60, y: h * 0.50),
                                control2: CGPoint(x: w * 0.60, y: h * 0.65))
                 }
-                .fill()
+                .fill(Color.orange)
             }
         }
     }
