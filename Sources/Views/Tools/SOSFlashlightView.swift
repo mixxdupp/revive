@@ -110,13 +110,14 @@ struct SOSFlashlightView: View {
             
             // Title + subtitle
             VStack(spacing: 8) {
-                Text("Distress Signal")
-                    .font(.title2.weight(.semibold))
-                    .foregroundStyle(.white)
+                Text("DISTRESS SIGNAL")
+                    .font(.system(size: 13, weight: .medium, design: .rounded))
+                    .foregroundStyle(Color(white: 0.45))
+                    .kerning(2)
                 
                 Text("Flashes your torch in international\nMorse code SOS pattern")
-                    .font(.subheadline)
-                    .foregroundStyle(Color(white: 0.5))
+                    .font(.system(size: 14, weight: .regular))
+                    .foregroundStyle(Color(white: 0.35))
                     .multilineTextAlignment(.center)
                     .lineSpacing(2)
             }
