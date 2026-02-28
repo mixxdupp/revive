@@ -31,7 +31,9 @@ struct ScenarioGear {
         ScenarioGear(scenario: .hurt, items: [
             ("Combat Tourniquet", 50), ("Hemostatic Gauze", 40), ("Pressure Bandage", 35),
             ("Vented Chest Seal (x2)", 30), ("Trauma Shears", 20), ("Moldable Splint (36\")", 20),
-            ("Medical Tape Roll", 10), ("Nitrile Gloves (2 Pairs)", 10), ("CPR Face Shield", 10)
+            ("Elastic Bandage (ACE Wrap)", 15), ("Antiseptic Wipes (10-Pack)", 15), ("Tweezers", 15),
+            ("Medical Tape Roll", 10), ("Nitrile Gloves (2 Pairs)", 10), ("CPR Face Shield", 10),
+            ("Irrigation Syringe (20ml)", 10), ("Safety Pins (x5)", 10)
         ]),
         ScenarioGear(scenario: .cold, items: [
             ("Emergency Mylar Blanket (x2)", 40), ("Hand / Body Warmers (4-Pack)", 30),
@@ -39,19 +41,23 @@ struct ScenarioGear {
         ]),
         ScenarioGear(scenario: .noFire, items: [
             ("Ferro Rod + Striker", 50), ("Waterproof Storm Matches", 30),
-            ("Cotton Tinder Bundle", 20), ("Backup Lighter", 15)
+            ("Char Cloth Tin", 20), ("Cotton Tinder Bundle", 20),
+            ("Backup Lighter", 15), ("Magnifying Lens", 10)
         ]),
         ScenarioGear(scenario: .noWater, items: [
             ("Water Purification Tablets", 50), ("Portable Water Filter", 40),
-            ("Collapsible Water Container (2L)", 30), ("Metal Cup / Canteen", 20)
+            ("Collapsible Water Container (2L)", 30), ("Metal Cup / Canteen", 20),
+            ("Iodine Solution (2oz)", 15)
         ]),
         ScenarioGear(scenario: .lost, items: [
             ("Button Compass", 40), ("Signal Mirror", 30), ("Emergency Whistle", 30),
-            ("Headlamp + Spare Batteries", 25), ("Bright Orange Bandana", 10)
+            ("Topographic Map (Local Area)", 25), ("Headlamp + Spare Batteries", 25),
+            ("Signal Flares (x2)", 20), ("Bright Orange Bandana", 10)
         ]),
         ScenarioGear(scenario: .trapped, items: [
-            ("Emergency Whistle", 40), ("Chemical Glow Sticks (x3)", 30),
-            ("Glass Breaker Tool", 25), ("Paracord Bracelet (12ft)", 20), ("Dust Mask", 15)
+            ("Emergency Whistle", 40), ("Fixed-Blade Knife", 30), ("Chemical Glow Sticks (x3)", 30),
+            ("Glass Breaker Tool", 25), ("Paracord Bracelet (12ft)", 20),
+            ("Dust Mask", 15), ("Carabiner (x2)", 15)
         ]),
         ScenarioGear(scenario: .disaster, items: [
             ("Emergency Crank Radio (AM/FM)", 50), ("Dust Masks (3-Pack)", 30),
@@ -59,8 +65,9 @@ struct ScenarioGear {
             ("Cash (Small Bills)", 15), ("Copies of ID Documents", 10)
         ]),
         ScenarioGear(scenario: .noFood, items: [
-            ("Calorie-Dense Bars (2400kcal+)", 50), ("Electrolyte Powder", 20),
-            ("Fishing Line + Hooks Kit", 20), ("Snare Wire (Brass, 5ft)", 20)
+            ("Calorie-Dense Bars (2400kcal+)", 50), ("Fixed-Blade Knife", 25),
+            ("Electrolyte Powder", 20), ("Fishing Line + Hooks Kit", 20),
+            ("Snare Wire (Brass, 5ft)", 20), ("Metal Cooking Pot", 15)
         ]),
         ScenarioGear(scenario: .animal, items: [
             ("Animal Deterrent Spray", 50), ("Emergency Whistle", 30), ("Headlamp", 20)
@@ -71,7 +78,8 @@ struct ScenarioGear {
         ]),
         ScenarioGear(scenario: .shelter, items: [
             ("Emergency Bivvy Sack", 50), ("Lightweight Tarp (8x10ft)", 30),
-            ("Paracord (50ft)", 25), ("Duct Tape Roll (Mini)", 15)
+            ("Paracord (50ft)", 25), ("Compact Sleeping Bag", 20),
+            ("Duct Tape Roll (Mini)", 15), ("Emergency Poncho", 10)
         ]),
         ScenarioGear(scenario: .extremeHeat, items: [
             ("Oral Rehydration Salts (6-Pack)", 50), ("Wide-Brim Sun Hat", 20),
