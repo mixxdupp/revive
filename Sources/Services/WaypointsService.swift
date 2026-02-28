@@ -19,15 +19,25 @@ class WaypointsService: ObservableObject {
     private func loadWithDefaults() {
         if let data = UserDefaults.standard.data(forKey: saveKey),
            let decoded = try? JSONDecoder().decode([Waypoint].self, from: data) {
-            self.waypoints = decoded.sorted(by: { $0.timestamp > $1.timestamp })
+            self.waypoints = decoded
         } else {
              self.waypoints = []
         }
     }
     
     func save(_ waypoint: Waypoint) {
-        waypoints.append(waypoint) // Add to memory
-        waypoints.sort(by: { $0.timestamp > $1.timestamp }) // Sort new first
+        waypoints.insert(waypoint, at: 0)
+        persist()
+    }
+    
+    func update(_ waypoint: Waypoint) {
+        guard let index = waypoints.firstIndex(where: { $0.id == waypoint.id }) else { return }
+        waypoints[index] = waypoint
+        persist()
+    }
+    
+    func move(from source: IndexSet, to destination: Int) {
+        waypoints.move(fromOffsets: source, toOffset: destination)
         persist()
     }
     

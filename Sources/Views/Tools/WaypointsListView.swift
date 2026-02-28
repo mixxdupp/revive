@@ -9,6 +9,9 @@ struct WaypointsListView: View {
     @State private var showingAddSheet = false
     @State private var newPointName = ""
     @State private var selectedIcon = "mappin.circle.fill"
+    @State private var editingWaypoint: Waypoint?
+    @State private var editName = ""
+    @State private var editIcon = ""
     
     let icons = ["mappin.circle.fill", "tent.fill", "drop.fill", "car.fill", "cross.case.fill", "house.fill", "flag.fill", "figure.walk"]
     
@@ -94,6 +97,12 @@ struct WaypointsListView: View {
                                 .buttonStyle(PlainButtonStyle())
                             }
                             .padding(.vertical, 4)
+                            .contentShape(Rectangle())
+                            .onTapGesture {
+                                editName = waypoint.name
+                                editIcon = waypoint.icon
+                                editingWaypoint = waypoint
+                            }
                         }
                         .onDelete { indexSet in
                             indexSet.forEach { index in
@@ -103,6 +112,9 @@ struct WaypointsListView: View {
                                     locationManager.clearTarget()
                                 }
                             }
+                        }
+                        .onMove { source, destination in
+                            waypointsService.move(from: source, to: destination)
                         }
                     }
                     .listStyle(.insetGrouped)
@@ -114,7 +126,10 @@ struct WaypointsListView: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Close") { dismiss() }
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    if !waypointsService.waypoints.isEmpty {
+                        EditButton()
+                    }
                     Button {
                         newPointName = "Waypoint \(waypointsService.waypoints.count + 1)"
                         showingAddSheet = true
@@ -124,6 +139,7 @@ struct WaypointsListView: View {
                     }
                 }
             }
+            // MARK: - Add Sheet
             .sheet(isPresented: $showingAddSheet) {
                 if let location = locationManager.location {
                     NavigationView {
@@ -168,6 +184,45 @@ struct WaypointsListView: View {
                     ContentUnavailableView("Location Unavailable", systemImage: "location.slash", description: Text("Can't save waypoint without GPS signal."))
                         .presentationDetents([.medium])
                 }
+            }
+            // MARK: - Edit Sheet
+            .sheet(item: $editingWaypoint) { waypoint in
+                NavigationView {
+                    Form {
+                        Section("Details") {
+                            TextField("Name", text: $editName)
+                            Picker("Icon", selection: $editIcon) {
+                                ForEach(icons, id: \.self) { icon in
+                                    Image(systemName: icon).tag(icon)
+                                    .accessibilityHidden(true)
+                                }
+                            }
+                            .pickerStyle(.segmented)
+                        }
+                        
+                        Section("Location") {
+                            LabeledContent("Latitude", value: String(format: "%.6f", waypoint.latitude))
+                            LabeledContent("Longitude", value: String(format: "%.6f", waypoint.longitude))
+                        }
+                    }
+                    .navigationTitle("Edit Waypoint")
+                    .toolbar {
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Cancel") { editingWaypoint = nil }
+                        }
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button("Save") {
+                                var updated = waypoint
+                                updated.name = editName
+                                updated.icon = editIcon
+                                waypointsService.update(updated)
+                                editingWaypoint = nil
+                            }
+                            .disabled(editName.trimmingCharacters(in: .whitespaces).isEmpty)
+                        }
+                    }
+                }
+                .presentationDetents([.medium])
             }
         }
     }
