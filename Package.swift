@@ -36,7 +36,8 @@ let package = Package(
                 .microphone(purposeString: "Revive uses the microphone for hands-free voice commands."),
                 .speechRecognition(purposeString: "Revive uses speech recognition to detect commands like 'next' or 'help'."),
                 .locationWhenInUse(purposeString: "Revive uses your location to display GPS coordinates and Compass heading offline.")
-            ]
+            ],
+            additionalInfoPlistContentFilePath: "Info.plist"
         )
     ],
     targets: [
