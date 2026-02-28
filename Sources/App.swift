@@ -99,7 +99,7 @@ struct ContentView: View {
         .preferredColorScheme(.dark)
         .fullScreenCover(isPresented: $showSiren) {
             NavigationStack {
-                EmergencySirenView(autoPlay: true)
+                EmergencySirenView(autoPlay: true, isPresentedModally: true)
             }
         }
         .onOpenURL { url in

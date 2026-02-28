@@ -248,6 +248,7 @@ final class SirenManager: ObservableObject {
 // MARK: - View
 struct EmergencySirenView: View {
     var autoPlay: Bool = false
+    var isPresentedModally: Bool = false
     @Environment(\.presentationMode) var presentationMode
     @StateObject private var manager = SirenManager()
     @State private var showSecurityInfo = false
@@ -328,8 +329,8 @@ struct EmergencySirenView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 // Only show a manual close button if we are NOT playing
-                // AND there might not be a standard back button (presented modally)
-                if !manager.isPlaying {
+                // AND we are explicitly presented modally (lacking a native < Back button)
+                if !manager.isPlaying && isPresentedModally {
                     Button(action: {
                         presentationMode.wrappedValue.dismiss()
                     }) {
