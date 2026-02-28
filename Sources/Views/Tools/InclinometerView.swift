@@ -76,6 +76,11 @@ struct InclinometerView: View {
 
                 // MARK: - Massive Angle Readout
                 VStack(spacing: 4) {
+                    Text("INCLINOMETER")
+                        .font(.system(size: 13, weight: .medium, design: .rounded))
+                        .foregroundStyle(Color(white: 0.45))
+                        .kerning(2)
+                    
                     Text(String(format: "%.1f°", slopeAngle))
                         .font(.system(size: 80, weight: .light, design: .rounded).monospacedDigit())
                         .foregroundStyle(.white)
@@ -83,7 +88,7 @@ struct InclinometerView: View {
                         .animation(.default, value: slopeAngle)
 
                     Text(slopeCategory.0)
-                        .font(.system(size: 18, weight: .black, design: .rounded))
+                        .font(.system(size: 14, weight: .medium, design: .rounded))
                         .foregroundStyle(slopeCategory.1)
                         .kerning(2)
                 }
