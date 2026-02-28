@@ -248,6 +248,7 @@ final class SirenManager: ObservableObject {
 // MARK: - View
 struct EmergencySirenView: View {
     var autoPlay: Bool = false
+    @Environment(\.presentationMode) var presentationMode
     @StateObject private var manager = SirenManager()
     @State private var showSecurityInfo = false
     @State private var isGuidedAccessActive = UIAccessibility.isGuidedAccessEnabled
@@ -323,6 +324,21 @@ struct EmergencySirenView: View {
         .sheet(isPresented: $showSecurityInfo) {
             SecurityInfoSheet(isGuidedAccessActive: isGuidedAccessActive)
                 .presentationBackground(.black)
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                // Only show a manual close button if we are NOT playing
+                // AND there might not be a standard back button (presented modally)
+                if !manager.isPlaying {
+                    Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    }) {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.title3)
+                            .foregroundStyle(Color(white: 0.3))
+                    }
+                }
+            }
         }
     }
     
