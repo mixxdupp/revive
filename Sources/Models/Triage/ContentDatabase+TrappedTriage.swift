@@ -12,7 +12,7 @@ extension ContentDatabase {
             // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
             // 1. INJURED OR TRAPPED
             // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            TriageOption(id: "trapped-injured-cat", label: "I'm Injured or Trapped", icon: "cross.case.fill", destination: .nextQuestion(
+            TriageOption(id: "trapped-injured-cat", label: "Injured or Trapped", icon: "cross.case.fill", destination: .nextQuestion(
                 TriageNode(id: "trapped-injury", question: "What type of injury?", options: [
 
                     // ── BLEEDING & SHOCK ──
@@ -133,7 +133,7 @@ extension ContentDatabase {
             // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
             // 3. STAYING MENTALLY STRONG
             // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-            TriageOption(id: "trapped-psych-cat", label: "Staying Mentally Strong", icon: "brain.head.profile", destination: .nextQuestion(
+            TriageOption(id: "trapped-psych-cat", label: "Mind & Morale", icon: "brain.head.profile", destination: .nextQuestion(
                 TriageNode(id: "trapped-psych-q", question: "What do you need?", options: [
                     TriageOption(id: "tp-stop", label: "STOP Method (First Steps)", icon: "hand.raised.fill", destination: .technique("psych-stop-method")),
                     TriageOption(id: "tp-decision", label: "Decision Fatigue", icon: "questionmark.circle.fill", destination: .technique("psych-decision-fatigue")),
