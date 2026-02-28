@@ -6,19 +6,6 @@ extension ContentDatabase {
     // =========================================================================
     func buildHurtTriage() -> TriageNode {
         return TriageNode(id: "hurt-nq-0-136", question: "Select Equipment Status:", options: [
-        TriageOption(id: "fa-fin-1", label: "Low / Improvised Equipment", icon: "hammer.fill", destination: .nextQuestion(
-            TriageNode(id: "hurt-nq-1-10", question: "Identify Primary Threat/Condition:", options: [
-        TriageOption(id: "fa-fin-2", label: "Natural Remedies (Non-Life Threatening)", icon: "leaf.fill", destination: .nextQuestion(
-            TriageNode(id: "hurt-nq-2-6", question: "What is the primary condition or requirement?", options: [
-        TriageOption(id: "fa-fin-3", label: "Insect Prevention (Repellent)", icon: "ant.fill", destination: .technique("firstaid-insect-repellent-natural")),
-        TriageOption(id: "fa-fin-4", label: "Oral Pain/Fever Relief (Willow, Infusions)", icon: "leaf.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-pine-needle-tea-vitamincC", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-willow-bark", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-5", label: "Topical Wound Care (Poultice)", icon: "drop.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-med-yarrow-styptic", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-plantain-poultice", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-6", label: "Topical Cleaning (Astringent, Honey)", icon: "leaf.fill", destination: .technique("firstaid-honey-wound"))
-    ])
-        )),
-        TriageOption(id: "fa-fin-7", label: "Transport / Improvised Evacuation", icon: "figure.walk", destination: .technique("firstaid-improvised-stretcher"))
-    ])
-        )),
         TriageOption(id: "fa-fin-11", label: "Well-Equipped (Trauma/Med Kit Available)", icon: "cross.case.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-1-136", question: "Identify Primary Threat/Condition:", options: [
         TriageOption(id: "fa-fin-12", label: "Immediate Life Threats (< 2 Min)", icon: "cross.case.fill", destination: .nextQuestion(
@@ -190,6 +177,19 @@ extension ContentDatabase {
         TriageOption(id: "fa-fin-134", label: "Crush / Blast / Compartment Injury", icon: "exclamationmark.triangle.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-crush-syndrome-management", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-compartment-syndrome", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-blast-injury-primary", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup))
     ])
         ))
+    ])
+        )),
+        TriageOption(id: "fa-fin-1", label: "Low / Improvised Equipment", icon: "hammer.fill", destination: .nextQuestion(
+            TriageNode(id: "hurt-nq-1-10", question: "Identify Primary Threat/Condition:", options: [
+        TriageOption(id: "fa-fin-2", label: "Natural Remedies (Non-Life Threatening)", icon: "leaf.fill", destination: .nextQuestion(
+            TriageNode(id: "hurt-nq-2-6", question: "What is the primary condition or requirement?", options: [
+        TriageOption(id: "fa-fin-3", label: "Insect Prevention (Repellent)", icon: "ant.fill", destination: .technique("firstaid-insect-repellent-natural")),
+        TriageOption(id: "fa-fin-4", label: "Oral Pain/Fever Relief (Willow, Infusions)", icon: "leaf.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-pine-needle-tea-vitamincC", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-willow-bark", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-5", label: "Topical Wound Care (Poultice)", icon: "drop.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-med-yarrow-styptic", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-plantain-poultice", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
+        TriageOption(id: "fa-fin-6", label: "Topical Cleaning (Astringent, Honey)", icon: "leaf.fill", destination: .technique("firstaid-honey-wound"))
+    ])
+        )),
+        TriageOption(id: "fa-fin-7", label: "Transport / Improvised Evacuation", icon: "figure.walk", destination: .technique("firstaid-improvised-stretcher"))
     ])
         ))
     ])
