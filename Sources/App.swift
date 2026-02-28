@@ -20,9 +20,8 @@ struct ReviveApp: App {
                 }
             }
             .onAppear {
-                // Simulate app loading / splash duration
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                    withAnimation(.easeOut(duration: 0.5)) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                    withAnimation(.easeOut(duration: 0.3)) {
                         showLaunchScreen = false
                     }
                 }
@@ -135,32 +134,35 @@ struct ContentView: View {
 }
 
 struct LaunchScreenView: View {
-    @State private var textVisible: Bool = false
+    @State private var iconVisible = false
+    @State private var textVisible = false
     
     var body: some View {
         ZStack {
-            Color.black.edgesIgnoringSafeArea(.all)
+            Color.black.ignoresSafeArea()
             
-            VStack(spacing: 20) {
-                // Static Icon (No breathing animation)
+            VStack(spacing: 24) {
                 Image(systemName: "staroflife.fill")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 80, height: 80)
+                    .frame(width: 64, height: 64)
                     .foregroundStyle(Color.red)
+                    .scaleEffect(iconVisible ? 1.0 : 0.5)
+                    .opacity(iconVisible ? 1.0 : 0.0)
                 
-                // App Text
-                Text("Revive")
-                    .font(.largeTitle.weight(.heavy))
+                Text("REVIVE")
+                    .font(.system(size: 28, weight: .light))
                     .foregroundStyle(.white)
+                    .kerning(textVisible ? 6 : 20)
                     .opacity(textVisible ? 1.0 : 0.0)
-                    .offset(y: textVisible ? 0 : 20)
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity) // Lock frame to center
         }
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                withAnimation(.easeOut(duration: 0.8)) {
+            withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
+                iconVisible = true
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
+                withAnimation(.easeOut(duration: 0.3)) {
                     textVisible = true
                 }
             }
