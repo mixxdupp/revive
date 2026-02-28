@@ -13,8 +13,8 @@ final class SirenManager: ObservableObject {
     private var sourceNode: AVAudioSourceNode?
     
     // Siren Parameters
-    private let lowFreq: Double = 600
-    private let highFreq: Double = 1400
+    private let lowFreq: Double = 1200
+    private let highFreq: Double = 2800
     private let sweepRate: Double = 2.0
     
     // SOS Pattern
@@ -383,7 +383,7 @@ struct EmergencySirenView: View {
             .font(.largeTitle.weight(.bold))
             .foregroundStyle(.white)
             
-            Text("Generates extremely loud 1400Hz sweep")
+            Text("Generates maximum decibel 1200-2800Hz sweep")
                 .font(.body)
                 .foregroundStyle(Color(white: 0.6))
                 .multilineTextAlignment(.center)
