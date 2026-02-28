@@ -39,6 +39,17 @@ struct ToolsMenuView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
 
+                        // MARK: - Priority: Medical
+                        NavigationLink(destination: CPRMetronomeView()) {
+                            GlassWidgetSquare(
+                                icon: "heart.fill",
+                                title: "CPR Metronome",
+                                subtitle: "110 BPM pacer",
+                                color: .red
+                            )
+                        }
+                        .buttonStyle(ScalableButtonStyle())
+
                         // MARK: - Priority: Navigation
                         NavigationLink(destination: CompassView()) {
                             GlassWidgetSquare(
@@ -66,17 +77,6 @@ struct ToolsMenuView: View {
                                 title: "Waypoints",
                                 subtitle: "Save locations",
                                 color: .indigo
-                            )
-                        }
-                        .buttonStyle(ScalableButtonStyle())
-                        
-                        // MARK: - Priority: Medical & Utility
-                        NavigationLink(destination: CPRMetronomeView()) {
-                            GlassWidgetSquare(
-                                icon: "heart.fill",
-                                title: "CPR Metronome",
-                                subtitle: "110 BPM pacer",
-                                color: .red
                             )
                         }
                         .buttonStyle(ScalableButtonStyle())
