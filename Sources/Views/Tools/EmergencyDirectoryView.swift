@@ -19,41 +19,8 @@ struct EmergencyDirectoryView: View {
     
     var body: some View {
         ZStack {
-            // MARK: - Ambient Background
-            DesignSystem.backgroundPrimary
+            Color.black
                 .ignoresSafeArea()
-            
-            // Subtle Animated Mesh Gradient Simulation (Blue/Teal/Indigo for Directory)
-            if !reduceMotion {
-                GeometryReader { proxy in
-                    ZStack {
-                        Circle()
-                            .fill(Color.blue.opacity(0.12))
-                            .frame(width: 350, height: 350)
-                            .blur(radius: 60)
-                            .offset(x: isAnimating ? -50 : -150, y: isAnimating ? -50 : -150)
-                        
-                        Circle()
-                            .fill(Color.teal.opacity(0.12))
-                            .frame(width: 300, height: 300)
-                            .blur(radius: 60)
-                            .offset(x: isAnimating ? 150 : 250, y: isAnimating ? 50 : 150)
-                            
-                        Circle()
-                            .fill(Color.indigo.opacity(0.08))
-                            .frame(width: 400, height: 400)
-                            .blur(radius: 80)
-                            .offset(x: isAnimating ? -100 : 100, y: isAnimating ? 300 : 400)
-                    }
-                    .frame(width: proxy.size.width, height: proxy.size.height)
-                    .onAppear {
-                        withAnimation(.easeInOut(duration: 8.0).repeatForever(autoreverses: true)) {
-                            isAnimating = true
-                        }
-                    }
-                }
-                .ignoresSafeArea()
-            }
             
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
@@ -85,7 +52,7 @@ struct EmergencyDirectoryView: View {
                     }
                     .padding(.horizontal, 16)
                     .padding(.vertical, 12)
-                    .background(Color(uiColor: .secondarySystemGroupedBackground))
+                    .background(Color(white: 0.1))
                     .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                     .padding(.horizontal, 24)
                     
@@ -211,7 +178,7 @@ struct GlassCountryRow: View {
             }
         }
         .padding(16)
-        .background(.ultraThinMaterial)
+        .background(Color(white: 0.1))
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 20, style: .continuous)
