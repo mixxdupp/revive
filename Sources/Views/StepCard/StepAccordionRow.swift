@@ -22,7 +22,7 @@ struct StepAccordionRow: View {
                     }
                 }
             }) {
-                HStack {
+                HStack(alignment: .top) { // Align to top so long text pushing chevron down doesn't look weird
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Step \(stepIndex + 1)")
                             .font(.footnote.weight(.heavy))
@@ -34,17 +34,17 @@ struct StepAccordionRow: View {
                             .foregroundStyle(isExpanded ? .white : .primary)
                             .lineLimit(nil)
                             .multilineTextAlignment(.leading)
-                            .fixedSize(horizontal: false, vertical: true)
                     }
-                    .padding(.trailing, 16)
+                    .layoutPriority(1) // Text takes up all available space
                     
-                    Spacer()
+                    Spacer(minLength: 16) // Strict hard gap
                     
                     Image(systemName: "chevron.down")
                         .font(.system(size: 14, weight: .bold))
                         .foregroundStyle(isExpanded ? .white : .secondary)
                         .rotationEffect(.degrees(isExpanded ? 180 : 0))
                         .animation(.easeInOut(duration: 0.25), value: isExpanded)
+                        .padding(.top, 4) // Visually center with the Step title
                 }
                 .padding(20)
                 .background(
