@@ -4,6 +4,7 @@ struct DomainDetailView: View {
     let domain: SurvivalDomain
     @Environment(\.dismiss) var dismiss
     @State private var selectedTab: DomainTab = .techniques
+    @State private var searchText = ""
     
     enum DomainTab: String, CaseIterable {
         case techniques = "Techniques"
@@ -11,11 +12,15 @@ struct DomainDetailView: View {
     }
     
     var techniques: [Technique] {
-        ContentDatabase.shared.getTechniques(for: domain)
+        let all = ContentDatabase.shared.getTechniques(for: domain)
+        if searchText.isEmpty { return all }
+        return all.filter { $0.name.localizedCaseInsensitiveContains(searchText) || $0.subtitle.localizedCaseInsensitiveContains(searchText) }
     }
     
     var articles: [Article] {
-        ContentDatabase.shared.getArticles(for: domain)
+        let all = ContentDatabase.shared.getArticles(for: domain)
+        if searchText.isEmpty { return all }
+        return all.filter { $0.title.localizedCaseInsensitiveContains(searchText) }
     }
     
     var body: some View {
@@ -48,6 +53,10 @@ struct DomainDetailView: View {
                             .lineLimit(2)
                     }
                     
+                    // Search Bar
+                    SearchBar(text: $searchText, placeholder: "Search \(selectedTab.rawValue.lowercased())...")
+                        .padding(.top, 8)
+                    
                     // MARK: - Segmented Control
                     Picker("Section", selection: $selectedTab) {
                         ForEach(DomainTab.allCases, id: \.self) { tab in
@@ -66,7 +75,7 @@ struct DomainDetailView: View {
                     switch selectedTab {
                     case .techniques:
                         if techniques.isEmpty {
-                            ContentUnavailableView("No Techniques", systemImage: "list.bullet.clipboard", description: Text("No techniques available for this domain."))
+                            ContentUnavailableView("No Techniques", systemImage: "magnifyingglass", description: Text("No techniques match your search."))
                         } else {
                             ForEach(techniques) { technique in
                                 NavigationLink(destination: VerticalGuideView(technique: technique)) {
@@ -79,7 +88,7 @@ struct DomainDetailView: View {
                         
                     case .articles:
                         if articles.isEmpty {
-                            ContentUnavailableView("No Articles", systemImage: "doc.text.magnifyingglass", description: Text("No articles available for this domain."))
+                            ContentUnavailableView("No Articles", systemImage: "magnifyingglass", description: Text("No articles match your search."))
                         } else {
                             ForEach(articles) { article in
                                 NavigationLink(destination: ArticleView(article: article)) {

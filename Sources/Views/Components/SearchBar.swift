@@ -40,7 +40,6 @@ struct SearchBar: View {
                 .animation(.default, value: text.isEmpty)
             }
         }
-        .padding(.horizontal)
     }
 }
 

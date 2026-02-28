@@ -22,7 +22,7 @@ struct StepAccordionRow: View {
                     }
                 }
             }) {
-                HStack(alignment: .top, spacing: 16) {
+                HStack(alignment: .top, spacing: 0) {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Step \(stepIndex + 1)")
                             .font(.footnote.weight(.heavy))
@@ -33,9 +33,10 @@ struct StepAccordionRow: View {
                             .font(.headline.weight(.bold))
                             .foregroundStyle(isExpanded ? .white : .primary)
                             .lineLimit(nil)
-                            .multilineTextAlignment(.leading)
+                            .fixedSize(horizontal: false, vertical: true)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Spacer(minLength: 16) // Pushes chevron to the right
                     
                     Image(systemName: "chevron.down")
                         .font(.system(size: 14, weight: .bold))
@@ -43,7 +44,9 @@ struct StepAccordionRow: View {
                         .rotationEffect(.degrees(isExpanded ? 180 : 0))
                         .animation(.easeInOut(duration: 0.25), value: isExpanded)
                         .padding(.top, 4)
+                        .frame(width: 24, alignment: .trailing) // Lock chevron width
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(20)
                 .background(
                     Group {
@@ -61,21 +64,7 @@ struct StepAccordionRow: View {
             if isExpanded {
                 VStack(alignment: .leading, spacing: 16) {
                     
-                    // Alert / Warning (Simulation of provided design)
-                    if step.helpDetail.contains("!") || step.helpDetail.lowercased().contains("warning") {
-                        HStack(alignment: .top, spacing: 12) {
-                            Image(systemName: "exclamationmark.triangle.fill")
-                                .foregroundStyle(.red)
-                            
-                            Text(step.helpDetail)
-                                .font(.subheadline.weight(.medium))
-                                .foregroundStyle(.white)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        .padding(16)
-                        .background(Color(red: 0.2, green: 0.2, blue: 0.25))
-                        .cornerRadius(12)
-                    } else if !step.helpDetail.isEmpty {
+                    if !step.helpDetail.isEmpty {
                         Text(step.helpDetail)
                             .font(.body)
                             .foregroundStyle(DesignSystem.textSecondary)
@@ -119,6 +108,7 @@ struct StepAccordionRow: View {
                         .buttonStyle(.plain)
                     }
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(20)
                 .background(Color(uiColor: .secondarySystemGroupedBackground))
                 .overlay(

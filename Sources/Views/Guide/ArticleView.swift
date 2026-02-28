@@ -143,7 +143,7 @@ struct ArticleView: View {
                             .padding(.vertical, 32)
                         
                         // MARK: - Footer / Source
-                        if let sourceUrl = article.sourceUrl {
+                        if article.sourceUrl != nil {
                             VStack(alignment: .leading, spacing: 16) {
                                 Text("Source Material")
                                     .font(.caption.weight(.bold))
@@ -167,12 +167,6 @@ struct ArticleView: View {
                                         Text(article.sourceName ?? "Original Source")
                                             .font(.headline)
                                             .foregroundStyle(DesignSystem.textPrimary)
-                                        
-                                        Text(sourceUrl)
-                                            .font(.subheadline)
-                                            .foregroundStyle(DesignSystem.textSecondary)
-                                            .lineLimit(1)
-                                            .truncationMode(.tail)
                                     }
                                     
                                     Spacer()

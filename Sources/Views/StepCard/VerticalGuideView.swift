@@ -37,7 +37,7 @@ struct VerticalGuideView: View {
                         
                         // MARK: - Source Link & Glossary
                         HStack {
-                            if let sourceName = technique.sourceName, let sourceUrl = technique.sourceUrl {
+                            if let sourceName = technique.sourceName, technique.sourceUrl != nil {
                                 HStack(spacing: 6) {
                                     Text("Source:")
                                         .font(.footnote)
@@ -47,10 +47,11 @@ struct VerticalGuideView: View {
                                         .font(.footnote.weight(.semibold))
                                         .foregroundStyle(technique.domain.color)
                                     
-                                    Text(sourceUrl)
-                                        .font(.caption2)
-                                        .foregroundStyle(.secondary)
-                                        .lineLimit(1)
+                                    // URL removed as per user request
+                                    // Text(sourceUrl)
+                                    //     .font(.caption2)
+                                    //     .foregroundStyle(.secondary)
+                                    //     .lineLimit(1)
                                 }
                             }
                             
