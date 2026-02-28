@@ -115,7 +115,7 @@ extension ContentDatabase {
         )),
         TriageOption(id: "fa-fin-80", label: "Support Joint", icon: "figure.run", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-figure-8-bandage", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-sprain", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-81", label: "Minor Injuries (Punctures, Eyes, Dental)", icon: "mouth", destination: .nextQuestion(
-            TriageNode(id: "hurt-nq-2-94", question: "What is the primary condition or requirement?", options: [
+            TriageNode(id: "hurt-nq-2-94", question: "What type of minor injury is it?", options: [
         TriageOption(id: "fa-fin-82a", label: "Eye Injuries", icon: "eye.fill", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-3-eyes", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-82", label: "Chemical splash / debris", icon: "exclamationmark.triangle.fill", destination: .technique("firstaid-eye-irrigation")),
@@ -124,18 +124,31 @@ extension ContentDatabase {
         TriageOption(id: "fa-fin-87", label: "Penetrating object", icon: "eye.fill", destination: .technique("firstaid-eye-shield-improvised"))
     ])
         )),
-        TriageOption(id: "fa-fin-88a", label: "Dental / Tooth", icon: "mouth", destination: .nextQuestion(
+        TriageOption(id: "fa-fin-88a", label: "Dental / Oral Issues", icon: "mouth", destination: .nextQuestion(
             TriageNode(id: "hurt-nq-3-dental", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-88", label: "Toothache / missing filling", icon: "mouth", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-dental-temporary-filling", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-dental", role: TriageTechniqueRole.adjunct), RankedTechnique(id: "firstaid-toothache-field", role: TriageTechniqueRole.contextual)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
         TriageOption(id: "fa-fin-89", label: "Avulsed (Knocked-out) tooth", icon: "mouth", destination: .technique("firstaid-dental-avulsion"))
     ])
         )),
+        TriageOption(id: "fa-fin-minor-punct", label: "Skin Punctures & Splinters", icon: "pin.fill", destination: .nextQuestion(
+            TriageNode(id: "hurt-nq-3-punctures", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-83", label: "Splinter / Cactus thorn", icon: "pin.fill", destination: TriageDestination.rankedTechniqueList([RankedTechnique(id: "firstaid-splinter", role: TriageTechniqueRole.primary), RankedTechnique(id: "firstaid-nail-bed-injury", role: TriageTechniqueRole.adjunct)], confidence: TriageLeafConfidence.rankedPrimaryBackup)),
-        TriageOption(id: "fa-fin-84", label: "Blisters / Scrapes", icon: "bandage", destination: .technique("firstaid-blister")),
         TriageOption(id: "fa-fin-91", label: "Embedded Fish Hook", icon: "pin.fill", destination: .technique("firstaid-fishhook-removal")),
-        TriageOption(id: "fa-fin-92", label: "Impaled object (Left in place)", icon: "pin.fill", destination: .technique("firstaid-impaled-object-stabilize")),
+        TriageOption(id: "fa-fin-92", label: "Impaled object (Left in place)", icon: "pin.fill", destination: .technique("firstaid-impaled-object-stabilize"))
+    ])
+        )),
+        TriageOption(id: "fa-fin-84", label: "Minor Cuts & Abrasions", icon: "bandage", destination: .technique("firstaid-blister")),
+        TriageOption(id: "fa-fin-minor-earnose", label: "Nose & Ear Foreign Bodies", icon: "ear.fill", destination: .nextQuestion(
+            TriageNode(id: "hurt-nq-3-noseear", question: "What is the primary condition or requirement?", options: [
         TriageOption(id: "fa-fin-93", label: "Visible object in Ear/Nose", icon: "ear.fill", destination: .technique("firstaid-foreign-body-ear")),
         TriageOption(id: "fa-fin-94", label: "Pressure change / Dive ear pain", icon: "ear.fill", destination: .technique("firstaid-barotrauma-ear"))
+    ])
+        )),
+        TriageOption(id: "hurt-minor-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
+            TriageNode(id: "hurt-nq-3-learn", question: "What would you like to read about?", options: [
+        TriageOption(id: "hurt-art-env", label: "Environmental Emergencies", icon: "book.fill", destination: .article("firstaid-article-environmental"))
+    ])
+        ))
     ])
         )),
         TriageOption(id: "fa-fin-95", label: "Bites & Stings", icon: "ant.fill", destination: .nextQuestion(
