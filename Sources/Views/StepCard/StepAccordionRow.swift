@@ -36,6 +36,7 @@ struct StepAccordionRow: View {
                             .multilineTextAlignment(.leading)
                             .fixedSize(horizontal: false, vertical: true)
                     }
+                    .padding(.trailing, 16)
                     
                     Spacer()
                     
