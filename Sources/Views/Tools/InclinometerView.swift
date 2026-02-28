@@ -5,7 +5,6 @@ struct InclinometerView: View {
     @State private var pitch: Double = 0  // Forward/back tilt
     @State private var roll: Double = 0   // Side tilt
     @State private var motionManager = CMMotionManager()
-    @State private var isActive = false
 
     var slopeAngle: Double {
         abs(pitch * 180 / .pi)
@@ -110,47 +109,17 @@ struct InclinometerView: View {
                 }
                 .padding(.horizontal, 24)
                 .padding(.bottom, 32)
-
-                // MARK: - Action Capsule
-                Button(action: toggleMotion) {
-                    HStack(spacing: 12) {
-                        Image(systemName: isActive ? "stop.fill" : "level.fill")
-                            .font(.system(size: 20, weight: .black))
-                        
-                        Text(isActive ? "STOP LEVEL" : "START LEVEL")
-                            .font(.system(size: 18, weight: .heavy, design: .rounded))
-                            .kerning(1)
-                    }
-                    .foregroundStyle(isActive ? .black : .white)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 72)
-                    .background(
-                        Capsule()
-                            .fill(isActive ? Color.white : Color.blue)
-                    )
-                    .overlay(
-                        Capsule()
-                            .stroke(Color.white.opacity(isActive ? 0.0 : 0.15), lineWidth: 1)
-                    )
-                }
-                .padding(.horizontal, 24)
-                .padding(.bottom, 24)
             }
         }
         .navigationTitle("Inclinometer")
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear { startMotion() }
         .onDisappear { stopMotion() }
-    }
-
-    private func toggleMotion() {
-        let generator = UIImpactFeedbackGenerator(style: .rigid)
-        generator.impactOccurred()
-        if isActive { stopMotion() } else { startMotion() }
     }
 
     private func startMotion() {
         guard motionManager.isDeviceMotionAvailable else { return }
-        isActive = true
+        UIApplication.shared.isIdleTimerDisabled = true
         motionManager.deviceMotionUpdateInterval = 1.0 / 60.0
         motionManager.startDeviceMotionUpdates(to: .main) { motion, _ in
             guard let motion = motion else { return }
@@ -165,8 +134,8 @@ struct InclinometerView: View {
     }
 
     private func stopMotion() {
-        isActive = false
         motionManager.stopDeviceMotionUpdates()
+        UIApplication.shared.isIdleTimerDisabled = false
         withAnimation {
             pitch = 0
             roll = 0
