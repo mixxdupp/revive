@@ -98,7 +98,9 @@ struct ContentView: View {
         }
         .preferredColorScheme(.dark)
         .fullScreenCover(isPresented: $showSiren) {
-            EmergencySirenView(autoPlay: true)
+            NavigationStack {
+                EmergencySirenView(autoPlay: true)
+            }
         }
         .onOpenURL { url in
             if url.scheme == "revive" && url.host == "siren" {
