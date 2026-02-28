@@ -131,9 +131,7 @@ struct WaypointsListView: View {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     if !waypointsService.waypoints.isEmpty {
                         Button(editMode == .active ? "Done" : "Edit") {
-                            withAnimation(.easeInOut(duration: 0.25)) {
-                                editMode = editMode == .active ? .inactive : .active
-                            }
+                            editMode = editMode == .active ? .inactive : .active
                         }
                     }
                     Button {
