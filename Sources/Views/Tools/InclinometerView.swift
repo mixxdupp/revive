@@ -81,11 +81,17 @@ struct InclinometerView: View {
                         .foregroundStyle(Color(white: 0.45))
                         .kerning(2)
                     
-                    Text(String(format: "%.1f°", slopeAngle))
-                        .font(.system(size: 80, weight: .light, design: .rounded).monospacedDigit())
-                        .foregroundStyle(.white)
-                        .contentTransition(.numericText())
-                        .animation(.default, value: slopeAngle)
+                    HStack(alignment: .top, spacing: 0) {
+                        Text(String(format: "%.1f", slopeAngle))
+                            .font(.system(size: 80, weight: .light, design: .rounded).monospacedDigit())
+                            .foregroundStyle(.white)
+                        Text("°")
+                            .font(.system(size: 36, weight: .light, design: .rounded))
+                            .foregroundStyle(.white)
+                            .offset(y: 8)
+                    }
+                    .contentTransition(.numericText())
+                    .animation(.default, value: slopeAngle)
 
                     Text(slopeCategory.0)
                         .font(.system(size: 14, weight: .medium, design: .rounded))
