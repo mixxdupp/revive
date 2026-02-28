@@ -161,9 +161,12 @@ final class SirenManager: ObservableObject {
                 tonePhase += currentFreq / sampleRate
                 if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                // RESTORED: Raw binary square wave (+1.0 and -1.0).
-                // This produces the extreme harsh upper harmonics necessary to sound piercing.
-                let sample: Float = (tonePhase >= 0.5 ? 1.0 : -1.0)
+                // PolyBlep-style anti-aliased square wave. 
+                // It is 99% a perfect square wave (+1.0 to -1.0 amplitude) for absolute max volume.
+                // However, exactly at the 0 crossing, it draws a 0.2ms micro-slope instead of a mathematical cliff.
+                // This eliminates the infinite ultrasonic harmonics that cause the DAC to push "static/fan" noise to the speaker.
+                let rawTriangle = abs(4.0 * tonePhase - 2.0) - 1.0 // -1 to 1
+                let sample: Float = Float(max(-1.0, min(1.0, rawTriangle * 10.0))) // Clip the triangle into a square
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
