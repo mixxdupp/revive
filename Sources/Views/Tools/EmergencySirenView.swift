@@ -12,10 +12,10 @@ final class SirenManager: ObservableObject {
     private var audioEngine: AVAudioEngine?
     private var sourceNode: AVAudioSourceNode?
     
-    // Siren Parameters (High-speed Two-Tone Chirp to match aggressive physical alarms)
-    private let freq1: Double = 2700.0 // Piercing high
-    private let freq2: Double = 3300.0 // Even higher peak
-    private let chirpRate: Double = 12.0 // Fast oscillation between the two frequencies
+    // Siren Parameters
+    private let lowFreq: Double = 600
+    private let highFreq: Double = 1400
+    private let sweepRate: Double = 2.0
     
     // SOS Pattern
     private let sosPattern: [(Bool, Double)] = [
@@ -30,6 +30,7 @@ final class SirenManager: ObservableObject {
     private var backgroundTaskID: UIBackgroundTaskIdentifier = .invalid
     
     init() {
+        // Observer for Interruption (Lock Screen)
         NotificationCenter.default.addObserver(self, selector: #selector(handleInterruption), name: AVAudioSession.interruptionNotification, object: nil)
     }
     
@@ -47,12 +48,14 @@ final class SirenManager: ObservableObject {
     func startSiren() {
         guard !isPlaying else { return }
         
+        // Prevent Sleep & Start Background Task
         UIApplication.shared.isIdleTimerDisabled = true
         backgroundTaskID = UIApplication.shared.beginBackgroundTask(withName: "SirenLoop") {
             UIApplication.shared.endBackgroundTask(self.backgroundTaskID)
             self.backgroundTaskID = .invalid
         }
         
+        // Ensure Remote Controls are received (keeps session alive)
         UIApplication.shared.beginReceivingRemoteControlEvents()
         setupRemoteTransportControls()
         
@@ -63,11 +66,13 @@ final class SirenManager: ObservableObject {
         if includeStrobe { startFlash() }
         startScreenFlash()
         
+        // Debug Heartbeat to verify background execution
         Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] timer in
             guard let self = self, self.isPlaying else {
                 timer.invalidate()
                 return
             }
+            print("Siren Alive: \(Date()) | Background Time Remaining: \(UIApplication.shared.backgroundTimeRemaining)")
         }
         
         isPlaying = true
@@ -77,14 +82,17 @@ final class SirenManager: ObservableObject {
         stopAudioEngine()
         stopFlash()
         
+        // Clean up tasks
         flashTask?.cancel()
         flashTask = nil
         screenFlashTask?.cancel()
         screenFlashTask = nil
         
+        // Reset State
         isPlaying = false
         screenFlashColor = .clear
         
+        // End Background Execution
         if backgroundTaskID != .invalid {
             UIApplication.shared.endBackgroundTask(backgroundTaskID)
             backgroundTaskID = .invalid
@@ -102,10 +110,11 @@ final class SirenManager: ObservableObject {
             if let optionsValue = userInfo[AVAudioSessionInterruptionOptionKey] as? UInt {
                 let options = AVAudioSession.InterruptionOptions(rawValue: optionsValue)
                 if options.contains(.shouldResume) && isPlaying {
+                    // Try to restart audio engine vigorously
                     do {
                         try audioEngine?.start()
                     } catch {
-                        startAudioEngine()
+                        startAudioEngine() // Rebuild if start fails
                     }
                 }
             }
@@ -115,6 +124,8 @@ final class SirenManager: ObservableObject {
     // MARK: - Audio Internal
     private func setupRemoteTransportControls() {
         let commandCenter = MPRemoteCommandCenter.shared()
+        
+        // Add dummy handlers to qualify as a "Active Media App" to iOS
         commandCenter.playCommand.addTarget { _ in .success }
         commandCenter.pauseCommand.addTarget { _ in .success }
         commandCenter.stopCommand.addTarget { _ in .success }
@@ -130,27 +141,28 @@ final class SirenManager: ObservableObject {
     
     private func startAudioEngine() {
         let engine = AVAudioEngine()
+        
+        // Define an explicit audio format because Swift Playgrounds/Simulator can fail to route implicitly
         guard let format = AVAudioFormat(standardFormatWithSampleRate: 44100.0, channels: 1) else { return }
         
         let sampleRate = format.sampleRate
-        var time: Double = 0
-        var phase: Double = 0
+        var lfoPhase: Double = 0
+        var tonePhase: Double = 0
         
-        // Generates an aggressive, fast-switching square wave chirp (like a rape alarm)
         let source = AVAudioSourceNode { _, _, frameCount, audioBufferList -> OSStatus in
             let ablPointer = UnsafeMutableAudioBufferListPointer(audioBufferList)
             for frame in 0..<Int(frameCount) {
-                time += 1.0 / sampleRate
+                lfoPhase += 1.0 / sampleRate
+                let t = self.sweepRate * lfoPhase
+                let dt = t - floor(t)
+                let lfoValue = abs(2.0 * dt - 1.0)
                 
-                // Fast square-wave modulation between freq1 and freq2
-                let modulation = (sin(2.0 * .pi * self.chirpRate * time) > 0) ? 1.0 : 0.0
-                let currentFreq = self.freq1 + (self.freq2 - self.freq1) * modulation
+                let currentFreq = self.lowFreq + (self.highFreq - self.lowFreq) * lfoValue
+                tonePhase += currentFreq / sampleRate
+                if tonePhase >= 1.0 { tonePhase -= 1.0 }
                 
-                phase += currentFreq / sampleRate
-                if phase >= 1.0 { phase -= 1.0 }
-                
-                // Hard square wave for maximum harshness/loudness
-                let sample: Float = (phase >= 0.5 ? 1.0 : -1.0)
+                let val = sin(2.0 * .pi * tonePhase)
+                let sample: Float = (val >= 0 ? 1.0 : -1.0)
                 
                 for buffer in ablPointer {
                     let buf = buffer.mData?.assumingMemoryBound(to: Float.self)
@@ -176,9 +188,12 @@ final class SirenManager: ObservableObject {
         sourceNode = nil
     }
 
-    // MARK: - Volume Internal
+    // MARK: - Volume & Flashlight Internal
     private func maximizeVolume() {
+        // Guarantee internal engine volume is absolutely maxed out
         audioEngine?.mainMixerNode.outputVolume = 1.0
+        
+        // Known workaround: Use MPVolumeView slider to set system volume
         let volumeView = MPVolumeView()
         if let slider = volumeView.subviews.first(where: { $0 is UISlider }) as? UISlider {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
@@ -232,6 +247,11 @@ final class SirenManager: ObservableObject {
             device.unlockForConfiguration()
         } catch {}
     }
+    
+    // Helpers for View
+    var osColor: Color {
+        return screenFlashColor == .red ? .blue : .red
+    }
 }
 
 // MARK: - View
@@ -243,6 +263,7 @@ struct EmergencySirenView: View {
     
     var body: some View {
         ZStack {
+            // Full-screen beat flash — visible in peripheral vision
             (manager.isPlaying ? manager.screenFlashColor : Color.black)
                 .ignoresSafeArea()
                 .animation(.easeOut(duration: 0.06), value: manager.isPlaying)
@@ -251,13 +272,16 @@ struct EmergencySirenView: View {
                 Spacer()
 
                 if manager.isPlaying {
+                    // MARK: - Active State
                     activeView
                 } else {
+                    // MARK: - Inactive State
                     inactiveView
                 }
 
                 Spacer()
                 
+                // MARK: - Restored Detailed Intruder Protection Button
                 if !manager.isPlaying {
                     Button(action: { showSecurityInfo = true }) {
                         HStack(spacing: 12) {
@@ -289,9 +313,11 @@ struct EmergencySirenView: View {
                     .padding(.bottom, 16)
                 }
 
+                // MARK: - Controls Strip (Now with solid background matching active state)
                 controlsStrip
                     .padding(.bottom, 24)
 
+                // MARK: - Action Button
                 LongPressActionButton(isPlaying: manager.isPlaying, action: manager.toggleSiren)
             }
         }
@@ -315,6 +341,7 @@ struct EmergencySirenView: View {
         }
     }
     
+    // MARK: - Active View
     private var activeView: some View {
         VStack(spacing: 16) {
             Text("Siren Active")
@@ -342,6 +369,7 @@ struct EmergencySirenView: View {
         .accessibilityElement(children: .combine)
     }
     
+    // MARK: - Inactive View
     private var inactiveView: some View {
         VStack(spacing: 20) {
             Image(systemName: "light.beacon.max.fill")
@@ -355,7 +383,7 @@ struct EmergencySirenView: View {
             .font(.largeTitle.weight(.bold))
             .foregroundStyle(.white)
             
-            Text("Generates extremely loud oscillating chirp")
+            Text("Generates extremely loud 1400Hz sweep")
                 .font(.body)
                 .foregroundStyle(Color(white: 0.6))
                 .multilineTextAlignment(.center)
@@ -368,6 +396,7 @@ struct EmergencySirenView: View {
         .accessibilityElement(children: .combine)
     }
     
+    // MARK: - Bottom Controls Strip
     private var controlsStrip: some View {
         VStack(spacing: 0) {
             HStack {
@@ -392,6 +421,7 @@ struct EmergencySirenView: View {
             
             Divider().background(Color(white: 0.2)).padding(.horizontal, 24)
             
+            // Re-use info row for active state (since Intruder button is hidden when active)
             if manager.isPlaying {
                 Button(action: { showSecurityInfo = true }) {
                     HStack {
@@ -411,6 +441,7 @@ struct EmergencySirenView: View {
                 }
             }
         }
+        // FIXED CONTRAST: Use solid black when playing so it stands out against red/blue flash
         .background(manager.isPlaying ? Color.black.opacity(0.85) : Color(white: 0.1))
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .padding(.horizontal, 24)
@@ -442,10 +473,12 @@ struct LongPressActionButton: View {
     
     var body: some View {
         ZStack(alignment: .leading) {
+            // Background
             RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .fill(isPlaying ? Color.white : Color.red)
                 .frame(height: 72)
             
+            // Progress Fill (Black when holding to stop)
             if isPlaying {
                 GeometryReader { geo in
                     RoundedRectangle(cornerRadius: 20, style: .continuous)
@@ -457,6 +490,7 @@ struct LongPressActionButton: View {
                 .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
             }
             
+            // Content
             HStack(spacing: 10) {
                 Image(systemName: isPlaying ? "stop.fill" : "play.fill")
                     .font(.title3.weight(.bold))
@@ -489,7 +523,7 @@ struct LongPressActionButton: View {
     
     private func startHolding() {
         guard isPlaying else {
-            action()
+            action() // Tap to start is immediate
             return
         }
         
