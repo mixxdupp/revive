@@ -186,7 +186,7 @@ struct CampfireIcon: View {
                     p.addLine(to: CGPoint(x: w * 0.20, y: h * 0.70))
                 }
                 .stroke(style: StrokeStyle(lineWidth: w * 0.08, lineCap: .round, lineJoin: .round))
-                .foregroundStyle(Color.brown)
+                .foregroundStyle(Color(red: 0.4, green: 0.2, blue: 0.1)) // Dark woody brown
                 
                 // 3-Prong Flame
                 Path { p in
