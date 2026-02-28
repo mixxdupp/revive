@@ -144,7 +144,7 @@ struct LaunchScreenView: View {
             VStack(spacing: 24) {
                 CampfireIcon()
                     .frame(width: 64, height: 64)
-                    .foregroundStyle(Color.red)
+                    .foregroundStyle(Color.orange)
                     .scaleEffect(iconVisible ? 1.0 : 0.5)
                     .opacity(iconVisible ? 1.0 : 0.0)
                 
