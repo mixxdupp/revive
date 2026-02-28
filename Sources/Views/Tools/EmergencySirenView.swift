@@ -279,9 +279,9 @@ struct EmergencySirenView: View {
                 LongPressActionButton(isPlaying: manager.isPlaying, action: manager.toggleSiren)
             }
         }
-        .navigationTitle(manager.isPlaying ? "" : "Emergency Siren")
+        .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(manager.isPlaying ? .hidden : .visible, for: .navigationBar)
+        .toolbarBackground(.hidden, for: .navigationBar)
         .onAppear {
             if autoPlay {
                 manager.includeStrobe = true
