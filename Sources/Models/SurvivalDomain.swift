@@ -37,16 +37,16 @@ enum SurvivalDomain: String, Codable, CaseIterable, Identifiable {
     
     var color: Color {
         switch self {
-        case .fire: return DesignSystem.fireDomain
-        case .shelter: return DesignSystem.shelterDomain
-        case .water: return DesignSystem.waterDomain
-        case .navigation: return DesignSystem.navigationDomain
-        case .firstAid: return DesignSystem.firstAidDomain
-        case .food: return DesignSystem.foodDomain
-        case .rescue: return DesignSystem.rescueDomain
-        case .psychology: return DesignSystem.psychologyDomain
-        case .environments: return DesignSystem.environmentDomain
-        case .tools: return DesignSystem.toolsDomain
+        case .fire: return Color.clear
+        case .shelter: return Color.clear
+        case .water: return Color.clear
+        case .navigation: return Color.clear
+        case .firstAid: return Color.clear
+        case .food: return Color.clear
+        case .rescue: return Color.clear
+        case .psychology: return Color.clear
+        case .environments: return Color.clear
+        case .tools: return Color.clear
         }
     }
 }
