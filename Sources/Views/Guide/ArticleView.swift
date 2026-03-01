@@ -5,7 +5,7 @@ struct ArticleView: View {
     let article: Article
     @Environment(\.dismiss) var dismiss
     @State private var scrollOffset: CGFloat = 0
-
+    @ObservedObject var favorites = FavoritesService.shared
     
     // Parsed content
     private var sections: [ArticleSection] {
@@ -140,10 +140,11 @@ struct ArticleView: View {
                         }
                         
                         Divider()
-                            .padding(.vertical, 32)
+                            .padding(.top, 16)
+                            .padding(.bottom, 8)
                         
                         // MARK: - Footer / Source
-                        if article.sourceUrl != nil {
+                        if let sourceName = article.sourceName, !sourceName.isEmpty {
                             VStack(alignment: .leading, spacing: 16) {
                                 Text("Source Material")
                                     .font(.caption.weight(.bold))
@@ -151,33 +152,13 @@ struct ArticleView: View {
                                     .textCase(.uppercase)
                                     .tracking(1)
                                 
-                                HStack(spacing: 16) {
-                                    ZStack {
-                                        Circle()
-                                            .fill(article.domain.color.opacity(0.1))
-                                            .frame(width: 48, height: 48)
-                                        
-                                        Image(systemName: "safari.fill")
-                                            .font(.system(size: 20))
-                                            .foregroundStyle(article.domain.color)
-                                        .accessibilityHidden(true)
-                                    }
-                                    
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        Text(article.sourceName ?? "Original Source")
-                                            .font(.headline)
-                                            .foregroundStyle(DesignSystem.textPrimary)
-                                    }
+                                HStack(spacing: 6) {
+                                    Text(sourceName)
+                                        .font(.footnote.weight(.semibold))
+                                        .foregroundStyle(article.domain.color)
                                     
                                     Spacer()
                                 }
-                                .padding(16)
-                                .background(DesignSystem.backgroundSecondary)
-                                .cornerRadius(16)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
-                                        .stroke(Color.black.opacity(0.05), lineWidth: 1)
-                                )
                             }
                         }
                     }
@@ -211,16 +192,32 @@ struct ArticleView: View {
                     
                     Spacer()
                     
-                    // Glossary Link (Standard Right Placement)
-                    NavigationLink(destination: GlossaryView()) {
-                        Image(systemName: "text.book.closed.fill")
-                            .font(.system(size: 18, weight: .semibold))
-                            .foregroundStyle(DesignSystem.textSecondary)
-                            .frame(width: 40, height: 40)
-                            .background(.ultraThinMaterial)
-                            .clipShape(Circle())
+                    HStack(spacing: 12) {
+                        // Bookmark Toggle
+                        Button(action: {
+                            favorites.toggleArticle(article.id)
+                            HapticsService.shared.playImpact(style: .light)
+                        }) {
+                            Image(systemName: favorites.isArticleSaved(article.id) ? "bookmark.fill" : "bookmark")
+                                .font(.system(size: 18, weight: .semibold))
+                                .foregroundStyle(favorites.isArticleSaved(article.id) ? article.domain.color : DesignSystem.textSecondary)
+                                .frame(width: 40, height: 40)
+                                .background(.ultraThinMaterial)
+                                .clipShape(Circle())
+                        }
+                        .accessibilityLabel("Bookmark Article")
+                        
+                        // Glossary Link (Standard Right Placement)
+                        NavigationLink(destination: GlossaryView()) {
+                            Image(systemName: "text.book.closed.fill")
+                                .font(.system(size: 18, weight: .semibold))
+                                .foregroundStyle(DesignSystem.textSecondary)
+                                .frame(width: 40, height: 40)
+                                .background(.ultraThinMaterial)
+                                .clipShape(Circle())
+                        }
+                        .accessibilityLabel("Glossary")
                     }
-                    .accessibilityLabel("Glossary")
                     .padding(.trailing, 24)
                 }
                 .padding(.top, 16)

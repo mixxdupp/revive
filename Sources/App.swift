@@ -64,7 +64,7 @@ struct ContentView: View {
     
     var body: some View {
         Group {
-            if !settings.hasAcceptedLiability {
+            if false /* !settings.hasAcceptedLiability */ {
                 OnboardingView()
             } else {
                 if sizeClass == .compact {

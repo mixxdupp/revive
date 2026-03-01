@@ -18,27 +18,8 @@ struct GuideMainView: View {
     var body: some View {
         ZStack {
             // MARK: - Ambient Background
-            DesignSystem.backgroundPrimary
+            Color.black
                 .ignoresSafeArea()
-            
-            // Subtle Mesh Gradient Simulation
-            GeometryReader { proxy in
-                ZStack {
-                    Circle()
-                        .fill(Color.blue.opacity(0.1))
-                        .frame(width: 300, height: 300)
-                        .blur(radius: 60)
-                        .offset(x: -100, y: -100)
-                    
-                    Circle()
-                        .fill(Color.orange.opacity(0.1))
-                        .frame(width: 300, height: 300)
-                        .blur(radius: 60)
-                        .offset(x: 200, y: 100)
-                }
-                .frame(width: proxy.size.width, height: proxy.size.height)
-            }
-            .ignoresSafeArea()
             
             VStack(spacing: 0) {
                 // MARK: - Pinned Segmented Control
@@ -79,7 +60,6 @@ struct GuideMainView: View {
                                 
                             case 2: // SAVED
                                 SavedTechniquesView()
-                                    .padding(.horizontal, 24)
                                     .transition(.opacity.combined(with: .move(edge: .trailing)))
                             default: EmptyView()
                             }
@@ -118,7 +98,7 @@ struct GuideMainView: View {
         }
         .navigationTitle("Library")
         .navigationBarTitleDisplayMode(.large)
-        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: Text("Search techniques", comment: "Search Placeholder"))
+        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: Text("Search"))
     }
 }
 

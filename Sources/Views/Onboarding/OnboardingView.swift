@@ -23,26 +23,26 @@ struct OnboardingView: View {
                 OnboardingToolsDemoPage()
                     .tag(2)
                 
-                // Page 4: Voice / Accessibility
-                OnboardingVoicePage(currentPage: $currentPage)
-                    .tag(3)
+                // Page 4: Voice / Accessibility (Temporarily Disabled)
+                // OnboardingVoicePage(currentPage: $currentPage)
+                //     .tag(3)
                 
-                // Page 5: Terms & Liability
+                // Page 4: Terms & Liability
                 TermsGateView(isOnboarding: true)
-                    .tag(4)
+                    .tag(3)
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
             .animation(.spring(response: 0.6, dampingFraction: 0.8), value: currentPage)
             .sensoryFeedback(.selection, trigger: currentPage)
             
             // Sticky Bottom CTA
-            if currentPage < 4 {
+            if currentPage < 3 {
                 VStack(spacing: 16) {
                     Button(action: {
-                        if currentPage == 3 {
-                            SpeechRecognitionService.shared.requestAuthorization()
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                                withAnimation { currentPage = 4 }
+                        if currentPage == 2 {
+                            // SpeechRecognitionService.shared.requestAuthorization()
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                                withAnimation { currentPage = 3 }
                             }
                         } else {
                             withAnimation { currentPage += 1 }
@@ -67,13 +67,13 @@ struct OnboardingView: View {
                 .transition(.move(edge: .bottom).combined(with: .opacity))
             }
             
-            // Top-right Skip button (pages 1-3 only)
-            if currentPage > 0 && currentPage < 4 {
+            // Top-right Skip button (pages 1-2 only)
+            if currentPage > 0 && currentPage < 3 {
                 VStack {
                     HStack {
                         Spacer()
                         Button(action: {
-                            withAnimation { currentPage = 4 }
+                            withAnimation { currentPage = 3 }
                         }) {
                             Text("Skip")
                                 .font(.system(size: 17))
@@ -112,7 +112,7 @@ struct OnboardingWelcomePage: View {
                     .foregroundStyle(.white)
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
-                    .minimumScaleFactor(0.8)
+                    .minimumScaleFactor(0.5)
                     .padding(.horizontal, 24)
                     .opacity(isVisible ? 1 : 0)
                     .offset(y: isVisible ? 0 : 20)
@@ -340,9 +340,9 @@ struct OnboardingSurvivalDemoPage: View {
                 }
                 .padding(.horizontal, 24)
                 
-                Spacer(minLength: 40)
+                Spacer(minLength: 16)
             }
-            .padding(.bottom, 160) // Clear safe area for sticky CTA
+            .padding(.bottom, 140) // Clear safe area for sticky CTA
         }
         .onAppear {
             if reduceMotion {
@@ -432,7 +432,8 @@ struct OnboardingToolsDemoPage: View {
                 .offset(y: 50)
                 
             VStack(spacing: 20) {
-                Spacer(minLength: 20)
+                Spacer(minLength: 40)
+                
                 
                 // Header
                 VStack(spacing: 12) {
@@ -450,7 +451,8 @@ struct OnboardingToolsDemoPage: View {
                 .padding(.horizontal, 24)
                 .opacity(isVisible ? 1 : 0)
                 .offset(y: isVisible ? 0 : 20)
-                .padding(.bottom, 24)
+                .padding(.top, 16)
+                .padding(.bottom, 48)
                 
                 // Tool Grid (clean card style)
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 16), GridItem(.flexible(), spacing: 16)], spacing: 16) {

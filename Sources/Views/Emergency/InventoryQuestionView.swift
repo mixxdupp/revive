@@ -208,54 +208,53 @@ struct TriageOptionCard: View {
     var isLeaf: Bool = false
     
     var body: some View {
-        ZStack(alignment: .leading) {
-            // Glass Background
-            RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .fill(.ultraThinMaterial)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .stroke(situationColor.opacity(0.3), lineWidth: 1)
-                )
+        VStack(alignment: .leading, spacing: 12) {
+            // Icon
+            Image(systemName: option.icon)
+                .font(.system(size: 24))
+                .foregroundStyle(situationColor)
+                .frame(width: 48, height: 48)
+                .background(situationColor.opacity(0.1))
+                .clipShape(Circle())
             
-            VStack(alignment: .leading, spacing: 12) {
-                // Icon
-                Image(systemName: option.icon)
-                    .font(.system(size: 24))
-                    .foregroundStyle(situationColor)
-                    .frame(width: 48, height: 48)
-                    .background(situationColor.opacity(0.1))
-                    .clipShape(Circle())
-                
-                Spacer()
-                
-                // Label
-                Text(option.label)
-                    .font(.system(size: 18, weight: .semibold))
-                    .foregroundStyle(DesignSystem.textPrimary)
-                    .multilineTextAlignment(.leading)
-                    .fixedSize(horizontal: false, vertical: true)
-                
-                // Leaf indicator — tinted pill for clear action affordance
-                if isLeaf {
-                    HStack {
-                        Spacer()
-                        HStack(spacing: 4) {
-                            Text("View")
-                                .font(.system(size: 12, weight: .semibold))
-                            Image(systemName: "arrow.right")
-                                .font(.system(size: 11, weight: .bold))
-                        }
-                        .foregroundStyle(situationColor)
-                        .padding(.horizontal, 10)
-                        .padding(.vertical, 5)
-                        .background(situationColor.opacity(0.12))
-                        .clipShape(Capsule())
+            Spacer(minLength: 8)
+            
+            // Label
+            Text(option.label)
+                .font(.system(size: 18, weight: .semibold))
+                .foregroundStyle(DesignSystem.textPrimary)
+                .multilineTextAlignment(.leading)
+                .fixedSize(horizontal: false, vertical: true)
+            
+            // Leaf indicator
+            if isLeaf {
+                HStack {
+                    Spacer()
+                    HStack(spacing: 4) {
+                        Text("View")
+                            .font(.system(size: 12, weight: .semibold))
+                        Image(systemName: "arrow.right")
+                            .font(.system(size: 11, weight: .bold))
                     }
+                    .foregroundStyle(situationColor)
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 5)
+                    .background(situationColor.opacity(0.12))
+                    .clipShape(Capsule())
                 }
             }
-            .padding(16)
         }
+        .padding(16)
         .frame(minHeight: 164, alignment: .topLeading)
+        .frame(maxWidth: .infinity, alignment: .topLeading)
+        .background(
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .fill(.ultraThinMaterial)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .stroke(situationColor.opacity(0.3), lineWidth: 1)
+        )
         .shadow(color: Color.black.opacity(0.05), radius: 8, x: 0, y: 4)
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)

@@ -134,6 +134,7 @@ struct DomainDetailView: View {
                     }
                 }
                 .padding(.bottom, 40)
+                .animation(.default, value: searchText)
             }
         }
         .background(Color(uiColor: .systemGroupedBackground))

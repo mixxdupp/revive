@@ -16,14 +16,34 @@ struct SettingsView: View {
                 
                 // MARK: - DATA MANAGEMENT
                 Section(header: Text("Data Management", comment: "Settings Section")) {
-                    Button(action: {
+                    Button(role: .destructive, action: {
                         showingResetAlert = true
                     }) {
+                        Text("Reset All Data", comment: "Destructive Action")
+                    }
+                }
+                
+                // MARK: - SYSTEM & INTEGRATIONS
+                Section(header: Text("System & Integrations", comment: "Settings Section")) {
+                    HStack {
                         Label(
-                            title: { Text("Reset All Data", comment: "Destructive Action") },
-                            icon: { Image(systemName: "trash") }
+                            title: { Text("Offline Content", comment: "Offline status") },
+                            icon: { SettingsIcon(systemName: "checkmark.icloud.fill", color: .green) }
                         )
-                        .foregroundColor(.red)
+                        Spacer()
+                        Text("21 Domains (14MB)")
+                            .foregroundStyle(.secondary)
+                    }
+                    
+                    Button(action: {
+                        if let url = URL(string: "x-apple-health://") {
+                            UIApplication.shared.open(url)
+                        }
+                    }) {
+                        Label(
+                            title: { Text("Update Medical ID", comment: "Health integration link").foregroundColor(.primary) },
+                            icon: { SettingsIcon(systemName: "staroflife.fill", color: .blue) }
+                        )
                     }
                 }
                 
@@ -33,15 +53,15 @@ struct SettingsView: View {
                         showingLegal = true
                     }) {
                         Label(
-                            title: { Text("Liability Disclaimer", comment: "Legal Menu Item") },
-                            icon: { Image(systemName: "exclamationmark.shield") }
+                            title: { Text("Liability Disclaimer", comment: "Legal Menu Item").foregroundColor(.primary) },
+                            icon: { SettingsIcon(systemName: "exclamationmark.shield.fill", color: .orange) }
                         )
                     }
                     
                     HStack {
                         Label(
                             title: { Text("Version", comment: "App Version Label") },
-                            icon: { Image(systemName: "info.circle") }
+                            icon: { SettingsIcon(systemName: "info.circle.fill", color: .gray) }
                         )
                         Spacer()
                         Text("1.0 (Build 1)")
@@ -49,15 +69,29 @@ struct SettingsView: View {
                     }
                 }
                 
-                Section {
-                    Link(destination: URL(string: "https://www.redcross.org/take-a-class")!) {
+                // MARK: - EXTERNAL TRAINING
+                Section(header: Text("Professional Training", comment: "External links section"), 
+                        footer: Text("Revive works completely offline, but is for backup reference only. Professional training is always recommended.", comment: "Safety Disclaimer Footer")) {
+                    Link(destination: URL(string: "https://www.nols.edu/en/courses/wilderness-medicine/")!) {
                         Label(
-                            title: { Text("Find a Real First Aid Class", comment: "External Link") },
-                            icon: { Image(systemName: "safari") }
+                            title: { Text("NOLS Wilderness Medicine", comment: "External Link").foregroundColor(.primary) },
+                            icon: { SettingsIcon(systemName: "tree.fill", color: .green) }
                         )
                     }
-                } footer: {
-                    Text("This app is for backup use only. Training saves lives.", comment: "Safety Disclaimer Footer")
+                    
+                    Link(destination: URL(string: "https://www.ready.gov/kit")!) {
+                        Label(
+                            title: { Text("FEMA Disaster Preparedness", comment: "External Link").foregroundColor(.primary) },
+                            icon: { SettingsIcon(systemName: "house.and.flag.fill", color: .orange) }
+                        )
+                    }
+                    
+                    Link(destination: URL(string: "https://www.redcross.org/take-a-class")!) {
+                        Label(
+                            title: { Text("Red Cross First Aid", comment: "External Link").foregroundColor(.primary) },
+                            icon: { SettingsIcon(systemName: "cross.case.fill", color: .red) }
+                        )
+                    }
                 }
             }
             .navigationTitle(Text("Settings", comment: "Screen Title"))
@@ -82,5 +116,21 @@ struct SettingsView: View {
                 LegalView()
             }
         }
+    }
+}
+
+// MARK: - Native Settings Icon View
+struct SettingsIcon: View {
+    let systemName: String
+    let color: Color
+    
+    var body: some View {
+        Image(systemName: systemName)
+            .symbolRenderingMode(.monochrome)
+            .font(.system(size: 15, weight: .regular))
+            .foregroundStyle(.white)
+            .frame(width: 29, height: 29)
+            .background(color)
+            .clipShape(RoundedRectangle(cornerRadius: 7, style: .continuous))
     }
 }

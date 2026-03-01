@@ -4,6 +4,7 @@ struct VerticalGuideView: View {
     let technique: Technique
     @State private var expandedStep: Int? = 0 // Start with step 1 open
     @Environment(\.dismiss) var dismiss
+    @ObservedObject var favorites = FavoritesService.shared
     
     // Voice Control
     @ObservedObject private var speech = SpeechRecognitionService.shared
@@ -190,7 +191,6 @@ struct VerticalGuideView: View {
                                 .padding(.vertical, 16)
                                 .background(technique.domain.color)
                                 .clipShape(Capsule())
-                                .shadow(color: technique.domain.color.opacity(0.4), radius: 12, x: 0, y: 6)
                         }
                         .padding(.bottom, 30)
                         .transition(.scale.combined(with: .opacity))
@@ -206,7 +206,6 @@ struct VerticalGuideView: View {
                                 .padding(.vertical, 16)
                                 .background(Color.green)
                                 .clipShape(Capsule())
-                                .shadow(color: Color.green.opacity(0.4), radius: 12, x: 0, y: 6)
                         }
                         .padding(.bottom, 30)
                     }
@@ -313,6 +312,21 @@ extension VerticalGuideView {
                             Capsule()
                                 .stroke(speech.isRecording ? Color.red.opacity(0.3) : Color.clear, lineWidth: 1)
                         )
+                    }
+                    
+                    // Bookmark Toggle
+                    Button(action: {
+                        favorites.toggle(technique.id)
+                        HapticsService.shared.playImpact(style: .light)
+                    }) {
+                        HStack(spacing: 4) {
+                            Image(systemName: favorites.isSaved(technique.id) ? "bookmark.fill" : "bookmark")
+                                .foregroundStyle(favorites.isSaved(technique.id) ? technique.domain.color : .secondary)
+                        }
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 6)
+                        .background(.ultraThinMaterial)
+                        .clipShape(Capsule())
                     }
                 }
             }

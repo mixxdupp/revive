@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 // Helper for JSON Decoding
 struct DomainContent: Codable {
@@ -143,10 +144,53 @@ class ContentDatabase: ObservableObject {
             technique.domain.displayName.localizedLowercase.contains(lowerQuery)
         }
     }
+    
+    // MARK: - Triage Option Search
+    func searchTriageOptions(query: String) -> [(option: TriageOption, color: Color)] {
+        let lowerQuery = query.localizedLowercase.trimmingCharacters(in: .whitespacesAndNewlines)
+        if lowerQuery.isEmpty { return [] }
+        
+        var results: [(option: TriageOption, color: Color)] = []
+        var visitedNodeIDs = Set<String>()
+        
+        func traverse(node: TriageNode, color: Color) {
+            guard !visitedNodeIDs.contains(node.id) else { return }
+            visitedNodeIDs.insert(node.id)
+            
+            for option in node.options {
+                let lowerLabel = option.label.localizedLowercase
+                // Strict matching: True if label starts with query, or any word starts with query
+                let words = lowerLabel.split(whereSeparator: { !$0.isLetter && !$0.isNumber })
+                let isMatch = lowerLabel.hasPrefix(lowerQuery) || words.contains { $0.hasPrefix(lowerQuery) }
+                
+                if isMatch {
+                    // Avoid duplicates based on label (some sub-flows share option names)
+                    if !results.contains(where: { $0.option.label == option.label }) {
+                        results.append((option: option, color: color))
+                    }
+                }
+                
+                if case .nextQuestion(let childNode) = option.destination {
+                    traverse(node: childNode, color: color)
+                }
+            }
+        }
+        
+        for (situation, rootNode) in triageTrees {
+            traverse(node: rootNode, color: situation.color)
+        }
+        
+        // Sort results alphabetically for better UX
+        return results.sorted { $0.option.label < $1.option.label }
+    }
 
     // MARK: - Helper
     func getTechnique(id: String) -> Technique? {
         return techniques.first { $0.id == id }
+    }
+    
+    func getArticle(id: String) -> Article? {
+        return articles.first { $0.id == id }
     }
 
     // MARK: - Inventory Logic
