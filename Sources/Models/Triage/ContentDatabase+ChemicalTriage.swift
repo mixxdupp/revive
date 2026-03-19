@@ -3,7 +3,6 @@ import Foundation
 // Auto-generated: buildChemicalTriage extracted from ContentDatabase.swift
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - CHEMICAL / HAZMAT (NEW)
     // =========================================================================
     func buildChemicalTriage() -> TriageNode {
         TriageNode(id: "chem-em-root", question: "What is the exposure?", options: [

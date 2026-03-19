@@ -26,7 +26,7 @@ struct ReviveApp: App {
                     }
                 }
             }
-            .modelContainer(for: KitItem.self)
+            .modelContainer(DatabaseManager.shared.container)
         }
     }
 }
@@ -46,9 +46,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         completionHandler(true)
     }
     
-    // Allow all orientations (Crucial for iPad support)
+    // Strict Portrait Lock (Required for UI stability during emergencies)
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-        return .all
+        return .portrait
     }
 }
 
@@ -167,7 +167,6 @@ struct LaunchScreenView: View {
     }
 }
 
-// MARK: - Custom Vector Campfire Icon
 struct CampfireIcon: View {
     var body: some View {
         GeometryReader { geo in

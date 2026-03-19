@@ -1638,7 +1638,7 @@
       "steps": [
         {
           "stepNumber": 1,
-          "instruction": "Gather 4 sturdy forked posts or utilize smooth trees.",
+          "instruction": "Gather 4 sturdy forked posts or use smooth trees.",
           "helpDetail": "Drive them into the mud or use existing trees. The goal is to create a rectangular frame at least 18 inches off the ground/water.",
           "illustrationDescription": "Posts in mud."
         },
@@ -2501,7 +2501,7 @@
     {
       "id": "shelter-coastal-driftwood-adv",
       "name": "Advanced Driftwood Shelter",
-      "subtitle": "Build a robust coastal shelter from driftwood",
+      "subtitle": "Build a strong coastal shelter from driftwood",
       "category": "Natural",
       "difficulty": 2,
       "estimatedTime": "3 hrs",
@@ -4158,7 +4158,7 @@
     {
       "id": "shelter-parateepee",
       "name": "Parachute/Tarp Teepee",
-      "subtitle": "Classic 3-pole robust shelter",
+      "subtitle": "Classic 3-pole strong shelter",
       "category": "Construction",
       "difficulty": 2,
       "estimatedTime": "1 hr",

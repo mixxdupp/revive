@@ -2,7 +2,6 @@ import Foundation
 
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - NEED WATER
     // =========================================================================
     func buildWaterTriage() -> TriageNode {
         TriageNode(id: "water-root", question: "What do you need?", options: [
@@ -109,7 +108,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "water-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "water-learn-q", question: "What would you like to read about?", options: [
                     TriageOption(id: "w-art-find", label: "Finding / Indicators", icon: "binoculars.fill", destination: .articleList(["water-article-finding", "water-article-signs", "water-article-desert", "water-article-desert-survival"])),

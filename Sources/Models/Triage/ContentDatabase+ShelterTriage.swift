@@ -2,7 +2,6 @@ import Foundation
 
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - NEED SHELTER
     // =========================================================================
     func buildShelterTriage() -> TriageNode {
         TriageNode(id: "shelter-root", question: "What do you need?", options: [
@@ -77,7 +76,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "shelter-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "shelter-learn-root-q", question: "Topic?", options: [
                     TriageOption(id: "sh-art-insulation", label: "Insulation / Bedding", icon: "bed.double.fill", destination: .articleList(["shelter-article-insulation", "shelter-article-insulation-values", "shelter-article-ground", "shelter-article-bedding"])),

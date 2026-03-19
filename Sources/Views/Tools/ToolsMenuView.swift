@@ -9,16 +9,13 @@ struct ToolsMenuView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     
-                    // MARK: - Subtitle
                     Text("Offline Survival Utilities", comment: "Section Subtitle")
                         .font(.system(size: 20, weight: .medium))
                         .foregroundStyle(DesignSystem.textSecondary)
                         .padding(.horizontal, 16)
 
-                    // MARK: - Widget Dashboard Grid
                     LazyVGrid(columns: [GridItem(.flexible(), spacing: 16), GridItem(.flexible(), spacing: 16)], spacing: 16) {
                         
-                        // MARK: - Priority: Emergency & Signaling
                         NavigationLink(destination: EmergencySirenView()) {
                             GlassWidgetSquare(
                                 icon: "speaker.wave.3.fill",
@@ -39,7 +36,6 @@ struct ToolsMenuView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
 
-                        // MARK: - Priority: Medical
                         NavigationLink(destination: CPRMetronomeView()) {
                             GlassWidgetSquare(
                                 icon: "heart.fill",
@@ -50,7 +46,6 @@ struct ToolsMenuView: View {
                         }
                         .buttonStyle(ScalableButtonStyle())
 
-                        // MARK: - Priority: Navigation
                         NavigationLink(destination: CompassView()) {
                             GlassWidgetSquare(
                                 icon: "location.north.circle.fill",
@@ -122,7 +117,6 @@ struct ToolsMenuView: View {
     }
 }
 
-// MARK: - Widget Components
 
 struct GlassWidgetSquare: View {
     let icon: String

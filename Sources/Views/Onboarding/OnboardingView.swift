@@ -90,7 +90,6 @@ struct OnboardingView: View {
     }
 }
 
-// MARK: - Page 1: Apple Welcome Standard
 struct OnboardingWelcomePage: View {
     @State private var isVisible = false
     @Environment(\.accessibilityReduceMotion) var reduceMotion
@@ -170,7 +169,6 @@ struct OnboardingWelcomePage: View {
     }
 }
 
-// MARK: - Page 2: Survival Demo (Interactive Q&A)
 struct OnboardingSurvivalDemoPage: View {
     @State private var step = 0
     @Environment(\.accessibilityReduceMotion) var reduceMotion
@@ -408,7 +406,6 @@ struct MockTriageOptionCard: View {
     }
 }
 
-// MARK: - Page 3: Arsenal Demo (Offline Tools)
 struct OnboardingToolsDemoPage: View {
     @State private var isVisible = false
     @Environment(\.accessibilityReduceMotion) var reduceMotion
@@ -538,7 +535,6 @@ struct OnboardingToolsDemoPage: View {
     }
 }
 
-// MARK: - Page 4: Voice / Accessibility
 struct OnboardingVoicePage: View {
     @State private var isVisible = false
     @Environment(\.accessibilityReduceMotion) var reduceMotion
@@ -627,7 +623,7 @@ struct OnboardingVoicePage: View {
                     isVisible = true
                 }
             }
-            // Note: Speech recognition occurs on the CTA tap, managed globally in the parent view.
+
         }
         .accessibilityElement(children: .combine)
         .accessibilityLabel("Hands Full? Voice control enabled for when you cannot touch your phone. Powered by Siri.")

@@ -2,28 +2,39 @@ import Foundation
 
 /// Tracks recently viewed technique IDs using UserDefaults.
 /// Stores the last 10 unique technique IDs in LIFO order.
+@MainActor
 final class RecentlyViewedService: ObservableObject {
     static let shared = RecentlyViewedService()
     
-    private let storageKey = "revive.recently.viewed.techniques"
     private let maxItems = 10
+    private let storageKey = "revive_recent_techniques"
     
     @Published private(set) var recentIDs: [String] = []
     
     private init() {
-        recentIDs = UserDefaults.standard.stringArray(forKey: storageKey) ?? []
+        refreshMemory()
+    }
+    
+    private func refreshMemory() {
+        if let stored = UserDefaults.standard.array(forKey: storageKey) as? [String] {
+            recentIDs = stored
+        }
     }
     
     /// Records a technique view. Moves to front if already present.
     func addTechnique(id: String) {
-        var ids = recentIDs
-        ids.removeAll { $0 == id }
-        ids.insert(id, at: 0)
-        if ids.count > maxItems {
-            ids = Array(ids.prefix(maxItems))
+        // Remove if exists to move to front
+        if let idx = recentIDs.firstIndex(of: id) {
+            recentIDs.remove(at: idx)
         }
-        recentIDs = ids
-        UserDefaults.standard.set(ids, forKey: storageKey)
+        
+        recentIDs.insert(id, at: 0)
+        
+        if recentIDs.count > maxItems {
+            recentIDs = Array(recentIDs.prefix(maxItems))
+        }
+        
+        UserDefaults.standard.set(recentIDs, forKey: storageKey)
     }
     
     /// Returns resolved Technique objects for recently viewed IDs.
@@ -36,7 +47,8 @@ final class RecentlyViewedService: ObservableObject {
     
     /// Clears all recently viewed history.
     func clear() {
-        recentIDs = []
+        recentIDs.removeAll()
         UserDefaults.standard.removeObject(forKey: storageKey)
     }
 }
+

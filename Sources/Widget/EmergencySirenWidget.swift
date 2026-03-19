@@ -13,7 +13,6 @@ struct EmergencySirenProvider: TimelineProvider {
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> Void) {
         let entry = SimpleEntry(date: Date())
-        // Update once an hour, mainly static
         let timeline = Timeline(entries: [entry], policy: .atEnd)
         completion(timeline)
     }
@@ -28,10 +27,8 @@ struct EmergencySirenWidgetEntryView : View {
 
     var body: some View {
         ZStack {
-            // Background
             Color(red: 0.85, green: 0.1, blue: 0.1) // Emergency Red
             
-            // Icon & Text
             VStack(spacing: 8) {
                 Image(systemName: "exclamationmark.triangle.fill")
                     .font(.system(size: 34, weight: .bold))
@@ -46,7 +43,6 @@ struct EmergencySirenWidgetEntryView : View {
     }
 }
 
-// @main // Note: Only one @main allowed per module. In a real Xcode project, this belongs to the Extension target.
 struct EmergencySirenWidget: Widget {
     let kind: String = "EmergencySirenWidget"
 

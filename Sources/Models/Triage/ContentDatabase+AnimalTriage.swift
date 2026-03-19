@@ -3,7 +3,6 @@ import Foundation
 // Auto-generated: buildAnimalTriage extracted from ContentDatabase.swift
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - ANIMAL ENCOUNTER (4 levels deep)
     // =========================================================================
     func buildAnimalTriage() -> TriageNode {
         TriageNode(id: "animal-root", question: "What is the situation?", options: [
@@ -100,7 +99,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "animal-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "animal-learn-q", question: "What would you like to read about?", options: [
                     TriageOption(id: "animal-art-bites", label: "Bites & Envenomation", icon: "ant.fill", destination: .article("firstaid-article-bites")),

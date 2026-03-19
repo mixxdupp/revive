@@ -40,7 +40,6 @@ struct QuickActionsView: View {
     
     var body: some View {
         ZStack(alignment: .top) {
-            // MARK: - Ambient Background
             DesignSystem.backgroundPrimary
                 .ignoresSafeArea()
             
@@ -71,7 +70,6 @@ struct QuickActionsView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .leading, spacing: 20) {
                     
-                    // MARK: - Header
                     VStack(alignment: .leading, spacing: 6) {
                         Text("Quick Actions")
                             .font(.system(size: 40, weight: .bold)) // High-impact native title
@@ -87,7 +85,6 @@ struct QuickActionsView: View {
                     .padding(.bottom, 8)
 
 
-                    // MARK: - Critical Techniques
                     if criticalTechniques.isEmpty {
                         VStack(spacing: 12) {
                             Image(systemName: "heart.text.square")
@@ -123,7 +120,6 @@ struct QuickActionsView: View {
     }
 }
 
-// MARK: - Glass Action Cell
 struct GlassActionCell: View {
     let technique: Technique
     

@@ -5,7 +5,6 @@ struct TechniqueRow: View {
     
     var body: some View {
         HStack(spacing: 16) {
-            // MARK: - ICON (Clean Solid)
             // No gradient, just pure color. List Style.
             ZStack {
                 RoundedRectangle(cornerRadius: 12, style: .continuous)
@@ -17,7 +16,6 @@ struct TechniqueRow: View {
             }
             .frame(width: 48, height: 48) // Standard List Icon Size
             
-            // MARK: - CONTENT
             VStack(alignment: .leading, spacing: 4) {
                 Text(technique.name)
                     .font(.headline) // Standard iOS Headline
@@ -33,7 +31,6 @@ struct TechniqueRow: View {
             
             Spacer()
             
-            // MARK: - CHEVRON
             Image(systemName: "chevron.right")
                 .font(.caption)
                 .fontWeight(.bold)

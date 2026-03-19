@@ -2,7 +2,6 @@ import Foundation
 
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - IN WATER — SSC Rebuilt (≤3 taps)
     // =========================================================================
     func buildInWaterTriage() -> TriageNode {
         TriageNode(id: "water-em-root", question: "What do you need?", options: [
@@ -60,7 +59,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "wet-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "wet-learn-q", question: "What topic?", options: [
                     TriageOption(id: "wet-learn-rescue", label: "Water Rescue", icon: "figure.water.fitness", destination: .nextQuestion(

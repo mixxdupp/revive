@@ -50,7 +50,6 @@ struct SOSFlashlightView: View {
 
                 Spacer()
 
-                // MARK: - Action Button
                 Button(action: toggleSOS) {
                     HStack(spacing: 10) {
                         Image(systemName: isFlashing ? "stop.fill" : "antenna.radiowaves.left.and.right")
@@ -77,7 +76,6 @@ struct SOSFlashlightView: View {
         .onDisappear { stopFlashing() }
     }
     
-    // MARK: - Inactive State
     
     private var inactiveView: some View {
         VStack(spacing: 28) {
@@ -123,7 +121,6 @@ struct SOSFlashlightView: View {
         .accessibilityLabel("SOS Distress Signal, ready to transmit")
     }
     
-    // MARK: - Active State
     private var activeView: some View {
         VStack(spacing: 16) {
             Text("Transmitting")
@@ -166,7 +163,6 @@ struct SOSFlashlightView: View {
     
 
 
-    // MARK: - Engine
 
     private func toggleSOS() {
         let generator = UIImpactFeedbackGenerator(style: .rigid)

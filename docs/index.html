@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Revive.</title>
+    
+    <meta name="description" content="Offline survival assistant. Built for iOS.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+
+    <nav class="global-nav">
+        <div class="nav-content">
+            <span class="brand-logo">Revive</span>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#tech-specs">Tech Specs</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section-hero" id="simulator">
+            <div class="hero-text-container">
+                <h2 class="hero-headline animate-up">Survival.</h2>
+                <h2 class="hero-headline animate-up delay-1">Un-tethered.</h2>
+                <p class="hero-subheadline animate-up delay-2">Zero bars required.</p>
+            </div>
+            
+            <div class="hero-device-wrapper animate-up delay-3">
+                <div class="iphone-frame">
+                    <div class="dynamic-island"></div>
+                    <!-- Appetize Free Tier Embed Fallback -->
+                    <a href="https://appetize.io/app/b_y5pboxidnxhy7b2yoz2o4aerui?device=iphone16pro&scale=100&osVersion=26.0&orientation=portrait&deviceColor=black" target="_blank" class="simulator-fallback">
+                        <div class="simulator-fallback-content">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">View Interactive Demo</span>
+                        </div>
+                        <img src="screenshot.png" class="screenshot-img" alt="" onerror="this.style.opacity='0'">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-bento" id="overview">
+            <div class="bento-grid container fade-in-section">
+                
+                <!-- Bento Cell 1 (Large) -->
+                <div class="bento-cell bento-span-2 glass-cell">
+                    <h3 class="cell-headline">Always offline.</h3>
+                    <p class="cell-body">Engineered to run entirely natively. No APIs. No cloud dependencies. When the grid drops, Revive stays on.</p>
+                </div>
+
+                <!-- Bento Cell 2 -->
+                <div class="bento-cell glass-cell align-bottom">
+                    <h3 class="cell-headline">Triage.</h3>
+                    <p class="cell-body">Algorithmic decision trees prioritize life-saving first aid in seconds.</p>
+                </div>
+
+                <!-- Bento Cell 3 -->
+                <div class="bento-cell glass-cell align-bottom">
+                    <h3 class="cell-headline">Waypoints.</h3>
+                    <p class="cell-body">CoreLocation caching. Mark shelters, water, and caches without a map server.</p>
+                </div>
+
+                <!-- Bento Cell 4 (Large) -->
+                <div class="bento-cell bento-span-2 glass-cell">
+                    <h3 class="cell-headline">Prepper capabilities. Pro toolkit.</h3>
+                    <p class="cell-body">Build and track specialized bug-out bags utilizing offline progress sync.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-specs" id="tech-specs">
+            <div class="container fade-in-section">
+                <h4 class="specs-intro">Architecture</h4>
+                <div class="specs-grid">
+                    <div class="spec-row">
+                        <span class="spec-label">Framework</span>
+                        <span class="spec-data">SwiftUI, AppIntents</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Persistence</span>
+                        <span class="spec-data">SwiftData (Dep), UserDefaults</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Latency</span>
+                        <span class="spec-data">&lt;16ms (60FPS locally)</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Platform</span>
+                        <span class="spec-data">iOS 17.0+</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <div class="container">
+            <p>Designed for Swift Student Challenge 2026.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

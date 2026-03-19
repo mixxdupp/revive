@@ -3,6 +3,7 @@ import CoreLocation
 import Combine
 import UIKit
 
+@MainActor
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     private let manager = CLLocationManager()
     
@@ -60,39 +61,42 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         manager.stopUpdatingLocation()
     }
     
-    // MARK: - Delegate Methods
     
-    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        self.authorizationStatus = manager.authorizationStatus
-        if manager.authorizationStatus == .authorizedWhenInUse || manager.authorizationStatus == .authorizedAlways {
-            startUpdating()
+    nonisolated func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        Task { @MainActor in
+            self.authorizationStatus = manager.authorizationStatus
+            if manager.authorizationStatus == .authorizedWhenInUse || manager.authorizationStatus == .authorizedAlways {
+                self.startUpdating()
+            }
         }
     }
     
-    func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        // Use true heading if valid (requires location), otherwise magnetic
-        self.heading = newHeading
-        self.magneticNorth = newHeading.magneticHeading
-        self.trueNorth = newHeading.trueHeading > 0 ? newHeading.trueHeading : newHeading.magneticHeading
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let location = locations.last else { return }
-        self.location = location
-        
-        // Update Navigation
-        if let target = activeTarget {
-            let targetLoc = CLLocation(latitude: target.latitude, longitude: target.longitude)
-            self.distanceToTarget = location.distance(from: targetLoc)
-            self.targetBearing = WaypointsService.shared.calculateBearing(from: location, to: targetLoc)
+    nonisolated func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
+        Task { @MainActor in
+            // Use true heading if valid (requires location), otherwise magnetic
+            self.heading = newHeading
+            self.magneticNorth = newHeading.magneticHeading
+            self.trueNorth = newHeading.trueHeading > 0 ? newHeading.trueHeading : newHeading.magneticHeading
         }
     }
     
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print("LocationManager Error: \(error.localizedDescription)")
+    nonisolated func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        Task { @MainActor in
+            guard let location = locations.last else { return }
+            self.location = location
+            
+            // Update Navigation
+            if let target = self.activeTarget {
+                let targetLoc = CLLocation(latitude: target.latitude, longitude: target.longitude)
+                self.distanceToTarget = location.distance(from: targetLoc)
+                self.targetBearing = WaypointsService.shared.calculateBearing(from: location, to: targetLoc)
+            }
+        }
     }
     
-    // MARK: - Features
+    nonisolated func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+    }
+    
     
     func toggleLock() {
         if isLocked {
@@ -107,7 +111,6 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         }
     }
     
-    // MARK: - Navigation Control
     
     func setTarget(_ waypoint: Waypoint) {
         WaypointsService.shared.activeTarget = waypoint

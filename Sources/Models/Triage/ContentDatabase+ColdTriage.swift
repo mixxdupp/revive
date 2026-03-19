@@ -2,7 +2,6 @@ import Foundation
 
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - COLD / HYPOTHERMIA — SSC Rebuilt (≤3 taps)
     // =========================================================================
     func buildColdTriage() -> TriageNode {
         TriageNode(id: "cold-root", question: "What do you need?", options: [
@@ -64,7 +63,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "cold-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "cold-learn-q", question: "What would you like to read about?", options: [
                     TriageOption(id: "cold-art-insulation", label: "Insulation Science", icon: "thermometer.snowflake", destination: .articleList(["shelter-article-insulation", "shelter-article-insulation-values"])),

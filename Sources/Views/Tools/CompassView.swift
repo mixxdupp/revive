@@ -6,7 +6,6 @@ struct CompassView: View {
     @State private var hasPlayedNorthHaptic = false
     @State private var hasPlayedTargetHaptic = false
     
-    // Apple Watch Ultra / Wayfinder "Action" Orange
     private let actionOrange = Color(red: 1.0, green: 0.35, blue: 0.0)
     
     var body: some View {
@@ -17,7 +16,6 @@ struct CompassView: View {
                 Spacer()
                     .frame(height: 20)
                 
-                // MARK: - Massive True North Readout
                 VStack(spacing: -8) {
                     HStack(alignment: .top, spacing: 0) {
                         Text("\(Int(locationManager.trueNorth))")
@@ -38,14 +36,11 @@ struct CompassView: View {
                 
                 Spacer()
                 
-                // MARK: - Precision Mechanical Dial
                 ZStack {
-                    // Outer structural ring
                     Circle()
                         .stroke(Color(white: 0.1), lineWidth: 1)
                         .frame(width: 340, height: 340)
 
-                    // Hash Marks (144 subdivisions for precision)
                     ForEach(0..<144) { tick in
                         let isMajor = tick % 36 == 0 // 90 degrees
                         let isMinor = tick % 12 == 0 // 30 degrees
@@ -61,9 +56,7 @@ struct CompassView: View {
                             .rotationEffect(.degrees(Double(tick) * 2.5))
                     }
                     
-                    // Rotating Inner Dial Plate
                     ZStack {
-                        // Degree markers inside
                         ForEach(0..<12) { i in
                             if i % 3 != 0 { 
                                 Text("\(i * 30)")
@@ -74,7 +67,6 @@ struct CompassView: View {
                             }
                         }
                         
-                        // Cardinal Directions
                         ForEach(Cardinal.allCases, id: \.self) { cardinal in
                             Text(cardinal.rawValue)
                                 .font(.system(size: 32, weight: .bold, design: .rounded))
@@ -83,7 +75,6 @@ struct CompassView: View {
                                 .rotationEffect(.degrees(cardinal.degree))
                         }
                         
-                        // Ultra-thin crosshairs
                         Path { path in
                             path.move(to: CGPoint(x: 170, y: 70))
                             path.addLine(to: CGPoint(x: 170, y: 270))
@@ -94,16 +85,13 @@ struct CompassView: View {
                         
                     }
                     .frame(width: 340, height: 340)
-                    // Fluid, weight-bearing compass rotation
                     .rotationEffect(.degrees(-locationManager.trueNorth))
                     .animation(.interactiveSpring(response: 0.4, dampingFraction: 0.7), value: locationManager.trueNorth)
                     
-                    // Center Targeting Reticle
                     Image(systemName: "plus")
                         .font(.system(size: 32, weight: .ultraLight))
                         .foregroundStyle(locationManager.isLocked ? actionOrange : .white)
                     
-                    // Locked True North Indicator (Top fixed needle)
                     Path { path in
                         path.move(to: CGPoint(x: 170, y: -10))
                         path.addLine(to: CGPoint(x: 170, y: 24))
@@ -111,7 +99,6 @@ struct CompassView: View {
                     .stroke(locationManager.isLocked ? actionOrange : .white, style: StrokeStyle(lineWidth: 3, lineCap: .round))
                     .frame(width: 340, height: 340)
                     
-                    // Active SOS / Waypoint Indicator (Green)
                     if let targetBearing = locationManager.targetBearing {
                         ZStack {
                             Image(systemName: "triangle.fill")
@@ -130,12 +117,10 @@ struct CompassView: View {
                                     .offset(y: -190)
                             }
                         }
-                        // Rotates opposite the dial to match world coords
                         .rotationEffect(.degrees(targetBearing - locationManager.trueNorth))
                         .animation(.interactiveSpring(response: 0.4, dampingFraction: 0.7), value: targetBearing - locationManager.trueNorth)
                     }
                     
-                    // Locked Bearing Marker (Orange)
                     if locationManager.isLocked {
                         VStack(spacing: 2) {
                             Image(systemName: "triangle.fill")
@@ -151,7 +136,6 @@ struct CompassView: View {
                     }
                 }
                 .frame(width: 340, height: 340)
-                // Lock trigger with rigid tactile feedback
                 .onTapGesture {
                     let generator = UIImpactFeedbackGenerator(style: .rigid)
                     generator.impactOccurred()
@@ -160,7 +144,6 @@ struct CompassView: View {
                 
                 Spacer()
                 
-                // MARK: - Waypoint / Metric Display
                 if let distance = locationManager.distanceToTarget, let target = locationManager.activeTarget {
                     VStack(spacing: 6) {
                         HStack(spacing: 6) {
@@ -177,7 +160,6 @@ struct CompassView: View {
                     }
                     .padding(.bottom, 60)
                 } else {
-                    // Lock status label
                     if locationManager.isLocked {
                         VStack(spacing: 6) {
                             Text("LOCKED \(Int(locationManager.lockedBearing))° \(cardinalFromHeading(locationManager.lockedBearing))")
@@ -218,7 +200,6 @@ struct CompassView: View {
             let normalized = newHeading < 0 ? newHeading + 360 : newHeading
             let distToNorth = min(abs(normalized - 0), abs(normalized - 360))
             
-            // Haptic bump across True North
             if distToNorth < 2 {
                 if !hasPlayedNorthHaptic {
                     HapticsService.shared.playImpact(style: .medium)
@@ -228,7 +209,6 @@ struct CompassView: View {
                 hasPlayedNorthHaptic = false
             }
             
-            // Haptic success on Waypoint Alignment
             if let target = locationManager.targetBearing {
                 let rawDiff = abs(normalized - target)
                 let diff = min(rawDiff, 360 - rawDiff)

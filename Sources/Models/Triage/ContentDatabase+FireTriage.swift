@@ -2,7 +2,6 @@ import Foundation
 
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - NEED FIRE — SSC Rebuilt
     // =========================================================================
     func buildFireTriage() -> TriageNode {
         TriageNode(id: "fire-root", question: "What do you need?", options: [

@@ -3,7 +3,6 @@ import Foundation
 // Auto-generated: buildFoodTriage extracted from ContentDatabase.swift
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - NEED FOOD (5 levels deep)
     // =========================================================================
     func buildFoodTriage() -> TriageNode {
         TriageNode(id: "food-root", question: "What do you need?", options: [
@@ -63,7 +62,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "food-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "food-learn-q", question: "What would you like to read about?", options: [
                     TriageOption(id: "food-art-health", label: "Nutrition & Starvation", icon: "leaf.fill", destination: .articleList(["food-article-nutrition", "food-article-calories", "food-article-starvation", "food-article-deficiencies", "food-article-protein-hierarchy"])),

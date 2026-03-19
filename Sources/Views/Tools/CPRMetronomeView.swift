@@ -37,23 +37,18 @@ struct CPRMetronomeView: View {
                 Spacer()
 
                 if isBreathPause {
-                    // MARK: - Breath Pause State
                     breathPauseView
                 } else if prepCountdown > 0 {
-                    // MARK: - Prep State
                     prepCountdownView
                 } else {
-                    // MARK: - Compression State
                     compressionView
                 }
 
                 Spacer()
 
-                // MARK: - Guidance Strip (always visible)
                 guidanceStrip
                     .padding(.bottom, 24)
 
-                // MARK: - Action Button
                 Button(action: toggleMetronome) {
                     HStack(spacing: 10) {
                         Image(systemName: isRunning ? "stop.fill" : "play.fill")
@@ -80,7 +75,6 @@ struct CPRMetronomeView: View {
         .onDisappear { stopMetronome() }
     }
     
-    // MARK: - Compression View (active during 30-count)
     private var compressionView: some View {
         VStack(spacing: 16) {
             // Coaching word — massive, unmissable
@@ -113,7 +107,6 @@ struct CPRMetronomeView: View {
         .accessibilityLabel("\(cycleCount) of \(compressionsPerSet) compressions")
     }
 
-    // MARK: - Prep Countdown View (active during 5s countdown)
     private var prepCountdownView: some View {
         VStack(spacing: 16) {
             Text("GET IN POSITION")
@@ -135,7 +128,6 @@ struct CPRMetronomeView: View {
         .accessibilityLabel("Starting in \(prepCountdown) seconds")
     }
     
-    // MARK: - Breath Pause View (shown after 30 compressions)
     private var breathPauseView: some View {
         VStack(spacing: 20) {
             Image(systemName: "wind")
@@ -160,7 +152,6 @@ struct CPRMetronomeView: View {
         .accessibilityLabel("Give 2 rescue breaths now")
     }
     
-    // MARK: - Bottom Guidance Strip
     private var guidanceStrip: some View {
         HStack(spacing: 0) {
             guidanceItem(icon: "arrow.down", label: "2 in deep")
@@ -187,7 +178,6 @@ struct CPRMetronomeView: View {
         }
     }
 
-    // MARK: - Engine
 
     private func toggleMetronome() {
         let generator = UIImpactFeedbackGenerator(style: .rigid)

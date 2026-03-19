@@ -1,7 +1,6 @@
 import SwiftUI
 import SwiftData
 
-// MARK: - SwiftData Model
 
 @Model
 final class KitItem {
@@ -21,7 +20,6 @@ final class KitItem {
     }
 }
 
-// MARK: - Scenario Gear Mapping
 
 struct ScenarioGear {
     let scenario: EmergencySituation
@@ -100,7 +98,6 @@ struct ScenarioGear {
     ]
 }
 
-// MARK: - Main View
 
 struct KitBuilderView: View {
     @Environment(\.modelContext) private var modelContext
@@ -116,14 +113,12 @@ struct KitBuilderView: View {
 
     var body: some View {
         List {
-            // MARK: Hero Progress Section
             Section {
                 overallProgressView
                     .listRowInsets(EdgeInsets())
                     .listRowBackground(Color.clear)
             }
             
-            // MARK: Core Scenarios List
             Section(header: Text("Scenarios")) {
                 ForEach(ScenarioGear.all, id: \.scenario) { scenarioGear in
                     let scenarioItems = items.filter { $0.scenario == scenarioGear.scenario.rawValue }
@@ -143,7 +138,6 @@ struct KitBuilderView: View {
         }
     }
     
-    // MARK: - Overall Progress
     private var overallProgressView: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack {
@@ -151,7 +145,7 @@ struct KitBuilderView: View {
                     .font(.headline.weight(.semibold))
                 Spacer()
                 Text("\(Int(overallProgress * 100))%")
-                    .font(.system(.title2, design: .rounded, weight: .heavy))
+                    .font(.title2.bold())
                     .foregroundStyle(progressColor(overallProgress))
                     .contentTransition(.numericText())
             }
@@ -177,7 +171,6 @@ struct KitBuilderView: View {
         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
     }
     
-    // MARK: - Seed Data
     private func seedDefaultGearIfNeeded() {
         if items.isEmpty {
             for scenarioGear in ScenarioGear.all {
@@ -201,7 +194,6 @@ struct KitBuilderView: View {
     }
 }
 
-// MARK: - Scenario List Row (Replaces Bubble Card)
 
 struct ScenarioListRow: View {
     let scenario: EmergencySituation
@@ -257,7 +249,6 @@ struct ScenarioListRow: View {
     }
 }
 
-// MARK: - Detail View (Dedicated Checklist Page)
 
 struct ScenarioDetailView: View {
     let scenario: EmergencySituation
@@ -277,7 +268,6 @@ struct ScenarioDetailView: View {
     }
 }
 
-// MARK: - Item Row Configured for List
 
 struct ScenarioItemRow: View {
     @Bindable var item: KitItem

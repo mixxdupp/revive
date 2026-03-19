@@ -2,7 +2,6 @@ import Foundation
 
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - LOST / NAVIGATION — SSC Rebuilt (≤3 taps)
     // =========================================================================
     func buildLostTriage() -> TriageNode {
         TriageNode(id: "lost-root", question: "What do you need?", options: [
@@ -70,7 +69,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "lost-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "lost-learn-q", question: "What topic?", options: [
                     TriageOption(id: "lost-learn-basics", label: "Navigation Basics", icon: "map.fill", destination: .nextQuestion(

@@ -8,6 +8,7 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
     @Published var isRecording = false
     @Published var detectedCommand: String?
     @Published var isSpeaking = false
+    @Published var speechError: String?
     
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
@@ -31,9 +32,9 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
             DispatchQueue.main.async {
                 switch status {
                 case .authorized:
-                    print("Speech recognition authorized")
+                    break // Authorized
                 case .denied, .restricted, .notDetermined:
-                    print("Speech recognition not authorized")
+                    break // Not authorized
                 @unknown default:
                     break
                 }
@@ -42,6 +43,9 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
     }
     
     func startListening() throws {
+        DispatchQueue.main.async {
+            self.speechError = nil
+        }
         // Cancel existing tasks
         if recognitionTask != nil {
             recognitionTask?.cancel()
@@ -56,7 +60,7 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
         
         guard let recognitionRequest = recognitionRequest else {
-            fatalError("Unable to create recognition request")
+            throw NSError(domain: "SpeechService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Unable to create recognition request"])
         }
         
         recognitionRequest.shouldReportPartialResults = true
@@ -65,7 +69,6 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
             recognitionRequest.requiresOnDeviceRecognition = true
             
             if speechRecognizer?.supportsOnDeviceRecognition == false {
-                print("WARNING: On-device recognition not supported in this environment (likely Simulator or missing models). Speech recognition may fail.")
                 // We keep requiresOnDeviceRecognition = true to force the requirement.
                 // It will fail gracefully in the recognitionTask block if it cannot fulfill the request off-device.
             }
@@ -81,6 +84,12 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
                 let spokenText = result.bestTranscription.formattedString.lowercased()
                 self.processCommand(spokenText)
                 isFinal = result.isFinal
+            }
+            
+            if error != nil {
+                DispatchQueue.main.async {
+                    self.speechError = "Speech not recognized."
+                }
             }
             
             if error != nil || isFinal {
@@ -156,7 +165,6 @@ class SpeechRecognitionService: NSObject, ObservableObject, SFSpeechRecognizerDe
         }
     }
     
-    // MARK: - AVSpeechSynthesizerDelegate
     
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didStart utterance: AVSpeechUtterance) {
         DispatchQueue.main.async {

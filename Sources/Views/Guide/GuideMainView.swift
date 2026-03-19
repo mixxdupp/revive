@@ -17,12 +17,10 @@ struct GuideMainView: View {
     
     var body: some View {
         ZStack {
-            // MARK: - Ambient Background
             Color.black
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
-                // MARK: - Pinned Segmented Control
                 // Only visible when not searching
                 if searchText.isEmpty {
                     Picker("Mode", selection: $selectedMode) {
@@ -38,7 +36,6 @@ struct GuideMainView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 24) {
                         
-                        // MARK: - CONTENT SWITCHER
                         if searchText.isEmpty {
                             switch selectedMode {
                             case 0: // BROWSE
@@ -65,7 +62,6 @@ struct GuideMainView: View {
                             }
                             
                         } else {
-                            // MARK: - SEARCH RESULTS
                             LazyVStack(spacing: 16) {
                                 if filteredTechniques.isEmpty {
                                     VStack(spacing: 12) {
@@ -102,13 +98,11 @@ struct GuideMainView: View {
     }
 }
 
-// MARK: - Glass Domain Cell (Component)
 struct GlassDomainCell: View {
     let domain: SurvivalDomain
     
     var body: some View {
         ZStack(alignment: .topLeading) {
-            // MARK: - 1. Glassmorphic Background with Gradient Tint
             RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .fill(.ultraThinMaterial)
                 .overlay(
@@ -122,7 +116,6 @@ struct GlassDomainCell: View {
                     )
                 )
             
-            // MARK: - 2. Content
             VStack(alignment: .leading, spacing: 0) {
                 // Icon Header
                 HStack(alignment: .top) {

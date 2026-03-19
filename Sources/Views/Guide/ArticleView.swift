@@ -26,7 +26,6 @@ struct ArticleView: View {
             ScrollView {
                 VStack(spacing: 0) {
                     
-                    // MARK: - Parallax Header
                     GeometryReader { geo in
                         let scrollOffset = geo.frame(in: .global).minY
                         let height = 400 + (scrollOffset > 0 ? scrollOffset : 0) // Stretch on pull
@@ -81,7 +80,6 @@ struct ArticleView: View {
                     })
 
                     
-                    // MARK: - Editorial Body Content
                     VStack(alignment: .leading, spacing: 24) {
                         ForEach(sections) { section in
                             switch section.type {
@@ -143,7 +141,6 @@ struct ArticleView: View {
                             .padding(.top, 16)
                             .padding(.bottom, 8)
                         
-                        // MARK: - Footer / Source
                         if let sourceName = article.sourceName, !sourceName.isEmpty {
                             VStack(alignment: .leading, spacing: 16) {
                                 Text("Source Material")
@@ -175,7 +172,6 @@ struct ArticleView: View {
             }
 
             
-            // MARK: - Sticky Navigation Bar
             VStack {
                 HStack {
                     Button(action: { dismiss() }) {
@@ -236,8 +232,6 @@ struct ArticleView: View {
     }
 }
 
-// MARK: - Content Parsing Helper
-// MARK: - Content Parsing Helper
 struct ArticleSection: Identifiable {
     let id = UUID()
     let type: SectionType

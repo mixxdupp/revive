@@ -10,6 +10,7 @@ struct VerticalGuideView: View {
     @ObservedObject private var speech = SpeechRecognitionService.shared
     @State private var isAudioReadingEnabled = false
     @State private var idleSpeechTimer: Timer?
+    @State private var showSpeechError = false
     
     var body: some View {
         ScrollViewReader { proxy in
@@ -19,11 +20,9 @@ struct VerticalGuideView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 24) {
                         
-                        // MARK: - Header
                         headerView
                         
 
-                        // MARK: - Steps List
                         VStack(spacing: 16) {
                             ForEach(0..<technique.steps.count, id: \.self) { index in
                                 StepAccordionRow(
@@ -36,7 +35,6 @@ struct VerticalGuideView: View {
                             }
                         }
                         
-                        // MARK: - Source Link & Glossary
                         HStack {
                             if let sourceName = technique.sourceName, technique.sourceUrl != nil {
                                 HStack(spacing: 6) {
@@ -75,7 +73,6 @@ struct VerticalGuideView: View {
                         .padding(.top, 8)
                         
 
-                        // MARK: - Special Tool Redirects
                         if technique.id == "rescue-morse-code" {
                             NavigationLink(destination: SOSFlashlightView()) {
                                 HStack {
@@ -103,7 +100,6 @@ struct VerticalGuideView: View {
                             }
                         }
                         
-                        // MARK: - Related Techniques
                         if let relatedIds = technique.relatedIds, !relatedIds.isEmpty {
                             VStack(alignment: .leading, spacing: 16) {
                                 Text("Related Guides")
@@ -173,7 +169,6 @@ struct VerticalGuideView: View {
                     }
                 }
                 
-                // MARK: - Floating Action Button
                 VStack {
                     Spacer()
                     if let current = expandedStep, current < technique.steps.count - 1 {
@@ -210,8 +205,39 @@ struct VerticalGuideView: View {
                         .padding(.bottom, 30)
                     }
                 }
+                
+                if showSpeechError, let errorMsg = speech.speechError {
+                    VStack {
+                        Text(errorMsg)
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 10)
+                            .background(Color.red.opacity(0.9))
+                            .clipShape(Capsule())
+                            .shadow(radius: 5)
+                            .transition(.move(edge: .top).combined(with: .opacity))
+                        Spacer()
+                    }
+                    .padding(.top, 60)
+                    .zIndex(100)
+                }
             }
             .navigationBarHidden(true)
+            .onChange(of: speech.speechError) { _, newValue in
+                if newValue != nil {
+                    withAnimation(.spring()) {
+                        showSpeechError = true
+                    }
+                    HapticsService.shared.playNotification(type: .error)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                        withAnimation {
+                            showSpeechError = false
+                            speech.speechError = nil
+                        }
+                    }
+                }
+            }
             .onAppear {
                 // Voice control opt-in via top-right toggle
             }
@@ -223,7 +249,6 @@ struct VerticalGuideView: View {
         }
     }
     
-    // MARK: - Auto-Repeat Timer Logic
     private func scheduleIdleSpeechTimer(text: String) {
         // Invalidate any existing timer
         idleSpeechTimer?.invalidate()
@@ -277,8 +302,10 @@ extension VerticalGuideView {
                         }
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
+                        .frame(minWidth: 44, minHeight: 44)
                         .background(.ultraThinMaterial)
                         .clipShape(Capsule())
+                        .accessibilityLabel(isAudioReadingEnabled ? "Disable Read Aloud" : "Enable Read Aloud")
                     }
 
                     // Voice Control Toggle (Mic)
@@ -291,7 +318,6 @@ extension VerticalGuideView {
                                 try speech.startListening()
                                 HapticsService.shared.playImpact(style: .medium)
                             } catch {
-                                print("Voice control failed: \(error)")
                             }
                         }
                     }) {
@@ -306,12 +332,14 @@ extension VerticalGuideView {
                         }
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
+                        .frame(minWidth: 44, minHeight: 44)
                         .background(.ultraThinMaterial)
                         .clipShape(Capsule())
                         .overlay(
                             Capsule()
                                 .stroke(speech.isRecording ? Color.red.opacity(0.3) : Color.clear, lineWidth: 1)
                         )
+                        .accessibilityLabel(speech.isRecording ? "Stop Voice Navigation" : "Start Voice Navigation")
                     }
                     
                     // Bookmark Toggle
@@ -326,7 +354,9 @@ extension VerticalGuideView {
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
                         .background(.ultraThinMaterial)
+                        .frame(minWidth: 44, minHeight: 44)
                         .clipShape(Capsule())
+                        .accessibilityLabel(favorites.isSaved(technique.id) ? "Remove Bookmark" : "Add Bookmark")
                     }
                 }
             }

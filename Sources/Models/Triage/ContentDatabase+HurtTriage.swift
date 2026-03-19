@@ -2,7 +2,6 @@ import Foundation
 
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - FIRST AID / HURT (Precision Normalization V13)
     // =========================================================================
     func buildHurtTriage() -> TriageNode {
         return TriageNode(id: "hurt-nq-0-136", question: "Select Category:", options: [

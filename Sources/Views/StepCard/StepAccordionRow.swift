@@ -12,7 +12,6 @@ struct StepAccordionRow: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            // MARK: - Header (Always Visible)
             Button(action: {
                 withAnimation(.easeInOut(duration: 0.25)) {
                     if isExpanded {
@@ -60,7 +59,6 @@ struct StepAccordionRow: View {
             }
             .buttonStyle(PlainButtonStyle())
             
-            // MARK: - Expanded Content
             if isExpanded {
                 VStack(alignment: .leading, spacing: 16) {
                     

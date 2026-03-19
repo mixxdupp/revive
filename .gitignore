@@ -1,0 +1,9 @@
+# Xcode / Swift Playgrounds
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+.DS_Store
+build/
+DerivedData/
+*.swp
+*.lock

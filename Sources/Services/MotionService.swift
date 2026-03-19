@@ -8,7 +8,6 @@ class MotionService: ObservableObject {
     // We can use CMMotionManager for more complex motion, but for "Shake", 
     // UIWindow's motionEnded is often simpler in UIKit. 
     // Since we are in SwiftUI, we can try a different approach or bridge it.
-    // However, for a Playground, we can use CMMotionManager to detect significant acceleration changes.
     
     private let motionManager = CMMotionManager()
     @Published var isShaking = false

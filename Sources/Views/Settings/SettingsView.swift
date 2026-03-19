@@ -9,12 +9,10 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             Form {
-                // MARK: - PREFERENCES
                 Section(header: Text("Preferences", comment: "Settings Section")) {
                     Toggle("Use Metric System (°C, m)", isOn: $settings.isMetric)
                 }
                 
-                // MARK: - DATA MANAGEMENT
                 Section(header: Text("Data Management", comment: "Settings Section")) {
                     Button(role: .destructive, action: {
                         showingResetAlert = true
@@ -23,7 +21,6 @@ struct SettingsView: View {
                     }
                 }
                 
-                // MARK: - SYSTEM & INTEGRATIONS
                 Section(header: Text("System & Integrations", comment: "Settings Section")) {
                     HStack {
                         Label(
@@ -47,7 +44,6 @@ struct SettingsView: View {
                     }
                 }
                 
-                // MARK: - LEGAL & ABOUT
                 Section(header: Text("Legal & Safety", comment: "Settings Section")) {
                     Button(action: {
                         showingLegal = true
@@ -69,7 +65,6 @@ struct SettingsView: View {
                     }
                 }
                 
-                // MARK: - EXTERNAL TRAINING
                 Section(header: Text("Professional Training", comment: "External links section"), 
                         footer: Text("Revive works completely offline, but is for backup reference only. Professional training is always recommended.", comment: "Safety Disclaimer Footer")) {
                     Link(destination: URL(string: "https://www.nols.edu/en/courses/wilderness-medicine/")!) {
@@ -119,7 +114,6 @@ struct SettingsView: View {
     }
 }
 
-// MARK: - Native Settings Icon View
 struct SettingsIcon: View {
     let systemName: String
     let color: Color

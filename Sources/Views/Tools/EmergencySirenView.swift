@@ -4,6 +4,8 @@ import MediaPlayer
 import CoreHaptics
 
 final class SirenManager: ObservableObject {
+    static let shared = SirenManager()
+    
     @Published var isPlaying = false
     @Published var includeStrobe = true
     @Published var screenFlashColor: Color = .clear
@@ -31,7 +33,7 @@ final class SirenManager: ObservableObject {
     private var screenFlashTask: Task<Void, Never>?
     private var backgroundTaskID: UIBackgroundTaskIdentifier = .invalid
     
-    init() {
+    private init() {
         NotificationCenter.default.addObserver(self, selector: #selector(handleInterruption), name: AVAudioSession.interruptionNotification, object: nil)
     }
     
@@ -114,7 +116,6 @@ final class SirenManager: ObservableObject {
         }
     }
     
-    // MARK: - Audio Internal
     private func setupRemoteTransportControls() {
         let commandCenter = MPRemoteCommandCenter.shared()
         commandCenter.playCommand.addTarget { _ in .success }
@@ -182,7 +183,6 @@ final class SirenManager: ObservableObject {
         sourceNode = nil
     }
 
-    // MARK: - Volume & Flashlight Internal
     private func maximizeVolume() {
         audioEngine?.mainMixerNode.outputVolume = 1.0
         let volumeView = MPVolumeView()
@@ -245,12 +245,11 @@ final class SirenManager: ObservableObject {
     }
 }
 
-// MARK: - View
 struct EmergencySirenView: View {
     var autoPlay: Bool = false
     var isPresentedModally: Bool = false
     @Environment(\.presentationMode) var presentationMode
-    @StateObject private var manager = SirenManager()
+    @StateObject private var manager = SirenManager.shared
     @State private var showSecurityInfo = false
     @State private var isGuidedAccessActive = UIAccessibility.isGuidedAccessEnabled
     
@@ -430,7 +429,6 @@ struct EmergencySirenView: View {
     }
 }
 
-// MARK: - Action Button
 struct LongPressActionButton: View {
     var isPlaying: Bool
     var action: () -> Void
@@ -525,7 +523,6 @@ struct LongPressActionButton: View {
     }
 }
 
-// MARK: - Security Info Sheet
 struct SecurityInfoSheet: View {
     var isGuidedAccessActive: Bool
     @Environment(\.dismiss) var dismiss

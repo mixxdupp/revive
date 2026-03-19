@@ -5,7 +5,6 @@ import Foundation
 // expanded_environments.json, missing_environments.json
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - NATURAL DISASTER TRIAGE (v2 — step-validated, env-* only)
     // =========================================================================
     func buildDisasterTriage() -> TriageNode {
         TriageNode(id: "disaster-root", question: "What disaster are you facing?", options: [

@@ -25,13 +25,11 @@ struct EmergencyDirectoryView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     
-                    // MARK: - Subtitle (directly below native large title)
                     Text("Global Emergency Numbers")
                         .font(.system(size: 20, weight: .medium))
                         .foregroundStyle(DesignSystem.textSecondary)
                         .padding(.horizontal, 16)
                     
-                    // MARK: - Search Bar
                     HStack(spacing: 8) {
                         Image(systemName: "magnifyingglass")
                             .foregroundStyle(DesignSystem.textSecondary)
@@ -56,7 +54,6 @@ struct EmergencyDirectoryView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                     .padding(.horizontal, 24)
                     
-                    // MARK: - Country List
                     if filteredCountries.isEmpty {
                         // Empty State
                         VStack(spacing: 12) {
@@ -90,7 +87,6 @@ struct EmergencyDirectoryView: View {
     }
 }
 
-// MARK: - Glass Country Row
 struct GlassCountryRow: View {
     let country: CountryEmergency
     @State private var numberToCall: String?
@@ -205,7 +201,6 @@ struct GlassCountryRow: View {
     }
 }
 
-// MARK: - Premium Service Button
 struct ServiceButton: View {
     let icon: String
     let label: String

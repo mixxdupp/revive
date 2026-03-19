@@ -3,7 +3,6 @@ import Foundation
 // Auto-generated: buildHumanThreatTriage extracted from ContentDatabase.swift
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - HUMAN THREAT (NEW)
     // =========================================================================
     func buildHumanThreatTriage() -> TriageNode {
         TriageNode(id: "human-em-root", question: "What is the threat?", options: [

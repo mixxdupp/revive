@@ -13,7 +13,6 @@ struct LocationView: View {
             VStack(spacing: 0) {
                 Spacer()
                 
-                // MARK: - Hero Coordinates
                 VStack(spacing: 24) {
                     // Latitude
                     VStack(spacing: 8) {
@@ -66,7 +65,6 @@ struct LocationView: View {
                 
                 Spacer()
                 
-                // MARK: - Telemetry Grid
                 HStack(spacing: 12) {
                     GPSMetricCard(
                         title: "ALT",
@@ -105,7 +103,6 @@ struct LocationView: View {
                 .padding(.top, 12)
                 .padding(.bottom, 24)
                 
-                // MARK: - Copy Button
                 Button(action: {
                     let generator = UIImpactFeedbackGenerator(style: .rigid)
                     generator.impactOccurred()
@@ -155,7 +152,6 @@ struct LocationView: View {
     }
 }
 
-// MARK: - Metric Card
 private struct GPSMetricCard: View {
     let title: String
     let value: String

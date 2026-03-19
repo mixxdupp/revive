@@ -3,7 +3,6 @@ import Foundation
 // Auto-generated: buildHeatTriage extracted from ContentDatabase.swift
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - EXTREME HEAT
     // =========================================================================
     func buildHeatTriage() -> TriageNode {
         TriageNode(id: "heat-em-root", question: "What do you need?", options: [
@@ -46,7 +45,7 @@ extension ContentDatabase {
                 ])
             )),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "heat-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "heat-learn-q", question: "Read about heat safety?", options: [
                     TriageOption(id: "heat-art-illness", label: "Heat Illnesses", icon: "thermometer.sun.fill", destination: .article("firstaid-article-environmental")),

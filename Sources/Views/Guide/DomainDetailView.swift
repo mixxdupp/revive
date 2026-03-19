@@ -27,7 +27,6 @@ struct DomainDetailView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
                 
-                // MARK: - HERO HEADER (Clean List Style)
                 VStack(alignment: .leading, spacing: 16) {
                     
                     // Icon Container (Flat, no glow)
@@ -57,7 +56,6 @@ struct DomainDetailView: View {
                     SearchBar(text: $searchText, placeholder: "Search \(selectedTab.rawValue.lowercased())...")
                         .padding(.top, 8)
                     
-                    // MARK: - Segmented Control
                     Picker("Section", selection: $selectedTab) {
                         ForEach(DomainTab.allCases, id: \.self) { tab in
                             Text(tab.rawValue).tag(tab)
@@ -69,7 +67,6 @@ struct DomainDetailView: View {
                 .padding(.top, 24)
                 .padding(.horizontal, 24)
                 
-                // MARK: - CONTENT STACK
                 LazyVStack(spacing: 24) {
                     
                     switch selectedTab {

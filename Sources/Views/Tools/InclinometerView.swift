@@ -34,7 +34,6 @@ struct InclinometerView: View {
 
                 Spacer()
 
-                // MARK: - Bubble Level (Physical Precision)
                 ZStack {
                     // Outer precision ring
                     Circle()
@@ -74,7 +73,6 @@ struct InclinometerView: View {
                 Spacer()
                     .frame(height: 40)
 
-                // MARK: - Massive Angle Readout
                 VStack(spacing: 8) {
                     Text("INCLINOMETER")
                         .font(.system(size: 13, weight: .medium, design: .rounded))
@@ -103,7 +101,6 @@ struct InclinometerView: View {
 
                 Spacer()
 
-                // MARK: - Survival Metric Cards
                 HStack(spacing: 12) {
                     InclineMetricCard(
                         title: "SHELTER",
@@ -154,7 +151,6 @@ struct InclinometerView: View {
     }
 }
 
-// MARK: - Metric Card Component
 private struct InclineMetricCard: View {
     let title: String
     let threshold: String

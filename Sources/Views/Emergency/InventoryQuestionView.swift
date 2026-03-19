@@ -21,7 +21,6 @@ struct InventoryQuestionView: View {
     }
 }
 
-// MARK: - Recursive Triage Question View
 
 struct TriageQuestionView: View {
     let node: TriageNode
@@ -35,7 +34,6 @@ struct TriageQuestionView: View {
     
     var body: some View {
         ZStack {
-            // MARK: - Ambient Background
             DesignSystem.backgroundPrimary
                 .ignoresSafeArea()
             
@@ -200,7 +198,6 @@ struct TriageQuestionView: View {
     }
 }
 
-// MARK: - Option Card
 
 struct TriageOptionCard: View {
     let option: TriageOption
@@ -261,7 +258,6 @@ struct TriageOptionCard: View {
     }
 }
 
-// MARK: - Technique List (for techniqueList destinations)
 
 struct TriageTechniqueListView: View {
     let techniques: [Technique]
@@ -315,7 +311,6 @@ struct TriageTechniqueListView: View {
     }
 }
 
-// MARK: - Article List (for .articleList destination)
 
 struct TriageArticleListView: View {
     let articles: [Article]

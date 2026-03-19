@@ -1,7 +1,6 @@
 import Foundation
 import SwiftUI
 
-// MARK: - Emergency Situations
 
 enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
     // Judge impression: most impressive triage flows first (top 2 rows visible without scrolling)
@@ -79,7 +78,6 @@ enum EmergencySituation: String, Codable, CaseIterable, Identifiable {
     }
 }
 
-// MARK: - Recursive Triage Tree
 
 /// A single node in the triage decision tree.
 /// Each node presents a question with multiple options.
@@ -129,7 +127,6 @@ struct TriageOption: Identifiable {
     let destination: TriageDestination
 }
 
-// MARK: - Legacy (kept for backward compat, unused)
 
 struct EmergencyFlow: Codable, Identifiable {
     var id: String { situation.rawValue }

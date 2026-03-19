@@ -5,7 +5,6 @@ struct EmergencyCell: View {
     
     var body: some View {
         ZStack(alignment: .topLeading) {
-            // MARK: - 1. Glassmorphic Background with Gradient Tint
             RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .fill(.ultraThinMaterial)
                 .overlay(
@@ -19,7 +18,6 @@ struct EmergencyCell: View {
                     )
                 )
             
-            // MARK: - 2. Content
             VStack(alignment: .leading, spacing: 0) {
                 // Icon
                 ZStack {

@@ -126,7 +126,6 @@ struct TermsGateView: View {
                         
                         // DISAGREE -> KILL APP
                         Button(action: {
-                            print("User disagreed. Terminating app.")
                             exit(0)
                         }) {
                             Text("Disagree")

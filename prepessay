@@ -1,0 +1,108 @@
+# Swift Student Challenge 2026 - Submission Form Responses
+
+Copy-paste each section into its corresponding field.
+
+---
+
+## What problem is your app playground trying to solve and what inspired you to solve it?
+*(200 words max)*
+
+In 2018, Kerala flooded. It was the worst in a century. The Malayalam film '2018' later showed the world what that looked like, but I didn't need a movie. I was fourteen, in Chennai, calling home to Thalassery while my mother tried reaching relatives across Kannur. Calls kept dropping. People we knew were stranded for days with no power and no signal. Nobody could look up whether the water was still rising or what to do if someone got hurt.
+
+Then in 2024, the Wayanad landslides hit one district away from my hometown. Chooralmala, Mundakkai. Places people in Kannur drive to for weekends. Gone overnight. Rescuers dug through mud with bare hands. Again, people had phones, but those phones had nothing useful on them.
+
+We Keralites show up for each other. Neighbours become rescue teams. Fishermen become first responders. But showing up isn't enough when you don't know what to do.
+
+That is why I built Revive. It is a completely offline survival guide. 505 techniques, 15 emergency triage trees, 1,875 step-by-step instructions. No server calls, no internet needed. It puts first-responder knowledge directly onto the device people are already holding when the grid goes down.
+
+---
+
+## Who would benefit from your app playground and how?
+*(200 words max)*
+
+Anyone who spends time in areas with unreliable connectivity. Hikers, campers, rural communities, disaster-affected families, travellers in remote regions. In India alone, the Western Ghats, the Himalayas, and the Northeast see hundreds of emergencies every year where people have smartphones but no signal.
+
+The first group is people facing an active emergency. The triage system asks branching questions like a first responder would and narrows 505 techniques to the right one in three taps. A parent whose child is choking doesn't need to know the Heimlich manoeuvre exists. They tap "I'm Hurt," answer two questions, and the app tells them what to do.
+
+Second, people who want to be prepared. The guide covers 10 domains from fire-starting to shelter construction for anyone planning backcountry travel.
+
+Third, communities in disaster-prone regions. Kerala floods, Wayanad landslides, the 2015 Chennai floods that submerged the city I grew up in. These events cut connectivity for days. An offline app with medically accurate first aid, emergency signalling tools like the SOS flashlight and siren, and a built-in compass becomes genuinely useful on a device everyone already owns.
+
+No account needed. No internet needed. Works instantly.
+
+---
+
+## How did accessibility factor into your design process?
+*(200 words max)*
+
+Accessibility isn't a bonus feature for Revive—it's the entire point. People using this app are likely panicking, in the dark, or physically injured. That reality shaped every line of code.
+
+I built a completely hands-free voice control engine using SFSpeechRecognizer and AVSpeechSynthesizer. If someone is applying pressure to a wound or holding a splint, they can just say "next step" or "repeat" without ever touching their screen. 
+
+The UI itself is heavily optimized for stress. Everything is dark-mode only—not for aesthetics, but to preserve night vision and save battery life when power grids are down. The triage buttons are massive (56pt minimum) high-contrast tap targets that are impossible to miss even if your hands are shaking. Under the hood, every single interactive element has custom accessibilityLabel handling, and decorative UI is stripped out with accessibilityHidden(true) so VoiceOver users get zero noise. 
+
+In a real emergency—like hiding under a car seat where FaceID cannot see you—you can simply whisper *"Hey Siri, start siren on Revive"* to instantly trigger the 120dB alarm. I specifically configured the AppIntent with `openAppWhenRun = false` so Siri executes it instantly in the background without forcing the user to unlock their phone.
+
+---
+
+## Did you use open source software, other than Swift?
+
+**No.** The app uses only first-party Apple frameworks: SwiftUI, SwiftData, AVFoundation, CoreLocation, CoreMotion, Speech (SFSpeechRecognizer), AVSpeechSynthesizer, and AppIntents. No third-party packages, no SPM dependencies.
+
+---
+
+## Did you use any content that you don't have ownership rights to?
+
+**Yes.** Medical protocols and first aid procedures are based on published guidelines from the American Heart Association, World Health Organization, and wilderness medicine textbooks. All content was rewritten in my own words for step-by-step instructional use. No text was copied verbatim. SF Symbols used throughout the app are provided by Apple.
+
+---
+
+## Did you use AI tools?
+
+**Yes.**
+
+I used Claude and Gemini throughout development. Specifically for scaffolding SwiftUI views and boilerplate, debugging compilation and layout issues, cross-referencing medical protocols across multiple sources like AHA and WHO guidelines, generating and validating structured JSON data, and auditing SF Symbol icon names for correctness.
+
+All architectural decisions, triage tree branching logic, UI/UX design, content accuracy verification, and emergency protocol sequencing were done by me. I understand the full codebase including the AVAudioSourceNode waveform synthesis, the SFSpeechRecognizer voice command pipeline, and every triage branch in ContentDatabase.swift. AI tools made implementation faster but they did not decide what a panicking user should see first, how triage branches should resolve, or which medical sources to trust. The core idea, that the app should think like a first responder and not like a search engine, is mine.
+
+---
+
+## What other technologies did you use in your app playground, and why did you choose them?
+*(200 words max)*
+
+SwiftUI for the entire interface. Chosen for composability and built-in dark mode support.
+
+SwiftData for user-generated content like saved waypoints, kit items, favourites, and history. Picked it over Core Data for the simpler Swift-native API.
+
+SFSpeechRecognizer and AVSpeechSynthesizer for hands-free voice control. Users navigate guides by voice and hear instructions read aloud. Works completely on-device.
+
+CoreLocation for the offline compass, coordinate display, and waypoint tracking. All location data stays on the device.
+
+AVFoundation for the SOS flashlight using the torch API for Morse code signalling, and for the emergency siren, which generates a real-time frequency-sweeping waveform through AVAudioSourceNode.
+
+AppIntents for Siri Shortcuts integration. Users can trigger the siren or search techniques through Siri. By configuring the Intent to execute natively in the background, the panic alarm can be triggered instantly from a locked device without requiring the user to authenticate with FaceID or a passcode.
+
+CoreMotion for the inclinometer tool that measures slope angles for shelter site selection and avalanche risk assessment.
+
+Every technology was chosen because it works offline. Nothing in the app requires a network connection.
+
+---
+
+## Beyond the Swift Student Challenge
+*(200 words max)*
+
+> **FILL THIS IN YOURSELF** with your real community activities.
+
+---
+
+## Comments (optional)
+*(200 words max)*
+
+Revive has no analytics, no tracking code, no network calls other than tel:// URLs for emergency dialling, and no third-party dependencies. Every medical protocol was cross-referenced against published guidelines from the American Heart Association, World Health Organization, and wilderness medicine literature.
+
+I built this app because I come from a community that has lived through disasters. Keralites don't wait for help. We organise fishing boats, open our homes, and cook for strangers. Revive is that same instinct turned into code. It's the knowledge I wish every phone had carried during the floods and landslides. Not a replacement for real rescue, but something better than a screen that says "No Service."
+
+---
+
+## App Playground Name
+**Revive: Offline Survival**

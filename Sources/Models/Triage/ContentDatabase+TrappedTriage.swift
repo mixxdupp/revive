@@ -4,7 +4,6 @@ import Foundation
 // All encyclopedia-generated template techniques purged for SSC quality
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - TRAPPED / RESCUE
     // =========================================================================
     func buildTrappedTriage() -> TriageNode {
         TriageNode(id: "trapped-root", question: "What do you need help with?", options: [

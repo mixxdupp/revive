@@ -3,7 +3,6 @@ import Foundation
 // Auto-generated: buildVehicleTriage extracted from ContentDatabase.swift
 extension ContentDatabase {
     // =========================================================================
-    // MARK: - VEHICLE EMERGENCY
     // =========================================================================
     func buildVehicleTriage() -> TriageNode {
         TriageNode(id: "vehicle-em-root", question: "What happened to the vehicle?", options: [
@@ -36,7 +35,7 @@ extension ContentDatabase {
             // ── LANDSLIDE ──
             TriageOption(id: "veh-landslide", label: "Landslide / Debris", icon: "mountain.2.fill", destination: .technique("env-landslide-vehicle")),
 
-            // 📚 LEARN MORE
+            // View Related Articles
             TriageOption(id: "veh-learn", label: "Learn More", icon: "book.fill", destination: .nextQuestion(
                 TriageNode(id: "veh-learn-q", question: "Vehicle safety topics?", options: [
                     TriageOption(id: "veh-art-kit", label: "Emergency Vehicle Kits", icon: "case.fill", destination: .article("tools-article-camp")),

@@ -24,7 +24,6 @@ struct SavedTechniquesView: View {
                     .padding(.top, 40)
             } else {
                 VStack(spacing: 24) {
-                    // MARK: - Segmented Control
                     Picker("Section", selection: $selectedTab) {
                         ForEach(SavedTab.allCases, id: \.self) { tab in
                             Text(tab.rawValue).tag(tab)
@@ -34,7 +33,6 @@ struct SavedTechniquesView: View {
                     .padding(.horizontal, 24)
                     .padding(.top, 8)
                     
-                    // MARK: - CONTENT STACK
                     LazyVStack(spacing: 24) {
                         switch selectedTab {
                         case .techniques:

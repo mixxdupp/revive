@@ -139,7 +139,6 @@ struct WaypointsListView: View {
                     }
                 }
             }
-            // MARK: - Add Sheet
             .sheet(isPresented: $showingAddSheet) {
                 if let location = locationManager.location {
                     NavigationView {
@@ -185,7 +184,6 @@ struct WaypointsListView: View {
                         .presentationDetents([.medium])
                 }
             }
-            // MARK: - Edit Sheet
             .sheet(item: $editingWaypoint) { waypoint in
                 NavigationView {
                     Form {

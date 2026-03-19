@@ -29,7 +29,6 @@ class ContentDatabase: ObservableObject {
     
 
 
-    // MARK: - Related Techniques
     
     func getRelatedTechniques(for technique: Technique, limit: Int = 3) -> [Technique] {
         var results: [Technique] = []
@@ -130,11 +129,9 @@ class ContentDatabase: ObservableObject {
             let content = try JSONDecoder().decode(GlossaryContent.self, from: data)
             self.glossaryTerms = content.terms.sorted { $0.term < $1.term }
         } catch {
-            print("Failed to load glossary: \(error)")
         }
     }
 
-    // MARK: - Search
     func search(query: String) -> [Technique] {
         let lowerQuery = query.localizedLowercase
         return techniques.filter { technique in
@@ -145,7 +142,6 @@ class ContentDatabase: ObservableObject {
         }
     }
     
-    // MARK: - Triage Option Search
     func searchTriageOptions(query: String) -> [(option: TriageOption, color: Color)] {
         let lowerQuery = query.localizedLowercase.trimmingCharacters(in: .whitespacesAndNewlines)
         if lowerQuery.isEmpty { return [] }
@@ -184,7 +180,6 @@ class ContentDatabase: ObservableObject {
         return results.sorted { $0.option.label < $1.option.label }
     }
 
-    // MARK: - Helper
     func getTechnique(id: String) -> Technique? {
         return techniques.first { $0.id == id }
     }
@@ -193,14 +188,10 @@ class ContentDatabase: ObservableObject {
         return articles.first { $0.id == id }
     }
 
-    // MARK: - Inventory Logic
     func findTechniques(forItems items: Set<String>) -> [Technique] {
         if items.isEmpty { return [] }
         
-        // rudimentary keyword matching
-        // In a real app, we'd have a 'materials' array on Technique.
-        // Here we scan steps and description for the item name.
-        
+        // Scan steps and description for the item name.
         return techniques.filter { technique in
             for item in items {
                 let lowerItem = item.localizedLowercase
@@ -218,7 +209,6 @@ class ContentDatabase: ObservableObject {
         }
     }
 
-    // MARK: - Triage Builders
     private func buildTriageTrees() {
         triageTrees[.cold] = buildColdTriage()
         triageTrees[.noFire] = buildFireTriage()

@@ -16,7 +16,6 @@ struct EmergencyMenuView: View {
     
     var body: some View {
         ZStack {
-            // MARK: - Ambient Background
             DesignSystem.backgroundPrimary
                 .ignoresSafeArea()
             
@@ -42,13 +41,11 @@ struct EmergencyMenuView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     
-                    // MARK: - Subtitle (always visible, below native large title)
                     Text("Fast response protocols", comment: "Section Subtitle")
                         .font(.system(size: 20, weight: .medium))
                         .foregroundStyle(DesignSystem.textSecondary)
                         .padding(.horizontal, 16)
                     
-                    // MARK: - Search Bar
                     HStack(spacing: 8) {
                         Image(systemName: "magnifyingglass")
                             .foregroundStyle(DesignSystem.textSecondary)
@@ -73,7 +70,6 @@ struct EmergencyMenuView: View {
                     .background(Color(uiColor: .secondarySystemGroupedBackground))
                     .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                     .padding(.horizontal, 24)
-                    // MARK: - SITUATIONS GRID OR SEARCH RESULTS
                     if searchText.isEmpty {
                         LazyVGrid(columns: columns, spacing: 16) {
                             ForEach(EmergencySituation.allCases) { situation in
@@ -107,7 +103,6 @@ struct EmergencyMenuView: View {
                             .padding(.horizontal, 24)
                         }
                     }
-                    // MARK: - Recently Viewed
                     if !RecentlyViewedService.shared.recentTechniques().isEmpty {
                         VStack(alignment: .leading, spacing: 16) {
                             Text("Quick Access", comment: "Recently Viewed Header")
@@ -170,7 +165,6 @@ struct EmergencyMenuView: View {
     }
 }
 
-// MARK: - Search Routing Helper
 struct TriageOptionRoutingView: View {
     let option: TriageOption
     let situationColor: Color

@@ -2,6 +2,7 @@ import Foundation
 import Combine
 import SwiftUI
 
+@MainActor
 class SettingsService: ObservableObject {
     static let shared = SettingsService()
     
@@ -25,14 +26,14 @@ class SettingsService: ObservableObject {
     func resetAllData() {
         // 1. Clear Favorites
         FavoritesService.shared.savedTechniqueIDs.removeAll()
-        UserDefaults.standard.removeObject(forKey: "revive_favorites_v1")
+        FavoritesService.shared.savedArticleIDs.removeAll()
         
         // 2. Clear History
         RecentlyViewedService.shared.clear()
         
         // 3. Reset Settings
         self.isMetric = false
-        // self.hasAcceptedLiability = false // Keep liability accepted to avoid annoying user? Or reset too? Let's keep it.
+
         
         // 4. Force UI Refresh
         objectWillChange.send()

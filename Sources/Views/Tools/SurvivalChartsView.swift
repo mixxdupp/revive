@@ -64,7 +64,6 @@ struct SurvivalChartsView: View {
     }
 }
 
-// MARK: - Hypothermia Data Model
 struct HypothermiaData: Identifiable {
     let id = UUID()
     let waterTemp: Double // Fahrenheit
@@ -72,7 +71,6 @@ struct HypothermiaData: Identifiable {
     let condition: String
 }
 
-// MARK: - Water Data Model
 struct WaterData: Identifiable {
     let id = UUID()
     let activityLevel: String
@@ -80,7 +78,6 @@ struct WaterData: Identifiable {
     let liters: Double
 }
 
-// MARK: - Hypothermia Chart View
 struct HypothermiaChartView: View {
     let data: [HypothermiaData] = [
         .init(waterTemp: 32.5, survivalTime: 0.25, condition: "Freezing"),
@@ -168,7 +165,6 @@ struct HypothermiaChartView: View {
     }
 }
 
-// MARK: - Water Needs Chart View
 struct WaterNeedsChartView: View {
     let data: [WaterData] = [
         // Rest

@@ -1,6 +1,5 @@
 import Foundation
 
-// MARK: - Context-Aware Question Stems (View-Layer Only)
 // Deterministic mapping from generic triage prompts to human-centered phrasing.
 // No tree structure, ordering, or destination changes.
 //
@@ -12,7 +11,6 @@ import Foundation
 
 enum QuestionStyler {
     
-    // MARK: - Coverage helper
     /// Returns true if domain keywords match strictly more than half of individual labels.
     /// Prevents a single matching tile from overriding the question for all siblings.
     private static func labelCoverage(_ labels: [String], keywords: [String]) -> Bool {
@@ -196,7 +194,6 @@ enum QuestionStyler {
     }
 }
 
-// MARK: - TriageNode Presentation Extension
 
 extension TriageNode {
     /// Context-aware question for display. Maps generic prompts to human-centered phrasing.

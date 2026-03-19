@@ -83,7 +83,6 @@ struct InventoryView: View {
     }
 }
 
-// MARK: - Custom Empty State
 struct InventoryEmptyState: View {
     let title: LocalizedStringKey
     let icon: String

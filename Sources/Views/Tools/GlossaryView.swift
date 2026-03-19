@@ -80,7 +80,6 @@ struct GlossaryView: View {
         .navigationBarHidden(true)
     }
     
-    // MARK: - Search Bar
     
     private var searchBar: some View {
         HStack(spacing: 10) {
@@ -116,7 +115,6 @@ struct GlossaryView: View {
         .padding(.horizontal, 20)
     }
     
-    // MARK: - Section Header
     
     private func sectionHeader(_ letter: String) -> some View {
         HStack {
@@ -143,7 +141,6 @@ struct GlossaryView: View {
         )
     }
     
-    // MARK: - Term Card
     
     private func termCard(_ item: GlossaryTerm) -> some View {
         let isExpanded = expandedTermID == item.id
@@ -203,7 +200,6 @@ struct GlossaryView: View {
         .accessibilityHint(isExpanded ? "Collapse definition" : "Expand to see definition")
     }
     
-    // MARK: - Header Bar
     
     private var headerBar: some View {
         HStack {
@@ -242,7 +238,6 @@ struct GlossaryView: View {
         )
     }
     
-    // MARK: - Helpers
     
     /// Returns an accent color based on the term's domain category
     private func accentColor(for term: String) -> Color {

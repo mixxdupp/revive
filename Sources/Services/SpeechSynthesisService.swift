@@ -16,7 +16,6 @@ class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDel
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio, options: .duckOthers)
             try AVAudioSession.sharedInstance().setActive(true)
         } catch {
-            print("Failed to set audio session for TTS: \(error)")
         }
         
     }
@@ -43,7 +42,6 @@ class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDel
         synthesizer.stopSpeaking(at: .immediate)
     }
     
-    // MARK: - AVSpeechSynthesizerDelegate
     
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didStart utterance: AVSpeechUtterance) {
         DispatchQueue.main.async { [weak self] in
@@ -63,7 +61,6 @@ class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDel
         }
     }
     
-    // MARK: - Voice Selection
     
     /// Finds the highest quality English voice available on the device.
     /// Priority: Premium > Enhanced > Default
@@ -75,24 +72,20 @@ class SpeechSynthesisService: NSObject, ObservableObject, AVSpeechSynthesizerDel
         
         // 1. Explicitly look for "Siri" voices (often have 'siri' in identifier but might not be marked premium in sim)
         if let siri = englishVoices.first(where: { $0.identifier.lowercased().contains("siri") }) {
-            print("TTS: Found Siri voice: \(siri.name)")
             return siri
         }
         
         // 2. Try to find a Premium voice
         if let premium = englishVoices.first(where: { $0.quality == .premium }) {
-            print("TTS: Using Premium voice: \(premium.name)")
             return premium
         }
         
         // 3. Try Enhanced
         if let enhanced = englishVoices.first(where: { $0.quality == .enhanced }) {
-            print("TTS: Using Enhanced voice: \(enhanced.name)")
             return enhanced
         }
         
         // 4. Fallback to standard en-US
-        print("TTS: Using Default voice")
         return AVSpeechSynthesisVoice(language: "en-US")
     }
 }

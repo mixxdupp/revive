@@ -26,7 +26,6 @@ struct HomeView: View {
             ScrollView(showsIndicators: false) {
                 VStack(alignment: .leading, spacing: 24) {
                     
-                    // MARK: - Header (SF Pro Display)
                     VStack(alignment: .leading, spacing: 6) {
                         Text(dateString)
                             .font(.system(size: 14, weight: .bold))
@@ -44,10 +43,8 @@ struct HomeView: View {
                     .accessibilityElement(children: .combine)
                     .accessibilityLabel("Revive, \(dateString)")
                     
-                    // MARK: - Emergency Warning
                     EmergencyWarningBanner()
                     
-                    // MARK: - Hero: Triage (Red Gradient Card)
                     NavigationLink(destination: EmergencyMenuView()) {
                         HStack(alignment: .top) {
                             VStack(alignment: .leading, spacing: 8) {
@@ -88,7 +85,6 @@ struct HomeView: View {
                     .accessibilityLabel("Emergency Guide, Start Decision Engine")
                     .accessibilityAddTraits(.isButton)
                     
-                    // MARK: - Features Grid
                     LazyVGrid(columns: columns, spacing: 16) {
                         NavigationLink(destination: GuideMainView()) {
                             FeatureCard(title: "Library", subtitle: "Survival Guide", icon: "book.fill", iconColor: .blue)
@@ -123,7 +119,6 @@ struct HomeView: View {
                     }
                     .padding(.horizontal, 20)
                     
-                    // MARK: - Panic Button (Glassmorphism)
                     Button(action: {
                         NotificationCenter.default.post(name: .triggerPanic, object: nil)
                     }) {
@@ -190,7 +185,6 @@ struct HomeView: View {
     }
 }
 
-// MARK: - Reusable Feature Card
 struct FeatureCard: View {
     let title: LocalizedStringKey
     let subtitle: LocalizedStringKey
